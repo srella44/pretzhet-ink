@@ -1,0 +1,147 @@
+{
+ "id": "TFB25-003",
+ "bloque": "Rondos",
+ "titulo": "El pase que cruza",
+ "formato": "2+2v1",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "5–10 jug.",
+ "espacio": "15 × 10 m",
+ "duracion": "10 min",
+ "series": "4 × 2 min, con un defensor nuevo en cada una.",
+ "objetivo": "Pasar a través de un defensor buscando el hueco y moverse para abrir una línea de pase limpia.",
+ "montaje": "Tres franjas: dos atacantes en cada fondo y un defensor en el pasillo central, del que no puede salir.",
+ "juego": "Los de un fondo mueven el balón (máx. 3 pases) y lo cruzan raso al otro fondo; entonces atacan los otros. Nadie pisa el pasillo. Defensor nuevo cada 90″.",
+ "punto": "Cada pase que cruza, 1 punto. El defensor suma 1 por balón tocado y cambia con quien pasó.",
+ "consigna": "Muévela para abrir el hueco: pase raso y fuerte.",
+ "variantes": {
+  "facil": "Pasillo de 3 m y toques libres.",
+  "dificil": "Pasillo más ancho, un segundo defensor o recibir a un toque."
+ },
+ "adaptacion": "Prebenjamín: dos toques en el fondo que recibe; el pase alto no cuenta. Benjamín: máximo tres pases y pasillo de 5 m.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo de pasillo 2+2 contra 1: el pase que cruza",
+  "ref": "25 rondos para fútbol base · pág. 12"
+ },
+ "diagrama": {
+  "field": [
+   15,
+   10
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     5,
+     0,
+     10,
+     10
+    ]
+   }
+  ],
+  "cones": [
+   [
+    5,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    10,
+    10
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     2.6
+    ],
+    "b": [
+     2.4,
+     7.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     7.5,
+     4.6
+    ],
+    "b": [
+     7.5,
+     2.9
+    ],
+    "k": "run",
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     2.4,
+     7.4
+    ],
+    "b": [
+     12.6,
+     7.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.4,
+    "y": 2.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.4,
+    "y": 7.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.6,
+    "y": 2.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12.6,
+    "y": 7.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 4.6,
+    "f": [
+     2.4,
+     2.6
+    ]
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    9.3,
+    "PASILLO"
+   ]
+  ]
+ },
+ "top": ""
+}

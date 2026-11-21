@@ -1,0 +1,14 @@
+
+body.web { width: 150mm; height: auto; background:#f6f2ea; padding: 6mm; overflow: visible }
+.wcard { background:#fff; border-radius: 3mm; overflow:hidden; box-shadow: 0 0 0 .3mm rgba(20,33,61,.12) }
+.wcard header { height: 11mm; display:flex; align-items:center; gap: 3mm; padding-right: 4mm; border-bottom: .8mm solid BC }
+.wcard .num { width:auto; padding: 0 3mm; height: 11mm; font-family: Inter; font-weight: 800; font-size: 7pt; letter-spacing: .6pt; text-transform: uppercase }
+.wcard h2 { font-family: Anton; font-weight: 400; font-size: 17pt; text-transform: uppercase; line-height: 1 }
+.wcard .dia { aspect-ratio: 468 / 170; height: auto; position: relative; line-height: 0 } .wcard .dia svg { width:100%; height:100% }
+.wcard .strip span { height: 8mm; font-size: 8.5pt }
+.wtxt { padding: 4mm 5mm 5mm; font-size: 9pt; line-height: 1.42; color:#1d2a45 }
+.wtxt h3 { font-size: 7pt; font-weight: 800; letter-spacing: .7pt; text-transform: uppercase; color:#14213d; margin: 2.6mm 0 .6mm }
+.wtxt .obj { font-weight: 600; font-style: italic; color:#14213d; border-left: 1mm solid BC; padding-left: 2.5mm }
+.wtxt .cons { margin: 3mm 0 } .wtxt .cons em { font-size: 9.4pt }
+.vars { display:grid; grid-template-columns: 1fr 1fr; gap: 4mm; background:#f6f2ea; border-radius: 2mm; padding: 1mm 3mm 2.5mm; margin: 2mm 0 }
+.meta { font-size: 8pt; margin-top: 1.4mm } .src { font-size: 7pt; color:#8a93a6; margin-top: 3mm; border-top: .25mm solid #e2dacb; padding-top: 2mm }

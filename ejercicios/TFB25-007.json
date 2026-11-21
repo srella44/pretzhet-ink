@@ -1,0 +1,150 @@
+{
+ "id": "TFB25-007",
+ "bloque": "Rondos",
+ "titulo": "Rondo semáforo",
+ "formato": "5v2",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "7–14 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "3 × 3 min, 1 min de descanso; 4 o 5 cambios de color por serie.",
+ "objetivo": "Adaptar la forma de jugar a una condición que cambia sin aviso: atención y pase a uno y dos toques.",
+ "montaje": "Cinco atacantes por fuera, dos defensores dentro y el entrenador fuera con un cono de color.",
+ "juego": "Verde, toques libres; amarillo, 2 toques; rojo, 1 toque. El color cambia sin parar el juego y pasarse de toques es pérdida. Quien pierde entra por el defensor que más lleva.",
+ "punto": "1 punto cada 8 pases seguidos; con rojo, cada 5.",
+ "consigna": "¡Mira el color! Antes de recibir, ya sabes a quién.",
+ "variantes": {
+  "facil": "Solo verde y amarillo, o cuadrado de 14 × 14 m.",
+  "dificil": "Color azul: pase con la pierna menos hábil; cambios más rápidos."
+ },
+ "adaptacion": "Benjamín: solo verde y amarillo las primeras semanas. Alevín: añade el rojo y después el azul.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo semáforo 5 contra 2: el color manda los toques",
+  "ref": "25 rondos para fútbol base · pág. 16"
+ },
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.0,
+   "xmax": 15.6,
+   "ymin": -2.0,
+   "ymax": 14.0
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    12,
+    12
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.0,
+     -0.9
+    ],
+    "b": [
+     12.9,
+     4.0
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     12.9,
+     4.0
+    ],
+    "b": [
+     8.6,
+     12.9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.0,
+    "y": -0.9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.9,
+    "y": 4.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8.6,
+    "y": 12.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 2.6,
+    "y": 12.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 5.0,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7.4,
+    "y": 3.6,
+    "f": [
+     6.0,
+     -0.9
+    ]
+   },
+   {
+    "r": "D",
+    "x": 5.0,
+    "y": 7.4,
+    "f": [
+     12.9,
+     4.0
+    ]
+   }
+  ],
+  "lights": [
+   [
+    14.6,
+    7.6
+   ]
+  ],
+  "labels": [
+   [
+    14.6,
+    11.0,
+    "LIBRE · 2 · 1"
+   ]
+  ]
+ },
+ "top": "Semáforo: la regla de toques cambia sin aviso y obliga a atender antes de recibir."
+}

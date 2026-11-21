@@ -1,0 +1,153 @@
+{
+ "id": "TFB100-021",
+ "bloque": "Rondos",
+ "titulo": "Recibe, conduce y pasa",
+ "formato": "4v1",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "5–10 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "5 × 2 min, 1 min de descanso; todos defienden al menos una vez.",
+ "objetivo": "Primeros pases en un rondo: recibir, llevar el balón a un sitio libre y pasar cuando el defensor no tapa.",
+ "montaje": "Cuadrado de 12 × 12 m: un atacante en cada lado, por fuera, y un defensor dentro.",
+ "juego": "Quien recibe puede conducir por su lado hasta ver hueco y pasar a cualquiera, menos al que le acaba de pasar. Si el defensor toca, cambia con el que perdió; balón fuera cuenta como toque.",
+ "punto": "3 pases seguidos sin que toque el defensor, 1 punto; cada toque, 1 punto para el defensor.",
+ "consigna": "Lleva el balón a un sitio libre y pasa por donde no está el defensor.",
+ "variantes": {
+  "facil": "Cuadrado de 15 m o el defensor solo puede andar.",
+  "dificil": "Solo tres pasos de conducción o pase a un compañero que no esté al lado."
+ },
+ "adaptacion": "Prebenjamín: conducción libre y cuadrado de 12–14 m. Benjamín: tres pasos de conducción y cuadrado de 10 m; al final, sin conducir.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 4 contra 1 para prebenjamines: recibe, conduce y pasa",
+  "ref": "100 tareas de fútbol base · pág. 75"
+ },
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.0,
+   "xmax": 14.0,
+   "ymin": -2.2,
+   "ymax": 14.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    12,
+    12
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.9,
+     6.4
+    ],
+    "b": [
+     4.4,
+     -0.9
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     4.4,
+     -0.9
+    ],
+    "b": [
+     9.6,
+     -0.9
+    ],
+    "k": "cond",
+    "n": 2,
+    "s0": 14,
+    "s1": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     9.4,
+     -0.9
+    ],
+    "b": [
+     7.6,
+     12.9
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 6,
+    "s1": 15,
+    "side": -1
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 6.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.4,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12.9,
+    "y": 6.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.6,
+    "y": 12.9,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5.6,
+    "y": 4.6,
+    "f": [
+     4.4,
+     -0.9
+    ]
+   }
+  ],
+  "labels": [
+   [
+    13.6,
+    0.2,
+    "CONDUCE",
+    "start"
+   ],
+   [
+    13.6,
+    1.2,
+    "POR SU LADO",
+    "start"
+   ]
+  ]
+ },
+ "top": ""
+}

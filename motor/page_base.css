@@ -1,0 +1,46 @@
+
+@page { size: A4; margin: 0 }
+* { box-sizing: border-box; margin: 0; padding: 0 }
+html, body { width: 210mm; height: 297mm }
+body { font-family: Inter, sans-serif; color: #14213d; background: #f6f2ea; -webkit-print-color-adjust: exact; print-color-adjust: exact; position: relative; overflow: hidden }
+.top { position: absolute; left: 0; right: 0; top: 0; height: 23mm; background: #14213d; color: #fff; overflow: hidden }
+.top .logo { position: absolute; left: 0; top: 0; width: 40mm; height: 23mm; background: #fff; display: flex; align-items: center; justify-content: center }
+.top .logo img { width: 30mm }
+.top h1 { position: absolute; left: 48mm; top: 2.2mm; font-family: Anton; font-weight: 400; font-size: 38pt; letter-spacing: .5pt; line-height: 1 }
+.top h1::after { content: ""; display: block; width: 20mm; height: 1.4mm; background: BC; margin-top: 1.2mm }
+.top .kick { position: absolute; left: 112mm; top: 5.2mm; width: 82mm; font-size: 8.6pt; line-height: 1.35; font-weight: 500; color: #dfe5f0 }
+.top .kick b { display: block; color: BC; font-weight: 800; font-size: 10pt; margin-bottom: .6mm }
+.top .pitch { position: absolute; right: -14mm; top: -10mm; width: 60mm; height: 60mm; border: .5mm solid rgba(255,255,255,.07); border-radius: 50% }
+.dash { position: absolute; top: 23mm; left: 0; right: 0; height: 1.6mm; background: repeating-linear-gradient(90deg, BC 0 9mm, transparent 9mm 12mm) }
+.grid { position: absolute; left: 8.5mm; right: 8.5mm; top: 27.4mm; bottom: 17.4mm; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr 1fr; gap: 3.2mm 4.4mm }
+.card { background: #fff; border-radius: 2.4mm; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 .35mm 0 rgba(20,33,61,.13), 0 0 0 .25mm rgba(20,33,61,.10) }
+.card header { border-bottom: .8mm solid BC;  height: 8.6mm; display: flex; align-items: center; gap: 2.2mm; padding-right: 3mm; flex: none }
+.num { width: 9.6mm; height: 8.6mm; background: BC; color: BT; font-family: Anton; font-size: 17pt; display: flex; align-items: center; justify-content: center; flex: none }
+.card h2 { font-family: Anton; font-weight: 400; font-size: 12.4pt; text-transform: uppercase; letter-spacing: 0; white-space: nowrap; line-height: 1 }
+.fmt { background: #14213d; color: BC; font-weight: 800; font-size: 8.4pt; padding: .7mm 1.8mm; border-radius: 1.2mm; flex: none }
+.code { position: absolute; right: 2mm; top: 1.8mm; line-height: 1; font-weight: 800; font-size: 6.2pt; letter-spacing: .5pt; color: #fff; background: rgba(10,20,35,.72); border: .2mm solid rgba(255,255,255,.45); padding: .7mm 1.6mm; border-radius: 3mm }
+.dia { height: 34mm; flex: none; line-height: 0; position: relative }
+.dia svg { width: 100%; height: 100% }
+.strip { display: grid; grid-template-columns: 1fr 1.08fr 1.15fr 1.05fr; background: #f1ece2; border-bottom: .25mm solid #e2dacb; flex: none }
+.strip span { display: flex; align-items: center; justify-content: center; gap: 1.2mm; height: 6mm; font-size: 7.4pt; font-weight: 700; border-right: .25mm solid #e2dacb; white-space: nowrap }
+.strip span:last-child { border-right: 0 }
+.strip svg { width: 3mm; height: 3mm; color: #14213d }
+.pips { display: inline-flex; gap: .5mm } .pips i { width: 1.3mm; height: 2.8mm; border-radius: .4mm; background: #d6cfc1 }
+.pips i.on { background: #1f9d55 }
+.txt { padding: 1.6mm 3mm 1.9mm; font-size: 7.3pt; line-height: 1.3; font-weight: 500; color: #1d2a45; flex: 1; display: flex; flex-direction: column; gap: .55mm }
+.k { display: inline-block; font-size: 6.2pt; font-weight: 800; letter-spacing: .5pt; text-transform: uppercase; color: #14213d; margin-right: 1.3mm; background: #ece6da; padding: .1mm 1mm; border-radius: .7mm; vertical-align: .2mm }
+.pt mark { background: linear-gradient(transparent 62%, rgba(240,83,63,.28) 62%); color: #14213d; font-weight: 700 }
+.cons { margin-top: auto; display: flex; align-items: flex-start; gap: 1.6mm }
+.chip { background: #f0533f; color: #fff; font-size: 6.2pt; font-weight: 800; letter-spacing: .7pt; padding: .45mm 1.5mm; border-radius: .7mm; flex: none; margin-top: .2mm }
+.cons em { font-weight: 800; font-style: italic; color: #14213d; font-size: 7.6pt }
+.legend { position: absolute; left: 8.5mm; right: 8.5mm; bottom: 7.6mm; height: 8mm; background: #14213d; border-radius: 1.8mm; display: flex; align-items: center; justify-content: space-evenly; color: #fff; font-size: 6.9pt; font-weight: 700 }
+.legend span { display: flex; align-items: center; gap: 1.1mm; white-space: nowrap }
+.lp { width: 5.4mm; height: 3.5mm } .li { width: 3.2mm; height: 3.2mm } .la { width: 6.4mm; height: 2.2mm }
+.foot { position: absolute; left: 8.5mm; right: 8.5mm; bottom: 2.4mm; display: flex; justify-content: space-between; align-items: baseline; font-size: 6.6pt; font-weight: 800; letter-spacing: .9pt; color: #8a93a6 }
+.foot .pg { font-family: Anton; font-size: 11pt; color: #14213d; letter-spacing: 0 }
+
+.legend .lp { display:inline-block; width: 4.6mm; height: 2.8mm; border-radius: 50%; border: .35mm solid #0b1b4a }
+.lp.a { background:#f7c51e; border-color:#3a2a00 } .lp.b { background:#e2453c; border-color:#4a0d0a } .lp.d { background:#2f5bd6 } .lp.c { background:#f4f4f4; border-color:#333 }
+
+.topb { margin-left: auto; flex: none; font-weight: 800; font-size: 7pt; letter-spacing: .8pt; color: #14213d; background: linear-gradient(135deg,#ffd76a,#f5b301); padding: .6mm 1.8mm .6mm 1.4mm; border-radius: 1mm; box-shadow: 0 0 0 .25mm #b98500 inset }
+.topb::before { content: '★ ' }

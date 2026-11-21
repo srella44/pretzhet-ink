@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prètzhèt Ink · Banco de ejercicios</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,wght@0,500;0,600;0,700;0,800;1,600;1,800&display=swap" rel="stylesheet">
+<style>
+:root { --navy:#14213d; --coral:#f0533f; --paper:#f6f2ea; --line:#e2dacb; --muted:#5b6475 }
+* { box-sizing: border-box }
+body { margin:0; background:var(--paper); color:var(--navy); font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif }
+button, input, select { font-family: inherit }
+.top { position: sticky; top: 0; z-index: 5; background: var(--navy); color:#fff; padding: 12px 16px 10px; box-shadow: 0 2px 10px rgba(0,0,0,.2) }
+.row1 { display:flex; align-items:center; gap:14px; flex-wrap:wrap }
+.brand { font-family: Anton, Impact, sans-serif; font-size: 26px; letter-spacing: .5px; line-height: 1 }
+.brand small { display:block; font-family: Inter, sans-serif; font-size: 11px; letter-spacing: .4px; color:#aab4c8; font-weight: 600; margin-top: 3px }
+.search { flex: 1; min-width: 200px; position: relative }
+.search input { width:100%; border:0; border-radius: 9px; padding: 10px 12px 10px 34px; font-size: 14px; background:#fff; color: var(--navy) }
+.search svg { position:absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color:#8a93a6 }
+.count { font-size: 13px; font-weight: 700; color:#dfe5f0; white-space: nowrap }
+.btn-f { border:0; background: rgba(255,255,255,.12); color:#fff; font-weight: 700; font-size: 13px; padding: 9px 12px; border-radius: 9px; cursor:pointer }
+.btn-f b { background: var(--coral); border-radius: 99px; padding: 1px 7px; margin-left: 4px; font-size: 11px }
+.blocks { display:flex; gap: 6px; overflow-x: auto; padding: 10px 0 2px; scrollbar-width: thin }
+.bchip { flex:none; border: 0; cursor: pointer; font-weight: 700; font-size: 12.5px; padding: 6px 11px; border-radius: 99px; background: rgba(255,255,255,.1); color:#fff; display:flex; align-items:center; gap:6px }
+.bchip i { width: 10px; height: 10px; border-radius: 50%; display:inline-block }
+.bchip.on { background: var(--c); color: var(--k) }
+.bchip.on i { background: var(--k) !important; opacity: .35 }
+.bchip span { opacity: .7; font-weight: 600 }
+.panel { background:#fff; border-bottom: 1px solid var(--line); padding: 12px 16px; display: none; gap: 18px 26px; flex-wrap: wrap }
+.panel.open { display:flex }
+.grp h4 { margin: 0 0 6px; font-size: 10.5px; letter-spacing: .8px; text-transform: uppercase; color: var(--muted) }
+.grp .opts { display:flex; gap:6px; flex-wrap: wrap }
+.opt { border: 1px solid var(--line); background:#fff; color: var(--navy); font-weight: 700; font-size: 12.5px; padding: 6px 10px; border-radius: 8px; cursor:pointer }
+.opt.on { background: var(--navy); color:#fff; border-color: var(--navy) }
+.grp select { border: 1px solid var(--line); border-radius: 8px; padding: 7px 8px; font-size: 13px; font-weight: 600; color: var(--navy); background:#fff; max-width: 240px }
+.toggle { display:flex; align-items:center; gap:8px; font-size: 13px; font-weight: 600; cursor:pointer; margin: 4px 0 }
+.toggle input { width: 16px; height: 16px; accent-color: var(--navy) }
+.clear { border:0; background:none; color: var(--coral); font-weight: 800; font-size: 13px; cursor:pointer; align-self: flex-end; padding: 6px 0 }
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); gap: 14px; padding: 14px 16px 20px }
+.card { all: unset; cursor: pointer; background:#fff; border-radius: 11px; overflow:hidden; box-shadow: 0 1px 0 rgba(20,33,61,.1), 0 0 0 1px rgba(20,33,61,.07); display:flex; flex-direction: column; transition: transform .12s, box-shadow .12s }
+.card:hover, .card:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(20,33,61,.18), 0 0 0 2px var(--c) }
+.thumb { aspect-ratio: 16/10; line-height: 0; overflow:hidden; position: relative }
+.thumb svg { width:100%; height:100% }
+.ph { width:100%; height:100%; background: repeating-linear-gradient(90deg, #2f7a4e 0 22px, #2b7148 22px 44px); display:flex; flex-direction: column; align-items:center; justify-content:center; gap: 8px; line-height: 1.1 }
+.ph .fx { font-family: Anton, Impact, sans-serif; font-size: 34px; color: #fff; text-shadow: 0 2px 0 rgba(0,0,0,.15) }
+.ph .bk { width: 54%; height: 46%; border: 2px solid rgba(255,255,255,.75); border-radius: 2px; position:absolute }
+.ph small { font-size: 10px; font-weight: 700; letter-spacing: .6px; color: rgba(255,255,255,.8); text-transform: uppercase; position: absolute; bottom: 8px }
+.flag { position:absolute; top: 8px; left: 8px; font-size: 10px; font-weight: 800; letter-spacing: .4px; padding: 3px 7px; border-radius: 99px; background: rgba(10,20,35,.75); color: #fff; line-height: 1.2 }
+.flag.book { background: var(--c); color: var(--k) }
+.flag.tp { background: linear-gradient(135deg,#ffd76a,#f5b301); color: #14213d }
+.badge.tp { background: linear-gradient(135deg,#ffd76a,#f5b301); color: #14213d }
+.tpw { background: #fff7d6; border-radius: 8px; padding: 8px 10px; margin: 0 0 10px !important; font-size: 13.5px }
+.badge.pr { background:#e3f4e8; color:#1f6f3d }
+.flag.pr { left:auto; right:8px; background:#e3f4e8; color:#1f6f3d }
+.flag.rv { left: auto; right: 8px; background: #fff1cc; color: #7a5a00 }
+.cb { padding: 9px 11px 11px; border-top: 4px solid var(--c); display:flex; flex-direction: column; gap: 6px; flex: 1 }
+.ct { display:flex; align-items: flex-start; gap: 8px; justify-content: space-between }
+.ct h3 { font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 16px; text-transform: uppercase; margin:0; line-height: 1.08; display:-webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden }
+.fmt { background: var(--navy); color: var(--c); font-weight: 800; font-size: 11px; padding: 2px 7px; border-radius: 5px; flex: none; margin-top: 1px }
+.meta { display:flex; gap: 9px; font-size: 11.5px; font-weight: 600; color: var(--muted); flex-wrap: wrap; align-items:center }
+.pips { display:inline-flex; gap: 2px; margin-right: 3px; vertical-align: -1px } .pips i { width: 4px; height: 10px; border-radius: 1px; background: #d6cfc1 } .pips i.on { background:#1f9d55 }
+.src { font-size: 10.5px; color: #8a93a6; font-weight: 600; margin-top: auto }
+.more { display:block; margin: 0 auto 30px; border:0; background: var(--navy); color:#fff; font-weight: 800; padding: 11px 20px; border-radius: 10px; cursor:pointer }
+.empty { text-align:center; padding: 60px 20px; color: var(--muted); font-weight: 600 }
+.modal { position: fixed; inset: 0; background: rgba(10,18,35,.62); display:none; align-items: flex-start; justify-content: center; overflow:auto; padding: 22px 10px; z-index: 10 }
+.modal.open { display:flex }
+.sheet { position: relative; width: min(680px, 100%) }
+.close { position:absolute; top:-10px; right:-6px; width: 36px; height: 36px; border-radius: 50%; border:0; background:#fff; color: var(--navy); font-size: 21px; font-weight: 800; cursor:pointer; box-shadow: 0 2px 8px rgba(0,0,0,.25); z-index: 2 }
+.f { background:#fff; border-radius: 12px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,.35) }
+.fh { display:flex; align-items: center; gap: 12px; padding-right: 14px; border-bottom: 4px solid var(--c); min-height: 50px }
+.fh .bl { align-self: stretch; display:flex; align-items:center; padding: 0 12px; background: var(--c); color: var(--k); font-weight: 800; font-size: 10.5px; letter-spacing: .7px; text-transform: uppercase; max-width: 130px; line-height: 1.15 }
+.fh h2 { font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 23px; text-transform: uppercase; margin: 8px 0; line-height: 1.05; flex: 1 }
+.fdia { aspect-ratio: 468/170; line-height: 0; position: relative }
+.fdia svg { width: 100%; height: 100% }
+.fdia .code { position:absolute; right: 10px; top: 9px; font-size: 11px; font-weight: 800; color:#fff; background: rgba(10,20,35,.72); padding: 3px 8px; border-radius: 99px; line-height: 1.2 }
+.strip { display:grid; grid-template-columns: repeat(4, 1fr); background:#f1ece2; border-bottom: 1px solid var(--line) }
+.strip span { display:flex; align-items:center; justify-content:center; gap: 6px; padding: 9px 4px; font-size: 13px; font-weight: 700; border-right: 1px solid var(--line); text-align: center }
+.strip span:last-child { border-right: 0 }
+.strip svg { width: 14px; height: 14px; flex: none }
+.fb { padding: 14px 18px 18px; font-size: 14.5px; line-height: 1.5; color: #1d2a45 }
+.fb h5 { margin: 12px 0 3px; font-size: 11px; letter-spacing: .8px; text-transform: uppercase; color: var(--navy) }
+.fb p { margin: 0 }
+.obj { font-weight: 600; font-style: italic; color: var(--navy); border-left: 4px solid var(--c); padding-left: 10px; margin-bottom: 4px !important }
+mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); color: var(--navy); font-weight: 700 }
+.cons { display:flex; gap: 8px; align-items:flex-start; margin: 14px 0 6px !important }
+.chip { background: var(--coral); color:#fff; font-size: 10px; font-weight: 800; letter-spacing: .7px; padding: 3px 7px; border-radius: 4px; flex: none; margin-top: 2px }
+.cons em { font-weight: 800; color: var(--navy); font-size: 15px }
+.vars { display:grid; grid-template-columns: 1fr 1fr; gap: 14px; background: var(--paper); border-radius: 9px; padding: 4px 12px 10px; margin: 10px 0 }
+.badges { display:flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px }
+.badge { font-size: 11px; font-weight: 800; padding: 4px 8px; border-radius: 6px; background: var(--paper) }
+.badge.book { background: var(--c); color: var(--k) }
+.badge.rv { background:#fff1cc; color:#7a5a00 }
+.fsrc { font-size: 12px; color: #8a93a6; border-top: 1px solid var(--line); margin-top: 14px; padding-top: 10px }
+.nav { display:flex; justify-content: space-between; margin-top: 10px }
+.nav button { border:0; background:#fff; color: var(--navy); font-weight: 800; font-size: 13px; padding: 9px 14px; border-radius: 9px; cursor: pointer }
+@media (max-width: 560px) { .vars { grid-template-columns: 1fr } .strip { grid-template-columns: 1fr 1fr } .strip span:nth-child(2) { border-right: 0 } .brand { font-size: 22px } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="row1">
+    <div class="brand">PRÈTZHÈT INK<small>BANCO DE EJERCICIOS</small></div>
+    <label class="search"><svg viewBox="0 0 16 16"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="Buscar: rondo, 3v2, pared, portero…" autocomplete="off"></label>
+    <button class="btn-f" id="tgl">Filtros <b id="nf" hidden>0</b></button>
+    <span class="count" id="cnt"></span>
+  </div>
+  <div class="blocks" id="blocks"></div>
+</header>
+<section class="panel" id="panel">
+  <div class="grp"><h4>Edad</h4><div class="opts" id="f-age"></div></div>
+  <div class="grp"><h4>Nivel</h4><div class="opts" id="f-lvl"></div></div>
+  <div class="grp"><h4>Jugadores</h4><div class="opts" id="f-pl"></div></div>
+  <div class="grp"><h4>Fuente</h4><select id="f-src"><option value="">Todas</option></select></div>
+  <div class="grp"><h4>Mostrar</h4>
+    <label class="toggle"><input type="checkbox" id="t-tp"> Solo TOP ★</label>
+    <label class="toggle"><input type="checkbox" id="t-pr"> Solo probados en campo ✓</label>
+    <label class="toggle"><input type="checkbox" id="t-book"> Solo los del libro (1.000)</label>
+    <label class="toggle"><input type="checkbox" id="t-dg"> Solo con diagrama dibujado</label>
+    <label class="toggle"><input type="checkbox" id="t-rv"> Incluir los marcados «a revisar»</label></div>
+  <div class="grp"><h4>Orden</h4><select id="f-ord"><option value="sc">Mejor puntuados</option><option value="bl">Por bloque</option><option value="az">Alfabético</option><option value="age">Por edad</option></select></div>
+  <button class="clear" id="clr">Quitar filtros</button>
+</section>
+<main class="grid" id="grid"></main>
+<div class="empty" id="empty" hidden>No hay ejercicios con estos filtros.</div>
+<button class="more" id="more" hidden>Ver más</button>
+<div class="modal" id="m" role="dialog" aria-modal="true"><div class="sheet"><button class="close" id="x" aria-label="Cerrar">×</button><div id="slot"></div>
+<div class="nav"><button id="prev">← Anterior</button><button id="next">Siguiente →</button></div></div></div>
+<script>
+const DATA = /*DATA*/null;
+const B = DATA.blocks, R = DATA.recs, SVG = DATA.svg;
+const AGES = [['Prebenjamín',6,7],['Benjamín',8,9],['Alevín',10,11],['Infantil',12,13],['Cadete',14,15],['Juvenil',16,18],['Sin indicar']];
+const LV = ['Fácil','Normal','Medio','Alto'];
+const SHORT = ['Calentar','Técnica','Rondo','Posesión','Superior.','Oleada','Finalizar','Defensa','Partido','ABP','Portero','Calma'];
+const PL = [['Hasta 6',0,6],['7–10',7,10],['11–14',11,14],['15 o más',15,99],['Sin indicar']];
+const st = { b:new Set(), a:new Set(), l:new Set(), p:new Set(), src:'', q:'', book:false, dg:false, rv:false, tp:false, pr:false, ord:'sc' };
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fold = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+R.forEach(r => { r._q = fold([r.t, r.f, r.s, r.i, B[r.b].n, ...Object.values(r.x)].join(' ')); });
+let store = {}; try { store = JSON.parse(localStorage.getItem('pi-filtros') || '{}'); } catch(e) {}
+
+function blockChips(counts) {
+  $('#blocks').innerHTML = B.map((b, i) => `<button class="bchip ${st.b.has(i)?'on':''}" data-i="${i}" style="--c:${b.c};--k:${b.k}"><i style="background:${b.c}"></i>${esc(b.n)} <span>${counts[i]||0}</span></button>`).join('');
+  document.querySelectorAll('.bchip').forEach(el => el.onclick = () => { const i=+el.dataset.i; st.b.has(i)?st.b.delete(i):st.b.add(i); apply(); });
+}
+function opts(id, list, set) {
+  $(id).innerHTML = list.map((o, i) => `<button class="opt ${set.has(i)?'on':''}" data-i="${i}">${esc(Array.isArray(o)?o[0]:o)}</button>`).join('');
+  $(id).querySelectorAll('.opt').forEach(el => el.onclick = () => { const i=+el.dataset.i; set.has(i)?set.delete(i):set.add(i); apply(); });
+}
+const srcs = [...new Set(R.map(r => r.s))].sort((a,b)=>a.localeCompare(b,'es'));
+$('#f-src').innerHTML += srcs.map(s => `<option>${esc(s)}</option>`).join('');
+
+function match(r, skipBlock) {
+  if (!st.rv && r.rv) return false;
+  if (st.book && !r.lb) return false;
+  if (st.tp && !r.tp) return false;
+  if (st.pr && !r.pr) return false;
+  if (st.dg && !r.dg) return false;
+  if (st.src && r.s !== st.src) return false;
+  if (!skipBlock && st.b.size && !st.b.has(r.b)) return false;
+  if (st.l.size && ![...st.l].some(i => LV[i] === r.n)) return false;
+  if (st.a.size && ![...st.a].some(i => { const a = AGES[i]; if (!a[1]) return !r.a; return r.a && r.a[0] <= a[2] && r.a[1] >= a[1]; })) return false;
+  if (st.p.size && ![...st.p].some(i => { const p = PL[i]; if (p[1] === undefined) return !r.p; return r.p && r.p[0] <= p[2] && r.p[1] >= p[1]; })) return false;
+  if (st.q) { const words = fold(st.q).split(/\s+/).filter(Boolean); if (!words.every(w => r._q.includes(w))) return false; }
+  return true;
+}
+let list = [], shown = 0;
+const SORT = { sc:(a,b)=>(b.tp?1:0)-(a.tp?1:0)||(b.lb?1:0)-(a.lb?1:0)||b.sc-a.sc||(b.dg||0)-(a.dg||0), bl:(a,b)=>a.b-b.b||(b.sc-a.sc), az:(a,b)=>a.t.localeCompare(b.t,'es'), age:(a,b)=>((a.a||[99])[0])-((b.a||[99])[0]) };
+function apply() {
+  const counts = {}; R.forEach(r => { if (match(r, true)) counts[r.b] = (counts[r.b]||0) + 1; });
+  blockChips(counts); opts('#f-age', AGES, st.a); opts('#f-lvl', LV, st.l); opts('#f-pl', PL, st.p);
+  list = R.filter(r => match(r)).sort(SORT[st.ord]);
+  const nf = st.a.size + st.l.size + st.p.size + (st.src?1:0) + (st.book?1:0) + (st.dg?1:0) + (st.rv?1:0) + (st.tp?1:0) + (st.pr?1:0);
+  $('#nf').hidden = !nf; $('#nf').textContent = nf;
+  $('#cnt').textContent = list.length.toLocaleString('es-ES') + ' ejercicios';
+  $('#grid').innerHTML = ''; shown = 0; more();
+  $('#empty').hidden = list.length > 0;
+  try { localStorage.setItem('pi-filtros', JSON.stringify({b:[...st.b],a:[...st.a],l:[...st.l],p:[...st.p],src:st.src,book:st.book,dg:st.dg,rv:st.rv,tp:st.tp,pr:st.pr,ord:st.ord})); } catch(e) {}
+}
+function pips(n) { const k = Math.max(1, LV.indexOf(n) + 1); return `<b class="pips">${[0,1,2,3].map(i=>`<i class="${i<k?'on':''}"></i>`).join('')}</b>`; }
+function ageTxt(r) { return r.a ? (r.a[0] === r.a[1] ? r.a[0] + ' años' : `${r.a[0]}–${r.a[1]} años`) : 'Edad libre'; }
+function plTxt(r) { return r.p ? (r.p[0] === r.p[1] ? r.p[0] + ' jug.' : `${r.p[0]}–${r.p[1]} jug.`) : 'Jug. libre'; }
+function thumb(r) {
+  const b = B[r.b];
+  return SVG[r.i] ? SVG[r.i] : `<div class="ph"><div class="bk"></div><div class="fx">${esc(r.f || SHORT[r.b])}</div><small>Diagrama pendiente</small></div>`;
+}
+function card(r, idx) {
+  const b = B[r.b];
+  return `<button class="card" data-k="${idx}" style="--c:${b.c};--k:${b.k}">
+  <div class="thumb">${thumb(r)}${r.tp?`<span class="flag tp">★ TOP</span>`:''}${r.lb&&!r.tp?`<span class="flag book">LIBRO</span>`:''}${r.rv?`<span class="flag rv">A REVISAR</span>`:''}${r.pr&&!r.rv?`<span class="flag pr">✓ PROBADO</span>`:''}</div>
+  <div class="cb"><div class="ct"><h3>${esc(r.t)}</h3>${r.f?`<span class="fmt">${esc(r.f)}</span>`:''}</div>
+  <div class="meta"><span>${ageTxt(r)}</span><span>${pips(r.n)}${esc(r.n)}</span><span>${plTxt(r)}</span></div>
+  <div class="src">${esc(b.n)} · ${esc(r.s)}</div></div></button>`;
+}
+function more() {
+  const next = list.slice(shown, shown + 60);
+  $('#grid').insertAdjacentHTML('beforeend', next.map((r, j) => card(r, shown + j)).join(''));
+  shown += next.length; $('#more').hidden = shown >= list.length;
+}
+$('#more').onclick = more;
+new IntersectionObserver(e => { if (e[0].isIntersecting && shown < list.length) more(); }, { rootMargin: '600px' }).observe($('#more'));
+$('#grid').addEventListener('click', e => { const c = e.target.closest('.card'); if (c) open(+c.dataset.k); });
+
+const IC = {
+ clock:'<svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 4.6V8l2.4 1.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+ user:'<svg viewBox="0 0 16 16"><circle cx="8" cy="5" r="3" fill="currentColor"/><path d="M2.5 14.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5z" fill="currentColor"/></svg>',
+ area:'<svg viewBox="0 0 16 16"><path d="M2 5V2h3M11 2h3v3M14 11v3h-3M5 14H2v-3" fill="none" stroke="currentColor" stroke-width="1.9"/><rect x="6" y="6" width="4" height="4" fill="currentColor"/></svg>' };
+let cur = 0;
+function sec(h, t, cls) { return t ? `<h5>${h}</h5><p${cls?` class="${cls}"`:''}>${cls==='pt'?`<mark>${esc(t)}</mark>`:esc(t)}</p>` : ''; }
+function full(r) {
+  const b = B[r.b], x = r.x;
+  const cues = x.cues ? x.cues.replace(/»\s*«/g,' · ').replace(/[«»]/g,'').trim() : '';
+  return `<article class="f" style="--c:${b.c};--k:${b.k}">
+  <header class="fh"><span class="bl">${esc(b.n)}</span><h2>${esc(r.t)}</h2>${r.f?`<span class="fmt">${esc(r.f)}</span>`:''}</header>
+  <div class="fdia">${SVG[r.i] || `<div class="ph" style="height:100%"><div class="bk"></div><div class="fx">${esc(r.f || SHORT[r.b])}</div><small>Diagrama pendiente</small></div>`}<span class="code">${esc(r.i)}</span></div>
+  <div class="strip"><span>${IC.clock}${ageTxt(r)}</span><span>${pips(r.n)}${esc(r.n)}</span><span>${IC.user}${plTxt(r)}</span><span>${IC.area}${esc(x.sp || '—')}</span></div>
+  <div class="fb">
+   <div class="badges">${r.tp?`<span class="badge tp">★ TOP</span>`:''}${r.pr?`<span class="badge pr">✓ Probado en campo</span>`:''}${r.lb?`<span class="badge book">En el libro · nº ${r.lb} del bloque</span>`:''}${r.rv?`<span class="badge rv">A revisar: ${esc(r.why)}</span>`:''}${r.ar?`<span class="badge">${esc(r.ar)}</span>`:''}</div>
+   ${r.tp?`<p class="tpw"><b>Por qué es TOP:</b> ${esc(r.tp)}</p>`:''}
+   ${x.obj?`<p class="obj">${esc(x.obj)}</p>`:''}
+   ${x.ctx?sec('Cuándo usarlo', x.ctx):''}
+   ${sec('Montaje', x.mont)}${sec(x.mont?'Juego':'Cómo se juega', x.how)}${sec('Reglas', x.rules)}${sec('Punto', x.pts, 'pt')}
+   ${x.avoid?`<h5>Evitar</h5><p>${esc(x.avoid)}</p>`:''}
+   ${cues?`<p class="cons"><span class="chip">CONSIGNA</span><em>${esc(cues)}</em></p>`:''}
+   ${(x.fac||x.dif)?`<div class="vars"><div><h5>Más fácil</h5><p>${esc(x.fac||'—')}</p></div><div><h5>Más difícil</h5><p>${esc(x.dif||'—')}</p></div></div>`:sec('Variantes', x.var)}
+   ${sec('Duración', x.dur)}${sec('Series', x.ser)}${sec('Por edades', x.adapt)}${sec('Notas', x.notes)}
+   <p class="fsrc">Fuente: ${esc(r.sl)}${r.ot?` · «${esc(r.ot)}»`:''}${r.ref?` · ${esc(r.ref)}`:''}</p>
+  </div></article>`;
+}
+function open(k) { if (!list.length) return; cur = (k + list.length) % list.length; $('#slot').innerHTML = full(list[cur]); $('#m').classList.add('open'); $('#m').scrollTop = 0; }
+function close() { $('#m').classList.remove('open'); }
+$('#x').onclick = close; $('#m').addEventListener('click', e => { if (e.target === $('#m')) close(); });
+$('#prev').onclick = () => open(cur - 1); $('#next').onclick = () => open(cur + 1);
+document.addEventListener('keydown', e => { if (!$('#m').classList.contains('open')) return; if (e.key === 'Escape') close(); if (e.key === 'ArrowRight') open(cur + 1); if (e.key === 'ArrowLeft') open(cur - 1); });
+
+$('#tgl').onclick = () => $('#panel').classList.toggle('open');
+let qt; $('#q').oninput = e => { clearTimeout(qt); qt = setTimeout(() => { st.q = e.target.value.trim(); apply(); }, 180); };
+$('#f-src').onchange = e => { st.src = e.target.value; apply(); };
+$('#f-ord').onchange = e => { st.ord = e.target.value; apply(); };
+['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).onchange = e => { st[k] = e.target.checked; apply(); });
+$('#clr').onclick = () => { st.b.clear(); st.a.clear(); st.l.clear(); st.p.clear(); st.src=''; st.book=st.dg=st.rv=st.tp=st.pr=false; st.q=''; $('#q').value=''; syncInputs(); apply(); };
+function syncInputs() { $('#f-src').value = st.src; $('#f-ord').value = st.ord; ['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).checked = st[k]); }
+if (store.b) { store.b.forEach(i=>st.b.add(i)); (store.a||[]).forEach(i=>st.a.add(i)); (store.l||[]).forEach(i=>st.l.add(i)); (store.p||[]).forEach(i=>st.p.add(i));
+  Object.assign(st, { src: store.src||'', book: !!store.book, dg: !!store.dg, rv: !!store.rv, tp: !!store.tp, pr: !!store.pr, ord: store.ord||'sc' }); }
+syncInputs(); apply();
+</script>
+</body>
+</html>

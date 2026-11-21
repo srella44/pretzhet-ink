@@ -1,0 +1,30 @@
+{
+ "objetivo_libro": {
+  "Calentamiento": 70,
+  "Técnica y duelos": 110,
+  "Rondos": 110,
+  "Posesiones y juego de posición": 120,
+  "Superioridades": 90,
+  "Oleadas y transiciones": 90,
+  "Finalización": 110,
+  "Defensa y presión": 70,
+  "Partidos y situaciones reales": 100,
+  "Balón parado": 40,
+  "Porteros": 60,
+  "Vuelta a la calma": 30
+ },
+ "faltan": {
+  "Calentamiento": 0,
+  "Técnica y duelos": 0,
+  "Rondos": 0,
+  "Posesiones y juego de posición": 0,
+  "Superioridades": 17,
+  "Oleadas y transiciones": 0,
+  "Finalización": 0,
+  "Defensa y presión": 0,
+  "Partidos y situaciones reales": 0,
+  "Balón parado": 0,
+  "Porteros": 0,
+  "Vuelta a la calma": 21
+ }
+}

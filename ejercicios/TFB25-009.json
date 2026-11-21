@@ -1,0 +1,193 @@
+{
+ "id": "TFB25-009",
+ "bloque": "Rondos",
+ "titulo": "El cono libre",
+ "formato": "4v1",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "5–10 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "1 min sin defensor para aprender el movimiento; luego 3 × 3 min.",
+ "objetivo": "Entender que después de pasar hay que moverse para dar una nueva línea de pase.",
+ "montaje": "Cinco conos en pentágono de unos 12 m: cuatro atacantes en cuatro conos, uno libre, y un defensor dentro.",
+ "juego": "Tras pasar, corre al cono libre. Solo se pasa a quien ya está en su cono; máximo 3 toques. El defensor cambia cada 90″ o al tocar el balón.",
+ "punto": "1 punto por vuelta completa: todos han pasado por los cinco conos sin perder.",
+ "consigna": "Pasa y vete: ¿dónde está el cono libre?",
+ "variantes": {
+  "facil": "Toques libres y sin defensor el primer minuto.",
+  "dificil": "Dos toques, o seis conos con cinco atacantes y dos defensores."
+ },
+ "adaptacion": "Benjamín: empieza sin defensor y con toques libres. Alevín: defensor desde el principio y dos toques en la segunda serie.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 4 contra 1 de cinco conos: el que pasa ocupa el cono libre",
+  "ref": "25 rondos para fútbol base · pág. 18"
+ },
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "nofield": true,
+  "extent": {
+   "ymin": -0.6,
+   "ymax": 12.4
+  },
+  "tag": "pentágono 12 m",
+  "cones": [
+   [
+    6.0,
+    0.3
+   ],
+   [
+    11.71,
+    4.45
+   ],
+   [
+    9.53,
+    11.15
+   ],
+   [
+    2.47,
+    11.15
+   ],
+   [
+    0.29,
+    4.45
+   ]
+  ],
+  "lines": [
+   [
+    [
+     6.0,
+     0.3
+    ],
+    [
+     11.71,
+     4.45
+    ],
+    "2 5"
+   ],
+   [
+    [
+     11.71,
+     4.45
+    ],
+    [
+     9.53,
+     11.15
+    ],
+    "2 5"
+   ],
+   [
+    [
+     9.53,
+     11.15
+    ],
+    [
+     2.47,
+     11.15
+    ],
+    "2 5"
+   ],
+   [
+    [
+     2.47,
+     11.15
+    ],
+    [
+     0.29,
+     4.45
+    ],
+    "2 5"
+   ],
+   [
+    [
+     0.29,
+     4.45
+    ],
+    [
+     6.0,
+     0.3
+    ],
+    "2 5"
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.29,
+     4.45
+    ],
+    "b": [
+     11.71,
+     4.45
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     0.29,
+     4.45
+    ],
+    "b": [
+     6.0,
+     0.3
+    ],
+    "k": "run",
+    "n": 2,
+    "s0": 13,
+    "s1": 9,
+    "side": -1
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12.21,
+    "y": 4.45,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.53,
+    "y": 11.65,
+    "f": -110
+   },
+   {
+    "r": "A",
+    "x": 2.47,
+    "y": 11.65,
+    "f": -70
+   },
+   {
+    "r": "A",
+    "x": -0.21000000000000002,
+    "y": 4.45,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 6.8,
+    "y": 7.4,
+    "f": [
+     0.29,
+     4.45
+    ]
+   }
+  ],
+  "labels": [
+   [
+    8.9,
+    0.6,
+    "CONO LIBRE",
+    "start"
+   ]
+  ]
+ },
+ "top": ""
+}

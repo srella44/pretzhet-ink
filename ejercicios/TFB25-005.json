@@ -1,0 +1,178 @@
+{
+ "id": "TFB25-005",
+ "bloque": "Rondos",
+ "titulo": "Los defensores de la mano",
+ "formato": "6v2",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min, una pareja distinta en cada una.",
+ "objetivo": "Conservar ante dos defensores unidos y que estos aprendan a presionar y cubrirse juntos.",
+ "montaje": "Seis atacantes por fuera del cuadrado y dos defensores dentro, cogidos de la mano.",
+ "juego": "Atacantes a 3 toques. Si los defensores se sueltan, el robo no vale. Al robar entran el que perdió y el último que le pasó. Pareja nueva cada 90″.",
+ "punto": "Atacantes, 1 punto cada 10 pases seguidos. Gana la pareja que roba más rápido.",
+ "consigna": "Juega lejos de la pareja. Defensores: uno aprieta, el otro tapa.",
+ "variantes": {
+  "facil": "Toques libres o cuadrado de 16 × 16 m.",
+  "dificil": "Dos toques, o 5 contra 2 con la misma pareja."
+ },
+ "adaptacion": "Benjamín: toques libres, ideal para la parte inicial. Alevín: tres toques y la pareja suma si roba antes de 10 pases.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 6 contra 2 con los defensores de la mano",
+  "ref": "25 rondos para fútbol base · pág. 14"
+ },
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -2.0,
+   "xmax": 16.0,
+   "ymin": -2.0,
+   "ymax": 16.0
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    14,
+    14
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.6,
+     -0.9
+    ],
+    "b": [
+     14.9,
+     7.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "nt": 0.62
+   },
+   {
+    "a": [
+     14.9,
+     7.2
+    ],
+    "b": [
+     10.4,
+     14.9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     6.1,
+     4.4
+    ],
+    "b": [
+     9.6,
+     7.6
+    ],
+    "k": "run",
+    "s0": 13,
+    "s1": 4,
+    "n": 3,
+    "side": 1
+   }
+  ],
+  "hands": [
+   [
+    [
+     3.9,
+     3.6
+    ],
+    [
+     6.1,
+     4.4
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.6,
+    "y": -0.9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.4,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 14.9,
+    "y": 7.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.4,
+    "y": 14.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3.6,
+    "y": 14.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 7.0,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3.9,
+    "y": 3.6,
+    "f": [
+     3.6,
+     -0.9
+    ]
+   },
+   {
+    "r": "D",
+    "x": 6.1,
+    "y": 4.4,
+    "f": [
+     3.6,
+     -0.9
+    ]
+   }
+  ],
+  "labels": [
+   [
+    4.6,
+    6.2,
+    "DE LA MANO"
+   ]
+  ]
+ },
+ "top": "Defensores de la mano: la presión coordinada se aprende jugando y los atacantes aprenden a jugar lejos."
+}
