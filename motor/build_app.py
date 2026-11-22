@@ -33,7 +33,7 @@ def ages(s):
         pass
     for u in re.findall(r'\bu ?(\d{1,2})\b', t):
         k = int(u); lo.append(k - 1); hi.append(k)
-    m = re.findall(r'(\d{1,2}) ?(?:a|-|–) ?(\d{1,2}) anos', t)
+    m = re.findall(r'(\d{1,2}) ?(?:a|-|–)? ?(\d{1,2}) anos', t)
     for a, b in m: lo.append(int(a)); hi.append(int(b))
     m = re.search(r'(\d{1,2}) ?\+', t)
     if m and not lo: lo.append(int(m.group(1))); hi.append(18)
@@ -104,6 +104,15 @@ for r in refs:
         elif r['ID'].startswith('FB-'): rec['tm'] = 'Fútbol Base'
     if r.get('probado'): rec['pr'] = 1
     if r.get('_fmt'): rec['f'] = r['_fmt']
+    if not rec['f']:
+        tl_, p_ = norm(r['Título / referencia'] or ''), rec['p']
+        if 'individual' in tl_ or (p_ and p_[0] == p_[1] == 1): rec['f'] = 'individual'
+        elif p_ and p_[0] == p_[1] == 2: rec['f'] = 'parejas'
+        elif p_ and p_[0] == p_[1] == 3: rec['f'] = 'tríos'
+        elif 'circuito' in tl_: rec['f'] = 'circuito'
+        elif 'rueda' in tl_: rec['f'] = 'rueda'
+        elif 'rondo' in tl_: rec['f'] = 'rondo'
+    if r.get('Título original'): rec['ot'] = r['Título original']
     if d:
         rec.update(t=d['titulo'], f=d['formato'], dg=1, x={'obj': d['objetivo'], 'mont': d['montaje'], 'how': d['juego'], 'pts': d['punto'], 'cues': d['consigna'],
                    'fac': d['variantes']['facil'], 'dif': d['variantes']['dificil'], 'dur': d['duracion'], 'ser': d['series'], 'adapt': d['adaptacion'],

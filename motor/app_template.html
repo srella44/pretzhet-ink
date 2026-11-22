@@ -142,7 +142,21 @@ const st = { b:new Set(), a:new Set(), l:new Set(), p:new Set(), src:'', tm:'', 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fold = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
-R.forEach(r => { r._q = fold([r.t, r.f, r.s, r.i, B[r.b].n, ...Object.values(r.x)].join(' ')); });
+const norm2 = s => fold(s).replace(/(\d+) ?(?:vs|v|x|:|contra) ?(\d+)/g, '$1v$2').replace(/ ?\+ ?(\d)/g, '+$1');
+const stem = w => w.length > 4 ? w.replace(/(es|s)$/, '') : w;
+R.forEach(r => { r._t = norm2(r.t); r._m = norm2([r.f, r.s, r.i, B[r.b].n].join(' ')); r._d = norm2(Object.values(r.x).join(' ') + ' ' + (r.ot || '')); });
+function qscore(r, words) {
+  let sc = 0;
+  for (const w of words) {
+    const ti = r._t.indexOf(w); let s = 0;
+    if (ti >= 0) s = (ti === 0 || r._t[ti-1] === ' ') ? 12 : 7;
+    else if (r._m.includes(w)) s = 4;
+    else if (r._d.includes(w)) s = 1;
+    else return -1;
+    sc += s;
+  }
+  return sc;
+}
 let store = {}; try { store = JSON.parse(localStorage.getItem('pi-filtros') || '{}'); } catch(e) {}
 
 function blockChips(counts) {
@@ -176,15 +190,16 @@ function match(r, skipBlock) {
   if (st.l.size && ![...st.l].some(i => LV[i] === r.n)) return false;
   if (st.a.size && ![...st.a].some(i => { const a = AGES[i]; if (!a[1]) return !r.a; return r.a && r.a[0] <= a[2] && r.a[1] >= a[1]; })) return false;
   if (st.p.size && ![...st.p].some(i => { const p = PL[i]; if (p[1] === undefined) return !r.p; return r.p && r.p[0] <= p[2] && r.p[1] >= p[1]; })) return false;
-  if (st.q) { const words = fold(st.q).split(/\s+/).filter(Boolean); if (!words.every(w => r._q.includes(w))) return false; }
+  if (st.q) { const sc = qscore(r, qwords); if (sc < 0) return false; r._s = sc; }
   return true;
 }
-let list = [], shown = 0;
+let list = [], shown = 0, qwords = [];
 const SORT = { sc:(a,b)=>(b.tp?1:0)-(a.tp?1:0)||(b.lb?1:0)-(a.lb?1:0)||b.sc-a.sc||(b.dg||0)-(a.dg||0), bl:(a,b)=>a.b-b.b||(b.sc-a.sc), az:(a,b)=>a.t.localeCompare(b.t,'es'), age:(a,b)=>((a.a||[99])[0])-((b.a||[99])[0]) };
 function apply() {
+  qwords = norm2(st.q || '').split(/\s+/).filter(Boolean).map(stem);
   const counts = {}; R.forEach(r => { if (match(r, true)) counts[r.b] = (counts[r.b]||0) + 1; });
   blockChips(counts); opts('#f-age', AGES, st.a); opts('#f-lvl', LV, st.l); opts('#f-pl', PL, st.p);
-  list = R.filter(r => match(r)).sort(SORT[st.ord]);
+  list = R.filter(r => match(r)).sort(st.q ? ((a,b) => (b._s - a._s) || SORT[st.ord](a,b)) : SORT[st.ord]);
   const nf = st.a.size + st.l.size + st.p.size + (st.src?1:0) + (st.tm?1:0) + (st.book?1:0) + (st.dg?1:0) + (st.rv?1:0) + (st.tp?1:0) + (st.pr?1:0);
   $('#nf').hidden = !nf; $('#nf').textContent = nf;
   $('#cnt').textContent = list.length.toLocaleString('es-ES') + ' ejercicios';

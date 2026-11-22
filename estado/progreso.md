@@ -68,3 +68,7 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 
 ## 2026-11-22 · Reparto de Técnica y duelos
 - 1.052 ejercicios sin ficha ni plaza en el libro pasan de Técnica y duelos a otros bloques por palabras del título y por el formato N:M (570 Posesiones, 418 Partidos y situaciones reales, 31 Superioridades, 17 Calentamiento, 10 Defensa, 5 Finalización, 1 Oleadas). Propuesta mecánica: se puede corregir ficha a ficha.
+
+## 2026-11-22 · Revisión de la app (Sergio)
+- Títulos feos renombrados en base y app (1.120; original en `Título original`); edad propuesta a ~2.000 ejercicios y jugadores a ~1.470 (marcados «(propuesta)»); formato `individual/parejas/tríos/circuito/rueda/rondo` cuando no había. Script `motor/normaliza_datos.py` (idempotente).
+- Búsqueda: ahora puntúa título > formato/fuente > descripción, entiende 5v2 = 5 vs 2 = 5x2 = 5:2 y plurales, y ordena por relevancia.
