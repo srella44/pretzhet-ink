@@ -1,0 +1,134 @@
+{
+ "id": "PI-TJ-007",
+ "bloque": "Superioridades",
+ "titulo": "El 2 contra 1 del saque",
+ "formato": "2v1",
+ "edad": "6–7 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug. por grupo",
+ "espacio": "12 × 9 m",
+ "duracion": "10 min",
+ "series": "Rondas de 6 acciones; rotan los papeles tras cada acción (propuesta).",
+ "objetivo": "Descubrir que el que pone el balón en juego tiene que entrar en el campo: el saque crea un 2 contra 1.",
+ "montaje": "12 × 9 m con una puerta ancha de conos en un fondo. Dos atacantes y un defensor; el balón empieza fuera, en la banda.",
+ "juego": "Un niño saca con el pie a su compañero y entra. El defensor elige tapar la devolución o ir a por el receptor. Cualquiera de los dos atacantes puede cruzar la puerta conduciendo.",
+ "punto": "Cruzar la puerta con el balón pegado al pie, 1 punto. Si roba, el defensor puntúa llevándolo a la banda del saque.",
+ "consigna": "Después de sacar, entra y enseña los pies.",
+ "variantes": {
+  "facil": "El defensor empieza a tres pasos del receptor.",
+  "dificil": "Puerta más estrecha o el saque solo vale hacia delante (propuesta)."
+ },
+ "adaptacion": "Si el saque queda bloqueado, el defensor empieza a tres pasos. En benjamín, se puede jugar 2 contra 1 + 1 que llega tarde (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El dos contra uno del saque",
+  "ref": "Ficha propia PI-TJ-007 (ORI-0037)"
+ },
+ "top": "Ficha propia: el 2 contra 1 nace de un saque de banda con el pie. Situación real de partido.",
+ "probado": false,
+ "completado": "Series y variante difícil (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   12,
+   9
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 17,
+   "ymin": -0.8,
+   "ymax": 11.6
+  },
+  "cones": [
+   [
+    12,
+    1.5
+   ],
+   [
+    12,
+    7.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10.4,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 4.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10.4
+    ],
+    "b": [
+     4,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     3,
+     10.4
+    ],
+    "b": [
+     8,
+     7.6
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     8,
+     7.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    12.8,
+    4.8,
+    "PUERTA",
+    "start"
+   ],
+   [
+    5.2,
+    11.3,
+    "SAQUE CON EL PIE",
+    "start"
+   ]
+  ]
+ }
+}

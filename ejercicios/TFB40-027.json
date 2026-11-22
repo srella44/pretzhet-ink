@@ -1,0 +1,162 @@
+{
+ "id": "TFB40-027",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Roba y busca al delantero",
+ "formato": "4v3 → 3v2",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "11–14 jug. + 2 PT",
+ "espacio": "50 × 40 m",
+ "duracion": "18 min",
+ "series": "3 series de 6 min con 2 min de descanso; rota el delantero en cada serie.",
+ "objetivo": "Después de robar, mirar primero lejos: jugar con el delantero en menos de 3 s y llegar a ayudarle.",
+ "montaje": "50 × 40 m en dos mitades, con portería y portero en cada fondo. Arriba, 4 rojos contra 3 azules; abajo, el delantero azul con un defensor rojo.",
+ "juego": "Los rojos atacan. Si los azules roban, tienen 3 s para jugar con el delantero. Con el pase, bajan dos azules y un rojo: 3 contra 2 hacia la otra portería. El delantero no entra en la mitad de arriba.",
+ "punto": "Gol rojo, 1. Gol azul tras robo, 2; en menos de 8 s, 3.",
+ "consigna": "¡Robas y miras al delantero!",
+ "variantes": {
+  "facil": "5 s para el pase, o el defensor rojo de abajo es pasivo.",
+  "dificil": "Solo baja un azul, o el pase al delantero es de primeras."
+ },
+ "adaptacion": "Alevín: 40 × 30 m y 5 s para el pase. Infantil: 3 s. Cadete: pase de primeras o en dos toques.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Robar y buscar al delantero: 4 contra 3 con salida en pase largo",
+  "ref": "40 tareas de transiciones y oleadas · pág. 38"
+ },
+ "top": "Tras robo, 3 segundos para encontrar al delantero: verticalidad con pase largo.",
+ "probado": false,
+ "completado": "Campo dibujado en horizontal; se dibujan tres rojos en lugar de cuatro arriba.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 51.8,
+   "ymin": -1.2,
+   "ymax": 41.2
+  },
+  "lines": [
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 37,
+    "y": 17,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 41,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 35,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 17,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     37,
+     17
+    ],
+    "b": [
+     12,
+     26
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     41,
+     27
+    ],
+    "b": [
+     27,
+     24
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    12,
+    38.8,
+    "3 S PARA EL PASE",
+    "middle"
+   ]
+  ]
+ }
+}

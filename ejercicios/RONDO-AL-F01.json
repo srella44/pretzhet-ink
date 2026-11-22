@@ -1,0 +1,166 @@
+{
+ "id": "RONDO-AL-F01",
+ "bloque": "Finalización",
+ "titulo": "Ataca la portería grande",
+ "formato": "3v2 + PT",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug. + PT",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "2 × 4 min por papel: a los 4 min se cambian los papeles.",
+ "objetivo": "Atacar en superioridad hasta el tiro y, si se pierde, defender el contraataque a las miniporterías.",
+ "montaje": "25 × 20 m con portería y portero en un fondo y dos miniporterías en el otro.",
+ "juego": "Los atacantes salen en superioridad, 3 contra 2, y tiran a puerta. Si los defensores recuperan, contraatacan y marcan en las miniporterías. A los 4 min se cambian los papeles.",
+ "punto": "Gol en la portería, 2 puntos. Gol en miniportería, 1 punto.",
+ "consigna": "Fija al defensor y pasa al libre.",
+ "variantes": {
+  "facil": "4 contra 2.",
+  "dificil": "3 contra 3 con un comodín que ataca."
+ },
+ "adaptacion": "Benjamín: 3 contra 1 + 1 que llega tarde. Infantil: 3 contra 3 con comodín (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Ataca la portería grande (AL-F01)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 16"
+ },
+ "top": "Ataque en superioridad a portería grande y, si roban, gol en miniporterías.",
+ "probado": false,
+ "completado": "Adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 27,
+   "ymin": -1.2,
+   "ymax": 22.2
+  },
+  "goals": [
+   [
+    0,
+    4,
+    "L"
+   ],
+   [
+    0,
+    16,
+    "L"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 10.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     10
+    ],
+    "b": [
+     11,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     11,
+     10
+    ],
+    "b": [
+     14,
+     17
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     6,
+     17
+    ],
+    "b": [
+     14,
+     17
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     14,
+     17
+    ],
+    "b": [
+     24.3,
+     11.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    21.6,
+    "SI ROBAN: GOL EN MINIPORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

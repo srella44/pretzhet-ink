@@ -1,0 +1,168 @@
+{
+ "id": "IG-DbYafiFhS_d",
+ "bloque": "Superioridades",
+ "titulo": "Elige la meta",
+ "formato": "6v3 + PT",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug. + PT",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Atacar en superioridad con paciencia y, tras robo, decidir entre asegurar un punto o arriesgar para cambiar de papel.",
+ "montaje": "30 × 25 m (propuesta). Portería con portero en un fondo; en el otro, tres metas de conos: dos laterales y una central.",
+ "juego": "Seis atacantes enlazan cinco pases antes de ir a portería. Si los tres defensores roban, pueden cruzar una meta lateral o ir a por la central: si la cruzan, cambian el papel con tres atacantes.",
+ "punto": "Gol, 1. Meta lateral, 1. Meta central, cambio de papel.",
+ "consigna": "Defensor: ¿aseguro el punto o voy a la central?",
+ "variantes": {
+  "facil": "Tres pases antes de ir a portería (propuesta).",
+  "dificil": "Meta central más estrecha o atacantes a dos toques (propuesta)."
+ },
+ "adaptacion": "Benjamín: 5 contra 3 y tres pases. Infantil: 6 contra 3 a dos toques (propuesta).",
+ "fuente": {
+  "autor": "@edf.futebol (Instagram)",
+  "titulo_original": "Elegir la meta que cambia los roles",
+  "ref": "Reel DbYafiFhS_d"
+ },
+ "top": "Tras robo, el defensor elige entre asegurar el punto o arriesgar para cambiar de rol.",
+ "probado": false,
+ "completado": "Medidas, edad, metas de conos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -1.5,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    10.5
+   ],
+   [
+    0,
+    14.5
+   ],
+   [
+    0,
+    19
+   ],
+   [
+    0,
+    23
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 21,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 12.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 18,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     12.5
+    ],
+    "b": [
+     1.2,
+     4
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     10,
+     12.5
+    ],
+    "b": [
+     1.2,
+     12.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    -1.2,
+    26.4,
+    "META CENTRAL = CAMBIO DE PAPEL",
+    "start"
+   ]
+  ]
+ }
+}

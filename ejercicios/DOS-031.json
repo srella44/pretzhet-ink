@@ -1,0 +1,174 @@
+{
+ "id": "DOS-031",
+ "bloque": "Superioridades",
+ "titulo": "Partido 2+1 contra 2+1",
+ "formato": "2+1 v 2+1",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso; rota el jugador de la zona de inicio (propuesta).",
+ "objetivo": "Usar al jugador extra para crear superioridad y progresar conduciendo hasta la última zona.",
+ "montaje": "30 × 25 m en tres zonas, con una miniportería en cada fondo. 2 contra 2 (o 3 contra 3) en la central y un jugador de cada equipo en su zona de inicio.",
+ "juego": "El jugador de la zona de inicio ayuda en ataque y en defensa sin salir de ella. Para marcar hay que entrar conduciendo en la última zona.",
+ "punto": "Gol, 1 punto.",
+ "consigna": "Usa al extra; regatea o pasa al desmarcado.",
+ "variantes": {
+  "facil": "Gol también con pase a la última zona (propuesta).",
+  "dificil": "El jugador de la zona de inicio juega a dos toques (propuesta)."
+ },
+ "adaptacion": "Benjamín: 2 + 1 contra 2 + 1. Alevín: 3 + 1 contra 3 + 1 (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Partido 2+1 v 2+1",
+  "ref": "Dosier de sesiones · pág. 7 (J2.1)"
+ },
+ "top": "Jugador fijo en la zona de inicio y gol entrando conduciendo: superioridad para progresar.",
+ "probado": true,
+ "completado": "Edad, tipo de portería (miniportería), series, variantes y rotación (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -1.5,
+   "ymax": 27.5
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     25
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    30,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     12.5
+    ],
+    "b": [
+     13,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     13,
+     4
+    ],
+    "b": [
+     17,
+     20
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     17,
+     20
+    ],
+    "b": [
+     25,
+     20
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    25,
+    26.7,
+    "ENTRA CONDUCIENDO",
+    "middle"
+   ],
+   [
+    5,
+    26.7,
+    "ZONA DE INICIO",
+    "middle"
+   ]
+  ]
+ }
+}

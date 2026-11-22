@@ -1,0 +1,164 @@
+{
+ "id": "TFB100-031",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Roba y escapa por una puerta",
+ "formato": "3v2",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "5–10 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2 min con 1 min de descanso; cambian los papeles en cada ronda.",
+ "objetivo": "Aprender que robar no es el final: quien roba escapa con el balón hacia un sitio seguro y quien pierde presiona enseguida.",
+ "montaje": "20 × 20 m con una puerta de conos de 2 m en el centro de cada lado. Tres azules con balón contra dos rojos.",
+ "juego": "Los azules se pasan el balón sin salir ni conducir más de tres toques. El rojo que roba sale conduciendo por cualquier puerta; los azules reaccionan para quitárselo antes.",
+ "punto": "Cinco pases azules, 1. Rojo que sale por una puerta, 2. Recuperación azul antes de que salga, 1 extra.",
+ "consigna": "Si lo pierdes, ¡a por él!",
+ "variantes": {
+  "facil": "Puertas de 3 m, o los azules presionan con un solo jugador.",
+  "dificil": "Solo valen las dos puertas de un color, o el rojo tiene 4 s para salir."
+ },
+ "adaptacion": "Prebenjamín: 3 contra 1 y puertas de 3 m. Benjamín: 3 contra 2 y el que roba tiene 5 s para salir.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Juego de fútbol para niños: robar y escapar por una puerta",
+  "ref": "100 tareas de fútbol base · pág. 45"
+ },
+ "top": "Robar y escapar por una puerta: transición con objetivo claro desde prebenjamín.",
+ "probado": false,
+ "completado": "",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.2,
+   "ymax": 21.2
+  },
+  "cones": [
+   [
+    9,
+    0
+   ],
+   [
+    11,
+    0
+   ],
+   [
+    9,
+    20
+   ],
+   [
+    11,
+    20
+   ],
+   [
+    0,
+    9
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    20,
+    9
+   ],
+   [
+    20,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.5,
+     10
+    ],
+    "b": [
+     0.6,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 2
+   },
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     3,
+     8.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 11,
+    "s1": 5
+   },
+   {
+    "a": [
+     9,
+     16
+    ],
+    "b": [
+     4.4,
+     12.4
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 11,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.6,
+    "PUERTA 2 M",
+    "middle"
+   ]
+  ]
+ }
+}

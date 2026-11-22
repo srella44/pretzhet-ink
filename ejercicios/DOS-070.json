@@ -1,0 +1,175 @@
+{
+ "id": "DOS-070",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "2v1 y contraataque 3v2",
+ "formato": "2v1 → 3v2",
+ "edad": "11–14 años",
+ "nivel": "Medio",
+ "jugadores": "10–14 jug. + 2 PT",
+ "espacio": "40 × 30 m",
+ "duracion": "20 min",
+ "series": "3 × 5 min con 1 min de descanso; rotan los grupos de las esquinas (propuesta).",
+ "objetivo": "Resolver el 2 contra 1 con pared, doblada o pasillo y pasar al contraataque sin pausa.",
+ "montaje": "40 × 30 m con portería y portero en cada fondo. Los equipos esperan en las esquinas.",
+ "juego": "Un defensor pasa a dos atacantes y sale a defender en el medio campo: 2 contra 1. Al terminar el ataque, dos compañeros del defensor se suman y contraatacan 3 contra 2 hacia la otra portería.",
+ "punto": "Gol, 1 punto para su equipo.",
+ "consigna": "Fija al defensor y suelta en el momento justo.",
+ "variantes": {
+  "facil": "El defensor sale desde más lejos (propuesta).",
+  "dificil": "8 s para terminar cada fase (propuesta)."
+ },
+ "adaptacion": "Alevín: solo la fase 2 contra 1. Infantil: tal cual (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Oleadas 2v1+2",
+  "ref": "Dosier de sesiones · pág. 21 (S2.4)"
+ },
+ "top": "Oleada 2v1 que se convierte en contraataque 3v2: transición inmediata.",
+ "probado": true,
+ "completado": "Edad, número de jugadores, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 32.6
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 41.6,
+    "y": 2,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 41.6,
+    "y": 28,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     33,
+     6
+    ],
+    "b": [
+     8,
+     24
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     33,
+     6
+    ],
+    "b": [
+     23,
+     14
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     8,
+     24
+    ],
+    "b": [
+     16,
+     21
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     20,
+     6
+    ],
+    "k": "run",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    20,
+    32,
+    "DESPUÉS: 3v2 HACIA LA OTRA PORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "id": "TFB40-040",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "7v7: roba y tira en 3 pases",
+ "formato": "7v7",
+ "edad": "12–18 años",
+ "nivel": "Medio",
+ "jugadores": "14–16 jug.",
+ "espacio": "60 × 45 m",
+ "duracion": "24 min",
+ "series": "3 partes de 6 min con 2 min de descanso.",
+ "objetivo": "Llevar el contraataque al partido: tras robar en campo propio, atacar con tres pases o menos.",
+ "montaje": "60 × 45 m con portería y portero en cada fondo. Partido 7 contra 7 (seis más el portero).",
+ "juego": "Si un equipo roba en su campo y marca con tres pases o menos, el gol vale doble; con un cuarto pase, solo uno. El entrenador cuenta los pases en voz alta.",
+ "punto": "Gol normal, 1. Tras robo en campo propio y 3 pases o menos, 2. Robo arriba y gol en 8 s, 3.",
+ "consigna": "¡Robo: mira delante!",
+ "variantes": {
+  "facil": "Cuatro pases como máximo, o campo más ancho.",
+  "dificil": "Dos pases como máximo, o tocan el balón tres jugadores distintos."
+ },
+ "adaptacion": "Infantil: cuatro pases. Cadete: tres. Juvenil: tres y el gol solo vale doble en menos de 10 s desde el robo.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Partido 7 contra 7 de contraataque: robar en campo propio y tirar en tres pases",
+  "ref": "40 tareas de transiciones y oleadas · pág. 52"
+ },
+ "top": "Partido de contraataque: el gol tras robo con tres pases o menos vale doble.",
+ "probado": false,
+ "completado": "Campo dibujado en horizontal; se dibujan cuatro jugadores de campo por equipo.",
+ "diagrama": {
+  "field": [
+   60,
+   45
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 62,
+   "ymin": -1.2,
+   "ymax": 46.2
+  },
+  "lines": [
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     45
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 22.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 14,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 35,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 52,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 47,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     25
+    ],
+    "b": [
+     33,
+     8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     33,
+     8
+    ],
+    "b": [
+     44,
+     33
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     44,
+     33
+    ],
+    "b": [
+     59,
+     24
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    45,
+    44.2,
+    "≤ 3 PASES: VALE DOBLE",
+    "middle"
+   ]
+  ]
+ }
+}

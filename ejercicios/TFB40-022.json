@@ -1,0 +1,157 @@
+{
+ "id": "TFB40-022",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "El portero lanza el 3v2",
+ "formato": "3v2 → 3v2",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "9–14 jug. + PT",
+ "espacio": "45 × 35 m",
+ "duracion": "18 min",
+ "series": "3 series de 6 min con 2 min de descanso; el extremo cambia de lado en cada serie.",
+ "objetivo": "Convertir una parada del portero en contraataque: saque rápido al extremo, carrera de los defensores y 3 contra 2.",
+ "montaje": "45 × 35 m con portería y portero azul en un fondo y dos miniporterías en el otro. Un extremo azul espera fuera en cada banda.",
+ "juego": "Tres rojos atacan contra dos azules (10 s). Si el portero atrapa o un azul roba, saca con la mano a un extremo, que entra. Salen los dos defensores: 3 contra 2 a las miniporterías en 8 s; el rojo que tiró se va.",
+ "punto": "Gol rojo, 1. Contraataque, 2; si marca un defensor, 3.",
+ "consigna": "Portero: ¡atrapa y mira fuera!",
+ "variantes": {
+  "facil": "Los azules tienen 10 s, o los dos rojos que defienden empiezan andando.",
+  "dificil": "Solo un extremo espera fuera, o el gol llega tras un pase de lado a lado."
+ },
+ "adaptacion": "Alevín: el portero puede sacar con el pie y los rojos defienden saliendo andando. Infantil: saque con la mano en menos de 3 s. Cadete: 6 s para el contraataque.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "El portero atrapa y lanza el contraataque: 3 contra 2 en ocho segundos",
+  "ref": "40 tareas de transiciones y oleadas · pág. 33"
+ },
+ "top": "El portero atrapa y lanza el contraataque a los extremos: transición iniciada por el portero.",
+ "probado": false,
+ "completado": "Campo dibujado en horizontal; se dibujan solo los jugadores del contraataque y un extremo activo.",
+ "diagrama": {
+  "field": [
+   45,
+   35
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 47,
+   "ymin": -3.8,
+   "ymax": 38.8
+  },
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    27,
+    "L"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 45,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 24,
+    "y": -2.2,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 37.2,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 21,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     44,
+     17.5
+    ],
+    "b": [
+     24.5,
+     0.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 14,
+    "s1": 8
+   },
+   {
+    "a": [
+     24,
+     -2.2
+    ],
+    "b": [
+     12,
+     6
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     37,
+     29
+    ],
+    "b": [
+     16,
+     27
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    11,
+    17.5,
+    "8 S",
+    "middle"
+   ]
+  ]
+ }
+}

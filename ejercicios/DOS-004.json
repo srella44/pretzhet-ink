@@ -1,0 +1,166 @@
+{
+ "id": "DOS-004",
+ "bloque": "Superioridades",
+ "titulo": "Oleadas en repliegue",
+ "formato": "3v2+1 · 2v1+1",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug. + PT",
+ "espacio": "30 × 20 m",
+ "duracion": "15 min",
+ "series": "Series de 3 oleadas por equipo; cambian los papeles tras cada serie (propuesta).",
+ "objetivo": "Resolver el 3 contra 2 (o 2 contra 1) con rapidez antes de que el defensor que repliega iguale la jugada.",
+ "montaje": "30 × 20 m con portería y portero. Dos equipos en filas; series de 3 contra 3.",
+ "juego": "Los atacantes pasan a un defensor, que la devuelve y rodea el cono de enfrente antes de replegar. Mientras vuelve, se ataca 3 contra 2 (o 2 contra 1). Si roban, contraatacan a la línea de salida (propuesta).",
+ "punto": "Gol, 1 punto. Robo y balón a la línea de salida, 1 punto (propuesta).",
+ "consigna": "Ataca rápido: cada segundo llega otro defensor.",
+ "variantes": {
+  "facil": "El cono del defensor que repliega se aleja dos metros.",
+  "dificil": "El cono se acerca, o máximo dos pases antes de tirar (propuesta)."
+ },
+ "adaptacion": "Prebenjamín y benjamín: 2 contra 1 + 1. Alevín: 3 contra 2 + 1 (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Oleadas 3v2+1 / 2v1+1 en repliegue",
+  "ref": "Dosier de sesiones · pág. 2 (J1.1)"
+ },
+ "top": "La superioridad nace del repliegue: el defensor rodea un cono y los atacantes tienen segundos para aprovecharla.",
+ "probado": true,
+ "completado": "Edad, puntuación y contraataque de los defensores, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 32,
+   "ymin": -1.5,
+   "ymax": 22.5
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    13,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     13,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13,
+     10
+    ],
+    "b": [
+     3,
+     3.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13,
+     10
+    ],
+    "b": [
+     13,
+     18.2
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     3,
+     3.5
+    ],
+    "b": [
+     16,
+     4
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": -1,
+    "s0": 14,
+    "s1": 3
+   }
+  ],
+  "labels": [
+   [
+    13,
+    21.6,
+    "RODEA Y REPLIEGA",
+    "middle"
+   ]
+  ]
+ }
+}

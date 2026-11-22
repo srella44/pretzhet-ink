@@ -1,0 +1,184 @@
+{
+ "id": "TFB100-058",
+ "bloque": "Finalización",
+ "titulo": "3v3 a una portería",
+ "formato": "3v3 + PT",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "7–9 jug. + PT",
+ "espacio": "44 × 35 m",
+ "duracion": "15 min",
+ "series": "4 series de 2 min con 1 min de descanso.",
+ "objetivo": "Finalizar en espacio reducido con oposición real y reaccionar al cambio de posesión.",
+ "montaje": "Área grande y frontal, con portería y portero. 3 azules contra 3 rojos; los dos atacan la misma portería. El entrenador, en la banda con muchos balones.",
+ "juego": "El entrenador mete el balón a quien decide. Si el otro equipo roba o el portero para, saca el balón fuera del área antes de atacar. Máximo tres toques; cuando sale el balón, entra otro.",
+ "punto": "Gol, 1 punto. Gol de primeras, 2.",
+ "consigna": "Si hay hueco, tira.",
+ "variantes": {
+  "facil": "3 contra 2, o el balón robado no tiene que salir del área.",
+  "dificil": "Dos toques, comodín fuera del área o salida hasta una línea a 25 m."
+ },
+ "adaptacion": "Alevín: 3 contra 2. Infantil: 3 contra 3. Cadete y juvenil: hay que sacar el balón del área en 4 s.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "3 contra 3 a una portería con balones desde la banda",
+  "ref": "100 tareas de fútbol base · pág. 74"
+ },
+ "top": "3 contra 3 a una portería con balones del entrenador: muchas finalizaciones con oposición.",
+ "probado": false,
+ "completado": "Campo dibujado con la portería arriba.",
+ "diagrama": {
+  "field": [
+   44,
+   35
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 46,
+   "ymin": -1.2,
+   "ymax": 36.2
+  },
+  "lines": [
+   [
+    [
+     1.85,
+     0
+    ],
+    [
+     1.85,
+     16.5
+    ],
+    "none"
+   ],
+   [
+    [
+     1.85,
+     16.5
+    ],
+    [
+     42.15,
+     16.5
+    ],
+    "none"
+   ],
+   [
+    [
+     42.15,
+     16.5
+    ],
+    [
+     42.15,
+     0
+    ],
+    "none"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 22,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -2.2,
+    "y": 24,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 22,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 12,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 21,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 28,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 12,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -2.2,
+     24
+    ],
+    "b": [
+     8,
+     22
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     22
+    ],
+    "b": [
+     20,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     20,
+     12
+    ],
+    "b": [
+     21,
+     1.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    22,
+    34.2,
+    "TRAS ROBO: SACAR DEL ÁREA",
+    "middle"
+   ]
+  ]
+ }
+}

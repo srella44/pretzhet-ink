@@ -1,0 +1,205 @@
+{
+ "id": "DOS-055",
+ "bloque": "Superioridades",
+ "titulo": "Juego de líneas",
+ "formato": "1v1+1 · 3v3 · 1v1+1",
+ "edad": "11–14 años",
+ "nivel": "Medio",
+ "jugadores": "10–12 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "20 min",
+ "series": "4 × 4 min con 1 min de descanso; se cambian los papeles a la mitad (propuesta).",
+ "objetivo": "Crear la superioridad conduciendo: el que supera a su par genera un 2 contra 1 en la zona siguiente.",
+ "montaje": "40 × 30 m en tres zonas. En las de los extremos, 1 contra 1 más un comodín ofensivo; en la central, 3 contra 3.",
+ "juego": "Se progresa de una zona a la siguiente. El que conduce y supera a su par entra en la otra zona y crea superioridad. Cada jugador se queda en su zona salvo el que conduce.",
+ "punto": "Llegar con el balón controlado a la zona del fondo, 1 punto (propuesta).",
+ "consigna": "Si vas solo, conduce para dividir.",
+ "variantes": {
+  "facil": "Un comodín más en la zona central.",
+  "dificil": "Se puede entrar en la zona siguiente solo conduciendo, nunca con pase (propuesta)."
+ },
+ "adaptacion": "Alevín: 35 × 25 m y comodín también en la zona central. Infantil: tal cual (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego de líneas 1v1+1C + 3v3 + 1v1+1C",
+  "ref": "Dosier de sesiones · pág. 16 (S1.4)"
+ },
+ "top": "Tres zonas donde conducir crea la superioridad: dividir para progresar.",
+ "probado": true,
+ "completado": "Edad, puntuación, regla de zonas, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.5,
+   "ymin": -1.5,
+   "ymax": 33
+  },
+  "lines": [
+   [
+    [
+     13.3,
+     0
+    ],
+    [
+     13.3,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     26.7,
+     0
+    ],
+    [
+     26.7,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 5,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 34,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     15,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     15,
+     10
+    ],
+    "b": [
+     19,
+     25
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6
+   },
+   {
+    "a": [
+     19,
+     25
+    ],
+    "b": [
+     33,
+     22
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1
+   }
+  ],
+  "labels": [
+   [
+    6.6,
+    32.2,
+    "1v1 + C",
+    "middle"
+   ],
+   [
+    20,
+    32.2,
+    "3v3",
+    "middle"
+   ],
+   [
+    33.4,
+    32.2,
+    "1v1 + C",
+    "middle"
+   ]
+  ]
+ }
+}

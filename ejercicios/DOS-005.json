@@ -1,0 +1,155 @@
+{
+ "id": "DOS-005",
+ "bloque": "Superioridades",
+ "titulo": "Partido de superioridades",
+ "formato": "5v5 / 6v6",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "10–12 jug. + 2 PT",
+ "espacio": "22 × 18 m",
+ "duracion": "20 min",
+ "series": "4 partes de 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Leer y aprovechar la superioridad cuando se tiene, y organizarse para defender y atacar en inferioridad.",
+ "montaje": "22 × 18 m con dos porterías y porteros. Partido 5 contra 5 o 6 contra 6.",
+ "juego": "Cada vez que un equipo marca, el rival saca a un jugador del campo. Si un equipo marca jugando en inferioridad, recupera a uno. Sin jugadores de campo o a los 4 min, se reinicia en igualdad (propuesta).",
+ "punto": "Gol, 1 punto; el gol en inferioridad devuelve un jugador.",
+ "consigna": "Con ventaja, fija y pasa; con uno menos, juntaos.",
+ "variantes": {
+  "facil": "Solo sale un jugador como máximo: nunca más de uno de diferencia (propuesta).",
+  "dificil": "Dos toques para el equipo en superioridad (propuesta)."
+ },
+ "adaptacion": "Benjamín: 5 contra 5. Alevín e infantil: 6 contra 6 y campo algo mayor (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Partido de superioridades",
+  "ref": "Dosier de sesiones · págs. 2, 7 y 21 (J1.1, J2.1, S2.4)"
+ },
+ "top": "Cada gol elimina a un rival y marcar en inferioridad te devuelve un jugador: superioridad e inferioridad en un mismo juego.",
+ "probado": true,
+ "completado": "Edad, cuándo se reinicia, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   22,
+   18
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 23.8,
+   "ymin": -1.2,
+   "ymax": 21.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 9,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 22,
+    "y": 9,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 20.2,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     13
+    ],
+    "b": [
+     10,
+     3.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     10,
+     3.5
+    ],
+    "b": [
+     14,
+     15
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     21.2,
+     10.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    15.2,
+    20.9,
+    "SALE UNO TRAS GOL",
+    "start"
+   ]
+  ]
+ }
+}

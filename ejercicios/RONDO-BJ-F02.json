@@ -1,0 +1,182 @@
+{
+ "id": "RONDO-BJ-F02",
+ "bloque": "Finalización",
+ "titulo": "El duelo de los caballeros",
+ "formato": "1v1",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "10 × 5 m",
+ "duracion": "15 min",
+ "series": "Duelos de 45 s; al terminar cada uno, se sube o se baja de campito.",
+ "objetivo": "Encarar y marcar en 1 contra 1 muchas veces, con todos jugando siempre.",
+ "montaje": "Varios campitos de 10 × 5 m en fila, cada uno con dos miniporterías. Un 1 contra 1 en cada campito.",
+ "juego": "Cada duelo dura 45 s. Quien gana sube un campito hacia el primero y quien pierde baja. En el primero se queda el ganador; en el último, el que pierde.",
+ "punto": "Quien gana sube y quien pierde baja: todos juegan siempre.",
+ "consigna": "Encara, finta y define.",
+ "variantes": {
+  "facil": "Miniporterías más anchas.",
+  "dificil": "El gol vale doble tras una finta."
+ },
+ "adaptacion": "Prebenjamín: duelos de 30 s. Alevín: campitos de 12 × 6 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El duelo de los caballeros (BJ-F02)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 8"
+ },
+ "top": "Duelo de los caballeros: 1 contra 1 en campitos con sube y baja. Todos juegan siempre.",
+ "probado": false,
+ "completado": "Qué pasa en el primer y el último campito, y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   10,
+   15
+  ],
+  "tag": "3 campitos de 10 × 5 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 16,
+   "ymin": -0.8,
+   "ymax": 15.8
+  },
+  "lines": [
+   [
+    [
+     0,
+     5
+    ],
+    [
+     10,
+     5
+    ]
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     10,
+     10
+    ]
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    2.5,
+    "L"
+   ],
+   [
+    10,
+    2.5,
+    "R"
+   ],
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    10,
+    7.5,
+    "R"
+   ],
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    10,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 12.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11.8,
+     8
+    ],
+    "b": [
+     11.8,
+     3
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     13.6,
+     7
+    ],
+    "b": [
+     13.6,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    12.7,
+    1.2,
+    "SUBE",
+    "middle"
+   ],
+   [
+    12.7,
+    14.4,
+    "BAJA",
+    "middle"
+   ]
+  ]
+ }
+}

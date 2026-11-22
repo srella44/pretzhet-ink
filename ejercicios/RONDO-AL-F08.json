@@ -1,0 +1,154 @@
+{
+ "id": "RONDO-AL-F08",
+ "bloque": "Superioridades",
+ "titulo": "Superioridad cantada",
+ "formato": "2v1 · 3v2 · 3v1",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug. + PT",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso; se cambian los papeles en cada serie (propuesta).",
+ "objetivo": "Leer de un vistazo cuántos somos y cuántos son, y atacar según la ventaja que canta el míster.",
+ "montaje": "25 × 20 m con portería y portero. Atacantes en fila en la línea de medio campo; defensores junto a la portería.",
+ "juego": "En cada acción el míster canta la superioridad: 2 contra 1, 3 contra 2 o 3 contra 1. Salen esos jugadores y se ataca. Si el defensor recupera, lleva el balón más allá de la línea de medio campo.",
+ "punto": "Gol, 1 punto. Balón llevado más allá de la línea por los defensores, 1 punto.",
+ "consigna": "Cuenta antes de atacar: ¿cuántos sobramos?",
+ "variantes": {
+  "facil": "Siempre con dos de ventaja (3 contra 1, 2 contra 0).",
+  "dificil": "Igualdad numérica una de cada tres acciones."
+ },
+ "adaptacion": "Benjamín: solo 2 contra 1 y 3 contra 1. Infantil: se añade el 3 contra 3 y 8 s para tirar (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Superioridad que cambia (AL-F08)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 15"
+ },
+ "top": "El míster canta la superioridad en cada acción: 2v1, 3v2 o 3v1. Lectura rápida del número.",
+ "probado": false,
+ "completado": "Posición de salida de atacantes y defensores, número de jugadores y series (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 27,
+   "ymin": -1.5,
+   "ymax": 22.5
+  },
+  "porterias": [
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18.5,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     10,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     4,
+     3
+    ],
+    "b": [
+     14,
+     4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     10,
+     10
+    ],
+    "b": [
+     14,
+     4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     14,
+     4
+    ],
+    "b": [
+     24.3,
+     8.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    21.8,
+    "MÍSTER: «¡3 CONTRA 2!»",
+    "middle"
+   ]
+  ]
+ }
+}

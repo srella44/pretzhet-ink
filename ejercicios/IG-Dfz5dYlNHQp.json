@@ -1,0 +1,145 @@
+{
+ "id": "IG-Dfz5dYlNHQp",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Tres direcciones",
+ "formato": "1v1 → 2v1 → 2v2",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "6–9 jug. + PT",
+ "espacio": "25 × 25 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Encadenar 1 contra 1, 2 contra 1 y 2 contra 2 cambiando de dirección en la misma oleada.",
+ "montaje": "25 × 25 m con portería y portero en un lado y una miniportería en cada uno de los otros tres.",
+ "juego": "Empieza un 1 contra 1: el que hace el primer pase defiende. Entra un compañero y se juega 2 contra 1 hacia otro lado. La última entrada iguala a 2 contra 2 en otra dirección. Tras robo, se sale a una miniportería.",
+ "punto": "Gol en portería, 2; en miniportería, 1 (propuesta).",
+ "consigna": "Cada entrada cambia la dirección: mira antes de recibir.",
+ "variantes": {
+  "facil": "Se quita la fase 2 contra 2 (propuesta).",
+  "dificil": "Cada fase dura 6 s como máximo (propuesta)."
+ },
+ "adaptacion": "Benjamín: solo 1 contra 1 y 2 contra 1. Infantil: tal cual a dos toques (propuesta).",
+ "fuente": {
+  "autor": "@coachesviewsfootball (Instagram)",
+  "titulo_original": "Tres direcciones en la misma oleada",
+  "ref": "Reel Dfz5dYlNHQp"
+ },
+ "top": "Una oleada que cambia tres veces de dirección: 1v1, 2v1 y 2v2 encadenados.",
+ "probado": false,
+ "completado": "Puntuación, número de jugadores, series y variantes (propuesta). Se dibuja la fase 2 contra 1.",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 26.8
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 12.5,
+    "y": 25,
+    "lado": "B",
+    "ancho": 2.4
+   }
+  ],
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    25,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 16,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 21,
+    "f": -120
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     21,
+     21
+    ],
+    "b": [
+     16,
+     9
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     7,
+     16
+    ],
+    "b": [
+     16,
+     9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     16,
+     9
+    ],
+    "b": [
+     13.5,
+     1.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    23.6,
+    24,
+    "ENTRA EL 2",
+    "end"
+   ]
+  ]
+ }
+}
