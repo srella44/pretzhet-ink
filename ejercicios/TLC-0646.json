@@ -1,0 +1,176 @@
+{
+ "id": "TLC-0646",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rueda de pases interior",
+ "formato": "7 jugadores",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "7 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min a cada sentido (propuesta).",
+ "objetivo": "Pasar entre líneas por dentro y ocupar el hueco tras cada pase.",
+ "montaje": "Zona de 40 × 30 m con 8 muñecos en óvalo; entre cada pareja hay una puerta. 7 jugadores del mismo color se reparten por el óvalo con un balón.",
+ "juego": "El balón gira por el óvalo: cada jugador pasa raso por una puerta a un compañero y ocupa su hueco. El receptor controla orientado y pasa por la siguiente.",
+ "punto": "Pase por puerta, 1 punto. 20 seguidos, serie cerrada.",
+ "consigna": "Pasa y ocupa el hueco.",
+ "variantes": {
+  "facil": "Sentido fijo y balón detenido en cada recepción (propuesta).",
+  "dificil": "Un toque y un segundo balón en la rueda (propuesta)."
+ },
+ "adaptacion": "Edad de la fuente 16+/18+; se propone 14–18 años. En edades menores, ocho puertas a 3 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (real sociedad)",
+  "titulo_original": "SARRI RUEDA DE PASES JUEGO INTERIOR",
+  "ref": "toplidercoach.com/sarri-rueda-de-pases-juego-interior/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La web solo da 7 jugadores, 40 × 30 m, 8 muñecos y 8 puertas; la dinámica y las series son propuesta (propuesta). Las 8 puertas se dibujan como huecos entre muñecos.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "cones": [
+   [
+    12,
+    4
+   ],
+   [
+    28,
+    4
+   ],
+   [
+    35,
+    11
+   ],
+   [
+    35,
+    19
+   ],
+   [
+    28,
+    26
+   ],
+   [
+    12,
+    26
+   ],
+   [
+    5,
+    19
+   ],
+   [
+    5,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 20,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     5
+    ],
+    "b": [
+     32,
+     8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     32,
+     8
+    ],
+    "b": [
+     34,
+     17
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     20,
+     5
+    ],
+    "b": [
+     9,
+     9
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    20,
+    15,
+    "8 PUERTAS",
+    "middle"
+   ]
+  ]
+ }
+}

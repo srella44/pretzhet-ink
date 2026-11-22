@@ -1,0 +1,160 @@
+{
+ "id": "TLC-0709",
+ "bloque": "Finalización",
+ "titulo": "Llegar y rematar",
+ "formato": "4v4 + porteros",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + 2 porteros",
+ "espacio": "40 × 34 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min; cambio de equipos (propuesta).",
+ "objetivo": "Rematar con decisión y llegar tarde al área desde segunda línea.",
+ "montaje": "Medio campo recortado de 40 × 34 m con portería y portero en cada lado. Dos conos por lado marcan la línea de remate, a 12 m de la portería. 4 amarillos contra 4 azules.",
+ "juego": "4v4. Solo se puede chutar desde detrás de la línea de conos. Tras un tiro se saca de portería y el equipo contrario ataca la portería de enfrente.",
+ "punto": "Gol, 1 punto. Gol de quien llega desde atrás, 2 puntos.",
+ "consigna": "Llega tarde al área y chuta sin dudar.",
+ "variantes": {
+  "facil": "Dos toques máximo antes del tiro (propuesta).",
+  "dificil": "Chuta a primer toque tras pase del compañero (propuesta)."
+ },
+ "adaptacion": "Edad de la fuente 18+; se propone 14–18 años y menos distancia a portería en 14–15 años (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (everton)",
+  "titulo_original": "LAMPARD FINALIZACIÓN",
+  "ref": "toplidercoach.com/lampard-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La web solo da 8 jugadores, 2 porteros, 4 conos y «medio campo»; el reglamento y las puntuaciones son propuesta (propuesta). Diagrama dibujado de cero.",
+ "diagrama": {
+  "field": [
+   40,
+   34
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 17,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    12,
+    9
+   ],
+   [
+    12,
+    25
+   ],
+   [
+    28,
+    9
+   ],
+   [
+    28,
+    25
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     20
+    ],
+    "b": [
+     22,
+     8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     8,
+     10
+    ],
+    "b": [
+     19,
+     15
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}

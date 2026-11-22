@@ -1,0 +1,152 @@
+{
+ "id": "TLC-0399",
+ "bloque": "Técnica y duelos",
+ "titulo": "Control orientado y pase",
+ "formato": "1 jugador + apoyo",
+ "edad": "13–15 años",
+ "nivel": "Fácil",
+ "jugadores": "1 jug. + 1 apoyo",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "4 series de 4 pases con 30 s de pausa (propuesta).",
+ "objetivo": "Controlar orientado, esquivar un obstáculo y pasar raso con precisión.",
+ "montaje": "Cuatro muñecos en cuadrado de 12 m y un cono central. El jugador sale del cono con balón. Un compañero de apoyo espera fuera, a la derecha.",
+ "juego": "Conduce hasta un muñeco, controla orientado hacia fuera, lo rodea y pasa raso al compañero, que se lo devuelve. Vuelve al cono y repite con los otros muñecos.",
+ "punto": "Pase raso y limpio, 1 punto. Máximo 4 por serie.",
+ "consigna": "Controla hacia donde vas a pasar.",
+ "variantes": {
+  "facil": "El compañero devuelve con la mano, balón parado (propuesta).",
+  "dificil": "Un solo toque de devolución y a ritmo de partido (propuesta)."
+ },
+ "adaptacion": "Edad de la fuente 13+; en prebenjamín y benjamín bajar a 8 × 8 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (TÉCNICA)",
+  "titulo_original": "INDIVIDUAL CONTROL PASE BARCELONA",
+  "ref": "toplidercoach.com/tecnica-individual-control-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La web solo da 1 jugador, 1 cono, 4 muñecos y «campo entero»; el recorrido, el apoyo y las series son propuesta (propuesta). El campo entero se reduce a una zona de 12 × 12 m.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    6,
+    6
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    11,
+    1
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    11,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 15.5,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     6
+    ],
+    "b": [
+     2,
+     2.8
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     2,
+     2.8
+    ],
+    "b": [
+     15,
+     6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     6
+    ],
+    "b": [
+     7.5,
+     6.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    1,
+    -0.6,
+    "MUÑECO",
+    "middle"
+   ],
+   [
+    11,
+    -0.6,
+    "MUÑECO",
+    "middle"
+   ],
+   [
+    1,
+    12.9,
+    "MUÑECO",
+    "middle"
+   ],
+   [
+    11,
+    12.9,
+    "MUÑECO",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "id": "TLC-0454",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Defensa 3-2 y salida",
+ "formato": "5v6 + transición",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + portero",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "5 series de 3 min; se cambia de rol cada serie (propuesta).",
+ "objetivo": "Defender en bloque 3-2 y salir rápido al robar.",
+ "montaje": "40 × 30 m. Portería con portero a la derecha y dos miniporterías a la izquierda. 5 azules defienden en 3-2 (tres atrás, dos delante) contra 6 amarillos.",
+ "juego": "Los amarillos atacan la portería y los azules cierran por dentro. Si recuperan, salen en pocos pases a las miniporterías; los amarillos vuelven a defender.",
+ "punto": "Gol amarillo, 1 punto. Recuperar y marcar en miniportería, 2.",
+ "consigna": "Cierra por dentro y sal en tres pases.",
+ "variantes": {
+  "facil": "Los amarillos son 5 y no vuelven al perder (propuesta).",
+  "dificil": "Los azules deben marcar en máximo 8 segundos tras recuperar (propuesta)."
+ },
+ "adaptacion": "La web no da datos de edad ni de reglas; se propone 14–18 años y 3-2 como bloque de 5 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Xabi Alonso)",
+  "titulo_original": "XABI ALONSO DEFENSA 3-2 Y TRANSICIONES",
+  "ref": "toplidercoach.com/xabi-alonso-defensa-32-y-transiciones/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La web no ofrece texto ni datos (solo el título). Montaje, reglas, edad, nivel y medidas son propuesta completa (propuesta). Diagrama dibujado de cero.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    9,
+    "L"
+   ],
+   [
+    0,
+    21,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 33,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     15
+    ],
+    "b": [
+     20,
+     24
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     21,
+     6
+    ],
+    "b": [
+     27,
+     10
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    14,
+    29.2,
+    "RECUPERA Y SALE",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -54,3 +54,7 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 
 ## Pendiente cuando el libro esté completo (petición de Sergio, 2026-11-22)
 - Portada (y contraportada), introducción y una sección de tácticas al principio del libro. Marca: azul marino #050F20 y coral #FD513B. Estilo a decidir con Sergio; no hay que empezarlo dentro de las tandas de fichas.
+
+## 2026-11-22 · 5 fichas toplidercoach cortas (hechas a mano)
+- TLC-0340 (Ten Hag, rondo y finalización), TLC-0399 (control y pase), TLC-0454 (Xabi Alonso, defensa 3-2; sin datos en la web: todo propuesta), TLC-0646 (Sarri, rueda de pases), TLC-0709 (Lampard, finalización).
+- Edades 16+/18+ de la fuente adaptadas a 14–18 años (propuesta). Quitadas de la cola. Diagramas dibujados de cero.

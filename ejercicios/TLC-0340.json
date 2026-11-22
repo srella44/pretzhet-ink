@@ -1,0 +1,193 @@
+{
+ "id": "TLC-0340",
+ "bloque": "Rondos",
+ "titulo": "Rondo, robo y finalización",
+ "formato": "6v3 + remate",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug. + 2 porteros",
+ "espacio": "40 × 33 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min; los azules rotan los puestos (propuesta).",
+ "objetivo": "Mantener la posesión bajo presión y atacar rápido tras recuperar.",
+ "montaje": "40 × 33 m con portería y portero a cada lado. Cuadrado central de 20 × 20 m: 6 amarillos fuera y 3 azules dentro. Otros 2 azules esperan junto a la portería derecha.",
+ "juego": "Los amarillos mantienen el balón ante los 3 azules. Si estos roban, pasan a sus 2 compañeros y atacan la portería; 2 amarillos defienden. Balón nuevo y se reinicia.",
+ "punto": "10 pases seguidos, 1 punto. Gol azul tras robo, 2.",
+ "consigna": "Al robar o perder, decide en dos segundos.",
+ "variantes": {
+  "facil": "Rondo de 7v2 en lugar de 6v3 (propuesta).",
+  "dificil": "Máximo 2 toques en el rondo (propuesta)."
+ },
+ "adaptacion": "Edad de la fuente 16+; se propone 14–18 años. En 14–15 años reducir a 12 min (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (ajax amsterdam)",
+  "titulo_original": "ERIK TEN HAG RONDO POSESIÓN ROBO FINALIZACIÓN",
+  "ref": "toplidercoach.com/rondo-posesion-robo-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La web solo da edad, jugadores, espacio y material; la dinámica, las series y las puntuaciones son propuesta (propuesta). Diagrama dibujado de cero.",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 35
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 16.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     10,
+     6.5,
+     30,
+     26.5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 6.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 26.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     9
+    ],
+    "b": [
+     20,
+     6.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     24,
+     16.5
+    ],
+    "b": [
+     33,
+     9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     33,
+     9
+    ],
+    "b": [
+     38,
+     12
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    20,
+    3.8,
+    "RONDO 6v3",
+    "middle"
+   ]
+  ]
+ }
+}
