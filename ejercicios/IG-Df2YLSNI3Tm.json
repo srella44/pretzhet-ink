@@ -1,0 +1,138 @@
+{
+ "id": "IG-Df2YLSNI3Tm",
+ "bloque": "Finalización",
+ "titulo": "Remate doble y 2v2 sucesivo",
+ "formato": "2 remates + 2v2",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug. + 2 PT",
+ "espacio": "25 × 30 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Rematar con intención, reaccionar a la siguiente acción y competir en un 2 contra 2 al otro lado.",
+ "montaje": "Campo de 25 × 30 m con una portería con portero en cada fondo. Dos parejas atacan por un lado y dos parejas esperan en el otro.",
+ "juego": "Primera fase: una pareja remata dos veces seguidas. Segunda: reacciona al siguiente balón del entrenador. Tercera: juega un 2 contra 2 hacia la portería contraria con la otra pareja, y después rotan.",
+ "punto": "Gol en el remate, 1 punto. Gol en el 2 contra 2, 2 puntos (propuesta).",
+ "consigna": "Remata, reacciona y compite.",
+ "variantes": {
+  "facil": "El 2 contra 2 con un solo defensor al inicio (propuesta).",
+  "dificil": "Un toque en la primera fase (propuesta)."
+ },
+ "adaptacion": "Benjamín: porterías de 5 m y 2 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "@keepitonthedeck",
+  "titulo_original": "Bolton · three phases finishing into 2v2",
+  "ref": "Instagram · reel Df2YLSNI3Tm"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, puntos y series (propuesta); el pie del reel solo nombra las tres fases.",
+ "diagrama": {
+  "field": [
+   25,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 12.5,
+    "y": 30,
+    "lado": "B",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 22,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 6,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     22
+    ],
+    "b": [
+     11,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     17,
+     22
+    ],
+    "b": [
+     14,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     8,
+     9
+    ],
+    "b": [
+     11,
+     26
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   }
+  ]
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "IG-DdjJvY6q5YX",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Dos cuadrados 4v2 y 5v4",
+ "formato": "4v2 → 5v4",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. + 2 neutros",
+ "espacio": "Dos cuadrados de 15 × 15 m",
+ "duracion": "15 min",
+ "series": "4 series de 4 min (propuesta).",
+ "objetivo": "Enlazar entre cuadrados tras tres pases y atacar rápido al ganar el balón.",
+ "montaje": "Dos cuadrados de 15 × 15 m con 4 contra 2 en cada uno y dos neutros entre ambos. El entrenador, con balones.",
+ "juego": "El equipo da tres pases y enlaza con un neutro para cambiar de cuadrado. Si los dos defensores roban, atacan en 5 contra 4 con los de fuera y un neutro. En el otro cuadrado entra otro balón.",
+ "punto": "Cambio de cuadrado con éxito, 1 punto. Gol del 5 contra 4, 2 puntos (propuesta).",
+ "consigna": "Tras el tercer pase, enlaza ya.",
+ "variantes": {
+  "facil": "Cuatro pases antes de enlazar (propuesta).",
+  "dificil": "Dos toques en el cuadrado (propuesta)."
+ },
+ "adaptacion": "Benjamín: 3 contra 1 en cuadrados de 12 × 12 m (propuesta).",
+ "fuente": {
+  "autor": "@coach_3h",
+  "titulo_original": "Two Squares: 4v2 Possession Link Play 5v4",
+  "ref": "Instagram · reel DdjJvY6q5YX"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, puntos y series (propuesta); el diagrama muestra solo un cuadrado y el neutro.",
+ "diagrama": {
+  "field": [
+   32,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 34,
+   "ymin": -3,
+   "ymax": 18
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15,
+     0,
+     17,
+     15
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 15.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     9,
+     11
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     9,
+     11
+    ],
+    "b": [
+     16,
+     7.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     16,
+     7.5
+    ],
+    "b": [
+     27,
+     7
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   }
+  ]
+ }
+}

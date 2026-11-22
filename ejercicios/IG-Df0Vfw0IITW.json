@@ -1,0 +1,153 @@
+{
+ "id": "IG-Df0Vfw0IITW",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+1 con línea de fuera de juego",
+ "formato": "4v4 + 1",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "Dos mitades de 13 × 13 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Sincronizar la carrera a la espalda con el pase y presionar alto para frenar al rival.",
+ "montaje": "Campo de 13 × 26 m dividido por una línea de fuera de juego. Cuatro contra cuatro y un comodín con el equipo que posee.",
+ "juego": "Se conserva el balón buscando el momento de desmarcarse a la espalda de la línea. Sin balón, se presiona alto para frenar al rival. Se cruza la línea solo después del pase.",
+ "punto": "Pase a la espalda de la línea y control, 1 punto (propuesta).",
+ "consigna": "Corre cuando el compañero levanta la cabeza.",
+ "variantes": {
+  "facil": "Sin fuera de juego (propuesta).",
+  "dificil": "Dos toques para todos (propuesta)."
+ },
+ "adaptacion": "Benjamín: 3 contra 3 + 1 en 12 × 20 m (propuesta).",
+ "fuente": {
+  "autor": "@keepitonthedeck",
+  "titulo_original": "FC Barcelona · high line possession practice",
+  "ref": "Instagram · reel Df0Vfw0IITW"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta); medidas pasadas de yardas a metros.",
+ "diagrama": {
+  "field": [
+   26,
+   13
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 28,
+   "ymin": -2,
+   "ymax": 15
+  },
+  "lines": [
+   [
+    [
+     13,
+     0
+    ],
+    [
+     13,
+     13
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 7,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     4
+    ],
+    "b": [
+     12,
+     7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     14,
+     12
+    ],
+    "b": [
+     21,
+     10
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     7
+    ],
+    "b": [
+     21,
+     10
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   }
+  ]
+ }
+}
