@@ -81,3 +81,8 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 - Quitados de la app: filtro «Fuente», «Con diagrama» y «a revisar». Los 718 «Revisar nivel» pasan a Candidato (propuesta).
 - `datos/origen_oculto.txt`: nombres que no deben verse en la etiqueta ni el filtro.
 - Corregido el parseo de edades («Desde 13 años» salía 1–3).
+
+## Pendiente: cuentas (23 nov)
+- Sergio quiere entrar con correo y contraseña, y también con Gmail, para favoritos y sesiones por usuario.
+- La app actual es una página sin servidor: guarda favoritos/sesiones en el navegador, o en la cuenta de Claude si se abre desde Claude. No puede crear cuentas ni «Entrar con Google» por sí sola.
+- Al publicar la web: usar un servicio de cuentas con proveedor Google y correo+contraseña (Supabase Auth o Firebase Auth) y guardar `fav` y `ses` por usuario. La estructura ya está en `motor/app_template.html` (bloque «Favoritos y sesiones»: `me`, `persist()`, `setMe()`), solo hay que cambiar dónde se guarda.
