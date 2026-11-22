@@ -1,0 +1,180 @@
+{
+ "id": "DOS-036",
+ "bloque": "Calentamiento",
+ "titulo": "Los cuatro cuadrados",
+ "formato": "3 equipos",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "12–15 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min (propuesta).",
+ "objetivo": "Pase, control y visión periférica, hablando para ocupar el cuadrado que se queda libre.",
+ "montaje": "Cuadrado dividido en cuatro. Tres equipos de 4 o 5, mezclados, con un balón por equipo.",
+ "juego": "Cada equipo se pasa su balón y quien pasa cambia de cuadrado. Cada equipo debe tener siempre a alguien en los cuatro. Al «¡stop!» se para y se revisa.",
+ "punto": "Cada cuadrado vacío de un equipo en el «stop», 1 punto de castigo. Gana quien menos tenga.",
+ "consigna": "Pasa y cambia; habla para tapar el cuadrado libre.",
+ "variantes": {
+  "facil": "Dos equipos y toques libres.",
+  "dificil": "Máximo dos toques o dos balones por equipo."
+ },
+ "adaptacion": "Benjamín: tres cuadrados. Alevín: cuatro cuadrados y dos toques (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego de los 4 cuadrados",
+  "ref": "Dosier de sesiones · pág. 9 (J2.3)"
+ },
+ "probado": true,
+ "completado": "Edad, tamaño de los equipos, series y castigo (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     20
+    ]
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     20,
+     10
+    ]
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     3
+    ],
+    "b": [
+     15,
+     6.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "nt": 0.75
+   },
+   {
+    "a": [
+     2.5,
+     3
+    ],
+    "b": [
+     3,
+     14.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s1": 12
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3,
+    "f": 15,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 8,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 1.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 17,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 13,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 18,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "labels": [
+   [
+    18.5,
+    21.2,
+    "PASA Y CAMBIA",
+    "end"
+   ]
+  ]
+ },
+ "top": "Los cuatro cuadrados siempre ocupados: pasar y moverse con comunicación real."
+}

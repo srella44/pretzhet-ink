@@ -1,0 +1,165 @@
+{
+ "id": "TFB25-025",
+ "bloque": "Rondos",
+ "titulo": "Cada minuto, uno más",
+ "formato": "4v2→4v5",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "24 × 24 m",
+ "duracion": "12 min",
+ "series": "2 o 3 rondas de 4 min (un minuto por fase) con 2 min de descanso.",
+ "objetivo": "Conservar mientras la oposición crece: pensar antes, dar más apoyos y jugar con menos toques.",
+ "montaje": "Cuadrado de 16 m dentro de uno de 24 m. Cuatro atacantes en los lados, dos defensores dentro y tres esperando fuera.",
+ "juego": "Empieza 4 contra 2 y cada minuto entra un defensor: 4v3, 4v4 y 4v5. Atacantes en su línea; dos toques hasta el 4v3, libres después. Robo o fuera: nuevo balón.",
+ "punto": "10 pases, 1 punto; pase entre dos defensores, 1 más. Robo, 1 para los defensores.",
+ "consigna": "Con menos espacio, menos toques.",
+ "variantes": {
+  "facil": "Termina en 4v3 o comodín dentro.",
+  "dificil": "Dos toques siempre, entradas cada 40″ o cuadrado de 12 × 12 m."
+ },
+ "adaptacion": "Alevín: termina en 4 contra 4. Infantil y cadete: las cuatro fases. Juvenil: a dos toques desde el principio.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo de 4 contra 2 a 4 contra 5: un defensor más cada minuto",
+  "ref": "25 rondos para fútbol base · pág. 36"
+ },
+ "probado": false,
+ "completado": "",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "tag": "16 × 16 m (en 24 × 24)",
+  "extent": {
+   "xmin": -5.2,
+   "xmax": 21.2,
+   "ymin": -5.2,
+   "ymax": 21.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    16,
+    0
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    16,
+    16
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     -0.9
+    ],
+    "b": [
+     5.5,
+     16.9
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "nt": 0.25
+   },
+   {
+    "a": [
+     -3.8,
+     -3.8
+    ],
+    "b": [
+     2,
+     2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s1": 4,
+    "nt": 0.6
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": -0.9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16.9,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 16.9,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 7,
+    "f": [
+     11,
+     -0.9
+    ]
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 9.5,
+    "f": [
+     11,
+     -0.9
+    ]
+   },
+   {
+    "r": "D",
+    "x": -3.8,
+    "y": -3.8,
+    "f": 45
+   },
+   {
+    "r": "D",
+    "x": 19.8,
+    "y": -3.8,
+    "f": 135,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": -3.8,
+    "y": 19.8,
+    "f": -45,
+    "ghost": true
+   }
+  ],
+  "labels": [
+   [
+    20.8,
+    20.4,
+    "ENTRA 1 CADA MINUTO",
+    "end"
+   ]
+  ]
+ },
+ "top": "Un defensor más cada minuto: la dificultad crece dentro de la misma serie, de 4v2 a 4v5."
+}

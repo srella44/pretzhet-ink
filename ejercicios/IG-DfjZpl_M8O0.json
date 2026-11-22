@@ -1,0 +1,119 @@
+{
+ "id": "IG-DfjZpl_M8O0",
+ "bloque": "Calentamiento",
+ "titulo": "La esquina vacía",
+ "formato": "3 jug.",
+ "edad": "6–8 años",
+ "nivel": "Fácil",
+ "jugadores": "3 por cuadrado",
+ "espacio": "9 × 9 m",
+ "duracion": "10 min",
+ "series": "4 × 2 min, cambiando el sentido de giro (propuesta).",
+ "objetivo": "Decidir entre pasar y conducir según si el espacio siguiente está ocupado.",
+ "montaje": "Cuatro conos en cuadrado; tres jugadores en tres esquinas y un balón.",
+ "juego": "Se sigue el recorrido en un sentido. Quien tiene el balón mira la esquina siguiente: si hay compañero, le pasa; si está vacía, conduce hasta ella. La esquina libre cambia en cada acción.",
+ "punto": "Cada vuelta completa sin error, 1 punto para el trío (propuesta).",
+ "consigna": "Mira antes de recibir: ¿hay alguien en la esquina siguiente?",
+ "variantes": {
+  "facil": "Cuadrado de 7 m y toques libres.",
+  "dificil": "Se cambia el sentido a la voz o se añade un defensor pasivo dentro (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: sentido fijo. Benjamín: cambio de sentido a la voz (propuesta).",
+ "fuente": {
+  "autor": "@touchline.tactics_ (Instagram)",
+  "titulo_original": "La esquina vacía pide conducción",
+  "ref": "Reel DfjZpl_M8O0"
+ },
+ "probado": false,
+ "completado": "Puntuación, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   9,
+   9
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 11,
+   "ymin": -2,
+   "ymax": 11
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    9,
+    0
+   ],
+   [
+    0,
+    9
+   ],
+   [
+    9,
+    9
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.8,
+     -0.8
+    ],
+    "b": [
+     9.8,
+     -0.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     9.8,
+     -0.8
+    ],
+    "b": [
+     9.8,
+     8.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 14,
+    "s1": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": -0.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.8,
+    "y": -0.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 9.8,
+    "f": -90
+   }
+  ],
+  "labels": [
+   [
+    10.6,
+    10.6,
+    "VACÍA",
+    "start"
+   ]
+  ]
+ },
+ "top": "Pasar o conducir según si la esquina siguiente está ocupada: decisión desde el calentamiento."
+}

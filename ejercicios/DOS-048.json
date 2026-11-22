@@ -1,0 +1,134 @@
+{
+ "id": "DOS-048",
+ "bloque": "Calentamiento",
+ "titulo": "Matar-paredes",
+ "formato": "parejas",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–20 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "5 min de pases por parejas + 3 rondas de juego (propuesta).",
+ "objetivo": "Pared rápida, mirar antes de pasar y velocidad de reacción.",
+ "montaje": "Parejas con un balón, todas mezcladas en el mismo cuadrado.",
+ "juego": "Primero, pases libres por parejas: mirar, pared y pase con el exterior. Después, el juego: si una pareja hace una pared alrededor de otra pareja, esa pareja queda eliminada.",
+ "punto": "Gana la última pareja que queda.",
+ "consigna": "Busca otra pareja y hazle la pared encima.",
+ "variantes": {
+  "facil": "Eliminada = pierde una vida; tres vidas (propuesta).",
+  "dificil": "Pared a un toque o devolución con el exterior obligatoria."
+ },
+ "adaptacion": "Alevín: con vidas, nadie se queda fuera. Infantil y cadete: eliminación directa (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Parejas + juego de matar-paredes",
+  "ref": "Dosier de sesiones · pág. 14 (S1.2)"
+ },
+ "probado": true,
+ "completado": "Edad y versión con vidas (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     17
+    ],
+    "b": [
+     8,
+     2.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     2.5,
+     17
+    ],
+    "b": [
+     17,
+     17
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s1": 4
+   },
+   {
+    "a": [
+     8,
+     2.5
+    ],
+    "b": [
+     17,
+     16.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s1": 4,
+    "nt": 0.3
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 17,
+    "f": -70,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2.5,
+    "f": 110
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 2.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 8.5,
+    "f": -90
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.8,
+    "PARED ALREDEDOR = ELIMINADOS"
+   ]
+  ]
+ },
+ "top": "Matar-paredes: la pared convertida en juego de eliminación entre parejas."
+}

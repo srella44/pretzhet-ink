@@ -1,0 +1,151 @@
+{
+ "id": "TFB25-016",
+ "bloque": "Rondos",
+ "titulo": "El tercer hombre vale tres",
+ "formato": "4v2",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min. Antes, enseña la combinación 2 o 3 veces sin defensores.",
+ "objetivo": "Descubrir el pase al tercer hombre: llegar al compañero tapado a través de otro.",
+ "montaje": "Cuadrado de 12 × 12 m: un atacante en cada lado y dos defensores dentro.",
+ "juego": "Rondo a tres toques. Si el de enfrente está tapado, se juega con un lado y este, de primeras, se la da al de enfrente. El entrenador canta la combinación. Quien pierde entra.",
+ "punto": "6 pases seguidos, 1 punto. Combinación de tercer hombre, 3 puntos.",
+ "consigna": "Si está tapado, búscale por otro.",
+ "variantes": {
+  "facil": "Un solo defensor o 5 contra 2.",
+  "dificil": "El último pase también de primeras o 10 × 10 m."
+ },
+ "adaptacion": "Alevín: un defensor y el tercer hombre explicado andando. Infantil y cadete: 4 contra 2 a tres toques y segundo pase de primeras.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 4 contra 2 del tercer hombre: la combinación vale tres",
+  "ref": "25 rondos para fútbol base · pág. 26"
+ },
+ "probado": false,
+ "completado": "",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2.2,
+   "ymax": 14.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    12,
+    12
+   ]
+  ],
+  "lines": [
+   [
+    [
+     6,
+     11.2
+    ],
+    [
+     6,
+     0.8
+    ],
+    "3 4"
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     12.9
+    ],
+    "b": [
+     -0.9,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     -0.9,
+     6
+    ],
+    "b": [
+     6,
+     -0.9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12.9,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12.9,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 7.6,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 3.6,
+    "f": [
+     12.9,
+     6
+    ]
+   }
+  ],
+  "labels": [
+   [
+    6.8,
+    10.4,
+    "TAPADO",
+    "start"
+   ]
+  ]
+ },
+ "top": "El tercer hombre vale tres: premia exactamente la solución que se quiere enseñar."
+}

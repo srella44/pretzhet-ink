@@ -1,0 +1,160 @@
+{
+ "id": "TFB100-003",
+ "bloque": "Calentamiento",
+ "titulo": "El color decide la portería",
+ "formato": "1 + entr.",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–10 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "2 × 4 min con 1 min de descanso; nunca más de 4 niños por fila.",
+ "objetivo": "Mirar antes de recibir y orientar el control con información que llega en el último momento.",
+ "montaje": "Miniportería en cada lado, una con cono naranja y otra con amarillo. Entrenador abajo con los balones; un jugador en el centro.",
+ "juego": "Al pasar, el entrenador levanta un color: control orientado hacia esa portería y tiro al segundo toque. No se gira hasta el pase. Recoge y vuelve a la fila.",
+ "punto": "Gol en la portería correcta, 1 punto; en la equivocada, −1.",
+ "consigna": "Mira el color: el primer toque ya decide.",
+ "variantes": {
+  "facil": "El color se levanta antes del pase.",
+  "dificil": "Pase alto, defensor pasivo que sale de la portería del color o el color indica la portería contraria."
+ },
+ "adaptacion": "Prebenjamín: color antes de pasar. Benjamín y alevín: mientras viaja el balón. Infantil: un segundo y control a un toque.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Mirar antes de recibir: el color decide la miniportería",
+  "ref": "100 tareas de fútbol base · pág. 14"
+ },
+ "probado": false,
+ "completado": "Colores adaptados al diagrama (naranja y amarillo en lugar de rojo y azul).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -4.5,
+   "xmax": 24.5,
+   "ymin": -2,
+   "ymax": 24
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    20,
+    10,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    7
+   ]
+  ],
+  "discs": [
+   [
+    20,
+    7
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     21.8
+    ],
+    "b": [
+     10,
+     12.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     10,
+     12.2
+    ],
+    "b": [
+     15,
+     9.6
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 13,
+    "s1": 4
+   },
+   {
+    "a": [
+     15.2,
+     9.6
+    ],
+    "b": [
+     20,
+     10
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 5,
+    "s1": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 10,
+    "y": 21.8,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 21.8,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 21.8,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "labels": [
+   [
+    13,
+    22.4,
+    "LEVANTA UN COLOR",
+    "start"
+   ],
+   [
+    -1,
+    4.8,
+    "NARANJA",
+    "middle"
+   ],
+   [
+    21,
+    4.8,
+    "AMARILLO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "El color que enseña el entrenador decide la miniportería: obliga a mirar antes de recibir desde el primer minuto."
+}

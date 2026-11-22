@@ -1,0 +1,135 @@
+{
+ "id": "PI-TJ-021",
+ "bloque": "Técnica y duelos",
+ "titulo": "¿La juego o la dejo salir?",
+ "formato": "1v1",
+ "edad": "6–7 años",
+ "nivel": "Normal",
+ "jugadores": "2 jug. por duelo",
+ "espacio": "9 × 6 m",
+ "duracion": "10 min",
+ "series": "Duelos cortos; se invierten los lados tras cada duelo (propuesta: 8–10 duelos por niño).",
+ "objetivo": "Decidir junto a la banda si jugar el balón antes de la línea o protegerlo y dejarlo salir.",
+ "montaje": "Duelo junto a la banda. El entrenador sirve raso y suave al atacante, pegado a la raya. El defensor sale a dos pasos, por dentro.",
+ "juego": "Quien llega primero puede mantener el balón dentro y cruzar el fondo rival, o dejarlo salir si el último toque fue del contrario. Si sale sin que nadie lo toque, se repite.",
+ "punto": "1 punto por cruzar el fondo con el balón controlado o por ganar el saque tras toque rival.",
+ "consigna": "Mira quién la tocó y cuánto le queda.",
+ "variantes": {
+  "facil": "Servicio más lejos de la raya.",
+  "dificil": "Servicio paralelo a la raya para que no se quede quieto esperando."
+ },
+ "adaptacion": "Prebenjamín: el entrenador dice «¡último toque suyo!» al principio; luego deciden solos (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "¿La juego o la dejo salir?",
+  "ref": "Ficha propia PI-TJ-021"
+ },
+ "probado": false,
+ "completado": "Series y ayuda verbal (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   9,
+   6
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 11.6,
+   "ymin": -1.5,
+   "ymax": 7.8
+  },
+  "lines": [
+   [
+    [
+     -3,
+     6
+    ],
+    [
+     11,
+     6
+    ],
+    "1 0"
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.8,
+     4.8
+    ],
+    "b": [
+     4.4,
+     5.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s1": 4,
+    "nt": 0.72
+   },
+   {
+    "a": [
+     1.4,
+     4.4
+    ],
+    "b": [
+     4,
+     5.1
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     4.6,
+     5.2
+    ],
+    "b": [
+     8.8,
+     3.8
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 2
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -1.8,
+    "y": 4.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.4,
+    "y": 4.4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 1.6,
+    "y": 2.2,
+    "f": 20
+   }
+  ],
+  "labels": [
+   [
+    4.5,
+    7.3,
+    "BANDA"
+   ],
+   [
+    10.2,
+    3,
+    "FONDO",
+    "start"
+   ]
+  ]
+ },
+ "top": "Ficha propia: decidir si jugarla o dejarla salir junto a la banda. Situación real que casi nadie entrena."
+}

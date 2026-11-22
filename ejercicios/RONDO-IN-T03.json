@@ -1,0 +1,147 @@
+{
+ "id": "RONDO-IN-T03",
+ "bloque": "Calentamiento",
+ "titulo": "Control por colores",
+ "formato": "tríos",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–18 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "3 × 3 min (propuesta); se rota de puesto cada 5 balones.",
+ "objetivo": "Orientar el primer toque con información que llega a la espalda del receptor: mirar antes de recibir.",
+ "montaje": "Tríos en línea, unos 7 m entre jugadores. A tiene el balón; B en medio; C, detrás de B, con un cono de cada color.",
+ "juego": "A pasa a B. Mientras el balón viaja, C levanta un color. B controla hacia ese lado y pasa a C. Rotación: A pasa al medio, B al fondo y C sale con el balón.",
+ "punto": "1 punto por cada control hacia el lado correcto.",
+ "consigna": "Mira el color antes de que llegue el balón.",
+ "variantes": {
+  "facil": "C dice el color en voz alta.",
+  "dificil": "C levanta el color en el último momento; control con el exterior."
+ },
+ "adaptacion": "Infantil: color en el último momento y control con el pie lejano. Para alevín, color en voz alta al principio.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Control orientado por colores (IN-T03)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 3"
+ },
+ "probado": false,
+ "completado": "Distancia entre jugadores, rotación y series (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   8
+  ],
+  "dashed": true,
+  "tag": "un trío · 25 × 20 m",
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 18.4,
+   "ymin": -2.2,
+   "ymax": 10.2
+  },
+  "cones": [
+   [
+    8,
+    0
+   ],
+   [
+    9.6,
+    0
+   ]
+  ],
+  "discs": [
+   [
+    8,
+    8
+   ],
+   [
+    9.6,
+    8
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     4
+    ],
+    "b": [
+     7,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     7,
+     4
+    ],
+    "b": [
+     10.4,
+     1.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 14,
+    "s1": 4
+   },
+   {
+    "a": [
+     10.6,
+     1.3
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "labels": [
+   [
+    8.8,
+    -0.9,
+    "LADO NARANJA"
+   ],
+   [
+    8.8,
+    9.5,
+    "LADO AMARILLO"
+   ],
+   [
+    18,
+    6.6,
+    "C ENSEÑA COLOR",
+    "end"
+   ]
+  ]
+ },
+ "top": "Control orientado decidido por un color que se levanta a la espalda del receptor: técnica con percepción real."
+}

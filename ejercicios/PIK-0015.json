@@ -1,0 +1,144 @@
+{
+ "id": "PIK-0015",
+ "bloque": "Técnica y duelos",
+ "titulo": "Atrae y rompe",
+ "formato": "2v2+1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug.",
+ "espacio": "18 × 15 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min; se cambia de sentido en cada serie.",
+ "objetivo": "Desmarque de ruptura en el momento justo: cuando el defensor sale hacia el comodín.",
+ "montaje": "Franja de recepción en un fondo y una miniportería detrás. Dos contra dos y un comodín con el que ataca.",
+ "juego": "Se conserva con el comodín. Si un atacante rompe hacia la franja y recibe allí, se puede finalizar. Quien rompe antes de que el defensor salga, no vale.",
+ "punto": "7 pases seguidos, 1 punto. Gol tras ruptura, 2 puntos (propuesta).",
+ "consigna": "Arranca cuando tu defensor sale hacia el comodín.",
+ "variantes": {
+  "facil": "Comodín con toques libres y franja más ancha.",
+  "dificil": "Recepción a un toque en la franja."
+ },
+ "adaptacion": "Alevín: franja de 4 m. Infantil: franja de 3 m y comodín a dos toques (propuesta).",
+ "fuente": {
+  "autor": "Bcoach (FIFA / England FA / FFF)",
+  "titulo_original": "2c2+1 desmarque en profundidad",
+  "ref": "library.bcoach.app"
+ },
+ "probado": false,
+ "completado": "Valor del gol y adaptaciones (propuesta).",
+ "diagrama": {
+  "field": [
+   18,
+   15
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 20.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     0,
+     18,
+     15
+    ]
+   }
+  ],
+  "goals": [
+   [
+    18,
+    7.5,
+    "R"
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     12
+    ],
+    "b": [
+     16,
+     9
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     3.5,
+     7.5
+    ],
+    "b": [
+     15.8,
+     8.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s1": 14,
+    "nt": 0.65
+   },
+   {
+    "a": [
+     8,
+     6.6
+    ],
+    "b": [
+     5.8,
+     7.1
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 2
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 3.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 1.8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.3,
+    "y": 6.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 3.5,
+    "f": 150
+   }
+  ],
+  "labels": [
+   [
+    16,
+    14.2,
+    "FRANJA"
+   ]
+  ]
+ },
+ "top": "El comodín atrae al defensor y premia la ruptura en el momento justo."
+}

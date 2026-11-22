@@ -1,0 +1,139 @@
+{
+ "id": "PI-TJ-031",
+ "bloque": "Técnica y duelos",
+ "titulo": "El pase al pie marcado",
+ "formato": "2v1",
+ "edad": "8–9 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min; se cambian las funciones en cada serie (propuesta).",
+ "objetivo": "Elegir a qué pie pasar según el marcador y rescatar con el control un balón que llega al lado presionado.",
+ "montaje": "Un pasador frente al receptor y su marcador, que sale a un brazo de él. Dos puertas de salida en lados contiguos.",
+ "juego": "El pasador elige el pie cercano o lejano del receptor. Este controla, deja cruzar o devuelve si el rival le tapa. Tras la devolución, 2 contra 1 libre.",
+ "punto": "1 punto por cruzar una puerta conduciendo. El marcador suma si corta y saca el balón por la línea del pasador.",
+ "consigna": "Antes de pasar, mira qué pie tapa el defensor.",
+ "variantes": {
+  "facil": "El marcador sale cuando se golpea el balón.",
+  "dificil": "Puertas más estrechas o pase a un toque tras la devolución (propuesta)."
+ },
+ "adaptacion": "Benjamín: tal cual. Alevín: puertas de 2 m (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El pase al pie marcado",
+  "ref": "Ficha propia PI-TJ-031"
+ },
+ "probado": false,
+ "completado": "Series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 14.4,
+   "ymin": -1.5,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    12,
+    2.2
+   ],
+   [
+    12,
+    4.6
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    10.4,
+    10
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     5
+    ],
+    "b": [
+     7.6,
+     6.3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     5.4
+    ],
+    "b": [
+     9.2,
+     10.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 2
+   },
+   {
+    "a": [
+     8,
+     5.4
+    ],
+    "b": [
+     12.6,
+     3.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 2
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 5.4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10.2,
+    "y": 7.3,
+    "f": -150
+   }
+  ],
+  "labels": [
+   [
+    13.2,
+    1.2,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    9.2,
+    11.6,
+    "PUERTA"
+   ]
+  ]
+ },
+ "top": "Ficha propia: el pasador elige el pie del receptor según el marcador. Decisión pura en un espacio mínimo."
+}

@@ -1,0 +1,160 @@
+{
+ "id": "RONDO-BJ-T02",
+ "bloque": "Calentamiento",
+ "titulo": "El aparcamiento",
+ "formato": "individual",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–16 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "4 × 2 min, unos 6 aparcamientos por serie (propuesta).",
+ "objetivo": "Conducir cerca del balón, levantar la cabeza para encontrar sitio y frenar el balón con la suela.",
+ "montaje": "Cuatro miniporterías de dos colores (los aparcamientos). Cada jugador conduce su coche: el balón.",
+ "juego": "Todos conducen libres. El míster canta un color y cada uno aparca: deja el balón parado dentro de una portería de ese color. Luego, a conducir otra vez.",
+ "punto": "1 punto a quien aparca sin chocar con nadie.",
+ "consigna": "Coche despacio y cerca: mira dónde hay sitio.",
+ "variantes": {
+  "facil": "Plazas de 2 m de ancho.",
+  "dificil": "Se aparca marcha atrás, con la suela."
+ },
+ "adaptacion": "Prebenjamín: plazas anchas y solo dos colores. Benjamín: marcha atrás en la segunda mitad.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El aparcamiento (BJ-T02)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 4"
+ },
+ "probado": false,
+ "completado": "Número de porterías y series (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -2.4,
+   "ymax": 17
+  },
+  "goals": [
+   [
+    0,
+    3.5,
+    "L"
+   ],
+   [
+    0,
+    11.5,
+    "L"
+   ],
+   [
+    20,
+    3.5,
+    "R"
+   ],
+   [
+    20,
+    11.5,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    1.6
+   ],
+   [
+    20,
+    9.6
+   ]
+  ],
+  "discs": [
+   [
+    0,
+    9.6
+   ],
+   [
+    20,
+    1.6
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.5,
+     6
+    ],
+    "b": [
+     19.4,
+     10.6
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 14,
+    "s1": 4
+   },
+   {
+    "a": [
+     6.5,
+     9
+    ],
+    "b": [
+     0.6,
+     2.6
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 14,
+    "s1": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 6,
+    "f": 35,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 9,
+    "f": -130,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3.5,
+    "f": 20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 1.5,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -1,
+    "¡NARANJA!"
+   ]
+  ]
+ },
+ "top": "El aparcamiento: conducción y frenada con un relato que los pequeños entienden al instante."
+}

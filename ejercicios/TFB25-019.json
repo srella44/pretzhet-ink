@@ -1,0 +1,182 @@
+{
+ "id": "TFB25-019",
+ "bloque": "Rondos",
+ "titulo": "Puertas centrales",
+ "formato": "4v2 · 3 eq.",
+ "edad": "10–18 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "36 × 18 m",
+ "duracion": "16 min",
+ "series": "3 × 4 min, para que cada equipo defienda una vez.",
+ "objetivo": "Conservar en el 4 contra 2 y, cuando el rondo está estable, cambiar de mitad por una puerta central.",
+ "montaje": "Dos mitades con dos puertas de 3 m en la línea central. Azules en una mitad, amarillos en la otra y una pareja roja en cada una.",
+ "juego": "4 contra 2 a dos toques. Tras 4 pases seguidos se cambia de mitad con pase raso por una puerta y empieza el otro 4 contra 2. Quien pierde o la manda fuera, defiende.",
+ "punto": "Cada cambio de mitad por una puerta, 1 punto.",
+ "consigna": "Mueve primero, cambia después.",
+ "variantes": {
+  "facil": "Toques libres, 3 pases o puertas más anchas.",
+  "dificil": "Un toque dentro, una sola puerta o 6 pases."
+ },
+ "adaptacion": "Alevín: puertas de 4 m y tres toques. Infantil a juvenil: puertas de 3 m y dos toques.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 4 contra 2 con tres equipos y pase por las puertas centrales",
+  "ref": "25 rondos para fútbol base · pág. 29"
+ },
+ "probado": false,
+ "completado": "",
+ "diagrama": {
+  "field": [
+   36,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 38,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     18
+    ]
+   ]
+  ],
+  "discs": [
+   [
+    18,
+    3
+   ],
+   [
+    18,
+    6
+   ],
+   [
+    18,
+    12
+   ],
+   [
+    18,
+    15
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     15.5
+    ],
+    "b": [
+     13.5,
+     15.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     13.5,
+     15.5
+    ],
+    "b": [
+     24,
+     10.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 2.5,
+    "y": 15.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 13.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13.5,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33.5,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 13.5,
+    "f": 180
+   }
+  ],
+  "labels": [
+   [
+    18,
+    -0.8,
+    "PUERTAS"
+   ]
+  ]
+ },
+ "top": "Tres equipos y pase por las puertas centrales: rondo con cambio de orientación y transición."
+}

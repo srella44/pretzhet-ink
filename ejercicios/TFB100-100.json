@@ -1,0 +1,164 @@
+{
+ "id": "TFB100-100",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito que acaba en duelo",
+ "formato": "1v1+P",
+ "edad": "12–18 años",
+ "nivel": "Alto",
+ "jugadores": "7–14 jug.",
+ "espacio": "40 × 35 m",
+ "duracion": "18 min",
+ "series": "3 × 6 min con 1 min 30″ de descanso; el apoyo cambia de banda en cada serie.",
+ "objetivo": "Llegar al 1 contra 1 tras una secuencia técnica rápida y ganarlo: el circuito acaba en situación real.",
+ "montaje": "Portería grande con portero. Fila de atacantes con balones, una pica, un apoyo en la banda y fila de defensores junto al poste.",
+ "juego": "El atacante regatea la pica y hace pared con el apoyo. Con la devolución sale el defensor: 1 contra 1 hasta tiro, robo o fuera. 6″ para tirar. Rotación: atacante, defensor, apoyo.",
+ "punto": "Gol, 1 punto. Robo y salida conduciendo por la línea de inicio, 1 punto para el defensor.",
+ "consigna": "Pasa, ataca el espacio y encara rápido.",
+ "variantes": {
+  "facil": "El defensor sale 1″ más tarde o solo tapa.",
+  "dificil": "Defensor más cerca o 4″ para tirar."
+ },
+ "adaptacion": "Infantil: el defensor sale 1″ tarde. Cadete: sale con la devolución. Juvenil: más cerca y 4″ para tirar.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Circuito que termina en duelo: regate a la pica, pared y 1 contra 1 ante el defensor que sale",
+  "ref": "100 tareas de fútbol base · pág. 120"
+ },
+ "probado": false,
+ "completado": "Campo dibujado en horizontal.",
+ "diagrama": {
+  "field": [
+   40,
+   35
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 44,
+   "ymin": -2,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    11,
+    28
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     29
+    ],
+    "b": [
+     18,
+     25.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 14,
+    "s1": 4
+   },
+   {
+    "a": [
+     18,
+     25.5
+    ],
+    "b": [
+     25,
+     33
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 4
+   },
+   {
+    "a": [
+     25,
+     33
+    ],
+    "b": [
+     27,
+     20.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1
+   },
+   {
+    "a": [
+     36,
+     6
+    ],
+    "b": [
+     31,
+     16
+    ],
+    "k": "run",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 29,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 19.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 6,
+    "f": 120
+   },
+   {
+    "r": "D",
+    "x": 29.5,
+    "y": 1,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "labels": [
+   [
+    3,
+    35.6,
+    "FILA"
+   ],
+   [
+    28.5,
+    34.2,
+    "APOYO",
+    "start"
+   ]
+  ]
+ },
+ "top": "Circuito que acaba en 1 contra 1 real: técnica previa y duelo con defensor que sale tarde."
+}

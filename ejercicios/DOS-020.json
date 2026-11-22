@@ -1,0 +1,163 @@
+{
+ "id": "DOS-020",
+ "bloque": "Técnica y duelos",
+ "titulo": "1 contra 1 tras conducción",
+ "formato": "1v1",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "Parejas",
+ "espacio": "20 × 15 m",
+ "duracion": "20 min",
+ "series": "5 × 3 min; se cambia de papel en cada acción (propuesta).",
+ "objetivo": "Decidir en carrera y finalizar con un perseguidor encima.",
+ "montaje": "Dos puertas de colores a la salida y dos miniporterías al fondo.",
+ "juego": "A pasa a B. B se gira y sale conduciendo por la puerta del color que elija. A le persigue entrando por la puerta del otro color. Al encontrarse, 1 contra 1: B intenta marcar.",
+ "punto": "Gol, 1 punto. Robo del defensor, 1 punto (propuesta).",
+ "consigna": "Mira siempre y conduce a máxima velocidad.",
+ "variantes": {
+  "facil": "A sale un segundo más tarde.",
+  "dificil": "Cambiar el recorrido o puertas más cerca de la salida del defensor."
+ },
+ "adaptacion": "Benjamín: A sale tras una palmada del entrenador. Alevín: A sale con el control (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "1v1 tras conducción",
+  "ref": "Dosier de sesiones · pág. 5 (J1.4)"
+ },
+ "probado": true,
+ "completado": "Edad, series y punto del defensor (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 23,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "goals": [
+   [
+    20,
+    4,
+    "R"
+   ],
+   [
+    20,
+    11,
+    "R"
+   ]
+  ],
+  "discs": [
+   [
+    5.5,
+    3
+   ],
+   [
+    5.5,
+    5.4
+   ]
+  ],
+  "cones": [
+   [
+    5.5,
+    9.6
+   ],
+   [
+    5.5,
+    12
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     -3,
+     7.5
+    ],
+    "b": [
+     2.4,
+     7.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     2.4,
+     7.5
+    ],
+    "b": [
+     9,
+     3.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 13,
+    "s1": 4
+   },
+   {
+    "a": [
+     -3,
+     8.4
+    ],
+    "b": [
+     9.5,
+     12.2
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     9.6,
+     3.4
+    ],
+    "b": [
+     20,
+     4
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": -3,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.4,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "labels": [
+   [
+    5.5,
+    1.4,
+    "AMARILLA"
+   ],
+   [
+    5.5,
+    14.2,
+    "NARANJA"
+   ]
+  ]
+ },
+ "top": "Puertas de colores y persecución: decidir en carrera y finalizar con presión."
+}

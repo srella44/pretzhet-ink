@@ -1,0 +1,173 @@
+{
+ "id": "RONDO-AL-T02",
+ "bloque": "Calentamiento",
+ "titulo": "Las puertas de colores",
+ "formato": "individual",
+ "edad": "10–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "5 × 60″ con 45″ de descanso (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada y las dos piernas, buscando puertas libres entre compañeros.",
+ "montaje": "Cuadrado con 8 puertas de conos de dos colores, de 1,5 m. Cada jugador con un balón.",
+ "juego": "En 60″, cada uno pasa conduciendo por el máximo de puertas. No vale repetir la misma dos veces seguidas ni chocar con nadie.",
+ "punto": "Cada puerta, 1 punto. Cada uno intenta batir su récord en la serie siguiente.",
+ "consigna": "Cabeza arriba: busca la puerta libre.",
+ "variantes": {
+  "facil": "Puertas de 2 m.",
+  "dificil": "Cambio de pie después de cada puerta, o solo vale el color que se cante."
+ },
+ "adaptacion": "Benjamín: puertas de 2 m y 45″. Alevín: puertas de 1,5 m y cambio de pie.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Las puertas de colores (AL-T02)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 6"
+ },
+ "probado": false,
+ "completado": "Anchura de las puertas en el montaje y series (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    15,
+    4
+   ],
+   [
+    17,
+    4
+   ],
+   [
+    15,
+    16
+   ],
+   [
+    17,
+    16
+   ],
+   [
+    3,
+    16
+   ],
+   [
+    5,
+    16
+   ]
+  ],
+  "discs": [
+   [
+    10,
+    2
+   ],
+   [
+    10,
+    4
+   ],
+   [
+    17,
+    9
+   ],
+   [
+    17,
+    11
+   ],
+   [
+    10,
+    16
+   ],
+   [
+    10,
+    18
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    3,
+    11
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     7.5
+    ],
+    "b": [
+     10,
+     1.6
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     10.4,
+     1.4
+    ],
+    "b": [
+     16.4,
+     6.2
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 7.5,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 13.5,
+    "f": 160,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 14,
+    "f": -20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 8,
+    "f": 60,
+    "ball": true
+   }
+  ],
+  "labels": []
+ },
+ "top": "Puertas de colores contra el propio récord: muchas repeticiones, cabeza alta y cero esperas."
+}

@@ -143,12 +143,19 @@ def css(bc):
     base = open(os.path.join(ROOT, 'motor', 'page_base.css')).read()
     return base.replace('BC', '#' + bc).replace('BT', t)
 
+def h1_style(block):
+    """Nombres de bloque largos: reduce el cuerpo (o pasa a dos líneas) para no pisar el texto de cabecera."""
+    n = len(block)
+    if n <= 10: return ''
+    if n <= 16: return f' style="font-size:{36 * 10 / n:.1f}pt"'
+    return ' style="font-size:19pt;width:60mm;line-height:1.05"'
+
 def book_page(exs, block, kicker_b, kicker, page_no, start_n=1):
     bc = BLOCKS[block]
     logo = base64.b64encode(open(os.path.join(ROOT, 'motor', 'logo.png'), 'rb').read()).decode()
     cards = ''.join(book_card(e, start_n + i) for i, e in enumerate(exs))
     return f'''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><style>{css(bc)}</style></head><body>
-<div class="top"><div class="pitch"></div><div class="logo"><img src="data:image/png;base64,{logo}"></div><h1>{block.upper()}</h1>
+<div class="top"><div class="pitch"></div><div class="logo"><img src="data:image/png;base64,{logo}"></div><h1{h1_style(block)}>{block.upper()}</h1>
 <div class="kick"><b>{kicker_b}</b>{kicker}</div></div><div class="dash"></div>
 <main class="grid">{cards}</main>{LEG}
 <div class="foot"><span>PRÈTZHÈT INK · BANCO PERSONAL DE EJERCICIOS</span><span class="pg">{page_no:03d}</span></div></body></html>'''

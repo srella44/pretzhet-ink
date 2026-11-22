@@ -1,0 +1,145 @@
+{
+ "id": "DOS-003",
+ "bloque": "Técnica y duelos",
+ "titulo": "Control y salida por puerta",
+ "formato": "1v1",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "Parejas",
+ "espacio": "8 × 8 m",
+ "duracion": "20 min",
+ "series": "6 × 2 min; se cambia de papel en cada acción (propuesta).",
+ "objetivo": "Controlar orientado, conducir rápido y elegir puerta ante un defensor que llega tarde.",
+ "montaje": "Cuadrado de 8 × 8 m. Puerta central en un fondo y dos puertas de conos en el fondo contrario.",
+ "juego": "A pasa a B. B controla a través de la puerta central y sale conduciendo por una de las dos puertas. A, antes de defender, tiene que pasar por la otra puerta: llega con retraso.",
+ "punto": "Atacante: 1 punto si sale conduciendo por una puerta. Defensor: 1 punto si roba (propuesta).",
+ "consigna": "Controla hacia donde vas a salir y conduce rápido.",
+ "variantes": {
+  "facil": "Puertas más anchas o defensor que sale andando.",
+  "dificil": "Cuadrado de 6 × 8 m o el defensor elige su puerta (propuesta)."
+ },
+ "adaptacion": "Benjamín: puertas anchas. Alevín: 8 × 8 m y control con el pie lejano (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego de aplicación conducción",
+  "ref": "Dosier de sesiones · pág. 2 (J1.1)"
+ },
+ "probado": true,
+ "completado": "Edad, series y punto del defensor (propuesta).",
+ "diagrama": {
+  "field": [
+   8,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 10.4,
+   "ymin": -2.4,
+   "ymax": 10.4
+  },
+  "cones": [
+   [
+    3.3,
+    0.8
+   ],
+   [
+    4.7,
+    0.8
+   ]
+  ],
+  "discs": [
+   [
+    0.8,
+    6.4
+   ],
+   [
+    2.4,
+    6.4
+   ],
+   [
+    5.6,
+    6.4
+   ],
+   [
+    7.2,
+    6.4
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     9.2
+    ],
+    "b": [
+     4,
+     -1.1
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     4,
+     0.4
+    ],
+    "b": [
+     1.6,
+     7.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 2
+   },
+   {
+    "a": [
+     5,
+     9.4
+    ],
+    "b": [
+     6.4,
+     4.4
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 2
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 4,
+    "y": 9.2,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": -1.1,
+    "f": 90
+   }
+  ],
+  "labels": [
+   [
+    8.9,
+    6.7,
+    "SALIDAS",
+    "start"
+   ],
+   [
+    5.4,
+    0.3,
+    "CENTRAL",
+    "start"
+   ]
+  ]
+ },
+ "top": "El defensor debe pasar por la portería contraria antes de defender: llega tarde y obliga al atacante a decidir rápido."
+}

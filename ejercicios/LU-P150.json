@@ -1,0 +1,161 @@
+{
+ "id": "LU-P150",
+ "bloque": "Rondos",
+ "titulo": "Rondo en dos zonas",
+ "formato": "3v3+3+C",
+ "edad": "12–16 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "20 × 18 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Conservar y cambiar de zona; al defender, cerrar líneas de pase y anticiparse.",
+ "montaje": "Dos zonas de 10 × 18 m, un equipo de tres en cada una y el tercero defendiendo. Un comodín siempre en la zona del balón.",
+ "juego": "En la zona del balón, 4 contra 2: un defensor se queda en la otra zona. El balón puede pasar de zona libremente; el comodín y los defensores se recolocan. A dos toques. Tras robo, cambian de papel.",
+ "punto": "Cada cambio de zona completado, 1 punto (propuesta).",
+ "consigna": "Antes de cambiar de zona, mira al defensor que espera.",
+ "variantes": {
+  "facil": "Toques libres en la zona del balón.",
+  "dificil": "Cambio de zona solo tras 4 pases o a un toque (propuesta)."
+ },
+ "adaptacion": "Infantil: zonas de 12 × 18 m. Cadete y juvenil: tal cual, a dos toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Rondo 3vs3+3+C · cambios de rol · posesión",
+  "ref": "300 ejercicios Level Up Coach · pág. 150"
+ },
+ "probado": false,
+ "completado": "Edad, series, puntuación y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     18
+    ]
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     3
+    ],
+    "b": [
+     8.5,
+     3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     8.5,
+     3
+    ],
+    "b": [
+     14,
+     15.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     8.5,
+     15.5
+    ],
+    "b": [
+     13.5,
+     11
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s1": 10
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8.5,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 3.5,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 6.5,
+    "f": -135
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 15.5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 5.5,
+    "f": 180
+   }
+  ],
+  "labels": []
+ },
+ "top": "Un defensor se queda en la otra zona y el comodín sigue al balón: 4v2 con cambio de zona."
+}

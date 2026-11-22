@@ -1,0 +1,156 @@
+{
+ "id": "DOS-039",
+ "bloque": "Técnica y duelos",
+ "titulo": "Robar y conservar",
+ "formato": "eq. v eq.",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–16 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "20 min",
+ "series": "Una serie por equipo y se cambian los papeles; 3 rondas (propuesta).",
+ "objetivo": "Proteger el balón en conducción y robar con visión periférica.",
+ "montaje": "Dos equipos iguales: uno con un balón por jugador; el otro, sin balón. Dos porterías en los fondos.",
+ "juego": "Los que roban intentan quitar balones y llevarlos conduciendo a una portería. Quien pierde el suyo ayuda a los compañeros que aún lo tienen: acaba siendo casi una conservación.",
+ "punto": "Se cronometra: gana el equipo que roba y mete todos los balones en menos tiempo.",
+ "consigna": "Si pierdes el tuyo, ayuda: ofrécete.",
+ "variantes": {
+  "facil": "Menos ladrones que conductores.",
+  "dificil": "Un ladrón más o campo más pequeño."
+ },
+ "adaptacion": "Benjamín: tope de 90″ por serie. Alevín: ladrones con un jugador más (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Robar y conservar",
+  "ref": "Dosier de sesiones · pág. 10 (J2.4)"
+ },
+ "probado": true,
+ "completado": "Edad y tope de tiempo (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    25,
+    10,
+    "R"
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     2.5
+    ],
+    "b": [
+     5.5,
+     5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 13,
+    "s1": 11
+   },
+   {
+    "a": [
+     16.5,
+     11
+    ],
+    "b": [
+     24.6,
+     10
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 14,
+    "s1": 4
+   },
+   {
+    "a": [
+     6,
+     16.5
+    ],
+    "b": [
+     14,
+     18
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 13,
+    "s1": 13
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16.5,
+    "f": 10,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 16.5,
+    "f": 180
+   }
+  ],
+  "labels": []
+ },
+ "top": "Robar y conservar: protección y robo con todo el grupo, que acaba en conservación."
+}

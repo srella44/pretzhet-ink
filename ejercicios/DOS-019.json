@@ -1,0 +1,225 @@
+{
+ "id": "DOS-019",
+ "bloque": "Calentamiento",
+ "titulo": "Juego de las casas",
+ "formato": "4 equipos",
+ "edad": "6–10 años",
+ "nivel": "Fácil",
+ "jugadores": "8–20 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "Series de 1 min con 1 min de descanso.",
+ "objetivo": "Conducir con la cabeza levantada entre muchos jugadores y entrar a robar el balón que otro conduce.",
+ "montaje": "En el centro, una base con muchos balones. En cada esquina, una casa de conos por equipo.",
+ "juego": "A la señal, cada equipo lleva en conducción todos los balones que pueda a su casa, de uno en uno. Vacía la base, se roba en las otras casas (propuesta). Serie de 1 min.",
+ "punto": "Gana el equipo con más balones en casa al final de la serie.",
+ "consigna": "Mira dónde hay balones libres antes de salir.",
+ "variantes": {
+  "facil": "Sin robo: solo la base.",
+  "dificil": "Se puede quitar el balón a quien conduce (propuesta) o conducir solo con la pierna menos hábil."
+ },
+ "adaptacion": "Prebenjamín: sin robo en las casas. Benjamín: robo en casas y a quien conduce (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego de las casas",
+  "ref": "Dosier de sesiones · pág. 5 (J1.4)"
+ },
+ "probado": true,
+ "completado": "Edad, robo en las otras casas y duración de la serie (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     4,
+     4
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     16,
+     0,
+     20,
+     4
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     16,
+     4,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     16,
+     16,
+     20,
+     20
+    ]
+   },
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 10,
+    "r": 2.2
+   }
+  ],
+  "cones": [
+   [
+    4,
+    0
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    16,
+    0
+   ],
+   [
+    16,
+    4
+   ],
+   [
+    20,
+    4
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    4,
+    16
+   ],
+   [
+    4,
+    20
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    20,
+    16
+   ]
+  ],
+  "balls": [
+   [
+    9.3,
+    9.4
+   ],
+   [
+    10.7,
+    9.4
+   ],
+   [
+    10,
+    10.6
+   ],
+   [
+    9,
+    10.9
+   ],
+   [
+    11,
+    10.9
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.6,
+     6.6
+    ],
+    "b": [
+     2.4,
+     2.4
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 14,
+    "s1": 3
+   },
+   {
+    "a": [
+     16.5,
+     16.5
+    ],
+    "b": [
+     11.6,
+     11.6
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s1": 8
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.6,
+    "y": 6.6,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 6,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 14,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 16.5,
+    "y": 16.5,
+    "f": -135
+   }
+  ],
+  "labels": [
+   [
+    10,
+    13.6,
+    "BASE"
+   ]
+  ]
+ },
+ "top": "Juego de las casas: conducción y visión con todo el grupo activo."
+}

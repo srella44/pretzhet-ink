@@ -1,0 +1,308 @@
+{
+ "id": "DOS-010",
+ "bloque": "Técnica y duelos",
+ "titulo": "Divisiones",
+ "formato": "1v1 · 2v2",
+ "edad": "8–12 años",
+ "nivel": "Normal",
+ "jugadores": "8–16 jug.",
+ "espacio": "3–4 campos de 15 × 10 m",
+ "duracion": "20 min",
+ "series": "Duelos de 1–2 min; 8 a 10 duelos (propuesta).",
+ "objetivo": "Regatear para romper la igualdad y, en 2 contra 2, saber cuándo pasar para crear un 2 contra 1.",
+ "montaje": "Tres o cuatro campitos en fila con miniporterías: el primero es la 1.ª división; el último, la 3.ª.",
+ "juego": "Duelos 1 contra 1 (o 2 contra 2) de 1–2 min. Quien gana sube de campo y quien pierde baja. En empate gana quien marcó primero (propuesta); a 0-0, la división de arriba se queda.",
+ "punto": "Se sube o se baja de división según el resultado de cada duelo.",
+ "consigna": "Si estás solo, regatea; si tu compañero está libre, crea el 2 contra 1.",
+ "variantes": {
+  "facil": "Campos más anchos.",
+  "dificil": "Gol solo tras regate o tras pase entre los dos en 2 contra 2."
+ },
+ "adaptacion": "Benjamín: 1 contra 1. Alevín: alterna 1 contra 1 y 2 contra 2 (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Divisiones",
+  "ref": "Dosier de sesiones · pág. 3 (J1.2)"
+ },
+ "probado": true,
+ "completado": "Edad, duración de los duelos y desempate (propuesta).",
+ "diagrama": {
+  "field": [
+   51,
+   10
+  ],
+  "nofield": true,
+  "tag": "3 campos de 15 × 10 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 52.5,
+   "ymin": -3.6,
+   "ymax": 11.2
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     15,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     15,
+     10
+    ],
+    [
+     0,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     18,
+     0
+    ],
+    [
+     33,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     33,
+     0
+    ],
+    [
+     33,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     33,
+     10
+    ],
+    [
+     18,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     18,
+     10
+    ],
+    [
+     18,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     36,
+     0
+    ],
+    [
+     51,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     51,
+     0
+    ],
+    [
+     51,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     51,
+     10
+    ],
+    [
+     36,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     36,
+     10
+    ],
+    [
+     36,
+     0
+    ],
+    "1 0"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    15,
+    5,
+    "R"
+   ],
+   [
+    18,
+    5,
+    "L"
+   ],
+   [
+    33,
+    5,
+    "R"
+   ],
+   [
+    36,
+    5,
+    "L"
+   ],
+   [
+    51,
+    5,
+    "R"
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     28.5,
+     -1.6
+    ],
+    "b": [
+     11,
+     -1.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     40.5,
+     -1.6
+    ],
+    "b": [
+     23.5,
+     -1.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 46,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    9.0,
+    "1.ª"
+   ],
+   [
+    25.5,
+    9.0,
+    "2.ª"
+   ],
+   [
+    43.5,
+    9.0,
+    "3.ª"
+   ],
+   [
+    19.8,
+    -2.4,
+    "SUBE QUIEN GANA"
+   ],
+   [
+    32,
+    -2.4,
+    "SUBE"
+   ]
+  ]
+ },
+ "top": "Formato divisiones: muchísimos duelos, motivación y nadie eliminado."
+}

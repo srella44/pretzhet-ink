@@ -1,0 +1,183 @@
+{
+ "id": "TFB100-029",
+ "bloque": "Rondos",
+ "titulo": "Rondo por zonas a portería",
+ "formato": "5v1·5v2",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "11–14 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "18 min",
+ "series": "4 series de 3 ataques por grupo con 1 min de descanso.",
+ "objetivo": "Hacer avanzar el balón zona a zona contra cada vez más oposición, hasta atacar con portero.",
+ "montaje": "Tres zonas a lo largo con portería y portero. Defensores fijos: 1 en la 1.ª zona, 2 en la 2.ª y 2 en la 3.ª. Cinco atacantes en la 1.ª.",
+ "juego": "5 contra 1; tras 4 pases, uno entra a recibir en la zona siguiente y suben todos: 5 contra 2. Igual a la 3.ª zona: 5 contra 2 y portero, 10″ para tirar. Robo: a la línea de inicio.",
+ "punto": "Gol, 3. Llegar a la 3.ª zona, 1. Robo llevado al fondo, 2 para los defensores.",
+ "consigna": "Atrae, supera la zona y sube.",
+ "variantes": {
+  "facil": "3 pases por zona y un defensor menos en la 2.ª.",
+  "dificil": "Dos toques, 20″ hasta el tiro o el defensor de atrás persigue."
+ },
+ "adaptacion": "Alevín: un defensor por zona. Infantil: como la ficha. Cadete y juvenil: los defensores pueden bajar a la zona siguiente.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo por zonas hacia portería: cada zona, un defensor más",
+  "ref": "100 tareas de fútbol base · pág. 42"
+ },
+ "probado": false,
+ "completado": "Campo dibujado en horizontal.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 54,
+   "ymin": -5.5,
+   "ymax": 42
+  },
+  "lines": [
+   [
+    [
+     17,
+     0
+    ],
+    [
+     17,
+     40
+    ]
+   ],
+   [
+    [
+     33.5,
+     0
+    ],
+    [
+     33.5,
+     40
+    ]
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14.5,
+     22
+    ],
+    "b": [
+     25,
+     20.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     36.5
+    ],
+    "b": [
+     25,
+     21
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3.5,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 36.5,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 41,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 41,
+    "y": 27,
+    "f": 180
+   }
+  ],
+  "labels": [
+   [
+    8.5,
+    -2.2,
+    "5 v 1"
+   ],
+   [
+    25.2,
+    -2.2,
+    "5 v 2"
+   ],
+   [
+    41.7,
+    -2.2,
+    "5 v 2 + P"
+   ]
+  ]
+ },
+ "top": "Rondo que avanza por zonas hacia portería con un defensor más en cada zona: conecta conservar con finalizar."
+}
