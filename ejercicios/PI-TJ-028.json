@@ -1,0 +1,151 @@
+{
+ "id": "PI-TJ-028",
+ "bloque": "Balón parado",
+ "titulo": "El saque que nadie toca",
+ "formato": "2v2",
+ "edad": "8–9 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug.",
+ "espacio": "18 × 13 m",
+ "duracion": "12 min",
+ "series": "4 series de 6 saques, alternando pareja (propuesta).",
+ "objetivo": "Mantener una segunda opción legal tras un saque de banda largo que todavía nadie ha tocado.",
+ "montaje": "18 × 13 m en campo rival. Saque de banda para una pareja; dos defensores protegen la línea de fondo.",
+ "juego": "El sacador elige al pie o al espacio. Si nadie toca el balón, él no puede volver a jugarlo: su compañero persigue el bote mientras un defensor le cierra el paso.",
+ "punto": "Llegar con el balón controlado al fondo, 1. Los defensores suman si roban y dan un pase. Alternan saques.",
+ "consigna": "Sigue la pelota sin tocarla hasta que la juegue otro.",
+ "variantes": {
+  "facil": "Un solo defensor y saques más bajos (propuesta).",
+  "dificil": "Se suma un tercer atacante que solo entra tras el primer toque, o 6 s para llegar al fondo (propuesta)."
+ },
+ "adaptacion": "Si hay choques en el bote, empieza con saques más bajos y separa las salidas.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El saque que nadie toca",
+  "ref": "Ficha propia PI-TJ-028 (ORI-0146)"
+ },
+ "top": "Ficha propia: saque de banda con la regla del balón que nadie toca. Reglamento convertido en ventaja.",
+ "probado": false,
+ "completado": "Diagrama recortado al pasillo del saque. Series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   18,
+   9
+  ],
+  "tag": "18 × 13 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 19,
+   "ymin": -2.6,
+   "ymax": 10.6
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     16,
+     0,
+     18,
+     9
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": -1,
+    "f": 40,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13.5,
+    "y": 2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     -1
+    ],
+    "b": [
+     12.5,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     4.5
+    ],
+    "b": [
+     11.5,
+     5.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     2.5,
+     -1
+    ],
+    "b": [
+     8,
+     -1.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 3,
+    "n": 3
+   },
+   {
+    "a": [
+     9,
+     7.5
+    ],
+    "b": [
+     11.5,
+     6.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    17,
+    10,
+    "FONDO",
+    "middle"
+   ]
+  ]
+ }
+}

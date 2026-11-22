@@ -1,0 +1,196 @@
+{
+ "id": "PI-TP-011",
+ "bloque": "Porteros",
+ "titulo": "¿Quién cubre mi portería?",
+ "formato": "2v2 + PT",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "4 jug. + PT",
+ "espacio": "30 × 22 m",
+ "duracion": "15 min",
+ "series": "3 series de 6 envíos, alternando la diagonal (propuesta).",
+ "objetivo": "Coordinar la salida del portero fuera del área con la cobertura de la portería por un defensor.",
+ "montaje": "30 × 22 m con portería. 2 defensores y 2 atacantes; el portero empieza adelantado. El entrenador sirve a la espalda en diagonal.",
+ "juego": "Si el portero sale con el pie fuera del área, el defensor lejano cubre la línea de gol y el cercano da apoyo. Si espera, siguen en sus marcas.",
+ "punto": "Gol, 1. La defensa suma si sale con balón por el otro lado.",
+ "consigna": "Antes de salir, mira quién cubrirá tu portería.",
+ "variantes": {
+  "facil": "Un solo atacante y envíos más cortos (propuesta).",
+  "dificil": "Tres atacantes, o el ataque sigue tras cualquier despeje (propuesta)."
+ },
+ "adaptacion": "Si coinciden en la carrera, acorta el envío y para antes del contacto. Fuera del área, solo pies.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "¿Quién cubre mi portería?",
+  "ref": "Ficha propia PI-TP-011 (ORI-0186)"
+ },
+ "top": "Ficha propia: quién cubre la portería cuando el portero sale lejos. Coordinación con la defensa.",
+ "probado": false,
+ "completado": "Series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1.5,
+   "ymax": 23.4
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     7,
+     0
+    ],
+    [
+     7,
+     7
+    ],
+    "6 5"
+   ],
+   [
+    [
+     7,
+     7
+    ],
+    [
+     23,
+     7
+    ],
+    "6 5"
+   ],
+   [
+    [
+     23,
+     7
+    ],
+    [
+     23,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 15,
+    "y": 4.5,
+    "f": 60
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 20.5,
+    "f": -40,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 14,
+    "f": -60
+   },
+   {
+    "r": "D",
+    "x": 19.5,
+    "y": 13,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 16,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 15.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     20.5
+    ],
+    "b": [
+     24.5,
+     9.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     15,
+     4.5
+    ],
+    "b": [
+     22.5,
+     8.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     14
+    ],
+    "b": [
+     14.5,
+     2.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     26,
+     15.5
+    ],
+    "b": [
+     26,
+     11.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    5,
+    22.6,
+    "ENTRENADOR",
+    "start"
+   ]
+  ]
+ }
+}

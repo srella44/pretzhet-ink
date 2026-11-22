@@ -6,11 +6,12 @@ import diagram_core as dc
 from diagram_core import D, ang, YEL, BLU, RED, NAVY, CORAL, RUN, COND
 
 WHITE = '#f4f4f4'
-ROLE = {'A': YEL, 'D': BLU, 'B': RED, 'C': WHITE}
+GK = '#2ecc71'
+ROLE = {'A': YEL, 'D': BLU, 'B': RED, 'C': WHITE, 'G': GK}
 _orig_player = D.player
 def _player(self, x, y, face, color, ghost=False):
     X, Y = self.p(x, y)
-    dark = {YEL: '#3a2a00', BLU: '#0b1b4a', RED: '#4a0d0a', WHITE: '#333333'}[color]
+    dark = {YEL: '#3a2a00', BLU: '#0b1b4a', RED: '#4a0d0a', WHITE: '#333333', GK: '#0b3d20'}[color]
     op = ' opacity=".42"' if ghost else ''
     self.top.append(f'<g transform="translate({X:.1f},{Y:.1f}) rotate({face+90})"{op}>'
         f'<ellipse cx="0" cy="0" rx="12" ry="7" fill="{color}" stroke="{dark}" stroke-width="1.8"/>'
@@ -141,7 +142,13 @@ LEG = '''<footer class="legend">
 def css(bc):
     t = ink(bc)
     base = open(os.path.join(ROOT, 'motor', 'page_base.css')).read()
-    return base.replace('BC', '#' + bc).replace('BT', t)
+    return base.replace('BA', '#' + accent(bc)).replace('BC', '#' + bc).replace('BT', t)
+
+def accent(hexc):
+    """Color de bloque legible sobre el azul marino (cabecera y etiqueta de formato): aclara los bloques muy oscuros."""
+    r, g, b = int(hexc[:2], 16), int(hexc[2:4], 16), int(hexc[4:], 16)
+    if 0.299*r + 0.587*g + 0.114*b >= 60: return hexc
+    return ''.join(f'{int(c + (255 - c) * .62):02X}' for c in (r, g, b))
 
 def h1_style(block):
     """Nombres de bloque largos: reduce el cuerpo (o pasa a dos líneas) para no pisar el texto de cabecera."""

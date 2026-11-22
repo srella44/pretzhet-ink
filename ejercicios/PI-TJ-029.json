@@ -1,0 +1,162 @@
+{
+ "id": "PI-TJ-029",
+ "bloque": "Balón parado",
+ "titulo": "El córner que vuelve",
+ "formato": "3v3 + PT",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + PT",
+ "espacio": "23 × 18 m",
+ "duracion": "15 min",
+ "series": "3 series de 6 córners, alternando lado y lanzador (propuesta).",
+ "objetivo": "Habilitar al lanzador tras un córner corto: coordinar su vuelta al campo con el momento de devolverle el balón.",
+ "montaje": "23 × 18 m ante portería con portero. 3 atacantes contra 3 defensores. Córner corto: un apoyo cerca y otro en el área.",
+ "juego": "El apoyo recibe y gira o devuelve. Hay fuera de juego en la devolución: el lanzador debe volver antes a posición legal. La defensa sale al apoyo o guarda el área.",
+ "punto": "Gol, 1. La defensa suma si saca el balón por la línea del fondo. Alterna lanzador y lado.",
+ "consigna": "El saque y la devolución van en tiempos distintos.",
+ "variantes": {
+  "facil": "Defensa de 2 jugadores, o sin fuera de juego en la primera serie (propuesta).",
+  "dificil": "4 contra 4 con un segundo apoyo en la frontal, o 6 s para terminar (propuesta)."
+ },
+ "adaptacion": "Si cuesta ver la posición legal, un entrenador se coloca a la altura del penúltimo defensor. Adaptar al reglamento de la categoría.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El córner que vuelve al lanzador",
+  "ref": "Ficha propia PI-TJ-029 (ORI-0145)"
+ },
+ "top": "Ficha propia: córner corto que vuelve al lanzador cuidando la posición legal.",
+ "probado": false,
+ "completado": "Diagrama recortado a la zona de remate (fondo fuera de la imagen). Línea de puntuación defensiva situada en el fondo del campo; series y variantes (propuesta). Sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   23,
+   10
+  ],
+  "tag": "23 × 18 m",
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 24,
+   "ymin": -1.6,
+   "ymax": 11.8
+  },
+  "porterias": [
+   {
+    "x": 11.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 0.6,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 4,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6.5,
+    "f": -120
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 3.2,
+    "f": -150
+   },
+   {
+    "r": "D",
+    "x": 18.5,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.6,
+     0.6
+    ],
+    "b": [
+     5.5,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     0.6,
+     0.6
+    ],
+    "b": [
+     3,
+     8.3
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     5.5,
+     4
+    ],
+    "b": [
+     3.2,
+     8.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     4.2,
+     8.8
+    ],
+    "b": [
+     10,
+     7.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 4,
+    "nt": 0.6
+   }
+  ],
+  "labels": [
+   [
+    11.5,
+    11.2,
+    "FUERA DE JUEGO EN LA DEVOLUCIÓN",
+    "middle"
+   ]
+  ]
+ }
+}

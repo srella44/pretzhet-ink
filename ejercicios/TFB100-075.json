@@ -1,0 +1,187 @@
+{
+ "id": "TFB100-075",
+ "bloque": "Porteros",
+ "titulo": "Saque a la zona de color",
+ "formato": "PT + 3",
+ "edad": "8–18 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "3 series de 8 saques con 1 min de descanso.",
+ "objetivo": "Iniciar el juego con un saque con la mano preciso: rodado si el compañero está cerca y de béisbol si está lejos.",
+ "montaje": "Portero con balón en su área. Delante, tres zonas de conos de colores (cerca, media y lejos) con un compañero en cada una.",
+ "juego": "El entrenador canta un color y el portero saca: rodado a la cercana, de béisbol a las otras. El compañero controla sin salir de su zona y devuelve.",
+ "punto": "Saque que llega dentro de la zona, 1. Si el compañero controla sin moverse, 2.",
+ "consigna": "Mira antes de sacar: cerca rodado, lejos brazo estirado.",
+ "variantes": {
+  "facil": "Zonas más cerca y más grandes.",
+  "dificil": "Un defensor tapa a un compañero y el portero elige al libre; mano menos hábil; blocar antes de sacar; zonas en las bandas; 4 s para sacar."
+ },
+ "adaptacion": "Benjamín: solo saque raso. Alevín: raso y por arriba. Infantil, cadete y juvenil: el compañero se mueve y el saque le llega al pie.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Portero: saque con la mano a zonas de distinto color",
+  "ref": "100 tareas de fútbol base · pág. 93"
+ },
+ "top": "Saque con la mano a zonas de distinto color: precisión con decisión.",
+ "probado": false,
+ "completado": "Diagrama en horizontal y recortado: zonas con etiqueta en lugar de color.",
+ "diagrama": {
+  "field": [
+   34,
+   14
+  ],
+  "tag": "40 × 30 m",
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 35,
+   "ymin": -1,
+   "ymax": 15
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 7,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     2
+    ],
+    [
+     5,
+     2
+    ],
+    "6 5"
+   ],
+   [
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     5,
+     12
+    ],
+    [
+     0,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 3.5,
+    "r": 2.6
+   },
+   {
+    "t": "circle",
+    "x": 19,
+    "y": 10.5,
+    "r": 2.8
+   },
+   {
+    "t": "circle",
+    "x": 29,
+    "y": 4,
+    "r": 3
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2.5,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     7
+    ],
+    "b": [
+     10,
+     3.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     2.5,
+     7
+    ],
+    "b": [
+     29,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 12,
+    "n": 2,
+    "nt": 0.62
+   }
+  ],
+  "labels": [
+   [
+    10,
+    7.4,
+    "CERCA",
+    "middle"
+   ],
+   [
+    19,
+    14.4,
+    "MEDIA",
+    "middle"
+   ],
+   [
+    29,
+    8.2,
+    "LEJOS",
+    "middle"
+   ]
+  ]
+ }
+}

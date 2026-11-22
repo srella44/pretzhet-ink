@@ -1,0 +1,154 @@
+{
+ "id": "PI-TJ-061",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "El mismo ataque, dos veces",
+ "formato": "3v3",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "22 × 16 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min (cada serie, dos posesiones por equipo) con 1 min de pausa (propuesta).",
+ "objetivo": "Adaptar el plan tras una primera confrontación idéntica: reutilizar la solución que funcionó o anticipar el ajuste del rival.",
+ "montaje": "22 × 16 m con una meta de conos en cada fondo. 3 contra 3; el que ataca sale desde una banda y cada uno recuerda su sitio.",
+ "juego": "Hasta gol, robo con pase o fuera. Se repite una vez desde la misma posición: los dos equipos pueden cambiar su primera decisión. Luego cambia la posesión.",
+ "punto": "Gol, 1. Robo seguido de pase, 1. Repetir una solución que sigue abierta también vale.",
+ "consigna": "Antes de repetir, pregunta qué esperan que cambie el rival.",
+ "variantes": {
+  "facil": "Metas de conos más anchas (5 m) y defensa que solo puede cambiar una cosa en la repetición (propuesta).",
+  "dificil": "Tres repeticiones seguidas desde el mismo inicio; o 4 contra 4 en 28 × 20 m (propuesta)."
+ },
+ "adaptacion": "Si el entrenador acaba dictando la respuesta, cada trío acuerda la suya en 10 s. Infantil: 4 contra 4 (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Juega el mismo ataque dos veces",
+  "ref": "Ficha propia PI-TJ-061 (ORI-0056)"
+ },
+ "top": "Ficha propia: repetir el mismo ataque desde la misma posición. Aprender a cambiar la primera decisión.",
+ "probado": false,
+ "completado": "Ancho de las metas (4 m), series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   22,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 23.5,
+   "ymin": -1,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    22,
+    6
+   ],
+   [
+    22,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 1.5,
+    "f": 30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 13.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     1.5
+    ],
+    "b": [
+     11,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     10.5
+    ],
+    "b": [
+     10,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     5
+    ],
+    "b": [
+     15,
+     2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    11,
+    17.3,
+    "REPETICIÓN: MISMA SALIDA DESDE LA BANDA",
+    "middle"
+   ]
+  ]
+ }
+}

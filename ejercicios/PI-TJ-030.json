@@ -1,0 +1,171 @@
+{
+ "id": "PI-TJ-030",
+ "bloque": "Balón parado",
+ "titulo": "La falta que gana metros",
+ "formato": "3v3 + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + PT",
+ "espacio": "27 × 21 m",
+ "duracion": "15 min",
+ "series": "3 series de 6 faltas, cambiando de lado y de ejecutores (propuesta).",
+ "objetivo": "Explotar el segundo toque en una falta indirecta: tiro inmediato o atacar el espacio que deja la barrera.",
+ "montaje": "27 × 21 m con portería y portero. Falta indirecta lateral: 3 atacantes (dos junto al balón y uno libre) contra 3 defensores.",
+ "juego": "Tras el primer toque, el segundo atacante tira, conduce para mejorar el ángulo o sirve al libre. Los defensores saltan desde la distancia acordada.",
+ "punto": "Gol válido si antes lo toca otro jugador. Si roba, la defensa suma al salir por la puerta de banda.",
+ "consigna": "Mira hacia dónde sale la barrera antes de golpear.",
+ "variantes": {
+  "facil": "Dos defensores y la barrera sale solo tras el segundo toque (propuesta).",
+  "dificil": "Falta casi en la línea de fondo, o 5 s para terminar tras el primer toque (propuesta)."
+ },
+ "adaptacion": "Si siempre repiten toque y tiro, cambia la falta a un ángulo casi lateral.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "La falta que gana metros",
+  "ref": "Ficha propia PI-TJ-030 (ORI-0149)"
+ },
+ "top": "Ficha propia: falta indirecta lateral con tres opciones tras el primer toque.",
+ "probado": false,
+ "completado": "Diagrama recortado a la zona de la falta. Situación de la puerta de banda, series y variantes (propuesta). Sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   27,
+   14
+  ],
+  "tag": "27 × 21 m",
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 28.5,
+   "ymin": -1.6,
+   "ymax": 15.8
+  },
+  "porterias": [
+   {
+    "x": 13.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    0,
+    10.5
+   ],
+   [
+    0,
+    13.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6,
+    "f": 30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 10.5,
+    "f": -40
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 3.8,
+    "f": 150
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 5,
+    "f": 160
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     6
+    ],
+    "b": [
+     6.5,
+     10.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     6.5,
+     10.5
+    ],
+    "b": [
+     12,
+     11
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     12.5,
+     10.8
+    ],
+    "b": [
+     19.4,
+     7.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     10.5,
+     5
+    ],
+    "b": [
+     8.8,
+     8.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    1,
+    15.2,
+    "PUERTA DE SALIDA",
+    "start"
+   ]
+  ]
+ }
+}

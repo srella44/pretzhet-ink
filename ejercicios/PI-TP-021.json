@@ -1,0 +1,152 @@
+{
+ "id": "PI-TP-021",
+ "bloque": "Porteros",
+ "titulo": "El apoyo al otro lado",
+ "formato": "2v1 + 2 PT",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug. + 2 PT",
+ "espacio": "24 × 18 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que el portero se desmarque para recibir y enlace ese movimiento con su primer pase en sentido contrario.",
+ "montaje": "24 × 18 m con un portero en cada fondo y, dentro, 2 contra 1. Un portero empieza como base; el de enfrente es el objetivo.",
+ "juego": "Los de campo buscan al portero objetivo, que se mueve por todo su fondo para salir de la sombra del defensor. Al controlar, cambia el sentido.",
+ "punto": "Punto al portero que se desmarca, recibe y entrega a un compañero libre. Si roba el defensor, cambia con quien perdió.",
+ "consigna": "Muévete mientras el balón viaja entre los de campo.",
+ "variantes": {
+  "facil": "El defensor solo puede tapar, sin robar (propuesta).",
+  "dificil": "Portero receptor a un toque, o 2 contra 2 dentro (propuesta)."
+ },
+ "adaptacion": "Si los porteros esperan pegados al centro, estrecha el campo y deja que el defensor tape esa línea.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El apoyo al otro lado del área",
+  "ref": "Ficha propia PI-TP-021 (ORI-0170)"
+ },
+ "top": "Ficha propia: portero como apoyo al otro lado del área en un 2 contra 1.",
+ "probado": false,
+ "completado": "Series y variantes (propuesta). Porterías no dibujadas: el portero se mueve por todo el fondo. Sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 25,
+   "ymin": -1,
+   "ymax": 20.4
+  },
+  "players": [
+   {
+    "r": "G",
+    "x": 0.9,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "G",
+    "x": 23.1,
+    "y": 7.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "G",
+    "x": 23.1,
+    "y": 14.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.9,
+     9
+    ],
+    "b": [
+     7,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     4
+    ],
+    "b": [
+     9,
+     14.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     23.1,
+     7.5
+    ],
+    "b": [
+     23.1,
+     14.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 14,
+    "n": 3
+   },
+   {
+    "a": [
+     9,
+     14.5
+    ],
+    "b": [
+     23.1,
+     14.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 14,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    12,
+    19.6,
+    "EL PORTERO SE MUEVE POR SU FONDO",
+    "middle"
+   ]
+  ]
+ }
+}

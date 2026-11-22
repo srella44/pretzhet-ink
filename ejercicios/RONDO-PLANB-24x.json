@@ -1,0 +1,132 @@
+{
+ "id": "RONDO-PLANB-24x",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Cierre a cubierto",
+ "formato": "Charla",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "Todo el grupo",
+ "espacio": "Vestuario",
+ "duracion": "5 min",
+ "series": "Una ronda al final de la sesión.",
+ "objetivo": "Cerrar sin enfriarse cuando hace frío o el campo está pesado, y dar voz a los jugadores en la próxima sesión.",
+ "montaje": "Los últimos 5 minutos, en el vestuario. Todos sentados en corro y el entrenador con ellos.",
+ "juego": "Cada jugador dice cuál ha sido su juego favorito del día y por qué, en una frase (propuesta). Entre todos se decide con cuál empezar el próximo entrenamiento.",
+ "punto": "Sin puntuación. El juego elegido abre la próxima sesión.",
+ "consigna": "Escucha a todos y respeta lo que se decida.",
+ "variantes": {
+  "facil": "Con los pequeños, se elige levantando la mano entre dos o tres juegos (propuesta).",
+  "dificil": "Cada uno dice también qué ha aprendido o qué le ha costado (propuesta)."
+ },
+ "adaptacion": "Prebenjamín y benjamín: votación a mano alzada. Alevín e infantil: un capitán resume la decisión (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Cierre a cubierto",
+  "ref": "RONDO Bonus 3 · Plan B · pág. 4"
+ },
+ "top": "Cierre a cubierto: cada uno dice su juego favorito y se elige con cuál empezar el próximo día.",
+ "probado": false,
+ "completado": "Edad, «por qué» en una frase, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   9
+  ],
+  "dashed": true,
+  "tag": "vestuario",
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 12.6,
+   "ymin": -0.6,
+   "ymax": 9.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 1.4,
+    "f": [
+     6,
+     4.6
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9.2,
+    "y": 2.4,
+    "f": [
+     6,
+     4.6
+    ]
+   },
+   {
+    "r": "A",
+    "x": 10.2,
+    "y": 5.2,
+    "f": [
+     6,
+     4.6
+    ]
+   },
+   {
+    "r": "A",
+    "x": 8.2,
+    "y": 7.6,
+    "f": [
+     6,
+     4.6
+    ]
+   },
+   {
+    "r": "A",
+    "x": 3.8,
+    "y": 7.6,
+    "f": [
+     6,
+     4.6
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 5.2,
+    "f": [
+     6,
+     4.6
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.8,
+    "y": 2.4,
+    "f": [
+     6,
+     4.6
+    ]
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 8.2,
+    "f": [
+     6,
+     4.6
+    ]
+   }
+  ],
+  "balls": [
+   [
+    6,
+    4.6
+   ]
+  ],
+  "labels": [
+   [
+    6,
+    3.6,
+    "¿TU JUEGO FAVORITO?",
+    "middle"
+   ]
+  ]
+ }
+}

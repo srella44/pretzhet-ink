@@ -1,0 +1,186 @@
+{
+ "id": "TFB100-009",
+ "bloque": "Calentamiento",
+ "titulo": "Rueda de tercer hombre",
+ "formato": "Rueda",
+ "edad": "10–18 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 min con 1 min de descanso.",
+ "objetivo": "Automatizar el pase al tercer hombre: un apoyo descarga para el compañero que llega de cara.",
+ "montaje": "Cuadrado de 20 × 20 m: un jugador en cada esquina y cuatro dentro, dos en cada mitad.",
+ "juego": "La esquina pasa al interior más lejano, que descarga de cara al interior cercano que llega en carrera. Este abre a la esquina de enfrente, que repite en la otra mitad. Cada uno sigue su pase.",
+ "punto": "Sin puntuación en la fuente (propuesta: vueltas sin fallo en 2 min).",
+ "consigna": "Llega en carrera, nunca parado.",
+ "variantes": {
+  "facil": "Descarga con dos toques.",
+  "dificil": "Todo a un toque salvo el pase largo; dos balones; el interior elige descargar o girarse; defensores pasivos; cambio de sentido cada minuto."
+ },
+ "adaptacion": "Alevín: 16 m y dos toques. Infantil: 20 m. Cadete y juvenil: todo a un toque y un segundo balón a mitad de serie.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rueda de tercer hombre en cuadrado",
+  "ref": "100 tareas de fútbol base · pág. 20"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 21.2,
+   "ymin": -1.2,
+   "ymax": 21.2
+  },
+  "lines": [
+   [
+    [
+     0,
+     10
+    ],
+    [
+     20,
+     10
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 19,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 1,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 19,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 14,
+    "f": -160
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 11,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3.5,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     19
+    ],
+    "b": [
+     15,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     4.5,
+     11
+    ],
+    "b": [
+     8.5,
+     13
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     14
+    ],
+    "b": [
+     8.5,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     8.5,
+     13
+    ],
+    "b": [
+     19,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 4
+   }
+  ]
+ }
+}

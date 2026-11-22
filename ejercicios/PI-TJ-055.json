@@ -1,0 +1,135 @@
+{
+ "id": "PI-TJ-055",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "La meta de dos caras",
+ "formato": "2v2",
+ "edad": "6–7 años",
+ "nivel": "Normal",
+ "jugadores": "4 jug.",
+ "espacio": "15 × 13 m",
+ "duracion": "12 min",
+ "series": "4 partidos de 2 min con 1 min de pausa (propuesta).",
+ "objetivo": "Cambiar la cara de ataque de una meta común: relacionar desde dónde se pasa con dónde puede recibir el compañero.",
+ "montaje": "15 × 13 m con una sola puerta de discos de 3 m en el centro, jugable por las dos caras. Dos parejas.",
+ "juego": "Para marcar, uno pasa por la puerta y su compañero controla al otro lado. Se puede atacar por la cara que se quiera. Tras un punto, la otra pareja saca desde cualquier borde.",
+ "punto": "Pase raso por la puerta que controla el compañero, 1. Nadie hace de portero. Si sale, saca el rival.",
+ "consigna": "Si no ves a tu compañero al otro lado, rodea la puerta con la pelota.",
+ "variantes": {
+  "facil": "Puerta de 4 m y sin defensa sobre el que controla (propuesta).",
+  "dificil": "Puerta de 2 m, o vale doble si el punto llega por la cara contraria a la del punto anterior (propuesta)."
+ },
+ "adaptacion": "Si alguien se queda quieto en medio, abre la puerta a 4 m y prohíbe esperar entre los discos.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "La meta tiene dos caras",
+  "ref": "Ficha propia PI-TJ-055 (ORI-0014)"
+ },
+ "top": "Ficha propia: una sola meta jugable por las dos caras. Obliga a leer el espacio alrededor.",
+ "probado": false,
+ "completado": "Series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   15,
+   13
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 16,
+   "ymin": -1,
+   "ymax": 14
+  },
+  "discs": [
+   [
+    6,
+    6.5
+   ],
+   [
+    9,
+    6.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 2,
+    "f": 80,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 9.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     2
+    ],
+    "b": [
+     8.5,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 14,
+    "n": 1,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     12.5,
+     9.5
+    ],
+    "b": [
+     10.4,
+     10.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     2.5,
+     4
+    ],
+    "b": [
+     5,
+     3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10,
+    6.9,
+    "PUERTA 3 M",
+    "start"
+   ]
+  ]
+ }
+}

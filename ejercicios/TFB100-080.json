@@ -1,0 +1,196 @@
+{
+ "id": "TFB100-080",
+ "bloque": "Porteros",
+ "titulo": "Portero que sale jugando",
+ "formato": "PT + 4v3",
+ "edad": "12–18 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "35 × 60 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min 30 s de descanso.",
+ "objetivo": "Que el portero participe en la salida de balón de fútbol 11: recibir el pase atrás, mirar de dónde viene la presión y jugar al lado libre.",
+ "montaje": "Medio campo de F11 con portería. Portero y línea de cuatro contra 3 presionadores. A unos 35 m, una puerta de conos en cada banda.",
+ "juego": "Un central juega atrás y salen los presionadores. El portero mira de dónde viene la presión, orienta el control y juega al lado libre.",
+ "punto": "Salida conduciendo por una puerta, 1 para la defensa. Robo, 1; robo y gol, 2.",
+ "consigna": "Mira antes de recibir y juega al lado libre.",
+ "variantes": {
+  "facil": "Dos presionadores en lugar de tres.",
+  "dificil": "Cuatro presionadores, o el portero solo puede dar dos toques."
+ },
+ "adaptacion": "El portero da 2–3 toques. Infantil: presionadores que solo tapan. Cadete: presión real. Juvenil: cuatro presionadores y 8 s para llegar a la puerta.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Portero: salida de balón con línea de cuatro ante tres presionadores",
+  "ref": "100 tareas de fútbol base · pág. 98"
+ },
+ "top": "Salida de balón del portero con línea de cuatro ante tres presionantes: portero que juega.",
+ "probado": false,
+ "completado": "Colores de la fuente: defensa azul, presionadores rojos.",
+ "diagrama": {
+  "field": [
+   60,
+   35
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 61.5,
+   "ymin": -3.5,
+   "ymax": 37
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 35,
+    "lado": "B",
+    "ancho": 7,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    2,
+    1
+   ],
+   [
+    10,
+    1
+   ],
+   [
+    50,
+    1
+   ],
+   [
+    58,
+    1
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 30,
+    "y": 33.2,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 22,
+    "f": -60
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 30.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 30,
+    "f": -120
+   },
+   {
+    "r": "D",
+    "x": 50,
+    "y": 25,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 20,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 41,
+    "y": 21,
+    "f": 120
+   },
+   {
+    "r": "B",
+    "x": 47,
+    "y": 13,
+    "f": 110
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     38,
+     30
+    ],
+    "b": [
+     30,
+     33.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     41,
+     21
+    ],
+    "b": [
+     35,
+     29.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     33.2
+    ],
+    "b": [
+     8,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     8,
+     22
+    ],
+    "b": [
+     5,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -1.6,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    54,
+    -1.6,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -9,7 +9,7 @@ body { font-family: Inter, sans-serif; color: #14213d; background: #f6f2ea; -web
 .top h1 { position: absolute; left: 48mm; top: 2.2mm; font-family: Anton; font-weight: 400; font-size: 38pt; letter-spacing: .5pt; line-height: 1 }
 .top h1::after { content: ""; display: block; width: 20mm; height: 1.4mm; background: BC; margin-top: 1.2mm }
 .top .kick { position: absolute; left: 112mm; top: 5.2mm; width: 82mm; font-size: 8.6pt; line-height: 1.35; font-weight: 500; color: #dfe5f0 }
-.top .kick b { display: block; color: BC; font-weight: 800; font-size: 10pt; margin-bottom: .6mm }
+.top .kick b { display: block; color: BA; font-weight: 800; font-size: 10pt; margin-bottom: .6mm }
 .top .pitch { position: absolute; right: -14mm; top: -10mm; width: 60mm; height: 60mm; border: .5mm solid rgba(255,255,255,.07); border-radius: 50% }
 .dash { position: absolute; top: 23mm; left: 0; right: 0; height: 1.6mm; background: repeating-linear-gradient(90deg, BC 0 9mm, transparent 9mm 12mm) }
 .grid { position: absolute; left: 8.5mm; right: 8.5mm; top: 27.4mm; bottom: 17.4mm; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr 1fr; gap: 3.2mm 4.4mm }
@@ -17,7 +17,7 @@ body { font-family: Inter, sans-serif; color: #14213d; background: #f6f2ea; -web
 .card header { border-bottom: .8mm solid BC;  height: 8.6mm; display: flex; align-items: center; gap: 2.2mm; padding-right: 3mm; flex: none }
 .num { width: 9.6mm; height: 8.6mm; background: BC; color: BT; font-family: Anton; font-size: 17pt; display: flex; align-items: center; justify-content: center; flex: none }
 .card h2 { font-family: Anton; font-weight: 400; font-size: 12.4pt; text-transform: uppercase; letter-spacing: 0; white-space: nowrap; line-height: 1 }
-.fmt { background: #14213d; color: BC; font-weight: 800; font-size: 8.4pt; padding: .7mm 1.8mm; border-radius: 1.2mm; flex: none }
+.fmt { background: #14213d; color: BA; font-weight: 800; font-size: 8.4pt; padding: .7mm 1.8mm; border-radius: 1.2mm; flex: none }
 .code { position: absolute; right: 2mm; top: 1.8mm; line-height: 1; font-weight: 800; font-size: 6.2pt; letter-spacing: .5pt; color: #fff; background: rgba(10,20,35,.72); border: .2mm solid rgba(255,255,255,.45); padding: .7mm 1.6mm; border-radius: 3mm }
 .dia { height: 34mm; flex: none; line-height: 0; position: relative }
 .dia svg { width: 100%; height: 100% }

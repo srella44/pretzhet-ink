@@ -1,0 +1,166 @@
+{
+ "id": "DOS-017",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Retos de habilidad",
+ "formato": "Por turnos",
+ "edad": "8–14 años",
+ "nivel": "Fácil",
+ "jugadores": "Todo el grupo",
+ "espacio": "Portería grande",
+ "duracion": "15 min",
+ "series": "Rotación por estaciones cada 3 min (propuesta).",
+ "objetivo": "Golpeo y habilidad en competición, con baja intensidad, para cerrar la sesión con ganas.",
+ "montaje": "Una portería grande con varias estaciones: larguero, postes, aros en las escuadras y cubos a media distancia.",
+ "juego": "Retos por turnos o contra el tiempo: larguero, postes, aros o cubos. Los pequeños tiran al larguero con el balón en la mano; los mayores, gol olímpico o de medio campo.",
+ "punto": "1 punto por reto conseguido; gana quien más sume (propuesta).",
+ "consigna": "Precisión antes que fuerza.",
+ "variantes": {
+  "facil": "Retos más cerca y balón en la mano para el larguero.",
+  "dificil": "Gol olímpico y gol desde medio campo; o circuito completo contra el reloj."
+ },
+ "adaptacion": "Evita esperas largas: varias estaciones a la vez con 3–4 jugadores en cada una.",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juegos de habilidad",
+  "ref": "Dosier de sesiones · pág. 4, 9, 14 y 19 (J1.3, J2.3, S1.2, S2.2)"
+ },
+ "top": "Retos de habilidad: baja intensidad y muchas ganas para cerrar la sesión.",
+ "probado": true,
+ "completado": "Edad, puntuación y rotación por estaciones (propuesta). Diagrama recortado delante de la portería.",
+ "diagrama": {
+  "field": [
+   30,
+   16
+  ],
+  "tag": "portería grande",
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": false
+   }
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 12.1,
+    "y": 0.9,
+    "r": 0.9
+   },
+   {
+    "t": "circle",
+    "x": 17.9,
+    "y": 0.9,
+    "r": 0.9
+   }
+  ],
+  "discs": [
+   [
+    5,
+    7
+   ],
+   [
+    25,
+    7
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 13.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 14,
+    "f": -70,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 13.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     13.5
+    ],
+    "b": [
+     15,
+     0.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     14
+    ],
+    "b": [
+     12,
+     1.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     13.5
+    ],
+    "b": [
+     25,
+     7.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    5.4,
+    "CUBO",
+    "middle"
+   ],
+   [
+    25,
+    5.4,
+    "CUBO",
+    "middle"
+   ],
+   [
+    20,
+    2.6,
+    "ESCUADRAS",
+    "start"
+   ]
+  ]
+ }
+}

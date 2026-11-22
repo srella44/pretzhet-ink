@@ -1,0 +1,218 @@
+{
+ "id": "TFB100-005",
+ "bloque": "Calentamiento",
+ "titulo": "Conducción por zonas",
+ "formato": "Individual",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–16 jug.",
+ "espacio": "30 × 10 m",
+ "duracion": "12 min",
+ "series": "4 o 5 recorridos por jugador, volviendo andando para recuperar.",
+ "objetivo": "Cambiar de ritmo en conducción: toques cortos para controlar, largos cuando hay espacio y frenada con la suela.",
+ "montaje": "Dos carriles de 30 m en paralelo, cada uno con tres zonas de 10 m: amarilla, verde y roja.",
+ "juego": "Sale uno por carril. En la amarilla conduce despacio, con toques cortos y giros; en la verde acelera con toques largos; en la roja frena con la suela, gira y vuelve rápido por fuera.",
+ "punto": "El entrenador da un punto al que mejor marca los tres ritmos en cada serie.",
+ "consigna": "Despacio es despacio; acelera con el balón delante.",
+ "variantes": {
+  "facil": "Solo dos zonas: despacio y rápido.",
+  "dificil": "Orden cambiado (rápido, despacio, rápido) o un defensor pasivo en la verde que obliga a cambiar de dirección."
+ },
+ "adaptacion": "Benjamín: zonas más largas y frenada con cualquier superficie. Alevín: frenada con la suela y giro. Infantil: se cronometra el recorrido.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Conducción por zonas: despacio en la amarilla, rápido en la verde y frenada en la roja",
+  "ref": "100 tareas de fútbol base · pág. 16"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "",
+ "diagrama": {
+  "field": [
+   30,
+   10
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31,
+   "ymin": -2.8,
+   "ymax": 11.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     20,
+     0,
+     30,
+     10
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     5
+    ],
+    [
+     30,
+     5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     10
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     10
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    5
+   ],
+   [
+    20,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.5,
+    "y": 7.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     2.5
+    ],
+    "b": [
+     9.5,
+     2.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     10.5,
+     2.5
+    ],
+    "b": [
+     19.5,
+     2.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     2.5
+    ],
+    "b": [
+     24,
+     -1.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 2
+   },
+   {
+    "a": [
+     24,
+     -1.2
+    ],
+    "b": [
+     5,
+     -1.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 2,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    11.2,
+    "DESPACIO",
+    "middle"
+   ],
+   [
+    15,
+    11.2,
+    "RÁPIDO",
+    "middle"
+   ],
+   [
+    25,
+    11.2,
+    "FRENA Y GIRA",
+    "middle"
+   ]
+  ]
+ }
+}

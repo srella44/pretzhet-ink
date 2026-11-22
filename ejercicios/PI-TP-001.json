@@ -1,0 +1,174 @@
+{
+ "id": "PI-TP-001",
+ "bloque": "Porteros",
+ "titulo": "¿Dentro o fuera del área?",
+ "formato": "1v1 + PT",
+ "edad": "8–9 años",
+ "nivel": "Medio",
+ "jugadores": "2 jug. + PT",
+ "espacio": "20 × 14 m",
+ "duracion": "12 min",
+ "series": "3 series de 6 envíos, alternando cortos y largos (propuesta).",
+ "objetivo": "Leer el límite de intervención con las manos: manos dentro, pie fuera o esperar.",
+ "montaje": "Portería y área de 8 m bien marcada. Un atacante y un defensor; el entrenador envía raso hacia el borde del área.",
+ "juego": "El portero decide: llegar dentro y usar las manos, jugar con el pie fuera o esperar y dejar la disputa al defensor. El atacante frena ante balón controlado.",
+ "punto": "Resolver con balón propio o del defensor, 1. Gol del atacante, 1.",
+ "consigna": "Localiza la línea antes de ir al balón.",
+ "variantes": {
+  "facil": "Envíos más lentos y sin atacante en la primera serie (propuesta).",
+  "dificil": "El entrenador sirve por alto con bote, o el atacante sale más cerca (propuesta)."
+ },
+ "adaptacion": "Si llegan juntos, separa las salidas y congela la acción antes del contacto.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "¿Dentro o fuera del área?",
+  "ref": "Ficha propia PI-TP-001 (ORI-0186)"
+ },
+ "top": "Ficha propia: decidir si se llega dentro o fuera del área. Situación reglamentaria real.",
+ "probado": false,
+ "completado": "Series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 21,
+   "ymin": -1,
+   "ymax": 15.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 7,
+    "lado": "L",
+    "ancho": 5,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     1.5
+    ],
+    [
+     8,
+     1.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     8,
+     1.5
+    ],
+    [
+     8,
+     12.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     8,
+     12.5
+    ],
+    [
+     0,
+     12.5
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2.4,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 18.5,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18.5,
+     12
+    ],
+    "b": [
+     9,
+     7.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     3
+    ],
+    "b": [
+     11,
+     5.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     2.4,
+     7
+    ],
+    "b": [
+     6.6,
+     7.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    0.5,
+    0.9,
+    "ÁREA 8 M",
+    "start"
+   ],
+   [
+    19.6,
+    14.8,
+    "ENTRENADOR",
+    "end"
+   ]
+  ]
+ }
+}
