@@ -95,6 +95,10 @@ button, input, select { font-family: inherit; letter-spacing: inherit }
 .more { display:block; margin: 26px auto 0; border:0; background: var(--coral); color:#fff; font-weight: 700; padding: 12px 22px; border-radius: 999px; cursor:pointer }
 .empty { text-align:center; padding: 80px 20px; color: var(--muted); font-weight: 600 }
 .scrim { display:none }
+.feat { background: var(--navy); border-radius: 14px; padding: 16px 16px 18px; margin: 0 0 22px; border-bottom: 3px solid var(--coral) }
+.feat > h3 { margin: 0 0 12px; color:#fff; font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 20px; letter-spacing:.4px; display:flex; justify-content:space-between; align-items:baseline } .feat > h3 a { font: 700 12.5px Inter, sans-serif; color: var(--coral); cursor:pointer; letter-spacing:0 }
+.feat .g { display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px }
+.feat .card { box-shadow:none }
 .brand { cursor:pointer; border:0; background:none; padding:0 } .brand:hover img { opacity:.85 }
 .home { max-width:1600px; margin:0 auto; padding: 34px 24px 60px }
 .hero { border-radius: 28px; padding: 46px 44px; color:#fff; position:relative; overflow:hidden; background: radial-gradient(600px 300px at 90% 0, rgba(253,81,59,.55), transparent 70%), radial-gradient(500px 300px at 0 100%, rgba(124,92,255,.45), transparent 70%), var(--navy); box-shadow: 0 30px 60px -30px rgba(5,15,32,.6) }
@@ -112,7 +116,7 @@ button, input, select { font-family: inherit; letter-spacing: inherit }
 .ages { display:flex; gap:10px; flex-wrap:wrap } .age { border:1px solid var(--line); background:#fff; cursor:pointer; padding: 14px 20px; border-radius: 18px; text-align:left; box-shadow: 0 1px 2px rgba(15,26,46,.05); transition: transform .15s } .age:hover { transform: translateY(-2px) } .age b { display:block; font-size: 15px } .age span { font-size: 12px; color: var(--muted) }
 .hrow { display:grid; grid-auto-flow: column; grid-auto-columns: minmax(250px, 270px); gap: 18px; overflow-x:auto; padding: 4px 4px 18px; scrollbar-width: thin }
 @media (max-width: 920px) { .home { padding: 18px 14px 50px } .hero { padding: 30px 22px; border-radius: 22px } }
-.modal { position: fixed; inset: 0; background: rgba(5,15,32,.6); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); display:none; align-items: flex-start; justify-content: center; overflow:auto; padding: 22px 10px; z-index: 10 }
+.modal { position: fixed; inset: 0; background: rgba(5,15,32,.6); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); display:none; align-items: flex-start; justify-content: center; overflow:auto; padding: 22px 10px; z-index: 60 }
 .modal.open { display:flex }
 .sheet { position: relative; width: min(680px, 100%) }
 .close { position:absolute; top:-10px; right:-6px; width: 36px; height: 36px; border-radius: 50%; border:0; background:#fff; color: var(--navy); font-size: 21px; font-weight: 800; cursor:pointer; box-shadow: 0 2px 8px rgba(0,0,0,.25); z-index: 2 }
@@ -194,6 +198,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   <button class="go" id="go">Ver ejercicios</button>
 </aside>
 <main class="main">
+  <section class="feat" id="feat" hidden></section>
   <div class="tool"><h2 id="ttl"></h2><span class="sp"></span><select id="f-ord"><option value="sc">Mejor puntuados</option><option value="bl">Por bloque</option><option value="az">Alfabético</option><option value="age">Por edad</option></select></div>
   <div class="act" id="act"></div>
   <div class="grid" id="grid"></div>
@@ -292,6 +297,14 @@ function renderHome() {
   $('#home').querySelectorAll('[data-a2]').forEach(el => el.onclick = () => { st.a = new Set([+el.dataset.a2]); go(); });
   $('#hrow').onclick = e => { const k = e.target.closest('.card'); if (k) { list = hl; open(+k.dataset.k); } };
 }
+let fl = [];
+function feat(on) {
+  $('#feat').hidden = !on; if (!on) return;
+  fl = R.filter(r => r.tp && SVG[r.i]).sort(SORT.sc).slice(0, 4);
+  $('#feat').innerHTML = `<h3>★ Destacados<a id="fall">Ver todos →</a></h3><div class="g">${fl.map((r, j) => card(r, j)).join('')}</div>`;
+  $('#fall').onclick = () => { st.est = 'tp'; apply(); };
+  $('#feat .g').onclick = e => { const k = e.target.closest('.card'); if (k) { list = fl; open(+k.dataset.k); } };
+}
 function apply() {
   document.querySelector('.wrap').hidden = home; $('#blocks').hidden = home; $('#home').hidden = !home; $('#tgl').style.visibility = home ? 'hidden' : '';
   if (home) { renderHome(); $('#cnt').textContent = ''; hh(); return; }
@@ -299,10 +312,12 @@ function apply() {
   const counts = {}; R.forEach(r => { if (match(r, true)) counts[r.b] = (counts[r.b]||0) + 1; });
   blockChips(counts); opts('#f-age', AGES, st.a, o => o[2] ? o[1] + '–' + o[2] : ''); lvls(); opts('#f-pl', PL, st.p); est();
   list = R.filter(r => match(r)).sort(st.q ? ((a,b) => (b._s - a._s) || SORT[st.ord](a,b)) : SORT[st.ord]);
-  const nf = tags() - st.b.size - (st.q ? 1 : 0);
+  const nt = tags(); feat(nt === 0 && st.ord === 'sc');
+  const nf = nt - st.b.size - (st.q ? 1 : 0);
   $('#nf').hidden = !nf; $('#nf').textContent = nf;
   const n = list.length.toLocaleString('es-ES');
   $('#cnt').textContent = n + ' ejercicios'; $('#ttl').innerHTML = `${n}<small>ejercicios</small>`; $('#go').textContent = `Ver ${n} ejercicios`;
+  if (!$('#feat').hidden) list = list.filter(r => !fl.includes(r));
   $('#grid').innerHTML = ''; shown = 0; more();
   $('#empty').hidden = list.length > 0;
   try { localStorage.setItem('pi-filtros2', JSON.stringify({b:[...st.b],a:[...st.a],l:[...st.l],p:[...st.p],org:st.org,est:st.est,ord:st.ord})); } catch(e) {}
