@@ -60,7 +60,7 @@ def players(r_jug, title):
     return None
 
 def fmt_of(title):
-    t = norm(title)
+    t = norm(str(title or '').replace('+', ' + ').replace('+', '#')).replace('#', '+') if False else re.sub(r'[^a-z0-9:+ ]', ' ', ''.join(c for c in unicodedata.normalize('NFKD', str(title or '').lower()) if not unicodedata.combining(c)))
     m = re.search(r'\b(\d{1,2}) ?(?:\+ ?(\d) ?)?(?:v|vs|x|:|contra) ?(\d{1,2})(?: ?\+ ?(\d))?', t)
     if not m: return ''
     a = m.group(1) + (f'+{m.group(2)}' if m.group(2) else ''); b = m.group(3) + (f'+{m.group(4)}' if m.group(4) else '')
