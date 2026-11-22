@@ -1,0 +1,177 @@
+{
+ "id": "TLC-0056",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tres 1v1 y luego 3v3",
+ "formato": "3 × 1v1 → 3v3",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "Doble área · 40 × 33 m",
+ "duracion": "15 min",
+ "series": "Bloques de 4 min; descanso mientras juega el otro grupo (propuesta).",
+ "objetivo": "Ganar el duelo individual y, sin pausa, pasar a jugar en grupo con ventaja tras el desorden.",
+ "montaje": "Doble área de 40 × 33 m con dos porterías y porteros, en tres carriles (el central, algo más ancho). En cada carril, un atacante con balón y un defensor.",
+ "juego": "Tres 1 contra 1 a la vez, cada uno en su carril y con remate. Al acabar, el entrenador mete un balón y los tres defensores atacan 3 contra 3 hacia la otra portería (propuesta). Entran otros seis.",
+ "punto": "Gol en el 1v1, 1. Gol en el 3v3, 1 (propuesta).",
+ "consigna": "Acaba el duelo y piensa ya en el 3v3.",
+ "variantes": {
+  "facil": "Sin portero en el 1v1: se marca conduciendo por la línea de fondo (propuesta).",
+  "dificil": "Máximo 6 s en el 1v1; ayuda defensiva tras unos segundos."
+ },
+ "adaptacion": "Alevín: 30 × 25 m y miniporterías en los carriles laterales.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Arne Slot)",
+  "titulo_original": "ARNE SLOT DUELOS 3 ZONAS",
+  "ref": "toplidercoach.com/arne-slot-duelos-3-zonas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntuación, series y dirección del 3v3 (propuesta). Sin diagrama original: dibujado a partir del texto. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   40,
+   21
+  ],
+  "tag": "doble área 40 × 33 m",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -1,
+   "ymax": 24
+  },
+  "lines": [
+   [
+    [
+     0,
+     6.5
+    ],
+    [
+     40,
+     6.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     14.5
+    ],
+    [
+     40,
+     14.5
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 10.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 17.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 3.2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 17.8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     3.2
+    ],
+    "b": [
+     19,
+     2.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 16,
+    "s1": 6
+   },
+   {
+    "a": [
+     8,
+     10.5
+    ],
+    "b": [
+     19,
+     12.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 16,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     17.8
+    ],
+    "b": [
+     19,
+     18.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 16,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    20,
+    23.3,
+    "DESPUÉS: 3v3 HACIA LA OTRA PORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

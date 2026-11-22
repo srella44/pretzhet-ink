@@ -1,0 +1,141 @@
+{
+ "id": "TLC-0018",
+ "bloque": "Defensa y presión",
+ "titulo": "Defender el 3v2 + comodín",
+ "formato": "3v2 + C",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Defender en inferioridad: temporizar, bascular juntos y provocar el error del rival.",
+ "montaje": "30 × 20 m (propuesta). Dos miniporterías en un fondo y, entre ellas y fuera del campo, un comodín que apoya al ataque. 3 contra 2.",
+ "juego": "Ataque rápido y con amplitud, con apoyo del comodín (1–2 toques). La defensa temporiza y bascula junta, sin lanzarse a robar. Luego, cambio de papeles.",
+ "punto": "Gol, 1. Robo y pase al otro fondo, 1 (propuesta).",
+ "consigna": "Temporiza y cierra por dentro.",
+ "variantes": {
+  "facil": "El comodín solo puede devolver (propuesta).",
+  "dificil": "Ataque en máximo 8 s o comodín que entra a rematar."
+ },
+ "adaptacion": "Benjamín: 2 contra 1 con comodín (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Gerrard)",
+  "titulo_original": "GERRARD, DEFENSA EN INFERIORIDAD",
+  "ref": "toplidercoach.com/defensa-en-inferioridad-gerrard/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, miniporterías, puntuación de la defensa y rotación (propuesta). La web habla de parejas que alternan ataque y defensa. Sin diagrama original.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 34,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "goals": [
+   [
+    30,
+    4,
+    "R"
+   ],
+   [
+    30,
+    16,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     10
+    ],
+    "b": [
+     9,
+     18
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     13
+    ],
+    "b": [
+     15,
+     16.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     7
+    ],
+    "b": [
+     19,
+     11.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 3,
+    "n": 3,
+    "nt": 0.6
+   }
+  ]
+ }
+}

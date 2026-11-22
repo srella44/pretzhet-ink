@@ -1,0 +1,145 @@
+{
+ "id": "TLC-0060",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 a dos perfiles",
+ "formato": "1v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "3 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Atacar el espacio con el primer control y defender orientando hacia fuera.",
+ "montaje": "30 × 30 m con una miniportería en cada lado, izquierdo y derecho. Dos filas de tres enfrentadas en los otros dos lados.",
+ "juego": "El primero de una fila pasa al primero de la otra y sale a defender. El que recibe ataca 1 contra 1 y marca en cualquiera de las dos miniporterías. Al acabar, cada uno cambia de fila.",
+ "punto": "Gol, 1 punto. Robo, 1 punto para el defensor (propuesta).",
+ "consigna": "Primer control hacia la portería libre.",
+ "variantes": {
+  "facil": "El defensor sale cuando el atacante controla (propuesta).",
+  "dificil": "Máximo 6 s para marcar; si roba, el defensor también puede marcar."
+ },
+ "adaptacion": "Benjamín: 20 × 20 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Mendilibar)",
+  "titulo_original": "MENDILIBAR DUELOS PERFILES",
+  "ref": "toplidercoach.com/mendilibar-duelos-perfiles/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, punto del defensor y series (propuesta). Sin diagrama original: dibujado a partir del texto. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "tag": "30 × 30 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    30,
+    10,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 15,
+    "y": 18,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 21.2,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 20.5,
+    "y": 21.2,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": -1.2,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": -1.2,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     18
+    ],
+    "b": [
+     15,
+     2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 18,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     18
+    ],
+    "b": [
+     20,
+     11
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     2
+    ],
+    "b": [
+     26.5,
+     8.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

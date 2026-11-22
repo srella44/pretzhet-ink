@@ -1,0 +1,181 @@
+{
+ "id": "TLC-0175",
+ "bloque": "Técnica y duelos",
+ "titulo": "Control al color",
+ "formato": "1 + pasador",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "1–4 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "Series de 8 envíos por jugador con pausa activa (propuesta).",
+ "objetivo": "Mirar antes de recibir y orientar el control hacia donde pide el estímulo.",
+ "montaje": "Cuadrado de 4 × 4 m con picas dentro de un espacio de 20 × 20 m. Una miniportería en cada lado, cada una de un color. Un jugador dentro y un pasador fuera.",
+ "juego": "El pasador envía raso, a media altura o por alto y, a la vez, dice un color. El jugador controla orientado hacia ese lado y marca en esa miniportería. Se cambia ángulo y tipo de pase.",
+ "punto": "Gol en la portería del color, 1 punto (propuesta).",
+ "consigna": "Mira antes de recibir.",
+ "variantes": {
+  "facil": "Pase raso y dos toques (propuesta).",
+  "dificil": "Color y número a la vez, o un defensor pasivo."
+ },
+ "adaptacion": "Benjamín: pase con la mano y solo dos colores (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Thomas Frank)",
+  "titulo_original": "THOMAS FRANK, TRABAJO INDIVIDUAL DE PERFILES",
+  "ref": "toplidercoach.com/thomas-frank-trabajo-individual-de-perfiles/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntuación, distancia de las miniporterías y series (propuesta). Sin diagrama original. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   20,
+   16
+  ],
+  "tag": "20 × 20 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2.4,
+   "ymax": 18.4
+  },
+  "cones": [
+   [
+    8,
+    6
+   ],
+   [
+    12,
+    6
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    12,
+    10
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    20,
+    8,
+    "R"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.6
+   },
+   {
+    "x": 10,
+    "y": 16,
+    "lado": "B",
+    "ancho": 2.6
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 8,
+    "f": [
+     17,
+     14
+    ]
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 14,
+    "f": [
+     10,
+     8
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     14
+    ],
+    "b": [
+     10.6,
+     8.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 18,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     9.2,
+     8
+    ],
+    "b": [
+     4.5,
+     8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     4.5,
+     8
+    ],
+    "b": [
+     0.8,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    1.2,
+    5.6,
+    "ROJO",
+    "start"
+   ],
+   [
+    18.8,
+    5.6,
+    "AZUL",
+    "end"
+   ],
+   [
+    11.8,
+    1.4,
+    "VERDE",
+    "start"
+   ],
+   [
+    8.4,
+    15.2,
+    "AMARILLO",
+    "end"
+   ]
+  ]
+ }
+}

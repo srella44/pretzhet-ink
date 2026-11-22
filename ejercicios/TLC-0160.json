@@ -1,0 +1,162 @@
+{
+ "id": "TLC-0160",
+ "bloque": "Finalización",
+ "titulo": "Pared y remate por el centro",
+ "formato": "Rueda de remate",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4 jug. + PT",
+ "espacio": "Doble área · 40 × 33 m",
+ "duracion": "12 min",
+ "series": "3 × 3 min contando goles (propuesta).",
+ "objetivo": "Atacar por el carril central con pared, ruptura a la espalda y pase en profundidad.",
+ "montaje": "Frontal del área con portería y portero. Tres en fila por el centro y un apoyo delante, de cara, junto a un muñeco o pica.",
+ "juego": "El primero conduce y hace la pared con el apoyo, que rompe a la espalda del muñeco y recibe el pase en profundidad para rematar. Quien condujo pasa a apoyo; el que remata, a la fila.",
+ "punto": "Goles en 3 min por grupo; se compite contra la marca anterior.",
+ "consigna": "Cambia el ritmo tras la pared.",
+ "variantes": {
+  "facil": "Pase en profundidad raso y remate a dos toques (propuesta).",
+  "dificil": "Remate a un toque, pierna mala o segunda pared antes del pase."
+ },
+ "adaptacion": "Benjamín: portería de fútbol 7 y fila a 18 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Xabi Alonso)",
+  "titulo_original": "XABI ALONSO FINALIZACIÓN EN LÍNEA",
+  "ref": "toplidercoach.com/xabi-alonso-finalizacion-en-linea/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad y distancias (propuesta). Posible duplicado de TLC-0150 (Arbeloa): misma secuencia; se mantiene por el carril central y el muñeco de referencia. Sin diagrama original.",
+ "diagrama": {
+  "field": [
+   33,
+   18
+  ],
+  "tag": "doble área (recorte)",
+  "extent": {
+   "xmin": -6,
+   "xmax": 35.5,
+   "ymin": -1,
+   "ymax": 19
+  },
+  "lines": [
+   [
+    [
+     16.5,
+     0
+    ],
+    [
+     16.5,
+     18
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 33,
+    "y": 9,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    15,
+    11.8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.4,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -3.2,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 9.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     12,
+     9.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 16,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     9.5
+    ],
+    "b": [
+     8.5,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     9.5
+    ],
+    "b": [
+     24,
+     8.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     8.5,
+     4.5
+    ],
+    "b": [
+     23.5,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 10,
+    "n": 4
+   }
+  ]
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "id": "TLC-0673",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rueda y circuito",
+ "formato": "Circuito",
+ "edad": "7–11 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug.",
+ "espacio": "44 × 20 m",
+ "duracion": "12 min",
+ "series": "2 × 5 min con 1 min de pausa (propuesta).",
+ "objetivo": "Activar al grupo combinando pase, coordinación y una acción técnica final de precisión.",
+ "montaje": "44 × 20 m (propuesta). Cada equipo tiene un cuadrado de pase de 6 × 8 m y, al lado, un circuito de conos que acaba en una miniportería.",
+ "juego": "Rueda de pases a ritmo medio. Tras cuatro pases o a la señal, el último que recibe hace el circuito (zigzag, apoyos o sprint corto), tira a la miniportería y vuelve a la rueda.",
+ "punto": "Gol de precisión, 1 punto para el equipo (propuesta).",
+ "consigna": "Calidad primero, luego velocidad.",
+ "variantes": {
+  "facil": "Circuito sin balón y tiro desde más cerca (propuesta).",
+  "dificil": "Limitar toques en la rueda o jugar con dos balones."
+ },
+ "adaptacion": "Alevín: añadir conducción con giro en el circuito (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Postecoglou)",
+  "titulo_original": "POSTECOGLOU,FÍSICO TÉCNICO CIRCUITO DE COORDINACIÓN",
+  "ref": "toplidercoach.com/fisico-tecnico-circuito-de-coordinacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad (la web da 7+), medidas, número de pases, puntuación y series (propuesta). Sin diagrama original.",
+ "diagrama": {
+  "field": [
+   44,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 46,
+   "ymin": -1.2,
+   "ymax": 21.2
+  },
+  "dashed": true,
+  "cones": [
+   [
+    34.5,
+    8
+   ],
+   [
+    36.5,
+    12
+   ],
+   [
+    38.5,
+    8
+   ],
+   [
+    9.5,
+    8
+   ],
+   [
+    7.5,
+    12
+   ],
+   [
+    5.5,
+    8
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    44,
+    10,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 24,
+    "y": 4.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 4.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 15.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 15.8,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 4.2,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 4.2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 15.8,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 15.8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     4.2
+    ],
+    "b": [
+     32,
+     4.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     32,
+     4.2
+    ],
+    "b": [
+     32,
+     15.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     32,
+     15.8
+    ],
+    "b": [
+     38.6,
+     10.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     38.8,
+     10.2
+    ],
+    "b": [
+     43.4,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 4
+   }
+  ]
+ }
+}

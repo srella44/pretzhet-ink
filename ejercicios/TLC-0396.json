@@ -1,0 +1,163 @@
+{
+ "id": "TLC-0396",
+ "bloque": "Finalización",
+ "titulo": "Pared, giro y remate",
+ "formato": "Rueda de remate",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + PT",
+ "espacio": "Medio campo",
+ "duracion": "12 min",
+ "series": "3 × 3 min; cambiar el perfil de giro en cada serie.",
+ "objetivo": "Coordinar pared, conducción con giro, pase al espacio y llegada al remate.",
+ "montaje": "Medio campo con portería y portero. Dos filas enfrentadas a unos 12 m, un balón por pareja y un cono unos 10 m por delante (distancias en propuesta).",
+ "juego": "A pasa raso a B y hacen la pared. A conduce, gira alrededor del cono y mete un pase raso y tenso al espacio. B, tras devolver, hace un desmarque en curva y remata. Después rotan.",
+ "punto": "Gol, 1 punto; cuenta por parejas (propuesta).",
+ "consigna": "Pared a tiempo y pase tenso.",
+ "variantes": {
+  "facil": "Cono más cerca y remate a dos toques (propuesta).",
+  "dificil": "Pared a un toque, remate a un toque o defensor pasivo tras el giro."
+ },
+ "adaptacion": "Benjamín: sin pared; conducción, giro y pase al compañero (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Francesco Farioli)",
+  "titulo_original": "FRANCESCO FARIOLI FINALIZACIÓN RÁPIDA",
+  "ref": "toplidercoach.com/finalizacion-pared-conduccion-y-tiro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, distancias y puntuación (propuesta). Sin diagrama original: dibujado a partir del texto.",
+ "diagrama": {
+  "field": [
+   33,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 35.5,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     16.5,
+     0
+    ],
+    [
+     16.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 33,
+    "y": 10,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    14,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 17,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 4,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     17
+    ],
+    "b": [
+     3,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 16,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     7,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     7,
+     13
+    ],
+    "b": [
+     13,
+     15
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     22,
+     8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 4,
+    "nt": 0.6
+   }
+  ]
+ }
+}

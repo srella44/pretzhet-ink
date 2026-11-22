@@ -1,0 +1,198 @@
+{
+ "id": "TLC-0398",
+ "bloque": "Finalización",
+ "titulo": "Descarga, cambio y centro",
+ "formato": "4 puestos + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug. + PT",
+ "espacio": "Medio campo",
+ "duracion": "15 min",
+ "series": "3 × 4 min; se alterna el lado cada serie (propuesta).",
+ "objetivo": "Encadenar juego de cara, descarga, cambio de orientación y centro para rematar.",
+ "montaje": "Medio campo con portería y portero. Cuatro puestos: medio centro, extremo derecho, extremo izquierdo y delantero; los demás esperan detrás de cada puesto.",
+ "juego": "El medio pasa al extremo derecho, que juega de cara al delantero. El delantero descarga al medio, que cambia la orientación al extremo izquierdo en profundidad. Este centra y el delantero remata.",
+ "punto": "Gol, 1. Gol de primer toque, 2 (propuesta).",
+ "consigna": "Delantero: no vengas antes de tiempo.",
+ "variantes": {
+  "facil": "Toques libres en todas las acciones (propuesta).",
+  "dificil": "Defensor en el remate y segunda llegada del medio."
+ },
+ "adaptacion": "Alevín: campo de fútbol 7 y centro raso (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Elche CF)",
+  "titulo_original": "FINALIZACIÓN DESCARGA DELANTERO",
+  "ref": "toplidercoach.com/finalizacion-descarga-delantero/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad y puntuación (propuesta). Se dibujan los cuatro primeros pases; el centro y el remate se explican en el texto. Sin diagrama original.",
+ "diagrama": {
+  "field": [
+   36,
+   26
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 38.5,
+   "ymin": -1,
+   "ymax": 27
+  },
+  "lines": [
+   [
+    [
+     19.5,
+     0
+    ],
+    [
+     19.5,
+     26
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 36,
+    "y": 13,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     13
+    ],
+    "b": [
+     17,
+     23
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 16,
+    "s1": 14,
+    "n": 1,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     17,
+     23
+    ],
+    "b": [
+     25,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     25,
+     13
+    ],
+    "b": [
+     7,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 3
+   },
+   {
+    "a": [
+     15,
+     3
+    ],
+    "b": [
+     29,
+     3.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 4
+   },
+   {
+    "a": [
+     7,
+     13
+    ],
+    "b": [
+     29,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 16,
+    "s1": 6,
+    "n": 5,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    7,
+    17.6,
+    "MC",
+    "middle"
+   ],
+   [
+    20.4,
+    24.2,
+    "ED",
+    "start"
+   ],
+   [
+    28.4,
+    14.2,
+    "DC",
+    "start"
+   ],
+   [
+    11.6,
+    4,
+    "EI",
+    "end"
+   ]
+  ]
+ }
+}

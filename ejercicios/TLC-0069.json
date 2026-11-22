@@ -1,0 +1,143 @@
+{
+ "id": "TLC-0069",
+ "bloque": "Técnica y duelos",
+ "titulo": "Persecución con giro",
+ "formato": "3 × 1v1",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "6–8 salidas por trío con 45 s de pausa (propuesta).",
+ "objetivo": "Conducir rápido, girar bien y proteger el balón cuando te persiguen.",
+ "montaje": "30 × 30 m. Tres atacantes con balón, 5 m por delante de tres perseguidores. Una pica a 15 m por atacante y dos miniporterías en la salida.",
+ "juego": "A la señal, conducen a tope, rodean su pica y vuelven a marcar en una miniportería. Los perseguidores salen a la vez; si roban, acaba la acción. Después, cambio de papeles.",
+ "punto": "Gol, 1 al trío. Robo, 1 a los perseguidores (propuesta).",
+ "consigna": "Gira rápido y tapa con el cuerpo.",
+ "variantes": {
+  "facil": "Picas a 10 m (propuesta).",
+  "dificil": "Picas más lejos o tiempo máximo para marcar tras el giro."
+ },
+ "adaptacion": "Alevín: picas a 10–12 m y perseguidores a 6 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Kompany)",
+  "titulo_original": "KOMPANY DUELOS EN VELOCIDAD",
+  "ref": "toplidercoach.com/kompany-duelos-en-velocidad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntuación y series (propuesta). Las picas se dibujan como conos. Sin diagrama original. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "tag": "30 × 30 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -1,
+   "ymax": 23
+  },
+  "goals": [
+   [
+    0,
+    1.4,
+    "L"
+   ],
+   [
+    0,
+    20.6,
+    "L"
+   ]
+  ],
+  "cones": [
+   [
+    24,
+    5.5
+   ],
+   [
+    24,
+    11
+   ],
+   [
+    24,
+    16.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 5.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 16.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 16.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     16.5
+    ],
+    "b": [
+     22.6,
+     16.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 16,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     24.6,
+     18.2
+    ],
+    "b": [
+     1.6,
+     20.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2,
+    "nt": 0.45
+   }
+  ]
+ }
+}

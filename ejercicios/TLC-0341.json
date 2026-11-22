@@ -1,0 +1,171 @@
+{
+ "id": "TLC-0341",
+ "bloque": "Finalización",
+ "titulo": "Tiro por equipos",
+ "formato": "Competición",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug. + PT",
+ "espacio": "Medio campo",
+ "duracion": "12 min",
+ "series": "3 × 3 min o rondas de 5 tiros por jugador.",
+ "objetivo": "Afinar el control orientado y el tiro con precisión en un formato de competición.",
+ "montaje": "Medio campo con portería y portero. Dos equipos en fila. Frente a portería, una zona de control (6 × 6 m a unos 16 m, propuesta) y, antes, dos picas que forman un canal.",
+ "juego": "Uno pasa por el canal de picas a un compañero, que controla de un toque dentro de la zona y tira. Se rotan pase y tiro y se alternan los equipos. Se juega por tiempo o por rondas.",
+ "punto": "Gol, 1 punto para el equipo.",
+ "consigna": "Controla hacia la zona y tira.",
+ "variantes": {
+  "facil": "Canal más ancho y tiro más cerca.",
+  "dificil": "Máximo 3 s entre control y tiro, o eliminación del que falla."
+ },
+ "adaptacion": "Benjamín: portería de fútbol 7 y zona a 10 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Zidane)",
+  "titulo_original": "ZIDANE FINALIZACIÓN TIRO POR EQUIPOS",
+  "ref": "toplidercoach.com/finalizacion-tiro-por-equipos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, tamaño y distancia de la zona (propuesta). Sin diagrama original: dibujado a partir del texto.",
+ "diagrama": {
+  "field": [
+   33,
+   18
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -4,
+   "xmax": 35.5,
+   "ymin": -1,
+   "ymax": 19
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     16,
+     6,
+     22,
+     12
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 33,
+    "y": 9,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    8,
+    7.6
+   ],
+   [
+    8,
+    10.4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.8,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 9.3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": -1.8,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     9
+    ],
+    "b": [
+     13.5,
+     9.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 16,
+    "s1": 14,
+    "n": 1,
+    "nt": 0.75
+   },
+   {
+    "a": [
+     13.5,
+     9.3
+    ],
+    "b": [
+     18.5,
+     9
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     9
+    ],
+    "b": [
+     32,
+     9.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    19,
+    5.2,
+    "ZONA DE CONTROL",
+    "middle"
+   ],
+   [
+    -3.6,
+    17.8,
+    "EQUIPO 2",
+    "start"
+   ]
+  ]
+ }
+}

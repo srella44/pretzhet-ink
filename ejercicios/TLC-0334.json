@@ -1,0 +1,211 @@
+{
+ "id": "TLC-0334",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito y 1v1",
+ "formato": "1v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "12 min",
+ "series": "Cada jugador hace 5–6 salidas con pausa completa (propuesta).",
+ "objetivo": "Decidir bien en un 1 contra 1 justo después de un esfuerzo de agilidad.",
+ "montaje": "40 × 40 m. En el centro, un cuadrado de juego con tres miniporterías. Desde dos esquinas, un circuito de agilidad con conos para cada equipo.",
+ "juego": "Sale uno de cada equipo a la vez y hace su circuito. Al llegar al cuadrado, el entrenador mete un balón: 1 contra 1 con gol en cualquier miniportería. Entran los siguientes.",
+ "punto": "Ganar el duelo, 1 punto; gol, 1 punto más.",
+ "consigna": "Llega equilibrado y decide rápido.",
+ "variantes": {
+  "facil": "Circuito más corto (propuesta).",
+  "dificil": "Tiempo máximo para el 1v1 o un segundo defensor que entra tarde."
+ },
+ "adaptacion": "Benjamín: cuadrado de 15 × 15 m y circuito de 3 conos (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Mourinho)",
+  "titulo_original": "MOURINHO FÍSICO TÉCNICO AGILIDAD VELOCIDAD + 1X1",
+  "ref": "toplidercoach.com/fisico-tecnico-agilidad-velocidad-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, tamaño del cuadrado (20 × 20 m), situación de circuitos y miniporterías y series (propuesta). Sin diagrama original. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "tag": "40 × 40 m",
+  "dashed": true,
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.5,
+   "ymin": -1,
+   "ymax": 25.5
+  },
+  "lines": [
+   [
+    [
+     12,
+     2
+    ],
+    [
+     28,
+     2
+    ],
+    "6 5"
+   ],
+   [
+    [
+     28,
+     2
+    ],
+    [
+     28,
+     16
+    ],
+    "6 5"
+   ],
+   [
+    [
+     28,
+     16
+    ],
+    [
+     12,
+     16
+    ],
+    "6 5"
+   ],
+   [
+    [
+     12,
+     16
+    ],
+    [
+     12,
+     2
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    12,
+    9,
+    "L"
+   ],
+   [
+    28,
+    9,
+    "R"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 20,
+    "y": 2,
+    "lado": "T",
+    "ancho": 2.6
+   }
+  ],
+  "cones": [
+   [
+    5,
+    20
+   ],
+   [
+    8,
+    22.5
+   ],
+   [
+    11,
+    20
+   ],
+   [
+    35,
+    20
+   ],
+   [
+    32,
+    22.5
+   ],
+   [
+    29,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 23,
+    "f": -45
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 23,
+    "f": -135
+   }
+  ],
+  "balls": [
+   [
+    20,
+    9
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     23
+    ],
+    "b": [
+     13.5,
+     17.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     38,
+     23
+    ],
+    "b": [
+     26.5,
+     17.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     8.5
+    ],
+    "b": [
+     27,
+     8.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    20,
+    14.6,
+    "1v1",
+    "middle"
+   ]
+  ]
+ }
+}

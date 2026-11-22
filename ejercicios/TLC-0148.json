@@ -1,0 +1,155 @@
+{
+ "id": "TLC-0148",
+ "bloque": "Técnica y duelos",
+ "titulo": "Paredes entre picas",
+ "formato": "Rueda de pase",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "3 × 3 min; cambiar de lado el apoyo en cada serie (propuesta).",
+ "objetivo": "Automatizar la pared y el pase entre líneas con buen perfil y buen momento de apoyo.",
+ "montaje": "20 × 20 m. Dos filas de 3–4 enfrentadas y, en el centro, dos picas separadas unos 3 m que hacen de línea defensiva.",
+ "juego": "Uno de la fila contraria sale en apoyo a un lado de las picas. El de la fila con balón le pasa y arranca; el apoyo le devuelve entre las picas y él juega a la otra fila. Cada uno acaba en la fila contraria.",
+ "punto": "Reto de grupo: 15 paredes seguidas sin fallo (propuesta).",
+ "consigna": "Apoya a tiempo y devuelve tenso.",
+ "variantes": {
+  "facil": "Devolución a dos toques y picas más separadas (propuesta).",
+  "dificil": "Devolución a un toque, pase con la pierna mala o dos balones."
+ },
+ "adaptacion": "Benjamín: 15 × 15 m y picas a 4 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Rui Borges)",
+  "titulo_original": "RUI BORGES PAREDES CONTINUAS",
+  "ref": "toplidercoach.com/rui-borges-paredes-continuas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, reto, distancia entre picas y series (propuesta). Las picas se dibujan como conos y la posición del apoyo se decide a partir del texto. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "tag": "20 × 20 m",
+  "dashed": true,
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 22.6,
+   "ymin": -1,
+   "ymax": 15
+  },
+  "cones": [
+   [
+    10,
+    5
+   ],
+   [
+    10,
+    8.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.6,
+    "y": 7,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20.6,
+    "y": 7,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 1.8,
+    "f": [
+     3,
+     7
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     7
+    ],
+    "b": [
+     7.5,
+     1.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     7
+    ],
+    "b": [
+     13,
+     11
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     7.5,
+     1.8
+    ],
+    "b": [
+     13,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     13,
+     11
+    ],
+    "b": [
+     17,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 14,
+    "n": 4
+   }
+  ]
+ }
+}

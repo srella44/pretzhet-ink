@@ -69,6 +69,19 @@ def main():
             pages.append(pp); htmls.append(hp)
             if tanda & set(ids[i:i + 6]): tanda_pages.append(pp)
             n += len(chunk)
+    # fichas de la tanda que no están en datos/seleccion.json (solo app): hojas de revisión aparte, fuera del libro
+    in_sel = {p['id'] for p in sel}
+    extra = [k for k in sorted(tanda) if k in ex and k not in in_sel]
+    rev_no = 0
+    for blk in ORDER:
+        ids = [k for k in extra if ex[k]['bloque'] == blk]
+        for i in range(0, len(ids), 6):
+            rev_no += 1
+            chunk = [ex[k] for k in ids[i:i + 6]]
+            html = book_page(chunk, blk, 'Revisión de tanda · fuera del libro.', ' Fichas solo para la app (no están en la selección del libro).', 0, start_n=i + 1)
+            hp = os.path.join(tmp, f'r{rev_no:03d}.html'); open(hp, 'w').write(html)
+            pp = os.path.join(tmp, f'r{rev_no:03d}.pdf'); chrome_pdf(hp, pp)
+            tanda_pages.append(pp); htmls.append(hp)
     if not pages:
         print('sin fichas'); return
     out = os.path.join(ROOT, 'salida', 'libro', 'Pretzhet_Ink_libro.pdf')

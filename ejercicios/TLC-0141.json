@@ -1,0 +1,192 @@
+{
+ "id": "TLC-0141",
+ "bloque": "Técnica y duelos",
+ "titulo": "Número y a la zona",
+ "formato": "1v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "12 min",
+ "series": "Acciones de 6–8 s; cada jugador sale 5–6 veces (propuesta).",
+ "objetivo": "Reaccionar a una señal, ganar el balón y protegerlo para progresar ante un rival directo.",
+ "montaje": "40 × 40 m con una franja de 5 m en cada fondo. Cada equipo, en su franja y numerado. El entrenador, en un lateral con los balones (propuesta).",
+ "juego": "El entrenador dice un número y mete el balón al centro. Salen los dos con ese número: quien lo gana intenta llegar conduciendo a la franja rival. Acaba al llegar, con robo o cuando corta el entrenador.",
+ "punto": "Llegar a la franja rival con balón, 1 punto (propuesta).",
+ "consigna": "Sal a tope y protege el balón.",
+ "variantes": {
+  "facil": "Franjas más cerca (30 m) (propuesta).",
+  "dificil": "Dos números a la vez (2v2) o contraataque tras robo."
+ },
+ "adaptacion": "Benjamín: 25 × 25 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Tuchel)",
+  "titulo_original": "TUCHEL DUELOS ALCANZAR ZONAS",
+  "ref": "toplidercoach.com/duelos-alcanzar-zonas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntuación, posición del entrenador y series (propuesta). Sin diagrama original: dibujado a partir del texto. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   40,
+   22
+  ],
+  "tag": "40 × 40 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.5,
+   "ymin": -1,
+   "ymax": 23
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     40,
+     4
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     18,
+     40,
+     22
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 20,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 20,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 20,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 20,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 14.8,
+    "y": 15.6,
+    "f": [
+     20,
+     12
+    ]
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 2,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 2,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 2,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 2,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 6.5,
+    "f": [
+     20,
+     12
+    ]
+   }
+  ],
+  "balls": [
+   [
+    20,
+    12
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     14.8,
+     15.6
+    ],
+    "b": [
+     18.9,
+     13.3
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     6.5
+    ],
+    "b": [
+     21.2,
+     10.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     11.5
+    ],
+    "b": [
+     10,
+     3.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 2
+   }
+  ]
+ }
+}

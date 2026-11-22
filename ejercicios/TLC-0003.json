@@ -1,0 +1,145 @@
+{
+ "id": "TLC-0003",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "2v1 y vuelta en 2v2",
+ "formato": "2v1 → 2v2",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug. + 2 PT",
+ "espacio": "Medio campo · 40 × 40 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min; se cambian las parejas en cada serie (propuesta).",
+ "objetivo": "Aprovechar la superioridad, defender en inferioridad y cambiar de rol sin pausa.",
+ "montaje": "Medio campo acortado (40 × 40 m, propuesta), con el ancho del área marcado. Portería y portero en cada fondo. Dos equipos por parejas.",
+ "juego": "Dos atacantes salen del fondo contra un defensor que entra desde la esquina contraria. Al acabar, la pareja de ese defensor ataca 2 contra 2 hacia la otra portería contra los que atacaron.",
+ "punto": "Gol, 1 punto (propuesta).",
+ "consigna": "Acabas de atacar: defiende ya.",
+ "variantes": {
+  "facil": "En el 2v2, un defensor sale con 2 s de retraso (propuesta).",
+  "dificil": "Máximo 5–6 s para rematar cada acción."
+ },
+ "adaptacion": "Alevín: 30 × 30 m y porterías de fútbol 7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Conte)",
+  "titulo_original": "CONTE, TRANSICIONES 2X1 + 2X2",
+  "ref": "toplidercoach.com/conte-transiciones-2x1-2x2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, puntuación y series (propuesta). Se dibuja el 2v1; el segundo defensor espera para el 2v2. Sin diagrama original. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "tag": "40 × 40 m",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -1,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 12,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 22,
+    "f": [
+     26,
+     16
+    ]
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 2,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     6
+    ],
+    "b": [
+     16,
+     8.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 16,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     18
+    ],
+    "b": [
+     17,
+     18.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     35,
+     22
+    ],
+    "b": [
+     26,
+     16
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    20,
+    26.4,
+    "LUEGO: 2v2 HACIA LA OTRA PORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

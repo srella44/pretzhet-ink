@@ -1,0 +1,145 @@
+{
+ "id": "TLC-0373",
+ "bloque": "Finalización",
+ "titulo": "Control de cara y tiro",
+ "formato": "Remate en 3 perfiles",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug. + PT",
+ "espacio": "Medio campo",
+ "duracion": "10 min",
+ "series": "Series de 6 balones por jugador; rotan de perfil (propuesta).",
+ "objetivo": "Usar el primer control para quedar de cara a portería y rematar rápido.",
+ "montaje": "Medio campo con portería y portero. Tres puntos de recepción frente al área: dos laterales y uno central. Un jugador en cada uno y un pasador por delante (propuesta).",
+ "juego": "El pasador juega a uno de los tres. Este recibe mirando al pasador y, con el control, se pone de cara a portería y remata en uno o dos toques. El entrenador pide el tipo de control.",
+ "punto": "Gol, 1 punto (propuesta).",
+ "consigna": "Mira la portería antes de controlar.",
+ "variantes": {
+  "facil": "Pase raso y suave; dos toques antes de rematar (propuesta).",
+  "dificil": "Remate a un toque tras el control, pierna mala o defensor pasivo."
+ },
+ "adaptacion": "Benjamín: pase con la mano y portería de fútbol 7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Frank Lampard)",
+  "titulo_original": "FRANK LAMPARD, CONTROL ORIENTADO Y TIRO",
+  "ref": "toplidercoach.com/frank-lampard-control-orientado-y-tiro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, posición del pasador y puntuación (propuesta). Sin diagrama original: dibujado a partir del texto.",
+ "diagrama": {
+  "field": [
+   33,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 35.5,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     16.5,
+     0
+    ],
+    [
+     16.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 33,
+    "y": 10,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 4,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3,
+    "f": [
+     4,
+     10
+    ]
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 17,
+    "f": [
+     4,
+     10
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     10
+    ],
+    "b": [
+     16,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 16,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     10
+    ],
+    "b": [
+     21.5,
+     11.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     11.5
+    ],
+    "b": [
+     32,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 12,
+    "n": 3
+   }
+  ]
+ }
+}

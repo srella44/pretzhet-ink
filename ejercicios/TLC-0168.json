@@ -1,0 +1,183 @@
+{
+ "id": "TLC-0168",
+ "bloque": "Finalización",
+ "titulo": "Cinco posiciones y remate",
+ "formato": "Rueda de remate",
+ "edad": "10–13 años",
+ "nivel": "Alto",
+ "jugadores": "5 jug. + PT",
+ "espacio": "Medio campo",
+ "duracion": "12 min",
+ "series": "3 × 3 min; rotación 1→2→3→4→5→1 (propuesta).",
+ "objetivo": "Encadenar conducción, apoyo de cara, pase en profundidad y remate tras desmarque.",
+ "montaje": "Medio campo con portería y portero. Cinco posiciones hacia portería: P1 con balón, P2 y P3 de apoyo, P4 en espera y P5 delantero (P3 y P4 en propuesta).",
+ "juego": "P1 conduce y pasa a P2, que le devuelve de cara. P1 mete el pase en profundidad a P5, que rompe y remata. Rotación 1→2→3→4→5→1; P3 apoya por el otro lado en la siguiente.",
+ "punto": "Gol, 1 punto; series por grupo (propuesta).",
+ "consigna": "La ruptura, con el gesto del pasador.",
+ "variantes": {
+  "facil": "P2 devuelve a dos toques (propuesta).",
+  "dificil": "P2 a un toque, tiempo corto para el pase o defensor pasivo."
+ },
+ "adaptacion": "Alevín: 40 × 30 m y portería de fútbol 7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Iñigo Pérez)",
+  "titulo_original": "IÑIGO PÉREZ FINALIZACIÓN",
+  "ref": "toplidercoach.com/inigo-perez-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad y papel de P3 y P4 (la fuente no lo detalla) en propuesta. Sin diagrama original.",
+ "diagrama": {
+  "field": [
+   33,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 35.5,
+   "ymin": -1,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     16.5,
+     0
+    ],
+    [
+     16.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 33,
+    "y": 10,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 16.5,
+    "f": -20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 16,
+    "f": [
+     3,
+     16.5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 5,
+    "f": 30
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     16.5
+    ],
+    "b": [
+     12,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 16,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     16
+    ],
+    "b": [
+     7.5,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     5
+    ],
+    "b": [
+     27,
+     9.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     7.5,
+     12
+    ],
+    "b": [
+     26.5,
+     9.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    -0.6,
+    17.4,
+    "P1",
+    "end"
+   ],
+   [
+    14.4,
+    19.2,
+    "P2",
+    "start"
+   ],
+   [
+    11,
+    1.2,
+    "P3",
+    "middle"
+   ],
+   [
+    19,
+    2.2,
+    "P5",
+    "middle"
+   ]
+  ]
+ }
+}

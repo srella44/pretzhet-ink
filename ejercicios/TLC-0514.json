@@ -1,0 +1,261 @@
+{
+ "id": "TLC-0514",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tres partidos a la vez",
+ "formato": "3v3 × 3",
+ "edad": "8–13 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug. + 2 PT",
+ "espacio": "Medio campo · 48 × 30 m",
+ "duracion": "15 min",
+ "series": "3 rotaciones de 3–4 min, una por espacio.",
+ "objetivo": "Adaptarse a reglas y espacios distintos manteniendo la intensidad de competición.",
+ "montaje": "Medio campo en tres espacios. En el central, dos porterías con portero. En cada lateral, cuatro miniporterías, dos en cada fondo.",
+ "juego": "Tres partidos de 3 contra 3 a la vez. En el central, toques libres. En los laterales, máximo dos toques y el gol vale tras cambiar de orientación. Cada 3–4 min, los equipos rotan.",
+ "punto": "Victoria, 3; empate, 1. Clasificación global (propuesta).",
+ "consigna": "Cambia el chip en cada campo.",
+ "variantes": {
+  "facil": "2 contra 2 en los laterales (propuesta).",
+  "dificil": "4 contra 4 o comodín ofensivo en los laterales."
+ },
+ "adaptacion": "Benjamín: toques libres en todos los campos (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Kompany)",
+  "titulo_original": "KOMPANY, MULTIPARTIDILLOS VARIADOS",
+  "ref": "toplidercoach.com/kompany-multipartidillos-variados/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad (la web da 7+; propuesta 8–13), medidas y puntuación (propuesta). Se dibujan menos jugadores en los laterales. Sin diagrama original. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   48,
+   20
+  ],
+  "tag": "48 × 30 m",
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 49.8,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     34,
+     0
+    ],
+    [
+     34,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    14,
+    5,
+    "R"
+   ],
+   [
+    14,
+    15,
+    "R"
+   ],
+   [
+    34,
+    5,
+    "L"
+   ],
+   [
+    34,
+    15,
+    "L"
+   ],
+   [
+    48,
+    5,
+    "R"
+   ],
+   [
+    48,
+    15,
+    "R"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 24,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 24,
+    "y": 20,
+    "lado": "B",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 14.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 29.5,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 23.5,
+    "y": 9.5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 5.5,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 14.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 6.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 38.5,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 38.5,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 44,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18.5,
+     14.5
+    ],
+    "b": [
+     23.5,
+     9.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     23.5,
+     9.5
+    ],
+    "b": [
+     24,
+     2.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     6.5
+    ],
+    "b": [
+     9.5,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ]
+ }
+}

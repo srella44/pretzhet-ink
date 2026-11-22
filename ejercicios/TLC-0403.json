@@ -1,0 +1,163 @@
+{
+ "id": "TLC-0403",
+ "bloque": "Técnica y duelos",
+ "titulo": "Coberturas 1v2 en cuadros",
+ "formato": "1v2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "3 cuadros de 12 × 12 m",
+ "duracion": "12 min",
+ "series": "Acciones de 6–8 s; se rota cada 4 acciones (propuesta).",
+ "objetivo": "Coordinar al primer y segundo defensor y permutar papeles cuando el balón cambia de zona.",
+ "montaje": "Delante del área, tres cuadrados: uno frontal (más peligro) y dos laterales. En cada uno, un atacante con balón y dos defensores.",
+ "juego": "1 contra 2. Un defensor sale al balón y el otro cubre. El atacante conduce para cambiar de cuadrado; al cambiar, los defensores permutan papeles. Se busca contener y orientar, no robar.",
+ "punto": "Atacante que sale del frontal hacia portería, 1 punto (propuesta).",
+ "consigna": "Uno salta, otro cubre: habla.",
+ "variantes": {
+  "facil": "Cuadros más pequeños; el atacante a dos toques (propuesta).",
+  "dificil": "Robo permitido solo en los laterales; tiempo máximo de 6–8 s."
+ },
+ "adaptacion": "Benjamín: cuadros de 8 × 8 m y defensa sin robo (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Bielsa)",
+  "titulo_original": "BIELSA DEFENSIVO COBERTURAS",
+  "ref": "toplidercoach.com/bielsa-defensivo-coberturas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, tamaño de los cuadros, puntuación y series (propuesta). Se dibuja un solo grupo. Sin diagrama original.",
+ "diagrama": {
+  "field": [
+   36,
+   12
+  ],
+  "tag": "3 × 12 × 12 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 37.5,
+   "ymin": -4.4,
+   "ymax": 14.6
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 18,
+    "y": -2.2,
+    "lado": "T",
+    "ancho": 7
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 9.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 4.2,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 21.8,
+    "y": 2.4,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     9.5
+    ],
+    "b": [
+     28.5,
+     8.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     21.8,
+     2.4
+    ],
+    "b": [
+     27.5,
+     5.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     16.5,
+     4.2
+    ],
+    "b": [
+     22.5,
+     4.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6,
+    14.2,
+    "LATERAL",
+    "middle"
+   ],
+   [
+    18,
+    14.2,
+    "FRONTAL",
+    "middle"
+   ],
+   [
+    30,
+    14.2,
+    "LATERAL",
+    "middle"
+   ]
+  ]
+ }
+}

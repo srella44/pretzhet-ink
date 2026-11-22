@@ -1,0 +1,175 @@
+{
+ "id": "TLC-0296",
+ "bloque": "Técnica y duelos",
+ "titulo": "Pases en W",
+ "formato": "Circuito",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "7 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "3 × 3 min; en cada serie cambia la acción física (propuesta).",
+ "objetivo": "Unir pase preciso y esfuerzo físico corto sin perder calidad técnica.",
+ "montaje": "40 × 30 m. Cinco postas de conos en forma de W, con un jugador en cada una y dos más en la salida, con balón.",
+ "juego": "Se pasa a la posta siguiente y se corre hasta ella con la acción marcada: sprint, cambio de ritmo o saltos. La secuencia sigue por toda la W. Se cambia el tipo de pase: raso, alto o tras giro.",
+ "punto": "Carrera de grupos: gana quien completa la W antes y sin fallos (propuesta).",
+ "consigna": "Pase preciso y arranca a tope.",
+ "variantes": {
+  "facil": "Postas más cerca y pase a dos toques (propuesta).",
+  "dificil": "Pase a un toque o con oposición pasiva en la recepción."
+ },
+ "adaptacion": "Fútbol base: sin gomas ni lastres; saltos y sprints cortos (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Niko Kovač)",
+  "titulo_original": "NIKO KOVAC FÍSICO TÉCNICO TRABAJO EN W",
+  "ref": "toplidercoach.com/fisico-tecnico-trabajo-en-w/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, competición, distancias de las postas y series (propuesta); se quitan las gomas de fuerza por la edad. Sin diagrama original. Campo dibujado comprimido para ganar escala (medidas reales en la etiqueta).",
+ "diagrama": {
+  "field": [
+   40,
+   18
+  ],
+  "tag": "40 × 30 m",
+  "dashed": true,
+  "extent": {
+   "xmin": -3,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "cones": [
+   [
+    3,
+    2
+   ],
+   [
+    11,
+    16
+   ],
+   [
+    20,
+    4
+   ],
+   [
+    29,
+    16
+   ],
+   [
+    37,
+    2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4.6,
+    "f": [
+     11,
+     13.4
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 1.6,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 6,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 13.4,
+    "f": [
+     20,
+     6.6
+    ]
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 6.6,
+    "f": [
+     29,
+     13.4
+    ]
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 13.4,
+    "f": [
+     37,
+     4.6
+    ]
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 4.6,
+    "f": [
+     29,
+     13.4
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4.6
+    ],
+    "b": [
+     11,
+     13.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 16,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     3.6
+    ],
+    "b": [
+     13.4,
+     12.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     13.4
+    ],
+    "b": [
+     20,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 3
+   }
+  ]
+ }
+}
