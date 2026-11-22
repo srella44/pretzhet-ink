@@ -13,3 +13,15 @@
 
 | Hueco | ID creado |
 |---|---|
+
+## toplidercoach · Entrenadores Top (alta en el banco, 2026-11-22)
+
+Lectura de 796 tareas de «Entrenadores Top» (copia del texto en `fuentes/toplidercoach_entrenadores.json`, clave = ruta de la web). IDs `TLC-0001…TLC-0796`, añadidos a `datos/referencias.json`.
+- **Candidato (234):** únicos y aptos para 7–13 años (etiqueta de la web 7+, 10+ o 13+). Entran en `estado/cola.json` como fase 2, **delante** de lo pendiente: primero Superioridades (11), luego los de 10+ y después los de 13+. Edad propuesta: «desde N años» según la etiqueta mínima de la web.
+- **Revisar nivel (556):** solo 16+/18+. En referencias, fuera de la cola; se pueden adaptar más adelante.
+- **Desarrollar (5):** sin texto del ejercicio en la lectura (4 con los apartados vacíos y 1 sin texto). Hay que abrir la página.
+- **Fusionar (duplicado) (1):** `scaloni-rondo-5x3-y-transicion-5x4-2` es copia de `scaloni-rondo-5x3-y-transicion-5x4`.
+- Duplicados con la base v08: ninguno (0 de 796 con ≥ 60 % de coincidencia de fragmentos de 4 palabras).
+- Bloque asignado con las reglas de «Criterios» de la v08; 186 sin palabra clave ni formato quedan en Técnica y duelos (propuesta). Vuelta a la calma y Balón parado: ninguna tarea; Porteros: 2 (solo 16+).
+- Las páginas se leyeron con el aviso de «solo suscriptores» al final; el texto del ejercicio está completo, pero el vídeo y el diagrama original no se ven: los diagramas se dibujan a partir del texto.
+- «Fútbol Base» (253, solo vídeo) y el menú «Ejercicios» siguen sin revisar.
