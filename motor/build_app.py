@@ -97,10 +97,11 @@ for r in refs:
                   'pts': (s.get('Puntuación', '') + ' ' + s.get('Puntos', '')).strip(), 'cues': s.get('Consignas', '') or s.get('Frase', ''),
                   'fac': s.get('Más fácil', ''), 'dif': s.get('Más difícil', ''), 'var': s.get('Variantes', ''), 'sp': s.get('Espacio', '').rstrip('. '),
                   'ctx': s.get('Contexto', ''), 'notes': (r.get('Advertencias / siguiente revisión') or '') if (r['ID'].startswith(('TFB', 'RONDO', 'DOS')) or r.get('completed')) else ''})
-    if r['ID'].startswith('TLC-'):
+    if r['ID'].startswith(('TLC-','FB-')):
         rec['tl'] = 1
         m_ = re.search(r'\(([^()]*)\)\s*$', r['Autor / proveedor'] or '')
         if m_: rec['tm'] = m_.group(1).strip().title()
+        elif r['ID'].startswith('FB-'): rec['tm'] = 'Fútbol Base'
     if r.get('probado'): rec['pr'] = 1
     if r.get('_fmt'): rec['f'] = r['_fmt']
     if d:

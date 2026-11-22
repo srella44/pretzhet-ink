@@ -1,0 +1,253 @@
+11786|PBA|GUARDAR LA CASA
+17562|AIC|AGILIDAD Y REGATE COMPETITIVO
+competicion-conduccion-4|AI|COMPETICIÓN CONDUCCION 4
+competicion-conduccion-3|AI|COMPETICION CONDUCCIÓN 3
+competicion-conduccion-2|AI|COMPETICIÓN CONDUCCIÓN 2
+competicion-conduccion-1|AI|COMPETICIÓN CONDUCCIÓN 1
+tecnica-individual-ajax|PBA|Técnica individual Ajax
+control-orientado-y-pase-por-trios|IC|CONTROL ORIENTADO Y PASE POR TRIOS
+control-pase-y-1x1|BAI|CONTROL PASE Y 1X1
+circuito-tecnico-multiaccion|AI|CIRCUITO TÉCNICO MULTIACCIÓN
+circuito-centro-lateral-y-tiro|AI|CIRCUITO CENTRO LATERAL Y TIRO
+circuito-finalizacion|AI|CIRCUITO FINALIZACIÓN
+agilidad-velocidad-relevos|BA|AGILIDAD, VELOCIDAD, RELEVOS
+rueda-de-pases-2|AIC|RUEDA DE PASES
+coordinacion-agilidad|PBA|COORDINACIÓN + AGILIDAD
+circuito-tecnico-2|BA|CIRCUITO TÉCNICO
+agilidadvelocidadtiro|AI|AGILIDAD+VELOCIDAD+TIRO
+finta-de-espaldas-y-tiro|BA|FINTA DE ESPALDAS Y TIRO
+quien-es-el-jefe|IC|¿Quién es el jefe?
+atrapame-si-puedes|BAI|ATRÁPAME SI PUEDES
+3-vs-1-transiciones|AIC|3 vs 1 + TRANSICIONES
+finalizacion-intercambio-iii|IC|FINALIZACIÓN INTERCAMBIO (III)
+finalizacion-intercambio-i-y-ii|AIC|FINALIZACIÓN INTERCAMBIO (I y II)
+regate-por-puertas|PB|REGATE POR PUERTAS
+101-dalmatas|PB|"101 DALMATAS"
+evitar-al-destructor|PB|EVITAR AL DESTRUCTOR
+luz-roja-luz-verde|PB|LUZ ROJA, LUZ VERDE
+pases-tercer-hombre-3|IC|PASES TERCER HOMBRE (3)
+etiqueta-al-dinosaurio|PB|"ETIQUETA AL DINOSAURIO"
+pases-tercer-hombre-2|IC|PASES TERCER HOMBRE (2)
+tiro-a-porteria-ludico-3|BAI|TIRO A PORTERÍA LÚDICO 3
+pases-tercer-hombre-1|IC|PASES TERCER HOMBRE (1)
+tiro-a-porteria-ludico-2|BAI|TIRO A PORTERÍA LÚDICO 2
+posesion-7x72|IC|POSESIÓN 7X7+2
+tiro-a-porteria-ludico-1|BAI|TIRO A PORTERÍA LÚDICO 1
+control-orientado-pase|PBA|CONTROL ORIENTADO + PASE
+finalizacion-2-porterias|AIC|FINALIZACIÓN 2 PORTERÍAS
+pase-desdoblamiento-y-tiro|BA|PASE, DESDOBLAMIENTO Y TIRO
+rueda-de-pases-1-fila|AI|RUEDA DE PASES 1 FILA
+pase-lateral-devolucion-diagonal|AI|PASE LATERAL + DEVOLUCIÓN DIAGONAL
+fisico-tecnico-velocidad-finalizacion|AIC|FÍSICO TÉCNICO VELOCIDAD FINALIZACIÓN
+conduccion-en-circulo-y-regate|BAI|CONDUCCIÓN EN CÍRCULO Y REGATE
+fisico-tecnico-finalizacion|AIC|FÍSICO TÉCNICO FINALIZACIÓN
+velocidad-de-reaccion-colores|AI|VELOCIDAD DE REACCIÓN COLORES
+partidillo-en-area-5x5x5|AIC|PARTIDILLO EN ÁREA 5X5X5
+1x1-velocidad-de-reaccion|BAI|1X1 VELOCIDAD DE REACCIÓN
+posesion-8x44|IC|POSESIÓN 8X4+4
+velocidad-con-giros|IC|VELOCIDAD CON GIROS
+conduccion-4-postas|BA|CONDUCCIÓN 4 POSTAS
+finalizacion-4-posiciones|AIC|FINALIZACIÓN 4 POSICIONES
+rueda-de-pases-3-filas-con-2-balones|BA|RUEDA DE PASES 3 FILAS CON 2 BALONES
+10-ejercicios-de-tecnica-parte-4|BAI|10 EJERCICIOS DE TÉCNICA (PARTE 4)
+10-ejercicios-de-tecnica-parte-3|BAI|10 EJERCICIOS DE TÉCNICA (PARTE 3)
+10-ejercicios-tecnica-individual-parte-2|BAI|10 EJERCICIOS TÉCNICA INDIVIDUAL (PARTE 2)
+10-ejercicios-tecnica-individual-parte-1|BAI|10 EJERCICIOS TÉCNICA INDIVIDUAL (PARTE 1)
+circuito-fisico-tecnico-2|AI|CIRCUITO FÍSICO TÉCNICO
+velocidad-de-reaccion-tecnica|AI|VELOCIDAD DE REACCIÓN + TÉCNICA
+tecnica-individual-nivel-basico|AI|TÉCNICA INDIVIDUAL. NIVEL BÁSICO
+agilidad-y-tecnica-de-golpeo|BAI|AGILIDAD Y TÉCNICA DE GOLPEO
+conduccion-y-frenar-el-balon-competicion|BA|CONDUCCIÓN Y FRENAR EL BALÓN, COMPETICIÓN
+desdoblamiento-y-pase|IC|DESDOBLAMIENTO Y PASE
+calentamiento-con-pases-y-activacion|BAI|CALENTAMIENTO CON PASES Y ACTIVACION
+pases-y-activacion|AI|PASES Y ACTIVACIÓN
+velocidad-y-agilidad|BAI|VELOCIDAD Y AGILIDAD
+mejora-del-regate|BA|MEJORA DEL REGATE
+pase-y-control-con-valla-3|BA|PASE Y CONTROL CON VALLA (3)
+pase-y-control-con-valla-2|BA|PASE Y CONTROL CON VALLA (2)
+control-y-pase-con-valla-1|BA|CONTROL Y PASE, CON VALLA (1)
+control-orientado-lateral-y-pase|BAI|CONTROL ORIENTADO LATERAL Y PASE
+devolucion-cabeza-y-pie-a-un-contacto|BAI|DEVOLUCIÓN CABEZA Y PIE A UN CONTACTO
+cada-color-un-regate|PB|CADA COLOR UN REGATE
+pases-desdoblamiento-y-tercer-hombre|AIC|PASES, DESDOBLAMIENTO Y TERCER HOMBRE
+rueda-de-pases-4-picas|AIC|RUEDA DE PASES, 4 PICAS
+conduccion-regate-y-giros|AI|CONDUCCIÓN, REGATE Y GIROS
+fila-de-paredes|AI|FILA DE PAREDES
+rueda-de-pases-conduccion-y-pared|BAI|RUEDA DE PASES, CONDUCCIÓN Y PARED
+circuito-agilidad|IC|CIRCUITO AGILIDAD
+cuadrado-de-pases|AIC|CUADRADO DE PASES
+dejar-de-cara-y-precision|AI|DEJAR DE CARA Y PRECISIÓN
+agilidadcoordinacionaceleracion|BAI|AGILIDAD+COORDINACIÓN+ACELERACIÓN
+agilidadprecision-en-el-pase|BA|AGILIDAD+PRECISIÓN EN EL PASE
+pacman-fisico-tecnico||PACMAN FÍSICO TÉCNICO
+coordinacion-y-pase|BAI|COORDINACIÓN Y PASE
+control-orientado-y-tiro|BA|CONTROL ORIENTADO Y TIRO
+conduccion-y-pase|PBA|CONDUCCIÓN Y PASE
+conduccion-en-x|BA|CONDUCCIÓN EN X
+cruz-de-control-orientado|PBA|CRUZ DE CONTROL ORIENTADO
+control-orientado-y-movilidad|BA|CONTROL ORIENTADO Y MOVILIDAD
+recibir-en-carrera-y-tiro|BA|RECIBIR EN CARRERA Y TIRO
+centros-desde-dos-perfiles|AI|CENTROS DESDE DOS PERFILES
+accion-combinativa-llegada-lado-debil|AIC|ACCIÓN COMBINATIVA LLEGADA LADO DEBIL
+8x4-transicion|AIC|8X4+ TRANSICIÓN
+tactico-posesion-movimientos-de-apoyo|IC|TÁCTICO POSESIÓN MOVIMIENTOS DE APOYO
+tactico-presion-en-bloque-medio-y-transicion|IC|TÁCTICO, PRESIÓN EN BLOQUE MEDIO Y TRANSICIÓN
+tactico-combinaciones-laterales-invertidos|IC|TÁCTICO COMBINACIONES LATERALES INVERTIDOS
+circuito-de-tecnica-y-finalizacion|IC|CIRCUITO DE TÉCNICA Y FINALIZACIÓN
+1-vs-1-agilidad|IC|1 vs 1 AGILIDAD
+rueda-de-pases-carrera-del-tercer-hombre-1|AIC|RUEDA DE PASES, CARRERA DEL TERCER HOMBRE (1)
+conduccion-coordinacion|BA|CONDUCCIÓN + COORDINACIÓN
+agilidad-control-y-tiro|BA|AGILIDAD +CONTROL Y TIRO
+encontrar-la-porteria-libre|BAI|ENCONTRAR LA PORTERIA LIBRE
+rondo-intercambio-de-defensores|AIC|RONDO INTERCAMBIO DE DEFENSORES
+resistencia-a-la-velocidad-y-1x1|AI|RESISTENCIA A LA VELOCIDAD Y 1X1
+coordinacion-y-transferencia-al-balon|AIC|COORDINACIÓN Y TRANSFERENCIA AL BALÓN
+control-con-bote-previo-y-tiro-de-precision|BAI|CONTROL CON BOTE PREVIO Y TIRO DE PRECISIÓN
+agilidad-y-pase-de-devolucion|BA|AGILIDAD Y PASE DE DEVOLUCIÓN
+competicion-velocidad-por-parejas|BAI|COMPETICIÓN VELOCIDAD POR PAREJAS
+coordinacion-variada-finalizacion|AIC|COORDINACIÓN VARIADA + FINALIZACIÓN
+conduccion-pared-finalizacion|AI|CONDUCCIÓN, PARED + FINALIZACIÓN
+trabajo-tecnico-individual-en-circulo|PBA|TRABAJO TÉCNICO INDIVIDUAL EN CÍRCULO
+control-en-movimiento-y-finalizacion|BAI|CONTROL EN MOVIMIENTO Y FINALIZACIÓN
+centro-lateral-finalizacion|AIC|CENTRO LATERAL + FINALIZACIÓN
+3-filas-de-pase-simultaneas|AIC|3 FILAS DE PASE SIMULTANEAS
+recoger-conos|PB|RECOGER CONOS
+conduccion-slalom|AI|CONDUCCIÓN SLALOM
+mejora-finalizacion-individual-iii-iv|AI|MEJORA FINALIZACIÓN INDIVIDUAL III -IV
+mejora-finalizacion-individual-ii|IC|MEJORA FINALIZACIÓN INDIVIDUAL II
+mejora-finalizacion-individual-1|AIC|MEJORA FINALIZACIÓN INDIVIDUAL 1
+duelos-1x1|BA|DUELOS 1X1
+circuito-de-pase-y-conduccion|BAI|CIRCUITO DE PASE Y CONDUCCIÓN
+tocar-colores-y-1x1-finalizacion|AIC|TOCAR COLORES Y 1X1 FINALIZACIÓN
+control-orientado-y-salida|BAI|CONTROL ORIENTADO Y SALIDA
+huir-de-los-lobos|BAI|HUIR DE LOS "LOBOS"
+velocidad-de-reaccion-y-1x1-recepcion-de-espaldas|AIC|VELOCIDAD DE REACCIÓN Y 1X1 RECEPCIÓN DE ESPALDAS
+agilidad-velocidad-tecnica-individual|AIC|AGILIDAD, VELOCIDAD + TÉCNICA INDIVIDUAL
+rueda-de-pases-perfiles-de-control|IC|RUEDA DE PASES, PERFILES DE CONTROL
+esquina-de-pase|AIC|ESQUINA DE PASE
+control-exterior-pase-interior|AIC|CONTROL EXTERIOR, PASE INTERIOR
+cuadrado-de-finta-giro-y-pase|AIC|CUADRADO DE FINTA, GIRO Y PASE
+conduccion-y-persecucion|AIC|CONDUCCIÓN Y PERSECUCIÓN
+control-orientado-y-pase-interior|AI|CONTROL ORIENTADO Y PASE INTERIOR
+velocidad-de-reaccion-en-circulo|AI|VELOCIDAD DE REACCIÓN EN CÍRCULO
+fisico-conduccion-y-habilidad|AIC|FÍSICO + CONDUCCIÓN Y HABILIDAD
+velocidad-de-reaccion-aceleracion|AIC|VELOCIDAD DE REACCIÓN- ACELERACIÓN
+tecnica-individual-espacio-reducido|BA|TÉCNICA INDIVIDUAL ESPACIO REDUCIDO
+pase-interior-del-pie-a-1-contacto|BA|PASE INTERIOR DEL PIE A 1 CONTACTO
+control-orientado-interior-del-pie|BA|CONTROL ORIENTADO INTERIOR DEL PIE
+el-espejo|IC|EL ESPEJO
+ritmo-de-pase-fisico|AIC|RITMO DE PASE + FÍSICO
+remate-de-cabeza-por-parejas|BA|REMATE DE CABEZA POR PAREJAS
+1x1-defensa-y-ataque-a-dos-porterias|AI|1X1 DEFENSA Y ATAQUE A DOS PORTERIAS
+reaccion-precision|AIC|REACCIÓN + PRECISIÓN
+doble-rondo-4x1|AIC|DOBLE RONDO 4X1
+tecnica-individual|P|TÉCNICA INDIVIDUAL
+secuencia-finalizacion-y-remate-a-centro-lateral|AIC|SECUENCIA FINALIZACÍON Y REMATE A CENTRO LATERAL
+1-x-1-defensivo-en-desventaja-espacial|BA|1 X 1 DEFENSIVO EN DESVENTAJA ESPACIAL
+cuadrado-incompleto-control-y-pase|PBAI|CUADRADO INCOMPLETO CONTROL Y PASE
+rueda-de-pase-tercer-hombre-2|BAIC|RUEDA DE PASE TERCER HOMBRE
+circuito-de-conduccion-2|PB|CIRCUITO DE CONDUCCIÓN
+circuito-fisico-tecnico|BAI|CIRCUITO FÍSICO TÉCNICO
+pase-y-velocidad|AIC|PASE Y VELOCIDAD
+pared-1-2-3|AIC|PARED 1-2-3
+aparezco-y-dejo-de-cara|PBA|APAREZCO Y DEJO DE CARA
+remate-de-cabeza-y-tiro|BAI|REMATE DE CABEZA Y TIRO
+rueda-de-pases-desdoblamiento|BA|RUEDA DE PASES DESDOBLAMIENTO
+rueda-de-pases-descargo-y-apoyo|AIC|RUEDA DE PASES DESCARGO Y APOYO
+velocidad-de-pies-2|BAI|VELOCIDAD DE PIES
+circuito-fisico|C|CIRCUITO FÍSICO
+triangulo-de-pase-apoyo|BA|TRIANGULO DE PASE + APOYO
+que-te-pillo|PBA|! QUE TE PILLO !
+cobertura-pelotas-de-tenis|AIC|COBERTURA PELOTAS DE TENIS
+circuito-tecnico-5-acciones|AIC|CIRCUITO TÉCNICO 5 ACCIONES
+rueda-de-pase-dejar-de-cara-lejano|AIC|RUEDA DE PASE, DEJAR DE CARA + LEJANO
+finalizacion-tras-pared|IC|FINALIZACIÓN TRAS PARED
+pasalineas-y-gol|IC|PASALÍNEAS Y GOL
+movilidad-y-pase-en-carril-central|IC|MOVILIDAD Y PASE EN CARRIL CENTRAL
+duelo-de-conduccion-y-1x1|AIC|DUELO DE CONDUCCIÓN Y 1X1
+circulo-de-paredes|AI|CÍRCULO DE PAREDES
+duelos-1x1-continuos|AIC|DUELOS 1X1 CONTÍNUOS
+rueda-de-pase-2-balones|IC|RUEDA DE PASE 2 BALONES
+rueda-de-pase-tercer-hombre|IC|RUEDA DE PASE -TERCER HOMBRE
+ruedas-de-pases-paredes-rapidas|I|RUEDAS DE PASES -PAREDES RÁPIDAS
+competicion-pase-y-conduccion|AIC|COMPETICIÓN PASE Y CONDUCCIÓN
+ruedas-de-pase-contraataque|AIC|RUEDAS DE PASE CONTRAATAQUE
+tiros-desde-el-cuadrado|BA|TIROS DESDE EL CUADRADO
+velocidad-de-pies-espacios-reducidos|IC|VELOCIDAD DE PIES-ESPACIOS REDUCIDOS
+agilidad-velocidad-con-pase|AIC|AGILIDAD-VELOCIDAD CON PASE
+paredes-y-finalizacion|AIC|PAREDES Y FINALIZACION
+rueda-paredes-rotacion-simple|AIC|RUEDA PAREDES ROTACIÓN SIMPLE
+cruce-y-apoyo|IC|CRUCE Y APOYO
+tecnica-exterior-interior|AIC|TÉCNICA EXTERIOR - INTERIOR
+zig-zag-veloz|BAI|"ZIG ZAG" VELOZ
+velocidad-y-1x1|PBA|VELOCIDAD Y 1X1
+competicion-velocidad-y-tiro|BAI|COMPETICIÓN VELOCIDAD Y TIRO
+el-que-cambia-10-veces-gana|PBA|EL QUE CAMBIA 10 VECES, GANA
+pasr-el-puente|IC|"PASAR EL PUENTE"
+pasar-y-cruzar-el-puente|AI|"PASAR Y CRUZAR EL PUENTE"
+la-noria|BAI|"LA NORIA"
+rueda-a-1-toque|AI|RUEDA A 1 TOQUE
+starwars|BA|"STARWARS"
+3-en-raya|AIC|3 EN RAYA
+sostener-la-bandera|AIC|SOSTENER LA BANDERA
+levanto-mi-casita|P|"LEVANTO MI CASITA"
+aguanto-la-bola|AI|AGUANTO LA BOLA
+arriba-y-abajo|AIC|ARRIBA Y ABAJO
+pulsar-el-boton|PBA|"PULSAR EL BOTÓN"
+1-toque-2-toques|AIC|1 TOQUE - 2 TOQUES
+carrera-con-retroceso|BAI|CARRERA CON RETROCESO
+las-hormiguitas|P|"LAS HORMIGUITAS"
+toques-en-corto|BAI|TOQUES EN CORTO
+protejo-el-tesoro|AI|PROTEJO EL TESORO
+intercambio-tecnico|AI|INTERCAMBIO TÉCNICO
+velocidad-de-pies|AIC|VELOCIDAD DE PIES
+tecnica-cognitiva|BA|TÉCNICA COGNITIVA
+el-sembrador|PBA|"EL SEMBRADOR"
+arrastro-y-paso|AIC|ARRASTRO Y PASO
+fuerza-controlada|BA|FUERZA CONTROLADA
+circuito-tecnico|AIC|CIRCUITO TÉCNICO
+rueda-de-pases-perfiles|AIC|RUEDA DE PASES PERFILES
+circuito-de-conduccion-y-regate|BA|CIRCUITO DE CONDUCCIÓN Y REGATE
+arranco-y-freno|AIC|ARRANCO Y FRENO
+conduccion-y-paredes-continuas|IC|CONDUCCIÓN Y PAREDES CONTINUAS
+dejar-al-que-rompe-dentro|BAI|DEJAR AL QUE ROMPE DENTRO
+la-rana-mareada|PB|"LA RANA MAREADA"
+apoyos-y-1x1|AIC|APOYOS Y 1X1
+rueda-de-pases|AIC|RUEDA DE PASES
+asociacion-al-primer-toque|AIC|ASOCIACIÓN AL PRIMER TOQUE
+rondos-8-jugadores|IC|RONDOS 8 JUGADORES
+coordinacion-pase-y-desmarque|AI|COORDINACIÓN PASE Y DESMARQUE
+dejar-de-cara-y-movimiento-lateral|BAIC|DEJAR DE CARA Y MOVIMIENTO LATERAL
+apoyo-y-pared|BAI|APOYO Y PARED
+dejar-de-cara-y-tercer-hombre|BAIC|DEJAR DE CARA Y TERCER HOMBRE
+tiro-tras-pared|BAI|TIRO TRAS PARED
+precision-pase-de-interior|BAI|PRECISIÓN PASE DE INTERIOR
+pases-y-precision-en-tiro-elevado|AIC|PASES Y PRECISIÓN EN TIRO ELEVADO
+puertas-de-control-orientado|BAI|PUERTAS DE CONTROL ORIENTADO
+duelos-velocidad-reaccion|BAIC|DUELOS VELOCIDAD + REACCIÓN
+circuito-precision-finalizacion|BAI|CIRCUITO PRECISIÓN FINALIZACIÓN
+regate-en-ratonera|AIC|REGATE EN "RATONERA"
+2x1-en-dos-zonas|AIC|2x1 EN DOS ZONAS
+toco-y-me-voy|AIC|"TOCO Y ME VOY"
+la-cola-del-pato|P|"LA COLA DEL PATO"
+enfermos-y-medicos|P|ENFERMOS Y MÉDICOS
+visita-las-islas|P|"VISITA LAS ISLAS"
+guerra-espacial|P|"GUERRA ESPACIAL"
+10-la-v-de-interior|PBAI|10- LA "V" DE INTERIOR
+9-arrastre-izquierda-exterior-izquierda|PBAI|9-ARRASTRE IZQUIERDA, EXTERIOR IZQUIERDA
+8-arrastre-suela-derecha-exterior-derecha|PBAI|8-ARRASTRE SUELA DERECHA, EXTERIOR DERECHA
+7-arrastre-de-izquierda-interior-derecha|PBAI|7-ARRASTRE DE IZQUIERDA, INTERIOR DERECHA
+6-arrastre-derecha-interior-izquierda|PBAI|6-ARRASTRE DERECHA, INTERIOR IZQUIERDA
+5-triple-arrastre-de-suela|PBA|5-TRIPLE ARRASTRE DE SUELA
+4-futbol-dance|PBA|4- FÚTBOL DANCE
+3-arrastre-de-suela|PBA|3-ARRASTRE DE SUELA
+2-toques-de-suela|PBA|2-TOQUES DE SUELA
+bicicletas-continuas|BAI|1-BICICLETAS CONTINUAS
+pase-y-recepcion-en-rombo|PBA|PASE Y RECEPCIÓN EN ROMBO
+tiro-con-las-dos-piernas-interceptacion|BAI|TIRO CON LAS DOS PIERNAS, INTERCEPTACIÓN
+doble-pase-y-finalizacion|BAI|DOBLE PASE Y FINALIZACIÓN
+circuito-de-conduccion|PBA|CIRCUITO DE CONDUCCIÓN
+giro-y-finalizacion|BAI|GIRO Y FINALIZACIÓN
+duelo-de-tiro-precision||DUELO DE TIRO PRECISIÓN
+agilidad-coordinacion-y-tiro||AGILIDAD, COORDINACIÓN Y TIRO
+cuadrado-de-pase-3-jugadores||CUADRADO DE PASE 3 JUGADORES
