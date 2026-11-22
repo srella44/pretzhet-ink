@@ -9780,12 +9780,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0020",
-"fase": 4,
-"bloque": "Superioridades",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0022",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -9841,12 +9835,6 @@
 },
 {
 "id": "JL-0031",
-"fase": 4,
-"bloque": "Superioridades",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0032",
 "fase": 4,
 "bloque": "Superioridades",
 "nota": "resto del banco (app)"
@@ -10008,25 +9996,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0066",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0068",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0069",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0074",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -10158,12 +10128,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0099",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0100",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -10200,18 +10164,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0106",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0108",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0109",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -10236,25 +10188,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0113",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0114",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0115",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0116",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -10428,18 +10362,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0147",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0148",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0149",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -10470,31 +10392,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0158",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0159",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0161",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0162",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0163",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -10530,12 +10428,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0170",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0171",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -10566,97 +10458,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0178",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0179",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0180",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0181",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0182",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0184",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0185",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0186",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0187",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0188",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0189",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0190",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0191",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0192",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0193",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0194",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -10668,145 +10470,13 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0196",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0197",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0198",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0199",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0200",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0202",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0203",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0204",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0205",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0206",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0207",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0208",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0209",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0210",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0211",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0212",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0213",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0214",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0215",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0216",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0217",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0218",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0219",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0220",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -10824,18 +10494,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0224",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0225",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0227",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -10848,19 +10506,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0230",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0232",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0233",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -10872,25 +10518,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0235",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0237",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0239",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0241",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -10932,12 +10560,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0248",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0251",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -10951,18 +10573,6 @@
 },
 {
 "id": "JL-0254",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0255",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0257",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -10998,12 +10608,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0265",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0266",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -11016,109 +10620,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0268",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0269",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0270",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0271",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0272",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0274",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0275",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0276",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0277",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0279",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0280",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0282",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0283",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0284",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0286",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0287",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0289",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0290",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -11130,73 +10632,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0292",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0293",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0294",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0295",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0296",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0299",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0300",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0302",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0303",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0304",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0306",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0307",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -11239,12 +10675,6 @@
 },
 {
 "id": "JL-0330",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0331",
 "fase": 4,
 "bloque": "Técnica y duelos",
 "nota": "resto del banco (app)"
@@ -11316,18 +10746,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0350",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0351",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0352",
 "fase": 4,
 "bloque": "Técnica y duelos",
@@ -11382,18 +10800,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0363",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0364",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0365",
 "fase": 4,
 "bloque": "Técnica y duelos",
@@ -11401,12 +10807,6 @@
 },
 {
 "id": "JL-0366",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0367",
 "fase": 4,
 "bloque": "Técnica y duelos",
 "nota": "resto del banco (app)"
@@ -11424,19 +10824,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0370",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0371",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0372",
 "fase": 4,
 "bloque": "Técnica y duelos",
 "nota": "resto del banco (app)"
@@ -11466,18 +10854,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0377",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0380",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0381",
 "fase": 4,
 "bloque": "Técnica y duelos",
@@ -11490,61 +10866,13 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0384",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0385",
 "fase": 4,
 "bloque": "Técnica y duelos",
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0386",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0387",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0388",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0389",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0390",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0392",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0393",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0394",
 "fase": 4,
 "bloque": "Técnica y duelos",
 "nota": "resto del banco (app)"
@@ -11562,37 +10890,13 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0397",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0398",
 "fase": 4,
 "bloque": "Técnica y duelos",
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0399",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0400",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0401",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0402",
 "fase": 4,
 "bloque": "Técnica y duelos",
 "nota": "resto del banco (app)"
@@ -11605,12 +10909,6 @@
 },
 {
 "id": "JL-0405",
-"fase": 4,
-"bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0406",
 "fase": 4,
 "bloque": "Técnica y duelos",
 "nota": "resto del banco (app)"
@@ -11640,12 +10938,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0629",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0630",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -11661,12 +10953,6 @@
 "id": "JL-0632",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0633",
-"fase": 4,
-"bloque": "Superioridades",
 "nota": "resto del banco (app)"
 },
 {
@@ -11844,12 +11130,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0674",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0675",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -11869,12 +11149,6 @@
 },
 {
 "id": "JL-0678",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0679",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -11904,37 +11178,13 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0684",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0685",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0686",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0689",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0691",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0692",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -11965,18 +11215,6 @@
 },
 {
 "id": "JL-0698",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0699",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0700",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -12042,19 +11280,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0713",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0714",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0715",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -12084,36 +11310,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0722",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0723",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0724",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0725",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0727",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0728",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -12126,37 +11322,13 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0730",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0731",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0732",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0733",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0734",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0735",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -12210,12 +11382,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0749",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0750",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -12259,12 +11425,6 @@
 },
 {
 "id": "JL-0761",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0762",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -12330,12 +11490,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0776",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0778",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -12366,12 +11520,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0783",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0784",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -12396,12 +11544,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0788",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0791",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -12420,18 +11562,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0795",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0796",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0797",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -12445,12 +11575,6 @@
 },
 {
 "id": "JL-0799",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0800",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -12516,12 +11640,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0815",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0816",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -12534,12 +11652,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0820",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0822",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -12547,12 +11659,6 @@
 },
 {
 "id": "JL-0825",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0830",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -12618,31 +11724,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0846",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0847",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0849",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0850",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0851",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -12684,19 +11766,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0859",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0860",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0861",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -12708,19 +11778,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0863",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0864",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0865",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -12756,12 +11814,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0871",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0872",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -12775,12 +11827,6 @@
 },
 {
 "id": "JL-0875",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0876",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -12828,12 +11874,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0884",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0885",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -12859,18 +11899,6 @@
 },
 {
 "id": "JL-0889",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0890",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0891",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -12918,43 +11946,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0900",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0901",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0902",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0903",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0904",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0905",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0906",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -12972,12 +11964,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0909",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0911",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -12991,18 +11977,6 @@
 },
 {
 "id": "JL-0913",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0914",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0915",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -13056,12 +12030,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0927",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0928",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -13086,12 +12054,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0935",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0936",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -13099,30 +12061,6 @@
 },
 {
 "id": "JL-0937",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0938",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0939",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0940",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0942",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "resto del banco (app)"
@@ -13158,12 +12096,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0949",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0951",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -13188,12 +12120,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0961",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0963",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -13213,12 +12139,6 @@
 },
 {
 "id": "JL-0966",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0969",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -13362,12 +12282,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1004",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1006",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
@@ -13386,12 +12300,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1013",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1014",
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
@@ -13399,18 +12307,6 @@
 },
 {
 "id": "JL-1015",
-"fase": 4,
-"bloque": "Posesiones y juego de posición",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1016",
-"fase": 4,
-"bloque": "Partidos y situaciones reales",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1017",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
 "nota": "resto del banco (app)"
@@ -14778,19 +13674,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0438",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0439",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0442",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -14803,12 +13687,6 @@
 },
 {
 "id": "JL-0445",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0450",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -14850,12 +13728,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0465",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0468",
 "fase": 4,
 "bloque": "Finalización",
@@ -14869,12 +13741,6 @@
 },
 {
 "id": "JL-0471",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0472",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -14904,12 +13770,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0480",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0485",
 "fase": 4,
 "bloque": "Finalización",
@@ -14923,24 +13783,6 @@
 },
 {
 "id": "JL-0491",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0493",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0495",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0496",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -14971,12 +13813,6 @@
 },
 {
 "id": "JL-0502",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0503",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -15048,12 +13884,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0522",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0523",
 "fase": 4,
 "bloque": "Finalización",
@@ -15066,12 +13896,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0525",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0526",
 "fase": 4,
 "bloque": "Finalización",
@@ -15079,12 +13903,6 @@
 },
 {
 "id": "JL-0527",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0528",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -15186,12 +14004,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0550",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0553",
 "fase": 4,
 "bloque": "Finalización",
@@ -15205,12 +14017,6 @@
 },
 {
 "id": "JL-0563",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0565",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -15276,12 +14082,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0580",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0581",
 "fase": 4,
 "bloque": "Finalización",
@@ -15295,30 +14095,6 @@
 },
 {
 "id": "JL-0583",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0584",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0585",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0586",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0587",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -15372,19 +14148,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0596",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0597",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0598",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -15397,12 +14161,6 @@
 },
 {
 "id": "JL-0600",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0601",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -15444,42 +14202,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0611",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0612",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0614",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0615",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0616",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0617",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0618",
 "fase": 4,
 "bloque": "Finalización",
@@ -15504,31 +14226,13 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0622",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0623",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-0624",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-0626",
-"fase": 4,
-"bloque": "Finalización",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0627",
 "fase": 4,
 "bloque": "Finalización",
 "nota": "resto del banco (app)"
@@ -15666,12 +14370,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1032",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1033",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -15690,43 +14388,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1036",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1037",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1038",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1039",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1040",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1041",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1042",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -15744,24 +14406,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1047",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1051",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1053",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1055",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -15769,12 +14413,6 @@
 },
 {
 "id": "JL-1056",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1059",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -15793,48 +14431,6 @@
 },
 {
 "id": "JL-1064",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1067",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1068",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1071",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1072",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1085",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1088",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1090",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -15960,12 +14556,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1116",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1117",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -16020,12 +14610,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1135",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1136",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -16062,12 +14646,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1145",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1146",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -16080,19 +14658,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1148",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1149",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1151",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16105,12 +14671,6 @@
 },
 {
 "id": "JL-1154",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1155",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16129,12 +14689,6 @@
 },
 {
 "id": "JL-1158",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1159",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16194,19 +14748,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1170",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1171",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1172",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16218,19 +14760,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1174",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1175",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1176",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16242,19 +14772,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1178",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1179",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1180",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16266,25 +14784,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1182",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1183",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1184",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1185",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16302,12 +14802,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1189",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1190",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -16315,12 +14809,6 @@
 },
 {
 "id": "JL-1191",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1192",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16338,12 +14826,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1195",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1196",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -16351,12 +14833,6 @@
 },
 {
 "id": "JL-1197",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1198",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16392,12 +14868,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1205",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1206",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -16411,12 +14881,6 @@
 },
 {
 "id": "JL-1208",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1209",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16464,12 +14928,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1228",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1229",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -16477,12 +14935,6 @@
 },
 {
 "id": "JL-1230",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1231",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -16518,12 +14970,6 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1246",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1251",
 "fase": 4,
 "bloque": "Defensa y presión",
@@ -16542,19 +14988,7 @@
 "nota": "resto del banco (app)"
 },
 {
-"id": "JL-1267",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
 "id": "JL-1268",
-"fase": 4,
-"bloque": "Defensa y presión",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-1269",
 "fase": 4,
 "bloque": "Defensa y presión",
 "nota": "resto del banco (app)"
@@ -17107,12 +15541,6 @@
 },
 {
 "id": "JL-0986",
-"fase": 4,
-"bloque": "Porteros",
-"nota": "resto del banco (app)"
-},
-{
-"id": "JL-0989",
 "fase": 4,
 "bloque": "Porteros",
 "nota": "resto del banco (app)"

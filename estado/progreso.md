@@ -72,3 +72,6 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 ## 2026-11-22 · Revisión de la app (Sergio)
 - Títulos feos renombrados en base y app (1.120; original en `Título original`); edad propuesta a ~2.000 ejercicios y jugadores a ~1.470 (marcados «(propuesta)»); formato `individual/parejas/tríos/circuito/rueda/rondo` cuando no había. Script `motor/normaliza_datos.py` (idempotente).
 - Búsqueda: ahora puntúa título > formato/fuente > descripción, entiende 5v2 = 5 vs 2 = 5x2 = 5:2 y plurales, y ordena por relevancia.
+
+## 2026-11-23 · Duplicados retirados
+- 402 ejercicios casi idénticos (mismo bloque, mismo título limpio y ≥ 80 % de parecido en el texto) pasan a «Fusionar (duplicado)» con `dup_keeper`; fuera de la app y de la cola. No se borra nada: se pueden recuperar cambiando `dec`. No se tocan los del libro, con ficha, TOP o probados.
