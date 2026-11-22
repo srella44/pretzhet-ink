@@ -1,0 +1,148 @@
+{
+ "id": "VID-78fefrn9",
+ "bloque": "Rondos",
+ "titulo": "Rondo 3v2 con cambio de zona",
+ "formato": "3v2 → 3v2",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "20 × 30 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Conservar en una zona y cambiar de zona con un pase largo por encima de la franja neutral.",
+ "montaje": "Campo de 20 × 30 m con tres bandas: arriba, franja central de 4 m y abajo. En cada zona de los extremos juegan 3 contra 2.",
+ "juego": "Un equipo conserva el balón en su zona y, cuando puede, lo cambia a la otra zona atravesando la franja central. Si se intercepta el pase, los equipos intercambian los papeles.",
+ "punto": "Cambio de zona con éxito, 1 punto (propuesta).",
+ "consigna": "Mira arriba y cambia de zona.",
+ "variantes": {
+  "facil": "Se puede pisar la franja central (propuesta).",
+  "dificil": "Dos toques en la zona (propuesta)."
+ },
+ "adaptacion": "Benjamín: 3 contra 1 en cada zona (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "3v2 transfer rondo",
+  "ref": "Instagram · reel 78fefrn9"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas y puntos (propuesta); los jugadores del vídeo son 3 + 3 + 3 + 2 y se han simplificado.",
+ "diagrama": {
+  "field": [
+   20,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     13,
+     20,
+     17
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 24,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 26,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 28,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 22,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     2
+    ],
+    "b": [
+     10,
+     28
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     9,
+     8
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "id": "VID-vwc54zte",
+ "bloque": "Rondos",
+ "titulo": "Rondo cronometrado 6v3",
+ "formato": "6v3",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "16 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min (propuesta).",
+ "objetivo": "Activar la técnica a ritmo alto y jugar al primer toque entre fuera y dentro.",
+ "montaje": "Rectángulo de 16 × 20 m con un cuadrado de 8 × 8 m dentro y minimetas en las esquinas de un fondo. Seis jugadores fuera, tres dentro.",
+ "juego": "Los de fuera juegan a uno o dos toques y buscan a los de dentro, que presionan. Si roban, buscan las minimetas. Cada serie se mide con cronómetro.",
+ "punto": "Gol en minimeta tras robo, 1 punto (propuesta).",
+ "consigna": "Rápido, a un toque y mirando.",
+ "variantes": {
+  "facil": "Dos toques (propuesta).",
+  "dificil": "Un toque obligatorio (propuesta)."
+ },
+ "adaptacion": "Benjamín: 5 contra 2 en 14 × 14 m (propuesta).",
+ "fuente": {
+  "autor": "Entrenamiento de un equipo profesional (reel de Keep It On The Deck)",
+  "titulo_original": "Technical activation · timed possession circuits",
+  "ref": "Instagram · reel vwc54zte"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, puntos y series (propuesta); dibujado a partir de las imágenes del reel.",
+ "diagrama": {
+  "field": [
+   16,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    4,
+    6
+   ],
+   [
+    12,
+    6
+   ],
+   [
+    4,
+    14
+   ],
+   [
+    12,
+    14
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    0,
+    "L"
+   ],
+   [
+    16,
+    0,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 1,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 7,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     4
+    ],
+    "b": [
+     8,
+     1
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     8,
+     1
+    ],
+    "b": [
+     15,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     9,
+     5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "id": "VID-hyfc4epy",
+ "bloque": "Rondos",
+ "titulo": "Rondo de transición 5v2",
+ "formato": "5v2 + apoyos",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "13 jug.",
+ "espacio": "18 × 18 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Conservar con paciencia y, al perder el balón, cambiar de equipo y atacar las minimetas.",
+ "montaje": "Cuadrado de 18 × 18 m con una minimeta en cada esquina. Dentro, 5 azules contra 2 rojos; fuera, seis rojos de apoyo.",
+ "juego": "Los azules dan 10 a 12 pases seguidos: eso es gol. Si los rojos roban, todos pasan a atacar las minimetas y los azules defienden.",
+ "punto": "10 a 12 pases, 1 punto. Gol en minimeta tras robo, 1 punto (propuesta).",
+ "consigna": "Tras 10 pases, ya has ganado.",
+ "variantes": {
+  "facil": "8 pases (propuesta).",
+  "dificil": "Dos toques y 12 pases (propuesta)."
+ },
+ "adaptacion": "Benjamín: 4 contra 2 en 14 × 14 m (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Transitional rondo 5v2 · 10-12 passes = goal",
+  "ref": "Instagram · reel hyfc4epy"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, puntos y series (propuesta); deducido del vídeo, que solo trae rótulos breves.",
+ "diagrama": {
+  "field": [
+   18,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 20,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "goals": [
+   [
+    0,
+    0,
+    "L"
+   ],
+   [
+    18,
+    0,
+    "R"
+   ],
+   [
+    0,
+    18,
+    "L"
+   ],
+   [
+    18,
+    18,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": -1.2,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": -1.2,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19.2,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     13,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     13,
+     5
+    ],
+    "b": [
+     15,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     5,
+     6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}

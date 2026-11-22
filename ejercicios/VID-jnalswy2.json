@@ -1,0 +1,149 @@
+{
+ "id": "VID-jnalswy2",
+ "bloque": "Superioridades",
+ "titulo": "Sobrecargas progresivas 1v1 a 3v3",
+ "formato": "1v1 → 3v3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug. + PT",
+ "espacio": "30 × 30 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 4 min (propuesta).",
+ "objetivo": "Aprender a atacar y defender cuando cambia el número de jugadores, ronda a ronda.",
+ "montaje": "Campo de 30 × 30 m con una portería con portero arriba y minimetas a los lados. Dos filas de jugadores abajo con balón.",
+ "juego": "Primero 1 contra 1 a portería. Luego salen dos más: 2 contra 1, 2 contra 2, 3 contra 2 y 3 contra 3. Si el balón sale o hay gol, entra la siguiente ronda con balón del entrenador.",
+ "punto": "Gol, 1 punto. Ganar la ronda con superioridad, 2 puntos (propuesta).",
+ "consigna": "Más jugadores: más opciones.",
+ "variantes": {
+  "facil": "Limitar el ataque a 3 toques (propuesta).",
+  "dificil": "Un defensor extra en cada ronda (propuesta)."
+ },
+ "adaptacion": "Benjamín: llegar solo hasta 2 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Progressive overloads · 1v1 a 3v3",
+  "ref": "Instagram · reel jnalswy2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta); fases deducidas de los rótulos del vídeo.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    26,
+    "L"
+   ],
+   [
+    30,
+    26,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 17,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 29,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 29,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     17
+    ],
+    "b": [
+     14,
+     13
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     19,
+     19
+    ],
+    "b": [
+     22,
+     9
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     14,
+     13
+    ],
+    "b": [
+     22,
+     9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ }
+}

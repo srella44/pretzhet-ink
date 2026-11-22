@@ -1,0 +1,161 @@
+{
+ "id": "VID-l0z4ohus",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Transición 1v1, 2v1 y 2v2",
+ "formato": "1v1 → 2v2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug. + PT",
+ "espacio": "25 × 30 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3 min (propuesta).",
+ "objetivo": "Atacar en cuanto llega el balón y pasar de atacar a defender sin pausa, con una ventaja cada vez distinta.",
+ "montaje": "Campo de 25 × 30 m con una portería con portero arriba y minimetas en los laterales. Azules en fila abajo; rojos en fila al lado.",
+ "juego": "Empieza un 1 contra 1 con balón del entrenador. Cada ronda entra un jugador más (2 contra 1, luego 2 contra 2). Si los defensores interceptan, acaban en una minimeta.",
+ "punto": "Gol, 1 punto. Interceptar y marcar en minimeta, 2 puntos (propuesta).",
+ "consigna": "Entra el siguiente: ataca ya.",
+ "variantes": {
+  "facil": "Solo hasta el 2 contra 1 (propuesta).",
+  "dificil": "Tiempo máximo de 8 segundos por ataque (propuesta)."
+ },
+ "adaptacion": "Benjamín: campo de 20 × 25 m (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Transition game 1v1 → 2v2",
+  "ref": "Instagram · reel l0z4ohus"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta); deducido del vídeo.",
+ "diagrama": {
+  "field": [
+   25,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -3.5,
+   "ymax": 33
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    25,
+    15,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 17,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 31,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 31,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 27.2,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27.2,
+    "y": 27,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     22
+    ],
+    "b": [
+     11,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     14,
+     20
+    ],
+    "b": [
+     18,
+     8
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     11,
+     10
+    ],
+    "b": [
+     12.5,
+     1
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 4
+   }
+  ]
+ }
+}
