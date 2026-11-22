@@ -156,8 +156,13 @@ function opts(id, list, set) {
 const srcs = [...new Set(R.map(r => r.s))].sort((a,b)=>a.localeCompare(b,'es'));
 $('#f-src').innerHTML += srcs.map(s => `<option>${esc(s)}</option>`).join('');
 const TLSRC = 'toplidercoach (Entrenadores Top)';
-const teams = [...new Set(R.filter(r => r.tm).map(r => r.tm))].sort((a,b)=>a.localeCompare(b,'es'));
-$('#f-team').innerHTML += teams.map(s => `<option>${esc(s)}</option>`).join('');
+function buildTeams() {
+  const c = {}; R.forEach(r => { if (r.tm && (st.rv || !r.rv)) c[r.tm] = (c[r.tm]||0) + 1; });
+  const ks = Object.keys(c).sort((a,b)=>a.localeCompare(b,'es'));
+  if (st.tm && !c[st.tm]) st.tm = '';
+  $('#f-team').innerHTML = '<option value="">Todos</option>' + ks.map(s => `<option value="${esc(s)}">${esc(s)} (${c[s]})</option>`).join('');
+  $('#f-team').value = st.tm;
+}
 
 function match(r, skipBlock) {
   if (!st.rv && r.rv) return false;
@@ -248,9 +253,9 @@ let qt; $('#q').oninput = e => { clearTimeout(qt); qt = setTimeout(() => { st.q 
 $('#f-src').onchange = e => { st.src = e.target.value; if (st.src !== TLSRC) st.tm = ''; syncInputs(); apply(); };
 $('#f-team').onchange = e => { st.tm = e.target.value; apply(); };
 $('#f-ord').onchange = e => { st.ord = e.target.value; apply(); };
-['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).onchange = e => { st[k] = e.target.checked; apply(); });
+['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).onchange = e => { st[k] = e.target.checked; if (k==='rv') buildTeams(); apply(); });
 $('#clr').onclick = () => { st.b.clear(); st.a.clear(); st.l.clear(); st.p.clear(); st.src=''; st.tm=''; st.book=st.dg=st.rv=st.tp=st.pr=false; st.q=''; $('#q').value=''; syncInputs(); apply(); };
-function syncInputs() { $('#f-src').value = st.src; $('#g-team').hidden = st.src !== TLSRC; $('#f-team').value = st.tm; $('#f-ord').value = st.ord; ['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).checked = st[k]); }
+function syncInputs() { buildTeams(); $('#f-src').value = st.src; $('#g-team').hidden = st.src !== TLSRC; $('#f-team').value = st.tm; $('#f-ord').value = st.ord; ['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).checked = st[k]); }
 if (store.b) { store.b.forEach(i=>st.b.add(i)); (store.a||[]).forEach(i=>st.a.add(i)); (store.l||[]).forEach(i=>st.l.add(i)); (store.p||[]).forEach(i=>st.p.add(i));
   Object.assign(st, { src: store.src||'', tm: store.tm||'', book: !!store.book, dg: !!store.dg, rv: !!store.rv, tp: !!store.tp, pr: !!store.pr, ord: store.ord||'sc' }); }
 syncInputs(); apply();
