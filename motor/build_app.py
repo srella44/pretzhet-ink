@@ -84,6 +84,51 @@ def short_src(a):
         if k in a: return {'FCStage': 'FCStage Camps', 'Leicester': 'Leicester City Academy', 'Athletic': 'Athletic Club', 'Javier López': 'Javier López (1.380 juegos)'}.get(k, k)
     return 'Redes y webs' if a.startswith('@') or a in ('SoccerXpert', 'Bcoach', 'SoccerDrive') else (a or 'Otras')
 
+CLUB = {'Ajax Amsterdam':'Ajax','Alaves':'Alavés','Argentina National Team':'Argentina','As Monaco':'AS Mónaco','Atletico Madrid':'Atlético de Madrid','Atletico Osasuna':'Osasuna','Bayern Munich':'Bayern Múnich','Belgium National Team':'Bélgica','Brasil National Team':'Brasil','Cadiz':'Cádiz','Celta De Vigo':'Celta de Vigo','Chile National Team':'Chile','Colombia National Team':'Colombia','Elche Cf':'Elche','England National Team':'Inglaterra','Fc Barcelona':'FC Barcelona','France National Team':'Francia','Germany National Team':'Alemania','Inter Milan':'Inter de Milán','Italy National Team':'Italia','Kovenhaun':'Copenhague','Leipzig':'RB Leipzig','Milan':'AC Milan','Napoles':'Nápoles','Olimpiakos':'Olympiacos','Olimpic Marsella':'Olympique de Marsella','Paises Bajos National Team':'Países Bajos','Portugal National Team':'Portugal','Psg':'PSG','Psv':'PSV','Roma':'AS Roma','Sevilla Fc':'Sevilla','Spain National Team':'España','Spartak Praga':'Sparta Praga','Sporting Cp':'Sporting CP','Uruguay National Team':'Uruguay','Valencia Cf':'Valencia','Venezuela National Team':'Venezuela','Wolverhamptom':'Wolverhampton','Athletic Bilbao':'Athletic Club','Glasgow Rangers':'Rangers'}
+STOP = set('RONDO RONDOS RUEDA RUEDAS DUELO DUELOS JUEGO POSESION POSESIÓN ATAQUE DEFENSA FINALIZACION FINALIZACIÓN TRANSICION TRANSICIÓN TRANSICIONES PRESION PRESIÓN TECNICA TÉCNICA TACTICO TÁCTICO SALIDA PASES PASE SESION SESIÓN CONTRA CIRCUITO PARTIDO CONTROL REMATE MOVILIDAD AMPLITUD CAMBIO VELOCIDAD TRABAJO COBERTURA CRUCE BALON BALÓN ESTRATEGIA DOS TRES LA EL LOS LAS UN UNA 1X1 CENTROS CENTRO LINEA LÍNEA BLOQUE ORGANIZACION ORGANIZACIÓN PRIMER PRIMERA COMPETICIÓN COMPETICION FÍSICO FISICO TÉCNICO TECNICO CONDUCCIÓN CONDUCCION REPLIEGUE Y CON EN PARA TÁCTICA TACTICA PROGRESIÓN PROGRESION ENTRENAMIENTO EJERCICIO SUPERIORIDAD SUPERIORIDADES LLEGADA FASE OLEADAS REMATES TIROS ACCIONES INTERCAMBIO DEL AL POR SIN'.split())
+def _cand(t):
+    t = (t or '').upper().strip()
+    m = re.match(r"^([A-ZÁÉÍÓÚÑÜ\.' ]{3,30}?)\s*,", t)
+    if m and not re.search(r'\d', m.group(1)): return m.group(1).strip(), True
+    out = []
+    stopped = False
+    for w in t.split():
+        if w in STOP or re.search(r'\d', w): stopped = True; break
+        out.append(w)
+        if len(out) == 3: break
+    while out and out[-1] in ('DE', 'DEL'): out.pop()
+    return (' '.join(out), stopped) if out else ('', False)
+def _key(n): return norm(n).replace(' ', '')
+def build_coaches(titles):
+    # cuenta candidatos; los que cortó una palabra de parada valen ya con 1 aparición
+
+    cnt = {}
+    for t in titles:
+        c, _ = _cand(t)
+        if c: cnt[_key(c)] = cnt.get(_key(c), 0) + 1
+    return cnt
+
+TLC_TITLES = [(drawn[r['ID']]['fuente']['titulo_original'] if r['ID'] in drawn else r['Título / referencia']) for r in refs if r['ID'].startswith('TLC-')]
+COACH_CNT = build_coaches(TLC_TITLES)
+ACC = {}
+for _t in TLC_TITLES:
+    _c, _ = _cand(_t)
+    if _c and (_key(_c) not in ACC or (not _c.isascii() and ACC[_key(_c)].isascii())): ACC[_key(_c)] = _c
+COACH_FIX = {'Kompani':'Kompany','Kovac':'Niko Kovac','Nico Kovac':'Niko Kovac','Michel':'Michel Sánchez','Pochetino':'Pochettino','Alguacil':'Imanol Alguacil','Simone Inzaghi':'Inzaghi','Unai Emery':'Emery','Lionel Scaloni':'Scaloni','Ruben Amorín':'Rúben Amorim','Eddi Howe':'Eddie Howe','Kloop':'Klopp','Ten Hag':'Erik ten Hag','Adi Hutter':'Adi Hütter','Addi Hutter':'Adi Hütter','Giraldez':'Claudio Giraldez','Cristian Chivu':'Chivu','Steven Gerrard':'Gerrard','Dorival Júnior':'Dorival Jr.','Roberto Mártinez':'Roberto Martínez','Dino Toppmoller':'Dino Toppmöller','Alvaro Cervera':'Álvaro Cervera','Sergio Conceiçao':'Sérgio Conceição','Frank Lampard':'Lampard','Joachim Low':'Joachim Löw','Rafa Marquez':'Rafa Márquez','Luis':'', 'Juegos Reducidos':'', 'Middlesbrough':''}
+COACH_TAIL = ('Acción Combinativa','Ataques','Activación','Combinación','Tricolor','Pared','Contraataque','Salida de Balón')
+def coach_of(t):
+    c = _coach_of(t)
+    for tail in COACH_TAIL:
+        if c.endswith(' ' + tail): c = c[:-len(tail)-1]
+    return COACH_FIX.get(c, c)
+def _coach_of(t):
+    c, comma = _cand(t)
+    if not c: return ''
+    if c == 'LUIS DE': c = 'LUIS DE LA FUENTE'
+    if not (comma or COACH_CNT.get(_key(c), 0) >= 2): return ''
+    c = ACC.get(_key(c), c)
+    return ' '.join(('De' if (w == 'DE' and i == 0) else w.lower() if w in ('DE', 'DEL', 'TEN', 'LA') else w.capitalize()) for i, w in enumerate(c.replace('.', '. ').split())).replace('  ', ' ').replace('. ', '.')
+
 recs = []
 for r in refs:
     if r['dec'] not in ('Candidato', 'Revisar nivel'): continue
@@ -100,8 +145,19 @@ for r in refs:
     if r['ID'].startswith(('TLC-','FB-')):
         rec['tl'] = 1
         m_ = re.search(r'\(([^()]*)\)\s*$', r['Autor / proveedor'] or '')
-        if m_: rec['tm'] = m_.group(1).strip().title()
+        if m_: rec['tm'] = CLUB.get(m_.group(1).strip().title(), m_.group(1).strip().title())
+        if r['ID'].startswith('TLC-'):
+            co_ = coach_of(d['fuente']['titulo_original'] if d else (r.get('Título original') or r['Título / referencia']))
+            if co_: rec['co'] = co_
+            if rec.get('tm'): rec['cl'] = rec['tm']
         elif r['ID'].startswith('FB-'): rec['tm'] = 'Fútbol Base'
+    _src = r['Autor / proveedor'] or ''
+    if 'Leicester' in _src: rec['cl'] = 'Leicester City'
+    elif 'Athletic Club' in _src: rec['cl'] = 'Athletic Club'
+    if 'Mourinho' in _src: rec['co'] = 'Mourinho'
+    if r['ID'].startswith('IG-'):
+        m2_ = re.search(r'\(([A-Za-zÁÉÍÓÚáéíóúñ][^()]{3,30})\)\s*$', r['Título / referencia'] or '')
+        if m2_ and not re.search(r'propuesta|adaptaci|parte|variante', m2_.group(1), re.I): rec['cl'] = m2_.group(1).strip()
     if r.get('probado'): rec['pr'] = 1
     if r.get('_fmt'): rec['f'] = r['_fmt']
     if not rec['f']:
@@ -144,5 +200,5 @@ print(len(recs), sum(1 for r in recs if r['lb']), len(svgs))
 blocks = [{'n': b, 'c': '#' + c, 'k': ink(c)} for b, c in BLOCKS.items()]
 DATA = json.dumps({'blocks': blocks, 'recs': recs, 'svg': svgs}, ensure_ascii=False, separators=(',', ':'))
 tpl = open(os.path.join(ROOT, 'motor', 'app_template.html')).read()
-open(os.path.join(ROOT, 'salida', 'app', 'Pretzhet_Ink_app.html'), 'w').write(tpl.replace('/*DATA*/null', DATA))
+open(os.path.join(ROOT, 'salida', 'app', 'Pretzhet_Ink_app.html'), 'w').write(tpl.replace('/*DATA*/null', DATA).replace('%%LOGO%%', 'data:image/png;base64,' + __import__('base64').b64encode(open(os.path.join(ROOT, 'recursos', 'logo_app.png'), 'rb').read()).decode()))
 print('bytes', len(DATA))
