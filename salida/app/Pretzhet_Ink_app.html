@@ -115,7 +115,7 @@ button, input, select { font-family: inherit; letter-spacing: inherit }
 .feat { background: var(--navy); border-radius: 14px; padding: 16px 16px 18px; margin: 0 0 22px; border-bottom: 3px solid var(--coral) }
 .feat > h3 { margin: 0 0 12px; color:#fff; font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 20px; letter-spacing:.4px; display:flex; justify-content:space-between; align-items:baseline } .feat > h3 a { font: 700 12.5px Inter, sans-serif; color: var(--coral); cursor:pointer; letter-spacing:0 }
 .feat .g { display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px }
-@media (max-width: 700px) { .feat .g { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 80%; overflow-x: auto; padding-bottom: 4px } }
+@media (max-width: 700px) { .feat .g { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 70%; overflow-x: auto; padding-bottom: 4px } }
 .feat .card { box-shadow:none }
 .brand { cursor:pointer; border:0; background:none; padding:0 } .brand:hover img { opacity:.85 }
 .home { max-width:1600px; margin:0 auto; padding: 34px 24px 60px }
@@ -179,7 +179,22 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   .scrim.open { display:block; position: fixed; inset:0; background: rgba(5,15,32,.5); z-index: 30 }
   .tool h2 { font-size: 18px }
 }
-@media (max-width: 520px) { .grid { grid-template-columns: 1fr } }
+@media (max-width: 520px) {
+  .grid { grid-template-columns: 1fr 1fr; gap: 10px }
+  .card { padding: 4px; border-radius: 12px } .thumb { border-radius: 8px }
+  .cb { padding: 8px 4px 6px; gap: 6px }
+  .ct { flex-direction: column; gap: 4px } .ct h3 { font-size: 13.5px }
+  .fmt { font-size: 10px; padding: 2px 6px }
+  .meta { font-size: 10.5px; gap: 3px 8px } .src { font-size: 10.5px }
+  .flag { font-size: 8.5px; padding: 2px 6px; top: 6px; left: 6px } .flag.pr { right: 6px }
+  .heart { width: 24px; height: 24px; font-size: 12px; left: 6px; bottom: 6px }
+  .who { font-size: 8px; right: 6px; bottom: 4px }
+  .tool h2 { font-size: 24px } .tool select { font-size: 12px; padding: 7px 10px }
+  .feat { padding: 12px 12px 14px } .feat .g { grid-auto-columns: 62% }
+  .wrap { padding: 12px 10px 90px }
+  .row1 { gap: 6px } .brand img { height: 36px } .hb { font-size: 12px; padding: 6px 9px } .btn-f { margin-left: 0; padding: 8px 11px; font-size: 12px }
+  .top { padding: 8px 10px 8px } .blocks { padding-top: 8px }
+}
 .side .go { display:none }
 .tl { display:inline-block; width:10px; height:10px; border-radius:50%; background:#7c5cff; box-shadow:0 0 0 2px #fff }
 .thumb .tl { position:absolute; right:8px; bottom:8px; z-index:2 }
