@@ -27,3 +27,5 @@ Lectura de 796 tareas de «Entrenadores Top» (copia del texto en `fuentes/topli
 - «Fútbol Base» (253, solo vídeo) y el menú «Ejercicios» siguen sin revisar.
 
 | 2026-11-22 | 6 | TLC-0006, TLC-0015, TLC-0164, TLC-0165, TLC-0001, TLC-0002, TLC-0004, TLC-0008, TLC-0009, TLC-0011, TLC-0017 | 11 fichas de Superioridades de toplidercoach (Entrenadores Top), escritas con palabras propias; edad «10–13» o «12–13 años» según la etiqueta 10+/13+ de la web (propuesta). Se dibujan menos jugadores de los reales en TLC-0006, TLC-0002 y TLC-0165 y solo un sector en TLC-0008. Sin avisos de maqueta. No están en `datos/seleccion.json`, así que no entran en el libro hasta que se añadan; sí salen en la app. Siguiente en cola: los TLC de 10+ y después los de 13+. |
+
+Cola actualizada (2026-11-22): los 556 TLC de 16+/18+ pasan a la fase 4 (final de la cola) para que la tarea programada los haga todos; los 223 aptos restantes siguen en fase 2. Quedan fuera solo los 5 TLC sin texto (hay que abrir la página). `ENCARGO.md` explica cómo leer y escribir las fichas TLC.
