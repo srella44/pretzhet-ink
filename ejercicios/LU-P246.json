@@ -1,0 +1,189 @@
+{
+ "id": "LU-P246",
+ "bloque": "Rondos",
+ "titulo": "2 contra 2 + 4: presiona",
+ "formato": "2v2+4",
+ "edad": "10–14 años",
+ "nivel": "Fácil",
+ "jugadores": "8 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min; las parejas rotan cada 3 min para pasar por todos los papeles.",
+ "objetivo": "Presionar en el acto tras perder y, al robar, atacar rápido sin ayuda de los comodines.",
+ "montaje": "Cuadrado de 15 × 15 m con una miniportería fuera de dos lados opuestos. Cuatro parejas: dos dentro (2 contra 2) y dos fuera como comodines.",
+ "juego": "La pareja con balón conserva con los cuatro comodines. Al robar, la otra pareja ataca cualquier miniportería y la que perdió presiona; en esa transición no se juega con comodines.",
+ "punto": "8 pases seguidos, 1 punto (propuesta). Gol tras robo, 2.",
+ "consigna": "Si pierdes, aprieta en el acto.",
+ "variantes": {
+  "facil": "Comodines a toques libres y miniporterías más anchas.",
+  "dificil": "Comodines a un toque o 6 segundos para marcar tras el robo (propuesta)."
+ },
+ "adaptacion": "Alevín: 16 × 16 m y comodines a dos toques. Infantil: 15 × 15 m y comodines a un toque (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Rondo 2x2+4 (Miguel Sobejano)",
+  "ref": "300 ejercicios Level Up Coach · pág. 246"
+ },
+ "top": "Presión tras pérdida sin la ayuda de los comodines: la transición tiene su propia regla.",
+ "probado": false,
+ "completado": "Edad, puntuación por pases, posición de comodines y miniporterías, variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "tag": "15 × 15 m",
+  "extent": {
+   "xmin": -9,
+   "xmax": 24,
+   "ymin": -2.6,
+   "ymax": 17.6
+  },
+  "goals": [
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    15,
+    7.5,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    15,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 4,
+    "y": -1.3,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": -1.3,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 16.3,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 16.3,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 13.6,
+    "f": [
+     6,
+     9.5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 5.5,
+    "f": [
+     6,
+     9.5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     9.5
+    ],
+    "b": [
+     13.6,
+     8.2
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     5,
+     3
+    ],
+    "b": [
+     10.5,
+     2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     1.8,
+     13.6
+    ],
+    "b": [
+     4.8,
+     11.2
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 5
+   }
+  ],
+  "labels": [
+   [
+    16.8,
+    11.3,
+    "TRAS ROBO,",
+    "start"
+   ],
+   [
+    16.8,
+    12.7,
+    "SIN COMODINES",
+    "start"
+   ]
+  ]
+ }
+}

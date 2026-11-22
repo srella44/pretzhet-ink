@@ -1,0 +1,159 @@
+{
+ "id": "DOS-050",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Paredes 2v2 + 4 comodines",
+ "formato": "2v2+4",
+ "edad": "11–14 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "20 min",
+ "series": "2 × 4 min en 1 contra 1 + 4 y 2 × 4 min en 2 contra 2 + 4 (propuesta).",
+ "objetivo": "Darla y salir, darla y estar, hacer la pared y defenderla.",
+ "montaje": "Cuadrado de 15 × 15 m con un comodín en cada lado. Se empieza 1 contra 1 dentro y se progresa a 2 contra 2.",
+ "juego": "Se buscan paredes con los comodines o, en el 2 contra 2, con el compañero. El defensor intenta tapar la pared. Tras robo, cambian los papeles (propuesta).",
+ "punto": "Pared con un comodín, 1 punto; pared con el compañero, 2.",
+ "consigna": "Date espacio, dala y sal, sin delatar el pase.",
+ "variantes": {
+  "facil": "Comodines a toques libres y el defensor sin poder entrar en el pase de vuelta.",
+  "dificil": "Comodines a un toque y pared solo válida si se recibe en carrera (propuesta)."
+ },
+ "adaptacion": "Alevín: 1 contra 1 + 4 en 15 × 15 m. Infantil: 2 contra 2 + 4 a dos toques (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego de paredes 2v2+4c",
+  "ref": "Dosier de sesiones · pág. 14 y 19 (S1.2, S2.2)"
+ },
+ "top": "Paredes con comodines y luego con el compañero: progresión clara del 1v1 al 2v2.",
+ "probado": true,
+ "completado": "Edad, series, cambio de papeles y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -12,
+   "xmax": 27,
+   "ymin": -3.1,
+   "ymax": 18.1
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 16.6,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 16.6,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 9,
+    "f": 60,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 5.5,
+    "f": [
+     4,
+     9
+    ]
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 6.5,
+    "f": [
+     13,
+     2.5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     7.5,
+     16.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s1": 13
+   },
+   {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     11.5,
+     11
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     7.5,
+     16.6
+    ],
+    "b": [
+     11.5,
+     11
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 13,
+    "s1": 5
+   }
+  ],
+  "labels": [
+   [
+    18.8,
+    12.2,
+    "COMODÍN: 1 PUNTO",
+    "start"
+   ],
+   [
+    18.8,
+    13.8,
+    "COMPAÑERO: 2",
+    "start"
+   ]
+  ]
+ }
+}

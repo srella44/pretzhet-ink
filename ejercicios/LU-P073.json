@@ -1,0 +1,145 @@
+{
+ "id": "LU-P073",
+ "bloque": "Rondos",
+ "titulo": "Cuatro colores, dos socios",
+ "formato": "10v10",
+ "edad": "10–16 años",
+ "nivel": "Normal",
+ "jugadores": "20 jug.",
+ "espacio": "26 × 22 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Reconocer rápido quién es compañero y encontrar líneas de pase cuando cambian los socios.",
+ "montaje": "Rectángulo de 26 × 22 m. Cuatro equipos de cinco, cada uno con un peto de color distinto.",
+ "juego": "El entrenador nombra dos colores que juegan juntos; los otros dos roban. A dos toques. Tras pérdida o balón fuera, cambian los papeles. Cada 30–40 s canta nuevas parejas de colores.",
+ "punto": "12 pases seguidos, 1 punto. Si cambian los socios, se cuenta desde cero.",
+ "consigna": "Mira los colores antes de recibir.",
+ "variantes": {
+  "facil": "Tres equipos (uno roba) y toques libres.",
+  "dificil": "Cambio de parejas cada 20 s o con señal visual, sin hablar (propuesta)."
+ },
+ "adaptacion": "Alevín: equipos de cuatro, toques libres y 10 pases. Infantil en adelante: tal cual (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO - Líneas de pase - Velocidad en la discriminación de estímulos",
+  "ref": "300 ejercicios Level Up Coach · pág. 73"
+ },
+ "top": "El entrenador cambia qué colores son compañeros: reconocer al socio antes de recibir.",
+ "probado": false,
+ "completado": "Edad, series y variantes (propuesta). En el diagrama, dos jugadores por color.",
+ "diagrama": {
+  "field": [
+   26,
+   22
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 27.5,
+   "ymin": -3,
+   "ymax": 23.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 8,
+    "f": [
+     4,
+     4
+    ]
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21.5,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 19.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     4,
+     18
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     4,
+     18
+    ],
+    "b": [
+     13,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     13,
+     12
+    ],
+    "b": [
+     22,
+     5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    13,
+    -1.6,
+    "«¡AMARILLOS CON BLANCOS!»",
+    "middle"
+   ]
+  ]
+ }
+}

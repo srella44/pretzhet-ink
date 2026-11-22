@@ -1,0 +1,145 @@
+{
+ "id": "PI-TJ-051",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "El regate gana un compañero",
+ "formato": "3v2",
+ "edad": "9–11 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug.",
+ "espacio": "22 × 16 m",
+ "duracion": "12 min",
+ "series": "Ataques cortos; se invierte el lado de salida cada 4 ataques (propuesta).",
+ "objetivo": "Ofrecer apoyo en el espacio que deja un regate, en lugar de correr todos hacia el fondo.",
+ "montaje": "Rectángulo de 22 × 16 m con línea de llegada. Tres contra dos: un apoyo por fuera del defensor cercano y otro en profundidad.",
+ "juego": "El conductor puede superar al defensor por dentro. El apoyo exterior no corre en línea con él: cae al hueco del rival superado y recibe la descarga si llega la cobertura.",
+ "punto": "1 punto por superar el fondo controlado. Si roban, los defensores atacan la línea inicial.",
+ "consigna": "Ocupa el hueco antes de pedir profundidad.",
+ "variantes": {
+  "facil": "Cobertura que sale siempre, para que la descarga sea clara.",
+  "dificil": "Descarga obligatoria a un toque (propuesta)."
+ },
+ "adaptacion": "Si el atacante regatea siempre, cuenta igual la progresión directa del apoyo lejano. Infantil: 24 × 18 m (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El regate que gana un compañero",
+  "ref": "Ficha propia PI-TJ-051"
+ },
+ "top": "Ficha propia: el apoyo no corre en línea con el conductor y recibe la descarga detrás del rival superado.",
+ "probado": false,
+ "completado": "Duración, series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   22,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 23.5,
+   "ymin": -2.2,
+   "ymax": 17.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19.5,
+    "y": 13.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     13,
+     11.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 14,
+    "s1": 4
+   },
+   {
+    "a": [
+     8,
+     2
+    ],
+    "b": [
+     12.5,
+     5.2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     17.5,
+     7
+    ],
+    "b": [
+     15.5,
+     9.6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     13,
+     11.5
+    ],
+    "b": [
+     12.6,
+     5.6
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    -0.8,
+    "EL HUECO DEL REGATE",
+    "middle"
+   ]
+  ]
+ }
+}

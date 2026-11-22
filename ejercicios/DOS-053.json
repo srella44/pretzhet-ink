@@ -1,0 +1,152 @@
+{
+ "id": "DOS-053",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "2v2 + 2 de fondo a fondo",
+ "formato": "2v2+2",
+ "edad": "11–14 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "20 min",
+ "series": "4 × 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Pie y espacio, doblada, pasillo y pared: combinar en movimiento para progresar.",
+ "montaje": "Rectángulo de 20 × 15 m. 2 contra 2 dentro y un comodín en cada fondo, a dos toques.",
+ "juego": "Los atacantes combinan con los comodines para llevar el balón de un fondo al otro y, al llegar, atacan hacia el contrario. Tras robo, cambian los papeles (propuesta).",
+ "punto": "1 punto por pase al espacio recibido, pared, doblada, pasillo o tercer hombre de comodín a comodín.",
+ "consigna": "Finta y desmárcate al espacio libre.",
+ "variantes": {
+  "facil": "Comodines a toques libres.",
+  "dificil": "Solo puntúan la doblada y el tercer hombre, o comodines a un toque (propuesta)."
+ },
+ "adaptacion": "Alevín: 22 × 16 m y punto por cualquier combinación. Infantil: tal cual (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego de aplicación 2v2+2C",
+  "ref": "Dosier de sesiones · pág. 15 (S1.3)"
+ },
+ "top": "Puntúa cada concepto (espacio, pared, doblada, pasillo, tercer hombre): enseña lo que se premia.",
+ "probado": true,
+ "completado": "Edad, series, posición de los comodines en los fondos y cambio de papeles (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 23.2,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 21.6,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11,
+    "f": -40
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 14,
+    "f": [
+     6,
+     11
+    ]
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 3,
+    "f": [
+     9,
+     4
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.6,
+     7.5
+    ],
+    "b": [
+     6,
+     11
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 14
+   },
+   {
+    "a": [
+     6,
+     11
+    ],
+    "b": [
+     9,
+     4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     6,
+     11
+    ],
+    "b": [
+     15,
+     10.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 16,
+    "s1": 4
+   },
+   {
+    "a": [
+     9,
+     4
+    ],
+    "b": [
+     15,
+     10.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1
+   }
+  ],
+  "labels": [
+   [
+    15.5,
+    13.6,
+    "PARED",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "id": "TFB100-019",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5v5: atrae y cambia",
+ "formato": "5v5v5",
+ "edad": "12–18 años",
+ "nivel": "Normal",
+ "jugadores": "15–18 jug.",
+ "espacio": "45 × 25 m",
+ "duracion": "18 min",
+ "series": "3 series de 6 min (cada equipo defiende una) con 1 min 30 s de descanso.",
+ "objetivo": "Atraer la presión en un lado y cambiar la orientación a la zona contraria con un pase tenso, superando la zona central.",
+ "montaje": "45 × 25 m en tres zonas: dos grandes y una central de 7 m. Un equipo de cinco en cada extremo; el tercero defiende.",
+ "juego": "Tres defensores presionan en la zona del balón y dos esperan en la central. Tras cinco pases, cambio a la otra zona con pase tenso; los presionadores se desplazan. Si roban, cambian el papel.",
+ "punto": "Cada cambio de orientación, 1 punto; si llega tras cinco pases seguidos, 2.",
+ "consigna": "Atrae y cambia, con pase tenso.",
+ "variantes": {
+  "facil": "Un comodín en cada zona extrema.",
+  "dificil": "Dos toques por jugador, o cambio de orientación al primer toque."
+ },
+ "adaptacion": "Infantil: entran solo dos a robar. Cadete: tres. Juvenil: tres y el balón cruza en menos de cinco pases.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Posesión en tres zonas 5 contra 5 contra 5 con cambio de orientación",
+  "ref": "100 tareas de fútbol base · pág. 31"
+ },
+ "top": "Tres zonas 5v5v5 con cambio de orientación obligado: muy transferible al juego de once.",
+ "probado": false,
+ "completado": "Equipos de seis (6 × 6 × 6) también valen, como indica la fuente.",
+ "diagrama": {
+  "field": [
+   45,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 46.5,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "lines": [
+   [
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     25
+    ]
+   ],
+   [
+    [
+     26,
+     0
+    ],
+    [
+     26,
+     25
+    ]
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     19,
+     0,
+     26,
+     25
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 20.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12.5,
+    "f": -55,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 6.2,
+    "f": [
+     9,
+     12.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 13,
+    "f": [
+     9,
+     12.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 18.5,
+    "f": [
+     9,
+     12.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 22.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22.5,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 41,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 41,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     12.5
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     30,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     14,
+     13
+    ],
+    "b": [
+     29.5,
+     12.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s1": 8
+   }
+  ]
+ }
+}

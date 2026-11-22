@@ -1,0 +1,164 @@
+{
+ "id": "DOS-037",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Llévala: 2v2 y 3v3",
+ "formato": "2v2+2",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "20 min",
+ "series": "2 × 4 min en 2 contra 2 y 2 × 4 min en 3 contra 3 (propuesta).",
+ "objetivo": "Desmarcarse al pie o al espacio, con doblada y pasillo, para llevar el balón de una zona a otra.",
+ "montaje": "Rectángulo de 25 × 20 m con una zona de llegada en cada fondo. 2 contra 2 dentro y un comodín en cada banda con el que ataca.",
+ "juego": "Hay que llevar el balón de una zona de llegada a la otra con desmarques correctos y, al llegar, seguir hacia la contraria. Se empieza 2 contra 2 y se pasa a 3 contra 3.",
+ "punto": "1 punto por recibir controlado en la zona de llegada (propuesta).",
+ "consigna": "Marca encima: al espacio. Separada: al pie.",
+ "variantes": {
+  "facil": "Comodines a toques libres y zonas de llegada más anchas.",
+  "dificil": "Comodines a un toque o fuera de juego en la zona de llegada (propuesta)."
+ },
+ "adaptacion": "Benjamín: 2 contra 2 con dos comodines. Alevín: 3 contra 3 con comodines a dos toques (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Llevarla 2v2 + 3v3",
+  "ref": "Dosier de sesiones · pág. 9 y 20 (J2.3, S2.3)"
+ },
+ "top": "Conservación dirigida que llega a una zona y sigue: pie y espacio con sentido.",
+ "probado": true,
+ "completado": "Edad, series, puntuación y anchura de las zonas de llegada (4 m) (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -3.2,
+   "ymax": 23.2
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     4,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     21,
+     0,
+     25,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 12.5,
+    "y": -1.7,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 12.5,
+    "y": 21.7,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 9,
+    "f": [
+     13,
+     6
+    ]
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 14.5,
+    "f": [
+     6,
+     12
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     12.5,
+     -1.7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s1": 14
+   },
+   {
+    "a": [
+     13,
+     6
+    ],
+    "b": [
+     22.5,
+     3.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     12.5,
+     -1.7
+    ],
+    "b": [
+     22.5,
+     3.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 14
+   }
+  ],
+  "labels": [
+   [
+    23,
+    22.4,
+    "LLEGADA",
+    "middle"
+   ],
+   [
+    2,
+    22.4,
+    "LLEGADA",
+    "middle"
+   ]
+  ]
+ }
+}

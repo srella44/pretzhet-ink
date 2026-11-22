@@ -1,0 +1,188 @@
+{
+ "id": "TFB40-017",
+ "bloque": "Superioridades",
+ "titulo": "2v1 en tres zonas",
+ "formato": "2v1 ×3",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–14 jug.",
+ "espacio": "50 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 3 recorridos por pareja con 1 min de descanso. Sale otra pareja cuando la anterior supera la primera zona.",
+ "objetivo": "Superar tres 2 contra 1 seguidos, decidiendo en cada uno si conducir, pasar o hacer la pared, y finalizar ante el portero.",
+ "montaje": "Pasillo de 50 × 30 m en tres zonas, con portería y portero al final. Un defensor por zona, que solo defiende en la suya. Dos atacantes salen con balón.",
+ "juego": "2 contra 1 en cada zona. El balón entra controlado en la siguiente (conducción o pase a uno que ya está dentro) y el defensor anterior queda fuera. En la última, tiro.",
+ "punto": "Gol, 3; cada zona superada, 1. Robo, 1 para el defensor.",
+ "consigna": "Fija y suelta; termina con calma.",
+ "variantes": {
+  "facil": "El defensor de la primera zona es pasivo.",
+  "dificil": "Quince segundos para todo, un pase por zona, o 3 contra 2 en la última zona."
+ },
+ "adaptacion": "Benjamín: sin límite de tiempo y defensores solo en su zona. Alevín: 15 segundos y al menos un pase en cada zona.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "2 contra 1 en tres zonas seguidas hasta la portería",
+  "ref": "40 tareas de transiciones y oleadas · pág. 27"
+ },
+ "top": "2 contra 1 en tres zonas seguidas hasta la portería: repetir la solución con presión creciente.",
+ "probado": false,
+ "completado": "Campo dibujado en horizontal; zonas de unos 17 m (propuesta). Si un defensor roba, pasa el balón al entrenador; los defensores cambian cada cinco parejas.",
+ "diagrama": {
+  "field": [
+   50,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 52,
+   "ymin": -2.4,
+   "ymax": 31.5
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     17,
+     0
+    ],
+    [
+     17,
+     30
+    ]
+   ],
+   [
+    [
+     34,
+     0
+    ],
+    [
+     34,
+     30
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     9
+    ],
+    "b": [
+     8.5,
+     11.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     2,
+     21
+    ],
+    "b": [
+     15,
+     23
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     8.5,
+     11.5
+    ],
+    "b": [
+     15,
+     23
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 4
+   },
+   {
+    "a": [
+     15,
+     23
+    ],
+    "b": [
+     23.5,
+     22.5
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    8.5,
+    -1,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    25.5,
+    -1,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    42,
+    -1,
+    "ZONA 3",
+    "middle"
+   ]
+  ]
+ }
+}

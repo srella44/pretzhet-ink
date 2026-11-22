@@ -1,0 +1,190 @@
+{
+ "id": "TFB100-015",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4 contra 4: cruza la puerta",
+ "formato": "4v4",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de descanso.",
+ "objetivo": "Combinar posesión y conducción: dar pases hasta encontrar a un compañero libre que pueda cruzar una puerta conduciendo.",
+ "montaje": "Rectángulo de 25 × 20 m con cuatro puertas de conos de 2 m repartidas por dentro. Dos equipos de cuatro.",
+ "juego": "Tras tres pases, se marca cruzando cualquier puerta conduciendo, no pasando. Tras gol sigue con el balón, pero no puede repetir puerta. Nadie se queda parado tapando una puerta.",
+ "punto": "Puerta cruzada, 1 gol. Si después da un pase sin perderla, vale doble.",
+ "consigna": "¿Qué puerta está libre? Conduce al hueco.",
+ "variantes": {
+  "facil": "Dos pases antes de marcar o puertas más anchas.",
+  "dificil": "Cinco pases antes de marcar, o solo valen las dos puertas del lado contrario al balón."
+ },
+ "adaptacion": "Benjamín: puertas de 3 m y dos pases. Alevín: puertas de 2 m, tres pases y sin repetir puerta.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Posesión 4 contra 4 con gol al cruzar conduciendo una puerta de conos",
+  "ref": "100 tareas de fútbol base · pág. 27"
+ },
+ "top": "El gol es cruzar conduciendo una puerta tras tres pases: une posesión y progresión.",
+ "probado": false,
+ "completado": "",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    5,
+    3
+   ],
+   [
+    7,
+    3
+   ],
+   [
+    21,
+    3
+   ],
+   [
+    21,
+    5
+   ],
+   [
+    4,
+    17
+   ],
+   [
+    6,
+    17
+   ],
+   [
+    18,
+    15
+   ],
+   [
+    18,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 13,
+    "f": -70
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 6.5,
+    "f": [
+     3,
+     10
+    ]
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 10,
+    "f": [
+     14,
+     5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 18.5,
+    "f": [
+     11,
+     13
+    ]
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 12.5,
+    "f": [
+     14,
+     5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     11,
+     13
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     11,
+     13
+    ],
+    "b": [
+     14,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     14,
+     5
+    ],
+    "b": [
+     23.6,
+     4.2
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 14,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    23.6,
+    7.3,
+    "GOL",
+    "middle"
+   ]
+  ]
+ }
+}

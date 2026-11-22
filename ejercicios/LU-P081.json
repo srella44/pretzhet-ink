@@ -1,0 +1,184 @@
+{
+ "id": "LU-P081",
+ "bloque": "Rondos",
+ "titulo": "7 contra 3: filtra el pase",
+ "formato": "7v3",
+ "edad": "11–16 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "24 × 18 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Atraer la presión a un lado para filtrar el pase por el otro.",
+ "montaje": "24 × 18 m en dos zonas, con dos miniporterías en la línea central (propuesta). Siete atacantes por todo el espacio y tres defensores.",
+ "juego": "Balón libre por toda la zona, a dos toques. Solo dos defensores pueden estar en la zona del balón. Tras pérdida o balón fuera, cambian los papeles.",
+ "punto": "1 punto por pase recibido tras cruzar una miniportería.",
+ "consigna": "Atrae a un lado para filtrar por el otro.",
+ "variantes": {
+  "facil": "Toques libres o una sola zona activa para dos defensores fijos.",
+  "dificil": "Si roban, los defensores marcan en las miniporterías (variante de la fuente)."
+ },
+ "adaptacion": "Alevín: 8 contra 3 y toques libres. Infantil en adelante: 7 contra 3 a dos toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO Cuadrado 7 vs 3 - Filtrar Pases",
+  "ref": "300 ejercicios Level Up Coach · pág. 81"
+ },
+ "top": "Solo dos defensores en la zona activa y puntos por filtrar: atraer para mover.",
+ "probado": false,
+ "completado": "Edad, series, número y posición de las miniporterías (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -2.3,
+   "ymax": 19.5
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     18
+    ]
+   ]
+  ],
+  "goals": [
+   [
+    12,
+    4.5,
+    "L"
+   ],
+   [
+    12,
+    13.5,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 5.6,
+    "f": [
+     6.5,
+     11
+    ]
+   },
+   {
+    "r": "D",
+    "x": 2.5,
+    "y": 14,
+    "f": [
+     6.5,
+     11
+    ]
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.5,
+     11
+    ],
+    "b": [
+     2,
+     3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     2,
+     3
+    ],
+    "b": [
+     9.5,
+     2.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     9.5,
+     2.5
+    ],
+    "b": [
+     16.5,
+     5.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.7,
+    "MÁX. 2 DEFENSORES",
+    "middle"
+   ]
+  ]
+ }
+}

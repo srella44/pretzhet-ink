@@ -1,0 +1,158 @@
+{
+ "id": "DOS-065",
+ "bloque": "Rondos",
+ "titulo": "Rondo de regates",
+ "formato": "4v2",
+ "edad": "11–14 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Atacar el control y regatear con finta dentro del rondo, en lugar de parar el balón.",
+ "montaje": "Cuadrado de 12 × 12 m. Cuatro atacantes, uno en cada lado, y dos defensores dentro.",
+ "juego": "Tres toques obligatorios: control, regate con finta al defensor que sale y pase. Si un defensor roba o el balón sale, cambia con el atacante que falló (propuesta).",
+ "punto": "5 pases seguidos con regate, 1 punto (propuesta).",
+ "consigna": "Ataca con el control y finta antes de regatear.",
+ "variantes": {
+  "facil": "Un solo defensor dentro (4 contra 1).",
+  "dificil": "Cuadrado de 10 × 10 m o el regate debe ser hacia dentro (propuesta)."
+ },
+ "adaptacion": "Alevín: 4 contra 1 en 12 × 12 m. Infantil: 4 contra 2 tal cual (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Rondo de regates",
+  "ref": "Dosier de sesiones · pág. 20 (S2.3)"
+ },
+ "top": "Rondo de regates: lleva el regate y la finta al rondo.",
+ "probado": true,
+ "completado": "Edad, rotación tras robo, puntuación y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 14.5,
+   "ymin": -2.8,
+   "ymax": 14.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    12,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 0,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 12,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 3.3,
+    "y": 3,
+    "f": [
+     0,
+     5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 6.5,
+    "f": [
+     6.5,
+     12
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0,
+     5
+    ],
+    "b": [
+     1.6,
+     9.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     1.6,
+     9.5
+    ],
+    "b": [
+     6.5,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 6
+   },
+   {
+    "a": [
+     7,
+     6.5
+    ],
+    "b": [
+     6.8,
+     9.6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -1.7,
+    "CONTROL · REGATE · PASE",
+    "middle"
+   ]
+  ]
+ }
+}

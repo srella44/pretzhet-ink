@@ -1,0 +1,205 @@
+{
+ "id": "DOS-064",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4 + 2: la pared abre",
+ "formato": "4v4+2",
+ "edad": "11–14 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "20 min",
+ "series": "4 × 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Hacer la pared, dar y salir, e ir a buscar al rival para fijarlo antes de combinar.",
+ "montaje": "Cuadrado de 30 × 30 m con cuatro miniporterías: dos de cada equipo, en lados opuestos (propuesta). 4 contra 4 y dos comodines con el que tiene el balón.",
+ "juego": "Tras cinco pases, se puede finalizar en cualquiera de las dos miniporterías propias. Si se hace una pared durante la posesión, se puede finalizar enseguida.",
+ "punto": "Gol, 1; gol tras pared, 2.",
+ "consigna": "Fija al rival antes de la pared.",
+ "variantes": {
+  "facil": "3 contra 3 + 2 y cuatro pases antes de finalizar.",
+  "dificil": "Un solo comodín o gol solo válido tras pared (propuesta)."
+ },
+ "adaptacion": "Alevín: 3 contra 3 + 2 en 25 × 25 m. Infantil: 4 contra 4 + 2 tal cual (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Posesión 4v4+2C",
+  "ref": "Dosier de sesiones · pág. 19 (S2.2)"
+ },
+ "top": "La pared desbloquea la finalización: premia la combinación sobre el pase de seguridad.",
+ "probado": true,
+ "completado": "Edad, series, posición de las miniporterías y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -14,
+   "xmax": 44,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    22,
+    "L"
+   ],
+   [
+    30,
+    8,
+    "R"
+   ],
+   [
+    30,
+    22,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": 30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 10,
+    "f": [
+     8,
+     15
+    ]
+   },
+   {
+    "r": "D",
+    "x": 22.5,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 14.5,
+    "y": 24,
+    "f": -100
+   },
+   {
+    "r": "C",
+    "x": 4.5,
+    "y": 26.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     15
+    ],
+    "b": [
+     14.5,
+     24
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "nt": 0.45
+   },
+   {
+    "a": [
+     8,
+     15
+    ],
+    "b": [
+     20.5,
+     16
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 3,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     14.5,
+     24
+    ],
+    "b": [
+     20.5,
+     16
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s1": 4
+   },
+   {
+    "a": [
+     20.5,
+     16
+    ],
+    "b": [
+     29.6,
+     21.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    32.2,
+    8.6,
+    "GOL AMARILLO",
+    "start"
+   ],
+   [
+    32.2,
+    22.6,
+    "GOL AMARILLO",
+    "start"
+   ],
+   [
+    -2.2,
+    8.6,
+    "GOL AZUL",
+    "end"
+   ],
+   [
+    -2.2,
+    22.6,
+    "GOL AZUL",
+    "end"
+   ]
+  ]
+ }
+}

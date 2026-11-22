@@ -1,0 +1,143 @@
+{
+ "id": "TFB100-011",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tres equipos: al otro color",
+ "formato": "4+4v4",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "9–12 jug.",
+ "espacio": "24 × 18 m",
+ "duracion": "15 min",
+ "series": "3 series de 3 min; cada equipo defiende una serie.",
+ "objetivo": "Mantener el balón entre dos equipos que se ayudan mientras el tercero roba, y cambiar de papel enseguida tras perderlo.",
+ "montaje": "Rectángulo de 24 × 18 m. Tres equipos de tres o cuatro: azules y amarillos se pasan el balón y los rojos roban.",
+ "juego": "El pase va siempre al otro color: azul a amarillo y amarillo a azul. Toques libres. Si los rojos roban, el equipo que perdió pasa a robar. Si el balón sale, el entrenador da uno nuevo al que defendía.",
+ "punto": "Cada equipo suma 1 punto por cada ocho pases seguidos en los que participa.",
+ "consigna": "¿De qué color es? Mira antes.",
+ "variantes": {
+  "facil": "Dejar pasar al propio color o campo más grande.",
+  "dificil": "Dos toques, o pase al otro color y a alguien que no sea quien te la dio."
+ },
+ "adaptacion": "Prebenjamín: campo grande y vale pasar al mismo color. Benjamín: siempre al otro color y tres toques como máximo.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Fútbol de 3 equipos para benjamines: dos se pasan el balón y uno roba",
+  "ref": "100 tareas de fútbol base · pág. 23"
+ },
+ "top": "Tres equipos con pase obligatorio al otro color: la posesión más clara para benjamines.",
+ "probado": false,
+ "completado": "",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -1.5,
+   "ymax": 19.5
+  },
+  "players": [
+   {
+    "r": "D",
+    "x": 4,
+    "y": 14.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 3.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 20.5,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 14.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16.5,
+    "y": 14,
+    "f": [
+     12.5,
+     14.5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     14.5
+    ],
+    "b": [
+     12.5,
+     14.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     12.5,
+     14.5
+    ],
+    "b": [
+     12.5,
+     3.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     12.5,
+     3.5
+    ],
+    "b": [
+     20.5,
+     4.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1
+   }
+  ]
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "id": "DOS-060",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "1 contra 1 por zonas + 2",
+ "formato": "4v4+2",
+ "edad": "11–14 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "20 min",
+ "series": "4 × 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Dar una ayuda a cada lado del balón, mantener distancias y jugar de costado.",
+ "montaje": "30 × 30 m en cuatro zonas, con un jugador de cada equipo en cada una. Dos comodines van siempre a la zona del balón.",
+ "juego": "Posesión libre. Los comodines van a la zona del balón para crear superioridad y el resto da la ayuda correcta según dónde está. Variante: 2 contra 2 por zona.",
+ "punto": "8 pases seguidos o dos cambios de zona seguidos, 1 punto (propuesta).",
+ "consigna": "Mantén distancias y juega de costado.",
+ "variantes": {
+  "facil": "Comodines a toques libres y zonas sin límite para un jugador por equipo.",
+  "dificil": "Dos toques o cambio de zona obligatorio tras tres pases (propuesta)."
+ },
+ "adaptacion": "Alevín: 24 × 24 m, toques libres. Infantil: 30 × 30 m y la variante 2 contra 2 por zona (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego posesión 1v1+2C",
+  "ref": "Dosier de sesiones · pág. 18 (S2.1)"
+ },
+ "top": "Comodines que siempre van a la zona del balón: ayudas correctas según dónde está.",
+ "probado": true,
+ "completado": "Edad, series, puntuación y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -17,
+   "xmax": 48,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     30
+    ]
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     30,
+     15
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3.5,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 3,
+    "f": [
+     3.5,
+     3.5
+    ]
+   },
+   {
+    "r": "C",
+    "x": 11.5,
+    "y": 11.5,
+    "f": -30
+   },
+   {
+    "r": "C",
+    "x": 3.5,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 1.5,
+    "f": [
+     24,
+     5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 25,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 20.5,
+    "f": [
+     4.5,
+     25
+    ]
+   },
+   {
+    "r": "A",
+    "x": 25.5,
+    "y": 25.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 21,
+    "f": [
+     25.5,
+     25.5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     3.5
+    ],
+    "b": [
+     11.5,
+     11.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     11.5,
+     11.5
+    ],
+    "b": [
+     24,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    33,
+    12.8,
+    "LOS DOS COMODINES",
+    "start"
+   ],
+   [
+    33,
+    15.4,
+    "VAN A LA ZONA",
+    "start"
+   ],
+   [
+    33,
+    18,
+    "DEL BALÓN",
+    "start"
+   ]
+  ]
+ }
+}

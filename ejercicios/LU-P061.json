@@ -1,0 +1,219 @@
+{
+ "id": "LU-P061",
+ "bloque": "Rondos",
+ "titulo": "Supera la presión: 3 equipos",
+ "formato": "5v3",
+ "edad": "13–18 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug.",
+ "espacio": "36 × 25 m",
+ "duracion": "18 min",
+ "series": "3 × 5 min; cada equipo defiende una serie (propuesta).",
+ "objetivo": "Superar la primera presión, encontrar al hombre libre y jugar con el tercer hombre antes de cambiar de zona.",
+ "montaje": "36 × 25 m en tres zonas: dos extremas de posesión y una intermedia. Un equipo de cinco en cada extremo; el tercero defiende con tres en la zona del balón y dos en la intermedia.",
+ "juego": "Siete pases antes de enviar a la otra zona, a dos toques. Los tres presionadores cambian con el balón. Si roban, el balón va a la otra zona y quien lo perdió defiende.",
+ "punto": "1 punto por envío a la otra zona tras siete pases.",
+ "consigna": "Fija la presión y busca el pase por dentro.",
+ "variantes": {
+  "facil": "Cinco pases antes del envío y toques libres.",
+  "dificil": "Envío solo a un toque o tras pase al tercer hombre (propuesta)."
+ },
+ "adaptacion": "Infantil: 32 × 25 m y seis pases. Cadete y juvenil: tal cual, a dos toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO Posesión 3 Equipos - Superar primera oleada - Cambios de rol",
+  "ref": "300 ejercicios Level Up Coach · pág. 61"
+ },
+ "top": "Siete pases para enviar a la otra zona ante una presión escalonada: superar la primera línea.",
+ "probado": false,
+ "completado": "Edad, series, anchura de zonas (14 + 8 + 14 m) y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   36,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 37.5,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     25
+    ]
+   ],
+   [
+    [
+     22,
+     0
+    ],
+    [
+     22,
+     25
+    ]
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     0,
+     22,
+     25
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 12.5,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 7.5,
+    "f": [
+     7.5,
+     12.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 15,
+    "f": [
+     7.5,
+     12.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 18,
+    "f": [
+     7.5,
+     12.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34.5,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34.5,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     12.5
+    ],
+    "b": [
+     12,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     12,
+     4
+    ],
+    "b": [
+     26,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     12,
+     15
+    ],
+    "b": [
+     25.5,
+     12.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s1": 8
+   }
+  ]
+ }
+}

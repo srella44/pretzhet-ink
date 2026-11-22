@@ -1,0 +1,177 @@
+{
+ "id": "TFB100-012",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "3 contra 3: pasa y cambia",
+ "formato": "3v3+4",
+ "edad": "6–9 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de descanso.",
+ "objetivo": "Conservar en igualdad usando a los apoyos exteriores y entrar al campo con un buen control orientado.",
+ "montaje": "Cuadrado de 20 × 20 m con 3 contra 3 dentro. Cada equipo tiene dos apoyos fuera: los amarillos arriba y abajo; los azules, a los lados.",
+ "juego": "Al jugar con un apoyo propio, se intercambian: el apoyo entra con control orientado y el que pasó sale a ocupar su sitio. Los apoyos juegan a uno o dos toques.",
+ "punto": "Cada 6 pases seguidos, 1 punto.",
+ "consigna": "Pasa y sal; entra con el control.",
+ "variantes": {
+  "facil": "Un comodín dentro con el equipo que tiene el balón.",
+  "dificil": "Apoyos a un toque o intercambio obligatorio cada vez."
+ },
+ "adaptacion": "Prebenjamín: sin intercambio, los apoyos solo devuelven. Benjamín: intercambio obligatorio y punto cada cinco pases.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Posesión 3 contra 3 con apoyos exteriores e intercambio",
+  "ref": "100 tareas de fútbol base · pág. 24"
+ },
+ "top": "Intercambio con los apoyos tras jugar con ellos: control orientado y movimiento constante.",
+ "probado": false,
+ "completado": "Colores adaptados al diagrama (amarillos y azules en lugar de azules y rojos).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -12,
+   "xmax": 32,
+   "ymin": -3.2,
+   "ymax": 23.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": -1.7,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21.7,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": -1.7,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21.7,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 10.5,
+    "f": 120,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 9,
+    "f": [
+     16,
+     10.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 5,
+    "f": [
+     16,
+     10.5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     10.5
+    ],
+    "b": [
+     10,
+     21.7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s1": 14
+   },
+   {
+    "a": [
+     10,
+     21.7
+    ],
+    "b": [
+     6.5,
+     15.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     16,
+     10.5
+    ],
+    "b": [
+     14.2,
+     21.4
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 17,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    22,
+    17.8,
+    "INTERCAMBIO:",
+    "start"
+   ],
+   [
+    22,
+    19.8,
+    "ENTRA EL APOYO",
+    "start"
+   ],
+   [
+    22,
+    21.8,
+    "Y SALE EL QUE PASA",
+    "start"
+   ]
+  ]
+ }
+}

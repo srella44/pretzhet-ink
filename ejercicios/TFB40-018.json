@@ -1,0 +1,194 @@
+{
+ "id": "TFB40-018",
+ "bloque": "Superioridades",
+ "titulo": "Oleadas por números",
+ "formato": "1v1 a 3v2",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–16 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de descanso; reparte los números para que todos jueguen lo mismo.",
+ "objetivo": "Resolver superioridad, igualdad o inferioridad que cambian en cada jugada, y pasar de atacar a defender en cuanto entra un balón nuevo.",
+ "montaje": "40 × 30 m con dos miniporterías en cada fondo. Azules en una banda y rojos en la otra, numerados del 1 al 5. El entrenador, en un lateral con balones.",
+ "juego": "Canta números de cada equipo (1v1, 2v1, 3v2…) y mete el balón a uno. Diez segundos para marcar. Si entra otro balón antes, los de dentro siguen y se suman los nuevos.",
+ "punto": "Gol, 1. Gol en inferioridad, 3.",
+ "consigna": "Cuenta y decide: superioridad, rápido; inferioridad, retrasa.",
+ "variantes": {
+  "facil": "Solo superioridad para el equipo que recibe el balón.",
+  "dificil": "Siete segundos, balón al equipo en inferioridad o números en operación («dos más uno»)."
+ },
+ "adaptacion": "Benjamín: números despacio y balón siempre al equipo en superioridad. Alevín: a veces al que está en inferioridad.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Transiciones con números: el entrenador decide la superioridad",
+  "ref": "40 tareas de transiciones y oleadas · pág. 28"
+ },
+ "top": "Transiciones con números: el entrenador decide la superioridad en el último momento.",
+ "probado": false,
+ "completado": "En el diagrama, tres jugadores por banda. Azules atacan a la derecha y rojos a la izquierda; los que terminan vuelven corriendo a su banda.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 58,
+   "ymin": -3.4,
+   "ymax": 33.4
+  },
+  "goals": [
+   [
+    0,
+    9,
+    "L"
+   ],
+   [
+    0,
+    21,
+    "L"
+   ],
+   [
+    40,
+    9,
+    "R"
+   ],
+   [
+    40,
+    21,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 12,
+    "y": 31.7,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 31.7,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 31.7,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": -1.7,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": -1.7,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": -1.7,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": -3,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     31.7
+    ],
+    "b": [
+     14,
+     20
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 3
+   },
+   {
+    "a": [
+     28,
+     31.7
+    ],
+    "b": [
+     25,
+     21
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 3
+   },
+   {
+    "a": [
+     20,
+     -1.7
+    ],
+    "b": [
+     20,
+     10
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 3
+   },
+   {
+    "a": [
+     -3,
+     15
+    ],
+    "b": [
+     13.6,
+     19.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 14,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    42.5,
+    13.6,
+    "«AZULES 1 Y 3,",
+    "start"
+   ],
+   [
+    42.5,
+    16.4,
+    "ROJO 2»",
+    "start"
+   ],
+   [
+    -4.6,
+    11.6,
+    "ENTRENADOR",
+    "start"
+   ]
+  ]
+ }
+}
