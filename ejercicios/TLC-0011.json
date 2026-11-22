@@ -1,0 +1,140 @@
+{
+ "id": "TLC-0011",
+ "bloque": "Superioridades",
+ "titulo": "Centro y remate en carrera",
+ "formato": "2v1 por fuera",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug. + PT",
+ "espacio": "Medio campo · 36 × 30 m",
+ "duracion": "10 min",
+ "series": "Series de 2 min por lado, cambiando los roles (propuesta).",
+ "objetivo": "Sincronizar el centro y la llegada en ataque, y anticipar y despejar en defensa.",
+ "montaje": "Portería con portero. Un pasador en el centro, un jugador de banda, un rematador que llega desde atrás y un defensor.",
+ "juego": "El pasador juega a la banda. El jugador de banda centra al área. El rematador llega en carrera y remata, mientras el defensor corre hacia su portería para despejar.",
+ "punto": "Gol, 1 punto. Despeje del defensor, 1 punto.",
+ "consigna": "Llega tarde y de frente al centro.",
+ "variantes": {
+  "facil": "El defensor sale con un segundo de retraso (propuesta).",
+  "dificil": "Centro raso, aéreo o al segundo palo."
+ },
+ "adaptacion": "Alevín: centros rasos solamente (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Iraola)",
+  "titulo_original": "IRAOLA, ATAQUE EXTERIOR 2X1",
+  "ref": "toplidercoach.com/iraola-ataque-exterior-2x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y roles (propuesta); el texto original nombra 2x1 y 3 jugadores.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 38,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 36,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 10,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     15
+    ],
+    "b": [
+     21,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     22,
+     3
+    ],
+    "b": [
+     31,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     14,
+     22
+    ],
+    "b": [
+     30,
+     17
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     18,
+     10
+    ],
+    "b": [
+     28,
+     12
+    ],
+    "k": "run",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   }
+  ]
+ }
+}

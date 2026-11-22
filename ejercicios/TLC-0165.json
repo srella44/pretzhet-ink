@@ -1,0 +1,137 @@
+{
+ "id": "TLC-0165",
+ "bloque": "Superioridades",
+ "titulo": "Ataques 4v2 sin parar",
+ "formato": "4v2",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "12 jug. + PT",
+ "espacio": "Medio campo · 36 × 32 m",
+ "duracion": "15 min",
+ "series": "Dos grupos de 4 se alternan; 4 series de 3 min (propuesta).",
+ "objetivo": "Usar bien la ventaja de 4 contra 2: ocupar carriles, decidir y rematar.",
+ "montaje": "Portería con portero. Dos grupos de cuatro atacantes cerca del centro; dos defensores salen de cada lado de la portería.",
+ "juego": "Un grupo ataca en 4 contra 2 y busca tirar. Los defensores temporizan e intentan evitar el tiro. Al acabar, sale el otro grupo contra dos defensores nuevos.",
+ "punto": "Gol, 1 punto. Defensor que recupera y pasa a banda, 1 punto.",
+ "consigna": "Ocupa los carriles y tira cuando llegues.",
+ "variantes": {
+  "facil": "Sin límite de tiempo y con libertad de pase (propuesta).",
+  "dificil": "Máximo 8 segundos para tirar."
+ },
+ "adaptacion": "Benjamín: 3 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Allegri)",
+  "titulo_original": "ALLEGRI ATAQUES 4X2",
+  "ref": "toplidercoach.com/allegri-ataques-4x2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta). Solo se dibuja un grupo; el segundo espera fuera.",
+ "diagrama": {
+  "field": [
+   36,
+   32
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 38,
+   "ymin": -2,
+   "ymax": 34
+  },
+  "porterias": [
+   {
+    "x": 36,
+    "y": 16,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     11
+    ],
+    "b": [
+     17,
+     11
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     17,
+     11
+    ],
+    "b": [
+     22,
+     22
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 10
+   },
+   {
+    "a": [
+     22,
+     22
+    ],
+    "b": [
+     35,
+     16
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   }
+  ]
+ }
+}

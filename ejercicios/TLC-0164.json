@@ -1,0 +1,162 @@
+{
+ "id": "TLC-0164",
+ "bloque": "Superioridades",
+ "titulo": "Ataque rápido 3v1+2",
+ "formato": "3v1 → 3v3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug. + PT",
+ "espacio": "Medio campo · 36 × 30 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3 min con rotación (propuesta).",
+ "objetivo": "Resolver la ventaja de 3 contra 1 antes de que lleguen los dos defensores de banda.",
+ "montaje": "Portería con portero. Tres atacantes salen del centro. Un defensor sale de la portería y otros dos de los fondos laterales, que rodean un cono.",
+ "juego": "Los tres atacantes buscan tirar en un 3 contra 1. Los dos defensores de banda corren hacia su cono, lo rodean y entran para igualar a 3 contra 3.",
+ "punto": "Gol antes de que lleguen: 2 puntos. Gol después: 1 punto.",
+ "consigna": "Decide rápido: conduce, fija o suelta el balón.",
+ "variantes": {
+  "facil": "Los defensores de banda salen un segundo más tarde (propuesta).",
+  "dificil": "Máximo tres pases antes de tirar."
+ },
+ "adaptacion": "Prebenjamín y benjamín: 2 contra 1 con un solo defensor de banda (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Simeone)",
+  "titulo_original": "SIMEONE ATAQUE RÁPIDO 3X1+2",
+  "ref": "toplidercoach.com/simeone-ataque-rapido-3x1-2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntuación y rotaciones (propuesta); colocación de los conos de banda ajustada al diagrama.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 38,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 36,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    9,
+    2
+   ],
+   [
+    9,
+    28
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 28,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     15
+    ],
+    "b": [
+     15,
+     15
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     34,
+     2
+    ],
+    "b": [
+     10,
+     2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     34,
+     28
+    ],
+    "b": [
+     10,
+     28
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     15,
+     15
+    ],
+    "b": [
+     26,
+     9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 10
+   }
+  ]
+ }
+}

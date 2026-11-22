@@ -1,0 +1,133 @@
+{
+ "id": "TLC-0015",
+ "bloque": "Superioridades",
+ "titulo": "Del 2v1 al 3v2",
+ "formato": "2v1 → 3v2",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6 jug. + 2 PT",
+ "espacio": "Doble área · 40 × 33 m",
+ "duracion": "15 min",
+ "series": "Series de 2 min; se cambian los papeles (propuesta).",
+ "objetivo": "Aprovechar rápido la ventaja inicial y leer cuándo llega la ayuda del defensor extra.",
+ "montaje": "Dos porterías con portero, 40 × 33 m. Dos atacantes, un defensor y otro defensor esperando en la banda.",
+ "juego": "Empieza un 2 contra 1. Cuando el entrenador lo marca, entra el segundo defensor y queda 3 contra 2 hacia la misma portería. Al acabar, el que atacaba pasa a defender.",
+ "punto": "Gol, 1 punto. Gol antes de que entre el defensor extra, 2 puntos.",
+ "consigna": "Termina antes de que llegue la ayuda.",
+ "variantes": {
+  "facil": "El defensor extra entra tras un pase (propuesta).",
+  "dificil": "Máximo 6 segundos para tirar."
+ },
+ "adaptacion": "Prebenjamín y benjamín: solo 2 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Simeone)",
+  "titulo_original": "SIMEONE, FINALIZACIÓN SUPERIORIDADES",
+  "ref": "toplidercoach.com/simeone-finalizacion-superioridades/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, tiempo de ataque y series (propuesta). El tercer atacante de la fase 3v2 se añade del equipo que espera (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 16.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": -0.8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     12
+    ],
+    "b": [
+     17,
+     12
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     17,
+     12
+    ],
+    "b": [
+     26,
+     23
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 10
+   },
+   {
+    "a": [
+     22,
+     -0.8
+    ],
+    "b": [
+     26,
+     10
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    22,
+    -2.2,
+    "DEFENSOR EXTRA",
+    "middle"
+   ]
+  ]
+ }
+}

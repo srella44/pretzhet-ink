@@ -25,3 +25,5 @@ Lectura de 796 tareas de «Entrenadores Top» (copia del texto en `fuentes/topli
 - Bloque asignado con las reglas de «Criterios» de la v08; 186 sin palabra clave ni formato quedan en Técnica y duelos (propuesta). Vuelta a la calma y Balón parado: ninguna tarea; Porteros: 2 (solo 16+).
 - Las páginas se leyeron con el aviso de «solo suscriptores» al final; el texto del ejercicio está completo, pero el vídeo y el diagrama original no se ven: los diagramas se dibujan a partir del texto.
 - «Fútbol Base» (253, solo vídeo) y el menú «Ejercicios» siguen sin revisar.
+
+| 2026-11-22 | 6 | TLC-0006, TLC-0015, TLC-0164, TLC-0165, TLC-0001, TLC-0002, TLC-0004, TLC-0008, TLC-0009, TLC-0011, TLC-0017 | 11 fichas de Superioridades de toplidercoach (Entrenadores Top), escritas con palabras propias; edad «10–13» o «12–13 años» según la etiqueta 10+/13+ de la web (propuesta). Se dibujan menos jugadores de los reales en TLC-0006, TLC-0002 y TLC-0165 y solo un sector en TLC-0008. Sin avisos de maqueta. No están en `datos/seleccion.json`, así que no entran en el libro hasta que se añadan; sí salen en la app. Siguiente en cola: los TLC de 10+ y después los de 13+. |

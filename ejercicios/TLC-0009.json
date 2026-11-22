@@ -1,0 +1,137 @@
+{
+ "id": "TLC-0009",
+ "bloque": "Superioridades",
+ "titulo": "2v1 con defensor que vuelve",
+ "formato": "2v1 → 2v2",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug. + PT",
+ "espacio": "Medio campo · 34 × 30 m",
+ "duracion": "12 min",
+ "series": "Series de 2 min; se rota por parejas (propuesta).",
+ "objetivo": "Atacar rápido con ventaja y, en defensa, correr para igualar sin desordenarse.",
+ "montaje": "Portería con portero. Una pareja de defensores a un lado, dos atacantes enfrente y un cono para rodear.",
+ "juego": "Un defensor pasa a un atacante y rodea el cono corriendo para volver. Mientras, los dos atacantes juegan 2 contra 1 hacia la portería. Si llega a tiempo, queda 2 contra 2.",
+ "punto": "Gol, 1 punto. Si los defensores evitan el tiro, 1 punto.",
+ "consigna": "Atacantes: tirad antes de que llegue. Defensor: llega y cierra.",
+ "variantes": {
+  "facil": "El cono está más cerca (propuesta).",
+  "dificil": "Máximo cuatro toques para el equipo atacante."
+ },
+ "adaptacion": "Prebenjamín y benjamín: sin cono, defensor sale tarde (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Néstor Lorenzo)",
+  "titulo_original": "NESTOR LORENZO, FINALIZACIÓN 2X1+1",
+  "ref": "toplidercoach.com/nestor-lorenzo-finalizacion-2x1-1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad y puntuación (propuesta); la distancia del cono se ajusta al diagrama.",
+ "diagrama": {
+  "field": [
+   34,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 36,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    11,
+    3
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 4,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     10
+    ],
+    "b": [
+     14,
+     9
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     4,
+     20
+    ],
+    "b": [
+     11,
+     4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     11,
+     4
+    ],
+    "b": [
+     23,
+     13
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 3,
+    "s1": 12
+   }
+  ]
+ }
+}

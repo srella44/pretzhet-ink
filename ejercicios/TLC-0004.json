@@ -1,0 +1,158 @@
+{
+ "id": "TLC-0004",
+ "bloque": "Superioridades",
+ "titulo": "Duelos 3v2 de fondo a fondo",
+ "formato": "3v2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "15 min",
+ "series": "Rotaciones continuas; series de 3 min (propuesta).",
+ "objetivo": "Llevar el balón rápido al grupo del otro fondo con ventaja de 3 contra 2.",
+ "montaje": "30 × 30 m. Grupos de tres atacantes en cada fondo; los defensores, por parejas, salen de los laterales.",
+ "juego": "Un grupo conduce y pasa para llevar el balón al grupo del fondo contrario sin que los dos defensores lo toquen. Al llegar, ese grupo sale hacia el otro lado.",
+ "punto": "Balón controlado en el otro fondo, 1 punto. Defensor que toca el balón, 1 punto para su equipo (propuesta).",
+ "consigna": "Junta a los defensores para dejar a alguien libre.",
+ "variantes": {
+  "facil": "Los defensores salen un segundo más tarde (propuesta).",
+  "dificil": "No se puede pasar hacia atrás y máximo tres pases."
+ },
+ "adaptacion": "Prebenjamín y benjamín: 2 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Simeone)",
+  "titulo_original": "SIMEONE, DUELOS 3X2",
+  "ref": "toplidercoach.com/simeone-duelos-3x2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad y puntuación (propuesta); el texto original no da más reglas.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    0,
+    30
+   ],
+   [
+    30,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 2,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 28,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     15
+    ],
+    "b": [
+     14,
+     15
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     26,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 12
+   },
+   {
+    "a": [
+     13,
+     2
+    ],
+    "b": [
+     13,
+     12
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ }
+}

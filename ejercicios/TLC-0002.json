@@ -1,0 +1,164 @@
+{
+ "id": "TLC-0002",
+ "bloque": "Superioridades",
+ "titulo": "Partido 7v6 en dos campos",
+ "formato": "7v6",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "40 × 30 m (2 campos de 20 × 30 m)",
+ "duracion": "20 min",
+ "series": "4 series de 4 min; cambian los equipos (propuesta).",
+ "objetivo": "Aprovechar el 7 contra 6, recuperar y cambiar de campo con rapidez.",
+ "montaje": "40 × 30 m partido en dos campos iguales, cada uno con miniportería. Dos equipos de 7. En cada campo juegan 7 contra 6.",
+ "juego": "El equipo que ataca debe hacer un número de pases (6–8) y puede tirar. Si el defensor recupera, pasa a su compañero del otro campo y allí pasa a atacar en 7 contra 6.",
+ "punto": "Gol, 1 punto. Cambiar de campo tras robo, 1 punto (propuesta).",
+ "consigna": "Recupera, mira al otro campo y cambia el juego.",
+ "variantes": {
+  "facil": "Menos pases obligatorios antes de tirar (propuesta).",
+  "dificil": "Pase largo o a un jugador en movimiento para cambiar de campo."
+ },
+ "adaptacion": "Mejor desde 12 años; para menores, 5 contra 4 en campos más pequeños (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Iñigo Pérez)",
+  "titulo_original": "IÑIGO PÉREZ, PARTIDO SUPERIORIDAD",
+  "ref": "toplidercoach.com/inigo-perez-partido-superioridad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta). Se dibujan 5 atacantes y 4 defensores para que se vea; los 7 y 6 reales se indican en el formato.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    40,
+    15,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     15
+    ],
+    "b": [
+     17,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17,
+     15
+    ],
+    "b": [
+     33,
+     15
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "7 CONTRA 6",
+    "middle"
+   ],
+   [
+    30,
+    -0.9,
+    "EL QUE ESPERA",
+    "middle"
+   ]
+  ]
+ }
+}

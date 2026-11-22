@@ -1,0 +1,145 @@
+{
+ "id": "TLC-0006",
+ "bloque": "Superioridades",
+ "titulo": "Ola creciente 1-2-3-4",
+ "formato": "1v1 → 4v3",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "7 jug. + PT",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3 min; cambian los papeles de ataque y defensa (propuesta).",
+ "objetivo": "Atacar rápido con un jugador más y, en defensa, ganar tiempo sin lanzarse al robo.",
+ "montaje": "40 × 30 m con portería y portero. Cuatro atacantes en fila en el fondo y tres defensores cerca de la portería.",
+ "juego": "Sale un 1 contra 1 ante el portero. Detrás sale un 2 contra 1, luego un 3 contra 2 y un 4 contra 3, todos hacia la misma portería y sin pausas.",
+ "punto": "Gol, 1 punto. Si el defensor despeja a banda, 1 punto para su equipo (propuesta).",
+ "consigna": "Defiende: frena y cierra el tiro. Ataca: no pares.",
+ "variantes": {
+  "facil": "Cada ola sale cuando la anterior ya ha tirado (propuesta).",
+  "dificil": "Salen sin esperar y solo se permiten tres toques."
+ },
+ "adaptacion": "Benjamín: llegar solo hasta el 3 contra 2 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Pellegrini)",
+  "titulo_original": "PELLEGRINI DUELOS SUPERIORIDADES",
+  "ref": "toplidercoach.com/pellegrini-duelos-superioridades/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntuación y series (propuesta); el diagrama se ha dibujado a partir del texto. Se dibujan 3 de los 4 atacantes y 3 defensores para que se vea.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 34
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     15
+    ],
+    "b": [
+     17,
+     15
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     17,
+     15
+    ],
+    "b": [
+     24,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 12
+   },
+   {
+    "a": [
+     24,
+     5
+    ],
+    "b": [
+     39,
+     13
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    20,
+    32.6,
+    "CADA OLA SUMA UN ATACANTE",
+    "middle"
+   ]
+  ]
+ }
+}

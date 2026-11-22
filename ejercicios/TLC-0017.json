@@ -1,0 +1,165 @@
+{
+ "id": "TLC-0017",
+ "bloque": "Superioridades",
+ "titulo": "Pared y 2v1 doble",
+ "formato": "2v1 + 2v1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. + PT",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 2 min; se rota cada pasada (propuesta).",
+ "objetivo": "Ganar el 2 contra 1 con una pared rápida y el apoyo del segundo atacante desde el otro lado.",
+ "montaje": "40 × 30 m con una portería con portero y dos pasillos de 15 m. Dos parejas atacan a la vez, cada una contra un defensor.",
+ "juego": "Cada pareja hace una pared para crear el 2 contra 1 hacia la portería. El que da la pared apoya del lado contrario sin quedar en fuera de juego. El defensor decide si presiona o espera.",
+ "punto": "Gol, 1 punto. Si el defensor roba, 1 punto para él.",
+ "consigna": "Pared rápida y apoyo por el lado contrario.",
+ "variantes": {
+  "facil": "Sin fuera de juego (propuesta).",
+  "dificil": "Máximo dos toques tras la pared."
+ },
+ "adaptacion": "Prebenjamín y benjamín: sin regla de fuera de juego (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Lionel Scaloni)",
+  "titulo_original": "LIONEL SCALONI SUPERIORIDADES 2X1",
+  "ref": "toplidercoach.com/lionel-scaloni-superioridades-2x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y distribución en pasillos (propuesta); el texto menciona dos porterías y no las sitúa.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     15
+    ],
+    [
+     40,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 23,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     3
+    ],
+    "b": [
+     11,
+     11
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     11
+    ],
+    "b": [
+     20,
+     4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     6,
+     19
+    ],
+    "b": [
+     11,
+     27
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     27
+    ],
+    "b": [
+     20,
+     20
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   }
+  ]
+ }
+}

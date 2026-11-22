@@ -1,0 +1,132 @@
+{
+ "id": "TLC-0001",
+ "bloque": "Superioridades",
+ "titulo": "Duelos 2v1 a dos puertas",
+ "formato": "2v1",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "Series de 2 min; se rota cada pareja (propuesta).",
+ "objetivo": "Decidir rápido en 2 contra 1: fijar al defensor y soltar el balón en el momento justo.",
+ "montaje": "30 × 30 m con una miniportería en cada lado. Dos atacantes salen del centro y de un lateral; el defensor, de otro lateral.",
+ "juego": "Dos atacantes contra un defensor. Pueden marcar en cualquiera de las dos miniporterías. La jugada acaba con gol, balón fuera o cuando el defensor toca el balón; entra otra pareja.",
+ "punto": "Gol, 1 punto. Defensor que toca el balón, 1 punto.",
+ "consigna": "Atrae al defensor y suelta el pase.",
+ "variantes": {
+  "facil": "El defensor entra un segundo más tarde (propuesta).",
+  "dificil": "Solo se puede marcar en una miniportería, la que elige el entrenador."
+ },
+ "adaptacion": "Prebenjamín y benjamín: usar solo la mitad del campo (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Simeone)",
+  "titulo_original": "SIMEONE DUELOS 2X1 Y FINALIZACIÓN",
+  "ref": "toplidercoach.com/simeone-duelos-2x1-y-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas y rotaciones (propuesta); en el original solo se dibujan los conos de salida, aquí se sitúan a mano.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    30,
+    15,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    15,
+    29
+   ],
+   [
+    3,
+    24
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 13,
+    "y": 22,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 24,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     22
+    ],
+    "b": [
+     25,
+     24
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     25,
+     24
+    ],
+    "b": [
+     29,
+     17
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     4,
+     20
+    ],
+    "b": [
+     18,
+     20
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   }
+  ]
+ }
+}
