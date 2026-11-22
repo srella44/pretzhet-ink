@@ -65,3 +65,6 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 - Alta en `datos/referencias.json` como `FB-001`…`FB-253` (Candidato; bloque propuesto por el título) y en `estado/cola.json` al inicio de la fase 4 (253 elementos). Regla nueva en ENCARGO.md.
 - En la app llevan el punto de toplidercoach y el club «Fútbol Base».
 - Instagram sin detalle: 9 publicaciones marcadas «Descartar» (decisión de Sergio).
+
+## 2026-11-22 · Reparto de Técnica y duelos
+- 1.052 ejercicios sin ficha ni plaza en el libro pasan de Técnica y duelos a otros bloques por palabras del título y por el formato N:M (570 Posesiones, 418 Partidos y situaciones reales, 31 Superioridades, 17 Calentamiento, 10 Defensa, 5 Finalización, 1 Oleadas). Propuesta mecánica: se puede corregir ficha a ficha.
