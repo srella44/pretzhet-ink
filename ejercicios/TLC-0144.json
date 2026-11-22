@@ -1,0 +1,159 @@
+{
+ "id": "TLC-0144",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 en cada área y 2v2",
+ "formato": "1v1 + 2v2 + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + 2 PT",
+ "espacio": "40 × 33 m (doble área)",
+ "duracion": "15 min",
+ "series": "4 series de 3 min; cambian las parejas (fuente).",
+ "objetivo": "Duelos con agresividad en cada área y transición inmediata a un 2v2 con balón del entrenador.",
+ "montaje": "Doble área con portería y portero en cada fondo. En un área, 1v1 entre dos rojos; en la otra, entre dos azules. El entrenador, con balones, en un lateral.",
+ "juego": "Los dos 1v1 van a la vez, cada uno en su área. Al acabarlos, los dos rojos y los dos azules juegan 2v2 en todo el espacio con el balón que mete el entrenador: tenso, dividido o al espacio.",
+ "punto": "Ganar el 1v1, 1 punto; ganar el 2v2, 2 (fuente).",
+ "consigna": "Defiende hacia fuera; ataca con cambio de ritmo.",
+ "variantes": {
+  "facil": "2v2 sin límite de tiempo (propuesta).",
+  "dificil": "1v1 en 5–7 segundos y 2v2 en menos de 10 (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 30 × 25 m y porterías de F7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Klopp)",
+  "titulo_original": "KLOPP,LIVERPOOL DUELOS INDIVIDUALES",
+  "ref": "toplidercoach.com/liverpool-klopp-duelos-individuales/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Muy parecido a TLC-0142 (mismo autor y dinámica): revisar si se fusionan. Aquí se dibuja el 2v2. Series y edad (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 35
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 20,
+    "y": 33,
+    "lado": "B",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     40,
+     16.5
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 13,
+    "y": 19,
+    "f": -60
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 13,
+    "f": -110
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 16.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.6,
+     16.5
+    ],
+    "b": [
+     13,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     19
+    ],
+    "b": [
+     25,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     13
+    ],
+    "b": [
+     21.5,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    -1.6,
+    19.3,
+    "ENTR.",
+    "middle"
+   ]
+  ]
+ }
+}

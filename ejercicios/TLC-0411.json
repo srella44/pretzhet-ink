@@ -1,0 +1,183 @@
+{
+ "id": "TLC-0411",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "8v8, porterías en las bandas",
+ "formato": "8v8 + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug. + 2 PT",
+ "espacio": "Medio campo (68 × 52 m)",
+ "duracion": "20 min",
+ "series": "2 partes de 9 min (propuesta).",
+ "objetivo": "Avanzar y replegar en bloque: el gol depende de que todo el equipo acompañe la jugada.",
+ "montaje": "Medio campo de F11 girado: una portería con portero en el centro de cada banda. Una línea desde el centro del campo hasta el fondo lo divide en dos mitades.",
+ "juego": "Partido 8v8. El gol solo vale si todo el equipo que ataca está en campo rival. Si algún defensor no ha vuelto a su campo, el gol vale doble.",
+ "punto": "Gol válido, 1. Con un rival sin replegar, 2.",
+ "consigna": "Sube junto: si uno se queda, no hay gol.",
+ "variantes": {
+  "facil": "Basta con que pasen 6 de los 8 (propuesta).",
+  "dificil": "Máximo 3 toques y tiempo límite una vez todos en campo rival (fuente)."
+ },
+ "adaptacion": "Web: desde 7 años. Se propone 10–13 años; alevín en F7 con 7v7 y campo de 50 × 40 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Palladino)",
+  "titulo_original": "PALLADINO PARTIDO 8X8",
+  "ref": "toplidercoach.com/palladino-partido-8x8/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas del medio campo, duración y edad (propuesta). Se dibujan 4 jugadores por equipo en lugar de 8 para que se lea el diagrama.",
+ "diagrama": {
+  "field": [
+   68,
+   52
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 72,
+   "ymin": -3,
+   "ymax": 55
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 26,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 68,
+    "y": 26,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     34,
+     0
+    ],
+    [
+     34,
+     52
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 40,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 46,
+    "y": 27,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 42,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 56,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 60,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 53,
+    "y": 41,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 50,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 30,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     46,
+     27
+    ],
+    "b": [
+     56,
+     17
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     23,
+     30
+    ],
+    "b": [
+     31,
+     29
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     56,
+     17
+    ],
+    "b": [
+     66.5,
+     23.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    51,
+    3.4,
+    "TODOS AQUÍ PARA QUE VALGA",
+    "middle"
+   ],
+   [
+    20,
+    40,
+    "SIN REPLEGAR",
+    "middle"
+   ]
+  ]
+ }
+}

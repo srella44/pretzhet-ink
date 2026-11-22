@@ -1,0 +1,164 @@
+{
+ "id": "TLC-0059",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "2v2 en el área sin pausas",
+ "formato": "2v2 + servidores",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug. + PT",
+ "espacio": "40 × 16 m (área)",
+ "duracion": "12 min",
+ "series": "Rondas de 1:30; rotan dentro y fuera (fuente). 8 rondas (propuesta).",
+ "objetivo": "Atacar y defender 2v2 a ritmo alto, con muchas finalizaciones y transiciones al instante.",
+ "montaje": "Área grande con portería y portero. Dentro, 2v2. Fuera, por el borde del área, otras dos parejas con muchos balones.",
+ "juego": "2v2 para marcar lo antes posible. Al acabar cada acción (gol, fuera o parada), un servidor mete otro balón al momento. Cada 1:30, los de dentro salen a servir y entran los de fuera.",
+ "punto": "Gol, 1 punto. Gol tras robo o a 1–2 toques, 2 (variante de la fuente).",
+ "consigna": "Balón nuevo, ocasión nueva: ataca o roba ya.",
+ "variantes": {
+  "facil": "Sin límite de tiempo y comodín de ataque (propuesta).",
+  "dificil": "Máximo 6–8 segundos para finalizar (fuente)."
+ },
+ "adaptacion": "Web: desde 10 años. Benjamín: 2v2 en 30 × 16 m sin portero y portería de 5 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Simeone)",
+  "titulo_original": "SIMEONE PARTIDO ÁREA GRANDE",
+  "ref": "toplidercoach.com/simeone-partido-area-grande/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de rondas y edad (propuesta). Puntuación tomada de las variantes de la fuente. Diagrama dibujado de cero.",
+ "diagrama": {
+  "field": [
+   40,
+   16.5
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 19.6
+  },
+  "tag": "área 40 × 16 m",
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 13,
+    "y": 10,
+    "f": -30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 6.5,
+    "f": 120
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 11,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 41.5,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    4.2,
+    18.4
+   ],
+   [
+    36,
+    18.6
+   ],
+   [
+    -1.6,
+    10.2
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     10
+    ],
+    "b": [
+     26,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     6
+    ],
+    "b": [
+     21.5,
+     0.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     34,
+     18
+    ],
+    "b": [
+     28.5,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

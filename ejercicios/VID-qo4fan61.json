@@ -1,0 +1,177 @@
+{
+ "id": "VID-qo4fan61",
+ "bloque": "Técnica y duelos",
+ "titulo": "Dos combinaciones al centro",
+ "formato": "Circuito 6 jug.",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug.",
+ "espacio": "20 × 22 m",
+ "duracion": "12 min",
+ "series": "2 series de 4 min por variante (propuesta).",
+ "objetivo": "Combinar por dentro con descarga y abrir a un lado o al otro con buen perfil.",
+ "montaje": "20 × 22 m. Abajo, el salidor con balón y un apoyo ante una pica. En el centro, un maniquí con un jugador al lado. Arriba, un jugador junto a cada pica.",
+ "juego": "El salidor pasa al apoyo de la pica, que descarga al del maniquí. Este se perfila y abre arriba: a la derecha (V1) o a la izquierda (V2). Cada uno sigue su pase.",
+ "punto": "Sin puntuación; 3 fallos, cambio de roles (propuesta).",
+ "consigna": "Despégate del maniquí antes de pedirla.",
+ "variantes": {
+  "facil": "Dos toques en todos los puestos (propuesta).",
+  "dificil": "El del centro gira con un solo toque (propuesta)."
+ },
+ "adaptacion": "Alevín: cono en lugar de maniquí y distancias de 8 m (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Crystal Palace · two combination variations",
+  "ref": "Instagram · reel qo4fan61 (keepitonthedeck)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Orden de pases y rotación deducidos de los fotogramas (propuesta). El maniquí se dibuja como jugador semitransparente.",
+ "diagrama": {
+  "field": [
+   20,
+   22
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 24
+  },
+  "cones": [
+   [
+    4.5,
+    4
+   ],
+   [
+    16,
+    4
+   ],
+   [
+    9.5,
+    15.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 9,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 15.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 21.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     21.5
+    ],
+    "b": [
+     11.5,
+     15.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     11.5,
+     15.5
+    ],
+    "b": [
+     12.5,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     12.5,
+     9
+    ],
+    "b": [
+     18,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     12.5,
+     9
+    ],
+    "b": [
+     2.5,
+     2.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    11.8,
+    "MANIQUÍ",
+    "middle"
+   ],
+   [
+    5.6,
+    1.1,
+    "V2",
+    "middle"
+   ],
+   [
+    18,
+    1.9,
+    "V1",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "id": "VID-n3u00qgm",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rotaciones en triángulo",
+ "formato": "4 + 4 + 2 com. + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. + PT",
+ "espacio": "30 × 36 m",
+ "duracion": "15 min",
+ "series": "6 ataques por grupo, alternando (propuesta).",
+ "objetivo": "Aprender a rotar posiciones en triángulo para recibir libre y progresar hasta finalizar.",
+ "montaje": "30 × 36 m con portería y portero. Maniquíes o conos repartidos y dos comodines por dentro. Cuatro rojos a la izquierda y cuatro azules a la derecha.",
+ "juego": "Sin rivales. El último rojo entra el balón; los otros tres forman un triángulo y rotan (uno baja, otro se abre, otro entra) hasta que uno recibe de cara. Combina con un comodín y finaliza. Luego, los azules.",
+ "punto": "Gol con una rotación previa, 1 punto (propuesta).",
+ "consigna": "Si ocupan tu sitio, busca otro libre.",
+ "variantes": {
+  "facil": "Rotación fija marcada por el entrenador (propuesta).",
+  "dificil": "Un defensor activo por grupo (propuesta)."
+ },
+ "adaptacion": "Alevín: 3 jugadores por grupo y un comodín (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Rotational movement",
+  "ref": "Instagram · reel n3u00qgm"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Solo hay rótulo «Rotational movement»: dinámica, medidas y puntuación deducidas (propuesta). Los maniquíes se dibujan como discos; el grupo azul, semitransparente.",
+ "diagrama": {
+  "field": [
+   30,
+   36
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -2,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "discs": [
+   [
+    5,
+    12
+   ],
+   [
+    24,
+    12
+   ],
+   [
+    5,
+    26
+   ],
+   [
+    24,
+    25
+   ]
+  ],
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      1.5,
+      21.5
+     ],
+     [
+      12.5,
+      16.5
+     ],
+     [
+      9,
+      26
+     ]
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 1.5,
+    "y": 21.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 26,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 33.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 18.5,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 29,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 15,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 27,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     33.5
+    ],
+    "b": [
+     9,
+     26
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12.5,
+     16.5
+    ],
+    "b": [
+     15.5,
+     22
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     1.5,
+     21.5
+    ],
+    "b": [
+     6.5,
+     14.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 9,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     9,
+     26
+    ],
+    "b": [
+     15.5,
+     22
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 4
+   }
+  ]
+ }
+}

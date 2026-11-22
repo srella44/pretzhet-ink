@@ -1,0 +1,211 @@
+{
+ "id": "TLC-0092",
+ "bloque": "Técnica y duelos",
+ "titulo": "Conducción, tiro y 1v1",
+ "formato": "1v1 + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug. + PT",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "Cada jugador hace 6 salidas, 3 atacando y 3 defendiendo (propuesta).",
+ "objetivo": "Conducir rápido y cerca, tirar con precisión y resolver un 1v1 enlazado.",
+ "montaje": "40 × 30 m con portería y portero en un fondo y una miniportería a cada lado de ella. Dos equipos en fila en el otro fondo, todos con balón; una zona de conducción delante de cada fila.",
+ "juego": "Salen a la vez uno de cada equipo. 1) Conducen por su zona. 2) Tiran a su miniportería. 3) El entrenador mete un balón y juegan 1v1 hacia la portería: uno ataca y otro defiende; en la siguiente, al revés.",
+ "punto": "Gol en miniportería, 1 punto; gol en el 1v1, 2 (propuesta).",
+ "consigna": "Balón cerca; en el 1v1, cambia de ritmo.",
+ "variantes": {
+  "facil": "1v1 sin portero a una miniportería (propuesta).",
+  "dificil": "1v1 con tiempo máximo de 6 segundos (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 30 × 25 m y zona de conducción con conos (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Bruno Lage)",
+  "titulo_original": "BRUNO LAGE, CONDUCCIÓN, VELOCIDAD Y DUELOS",
+  "ref": "toplidercoach.com/bruno-lage-conduccion-velocidad-y-duelos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de zonas, miniporterías y balón del entrenador para el 1v1, y puntuación (propuesta). Diagrama en horizontal.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 42.5,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    40,
+    4.5,
+    "R"
+   ],
+   [
+    40,
+    25.5,
+    "R"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     8,
+     2,
+     22,
+     7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     8,
+     23,
+     22,
+     28
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 4.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 25.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 1.2,
+    "y": 25.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4.5
+    ],
+    "b": [
+     23,
+     4.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     4.5
+    ],
+    "b": [
+     39.4,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     25.5
+    ],
+    "b": [
+     23,
+     25.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     25.5
+    ],
+    "b": [
+     39.4,
+     25.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     15
+    ],
+    "b": [
+     25,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12,
+    19.2,
+    "ENTRENADOR",
+    "middle"
+   ],
+   [
+    31,
+    12,
+    "1v1",
+    "middle"
+   ]
+  ]
+ }
+}

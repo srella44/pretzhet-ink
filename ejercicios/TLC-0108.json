@@ -1,0 +1,154 @@
+{
+ "id": "TLC-0108",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tiro y 1v1 tras eslalon",
+ "formato": "1v1 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug. + PT",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "Cada jugador hace 4 salidas por fila; cambian de fila (propuesta).",
+ "objetivo": "Tirar de media distancia y pasar al instante a defender un 1v1, y atacar tras un eslalon.",
+ "montaje": "Portería con portero. Fila de tiradores en el centro, a 20 m. Fila de atacantes en un lado, con 4 conos de eslalon hacia el área (propuesta).",
+ "juego": "Salen a la vez. El tirador chuta de media distancia y pasa a defender al otro, que hace el eslalon conduciendo y termina en 1v1 hacia portería. Luego cambian de fila.",
+ "punto": "Gol de tiro, 1; gol en el 1v1, 2 (propuesta).",
+ "consigna": "Tras tirar, defiende ya: no mires si entra.",
+ "variantes": {
+  "facil": "Eslalon de 3 conos más abierto (propuesta).",
+  "dificil": "Zona de progresión antes del 1v1 y más conos (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: tiro a 14 m y portería de F7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Iraola)",
+  "titulo_original": "IRAOLA,DUELOS 1X1",
+  "ref": "toplidercoach.com/iraoladuelos-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de filas y conos, distancias y puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    26,
+    24
+   ],
+   [
+    24.5,
+    20.5
+   ],
+   [
+    26,
+    17
+   ],
+   [
+    24.5,
+    13.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 21,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 24.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 26.5,
+    "y": 28,
+    "f": -100,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 29.5,
+    "f": -100,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     21
+    ],
+    "b": [
+     14.5,
+     0.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     21
+    ],
+    "b": [
+     20.5,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     26.5,
+     28
+    ],
+    "b": [
+     24.5,
+     10
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    14,
+    27.4,
+    "TIRADORES",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "id": "TLC-0062",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v0, 2v1 y 2v2 seguidos",
+ "formato": "1v0 → 2v1 → 2v2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + PT",
+ "espacio": "40 × 33 m (doble área)",
+ "duracion": "15 min",
+ "series": "3 series de 4 min; cambia el perfil de inicio (fuente).",
+ "objetivo": "Encadenar finalización, superioridad e igualdad sin pausas, decidiendo con fatiga real.",
+ "montaje": "Doble área con portería y portero. Un jugador en el pico izquierdo del área, dos compañeros en el centro y un rival al fondo, a la derecha.",
+ "juego": "1) Un central filtra al del pico, que remata solo. 2) Los dos centrales atacan 2v1 contra el que remató. 3) Después, el del fondo sale conduciendo y, con el rematador, ataca 2v2 a los centrales.",
+ "punto": "Gol en cada fase, 1 punto (propuesta).",
+ "consigna": "Acaba una acción y ya estás en la siguiente.",
+ "variantes": {
+  "facil": "Solo 1v0 y 2v1 (propuesta).",
+  "dificil": "Tiempo máximo por fase y contraataque si roba el defensor (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 30 × 25 m y portería de F7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Arne Slot)",
+  "titulo_original": "ARNE SLOT DUELOS",
+  "ref": "toplidercoach.com/arne-slot-duelos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente no dice quién forma pareja con el del fondo en el 2v2: se propone el rematador; todos atacan la misma portería (propuesta). Puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 35
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     40,
+     16.5
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 3,
+    "y": 15,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 24,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 25,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 31,
+    "f": -135,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     24
+    ],
+    "b": [
+     3,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     15
+    ],
+    "b": [
+     17.5,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     25
+    ],
+    "b": [
+     26,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     37,
+     31
+    ],
+    "b": [
+     31,
+     22
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 4,
+    "n": 4
+   }
+  ]
+ }
+}

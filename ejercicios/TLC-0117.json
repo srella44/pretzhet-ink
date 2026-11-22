@@ -1,0 +1,157 @@
+{
+ "id": "TLC-0117",
+ "bloque": "Técnica y duelos",
+ "titulo": "De 1v0 a 4v4",
+ "formato": "1v0 → 4v4 + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + PT",
+ "espacio": "40 × 30 m (doble área)",
+ "duracion": "18 min",
+ "series": "4 series completas: todos pasan por el 1v0 (fuente).",
+ "objetivo": "Resolver duelos al instante y adaptarse a cada jugador que entra, de 1v0 hasta 4v4.",
+ "montaje": "Doble área con portería y portero. Dos equipos de 4 o 5, cada uno en una esquina del fondo contrario a la portería (propuesta).",
+ "juego": "Un amarillo ataca solo al portero. Al momento entra un azul: 1v1. Se suma un jugador cada vez, alternando, hasta el 4v4. El que tiene el balón ataca la portería; quien roba, marca saliendo conduciendo por el fondo (propuesta).",
+ "punto": "Gol o salida conduciendo tras robo, 1 punto (propuesta).",
+ "consigna": "Cada uno que entra cambia el juego: léelo rápido.",
+ "variantes": {
+  "facil": "Hasta 3v3 (propuesta).",
+  "dificil": "Dos atacantes seguidos antes de sumar defensor (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 30 × 25 m y hasta 3v3 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Imanol Alguacil)",
+  "titulo_original": "IMANOL ALGUACIL DUELOS PROGRESIVOS",
+  "ref": "toplidercoach.com/imanol-alguacil-duelos-progresivos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de los equipos y la regla de robo (salida conduciendo por el fondo) son propuesta. Se dibuja el 2v2.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 43.5,
+   "ymin": -2,
+   "ymax": 32.5
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 14,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 16,
+    "f": -110
+   },
+   {
+    "r": "D",
+    "x": 20.5,
+    "y": 7.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 41.6,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 41.6,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     41.6,
+     24
+    ],
+    "b": [
+     31,
+     19.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     14
+    ],
+    "b": [
+     25,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     16
+    ],
+    "b": [
+     21.5,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    20,
+    28,
+    "1v0 → 1v1 → 2v2 → 3v3 → 4v4",
+    "middle"
+   ]
+  ]
+ }
+}

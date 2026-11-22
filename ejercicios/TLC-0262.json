@@ -1,0 +1,150 @@
+{
+ "id": "TLC-0262",
+ "bloque": "Calentamiento",
+ "titulo": "Cuadrado con pivote central",
+ "formato": "5 + 1",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "3 series de 3 min; cambia el pivote en cada serie (propuesta).",
+ "objetivo": "Activar pase y recepción con buen perfil, cambiando la dirección del juego por dentro.",
+ "montaje": "Cuadrado de 15 × 15 m. Un jugador en cada lado (dos en uno de ellos) y un pivote en el centro.",
+ "juego": "Los de fuera se mueven por su lado para dar línea de pase. El balón alterna fuera y dentro: el pivote recibe, se perfila y juega a un lado distinto del que le pasó. A la señal, cambia el sentido.",
+ "punto": "Sin puntuación (propuesta).",
+ "consigna": "Perfílate antes de recibir: mira dónde va el siguiente pase.",
+ "variantes": {
+  "facil": "Dos toques para todos (propuesta).",
+  "dificil": "Doble pivote en el centro y máximo dos toques (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 12 × 12 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Luis de la Fuente)",
+  "titulo_original": "LUIS DE LA FUENTE, ACTIVACIÓN PASES",
+  "ref": "toplidercoach.com/luis-de-la-fuente-activacion-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas (15 × 15 m en vez de 20 × 20 m de la ficha), reparto de jugadores y series (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    7.5,
+    7.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": -0.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15.8,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 15.8,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 15.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 9.6,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.5,
+     15.8
+    ],
+    "b": [
+     7.5,
+     9.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     7.5,
+     9.6
+    ],
+    "b": [
+     -0.8,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     15.8,
+     6
+    ],
+    "b": [
+     15.8,
+     2.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ]
+ }
+}

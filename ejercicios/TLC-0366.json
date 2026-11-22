@@ -1,0 +1,227 @@
+{
+ "id": "TLC-0366",
+ "bloque": "Calentamiento",
+ "titulo": "Circuito y dos balones fuera",
+ "formato": "Circuito + pases",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 2:30; rotan dentro y fuera (fuente).",
+ "objetivo": "Activación física, técnica y de atención a la vez: aparatos dentro y pases fuera.",
+ "montaje": "Cuadrado de 20 × 20 m. Dentro, escalera, vallas bajas, aros y conos. Fuera, por el borde, seis jugadores con dos balones; cinco dentro (propuesta).",
+ "juego": "Los de dentro hacen agilidad y coordinación en los aparatos sin parar. Los de fuera se pasan los dos balones con control y pase. A la señal, cambio de sentido o de balón. Cada serie, rotan.",
+ "punto": "Sin puntuación (propuesta).",
+ "consigna": "Mira antes de recibir: hay dos balones.",
+ "variantes": {
+  "facil": "Un solo balón fuera (propuesta).",
+  "dificil": "Pase a un toque y cambio de sentido por señal visual (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Benjamín: menos aparatos y un balón (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Guardiola)",
+  "titulo_original": "GUARDIOLA ACTIVACIÓN",
+  "ref": "toplidercoach.com/guardiola-activacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Reparto 5 dentro y 6 fuera, colocación de los aparatos y series (propuesta). Los aros se dibujan como discos y la escalera como zona rayada.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 22.6,
+   "ymin": -2.6,
+   "ymax": 22.6
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     3.5,
+     12,
+     8.5,
+     14.5
+    ]
+   }
+  ],
+  "cones": [
+   [
+    5,
+    5
+   ],
+   [
+    8,
+    5
+   ],
+   [
+    11,
+    5
+   ]
+  ],
+  "discs": [
+   [
+    12.5,
+    13
+   ],
+   [
+    14.8,
+    13
+   ],
+   [
+    17.1,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 2.6,
+    "y": 7.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9.8,
+    "y": 16.8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 9.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": -1.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 21.2,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.2,
+    "y": 16,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.2,
+     4
+    ],
+    "b": [
+     10,
+     -1.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     -1.2
+    ],
+    "b": [
+     21.2,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     21.2,
+     16
+    ],
+    "b": [
+     10,
+     21.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     21.2
+    ],
+    "b": [
+     -1.2,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6,
+    11.2,
+    "ESCALERA",
+    "middle"
+   ],
+   [
+    14.8,
+    11.2,
+    "AROS",
+    "middle"
+   ]
+  ]
+ }
+}

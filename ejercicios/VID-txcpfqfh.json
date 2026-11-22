@@ -1,0 +1,167 @@
+{
+ "id": "VID-txcpfqfh",
+ "bloque": "Técnica y duelos",
+ "titulo": "Combinación con apoyo",
+ "formato": "Circuito 6–7 jug.",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–7 jug.",
+ "espacio": "20 × 22 m",
+ "duracion": "12 min",
+ "series": "3 series de 3 min, cambiando de sentido (propuesta).",
+ "objetivo": "Encadenar pase, descarga y pase largo con buenos perfiles, y terminar con finalización.",
+ "montaje": "20 × 22 m con miniportería en un fondo. Dos picas y dos discos en el centro. Dos salidores con balón junto a la miniportería, un apoyo entre las picas y un jugador en cada esquina del fondo contrario.",
+ "juego": "El salidor pasa al apoyo, que descarga al segundo; este juega largo a la esquina. El de la esquina conduce hacia abajo y finaliza en la miniportería. Todos avanzan un puesto.",
+ "punto": "Gol, 1 punto; 10 en una serie, reto superado (propuesta).",
+ "consigna": "Perfílate antes de recibir y pasa al pie bueno.",
+ "variantes": {
+  "facil": "Sin finalización: el de la esquina devuelve al salidor (propuesta).",
+  "dificil": "Todo a un toque menos la conducción (propuesta)."
+ },
+ "adaptacion": "Alevín: 16 × 18 m y pase largo raso (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Roberto De Zerbi · Tottenham combination setup",
+  "ref": "Instagram · reel txcpfqfh (keepitonthedeck)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La secuencia exacta no se lee en el vídeo: orden de pases, rotación y puntuación deducidos de las posiciones (propuesta). Nombre del club solo en la fuente.",
+ "diagrama": {
+  "field": [
+   20,
+   22
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 24
+  },
+  "porterias": [
+   {
+    "x": 13,
+    "y": 22,
+    "lado": "B",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    7.7,
+    9
+   ],
+   [
+    14.2,
+    9
+   ]
+  ],
+  "discs": [
+   [
+    7.7,
+    11.5
+   ],
+   [
+    14.2,
+    11.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 16,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20.5,
+    "f": -60,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     20.5
+    ],
+    "b": [
+     11,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     14
+    ],
+    "b": [
+     2.5,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     2.5,
+     16
+    ],
+    "b": [
+     16.5,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     16.5,
+     3
+    ],
+    "b": [
+     17,
+     18.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 4
+   }
+  ]
+ }
+}

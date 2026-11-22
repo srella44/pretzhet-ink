@@ -1,0 +1,182 @@
+{
+ "id": "TLC-0152",
+ "bloque": "Calentamiento",
+ "titulo": "Conducción, giro y tiro",
+ "formato": "4 filas",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min, una por tipo de conducción (propuesta).",
+ "objetivo": "Activar con balón: conducción con distintas superficies, giro y finalización.",
+ "montaje": "Cuadrado de 20 × 20 m con una miniportería junto a cada esquina. Dentro, un cuadrado de 10 × 10 m con 4 picas. Una fila en cada esquina, todos con balón.",
+ "juego": "A la señal sale uno de cada fila hasta su pica, la rodea y tira en la miniportería de su esquina. Recoge y vuelve a la fila. Cada serie, otra conducción: interior, exterior, planta o cambio de ritmo.",
+ "punto": "Por filas: la primera en 10 goles (variante de la fuente).",
+ "consigna": "Sal del giro ya mirando a portería.",
+ "variantes": {
+  "facil": "Sin tiro: conducción y pase a la fila (propuesta).",
+  "dificil": "Finta antes del giro y tiro con la pierna mala (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Se propone 12–13; vale también para 8–11 con picas a 4 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Xabi Alonso)",
+  "titulo_original": "XABI ALONSO ACTIVACIÓN CON BALÓN",
+  "ref": "toplidercoach.com/xabi-alonso-activacion-con-balon-2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Series, puntuación por filas y edad (propuesta). Medidas del texto (20 × 20 m), no de la ficha técnica (40 × 40 m). Diagrama dibujado de cero.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 23.2,
+   "ymin": -3.2,
+   "ymax": 23.2
+  },
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    20,
+    8,
+    "R"
+   ],
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    20,
+    12,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    5,
+    5
+   ],
+   [
+    15,
+    5
+   ],
+   [
+    5,
+    15
+   ],
+   [
+    15,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": -1.2,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21.2,
+    "y": -1.2,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21.2,
+    "y": 21.2,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 21.2,
+    "f": -45,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.2,
+     -1.2
+    ],
+    "b": [
+     4.2,
+     4.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     4.4,
+     6.3
+    ],
+    "b": [
+     0.6,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 3,
+    "n": 2
+   },
+   {
+    "a": [
+     21.2,
+     21.2
+    ],
+    "b": [
+     15.8,
+     15.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     15.6,
+     13.7
+    ],
+    "b": [
+     19.4,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 3,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    10.6,
+    "PICAS",
+    "middle"
+   ]
+  ]
+ }
+}

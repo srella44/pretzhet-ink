@@ -1,0 +1,149 @@
+{
+ "id": "TLC-0276",
+ "bloque": "Calentamiento",
+ "titulo": "Pases encadenados al portero",
+ "formato": "2 filas + PT",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8 jug. + PT",
+ "espacio": "30 × 20 m",
+ "duracion": "10 min",
+ "series": "3 series de 3 min, cambiando el perfil (propuesta).",
+ "objetivo": "Activar pase y control en movimiento e integrar al portero con el pie.",
+ "montaje": "Dos filas separadas unos 10 m, frente a una portería con portero a unos 25 m.",
+ "juego": "Salen a la vez los primeros de cada fila y avanzan pasándose el balón hacia la portería. El último pase va al portero, que devuelve con el pie a la fila contraria. En cada repetición se cambia de perfil.",
+ "punto": "Sin puntuación (propuesta).",
+ "consigna": "Pasa y muévete: nunca te quedes parado.",
+ "variantes": {
+  "facil": "Tres pases fijos antes del portero (propuesta).",
+  "dificil": "Pared y pase largo al portero (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: filas a 8 m y portero a 18 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Ancelotti)",
+  "titulo_original": "ANCELOTTI, ACTIVACIÓN CON BALÓN",
+  "ref": "toplidercoach.com/ancelotti-activacion-con-balon/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La ficha habla de 2 porteros: se dibuja uno; el segundo puede ir en otra portería en el lado opuesto (propuesta). Distancias y series (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0,
+    "ball": true,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     5
+    ],
+    "b": [
+     9,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     16,
+     6.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     6.5
+    ],
+    "b": [
+     28.5,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     28.5,
+     11
+    ],
+    "b": [
+     1.5,
+     16.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 4,
+    "nt": 0.2
+   }
+  ]
+ }
+}

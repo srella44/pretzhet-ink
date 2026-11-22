@@ -1,0 +1,154 @@
+{
+ "id": "TLC-0095",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rodea la pica y a por él",
+ "formato": "1v1 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. + PT",
+ "espacio": "24 × 25 m",
+ "duracion": "12 min",
+ "series": "Cada jugador hace 6 salidas (propuesta).",
+ "objetivo": "Reaccionar rápido, ganar el balón en carrera y resolver el 1v1 hasta finalizar.",
+ "montaje": "Frente a una portería con portero, a unos 22 m, una pica. Un jugador de cada equipo a cada lado de la pica. Balón parado 8 m por delante, hacia la portería (propuesta).",
+ "juego": "A la señal, los dos rodean la pica y corren a por el balón. Quien llega primero ataca la portería; el otro defiende 1v1. Prohibido lanzarse al suelo.",
+ "punto": "Gol, 1 punto para su equipo (propuesta).",
+ "consigna": "Sal fuerte y decide: protege, regatea o tira.",
+ "variantes": {
+  "facil": "El defensor rodea dos picas (propuesta).",
+  "dificil": "El entrenador pasa el balón en vez de estar parado (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 18 × 20 m y portería de F7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Maresca)",
+  "titulo_original": "MARESCA,VELOCIDAD Y DUELO 1X1",
+  "ref": "toplidercoach.com/marescavelocidad-y-duelo-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias y puntuación (propuesta); la fuente habla de doble área sin medidas del recorrido.",
+ "diagrama": {
+  "field": [
+   24,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -2,
+   "ymax": 27.5
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    12,
+    22
+   ]
+  ],
+  "balls": [
+   [
+    12,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 7.5,
+    "f": -100,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.5,
+     22
+    ],
+    "b": [
+     10.8,
+     15
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 9,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     15.5,
+     22
+    ],
+    "b": [
+     13.2,
+     15
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     13.5
+    ],
+    "b": [
+     15,
+     7.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     7.5
+    ],
+    "b": [
+     12.5,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12,
+    25.6,
+    "RODEAN LA PICA",
+    "middle"
+   ]
+  ]
+ }
+}

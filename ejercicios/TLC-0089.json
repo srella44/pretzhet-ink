@@ -1,0 +1,199 @@
+{
+ "id": "TLC-0089",
+ "bloque": "Técnica y duelos",
+ "titulo": "Duelos en cadena",
+ "formato": "1v0 → 2v1 → 3v3",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "6–10 jug. + 2 PT",
+ "espacio": "40 × 33 m (doble área)",
+ "duracion": "15 min",
+ "series": "4 series; rotan tras cada secuencia (fuente).",
+ "objetivo": "Decidir rápido en igualdad, superioridad e inferioridad y cambiar de ataque a defensa sin pausa.",
+ "montaje": "Doble área con portería y portero en cada fondo. Cada equipo en fila en un lateral; el entrenador, con balones, en un lateral (propuesta).",
+ "juego": "Empieza un remate sin oposición. Sin pausa, el entrenador mete otro balón y se encadenan 2v1, 2v2, 3v2 y 3v3: en cada balón entra uno nuevo, alternando equipos. Luego rotan.",
+ "punto": "Gol, 1 punto; gana quien más marque (propuesta).",
+ "consigna": "¿Finalizo, espero o me asocio? Decide ya.",
+ "variantes": {
+  "facil": "Secuencia corta: 1v0, 2v1 y 2v2 (propuesta).",
+  "dificil": "Empezar en inferioridad (2v3) y tiempo límite (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 30 × 25 m y secuencia hasta 2v2 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Simeone)",
+  "titulo_original": "SIMEONE, DUELOS PROGRESIVOS",
+  "ref": "toplidercoach.com/simeone-duelos-progresivos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de filas y entrenador, orden alterno de entrada y puntuación (propuesta). Se dibuja el 2v1.",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 43.5,
+   "ymin": -2,
+   "ymax": 35
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 20,
+    "y": 33,
+    "lado": "B",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     40,
+     16.5
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": -60,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 15,
+    "f": -120
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 11,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 41.6,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 41.6,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 22,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     18.5,
+     0.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     27,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     15
+    ],
+    "b": [
+     22,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     41.6,
+     18
+    ],
+    "b": [
+     32,
+     19
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    -1.6,
+    24.6,
+    "ENTR.",
+    "middle"
+   ]
+  ]
+ }
+}

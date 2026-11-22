@@ -1,0 +1,152 @@
+{
+ "id": "TLC-0283",
+ "bloque": "Calentamiento",
+ "titulo": "Filas y dos enganches",
+ "formato": "4 filas + 2 enganches",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "12–18 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "3 series de 3 min; cambian los enganches (propuesta).",
+ "objetivo": "Activar con pases y carreras de distinta intensidad, cambiando la dirección del juego por un apoyo central.",
+ "montaje": "Cuadrado de 30 × 30 m con una fila en el centro de cada lado. Dos grupos: uno en las filas de izquierda y derecha, otro arriba y abajo. Dos enganches en el centro.",
+ "juego": "La fila pasa a un enganche, que cambia el perfil y juega a la fila de al lado. Quien pasa corre a la fila siguiente: suave, progresivo o con aceleración. Siempre por un enganche.",
+ "punto": "Sin puntuación (propuesta).",
+ "consigna": "El enganche recibe ya perfilado hacia el siguiente.",
+ "variantes": {
+  "facil": "Un solo balón y un solo enganche (propuesta).",
+  "dificil": "Pared con el enganche y segundo balón (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Para 10–11 años, 20 × 20 m y carrera suave (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Pochettino)",
+  "titulo_original": "POCHETINO ACTIVACIÓN CON BALÓN",
+  "ref": "toplidercoach.com/pochetino-activacion-con-balon/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas (30 × 30 m en vez de 40 × 40 m), reparto de filas y series (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -4.2,
+   "xmax": 34.2,
+   "ymin": -4.2,
+   "ymax": 34.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -3.4,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31.2,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33.4,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": -1.2,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": -3.4,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 31.2,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 33.4,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.2,
+     15
+    ],
+    "b": [
+     11,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     13
+    ],
+    "b": [
+     15,
+     -1.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     0,
+     13.4
+    ],
+    "b": [
+     12.5,
+     0.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

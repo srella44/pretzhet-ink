@@ -1,0 +1,135 @@
+{
+ "id": "TLC-0204",
+ "bloque": "Calentamiento",
+ "titulo": "Pases y activación en filas",
+ "formato": "2 filas",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–10 jug.",
+ "espacio": "20 × 10 m",
+ "duracion": "10 min",
+ "series": "3 series de 3 min, cambiando la activación (propuesta).",
+ "objetivo": "Entrar en calor con pases sencillos y movilidad, sin carga alta.",
+ "montaje": "Dos filas enfrentadas a 15 m (propuesta). Una pica junto a cada fila, a un lado.",
+ "juego": "Secuencia de pases entre filas: pase, devolución y pase final (propuesta). Tras el último pase, el jugador rodea la pica y va a la otra fila haciendo activación: skipping, saltos suaves, laterales o movilidad.",
+ "punto": "Sin puntuación. Ritmo de menos a más.",
+ "consigna": "Pase de calidad aunque sea calentamiento.",
+ "variantes": {
+  "facil": "Solo pase y control, sin activación (propuesta).",
+  "dificil": "Dos balones y pase a un toque (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Vale para cualquier edad bajando la distancia a 10 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Kompany)",
+  "titulo_original": "KOMPANY, ACTIVACIÓN CON BALÓN",
+  "ref": "toplidercoach.com/kompany-activacion-con-balon/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente no fija la secuencia ni la distancia: pase-devolución-pase, 15 m y series (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   10
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 22.6,
+   "ymin": -1,
+   "ymax": 11
+  },
+  "cones": [
+   [
+    5,
+    2
+   ],
+   [
+    15,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.3,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19.7,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     5
+    ],
+    "b": [
+     17.5,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     4.2
+    ],
+    "b": [
+     5,
+     2.7
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     6,
+     2
+    ],
+    "b": [
+     17,
+     2.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    11,
+    1.2,
+    "SKIPPING · SALTOS",
+    "middle"
+   ]
+  ]
+ }
+}

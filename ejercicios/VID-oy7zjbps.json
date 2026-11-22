@@ -1,0 +1,155 @@
+{
+ "id": "VID-oy7zjbps",
+ "bloque": "Calentamiento",
+ "titulo": "Pasa y muévete en cuadrado",
+ "formato": "5 jug.",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "5 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "4 variantes de 2 min; cambia el sentido a mitad (propuesta).",
+ "objetivo": "Activar pase, control y desplazamiento tras el pase con muchas repeticiones.",
+ "montaje": "Cuadrado de 12 × 12 m con un cono en cada esquina. Un jugador por cono y dos en el de salida, que tiene el balón.",
+ "juego": "Pase al cono siguiente y carrera detrás del balón para ocupar ese cono. V2: pase al jugador del lado contrario. V3: pared antes de avanzar. V4: uno en el centro hace de apoyo.",
+ "punto": "Sin puntuación: 10 vueltas sin fallo y cambio de sentido (propuesta).",
+ "consigna": "Pasa al pie lejano y sigue tu pase.",
+ "variantes": {
+  "facil": "Control y pase con dos toques libres (propuesta).",
+  "dificil": "Un toque y dos balones a la vez (propuesta)."
+ },
+ "adaptacion": "Benjamín: cuadrado de 10 × 10 m y solo la variante 1 y 3 (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Pass and move · variation 1–4",
+  "ref": "Instagram · reel oy7zjbps"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Las cuatro variantes se deducen de los fotogramas; medidas, series y reglas (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -4.6,
+   "xmax": 14.4,
+   "ymin": -2.4,
+   "ymax": 14.6
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -3.3,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 6,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1,
+     13
+    ],
+    "b": [
+     13,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     -0.5,
+     14.1
+    ],
+    "b": [
+     11.5,
+     14.1
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     13
+    ],
+    "b": [
+     13,
+     -1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6,
+    7.9,
+    "V4: APOYO",
+    "middle"
+   ]
+  ]
+ }
+}

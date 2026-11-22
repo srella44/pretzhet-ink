@@ -1,0 +1,192 @@
+{
+ "id": "VID-0tw6d5i6",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 con carriles de conos",
+ "formato": "1v1 + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–14 jug. + 2 PT",
+ "espacio": "35 × 25 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min; cambia el lado de salida (propuesta).",
+ "objetivo": "Conducir con control en eslalon y resolver un 1v1 hacia portería con el rival llegando de frente.",
+ "montaje": "35 × 25 m con portería y portero en cada fondo. Dos filas de conos a lo largo: carril rojo y carril azul. Rojos con balón en una esquina; azules en la esquina opuesta.",
+ "juego": "Sale un rojo en eslalon por su carril; a la vez sale un azul a defender. Al salir del carril, 1v1 hacia la portería de enfrente. Después, al revés: azul por su carril.",
+ "punto": "Gol, 1 punto. Robo y gol en la otra portería, 2 (propuesta).",
+ "consigna": "Sal del eslalon con la cabeza arriba.",
+ "variantes": {
+  "facil": "El defensor sale cuando el atacante llega al último cono (propuesta).",
+  "dificil": "Máximo 6 segundos tras salir del carril (propuesta)."
+ },
+ "adaptacion": "Benjamín: carril de 3 conos y porterías pequeñas sin portero (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "1 v 1 games",
+  "ref": "Instagram · reel 0tw6d5i6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Solo hay rótulo «1 v 1 games»: la dinámica, las medidas y la puntuación se deducen del movimiento (propuesta). Campo dibujado en horizontal.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 38.5,
+   "ymin": -2.5,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 35,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    11,
+    17
+   ],
+   [
+    14,
+    17
+   ],
+   [
+    17,
+    17
+   ],
+   [
+    20,
+    17
+   ],
+   [
+    23,
+    17
+   ]
+  ],
+  "discs": [
+   [
+    11,
+    8
+   ],
+   [
+    14,
+    8
+   ],
+   [
+    17,
+    8
+   ],
+   [
+    20,
+    8
+   ],
+   [
+    23,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 23.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34.5,
+    "y": 1,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     17
+    ],
+    "b": [
+     25.5,
+     17
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     31,
+     2.5
+    ],
+    "b": [
+     28.5,
+     12
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 9,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     26.5,
+     16.5
+    ],
+    "b": [
+     34.3,
+     13.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    17,
+    6.0,
+    "CARRIL AZUL",
+    "middle"
+   ],
+   [
+    17,
+    21.6,
+    "CARRIL ROJO",
+    "middle"
+   ]
+  ]
+ }
+}
