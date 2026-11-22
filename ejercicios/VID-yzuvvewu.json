@@ -1,0 +1,167 @@
+{
+ "id": "VID-yzuvvewu",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Salida bajo presión y centro",
+ "formato": "3v3 + PT",
+ "edad": "14–15 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug. + PT + 2 extremos",
+ "espacio": "24 × 24 m",
+ "duracion": "12 min",
+ "series": "3 series de 2 min, 3 balones listos.",
+ "objetivo": "Salir jugando con ángulos de apoyo bajo presión y atacar el centro con intención.",
+ "montaje": "Campo de 24 × 24 m: portería con portero arriba y dos minimetas abajo. Dos centrales y un pivote azules contra tres rojos. Dos extremos fuera con balón.",
+ "juego": "Los azules sacan y marcan en las minimetas o buscan al pivote para marcar. Dos rojos presionan y uno marca al pivote; si roban, atacan la portería. Luego, centro desde banda a un 3 contra 3.",
+ "punto": "Gol, 1 punto. Gol tras robo, 2 puntos (propuesta).",
+ "consigna": "Calma bajo presión: busca al pivote.",
+ "variantes": {
+  "facil": "Sin presión del tercer rojo (propuesta).",
+  "dificil": "Solo dos toques en la salida (propuesta)."
+ },
+ "adaptacion": "Infantil: 22 × 22 m (propuesta).",
+ "fuente": {
+  "autor": "Academia (hoja de sesión vista en un reel de Keep It On The Deck)",
+  "titulo_original": "Manchester City Academy · salida desde atrás bajo presión y defensa de situaciones de ataque",
+  "ref": "Instagram · reel yzuvvewu"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Hoja de sesión Sub-15 con 9 jugadores; medidas pasadas de yardas a metros; puntos y series (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   24
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 27,
+   "ymin": -4,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    5,
+    23.5
+   ],
+   [
+    19,
+    23.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 2.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 25.5,
+    "y": 17,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     2.5
+    ],
+    "b": [
+     7,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     7,
+     6
+    ],
+    "b": [
+     11,
+     19
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     -1.5,
+     17
+    ],
+    "b": [
+     4,
+     11
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   }
+  ]
+ }
+}

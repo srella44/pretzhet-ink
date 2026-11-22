@@ -1,0 +1,199 @@
+{
+ "id": "VID-ecvyevq3",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión con zonas de fondo",
+ "formato": "4v4 + 4",
+ "edad": "13–14 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "26 × 20 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 min.",
+ "objetivo": "Mantener el balón bajo presión y llevarlo de una zona de fondo a la otra, jugando hacia delante.",
+ "montaje": "Campo de 26 × 20 m con una zona de fondo de 3 m en cada extremo. Dos equipos de seis: cuatro juegan en el centro y dos esperan en los fondos, uno de cada equipo en cada fondo.",
+ "juego": "Se juega 4 contra 4 en el centro. Se marca llevando el balón de un fondo al otro con un pase a un compañero en la zona. Al perder el balón, se presiona ya.",
+ "punto": "Cada pase a un fondo, 1 punto (propuesta).",
+ "consigna": "Recibe con el pie lejano y mira.",
+ "variantes": {
+  "facil": "Sin posición fija en el fondo (propuesta).",
+  "dificil": "Dos toques en el centro (propuesta)."
+ },
+ "adaptacion": "Benjamín: 3 contra 3 + 2 en 16 × 20 m (propuesta).",
+ "fuente": {
+  "autor": "Academia (hoja de sesión vista en un reel de Keep It On The Deck)",
+  "titulo_original": "Ajax Academy · posesión 6v4 de ritmo alto",
+  "ref": "Instagram · reel ecvyevq3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Hoja de sesión Sub-14 con 12 jugadores; medidas de yardas a metros; el rótulo dice 6v4 pero el esquema es 4 contra 4 en el centro y puntos propuestos.",
+ "diagrama": {
+  "field": [
+   26,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 28,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "lines": [
+   [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     23,
+     0
+    ],
+    [
+     23,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     3,
+     10
+    ],
+    [
+     23,
+     10
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 1.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24.5,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24.5,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     5
+    ],
+    "b": [
+     11,
+     15
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     11,
+     15
+    ],
+    "b": [
+     17,
+     14
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     17,
+     14
+    ],
+    "b": [
+     24.5,
+     15
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   }
+  ]
+ }
+}

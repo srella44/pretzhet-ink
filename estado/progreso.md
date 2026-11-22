@@ -46,3 +46,8 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 - Vistos todos con fotogramas. 6 fichas nuevas (solo app): VID-hyfc4epy, VID-78fefrn9, VID-l0z4ohus, VID-jnalswy2, VID-pn7gxduh, VID-vwc54zte. Reglas, edad, puntos y series (propuesta), deducidos de los rótulos y del movimiento.
 - Descartados por no ser ejercicio de fútbol base: análisis de partidos, 11v11, sesiones profesionales con muchos jugadores, método NECO.
 - Pendientes de hacer ficha (vistos): n67nu5fp (1-2 combinaciones), oy7zjbps (pasa y muévete), wgnin6de (triángulo), 0tw6d5i6 (1v1 con carriles), ecvyevq3 (Ajax 6v6), txcpfqfh y n80x6nk5 (Tottenham), qo4fan61 (Crystal Palace), ut6s1b0g, n3u00qgm, z9i2xzg0.
+
+## 2026-11-22 · Vídeos de Sergio, segunda parte
+- Fichas nuevas: VID-yzuvvewu (Man City U15, salida bajo presión) y VID-ecvyevq3 (Ajax U14, posesión con zonas de fondo), con la hoja de sesión legible. Total de fichas VID: 8.
+- Los 34 vídeos están registrados en la base: 8 con ficha, 10 en la cola (fase 2), 11 en la cola (fase 4, formatos grandes o poco claros) y 4 descartados por ser análisis (VID-x32jmplu, 1ybkm34v, 63ahccqs, z9i2xzg0). Dos más ya estaban como IG-Df0Vfw0IITW (Barcelona 4v4+1) e IG-Df2YLSNI3Tm (Bolton).
+- Fotogramas de cada vídeo en fuentes/videos/.
