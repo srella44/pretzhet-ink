@@ -1,0 +1,144 @@
+{
+ "id": "IG-DgDDtYeosph",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Dos zonas pequeñas 2v2+1",
+ "formato": "4v4 + 3",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "26 × 8 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Decidir rápido en espacios muy cortos y usar al jugador libre entre zonas.",
+ "montaje": "Dos zonas de 13 × 8 m seguidas. En cada una juegan 2 contra 2 con un jugador neutro, y otro neutro se mueve libre entre las dos.",
+ "juego": "Cada equipo conserva el balón en su zona. Para cambiar de zona hay que pasar por el neutro libre, que juega a dos toques. Quien pierde el balón defiende ya.",
+ "punto": "Pasar de zona con éxito, 1 punto (propuesta).",
+ "consigna": "Mira dónde está el libre antes de recibir.",
+ "variantes": {
+  "facil": "El neutro libre juega a tres toques (propuesta).",
+  "dificil": "Dos toques para todos (propuesta)."
+ },
+ "adaptacion": "Benjamín: zonas de 15 × 10 m (propuesta).",
+ "fuente": {
+  "autor": "@keepitonthedeck",
+  "titulo_original": "Roberto De Zerbi · pequeños espacios, más decisiones",
+  "ref": "Instagram · reel DgDDtYeosph"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta); medidas pasadas de yardas a metros.",
+ "diagrama": {
+  "field": [
+   26,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 28,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "lines": [
+   [
+    [
+     13,
+     0
+    ],
+    [
+     13,
+     8
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     2
+    ],
+    "b": [
+     13,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     13,
+     4
+    ],
+    "b": [
+     18,
+     6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "id": "IG-DX66nIhixbR",
+ "bloque": "Finalización",
+ "titulo": "5v5 + 2: remate de primera",
+ "formato": "5v5 + 2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "4 series de 4 min (propuesta).",
+ "objetivo": "Circular con paciencia y rematar de primera con el momento justo.",
+ "montaje": "30 × 25 m con una portería con portero en cada fondo. Cinco contra cinco y dos neutros abiertos y adelantados.",
+ "juego": "Antes de atacar hay que dar cinco pases. Luego se busca al neutro cerca de la portería rival y se remata de primera, sin controlar. Si el equipo pierde el balón, pasa a defender.",
+ "punto": "Gol de primera, 2 puntos. Gol con control, 1 punto (propuesta).",
+ "consigna": "Cinco pases, neutro y remate sin controlar.",
+ "variantes": {
+  "facil": "Tres pases antes de atacar (propuesta).",
+  "dificil": "Máximo dos toques fuera de los neutros (propuesta)."
+ },
+ "adaptacion": "Alevín: 4 contra 4 + 2 en 25 × 20 m (propuesta).",
+ "fuente": {
+  "autor": "@coach_3h",
+  "titulo_original": "5v5 + 2 Neutrals – One Touch Finish",
+  "ref": "Instagram · reel DX66nIhixbR"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Puntos y series (propuesta); el diagrama muestra 4 contra 4 para que se vea.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -3,
+   "ymax": 28
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     12.5
+    ],
+    "b": [
+     16,
+     12.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     16,
+     12.5
+    ],
+    "b": [
+     25,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     25,
+     3
+    ],
+    "b": [
+     23,
+     13
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   }
+  ]
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "IG-DVJDXOWgkYI",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Oleadas 2v1 y 3v2 en el área",
+ "formato": "1v1 · 2v1 · 3v2",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "7–9 jug. + PT",
+ "espacio": "18 × 16 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Rematar rápido tras una combinación corta y pasar de atacar a defender y otra vez a atacar.",
+ "montaje": "Ancho del área, 18 m, con portería y portero. El entrenador, con los balones, a un lado. Atacantes y defensores en filas.",
+ "juego": "Se remata tras una combinación corta. Detrás sale un 2 contra 1 de contraataque y luego una segunda oleada de 3 contra 2. Los defensores pasan a atacar en la oleada siguiente.",
+ "punto": "Gol, 1 punto. Si el defensor despeja, 1 punto para los defensores (propuesta).",
+ "consigna": "Define rápido y vuelve a defender.",
+ "variantes": {
+  "facil": "Un segundo defensor sale con retraso (propuesta).",
+  "dificil": "Máximo dos toques por jugador (propuesta)."
+ },
+ "adaptacion": "Benjamín: solo hasta el 2 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "@coach_3h",
+  "titulo_original": "Transition Wave Game (1vGK 2v1 3v2)",
+  "ref": "Instagram · reel DVJDXOWgkYI"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta); el pie del reel está cortado y no da todos los detalles de las fases.",
+ "diagrama": {
+  "field": [
+   18,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 20,
+   "ymin": -3.5,
+   "ymax": 18.5
+  },
+  "porterias": [
+   {
+    "x": 18,
+    "y": 8,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": -1.8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     11
+    ],
+    "b": [
+     3,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     3,
+     5
+    ],
+    "b": [
+     12,
+     6
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     12,
+     6
+    ],
+    "b": [
+     17,
+     9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    9,
+    -3.2,
+    "ENTRENADOR CON BALONES",
+    "middle"
+   ]
+  ]
+ }
+}

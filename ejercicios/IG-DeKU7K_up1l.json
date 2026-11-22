@@ -1,0 +1,145 @@
+{
+ "id": "IG-DeKU7K_up1l",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Del 1v1 al 2v2 con relevo",
+ "formato": "1v1 → 2v2",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug. + PT",
+ "espacio": "30 × 35 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3 min (propuesta).",
+ "objetivo": "Pasar de atacar a defender sin pausa y aprovechar o frenar cada ventaja numérica.",
+ "montaje": "30 × 35 m con portería, portero y dos miniporterías laterales. Jugadores en fila para atacar.",
+ "juego": "El primero conduce y remata sin oposición y pasa a defender. Sale el segundo en 1 contra 1, luego un tercero (2 contra 1) y un cuarto (2 contra 2). Si el defensor roba, contraataca a una miniportería.",
+ "punto": "Gol, 1 punto. Gol tras robo, 2 puntos (propuesta).",
+ "consigna": "Al acabar de atacar, defiende ya.",
+ "variantes": {
+  "facil": "Solo hasta el 2 contra 1 (propuesta).",
+  "dificil": "Máximo tres pases en cada ataque (propuesta)."
+ },
+ "adaptacion": "Benjamín: campo de 25 × 25 m (propuesta).",
+ "fuente": {
+  "autor": "@coachesviewsfootball",
+  "titulo_original": "Practice Breakdown · 30x35m ataque contra defensa",
+  "ref": "Instagram · reel DeKU7K_up1l"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos, series y número de jugadores (propuesta); el diagrama se ha dibujado a partir del pie del reel.",
+ "diagrama": {
+  "field": [
+   30,
+   35
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -3,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    17,
+    "L"
+   ],
+   [
+    30,
+    17,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 27,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 29,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 15,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 18,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     27
+    ],
+    "b": [
+     21,
+     29
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     21,
+     29
+    ],
+    "b": [
+     22,
+     20
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     22,
+     20
+    ],
+    "b": [
+     16,
+     2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    15,
+    36.8,
+    "LOS DEMÁS ESPERAN EN FILA",
+    "middle"
+   ]
+  ]
+ }
+}

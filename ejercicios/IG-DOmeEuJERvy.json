@@ -1,0 +1,133 @@
+{
+ "id": "IG-DOmeEuJERvy",
+ "bloque": "Superioridades",
+ "titulo": "3v1 a máxima intensidad",
+ "formato": "4v2 → 3v1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug. + PT",
+ "espacio": "30 × 25 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Reaccionar rápido y resolver con ventaja tras una posesión.",
+ "montaje": "30 × 25 m con portería y portero. Un 4 contra 2 de posesión en un cuadrado aparte; los jugadores esperan por turnos.",
+ "juego": "Se juega un 4 contra 2 de posesión. A la señal, tres atacantes salen en 3 contra 1 hacia la portería y juegan a máxima intensidad. Si el defensor recupera, contraataca y define.",
+ "punto": "Gol, 1 punto. Gol tras robo, 2 puntos (propuesta).",
+ "consigna": "Rápido: acaba antes de que lleguen.",
+ "variantes": {
+  "facil": "Sin señal: los tres salen cuando quieren (propuesta).",
+  "dificil": "Máximo tres toques en el 3 contra 1 (propuesta)."
+ },
+ "adaptacion": "Benjamín: 3 contra 2 y 2 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "@sergiosalaberrydtfutbol",
+  "titulo_original": "Trabajo inspirado en el Cádiz CF: 4v2 y 3v1",
+  "ref": "Instagram · reel DOmeEuJERvy"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, reglas y puntuación (propuesta); el pie del reel solo da la secuencia.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 12.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     12.5
+    ],
+    "b": [
+     16,
+     12.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     16,
+     12.5
+    ],
+    "b": [
+     24,
+     19
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 10
+   },
+   {
+    "a": [
+     24,
+     19
+    ],
+    "b": [
+     29,
+     13.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    15,
+    26.6,
+    "3V1 A MÁXIMA INTENSIDAD",
+    "middle"
+   ]
+  ]
+ }
+}

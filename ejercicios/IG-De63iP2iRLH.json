@@ -1,0 +1,170 @@
+{
+ "id": "IG-De63iP2iRLH",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "6v2 y 2v1 a cuatro puertas",
+ "formato": "6v2 → 2v1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Conservar bajo presión y aprovechar el momento de ataque en 2 contra 1.",
+ "montaje": "Cuadrado de 16 × 16 m con una miniportería en cada lado. Seis jugadores contra dos defensores dentro. Los otros cuatro, uno en cada puerta, defienden.",
+ "juego": "Los seis completan seis pases seguidos con los dos defensores presionando. Tras el sexto pase, dos jugadores salen a atacar una puerta en 2 contra 1 frente al que la defiende.",
+ "punto": "Gol, 1 punto. Si el defensor roba, 1 punto (propuesta).",
+ "consigna": "Seis pases y el pase de ataque.",
+ "variantes": {
+  "facil": "Cuatro pases antes de salir (propuesta).",
+  "dificil": "Máximo dos toques dentro del cuadrado (propuesta)."
+ },
+ "adaptacion": "Prebenjamín y benjamín: 5 contra 2 en 12 × 12 m (propuesta).",
+ "fuente": {
+  "autor": "@coach_3h",
+  "titulo_original": "POSSESSION TRANSITION 2v1",
+  "ref": "Instagram · reel De63iP2iRLH"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta); el pie está cortado y el final de la secuencia se ha completado.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 19.5,
+   "ymin": -3.5,
+   "ymax": 19.5
+  },
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    16,
+    8,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    6,
+    -1
+   ],
+   [
+    10,
+    -1
+   ],
+   [
+    6,
+    17
+   ],
+   [
+    10,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": -1.8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17.8,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     13,
+     3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13,
+     3
+    ],
+    "b": [
+     13,
+     13
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13,
+     13
+    ],
+    "b": [
+     17,
+     9
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   }
+  ]
+ }
+}

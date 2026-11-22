@@ -1,0 +1,170 @@
+{
+ "id": "IG-DY4b1wCC_dd",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4 con comodines y 4 puertas",
+ "formato": "4v4 + 2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "22 × 22 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Combinar con los comodines antes de marcar y pasar a defender al perder el balón.",
+ "montaje": "Cuadrado de 22 × 22 m con una puerta en cada lado. Cuatro contra cuatro dentro y dos comodines fuera. El entrenador alimenta balones.",
+ "juego": "Dentro, dos toques como máximo; los comodines, uno. Solo vale el gol si antes se ha combinado con un comodín. Si se pierde el balón, el equipo cambia a defender de inmediato.",
+ "punto": "Gol por una puerta tras combinar con un comodín, 1 punto.",
+ "consigna": "Combina con el comodín y marca.",
+ "variantes": {
+  "facil": "Tres toques dentro (propuesta).",
+  "dificil": "Dos comodines ocupan los lados contrarios (propuesta)."
+ },
+ "adaptacion": "Benjamín: 3 contra 3 + 2 en 18 × 18 m (propuesta).",
+ "fuente": {
+  "autor": "@coach_3h",
+  "titulo_original": "4v4+2 con cuatro porterías",
+  "ref": "Instagram · reel DY4b1wCC_dd"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas y puntos (propuesta); el pie del reel no da medidas.",
+ "diagrama": {
+  "field": [
+   22,
+   22
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 25,
+   "ymin": -3.5,
+   "ymax": 25.5
+  },
+  "goals": [
+   [
+    0,
+    11,
+    "L"
+   ],
+   [
+    22,
+    11,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    9,
+    -0.3
+   ],
+   [
+    13,
+    -0.3
+   ],
+   [
+    9,
+    22.3
+   ],
+   [
+    13,
+    22.3
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": -2,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 24,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     11,
+     -2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     11,
+     -2
+    ],
+    "b": [
+     16,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     16,
+     12
+    ],
+    "b": [
+     22,
+     11
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   }
+  ]
+ }
+}

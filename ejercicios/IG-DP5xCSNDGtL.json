@@ -1,0 +1,160 @@
+{
+ "id": "IG-DP5xCSNDGtL",
+ "bloque": "Finalización",
+ "titulo": "2v2 con pivote y remate",
+ "formato": "2v2 + pivotes",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–14 jug.",
+ "espacio": "25 × 15 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min (propuesta).",
+ "objetivo": "Crear y rematar apoyándose en un pivote, como se hace en el último tercio.",
+ "montaje": "25 × 15 m con una miniportería en cada fondo y una franja de 3 m donde espera un pivote neutro. Dos equipos; los demás, junto a las porterías.",
+ "juego": "Juegan 2 contra 2 y marcan en las miniporterías del fondo contrario. El balón puede ir al pivote, que lo devuelve a un compañero que llega en carrera. Tras cada ataque, entra otra pareja.",
+ "punto": "Gol, 1 punto; tras jugar con el pivote, 2 (propuesta).",
+ "consigna": "Da al pivote y llega en carrera.",
+ "variantes": {
+  "facil": "El pivote solo apoya de cara (propuesta).",
+  "dificil": "El pivote juega a un toque (propuesta)."
+ },
+ "adaptacion": "Benjamín: 2 contra 2 sin pivote (propuesta).",
+ "fuente": {
+  "autor": "@fifatrainingcentre",
+  "titulo_original": "Attack v. defence game with a pivot",
+  "ref": "Instagram · reel DP5xCSNDGtL"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y rotación de parejas (propuesta); el pie del reel indica 2 equipos de 7 y 2 neutros.",
+ "diagrama": {
+  "field": [
+   25,
+   15
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 27.5,
+   "ymin": -2.5,
+   "ymax": 17.5
+  },
+  "goals": [
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    25,
+    7.5,
+    "R"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     3,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     22,
+     0,
+     25,
+     15
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 23.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 1.5,
+    "y": 7.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     4
+    ],
+    "b": [
+     23.5,
+     7.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     11
+    ],
+    "b": [
+     19,
+     12
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     23.5,
+     7.5
+    ],
+    "b": [
+     19.5,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   }
+  ]
+ }
+}

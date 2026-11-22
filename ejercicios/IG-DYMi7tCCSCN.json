@@ -1,0 +1,132 @@
+{
+ "id": "IG-DYMi7tCCSCN",
+ "bloque": "Superioridades",
+ "titulo": "2v1 a miniportería y relevo",
+ "formato": "2v1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "3–6 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "10 min",
+ "series": "Series de 2 min; rotan los papeles (propuesta).",
+ "objetivo": "Atacar rápido con 2 contra 1 y, en defensa, ganar tiempo hasta que llegue la ayuda.",
+ "montaje": "30 × 25 m con una miniportería. Un jugador con balón detrás de dos atacantes.",
+ "juego": "El jugador pasa a uno de los dos atacantes y sale a defender. Los dos atacan la miniportería en 2 contra 1. Cuando acaba la acción, otro jugador pasa a defender y sale una nueva pareja.",
+ "punto": "Gol, 1 punto. Si el defensor despeja o roba, 1 punto.",
+ "consigna": "Pasa y corre a defender.",
+ "variantes": {
+  "facil": "El defensor sale con ventaja de salida (propuesta).",
+  "dificil": "Máximo tres toques para atacar (propuesta)."
+ },
+ "adaptacion": "Benjamín: 2 contra 1 con portería ancha (propuesta).",
+ "fuente": {
+  "autor": "@coach_3h",
+  "titulo_original": "2v1 small goal drill",
+  "ref": "Instagram · reel DYMi7tCCSCN"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta); el pie del reel está cortado.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "goals": [
+   [
+    30,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 4,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     12.5
+    ],
+    "b": [
+     9,
+     20
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     4,
+     12.5
+    ],
+    "b": [
+     17,
+     12.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     9,
+     20
+    ],
+    "b": [
+     23,
+     14
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     23,
+     14
+    ],
+    "b": [
+     29,
+     12.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   }
+  ]
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "id": "IG-DMZqehNtBu4",
+ "bloque": "Rondos",
+ "titulo": "Rondo 5v2 con puerta",
+ "formato": "5v2",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "7 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min (propuesta).",
+ "objetivo": "Presionar en cuanto se pierde el balón y cerrar el pase que atraviesa la puerta.",
+ "montaje": "10 × 10 m con una puerta triangular en el centro (tres conos). Cinco jugadores en el borde y dos defensores dentro.",
+ "juego": "Los cinco circulan a dos toques. Los dos defensores presionan y cierran los pases que atraviesan la puerta. Quien pierde el balón y su compañero de la derecha entran, y los defensores salen a jugar.",
+ "punto": "Pase a través de la puerta, 1 punto (propuesta).",
+ "consigna": "Pierdes el balón, presionas ya.",
+ "variantes": {
+  "facil": "Tres toques (propuesta).",
+  "dificil": "Un toque (propuesta)."
+ },
+ "adaptacion": "Prebenjamín y benjamín: 4 contra 1 en 8 × 8 m (propuesta).",
+ "fuente": {
+  "autor": "@fifatrainingcentre",
+  "titulo_original": "Counter-press rondo · Mexico U15 (Adrián Sánchez)",
+  "ref": "Instagram · reel DMZqehNtBu4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, puntos y series (propuesta); el reel es de una sesión Sub-15.",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 12,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    5,
+    3.6
+   ],
+   [
+    3.8,
+    5.9
+   ],
+   [
+    6.2,
+    5.9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 3.8,
+    "y": 4.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.4,
+    "y": 7.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.5,
+     7.5
+    ],
+    "b": [
+     5,
+     9.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     5,
+     9.5
+    ],
+    "b": [
+     9.5,
+     7.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     3.8,
+     4.6
+    ],
+    "b": [
+     7.5,
+     7.2
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}
