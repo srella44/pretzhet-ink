@@ -95,6 +95,9 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 .nav { display:flex; justify-content: space-between; margin-top: 10px }
 .nav button { border:0; background:#fff; color: var(--navy); font-weight: 800; font-size: 13px; padding: 9px 14px; border-radius: 9px; cursor: pointer }
 @media (max-width: 560px) { .vars { grid-template-columns: 1fr } .strip { grid-template-columns: 1fr 1fr } .strip span:nth-child(2) { border-right: 0 } .brand { font-size: 22px } }
+.tl { display:inline-block; width:10px; height:10px; border-radius:50%; background:#7c5cff; box-shadow:0 0 0 2px #fff }
+.thumb .tl { position:absolute; right:8px; bottom:8px; z-index:2 }
+.tlnote { display:block; margin-top:6px; font-size:11.5px; color:#5b6579 } .tlnote .tl { vertical-align:-1px; box-shadow:none }
 </style>
 </head>
 <body>
@@ -112,7 +115,8 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   <div class="grp"><h4>Edad</h4><div class="opts" id="f-age"></div></div>
   <div class="grp"><h4>Nivel</h4><div class="opts" id="f-lvl"></div></div>
   <div class="grp"><h4>Jugadores</h4><div class="opts" id="f-pl"></div></div>
-  <div class="grp"><h4>Fuente</h4><select id="f-src"><option value="">Todas</option></select></div>
+  <div class="grp"><h4>Fuente</h4><select id="f-src"><option value="">Todas</option></select><small class="tlnote"><i class="tl"></i> = toplidercoach</small></div>
+  <div class="grp" id="g-team" hidden><h4>Club o equipo</h4><select id="f-team"><option value="">Todos</option></select></div>
   <div class="grp"><h4>Mostrar</h4>
     <label class="toggle"><input type="checkbox" id="t-tp"> Solo TOP ★</label>
     <label class="toggle"><input type="checkbox" id="t-pr"> Solo probados en campo ✓</label>
@@ -134,7 +138,7 @@ const AGES = [['Prebenjamín',6,7],['Benjamín',8,9],['Alevín',10,11],['Infanti
 const LV = ['Fácil','Normal','Medio','Alto'];
 const SHORT = ['Calentar','Técnica','Rondo','Posesión','Superior.','Oleada','Finalizar','Defensa','Partido','ABP','Portero','Calma'];
 const PL = [['Hasta 6',0,6],['7–10',7,10],['11–14',11,14],['15 o más',15,99],['Sin indicar']];
-const st = { b:new Set(), a:new Set(), l:new Set(), p:new Set(), src:'', q:'', book:false, dg:false, rv:false, tp:false, pr:false, ord:'sc' };
+const st = { b:new Set(), a:new Set(), l:new Set(), p:new Set(), src:'', tm:'', q:'', book:false, dg:false, rv:false, tp:false, pr:false, ord:'sc' };
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fold = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
@@ -151,6 +155,9 @@ function opts(id, list, set) {
 }
 const srcs = [...new Set(R.map(r => r.s))].sort((a,b)=>a.localeCompare(b,'es'));
 $('#f-src').innerHTML += srcs.map(s => `<option>${esc(s)}</option>`).join('');
+const TLSRC = 'toplidercoach (Entrenadores Top)';
+const teams = [...new Set(R.filter(r => r.tm).map(r => r.tm))].sort((a,b)=>a.localeCompare(b,'es'));
+$('#f-team').innerHTML += teams.map(s => `<option>${esc(s)}</option>`).join('');
 
 function match(r, skipBlock) {
   if (!st.rv && r.rv) return false;
@@ -159,6 +166,7 @@ function match(r, skipBlock) {
   if (st.pr && !r.pr) return false;
   if (st.dg && !r.dg) return false;
   if (st.src && r.s !== st.src) return false;
+  if (st.tm && r.tm !== st.tm) return false;
   if (!skipBlock && st.b.size && !st.b.has(r.b)) return false;
   if (st.l.size && ![...st.l].some(i => LV[i] === r.n)) return false;
   if (st.a.size && ![...st.a].some(i => { const a = AGES[i]; if (!a[1]) return !r.a; return r.a && r.a[0] <= a[2] && r.a[1] >= a[1]; })) return false;
@@ -172,12 +180,12 @@ function apply() {
   const counts = {}; R.forEach(r => { if (match(r, true)) counts[r.b] = (counts[r.b]||0) + 1; });
   blockChips(counts); opts('#f-age', AGES, st.a); opts('#f-lvl', LV, st.l); opts('#f-pl', PL, st.p);
   list = R.filter(r => match(r)).sort(SORT[st.ord]);
-  const nf = st.a.size + st.l.size + st.p.size + (st.src?1:0) + (st.book?1:0) + (st.dg?1:0) + (st.rv?1:0) + (st.tp?1:0) + (st.pr?1:0);
+  const nf = st.a.size + st.l.size + st.p.size + (st.src?1:0) + (st.tm?1:0) + (st.book?1:0) + (st.dg?1:0) + (st.rv?1:0) + (st.tp?1:0) + (st.pr?1:0);
   $('#nf').hidden = !nf; $('#nf').textContent = nf;
   $('#cnt').textContent = list.length.toLocaleString('es-ES') + ' ejercicios';
   $('#grid').innerHTML = ''; shown = 0; more();
   $('#empty').hidden = list.length > 0;
-  try { localStorage.setItem('pi-filtros', JSON.stringify({b:[...st.b],a:[...st.a],l:[...st.l],p:[...st.p],src:st.src,book:st.book,dg:st.dg,rv:st.rv,tp:st.tp,pr:st.pr,ord:st.ord})); } catch(e) {}
+  try { localStorage.setItem('pi-filtros', JSON.stringify({b:[...st.b],a:[...st.a],l:[...st.l],p:[...st.p],src:st.src,tm:st.tm,book:st.book,dg:st.dg,rv:st.rv,tp:st.tp,pr:st.pr,ord:st.ord})); } catch(e) {}
 }
 function pips(n) { const k = Math.max(1, LV.indexOf(n) + 1); return `<b class="pips">${[0,1,2,3].map(i=>`<i class="${i<k?'on':''}"></i>`).join('')}</b>`; }
 function ageTxt(r) { return r.a ? (r.a[0] === r.a[1] ? r.a[0] + ' años' : `${r.a[0]}–${r.a[1]} años`) : 'Edad libre'; }
@@ -189,7 +197,7 @@ function thumb(r) {
 function card(r, idx) {
   const b = B[r.b];
   return `<button class="card" data-k="${idx}" style="--c:${b.c};--k:${b.k}">
-  <div class="thumb">${thumb(r)}${r.tp?`<span class="flag tp">★ TOP</span>`:''}${r.lb&&!r.tp?`<span class="flag book">LIBRO</span>`:''}${r.rv?`<span class="flag rv">A REVISAR</span>`:''}${r.pr&&!r.rv?`<span class="flag pr">✓ PROBADO</span>`:''}</div>
+  <div class="thumb">${thumb(r)}${r.tl?`<i class="tl" title="toplidercoach"></i>`:''}${r.tp?`<span class="flag tp">★ TOP</span>`:''}${r.lb&&!r.tp?`<span class="flag book">LIBRO</span>`:''}${r.rv?`<span class="flag rv">A REVISAR</span>`:''}${r.pr&&!r.rv?`<span class="flag pr">✓ PROBADO</span>`:''}</div>
   <div class="cb"><div class="ct"><h3>${esc(r.t)}</h3>${r.f?`<span class="fmt">${esc(r.f)}</span>`:''}</div>
   <div class="meta"><span>${ageTxt(r)}</span><span>${pips(r.n)}${esc(r.n)}</span><span>${plTxt(r)}</span></div>
   <div class="src">${esc(b.n)} · ${esc(r.s)}</div></div></button>`;
@@ -237,13 +245,14 @@ document.addEventListener('keydown', e => { if (!$('#m').classList.contains('ope
 
 $('#tgl').onclick = () => $('#panel').classList.toggle('open');
 let qt; $('#q').oninput = e => { clearTimeout(qt); qt = setTimeout(() => { st.q = e.target.value.trim(); apply(); }, 180); };
-$('#f-src').onchange = e => { st.src = e.target.value; apply(); };
+$('#f-src').onchange = e => { st.src = e.target.value; if (st.src !== TLSRC) st.tm = ''; syncInputs(); apply(); };
+$('#f-team').onchange = e => { st.tm = e.target.value; apply(); };
 $('#f-ord').onchange = e => { st.ord = e.target.value; apply(); };
 ['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).onchange = e => { st[k] = e.target.checked; apply(); });
-$('#clr').onclick = () => { st.b.clear(); st.a.clear(); st.l.clear(); st.p.clear(); st.src=''; st.book=st.dg=st.rv=st.tp=st.pr=false; st.q=''; $('#q').value=''; syncInputs(); apply(); };
-function syncInputs() { $('#f-src').value = st.src; $('#f-ord').value = st.ord; ['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).checked = st[k]); }
+$('#clr').onclick = () => { st.b.clear(); st.a.clear(); st.l.clear(); st.p.clear(); st.src=''; st.tm=''; st.book=st.dg=st.rv=st.tp=st.pr=false; st.q=''; $('#q').value=''; syncInputs(); apply(); };
+function syncInputs() { $('#f-src').value = st.src; $('#g-team').hidden = st.src !== TLSRC; $('#f-team').value = st.tm; $('#f-ord').value = st.ord; ['book','dg','rv','tp','pr'].forEach(k => $('#t-'+k).checked = st[k]); }
 if (store.b) { store.b.forEach(i=>st.b.add(i)); (store.a||[]).forEach(i=>st.a.add(i)); (store.l||[]).forEach(i=>st.l.add(i)); (store.p||[]).forEach(i=>st.p.add(i));
-  Object.assign(st, { src: store.src||'', book: !!store.book, dg: !!store.dg, rv: !!store.rv, tp: !!store.tp, pr: !!store.pr, ord: store.ord||'sc' }); }
+  Object.assign(st, { src: store.src||'', tm: store.tm||'', book: !!store.book, dg: !!store.dg, rv: !!store.rv, tp: !!store.tp, pr: !!store.pr, ord: store.ord||'sc' }); }
 syncInputs(); apply();
 </script>
 </body>

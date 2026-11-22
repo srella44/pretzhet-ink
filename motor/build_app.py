@@ -78,6 +78,8 @@ def sections(text):
 
 def short_src(a):
     a = a or ''
+    if a.startswith('toplidercoach'): return 'toplidercoach (Entrenadores Top)'
+    if a.startswith(('Reel de Instagram', 'Academia (', 'Entrenamiento de un equipo')): return 'Redes y webs'
     for k in ['Tareas Fútbol Base', 'RONDO', 'Level Up Coach', 'FCStage', 'Leicester', 'Athletic', 'AFOPRO', 'Alex Ortiz', 'Javier López', 'FIFA']:
         if k in a: return {'FCStage': 'FCStage Camps', 'Leicester': 'Leicester City Academy', 'Athletic': 'Athletic Club', 'Javier López': 'Javier López (1.380 juegos)'}.get(k, k)
     return 'Redes y webs' if a.startswith('@') or a in ('SoccerXpert', 'Bcoach', 'SoccerDrive') else (a or 'Otras')
@@ -95,6 +97,10 @@ for r in refs:
                   'pts': (s.get('Puntuación', '') + ' ' + s.get('Puntos', '')).strip(), 'cues': s.get('Consignas', '') or s.get('Frase', ''),
                   'fac': s.get('Más fácil', ''), 'dif': s.get('Más difícil', ''), 'var': s.get('Variantes', ''), 'sp': s.get('Espacio', '').rstrip('. '),
                   'ctx': s.get('Contexto', ''), 'notes': (r.get('Advertencias / siguiente revisión') or '') if (r['ID'].startswith(('TFB', 'RONDO', 'DOS')) or r.get('completed')) else ''})
+    if r['ID'].startswith('TLC-'):
+        rec['tl'] = 1
+        m_ = re.search(r'\(([^()]*)\)\s*$', r['Autor / proveedor'] or '')
+        if m_: rec['tm'] = m_.group(1).strip().title()
     if r.get('probado'): rec['pr'] = 1
     if r.get('_fmt'): rec['f'] = r['_fmt']
     if d:
