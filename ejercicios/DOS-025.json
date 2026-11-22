@@ -1,0 +1,171 @@
+{
+ "id": "DOS-025",
+ "bloque": "Finalización",
+ "titulo": "Tira y persigue",
+ "formato": "1v1 + 2 PT",
+ "edad": "8–12 años",
+ "nivel": "Normal",
+ "jugadores": "8–14 jug. + 2 PT",
+ "espacio": "25 × 20 m",
+ "duracion": "20 min",
+ "series": "3 × 5 min con 1 min de descanso (propuesta).",
+ "objetivo": "Conducir, tirar rápido y reaccionar al instante para defender: dos acciones del partido encadenadas.",
+ "montaje": "25 × 20 m con portería y portero en cada fondo. Dos equipos en fila, en esquinas opuestas.",
+ "juego": "A sale conduciendo y tira en cuanto entra en la mitad rival. Al tirar, sale B conduciendo hacia la otra portería y A le persigue para evitar el tiro. Se juega sin parar: quien tira, defiende.",
+ "punto": "Gol, 1 punto. Evitar el tiro del rival, 1 punto (propuesta).",
+ "consigna": "Tira a la mínima opción, con las dos piernas.",
+ "variantes": {
+  "facil": "B sale cuando el balón de A llega al portero (propuesta).",
+  "dificil": "Tiro obligado con la pierna mala o desde fuera de una zona (propuesta)."
+ },
+ "adaptacion": "Benjamín: campo de 20 × 15 m. Alevín e infantil: tal cual (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Tiro en velocidad 1v1",
+  "ref": "Dosier de sesiones · pág. 6 y 17 (J1.5, S1.5)"
+ },
+ "top": "Tiro y transición inmediata a defender: dos acciones del partido en una.",
+ "probado": true,
+ "completado": "Edad, series, variantes y punto por evitar el tiro (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     12.5,
+     0
+    ],
+    [
+     12.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 6.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26.6,
+    "y": 0.8,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 26.6,
+    "y": 4.6,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 17.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": -1.6,
+    "y": 18.8,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     6.5
+    ],
+    "b": [
+     0,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     17.5
+    ],
+    "b": [
+     15.5,
+     15
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     6.5
+    ],
+    "b": [
+     13.5,
+     12.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     15.5,
+     15
+    ],
+    "b": [
+     25,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

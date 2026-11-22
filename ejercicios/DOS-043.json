@@ -1,0 +1,148 @@
+{
+ "id": "DOS-043",
+ "bloque": "Finalización",
+ "titulo": "1v1 y cuatro servidores",
+ "formato": "1v1 + 2 PT",
+ "edad": "8–12 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. + 2 PT",
+ "espacio": "25 × 20 m",
+ "duracion": "20 min",
+ "series": "Rondas de 4 balones por atacante; se cambian los papeles tras cada ronda (propuesta).",
+ "objetivo": "Ganar el 1 contra 1 con fintas y controles orientados y finalizar en pocos toques.",
+ "montaje": "25 × 20 m con portería y portero en cada fondo. Cuatro servidores con balones en las esquinas; dentro, un atacante y un defensor.",
+ "juego": "Los servidores pasan por turnos. El atacante puede atacar cualquiera de las dos porterías: finta, engaña y cambia de dirección. Tras los cuatro balones, se cambian los papeles.",
+ "punto": "Gol, 1 punto.",
+ "consigna": "Regatea con el control y tira en pocos toques.",
+ "variantes": {
+  "facil": "El defensor espera a que el atacante controle (propuesta).",
+  "dificil": "Cuatro segundos para tirar desde el pase (propuesta)."
+ },
+ "adaptacion": "Benjamín: campo de 20 × 15 m. Infantil: tal cual con tiempo límite (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Duelos 1v1 y tiro 4 posiciones",
+  "ref": "Dosier de sesiones · pág. 11 y 17 (J2.5, S1.5)"
+ },
+ "top": "1v1 con cuatro servidores y dos porterías: muchas finalizaciones con oposición.",
+ "probado": true,
+ "completado": "Edad, rotación, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 1.6,
+    "y": 1.6,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 23.4,
+    "y": 1.6,
+    "f": 135
+   },
+   {
+    "r": "C",
+    "x": 1.6,
+    "y": 18.4,
+    "f": -45
+   },
+   {
+    "r": "C",
+    "x": 23.4,
+    "y": 18.4,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 9.5,
+    "f": [
+     1.6,
+     1.6
+    ]
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.6,
+     1.6
+    ],
+    "b": [
+     10,
+     9.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     9.5
+    ],
+    "b": [
+     17.5,
+     13.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     17.5,
+     13.5
+    ],
+    "b": [
+     25,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

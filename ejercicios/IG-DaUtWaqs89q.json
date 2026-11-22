@@ -1,0 +1,179 @@
+{
+ "id": "IG-DaUtWaqs89q",
+ "bloque": "Defensa y presión",
+ "titulo": "Tapa el centro",
+ "formato": "6v3",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min con 1 min de descanso; rotan los defensores (propuesta).",
+ "objetivo": "Coordinar presión y cobertura para proteger el centro mientras el rival conserva.",
+ "montaje": "20 × 20 m (propuesta) con cuatro miniporterías en el centro, orientadas hacia fuera. Seis atacantes contra tres defensores.",
+ "juego": "Los seis conservan. Desde el quinto pase también pueden marcar en las miniporterías del centro. Los defensores coordinan presión y cobertura para tapar el centro.",
+ "punto": "8 pases, 1. Gol en miniportería, 1. Robo y salir conduciendo del cuadrado, 2 para la defensa.",
+ "consigna": "Uno presiona y dos tapan las porterías.",
+ "variantes": {
+  "facil": "Gol en miniportería solo desde el octavo pase (propuesta).",
+  "dificil": "5 contra 3 o atacantes a dos toques (propuesta)."
+ },
+ "adaptacion": "Alevín: 6 contra 3 con dos miniporterías. Cadete: 5 contra 3 a dos toques (propuesta).",
+ "fuente": {
+  "autor": "@labofsoms (Instagram)",
+  "titulo_original": "Cubrir las cuatro porterías interiores",
+  "ref": "Reel DaUtWaqs89q"
+ },
+ "top": "Porterías interiores orientadas hacia fuera: la defensa tiene que cerrar el centro.",
+ "probado": false,
+ "completado": "Medidas, edad, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 20.8,
+   "ymin": -0.8,
+   "ymax": 20.8
+  },
+  "goals": [
+   [
+    7.6,
+    10,
+    "R"
+   ],
+   [
+    12.4,
+    10,
+    "L"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 10,
+    "y": 7.6,
+    "lado": "B",
+    "ancho": 2.4,
+    "portero": false
+   },
+   {
+    "x": 10,
+    "y": 12.4,
+    "lado": "T",
+    "ancho": 2.4,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 3,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18.2,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 7,
+    "f": [
+     1.8,
+     11
+    ]
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 15.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     11
+    ],
+    "b": [
+     5.5,
+     18
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     7
+    ],
+    "b": [
+     6.5,
+     14.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2,
+    "nt": 0.65
+   },
+   {
+    "a": [
+     11,
+     15.8
+    ],
+    "b": [
+     8.5,
+     14.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "id": "IG-DfxRIvINeA6",
+ "bloque": "Finalización",
+ "titulo": "Ocho pases y al área",
+ "formato": "5v3 + 2 + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. + PT",
+ "espacio": "12 × 12 m + área",
+ "duracion": "18 min",
+ "series": "4 × 3 min con 1 min de descanso; rotan los defensores (propuesta).",
+ "objetivo": "Conservar en superioridad, abrir a banda y llegar al área en tres alturas tras el centro; si se pierde, defender el contraataque.",
+ "montaje": "Cuadrado de 12 × 12 m delante del área; portería con portero. Un extremo en cada banda y dos miniporterías detrás del cuadrado.",
+ "juego": "Cinco conservan ante tres. Tras ocho pases, sirven a un extremo: los cinco y el otro extremo atacan el centro y los defensores repliegan. Si roban, contraatacan a las miniporterías.",
+ "punto": "Gol, 1. De cabeza o volea, 2 (propuesta).",
+ "consigna": "Llega en tres alturas: primer palo, segundo y frontal.",
+ "variantes": {
+  "facil": "Seis pases para abrir a banda (propuesta).",
+  "dificil": "Los defensores repliegan sin esperar al centro o el extremo centra al primer toque (propuesta)."
+ },
+ "adaptacion": "Alevín: 5 contra 2 y cinco pases. Cadete y juvenil: tal cual, a dos toques (propuesta).",
+ "fuente": {
+  "autor": "@coachesviewsfootball (Instagram)",
+  "titulo_original": "Ocho pases activan el centro exterior",
+  "ref": "Reel DfxRIvINeA6"
+ },
+ "top": "Conservar, centrar y llegar al área, con contraataque si roban.",
+ "probado": false,
+ "completado": "Edad, series, variantes y gol de cabeza o volea doble (propuesta). En el diagrama, cuatro poseedores y dos defensores en el cuadrado.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "tag": "12 × 12 m + área",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -0.8,
+   "ymax": 24.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     3,
+     6,
+     15,
+     18
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     21,
+     3
+    ],
+    [
+     30,
+     3
+    ],
+    "6 5"
+   ],
+   [
+    [
+     21,
+     3
+    ],
+    [
+     21,
+     21
+    ],
+    "6 5"
+   ],
+   [
+    [
+     21,
+     21
+    ],
+    [
+     30,
+     21
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    4,
+    "L"
+   ],
+   [
+    0,
+    20,
+    "L"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 6.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 12,
+    "f": [
+     19,
+     1.3
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 17.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 10.3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 1.3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 22.7,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14.5,
+     12
+    ],
+    "b": [
+     19,
+     1.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     14.5,
+     12
+    ],
+    "b": [
+     26,
+     9.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     22.7
+    ],
+    "b": [
+     26.5,
+     15
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     19,
+     1.3
+    ],
+    "b": [
+     26,
+     9.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    9,
+    5.2,
+    "8 PASES",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "id": "PI-TJ-008",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "El último ataque",
+ "formato": "5v5 + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "10 jug. + 2 PT",
+ "espacio": "42 × 32 m",
+ "duracion": "18 min",
+ "series": "8–10 minipartidos de 90 s con 30 s de pausa (propuesta).",
+ "objetivo": "Graduar el riesgo según marcador y tiempo, incluida la decisión de ir o no al remate.",
+ "montaje": "42 × 32 m con portería y portero en cada fondo. 5 contra 5 en minipartidos de 90 s; un equipo empieza ganando 1–0 y saca el que pierde.",
+ "juego": "Se juega libre. El entrenador avisa cuando quedan 25 s. Tras cada partido se cambian el marcador inicial y el saque.",
+ "punto": "Gana el resultado final. Anotad qué pérdidas dejaron a todo el equipo por delante del balón.",
+ "consigna": "Con ventaja, busca el pase que da tiempo y metros.",
+ "variantes": {
+  "facil": "Partidos de 2 min y aviso a los 40 s (propuesta).",
+  "dificil": "Empezar 2–1 o con un jugador menos para el que gana (propuesta)."
+ },
+ "adaptacion": "Si esconden balones para perder tiempo, el entrenador repone de inmediato. Cadete y juvenil: 6 contra 6 (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El último ataque con ventaja",
+  "ref": "Ficha propia PI-TJ-008 (ORI-0048)"
+ },
+ "top": "Ficha propia: minipartidos que empiezan 1-0 y avisan de los últimos 25 segundos. Gestión del marcador.",
+ "probado": false,
+ "completado": "Series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   42,
+   32
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 43.5,
+   "ymin": -2.6,
+   "ymax": 32.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 42,
+    "y": 16,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": [
+     5,
+     26
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 6.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     5,
+     26
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     26
+    ],
+    "b": [
+     8.5,
+     25.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     21,
+     16
+    ],
+    "b": [
+     15.5,
+     19.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    21,
+    -1.2,
+    "AMARILLOS GANAN 1–0 · QUEDAN 25 S",
+    "middle"
+   ]
+  ]
+ }
+}

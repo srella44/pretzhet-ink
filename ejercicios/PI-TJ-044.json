@@ -1,0 +1,148 @@
+{
+ "id": "PI-TJ-044",
+ "bloque": "Finalización",
+ "titulo": "El tiro tras el paso atrás",
+ "formato": "1v1 + PT",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "2 jug. + PT",
+ "espacio": "17 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 5 intentos, alternando el pie de arranque (propuesta).",
+ "objetivo": "Abrir línea de tiro retirando el balón: tirar desde el nuevo ángulo o atacar el pie que adelanta el defensor.",
+ "montaje": "17 × 12 m con portería y portero. Atacante con balón a seis pasos de un defensor que protege la portería.",
+ "juego": "El atacante se acerca y puede sacar el balón un paso atrás o atacar al primer toque. Si el defensor se adelanta, tira por el nuevo ángulo o acelera por un lado.",
+ "punto": "Gol, 1. La defensa suma si roba o si lleva al atacante a la línea de salida.",
+ "consigna": "Al retirar el balón, levanta la mirada.",
+ "variantes": {
+  "facil": "El defensor solo puede moverse andando (propuesta).",
+  "dificil": "Cuatro segundos para tirar (propuesta)."
+ },
+ "adaptacion": "Si tiran de lejos sin oposición, empieza más cerca y pide menos fuerza. Alevín: con un segundo defensor que llega tarde (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El tiro tras el paso atrás",
+  "ref": "Ficha propia PI-TJ-044 (ORI-0079)"
+ },
+ "top": "Ficha propia: tirar tras un paso atrás para abrir línea. Engaño simple y muy útil.",
+ "probado": false,
+ "completado": "Duración, series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   17,
+   12
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 19,
+   "ymin": -0.8,
+   "ymax": 12.8
+  },
+  "lines": [
+   [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 17,
+    "y": 6,
+    "lado": "R",
+    "ancho": 4.5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 6.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     7
+    ],
+    "b": [
+     8.5,
+     7
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 18,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     7
+    ],
+    "b": [
+     6.5,
+     3.3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 4,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     6.5,
+     3.3
+    ],
+    "b": [
+     17,
+     4.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     11.5,
+     6.5
+    ],
+    "b": [
+     10,
+     4.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    3.3,
+    11.3,
+    "SALIDA",
+    "start"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "PI-TJ-012",
+ "bloque": "Finalización",
+ "titulo": "Rematar sin taparse",
+ "formato": "2v2 + PT",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. + PT",
+ "espacio": "22 × 17 m",
+ "duracion": "15 min",
+ "series": "4 series de 5 ataques; se alterna el lado de inicio (propuesta).",
+ "objetivo": "Desocupar la línea de tiro de un compañero: después de pasar, cruzar por delante de la defensa o frenar fuera del tiro.",
+ "montaje": "22 × 17 m con portería y portero. Dos atacantes contra dos defensores; uno de los atacantes empieza con balón en la banda.",
+ "juego": "Pasa al interior, que busca abrir línea de tiro con su primer toque. El pasador puede cruzar por delante de la defensa o frenar fuera de la línea de tiro para recibir de nuevo.",
+ "punto": "Gol, 1. Si roban, la defensa suma al dar un pase. Alternad el lado de inicio.",
+ "consigna": "Después de pasar, mira si tu carrera tapa el tiro.",
+ "variantes": {
+  "facil": "Un solo defensor (propuesta).",
+  "dificil": "El interior solo puede dar dos toques (propuesta)."
+ },
+ "adaptacion": "Si el pasador se queda quieto, empieza más cerca del eje de tiro. Infantil: 3 contra 2 con un segundo pasador (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Rematar sin taparse",
+  "ref": "Ficha propia PI-TJ-012 (ORI-0082)"
+ },
+ "top": "Ficha propia: rematar sin taparse con el compañero. Detalle real que suele faltar.",
+ "probado": false,
+ "completado": "Duración, series y variantes (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   22,
+   17
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 24,
+   "ymin": -0.8,
+   "ymax": 17.8
+  },
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      11,
+      9
+     ],
+     [
+      22,
+      6
+     ],
+     [
+      22,
+      11
+     ]
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 22,
+    "y": 8.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 9.5,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     2
+    ],
+    "b": [
+     9.5,
+     9.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     2
+    ],
+    "b": [
+     16,
+     1.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     9.5,
+     9.5
+    ],
+    "b": [
+     22,
+     8.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

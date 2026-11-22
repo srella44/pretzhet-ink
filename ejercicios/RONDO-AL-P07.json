@@ -1,0 +1,207 @@
+{
+ "id": "RONDO-AL-P07",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Torneo de sube y baja",
+ "formato": "3v3",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. (4 equipos)",
+ "espacio": "35 × 25 m",
+ "duracion": "15 min",
+ "series": "Partidos de 3 min; 4 o 5 rondas (propuesta).",
+ "objetivo": "Competir en partidos cortos con mucha intensidad y sin eliminados: todos juegan siempre.",
+ "montaje": "Cuadrícula de 35 × 25 m: dos campos de 3 contra 3 con miniporterías. El de arriba es el campo de los campeones.",
+ "juego": "Partidos de 3 min. Quien gana sube al campo de los campeones y quien pierde baja. Todos juegan siempre: nadie queda eliminado.",
+ "punto": "Gana quien marca más. En empate, sube quien marcó el último gol (propuesta).",
+ "consigna": "Gana pasándoos el balón.",
+ "variantes": {
+  "facil": "Porterías grandes.",
+  "dificil": "El gol tras un pase vale doble, o el campo de los campeones tiene porterías más pequeñas."
+ },
+ "adaptacion": "Benjamín: 2 contra 2 y partidos de 2 min. Infantil: 4 contra 4 en 40 × 30 m (propuesta). Si quien pierde elige por qué lado atacar, el partido se iguala.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Torneo de sube y baja (AL-P07)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 12"
+ },
+ "top": "Torneo de sube y baja: partidos cortos, competitivos y sin eliminados.",
+ "probado": false,
+ "completado": "Desempate, series, consigna y adaptación (propuesta). Diagrama con los dos campos uno encima del otro.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "tag": "2 campos · 35 × 25 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 45,
+   "ymin": -0.8,
+   "ymax": 25.8
+  },
+  "lines": [
+   [
+    [
+     0,
+     12.5
+    ],
+    [
+     35,
+     12.5
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    6.25,
+    "L"
+   ],
+   [
+    35,
+    6.25,
+    "R"
+   ],
+   [
+    0,
+    18.75,
+    "L"
+   ],
+   [
+    35,
+    18.75,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26.5,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 18.75,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 15.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 22,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 18.75,
+    "f": 180,
+    "ball": true,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     38,
+     19
+    ],
+    "b": [
+     38,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     41,
+     6
+    ],
+    "b": [
+     41,
+     19
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    38,
+    2.8,
+    "SUBE",
+    "middle"
+   ],
+   [
+    41,
+    23.4,
+    "BAJA",
+    "middle"
+   ],
+   [
+    17.5,
+    11.4,
+    "CAMPEONES",
+    "middle"
+   ]
+  ]
+ }
+}

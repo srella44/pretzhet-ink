@@ -1,0 +1,174 @@
+{
+ "id": "TFB100-084",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Doble área con comodín",
+ "formato": "4v4+1 + 2 PT",
+ "edad": "6–9 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug. + 2 PT",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 partes de 4 min con 1 min de descanso.",
+ "objetivo": "Salir del 2 contra 2 de una mitad y conectar con el comodín para crear un 3 contra 2 rápido en la otra.",
+ "montaje": "40 × 30 m en dos mitades con una zona estrecha en medio; portería y portero en cada fondo. 2 contra 2 por mitad y un comodín en la zona.",
+ "juego": "Nadie cambia de mitad. Para pasar a la otra hay que conectar con el comodín, que pasa y entra para formar un 3 contra 2 rápido.",
+ "punto": "Gol, 1 punto. Gol en menos de 3 pases tras conectar con el comodín, 2.",
+ "consigna": "Comodín: pasa y entra.",
+ "variantes": {
+  "facil": "El comodín puede quedarse en la mitad de ataque.",
+  "dificil": "El comodín juega a un toque."
+ },
+ "adaptacion": "Prebenjamín: sin comodín y todos pueden pasar de zona. Benjamín: con comodín y cada uno en su mitad.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Doble área 4 contra 4 + 1 con zona intermedia",
+  "ref": "100 tareas de fútbol base · pág. 103"
+ },
+ "top": "Doble área con comodín en la zona intermedia: 2 contra 2 en cada mitad conectados por el comodín.",
+ "probado": false,
+ "completado": "Diagrama con el campo girado: porterías a los lados.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.5,
+   "ymin": -0.8,
+   "ymax": 30.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     18,
+     0,
+     22,
+     30
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 6,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 33.5,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33.5,
+    "y": 19.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     10
+    ],
+    "b": [
+     20,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     28,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     27.5,
+     16
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

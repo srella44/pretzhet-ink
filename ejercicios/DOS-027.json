@@ -1,0 +1,176 @@
+{
+ "id": "DOS-027",
+ "bloque": "Finalización",
+ "titulo": "K.O.",
+ "formato": "1 + PT",
+ "edad": "8–12 años",
+ "nivel": "Normal",
+ "jugadores": "Todo el grupo + PT",
+ "espacio": "Área y frontal",
+ "duracion": "20 min",
+ "series": "Partidas de 6–8 min hasta que quede uno; 2 o 3 partidas (propuesta).",
+ "objetivo": "Rematar rápido y al primer toque en competición, con el resto del grupo pendiente.",
+ "montaje": "Fila de jugadores fuera del área; portería con portero. Dos entrenadores con balones en la línea de fondo, uno a cada lado.",
+ "juego": "Cada jugador remata dos balones seguidos: primero uno lanzado lejos y después otro más cerca. Si el que va detrás marca más goles que tú, pierdes una vida.",
+ "punto": "Por vidas (3, propuesta): gana el último que queda.",
+ "consigna": "Remata al primer toque.",
+ "variantes": {
+  "facil": "Balones lanzados con la mano y rodando (propuesta).",
+  "dificil": "Remates de volea al primer toque (según la fuente)."
+ },
+ "adaptacion": "Benjamín: balones rasos. Alevín en adelante: a media altura y de volea (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "K.O.",
+  "ref": "Dosier de sesiones · pág. 6 y 11 (J1.5, J2.5)"
+ },
+ "top": "K.O.: competición de remate rápido que siempre funciona (decisión de Sergio).",
+ "probado": true,
+ "completado": "Edad, número de vidas, series y variante fácil (propuesta). Diagrama con el campo girado: portería a la derecha.",
+ "diagrama": {
+  "field": [
+   18,
+   22
+  ],
+  "tag": "área",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 20,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 18,
+    "y": 11,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 16.5,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 16.5,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": [
+     16.5,
+     2
+    ]
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 8.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 13.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "balls": [
+   [
+    17.8,
+    3.6
+   ],
+   [
+    17.8,
+    18.4
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     16.5,
+     2
+    ],
+    "b": [
+     7,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     18,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     12,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     16.5,
+     20
+    ],
+    "b": [
+     12,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    4,
+    12.6,
+    "LEJOS",
+    "middle"
+   ],
+   [
+    8.2,
+    17.2,
+    "CERCA",
+    "middle"
+   ]
+  ]
+ }
+}

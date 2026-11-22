@@ -1,0 +1,184 @@
+{
+ "id": "DOS-051",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido de paredes",
+ "formato": "5v5+2 + 2 PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10–14 jug. + 2 PT",
+ "espacio": "25 × 25 m + 2 zonas",
+ "duracion": "20 min",
+ "series": "3 × 6 min con 1 min de descanso (propuesta).",
+ "objetivo": "Dar y salir y hacer paredes para entrar en la zona de gol.",
+ "montaje": "25 × 25 m con una zona de 8 m delante de cada portería con portero. Dos equipos de 4 a 6 y uno o dos comodines a un toque.",
+ "juego": "Para entrar en la zona y marcar hay que hacer una pared, o cinco pases y un desmarque. En la zona se juega con fuera de juego.",
+ "punto": "Gol, 1 punto.",
+ "consigna": "Ayuda al que tiene el balón: dala y sal.",
+ "variantes": {
+  "facil": "Sin fuera de juego en la zona (propuesta).",
+  "dificil": "Solo vale la pared; los cinco pases no abren la zona (propuesta)."
+ },
+ "adaptacion": "Alevín: 4 contra 4 + 2 comodines. Cadete y juvenil: un comodín (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Partido de paredes",
+  "ref": "Dosier de sesiones · pág. 14 (S1.2)"
+ },
+ "top": "Para entrar en la zona de gol hace falta una pared o cinco pases y desmarque.",
+ "probado": true,
+ "completado": "Edad, series y variantes (propuesta). Diagrama con menos jugadores de los reales.",
+ "diagrama": {
+  "field": [
+   41,
+   25
+  ],
+  "tag": "25 × 25 m + zonas de 8 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 42.5,
+   "ymin": -0.8,
+   "ymax": 25.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     8,
+     25
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     33,
+     0,
+     41,
+     25
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 41,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 17,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29.5,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 22.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 19.5,
+    "y": 23,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     13
+    ],
+    "b": [
+     25,
+     6.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     13
+    ],
+    "b": [
+     35,
+     12.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     6.5
+    ],
+    "b": [
+     34.5,
+     11.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

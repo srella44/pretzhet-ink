@@ -1,0 +1,162 @@
+{
+ "id": "DOS-011",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Minipartidos a la vez",
+ "formato": "2v2/3v3",
+ "edad": "8–12 años",
+ "nivel": "Normal",
+ "jugadores": "12–16 jug. + 2 PT",
+ "espacio": "40 × 25 m",
+ "duracion": "20 min",
+ "series": "4 × 4 min con 1 min de descanso; cambian los emparejamientos (propuesta).",
+ "objetivo": "Desmarcarse al pie o al espacio, mirar y regatear en un partido con mucho tráfico.",
+ "montaje": "40 × 25 m con portería y portero en cada fondo. Dos o tres partidos de 2 contra 2 o 3 contra 3 a la vez, cada uno con su balón.",
+ "juego": "Cada partido tiene sus rivales, pero el espacio y las porterías son comunes: hay que mirar todo el rato. Variante: jugar con el peto en la cabeza para obligar a levantarla.",
+ "punto": "Gol, 1 punto. Gol tras regate, pared, doblada o pasillo, 2.",
+ "consigna": "Mira antes y después de recibir.",
+ "variantes": {
+  "facil": "Solo dos partidos a la vez (propuesta).",
+  "dificil": "Peto en la cabeza o máximo tres toques (propuesta)."
+ },
+ "adaptacion": "Benjamín: 2 contra 2. Alevín e infantil: 3 contra 3 (según la fuente, sesiones Junior y Senior).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Minipartidos simultáneos 2v2/3v3 + PTs",
+  "ref": "Dosier de sesiones · pág. 3 y 8 (J1.2, J1.4, J2.2, J2.4)"
+ },
+ "top": "Minipartidos con porterías compartidas: obliga a mirar todo el espacio; el gol tras regate o combinación vale doble.",
+ "probado": true,
+ "completado": "Edad, series y variantes (propuesta). En el diagrama, el segundo partido va semitransparente.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.5,
+   "ymin": -0.8,
+   "ymax": 25.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 20,
+    "f": 180,
+    "ball": true,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 4,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 20,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 19,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     17,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     15
+    ],
+    "b": [
+     27,
+     13
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     13
+    ],
+    "b": [
+     40,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

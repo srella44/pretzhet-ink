@@ -1,0 +1,183 @@
+{
+ "id": "TFB100-088",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Recibe a la espalda",
+ "formato": "4v4",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "8–10 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "18 min",
+ "series": "4 series de 3 min con 1 min de descanso.",
+ "objetivo": "Atacar la espalda de la defensa: el gol solo es posible tras recibir un pase en la zona del fondo.",
+ "montaje": "35 × 25 m con una zona de 5 m en cada fondo y, detrás, dos miniporterías sin portero. 4 contra 4.",
+ "juego": "Para marcar hay que recibir un pase dentro de la zona que atacas; no se entra conduciendo. Dentro, dos toques para marcar. Los defensores solo entran en su zona detrás del balón.",
+ "punto": "Gol, 1 punto. Gol de primeras dentro de la zona, 2.",
+ "consigna": "Pasa al espacio, no al pie.",
+ "variantes": {
+  "facil": "Zona más grande o se puede entrar conduciendo.",
+  "dificil": "Un toque dentro de la zona; la zona se activa tras cinco pases; o 5 contra 4 y el que defiende en inferioridad puntúa si roba."
+ },
+ "adaptacion": "Alevín: zona de 6 m. Infantil: de 5 m. Cadete y juvenil: solo vale el pase al que llega en carrera.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "4 contra 4 con zona de recepción a la espalda de la defensa",
+  "ref": "100 tareas de fútbol base · pág. 107"
+ },
+ "top": "Para marcar hay que recibir en la zona a la espalda de la defensa: enseña a atacar la profundidad.",
+ "probado": false,
+ "completado": "Diagrama con el campo girado: zonas a los lados.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 36.5,
+   "ymin": -0.8,
+   "ymax": 25.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     25
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     35,
+     25
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    0,
+    18,
+    "L"
+   ],
+   [
+    35,
+    7,
+    "R"
+   ],
+   [
+    35,
+    18,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 8,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19.5,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24.5,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 17.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     12.5
+    ],
+    "b": [
+     19.5,
+     13.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     3.5
+    ],
+    "b": [
+     32,
+     3.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     19.5,
+     13.5
+    ],
+    "b": [
+     32,
+     5.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "id": "TFB100-046",
+ "bloque": "Defensa y presión",
+ "titulo": "Defensa a pares",
+ "formato": "4v4",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "18 min",
+ "series": "3 partes de 5 min con 1 min de descanso, cambiando las parejas.",
+ "objetivo": "Defender al jugador asignado: entre él y la portería, viendo balón y rival, apretando cuando recibe y ayudando cuando el balón está lejos.",
+ "montaje": "30 × 25 m con una miniportería en cada fondo. 4 contra 4: cada jugador tiene una pareja fija en el otro equipo, con su mismo número.",
+ "juego": "Sin balón, solo puedes robar a tu pareja: entre ella y tu portería, viendo balón y pareja. Si recibe, aprieta; si está lejos, ciérrate. Robar a otro devuelve el balón.",
+ "punto": "Gol, 1 punto. Gol tras robo por anticipación, 2.",
+ "consigna": "Entre tu pareja y la portería.",
+ "variantes": {
+  "facil": "3 contra 3 en un campo más pequeño.",
+  "dificil": "En la mitad propia se puede robar a cualquiera, o el defensor suma si su pareja no recibe en un minuto."
+ },
+ "adaptacion": "Alevín: 30 × 25 m. Infantil: 35 × 30 m y se puede robar a otro para ayudar al compañero superado.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Defensa a pares: partido 4 contra 4 en el que cada uno tiene su pareja",
+  "ref": "100 tareas de fútbol base · pág. 61"
+ },
+ "top": "Defensa a pares con pareja fija: responsabilidad individual en un partido real.",
+ "probado": false,
+ "completado": "Diagrama con el campo girado: miniporterías a los lados.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -0.8,
+   "ymax": 25.8
+  },
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    30,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 4,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 19.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 12.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     12.5
+    ],
+    "b": [
+     11.5,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     5.5
+    ],
+    "b": [
+     14.2,
+     4.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     19
+    ],
+    "b": [
+     16,
+     15
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

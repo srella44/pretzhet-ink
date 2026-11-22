@@ -1,0 +1,159 @@
+{
+ "id": "LU-P228",
+ "bloque": "Defensa y presión",
+ "titulo": "Espera las ayudas",
+ "formato": "3v2 → 3v4",
+ "edad": "13–18 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug. + 2 PT",
+ "espacio": "40 × 50 m",
+ "duracion": "20 min",
+ "series": "4 × 4 min con 1 min de descanso; rotan atacantes y defensores (propuesta).",
+ "objetivo": "Temporizar en inferioridad hasta que llegan las ayudas, sin entrar de golpe, y cubrir al central que sale a banda.",
+ "montaje": "40 × 50 m con portería y portero en cada fondo. Tres atacantes contra dos centrales; los laterales, a su altura.",
+ "juego": "3 contra 2. A los 3 s los laterales repliegan y se pasa a 3 contra 4. Los centrales temporizan sin entrar de golpe. Si roban, contraatacan 4 contra 3.",
+ "punto": "Gol, 1 para el ataque. Robo, 1; gol de contraataque, 2 (propuesta).",
+ "consigna": "No entres de golpe: retrasa el ataque.",
+ "variantes": {
+  "facil": "Los laterales salen a los 2 s (propuesta).",
+  "dificil": "Los laterales salen a los 4 s o los atacantes tienen 10 s para tirar (propuesta)."
+ },
+ "adaptacion": "Infantil: 35 × 40 m. Cadete y juvenil: tal cual (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Ataque vs defensa (14+2P) · Pere Riera",
+  "ref": "300 ejercicios Level Up Coach · pág. 228"
+ },
+ "top": "Los laterales repliegan a los 3 segundos: temporizar en inferioridad con tiempo real.",
+ "probado": false,
+ "completado": "Edad, series, variantes y puntuación (propuesta). Posición de salida de los laterales interpretada de la fuente. Diagrama con menos jugadores de los reales.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "tag": "40 × 50 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 51.5,
+   "ymin": -0.8,
+   "ymax": 40.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 37,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     20
+    ],
+    "b": [
+     27,
+     20
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     3
+    ],
+    "b": [
+     32,
+     6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     37
+    ],
+    "b": [
+     32,
+     34
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    11,
+    8.6,
+    "A LOS 3 S",
+    "middle"
+   ]
+  ]
+ }
+}

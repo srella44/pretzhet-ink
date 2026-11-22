@@ -1,0 +1,140 @@
+{
+ "id": "PI-TJ-015",
+ "bloque": "Defensa y presión",
+ "titulo": "Muerde la devolución",
+ "formato": "3v2",
+ "edad": "8–9 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug.",
+ "espacio": "17 × 13 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min; rotan los defensores (propuesta).",
+ "objetivo": "Leer la pared e interceptar el pase de vuelta en lugar de perseguir el balón.",
+ "montaje": "17 × 13 m con una puerta de salida en el fondo, detrás de dos defensores. Tres atacantes en triángulo.",
+ "juego": "Los atacantes pueden salir conduciendo o apoyarse en el vértice retrasado. Los defensores deciden: uno persigue el balón o espera en el camino de vuelta al primer pasador.",
+ "punto": "1 punto por cruzar la puerta o por robar el pase de vuelta. Otros robos reinician el juego.",
+ "consigna": "A veces el pase fácil es el que vuelve al mismo pie.",
+ "variantes": {
+  "facil": "Puerta más estrecha (propuesta).",
+  "dificil": "Atacantes a dos toques (propuesta)."
+ },
+ "adaptacion": "Si fuerzan devoluciones, cuenta igual todas las salidas controladas. Alevín: 4 contra 2 con dos puertas (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Muerde la devolución",
+  "ref": "Ficha propia PI-TJ-015 (ORI-0091)"
+ },
+ "top": "Ficha propia: morder la devolución en vez de perseguir el balón. Presión inteligente.",
+ "probado": false,
+ "completado": "Duración, series y variantes (propuesta). Reinicio simplificado: en la ficha original, el que roba de otra forma reinicia como atacante con un compañero del otro equipo. Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   17,
+   13
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 18,
+   "ymin": -0.8,
+   "ymax": 13.8
+  },
+  "cones": [
+   [
+    17,
+    4.5
+   ],
+   [
+    17,
+    8.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 2.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 3.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.5,
+     2.5
+    ],
+    "b": [
+     2,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     8.5
+    ],
+    "b": [
+     5.2,
+     7.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     11.5,
+     3.5
+    ],
+    "b": [
+     5.3,
+     4.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 2,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    15.5,
+    12.4,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

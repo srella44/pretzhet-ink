@@ -1,0 +1,136 @@
+{
+ "id": "PI-TJ-014",
+ "bloque": "Defensa y presión",
+ "titulo": "La presión que se entrega",
+ "formato": "3v3",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "21 × 15 m",
+ "duracion": "15 min",
+ "series": "4 series de 6 acciones; se intercambian los inicios (propuesta).",
+ "objetivo": "Entregar la presión entre dos defensores cuando el conductor cruza, sin que los dos persigan al mismo.",
+ "montaje": "21 × 15 m con dos líneas de fondo. 3 contra 3: defensores escalonados y un atacante que conduce paralelo a la banda.",
+ "juego": "El primero presiona. Si el conductor cruza delante del segundo, este lo toma y el primero cierra el pase atrás. Se puede jugar de vuelta antes del relevo.",
+ "punto": "1 punto por cruzar el fondo con el balón controlado o por robar y dar un pase.",
+ "consigna": "Avisa antes de tomar la marca.",
+ "variantes": {
+  "facil": "El atacante no puede jugar de vuelta (propuesta).",
+  "dificil": "Se permite al atacante girarse antes del cruce."
+ },
+ "adaptacion": "Si el relevo se hace por obligación, deja girar al atacante antes del cruce. Infantil: 4 contra 4 (propuesta).",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "La presión que se entrega",
+  "ref": "Ficha propia PI-TJ-014 (ORI-0087)"
+ },
+ "top": "Ficha propia: entregar la presión al compañero cuando el conductor cruza. Muy poco trabajada.",
+ "probado": false,
+ "completado": "Duración, series y variante fácil (propuesta). Diseño revisado, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   21,
+   15
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 21.8,
+   "ymin": -0.8,
+   "ymax": 15.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13.5,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     3.5
+    ],
+    "b": [
+     12,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 18,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     13.5,
+     8.5
+    ],
+    "b": [
+     13,
+     4.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     8.5,
+     5.5
+    ],
+    "b": [
+     5.5,
+     8.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    18,
+    7.5,
+    "RELEVO",
+    "middle"
+   ]
+  ]
+ }
+}
