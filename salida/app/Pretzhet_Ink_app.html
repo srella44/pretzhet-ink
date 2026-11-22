@@ -212,7 +212,7 @@ const SHORT = ['Calentar','Técnica','Rondo','Posesión','Superior.','Oleada','F
 const PL = [['Hasta 6',0,6],['7–10',7,10],['11–14',11,14],['15 o más',15,99],['Sin indicar']];
 const EST = [['Todos',''],['Del libro','book'],['TOP ★','tp'],['Probados ✓','pr']];
 for (const [L, f] of [[AGES, r => r.a], [PL, r => r.p]]) { if (!R.some(r => !f(r))) { const i = L.findIndex(x => x[1] === undefined); if (i >= 0) L.splice(i, 1); } }
-let home = true;
+let home = false;
 const st = { b:new Set(), a:new Set(), l:new Set(), p:new Set(), org:'', q:'', est:'', ord:'sc' };
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -276,7 +276,7 @@ function tags() {
   return t.length;
 }
 function go() { home = false; apply(); scrollTo(0, 0); }
-function goHome() { st.b.clear(); st.a.clear(); st.l.clear(); st.p.clear(); st.org = ''; st.est = ''; st.q = ''; $('#q').value = ''; home = true; sheet(false); apply(); scrollTo(0, 0); }
+function goHome() { st.b.clear(); st.a.clear(); st.l.clear(); st.p.clear(); st.org = ''; st.est = ''; st.q = ''; $('#q').value = ''; home = false; sheet(false); apply(); scrollTo(0, 0); }
 let hl = [];
 function renderHome() {
   const tot = R.length, c = {}; R.forEach(r => c[r.b] = (c[r.b]||0) + 1);
