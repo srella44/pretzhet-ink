@@ -51,6 +51,8 @@ def players(r_jug, title):
     if s.startswith('Parejas'): return [2, 2]
     if s.startswith('Tríos'): return [3, 3]
     if s.startswith(('Todo el grupo', 'Grupos de')): return None
+    m = re.match(r'\s*(\d{1,2}) jug\w*\.? ?\+ ?(\d{1,2})', s)
+    if m: return [int(m.group(1)) + int(m.group(2))] * 2
     nums = [int(x) for x in re.findall(r'\b(\d{1,2})\b', s) if 1 < int(x) <= 30]
     if 'entrada' in s: nums = []
     if nums: return [min(nums), max(nums)]
