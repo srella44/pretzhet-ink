@@ -75,3 +75,9 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 
 ## 2026-11-23 · Duplicados retirados
 - 402 ejercicios casi idénticos (mismo bloque, mismo título limpio y ≥ 80 % de parecido en el texto) pasan a «Fusionar (duplicado)» con `dup_keeper`; fuera de la app y de la cola. No se borra nada: se pueden recuperar cambiando `dec`. No se tocan los del libro, con ficha, TOP o probados.
+
+## App: rediseño (23 nov)
+- Nueva interfaz estilo moderno: filtros en panel lateral (hoja inferior en móvil), buscador de «Entrenador o equipo» sin lista visible, estado en un solo selector (Todos/Libro/TOP/Probados), etiquetas de filtros activos.
+- Quitados de la app: filtro «Fuente», «Con diagrama» y «a revisar». Los 718 «Revisar nivel» pasan a Candidato (propuesta).
+- `datos/origen_oculto.txt`: nombres que no deben verse en la etiqueta ni el filtro.
+- Corregido el parseo de edades («Desde 13 años» salía 1–3).

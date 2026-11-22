@@ -1,0 +1,2 @@
+# Nombres (entrenador, club o colección) que NO deben verse en la etiqueta de la imagen ni en el filtro «Entrenador o equipo».
+# Uno por línea, tal como aparecen en la app (p. ej. «Simeone» o «FIFA»). Las líneas que empiezan por # se ignoran.

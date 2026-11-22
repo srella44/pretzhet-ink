@@ -33,8 +33,10 @@ def ages(s):
         pass
     for u in re.findall(r'\bu ?(\d{1,2})\b', t):
         k = int(u); lo.append(k - 1); hi.append(k)
-    m = re.findall(r'(\d{1,2}) ?(?:a|-|–)? ?(\d{1,2}) anos', t)
+    m = re.findall(r'\b(\d{1,2}) ?(?:a|-|–| ) ?(\d{1,2}) anos', t)
     for a, b in m: lo.append(int(a)); hi.append(int(b))
+    m = re.search(r'desde (\d{1,2}) anos', t)
+    if m and not lo: lo.append(int(m.group(1))); hi.append(18)
     m = re.search(r'(\d{1,2}) ?\+', t)
     if m and not lo: lo.append(int(m.group(1))); hi.append(18)
     if 'junior' in t or 'senior' in t: return None
@@ -199,6 +201,10 @@ for k, d in drawn.items():
 for r in recs:
     r['x'] = {k: v for k, v in r['x'].items() if v}
     if r['i'] in TOP: r['tp'] = TOP[r['i']]
+_hide = {l.strip() for l in open(os.path.join(ROOT, 'datos', 'origen_oculto.txt'), encoding='utf-8') if l.strip() and not l.startswith('#')}
+for r in recs:
+    for k in ('co', 'cl'):
+        if r.get(k) in _hide: del r[k]
 svgs = {k: render_svg(v['diagrama']) for k, v in drawn.items()}
 print(len(recs), sum(1 for r in recs if r['lb']), len(svgs))
 blocks = [{'n': b, 'c': '#' + c, 'k': ink(c)} for b, c in BLOCKS.items()]
