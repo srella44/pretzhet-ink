@@ -213,7 +213,7 @@ function qscore(r, words) {
   }
   return sc;
 }
-let store = {}; try { store = JSON.parse(localStorage.getItem('pi-filtros2') || '{}'); } catch(e) {}
+let store = {}; try { store = JSON.parse(localStorage.getItem('pi-filtros2') || '{}') || {}; } catch(e) {}
 const ORG = {}; R.forEach(r => { [r.co, r.cl].forEach(n => { if (n) ORG[n] = (ORG[n]||0) + 1; }); });
 const ORGS = Object.keys(ORG).map(n => ({ n, k: fold(n), c: ORG[n] })).sort((a,b) => b.c - a.c);
 
@@ -348,7 +348,7 @@ oi.oninput = sugs; oi.onblur = () => setTimeout(() => sug.hidden = true, 120); o
 oi.onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); pick(hi); } else if (e.key === 'Escape') { sug.hidden = true; } };
 function hh() { document.documentElement.style.setProperty('--hh', $('#top').offsetHeight + 'px'); }
 addEventListener('resize', hh); hh(); if (document.fonts) document.fonts.ready.then(hh);
-if (store.b) { (store.b||[]).forEach(i=>st.b.add(i)); (store.a||[]).forEach(i=>st.a.add(i)); (store.l||[]).forEach(i=>st.l.add(i)); (store.p||[]).forEach(i=>st.p.add(i)); Object.assign(st, { org: store.org||'', est: store.est||'', ord: store.ord||'sc' }); }
+if (store.b) { (store.b||[]).forEach(i=>B[i]&&st.b.add(i)); (store.a||[]).forEach(i=>AGES[i]&&st.a.add(i)); (store.l||[]).forEach(i=>LV[i]&&st.l.add(i)); (store.p||[]).forEach(i=>PL[i]&&st.p.add(i)); Object.assign(st, { org: store.org||'', est: store.est||'', ord: store.ord||'sc' }); }
 $('#f-ord').value = st.ord;
 apply(); hh();
 </script>
