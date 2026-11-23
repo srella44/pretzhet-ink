@@ -136,6 +136,7 @@ def _coach_of(t):
 recs = []
 for r in refs:
     if r['dec'] not in ('Candidato', 'Revisar nivel'): continue
+    if os.path.exists(os.path.join(os.path.dirname(D), 'ejercicios_descartados', r['ID'] + '.json')): continue  # descartado al desarrollarlo
     s = sections(r.get('Mecánica identificada / datos') or '')
     d = drawn.get(r['ID'])
     rec = dict(i=r['ID'], b=BL.index(r['b08']), t=r['Título / referencia'], s=short_src(r['Autor / proveedor']), sl=r['Autor / proveedor'],
