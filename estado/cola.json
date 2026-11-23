@@ -99,13 +99,15 @@
 "id": "PI-TJ-021",
 "fase": 1,
 "bloque": "Técnica y duelos",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-031",
 "fase": 1,
 "bloque": "Técnica y duelos",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "TFB25-016",
@@ -243,13 +245,15 @@
 "id": "PI-TJ-019",
 "fase": 1,
 "bloque": "Posesiones y juego de posición",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-051",
 "fase": 1,
 "bloque": "Posesiones y juego de posición",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "TFB40-012",
@@ -327,7 +331,8 @@
 "id": "PI-TJ-007",
 "fase": 1,
 "bloque": "Superioridades",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "TFB100-031",
@@ -471,13 +476,15 @@
 "id": "PI-TJ-012",
 "fase": 1,
 "bloque": "Finalización",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-044",
 "fase": 1,
 "bloque": "Finalización",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "TFB100-041",
@@ -525,13 +532,15 @@
 "id": "PI-TJ-014",
 "fase": 1,
 "bloque": "Defensa y presión",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-015",
 "fase": 1,
 "bloque": "Defensa y presión",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "TFB100-065",
@@ -573,37 +582,43 @@
 "id": "PI-TJ-008",
 "fase": 1,
 "bloque": "Partidos y situaciones reales",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-061",
 "fase": 1,
 "bloque": "Partidos y situaciones reales",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-055",
 "fase": 1,
 "bloque": "Partidos y situaciones reales",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-029",
 "fase": 1,
 "bloque": "Balón parado",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-028",
 "fase": 1,
 "bloque": "Balón parado",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-030",
 "fase": 1,
 "bloque": "Balón parado",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "TFB100-075",
@@ -645,19 +660,22 @@
 "id": "PI-TP-001",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TP-011",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "PI-TP-021",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"omitir": true
 },
 {
 "id": "DOS-017",
@@ -2733,37 +2751,43 @@
 "id": "PI-TJ-022",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-023",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-032",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-033",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-052",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-056",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ATH-019",
@@ -3057,7 +3081,8 @@
 "id": "PI-TJ-041",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LU-P188",
@@ -3099,67 +3124,78 @@
 "id": "ORI-0121",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0122",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0123",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0124",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0125",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0126",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0127",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0128",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0129",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0130",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0131",
 "fase": 2,
 "bloque": "Técnica y duelos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "TFB25-013",
@@ -3333,13 +3369,15 @@
 "id": "PI-TJ-003",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-001",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LU-P222",
@@ -3357,43 +3395,50 @@
 "id": "PI-TJ-002",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-037",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-043",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-048",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-060",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0001",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0006",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PIK-0018",
@@ -3591,61 +3636,71 @@
 "id": "ORI-0002",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0003",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0004",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0005",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0007",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0008",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0009",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0010",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0011",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0012",
 "fase": 2,
 "bloque": "Rondos",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ACO-003",
@@ -3957,13 +4012,15 @@
 "id": "PI-TJ-017",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-020",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LU-P275",
@@ -3975,55 +4032,64 @@
 "id": "PI-TJ-018",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-024",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-038",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-040",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-050",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0013",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0016",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0104",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0118",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ATH-004",
@@ -4239,127 +4305,148 @@
 "id": "PI-TJ-004",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-016",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-025",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-005",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0014",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0015",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0017",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0018",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0019",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0020",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0021",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0022",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0023",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0024",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0097",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0098",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0099",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0100",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0101",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0102",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0103",
 "fase": 2,
 "bloque": "Posesiones y juego de posición",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "TFB40-016",
@@ -4425,7 +4512,8 @@
 "id": "ORI-0037",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ATH-017",
@@ -4491,13 +4579,15 @@
 "id": "PI-TJ-035",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-049",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "IG-DWMRkCLkT40",
@@ -4527,67 +4617,78 @@
 "id": "ORI-0038",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0039",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0040",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0041",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0042",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0043",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0044",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0045",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0046",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0047",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0048",
 "fase": 2,
 "bloque": "Superioridades",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PIK-AV-023",
@@ -4905,37 +5006,43 @@
 "id": "PI-TJ-046",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-036",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-009",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-010",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-057",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-006",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "AF20-017",
@@ -4947,7 +5054,8 @@
 "id": "ORI-0064",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PIK-0014",
@@ -5019,145 +5127,169 @@
 "id": "PI-TJ-047",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0025",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0026",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0027",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0028",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0029",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0030",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0031",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0032",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0033",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0034",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0035",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0036",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0061",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0062",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0063",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0065",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0066",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0067",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0068",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0069",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0070",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0071",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0072",
 "fase": 2,
 "bloque": "Oleadas y transiciones",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LEI-029",
@@ -5385,7 +5517,8 @@
 "id": "PI-TJ-011",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "DOS-072",
@@ -5409,7 +5542,8 @@
 "id": "ORI-0080",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LU-P018",
@@ -5475,73 +5609,85 @@
 "id": "PI-TJ-013",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0073",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0074",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0075",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0076",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0077",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0078",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0079",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0081",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0082",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0083",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0084",
 "fase": 2,
 "bloque": "Finalización",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LEI-092",
@@ -5847,7 +5993,8 @@
 "id": "PI-TJ-026",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LU-P203",
@@ -5865,31 +6012,36 @@
 "id": "PI-TJ-027",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-039",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-042",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-045",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0085",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LU-P013",
@@ -6015,73 +6167,85 @@
 "id": "PI-TJ-053",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0086",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0087",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0088",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0089",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0090",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0091",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0092",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0093",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0094",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0095",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0096",
 "fase": 2,
 "bloque": "Defensa y presión",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "JL-1044",
@@ -6465,31 +6629,36 @@
 "id": "PI-TJ-034",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-054",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TJ-058",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0051",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0058",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "IG-DfaGNyfOeYS",
@@ -6567,7 +6736,8 @@
 "id": "PI-TJ-059",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LU-P231",
@@ -6591,61 +6761,71 @@
 "id": "ORI-0049",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0050",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0052",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0053",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0054",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0055",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0056",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0057",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0059",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0060",
 "fase": 2,
 "bloque": "Partidos y situaciones reales",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LEI-045",
@@ -6777,73 +6957,85 @@
 "id": "ORI-0145",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0146",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0147",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0148",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0149",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0150",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0151",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0152",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0153",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0154",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0155",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0156",
 "fase": 2,
 "bloque": "Balón parado",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "LEI-062",
@@ -6945,97 +7137,113 @@
 "id": "PI-TP-002",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-006",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-010",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-018",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-005",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-009",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-015",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-003",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-004",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-007",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-008",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-013",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-014",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-016",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-019",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-022",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PIK-0006",
@@ -7047,37 +7255,43 @@
 "id": "ORI-0169",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0176",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0181",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0185",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0193",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0205",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "IG-DMaioZ2xOBh",
@@ -7089,127 +7303,148 @@
 "id": "PI-TP-012",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-017",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "PI-TP-020",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0170",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0171",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0172",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0173",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0174",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0175",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0177",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0178",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0179",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0180",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0182",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0183",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0184",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0186",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0187",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0188",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0189",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "ORI-0190",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"omitir": true
 },
 {
 "id": "DOS-057",
@@ -7251,151 +7486,176 @@
 "id": "NUEVO-SUP-01",
 "fase": 3,
 "bloque": "Superioridades",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-SUP-02",
 "fase": 3,
 "bloque": "Superioridades",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-SUP-03",
 "fase": 3,
 "bloque": "Superioridades",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-SUP-04",
 "fase": 3,
 "bloque": "Superioridades",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-01",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-02",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-03",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-04",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-05",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-06",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-07",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-08",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-09",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-10",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-11",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-12",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-13",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-14",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-15",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-16",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-17",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-18",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-19",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-20",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "NUEVO-VC-21",
 "fase": 3,
 "bloque": "Vuelta a la calma",
-"nota": "crear ejercicio propio nuevo"
+"nota": "crear ejercicio propio nuevo",
+"omitir": true
 },
 {
 "id": "FB-001",
@@ -15567,385 +15827,449 @@
 "id": "ORI-0105",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0106",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0107",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0108",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0109",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0110",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0111",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0112",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0113",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0114",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0115",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0116",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0117",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0119",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0120",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0132",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0133",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0134",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0135",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0136",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0137",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0138",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0139",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0140",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0141",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0142",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0143",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0144",
 "fase": 4,
 "bloque": "Posesiones y juego de posición",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0157",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0158",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0159",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0160",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0161",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0162",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0163",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0164",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0165",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0166",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0167",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0168",
 "fase": 4,
 "bloque": "Técnica y duelos",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0191",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0192",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0194",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0195",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0196",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0197",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0198",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0199",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0200",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0201",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0202",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0203",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0204",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0206",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0207",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0208",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0209",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0210",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0211",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0212",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0213",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0214",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0215",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "ORI-0216",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "ficha propia (app)"
+"nota": "ficha propia (app)",
+"omitir": true
 },
 {
 "id": "TLC-0005",
