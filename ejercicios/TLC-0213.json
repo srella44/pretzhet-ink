@@ -1,0 +1,211 @@
+{
+ "id": "TLC-0213",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "9 contra 9 + 1 a 6 miniporterías",
+ "formato": "9v9+1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "19 jug.",
+ "espacio": "60 × 45 m",
+ "duracion": "24 min",
+ "series": "4 × 5 min con 1 min 30 s de pausa; el neutral cambia de puesto en cada serie (pivote, central, mediapunta) (fuente/propuesta).",
+ "objetivo": "Partido posicional con el sistema del equipo: amplitud, profundidad y relación entre líneas, y en defensa, coberturas ante ataques por varios flancos (fuente). Cómo explicarlo: «si un lado está cargado, el gol está en el otro». Errores típicos: todos hacia el balón, extremos por dentro, defensa que no bascula hacia la miniportería amenazada. Qué observar: ocupación de carriles, apoyos entre líneas del neutral y basculaciones. Montaje detallado: 60 × 45 m (propuesta: la web dice «campo entero» y el texto «espacio reducido»). En cada fondo, 3 miniporterías: una en el centro y dos a 8 m de las bandas. Dos equipos de 9 en 4-3-2 (la fuente cita el 1-4-3-3) y 1 neutral con peto distinto.",
+ "montaje": "60 × 45 m con 3 miniporterías en cada fondo. 2 equipos de 9 (4-3-2) y 1 neutral, con peto de otro color.",
+ "juego": "Partido libre; el neutral juega siempre con el que tiene el balón en el puesto que marca el entrenador. Se marca en cualquiera de las 3 miniporterías rivales. Reglas por serie: gol solo tras cambio de orientación o tras pasar por los 3 tercios.",
+ "punto": "Gol: 1. Gol por el carril menos usado: 2 (fuente).",
+ "consigna": "Lado cargado, gol en el otro lado.",
+ "variantes": {
+  "facil": "Sin reglas de provocación y 2 neutrales (propuesta).",
+  "dificil": "Zona de presión con robo obligatorio, campo más corto o más largo, porterías reglamentarias con portero (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 6 contra 6 + 1 en 45 × 35 m con 2 miniporterías por fondo (propuesta). Cadete y juvenil: 10 contra 10 + 1 en 1-4-3-3.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Pep Guardiola)",
+  "titulo_original": "GUARDIOLA 9 vs 9+1",
+  "ref": "toplidercoach.com/guardiola-9-vs-91/"
+ },
+ "completado": "Medidas, ubicación de miniporterías, sistema 4-3-2 (la fuente cita 1-4-3-3 con 9) y series son propuesta. Muñecos de la web sin ubicar: se omiten. Sin diagrama original: dibujado a partir del texto. Se dibuja una parte de los jugadores.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   60,
+   30
+  ],
+  "tag": "60 × 45 m (esquema)",
+  "extent": {
+   "xmin": -2,
+   "xmax": 62,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    0,
+    25,
+    "L"
+   ],
+   [
+    60,
+    5,
+    "R"
+   ],
+   [
+    60,
+    15,
+    "R"
+   ],
+   [
+    60,
+    25,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     40,
+     0
+    ],
+    [
+     40,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 30,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 21,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 24,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     45,
+     21
+    ],
+    "b": [
+     31,
+     15.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     30,
+     15
+    ],
+    "b": [
+     20,
+     6.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     19,
+     6
+    ],
+    "b": [
+     1,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    30,
+    11,
+    "NEUTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

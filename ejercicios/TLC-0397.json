@@ -1,0 +1,210 @@
+{
+ "id": "TLC-0397",
+ "bloque": "Finalización",
+ "titulo": "Centros por parejas",
+ "formato": "pared + centro + remate",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug. + 1 PT",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de pausa; cambio de centradores a rematadores en cada serie (propuesta). Ritmo: un centro cada 10–12 s, alternando banda.",
+ "objetivo": "Llegar al área en pareja coordinando el tiempo de llegada y rematar a un solo contacto (fuente). Cómo explicarlo: «llegad tarde y rápido; uno al primer palo y otro al segundo». Errores típicos: entrar al área antes del centro y quedarse parado, los dos al mismo palo, rematar con potencia y sin dirección, perfil cerrado que obliga a un segundo toque. Qué observar: si la pareja se reparte palos sin hablar y si ataca el espacio y no el balón. Montaje detallado: último tercio con portería y portero. Dos centradores fijos en cada banda (4) y 3 parejas fijas de rematadores en fila a 25 m de portería. Balones (6–10) junto a cada pareja de banda (fuente: más parejas rematando que centrando).",
+ "montaje": "Portería con PT. En cada banda, 2 centradores con balones; 3 parejas fijas de rematadores en fila a 25 m.",
+ "juego": "En una banda hacen pared y uno centra desde cerca del fondo. La primera pareja ataca el área: remate a 1 toque, máx. 1 bote y solo toca uno de los dos. Al acabar, centro desde la otra banda para la pareja siguiente; la que ha rematado vuelve a la fila.",
+ "punto": "Gol: 1 punto; a 1 toque sin bote: 2 (fuente).",
+ "consigna": "Llega tarde y rápido; ataca un palo.",
+ "variantes": {
+  "facil": "Se permite 1 bote y 2 toques en el remate; centro raso desde 15 m (propuesta).",
+  "dificil": "Remate obligatorio al primer o al segundo palo, tipo de centro marcado (raso, tenso, segundo palo), defensor pasivo y luego activo en el área (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): portería de fútbol 7, centro con pase raso desde la frontal del área y remate con 2 toques (propuesta). Cadete: centro tenso a 1 toque tras la pared y defensor activo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Rui Borges)",
+  "titulo_original": "RUI BORGES CENTROS Y REMATES",
+  "ref": "toplidercoach.com/finalizacion-centros-y-remates/"
+ },
+ "completado": "Medidas del último tercio, número de centradores, distancias, duración y series son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   16.5
+  ],
+  "tag": "área · 40 × 30 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2.5,
+   "ymax": 24
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 21,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 21,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 16,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 21.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 21.5,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     21
+    ],
+    "b": [
+     7.4,
+     16.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     2,
+     20.5
+    ],
+    "b": [
+     2,
+     7.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 4,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     8,
+     16
+    ],
+    "b": [
+     2.6,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     2.4,
+     7.2
+    ],
+    "b": [
+     16.5,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 6,
+    "s1": 8,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     15,
+     13
+    ],
+    "b": [
+     17,
+     5.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     25,
+     13
+    ],
+    "b": [
+     23.5,
+     5.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    33,
+    23.5,
+    "PAREJAS EN FILA",
+    "end"
+   ]
+  ]
+ }
+}

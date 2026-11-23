@@ -1,0 +1,170 @@
+{
+ "id": "RONDO-BJ-T05",
+ "bloque": "Calentamiento",
+ "titulo": "El mago de las fintas",
+ "formato": "individual",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "4 bloques de 2′ (uno por finta nueva) con 30″ de explicación entre bloques (fuente: cada 2′ una finta nueva).",
+ "objetivo": "Probar fintas con libertad delante de un defensor imaginario y salir rápido después: el cambio de ritmo tras la finta es lo que la hace útil. Cómo explicarlo: el míster enseña la finta en parado, despacio, y después todos la prueban. Errores típicos: hacer la finta pegados al cono o muy lejos (ideal: a 1–1,5 m), no acelerar después, ir siempre al mismo cono. Qué observar: que intenten la finta nueva y que salgan por el lado contrario al engaño. Montaje detallado: 20 × 15 m con 8–10 conos grandes repartidos (los defensores). Un balón por jugador.",
+ "montaje": "20 × 15 m con 8–10 conos grandes repartidos: son los defensores. Un balón cada uno.",
+ "juego": "Cada uno conduce hacia un cono, a 1 m hace la finta que quiera y sale rápido por el otro lado hacia otro cono. Cada 2′ el míster para, enseña una finta nueva (bicicleta, amago…) y todos la prueban.",
+ "punto": "1 punto por cada finta nueva probada: ninguna está mal (fuente).",
+ "consigna": "Engaña y sal rápido.",
+ "variantes": {
+  "facil": "Finta en parado (fuente).",
+  "dificil": "El cono es un compañero que estira un pie (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): tal cual. Prebenjamín: solo un amago de cuerpo y salida. Alevín: el cono es un compañero con defensa pasiva y la finta hay que hacerla con las dos piernas (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El mago de las fintas (BJ-T05)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 15"
+ },
+ "completado": "Número de conos, distancia de la finta y ejemplos de fintas (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "cones": [
+   [
+    5,
+    4
+   ],
+   [
+    10,
+    2.5
+   ],
+   [
+    15,
+    5
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    9.5,
+    8
+   ],
+   [
+    15,
+    11
+   ],
+   [
+    10,
+    13
+   ],
+   [
+    18,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 14,
+    "f": -30,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     2
+    ],
+    "b": [
+     4,
+     3.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     4.3,
+     3.6
+    ],
+    "b": [
+     8.6,
+     7
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     7.5
+    ],
+    "b": [
+     10.6,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     10.4,
+     8.4
+    ],
+    "b": [
+     14,
+     10.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 4,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    5,
+    6.2,
+    "FINTA",
+    "middle"
+   ]
+  ]
+ }
+}

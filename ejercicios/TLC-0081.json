@@ -1,0 +1,183 @@
+{
+ "id": "TLC-0081",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "3 contra 3 a tres miniporterías",
+ "formato": "3v3",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. (4 tríos)",
+ "espacio": "40 × 20 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de pausa; cada trío ataca 3 veces seguidas y luego cambia con un trío defensor (fuente: varias repeticiones y cambio de roles).",
+ "objetivo": "Transición ofensiva 3 contra 3: atacar con decisión y elegir la miniportería peor defendida en poco tiempo; los defensores coordinan la protección de 3 porterías (fuente). Cómo explicarlo: «mira dónde no hay defensor y ve rápido». Errores típicos: conducir en línea recta hacia el defensor, pases laterales sin ganar metros, defensores que se quedan cada uno en su portería sin salir. Qué observar: tiempo hasta el tiro, fijaciones 1 contra 1 que liberan a un compañero, comunicación de los defensores. Montaje detallado: 40 × 20 m; 3 miniporterías en un fondo (a 3, 10 y 17 m); los defensores ya colocados delante; dos tríos de atacantes en el fondo contrario con balones, y el segundo trío de defensores fuera, en espera.",
+ "montaje": "40 × 20 m. 3 miniporterías en un fondo, con 3 defensores delante. Los atacantes salen del otro fondo.",
+ "juego": "A la señal, el trío atacante sale conduciendo desde su fondo y ataca: tiene 10 s para marcar en cualquiera de las 3 miniporterías. Si roban, los defensores pueden salir conduciendo por la línea de salida. Tras 3 ataques, los tríos cambian de papel.",
+ "punto": "Gol: 1 punto. Robo y salida conduciendo: 1 a la defensa.",
+ "consigna": "Ataca la portería que esté libre, rápido.",
+ "variantes": {
+  "facil": "Comodín ofensivo (4 contra 3) o 15 s para marcar (fuente/propuesta).",
+  "dificil": "2 o 4 miniporterías, toques limitados, el retraso en finalizar da la posesión al rival (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 30 × 20 m, 2 contra 2 + 1 comodín y 15 s (propuesta). Cadete: 8 s y salida del defensor a miniporterías del fondo contrario.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Míchel Sánchez)",
+  "titulo_original": "MICHEL SÁNCHEZ, DUELO 3X3",
+  "ref": "toplidercoach.com/michel-sanchez-duelo-3x3/"
+ },
+ "completado": "La web da 20 × 20 m y el texto 40 × 20 m: se usa la medida del texto. Tiempo límite, salida de los defensores tras robo y puntuación son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "40 × 20 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "goals": [
+   [
+    0,
+    3,
+    "L"
+   ],
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    0,
+    17,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 41.5,
+    "y": 6,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 41.5,
+    "y": 14,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     36,
+     10
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     36,
+     16.5
+    ],
+    "b": [
+     16,
+     17.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     22,
+     12
+    ],
+    "b": [
+     16.5,
+     17
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     17.5
+    ],
+    "b": [
+     1,
+     17
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    30,
+    1.5,
+    "SALIDA",
+    "middle"
+   ]
+  ]
+ }
+}

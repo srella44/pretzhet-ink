@@ -1,0 +1,302 @@
+{
+ "id": "RONDO-AL-M03",
+ "bloque": "Calentamiento",
+ "titulo": "El circuito de los retos",
+ "formato": "circuito por equipos",
+ "edad": "10–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "25 × 15 m",
+ "duracion": "12 min",
+ "series": "4 carreras de unos 2 min con 1 min de pausa; tras cada carrera, el último de cada fila pasa a salir primero (propuesta).",
+ "objetivo": "Activación con habilidades motrices y conducción: saltar, cambiar de dirección con balón, rodar y levantarse, y terminar con tiro. Nadie espera en fila: sale uno cada 5″ (fuente). Cómo explicarlo: demuestra el circuito una vez andando. Errores típicos: salir antes de tiempo, saltarse conos del eslalon, voltereta sin recoger la cabeza. Qué observar: conducción con toques cortos en el eslalon. Montaje detallado: dos calles paralelas de 25 × 7 m. En cada una: 3 vallas bajas (20–30 cm) a 2 m entre sí, un balón por jugador después de las vallas, eslalon de 5 conos a 1,5 m, una colchoneta o zona de hierba para la voltereta y una miniportería al final.",
+ "montaje": "2 calles iguales: 3 vallas bajas, balones, eslalon de 5 conos, zona de voltereta y miniportería. Un equipo por calle.",
+ "juego": "A la señal sale el primero: salta las 3 vallas, coge un balón, hace el eslalon conduciendo, deja el balón, da una voltereta, lo recoge y tira a la miniportería. Sale uno cada 5″. Al tirar, vuelve corriendo por fuera a su fila.",
+ "punto": "Equipo que lleva a todos a meta primero: 1 punto (fuente).",
+ "consigna": "¡Qué rapidez en el eslalon!",
+ "variantes": {
+  "facil": "Sin voltereta (fuente).",
+  "dificil": "Eslalon con la pierna mala (fuente). Gol obligatorio para que cuente el relevo (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): tal cual. Benjamín (8–9): vallas de 15 cm y sin tiempo de salida. Infantil: eslalon a 1 m y tiro a 1 toque tras la voltereta (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El circuito de los retos (AL-M03)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 14"
+ },
+ "completado": "Distancias, altura de las vallas, recorrido de vuelta y series (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   25,
+   15
+  ],
+  "tag": "25 × 15 m",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 17.2
+  },
+  "lines": [
+   [
+    [
+     0,
+     7.5
+    ],
+    [
+     25,
+     7.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     4,
+     2.5
+    ],
+    [
+     4,
+     5
+    ],
+    ""
+   ],
+   [
+    [
+     6,
+     2.5
+    ],
+    [
+     6,
+     5
+    ],
+    ""
+   ],
+   [
+    [
+     8,
+     2.5
+    ],
+    [
+     8,
+     5
+    ],
+    ""
+   ],
+   [
+    [
+     4,
+     10
+    ],
+    [
+     4,
+     12.5
+    ],
+    ""
+   ],
+   [
+    [
+     6,
+     10
+    ],
+    [
+     6,
+     12.5
+    ],
+    ""
+   ],
+   [
+    [
+     8,
+     10
+    ],
+    [
+     8,
+     12.5
+    ],
+    ""
+   ]
+  ],
+  "cones": [
+   [
+    11,
+    3.75
+   ],
+   [
+    12.5,
+    3.75
+   ],
+   [
+    14,
+    3.75
+   ],
+   [
+    15.5,
+    3.75
+   ],
+   [
+    17,
+    3.75
+   ],
+   [
+    11,
+    11.25
+   ],
+   [
+    12.5,
+    11.25
+   ],
+   [
+    14,
+    11.25
+   ],
+   [
+    15.5,
+    11.25
+   ],
+   [
+    17,
+    11.25
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 20,
+    "y": 3.75,
+    "r": 1.4
+   },
+   {
+    "t": "circle",
+    "x": 20,
+    "y": 11.25,
+    "r": 1.4
+   }
+  ],
+  "goals": [
+   [
+    25,
+    3.75,
+    "R"
+   ],
+   [
+    25,
+    11.25,
+    "R"
+   ]
+  ],
+  "balls": [
+   [
+    9.6,
+    5.8
+   ],
+   [
+    9.6,
+    13.3
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 3.75,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 3.75,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 11.25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -1.4,
+    "y": 11.25,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 9.2,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     3.75
+    ],
+    "b": [
+     9.4,
+     3.75
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     9.5,
+     9.2
+    ],
+    "b": [
+     18.5,
+     9.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     21.5,
+     11.25
+    ],
+    "b": [
+     24.5,
+     11.25
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 2,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    6,
+    1.4,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    14,
+    1.4,
+    "ESLALON",
+    "middle"
+   ],
+   [
+    20,
+    16.3,
+    "VOLTERETA",
+    "middle"
+   ]
+  ]
+ }
+}

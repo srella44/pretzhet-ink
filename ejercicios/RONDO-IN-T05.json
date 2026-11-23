@@ -1,0 +1,171 @@
+{
+ "id": "RONDO-IN-T05",
+ "bloque": "Calentamiento",
+ "titulo": "Pases en el tráfico",
+ "formato": "2 equipos, 4 balones",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "12 min",
+ "series": "5 series de 90″ con 45″ de pausa (fuente: 90″ por serie).",
+ "objetivo": "Pase y control en un espacio lleno: mirar antes de recibir, pasar por líneas libres y moverse para dar apoyo entre jugadores del otro equipo. Cómo explicarlo: «antes de que te llegue, mira a quién vas a pasar». Errores típicos: pasar a un compañero tapado, quedarse quieto detrás de un rival, controlar sin orientar. Qué observar: perfil y control orientado hacia el espacio libre. Montaje detallado: 30 × 20 m. Dos equipos con petos de color distinto en el mismo espacio; cada equipo con 2 balones.",
+ "montaje": "30 × 20 m. 2 equipos con petos en el mismo espacio; cada equipo con 2 balones.",
+ "juego": "Cada equipo se pasa sus 2 balones entre compañeros, moviéndose por todo el campo entre los jugadores del otro equipo. No hay entradas: nadie quita el balón. Pase bueno = llega al compañero sin tocar a nadie ni otro balón. Cada equipo cuenta en voz alta.",
+ "punto": "Gana el equipo con más pases buenos en 90″ (fuente).",
+ "consigna": "Mira antes de recibir.",
+ "variantes": {
+  "facil": "Un balón por equipo (fuente).",
+  "dificil": "Un jugador de cada equipo puede interceptar los balones del otro (fuente); 2 toques máximo (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín: 1 balón por equipo y 30 × 25 m. Cadete: pases a 1 toque y 2 interceptores (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Pases en el tráfico (IN-T05)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 20"
+ },
+ "completado": "Definición de pase bueno, conteo en voz alta y series (propuesta).",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "tag": "30 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 9,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     12.4,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     10.6,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     8,
+     9
+    ],
+    "b": [
+     16.4,
+     3.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     11
+    ],
+    "b": [
+     24.4,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ }
+}

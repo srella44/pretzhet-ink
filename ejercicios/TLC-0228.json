@@ -1,0 +1,173 @@
+{
+ "id": "TLC-0228",
+ "bloque": "Defensa y presión",
+ "titulo": "Tercer hombre y tiro",
+ "formato": "3 atacantes + 1 defensor",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min con 1 min de pausa; el defensor cambia cada 5 acciones y los atacantes rotan de puesto en cada acción (propuesta).",
+ "objetivo": "Combinación rápida con tercer hombre y tiro, y para el defensor, lectura y reacción para bloquear el disparo (fuente). Cómo explicarlo al atacante: «toca, devuelve, busca al tercero y dispara donde no está el defensor». Al defensor: «perfil entre balón y portería, pasos cortos y cuerpo grande». Errores típicos: pases lentos o al pie equivocado; el defensor se lanza antes del tiro o se gira. Qué observar: tiempo de la combinación (≤ 6 s) y si el tirador mira al defensor antes de elegir portería. Montaje detallado: dos miniporterías en el fondo, separadas 7 m; el defensor en el centro, a 4 m de la línea; el iniciador a 19 m; el segundo y el tercer jugador a 13 y 10 m, en lados distintos (conos). Quinto jugador espera para entrar.",
+ "montaje": "2 miniporterías separadas 7 m en un fondo; defensor entre ambas. 3 atacantes en conos a 10, 13 y 19 m.",
+ "juego": "El 1.º pasa al 2.º, que devuelve a 1 toque. El 1.º busca al 3.º, que deja de cara para el 2.º. Este decide a qué miniportería tira. El defensor, entre las dos, lee y bloquea. Máx. 6 s por acción; cada 5 acciones entra otro defensor.",
+ "punto": "Gol: 1 al ataque. Tiro bloqueado o fuera: 1 al defensor.",
+ "consigna": "Mira al defensor y tira al otro lado.",
+ "variantes": {
+  "facil": "Defensor que no sale de una zona de 2 m y toques libres (propuesta).",
+  "dificil": "Defensor más cerca o más lejos al inicio, toques limitados, portero en una o en las dos porterías, segundo defensor en progresión (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): porterías separadas 9 m y 2 toques por jugador. Cadete: todo a 1 toque y defensor que puede salir a la recepción del 3.º (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Mikel Arteta)",
+  "titulo_original": "ARTETA,COMBINACIÓN + INTERCEPTACIÓN",
+  "ref": "toplidercoach.com/artetacombinacion-interceptacion/"
+ },
+ "completado": "Distancias entre jugadores, tiempo máximo, rotación y puntuación son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "goals": [
+   [
+    0,
+    4,
+    "L"
+   ],
+   [
+    0,
+    11,
+    "L"
+   ]
+  ],
+  "cones": [
+   [
+    19,
+    7.5
+   ],
+   [
+    13,
+    3.5
+   ],
+   [
+    10,
+    11.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 3.5,
+    "y": 7.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     7.5
+    ],
+    "b": [
+     13.5,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     13,
+     3.5
+    ],
+    "b": [
+     8,
+     6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     17.6,
+     7.9
+    ],
+    "b": [
+     10.6,
+     11.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     10,
+     11.5
+    ],
+    "b": [
+     8,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     7.6,
+     6
+    ],
+    "b": [
+     0.8,
+     3.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 5,
+    "s0": 6,
+    "s1": 4
+   }
+  ]
+ }
+}

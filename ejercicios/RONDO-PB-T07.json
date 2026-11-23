@@ -1,0 +1,186 @@
+{
+ "id": "RONDO-PB-T07",
+ "bloque": "Calentamiento",
+ "titulo": "El cambio de tesoros",
+ "formato": "2 equipos",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 1′ con 30″ de pausa para contar (fuente: al pitido se cuenta y se repite).",
+ "objetivo": "Conducción con muchos contactos, cambios de dirección y cabeza levantada para no chocar, en un juego que les encanta. Cómo explicarlo: «los balones son tesoros: llevad todos los vuestros a la casa del otro equipo». Errores típicos: chutar el balón en vez de conducirlo, coger dos a la vez, chocar en el centro. Qué observar: toques suaves y que levanten la cabeza al cruzar. Montaje detallado: 20 × 15 m. En cada fondo, una casa de 4 × 15 m marcada con conos y, dentro, tantos balones como jugadores más 2 o 3.",
+ "montaje": "20 × 15 m. En cada fondo, una casa de 4 m con muchos balones dentro. Un equipo en cada casa.",
+ "juego": "A la señal, cada jugador saca un balón de su casa y lo lleva conduciendo a la casa del otro equipo; lo deja dentro y vuelve corriendo a por otro. Solo un balón cada vez y siempre con los pies. Al pitido, todos quietos y se cuentan los balones.",
+ "punto": "Gana la casa con menos balones al pitido (fuente).",
+ "consigna": "Toques suaves y mira al cruzar.",
+ "variantes": {
+  "facil": "Llevarlo con las manos (fuente).",
+  "dificil": "Solo se entra en la casa parando el balón con la suela (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): tal cual. Benjamín: se puede robar el balón del rival en el centro (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El cambio de tesoros (PB-T07)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 27"
+ },
+ "completado": "Tamaño de las casas, número de balones y duración de la ronda (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     4,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     16,
+     0,
+     20,
+     15
+    ]
+   }
+  ],
+  "balls": [
+   [
+    1.5,
+    3
+   ],
+   [
+    2.8,
+    6
+   ],
+   [
+    1.4,
+    9.5
+   ],
+   [
+    2.6,
+    12.5
+   ],
+   [
+    17.5,
+    2.5
+   ],
+   [
+    18.6,
+    5.5
+   ],
+   [
+    17.2,
+    11
+   ],
+   [
+    18.5,
+    13.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 8.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     4
+    ],
+    "b": [
+     15.5,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     14,
+     7.5
+    ],
+    "b": [
+     4.5,
+     7.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     15.5,
+     3
+    ],
+    "b": [
+     10,
+     1.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    2,
+    14.2,
+    "CASA",
+    "middle"
+   ],
+   [
+    18,
+    14.2,
+    "CASA",
+    "middle"
+   ]
+  ]
+ }
+}

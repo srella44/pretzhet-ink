@@ -1,0 +1,181 @@
+{
+ "id": "RONDO-BJ-T03",
+ "bloque": "Calentamiento",
+ "titulo": "Pásaselo al cartero",
+ "formato": "parejas",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug. (parejas)",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "3 × 2 min con 1 min de pausa: en cada serie la pareja intenta batir su récord (fuente: se cuentan las cartas en 2′).",
+ "objetivo": "Pase y control en movimiento, mirando dónde está el compañero y buscando espacios libres. Cómo explicarlo: «el balón es una carta: tiene que atravesar el buzón y llegar al cartero». Errores típicos: pases fuertes que el compañero no controla, las dos de la pareja paradas, ir siempre al mismo buzón. Qué observar: control orientado para pasar a otro buzón. Montaje detallado: 20 × 20 m con 6 miniporterías o puertas de conos de 2 m (buzones) repartidas por dentro, orientadas en sentidos distintos. Un balón por pareja.",
+ "montaje": "20 × 20 m con 6 buzones (puertas de 2 m) repartidos y orientados distinto. Por parejas, un balón.",
+ "juego": "Las parejas se mueven por todo el campo y se pasan el balón haciéndolo pasar por un buzón: cada pase que cruza la puerta y llega al compañero es una carta entregada. Después de cada carta, buscan otro buzón. Cada pareja cuenta sus cartas en 2′.",
+ "punto": "Cartas en 2′: la pareja intenta batir su récord (fuente).",
+ "consigna": "Mira dónde está tu cartero antes de pasar.",
+ "variantes": {
+  "facil": "Buzones anchos de 3 m (fuente).",
+  "dificil": "No se puede usar el mismo buzón dos veces seguidas (fuente); pase con la pierna mala (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): tal cual. Prebenjamín: buzones de 3 m y se puede parar el balón. Alevín: buzones de 1,5 m y control orientado obligatorio (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Pásaselo al cartero (BJ-T03)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 22"
+ },
+ "completado": "Número y ancho de los buzones (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "tag": "20 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    6,
+    2.5
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    16,
+    9.5
+   ],
+   [
+    18.5,
+    9.5
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    9,
+    14.5
+   ],
+   [
+    14,
+    2
+   ],
+   [
+    14,
+    4.5
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    5.5,
+    9
+   ],
+   [
+    14,
+    16
+   ],
+   [
+    16.5,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 13.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     4
+    ],
+    "b": [
+     10,
+     3.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     17,
+     4.5
+    ],
+    "b": [
+     17,
+     14.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     4,
+     13
+    ],
+    "b": [
+     12.4,
+     13.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 10
+   }
+  ]
+ }
+}

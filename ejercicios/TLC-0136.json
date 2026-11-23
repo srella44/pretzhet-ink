@@ -1,0 +1,213 @@
+{
+ "id": "TLC-0136",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4 × 4 con 4 apoyos",
+ "formato": "4v4 + 4 apoyos + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "40 × 30 m",
+ "duracion": "20 min",
+ "series": "5 × 3 min con 1 min de pausa; tras cada serie, los 4 apoyos cambian con 4 interiores (fuente: rotar cada 2–3 min).",
+ "objetivo": "Usar apoyos exteriores para crear superioridad, finalizar tras centro o tras tercer hombre con el apoyo de fondo, y remate a 1 toque (fuente). Cómo explicarlo: «apoyo de fondo = descarga para el que llega; apoyo de banda = centro tenso». Errores típicos: abusar del pase largo al apoyo, rematadores parados, apoyos de banda que tardan en centrar, olvidarse de replegar tras pérdida. Qué observar: búsqueda del tercer hombre tras la descarga del fondo y la llegada de 2 al centro. Montaje detallado: doble área (aprox. 40 × 30 m) con porterías y porteros. 4 contra 4 dentro, toques libres; 2 apoyos de banda (uno en cada banda, 2 toques) y 2 de fondo (junto a cada portería, 1 toque), que juegan siempre con el que ataca.",
+ "montaje": "Doble área con 2 porterías y PT. 4 contra 4 dentro; 2 apoyos en las bandas y 2 junto a las porterías.",
+ "juego": "Partido de toques libres dentro. Los apoyos juegan con el que tiene el balón: los de banda a 2 toques (controlan y centran) y los de fondo a 1 toque (descargan para el que llega). Gol a 1 toque tras pase del fondo vale 3; tras centro, 2; sin apoyo, 1.",
+ "punto": "Gol tras apoyo de fondo: 3; tras centro: 2; otro: 1 (fuente).",
+ "consigna": "Usa al apoyo y llega a rematar.",
+ "variantes": {
+  "facil": "Comodín interior para el que ataca (5 contra 4) (fuente).",
+  "dificil": "Máximo 2 toques dentro, +1 si hay 5 pases antes del gol, el apoyo de banda entra al campo tras asistir (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 3 contra 3 + 4 apoyos en 30 × 25 m, apoyos a toques libres (propuesta). Cadete: 2 toques dentro.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Xabi Alonso)",
+  "titulo_original": "XABI ALONSO,PARTIDO APOYOS BANDAS Y FONDOS",
+  "ref": "toplidercoach.com/partidillo-apoyos-bandas-y-fondos/"
+ },
+ "completado": "Ubicación exacta de los apoyos y series son propuesta. La web indica 16 jugadores; el texto, 4 contra 4 + 4 apoyos + porteros (14): se usa el texto. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   22
+  ],
+  "tag": "doble área 40 × 30 m (esquema)",
+  "extent": {
+   "xmin": -4.5,
+   "xmax": 44.5,
+   "ymin": -3.5,
+   "ymax": 25.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 11,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 11,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 20,
+    "y": -2.2,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 24.2,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -2.5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 42.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 17,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     27,
+     10
+    ],
+    "b": [
+     18.6,
+     16.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     18,
+     17
+    ],
+    "b": [
+     -1.8,
+     17.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     6,
+     12.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     -2.5,
+     18
+    ],
+    "b": [
+     5.4,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     5.6,
+     12.6
+    ],
+    "b": [
+     1,
+     11.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    27,
+    -2.2,
+    "APOYO BANDA",
+    "start"
+   ],
+   [
+    2,
+    23.5,
+    "APOYO FONDO",
+    "start"
+   ]
+  ]
+ }
+}

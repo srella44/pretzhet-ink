@@ -1,0 +1,134 @@
+{
+ "id": "RONDO-AL-M01",
+ "bloque": "Calentamiento",
+ "titulo": "Roba-colas con balón",
+ "formato": "todos contra todos",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "5 series de 90″ con 45″ de pausa (fuente: 90″ por serie).",
+ "objetivo": "Conducción con la cabeza levantada, protección del balón y atención a varios estímulos a la vez (proteger la cola y robar otras). Cómo explicarlo: «balón pegado al pie y ojos en las colas». Errores típicos: dejar el balón para robar una cola, conducir mirando al suelo, salir del cuadrado para escapar. Qué observar: giros para proteger la cola y toques cortos. Montaje detallado: 20 × 20 m con conos. Cada jugador con un balón y un peto metido por detrás en el pantalón (la cola), que cuelgue al menos 20 cm.",
+ "montaje": "20 × 20 m. Cada jugador con un balón y un peto metido por detrás del pantalón (la cola).",
+ "juego": "Todos conducen dentro del cuadrado e intentan quitar las colas de los demás sin perder su balón. Quien pierde la cola se la vuelve a poner y sigue. Si el balón sale del cuadrado, se recupera y se vuelve a entrar. Cada uno cuenta las colas robadas.",
+ "punto": "Se cuentan las colas robadas en 90″ (fuente).",
+ "consigna": "Balón pegado y ojos en las colas.",
+ "variantes": {
+  "facil": "Sin balón (fuente).",
+  "dificil": "Quien pierde el balón hace 5 toques antes de seguir (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): tal cual. Benjamín: primero sin balón (ver «La caza de colas»). Infantil: 15 × 15 m y solo se roba con la mano contraria a la del lado del balón (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Roba-colas con balón (AL-M01)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 3"
+ },
+ "completado": "Salida del balón y largo de la cola (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "tag": "20 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 8,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 3,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 17.5,
+    "f": -60,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     9,
+     7
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     11,
+     8
+    ],
+    "b": [
+     12,
+     12.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     16,
+     15
+    ],
+    "b": [
+     10,
+     14
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   }
+  ]
+ }
+}

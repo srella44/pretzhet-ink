@@ -1,0 +1,146 @@
+{
+ "id": "RONDO-IN-M06",
+ "bloque": "Calentamiento",
+ "titulo": "Persigue y protege",
+ "formato": "1v1 por parejas",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug. (parejas)",
+ "espacio": "25 × 20 m",
+ "duracion": "10 min",
+ "series": "6 persecuciones de 20″ con 40″ de pausa; se cambian los papeles tras cada una (propuesta).",
+ "objetivo": "Protección del balón con el cuerpo y cambios de dirección bajo presión, y para el perseguidor, presión sostenida sin falta. Cómo explicarlo: «pon el cuerpo entre el balón y tu perseguidor y cambia de dirección cuando se acerque». Errores típicos: correr en línea recta hasta el borde, balón lejos del pie, perseguidor que empuja. Qué observar: brazos abiertos para sentir al rival, giros con el exterior y la suela. Montaje detallado: 25 × 20 m delimitado con conos. La mitad de los jugadores con balón, cada uno con su pareja sin balón a 3 m.",
+ "montaje": "25 × 20 m. Por parejas: uno con balón y su perseguidor sin balón a 3 m.",
+ "juego": "A la señal, cada perseguidor persigue a su pareja durante 20″. Quien lleva el balón lo protege cambiando de dirección, sin salir del campo. El perseguidor solo toca el balón (no roba). A los 20″ se cambian los papeles.",
+ "punto": "1 punto a quien mantiene el balón 20″ (fuente).",
+ "consigna": "Cuerpo entre el balón y el rival.",
+ "variantes": {
+  "facil": "Espacio más grande, 30 × 25 m (fuente).",
+  "dificil": "El perseguidor puede robar y salir conduciendo (fuente). En la sesión de la fuente: quien roba tiene que marcar en una miniportería."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín: 15″ y perseguidor que solo toca la espalda. Cadete: robo permitido y gol en miniportería (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Persigue y protege (IN-M06)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 4"
+ },
+ "completado": "Distancia de salida, regla de no robar en el nivel base y series (propuesta).",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "tag": "25 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 4,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 15.5,
+    "f": -150
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 18,
+    "f": -60
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     6
+    ],
+    "b": [
+     13,
+     7
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     13,
+     7
+    ],
+    "b": [
+     12,
+     11
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 2,
+    "s1": 4
+   },
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     10,
+     5.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     18,
+     13
+    ],
+    "b": [
+     15,
+     9
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   }
+  ]
+ }
+}

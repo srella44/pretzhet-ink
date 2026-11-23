@@ -1,0 +1,199 @@
+{
+ "id": "RONDO-IN-T02",
+ "bloque": "Calentamiento",
+ "titulo": "Conduce y descarga",
+ "formato": "parejas",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug. (parejas)",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min con 45 s de pausa; cambio de pareja cada 2 series (propuesta).",
+ "objetivo": "Conducción rápida con la cabeza levantada, cambio de ritmo y descarga precisa al compañero que se ofrece; el que no tiene balón aprende a moverse para dar apoyo. Cómo explicarlo: «cruza la puerta y busca a tu pareja: ella tiene que estar ya libre». Errores típicos: conducir mirando el balón, el compañero parado detrás de otra pareja, descarga fuerte o a la espalda. Qué observar: cambio de ritmo antes de la puerta y apoyo a 6–10 m en línea de pase limpia. Montaje detallado: 25 × 20 m con 6 miniporterías o puertas de conos de 2 m repartidas. Un balón por pareja.",
+ "montaje": "25 × 20 m con 6 puertas de 2 m repartidas. Por parejas, un balón.",
+ "juego": "Uno conduce rápido hacia una puerta y la cruza; el compañero se mueve para darle apoyo a 6–10 m y recibe la descarga. Luego cambian: ahora conduce el otro hacia una puerta distinta. Nadie se para.",
+ "punto": "Puertas cruzadas por la pareja en 2′ (fuente).",
+ "consigna": "Cabeza arriba al conducir.",
+ "variantes": {
+  "facil": "Puertas anchas de 3 m (fuente).",
+  "dificil": "Descarga al primer toque con la pierna mala (fuente)."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín: puertas de 3 m y descarga con 2 toques. Cadete: un defensor pasivo que tapa puertas (propuesta). Hoy en la sesión de la fuente: un molestador libre por el campo. Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Conduce y descarga (IN-T02)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 10"
+ },
+ "completado": "Número de puertas, distancia del apoyo y series (propuesta).",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "tag": "25 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    10,
+    3
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    20,
+    4
+   ],
+   [
+    22,
+    4
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    14,
+    10
+   ],
+   [
+    14,
+    12
+   ],
+   [
+    20,
+    16
+   ],
+   [
+    20,
+    18
+   ],
+   [
+    8,
+    17
+   ],
+   [
+    10,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 9,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 11,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 16,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     11.5,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 2
+   },
+   {
+    "a": [
+     17,
+     9
+    ],
+    "b": [
+     14,
+     7
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     11.8,
+     4
+    ],
+    "b": [
+     13.6,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 4,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     23,
+     11
+    ],
+    "b": [
+     16,
+     11
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     16,
+     11
+    ],
+    "b": [
+     13.6,
+     15.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 4,
+    "s1": 8
+   }
+  ]
+ }
+}

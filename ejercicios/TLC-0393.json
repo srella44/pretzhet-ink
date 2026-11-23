@@ -1,0 +1,258 @@
+{
+ "id": "TLC-0393",
+ "bloque": "Defensa y presión",
+ "titulo": "Rueda: presiona y haz pared",
+ "formato": "rueda de pases",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug.",
+ "espacio": "24 × 24 m",
+ "duracion": "14 min",
+ "series": "3 × 4 min con 1 min de pausa; cambio de sentido en cada serie (fuente: cambiar el sentido de rotación). Exteriores e interiores intercambian papel en la serie 3 (propuesta).",
+ "objetivo": "Pase corto y medio, timing de la pared y rol doble del interior: presiona y enseguida se ofrece de apoyo (fuente). Cómo explicarlo: «aprieta, frena y ofrécete; la pared llega cuando él ya corre». Errores típicos: presionar sin frenar (se pasa de largo), aparecer para la pared antes de tiempo, pases con el empeine que botan, exteriores que se meten en el cuadrado. Qué observar: distancia de frenada (2 m), perfil abierto del interior y pase con el interior del pie. Montaje detallado: cuadrado exterior de 24 × 24 m con un cono en cada esquina; cuadrado interior de 10 × 10 m en el centro. 4 exteriores en las esquinas (uno con balón y uno de reserva en la primera esquina), 4 interiores en las esquinas del cuadrado interior; 1 jugador más de reserva.",
+ "montaje": "Cuadrado de 24 m y, dentro, otro de 10 m. Exteriores en las esquinas de fuera; un interior en cada esquina de dentro.",
+ "juego": "El interior más cercano presiona al exterior con balón y frena a 2 m. Se ofrece; el exterior le pasa, sigue corriendo y el interior le devuelve la pared. El exterior pasa a la esquina siguiente y ocupa su sitio. El interior vuelve a su cono. Sigue la rueda.",
+ "punto": "Sin puntos: 2 vueltas seguidas sin fallos = reto (propuesta).",
+ "consigna": "Presiona, frena y ofrécete a la pared.",
+ "variantes": {
+  "facil": "Toques libres y sin presión previa (propuesta).",
+  "dificil": "Toques limitados en el cuadrado interior, pared a 1 toque, cambio de sentido, segundo balón desde la esquina opuesta (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): cuadrado de 18 m y un solo balón. Cadete: 2 balones y pared obligatoria a 1 toque (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Imanol Alguacil)",
+  "titulo_original": "IMANOL ALGUACIL RUEDA DE PASES PARED PRESIÓN",
+  "ref": "toplidercoach.com/rueda-de-pases-pared-presion/"
+ },
+ "completado": "La fuente remite al vídeo para la distribución: medidas de los cuadrados, secuencia exacta y reto son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   24,
+   13
+  ],
+  "nofield": true,
+  "tag": "24 × 24 m (mitad)",
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 13
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    24,
+    0
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    17,
+    7
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     24,
+     0
+    ],
+    "6 5"
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     13
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     13
+    ],
+    "6 5"
+   ],
+   [
+    [
+     7,
+     7
+    ],
+    [
+     17,
+     7
+    ],
+    "3 4"
+   ],
+   [
+    [
+     7,
+     7
+    ],
+    [
+     7,
+     13
+    ],
+    "3 4"
+   ],
+   [
+    [
+     17,
+     7
+    ],
+    [
+     17,
+     13
+    ],
+    "3 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 1,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 8.5,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 12,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 12,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     8.5
+    ],
+    "b": [
+     5.5,
+     4.8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     1.4,
+     1.4
+    ],
+    "b": [
+     5,
+     4.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     1,
+     1
+    ],
+    "b": [
+     11,
+     1
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 8,
+    "s1": 4,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     5.5,
+     4.5
+    ],
+    "b": [
+     11,
+     1.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     11.5,
+     1
+    ],
+    "b": [
+     22,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 6,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    12,
+    11.5,
+    "CUADRADO INTERIOR 10 M",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "id": "TLC-0115",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido de las 4 esquinas",
+ "formato": "7v7 + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug. + 2 PT",
+ "espacio": "40 × 30 m",
+ "duracion": "20 min",
+ "series": "4 × 4 min con 1 min 30 s de pausa (propuesta).",
+ "objetivo": "Orientar el ataque a las bandas, llegar desde segunda línea y rematar al primer toque; transición rápida por fuera (fuente). Cómo explicarlo: «abre a la esquina y llega al área, no esperes en ella». Errores típicos: todos esperando dentro del área, rematar con dos toques, centro sin mirar, nadie fijando por dentro. Qué observar: llegada sincronizada de 2 rematadores y perfil del remate. Montaje detallado: 40 × 30 m con porterías de fútbol 7 y porteros; en cada esquina, un cuadrado de 6 × 6 m marcado con conos. Dos equipos de 7 (la web da 16 jugadores con los 2 porteros).",
+ "montaje": "40 × 30 m, 2 porterías con PT. En cada esquina, un cuadrado de 6 × 6 m. 2 equipos de 7.",
+ "juego": "Partido libre. Para que el gol valga, el último pase debe salir de una esquina del campo rival (el jugador entra en ella con el balón o lo recibe allí) y el remate es a 1 toque. En transición: gol directo si se marca en menos de 3 pases tras robar.",
+ "punto": "Gol válido: 1. Gol en transición (< 3 pases): 2 (propuesta).",
+ "consigna": "Abre a la esquina y llega al remate.",
+ "variantes": {
+  "facil": "Remate a 2 toques; comodines en las esquinas (fuente).",
+  "dificil": "Solo vale si remata un jugador que llega desde segunda línea; toques limitados por equipo (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 5 contra 5 + PT en 35 × 25 m y remate a 2 toques (propuesta). Cadete: reglas de la fuente y 3 toques por jugador.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Carlo Ancelotti)",
+  "titulo_original": "ANCELOTTI PARTIDO 4 ESQUINAS",
+  "ref": "toplidercoach.com/ancelotti-partido-4-esquinas/"
+ },
+ "completado": "Medida de las esquinas, valor del gol en transición, número por equipo y series son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   22
+  ],
+  "tag": "40 × 30 m (esquema)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 23.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     17,
+     5,
+     22
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     35,
+     0,
+     40,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     35,
+     17,
+     40,
+     22
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 11,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 11,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     9
+    ],
+    "b": [
+     15.6,
+     3.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     3
+    ],
+    "b": [
+     3,
+     2.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     6.5,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     20,
+     17
+    ],
+    "b": [
+     7.4,
+     13.4
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     6.4,
+     12.8
+    ],
+    "b": [
+     1,
+     11.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 4,
+    "s1": 4
+   }
+  ]
+ }
+}

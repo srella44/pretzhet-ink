@@ -1,0 +1,180 @@
+{
+ "id": "DOS-040",
+ "bloque": "Calentamiento",
+ "titulo": "Carreras en conducción",
+ "formato": "1 contra 1 en carrera",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "25 × 15 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 carreras por jugador con 1 min de pausa; en la serie 3, carreras con cambio de recorrido a la señal (fuente/propuesta).",
+ "objetivo": "Conducción en velocidad mirando al frente (fuente) y reacción a una señal del entrenador. Cómo explicarlo: «usa la superficie adecuada y mira mientras conduces» (fuente). Errores típicos: toques largos que se escapan en los conos, mirar solo el balón y no oír la señal, tiro precipitado. Qué observar: superficie (exterior e interior) en cada cambio de dirección y cabeza levantada antes del tiro. Montaje detallado: dos circuitos iguales y paralelos de 4 conos en zigzag (a 2,5 m) y 2 discos de color al final; los dos terminan en la misma portería, a 8 m del último cono. Dos filas al inicio, separadas 7 m.",
+ "montaje": "2 circuitos iguales de 4 conos en zigzag, con discos de color al final. Terminan en la misma portería.",
+ "juego": "Sale uno de cada fila a la vez: hace su circuito conduciendo y tira a portería. Gana quien marca antes. Variante: si el entrenador dice un número o un color de cono, se cambia de dirección o de recorrido (fuente). Vuelven por fuera a la otra fila.",
+ "punto": "Gana quien marca primero (fuente): 1 punto.",
+ "consigna": "Mira mientras conduces.",
+ "variantes": {
+  "facil": "Sin carrera: cada uno a su ritmo y tiro sin rival (propuesta).",
+  "dificil": "Cambio de recorrido con número o color (fuente); el que llega segundo puede defender el tiro (propuesta)."
+ },
+ "adaptacion": "10–11 años: conos a 3 m y portería con portero. 12–13 años: conos a 2 m y tiro desde fuera de una línea a 10 m (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Carreras en conducción",
+  "ref": "Dosier de sesiones · pág. 10 (J2.4)"
+ },
+ "completado": "Medidas del circuito, distancia a la portería y series (propuesta).",
+ "top": "",
+ "probado": true,
+ "diagrama": {
+  "field": [
+   25,
+   15
+  ],
+  "tag": "25 × 15 m",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 27,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "cones": [
+   [
+    4,
+    3
+   ],
+   [
+    6.5,
+    5
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    11.5,
+    5
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    6.5,
+    12
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    11.5,
+    12
+   ]
+  ],
+  "discs": [
+   [
+    14,
+    4
+   ],
+   [
+    14,
+    11
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 25,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 6
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 4,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": -1.4,
+    "y": 11,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     4
+    ],
+    "b": [
+     12.5,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     1,
+     11
+    ],
+    "b": [
+     12.5,
+     11
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     15,
+     4.5
+    ],
+    "b": [
+     24,
+     6.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 4,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    14,
+    7.5,
+    "SEÑAL: COLOR",
+    "middle"
+   ]
+  ]
+ }
+}

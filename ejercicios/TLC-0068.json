@@ -1,0 +1,240 @@
+{
+ "id": "TLC-0068",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido de zonas 3 y 1",
+ "formato": "8v8",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "20 min",
+ "series": "4 × 5 min con 1 min 30 s de pausa (fuente: series de 4–6 min). Se anota el marcador acumulado.",
+ "objetivo": "Partido condicionado por la puntuación del fondo: ocupar bien el ancho, decidir dónde finalizar y variar el ataque, sin ir siempre por el centro (fuente). Cómo explicarlo: «el centro vale más, pero si está cerrado, abre y cambia de lado». Errores típicos: atacar siempre por el centro contra un bloque cerrado, nadie dando amplitud, conducción final sin control (el balón se escapa de la zona). Qué observar: cambios de orientación antes de puntuar y llegadas por fuera que liberan el centro. Montaje detallado: rectángulo de 50 × 40 m. En cada fondo, franja de 5 m dividida en 3 zonas: central de 14 m (3 puntos) y dos laterales de 13 m (1 punto). Sin porterías. Dos equipos de 8 con petos.",
+ "montaje": "50 × 40 m. En cada fondo, 3 zonas de 5 m: la central (14 m de ancho) y dos laterales. 2 equipos de 8.",
+ "juego": "Partido libre con reglas normales. Se puntúa al entrar conduciendo con el balón controlado en una zona del fondo rival (no hay porterías). Tras cada punto, saca rápido el equipo que lo ha recibido desde su fondo. El entrenador lleva el marcador.",
+ "punto": "Zona central: 3 puntos. Zona lateral: 1 punto (fuente).",
+ "consigna": "Si el centro está cerrado, cambia de lado.",
+ "variantes": {
+  "facil": "Comodín ofensivo para el que ataca (superioridad 9 contra 8) (fuente).",
+  "dificil": "Toques limitados antes de puntuar, 3 puntos solo tras pase interior o tras cambio de orientación, pérdida en zona central = 1 punto al rival (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 6 contra 6 en 40 × 30 m (propuesta). Cadete: 2 toques y pérdida en zona central penalizada.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Luis Enrique)",
+  "titulo_original": "LUIS ENRIQUE PARTIDO PUNTUACIÓN",
+  "ref": "toplidercoach.com/luis-enrique-partido-puntuacion/"
+ },
+ "completado": "Ancho y fondo de las zonas, saque tras punto y número por equipo (8 contra 8 con los 16 de la web) son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "tag": "50 × 40 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 51.5,
+   "ymin": -1.5,
+   "ymax": 41.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     13,
+     5,
+     27
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     45,
+     13,
+     50,
+     27
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     45,
+     0
+    ],
+    [
+     45,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     13
+    ],
+    [
+     5,
+     13
+    ],
+    "3 3"
+   ],
+   [
+    [
+     0,
+     27
+    ],
+    [
+     5,
+     27
+    ],
+    "3 3"
+   ],
+   [
+    [
+     45,
+     13
+    ],
+    [
+     50,
+     13
+    ],
+    "3 3"
+   ],
+   [
+    [
+     45,
+     27
+    ],
+    [
+     50,
+     27
+    ],
+    "3 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 33,
+    "y": 20,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     33,
+     20
+    ],
+    "b": [
+     23,
+     32
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     33
+    ],
+    "b": [
+     3,
+     34
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    2.5,
+    21.5,
+    "3",
+    "middle"
+   ],
+   [
+    2.5,
+    7,
+    "1",
+    "middle"
+   ],
+   [
+    2.5,
+    35.5,
+    "1",
+    "middle"
+   ],
+   [
+    47.5,
+    21.5,
+    "3",
+    "middle"
+   ],
+   [
+    47.5,
+    7,
+    "1",
+    "middle"
+   ],
+   [
+    47.5,
+    35.5,
+    "1",
+    "middle"
+   ]
+  ]
+ }
+}

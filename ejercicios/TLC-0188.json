@@ -1,0 +1,188 @@
+{
+ "id": "TLC-0188",
+ "bloque": "Defensa y presión",
+ "titulo": "1 × 1 en banda: evita el centro",
+ "formato": "1v1 en carril",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug. (4 parejas)",
+ "espacio": "carril 30 × 10 m",
+ "duracion": "15 min",
+ "series": "4 × 2 min 30 s con 1 min de pausa; cada pareja hace 2 duelos seguidos y cambia de rol (fuente: se alternan los roles; tiempos propuesta). Máximo 8 s por duelo (propuesta).",
+ "objetivo": "Duelo defensivo en banda para impedir el centro: perfilarse, temporizar y saber cuándo entrar o tapar el golpeo (fuente). Cómo explicarlo: «no le dejes llegar al fondo y, si llega, ponte delante del balón». Errores típicos: entrar de frente y quedar superado, perfil que deja el pasillo interior libre, girarse de espaldas al centro, quedarse de pie sin flexionar. Qué observar: distancia de 1–1,5 m al atacante, pasos cortos laterales y si el defensor reconoce el momento de intervenir (mal control, balón lejos del pie). Montaje detallado: carril lateral de 30 × 10 m junto al área grande (conos), con línea de fondo; 4 parejas en fila al inicio del carril. El entrenador pasa desde fuera del carril.",
+ "montaje": "Carril de 30 × 10 m en la banda, junto al área. Parejas en fila al inicio: un atacante y un defensor.",
+ "juego": "El atacante recibe y encara: debe llegar a la línea de fondo y centrar al área. El defensor, dentro del carril, lo evita perfilándose, anticipando o tapando el golpeo. Máx. 8 s. Si roba o el balón sale, acaba. Tras 2 duelos se cambian los papeles.",
+ "punto": "Centro al área: 1 al atacante. Robo o salida: 1 al defensor.",
+ "consigna": "Perfílate, temporiza y tapa el centro.",
+ "variantes": {
+  "facil": "El defensor sale 2 m por detrás del atacante o defiende solo de pie natural (fuente/propuesta).",
+  "dificil": "Defensa a pie cambiado, solo vale el centro desde la línea de fondo, segundo defensor en cobertura o centro raso o aéreo obligatorio (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): carril de 25 × 8 m y el defensor solo tapa (sin entrada). Cadete y juvenil: rematador y portero en el área para que el centro tenga consecuencia (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Diego Simeone)",
+  "titulo_original": "SIMEONE, DEFENSA DE CENTRO LATERAL",
+  "ref": "toplidercoach.com/simeone-defensa-de-centro-lateral/"
+ },
+ "completado": "Medidas del carril, tiempo máximo, número de duelos por pareja y puntuación son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   32,
+   20
+  ],
+  "tag": "carril 30 × 10 m",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 36,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     30,
+     10
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     10
+    ],
+    [
+     16.5,
+     10
+    ],
+    "6 5"
+   ],
+   [
+    [
+     16.5,
+     10
+    ],
+    [
+     16.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16,
+    "lado": "L",
+    "ancho": 6
+   }
+  ],
+  "cones": [
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 26,
+    "y": 5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 2.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 7.5,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     26,
+     5
+    ],
+    "b": [
+     5,
+     2.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     17,
+     5
+    ],
+    "b": [
+     8,
+     4.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     5,
+     3
+    ],
+    "b": [
+     6,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    18.5,
+    "ZONA DE CENTRO",
+    "start"
+   ],
+   [
+    29,
+    13,
+    "CARRIL",
+    "end"
+   ]
+  ]
+ }
+}

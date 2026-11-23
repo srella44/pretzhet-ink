@@ -1,0 +1,180 @@
+{
+ "id": "TLC-0220",
+ "bloque": "Defensa y presión",
+ "titulo": "Despejar y bloquear",
+ "formato": "3 servidores + 1 defensor",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug.",
+ "espacio": "35 × 30 m",
+ "duracion": "15 min",
+ "series": "5 series de 3 acciones por defensor; rotación del defensor tras cada serie (fuente). 4 rondas completas con 1 min de pausa entre ronda y ronda (propuesta).",
+ "objetivo": "Acciones defensivas individuales: despeje aéreo, despeje de balón variado e interceptación de un disparo, leyendo trayectorias y con agresividad (fuente). Cómo explicarlo: «ataca el balón en el punto más alto y mándalo lejos y fuera». Errores típicos: esperar el balón aéreo en vez de saltar hacia él, despejar al centro, girarse ante el disparo o abrir las piernas, llegar parado a la segunda acción. Qué observar: superficie de contacto (frente, empeine, interior), dirección del despeje hacia fuera y altura, desplazamiento rápido entre estaciones. Montaje detallado: portería sin portero en un lado; tres estaciones del defensor a 10–14 m de la portería; servidor 1 a 15 m de la estación 1, servidor 2 a 8 m de la estación 2 y tirador a 16 m de la portería. El quinto jugador recoge balones y entra de defensor.",
+ "montaje": "Portería en un lado. 3 estaciones delante; frente a cada una, un servidor con balones. Un defensor activo.",
+ "juego": "1) El servidor 1 lanza un balón alto: el defensor lo despeja saltando (rival pasivo). 2) Corre a la estación 2: le sirven raso, con bote o alto y despeja. 3) Va a la 3 a bloquear el tiro fuerte del tercero a portería. Tras 3 acciones, otro defensor.",
+ "punto": "Despeje fuera o tiro bloqueado: 1 punto (propuesta).",
+ "consigna": "Ataca el balón y despeja lejos y fuera.",
+ "variantes": {
+  "facil": "Balones lanzados con la mano y tiro a media potencia (propuesta).",
+  "dificil": "Oposición activa en el balón aéreo, tiempo límite para las 3 acciones, portero en la portería, rotar al defensor tras cada secuencia (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): balón de talla 4, servicios con la mano y sin tiro fuerte. Cadete: oposición activa en el salto (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Okan Buruk)",
+  "titulo_original": "OKAN BURUK, JUEGO AÉREO DEFENSIVO, DESPEJE E INTERCEPTACIÓN",
+  "ref": "toplidercoach.com/okan-buruk-juego-aereo-defensivo-despeje-e-interceptacion/"
+ },
+ "completado": "Colocación de estaciones y distancias, puntuación y rondas son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   30,
+   18
+  ],
+  "tag": "35 × 30 m",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32,
+   "ymin": -1.5,
+   "ymax": 19.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 9,
+    "lado": "L",
+    "ancho": 6
+   }
+  ],
+  "discs": [
+   [
+    10,
+    2.5
+   ],
+   [
+    12,
+    9
+   ],
+   [
+    9,
+    15.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 10,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 2.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 9.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 16,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 29.5,
+    "y": 9.5,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     25,
+     2.5
+    ],
+    "b": [
+     10.6,
+     2.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     10.4,
+     3
+    ],
+    "b": [
+     11.8,
+     8.4
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     21,
+     9.5
+    ],
+    "b": [
+     12.8,
+     9.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     11.8,
+     9.6
+    ],
+    "b": [
+     9.4,
+     14.8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     24,
+     16
+    ],
+    "b": [
+     1,
+     10.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 8,
+    "s1": 4,
+    "nt": 0.25
+   }
+  ]
+ }
+}
