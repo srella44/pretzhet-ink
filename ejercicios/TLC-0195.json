@@ -1,0 +1,191 @@
+{
+ "id": "TLC-0195",
+ "bloque": "Finalización",
+ "titulo": "Pared y dos centros",
+ "formato": "Circuito de remate + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "15 min",
+ "series": "4 × 3 min con 1 min 30 s de pausa; alternar dos porteros para que no se agoten (fuente/propuesta).",
+ "objetivo": "Resistencia con técnica: pared interior con tiro y dos llegadas al área para rematar centros (fuente). Cómo explicarlo: «tres acciones seguidas, sin pararte: tiro, centro de un lado, centro del otro». Errores típicos: salir antes de tiempo y esperar parado, centros sin tensión, rematar con el empeine sin mirar. Qué observar: calidad del tercer remate con fatiga.",
+ "montaje": "Medio campo con portería y portero. Cinco conos: A en el centro a 30 m, B a 20 m, C a 25 m en un lado, D y E en cada banda junto al área. Balones en A, D y E.",
+ "juego": "A pasa a B, recibe la pared y tira desde la frontal. Sin pausa, B y C atacan el área y rematan el centro de D; enseguida A y C rematan el centro de E. Remate a un toque. Rotan A→B→C→D→E→A.",
+ "punto": "Gol de pared: 1. Gol tras centro: 2 (propuesta).",
+ "consigna": "Llega a tiempo y remata a un toque.",
+ "variantes": {
+  "facil": "Remate a dos toques y centros desde más cerca (propuesta).",
+  "dificil": "Remate a 1 toque; el centro solo puede botar una vez, sin rasos (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): un solo centro por secuencia y portería de fútbol 7 (propuesta). Cadete: reglas de la fuente.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Xabi Alonso)",
+  "titulo_original": "XABI ALONSO, FINALIZACIÓN FÍSICO TÉCNICA",
+  "ref": "toplidercoach.com/xabi-alonso-finalizacion-fisico-tecnica/"
+ },
+ "completado": "Posición de los 5 conos, orden de los rematadores, puntuación y series son propuesta (la web solo nombra las acciones). Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6.92,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 16.15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 0.92,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 19.08,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     10.0
+    ],
+    "b": [
+     15,
+     6.92
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     6.92
+    ],
+    "b": [
+     19,
+     10.77
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8
+   },
+   {
+    "a": [
+     10,
+     16.15
+    ],
+    "b": [
+     33,
+     11.54
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     29,
+     0.92
+    ],
+    "b": [
+     33,
+     10.77
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 8
+   }
+  ],
+  "labels": [
+   [
+    4,
+    12.31,
+    "A",
+    "middle"
+   ],
+   [
+    15,
+    4.77,
+    "B",
+    "middle"
+   ],
+   [
+    10,
+    18.46,
+    "C",
+    "middle"
+   ],
+   [
+    25.8,
+    0.92,
+    "D",
+    "end"
+   ],
+   [
+    25.8,
+    19.08,
+    "E",
+    "end"
+   ]
+  ]
+ }
+}

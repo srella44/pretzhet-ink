@@ -1,0 +1,207 @@
+{
+ "id": "TLC-0387",
+ "bloque": "Finalización",
+ "titulo": "Centro sin rival y 3 × 3",
+ "formato": "Remate + 3v3 + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "doble área 40 × 33 m",
+ "duracion": "18 min",
+ "series": "4 × 3 min con 2 min de pausa; cambio de roles cada 6 acciones por equipo (fuente/propuesta).",
+ "objetivo": "Combinaciones por banda con centro y remate sin oposición y, sin pausa, un 3 contra 3 en espacio reducido con transiciones (fuente). Cómo explicarlo: «remata y cambia el chip: ahora hay rival». Errores típicos: celebrar o mirar el remate y llegar tarde al 3 contra 3, los dos rematadores al mismo palo, posesión lenta en el 3 contra 3. Qué observar: segundos entre remate y primera acción del 3 contra 3. Montaje detallado: Doble área (40 × 33 m) con dos porterías y porteros y las bandas libres a los lados. Dos equipos de 6; el rival espera detrás de la otra portería.",
+ "montaje": "Doble área (40 × 33 m) con porteros; bandas libres a los lados. Dos equipos de 6: el rival espera detrás de la otra portería.",
+ "juego": "Dos combinan por la banda y uno centra; dos compañeros rematan sin rival. Enseguida el entrenador da un balón: los 2 rematadores y un tercero juegan 3 contra 3 ante el rival, que sale de detrás de la otra portería (máx. 20 s). Cada 6 acciones, cambio.",
+ "punto": "Remate: 1. Gol en el 3 contra 3: 2 (propuesta).",
+ "consigna": "Remata y cambia el chip: 3 contra 3.",
+ "variantes": {
+  "facil": "3 contra 2 en lugar de 3 contra 3 (propuesta).",
+  "dificil": "Toques limitados en el 3 contra 3, defensor en el centro, segundos máximos o transición tras pérdida (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 30 × 25 m, porterías de fútbol 7 y 2 contra 2 (propuesta). Cadete: reglas de la fuente.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Thomas Tuchel)",
+  "titulo_original": "TUCHEL FINALIZACIÓN + 3 vs 3",
+  "ref": "toplidercoach.com/tuchel-finalizacion-3-vs-3/"
+ },
+ "completado": "Duración del 3 contra 3, portería que se ataca tras el remate, puntuación y series son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "tag": "doble área 40 × 33 m",
+  "extent": {
+   "xmin": -4,
+   "xmax": 43.5,
+   "ymin": -6,
+   "ymax": 35
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     33
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16.5,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 16.5,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": -3.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": -3.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -2.4,
+    "y": 1,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": -2.4,
+    "y": 8,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": -2.4,
+    "y": 28,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     -3.8
+    ],
+    "b": [
+     30,
+     -3.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     30,
+     -3.4
+    ],
+    "b": [
+     35,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8
+   },
+   {
+    "a": [
+     22,
+     11
+    ],
+    "b": [
+     33,
+     13.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 8
+   },
+   {
+    "a": [
+     24,
+     21
+    ],
+    "b": [
+     33,
+     19
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 8
+   },
+   {
+    "a": [
+     -2.4,
+     8
+    ],
+    "b": [
+     8,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8
+   }
+  ],
+  "labels": [
+   [
+    8,
+    -3.8,
+    "BANDA LIBRE",
+    "middle"
+   ]
+  ]
+ }
+}

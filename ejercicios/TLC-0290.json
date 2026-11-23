@@ -1,0 +1,182 @@
+{
+ "id": "TLC-0290",
+ "bloque": "Finalización",
+ "titulo": "Rueda y último pase",
+ "formato": "Rueda + tiro",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de pausa; cada serie, un tipo de último pase (raso, bombeado, al espacio, atrás) (fuente/propuesta).",
+ "objetivo": "Dinámica de pase con perfiles abiertos y precisión en el último pase antes del tiro, por los dos perfiles (fuente). Cómo explicarlo: «el último pase es la asistencia: tenso y delante del que llega». Errores típicos: recibir cerrado y tener que girar, último pase al pie parado, combinaciones sin lógica de partido. Qué observar: tensión del último pase. Montaje detallado: 40 × 40 m con una portería en un lado (con portero si lo hay). Cuatro posiciones por perfil: central con balones a 35 m, interior a 22 m, lateral en la banda y delantero en la frontal. Dos muñecos como centrales.",
+ "montaje": "40 × 40 m y portería. Por perfil: central con balones a 35 m, interior a 22 m, lateral en banda y delantero. 2 muñecos.",
+ "juego": "El central abre al lateral, que pasa al delantero; este baja y descarga de cara para el interior, que mete el último pase raso y tenso al espacio para el lateral, que sigue su carrera y tira. Rotan; la siguiente, por el otro perfil.",
+ "punto": "Gol tras último pase bueno: 2. Solo gol: 1 (propuesta).",
+ "consigna": "Último pase tenso, delante del que llega.",
+ "variantes": {
+  "facil": "Sin muñecos y control antes del último pase (propuesta).",
+  "dificil": "Oposición pasiva, toques limitados y patrones distintos (filtrado, descarga, pase atrás) (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 30 × 30 m y portería de fútbol 7 (propuesta). Cadete: a 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Andoni Iraola)",
+  "titulo_original": "IRAOLA RUEDA DE PASES Y FINALIZACIÓN",
+  "ref": "toplidercoach.com/iraola-rueda-de-pases-y-finalizacion/"
+ },
+ "completado": "Patrón concreto de pases, posiciones y puntuación son propuesta (la web describe el tipo de secuencia). Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "40 × 40 m (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3.85,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 18.46,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 10.77,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 5.38,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 15.38,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10.0
+    ],
+    "b": [
+     11,
+     18.46
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     11,
+     18.46
+    ],
+    "b": [
+     27,
+     10.77
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     27,
+     10.77
+    ],
+    "b": [
+     18,
+     6.15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     18.5,
+     6.54
+    ],
+    "b": [
+     30,
+     17.69
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 6,
+    "nt": 0.65
+   },
+   {
+    "a": [
+     11,
+     18.46
+    ],
+    "b": [
+     28,
+     19.23
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4,
+    "s0": 8,
+    "nt": 0.35
+   }
+  ]
+ }
+}

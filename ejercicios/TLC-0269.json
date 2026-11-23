@@ -1,0 +1,176 @@
+{
+ "id": "TLC-0269",
+ "bloque": "Finalización",
+ "titulo": "Tercer hombre en carril central",
+ "formato": "3 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "4 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "12 min",
+ "series": "4 × 2 min 30 s con 1 min de pausa; cada 3 balones se cambia el sentido de la combinación (propuesta).",
+ "objetivo": "Combinaciones cortas en el carril central para activar al segundo y al tercer hombre y tirar desde la frontal (fuente). Cómo explicarlo: «pasa y arranca: el balón te vuelve por otro camino». Errores típicos: el apoyo recibe de espaldas y se gira, el tercer hombre arranca tarde, tiro forzado. Qué observar: ángulo de los apoyos y perfil del que filtra. Montaje detallado: Frontal del área con portero. Carril central de 18 m de ancho. A con balones a 30 m de la portería; B a 20 m, de espaldas; C a 22 m en un lado, junto a un cono.",
+ "montaje": "Frontal del área con portero. A con balones a 30 m de la portería; B a 20 m, de espaldas; C a 22 m en un lado, junto a un cono.",
+ "juego": "A pasa a B, que viene de cara; B descarga para C (segundo hombre) y C filtra al hueco para A, que ha arrancado tras su pase (tercer hombre) y tira desde la frontal a 1–2 toques. Cada 3 balones se cambia de lado. Rotan A→B→C→A.",
+ "punto": "Gol: 1. Gol a un toque: 2 (propuesta).",
+ "consigna": "Pasa y arranca: el balón vuelve.",
+ "variantes": {
+  "facil": "Dos toques por jugador y C más cerca (propuesta).",
+  "dificil": "Defensor pasivo, paredes o filtrados al lado débil, toques limitados (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): distancias a 2/3 y portería de fútbol 7 (propuesta). Cadete: todo a 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Niko Kovač)",
+  "titulo_original": "KOVAC, FINALIZACION",
+  "ref": "toplidercoach.com/kovac-finalizacion/"
+ },
+ "completado": "Distancias, ancho del carril y puntuación son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     3.08
+    ],
+    [
+     23.5,
+     3.08
+    ],
+    "3 4"
+   ],
+   [
+    [
+     0,
+     16.92
+    ],
+    [
+     23.5,
+     16.92
+    ],
+    "3 4"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 10.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 4.62,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10.0
+    ],
+    "b": [
+     17,
+     10.0
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     17,
+     10.0
+    ],
+    "b": [
+     10,
+     4.62
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     3,
+     10.0
+    ],
+    "b": [
+     22,
+     15.38
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     10,
+     4.62
+    ],
+    "b": [
+     22,
+     14.62
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.4
+   }
+  ],
+  "cones": [
+   [
+    7.5,
+    3.85
+   ]
+  ]
+ }
+}

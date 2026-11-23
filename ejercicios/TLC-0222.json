@@ -1,0 +1,158 @@
+{
+ "id": "TLC-0222",
+ "bloque": "Finalización",
+ "titulo": "2 × 1, paredes y centro",
+ "formato": "2v1 + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "7 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min 30 s de pausa; rotar roles (pasador, rematador, defensor) tras cada acción (fuente).",
+ "objetivo": "Finalización cerca del área: 2 contra 1 rápido, progresión por banda con paredes y remate en superioridad tras centro (fuente). Cómo explicarlo: «el 2 contra 1 se juega en 8 s; en el área, uno arrastra y otro remata». Errores típicos: conducir hasta el defensor sin fijarle, los dos atacantes al mismo palo, centro antes de que lleguen. Qué observar: remate de primera. Montaje detallado: Medio campo con portería y portero. En la frontal, 2 atacantes contra 1 defensor. En la banda, un apoyo con balones a 25 m y otro defensor en el área.",
+ "montaje": "Portería con portero. En la frontal, 2 atacantes contra 1 defensor. En la banda, un apoyo con balones; otro defensor en el área.",
+ "juego": "Primero, 2 contra 1: tiro antes de 8 s. Al acabar, el apoyo de banda conduce, hace dos paredes con el atacante más cercano y centra. Los 2 atacantes atacan primer palo y penalti contra el defensor del área y rematan de primera.",
+ "punto": "2 contra 1: 1. Gol tras centro: 2 (propuesta).",
+ "consigna": "Ataca tu zona: primer palo o penalti.",
+ "variantes": {
+  "facil": "Sin defensor en el área y una sola pared (propuesta).",
+  "dificil": "Centro raso o al segundo palo y tiempo máximo para pared y centro (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): portería de fútbol 7 y una pared (propuesta). Cadete: defensor activo en las paredes.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Luis Enrique)",
+  "titulo_original": "LUIS ENRIQUE, FINALIZACIÓN",
+  "ref": "toplidercoach.com/luis-enrique-finalizacion/"
+ },
+ "completado": "Tiempo del 2 contra 1, posiciones y puntuación son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6.15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 13.08,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 9.62,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 18.85,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 6.15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     6.15
+    ],
+    "b": [
+     15,
+     13.08
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     13.08
+    ],
+    "b": [
+     39.5,
+     11.15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8
+   },
+   {
+    "a": [
+     8,
+     18.85
+    ],
+    "b": [
+     25,
+     18.85
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     25.5,
+     18.85
+    ],
+    "b": [
+     33,
+     11.54
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 4
+   }
+  ]
+ }
+}

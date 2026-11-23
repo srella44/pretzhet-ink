@@ -1,0 +1,159 @@
+{
+ "id": "TLC-0344",
+ "bloque": "Finalización",
+ "titulo": "Desmarques del 9 ante línea",
+ "formato": "3 + línea de 4 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "12 min",
+ "series": "3 series de 6 acciones (2 de cada movimiento) con 1 min de pausa; repetir por los dos perfiles (fuente/propuesta).",
+ "objetivo": "Desmarques del delantero centro para romper una línea de cuatro: apoyo y ruptura, desmarque curvo y ataque a primer o segundo palo, coordinado con el mediapunta y el extremo (fuente). Cómo explicarlo: «no corras por correr: fija, gira y ataca el espacio cuando el pasador levanta la cabeza». Errores típicos: arrancar antes de que el pasador pueda pasar, desmarque recto en fuera de juego, mediapunta que precipita el pase. Qué observar: lectura de la postura del pasador. Montaje detallado: Frontal del área con portería y portero. Línea de 4 defensas (picas, muñecos o jugadores pasivos) a 20 m de la portería. Delantero junto a ella, mediapunta 10 m detrás con balones y extremo en la banda.",
+ "montaje": "Portero. Línea de 4 picas a 20 m de la portería; delantero junto a ella, mediapunta 10 m detrás con balones y extremo.",
+ "juego": "El delantero elige: apoyo y ruptura (viene, fija y gira), desmarque curvo a la espalda del central o ataque a un palo. El mediapunta filtra o abre al extremo, que centra. Finaliza a 1–2 toques, sin fuera de juego.",
+ "punto": "Gol: 1. Gol a un toque: 2 (propuesta).",
+ "consigna": "Fija, gira y ataca el espacio.",
+ "variantes": {
+  "facil": "Línea de picas y pase con la mano o raso y lento (propuesta).",
+  "dificil": "Línea activa o semiactiva, tiempo límite, inicio desde la banda o el pivote (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): línea de 3 conos y portería de fútbol 7 (propuesta). Cadete: línea semiactiva.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Pep Guardiola)",
+  "titulo_original": "GUARDIOLA MOVIMIENTOS DELANTERO CENTRO",
+  "ref": "toplidercoach.com/guardiola-movimientos-delantero-centro/"
+ },
+ "completado": "Distancias, número de acciones y puntuación son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 21,
+    "y": 2.31,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 7.31,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 12.69,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 17.69,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 10.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 11.54,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 19.23,
+    "f": -30
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     10.0
+    ],
+    "b": [
+     14,
+     8.46
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 8
+   },
+   {
+    "a": [
+     14,
+     8.46
+    ],
+    "b": [
+     30,
+     5.77
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 4
+   },
+   {
+    "a": [
+     7,
+     11.54
+    ],
+    "b": [
+     29.5,
+     6.54
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ }
+}

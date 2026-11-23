@@ -1,0 +1,176 @@
+{
+ "id": "TLC-0216",
+ "bloque": "Finalización",
+ "titulo": "Eslalon, pase largo y dejada",
+ "formato": "3 posiciones + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "15 min",
+ "series": "4 × 3 min con 1 min 30 s de pausa; controlar la fatiga para no perder calidad (fuente/propuesta).",
+ "objetivo": "Resistencia específica con pase largo, dejada y llegada de segunda línea al tiro (fuente). Cómo explicarlo: «eslalon a tope, levanta la cabeza y pase largo al espacio; la dejada, de cara». Errores típicos: pase largo al pie parado, dejada hacia el portero, llegar en línea con el que deja. Qué observar: precisión del pase largo tras el esfuerzo.",
+ "montaje": "Medio campo con portería y portero. A, con balones, a 40 m ante 4 picas de eslalon separadas 3 m; B en el centro a 34 m; C en la banda a 26 m de la portería.",
+ "juego": "A conduce rápido en eslalon y, al salir, pasa largo al espacio a C, que ha atacado el borde del área. C deja atrás de cara para B, que llega desde segunda línea y tira a un toque. Rotan A→B→C→A.",
+ "punto": "Gol: 1. Gana el grupo con más goles en la serie (propuesta).",
+ "consigna": "Pase largo preciso y dejada de cara.",
+ "variantes": {
+  "facil": "Sin eslalon y pase largo raso (propuesta).",
+  "dificil": "Tiempo máximo para la secuencia, oposición en la zona de tiro o más carga física previa (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): distancias a 2/3 y portería de fútbol 7 (propuesta). Cadete: pase aéreo obligatorio.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Pep Guardiola)",
+  "titulo_original": "GUARDIOLA FÍSICO TÉCNICO CON FINALIZACIÓN",
+  "ref": "toplidercoach.com/guardiola-fisico-tecnico-con-finalizacion/"
+ },
+ "completado": "Tipo de estación física (eslalon), distancias y puntuación son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 3.08,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11.54,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 18.46,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     3.08
+    ],
+    "b": [
+     16,
+     4.62
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8
+   },
+   {
+    "a": [
+     16,
+     4.62
+    ],
+    "b": [
+     25,
+     12.31
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 4
+   },
+   {
+    "a": [
+     14,
+     18.46
+    ],
+    "b": [
+     25.5,
+     13.85
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 8
+   },
+   {
+    "a": [
+     6,
+     11.54
+    ],
+    "b": [
+     19.5,
+     9.62
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     25,
+     12.69
+    ],
+    "b": [
+     20.5,
+     9.85
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 6
+   }
+  ],
+  "discs": [
+   [
+    4,
+    3.08
+   ],
+   [
+    7,
+    3.08
+   ],
+   [
+    10,
+    3.08
+   ],
+   [
+    13,
+    3.08
+   ]
+  ]
+ }
+}

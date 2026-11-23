@@ -1,0 +1,174 @@
+{
+ "id": "TLC-0203",
+ "bloque": "Finalización",
+ "titulo": "Finalización en cadena",
+ "formato": "3 + pasador + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. + PT",
+ "espacio": "frontal del área",
+ "duracion": "10 min",
+ "series": "3 × 2 min (unos 10 balones por serie) con 1 min 30 s de pausa; cambia el pasador en cada serie (propuesta).",
+ "objetivo": "Finalizar muchas veces seguidas cerca del área y sin oposición, con ritmo alto y movimientos coordinados (fuente). Cómo explicarlo: «uno tira, el siguiente ya se está desmarcando». Errores típicos: esperar a ver si entra el tiro, tirar desde dentro del punto de penalti, dos que se desmarcan a la vez. Qué observar: variedad de acciones (primeras, control y tiro, pared). Montaje detallado: Frontal del área con portero. Tres delanteros a 3–4 m del borde del área (izquierda, centro y derecha) y un pasador 10 m más atrás con 10 balones. Conos en cada posición.",
+ "montaje": "Frontal con portero. Tres delanteros a 3–4 m del borde (izquierda, centro y derecha) y un pasador 10 m atrás con 10 balones.",
+ "juego": "El pasador juega al delantero que se desmarca; este tira de primeras, controla y tira o hace la pared. Enseguida se desmarca el siguiente y recibe. Siempre se tira antes del punto de penalti. Tras 10 balones, cambia el pasador.",
+ "punto": "Gol: 1. Si tira desde más cerca del penalti, no vale.",
+ "consigna": "Recibe, tira y el siguiente ya se mueve.",
+ "variantes": {
+  "facil": "Pase con la mano o más lento y control antes de tirar (propuesta).",
+  "dificil": "Uno o dos defensores entre los delanteros (fuente); todo a un toque."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): portería de fútbol 7 y tiro antes de una línea de conos a 9 m (propuesta). Cadete: defensor activo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Andoni Iraola)",
+  "titulo_original": "IRAOLA, FINALIZACIÓN",
+  "ref": "toplidercoach.com/iraola-finalizacion/"
+ },
+ "completado": "Distancias, número de balones y series son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     29,
+     4.62
+    ],
+    [
+     29,
+     15.38
+    ],
+    "3 4"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 3.85,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 10.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 16.15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     19,
+     3.85
+    ],
+    "b": [
+     22,
+     6.54
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 8
+   },
+   {
+    "a": [
+     8,
+     10.0
+    ],
+    "b": [
+     21.5,
+     6.92
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     22,
+     6.92
+    ],
+    "b": [
+     39.5,
+     9.23
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 6
+   }
+  ],
+  "cones": [
+   [
+    17.5,
+    2.69
+   ],
+   [
+    17.5,
+    11.54
+   ],
+   [
+    17.5,
+    17.31
+   ],
+   [
+    6.5,
+    11.54
+   ]
+  ],
+  "labels": [
+   [
+    29,
+    3.54,
+    "PENALTI",
+    "middle"
+   ]
+  ]
+ }
+}

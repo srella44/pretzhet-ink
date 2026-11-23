@@ -1,0 +1,207 @@
+{
+ "id": "TLC-0404",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Robo y contra 3 × 2",
+ "formato": "5v3 + 3v2",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. + PT",
+ "espacio": "40 × 20 m + área",
+ "duracion": "16 min",
+ "series": "4 × 4 min con 2 min de pausa; en cada serie cambian los 3 presionantes (propuesta). Reinicio rápido: el entrenador tiene balones en la franja.",
+ "objetivo": "Presión tras pérdida en zona media, lectura del robo y ataque vertical inmediato; los poseedores aprenden a atraer para encontrar la miniportería libre (fuente). Cómo explicarlo: «los 3 cazan juntos; en cuanto robáis, a portería sin mirar atrás». Errores típicos: presionar de uno en uno, conducir en horizontal tras el robo, centrales que entran al duelo sin temporizar. Qué observar: segundos entre robo y tiro (meta: menos de 6 s). Montaje detallado: Franja de 40 × 20 m entre el centro del campo y el área, con una miniportería en cada lado. Dentro, 5 atacantes contra 3. Dos centrales en el borde del área y portero.",
+ "montaje": "Franja de 40 × 20 m delante del área, con una miniportería a cada lado: 5 atacantes contra 3. Dos centrales en el área y portero.",
+ "juego": "Los 5 dan 6 pases (propuesta) y ya pueden marcar en cualquier miniportería. Si los 3 roban, salen al momento conduciendo hacia la portería grande y juegan 3 contra 2 contra los centrales. Al acabar, el entrenador da otro balón a los 5.",
+ "punto": "Mini: 1 a los 5. Gol en la grande: 2 a los 3 (propuesta).",
+ "consigna": "Roba y sal a portería sin pausa.",
+ "variantes": {
+  "facil": "Franja de 30 × 25 m, 4 pases antes de marcar y contra 3 contra 1 (fuente/propuesta).",
+  "dificil": "Los 5 a 2 toques; tras robo, finalizar en menos de 6 s; franja de 30 m de largo o contra 3 contra 3 (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): franja de 30 × 16 m, 5 contra 2 y contra 2 contra 1 con portero (propuesta). Cadete: reglas de la fuente (2 toques y 6 s).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Mikel Arteta)",
+  "titulo_original": "ARTETA PRESIÓN CONTRAATAQUE",
+  "ref": "toplidercoach.com/presion-contraataque/"
+ },
+ "completado": "Número de pases para marcar, puntuación, series y adaptación por edades son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "tag": "franja 40 × 20 m + área",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 42
+  },
+  "lines": [
+   [
+    [
+     0,
+     20
+    ],
+    [
+     40,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     23.5
+    ],
+    [
+     40,
+     23.5
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 20,
+    "y": 40,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 16,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 16,
+    "f": -135
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 10,
+    "f": 135
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 10,
+    "f": 45
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 15,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 27,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     20,
+     25
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 8
+   },
+   {
+    "a": [
+     25,
+     10
+    ],
+    "b": [
+     31,
+     24
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     10
+    ],
+    "b": [
+     9,
+     24
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2
+   }
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    40,
+    10,
+    "R"
+   ]
+  ],
+  "labels": [
+   [
+    20,
+    1.2,
+    "POSESIÓN 5 × 3",
+    "middle"
+   ],
+   [
+    36,
+    33,
+    "CONTRA 3 × 2",
+    "middle"
+   ]
+  ]
+ }
+}

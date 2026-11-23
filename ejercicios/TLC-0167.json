@@ -1,0 +1,166 @@
+{
+ "id": "TLC-0167",
+ "bloque": "Finalización",
+ "titulo": "Tríos: tercer hombre y tiro",
+ "formato": "2 tríos + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "12 min",
+ "series": "4 series de 1 min 30 s–2 min (fuente); tras cada serie los tríos cambian de lado para rematar con la otra pierna. 1 min de pausa (propuesta).",
+ "objetivo": "Asociación en corto (segundo y tercer hombre), pase al borde del área sincronizado con la carrera y remate con la pierna del perfil (fuente). Cómo explicarlo: «pasa y arranca: el balón te vuelve en el borde». Errores típicos: arrancar antes del pase, dejada hacia atrás y no de cara, rematar con la pierna cómoda. Qué observar: que el finalizador no frene antes de tirar. Montaje detallado: Frontal del área con portero. Un trío en cada lado del área, con 3 conos: 1 a 30 m de la portería, 2 abierto a 24 m y 3 en el borde del área (propuesta). Balones en el 1.",
+ "montaje": "Frontal con portero. Un trío a cada lado del área con 3 conos: 1 a 30 m de la portería, 2 abierto a 24 m y 3 en el borde.",
+ "juego": "El 1 pasa al 2; el 2 juega al 3 en el borde del área; el 3 deja de cara para el 1, que ha arrancado tras su pase y remata en carrera. Desde la izquierda se remata con la derecha y al revés. Cada uno avanza un cono. Los dos tríos alternan sus ataques sin pausa.",
+ "punto": "Cada trío es un equipo: más goles en la serie (fuente).",
+ "consigna": "Pasa, arranca y remata con la pierna pedida.",
+ "variantes": {
+  "facil": "Remate con la pierna que quieran y dos toques en cada pase (propuesta).",
+  "dificil": "Todo a 2 toques, pase al borde a 1 toque, defensor pasivo o eliminatorias entre tríos (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): conos a 22, 18 y 14 m y portería de fútbol 7 (propuesta). Cadete: todo a 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Rúben Amorim)",
+  "titulo_original": "RUBEN AMORIM FINALIZACIÓN EN TRÍOS",
+  "ref": "toplidercoach.com/ruben-amorim-finalizacion-en-trios/"
+ },
+ "completado": "Distancias de los conos y pausas son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5.38,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 1.54,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 6.15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 14.62,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 18.46,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 13.85,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     5.38
+    ],
+    "b": [
+     14,
+     1.54
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     14,
+     1.54
+    ],
+    "b": [
+     21,
+     6.15
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     6,
+     5.38
+    ],
+    "b": [
+     26,
+     8.85
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     21,
+     6.15
+    ],
+    "b": [
+     25.5,
+     8.46
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 8,
+    "s1": 4
+   }
+  ]
+ }
+}

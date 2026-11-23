@@ -1,0 +1,180 @@
+{
+ "id": "TLC-0179",
+ "bloque": "Finalización",
+ "titulo": "Triángulo, banda y remate",
+ "formato": "3 + extremo + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de pausa; una acción por cada lado alternando perfiles (fuente/propuesta).",
+ "objetivo": "Combinación rápida en el último tercio, apertura a banda, centro y llegada coordinada al remate (fuente). Cómo explicarlo: «combinad rápido, abrid y atacad primer palo, segundo palo y frontal». Errores típicos: llegar al área antes del centro y quedarse parados, ir los dos al mismo palo, centro sin mirar. Qué observar: que el remate sea a un toque y a portería. Montaje detallado: Triángulo de conos de 10–12 m de lado delante del área, con un jugador en cada vértice. Un extremo en la banda a la altura del área. Balones en el vértice de atrás. Portería con portero.",
+ "montaje": "Triángulo de conos de 10–12 m delante del área, un jugador en cada vértice. Un extremo en la banda, a la altura del área. Portero.",
+ "juego": "Los tres combinan a 1–2 toques (pared o tercer hombre) y uno abre a la banda. El extremo centra (raso, tenso o aéreo); dos de los tres atacan el primer y el segundo palo y el tercero llega a la frontal. Remate a un toque. Rotan: el que abrió pasa a extremo.",
+ "punto": "Gol: 1. Gol a un toque tras centro: 2 (propuesta).",
+ "consigna": "Llega con el centro, no antes.",
+ "variantes": {
+  "facil": "Centro raso o pase atrás y remate a dos toques (fuente/propuesta).",
+  "dificil": "Defensor pasivo o activo en el área, llegada extra desde la frontal o triángulo más grande (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): triángulo de 8 m y portería de fútbol 7 (propuesta). Cadete: defensor activo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Eddie Howe)",
+  "titulo_original": "EDDIE HOWE, FINALIZACIÓN TRIÁNGULO",
+  "ref": "toplidercoach.com/eddie-howe-finalizacion-triangulo/"
+ },
+ "completado": "Número de jugadores (3 + extremo + reservas), puntuación y series son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 10.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 5.38,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 14.62,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 18.85,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     10.0
+    ],
+    "b": [
+     16,
+     14.62
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     14.62
+    ],
+    "b": [
+     30,
+     18.85
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     5.38
+    ],
+    "b": [
+     34,
+     7.69
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     16,
+     14.62
+    ],
+    "b": [
+     33.5,
+     12.31
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     30,
+     18.85
+    ],
+    "b": [
+     35,
+     11.92
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 8
+   }
+  ],
+  "cones": [
+   [
+    5,
+    11.54
+   ],
+   [
+    14,
+    4.23
+   ],
+   [
+    14,
+    15.77
+   ]
+  ]
+ }
+}

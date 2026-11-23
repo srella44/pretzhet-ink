@@ -1,0 +1,163 @@
+{
+ "id": "TLC-0088",
+ "bloque": "Finalización",
+ "titulo": "Remate, remate y 2 × 2",
+ "formato": "2v2 + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "doble área 40 × 33 m",
+ "duracion": "18 min",
+ "series": "4 series; cada pareja hace 3 turnos por serie (unos 45 s de esfuerzo y 1 min 30 s de pausa). 3 min entre series (propuesta).",
+ "objetivo": "Resistencia específica: esfuerzos repetidos con calidad de remate en fatiga y competir en un 2 contra 2 al final (fuente). Cómo explicarlo: «correr a tope, pero frenar y perfilarse antes de rematar». Errores típicos: llegar antes que el centro y quedarse parado, rematar con potencia y sin dirección, bajar los brazos en el 2 contra 2. Qué observar: precisión del segundo remate respecto al primero. Montaje detallado: Doble área (40 × 33 m) con dos porterías y porteros. Dos parejas, una en cada fondo, salen a la vez. Un centrador con balones en cada banda; el resto espera turno.",
+ "montaje": "Doble área (40 × 33 m) con porteros. Dos parejas salen a la vez, una de cada fondo. Un centrador con balones en cada banda.",
+ "juego": "A la señal, cada pareja corre al área contraria y remata el centro de su banda. Sin parar, vuelve y remata un centro en la otra área. Luego el entrenador mete un balón y las parejas juegan 2 contra 2 durante 30 s (propuesta).",
+ "punto": "Gol de remate: 1. Gol en el 2 contra 2: 2 (propuesta).",
+ "consigna": "Corre a tope, remata con precisión.",
+ "variantes": {
+  "facil": "Sin segundo remate: carrera, un centro y 2 contra 2 (propuesta). Centros rasos.",
+  "dificil": "Carreras más largas, centros al segundo palo o aéreos, 2 contra 2 a 2 toques o en menos de 10 s (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): campo de 30 × 25 m, porterías de fútbol 7 y un solo remate antes del 2 contra 2 (propuesta). Cadete: distancias completas.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Sean Dyche)",
+  "titulo_original": "SEAN DYCHE, FINALIZACIÓN FÍSICO TÉCNICA Y DUELO 2X2",
+  "ref": "toplidercoach.com/sean-dyche-finalizacion-fisico-tecnica-y-duelo-2x2/"
+ },
+ "completado": "Distancias de carrera, duración del 2 contra 2, puntuación y series son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "tag": "doble área 40 × 33 m",
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 43.5,
+   "ymin": -3.5,
+   "ymax": 36.5
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     33
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16.5,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 16.5,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 34.6,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": -1.6,
+    "f": 90,
+    "ball": true,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     26
+    ],
+    "b": [
+     31,
+     20
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     20
+    ],
+    "b": [
+     28,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     30,
+     34.6
+    ],
+    "b": [
+     32,
+     21
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8
+   }
+  ],
+  "labels": [
+   [
+    22,
+    35.2,
+    "CENTRADOR",
+    "end"
+   ]
+  ]
+ }
+}

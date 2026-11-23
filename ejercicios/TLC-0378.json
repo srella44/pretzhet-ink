@@ -1,0 +1,152 @@
+{
+ "id": "TLC-0378",
+ "bloque": "Finalización",
+ "titulo": "Llegada en parejas",
+ "formato": "Parejas + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–14 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "15 min",
+ "series": "4 × 3 min con 1 min 30 s de pausa; cambian los centradores en cada serie (propuesta).",
+ "objetivo": "Llegada al área desde el carril central para rematar centros a un toque y centros con las dos piernas, con mucha carga por las idas y vueltas (fuente). Cómo explicarlo: «ajusta la carrera: ni antes ni después del centro; uno primer palo, otro penalti o segundo». Errores típicos: llegar antes y esperar parados, los dos a la misma zona, centro sin perfilarse. Qué observar: centros tensos y remate a un toque. Montaje detallado: Medio campo con portería y portero. Un centrador con balones en cada banda, a la altura del área. Dos filas de llegada en el centro, a 30 m de la portería.",
+ "montaje": "Portero. Un centrador con balones en cada banda, a la altura del área, y dos filas de llegada en el centro a 30 m.",
+ "juego": "Salen dos a la vez: uno al primer palo y otro al penalti o segundo palo. Un centrador centra a un toque y rematan a un toque. Salen los dos siguientes y centra el otro lado. Los centradores cambian de banda cada 2 centros.",
+ "punto": "Gol: 1 a la pareja. Competición entre parejas (propuesta).",
+ "consigna": "Llega con el centro, ni antes ni después.",
+ "variantes": {
+  "facil": "Centro con la mano o desde más cerca y remate a dos toques (propuesta).",
+  "dificil": "1–2 defensores, centros rasos o atrás, tercer llegador o centro en menos de 5 s (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): filas a 20 m y portería de fútbol 7 (propuesta). Cadete: campo entero con dos porterías, como la fuente.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Jürgen Klopp)",
+  "titulo_original": "KLOPP FINALIZACIÓN PAREJAS",
+  "ref": "toplidercoach.com/klopp-finalizacion-parejas/"
+ },
+ "completado": "La web lo plantea en campo entero con 2 porterías y 14 jugadores; se propone medio campo. Distancias, cambio de banda y puntuación son propuesta.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   40,
+   22
+  ],
+  "tag": "medio campo (recorte)",
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 23.5
+  },
+  "lines": [
+   [
+    [
+     23.5,
+     0
+    ],
+    [
+     23.5,
+     22
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 11.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8.07,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 13.93,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 5.87,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 16.13,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 0.88,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 21.12,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     8.07
+    ],
+    "b": [
+     29,
+     8.8
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 8
+   },
+   {
+    "a": [
+     4,
+     13.93
+    ],
+    "b": [
+     34,
+     12.83
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 8
+   },
+   {
+    "a": [
+     30,
+     21.12
+    ],
+    "b": [
+     33.5,
+     13.57
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}

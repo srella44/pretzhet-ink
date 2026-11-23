@@ -1,0 +1,151 @@
+{
+ "id": "TLC-0208",
+ "bloque": "Finalización",
+ "titulo": "Orienta, pasa y marca",
+ "formato": "3v1 con hándicap",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de pausa; acortar o alargar el hándicap del defensor según aciertos (propuesta).",
+ "objetivo": "Control orientado y pase rápido y preciso antes de que llegue la presión (fuente). Cómo explicarlo: «tu primer toque ya mira al siguiente pase; el defensor llega en 3 s». Errores típicos: controlar hacia atrás, pase blando, mirar al balón y no al compañero. Qué observar: número de toques de cada atacante (ideal: 2). Montaje detallado: Cuadrado de 30 × 30 m con una miniportería en un lado. Tres atacantes: uno con balones en el lado contrario y dos en conos interiores. Un defensor en el lateral, a 7 m de un cono de hándicap.",
+ "montaje": "30 × 30 m, miniportería en un lado. Atacantes: uno con balones enfrente y dos en conos interiores. Defensor a 7 m de su cono.",
+ "juego": "El primero pasa al segundo y sale el defensor, que rodea su cono antes de presionar. El segundo controla orientado y pasa al tercero, que marca en la miniportería antes de que llegue. Si el defensor roba, conduce fuera. Rotan.",
+ "punto": "Gol: 1 al ataque. Robo: 1 al defensor (propuesta).",
+ "consigna": "Primer toque orientado al siguiente pase.",
+ "variantes": {
+  "facil": "Cono de hándicap más lejos o defensor que solo puede tapar (propuesta).",
+  "dificil": "Menos hándicap, control con la pierna menos hábil, pared antes del tiro o puntos por velocidad (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): cuadrado de 25 × 25 m y defensor con más hándicap (propuesta). Cadete: todo a 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Míchel Sánchez)",
+  "titulo_original": "MICHEL SANCHEZ, CONTROL ORIENTADO Y FINALIZACIÓN RÁPIDA",
+  "ref": "toplidercoach.com/michel-sanchez-control-orientado-y-finalizacion-rapida/"
+ },
+ "completado": "Posiciones de los conos, distancia del hándicap y puntuación son propuesta. Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "tag": "30 × 30 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 28,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     15
+    ],
+    "b": [
+     11,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     28
+    ],
+    "b": [
+     8.5,
+     26.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 8
+   },
+   {
+    "a": [
+     11,
+     6
+    ],
+    "b": [
+     20,
+     19
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     8.5,
+     26
+    ],
+    "b": [
+     17,
+     21
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s1": 8
+   }
+  ],
+  "goals": [
+   [
+    30,
+    15,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    7.5,
+    28
+   ]
+  ],
+  "labels": [
+   [
+    7.5,
+    30.8,
+    "HÁNDICAP",
+    "middle"
+   ]
+  ]
+ }
+}

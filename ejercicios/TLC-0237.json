@@ -1,0 +1,191 @@
+{
+ "id": "TLC-0237",
+ "bloque": "Finalización",
+ "titulo": "Pared y segunda llegada",
+ "formato": "3 + servidor + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + PT",
+ "espacio": "zona de 30 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min 30 s de pausa; cambiar de perfil cada serie (propuesta).",
+ "objetivo": "Remate a un toque tras combinación y segunda finalización del primer pasador (fuente). Cómo explicarlo: «tras tu pase no te pares: hay un segundo balón para ti». Errores típicos: el primer pasador se queda mirando el tiro, perfiles cerrados en la pared, remates con dos toques. Qué observar: que las dos finalizaciones sean a un toque. Montaje detallado: Zona de 30 m delante de una portería con portero. Dos filas en el fondo (A con balones y B), una fila C en el lado contrario a 20 m y un servidor en el fondo con balones.",
+ "montaje": "Zona de 30 m con portero. Filas A y B en el fondo, fila C a 20 m en el lado contrario y un servidor con balones en el fondo.",
+ "juego": "A y B salen hacia la frontal. A pasa a C, que llega desde el lado contrario; C deja de cara y B tira a un toque. A sigue su carrera, recibe un pase frontal del servidor desde el fondo y hace la segunda finalización a un toque. Luego rotan.",
+ "punto": "Cada gol: 1. Los dos en gol: 3 (propuesta).",
+ "consigna": "Remata a un toque y sigue la jugada.",
+ "variantes": {
+  "facil": "Control antes del segundo tiro (propuesta).",
+  "dificil": "Oposición pasiva o activa en la frontal, pases aéreos o tiempo máximo (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): zona de 22 m y portería de fútbol 7 (propuesta). Cadete: defensor activo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Fabian Hürzeler)",
+  "titulo_original": "FABIAN HURZELER, FINALIZACIÓN",
+  "ref": "toplidercoach.com/fabian-hurzeler-finalizacion-2/"
+ },
+ "completado": "Posición de las filas y del servidor, puntuación y series son propuesta; la web cita 2 muñecos sin ubicarlos (se omiten). Sin diagrama original: dibujado a partir del texto.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   36,
+   20
+  ],
+  "tag": "zona de 30 m",
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 39,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     19.5,
+     0
+    ],
+    [
+     19.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 36,
+    "y": 10.0,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3.85,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 13.85,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 19.23,
+    "f": -60
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 8.85,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3.85
+    ],
+    "b": [
+     14,
+     14.23
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     14,
+     19.23
+    ],
+    "b": [
+     14.5,
+     15.0
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 8
+   },
+   {
+    "a": [
+     14.5,
+     14.62
+    ],
+    "b": [
+     19,
+     11.54
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 6
+   },
+   {
+    "a": [
+     2,
+     13.85
+    ],
+    "b": [
+     18.5,
+     11.15
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     -1.5,
+     8.85
+    ],
+    "b": [
+     19,
+     4.23
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     2,
+     3.85
+    ],
+    "b": [
+     19,
+     3.46
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 8
+   }
+  ],
+  "labels": [
+   [
+    -1.5,
+    11.0,
+    "SERV.",
+    "middle"
+   ]
+  ]
+ }
+}
