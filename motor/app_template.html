@@ -210,6 +210,26 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 .who b { font-weight:800; color:#fff } .who em { font-style:normal; font-weight:500; opacity:.85 } .who b+em::before { content:' · ' }
 .fdia .who { bottom:8px; right:auto; left:12px; font-size:11px }
 .thumb .ph small { display:none }
+/* ===== Crear sesión (generador sin IA) ===== */
+.gen { background:#fff; border-radius:16px; padding:22px 20px 20px; box-shadow:0 20px 60px rgba(0,0,0,.25) }
+.gen h2 { margin:0 0 4px; font-size:22px; letter-spacing:-.03em } .gen .sub { margin:0 0 16px; color:var(--muted); font-size:13px }
+.gen h4 { margin:16px 0 8px; font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted) }
+.gchips { display:flex; flex-wrap:wrap; gap:7px } .gchips button { border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 12px; font-size:13px; cursor:pointer; color:var(--ink) }
+.gchips button.on { background:var(--navy); color:#fff; border-color:var(--navy) }
+.grow { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:10px } .grow label { font-size:12px; color:var(--muted); display:flex; flex-direction:column; gap:5px }
+.grow input, .grow select, .gen .kw { border:1px solid var(--line); border-radius:10px; padding:9px 10px; font-size:14px; width:100%; color:var(--ink); background:#fff }
+.gen .kw { margin-top:2px }
+.gbtns { display:flex; gap:8px; flex-wrap:wrap; margin-top:18px }
+.gplan { margin-top:18px; border-top:1px solid var(--line); padding-top:14px }
+.gplan .tot { font-size:13px; color:var(--muted); margin:0 0 10px }
+.gslot { display:grid; grid-template-columns: 64px 1fr; gap:12px; border:1px solid var(--line); border-radius:12px; padding:10px; margin-bottom:10px; background:#fafbfc }
+.gslot .tm { text-align:center; font-weight:800; font-size:18px; line-height:1.1 } .gslot .tm small { display:block; font-size:10.5px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-top:3px }
+.gslot .ph2 { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--muted) }
+.gslot b.t { display:block; font-size:15px; margin:2px 0 3px; letter-spacing:-.02em } .gslot .bk2 { display:inline-block; font-size:11px; font-weight:700; padding:2px 8px; border-radius:99px; margin-right:6px }
+.gslot .why { font-size:12.5px; color:#334; margin:6px 0 8px } .gslot .why em { color:var(--muted) }
+.gslot .sa { display:flex; gap:6px; flex-wrap:wrap }
+.gnote { font-size:12px; color:var(--muted); margin:6px 0 0 }
+@media (max-width: 560px) { .grow { grid-template-columns: 1fr 1fr } .gslot { grid-template-columns: 52px 1fr } }
 </style>
 </head>
 <body>
@@ -218,7 +238,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
     <button class="brand" id="logo" title="Inicio"><img class="lg2" src="%%LOGO2%%" alt="Escòla by Prètzhèt Ink · Inicio"></button>
     <label class="search"><svg viewBox="0 0 16 16"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="Buscar un ejercicio: rondo, 3v2, pared, portero…" autocomplete="off"></label>
-    <span class="acct" id="acct"></span><button class="hb" id="bfav" title="Mis favoritos">♥ Favoritos <b id="nfav">0</b></button><button class="hb" id="bses">Sesiones <b id="nses">0</b></button>
+    <span class="acct" id="acct"></span><button class="hb" id="bgen" title="Crear una sesión con ejercicios del banco">✦ Crear sesión</button><button class="hb" id="bfav" title="Mis favoritos">♥ Favoritos <b id="nfav">0</b></button><button class="hb" id="bses">Sesiones <b id="nses">0</b></button>
     <button class="btn-f" id="tgl">Filtros <b id="nf" hidden>0</b></button>
     <span class="count" id="cnt"></span><img class="pk" src="%%LOGO%%" alt="Prètzhèt Ink · Editorial · Libres · Ebooks" title="Prètzhèt Ink">
   </div>
@@ -249,6 +269,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 </main>
 </div>
 <footer class="foot"><img src="%%LOGO%%" alt="Prètzhèt Ink · Editorial · Libres · Ebooks"><div><b>Era Escòla</b> es un proyecto de Prètzhèt Ink · Editorial · Libres · Ebooks</div></footer>
+<div class="modal" id="gm" role="dialog" aria-modal="true"><div class="sheet"><button class="close" id="gx" aria-label="Cerrar">×</button><div id="gslot"></div></div></div>
 <div class="modal" id="m" role="dialog" aria-modal="true"><div class="sheet"><button class="close" id="x" aria-label="Cerrar">×</button><div id="slot"></div>
 <div class="nav"><button id="prev">← Anterior</button><button id="next">Siguiente →</button></div></div></div>
 <script>
@@ -497,6 +518,109 @@ $('#acct').textContent = 'Guardado en este navegador'; $('#acct').title = 'Tus f
     }, () => {});
   } catch (e) {}
 })();
+
+/* ===== Crear sesión: generador sin IA (gratis, sin conexión) =====
+   Elige y ordena ejercicios del banco según lo que marca el entrenador. No inventa ejercicios. */
+const GT = [
+  ['Pase y control', [1,3], ['pase','control','rueda','apoyo']],
+  ['Regate y 1 contra 1', [1], ['1v1','regate','duelo','conduccion','finta']],
+  ['Conservar el balón', [2,3], ['rondo','posesion','conservar']],
+  ['Salida de balón', [3], ['salida','tercer hombre','juego de posicion','progres']],
+  ['Atacar en superioridad', [4], ['superioridad','2v1','3v2','fijar']],
+  ['Contraataque y transiciones', [5], ['transicion','contraataque','oleada','tras perdida']],
+  ['Finalización y centros', [6], ['remate','tiro','centro','finaliza']],
+  ['Presión y defensa', [7], ['presion','defens','robo','repliegue','cobertura']],
+  ['Balón parado', [9], ['corner','falta','saque']],
+  ['Porteros', [10], ['portero','blocaje','despeje']]
+];
+const gs = { t: new Set(), age: 3, n: 14, gk: 1, min: 75, kw: '', seed: 1 };
+let gplan = [], gpool = {};
+function rnd(i) { const x = Math.sin(i * 9301 + gs.seed * 49297) * 233280; return x - Math.floor(x); }
+function minOf(r) { const m = /(\d+)\s*min/.exec((r.x && r.x.dur) || ''); return m ? +m[1] : 0; }
+function fitsAge(r) { if (!r.a) return true; const g = AGES[gs.age]; return r.a[0] <= g[2] && r.a[1] >= g[1]; }
+function fitsPl(r) { return !r.p || r.p[0] <= gs.n + gs.gk; }
+function needsGk(r) { return /\bPT\b|portero/i.test((r.f || '') + ' ' + (r.x && r.x.mont || '') + ' ' + r.t); }
+function gscore(r, blocks, words, idx) {
+  let s = (r.sc || 0) + (r.tp ? 40 : 0) + (r.lb ? 15 : 0) + (r.pr ? 20 : 0) + (SVG[r.i] ? 25 : 0) + (r.x && r.x.how ? 5 : 0);
+  if (blocks && blocks.length && !blocks.includes(r.b)) s -= 1000;
+  if (words.length) { const t = r._t + ' ' + r._m + ' ' + r._d; let hit = 0; words.forEach(w => { if (t.includes(w)) hit++; }); s += hit * 18; }
+  if (r.p && gs.n > r.p[1] * 2.2) s -= 15;          // muy pocos jugadores por grupo: habría que montar 3 o más grupos
+  if (!gs.gk && needsGk(r)) s -= 60;
+  return s + rnd(idx) * 30;
+}
+function candidates(phase) {
+  const sel = [...gs.t].map(i => GT[i]); const kw = gs.kw ? norm2(gs.kw).split(/\s+/).filter(w => w.length > 2).map(stem) : [];
+  let blocks, words = sel.flatMap(x => x[2]).concat(kw);
+  if (phase === 'cal') { blocks = [0, 2]; words = words.concat(['activacion','calentamiento']); }
+  else if (phase === 'fin') { blocks = [8]; }
+  else blocks = sel.length ? [...new Set(sel.flatMap(x => x[1]))] : [1,2,3,4,5,6,7];
+  return R.filter(r => fitsAge(r) && fitsPl(r)).map((r, j) => [r, gscore(r, blocks, words, j + phase.length * 7)]).filter(x => x[1] > -500).sort((a, b) => b[1] - a[1]).map(x => x[0]);
+}
+function similar(a, b) { const A = new Set(a._t.split(' ').filter(w => w.length > 3)), Bw = b._t.split(' ').filter(w => w.length > 3); if (!Bw.length) return false; return Bw.filter(w => A.has(w)).length / Bw.length >= .6; }
+function buildPlan() {
+  const nMain = gs.min <= 50 ? 2 : gs.min <= 80 ? 3 : 4;
+  const phases = ['cal'].concat(Array(nMain).fill('pri'), ['fin']);
+  gpool = { cal: candidates('cal'), pri: candidates('pri'), fin: candidates('fin') };
+  const used = []; gplan = phases.map(ph => { const r = gpool[ph].find(c => !used.some(u => u === c || similar(u, c))); if (r) used.push(r); return { ph, r, k: 0 }; }).filter(x => x.r);
+  // Reparte el tiempo: calentamiento ~15 %, partido final ~20 %, el resto entre la parte principal
+  const cal = Math.round(gs.min * .15 / 5) * 5 || 10, fin = Math.round(gs.min * .2 / 5) * 5 || 10, pri = gplan.filter(x => x.ph === 'pri').length || 1;
+  const each = Math.max(8, Math.round((gs.min - cal - fin) / pri));
+  gplan.forEach(x => x.m = x.ph === 'cal' ? cal : x.ph === 'fin' ? fin : each);
+}
+function swap(i) {
+  const x = gplan[i], pool = gpool[x.ph], others = gplan.filter((y, j) => j !== i).map(y => y.r);
+  for (let k = 1; k <= pool.length; k++) { const c = pool[(pool.indexOf(x.r) + k) % pool.length]; if (!others.some(u => u === c || similar(u, c))) { x.r = c; break; } }
+  renderPlan();
+}
+function whyTxt(r) {
+  const w = [B[r.b].n, ageTxt(r)];
+  if (r.p) w.push(r.p[1] && gs.n > r.p[1] ? `${plTxt(r)}: ${Math.ceil(gs.n / r.p[1])} grupos a la vez` : plTxt(r));
+  if (r.tp) w.push('★ TOP'); if (r.pr) w.push('✓ probado'); if (r.lb) w.push('en el libro');
+  return w.join(' · ');
+}
+const PHN = { cal: 'Calentamiento', pri: 'Parte principal', fin: 'Partido final' };
+function renderPlan() {
+  const tot = gplan.reduce((s, x) => s + x.m, 0);
+  $('#gout').innerHTML = gplan.length ? `<div class="gplan"><p class="tot">${gplan.length} ejercicios · ${tot} min de trabajo (sin contar pausas ni explicaciones). Propuesta: revísala y cambia lo que no te encaje.</p>` +
+    gplan.map((x, i) => { const r = x.r, b = B[r.b], m0 = minOf(r); return `<div class="gslot"><div class="tm">${x.m}<small>min</small></div><div>
+      <span class="ph2">${PHN[x.ph]}</span><b class="t">${esc(r.t)}</b><span class="bk2" style="background:${b.c};color:${b.k}">${esc(b.n)}</span>${r.f ? `<span class="bk2" style="background:#eef1f5">${esc(r.f)}</span>` : ''}
+      <p class="why">${esc(whyTxt(r))}${m0 && Math.abs(m0 - x.m) >= 5 ? ` <em>· la ficha indica ${m0} min: ajusta series o pausas</em>` : ''}</p>
+      <div class="sa"><button class="btn3" data-v="${i}">Ver ficha</button><button class="btn3" data-c="${i}">↻ Cambiar</button></div></div></div>`; }).join('') +
+    `<div class="gbtns"><input class="kw" id="gname" placeholder="Nombre (p. ej. Martes Infantil · finalización)" style="flex:1;min-width:200px"><button class="btn2" id="gsave">Guardar como sesión</button></div>
+     <p class="gnote">Solo usa ejercicios del banco. Si un ejercicio pide menos jugadores, se monta en varios grupos a la vez.</p></div>`
+    : '<p class="gnote" style="margin-top:16px">No hay ejercicios que encajen con esa edad y ese número de jugadores. Prueba con otra categoría o menos condiciones.</p>';
+  $('#gout').querySelectorAll('[data-c]').forEach(el => el.onclick = () => swap(+el.dataset.c));
+  $('#gout').querySelectorAll('[data-v]').forEach(el => el.onclick = () => { list = gplan.map(x => x.r); open(+el.dataset.v); });
+  const sv2 = $('#gsave'); if (sv2) sv2.onclick = () => {
+    const sel = [...gs.t].map(i => GT[i][0]).join(', ');
+    const x = newSes($('#gname').value.trim() || ('Sesión ' + AGES[gs.age][0] + (sel ? ' · ' + sel : '')));
+    x.ex = gplan.map(y => y.r.i); x.d = `${gs.min} min · ${gs.n} jug.${gs.gk ? ' + ' + gs.gk + ' PT' : ''}`;
+    x.nt = 'Creada con «Crear sesión»: ' + gplan.map(y => `${PHN[y.ph]} ${y.m}' – ${y.r.t}`).join(' | ') + (gs.kw ? ' | Pedido: ' + gs.kw : '');
+    persist(); toast('Guardada en «' + x.n + '»');
+  };
+}
+function renderGen() {
+  const ages = AGES.filter(a => a[1] !== undefined);
+  $('#gslot').innerHTML = `<div class="gen"><h2>✦ Crear sesión</h2><p class="sub">Marca qué quieres trabajar y te propongo una sesión con ejercicios del banco: calentamiento, parte principal y partido final.</p>
+   <h4>¿Qué quieres trabajar?</h4><div class="gchips" id="gt">${GT.map((g, i) => `<button class="${gs.t.has(i) ? 'on' : ''}" data-i="${i}">${g[0]}</button>`).join('')}</div>
+   <input class="kw" id="gkw" placeholder="Algo más concreto (opcional): centros al segundo palo, pared, perfil…" value="${esc(gs.kw)}" style="margin-top:10px">
+   <h4>Tu grupo</h4><div class="grow">
+    <label>Categoría<select id="gage">${ages.map((a, i) => `<option value="${i}" ${gs.age === i ? 'selected' : ''}>${a[0]} (${a[1]}–${a[2]})</option>`).join('')}</select></label>
+    <label>Jugadores de campo<input id="gn" type="number" min="4" max="30" value="${gs.n}"></label>
+    <label>Porteros<select id="ggk">${[0,1,2].map(k => `<option ${gs.gk === k ? 'selected' : ''}>${k}</option>`).join('')}</select></label>
+    <label>Duración<select id="gmin">${[45,60,75,90].map(m => `<option value="${m}" ${gs.min === m ? 'selected' : ''}>${m} min</option>`).join('')}</select></label>
+   </div>
+   <div class="gbtns"><button class="btn2" id="gok">Proponer sesión</button>${gplan.length ? '<button class="btn3" id="gre">↻ Otra propuesta</button>' : ''}</div>
+   <div id="gout"></div></div>`;
+  $('#gt').querySelectorAll('button').forEach(el => el.onclick = () => { const i = +el.dataset.i; gs.t.has(i) ? gs.t.delete(i) : gs.t.add(i); el.classList.toggle('on'); });
+  const read = () => { gs.kw = $('#gkw').value.trim(); gs.age = +$('#gage').value; gs.n = Math.max(2, +$('#gn').value || 14); gs.gk = +$('#ggk').value; gs.min = +$('#gmin').value; };
+  $('#gok').onclick = () => { read(); buildPlan(); renderGen(); };
+  if ($('#gre')) $('#gre').onclick = () => { read(); gs.seed++; buildPlan(); renderGen(); };
+  if (gplan.length || $('#gok').dataset.done) renderPlan();
+}
+$('#bgen').onclick = () => { renderGen(); $('#gm').classList.add('open'); $('#gm').scrollTop = 0; };
+$('#gx').onclick = () => { $('#gm').classList.remove('open'); apply(); };
+$('#gm').addEventListener('click', e => { if (e.target === $('#gm')) { $('#gm').classList.remove('open'); apply(); } });
 
 const side = $('#side'), scrim = $('#scrim');
 function sheet(o) { side.classList.toggle('open', o); scrim.classList.toggle('open', o); }
