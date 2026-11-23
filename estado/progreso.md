@@ -158,3 +158,6 @@ Separación automática de jugadores (2026-11-23): `_separa` en `motor/ficha_eng
 - Cierre ajustado a unas 3.300 (Sergio): de los 140 candidatos que estaban fuera de la cola se rescatan 36 de calidad (12 RONDO, 9 Leicester, 6 Level Up, 3 IG, 2 JL, 2 Athletic, TFB100-064 y AMO-012) al final de la cola; los otros 104 (ruedas sin oposición, demo de resistencia, fichas solo gráficas, tácticas de adultos) pasan a `ejercicios_descartados/` y la app los oculta.
 - Arreglo: 15 ejercicios del libro (13 Level Up/Athletic y AX-E13, AX-E16) no estaban en la cola y no se habrían dibujado nunca. Añadidos al final como fase 2 (libro). AX-E13 y AX-E16 solo traen datos del Excel: revisar en la revisión final si se cambian.
 - Objetivo final fijado por Sergio: **3.333 fichas exactas** (cola de 3.353 + 21 hechas fuera de ella; los «IA» eliminados dan el margen). El libro (fase 1–2) va primero.
+
+## Cambios por calidad
+- Regla (2026-11-23, Sergio): si aparece un ejercicio mejor, entra cambiándolo por uno de nivel justito; el total sigue en 3.333. Aquí se anota cada cambio (sale → entra, motivo).
