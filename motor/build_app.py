@@ -163,6 +163,9 @@ for r in refs:
         if 'FCStage' in _src: rec['cl'] = 'FCS'
         elif r['ID'].startswith('RONDO-') or _src.strip().upper() == 'RONDO': rec['cl'] = 'Rondo'
         elif 'FIFA' in _src.upper(): rec['cl'] = 'FIFA'
+    if (r.get('Evidencia') or '').startswith(('Título/URL únicamente', 'Título y edades', 'Título únicamente')):
+        rec['ia'] = 1  # la fuente solo da el título: ejercicio desarrollado por IA
+        if not rec.get('cl'): rec['cl'] = 'IA'
     if r['ID'].startswith('IG-'):
         m2_ = re.search(r'\(([A-Za-zÁÉÍÓÚáéíóúñ][^()]{3,30})\)\s*$', r['Título / referencia'] or '')
         if m2_ and not re.search(r'propuesta|adaptaci|parte|variante', m2_.group(1), re.I): rec['cl'] = m2_.group(1).strip()
