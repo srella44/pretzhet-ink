@@ -83,7 +83,7 @@ def render_svg(spec):
 BLOCKS = {b[0]: b[1] for b in [
  ('Calentamiento', 'F28C28'), ('Técnica y duelos', '1BA6A6'), ('Rondos', 'F5C518'), ('Posesiones y juego de posición', '3B82F6'),
  ('Superioridades', '7C4DCC'), ('Oleadas y transiciones', 'E2453C'), ('Finalización', 'D6336C'), ('Defensa y presión', '4B5563'),
- ('Partidos y situaciones reales', '2E9E5B'), ('Balón parado', 'B7791F'), ('Porteros', '1F2937'), ('Vuelta a la calma', '7CC4F0')]}
+ ('Partidos y situaciones reales', '2E9E5B'), ('Balón parado', 'B7791F'), ('Porteros', '1F2937')]}
 def ink(hexc):  # text colour on block colour
     r, g, b = int(hexc[:2], 16), int(hexc[2:4], 16), int(hexc[4:], 16)
     return NAVY if (0.299*r + 0.587*g + 0.114*b) > 150 else '#ffffff'

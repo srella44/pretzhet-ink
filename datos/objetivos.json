@@ -10,8 +10,7 @@
   "Defensa y presión": 70,
   "Partidos y situaciones reales": 100,
   "Balón parado": 40,
-  "Porteros": 60,
-  "Vuelta a la calma": 30
+  "Porteros": 60
  },
  "faltan": {
   "Calentamiento": 0,
@@ -24,7 +23,6 @@
   "Defensa y presión": 0,
   "Partidos y situaciones reales": 0,
   "Balón parado": 0,
-  "Porteros": 0,
-  "Vuelta a la calma": 21
+  "Porteros": 0
  }
 }

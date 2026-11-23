@@ -792,6 +792,50 @@
 "uso": "Interno: tú y tus compañeros (propuesta)"
 },
 {
+"id": "RONDO-PLANB-24x",
+"blk": "Calentamiento",
+"rank": 73,
+"title": "Cierre a cubierto",
+"author": "RONDO",
+"kind": "Referencia",
+"score": 3.54,
+"top": "Cierre a cubierto: cada uno dice su juego favorito y se elige con cuál empezar el próximo día.",
+"uso": "Solo tú (su licencia: uso personal, no redistribuir)"
+},
+{
+"id": "LU-P160",
+"blk": "Calentamiento",
+"rank": 74,
+"title": "Estiramientos 1",
+"author": "Level Up Coach",
+"kind": "Referencia",
+"score": 3.67,
+"top": "",
+"uso": "Interno: tú y tus compañeros (licencia no indicada)"
+},
+{
+"id": "LEI-122",
+"blk": "Calentamiento",
+"rank": 75,
+"title": "End of session cool down 1 Circle.",
+"author": "Leicester City Academy",
+"kind": "Referencia",
+"score": 2.95,
+"top": "",
+"uso": "Interno: tú y tus compañeros (licencia no indicada)"
+},
+{
+"id": "DOS-073",
+"blk": "Calentamiento",
+"rank": 76,
+"title": "Resumen de la sesión y estiramientos",
+"author": "FCStage Camps · dosier de sesiones",
+"kind": "Referencia",
+"score": 2.92,
+"top": "",
+"uso": "Interno: tú y tus compañeros (licencia no indicada)"
+},
+{
 "id": "TFB100-093",
 "blk": "Técnica y duelos",
 "rank": 1,
@@ -2000,6 +2044,28 @@
 "score": 5.7,
 "top": "",
 "uso": "Solo tú (suscripción personal a toplidercoach; no redistribuir)"
+},
+{
+"id": "DOS-017",
+"blk": "Técnica y duelos",
+"rank": 131,
+"title": "Retos de habilidad",
+"author": "FCStage Camps · dosier de sesiones",
+"kind": "Referencia",
+"score": 7.18,
+"top": "Retos de habilidad: baja intensidad y muchas ganas para cerrar la sesión.",
+"uso": "Interno: tú y tus compañeros (licencia no indicada)"
+},
+{
+"id": "RONDO-PLANB-03",
+"blk": "Técnica y duelos",
+"rank": 132,
+"title": "El reto de las dianas",
+"author": "RONDO",
+"kind": "Referencia",
+"score": 3.43,
+"top": "Reto de las dianas: precisión con clasificación personal, sin presión de grupo.",
+"uso": "Solo tú (su licencia: uso personal, no redistribuir)"
 },
 {
 "id": "TFB25-005",
@@ -10197,6 +10263,39 @@
 "uso": "Solo tú (su licencia: uso personal, no redistribuir)"
 },
 {
+"id": "DOS-057",
+"blk": "Partidos y situaciones reales",
+"rank": 129,
+"title": "Fútbol tenis por divisiones",
+"author": "FCStage Camps · dosier de sesiones",
+"kind": "Referencia",
+"score": 5.59,
+"top": "",
+"uso": "Interno: tú y tus compañeros (licencia no indicada)"
+},
+{
+"id": "RONDO-PLANB-06",
+"blk": "Partidos y situaciones reales",
+"rank": 130,
+"title": "Fútbol-tenis",
+"author": "RONDO",
+"kind": "Referencia",
+"score": 4.42,
+"top": "",
+"uso": "Solo tú (su licencia: uso personal, no redistribuir)"
+},
+{
+"id": "RONDO-PLANB-15",
+"blk": "Partidos y situaciones reales",
+"rank": 131,
+"title": "Bolos por equipos",
+"author": "RONDO",
+"kind": "Referencia",
+"score": 3.46,
+"top": "",
+"uso": "Solo tú (su licencia: uso personal, no redistribuir)"
+},
+{
 "id": "RONDO-BJ-F04",
 "blk": "Balón parado",
 "rank": 4,
@@ -10897,105 +10996,6 @@
 "author": "@klube.ai",
 "kind": "Referencia",
 "score": 1.5,
-"top": "",
-"uso": "Interno: tú y tus compañeros (licencia no indicada)"
-},
-{
-"id": "DOS-017",
-"blk": "Vuelta a la calma",
-"rank": 1,
-"title": "Retos de habilidad",
-"author": "FCStage Camps · dosier de sesiones",
-"kind": "Referencia",
-"score": 7.18,
-"top": "Retos de habilidad: baja intensidad y muchas ganas para cerrar la sesión.",
-"uso": "Interno: tú y tus compañeros (licencia no indicada)"
-},
-{
-"id": "RONDO-PLANB-24x",
-"blk": "Vuelta a la calma",
-"rank": 2,
-"title": "Cierre a cubierto",
-"author": "RONDO",
-"kind": "Referencia",
-"score": 3.54,
-"top": "Cierre a cubierto: cada uno dice su juego favorito y se elige con cuál empezar el próximo día.",
-"uso": "Solo tú (su licencia: uso personal, no redistribuir)"
-},
-{
-"id": "RONDO-PLANB-03",
-"blk": "Vuelta a la calma",
-"rank": 3,
-"title": "El reto de las dianas",
-"author": "RONDO",
-"kind": "Referencia",
-"score": 3.43,
-"top": "Reto de las dianas: precisión con clasificación personal, sin presión de grupo.",
-"uso": "Solo tú (su licencia: uso personal, no redistribuir)"
-},
-{
-"id": "DOS-057",
-"blk": "Vuelta a la calma",
-"rank": 4,
-"title": "Fútbol tenis por divisiones",
-"author": "FCStage Camps · dosier de sesiones",
-"kind": "Referencia",
-"score": 5.59,
-"top": "",
-"uso": "Interno: tú y tus compañeros (licencia no indicada)"
-},
-{
-"id": "RONDO-PLANB-06",
-"blk": "Vuelta a la calma",
-"rank": 5,
-"title": "Fútbol-tenis",
-"author": "RONDO",
-"kind": "Referencia",
-"score": 4.42,
-"top": "",
-"uso": "Solo tú (su licencia: uso personal, no redistribuir)"
-},
-{
-"id": "LU-P160",
-"blk": "Vuelta a la calma",
-"rank": 6,
-"title": "Estiramientos 1",
-"author": "Level Up Coach",
-"kind": "Referencia",
-"score": 3.67,
-"top": "",
-"uso": "Interno: tú y tus compañeros (licencia no indicada)"
-},
-{
-"id": "RONDO-PLANB-15",
-"blk": "Vuelta a la calma",
-"rank": 7,
-"title": "Bolos por equipos",
-"author": "RONDO",
-"kind": "Referencia",
-"score": 3.46,
-"top": "",
-"uso": "Solo tú (su licencia: uso personal, no redistribuir)"
-},
-{
-"id": "LEI-122",
-"blk": "Vuelta a la calma",
-"rank": 8,
-"title": "End of session cool down 1 Circle.",
-"author": "Leicester City Academy",
-"kind": "Referencia",
-"score": 2.95,
-"top": "",
-"uso": "Interno: tú y tus compañeros (licencia no indicada)"
-},
-{
-"id": "DOS-073",
-"blk": "Vuelta a la calma",
-"rank": 9,
-"title": "Resumen de la sesión y estiramientos",
-"author": "FCStage Camps · dosier de sesiones",
-"kind": "Referencia",
-"score": 2.92,
 "top": "",
 "uso": "Interno: tú y tus compañeros (licencia no indicada)"
 }

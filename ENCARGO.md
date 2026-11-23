@@ -4,7 +4,7 @@ Este documento es la orden de trabajo completa. Cada ejecución programada empie
 
 ## Qué es el proyecto
 
-Banco personal de ejercicios de fútbol base de Sergio, organizado en 12 bloques con color. Uso **personal y de sus compañeros, sin venta**. De los mismos archivos salen dos productos:
+Banco personal de ejercicios de fútbol base de Sergio, organizado en 11 bloques con color. Uso **personal y de sus compañeros, sin venta**. De los mismos archivos salen dos productos:
 
 - **App** (`salida/app/Pretzhet_Ink_app.html`): todo el banco, con filtros. Ficha pequeña en la lista y grande al pulsar.
 - **Libro/PDF** (`salida/libro/Pretzhet_Ink_libro.pdf`): los 1.000 mejores, 6 por página A4, con el estilo aprobado (ver `salida/libro/muestra_rondos_p001.pdf`).
@@ -97,3 +97,5 @@ Consejos: 3–8 jugadores bien separados (mínimo 2 m entre centros a escala peq
 - **Libro de 1.000** rehecho con los mejores candidatos de las demás fuentes (primero los que ya tienen ficha dibujada). Vuelta a la calma solo tiene 9 (no hay candidatos en las fuentes) y Porteros 24 (la mayoría de portero solo trae título).
 - **Explicaciones muy completas.** Sergio quiere que cada ficha se entienda sin dudas: en `montaje`, `juego` y `punto` di quién se coloca dónde, qué hace cada uno, cuánto dura, cuándo se rota y cómo se puntúa, con medidas y números concretos. Usa el máximo de caracteres que quepa en la página (hasta ~430) y pon el resto del detalle (cómo explicarlo, errores típicos, qué observar) en `objetivo`, `variantes`, `series` y `adaptacion`, que salen completos en la app.
 - **TOP:** los TOP de las fichas propias se sustituyeron por 18 propuestas `(propuesta)` entre las nuevas del libro; Sergio las revisará.
+- **Bloque «Vuelta a la calma» eliminado** (2026-11-23, a petición de Sergio: con 9 ejercicios no merecía bloque). Sus 9 se repartieron: Calentamiento (LU-P160, LEI-122, DOS-073, RONDO-PLANB-24x), Técnica y duelos (RONDO-PLANB-03, DOS-017) y Partidos y situaciones reales (RONDO-PLANB-06, DOS-057, RONDO-PLANB-15). Ya no existe en `BLOCKS`; ningún ejercicio nuevo va a ese bloque. Libro: 11 bloques, 1.000 ejercicios.
+- **Modelo para los «Fútbol Base» (FB-):** Sergio aprobó el nivel de detalle de `datos/modelo_ficha_fb.json` («Evitar al destructor»). Cada ficha FB se escribe así: montaje con medidas y materiales, juego paso a paso con las reglas y qué pasa al fallar, puntuación clara, consigna corta, variante fácil y difícil con cambios concretos, y adaptación por edades. Todo lo que no da la web va marcado como (propuesta) en `completado`. Cuida más el diagrama que en la muestra: jugadores separados, números sin tapar a nadie y etiquetas fuera de los jugadores.

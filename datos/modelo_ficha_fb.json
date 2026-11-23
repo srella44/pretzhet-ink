@@ -1,0 +1,177 @@
+{
+ "id": "FB-0000 (muestra)",
+ "bloque": "Técnica y duelos",
+ "titulo": "Evitar al destructor",
+ "formato": "Conducción",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–14 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 2 minutos con 30 segundos de pausa y cambio de destructores.",
+ "objetivo": "Que cada niño conduzca con la cabeza levantada, proteja el balón con el cuerpo y cambie de dirección para huir de un rival, en un juego en el que todos participan y nadie queda eliminado mucho tiempo.",
+ "montaje": "Un cuadrado de 20 × 20 m marcado con 4 conos. Todos los jugadores dentro con su balón, repartidos por el campo. Dos jugadores, con peto azul y sin balón, hacen de «destructores». El entrenador, fuera, con un silbato.",
+ "juego": "A la señal, los jugadores conducen el balón por todo el cuadrado sin salir de él. Los destructores corren e intentan tocar el balón de cualquiera con el pie y sacarlo del cuadrado. Si un destructor saca un balón, el dueño pasa a ser destructor y el anterior destructor coge ese balón. Los destructores no pueden empujar ni agarrar; solo jugar el balón.",
+ "punto": "Cada jugador que acaba la ronda sin haber sido destructor suma 1 punto. Si un balón sale del cuadrado sin que lo toque un destructor, el jugador lo recupera y pierde 1 punto. Al final de las 4 rondas gana quien más puntos tenga.",
+ "consigna": "Cabeza arriba, balón pegado al pie y el cuerpo entre tú y el destructor.",
+ "variantes": {
+  "facil": "Un solo destructor y que solo pueda tocar el balón, no sacarlo. El cuadrado de 25 × 25 m para tener más espacio.",
+  "dificil": "Tres destructores y el cuadrado de 15 × 15 m. Solo se puede conducir con la pierna menos hábil durante los últimos 30 segundos."
+ },
+ "adaptacion": "Prebenjamín (6–7 años): un solo destructor, cuadrado grande y sin puntos; solo se cuenta quién se divierte más. Benjamín (8–9): dos destructores y puntos. Si hay pocos jugadores, usar 10 × 10 m con un destructor.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "EVITAR AL DESTRUCTOR",
+  "ref": "Muestra: la web solo da título y edades (PB)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Todo menos título y edad es propuesta (la fuente solo da el título y las edades): montaje, reglas, puntos, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": [
+     4,
+     12
+    ]
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 16,
+    "f": [
+     12,
+     12
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     8,
+     5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     16,
+     9
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     5,
+     11
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    10,
+    10.2,
+    "DESTRUCTORES",
+    "middle"
+   ]
+  ]
+ }
+}

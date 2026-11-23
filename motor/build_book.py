@@ -19,7 +19,6 @@ KICK = {
  'Partidos y situaciones reales': ('Juega con reglas que enseñan.', 'Partidos y juegos reducidos con condiciones que provocan lo que se entrena.'),
  'Balón parado': ('Cada saque es una ocasión.', 'Córners, faltas y saques de banda trabajados como juego.'),
  'Porteros': ('El primer atacante, el último defensor.', 'Tareas específicas y porteros integrados en el juego.'),
- 'Vuelta a la calma': ('Cierra la sesión.', 'Juegos de baja intensidad, retos y repaso para terminar.'),
 }
 ORDER = list(KICK)
 
