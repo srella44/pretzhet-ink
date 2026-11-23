@@ -120,3 +120,8 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 - Hecho: `motor/cifrar_web.mjs` (cifra el script y los datos con AES-256-GCM; la clave sale de la variable `PI_CLAVE`; si falta, falla y no publica). Probado a medias; falta la prueba completa con navegador.
 - Falta: (1) Sergio pone `PI_CLAVE` en Cloudflare → Settings → Build → Variables (Claude nunca ve ni escribe la clave); (2) cambiar el comando de compilación a `node motor/cifrar_web.mjs` y quitar `web/index.html` sin cifrar del repo (que `build_app.py` deje de escribirlo); (3) quitar el acceso «Cloudflare account»; (4) añadir `escola.efva.app` en Domains & Routes.
 - Más adelante: cuentas individuales con Supabase (plan gratis: 50.000 usuarios, se pausa tras 1 semana sin uso, sin copias automáticas) y/o Cloudflare Access con lista de correos.
+
+## Pendiente: revisión final del libro (acordado con Sergio, 2026-11-23)
+- Cuando estén dibujados los 1.000 del libro, Sergio y Claude los revisan juntos para asegurarse de que son los mejores. Hasta entonces la selección de `datos/seleccion.json` es provisional: se pueden cambiar ejercicios por otros mejores del banco.
+- Estado actual: 1.000 seleccionados, 218 ya dibujados, 34 páginas, 11 bloques. Las tareas programadas siguen dibujando sin cambiar la selección.
+- Al revisar: duplicados casi iguales (p. ej. TLC-0160/-0150, TLC-0171/-0148, TLC-0372), TOP marcados «(propuesta)», Porteros (24) y bloques con pocos ejercicios.
