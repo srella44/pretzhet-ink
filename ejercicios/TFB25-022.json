@@ -1,0 +1,291 @@
+{
+ "id": "TFB25-022",
+ "bloque": "Rondos",
+ "titulo": "Octógono 6+1 contra 3",
+ "formato": "6+1v3 + 2 miniporterías",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′; tras cada serie, tres azules cambian con los rojos (fuente).",
+ "objetivo": "Mantener la posesión en un espacio con muchos ángulos de pase, usando al comodín interior, y presionar justo después de perder porque el rival puede marcar (fuente). También trabaja: cambiar de lado a través del comodín, pase con ventaja en un espacio de ocho lados, presión tras pérdida para proteger las miniporterías, contraataque rápido tras robo. Consignas (fuente): «Salta un lado», «Comodín: ofrécete y gira el juego», «Pierdes y presionas», «Pase tenso». Errores típicos (fuente): pasar siempre al jugador del lado de al lado; el comodín se esconde detrás de un defensor; tras perder, los azules se quedan mirando; pases flojos que permiten a los rojos anticiparse. Más difícil (fuente): todos a un toque; el comodín no puede devolver al que le pasó; pase al comodín y que juegue al lado contrario vale un punto; los rojos también marcan saliendo conduciendo del octógono; sin comodín, 6 contra 3. Material: 16 conos, 2 miniporterías, petos de tres colores y balones.",
+ "montaje": "Octógono de 30 m con una mini en dos lados opuestos. En los otros 6, un azul por lado; dentro, comodín amarillo y 3 rojos.",
+ "juego": "Azules (2 toques) y comodín (1 toque) mantienen el balón. Prohibido pasar al lado de al lado: hay que saltar uno o ir al comodín. Si los rojos roban, tienen 8″ para marcar en cualquier mini; los azules salen de su línea a defenderlas. Gol o fuera: saca un azul.",
+ "punto": "10 pases: 1 a los azules. Gol tras robo: 2 a los rojos.",
+ "consigna": "Salta un lado; pierdes y presionas.",
+ "variantes": {
+  "facil": "Comodín con toques libres y sin la regla del lado de al lado (fuente).",
+  "dificil": "Todos a un toque, o el comodín no puede devolver al que le ha pasado (fuente)."
+ },
+ "adaptacion": "Alevín: octógono de 32 m y tres toques. Infantil y cadete: 30 m y dos toques; juvenil, comodín a un toque (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo en octógono 6+1 contra 3 con miniporterías tras robo",
+  "ref": "25 rondos para fútbol base · pág. 33"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Nada esencial: datos completos en la fuente. Diagrama girado: miniporterías a izquierda y derecha. Edad y nivel de la página original (alevín a juvenil, medio).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "nofield": true,
+  "tag": "octógono 30 m",
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 32.4,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "lines": [
+   [
+    [
+     9,
+     0
+    ],
+    [
+     21,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     21,
+     0
+    ],
+    [
+     30,
+     9
+    ],
+    ""
+   ],
+   [
+    [
+     30,
+     9
+    ],
+    [
+     30,
+     21
+    ],
+    ""
+   ],
+   [
+    [
+     30,
+     21
+    ],
+    [
+     21,
+     30
+    ],
+    ""
+   ],
+   [
+    [
+     21,
+     30
+    ],
+    [
+     9,
+     30
+    ],
+    ""
+   ],
+   [
+    [
+     9,
+     30
+    ],
+    [
+     0,
+     21
+    ],
+    ""
+   ],
+   [
+    [
+     0,
+     21
+    ],
+    [
+     0,
+     9
+    ],
+    ""
+   ],
+   [
+    [
+     0,
+     9
+    ],
+    [
+     9,
+     0
+    ],
+    ""
+   ]
+  ],
+  "cones": [
+   [
+    9,
+    0
+   ],
+   [
+    21,
+    0
+   ],
+   [
+    30,
+    9
+   ],
+   [
+    30,
+    21
+   ],
+   [
+    21,
+    30
+   ],
+   [
+    9,
+    30
+   ],
+   [
+    0,
+    21
+   ],
+   [
+    0,
+    9
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    30,
+    15,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 15,
+    "y": -1.1,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 31.1,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 26.3,
+    "y": 3.7,
+    "f": 135
+   },
+   {
+    "r": "D",
+    "x": 26.3,
+    "y": 26.3,
+    "f": -135
+   },
+   {
+    "r": "D",
+    "x": 3.7,
+    "y": 3.7,
+    "f": 45
+   },
+   {
+    "r": "D",
+    "x": 3.7,
+    "y": 26.3,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10.5,
+    "y": 9.5,
+    "f": -45
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 19.5,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 21,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     -1.1
+    ],
+    "b": [
+     16,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     14
+    ],
+    "b": [
+     3.7,
+     26.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     21,
+     19.5
+    ],
+    "b": [
+     18,
+     16
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

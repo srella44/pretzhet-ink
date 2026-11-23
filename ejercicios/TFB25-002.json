@@ -1,0 +1,168 @@
+{
+ "id": "TFB25-002",
+ "bloque": "Rondos",
+ "titulo": "3 contra 1 en triángulo",
+ "formato": "3v1",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "4–12 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′, cambiando de defensor en cada una (fuente). Con más de 4 jugadores, varios triángulos.",
+ "objetivo": "Iniciar el rondo con pocos jugadores: pasar y recibir con orientación y ofrecer siempre una línea de pase (fuente). Cada jugador solo tiene dos compañeros a los que pasar, lo que simplifica la decisión. También trabaja: pase raso y preciso, controlar y pasar en pocos toques, entender la presión de un defensor. Consignas (fuente): «Mira antes de pasar», «Balón al pie del compañero», «Ofrece la línea de pase», «Primer toque lejos de la presión». Errores típicos (fuente): pasar sin mirar; quedarse quieto en su sitio; control que se aleja del cuerpo; defensor que persigue el balón en lugar de cerrar una línea. Material (fuente): 3 conos, 1 balón y 1 peto por grupo.",
+ "montaje": "Triángulo de 10 m de lado. Un atacante en el centro de cada lado, por fuera, y un defensor dentro.",
+ "juego": "Los atacantes se pasan el balón por el suelo y pueden cambiar de sentido; el defensor intenta tocarlo. Cada atacante se mueve 1–2 m por su lado para dar línea, sin entrar. Si el defensor toca el balón o sale, cambia con el último que lo tocó.",
+ "punto": "Cada 5 pases seguidos: 1. Reto: mejorar la marca en 2′.",
+ "consigna": "Mira antes de pasar, balón al pie.",
+ "variantes": {
+  "facil": "Triángulo de 8 m de lado, toques libres y defensor que solo cierra líneas (fuente).",
+  "dificil": "Triángulo de 12 m, a dos toques y cambio de sentido obligatorio cada tres pases; después, a un toque (fuente)."
+ },
+ "adaptacion": "Prebenjamín: triángulo de 12 m y toques libres. Benjamín: 10 m y dos toques; si va fácil, prohibido devolver al que te la pasó (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 3 contra 1 en triángulo",
+  "ref": "25 rondos para fútbol base · pág. 10"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Nada esencial: datos completos en la fuente. Edad y nivel de la página original (prebenjamín y benjamín, básico).",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "nofield": true,
+  "tag": "triángulo 10 m",
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 11.6,
+   "ymin": -0.6,
+   "ymax": 11.4
+  },
+  "lines": [
+   [
+    [
+     5,
+     0.5
+    ],
+    [
+     0,
+     9.16
+    ],
+    ""
+   ],
+   [
+    [
+     0,
+     9.16
+    ],
+    [
+     10,
+     9.16
+    ],
+    ""
+   ],
+   [
+    [
+     10,
+     9.16
+    ],
+    [
+     5,
+     0.5
+    ],
+    ""
+   ]
+  ],
+  "cones": [
+   [
+    5,
+    0.5
+   ],
+   [
+    0,
+    9.16
+   ],
+   [
+    10,
+    9.16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.4,
+    "y": 4.2,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 8.6,
+    "y": 4.2,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10.4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 6.3,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     10.4
+    ],
+    "b": [
+     1.4,
+     4.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     1.4,
+     4.2
+    ],
+    "b": [
+     8.6,
+     4.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     6.3
+    ],
+    "b": [
+     6.2,
+     4.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

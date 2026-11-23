@@ -1,0 +1,210 @@
+{
+ "id": "LU-P238",
+ "bloque": "Técnica y duelos",
+ "titulo": "Desmarque y remate",
+ "formato": "2 grupos de 3 + portero",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug. + portero",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; ataca un grupo y, cuando termina su remate, sale el otro (fuente). Rotación por puestos tras cada acción: 1 → 2 → 3 → 1, siguiendo los números (fuente). Con más de 6, fila de 2–3 en cada puesto 1 (propuesta).",
+ "objetivo": "Perfil corporal para recibir y jugar a 1–2 toques (puestos 2 y 5), desmarque en diagonal por detrás de un defensor sin caer en fuera de juego (puestos 3 y 6) y finalizar a 1 toque dentro del área o con control orientado y tiro fuera de ella (fuente). Cómo explicarlo: hazlo andando una vez con cada grupo y marca el momento del desmarque: «sales cuando el 2 levanta la cabeza, no antes». Errores típicos: recibir de frente al pasador sin ver la portería, desmarque en línea recta o adelantado (fuera de juego), controlar dentro del área en vez de rematar de primeras, pase al pie del delantero en lugar de al espacio. Qué observar: apertura del cuerpo del 2 antes de recibir, curva del desmarque por detrás del cono, pase por delante del delantero, golpeo con el empeine y la cabeza quieta. Montaje detallado (propuesta): la fuente usa 40 × 60 m para 6 jugadores; en fútbol base, medio campo de F7 (≈ 40 × 30 m) con portería y portero. Grupo 1 por la mitad izquierda del ataque y grupo 2 por la derecha, cada uno con 3 puestos: 1 pasador con balones a unos 30 m de la portería, 2 apoyo a 20–22 m y 3 delantero junto a un cono que hace de defensor, a 15 m.",
+ "montaje": "Portería y portero. Dos grupos (izq. y dcha.) de 3 puestos: 1 pasador con balones, 2 apoyo, 3 delantero junto a un cono.",
+ "juego": "1 pasa a 2, que recibe perfilado y la juega al espacio (1–2 toques). 3 sale en diagonal por detrás del cono sin adelantarse al pase y remata: dentro del área, a 1 toque; fuera, control orientado y tiro. Después, el otro grupo. Rotan 1→2→3.",
+ "punto": "Gol: 1. Gol de primeras: 2. Fuera de juego: −1 (propuesta).",
+ "consigna": "Perfílate antes de recibir; sal al pase.",
+ "variantes": {
+  "facil": "Sin cono-defensor y el 2 puede controlar antes de pasar; distancias más cortas (pasador a 20 m) (propuesta).",
+  "dificil": "Cambia el cono por un defensor real que sale al pase del 1, o el 2 juega obligatoriamente a 1 toque; el remate fuera del área, máximo 2 toques (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): sin fuera de juego, portería de F7 y remate libre. Infantil (12–13): con fuera de juego y defensor pasivo en lugar del cono. Fuente de fútbol profesional (40 × 60 m): medidas reducidas y edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Desarrollo Técnico - Ejercicio 3 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "300 ejercicios Level Up Coach · p. 238 (tarea 237)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas para fútbol base, distancias de los puestos, lado de cada grupo, puntuación y series (propuesta). Sin gráfico original: colocación propuesta a partir del texto.",
+ "diagrama": {
+  "field": [
+   36,
+   22
+  ],
+  "tag": "recorte ½ campo F7",
+  "extent": {
+   "xmin": -2,
+   "xmax": 37,
+   "ymin": -2.4,
+   "ymax": 24.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 11,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     2
+    ],
+    [
+     12,
+     2
+    ]
+   ],
+   [
+    [
+     12,
+     2
+    ],
+    [
+     12,
+     20
+    ]
+   ],
+   [
+    [
+     12,
+     20
+    ],
+    [
+     0,
+     20
+    ]
+   ]
+  ],
+  "cones": [
+   [
+    14,
+    8
+   ],
+   [
+    14,
+    15.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 32,
+    "y": 4.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 10,
+    "f": 160
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 3.5,
+    "f": 200
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 18,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 24.5,
+    "y": 16,
+    "f": 200
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 19.5,
+    "f": 160
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     32,
+     4.5
+    ],
+    "b": [
+     24,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     16.5,
+     3.5
+    ],
+    "b": [
+     7.5,
+     8.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     10
+    ],
+    "b": [
+     8,
+     9.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     7.5,
+     8.8
+    ],
+    "b": [
+     0.6,
+     11.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    32,
+    0.9,
+    "GRUPO 1",
+    "middle"
+   ],
+   [
+    32,
+    21.6,
+    "GRUPO 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "id": "LU-P274",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tercer hombre y tiro",
+ "formato": "rueda de 3 + 2 minis",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "3–9 jug.",
+ "espacio": "18 × 10 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 1′ de pausa; el 1 cambia el lado hacia el que se abre en cada serie. Con 6–9 jugadores, 2–3 grupos a la vez o fila de 2 en el puesto 1 (propuesta).",
+ "objetivo": "Combinar con el tercer hombre: dejada de cara, pase tenso que supera una línea rival imaginaria y golpeo de precisión (fuente). Cómo explicarlo: hazlo andando y nombra cada pase: «1 dentro, 2 de cara, 3 tenso, de cara otra vez y tiro». Errores típicos: el 2 recibe sin mirar hacia dónde se abre el 1; dejadas flojas o al cuerpo; pase al 3 sin tensión; el 2 no se mueve al espacio contrario tras su dejada. Qué observar (fuente): el primer contacto (recibir parado y jugar de primeras o moverse antes, según el movimiento del 1), la orientación corporal del 3 al dejar de cara y el golpeo con el interior. Montaje detallado (propuesta): 18 × 10 m; puesto 1 en un fondo con los balones; 2 a 7 m del 1; 3 a 13 m, que viene en apoyo; dos miniporterías en el fondo contrario, a 2,5 m de cada esquina.",
+ "montaje": "18 × 10 m con 2 minis en un fondo. El 1, con balones, en el otro fondo; el 2 a 7 m de él y el 3 a 13 m.",
+ "juego": "1 pasa a 2 y se abre a un lado; 2 se la deja de cara de primeras. 1 pasa tenso a 3, que viene al apoyo, mientras 2 se mueve al espacio contrario; 3 se la deja de cara y 2 tira a la miniportería de su lado. Rotan 1→2→3→1.",
+ "punto": "Gol: 1. Gol de primeras: 2 (propuesta).",
+ "consigna": "Pase tenso y dejada de cara al pie.",
+ "variantes": {
+  "facil": "El 2 puede controlar antes de dejarla y tira a cualquier mini (propuesta).",
+  "dificil": "Todo a 1 toque y el 2 tira a la mini contraria a la que eligió el 1 al abrirse; o un defensor pasivo entre el 1 y el 3 que obliga a pasar tenso por el hueco (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 15 × 10 m y control permitido. Infantil (12–13): tal cual y todo a 1 toque al final (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Rueda de pase - 3º Hombre + golpeo buscando precisión",
+  "ref": "300 ejercicios Level Up Coach · p. 274 (tarea 273)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias entre puestos, colocación de las miniporterías, rotación, puntuación y series (propuesta).",
+ "diagrama": {
+  "field": [
+   18,
+   10
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 19.4,
+   "ymin": -1.2,
+   "ymax": 11.2
+  },
+  "goals": [
+   [
+    18,
+    2.5,
+    "R"
+   ],
+   [
+    18,
+    7.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.2,
+    "y": 1.8,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 8.3,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     5
+    ],
+    "b": [
+     8,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     5
+    ],
+    "b": [
+     3.2,
+     1.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     3.2,
+     1.8
+    ],
+    "b": [
+     14,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     8,
+     5
+    ],
+    "b": [
+     11.5,
+     8.3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     14,
+     5
+    ],
+    "b": [
+     11.5,
+     8.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 5
+   },
+   {
+    "a": [
+     11.5,
+     8.3
+    ],
+    "b": [
+     17.6,
+     7.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 6
+   }
+  ],
+  "labels": []
+ }
+}

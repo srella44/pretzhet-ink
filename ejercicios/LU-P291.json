@@ -1,0 +1,180 @@
+{
+ "id": "LU-P291",
+ "bloque": "Rondos",
+ "titulo": "Rondo amplitud y profundidad",
+ "formato": "4v4 + 4 apoyos",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa. Entre series se cambian los exteriores y los objetivos de cada equipo (amplitud ↔ profundidad) (fuente: «cada repetición se cambian los jugadores exteriores»).",
+ "objetivo": "Posesión con dos objetivos distintos: un equipo circula en amplitud y el otro busca profundidad (fuente). Cómo explicarlo: «amarillos, abrid el campo y llevadla de banda a banda; rojos, buscad al apoyo del fondo contrario». Errores típicos: interiores todos juntos alrededor del balón, apoyos exteriores parados que no acompañan, pase al apoyo sin preparar (sin atraer antes), pérdida y nadie presiona. Qué observar: posición escalonada de los 4 interiores, perfil para ver los dos apoyos, cambio de orientación rápido, permuta del que pasa con el apoyo (variante de la fuente). Montaje detallado (propuesta): 30 × 20 m; 4 contra 4 dentro; los 2 apoyos de los amarillos fuera, uno en cada banda larga; los 2 apoyos de los rojos fuera, uno en cada fondo. Variantes de la fuente: limitar los toques de exteriores o interiores.",
+ "montaje": "30 × 20 m, 4 contra 4 dentro. Apoyos: 2 amarillos en las bandas y 2 rojos en los fondos.",
+ "juego": "Cada equipo juega con sus 2 apoyos: amarillos buscan amplitud (banda a banda) y rojos, profundidad (fondo a fondo). Si roban, ataca el otro. Al pasar a un apoyo, este entra y el que pasó sale a su sitio.",
+ "punto": "1 punto: banda a banda (amarillos) o fondo a fondo (rojos).",
+ "consigna": "Abre el campo o busca la espalda.",
+ "variantes": {
+  "facil": "Apoyos exteriores con toques libres y sin permuta (propuesta).",
+  "dificil": "Exteriores a 1 toque e interiores a 2 (fuente: limitar toques) (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 32 × 24 m y toques libres. Infantil (12–13): tal cual. Cadete (14–15): exteriores a 1 toque (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Rondo - Amplitud y Profundidad - @Zonadefutboles - www.zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · p. 291 (tarea 290)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de los apoyos (bandas para un equipo y fondos para el otro: interpretación de «en los extremos»), puntuación y series (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 32.4,
+   "ymin": -2.2,
+   "ymax": 22.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": -1.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 21.2,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": -1.2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 31.2,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 10.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     5
+    ],
+    "b": [
+     15,
+     -1.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     -1.2
+    ],
+    "b": [
+     19,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     6
+    ],
+    "b": [
+     23,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     23,
+     15
+    ],
+    "b": [
+     15,
+     21.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

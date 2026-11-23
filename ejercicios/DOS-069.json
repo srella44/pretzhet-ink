@@ -1,0 +1,141 @@
+{
+ "id": "DOS-069",
+ "bloque": "Rondos",
+ "titulo": "2 contra 2 + comodín",
+ "formato": "2v2+1C",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de pausa; comodín nuevo en cada serie (propuesta). Duración total de la fuente: 20′.",
+ "objetivo": "Desmarcarse y dar opción de pase en igualdad con ayuda de un comodín (fuente). Cómo explicarlo: «sois tres contra dos: si te tapan, muévete o dribla para abrir una línea». Consignas (fuente): dribla para crearte línea de pase; fija y pasa. Evitar (fuente): presionar por separado o saltar sin tapar el pase. Qué observar: el poseedor que conduce hacia un defensor para fijarlo antes de pasar, el compañero que se aleja para abrir espacio, la pareja defensora que presiona junta (uno al balón y otro tapa). Si el número de jugadores no cuadra, la fuente propone 5 contra 2 «doy y salgo» (el que pasa sale del rondo y entra otro). Probado en campo por Sergio (FCStage).",
+ "montaje": "Cuadrado de 12 × 12 m con dos parejas y un comodín, todos dentro. Si no cuadran los números, 5 contra 2 «doy y salgo».",
+ "juego": "Toques libres. La pareja con balón y el comodín juegan 3 contra 2 para conservarlo; la otra pareja presiona junta. Si roba (o la pierden fuera), cambian los papeles y el comodín pasa con ella (propuesta). Vale driblar para crearse línea de pase.",
+ "punto": "1 punto cada 6 pases seguidos (propuesta).",
+ "consigna": "Fija y pasa; dribla para abrir línea.",
+ "variantes": {
+  "facil": "Cuadrado de 15 × 15 m y el comodín con toques libres (propuesta).",
+  "dificil": "Comodín a 1 toque o 10 × 10 m (propuesta)."
+ },
+ "adaptacion": "10–11 años: 14 × 14 m. 12–13 años: 12 × 12 m y comodín a 2 toques (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "RONDO 2v2+1C",
+  "ref": "Dosier de sesiones · pág. 21 (S2.4)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Qué pasa tras el robo, rotación del comodín, puntuación y series (propuesta). Edad propuesta.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 13.2,
+   "ymin": -1.2,
+   "ymax": 13.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    12,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3,
+    "f": 60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 10.2,
+    "y": 1.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 6.2,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 2.8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     3
+    ],
+    "b": [
+     3,
+     8.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     8.5
+    ],
+    "b": [
+     9.5,
+     9.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     9.5,
+     9.5
+    ],
+    "b": [
+     10.2,
+     1.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

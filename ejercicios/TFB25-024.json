@@ -1,0 +1,184 @@
+{
+ "id": "TFB25-024",
+ "bloque": "Rondos",
+ "titulo": "Roba y busca al objetivo",
+ "formato": "5v3 + objetivo",
+ "edad": "12–18 años",
+ "nivel": "Alto",
+ "jugadores": "9–12 jug.",
+ "espacio": "28 × 20 m",
+ "duracion": "16 min",
+ "series": "4 series de 4′ con 1′30″ de descanso (fuente).",
+ "objetivo": "Mantener el balón en superioridad y, para los defensores, robar y salir rápido con un pase hacia delante, como en una transición de partido (fuente). También trabaja: presión tras pérdida, primer pase tras robo. Consignas (fuente): «Si perdemos, cerramos el pase hacia el objetivo», «Robar y mirar adelante», «Objetivo: muévete para que te vean», «Abríos, que el cuadrado es grande». Errores típicos (fuente): atacantes que tras perder se quedan quietos; defensores que roban y conducen en lugar de pasar rápido; objetivo parado, sin moverse por su zona; los cinco atacantes juntos en un lado. Con 10–12 jugadores, los que sobran esperan y entran en los cambios de papeles. Montaje detallado (fuente): cuadrado de 20 × 20 m; a unos 6 m de uno de sus lados, la zona del jugador objetivo (espacio total 28 × 20 m). Material: 6 conos, balones y petos de tres colores.",
+ "montaje": "20 × 20 m: 5 atacantes fuera, 3 defensores dentro. A 6 m, zona del objetivo, que va con los defensores.",
+ "juego": "Atacantes a 2 toques. Si los defensores roban, tienen 5″ para pasar al objetivo (no sale de su zona); los atacantes presionan. Si recibe, 3 defensores pasan a atacar y 3 atacantes a defender.",
+ "punto": "8 pases o recuperar: 1 (atac.). Objetivo recibe: 2 (def.).",
+ "consigna": "Robar y mirar adelante.",
+ "variantes": {
+  "facil": "Tres toques para los atacantes, u 8″ para que los defensores pasen al objetivo (fuente).",
+  "dificil": "Atacantes a un toque, o dos jugadores objetivo en dos lados distintos que los atacantes tienen que vigilar (fuente)."
+ },
+ "adaptacion": "Infantil: atacantes a tres toques y 8″ para el pase al objetivo. Cadete y juvenil: dos toques y 5″; con mucho nivel, dos objetivos (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 5 contra 3 con salida al jugador objetivo tras robo",
+  "ref": "25 rondos para fútbol base · pág. 35 (exclusivo del dosier)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Nada esencial: datos completos en la fuente. Edad y nivel de la página original (infantil a juvenil, avanzado → Alto).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "tag": "20 × 20 m + zona",
+  "extent": {
+   "xmin": -2,
+   "xmax": 29,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     25.5,
+     2,
+     28,
+     18
+    ]
+   }
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 26.8,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     16
+    ],
+    "b": [
+     26.4,
+     10.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     6
+    ],
+    "b": [
+     21.5,
+     11
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     21
+    ],
+    "b": [
+     14,
+     18.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    26.8,
+    0.8,
+    "OBJETIVO",
+    "middle"
+   ]
+  ]
+ }
+}

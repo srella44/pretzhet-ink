@@ -1,0 +1,148 @@
+{
+ "id": "TFB100-023",
+ "bloque": "Rondos",
+ "titulo": "3 contra 1: dos apoyos",
+ "formato": "3v1",
+ "edad": "8–15 años",
+ "nivel": "Fácil",
+ "jugadores": "4–16 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "10 min",
+ "series": "4 series de 90″, cambiando de defensor en cada una (fuente). Con más de 4 jugadores, 3–4 rondos a la vez.",
+ "objetivo": "Que el poseedor tenga siempre dos líneas de pase, una a cada lado, gracias al movimiento de sus compañeros (fuente). También trabaja: desmarque de apoyo por los lados, perfil abierto para recibir, pase lejos del defensor. Consignas (fuente): «Dos apoyos siempre», «Muévete antes del pase», «Recibe perfilado», «Pasa lejos del defensor». Errores típicos (fuente): el que no participa se queda quieto y deja al poseedor con un solo apoyo; recibir de espaldas; pasar cerca del defensor; moverse al lado libre demasiado tarde. Más variantes difíciles (fuente): recibir y jugar con el apoyo contrario al que te pasó; dos balones y dos defensores (3 contra 2); el defensor que roba sale conduciendo por el lado libre y suma un punto. Material (fuente): 4 conos por grupo, petos y balones.",
+ "montaje": "Cuadrado de 10 × 10 m. Tres atacantes en tres de los lados, por fuera, y un defensor dentro: siempre queda un lado libre.",
+ "juego": "Solo se pasa a un lado contiguo, nunca al de enfrente. Tras cada pase, el atacante que no participa corre por fuera al lado libre junto al nuevo poseedor: tiene un apoyo a cada lado. Quien pierde el balón o da el pase robado cambia con el defensor.",
+ "punto": "10 pases seguidos: 1. Defensor que roba en menos de 30″: 1.",
+ "consigna": "Muévete antes del pase: dos apoyos.",
+ "variantes": {
+  "facil": "Cuadrado de 12 × 12 m y toques libres (fuente).",
+  "dificil": "Dos toques y después uno, o cuadrado de 8 × 8 m (fuente)."
+ },
+ "adaptacion": "Benjamín: cuadrado de 12 m y toques libres. Alevín: 10 m y dos toques. Infantil y cadete: 8 m y a un toque (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 3 contra 1: moverse para dar dos apoyos",
+  "ref": "100 tareas de fútbol base · pág. 36"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Nada esencial: datos completos en la fuente. Edad y nivel de la página original (benjamín a cadete, básico).",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 12.2,
+   "ymin": -2.2,
+   "ymax": 12.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    10,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": -1,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 11,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 5.5,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     -1
+    ],
+    "b": [
+     11,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     -1,
+     4
+    ],
+    "b": [
+     -1,
+     11
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     -1,
+     11
+    ],
+    "b": [
+     4.4,
+     11
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 2,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    5,
+    13.2,
+    "LADO LIBRE",
+    "middle"
+   ]
+  ]
+ }
+}

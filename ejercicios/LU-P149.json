@@ -1,0 +1,223 @@
+{
+ "id": "LU-P149",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito con paredes",
+ "formato": "circuito + 2 paredes",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–10 jug. + portero",
+ "espacio": "25 × 12 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 vueltas por jugador con 1′30″ de pausa; sale uno cada 15″ (propuesta). Cambia el lado de los apoyos en cada serie para hacer las paredes con la otra pierna.",
+ "objetivo": "Velocidad de salida, conducción, coordinación en escalera y paredes con las dos piernas antes de finalizar (fuente). Es un circuito analítico: úsalo como activación técnica corta. Cómo explicarlo: hazlo una vez a ritmo suave nombrando cada estación (1 salida, 2 conducción, 3 pared, 4 escalera, 5 pared con la otra pierna, 6 tiro). Errores típicos: llegar a la escalera con el balón lejos del pie, mirar al suelo en la escalera y no ver la devolución, pared con pase flojo, tirar sin perfilarse. Qué observar: apoyos cortos e intermitentes en la escalera, pase a la pierna buena del compañero y desmarque inmediato, control orientado antes del tiro. Montaje detallado (propuesta; la fuente da 20 × 18 m): carril de 25 × 12 m con portería y portero en un fondo. Salida en el fondo contrario; cono de velocidad a 5 m con los balones; escalera de coordinación de 4 m en el centro, apuntando a la portería; apoyo 1 a 4 m de un lado de la escalera y apoyo 2 al otro lado, más cerca de la portería; zona de tiro a 7–9 m.",
+ "montaje": "25 × 12 m, portería y portero. Salida; a 5 m, cono con balones; escalera de 4 m en el centro y un apoyo a cada lado.",
+ "juego": "Sprint al cono, coge balón y conduce a la escalera. Pasa al apoyo 1, cruza la escalera (un apoyo por hueco) y recibe la pared. Pasa al apoyo 2, recibe la otra pared y tira. Sale otro cada 15″. Rota: tirador → apoyo 1 → apoyo 2 → fila.",
+ "punto": "Gol: 1. Gol en menos de 12″ desde la salida: 2 (propuesta).",
+ "consigna": "Pared tensa y mira antes de tirar.",
+ "variantes": {
+  "facil": "Sin escalera (conos en zigzag) y el apoyo devuelve con la mano al pie (propuesta).",
+  "dificil": "Paredes a 1 toque con la pierna mala y un defensor pasivo que sale al tirador en la zona de tiro (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): escalera de 3 m y tiro a 9 m. Infantil (12–13): paredes a 1 toque y reto de tiempo (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "CIRCUITO FÍSICO - TÉCNICO - COORDINATIVO 4",
+  "ref": "300 ejercicios Level Up Coach · p. 149 (tarea 148)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias de las estaciones, colocación de los apoyos, rotación, puntuación y series (propuesta). Circuito analítico: candidato a cambio por calidad en la revisión final. Espacio en carril de 25 × 12 m (fuente: 20 × 18 m).",
+ "diagrama": {
+  "field": [
+   25,
+   12
+  ],
+  "tag": "25 × 12 m",
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 25.8,
+   "ymin": -0.6,
+   "ymax": 12.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 6,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     11.5,
+     5.3,
+     15.5,
+     6.7
+    ]
+   }
+  ],
+  "cones": [
+   [
+    19,
+    10
+   ]
+  ],
+  "balls": [
+   [
+    18.5,
+    9.3
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 24,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 13.5,
+    "y": 1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 8.5,
+    "y": 10.6,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     10
+    ],
+    "b": [
+     19.6,
+     10
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     10
+    ],
+    "b": [
+     16.3,
+     6.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     16.3,
+     6
+    ],
+    "b": [
+     13.5,
+     1.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     15.5,
+     6
+    ],
+    "b": [
+     11,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 4
+   },
+   {
+    "a": [
+     13.5,
+     1.4
+    ],
+    "b": [
+     10.5,
+     5.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     10.5,
+     6
+    ],
+    "b": [
+     8.5,
+     10.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 10,
+    "n": 5
+   },
+   {
+    "a": [
+     8.5,
+     10.6
+    ],
+    "b": [
+     6.8,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     6.8,
+     6.2
+    ],
+    "b": [
+     0.8,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 6
+   }
+  ],
+  "labels": [
+   [
+    13.5,
+    8.4,
+    "ESCALERA",
+    "middle"
+   ]
+  ]
+ }
+}

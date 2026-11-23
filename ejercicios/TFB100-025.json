@@ -1,0 +1,358 @@
+{
+ "id": "TFB100-025",
+ "bloque": "Rondos",
+ "titulo": "Parejas que rotan en 4v2",
+ "formato": "3 × 4v2",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug.",
+ "espacio": "42 × 14 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′30″ (3 rotaciones de 90″, como en el desarrollo) con 1′ de descanso. La fuente propone también series de 4′ con rotación cada 60″ (más intenso).",
+ "objetivo": "Trabajar el rondo 4 contra 2 con muchos jugadores a la vez y con una competición entre parejas de defensores que obliga a presionar con intensidad (fuente). También trabaja: ocupar los cuatro lados, juego a dos toques con buen perfil, presión en pareja (uno al balón y otro tapa el pase interior). Consignas (fuente): «Cuatro lados ocupados», «Dos toques, buen perfil», «Uno presiona, otro tapa», «Corre a tu nuevo cuadro». Errores típicos (fuente): atacantes que se esconden detrás de un defensor; pases flojos en la rotación por mirar a otro cuadrado; defensores que presionan los dos al mismo jugador; bajada de intensidad al final de cada serie. Más difícil (fuente): un cuadrado a un toque; o cada cuadrado con una regla distinta (a un toque, pase entre defensores doble, libre). Material: 16 conos, petos de dos colores, 3 balones.",
+ "montaje": "Tres cuadrados de 12 × 12 m en fila, separados 3 m. En cada uno, 4 atacantes (uno por lado) y 2 defensores.",
+ "juego": "Tres 4 contra 2 a la vez; atacantes a 2 toques. Robo: el defensor controla o saca el balón y lo devuelve. Cada 90″, las parejas corren al cuadrado de la derecha (la del último, al primero). Tras 3 rotaciones, cambian los papeles.",
+ "punto": "Cada robo: 1 a la pareja. Gana la que más roba.",
+ "consigna": "Uno presiona y otro tapa.",
+ "variantes": {
+  "facil": "Toques libres para los atacantes, o cuadrados más grandes donde haya jugadores más pequeños (fuente).",
+  "dificil": "Los atacantes cuentan pases y cada 10 pases restan un robo a la pareja; o la pareja que roba sale conduciendo y pasa a atacar (fuente)."
+ },
+ "adaptacion": "Alevín: cuadrados de 14 m. Infantil: de 12 m. Cadete y juvenil: de 10 m y a dos toques (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Tres rondos 4 contra 2 con parejas de defensores que rotan",
+  "ref": "100 tareas de fútbol base · pág. 38"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente dice «cuatro parejas de atacantes pasan a defender» tras 3 rotaciones (con 12 atacantes son 3 parejas nuevas): se resume como «cambian los papeles». Series: se usa la rotación de 90″ del desarrollo. Edad y nivel de la página original.",
+ "diagrama": {
+  "field": [
+   42,
+   14
+  ],
+  "nofield": true,
+  "tag": "3 × 12 × 12 m",
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 43.8,
+   "ymin": -2,
+   "ymax": 17.5
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     12,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     14
+    ],
+    ""
+   ],
+   [
+    [
+     12,
+     14
+    ],
+    [
+     0,
+     14
+    ],
+    ""
+   ],
+   [
+    [
+     0,
+     14
+    ],
+    [
+     0,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     15,
+     0
+    ],
+    [
+     27,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     27,
+     0
+    ],
+    [
+     27,
+     14
+    ],
+    ""
+   ],
+   [
+    [
+     27,
+     14
+    ],
+    [
+     15,
+     14
+    ],
+    ""
+   ],
+   [
+    [
+     15,
+     14
+    ],
+    [
+     15,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     42,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     42,
+     0
+    ],
+    [
+     42,
+     14
+    ],
+    ""
+   ],
+   [
+    [
+     42,
+     14
+    ],
+    [
+     30,
+     14
+    ],
+    ""
+   ],
+   [
+    [
+     30,
+     14
+    ],
+    [
+     30,
+     0
+    ],
+    ""
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": -0.9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 14.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.3,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 14.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 14.7,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27.3,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 14.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 29.7,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42.9,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     -0.9
+    ],
+    "b": [
+     12.3,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     9.5,
+     3.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     8.5,
+     11.5
+    ],
+    "b": [
+     18.5,
+     11.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     24,
+     11.5
+    ],
+    "b": [
+     33.5,
+     11.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    21,
+    16.8,
+    "PAREJAS ROTAN CADA 90″",
+    "middle"
+   ]
+  ]
+ }
+}

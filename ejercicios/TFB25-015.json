@@ -1,0 +1,153 @@
+{
+ "id": "TFB25-015",
+ "bloque": "Rondos",
+ "titulo": "4+1 contra 2 con comodín",
+ "formato": "4+1v2",
+ "edad": "8–18 años",
+ "nivel": "Medio",
+ "jugadores": "7–14 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′, cambiando de comodín en cada una (fuente).",
+ "objetivo": "Conservar el balón usando al comodín interior para cambiar de lado, con apoyos exteriores que se mueven por su lado (fuente). También trabaja: pase al comodín entre los dos defensores, cambio de lado en dos pases, presión en pareja. Consignas (fuente): «Comodín, siempre visible», «Acompaña por tu lado», «Pase tenso», «Presión en pareja». Errores típicos (fuente): el comodín se queda detrás de un defensor; los de fuera no acompañan al balón por su lado; pase al pie que se queda corto; los defensores presionan sin coordinarse. Más difícil (fuente): los de fuera a dos toques; comodín a un toque; tocar con el comodín al menos cada cuatro pases; cuadrado de 12 × 12 m; al robar, los defensores tienen que darse un pase para que el robo cuente. Material: conos, petos de tres colores y balones.",
+ "montaje": "Cuadrado de 15 × 15 m. Cuatro jugadores fuera, uno por lado; dentro, un comodín y dos defensores. Con 14, dos rondos.",
+ "juego": "Los de fuera, moviéndose solo por su lado, y el comodín juegan juntos 5 contra 2 y usan al comodín para cambiar de lado. El de fuera que pierde el balón o da el pase robado entra a defender por el defensor que más tiempo lleva dentro.",
+ "punto": "Pase entre los dos defensores: 1. Cada 10 pases: 2.",
+ "consigna": "Comodín, siempre visible.",
+ "variantes": {
+  "facil": "Cuadrado de 18 × 18 m y toques libres (fuente).",
+  "dificil": "Comodín a un toque y obligación de tocar con él cada cuatro pases (fuente)."
+ },
+ "adaptacion": "Benjamín y alevín: 16 × 16 m y comodín con toques libres. Infantil y cadete: 13 × 13 m y comodín a dos toques; juvenil, a uno (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 4+1 contra 2 con comodín interior",
+  "ref": "25 rondos para fútbol base · pág. 25"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Nada esencial: datos completos en la fuente. Edad y nivel de la página original (benjamín a juvenil, medio).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 17.2,
+   "ymin": -2.2,
+   "ymax": 17.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    15,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 9.8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 5.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1,
+     7.5
+    ],
+    "b": [
+     8,
+     9.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     9.8
+    ],
+    "b": [
+     16,
+     7.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     6
+    ],
+    "b": [
+     6.5,
+     8.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

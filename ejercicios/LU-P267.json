@@ -1,0 +1,260 @@
+{
+ "id": "LU-P267",
+ "bloque": "Técnica y duelos",
+ "titulo": "Progresar por líneas",
+ "formato": "9+P v 9+P en 4 zonas",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "20 jug. (con 2 porteros)",
+ "espacio": "60 × 35 m",
+ "duracion": "20 min",
+ "series": "3 series de 6′ con 2′ de pausa; entre series, cambiar el reparto 3-2 / 2-3 de las zonas 2 y 3 (propuesta).",
+ "objetivo": "Progresar en posesión superando líneas de presión hasta conectar con los delanteros y finalizar (fuente): batir líneas, filtrar pases, abrir intervalos y circular. Cómo explicarlo: «cada zona es una línea del rival; no se salta con un pelotazo: se supera con pases». Errores típicos: balón largo directo a la última zona, jugadores de zonas 2 y 3 en la misma línea de pase y tapados, centrales que pasan sin conducir para fijar, delanteros que no se ofrecen al recibir el interior. Qué observar: hombre libre en cada zona, perfil para recibir mirando hacia delante, ayudas y desmarques de los delanteros. Montaje detallado: 60 × 35 m (fuente) con dos porterías y porteros, dividido a lo largo en 4 zonas de 15 m. Cada equipo: zona 1 (junto a su portería) portero y 2 centrales; zona 2, 2 laterales y mediocentro; zona 3, 2 interiores; zona 4 (junto a la portería rival), 2 delanteros (fuente). En las zonas 2 y 3 cada equipo puede repartirse 3-2 o 2-3 (fuente). Así en cada zona hay 3 contra 2 o 2 contra 3.",
+ "montaje": "60 × 35 m en 4 zonas de 15 m. Por equipo: Z1 portero y 2 centrales; Z2 laterales y MC; Z3 2 interiores; Z4 2 delanteros.",
+ "juego": "Sale el portero. El equipo con balón supera las zonas una a una con pases, sin saltarse ninguna (propuesta), y finaliza. Nadie sale de su zona, salvo uno que puede pasar de Z2 a Z3 (3-2 o 2-3). Si roba el rival, ataca él.",
+ "punto": "Gol: 1. Gol pasando por las 4 zonas: 2 (propuesta).",
+ "consigna": "Supera la línea con pases, no pelotazos.",
+ "variantes": {
+  "facil": "Zonas 2 y 3 con un comodín que juega con el equipo con balón (propuesta).",
+  "dificil": "2 toques en las zonas 1 y 2, y 8″ para finalizar desde que el balón entra en la zona 4 (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 7 contra 7 en F7 con 3 zonas (portero y 2 defensas; 2 medios; 2 delanteros), 50 × 30 m. Cadete y juvenil (14–18): tal cual. Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Partido condicionado - Juego de líneas 10vs10 - Progresión",
+  "ref": "300 ejercicios Level Up Coach · p. 267 (tarea 266)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas de las zonas (15 m), regla de no saltarse zonas, puntuación, series y adaptación por edades (propuesta). Diagrama simplificado: 7 de cada equipo.",
+ "diagrama": {
+  "field": [
+   60,
+   35
+  ],
+  "tag": "60 × 35 m · 4 zonas",
+  "extent": {
+   "xmin": -2,
+   "xmax": 62,
+   "ymin": -3,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     35
+    ]
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     35
+    ]
+   ],
+   [
+    [
+     45,
+     0
+    ],
+    [
+     45,
+     35
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 28,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 53,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 53,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 39,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 47,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 47,
+    "y": 30,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     28
+    ],
+    "b": [
+     22,
+     17.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     17.5
+    ],
+    "b": [
+     37,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     37,
+     7
+    ],
+    "b": [
+     53,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     53,
+     12
+    ],
+    "b": [
+     59.3,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    -1.2,
+    "Z1",
+    "middle"
+   ],
+   [
+    22.5,
+    -1.2,
+    "Z2",
+    "middle"
+   ],
+   [
+    37.5,
+    -1.2,
+    "Z3",
+    "middle"
+   ],
+   [
+    52.5,
+    -1.2,
+    "Z4",
+    "middle"
+   ]
+  ]
+ }
+}

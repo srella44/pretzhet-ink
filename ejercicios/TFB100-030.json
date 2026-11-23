@@ -1,0 +1,185 @@
+{
+ "id": "TFB100-030",
+ "bloque": "Rondos",
+ "titulo": "Tercer hombre en 2 cuadrados",
+ "formato": "4+3v1+1",
+ "edad": "12–18 años",
+ "nivel": "Alto",
+ "jugadores": "9–18 jug.",
+ "espacio": "20 × 10 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de descanso (fuente). Con 18 jugadores, dos montajes a la vez.",
+ "objetivo": "Mejorar la circulación rápida del balón y el cambio de zona buscando siempre al tercer hombre bajo presión (fuente). También trabaja: control orientado a pocos toques, percepción y toma de decisiones con dos defensores, cambio de orientación entre cuadrados. Consignas (fuente): «Pasa y muévete», «Busca al tercer hombre antes de recibir», «Cambia de cuadrado cuando el defensor se desplaza», «Control orientado». Errores típicos (fuente): dar siempre el pase al compañero más cercano; cambios de cuadrado lentos y previsibles; atacantes amontonados en una esquina; control hacia el lado de la presión. Material (fuente): 6 conos por grupo, 1–2 balones, petos de dos colores.",
+ "montaje": "Dos cuadrados de 10 × 10 m unidos. Izquierda: 4 atacantes y 1 defensor; derecha: 3 atacantes y 1 defensor.",
+ "juego": "Los 7 atacantes juegan entre los dos cuadrados a 2 toques y nunca devuelven al que se la dio: buscan al tercer hombre. Solo el balón cambia de cuadrado; cada defensor, en el suyo. Si un defensor la toca o sale, cambia con el último que la tocó.",
+ "punto": "Cada cambio de cuadrado sin perderla: 1. Reto: llegar a 10.",
+ "consigna": "Busca al tercer hombre antes de recibir.",
+ "variantes": {
+  "facil": "Toques libres y se permite devolver el pase una vez por posesión (fuente).",
+  "dificil": "A un toque, o un tercer defensor que puede pasar de un cuadrado a otro (fuente)."
+ },
+ "adaptacion": "Infantil: dos toques. Cadete: se puede devolver solo de primeras. Juvenil: a un toque y punto doble por cada cambio de cuadrado con tercer hombre (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo del tercer hombre 7 contra 2 en dos cuadrados",
+  "ref": "100 tareas de fútbol base · pág. 43"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Nada esencial: datos completos en la fuente. Edad y nivel de la página original (infantil a juvenil, avanzado → Alto).",
+ "diagrama": {
+  "field": [
+   20,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     10
+    ]
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    20,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 20.9,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 10.9,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 4.5,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 5.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.9,
+     2.5
+    ],
+    "b": [
+     5,
+     -0.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     -0.9
+    ],
+    "b": [
+     15,
+     -0.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     -0.9
+    ],
+    "b": [
+     20.9,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

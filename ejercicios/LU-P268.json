@@ -1,0 +1,199 @@
+{
+ "id": "LU-P268",
+ "bloque": "Técnica y duelos",
+ "titulo": "Salir jugando",
+ "formato": "11v11 (adaptable a 8v8 o 7v7)",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "22 jug.",
+ "espacio": "80 × 50 m",
+ "duracion": "20 min",
+ "series": "2 partes de 8′ con 2′ de pausa; tras cada gol o balón por la línea de fondo, saca el portero en corto (propuesta).",
+ "objetivo": "Iniciar el juego combinando ante una presión alta, progresar y atacar los espacios a la espalda de la línea defensiva rival (fuente). Cómo explicarlo: «el portero no despeja: sacamos en corto, atraemos la presión y, cuando salten, buscamos detrás de su defensa». Errores típicos: centrales que reciben de cara al portero sin ver el campo, laterales pegados a los centrales (sin amplitud), pelotazo sin atraer antes, delanteros que no desmarcan al espacio; en defensa, presión desordenada o línea que no se adelanta. Qué observar: amplitud de centrales y laterales en el saque, tercer hombre para superar la primera presión, desmarque de ruptura cuando el poseedor levanta la cabeza. Montaje detallado (propuesta): campo de 80 × 50 m (fuente) con dos porterías; una línea de conos a 30 m de cada portería: el equipo que defiende no puede tener su línea defensiva por detrás de esa línea (fuente: «la línea defensiva no puede replegar por detrás de la línea marcada»).",
+ "montaje": "80 × 50 m, 2 porterías y línea de conos a 30 m de cada una. 11 contra 11; cada jugada empieza con saque en corto del portero.",
+ "juego": "El equipo que sale combina desde el portero, sin pelotazo (propuesta), y progresa para atacar la espalda rival. El que defiende presiona alto y su línea defensiva no puede retroceder tras su línea de conos. Si roba, ataca él.",
+ "punto": "Gol: 1. Gol tras salir jugando desde el portero: 2 (propuesta).",
+ "consigna": "Atrae la presión y ataca la espalda.",
+ "variantes": {
+  "facil": "Los delanteros del equipo que defiende no pueden entrar en el área en el saque (propuesta).",
+  "dificil": "Gol robando en campo rival en menos de 8″: 2 puntos para el que presiona (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 8 contra 8 en campo de F8 (60 × 45 m), línea a 22 m. Alevín (10–11): 7 contra 7 en F7, línea a 20 m. Cadete y juvenil: tal cual. Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Partido condicionado - Presión alta, salir jugando",
+  "ref": "300 ejercicios Level Up Coach · p. 268 (tarea 267)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancia de la línea de conos (30 m), saque en corto, puntuación, series y adaptación a F7/F8 (propuesta). Diagrama con 6 amarillos y 4 rojos para que se lea.",
+ "diagrama": {
+  "field": [
+   80,
+   50
+  ],
+  "tag": "80 × 50 m",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 82.5,
+   "ymin": -4,
+   "ymax": 51
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 25,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   },
+   {
+    "x": 80,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     50
+    ]
+   ],
+   [
+    [
+     50,
+     0
+    ],
+    [
+     50,
+     50
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 36,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 46,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 50,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 50,
+    "y": 32,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     36
+    ],
+    "b": [
+     22,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     40,
+     36
+    ],
+    "b": [
+     61,
+     42
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     25
+    ],
+    "b": [
+     60,
+     41
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    40,
+    -1.8,
+    "LÍNEAS A 30 M DE CADA PORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

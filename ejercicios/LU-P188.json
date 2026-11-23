@@ -1,0 +1,196 @@
+{
+ "id": "LU-P188",
+ "bloque": "Técnica y duelos",
+ "titulo": "De la posesión al 4v2",
+ "formato": "7v5 + porteros → 4v2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. + 2 porteros",
+ "espacio": "50 × 35 m",
+ "duracion": "18 min",
+ "series": "3 series de 5′ con 1′30″ de pausa; cambia el equipo que defiende en cada serie (propuesta).",
+ "objetivo": "Llevar el balón de la zona de iniciación a la de finalización y atacar en superioridad 4 contra 2 trabajando el fuera de juego; en defensa, temporizar y robar para salir a la contra (fuente). Cómo explicarlo: dibuja las dos zonas y di quién entra a la zona de marca (MC, MI, MD y delantero) y quién defiende (el defensor del delantero y el que vigila al MC). Errores típicos: pasar a la zona de marca sin completar los pases, delantero en fuera de juego por desmarcarse antes del pase, los cuatro atacantes a la misma altura, los dos defensores saliendo al balón. Qué observar: amplitud de los interiores al entrar, desmarque de ruptura del delantero en el momento del pase, línea de los dos defensores. Montaje detallado (propuesta): campo de 50 × 35 m con portería y portero en cada fondo, dividido en zona de posesión (25 m) y zona de marca (25 m). Amarillos (7): 3 defensas, MC, MI y MD en la zona de posesión y delantero en la zona de marca. Azules (5): 4 en la zona de posesión (uno junto al MC) y 1 marcando al delantero.",
+ "montaje": "50 × 35 m en 2 zonas de 25 m, portería y portero en cada fondo. Posesión: 6 amarillos contra 4 azules. Marca: delantero y 1 azul.",
+ "juego": "Tras 6 pases (propuesta), los amarillos pasan a la zona de marca y entran MC, MI y MD con el delantero: 4 contra 2 (el azul del delantero y el del MC) y portero. Hay fuera de juego. Si los azules roban allí, atacan la otra portería.",
+ "punto": "Gol amarillo: 1. Gol de contra azul: 2 (propuesta).",
+ "consigna": "Desmárcate al pase, no antes.",
+ "variantes": {
+  "facil": "4 pases para poder pasar a la zona de marca y sin fuera de juego (propuesta).",
+  "dificil": "Para marcar, el que recibe en la zona de marca debe pasar a un compañero que entró acompañando (fuente, variante) o 10″ para finalizar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 40 × 30 m, 3 pases y sin fuera de juego. Infantil (12–13): tal cual. Cadete (14–15): 1 defensor más en la zona de marca, 4 contra 3 (propuesta). Fuente de F7; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "F7 - APLICACIÓN 7x5 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "300 ejercicios Level Up Coach · p. 188 (tarea 186, 2.ª ficha)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas y zonas, número de pases (6), colocación de los 5 defensores, puntuación y series (propuesta). La fuente numera esta tarea como 186 (dos fichas con el mismo número). Diagrama simplificado: 5 amarillos y 3 azules.",
+ "diagrama": {
+  "field": [
+   50,
+   35
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 52,
+   "ymin": -3,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     35
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 45,
+    "y": 17.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 39,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 19.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     45,
+     17.5
+    ],
+    "b": [
+     34,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     34,
+     6
+    ],
+    "b": [
+     14.5,
+     14.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     31,
+     17.5
+    ],
+    "b": [
+     17,
+     24
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     34,
+     29
+    ],
+    "b": [
+     19,
+     31
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    -1.4,
+    "ZONA DE MARCA",
+    "middle"
+   ],
+   [
+    37.5,
+    -1.4,
+    "ZONA DE POSESIÓN",
+    "middle"
+   ]
+  ]
+ }
+}

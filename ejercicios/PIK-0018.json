@@ -1,0 +1,229 @@
+{
+ "id": "PIK-0018",
+ "bloque": "Rondos",
+ "titulo": "Del rondo al centro",
+ "formato": "4v2 → centro 3v2 + portero",
+ "edad": "11–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–8 jug. + portero",
+ "espacio": "12 × 12 m + área",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambia el lado del centro y la pareja de defensores en cada serie (propuesta).",
+ "objetivo": "Pasar de conservar el balón a atacar el área: tras el rondo, centro desde la banda y llegada de tres rematadores a alturas distintas mientras los defensores vuelven a proteger la portería (fuente). Pregunta de la fuente al equipo: «¿llegan los tres posibles rematadores a distinta altura?». Cómo explicarlo: marca con discos las tres zonas de remate (primer palo, penalti, segundo palo). Errores típicos: los tres rematadores van al mismo punto, llegan antes del centro y se paran, el que conduce centra sin levantar la cabeza, los defensores no corren a su portería. Qué observar: ritmo de llegada (arrancar cuando el extremo encara la línea de fondo), centro raso o tenso al espacio entre portero y defensores, remate de primeras. Montaje detallado (propuesta): cuadrado de 12 × 12 m junto al área, a la altura de la frontal; portería grande con portero.",
+ "montaje": "Cuadrado de 12 × 12 m junto al área, con portería y portero. 4 atacantes por fuera y 2 defensores dentro.",
+ "juego": "Rondo 4 contra 2. Tras 5 pases seguidos, uno conduce hacia la banda y los otros 3 entran al área a alturas distintas (primer palo, penalti, segundo palo). Los 2 defensores vuelven a su portería: centro y remate 3 contra 2 + portero.",
+ "punto": "Gol: 2. De primeras: 3. Robo en el rondo: 1 (propuesta).",
+ "consigna": "Llegad al área a alturas distintas.",
+ "variantes": {
+  "facil": "Los defensores esperan 2″ antes de volver, o centro sin oposición (propuesta).",
+  "dificil": "Rondo a 2 toques y solo 6″ para rematar desde que sale el conductor; alternar el costado (fuente) (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de F7, 3 pases para salir y defensores que vuelven andando. Infantil (12–13): tal cual y portería de F11 (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Del rondo al centro defendido (Bcoach: 4v2 con centro y 2 defensores)",
+  "ref": "https://library.bcoach.app/tareas/4v2-con-centro-y-2-defensores-e601f3b1b056/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, colocación del rondo respecto al área, zonas de remate, puntuación, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   32,
+   26
+  ],
+  "tag": "rondo 12 × 12 m + área",
+  "extent": {
+   "xmin": -2,
+   "xmax": 33.5,
+   "ymin": -1.6,
+   "ymax": 26.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 13,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     3
+    ],
+    [
+     13,
+     3
+    ]
+   ],
+   [
+    [
+     13,
+     3
+    ],
+    [
+     13,
+     23
+    ]
+   ],
+   [
+    [
+     13,
+     23
+    ],
+    [
+     0,
+     23
+    ]
+   ],
+   [
+    [
+     18,
+     1
+    ],
+    [
+     30,
+     1
+    ],
+    ""
+   ],
+   [
+    [
+     30,
+     1
+    ],
+    [
+     30,
+     13
+    ],
+    ""
+   ],
+   [
+    [
+     30,
+     13
+    ],
+    [
+     18,
+     13
+    ],
+    ""
+   ],
+   [
+    [
+     18,
+     13
+    ],
+    [
+     18,
+     1
+    ],
+    ""
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 24,
+    "y": 0,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 30.9,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 13.9,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.1,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21.5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26.5,
+    "y": 9.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     13.9
+    ],
+    "b": [
+     15,
+     23
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     17.1,
+     7
+    ],
+    "b": [
+     4.5,
+     16
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     0
+    ],
+    "b": [
+     6,
+     9
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     15,
+     23
+    ],
+    "b": [
+     5,
+     16.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

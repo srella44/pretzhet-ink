@@ -1,0 +1,281 @@
+{
+ "id": "LU-P249",
+ "bloque": "Técnica y duelos",
+ "titulo": "Del 2v2 al 1 contra 1",
+ "formato": "2v2 + portero → 2 × 1v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug. (con portero)",
+ "espacio": "30 × 40 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; los 2 defensores del 2 contra 2 cambian en cada serie (propuesta).",
+ "objetivo": "Finalizar rápido en el 2 contra 2 (7″ y máximo 4 pases) y encadenar sin pausa un duelo 1 contra 1, primero defendiendo y, si roba, atacando (fuente). Cómo explicarlo: «acabas, sales disparado a tu cuadro, pase al verde y a defender». Errores típicos: atacar el 2 contra 2 sin desmarque del compañero, pararse tras el tiro, en el 1 contra 1 lanzarse al robo de cualquier forma, pase flojo al verde. Qué observar: fijar y pasar en el 2 contra 2, defensa de perfil y a un brazo en el 1 contra 1, transición inmediata al robar. Montaje detallado (propuesta): espacio de 30 × 40 m (fuente); zona grande de 25 × 30 m con portería grande y portero; detrás, dos cuadros de 10 × 10 m, uno a cada lado, con un jugador verde dentro y una miniportería en cada uno de sus dos fondos. Fila de atacantes en el centro con balones y pareja de defensores junto a la portería. Con 14: portero, 2 defensores, 2 atacantes en juego, 2 verdes y 7 en fila.",
+ "montaje": "25 × 30 m con portería y portero; detrás, 2 cuadros de 10 × 10 m con un verde y 2 minis cada uno. Fila de atacantes, 2 defensores.",
+ "juego": "2 contra 2: 7″ y máx. 4 pases para marcar. Al acabar, cada atacante va a un cuadro, pasa al verde y le defiende 1 contra 1: el verde ataca una mini; si el atacante roba, marca en la otra. El atacante se queda de verde y el verde, a la fila.",
+ "punto": "Gol en el 2v2: 2. Gol en el 1v1: 1 (propuesta).",
+ "consigna": "Acaba rápido y transición sin parar.",
+ "variantes": {
+  "facil": "10″ para finalizar el 2 contra 2 y el verde espera a que el defensor llegue (propuesta).",
+  "dificil": "5″ y máximo 3 pases; el verde ataca nada más recibir y el defensor que roba tiene 4″ para marcar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 10″ y cuadros de 12 × 10 m. Infantil (12–13): tiempos de la fuente (7″, 4 pases) (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Transciones 2x2 / 1x1 - Miguel Sobejano @Miwel86 - Zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · p. 249 (tarea 248)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas de las zonas, colocación de los cuadros y miniporterías, a dónde ataca el verde, rotación, puntuación y series (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 41.5,
+   "ymin": -0.8,
+   "ymax": 31.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     30
+    ]
+   ],
+   [
+    [
+     28,
+     2
+    ],
+    [
+     38,
+     2
+    ],
+    ""
+   ],
+   [
+    [
+     38,
+     2
+    ],
+    [
+     38,
+     12
+    ],
+    ""
+   ],
+   [
+    [
+     38,
+     12
+    ],
+    [
+     28,
+     12
+    ],
+    ""
+   ],
+   [
+    [
+     28,
+     12
+    ],
+    [
+     28,
+     2
+    ],
+    ""
+   ],
+   [
+    [
+     28,
+     18
+    ],
+    [
+     38,
+     18
+    ],
+    ""
+   ],
+   [
+    [
+     38,
+     18
+    ],
+    [
+     38,
+     28
+    ],
+    ""
+   ],
+   [
+    [
+     38,
+     28
+    ],
+    [
+     28,
+     28
+    ],
+    ""
+   ],
+   [
+    [
+     28,
+     28
+    ],
+    [
+     28,
+     18
+    ],
+    ""
+   ]
+  ],
+  "goals": [
+   [
+    28,
+    7,
+    "L"
+   ],
+   [
+    38,
+    7,
+    "R"
+   ],
+   [
+    28,
+    23,
+    "L"
+   ],
+   [
+    38,
+    23,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 21.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 23,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     9
+    ],
+    "b": [
+     16,
+     20
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     20
+    ],
+    "b": [
+     0.6,
+     14.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     9
+    ],
+    "b": [
+     30,
+     6.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     16,
+     20
+    ],
+    "b": [
+     30,
+     23.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    33,
+    15.6,
+    "1 CONTRA 1",
+    "middle"
+   ]
+  ]
+ }
+}

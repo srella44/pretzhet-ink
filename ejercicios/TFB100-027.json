@@ -1,0 +1,196 @@
+{
+ "id": "TFB100-027",
+ "bloque": "Rondos",
+ "titulo": "Rondo con maniquíes",
+ "formato": "4+4v3 + 2 miniporterías",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "11–14 jug.",
+ "espacio": "30 × 26 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ con 1′30″ de descanso; cambia el trío defensor en cada serie (fuente).",
+ "objetivo": "Encontrar líneas de pase limpias en un espacio con obstáculos y apoyos por fuera y por dentro, y defender bien tras perder porque el rival puede marcar (fuente). También trabaja: ver los maniquíes como defensores que tapan líneas, combinar jugadores de dentro y de fuera, pase entre maniquíes tenso y raso, repliegue rápido tras pérdida. Consignas (fuente): «Mira los maniquíes antes de recibir», «Dentro: sal de la sombra», «Fuera: juega por dentro», «Pierdes y cierras». Errores típicos (fuente): pases que rebotan en los maniquíes por no levantar la cabeza; los azules de dentro escondidos detrás de un maniquí; los amarillos juegan siempre con el compañero de al lado; tras perder, los azules tardan en tapar las miniporterías. Material: conos, 4 maniquíes o picas, 2 miniporterías, petos de tres colores y balones. Con 12–14 jugadores, los que sobran rotan con el trío defensor.",
+ "montaje": "30 × 26 m, una mini en cada lado corto y 4 maniquíes en cuadrado dentro. Fuera, 4 amarillos; dentro, 4 azules y 3 rojos.",
+ "juego": "Amarillos y azules (8 contra 3, máx. 2 toques) mantienen el balón; los de fuera no se la pasan entre ellos: juegan con un azul. Si el pase toca un maniquí o lo roban, los rojos tienen 10″ para marcar en cualquier mini y defienden los azules.",
+ "punto": "12 pases: 1. Pase entre maniquíes a un azul: +1. Gol rojo: 2.",
+ "consigna": "Mira los maniquíes antes de recibir.",
+ "variantes": {
+  "facil": "Sin maniquíes, o con solo dos rojos defendiendo (fuente).",
+  "dificil": "Azules de dentro a un toque, seis maniquíes en lugar de cuatro, o cuando roban los rojos se juega 3 contra 4 sin los amarillos (fuente)."
+ },
+ "adaptacion": "Alevín: los de fuera con toques libres. Infantil: a dos toques. Cadete y juvenil: a uno y 6″ para marcar tras el robo (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 8 contra 3 con maniquíes y contraataque a miniporterías",
+  "ref": "100 tareas de fútbol base · pág. 40"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Nada esencial: datos completos en la fuente. Maniquíes dibujados como discos. Edad y nivel de la página original.",
+ "diagrama": {
+  "field": [
+   30,
+   26
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 32.4,
+   "ymin": -2.2,
+   "ymax": 28.2
+  },
+  "goals": [
+   [
+    0,
+    13,
+    "L"
+   ],
+   [
+    30,
+    13,
+    "R"
+   ]
+  ],
+  "discs": [
+   [
+    11,
+    9
+   ],
+   [
+    19,
+    9
+   ],
+   [
+    11,
+    17
+   ],
+   [
+    19,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": -1.1,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 27.1,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31.2,
+    "y": 6,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 3.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     31.2,
+     6
+    ],
+    "b": [
+     15,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     13
+    ],
+    "b": [
+     15,
+     27.1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     21
+    ],
+    "b": [
+     18,
+     24.3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    15,
+    7.3,
+    "MANIQUÍES",
+    "middle"
+   ]
+  ]
+ }
+}

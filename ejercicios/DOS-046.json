@@ -1,0 +1,147 @@
+{
+ "id": "DOS-046",
+ "bloque": "Rondos",
+ "titulo": "4v2 con tres ayudas",
+ "formato": "4v2 (3v2)",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. (5 con 3v2)",
+ "espacio": "12 × 12 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de pausa (propuesta). Duración total de la fuente: 20′. Con más de 6, dos rondos.",
+ "objetivo": "Desmarcarse para dar opción de pase (fuente): que el poseedor tenga siempre tres ayudas, una a cada lado y otra por el pasillo entre los dos defensores. Cómo explicarlo: para el juego un momento y señala las tres ayudas que debería tener el poseedor; «dala y ayuda». Consignas (fuente): da línea de pase, dala y ayuda, juega de costado. Evitar (fuente): estar tapado detrás de un defensor o parar el balón del todo. Qué observar: perfil abierto (de costado) para jugar hacia los dos lados, el del pasillo moviéndose para no quedar tapado, defensores que cierran juntos el pasillo. Variante de la fuente para los que no cuadran: 2 contra 2 + comodín con toques libres. Probado en campo por Sergio (FCStage).",
+ "montaje": "Cuadrado de 12 × 12 m: 4 atacantes por fuera, uno por lado, y 2 defensores dentro. Con 5 jugadores, 3 contra 2 en 10 × 10 m.",
+ "juego": "A 2–3 toques según el nivel. El poseedor siempre tiene tres ayudas: una a cada lado y otra por el pasillo, entre los dos defensores. Robo = tocar el balón. Si pierdo, entro: el atacante que la pierde cambia con el defensor que más lleva dentro (propuesta).",
+ "punto": "1 punto cada 8 pases seguidos (propuesta).",
+ "consigna": "Da línea de pase y juega de costado.",
+ "variantes": {
+  "facil": "Toques libres y 14 × 14 m (propuesta).",
+  "dificil": "A 1 toque, o el pase por el pasillo entre los defensores vale 2 puntos (propuesta)."
+ },
+ "adaptacion": "10–11 años: 3 toques. 12–13 años: 2 toques y, al final, 1 (fuente: 2–3 toques según nivel).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "RONDO 4v2 / 3v2 (según disponibles)",
+  "ref": "Dosier de sesiones · pág. 13 (S1.1)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Puntuación, series, qué defensor sale al entrar el que pierde y variantes (propuesta). Edad propuesta.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 14.2,
+   "ymin": -2.2,
+   "ymax": 14.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    12,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 4.2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7.6,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1,
+     6
+    ],
+    "b": [
+     13,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     -1
+    ],
+    "b": [
+     3,
+     -1
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     6,
+     13
+    ],
+    "b": [
+     3.2,
+     13
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

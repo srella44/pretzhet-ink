@@ -1,0 +1,169 @@
+{
+ "id": "TFB25-020",
+ "bloque": "Rondos",
+ "titulo": "Un defensor por cuadrante",
+ "formato": "4+1v4",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′30″, rotando las parejas de defensores (fuente).",
+ "objetivo": "Mantener el balón en superioridad buscando el cuadrante donde el defensor queda solo ante dos líneas de pase (fuente). También trabaja: apoyos exteriores con buen perfil, comodín que se ofrece entre líneas, pase hacia el cuadrante libre. Consignas (fuente): «Busca el cuadrante con dos opciones», «Comodín, aparece en el hueco», «Recibe perfilado», «Muévete por tu lado». Errores típicos (fuente): pasar por el cuadrante donde el defensor ya está bien colocado; el comodín se queda en el centro sin moverse; recibir de espaldas al juego; apoyos quietos en el centro de su lado. Parejas (propuesta): los atacantes de lados contiguos forman pareja, y los defensores de cuadrantes vecinos también. Más difícil (fuente): apoyos de fuera a dos toques; comodín a un toque; un defensor puede salir de su cuadrante para ayudar al vecino; tocar con el comodín cada tres pases; no se puede devolver al que te pasó.",
+ "montaje": "25 × 25 m en 4 cuadrantes. Cuatro atacantes fuera, uno por lado; un comodín libre dentro; 4 defensores, uno por cuadrante.",
+ "juego": "Los de fuera (por su lado) solo se pasan atravesando un cuadrante o usando al comodín, que juega con ellos; nunca por fuera. Ningún defensor sale de su cuadrante. Si uno roba, su pareja cambia con la pareja de atacantes que la perdió.",
+ "punto": "Cada 8 pases: 1. Pase en diagonal al lado de enfrente: +1.",
+ "consigna": "Busca el cuadrante con dos opciones.",
+ "variantes": {
+  "facil": "Toques libres y los defensores solo interceptan, sin entrar al poseedor (fuente).",
+  "dificil": "Un defensor puede salir de su cuadrante para ayudar al vecino (presión de dos) (fuente)."
+ },
+ "adaptacion": "Alevín: 28 × 28 m y toques libres para el comodín. Infantil y cadete: 25 × 25 m; juvenil, comodín a un toque (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "5 contra 4 con un defensor por cuadrante",
+  "ref": "25 rondos para fútbol base · pág. 31"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Composición de las parejas para el cambio de papeles (propuesta). Edad y nivel de la página original (alevín a juvenil, medio).",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 27.4,
+   "ymin": -2.4,
+   "ymax": 27.4
+  },
+  "lines": [
+   [
+    [
+     12.5,
+     0
+    ],
+    [
+     12.5,
+     25
+    ]
+   ],
+   [
+    [
+     0,
+     12.5
+    ],
+    [
+     25,
+     12.5
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": -1.2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26.2,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 26.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 8.5,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 6,
+    "f": 135
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 19,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 19.5,
+    "f": -135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.5,
+     -1.2
+    ],
+    "b": [
+     -1.2,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     -1.2,
+     12.5
+    ],
+    "b": [
+     15,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     15
+    ],
+    "b": [
+     26.2,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}
