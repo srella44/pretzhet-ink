@@ -213,4 +213,6 @@ blocks = [{'n': b, 'c': '#' + c, 'k': ink(c)} for b, c in BLOCKS.items()]
 DATA = json.dumps({'blocks': blocks, 'recs': recs, 'svg': svgs}, ensure_ascii=False, separators=(',', ':'))
 tpl = open(os.path.join(ROOT, 'motor', 'app_template.html')).read()
 open(os.path.join(ROOT, 'salida', 'app', 'Pretzhet_Ink_app.html'), 'w').write(tpl.replace('/*DATA*/null', DATA).replace('%%LOGO%%', 'data:image/png;base64,' + __import__('base64').b64encode(open(os.path.join(ROOT, 'recursos', 'logo_app.png'), 'rb').read()).decode()))
+os.makedirs(os.path.join(ROOT, 'web'), exist_ok=True)
+open(os.path.join(ROOT, 'web', 'index.html'), 'w').write(open(os.path.join(ROOT, 'salida', 'app', 'Pretzhet_Ink_app.html')).read())
 print('bytes', len(DATA))

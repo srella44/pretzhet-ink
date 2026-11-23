@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Prètzhèt Ink · Banco de ejercicios</title>
+<title>Escòla · by Prètzhèt Ink</title>
+<meta name="description" content="Escòla: banco de ejercicios de fútbol base, by Prètzhèt Ink.">
+<meta name="theme-color" content="#050F20">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -117,7 +119,7 @@ button, input, select { font-family: inherit; letter-spacing: inherit }
 .feat .g { display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px }
 @media (max-width: 700px) { .feat .g { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 70%; overflow-x: auto; padding-bottom: 4px } }
 .feat .card { box-shadow:none }
-.brand { cursor:pointer; border:0; background:none; padding:0 } .brand:hover img { opacity:.85 }
+.brand { cursor:pointer; border:0; background:none; padding:0; color:#fff; display:flex; align-items:center; gap:12px } .bn { display:flex; flex-direction:column; text-align:left; line-height:1 } .bn b { font-family: Anton, Impact, sans-serif; font-weight:400; font-size:26px; letter-spacing:.6px } .bn small { font-size:10.5px; color: rgba(255,255,255,.6); margin-top:4px; letter-spacing:.3px } .brand:hover img { opacity:.85 }
 .home { max-width:1600px; margin:0 auto; padding: 34px 24px 60px }
 .hero { border-radius: 28px; padding: 46px 44px; color:#fff; position:relative; overflow:hidden; background: radial-gradient(600px 300px at 90% 0, rgba(253,81,59,.55), transparent 70%), radial-gradient(500px 300px at 0 100%, rgba(124,92,255,.45), transparent 70%), var(--navy); box-shadow: 0 30px 60px -30px rgba(5,15,32,.6) }
 .hero h1 { margin:0 0 10px; font-size: clamp(30px, 4.4vw, 54px); line-height:1.04; letter-spacing:-.04em; font-weight:800; max-width: 760px }
@@ -192,7 +194,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   .tool h2 { font-size: 24px } .tool select { font-size: 12px; padding: 7px 10px }
   .feat { padding: 12px 12px 14px } .feat .g { grid-auto-columns: 62% }
   .wrap { padding: 12px 10px 90px }
-  .row1 { gap: 6px } .brand img { height: 36px } .hb { font-size: 12px; padding: 6px 9px } .btn-f { margin-left: 0; padding: 8px 11px; font-size: 12px }
+  .row1 { gap: 6px } .brand img { height: 36px } .bn { display:none } .hb { font-size: 12px; padding: 6px 9px } .btn-f { margin-left: 0; padding: 8px 11px; font-size: 12px }
   .top { padding: 8px 10px 8px } .blocks { padding-top: 8px }
 }
 .side .go { display:none }
@@ -209,7 +211,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 <body>
 <header class="top" id="top">
   <div class="row1">
-    <button class="brand" id="logo" title="Inicio"><img src="%%LOGO%%" alt="Prètzhèt Ink · Inicio"></button>
+    <button class="brand" id="logo" title="Inicio"><img src="%%LOGO%%" alt="Prètzhèt Ink · Inicio"><span class="bn"><b>Escòla</b><small>by Prètzhèt Ink</small></span></button>
     <label class="search"><svg viewBox="0 0 16 16"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="Buscar un ejercicio: rondo, 3v2, pared, portero…" autocomplete="off"></label>
     <span class="acct" id="acct"></span><button class="hb" id="bfav" title="Mis favoritos">♥ Favoritos <b id="nfav">0</b></button><button class="hb" id="bses">Sesiones <b id="nses">0</b></button>
