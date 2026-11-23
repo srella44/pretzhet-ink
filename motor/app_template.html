@@ -95,7 +95,7 @@ button, input, select { font-family: inherit; letter-spacing: inherit }
 .pips { display:inline-flex; gap: 2px; vertical-align: -1px } .pips i { width: 4px; height: 10px; border-radius: 2px; background: #d9dce4 } .pips i.on { background:#1f9d55 }
 .src { font-size: 11.5px; color: var(--muted); font-weight: 600; margin-top: auto; display:flex; align-items:center; gap:7px }
 .src i { width: 8px; height: 8px; border-radius: 50%; background: var(--c) }
-.more { display:block; margin: 26px auto 0; border:0; background: var(--coral); color:#fff; font-weight: 700; padding: 12px 22px; border-radius: 999px; cursor:pointer }
+.more { display:block; margin: 26px auto 40px; border:0; background: var(--coral); color:#fff; font-weight: 700; padding: 12px 22px; border-radius: 999px; cursor:pointer }
 .empty { text-align:center; padding: 80px 20px; color: var(--muted); font-weight: 600 }
 .scrim { display:none }
 .pk { height: 50px; width:auto; margin-left: 6px; opacity:.95 } @media (max-width: 1100px) { .pk { display:none } }
@@ -388,11 +388,10 @@ function card(r, idx) {
 function more() {
   const next = list.slice(shown, shown + 60);
   $('#grid').insertAdjacentHTML('beforeend', next.map((r, j) => card(r, shown + j)).join(''));
-  shown += next.length; $('#more').hidden = shown >= list.length;
+  shown += next.length; $('#more').hidden = shown >= list.length; $('#more').textContent = `Ver más (${(list.length - shown).toLocaleString('es-ES')} restantes)`;
 }
 $('#more').onclick = more;
 $('#logo').onclick = () => goHome();
-new IntersectionObserver(e => { if (e[0].isIntersecting && shown < list.length) more(); }, { rootMargin: '600px' }).observe($('#more'));
 $('#grid').addEventListener('click', e => { const c = e.target.closest('.card'); if (c) open(+c.dataset.k); });
 
 const IC = {
