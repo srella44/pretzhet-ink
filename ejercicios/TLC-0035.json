@@ -1,0 +1,159 @@
+{
+ "id": "TLC-0035",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 8 × 4 con apoyos",
+ "formato": "4v4+4",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "3 vueltas: cada equipo defiende una vez hasta 5 robos (fuente); unos 3–4 min por turno con 1 min de pausa.",
+ "objetivo": "Conservar en superioridad (8 contra 4) en espacio corto con apoyos exteriores: juego rápido y tercer hombre; los defensores trabajan coberturas, temporización y presión en grupo (fuente). Cómo explicarlo: «si el de fuera no tiene línea, busca al que está detrás del defensor». Errores típicos: apoyos exteriores parados en el centro de su lado, interiores escondidos, defensores que presionan de uno en uno. Qué observar: orientación corporal de los apoyos y ritmo.",
+ "montaje": "20 × 20 m. Tres equipos de 4: uno defiende dentro; de los otros, 3 van fuera de apoyo y 1 dentro: 8 contra 4.",
+ "juego": "Los 8 mantienen el balón; los de fuera se mueven por su lado. Los 4 defensores presionan juntos. Cada robo o balón fuera cuenta 1 y el entrenador mete otro. Con 5 robos, el defensor cambia con otro equipo.",
+ "punto": "Gana quien tarde menos en robar 5 balones (propuesta).",
+ "consigna": "Busca al tercer hombre.",
+ "variantes": {
+  "facil": "30 × 30 m y toque libre (fuente).",
+  "dificil": "Dos toques; menos apoyos; miniporterías para marcar tras robar; zonas de progresión (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 24 × 24 m y 3 robos para cambiar (propuesta). Cadete: 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Claudio Giráldez)",
+  "titulo_original": "CLAUDIO GIRALDEZ, POSESIÓN 4 vs 4 +4",
+  "ref": "toplidercoach.com/claudio-giraldez-posesion-4-vs-4-4/"
+ },
+ "completado": "Reparto de apoyos por lado, cronometraje y puntuación son propuesta.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 21.4,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21.4,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21.4,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": -1.4,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 5.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     8
+    ],
+    "b": [
+     -1.4,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     -1.4,
+     10
+    ],
+    "b": [
+     15,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     12
+    ],
+    "b": [
+     21.4,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "tag": "20 × 20 m"
+ },
+ "top": "",
+ "probado": false
+}

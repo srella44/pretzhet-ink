@@ -1,0 +1,193 @@
+{
+ "id": "TLC-0047",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 9 × 7 y 4 porterías",
+ "formato": "7+2PT v 7",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug. + 2 PT",
+ "espacio": "40 × 40 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min 30 s con 1 min 30 s de pausa; cambio de papeles cada serie (fuente: cada 3–4 min).",
+ "objetivo": "Conservar en ligera superioridad y, sobre todo, transición: el que roba ataca rápido y el que pierde se reorganiza para defender varias porterías (fuente). Cómo explicarlo: «roba y ataca la portería libre más cercana». Errores típicos: el equipo en posesión pierde la estructura y no puede defender, el que roba conduce de más. Qué observar: comunicación para cubrir las 4 porterías y primer pase tras robo. Montaje detallado: los 2 porteros juegan con los rojos desde fuera, en el centro de los lados sin porterías, con manos o pies.",
+ "montaje": "40 × 40 m, 2 miniporterías en cada fondo. Rojos (7) + 2 porteros de apoyo en los otros lados contra negros (7).",
+ "juego": "Los rojos conservan el balón con los porteros (9 contra 7). Si los negros roban, atacan cualquiera de las 4 porterías lo antes posible; los rojos defienden. Tras gol o balón fuera, el entrenador da otro a los rojos.",
+ "punto": "Solo puntúa el que roba: gol = 1. Gana quien más marque.",
+ "consigna": "Roba y ataca la portería libre.",
+ "variantes": {
+  "facil": "Solo 2 porterías (una por fondo) para el que roba.",
+  "dificil": "Toques limitados al que conserva; nº mínimo de pases antes de usar a los porteros; gol doble si se marca en menos de 6 s tras robar (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 5 + 2 PT contra 5 en 32 × 32 m (propuesta). Cadete: medio campo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nagelsmann)",
+  "titulo_original": "NAGELSMANN POSESIÓN ATAQUE 4 PORTERÍAS",
+  "ref": "toplidercoach.com/posesion-ataque-4-porterias/"
+ },
+ "completado": "Medidas, colocación de las porterías y de los porteros son propuesta (la web dice medio campo y 2 muñecos, sin más dato).",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2.6,
+   "ymax": 42.6
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    0,
+    30,
+    "L"
+   ],
+   [
+    40,
+    10,
+    "R"
+   ],
+   [
+    40,
+    30,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 20,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "G",
+    "x": 20,
+    "y": 41.4,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 32,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     22
+    ],
+    "b": [
+     28,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     32,
+     12
+    ],
+    "b": [
+     29.4,
+     8
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     29.4,
+     8
+    ],
+    "b": [
+     39.4,
+     10
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    33.6,
+    6.6,
+    "ROBO",
+    "start"
+   ]
+  ],
+  "tag": "40 × 40 m"
+ },
+ "top": "",
+ "probado": false
+}

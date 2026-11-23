@@ -1,0 +1,199 @@
+{
+ "id": "TLC-0064",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Contraataque 3 × 2 + 1",
+ "formato": "3v2+1 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–12 jug. + PT",
+ "espacio": "40 × 33 m",
+ "duracion": "15 min",
+ "series": "4 series de 6 ataques con 1 min 30 s de pausa; rotan papeles tras cada ataque (fuente).",
+ "objetivo": "Contraataque rápido aprovechando el 3 contra 2 antes de que llegue el tercer defensor, y transición inmediata del que roba hacia las miniporterías (fuente). Cómo explicarlo: «vas con ventaja: ataca ya». Errores típicos: temporizar y dejar que llegue el tercero, los tres por el mismo carril, desconectar tras perder. Qué observar: anchura y profundidad para estirar a los dos defensores y decisión por dentro o por fuera. Montaje detallado: 3 atacantes a 32 m de la portería, en el centro y a 8 m a cada lado; 2 defensores a 18 m; el 3.er defensor, 6 m por detrás de los atacantes.",
+ "montaje": "Doble área: portería y portero en un fondo, 2 miniporterías en el otro. 3 atacantes a 32 m, 2 defensores a 18 m.",
+ "juego": "El entrenador da balón a un atacante: 3 contra 2. A la vez, un 3.er defensor sale al sprint 6 m por detrás para igualar. Hay que finalizar antes. Si roban los defensores, contraatacan a una miniportería. Luego rotan.",
+ "punto": "Gol: 1 (2 si llega antes del 3.er defensor); mini: 1 (propuesta).",
+ "consigna": "Vas con ventaja: ataca ya.",
+ "variantes": {
+  "facil": "Tercer defensor a 10 m por detrás.",
+  "dificil": "Toques limitados a los atacantes; tiro obligado en menos de 6 s; 4 contra 3 + 1 que recupera (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 30 × 25 m y porterías de fútbol 7 (propuesta). Cadete: tercer defensor a 4 m.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Rúben Amorim)",
+  "titulo_original": "RUBEN AMORIM TRANSICIONES",
+  "ref": "toplidercoach.com/ruben-amorim-transiciones/"
+ },
+ "completado": "Distancias de salida y puntuación son propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 42.6,
+   "ymin": -1,
+   "ymax": 34
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 7,
+    "lado": "R",
+    "ancho": 3,
+    "portero": false
+   },
+   {
+    "x": 40,
+    "y": 26,
+    "lado": "R",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 32,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 16.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 16.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     32,
+     16.5
+    ],
+    "b": [
+     24,
+     16.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     24,
+     16.5
+    ],
+    "b": [
+     13,
+     6.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 6
+   },
+   {
+    "a": [
+     32,
+     8
+    ],
+    "b": [
+     13.6,
+     6.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s1": 8
+   },
+   {
+    "a": [
+     38,
+     16.5
+    ],
+    "b": [
+     24,
+     13
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     13,
+     6.6
+    ],
+    "b": [
+     1.8,
+     14.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    38,
+    21,
+    "3.er DEF.",
+    "middle"
+   ],
+   [
+    39.6,
+    2.4,
+    "MINI",
+    "end"
+   ],
+   [
+    39.6,
+    31.6,
+    "MINI",
+    "end"
+   ]
+  ],
+  "tag": "40 × 33 m"
+ },
+ "top": "",
+ "probado": false
+}

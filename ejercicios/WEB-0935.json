@@ -1,0 +1,151 @@
+{
+ "id": "WEB-0935",
+ "bloque": "Porteros",
+ "titulo": "Mueve al portero",
+ "formato": "PT + 3 tiradores",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "1–2 PT + 3–6 jug.",
+ "espacio": "28 × 14 m",
+ "duracion": "12 min",
+ "series": "4 series de 6 tiros (2 por tirador) con 1 min de descanso; con 2 porteros, alternan cada serie (propuesta).",
+ "objetivo": "Desplazamiento lateral del portero para colocarse en la bisectriz (línea imaginaria entre el balón y el centro de la portería) y llegar fijado al disparo: pies quietos, a la anchura de los hombros, rodillas flexionadas, peso delante y manos a la altura de la cintura. Cómo explicarlo: «muévete mientras el tirador prepara; cuando arma la pierna, quieto». Errores típicos: cruzar los pies al desplazarse, saltar o seguir moviéndose en el momento del tiro, quedarse pegado a la línea de gol, mirar al compañero en vez de al balón. Qué observar: que se adelante 1–2 pasos en el tiro lateral para cerrar el ángulo y que bloque y no rechace al centro.",
+ "montaje": "Portería de 6 m. Tres tiradores con balón en arco a 12 m: izquierda, centro y derecha. Portero en el centro, a 1 m de la línea.",
+ "juego": "Tiran en orden izquierda-centro-derecha. El tirador da un toque de preparación: el portero se mueve con pasos laterales a la línea balón-centro de portería, se fija y para. Tiro raso o a media altura. 6 tiros y cambio.",
+ "punto": "Blocaje: 2 puntos al portero; desvío: 1; gol: 1 al tirador.",
+ "consigna": "Llega, fíjate y para: nunca en movimiento.",
+ "variantes": {
+  "facil": "Tirador con la mano o pase raso con el interior desde 10 m; el entrenador dice el nombre del siguiente tirador antes de que toque.",
+  "dificil": "El entrenador señala al tirador en el último momento (orden aleatorio) y el tiro va a 1 toque tras un pase del compañero: menos tiempo para colocarse."
+ },
+ "adaptacion": "Alevín (10–11): portería de 6 m, tiros con la mano o el interior desde 10 m. Infantil (12–13): 12 m, tiro raso con empeine. Cadete (14–15): portería de 7,32 m, 16 m y tiro fuerte a media altura, incluido el palo corto.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "Move the Keeper",
+  "ref": "soccerdrive.com/soccer-drills/move-keeper"
+ },
+ "completado": "La fuente solo da el título (ejercicio de SoccerDrive, acceso para socios): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros. Edad propuesta.",
+ "diagrama": {
+  "field": [
+   28,
+   14
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 29,
+   "ymin": -1.6,
+   "ymax": 15.4
+  },
+  "porterias": [
+   {
+    "x": 14,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    4,
+    12.6
+   ],
+   [
+    14,
+    13.6
+   ],
+   [
+    24,
+    12.6
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 14,
+    "y": 1.6,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "G",
+    "x": 11.4,
+    "y": 2.2,
+    "f": [
+     4,
+     11
+    ]
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 12,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 11,
+    "f": -135,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     1.6
+    ],
+    "b": [
+     11.4,
+     2.2
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     4,
+     11
+    ],
+    "b": [
+     11.4,
+     3.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 14
+   }
+  ],
+  "labels": [
+   [
+    19.6,
+    7.2,
+    "12 m",
+    "middle"
+   ],
+   [
+    14,
+    15,
+    "3 TIRADORES",
+    "middle"
+   ]
+  ],
+  "tag": "28 × 14 m"
+ },
+ "top": "",
+ "probado": false
+}

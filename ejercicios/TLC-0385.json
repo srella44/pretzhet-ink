@@ -1,0 +1,254 @@
+{
+ "id": "TLC-0385",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda doble tercer hombre",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min 30 s con 1 min de pausa; cada serie, una secuencia distinta (fuente: la secuencia puede variar).",
+ "objetivo": "Pase corto y medio con el interior, tenso y raso, y coordinación entre segundo y tercer hombre usando los dos perfiles. Activación técnica o parte inicial de la sesión (fuente). Cómo explicarlo: «el que viene de cara no se gira: descarga; el tercero ya está perfilado». Errores típicos: recibir de espaldas, pase al pie cercano, quedarse parado tras pasar. Qué observar: que los dos balones mantengan el mismo ritmo y que nadie espere al otro perfil. Montaje detallado: en cada rombo, salida (A, con 2 jugadores), apoyo (B) a 10 m en diagonal, tercer hombre (C) a 10 m y receptor largo (D) en el vértice alto; los perfiles son simétricos.",
+ "montaje": "30 × 20 m: dos rombos con conos a 10 m, uno por perfil. 5 jugadores y 1 balón en cada uno; salen a la vez.",
+ "juego": "1) A pasa a B, que viene al apoyo. 2) B descarga de cara a C, el tercer hombre. 3) C, perfilado, juega largo a D. Cada uno ocupa el cono al que pasó; D conduce a la salida del otro perfil: así se usan las dos piernas.",
+ "punto": "Secuencias limpias en 2 min 30 s (propuesta).",
+ "consigna": "Pase tenso y al pie alejado.",
+ "variantes": {
+  "facil": "Control orientado antes de cada pase y rombos de 8 m (fuente/propuesta).",
+  "dificil": "Todo a 1 toque, más distancia y señal del entrenador para invertir el sentido (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): un solo balón, dos toques y rombos de 8 m (propuesta). Cadete: a 1 toque y con desmarque de ruptura tras el pase.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Guardiola)",
+  "titulo_original": "GUARDIOLA RUEDA DE PASES (2)",
+  "ref": "toplidercoach.com/guardiola-rueda-de-pases-2/"
+ },
+ "completado": "La fuente no da distancias ni el dibujo de la secuencia: rombos de 10 m, orden A-B-C-D y puntuación son propuesta.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "dashed": true,
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    4,
+    17.5
+   ],
+   [
+    9,
+    11
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    11,
+    2.5
+   ],
+   [
+    26,
+    17.5
+   ],
+   [
+    21,
+    11
+   ],
+   [
+    26,
+    5
+   ],
+   [
+    19,
+    2.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 17.5,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 19,
+    "f": -45,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 11,
+    "f": [
+     4,
+     17.5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 17.5,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 19,
+    "f": -135,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 11,
+    "f": [
+     26,
+     17.5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 2.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     17.5
+    ],
+    "b": [
+     9,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     11
+    ],
+    "b": [
+     4,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     11,
+     2.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     26,
+     17.5
+    ],
+    "b": [
+     21,
+     11
+    ],
+    "k": "pass",
+    "side": -1
+   },
+   {
+    "a": [
+     21,
+     11
+    ],
+    "b": [
+     26,
+     5
+    ],
+    "k": "pass",
+    "side": -1
+   },
+   {
+    "a": [
+     26,
+     5
+    ],
+    "b": [
+     19,
+     2.5
+    ],
+    "k": "pass",
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    -0.4,
+    "PERFIL IZQ.",
+    "middle"
+   ],
+   [
+    22.5,
+    -0.4,
+    "PERFIL DER.",
+    "middle"
+   ]
+  ],
+  "tag": "30 × 20 m"
+ },
+ "top": "",
+ "probado": false
+}

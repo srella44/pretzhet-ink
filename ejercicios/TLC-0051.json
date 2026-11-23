@@ -1,0 +1,186 @@
+{
+ "id": "TLC-0051",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión tricolor y gol",
+ "formato": "10v5 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "15 jug. + PT",
+ "espacio": "40 × 30 m",
+ "duracion": "18 min",
+ "series": "6 bloques de 2 min (fuente), 1 min de pausa: cada equipo defiende dos veces.",
+ "objetivo": "Posesión a pocos toques en superioridad y, para el equipo en inferioridad, presión, robo y finalización rápida (fuente). Cómo explicarlo: «tras robar, el primer pase mira a la portería». Errores típicos: poseedores lentos que no aprovechan el 10 contra 5, presionadores sin coordinarse, robar y dar pases hacia atrás. Qué observar: verticalidad del primer pase tras recuperar.",
+ "montaje": "40 × 30 m con portería grande y portero en un fondo. Tres equipos de 5 con petos de 3 colores.",
+ "juego": "Dos equipos juntos mantienen el balón a 1–2 toques (10 contra 5). El tercero presiona y, si roba, ataca la portería a toque libre; los que perdieron defienden. Luego, balón del entrenador. Bloques de 2 min y cambio.",
+ "punto": "Defensor: gol tras robo 1; balón fuera o falta 0,5 (fuente).",
+ "consigna": "Roba y mira a la portería.",
+ "variantes": {
+  "facil": "Poseedores a 3 toques; portería sin portero (propuesta).",
+  "dificil": "Poseedores a 1 toque; máximo de pases para finalizar tras robar; miniporterías o espacio distinto (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): tres equipos de 4 en 32 × 24 m y 3 toques (propuesta). Cadete: 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nagelsmann)",
+  "titulo_original": "NAGELSMANN POSESIÓN TRICOLOR Y GOL",
+  "ref": "toplidercoach.com/posesion-tricolor/"
+ },
+ "completado": "Situación de la portería y pausas son propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 42.6,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     6
+    ],
+    "b": [
+     16,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     3
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 12
+   },
+   {
+    "a": [
+     22,
+     12
+    ],
+    "b": [
+     32,
+     15
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3,
+    "s0": 10
+   },
+   {
+    "a": [
+     32,
+     15
+    ],
+    "b": [
+     39,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -0.4,
+    "2 EQUIPOS EN POSESIÓN",
+    "middle"
+   ]
+  ],
+  "tag": "40 × 30 m"
+ },
+ "top": "",
+ "probado": false
+}

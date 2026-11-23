@@ -1,0 +1,159 @@
+{
+ "id": "TLC-0028",
+ "bloque": "Rondos",
+ "titulo": "Rondo 4 × 4 + 4 apoyos",
+ "formato": "4v4+4",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "18 min",
+ "series": "6 series de 1 min 30 s a 2 min; cada 2 series rota un equipo (fuente). Pausa activa de 30 s al cambiar.",
+ "objetivo": "Juego interior, cambios de orientación cortos, perfiles de recepción y ritmo alto de circulación en espacio reducido (fuente). Rol interior: competir, sostener, presionar; rol exterior: apoyar, orientar y dar continuidad. Cómo explicarlo: «el comodín sirve para progresar o fijar, no por comodidad». Errores típicos: jugadores interiores en la misma línea (planos), pase al pie cercano, comodines parados con el cuerpo cerrado. Qué observar: comunicación («al pie», «al espacio», «a un toque») y velocidad de balón.",
+ "montaje": "20 × 20 m. Tres equipos de 4. Dos juegan 4 contra 4 dentro; el tercero, de comodín: uno por lado, por fuera.",
+ "juego": "El equipo con balón usa a los 4 comodines (siempre con quien ataca: 8 contra 4); el otro presiona. Al robar, cambian los papeles. Series de 1 min 30 s a 2 min; luego un equipo de dentro sale a comodín y el de fuera entra.",
+ "punto": "8 pases seguidos = 1 punto (fuente, variante).",
+ "consigna": "Perfil abierto y pase al pie alejado.",
+ "variantes": {
+  "facil": "Toque libre dentro y comodines a 2 toques; espacio de 24 × 24 m.",
+  "dificil": "Comodines a 1 toque, interiores a 2–3; tras usar un comodín, obligado un pase interior; cambio por 3 robos en vez de por tiempo (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 3 contra 3 + 4 en 18 × 18 m (propuesta). Cadete: 20 × 20 a 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Mourinho)",
+  "titulo_original": "MOURINHO RONDO 3 EQUIPOS",
+  "ref": "toplidercoach.com/mourinho-rondo-3-equipos/"
+ },
+ "completado": "Pausa entre series, cifra de pases y adaptación por edades son propuesta.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": 10,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 21.4,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 21.4,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 9.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     10,
+     -1.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     -1.4
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     15,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "tag": "20 × 20 m"
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,192 @@
+{
+ "id": "TLC-0406",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito físico con 1 × 1",
+ "formato": "Circuito + 1×1 PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 3 PT",
+ "espacio": "campo entero",
+ "duracion": "20 min",
+ "series": "3 bloques de 5 min con 2 min de pausa; cambio de estación al acabar cada recorrido (fuente: 4–6 min por bloque).",
+ "objetivo": "Resistencia específica con balón: conducción con cambios de dirección, pared y aceleración final para un 1 contra 1 ante el portero, con precisión técnica bajo fatiga (fuente). Cómo explicarlo: «rápido en la carrera, calma en el último toque». Errores típicos: perder el balón en el slalom por ir demasiado deprisa, pase de pared flojo, definir sin mirar al portero. Qué observar: perfil del cuerpo hacia la portería en el control y decisión rápida en el 1×1 (definir o regatear).",
+ "montaje": "Campo entero, 3 porterías y 3 porteros. 3 grupos de 4, uno por estación. En cada una: 5 conos de slalom a 2 m, un apoyo a 25 m de la portería y línea de tiro a 16 m.",
+ "juego": "Sale uno cada 20 s: 1) slalom conduciendo, 2) pared con el apoyo, 3) carrera tras el balón y 4) 1×1 ante el portero (máx. 6 s). Vuelve trotando a la cola de la estación siguiente.",
+ "punto": "Gol: 1 punto para su grupo (propuesta).",
+ "consigna": "Rápido en la carrera, preciso al final.",
+ "variantes": {
+  "facil": "Sin slalom, solo conducción recta de 15 m y pase con el entrenador.",
+  "dificil": "Defensor que sale 2 m por detrás para retrasar la definición; conducción larga o control aéreo en vez de slalom (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): medio campo de fútbol 7, bloques de 3 min y sin carácter de esfuerzo máximo (propuesta). Cadete: bloques de 6 min.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Paulo Fonseca)",
+  "titulo_original": "PAULO FONSECA CIRCUITO FÍSICO",
+  "ref": "toplidercoach.com/circuito-fuerza-resistencia/"
+ },
+ "completado": "La fuente no fija el recorrido: slalom de 5 conos, apoyo a 25 m, salida cada 20 s, límite de 6 s y puntuación son propuesta. Se dibuja una sola estación.",
+ "diagrama": {
+  "field": [
+   40,
+   18
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "tag": "1 estación (recorte)",
+  "dashed": true,
+  "porterias": [
+   {
+    "x": 0,
+    "y": 9,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    35,
+    14
+   ],
+   [
+    33,
+    14
+   ],
+   [
+    31,
+    14
+   ],
+   [
+    29,
+    14
+   ],
+   [
+    27,
+    14
+   ],
+   [
+    16,
+    2
+   ],
+   [
+    16,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 38,
+    "y": 14,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 39.6,
+    "y": 16,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 4,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     37,
+     14
+    ],
+    "b": [
+     25.6,
+     14
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     25,
+     14
+    ],
+    "b": [
+     25,
+     4.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 4
+   },
+   {
+    "a": [
+     25,
+     4
+    ],
+    "b": [
+     16.6,
+     8.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     25,
+     14
+    ],
+    "b": [
+     16.6,
+     8.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     16,
+     9
+    ],
+    "b": [
+     1.6,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 4,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    16,
+    20.2,
+    "16 m",
+    "middle"
+   ],
+   [
+    25,
+    1.4,
+    "APOYO 25 m",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

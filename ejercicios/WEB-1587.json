@@ -1,0 +1,176 @@
+{
+ "id": "WEB-1587",
+ "bloque": "Porteros",
+ "titulo": "Pase, conducción y tiro",
+ "formato": "PT + tiradores",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "1–2 PT + 5–8 jug.",
+ "espacio": "28 × 22 m",
+ "duracion": "12 min",
+ "series": "3 series de 8 tiros con 1 min de descanso; si hay 2 porteros, cambian cada serie (propuesta).",
+ "objetivo": "Que el portero acompañe la conducción del tirador con pasos laterales cortos, se adelante para cerrar el ángulo y se fije justo antes del golpeo, y que bloque al pecho o a la altura de la cadera con las manos en «W» (tiros altos) o en cuchara (rasos). Errores típicos: quedarse sobre la línea, salir demasiado pronto y quedar batido por una vaselina, abrir las piernas en el tiro raso. Qué observar: que mire siempre al balón y no al cuerpo del tirador y que, tras la parada, salga a dar el balón al siguiente con la mano.",
+ "montaje": "Portería de 6 m con portero. Fila con balón a 25 m, a un lado; apoyo a 20 m en el centro; línea de tiro a 12 m.",
+ "juego": "1) El primero de la fila pasa al apoyo. 2) El apoyo devuelve al espacio. 3) Conduce hasta la línea de 12 m. 4) Chuta. El portero acompaña la conducción, se adelanta 1–2 m y se fija antes del tiro. Cada 8 tiros cambia el apoyo.",
+ "punto": "Blocaje: 2 al portero; desvío: 1; gol: 1 al que tira.",
+ "consigna": "Acompaña el balón y quieto al golpeo.",
+ "variantes": {
+  "facil": "Sin apoyo: el tirador sale conduciendo desde 20 m y chuta raso.",
+  "dificil": "Fila a la derecha y a la izquierda, alternando; tiro libre desde cualquier punto antes de la línea de 12 m, también regate al portero."
+ },
+ "adaptacion": "Benjamín (8–9): portería de 5–6 m, línea de tiro a 9 m, balón n.º 4 y blocaje raso. Alevín (10–11): 12 m. Infantil (12–13): portería de 7 m, 14 m y tiro libre de altura.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "Pass, Dribble, Shoot, Goalkeeper 1",
+  "ref": "soccerdrive.com/soccer-drills/pass-dribble-shoot-goalkeeper-1-0"
+ },
+ "completado": "La fuente solo da el título (ejercicio de SoccerDrive, acceso para socios): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros. Edad propuesta.",
+ "diagrama": {
+  "field": [
+   28,
+   22
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 29,
+   "ymin": -1.2,
+   "ymax": 23.2
+  },
+  "dashed": true,
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    12,
+    3
+   ],
+   [
+    12,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.6,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 4,
+    "f": 150,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27.4,
+    "y": 2.6,
+    "f": 150,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 15,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     25,
+     4
+    ],
+    "b": [
+     20,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     17,
+     7.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     4
+    ],
+    "b": [
+     17,
+     7.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s1": 6
+   },
+   {
+    "a": [
+     17,
+     7.5
+    ],
+    "b": [
+     12,
+     9.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     9.5
+    ],
+    "b": [
+     1.6,
+     11.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 6,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    12,
+    20.6,
+    "12 m",
+    "middle"
+   ],
+   [
+    20,
+    18.2,
+    "APOYO",
+    "middle"
+   ]
+  ],
+  "tag": "28 × 22 m"
+ },
+ "top": "",
+ "probado": false
+}

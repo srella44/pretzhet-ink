@@ -1,0 +1,254 @@
+{
+ "id": "TLC-0034",
+ "bloque": "Rondos",
+ "titulo": "Rondo 3 zonas y 4 comodines",
+ "formato": "6v6+4",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "30 × 18 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de pausa; los comodines cambian con una pareja cada serie (propuesta).",
+ "objetivo": "Conservar con progresión y crear superioridades con comodines móviles: 2 contra 2 en cada zona que pasa a 3 contra 2 donde entra un comodín interior (fuente). Cómo explicarlo: «el balón va de una punta a otra sin saltarse zonas». Errores típicos: comodines interiores juntos en la misma zona, recibir de espaldas a la zona siguiente, pases largos que se saltan una zona. Qué observar: triángulos, orientación corporal y visión periférica antes de cambiar de zona. Montaje detallado: los 2 comodines de fondo se colocan fuera del rectángulo, en el centro de cada lado corto.",
+ "montaje": "30 × 18 m en 3 zonas de 10 m. Equipos de 6: 2 contra 2 por zona. 2 comodines libres dentro y 1 fijo en cada fondo.",
+ "juego": "El balón sale de un comodín de fondo y debe llegar al del otro pasando por las 3 zonas: solo se avanza pasando a quien ya esté en la zona siguiente. Si roba el rival, empieza en el comodín más cercano (propuesta).",
+ "punto": "Circulación de fondo a fondo: 1 punto.",
+ "consigna": "Triángulo y cuerpo abierto a la zona siguiente.",
+ "variantes": {
+  "facil": "Tres comodines interiores y toque libre (propuesta).",
+  "dificil": "Toques limitados por zona; los dos comodines interiores no pueden coincidir en la misma zona (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 1 contra 1 por zona + 2 comodines interiores en 24 × 15 m (propuesta). Cadete: 2 toques por zona.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Luis Castro)",
+  "titulo_original": "LUIS CASTRO RONDO 3 ZONAS Y 4 COMODINES",
+  "ref": "toplidercoach.com/rondo-3-zonas-y-4-comodines/"
+ },
+ "completado": "La web indica 25 × 10 m: se amplía a 30 × 18 m para 16 jugadores de 12–13 años (propuesta). Qué pasa tras el robo, puntuación y series son propuesta.",
+ "diagrama": {
+  "field": [
+   30,
+   18
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -1,
+   "ymax": 19
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     18
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     18
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 31.6,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 2.6,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17.4,
+    "y": 10.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27.6,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15.6,
+    "y": 7.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.6,
+     9
+    ],
+    "b": [
+     4,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     15.6,
+     7.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s1": 12
+   },
+   {
+    "a": [
+     15.6,
+     7.4
+    ],
+    "b": [
+     25,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4
+   },
+   {
+    "a": [
+     25,
+     14
+    ],
+    "b": [
+     31.6,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 5
+   }
+  ],
+  "labels": [
+   [
+    5,
+    -0.4,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    15,
+    -0.4,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    25,
+    -0.4,
+    "ZONA 3",
+    "middle"
+   ]
+  ],
+  "tag": "30 × 18 m"
+ },
+ "top": "",
+ "probado": false
+}

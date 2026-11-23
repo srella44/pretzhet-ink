@@ -1,0 +1,199 @@
+{
+ "id": "TLC-0030",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 7 × 7 + 3 comodines",
+ "formato": "7v7+3",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "17 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min 30 s de pausa; los comodines cambian cada serie (propuesta).",
+ "objetivo": "Mantener la posesión con ritmo y apoyos a distintas alturas y, tras perder, presión inmediata para recuperar en los primeros segundos (fuente). Cómo explicarlo: «pierdes y presionas: 5 segundos». Ataque: amplitud, comodines como enlace y cambio de orientación, pases interiores con buen perfil. Defensa: presión coordinada en el punto de pérdida, líneas a 10–12 m como máximo, recuperar por anticipación sin faltas. Errores típicos: reaccionar tarde a la pérdida, comodines escondidos detrás de rivales. Montaje detallado: los comodines solo se mueven a lo largo de la franja central; los equipos juegan en todo el campo.",
+ "montaje": "40 × 30 m en 3 franjas a lo largo (9, 12 y 9 m). Dos equipos de 7 y 3 comodines en la franja central.",
+ "juego": "Posesión por todo el campo; los comodines juegan con el que tiene el balón (10 contra 7) y hacen de enlace. Al perder, el equipo presiona al momento para recuperar en menos de 5 s. Balón fuera: otro del entrenador.",
+ "punto": "8 pases = 1 punto; robo en < 5 s = 1 extra (fuente).",
+ "consigna": "Pierdes, presionas: 5 segundos.",
+ "variantes": {
+  "facil": "Toque libre y 4 comodines.",
+  "dificil": "1–2 toques; obligado pasar por un comodín en cada secuencia; espacio menor; 10 s máximo para recuperar (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 5 contra 5 + 3 en 32 × 24 m (propuesta). Cadete: 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Niko Kovac)",
+  "titulo_original": "NIKO KOVAC,POSESIÓN 3 COMODINES",
+  "ref": "toplidercoach.com/niko-kovacposesion-3-comodines/"
+ },
+ "completado": "La web indica 40 × 30 m en la ficha y 30 × 20 en el texto: se usa 40 × 30. Ancho de las franjas y nº de pases por punto son propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "lines": [
+   [
+    [
+     0,
+     9
+    ],
+    [
+     40,
+     9
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     21
+    ],
+    [
+     40,
+     21
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 14,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 31,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     4
+    ],
+    "b": [
+     10,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     33,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     26,
+     26
+    ],
+    "b": [
+     31,
+     25.4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    39.6,
+    15,
+    "COMODINES",
+    "end"
+   ]
+  ],
+  "tag": "40 × 30 m"
+ },
+ "top": "",
+ "probado": false
+}

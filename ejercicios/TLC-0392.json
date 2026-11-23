@@ -1,0 +1,220 @@
+{
+ "id": "TLC-0392",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de salida 1-4-4-2",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug. (2 PT)",
+ "espacio": "medio campo",
+ "duracion": "12 min",
+ "series": "4 × 2 min 30 s con 1 min de pausa; los porteros se alternan en cada saque (fuente) y los jugadores rotan de puesto cada serie (propuesta).",
+ "objetivo": "Mecanizar la salida de balón desde saque de puerta en 1-4-4-2: tercer hombre para superar la primera línea, perfil de recepción de cara al siguiente pase, movimiento previo y continuidad tras pasar (fuente). Cómo explicarlo: «muévete antes de recibir y sigue después de pasar». Errores típicos: recibir parado, pase con superficie insegura, perder precisión por ir deprisa. Qué observar: velocidad del gesto más que del balón.",
+ "montaje": "Medio campo. Portero con balones (el 2.º espera). A cada lado: central, lateral, medio centro y extremo del 1-4-4-2.",
+ "juego": "1) Saque del portero al central. 2) El central pasa al medio centro, que viene de cara. 3) Este descarga al lateral: tercer hombre. 4) El lateral pasa al extremo. Tras pasar, cada uno ocupa el puesto siguiente. A la vez por ambos perfiles.",
+ "punto": "Secuencias sin error en 2 min 30 s (propuesta).",
+ "consigna": "Muévete antes de recibir; sigue tras pasar.",
+ "variantes": {
+  "facil": "Un solo perfil cada vez y toque libre.",
+  "dificil": "1–2 toques en puestos clave; comodín interior para el tercer hombre; finalizar en miniporterías tras la secuencia (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): fútbol 7 en 1-3-2-1, mismo concepto (propuesta). Cadete: oposición pasiva con muñecos (fuente).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Real Sociedad)",
+  "titulo_original": "RUEDA DE PASE SALIDA DE BALÓN 1-4-4-2",
+  "ref": "toplidercoach.com/rueda-de-pase-salida-de-balon-1-4-4-2/"
+ },
+ "completado": "Orden exacto de la secuencia y rotación son propuesta (la fuente remite al vídeo).",
+ "diagrama": {
+  "field": [
+   38,
+   40
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 39,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "tag": "medio campo (recorte)",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.6,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 4.6,
+    "y": 27,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 37,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 36,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.6,
+     20
+    ],
+    "b": [
+     7,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     12
+    ],
+    "b": [
+     19,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     15
+    ],
+    "b": [
+     13,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     13,
+     3
+    ],
+    "b": [
+     33,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4
+   },
+   {
+    "a": [
+     7,
+     28
+    ],
+    "b": [
+     19,
+     25
+    ],
+    "k": "pass",
+    "side": -1
+   },
+   {
+    "a": [
+     19,
+     25
+    ],
+    "b": [
+     13,
+     37
+    ],
+    "k": "pass",
+    "side": -1
+   },
+   {
+    "a": [
+     13,
+     37
+    ],
+    "b": [
+     33,
+     36
+    ],
+    "k": "pass",
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    33,
+    8.6,
+    "EXTREMO",
+    "middle"
+   ],
+   [
+    19,
+    19.6,
+    "MEDIOS",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,172 @@
+{
+ "id": "TLC-0058",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Oleadas 2 × 2 continuas",
+ "formato": "2v2 + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–14 jug. + 2 PT",
+ "espacio": "40 × 33 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min 30 s de pausa (propuesta); ataques de 10 s como máximo (fuente).",
+ "objetivo": "Duelos 2 contra 2 encadenados con cambio inmediato de papel: finalizar rápido, defender de verdad (temporizar, orientar, cerrar la línea de pase interior) y cambiar el chip sin pausa (fuente). Cómo explicarlo: «atacas, defiendes: sin protestar». Errores típicos: ataques lentos, defensores que se quedan quietos tras la acción, filas desordenadas. Qué observar: comunicación en pareja («mía», «cubro», «salgo», «aguanta»). Montaje detallado: amarillos en fila en el centro de una banda (atacan la portería norte) y rojos en la otra (atacan la sur), con balones; una pareja roja empieza defendiendo.",
+ "montaje": "Doble área (40 × 33 m), portería y portero en cada fondo. Filas con balones en cada banda; 2 rojos defienden dentro.",
+ "juego": "Una pareja amarilla con balón ataca 2 contra 2 una portería. Al acabar (gol, tiro, balón fuera o robo), los amarillos defienden y entra una pareja roja con balón hacia la otra portería. Los rojos que defendían, a su fila.",
+ "punto": "Gol: 1; gol en menos de 6 s o tras robo: 2 (fuente).",
+ "consigna": "Atacas, defiendes: sin pausa.",
+ "variantes": {
+  "facil": "La acción solo acaba con gol o tiro (más finalización) (fuente).",
+  "dificil": "Acaba al primer toque defensivo (más transiciones); el defensor que roba tiene 3 s para marcar (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): 30 × 25 m y porterías de fútbol 7 (propuesta). Cadete: doble área completa.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Thomas Frank)",
+  "titulo_original": "THOMAS FRANK TRANSICIONES",
+  "ref": "toplidercoach.com/thomas-frank-transiciones/"
+ },
+ "completado": "Posición de las filas (una en cada banda) y series son propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41.6,
+   "ymin": -3,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 16.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 20,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 22.6,
+    "y": -1.6,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 7,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 34.6,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 22.6,
+    "y": 34.6,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     7
+    ],
+    "b": [
+     8,
+     8
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     23,
+     11
+    ],
+    "b": [
+     7,
+     19
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     33
+    ],
+    "b": [
+     29,
+     23
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    25,
+    -1.6,
+    "FILA AMARILLA",
+    "start"
+   ],
+   [
+    25,
+    34.6,
+    "FILA ROJA",
+    "start"
+   ]
+  ],
+  "tag": "40 × 33 m"
+ },
+ "top": "",
+ "probado": false
+}

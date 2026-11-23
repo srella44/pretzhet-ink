@@ -1,0 +1,199 @@
+{
+ "id": "TLC-0043",
+ "bloque": "Rondos",
+ "titulo": "Relevo por dos rondos",
+ "formato": "4v1 × 2 (relevos)",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "15 min",
+ "series": "2 vueltas completas por equipo (unos 4 min por vuelta) con 2 min de pausa (propuesta).",
+ "objetivo": "Esfuerzos de alta intensidad y cambios de ritmo en formato de competición por equipos, con presión en rondo (fuente). Cómo explicarlo: «tu tiempo cuenta para todo el equipo». Errores típicos: presionar sin cerrar líneas (el rondo dura mucho), ir trotando entre rondos, salir antes de recibir el peto. Qué observar: lectura defensiva para tocar pronto el balón y gestión del esfuerzo. Montaje detallado: 4 conos marcan cada rondo; el primero de la fila lleva el peto y lo entrega al acabar su recorrido.",
+ "montaje": "Dos equipos de 8. Uno forma dos rondos de 4 (8 × 8 m) a 25 m. El otro, en fila junto al 1.º, con un peto de testigo.",
+ "juego": "El primero de la fila presiona en el rondo 1 (4 contra 1). Si toca el balón o este sale, sprinta al rondo 2 y repite. Vuelve y da el peto al siguiente. Se cronometra hasta que salen los 8; luego se cambian los papeles.",
+ "punto": "Gana el equipo que tarda menos.",
+ "consigna": "Presiona fuerte y sal al sprint.",
+ "variantes": {
+  "facil": "Rondos de 10 × 10 m y separación de 15 m.",
+  "dificil": "Poseedores con toques limitados; dos presionadores en un rondo; +5 s si el defensor no toca balón en 20 s; cambiar el sentido (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): separación de 15 m y relevo con 6 por equipo (propuesta). Cadete: rondos de 7 × 7 m.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Sarri)",
+  "titulo_original": "SARRI RONDO COMPETICIÓN 2 EQUIPOS",
+  "ref": "toplidercoach.com/rondo-competicion-2-equipos/"
+ },
+ "completado": "Tamaño de los rondos, separación, nº por rondo y pausas son propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "dashed": true,
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     2,
+     2,
+     10,
+     10
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     2,
+     38,
+     10
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 10,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 10,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 6.4,
+    "y": 5.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 2,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 2,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 10,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 10,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 16.4,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 4.4,
+    "y": 16.4,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 1.8,
+    "y": 16.4,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     10,
+     2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     6.4,
+     5.6
+    ],
+    "b": [
+     32,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s1": 14
+   },
+   {
+    "a": [
+     32,
+     6
+    ],
+    "b": [
+     8.4,
+     15.2
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 14
+   }
+  ],
+  "labels": [
+   [
+    20,
+    1.2,
+    "25 m",
+    "middle"
+   ],
+   [
+    4.4,
+    19.2,
+    "FILA",
+    "middle"
+   ]
+  ],
+  "tag": "40 × 20 m"
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,230 @@
+{
+ "id": "TLC-0263",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Ataque posicional 5+2 × 5",
+ "formato": "5+2 v 5 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "18 min",
+ "series": "4 × 4 min con 1 min 30 s de pausa; los apoyos de banda cambian con dos de dentro cada serie (propuesta).",
+ "objetivo": "Automatismos de ataque posicional: elegir entre progresar por dentro con combinaciones o cambiar a banda para centrar, sin perder la estructura para defender tras la pérdida (fuente). Cómo explicarlo: «¿dentro o fuera? Decide con el cuerpo abierto». Errores típicos: centrar sin nadie en el área, todos por dentro sin amplitud, quedarse mirando tras perder. Qué observar: relación de los apoyos de banda con el poseedor y presión inmediata tras pérdida. Montaje detallado: blancos en 1-4-1-4-1 (5 por dentro: medio centro, 2 interiores, delantero y un lateral que sube; 2 apoyos fijos en los carriles); rojos como bloque central de un 1-5-2-3 (3 centrales y 2 medios) (fuente/propuesta).",
+ "montaje": "Medio campo con portería y portero; carriles de 8 m. Blancos: 5 + 2 apoyos de banda. Rojos: 5. Miniportería atrás.",
+ "juego": "Los blancos atacan desde el medio campo: por dentro con paredes y tercer hombre, o fuera al apoyo de banda, que centra (nadie le ataca en su carril). Si los rojos roban, contraatacan a la miniportería.",
+ "punto": "Gol por dentro: 2; tras centro: 1; en mini: 1 (propuesta).",
+ "consigna": "¿Dentro o fuera? Decide con el cuerpo abierto.",
+ "variantes": {
+  "facil": "Un comodín interior con los blancos (fuente).",
+  "dificil": "Defensa en 1-4-4-2; centros solo rasos o al punto de penalti; toques limitados; pases obligatorios por dentro (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): fútbol 7, 4 + 2 contra 4 en 40 × 30 m (propuesta). Cadete: 6 + 2 contra 6.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Postecoglou)",
+  "titulo_original": "POSTECOGLOU,JUEGO DE POSICIÓN.",
+  "ref": "toplidercoach.com/postecogloujuego-de-posicion/"
+ },
+ "completado": "Carriles de banda, que el apoyo no se pueda atacar, miniportería y puntuación diferenciada son propuesta. La fuente cita un 1-4-1-4-1 contra un bloque de 1-5-2-3.",
+ "diagrama": {
+  "field": [
+   44,
+   34
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 46.4,
+   "ymin": -1,
+   "ymax": 35
+  },
+  "tag": "medio campo (recorte)",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   },
+   {
+    "x": 44,
+    "y": 17,
+    "lado": "R",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     8
+    ],
+    [
+     44,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     26
+    ],
+    [
+     44,
+     26
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 17,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12.6,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 30,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     30,
+     17
+    ],
+    "b": [
+     24,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     22
+    ],
+    "b": [
+     27,
+     30
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     30
+    ],
+    "b": [
+     11,
+     30
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     11,
+     30
+    ],
+    "b": [
+     4,
+     19.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 6,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    43.6,
+    6.6,
+    "CARRIL 8 m",
+    "end"
+   ],
+   [
+    43.6,
+    13.4,
+    "MINI",
+    "end"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

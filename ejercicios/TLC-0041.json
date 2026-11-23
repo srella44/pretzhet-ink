@@ -1,0 +1,150 @@
+{
+ "id": "TLC-0041",
+ "bloque": "Rondos",
+ "titulo": "Rondo 5 × 1 con pica",
+ "formato": "5v1",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–7 jug.",
+ "espacio": "8 × 8 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min con 1 min de pausa; el defensor cambia en cada serie o cuando roba 3 veces (propuesta).",
+ "objetivo": "Conservar en espacio reducido, reaccionar tras perder y repetir esfuerzos explosivos (sprint corto y vuelta a la acción) (fuente). Cómo explicarlo: «pierdes, corres y vuelves a ayudar». Ataque: apoyos constantes y buen perfil. Defensa: máxima intensidad y anticipar líneas de pase. Errores típicos: atacantes que se quedan en las esquinas, el que corre a la pica que vuelve andando. Ajustar el nº de pases al nivel del grupo (fuente).",
+ "montaje": "Cuadrado de 8 × 8 m y 4 picas, una a 2 m de cada esquina. 5 atacantes en el borde y 1 defensor dentro; balones de reserva fuera.",
+ "juego": "5 contra 1. Si el defensor toca el balón, el que lo perdió rodea la pica más cercana y vuelve al sprint; mientras, los otros 4 siguen y cuentan pases desde que él arranca. El defensor cambia cada 2 min o al robar 3 veces (propuesta).",
+ "punto": "6, 8 o 10 pases seguidos (según nivel) = 1 punto.",
+ "consigna": "Pierdes, corres y vuelves a ayudar.",
+ "variantes": {
+  "facil": "10 × 10 m y dos toques.",
+  "dificil": "5 × 5 m o 5 contra 2; pase a 1 toque; prohibido devolver al mismo; cronometrar la vuelta a la pica (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años; la fuente usa 6 × 6 m. Alevín (10–11): 10 × 10 m y objetivo de 6 pases (propuesta). Cadete: 6 × 6 m.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Edin Terzic)",
+  "titulo_original": "EDIN TERZIC RONDO PICA",
+  "ref": "toplidercoach.com/rondo-pica/"
+ },
+ "completado": "Cuadrado ampliado a 8 × 8 m para 12–13 años, posición de las picas y rotación del defensor son propuesta.",
+ "diagrama": {
+  "field": [
+   8,
+   8
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 11.2,
+   "ymin": -3.2,
+   "ymax": 11.2
+  },
+  "cones": [
+   [
+    -2,
+    -2
+   ],
+   [
+    10,
+    -2
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    -2,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 1,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.4,
+    "y": 0.8,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 8.2,
+    "y": 6.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 5.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.6,
+     1
+    ],
+    "b": [
+     7.4,
+     0.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     7.4,
+     0.8
+    ],
+    "b": [
+     8.2,
+     6.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     -0.2,
+     5.6
+    ],
+    "b": [
+     -2,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    -2,
+    -2.9,
+    "PICA",
+    "middle"
+   ]
+  ],
+  "tag": "8 × 8 m"
+ },
+ "top": "",
+ "probado": false
+}

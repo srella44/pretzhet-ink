@@ -1,0 +1,201 @@
+{
+ "id": "TLC-0077",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Transición larga 3 × 2",
+ "formato": "3v2 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "5–15 jug. + PT",
+ "espacio": "campo entero",
+ "duracion": "15 min",
+ "series": "3 series de 4 repeticiones con 1 min 30 s entre repeticiones y 3 min entre series (propuesta, fuente: pausas que aseguren máxima intensidad).",
+ "objetivo": "Transición ataque-defensa con mucha carga física: finalizar rápido con superioridad y repliegue intenso para reorganizarse en inferioridad (fuente). Cómo explicarlo: atacantes «verticales y decidir rápido»; defensores «cerrar el centro y orientar hacia fuera». Errores típicos: atacantes que se cierran todos al centro, defensores que repliegan mirando al balón en vez de a la portería. Qué observar: calidad del último pase con fatiga.",
+ "montaje": "Campo de fútbol 11 (3/4 con 12–13 años). 3 atacantes con balón en el borde de su área; 2 defensores en el centro; un cono en cada banda en el medio campo; portero rival.",
+ "juego": "A la señal, los 3 atacantes salen hacia la portería contraria. A la vez, cada defensor corre a tocar el cono de su banda y repliega al máximo. 3 contra 2 hasta gol, tiro, robo o balón fuera.",
+ "punto": "Gol: 1 al ataque; robo o tiro fuera: 1 a la defensa (propuesta).",
+ "consigna": "Ataque vertical; defensa, cierra el centro.",
+ "variantes": {
+  "facil": "2 contra 1 (fuente) o defensores sin tocar el cono.",
+  "dificil": "3 contra 3 o 4 contra 3; límite de tiempo para finalizar; defensores más atrasados o con otra señal de salida (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): campo de fútbol 7 y conos a 10 m del centro (propuesta). Cadete: campo entero.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Thomas Frank)",
+  "titulo_original": "THOMAS FRANK, TRANSICIONES LARGAS",
+  "ref": "toplidercoach.com/thomas-frank-transiciones-largas/"
+ },
+ "completado": "Reducción a 3/4 de campo para 12–13 años, pausas y puntuación son propuesta.",
+ "diagrama": {
+  "field": [
+   100,
+   64
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 104,
+   "ymin": -3,
+   "ymax": 67
+  },
+  "tag": "campo de fútbol 11",
+  "lines": [
+   [
+    [
+     50,
+     0
+    ],
+    [
+     50,
+     64
+    ],
+    "6 5"
+   ],
+   [
+    [
+     16.5,
+     13.8
+    ],
+    [
+     16.5,
+     50.2
+    ],
+    "6 5"
+   ],
+   [
+    [
+     83.5,
+     13.8
+    ],
+    [
+     83.5,
+     50.2
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 100,
+    "y": 32,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    50,
+    1
+   ],
+   [
+    50,
+    63
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 32,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 50,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 48,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 48,
+    "y": 42,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     32
+    ],
+    "b": [
+     40,
+     32
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 10
+   },
+   {
+    "a": [
+     48,
+     22
+    ],
+    "b": [
+     50,
+     2.4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s1": 10
+   },
+   {
+    "a": [
+     50,
+     2.4
+    ],
+    "b": [
+     78,
+     22
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 10
+   },
+   {
+    "a": [
+     18,
+     14
+    ],
+    "b": [
+     62,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    50,
+    -1.6,
+    "CONO",
+    "middle"
+   ],
+   [
+    50,
+    66.2,
+    "CONO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

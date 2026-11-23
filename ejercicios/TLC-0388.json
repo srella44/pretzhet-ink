@@ -1,0 +1,185 @@
+{
+ "id": "TLC-0388",
+ "bloque": "Técnica y duelos",
+ "titulo": "Llegada de segunda línea",
+ "formato": "4 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–12 jug. + PT",
+ "espacio": "medio campo",
+ "duracion": "15 min",
+ "series": "3 × 4 min por un perfil y 3 × 4 min por el otro; rotación de puesto en cada repetición (propuesta).",
+ "objetivo": "Movimientos de un sector de ataque: central, medio de banda, medio centro y delantero escorado. El delantero viene al apoyo y arrastra a su marcador para liberar el espacio por el que llega un jugador de segunda línea (fuente). Cómo explicarlo: «llegar, no estar»: el medio centro arranca cuando el delantero recibe, no antes. Errores típicos: llegar parado al frontal, pase blando al delantero, delantero que se gira en vez de descargar. Qué observar: timing del desmarque y pases tensos orientados a la carrera. Montaje detallado: delantero escorado al lado del medio de banda, entre los dos muñecos de ese costado; balones de reserva junto al central.",
+ "montaje": "Portería y portero. 4 muñecos a 22 m. Central con balones a 40 m; medio de banda y medio centro a 30 m; delantero.",
+ "juego": "1) El central pasa al medio de banda. 2) Este filtra al delantero escorado, que viene al apoyo. 3) El medio centro llega de segunda línea. 4) El delantero le descarga y chuta. Rotan; luego por el otro perfil.",
+ "punto": "Gol del que llega de segunda línea: 1 (propuesta).",
+ "consigna": "Llega, no estés: arranca con el pase.",
+ "variantes": {
+  "facil": "Sin muñecos y con un toque de control antes de cada pase.",
+  "dificil": "Defensa pasiva y después activa; un segundo llegador ataca el rechace o el segundo palo; toques limitados (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín (10–11): fútbol 7, distancias a la mitad y sin muñecos (propuesta). Cadete: con oposición activa 4 contra 2.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Guardiola)",
+  "titulo_original": "GUARDIOLA RUPTURAS SEGUNDA LÍNEA",
+  "ref": "toplidercoach.com/guardiola-rupturas-segunda-linea/"
+ },
+ "completado": "Posiciones exactas, distancias, orden de pases y puntuación son propuesta (la fuente remite a un vídeo).",
+ "diagrama": {
+  "field": [
+   44,
+   24
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 45,
+   "ymin": -1,
+   "ymax": 27
+  },
+  "tag": "medio campo (recorte)",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 20,
+    "y": 3.4,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 20.6,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 17,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 3.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22.6,
+    "y": 6.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     42,
+     17
+    ],
+    "b": [
+     32,
+     3.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     32,
+     3.4
+    ],
+    "b": [
+     22.6,
+     6.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     32,
+     13
+    ],
+    "b": [
+     18.4,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     22.6,
+     6.2
+    ],
+    "b": [
+     18.8,
+     11.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s1": 10
+   },
+   {
+    "a": [
+     18,
+     12
+    ],
+    "b": [
+     1.6,
+     13.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 5,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    20,
+    26.2,
+    "MUÑECOS A 22 m",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}
