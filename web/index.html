@@ -370,8 +370,10 @@ function apply() {
 function pips(n) { const k = Math.max(1, LV.indexOf(n) + 1); return `<b class="pips">${[0,1,2,3].map(i=>`<i class="${i<k?'on':''}"></i>`).join('')}</b>`; }
 function ageTxt(r) { return r.a ? (r.a[0] === r.a[1] ? r.a[0] + ' años' : `${r.a[0]}–${r.a[1]} años`) : 'Edad libre'; }
 function plTxt(r) { return r.p ? (r.p[0] === r.p[1] ? r.p[0] + ' jug.' : `${r.p[0]}–${r.p[1]} jug.`) : 'Jug. libre'; }
+let UQ = 0;
+function sv(i) { const n = ++UQ; return SVG[i].replace(/id="([^"]+)"/g, 'id="$1_' + n + '"').replace(/url\(#([^)]+)\)/g, 'url(#$1_' + n + ')'); }
 function thumb(r) {
-  return SVG[r.i] ? SVG[r.i] : `<div class="ph"><div class="bk"></div><div class="fx">${esc(r.f || SHORT[r.b])}</div><small>Diagrama pendiente</small></div>`;
+  return SVG[r.i] ? sv(r.i) : `<div class="ph"><div class="bk"></div><div class="fx">${esc(r.f || SHORT[r.b])}</div><small>Diagrama pendiente</small></div>`;
 }
 function who(r) {
   if (!(r.co || r.cl)) return r.tl ? `<i class="tl" title="toplidercoach"></i>` : '';
@@ -406,7 +408,7 @@ function full(r) {
   return `<article class="f" style="--c:${b.c};--k:${b.k}">
   <header class="fh"><span class="bl">${esc(b.n)}</span><h2>${esc(r.t)}</h2>${r.f?`<span class="fmt">${esc(r.f)}</span>`:''}</header>
   <div class="acts" id="acts"></div>
-  <div class="fdia">${SVG[r.i] || `<div class="ph" style="height:100%"><div class="bk"></div><div class="fx">${esc(r.f || SHORT[r.b])}</div><small>Diagrama pendiente</small></div>`}${who(r)}<span class="code">${esc(r.i)}</span></div>
+  <div class="fdia">${SVG[r.i] ? sv(r.i) : `<div class="ph" style="height:100%"><div class="bk"></div><div class="fx">${esc(r.f || SHORT[r.b])}</div><small>Diagrama pendiente</small></div>`}${who(r)}<span class="code">${esc(r.i)}</span></div>
   <div class="strip"><span>${IC.clock}${ageTxt(r)}</span><span>${pips(r.n)}${esc(r.n)}</span><span>${IC.user}${plTxt(r)}</span><span>${IC.area}${esc(x.sp || '—')}</span></div>
   <div class="fb">
    <div class="badges">${r.tp?`<span class="badge tp">★ TOP</span>`:''}${r.pr?`<span class="badge pr">✓ Probado en campo</span>`:''}${r.lb?`<span class="badge book">En el libro · nº ${r.lb} del bloque</span>`:''}${r.ar?`<span class="badge">${esc(r.ar)}</span>`:''}</div>
