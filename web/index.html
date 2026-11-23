@@ -230,6 +230,23 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 .gslot .sa { display:flex; gap:6px; flex-wrap:wrap }
 .gnote { font-size:12px; color:var(--muted); margin:6px 0 0 }
 @media (max-width: 560px) { .grow { grid-template-columns: 1fr 1fr } .gslot { grid-template-columns: 52px 1fr } }
+/* ===== Móvil: barra de pestañas inferior (menús fuera de la cabecera) ===== */
+.tabbar { display:none; position:fixed; left:0; right:0; bottom:0; z-index:25; background:var(--navy); border-top:3px solid var(--coral); padding:6px 4px calc(6px + env(safe-area-inset-bottom)); justify-content:space-around; box-shadow:0 -10px 30px -12px rgba(5,15,32,.5) }
+.tabbar button { all:unset; flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; color:rgba(255,255,255,.62); font:600 10.5px/1.1 Inter, sans-serif; cursor:pointer; position:relative; padding:5px 0 2px; -webkit-tap-highlight-color:transparent }
+.tabbar svg { width:22px; height:22px } .tabbar button.on { color:#fff }
+.tabbar .gen2 svg { width:26px; height:26px; background:var(--coral); color:#fff; border-radius:50%; padding:5px; margin-top:-3px }
+.tabbar .gen2 { color:#fff }
+.tabbar b { position:absolute; top:0; left:calc(50% + 5px); background:var(--coral); color:#fff; font:800 9.5px/1 Inter, sans-serif; border-radius:99px; padding:3px 5px; min-width:16px; text-align:center }
+.tabbar b[hidden], .tabbar b:empty { display:none }
+@media (max-width: 920px) {
+  .tabbar { display:flex }
+  .top .hb, .top .btn-f, .top .acct { display:none !important }
+  .row1 { flex-wrap:nowrap; gap:10px } .search { order:0; flex:1; flex-basis:auto; min-width:0 }
+  .search input { padding:10px 14px 10px 38px; font-size:14px } .search svg { left:13px }
+  .toast { bottom: calc(84px + env(safe-area-inset-bottom)) }
+  .wrap, .home { padding-bottom: 100px }
+}
+@media (max-width: 520px) { .brand img.lg2 { height: 34px } .top { padding: 8px 12px } }
 </style>
 </head>
 <body>
@@ -248,6 +265,14 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 <section class="home" id="home" hidden></section>
 <aside class="drawer" id="drawer"><header><h3>Mis sesiones</h3><button id="dcl" aria-label="Cerrar">×</button></header><div class="body" id="dbody"></div></aside>
 <div class="toast" id="toast"></div>
+<nav class="tabbar" id="tabbar" aria-label="Menú">
+  <button data-t="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Inicio</button>
+  <button data-t="fil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filtros<b id="tnf"></b></button>
+  <button data-t="gen" class="gen2"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>Crear sesión</button>
+  <button data-t="fav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>Favoritos<b id="tnfav"></b></button>
+  <button data-t="ses"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="4" y="4" width="16" height="17" rx="2"/><path d="M8 2v4M16 2v4M8 11h8M8 15h5"/></svg>Sesiones<b id="tnses"></b></button>
+</nav>
+
 <div class="wrap">
 <aside class="side" id="side">
   <div class="dh">Filtros <button id="cls" aria-label="Cerrar">×</button></div>
@@ -631,6 +656,19 @@ $('#gx').onclick = () => { $('#gm').classList.remove('open'); apply(); };
 $('#gm').addEventListener('click', e => { if (e.target === $('#gm')) { $('#gm').classList.remove('open'); apply(); } });
 
 const side = $('#side'), scrim = $('#scrim');
+/* Barra inferior en móvil: reutiliza las acciones de la cabecera */
+const TB = { home: () => $('#logo').click(), fil: () => $('#tgl').click(), gen: () => $('#bgen').click(), fav: () => $('#bfav').click(), ses: () => $('#bses').click() };
+$('#tabbar').querySelectorAll('button').forEach(b => b.onclick = () => TB[b.dataset.t]());
+function tbSync() {
+  const n = (id) => +($(id).textContent || 0);
+  $('#tnfav').textContent = n('#nfav') || ''; $('#tnses').textContent = n('#nses') || ''; $('#tnf').textContent = $('#nf').hidden ? '' : ($('#nf').textContent || '');
+  $('#tabbar [data-t="fav"]').classList.toggle('on', st.est === 'fav'); $('#tabbar [data-t="home"]').classList.toggle('on', home);
+}
+new MutationObserver(tbSync).observe($('#top'), { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['hidden'] });
+if (matchMedia('(max-width: 520px)').matches) $('#q').placeholder = 'Buscar: rondo, 3v2, pared…';
+tbSync();
+
+
 function sheet(o) { side.classList.toggle('open', o); scrim.classList.toggle('open', o); }
 $('#tgl').onclick = () => sheet(true); $('#cls').onclick = $('#go').onclick = scrim.onclick = () => sheet(false);
 let qt; $('#q').oninput = e => { clearTimeout(qt); qt = setTimeout(() => { st.q = e.target.value.trim(); if (st.q) home = false; apply(); }, 180); };
