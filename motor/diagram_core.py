@@ -77,9 +77,9 @@ class D:
         """Elige la posición del número que menos tapa a jugadores, etiquetas u otros números."""
         best = None
         cands = [(nt, nside, 11)]
-        for t in (.5, .4, .6, .33, .67, .25, .75, .15, .85):
+        for t in (.5, .4, .6, .33, .67, .25, .75, .15, .85, .08, .92):
             for sd in (nside, -nside):
-                for off in (11, 17):
+                for off in (11, 17, 23):
                     cands.append((t, sd, off))
         for k, (t, sd, off) in enumerate(cands):
             mx = A[0] + (B[0]-A[0])*t + (-uy)*off*sd

@@ -1,3 +1,4 @@
+import math
 """Prètzhèt Ink · motor de fichas: un JSON por ejercicio -> SVG del diagrama, tarjeta web y página de libro."""
 import json, math, re, sys, glob, base64, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -48,10 +49,44 @@ def _goal(d, x, y, side, width, keeper):
         d.top.append(f'<g transform="translate({KX:.1f},{KY:.1f}) rotate({kf+90})"><ellipse rx="12" ry="7" fill="#2ecc71" stroke="#0b3d20" stroke-width="1.8"/>'
                      f'<circle cy=".5" r="5" fill="#e9b88c" stroke="#0b3d20" stroke-width="1.2"/><path d="M-5 .5A5 5 0 0 0 5 .5Z" fill="#2b1a0e"/></g>')
 
+def _separa(spec, scale, min_px=17.0, max_m=1.6):
+    """Separa jugadores que se pisan (empuja cada pareja en la línea que los une, como mucho max_m metros) y
+    mueve con ellos las flechas y balones que salían de su posición original."""
+    import copy
+    pl = spec.get('players', [])
+    if len(pl) < 2: return spec
+    spec = copy.deepcopy(spec); pl = spec['players']
+    orig = [(p['x'], p['y']) for p in pl]; mn = min_px / scale
+    for _ in range(60):
+        moved = False
+        for i in range(len(pl)):
+            for j in range(i + 1, len(pl)):
+                dx, dy = pl[j]['x'] - pl[i]['x'], pl[j]['y'] - pl[i]['y']; dist = math.hypot(dx, dy)
+                if dist < mn:
+                    if dist < 1e-6: dx, dy, dist = 1.0, 0.3, math.hypot(1.0, 0.3)
+                    push = (mn - dist) / 2 + 0.02; ux, uy = dx / dist, dy / dist
+                    for k, sg in ((i, -1), (j, 1)):
+                        nx, ny = pl[k]['x'] + sg * ux * push, pl[k]['y'] + sg * uy * push
+                        if math.hypot(nx - orig[k][0], ny - orig[k][1]) <= max_m: pl[k]['x'], pl[k]['y'] = nx, ny; moved = True
+        if not moved: break
+    delta = [(pl[k]['x'] - orig[k][0], pl[k]['y'] - orig[k][1]) for k in range(len(pl))]
+    def follow(pt):
+        best = None
+        for k, (ox, oy) in enumerate(orig):
+            dd = math.hypot(pt[0] - ox, pt[1] - oy)
+            if dd < 0.9 and (best is None or dd < best[0]): best = (dd, k)
+        if best is None or delta[best[1]] == (0, 0): return pt
+        return [pt[0] + delta[best[1]][0], pt[1] + delta[best[1]][1]]
+    for a in spec.get('arrows', []): a['a'] = follow(a['a']); a['b'] = follow(a['b'])
+    if spec.get('balls'): spec['balls'] = [follow(b) for b in spec['balls']]
+    for l in spec.get('lines', []): pass
+    return spec
+
 def render_svg(spec):
     f = spec['field']
     ext = spec.get('extent', {})
     d = D(f[0], f[1], xmin=ext.get('xmin', 0), xmax=ext.get('xmax'), ymin=ext.get('ymin', 0), ymax=ext.get('ymax'))
+    spec = _separa(spec, d.s)
     if not spec.get('nofield'): d.field(dashed=spec.get('dashed', False))
     for z in spec.get('zones', []):
         if z['t'] == 'poly': d.zone([tuple(p) for p in z['pts']])

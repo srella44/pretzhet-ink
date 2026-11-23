@@ -128,3 +128,4 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 
 ## Motor de diagramas: números que no tapan (2026-11-23)
 `motor/diagram_core.py` (`_place_num`) ya no pone el número de cada flecha siempre a mitad: prueba varias posiciones y lados y elige la que menos tapa a jugadores, balones, etiquetas y otros números. Medido en las 218 fichas dibujadas: de 674 números, 91 tapaban a un jugador; ahora 9. Quedan esos 9 por revisar a mano en la revisión final.
+Separación automática de jugadores (2026-11-23): `_separa` en `motor/ficha_engine.py` aparta a los jugadores que se pisan (hasta 1,6 m) y mueve con ellos sus flechas y balones. En las 218 fichas dibujadas: parejas pisándose 22 → 0; números tapando a un jugador 91 → 6 (DOS-060, IG-DX66nIhixbR, IG-DaxIstXMCxy, VID-ecvyevq3, VID-hyfc4epy, VID-n3u00qgm: diagramas muy densos, revisar a mano en la revisión final).
