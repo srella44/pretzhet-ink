@@ -1,0 +1,151 @@
+{
+ "id": "TLC-0210",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rombo con interior conector",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min; rotar roles tras cada serie (propuesta).",
+ "objetivo": "Paredes, pases de distinta potencia y movilidad constante con un jugador interior que conecta.",
+ "montaje": "Rombo de cuatro exteriores, un interior en el centro y un apoyo lateral. Unos 15 m entre vértices.",
+ "juego": "El de salida pasa al interior, que gira y busca al vértice lejano. Este juega al apoyo lateral, que devuelve al vértice de abajo y vuelve a empezar. Se alternan paredes y pases de distinta potencia; los roles cambian tras cada serie.",
+ "punto": "Sin oposición. Secuencias completas sin error (propuesta).",
+ "consigna": "Interior: mira antes de recibir y gira.",
+ "variantes": {
+  "facil": "Interior con dos toques (propuesta).",
+  "dificil": "Toques limitados, pierna no dominante o cierre con pase a miniportería (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 10–12 m entre vértices (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nuri Şahin)",
+  "titulo_original": "NURI SAHIN, RUEDA DE PASES",
+  "ref": "toplidercoach.com/nuri-sahin-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias, secuencia dibujada y series (propuesta). La web solo describe la estructura; se dibuja una secuencia tipo.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "dashed": true,
+  "tag": "zona de 40 × 30 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 26,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 25.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     15
+    ],
+    "b": [
+     20,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     36,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     36,
+     15
+    ],
+    "b": [
+     34,
+     25.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     34,
+     25.5
+    ],
+    "b": [
+     20,
+     26
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    20,
+    10.2,
+    "INTERIOR",
+    "middle"
+   ],
+   [
+    34,
+    29.4,
+    "APOYO",
+    "middle"
+   ]
+  ]
+ }
+}

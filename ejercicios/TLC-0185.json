@@ -1,0 +1,215 @@
+{
+ "id": "TLC-0185",
+ "bloque": "Técnica y duelos",
+ "titulo": "Gol pasando por las bandas",
+ "formato": "8+PT vs 8+PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug. + 2 PT",
+ "espacio": "Medio campo (68 × 52 m)",
+ "duracion": "20 min",
+ "series": "2 × 8 min con 2 min de pausa (propuesta).",
+ "objetivo": "Amplitud, cambios de orientación y uso de los carriles exteriores antes de finalizar.",
+ "montaje": "Medio campo con porterías y porteros. Cuatro rectángulos en las esquinas: dos en campo propio y dos en el rival.",
+ "juego": "Partido 8 contra 8. Para marcar, el balón tiene que pasar antes por una zona lateral de campo propio y por una de campo rival. El entrenador puede limitarlo a una banda.",
+ "punto": "Gol válido, 1; gol usando las dos bandas en la misma jugada, 2 (fuente).",
+ "consigna": "Abre el campo y cambia de orientación.",
+ "variantes": {
+  "facil": "Basta con pasar por una zona lateral cualquiera (fuente).",
+  "dificil": "Solo extremos y laterales entran en las zonas, o pase a un interior tras la zona antes de tirar (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: fútbol 7 en 50 × 40 m con zonas de 10 × 8 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Cesc Fàbregas)",
+  "titulo_original": "CESC FÁBREGAS, ATAQUE EXTERIOR",
+  "ref": "toplidercoach.com/cesc-fabregas-ataque-exterior/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tamaño de las zonas laterales (unos 14 × 12 m), series y edad (propuesta). En el dibujo, 4 por equipo.",
+ "diagrama": {
+  "field": [
+   68,
+   52
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 72,
+   "ymin": -2,
+   "ymax": 54
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     14,
+     12
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     54,
+     0,
+     68,
+     12
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     40,
+     14,
+     52
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     54,
+     40,
+     68,
+     52
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     34,
+     0
+    ],
+    [
+     34,
+     52
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 26,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   },
+   {
+    "x": 68,
+    "y": 26,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 30,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 46,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 60,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 48,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 50,
+    "y": 44,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     30
+    ],
+    "b": [
+     8,
+     46
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     46
+    ],
+    "b": [
+     40,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     40,
+     22
+    ],
+    "b": [
+     60,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     60,
+     6
+    ],
+    "b": [
+     66,
+     24
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s1": 8
+   }
+  ]
+ }
+}

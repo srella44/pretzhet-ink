@@ -1,0 +1,157 @@
+{
+ "id": "TLC-0171",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Pared entre picas",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "3 × 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Pase corto y pared por dentro de una línea de picas, con cambio de ritmo tras la devolución.",
+ "montaje": "Dos filas de tres enfrentadas. En el centro, dos picas a unos 3 m que hacen de rival.",
+ "juego": "Sale uno con balón de una fila y, a la vez, uno sin balón de la otra. Pase al que viene, que devuelve la pared por dentro de las picas. El primero acelera, envía el balón a la fila opuesta y se une a ella. Luego empieza el otro lado.",
+ "punto": "Sin oposición. Paredes limpias por fila en 3 min (fuente).",
+ "consigna": "Pasa, devuelve y acelera.",
+ "variantes": {
+  "facil": "Picas a 4 m y control antes de la devolución (propuesta).",
+  "dificil": "Pared a 1 toque, picas más juntas o señal del entrenador para el lado de salida (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Benjamín y alevín: 15 × 15 m y picas a 4 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Chivu)",
+  "titulo_original": "CHIVU RUEDA DE PASES",
+  "ref": "toplidercoach.com/chivu-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias y series (propuesta). Muy parecido a TLC-0148 (Rui Borges): revisar si se fusionan.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -4.5,
+   "xmax": 24.5,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "dashed": true,
+  "cones": [
+   [
+    10,
+    8
+   ],
+   [
+    10,
+    11.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -2.2,
+    "y": 14,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4.5,
+    "f": 120
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 4,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 4,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     14
+    ],
+    "b": [
+     6,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     1.5,
+     14
+    ],
+    "b": [
+     13.5,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 13,
+    "s1": 3
+   },
+   {
+    "a": [
+     6,
+     4.5
+    ],
+    "b": [
+     13.5,
+     13.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 13,
+    "s1": 4
+   },
+   {
+    "a": [
+     13.5,
+     14
+    ],
+    "b": [
+     18.5,
+     4.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 4,
+    "s1": 13
+   }
+  ],
+  "labels": [
+   [
+    10,
+    17.6,
+    "PICAS",
+    "middle"
+   ]
+  ]
+ }
+}

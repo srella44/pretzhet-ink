@@ -1,0 +1,189 @@
+{
+ "id": "TLC-0302",
+ "bloque": "Técnica y duelos",
+ "titulo": "Balones a la jaula",
+ "formato": "6v6",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "30 × 25 m + jaula",
+ "duracion": "12 min",
+ "series": "4 rondas, dos por equipo como poseedor (propuesta).",
+ "objetivo": "Conducir, regatear y proteger el balón con riesgo controlado y cambiando de rol entre ataque y defensa.",
+ "montaje": "Rectángulo de juego y, fuera, una jaula marcada con conos. Un equipo con un balón por jugador; el otro persigue sin balón.",
+ "juego": "Los poseedores conducen y regatean para llevar los balones a la jaula; pueden sacarlos del rectángulo y meterlos después. Si un balón vuelve a cruzar el rectángulo, se puede robar. Con todos dentro, cambian los roles.",
+ "punto": "Gana quien meta todos en menos tiempo (propuesta).",
+ "consigna": "Protege y acelera al ver hueco.",
+ "variantes": {
+  "facil": "Dos perseguidores menos (propuesta).",
+  "dificil": "Tres equipos, perfil de conducción limitado o tiempo máximo (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años y medio campo. Benjamín: 20 × 15 m y un perseguidor por cada dos (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Roger Schmidt)",
+  "titulo_original": "ROGER SCHMIDT JUEGO ECHAR BALONES A LA JAULA",
+  "ref": "toplidercoach.com/juego-echar-balones-a-la-jaula/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, tamaño de la jaula y forma de ganar (propuesta). Balón robado: el perseguidor lo saca por el lado opuesto a la jaula (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 39,
+   "ymin": -1,
+   "ymax": 26
+  },
+  "tag": "30 × 25 m + jaula",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     32.5,
+     9,
+     37.5,
+     16
+    ]
+   }
+  ],
+  "cones": [
+   [
+    32.5,
+    9
+   ],
+   [
+    37.5,
+    9
+   ],
+   [
+    32.5,
+    16
+   ],
+   [
+    37.5,
+    16
+   ]
+  ],
+  "balls": [
+   [
+    34.2,
+    11.2
+   ],
+   [
+    35.8,
+    13.8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 21,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     13
+    ],
+    "b": [
+     27,
+     15.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s1": 6
+   },
+   {
+    "a": [
+     27,
+     15.5
+    ],
+    "b": [
+     34.5,
+     12.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     23,
+     4
+    ],
+    "b": [
+     17.5,
+     10.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s1": 14
+   }
+  ],
+  "labels": [
+   [
+    35,
+    18.6,
+    "JAULA",
+    "middle"
+   ]
+  ]
+ }
+}

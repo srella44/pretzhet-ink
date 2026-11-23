@@ -1,0 +1,146 @@
+{
+ "id": "TLC-0264",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rombo con pared al muñeco",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "10 min",
+ "series": "4 × 2 min; cambiar el sentido cada serie (fuente: invertir la secuencia).",
+ "objetivo": "Paredes y circulación con movilidad constante y buena orientación del cuerpo.",
+ "montaje": "Rombo con un jugador en el centro como apoyo y un muñeco entre el vértice de salida y el centro. Dos jugadores en el vértice de salida.",
+ "juego": "El de salida pasa al centro, rodea el muñeco y recibe la pared. Después el balón recorre los otros vértices y vuelve al inicio. Cada uno rota al puesto siguiente.",
+ "punto": "Sin oposición. Vueltas completas sin fallo (propuesta).",
+ "consigna": "Pared a tiempo: pasa y arranca.",
+ "variantes": {
+  "facil": "Dos toques en todos los puestos (propuesta).",
+  "dificil": "Toques limitados o segundo jugador en el centro para dobles paredes (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 20 × 20 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nagelsmann)",
+  "titulo_original": "NAGELSMANN, RUEDA DE PASES EN ROMBO",
+  "ref": "toplidercoach.com/nagelsmann-rueda-de-pases-en-rombo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias, puntuación y orden exacto del recorrido (propuesta). El muñeco se dibuja como jugador semitransparente.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "dashed": true,
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -2.5,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 15,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 22,
+    "f": -150
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 28.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     15
+    ],
+    "b": [
+     16,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     2.5,
+     15
+    ],
+    "b": [
+     17,
+     9
+    ],
+    "k": "run",
+    "side": -1,
+    "s1": 4
+   },
+   {
+    "a": [
+     16,
+     22
+    ],
+    "b": [
+     17,
+     9.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 6
+   },
+   {
+    "a": [
+     17,
+     9
+    ],
+    "b": [
+     28,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 6
+   }
+  ]
+ }
+}

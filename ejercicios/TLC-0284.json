@@ -1,0 +1,230 @@
+{
+ "id": "TLC-0284",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito físico-técnico",
+ "formato": "Circuito por estaciones",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "16 min",
+ "series": "4 estaciones × 3 min; 30 s para rotar (propuesta).",
+ "objetivo": "Activar al inicio de la sesión combinando coordinación, velocidad y agilidad con conducción y pase.",
+ "montaje": "Cuatro estaciones de cuatro jugadores: escalera o aros, eslalon de conos con balón, saltos y pase con control orientado.",
+ "juego": "Cada grupo trabaja seguido en su estación, alternando la tarea física con la acción de balón. Al tiempo, todos rotan a la estación siguiente.",
+ "punto": "Sin puntos. Se puede cerrar con pase a miniportería (fuente).",
+ "consigna": "Técnica limpia aunque llegues cansado.",
+ "variantes": {
+  "facil": "Estaciones solo de coordinación sin balón al inicio (propuesta).",
+  "dificil": "Estímulos visuales para cambiar de dirección o pierna no dominante (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: estaciones de 2 min y saltos bajos (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Inzaghi)",
+  "titulo_original": "INZAGHI, CIRCUITO FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/inzaghi-circuio-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tareas concretas de cada estación y tiempos (propuesta); la web remite a la animación.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "dashed": true,
+  "tag": "zona de 40 × 30 m",
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     40,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "discs": [
+   [
+    6,
+    6
+   ],
+   [
+    9,
+    6
+   ],
+   [
+    12,
+    6
+   ],
+   [
+    15,
+    6
+   ],
+   [
+    6,
+    22
+   ],
+   [
+    9,
+    22
+   ],
+   [
+    12,
+    22
+   ]
+  ],
+  "cones": [
+   [
+    28,
+    4.5
+   ],
+   [
+    32,
+    8.5
+   ],
+   [
+    36,
+    4.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     17.5,
+     6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s1": 4
+   },
+   {
+    "a": [
+     23,
+     6.5
+    ],
+    "b": [
+     38,
+     6.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 16,
+    "s1": 4
+   },
+   {
+    "a": [
+     2,
+     22
+    ],
+    "b": [
+     15,
+     22
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s1": 4
+   },
+   {
+    "a": [
+     25,
+     22
+    ],
+    "b": [
+     36,
+     22
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    11.8,
+    "ESCALERA",
+    "middle"
+   ],
+   [
+    30,
+    12.6,
+    "ESLALON",
+    "middle"
+   ],
+   [
+    10,
+    27.8,
+    "SALTOS",
+    "middle"
+   ],
+   [
+    30,
+    27.8,
+    "PASE",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "id": "TLC-0372",
+ "bloque": "Técnica y duelos",
+ "titulo": "Extremo débil al remate",
+ "formato": "4+3 C vs 4 → centro",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "11 jug. + 2 ext. + PT",
+ "espacio": "Medio campo",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Atacar un bloque bajo con desmarques de fuera hacia dentro y llegada del extremo del lado débil al remate.",
+ "montaje": "Zona de posesión en medio campo: 4 atacantes y 3 comodines contra 4. Un extremo en cada banda y portería con portero.",
+ "juego": "Tras un número de pases, se busca al extremo con pase largo o filtrado. Salen dos atacantes de la posesión hacia el área y el extremo del lado débil llega al segundo palo. Dos defensores repliegan. Se acaba con centro y remate.",
+ "punto": "Gol tras centro, 1 punto (propuesta).",
+ "consigna": "Extremo débil: llega tarde y rápido.",
+ "variantes": {
+  "facil": "Sin repliegue defensivo (propuesta).",
+  "dificil": "Tercer defensor en el repliegue o tipo de pase al extremo condicionado (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años; da 3 jugadores, que no cuadra con el texto. Alevín: 3+2 C vs 3 en fútbol 7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Roger Schmidt)",
+  "titulo_original": "ROGER SCHMIDT, DESMARQUE EXTREMOS",
+  "ref": "toplidercoach.com/roger-schmidt-desmarque-extremos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de pases, medidas de la zona y series (propuesta). En el dibujo, 3 atacantes y 2 comodines contra 3; no se dibuja el fuera de juego.",
+ "diagrama": {
+  "field": [
+   52,
+   40
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 55,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "tag": "medio campo (recorte)",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     3,
+     8,
+     27,
+     32
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     35.5,
+     6
+    ],
+    [
+     52,
+     6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     35.5,
+     6
+    ],
+    [
+     35.5,
+     34
+    ],
+    "6 5"
+   ],
+   [
+    [
+     35.5,
+     34
+    ],
+    [
+     52,
+     34
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 52,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 27,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 32,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 37,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     21,
+     27
+    ],
+    "b": [
+     36,
+     37
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     13
+    ],
+    "b": [
+     44,
+     17
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s1": 6,
+    "nt": 0.7
+   },
+   {
+    "a": [
+     36,
+     3
+    ],
+    "b": [
+     46,
+     23
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s1": 6,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     36,
+     37
+    ],
+    "b": [
+     45.5,
+     24.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    15,
+    5.6,
+    "POSESIÓN",
+    "middle"
+   ]
+  ]
+ }
+}

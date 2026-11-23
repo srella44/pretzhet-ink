@@ -1,0 +1,150 @@
+{
+ "id": "TLC-0238",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Círculo y dejar de cara",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "7 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "10 min",
+ "series": "4 × 2 min; rotan los interiores tras cada serie (propuesta).",
+ "objetivo": "Automatizar el apoyo que deja de cara y la orientación del cuerpo para recibir.",
+ "montaje": "Círculo con cinco jugadores repartidos por el borde y dos apoyos en el interior.",
+ "juego": "Un exterior pasa a un apoyo interior, que controla y deja de cara al siguiente exterior. Este juega al otro apoyo y así sigue la rueda. Se sube el ritmo poco a poco y se cambia el sentido.",
+ "punto": "Sin oposición. Secuencias sin error en 2 min (fuente: puntuar secuencias).",
+ "consigna": "Pasa fuerte al pie lejano del apoyo.",
+ "variantes": {
+  "facil": "Un solo apoyo y dos toques (propuesta).",
+  "dificil": "Segundo balón o un defensor pasivo dentro (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: radio de 8–10 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Gasperini)",
+  "titulo_original": "GASPERINI, RUEDA DE PASES",
+  "ref": "toplidercoach.com/gasperini-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de exteriores e interiores (5 + 2 para los 7 de la web) y series (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "dashed": true,
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 2.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 27.4,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22.6,
+    "y": 25.5,
+    "f": -110
+   },
+   {
+    "r": "A",
+    "x": 7.4,
+    "y": 25.5,
+    "f": -70
+   },
+   {
+    "r": "A",
+    "x": 2.6,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.6,
+     11
+    ],
+    "b": [
+     10,
+     15.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     15.5
+    ],
+    "b": [
+     7.4,
+     25.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     7.4,
+     25.5
+    ],
+    "b": [
+     20,
+     15.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     20,
+     15.5
+    ],
+    "b": [
+     22.6,
+     25.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    15,
+    9.3,
+    "APOYOS",
+    "middle"
+   ]
+  ]
+ }
+}

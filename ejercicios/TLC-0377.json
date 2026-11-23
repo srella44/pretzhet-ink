@@ -1,0 +1,131 @@
+{
+ "id": "TLC-0377",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rombo a un toque",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "10 min",
+ "series": "4 × 2 min; cambiar el sentido en cada serie (fuente).",
+ "objetivo": "Pase a un toque con perfil abierto, fuerza ajustada a la distancia y dirección exacta.",
+ "montaje": "Rombo con un jugador por vértice y dos en el de salida. Más distancia, más exigencia.",
+ "juego": "Pases encadenados a un toque alrededor del rombo. Quien pasa sigue a su balón y ocupa el vértice siguiente. Se alterna sentido horario y antihorario; también con paredes.",
+ "punto": "Vueltas seguidas sin segundo toque (propuesta).",
+ "consigna": "Abre el cuerpo antes de que llegue el balón.",
+ "variantes": {
+  "facil": "Dos toques y vértices a 10 m (propuesta).",
+  "dificil": "Segundo balón o solo pierna no dominante (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: dos toques y rombo de 12 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Allegri)",
+  "titulo_original": "ALLEGRI RUEDA DE PASES DIAMANTE",
+  "ref": "toplidercoach.com/rueda-de-pases-diamante-juventus/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias concretas y puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "dashed": true,
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.3,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 4,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 26,
+    "f": -30
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     15
+    ],
+    "b": [
+     20,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     4
+    ],
+    "b": [
+     36,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     36,
+     15
+    ],
+    "b": [
+     20,
+     26
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     20,
+     26
+    ],
+    "b": [
+     4,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4
+   }
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "id": "TLC-0258",
+ "bloque": "Técnica y duelos",
+ "titulo": "Conducción, 1v1 y repliegue",
+ "formato": "1v1 + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + 2 PT",
+ "espacio": "40 × 33 m (doble área)",
+ "duracion": "12 min",
+ "series": "3 series de 4 salidas; 45 s entre salidas (propuesta).",
+ "objetivo": "Finalizar rápido tras conducción a máxima velocidad y replegar o contraatacar según quién tenga el balón.",
+ "montaje": "Doble área con portería y portero en cada lado. Atacantes y defensores en fila junto a la misma portería y un carril marcado.",
+ "juego": "A la señal, el atacante conduce explosivo por el carril y busca finalizar en la portería contraria. A la vez sale el defensor desde la misma portería. Si roba, ataca la otra portería y el atacante repliega.",
+ "punto": "Gol del atacante, 1; robo y gol del defensor, 2 (propuesta).",
+ "consigna": "Sprint con balón y decide pronto.",
+ "variantes": {
+  "facil": "Defensor sale un segundo más tarde (propuesta).",
+  "dificil": "Inicio con pase, tiempo límite para finalizar o 2v2 con comodín (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 30 × 25 m y porterías de fútbol 7 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Erik ten Hag)",
+  "titulo_original": "ERIK TEN HAG , 1X1 Y REPLIEGUE",
+  "ref": "toplidercoach.com/erik-ten-hag-1x1-y-repliegue/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación del carril y de las filas, puntuación y series (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 43,
+   "ymin": -1,
+   "ymax": 35
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     33
+    ],
+    "6 5"
+   ],
+   [
+    [
+     3,
+     24
+    ],
+    [
+     37,
+     24
+    ],
+    "3 4"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 16.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 28.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -2,
+    "y": 28.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": -2,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     28.5
+    ],
+    "b": [
+     28,
+     28.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s1": 4
+   },
+   {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     22,
+     26
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s1": 6
+   },
+   {
+    "a": [
+     28,
+     28.5
+    ],
+    "b": [
+     39,
+     18.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 4,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    34,
+    31.9,
+    "CARRIL",
+    "middle"
+   ]
+  ]
+ }
+}

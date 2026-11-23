@@ -1,0 +1,167 @@
+{
+ "id": "TLC-0291",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cruce de delanteros",
+ "formato": "Remate tras centro",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + PT",
+ "espacio": "40 × 33 m (doble área)",
+ "duracion": "15 min",
+ "series": "3 series de 6 llegadas por pareja; cambian centradores y rematadores (fuente).",
+ "objetivo": "Coordinar desmarques cruzados con el centro y rematar a un toque en carrera.",
+ "montaje": "Portería con portero. Parejas de atacantes en la frontal o algo más atrás y uno o dos centradores en cada banda.",
+ "juego": "La pareja arranca y cruza sus carreras: uno ataca el primer palo y otro el segundo. El centrador de banda pone el balón y rematan de primeras. Enseguida sale otra pareja con centro desde el lado contrario.",
+ "punto": "Gol a un toque, 1 punto; competición por parejas (fuente).",
+ "consigna": "Cruza y ataca tu palo, no el balón.",
+ "variantes": {
+  "facil": "Remate a dos toques (propuesta).",
+  "dificil": "Centros raso, aéreo o atrás, y uno o dos defensores en el área (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: portería de fútbol 7 y centros desde 25 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nagelsmann)",
+  "titulo_original": "NAGELSMANN CRUCE DE DELANTEROS",
+  "ref": "toplidercoach.com/finalizacion-cruce-delanteros/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad y distancias (propuesta). Se dibuja medio espacio (una portería); la web cita dos porteros para alternar.",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "tag": "área y frontal",
+  "lines": [
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     40,
+     16.5
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 21.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 21.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 22.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 22.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 37.5,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 2.5,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     21.5
+    ],
+    "b": [
+     23.5,
+     5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s1": 6,
+    "nt": 0.72
+   },
+   {
+    "a": [
+     25,
+     21.5
+    ],
+    "b": [
+     16.5,
+     5.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s1": 6,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     37.5,
+     9
+    ],
+    "b": [
+     24.5,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    28,
+    2.6,
+    "1.er PALO",
+    "start"
+   ],
+   [
+    12,
+    2.6,
+    "2.º PALO",
+    "end"
+   ]
+  ]
+ }
+}

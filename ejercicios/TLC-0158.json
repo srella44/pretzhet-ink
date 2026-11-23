@@ -1,0 +1,156 @@
+{
+ "id": "TLC-0158",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda con triángulo interior",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "35 × 30 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min, cambiando de perfil en cada repetición (propuesta).",
+ "objetivo": "Asociaciones cortas y medias con la idea cercano–lejano: asegurar con un apoyo cercano, dejar de cara y progresar hacia el lejano.",
+ "montaje": "Triángulo interior, dos exteriores al fondo y, enfrente, la fila que inicia.",
+ "juego": "El de la fila pasa a un interior cercano, que la deja de cara al otro interior. Este busca al lejano, que descarga a un exterior. Luego, por el otro perfil. Cada uno ocupa el puesto al que pasó.",
+ "punto": "Sin oposición. Ruedas seguidas sin fallo en 2 min (propuesta).",
+ "consigna": "Perfílate antes de recibir; piensa ya el siguiente pase.",
+ "variantes": {
+  "facil": "Dos toques en todos los puestos y distancias de 8–10 m (propuesta).",
+  "dificil": "Interiores a 1 toque, pase lejano siempre al tercer hombre o dos balones a la vez (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: 25 × 20 m y dos toques (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Cesc Fàbregas)",
+  "titulo_original": "CESC FABREGAS RUEDA DE PASES TRIANGULO INTERIOR",
+  "ref": "toplidercoach.com/cesc-fabregas-rueda-de-pases-triangulo-interior/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias, puntuación y series (propuesta). Sin diagrama original: se dibuja el perfil izquierdo. Bloque asignado por la base (rueda de pase).",
+ "diagrama": {
+  "field": [
+   35,
+   30
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 36.5,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -2.6,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 23,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 26,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     15
+    ],
+    "b": [
+     12,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     7
+    ],
+    "b": [
+     14,
+     23
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     14,
+     23
+    ],
+    "b": [
+     24,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     24,
+     15
+    ],
+    "b": [
+     33,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    12,
+    2.4,
+    "CERCANO",
+    "middle"
+   ],
+   [
+    21,
+    10.3,
+    "LEJANO",
+    "middle"
+   ]
+  ]
+ }
+}

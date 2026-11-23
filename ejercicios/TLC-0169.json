@@ -1,0 +1,163 @@
+{
+ "id": "TLC-0169",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda doble en dos filas",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min; cambiar el sentido a mitad (propuesta).",
+ "objetivo": "Pase corto, devolución, apertura, control orientado y conducción corta en una rueda continua con dos balones por fila.",
+ "montaje": "Dos filas de cuatro, con una pareja en cada extremo. Un balón en cada punta.",
+ "juego": "Entrega y devolución en la pareja; quien inició abre al compañero adelantado, que conduce unos metros y entrega en el otro extremo, donde todo empieza otra vez. El otro balón va en sentido contrario. Cada uno avanza al puesto al que pasó.",
+ "punto": "Gana la fila con más vueltas limpias (propuesta).",
+ "consigna": "Abre el cuerpo antes de recibir.",
+ "variantes": {
+  "facil": "Un solo balón por fila (propuesta).",
+  "dificil": "Devolución a 1 toque y control orientado obligatorio en la apertura (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años y espacio de 40 × 40 m. Alevín: un balón por fila y distancias de 8 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Eddie Howe)",
+  "titulo_original": "EDDIE HOWE RUEDA DE PASES",
+  "ref": "toplidercoach.com/eddie-howe-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas de cada fila, puntuación y series (propuesta); la web da 40 × 40 m de espacio total. Se dibuja la fila de arriba con su secuencia.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.5,
+   "ymin": -1,
+   "ymax": 26
+  },
+  "dashed": true,
+  "lines": [
+   [
+    [
+     0,
+     12.5
+    ],
+    [
+     40,
+     12.5
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 2.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 9.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 15.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 22.5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 15.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     9.5
+    ],
+    "b": [
+     18,
+     9.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     9.5
+    ],
+    "b": [
+     30,
+     9.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2,
+    "s0": 14,
+    "s1": 4
+   },
+   {
+    "a": [
+     30,
+     9.5
+    ],
+    "b": [
+     37,
+     9.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 4,
+    "s1": 13
+   }
+  ],
+  "labels": [
+   [
+    6.5,
+    3.2,
+    "IDA Y VUELTA",
+    "start"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,255 @@
+{
+ "id": "TLC-0356",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cuatro escenarios reducidos",
+ "formato": "3v2 + 3v1",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug.",
+ "espacio": "48 × 30 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min; 1 min para rotar de escenario (propuesta).",
+ "objetivo": "Alternar partidos reducidos en superioridad o inferioridad con rondos de alta intensidad.",
+ "montaje": "Dos equipos de 9. Cuatro espacios: dos partidillos centrales 3v2 con miniporterías y un rondo 3v1 a cada lado.",
+ "juego": "Todos juegan a la vez. En los partidillos se ataca en 3v2 y se defiende en inferioridad; en los rondos, pase rápido y presión tras pérdida. Al tiempo, los grupos rotan: del partidillo al rondo y al revés.",
+ "punto": "Gol, 1 punto; gol en inferioridad, 2 (fuente).",
+ "consigna": "Juega rápido y presiona al perder.",
+ "variantes": {
+  "facil": "Rondos 4v1 y partidillos 3v1 (propuesta).",
+  "dificil": "Toques limitados en los rondos, o tras robo en el rondo atacar una miniportería (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: partidillos de 20 × 12 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Real Sociedad)",
+  "titulo_original": "JUEGOS REDUCIDOS 4 ESCENARIOS",
+  "ref": "toplidercoach.com/juegos-reducidos-4-escenarios/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas de cada espacio y series (propuesta). La web da medio campo; la puntuación doble era una variante.",
+ "diagrama": {
+  "field": [
+   48,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 49,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "dashed": true,
+  "lines": [
+   [
+    [
+     11,
+     0
+    ],
+    [
+     11,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     37,
+     0
+    ],
+    [
+     37,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     11,
+     15
+    ],
+    [
+     37,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    11,
+    7.5,
+    "L"
+   ],
+   [
+    37,
+    7.5,
+    "R"
+   ],
+   [
+    11,
+    22.5,
+    "L"
+   ],
+   [
+    37,
+    22.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 14.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 22.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 19.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 39,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 46,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42.5,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 42.5,
+    "y": 14.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     9
+    ],
+    "b": [
+     9,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     4
+    ],
+    "b": [
+     25,
+     7.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     7.5
+    ],
+    "b": [
+     36,
+     7.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s1": 6,
+    "nt": 0.62
+   }
+  ]
+ }
+}

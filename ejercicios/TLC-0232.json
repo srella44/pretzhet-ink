@@ -1,0 +1,192 @@
+{
+ "id": "TLC-0232",
+ "bloque": "Técnica y duelos",
+ "titulo": "Carrera y 1v1 a miniportería",
+ "formato": "1v1",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "35 × 30 m",
+ "duracion": "12 min",
+ "series": "2 series de 6 duelos por jugador; 30 s entre duelos (propuesta).",
+ "objetivo": "Pasar de un esfuerzo explosivo a decidir y ejecutar en un 1v1.",
+ "montaje": "Dos espacios iguales, cada uno con miniportería y un recorrido previo con dos muñecos. Dos parejas por espacio.",
+ "juego": "A la señal, atacante y defensor hacen una carrera corta que acaba en sprint. El atacante recoge el balón a la entrada (propuesta) y busca marcar; el defensor protege la miniportería. Entran las siguientes parejas.",
+ "punto": "Gol, 1 punto; robo del defensor, 1 (propuesta).",
+ "consigna": "Llega rápido, pero controla antes de atacar.",
+ "variantes": {
+  "facil": "Carrera más corta y sin muñecos (propuesta).",
+  "dificil": "Balón en movimiento del entrenador, tiempo límite o segundo balón tras la acción (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: espacios de 12 × 10 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Thiago Motta)",
+  "titulo_original": "THIAGO MOTTA, 1X1 FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/thiago-motta-1x1-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Quién tiene el balón, puntuación y series (propuesta).",
+ "diagrama": {
+  "field": [
+   35,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 37.5,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "lines": [
+   [
+    [
+     17.5,
+     0
+    ],
+    [
+     17.5,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     35,
+     15
+    ],
+    "3 4"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    35,
+    7,
+    "R"
+   ]
+  ],
+  "discs": [
+   [
+    5,
+    22
+   ],
+   [
+    9,
+    19
+   ],
+   [
+    23,
+    22
+   ],
+   [
+    27,
+    19
+   ]
+  ],
+  "balls": [
+   [
+    8,
+    13
+   ],
+   [
+    26,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 27,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 27,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     27
+    ],
+    "b": [
+     8,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     27
+    ],
+    "b": [
+     5,
+     8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     13
+    ],
+    "b": [
+     1.5,
+     7
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    8.75,
+    3.2,
+    "1v1",
+    "middle"
+   ],
+   [
+    26.25,
+    3.2,
+    "1v1",
+    "middle"
+   ]
+  ]
+ }
+}

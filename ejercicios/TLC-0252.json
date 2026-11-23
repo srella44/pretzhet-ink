@@ -1,0 +1,220 @@
+{
+ "id": "TLC-0252",
+ "bloque": "Técnica y duelos",
+ "titulo": "Carrera, apoyo y centro",
+ "formato": "Circuito + 1v1 en área",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + PT",
+ "espacio": "Medio campo",
+ "duracion": "15 min",
+ "series": "3 series de 4 acciones por jugador; 1 min de pausa (propuesta).",
+ "objetivo": "Encadenar un esfuerzo físico con una combinación, un centro en carrera y un remate con oposición.",
+ "montaje": "Medio campo con portería y portero. Picas para la carrera, un apoyo en el centro, un extremo en banda y, en el área, un delantero contra un defensor.",
+ "juego": "El primero corre entre picas y recibe del apoyo. Abre a banda, donde el extremo llega y centra en carrera. El delantero se desmarca y remata con un defensor activo. Rotan atacantes y defensores.",
+ "punto": "Gol, 1 punto; despeje del defensor, 1 para él (propuesta).",
+ "consigna": "Llega al área a tiempo, no antes.",
+ "variantes": {
+  "facil": "Remate sin defensor (propuesta).",
+  "dificil": "2v1 o 2v2 en el área, o doble centro raso y aéreo (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Alevín: área de fútbol 7 y carrera de 10 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Guardiola)",
+  "titulo_original": "GUARDIOLA,FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/guardiolafisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias, puntuación y series (propuesta). La web solo describe la secuencia; colocación propuesta.",
+ "diagrama": {
+  "field": [
+   52,
+   40
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 55,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "tag": "medio campo (recorte)",
+  "lines": [
+   [
+    [
+     35.5,
+     6
+    ],
+    [
+     52,
+     6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     35.5,
+     6
+    ],
+    [
+     35.5,
+     34
+    ],
+    "6 5"
+   ],
+   [
+    [
+     35.5,
+     34
+    ],
+    [
+     52,
+     34
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 52,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    6,
+    17.5
+   ],
+   [
+    10,
+    22.5
+   ],
+   [
+    14,
+    17.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 33,
+    "f": -120,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 38,
+    "f": -20
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     20
+    ],
+    "b": [
+     17,
+     20
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s1": 6
+   },
+   {
+    "a": [
+     24,
+     33
+    ],
+    "b": [
+     18,
+     21
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 6
+   },
+   {
+    "a": [
+     18,
+     20.5
+    ],
+    "b": [
+     40,
+     36
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     30,
+     38
+    ],
+    "b": [
+     39,
+     37
+    ],
+    "k": "run",
+    "side": 1,
+    "s1": 6
+   },
+   {
+    "a": [
+     40,
+     36
+    ],
+    "b": [
+     45,
+     22
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     32,
+     15
+    ],
+    "b": [
+     44,
+     22
+    ],
+    "k": "run",
+    "side": -1,
+    "s1": 6
+   }
+  ]
+ }
+}

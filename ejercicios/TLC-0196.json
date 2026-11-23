@@ -1,0 +1,191 @@
+{
+ "id": "TLC-0196",
+ "bloque": "Calentamiento",
+ "titulo": "Velocidad a colores",
+ "formato": "Velocidad sin balón",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "2 series de 5 salidas por jugador; 1 min de pausa (propuesta).",
+ "objetivo": "Arrancar y frenar con cambios de dirección cortos, eligiendo el color con rapidez.",
+ "montaje": "Tres filas de tres conos de colores, a unos 3 pasos, y un cono fijo de salida al fondo. Sale uno cada vez.",
+ "juego": "El jugador elige un color o lo canta el entrenador. Corre a ese color en la 1.ª fila, de la 2.ª vuelve a la 1.ª, de la 3.ª a la 2.ª y acaba con un sprint al cono fijo.",
+ "punto": "Sin puntos. Si el entrenador canta el color, gana quien lo toca antes (propuesta).",
+ "consigna": "Frena corto y arranca de nuevo.",
+ "variantes": {
+  "facil": "Dos filas y color fijo durante la serie (propuesta).",
+  "dificil": "Cuatro filas y cuatro colores (fuente)."
+ },
+ "adaptacion": "Web: desde 13 años. Benjamín: dos filas y color cantado (propuesta). En césped natural, cambiar de sitio a menudo (fuente).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Tuchel)",
+  "titulo_original": "TUCHEL, VELOCIDAD A COLORES",
+  "ref": "toplidercoach.com/tuchel-velocidad-a-colores/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de salidas, pausas y la parte competitiva (propuesta). La secuencia exacta de idas y vueltas se interpreta del texto.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 26,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "dashed": true,
+  "cones": [
+   [
+    6,
+    5
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    14,
+    5
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    14,
+    10
+   ],
+   [
+    6,
+    15
+   ]
+  ],
+  "discs": [
+   [
+    10,
+    15
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    19,
+    1.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 19.3,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 19.3,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     19
+    ],
+    "b": [
+     14,
+     15.4
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 5
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     10,
+     10.4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 5,
+    "s1": 5
+   },
+   {
+    "a": [
+     10,
+     10
+    ],
+    "b": [
+     14,
+     5.4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 5,
+    "s1": 5
+   },
+   {
+    "a": [
+     14,
+     5
+    ],
+    "b": [
+     19,
+     1.8
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4,
+    "s0": 5,
+    "s1": 5
+   }
+  ],
+  "labels": [
+   [
+    21,
+    15.6,
+    "FILA 1",
+    "start"
+   ],
+   [
+    21,
+    10.6,
+    "FILA 2",
+    "start"
+   ],
+   [
+    21,
+    5.6,
+    "FILA 3",
+    "start"
+   ]
+  ]
+ }
+}
