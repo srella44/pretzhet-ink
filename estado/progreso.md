@@ -125,3 +125,6 @@ Instagram, segunda pasada (2026-11-22): leídas 38 publicaciones de @coach_3h (d
 - Cuando estén dibujados los 1.000 del libro, Sergio y Claude los revisan juntos para asegurarse de que son los mejores. Hasta entonces la selección de `datos/seleccion.json` es provisional: se pueden cambiar ejercicios por otros mejores del banco.
 - Estado actual: 1.000 seleccionados, 218 ya dibujados, 34 páginas, 11 bloques. Las tareas programadas siguen dibujando sin cambiar la selección.
 - Al revisar: duplicados casi iguales (p. ej. TLC-0160/-0150, TLC-0171/-0148, TLC-0372), TOP marcados «(propuesta)», Porteros (24) y bloques con pocos ejercicios.
+
+## Motor de diagramas: números que no tapan (2026-11-23)
+`motor/diagram_core.py` (`_place_num`) ya no pone el número de cada flecha siempre a mitad: prueba varias posiciones y lados y elige la que menos tapa a jugadores, balones, etiquetas y otros números. Medido en las 218 fichas dibujadas: de 674 números, 91 tapaban a un jugador; ahora 9. Quedan esos 9 por revisar a mano en la revisión final.

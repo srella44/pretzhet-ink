@@ -65,6 +65,11 @@ def render_svg(spec):
     for g in spec.get('goals', []): d.minigoal(g[0], g[1], g[2])
     for g in spec.get('porterias', []):
         _goal(d, g['x'], g['y'], g.get('lado', 'T'), g.get('ancho', 5), g.get('portero', False))
+    for p_ in spec.get('players', []): d.obst.append((*d.p(p_['x'], p_['y']), 14))
+    for b_ in spec.get('balls', []): d.obst.append((*d.p(b_[0], b_[1]), 6))
+    for t_ in spec.get('labels', []):
+        X_, Y_ = d.p(t_[0], t_[1]); hw = 2.9 * len(t_[2]); an = t_[3] if len(t_) > 3 else 'middle'
+        d.lbox.append((X_ + (hw if an == 'start' else -hw if an == 'end' else 0), Y_ - 3, hw, 6))
     for a in spec.get('arrows', []):
         d.arrow(tuple(a['a']), tuple(a['b']), a.get('k', 'pass'), n=a.get('n'), s0=a.get('s0', 15), s1=a.get('s1', 15),
                 nside=a.get('side', 1), nt=a.get('nt', .5))

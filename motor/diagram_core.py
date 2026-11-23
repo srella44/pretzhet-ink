@@ -15,6 +15,7 @@ class D:
         self.ox = (VW - ew*self.s)/2 - xmin*self.s
         self.oy = (VH - eh*self.s)/2 - ymin*self.s + 2
         self.out = []; self.top = []
+        self.obst = []; self.lbox = []; self.nums = []   # para colocar los números sin tapar nada
     def p(self, x, y): return (self.ox + x*self.s, self.oy + y*self.s)
     def add(self, s): self.out.append(s)
 
@@ -72,6 +73,33 @@ class D:
         A = self.p(*a); B = self.p(*b)
         dx, dy = B[0]-A[0], B[1]-A[1]; L = math.hypot(dx, dy); ux, uy = dx/L, dy/L
         return (A[0]+ux*s0, A[1]+uy*s0), (B[0]-ux*s1, B[1]-uy*s1), (ux, uy), L
+    def _place_num(self, A, B, ux, uy, nt, nside):
+        """Elige la posición del número que menos tapa a jugadores, etiquetas u otros números."""
+        best = None
+        cands = [(nt, nside, 11)]
+        for t in (.5, .4, .6, .33, .67, .25, .75, .15, .85):
+            for sd in (nside, -nside):
+                for off in (11, 17):
+                    cands.append((t, sd, off))
+        for k, (t, sd, off) in enumerate(cands):
+            mx = A[0] + (B[0]-A[0])*t + (-uy)*off*sd
+            my = A[1] + (B[1]-A[1])*t + (ux)*off*sd
+            cost = k * 0.01
+            if not (10 < mx < VW - 10 and 10 < my < VH - 10): cost += 50
+            for (ox, oy, r) in self.obst:
+                d = math.hypot(mx - ox, my - oy)
+                if d < r + 8: cost += (r + 8 - d) * 3
+            for (ox, oy) in self.nums:
+                d = math.hypot(mx - ox, my - oy)
+                if d < 17: cost += (17 - d) * 3
+            for (lx, ly, hw, hh) in self.lbox:
+                dx = max(abs(mx - lx) - hw, 0); dy = max(abs(my - ly) - hh, 0)
+                d = math.hypot(dx, dy)
+                if d < 9: cost += (9 - d) * 3
+            if best is None or cost < best[0]: best = (cost, mx, my)
+            if cost < 0.2 and k == 0: break
+        return best[1], best[2]
+
     def arrow(self, a, b, kind='pass', n=None, s0=15, s1=15, nside=1, nt=.5):
         A, B, (ux, uy), L = self._ends(a, b, s0, s1)
         if kind == 'pass':
@@ -87,8 +115,8 @@ class D:
             pts.append(f'{B[0]:.1f},{B[1]:.1f}')
             self.add(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{COND}" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#ahO)"/>')
         if n is not None:
-            mx = A[0] + (B[0]-A[0])*nt + (-uy)*11*nside
-            my = A[1] + (B[1]-A[1])*nt + (ux)*11*nside
+            mx, my = self._place_num(A, B, ux, uy, nt, nside)
+            self.nums.append((mx, my))
             self.top.append(f'<g><circle cx="{mx:.1f}" cy="{my:.1f}" r="7.2" fill="{NAVY}" stroke="#fff" stroke-width="1.5"/><text x="{mx:.1f}" y="{my+3.4:.1f}" text-anchor="middle" font-family="Inter" font-weight="800" font-size="9.5" fill="#fff">{n}</text></g>')
 
     def svg(self, size_tag, code):
