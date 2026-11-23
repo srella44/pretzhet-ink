@@ -155,3 +155,4 @@ Separación automática de jugadores (2026-11-23): `_separa` en `motor/ficha_eng
 
 ## Objetivo final (2026-11-23, Sergio)
 - Banco cerrado en unas 3.250 fichas: la cola actual (3.302) menos los «IA» que se eliminen. Libro: 1.000. No se añaden más fuentes salvo petición expresa.
+- Cierre ajustado a unas 3.300 (Sergio): de los 140 candidatos que estaban fuera de la cola se rescatan 36 de calidad (12 RONDO, 9 Leicester, 6 Level Up, 3 IG, 2 JL, 2 Athletic, TFB100-064 y AMO-012) al final de la cola; los otros 104 (ruedas sin oposición, demo de resistencia, fichas solo gráficas, tácticas de adultos) pasan a `ejercicios_descartados/` y la app los oculta.
