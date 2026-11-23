@@ -1,0 +1,145 @@
+{
+ "id": "JL-0986",
+ "bloque": "Porteros",
+ "titulo": "Duelo de porteros 1 contra 1",
+ "formato": "PT v PT",
+ "edad": "9–13 años",
+ "nivel": "Fácil",
+ "jugadores": "2 jug. (parejas)",
+ "espacio": "30 × 16 m",
+ "duracion": "10 min",
+ "series": "4 partidos de 2 min con 1 min de descanso (propuesta). Con varias parejas, la ganadora sube de campo.",
+ "objetivo": "Trabajar a la vez el saque con la mano (precisión y potencia) y la parada: colocarse en el centro, posición básica antes de que el rival suelte el balón, blocar o desviar a un lado y sacar enseguida. Errores típicos: estar fuera de la portería cuando el rival saca, quedarse de pie con las piernas estiradas, desviar el balón hacia el centro. Observar: si el portero se recoloca antes de cada saque rival.",
+ "montaje": "Dos porterías de fútbol 7 a 30 m, con un portero y balones en cada una. Una línea de conos a 6 m de cada portería limita el saque.",
+ "juego": "Por turnos, cada portero saca con la mano (rodado, con bote o de béisbol) para marcar en la otra portería, sin pasar su línea de 6 m. El que defiende para y saca él. Si el balón sale, saca quien defendía.",
+ "punto": "Gol: 1 punto. Blocaje sin rechace: 1 punto (propuesta).",
+ "consigna": "Saca y vuelve al centro antes de que lance el rival.",
+ "variantes": {
+  "facil": "Porterías a 20 m y solo saque rodado.",
+  "dificil": "Saque solo con la mano menos hábil o de volea con el pie; porterías a 35 m; obligatorio blocar (el rechace cuenta como gol)."
+ },
+ "adaptacion": "Benjamín (8–9): 20 m y balón blando. Alevín (10–11): 25–30 m, rodado y bote. Infantil (12–13): todos los saques y con el pie.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos",
+  "titulo_original": "Juego técnico 1:1 | entrada 986",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · p. 210, juego 986"
+ },
+ "completado": "Distancia, línea de saque de 6 m, tipos de saque, puntuación y series (propuesta). La fuente solo dice: 1 contra 1, cada portero defiende una portería y sacan con la mano por turnos.",
+ "diagrama": {
+  "field": [
+   30,
+   16
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 31.6,
+   "ymin": -1,
+   "ymax": 17
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 8,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   },
+   {
+    "x": 30,
+    "y": 8,
+    "lado": "R",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     16
+    ]
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     16
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 4.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 28.4,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    0.8,
+    3.6
+   ],
+   [
+    29.2,
+    12.4
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     8
+    ],
+    "b": [
+     29.2,
+     10.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     28.4,
+     8
+    ],
+    "b": [
+     28.4,
+     10.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 2,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6.4,
+    15,
+    "LÍNEA DE SAQUE 6 m",
+    "start"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

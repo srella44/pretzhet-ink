@@ -1,0 +1,150 @@
+{
+ "id": "WEB-0383",
+ "bloque": "Porteros",
+ "titulo": "Arco de tiros",
+ "formato": "PT + 5",
+ "edad": "9–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–7 jug.",
+ "espacio": "24 × 16 m",
+ "duracion": "15 min",
+ "series": "3 rondas de 5 tiros por portero (una vuelta al arco) con 1 min de pausa; con 2 porteros se alternan cada vuelta (propuesta).",
+ "objetivo": "Colocarse bien para cada tiro: moverse por un arco imaginario entre los postes, siempre en la línea que une el balón con el centro de la portería, y estar parado en posición básica cuando el tirador golpea. Errores típicos: seguir moviéndose en el momento del tiro, quedarse en la línea de gol ante tiros lejanos, adelantarse en línea recta en lugar de ir por el arco. Observar: los apoyos (pasos cortos laterales) y si está quieto al golpeo.",
+ "montaje": "5 tiradores con balones en arco a 11 m: dos en las esquinas del área, dos en diagonal y uno en el centro. Portero en su portería.",
+ "juego": "Tiran en orden, de izquierda a derecha, cada 4 s. Antes de cada tiro el portero va por el arco hasta quedar frente al balón, a 1–2 m de la línea, y se para. El tirador espera y tira raso o a media altura.",
+ "punto": "Parada: 1 punto. Gol con el portero mal colocado: 0.",
+ "consigna": "Ve por el arco y para antes del golpeo.",
+ "variantes": {
+  "facil": "Tiros con la mano o con el pie a media fuerza y 6 s entre tiros.",
+  "dificil": "El entrenador canta el número del tirador sin orden fijo; tiros a 2 s; un tirador puede conducir dos metros antes de tirar."
+ },
+ "adaptacion": "Benjamín (9): arco a 8 m y tiros suaves. Alevín (10–11): 11 m. Infantil y cadete: 11–14 m, tiros fuertes y orden al azar.",
+ "fuente": {
+  "autor": "SoccerXpert",
+  "titulo_original": "Goalkeeper - Arc Drill 2",
+  "ref": "soccerxpert.com/drills/details/goalkeeper-arc-drill-2"
+ },
+ "completado": "La fuente solo da el título y la edad (9+): número de tiradores, distancias, tiempos, puntuación, series y variantes son propuesta.",
+ "diagrama": {
+  "field": [
+   24,
+   14
+  ],
+  "tag": "24 × 16 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 25,
+   "ymin": -1.6,
+   "ymax": 15
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 12,
+    "y": 1.3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 2.0,
+    "y": 4.6,
+    "f": [
+     12,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 9.5,
+    "f": [
+     12,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.0,
+    "y": 11.0,
+    "f": [
+     12,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 9.5,
+    "f": [
+     12,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22.0,
+    "y": 4.6,
+    "f": [
+     12,
+     0
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     1.3
+    ],
+    "b": [
+     14.8,
+     2.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     17.5,
+     9.5
+    ],
+    "b": [
+     14.4,
+     0.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    12,
+    13.6,
+    "ARCO A 11 m",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

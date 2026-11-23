@@ -1,0 +1,167 @@
+{
+ "id": "WEB-0387",
+ "bloque": "Porteros",
+ "titulo": "Cerrar el ángulo de tiro",
+ "formato": "PT + 3",
+ "edad": "9–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "24 × 18 m",
+ "duracion": "15 min",
+ "series": "3 series de 9 tiros (3 por fila) con 1 min de pausa. Con 2 porteros, cambio cada 3 tiros (propuesta).",
+ "objetivo": "Entender el ángulo de tiro: el portero se coloca en la línea imaginaria entre el balón y el centro de la portería y sale 1–2 m para reducir el hueco a los lados. Cómo explicarlo: tender dos cuerdas o líneas de conos desde los postes al balón y mostrar que, al salir, el portero tapa más portería. Errores típicos: quedarse en el centro de la portería cuando el tiro llega de un lado, salir demasiado y quedar expuesto a la vaselina, moverse en el golpeo. Observar: el primer paso hacia la bisectriz.",
+ "montaje": "Tres filas de tiradores con balones a 14 m: una en cada lateral del área y otra en el centro. Portero en su portería.",
+ "juego": "El entrenador señala una fila. Ese tirador conduce 2–3 m y tira. El portero, mientras el tirador conduce, se coloca en la línea entre el balón y el centro de la portería, sale 1–2 m y se para en posición básica. Luego, otra fila.",
+ "punto": "Parada: 1 punto. Gol por el palo corto: 1 punto menos.",
+ "consigna": "Balón y centro de la portería: ponte en esa línea.",
+ "variantes": {
+  "facil": "Sin conducción: tiro desde parado y el portero tiene 3 s para colocarse.",
+  "dificil": "Las tres filas conducen a la vez y el entrenador grita quién tira en el último momento; tiros desde 18 m."
+ },
+ "adaptacion": "Benjamín (9): filas a 10 m y tiros con la mano. Alevín (10–11): 12 m. Infantil y cadete: 14–18 m, tiros fuertes y con señal tardía.",
+ "fuente": {
+  "autor": "SoccerXpert",
+  "titulo_original": "Goalkeeper - Shooting Angle",
+  "ref": "soccerxpert.com/drills/details/goalkeeper-shooting-angle"
+ },
+ "completado": "La fuente solo da el título y la edad (9+): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros.",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 25,
+   "ymin": -1.6,
+   "ymax": 19
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      9,
+      0
+     ],
+     [
+      15,
+      0
+     ],
+     [
+      19.5,
+      11
+     ]
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 12,
+    "y": 1.3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 14,
+    "f": [
+     12,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 15.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 14,
+    "f": [
+     12,
+     0
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     1.3
+    ],
+    "b": [
+     14.2,
+     3.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     20.5,
+     14
+    ],
+    "b": [
+     19.5,
+     11
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     19.5,
+     11
+    ],
+    "b": [
+     15.2,
+     1.0
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    17.8,
+    5.4,
+    "ÁNGULO",
+    "start"
+   ],
+   [
+    12,
+    17.8,
+    "FILAS A 14 m",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

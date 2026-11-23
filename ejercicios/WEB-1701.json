@@ -1,0 +1,126 @@
+{
+ "id": "WEB-1701",
+ "bloque": "Porteros",
+ "titulo": "Blocaje alto con manos en W",
+ "formato": "PT + 2",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "2–4 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "10 min",
+ "series": "3 fases (sentado, de rodillas y de pie) de 10 balones, y una cuarta con salto para los mayores; 1 min de descanso (propuesta).",
+ "objetivo": "Blocar balones por encima del pecho con las manos en «W»: pulgares casi tocándose por detrás del balón, dedos abiertos, brazos un poco flexionados y codos por delante, atrapando el balón delante de la cara (se ve el balón entre las manos) y llevándolo al pecho. Errores típicos: manos separadas (el balón pasa entre ellas), blocar junto a la cara o por detrás de la cabeza, cerrar los ojos. Observar: el sonido (blocaje limpio, sin rebote).",
+ "montaje": "Portero en su portería. Dos servidores a 6 m, separados 4 m, con balones en la mano. Los demás porteros esperan detrás.",
+ "juego": "Los servidores lanzan por turnos, con la mano, balones a la altura de la cara o por encima. El portero se coloca frente a cada uno, bloca en W y devuelve. Progresión: sentado, de rodillas, de pie y, al final, saltando.",
+ "punto": "Blocaje sin rebote: 1 punto.",
+ "consigna": "Manos en W, balón delante de los ojos y al pecho.",
+ "variantes": {
+  "facil": "Balón blando o más ligero y lanzamientos al pecho.",
+  "dificil": "Balones de volea con el pie; el servidor lanza alto y el portero sube con salto a una pierna y rodilla arriba."
+ },
+ "adaptacion": "Benjamín (8–9): sentado y de rodillas con balón blando. Alevín (10–11): las tres fases. Infantil (12–13): añadir salto y volea con el pie.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "GK Technique - Overhand Catching #1",
+  "ref": "soccerdrive.com/soccer-drills/gk-technique-overhand-catching-1"
+ },
+ "completado": "La fuente solo da el título (ejercicio de SoccerDrive): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros. Edad propuesta.",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 13,
+   "ymin": -1.6,
+   "ymax": 11.2
+  },
+  "porterias": [
+   {
+    "x": 6,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 6,
+    "y": 1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 7.6,
+    "f": [
+     6,
+     1.6
+    ],
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 7.6,
+    "f": [
+     6,
+     1.6
+    ],
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 11,
+    "y": 8.6,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     7.6
+    ],
+    "b": [
+     5.6,
+     2.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     7.6
+    ],
+    "b": [
+     6.4,
+     2.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6,
+    9.9,
+    "SERVIDORES A 6 m",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

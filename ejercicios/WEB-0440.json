@@ -1,0 +1,186 @@
+{
+ "id": "WEB-0440",
+ "bloque": "Porteros",
+ "titulo": "Olla a presión",
+ "formato": "PT + 7",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 18 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 45 s por portero (7–10 tiros) con 2 min de descanso; si hay 2–3 porteros, rotan cada ronda (propuesta).",
+ "objetivo": "Reaccionar y recolocarse muy rápido ante tiros seguidos desde ángulos distintos: levantarse, ponerse frente al nuevo balón y estar en posición básica antes de cada golpeo. Exige concentración y resistencia. Errores típicos: mirar dónde fue el balón anterior, quedarse en el suelo, colocarse mientras el tirador ya golpea. Cuidar la carga: es intenso, no más de 45 s seguidos.",
+ "montaje": "7 tiradores con balón en semicírculo, a 14 m de la portería y separados unos 5 m. Portero en su portería y el entrenador con un silbato.",
+ "juego": "Al pitido tira el primero de la izquierda; cuando el portero vuelve a estar de pie y colocado, tira el siguiente. Se recorre el arco y vuelve. 45 s seguidos. Tiros rasos y a media altura; nada a la cabeza.",
+ "punto": "Paradas en 45 s; gana el portero que más sume.",
+ "consigna": "Arriba, mira el balón nuevo y colócate.",
+ "variantes": {
+  "facil": "Tiros con la mano y 4 s entre tiros; 5 tiradores.",
+  "dificil": "Orden al azar (el entrenador canta el número); se permite rematar el rechace; 60 s."
+ },
+ "adaptacion": "Alevín (10–11): 30 s, tiradores a 11 m y tiros con la mano. Infantil (12–13): 45 s con el pie. Cadete (14–15): 60 s y orden al azar.",
+ "fuente": {
+  "autor": "SoccerXpert",
+  "titulo_original": "Goalkeeper Pressure Cooker Drill",
+  "ref": "soccerxpert.com/drills/details/id1246"
+ },
+ "completado": "La fuente solo da el título, la edad (9+) y 8+ jugadores: montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros.",
+ "diagrama": {
+  "field": [
+   30,
+   16
+  ],
+  "tag": "30 × 18 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1.6,
+   "ymax": 17
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 15,
+    "y": 1.3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3.6,
+    "f": [
+     15,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.3,
+    "y": 9.0,
+    "f": [
+     15,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.1,
+    "y": 12.7,
+    "f": [
+     15,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.0,
+    "y": 14.0,
+    "f": [
+     15,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20.9,
+    "y": 12.7,
+    "f": [
+     15,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25.7,
+    "y": 9.0,
+    "f": [
+     15,
+     0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 28.5,
+    "y": 3.6,
+    "f": [
+     15,
+     0
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     3.6
+    ],
+    "b": [
+     13.2,
+     0.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     1.3
+    ],
+    "b": [
+     13.6,
+     2.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     4.3,
+     9.0
+    ],
+    "b": [
+     16.8,
+     0.9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3,
+    "nt": 0.4
+   }
+  ],
+  "labels": [
+   [
+    15,
+    15.6,
+    "TIRO CUANDO ESTÁ COLOCADO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

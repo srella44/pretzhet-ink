@@ -1,0 +1,152 @@
+{
+ "id": "WEB-1695",
+ "bloque": "Porteros",
+ "titulo": "Colocación ante balón móvil",
+ "formato": "PT + E",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "1–3 jug.",
+ "espacio": "24 × 18 m",
+ "duracion": "12 min",
+ "series": "4 series de 4 tiros con 1 min de pausa (propuesta).",
+ "objetivo": "Ajustar la posición con pasos cortos mientras el balón se mueve: el portero sigue al balón por un arco de discos, siempre en la línea balón–centro de la portería, y en cuanto el atacante toca el balón para tirar se para en posición básica (pequeño salto de ajuste o «split step»). Errores típicos: dar zancadas largas, cruzar las piernas, quedarse atrás en la línea de gol, moverse durante el tiro. Observar: el número de apoyos (muchos y cortos) y el momento de pararse.",
+ "montaje": "5 discos en arco a 2 m de la línea de gol, de poste a poste. Portero en el disco central. El entrenador, con balón a 16 m.",
+ "juego": "El entrenador conduce despacio de lado a lado. El portero se mueve con pasos cortos por los discos, siempre frente al balón. Cuando el entrenador prepara el golpeo, se para en posición básica y le tiran.",
+ "punto": "Parada: 1 punto. En movimiento al tiro: 0.",
+ "consigna": "Pasos cortos, frente al balón y quieto al golpeo.",
+ "variantes": {
+  "facil": "El entrenador se para en 3 puntos fijos antes de tirar.",
+  "dificil": "El entrenador puede tirar en cualquier momento de la conducción; un jugador conduce y tira a 14 m."
+ },
+ "adaptacion": "Alevín (10–11): frontal a 12 m y tiro suave. Infantil (12–13): 16 m. Cadete (14–15): conducción rápida y tiro en cualquier momento.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "GK Positioning, Footwork, Technique #1",
+  "ref": "soccerdrive.com/soccer-drills/gk-positioning-footwork-technique-1"
+ },
+ "completado": "La fuente solo da el título (ejercicio de SoccerDrive, para socios): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros. Edad propuesta.",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 25,
+   "ymin": -1.6,
+   "ymax": 19
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "discs": [
+   [
+    9,
+    1.2
+   ],
+   [
+    10.3,
+    2.3
+   ],
+   [
+    12,
+    2.7
+   ],
+   [
+    13.7,
+    2.3
+   ],
+   [
+    15,
+    1.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 12,
+    "y": 3.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 16,
+    "f": [
+     12,
+     0
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     16
+    ],
+    "b": [
+     17,
+     16
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     3.4
+    ],
+    "b": [
+     14.3,
+     3.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     16
+    ],
+    "b": [
+     13.6,
+     0.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12,
+    17.8,
+    "CONDUCE A 16 m",
+    "middle"
+   ],
+   [
+    8.2,
+    1.4,
+    "DISCOS",
+    "end"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

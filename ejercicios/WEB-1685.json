@@ -1,0 +1,153 @@
+{
+ "id": "WEB-1685",
+ "bloque": "Porteros",
+ "titulo": "Activación sin balón",
+ "formato": "PT",
+ "edad": "8–18 años",
+ "nivel": "Fácil",
+ "jugadores": "1–4 jug.",
+ "espacio": "15 × 6 m",
+ "duracion": "8 min",
+ "series": "8 ejercicios × 1 ida (15 m) + vuelta trotando; unos 8 min en total (propuesta).",
+ "objetivo": "Preparar al portero para la sesión sin balón: movilidad de cadera y tobillos, desplazamientos propios del puesto y primeras caídas suaves. Orden propuesto: 1) skipping, 2) talones al glúteo, 3) laterales sin cruzar, 4) paso cruzado, 5) abrir y cerrar cadera, 6) zancada con giro, 7) cada 5 m, caer de lado y levantarse, 8) sprint de 5 m desde posición básica. Errores típicos: hacerlo deprisa y mal, cruzar los pies en los laterales, caer sobre el codo.",
+ "montaje": "Dos calles de 15 m marcadas con conos cada 5 m y separadas 3 m. Un portero al inicio de cada calle.",
+ "juego": "Cada portero hace la ida de la calle con un movimiento (skipping, talones, laterales, paso cruzado, cadera, zancada, caída lateral cada 5 m y sprint corto) y vuelve trotando. A la vuelta, cambia de ejercicio.",
+ "punto": "Sin puntos: es activación (propuesta).",
+ "consigna": "Bien hecho antes que rápido; pies sin cruzar.",
+ "variantes": {
+  "facil": "Calles de 10 m y solo 5 ejercicios sin caídas.",
+  "dificil": "Al final de cada ida, el entrenador lanza un balón para blocar; añadir saltos laterales sobre conos bajos."
+ },
+ "adaptacion": "Prebenjamín y benjamín: juego de imitar al entrenador, 10 m y sin caídas. Alevín e infantil: los 8 ejercicios. Cadete y juvenil: añadir saltos y caídas a los dos lados.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "GK Dynamic Warmup w/o Ball",
+  "ref": "soccerdrive.com/soccer-drills/gk-dynamic-warmup-wo-ball"
+ },
+ "completado": "La fuente solo da el título (ejercicio para socios): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros. Edad y lista de ejercicios propuestas.",
+ "diagrama": {
+  "field": [
+   16,
+   8
+  ],
+  "tag": "15 × 6 m",
+  "nofield": true,
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 17,
+   "ymin": -1,
+   "ymax": 9
+  },
+  "cones": [
+   [
+    0.5,
+    1.5
+   ],
+   [
+    5.5,
+    1.5
+   ],
+   [
+    10.5,
+    1.5
+   ],
+   [
+    15.5,
+    1.5
+   ],
+   [
+    0.5,
+    5.5
+   ],
+   [
+    5.5,
+    5.5
+   ],
+   [
+    10.5,
+    5.5
+   ],
+   [
+    15.5,
+    5.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": -0.6,
+    "y": 2.6,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": -0.6,
+    "y": 6.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.6,
+     2.6
+    ],
+    "b": [
+     15,
+     2.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     3.8
+    ],
+    "b": [
+     0.6,
+     3.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     0.6,
+     6.6
+    ],
+    "b": [
+     15,
+     6.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 12,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    8,
+    0.5,
+    "IDA: MOVIMIENTO · VUELTA: TROTE",
+    "middle"
+   ],
+   [
+    8,
+    8.4,
+    "CONOS CADA 5 m",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,154 @@
+{
+ "id": "JL-1019",
+ "bloque": "Porteros",
+ "titulo": "Porteros 2 contra 2 con red",
+ "formato": "2 PT v 2 PT",
+ "edad": "9–13 años",
+ "nivel": "Normal",
+ "jugadores": "4 jug.",
+ "espacio": "30 × 16 m",
+ "duracion": "12 min",
+ "series": "3 partidos de 3 min con 1 min de pausa (propuesta). Tras cada partido se cambian las parejas.",
+ "objetivo": "Saque con la mano o el pie preciso por encima de un obstáculo, y parada en pareja: uno se queda bajo palos y el otro tapa delante, hablando entre ellos. Errores típicos: los dos porteros se van al mismo balón, nadie se queda en la portería, saques que no superan la red. Observar: la comunicación («mía», «tuya») y la colocación de la pareja.",
+ "montaje": "Dos porterías a 30 m y una red o cuerda a 1,5 m de altura en el centro. En cada mitad, 2 porteros: uno bajo palos y otro 5 m delante.",
+ "juego": "Cada pareja saca con la mano o el pie por encima de la red para marcar en la portería rival. Nadie cruza la red. Quien bloca puede pasar a su compañero antes de sacar. Si no supera la red, balón rival.",
+ "punto": "Gol: 1 punto. Saque que no pasa la red: punto rival.",
+ "consigna": "Hablad: uno tapa delante, el otro bajo palos.",
+ "variantes": {
+  "facil": "Sin red: una línea de conos en el centro y solo saques con la mano.",
+  "dificil": "Solo saque con el pie (volea o media volea) y máximo 3 s para sacar tras blocar."
+ },
+ "adaptacion": "Benjamín (8–9): red baja (1 m) y 20 m entre porterías. Alevín (10–11): como está. Infantil (12–13): 35 m y saques con el pie.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos",
+  "titulo_original": "Juego técnico 2:2 | entrada 1019",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · p. 218, juego 1019"
+ },
+ "completado": "Altura de la red, colocación de la pareja, pase al compañero, puntuación y series (propuesta). El texto de la fuente llega cortado: «2:2, cada equipo una portería normal, campo dividido en dos zonas con una red, los porteros realizan saques…».",
+ "diagrama": {
+  "field": [
+   30,
+   16
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 31.6,
+   "ymin": -1,
+   "ymax": 17.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 8,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   },
+   {
+    "x": 30,
+    "y": 8,
+    "lado": "R",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     16
+    ],
+    "3 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.4,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 6.5,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 28.6,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "G",
+    "x": 23.5,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.4,
+     8
+    ],
+    "b": [
+     6.5,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     6.5,
+     11
+    ],
+    "b": [
+     29.3,
+     6.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2,
+    "nt": 0.45
+   },
+   {
+    "a": [
+     28.6,
+     8
+    ],
+    "b": [
+     28.6,
+     5.9
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 2,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    15,
+    17,
+    "RED 1,5 m",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

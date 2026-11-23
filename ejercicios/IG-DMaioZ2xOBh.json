@@ -1,0 +1,206 @@
+{
+ "id": "IG-DMaioZ2xOBh",
+ "bloque": "Porteros",
+ "titulo": "Conservar con el portero",
+ "formato": "3+PT v 1 → 4v3",
+ "edad": "11–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–10 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de pausa (propuesta). El defensor del área cambia tras cada serie; los del centro rotan con los del área cada 2 series.",
+ "objetivo": "Que el portero juegue con los pies como un jugador más: ofrecerse, perfilarse, pasar al compañero libre y, al perder el balón, volver a su sitio para defender el contraataque. Errores típicos: el portero se queda pegado a la línea, recibe de frente sin perfilarse y tarda en volver a la portería cuando roban. Observar: si ofrece línea de pase en cada momento y si habla a sus compañeros.",
+ "montaje": "Área de 16 × 30 m con portería. Dentro, el portero, 3 amarillos y 1 defensor azul. A 8 m del área esperan 3 azules.",
+ "juego": "Amarillos y portero conservan ante el defensor. Si el defensor roba, pasa a uno de sus 3 compañeros y los 4 atacan la portería contra los 3 amarillos y el portero (4 contra 3 + PT). Luego reinicia el portero.",
+ "punto": "10 pases amarillos: 1 punto. Gol azul en el 4 contra 3: 2 puntos.",
+ "consigna": "Portero, ofrécete siempre; si roban, a la portería.",
+ "variantes": {
+  "facil": "Defensor que solo puede interceptar (sin entrada) y 8 pases para puntuar.",
+  "dificil": "Dos defensores en el área; el portero solo puede dar dos toques; los azules tienen 8 s para chutar."
+ },
+ "adaptacion": "Alevín (10–11): área más ancha (35 m) y 8 pases. Infantil (12–13): como está. Cadete: dos defensores y límite de toques.",
+ "fuente": {
+  "autor": "@edf.futebol (Instagram)",
+  "titulo_original": "El portero conserva en el área y protege la vuelta",
+  "ref": "Reel DMaioZ2xOBh"
+ },
+ "completado": "Medidas, número de pases de los azules, tiempos, series y puntuación del contraataque (propuesta). La fuente es una descripción breve del reel.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "tag": "30 × 25 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1.6,
+   "ymax": 25
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     7,
+     0
+    ],
+    [
+     7,
+     10
+    ]
+   ],
+   [
+    [
+     7,
+     10
+    ],
+    [
+     23,
+     10
+    ]
+   ],
+   [
+    [
+     23,
+     10
+    ],
+    [
+     23,
+     0
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 15,
+    "y": 1.3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 4.5,
+    "f": [
+     15,
+     1.3
+    ]
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 4.5,
+    "f": [
+     15,
+     1.3
+    ]
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8.3,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 12.6,
+    "y": 6.2,
+    "f": [
+     9.5,
+     4.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 18,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     1.3
+    ],
+    "b": [
+     9.5,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     4.5
+    ],
+    "b": [
+     15,
+     8.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     12.6,
+     6.2
+    ],
+    "b": [
+     8,
+     18
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    15,
+    11.6,
+    "ÁREA: PORTERO + 3 CONTRA 1",
+    "middle"
+   ],
+   [
+    15,
+    23.4,
+    "ESPERAN 3 AZULES",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,195 @@
+{
+ "id": "IG-Dfx4nODKEOJ",
+ "bloque": "Porteros",
+ "titulo": "Reiniciar con el portero",
+ "formato": "PT+3 v 2 + 2E",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "36 × 24 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de pausa (propuesta). Los delanteros cambian cada serie; el portero no rota.",
+ "objetivo": "Que el portero sea el jugador libre de la salida: ofrecer el pase atrás con buen perfil, controlar orientado hacia el lado contrario y cambiar el juego al central libre. Errores típicos: el portero se queda en la línea sin ángulo de pase, controla hacia el delantero o mira solo un lado. Observar: el perfil (cadera abierta) antes de recibir y el primer control.",
+ "montaje": "Campo de 36 × 24 m. Portero, 2 centrales abiertos a 7 m y un medio a 12 m, contra 2 delanteros. Línea a 16 m y un extremo por banda.",
+ "juego": "Sale el portero. Si un delantero salta al central, el portero se ofrece, recibe y cambia al central libre. Puntúa cruzar la línea conduciendo o pasar a un extremo. Si roban, 5 s para chutar.",
+ "punto": "Salida o pase al extremo: 1 punto. Gol azul tras robo: 1 punto.",
+ "consigna": "Si saltan al central, el portero cambia el juego.",
+ "variantes": {
+  "facil": "Solo un delantero presiona y el otro espera en la línea.",
+  "dificil": "3 delanteros; el portero juega a dos toques; el medio solo puede recibir de cara."
+ },
+ "adaptacion": "Alevín (10–11): campo de 30 × 20 m y un delantero. Infantil (12–13): 2 delanteros. Cadete: 3 delanteros y portero a dos toques.",
+ "fuente": {
+  "autor": "@klube.ai (Instagram)",
+  "titulo_original": "Reiniciar con el portero y salir por el otro lado",
+  "ref": "Reel Dfx4nODKEOJ"
+ },
+ "completado": "Medidas, posición del medio y de los extremos, series y valor de los puntos (propuesta).",
+ "diagrama": {
+  "field": [
+   36,
+   24
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 37,
+   "ymin": -1.6,
+   "ymax": 25
+  },
+  "porterias": [
+   {
+    "x": 18,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     16
+    ],
+    [
+     36,
+     16
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 18,
+    "y": 1.3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 7,
+    "f": [
+     18,
+     1.3
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 7,
+    "f": [
+     18,
+     1.3
+    ]
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 12,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 8.5,
+    "f": [
+     6,
+     7
+    ]
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 9,
+    "f": [
+     18,
+     1.3
+    ]
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 20,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     7
+    ],
+    "b": [
+     18,
+     1.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     18,
+     1.3
+    ],
+    "b": [
+     30,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     30,
+     7
+    ],
+    "b": [
+     31,
+     14.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    18,
+    17.6,
+    "LÍNEA DE SALIDA",
+    "middle"
+   ],
+   [
+    3,
+    23.4,
+    "EXTREMO",
+    "middle"
+   ],
+   [
+    33,
+    23.4,
+    "EXTREMO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

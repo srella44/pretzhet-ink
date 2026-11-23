@@ -1,0 +1,145 @@
+{
+ "id": "TFB100-072",
+ "bloque": "Porteros",
+ "titulo": "Blocaje raso con paso lateral",
+ "formato": "PT + E",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "1–4 jug.",
+ "espacio": "12 × 16 m",
+ "duracion": "10 min",
+ "series": "3 series de 10 balones (5 por lado) con 1 min de descanso. Con varios porteros, turnos de 6–8 balones y el que espera recoge.",
+ "objetivo": "Aprender la posición básica (pies a la anchura de los hombros, rodillas flexionadas, peso delante y manos preparadas) y blocar balones rasos tras un desplazamiento lateral. Cómo explicarlo: «primero los pies, luego las manos». Errores típicos: esperar con las piernas estiradas, cruzar las piernas al desplazarse, poner solo las manos sin el cuerpo detrás y soltar el balón tras blocar.",
+ "montaje": "Portero en el centro de la portería, en posición básica, con 2 conos a 1 m por delante de cada poste. Entrenador a 8 m con balones.",
+ "juego": "El entrenador pasa raso hacia un cono. El portero da pasos laterales sin cruzar las piernas, se pone detrás del balón y lo bloca al pecho. Lo devuelve y vuelve al centro; el siguiente, al otro lado.",
+ "punto": "Blocaje al pecho sin soltar ni cruzar piernas: 1 punto.",
+ "consigna": "Pasos laterales, detrás del balón y al pecho.",
+ "variantes": {
+  "facil": "Balones más lentos y siempre al mismo lado durante la primera serie.",
+  "dificil": "Pases más fuertes y más alejados del portero, alternando lados sin avisar."
+ },
+ "adaptacion": "Prebenjamín (6–7): pases suaves desde 6 m. Benjamín (8–9): desde 8 m. Alevín (10–11): pases más fuertes y alternando lados sin pausa.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Portero: blocaje de balones rasos con desplazamiento lateral",
+  "ref": "100 tareas de fútbol base · pág. 90"
+ },
+ "completado": "Edad de la ficha original (prebenjamín a alevín). Puntuación y distancia de los conos al poste (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "tag": "12 × 16 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 13,
+   "ymin": -1.6,
+   "ymax": 11
+  },
+  "porterias": [
+   {
+    "x": 6,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    3.6,
+    1.6
+   ],
+   [
+    8.4,
+    1.6
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 6,
+    "y": 1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 8.8,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 11,
+    "y": 2.4,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     8.8
+    ],
+    "b": [
+     3.9,
+     2.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     1.4
+    ],
+    "b": [
+     4.1,
+     1.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     6,
+     8.8
+    ],
+    "b": [
+     8.1,
+     2.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6.6,
+    6.2,
+    "8 m",
+    "start"
+   ],
+   [
+    6,
+    10.6,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

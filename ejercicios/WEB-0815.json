@@ -1,0 +1,208 @@
+{
+ "id": "WEB-0815",
+ "bloque": "Porteros",
+ "titulo": "Distribución corta y larga",
+ "formato": "PT + 3",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–6 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 9 saques (3 de cada tipo) con 1 min de pausa. Los receptores cambian de zona cada serie (propuesta).",
+ "objetivo": "Elegir y ejecutar el saque adecuado según la distancia: con la mano rodado (corto), de béisbol o por arriba (medio) y con el pie, de volea o desde el suelo (largo). El balón debe llegar fácil de controlar. Errores típicos: saque rodado que bota, brazo doblado en el saque largo, volea sin mirar al receptor. Observar: que mire antes de sacar y que saque en menos de 4 s.",
+ "montaje": "Portero con balones en su área. 3 cuadrados de 5 × 5 m con un receptor: lateral a 15 m, medio a 25 m y punta a 35 m.",
+ "juego": "El entrenador canta una zona y el portero saca: rodado con la mano al lateral, de béisbol al medio y con el pie a la punta. El receptor controla sin salir del cuadrado y devuelve el balón con el pie.",
+ "punto": "Saque dentro: 1 punto. Controlado sin moverse: 2.",
+ "consigna": "Cerca con la mano, lejos con el pie.",
+ "variantes": {
+  "facil": "Cuadrados de 8 × 8 m y solo saques con la mano.",
+  "dificil": "Un defensor tapa a un receptor y el portero elige el libre; el receptor se mueve dentro de su cuadrado; 3 s para sacar."
+ },
+ "adaptacion": "Alevín (10–11): 10, 18 y 25 m. Infantil (12–13): 15, 25 y 35 m. Cadete (14–15): 20, 30 y 45 m y saque con el pie en carrera.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "Goalkeeper Distribution",
+  "ref": "soccerdrive.com/soccer-drills/goalkeeper-distribution-0"
+ },
+ "completado": "La fuente solo da el título (ejercicio para socios): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros. Edad propuesta. Se diferencia de TFB100-075 por incluir los saques con el pie a larga distancia.",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "tag": "40 × 30 m",
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 25
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     4
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   [
+    [
+     6,
+     4
+    ],
+    [
+     6,
+     20
+    ]
+   ],
+   [
+    [
+     6,
+     20
+    ],
+    [
+     0,
+     20
+    ]
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     12.5,
+     18,
+     17.5,
+     23
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     22.5,
+     3,
+     27.5,
+     8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     32.5,
+     12,
+     37.5,
+     17
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2.4,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 20.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 14.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     12
+    ],
+    "b": [
+     15,
+     20.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     2.4,
+     12
+    ],
+    "b": [
+     25,
+     5.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     2.4,
+     12
+    ],
+    "b": [
+     35,
+     14.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3,
+    "nt": 0.6
+   }
+  ],
+  "labels": [
+   [
+    15,
+    16.6,
+    "15 m · MANO",
+    "middle"
+   ],
+   [
+    25,
+    10.2,
+    "25 m · BÉISBOL",
+    "middle"
+   ],
+   [
+    35,
+    19.2,
+    "35 m · PIE",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

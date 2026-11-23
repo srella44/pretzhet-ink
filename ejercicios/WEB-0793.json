@@ -1,0 +1,168 @@
+{
+ "id": "WEB-0793",
+ "bloque": "Porteros",
+ "titulo": "Encuentra al portero",
+ "formato": "4v4 + 2PT",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "15 min",
+ "series": "3 partidos de 4 min con 1 min de pausa; los porteros cambian de zona en cada partido (propuesta).",
+ "objetivo": "Para los porteros: moverse para ofrecerse, blocar pases y centros de distintas alturas y sacar rápido con la mano para empezar el ataque. Para los jugadores: levantar la cabeza y buscar al portero libre. Errores típicos del portero: quedarse quieto en el centro, no pedir el balón con la voz, soltar el balón al blocar y sacar tarde. Observar: si habla y se mueve hacia el lado del balón.",
+ "montaje": "Campo de 30 × 24 m con una zona de 4 m en cada fondo. Dos equipos de 4; el portero de cada uno está en la zona del fondo rival.",
+ "juego": "Cada equipo intenta pasar a su portero, que se mueve libre por su zona; nadie más entra. Si el portero bloca sin que caiga, es punto y saca con la mano a un compañero para atacar al otro lado.",
+ "punto": "Blocaje del portero: 1 punto. Si se le cae: 0.",
+ "consigna": "Portero, muévete y pide el balón.",
+ "variantes": {
+  "facil": "Pases solo rasos y zona de 6 m.",
+  "dificil": "Solo valen pases por el aire; un defensor puede entrar en la zona para disputar el balón al portero."
+ },
+ "adaptacion": "Benjamín (8–9): 3 contra 3 en 25 × 20 m y pases con la mano. Alevín (10–11): 4 contra 4 con pases rasos o al aire. Infantil (12–13): solo centros y un defensor en zona.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "Find the Keeper",
+  "ref": "soccerdrive.com/soccer-drills/find-keeper"
+ },
+ "completado": "La fuente solo da el título (ejercicio de SoccerDrive, para socios): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros. Edad propuesta.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 25
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     30,
+     4
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     20,
+     30,
+     24
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 13,
+    "y": 2,
+    "f": 90
+   },
+   {
+    "r": "G",
+    "x": 17,
+    "y": 22,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 9,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     11
+    ],
+    "b": [
+     8,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     2
+    ],
+    "b": [
+     9.5,
+     2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     9
+    ],
+    "b": [
+     9.5,
+     2.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    1,
+    22.6,
+    "ZONA DEL PORTERO",
+    "start"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

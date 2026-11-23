@@ -1,0 +1,134 @@
+{
+ "id": "WEB-1704",
+ "bloque": "Porteros",
+ "titulo": "Posición inicial y fuerza",
+ "formato": "PT + E",
+ "edad": "11–15 años",
+ "nivel": "Normal",
+ "jugadores": "1–3 jug.",
+ "espacio": "16 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 5 repeticiones con 1 min 30 s de descanso (propuesta).",
+ "objetivo": "Asentar la posición inicial (pies a la anchura de los hombros, rodillas flexionadas, peso en la parte delantera del pie, tronco un poco adelantado, manos delante a la altura de la cintura) y mantenerla tras un esfuerzo de fuerza explosiva. Errores típicos: llegar con el peso en los talones, manos abajo o detrás del cuerpo, piernas estiradas tras los saltos. Observar: que el entrenador pueda «empujar» suave sin desequilibrarlo.",
+ "montaje": "3 conos bajos en línea, a 1 m entre sí, a 3 m de la línea de gol. Portero junto al primero. El entrenador, a 9 m, con balones.",
+ "juego": "El portero da 3 saltos laterales a dos pies sobre los conos, cae en posición inicial frente al entrenador y aguanta 1 s quieto. El entrenador tira al cuerpo o a un lado, a media altura; el portero bloca. Vuelve y repite al otro lado.",
+ "punto": "Posición correcta al tiro y blocaje: 1 punto.",
+ "consigna": "Peso delante, rodillas flexionadas y manos listas.",
+ "variantes": {
+  "facil": "Sin saltos: el entrenador da un toque suave en el hombro y el portero mantiene la posición antes del tiro.",
+  "dificil": "Saltos a una pierna o con vallas; tiro a la altura de la cadera, el más difícil de blocar."
+ },
+ "adaptacion": "Alevín (11): saltos sobre líneas en el suelo y lanzamientos con la mano. Infantil (12–13): conos bajos. Cadete (14–15): vallas de 30 cm y tiro fuerte.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "GK Starting position, strength, technique",
+  "ref": "soccerdrive.com/soccer-drills/gk-starting-position-strength-technique"
+ },
+ "completado": "La fuente solo da el título (ejercicio de SoccerDrive): montaje, distancias, reglas, puntuación, series y variantes son propuesta, desarrolladas como tarea de porteros. Edad propuesta.",
+ "diagrama": {
+  "field": [
+   14,
+   10
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 15,
+   "ymin": -1.6,
+   "ymax": 11.2
+  },
+  "porterias": [
+   {
+    "x": 7,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    4.6,
+    3.6
+   ],
+   [
+    6.6,
+    3.6
+   ],
+   [
+    8.6,
+    3.6
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2.4,
+    "y": 3.6,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 8.6,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 10.8,
+    "y": 3.6,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     3.6
+    ],
+    "b": [
+     10.8,
+     3.6
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 14
+   },
+   {
+    "a": [
+     7,
+     8.6
+    ],
+    "b": [
+     10.6,
+     4.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    6.6,
+    5.4,
+    "3 SALTOS",
+    "middle"
+   ],
+   [
+    7,
+    10.5,
+    "ENTRENADOR 9 m",
+    "middle"
+   ]
+  ],
+  "tag": "16 × 12 m"
+ },
+ "top": "",
+ "probado": false
+}
