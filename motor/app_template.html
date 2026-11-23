@@ -533,11 +533,15 @@ const GT = [
   ['Balón parado', [9], ['corner','falta','saque']],
   ['Porteros', [10], ['portero','blocaje','despeje']]
 ];
-const gs = { t: new Set(), age: 3, n: 14, gk: 1, min: 75, kw: '', seed: 1 };
+// Duración habitual por categoría (Sergio): prebenjamín y benjamín 60 min; de alevín en adelante 90 min
+const MIN_AGE = i => i <= 1 ? 60 : 90;
+const gs = { t: new Set(), age: 3, lvl: 1, n: 14, gk: 1, min: 90, kw: '', seed: 1 };
 let gplan = [], gpool = {};
 function rnd(i) { const x = Math.sin(i * 9301 + gs.seed * 49297) * 233280; return x - Math.floor(x); }
 function minOf(r) { const m = /(\d+)\s*min/.exec((r.x && r.x.dur) || ''); return m ? +m[1] : 0; }
-function fitsAge(r) { if (!r.a) return true; const g = AGES[gs.age]; return r.a[0] <= g[2] && r.a[1] >= g[1]; }
+// La edad orienta pero no manda: cuenta más el nivel del grupo. Solo se descartan ejercicios muy alejados (más de 4 años).
+function ageGap(r) { if (!r.a) return 0; const g = AGES[gs.age]; return r.a[0] > g[2] ? r.a[0] - g[2] : r.a[1] < g[1] ? g[1] - r.a[1] : 0; }
+function fitsAge(r) { return ageGap(r) <= 4; }
 function fitsPl(r) { return !r.p || r.p[0] <= gs.n + gs.gk; }
 function needsGk(r) { return /\bPT\b|portero/i.test((r.f || '') + ' ' + (r.x && r.x.mont || '') + ' ' + r.t); }
 function gscore(r, blocks, words, idx) {
@@ -546,6 +550,8 @@ function gscore(r, blocks, words, idx) {
   if (words.length) { const t = r._t + ' ' + r._m + ' ' + r._d; let hit = 0; words.forEach(w => { if (t.includes(w)) hit++; }); s += hit * 18; }
   if (r.p && gs.n > r.p[1] * 2.2) s -= 15;          // muy pocos jugadores por grupo: habría que montar 3 o más grupos
   if (!gs.gk && needsGk(r)) s -= 60;
+  const dl = Math.abs(Math.max(0, LV.indexOf(r.n)) - gs.lvl); s += [35, 10, -25, -60][dl];
+  s -= [0, 12, 28, 45, 70][ageGap(r)];
   return s + rnd(idx) * 30;
 }
 function candidates(phase) {
@@ -573,7 +579,7 @@ function swap(i) {
   renderPlan();
 }
 function whyTxt(r) {
-  const w = [B[r.b].n, ageTxt(r)];
+  const w = [B[r.b].n, 'nivel ' + fold(r.n), ageTxt(r) + (ageGap(r) ? ' (adáptalo a tu grupo)' : '')];
   if (r.p) w.push(r.p[1] && gs.n > r.p[1] ? `${plTxt(r)}: ${Math.ceil(gs.n / r.p[1])} grupos a la vez` : plTxt(r));
   if (r.tp) w.push('★ TOP'); if (r.pr) w.push('✓ probado'); if (r.lb) w.push('en el libro');
   return w.join(' · ');
@@ -601,19 +607,21 @@ function renderPlan() {
 }
 function renderGen() {
   const ages = AGES.filter(a => a[1] !== undefined);
-  $('#gslot').innerHTML = `<div class="gen"><h2>✦ Crear sesión</h2><p class="sub">Marca qué quieres trabajar y te propongo una sesión con ejercicios del banco: calentamiento, parte principal y partido final.</p>
+  $('#gslot').innerHTML = `<div class="gen"><h2>✦ Crear sesión</h2><p class="sub">Marca qué quieres trabajar y te propongo una sesión con ejercicios del banco: calentamiento, parte principal y partido final. Manda el nivel del grupo; la edad solo orienta.</p>
    <h4>¿Qué quieres trabajar?</h4><div class="gchips" id="gt">${GT.map((g, i) => `<button class="${gs.t.has(i) ? 'on' : ''}" data-i="${i}">${g[0]}</button>`).join('')}</div>
    <input class="kw" id="gkw" placeholder="Algo más concreto (opcional): centros al segundo palo, pared, perfil…" value="${esc(gs.kw)}" style="margin-top:10px">
    <h4>Tu grupo</h4><div class="grow">
     <label>Categoría<select id="gage">${ages.map((a, i) => `<option value="${i}" ${gs.age === i ? 'selected' : ''}>${a[0]} (${a[1]}–${a[2]})</option>`).join('')}</select></label>
     <label>Jugadores de campo<input id="gn" type="number" min="4" max="30" value="${gs.n}"></label>
     <label>Porteros<select id="ggk">${[0,1,2].map(k => `<option ${gs.gk === k ? 'selected' : ''}>${k}</option>`).join('')}</select></label>
-    <label>Duración<select id="gmin">${[45,60,75,90].map(m => `<option value="${m}" ${gs.min === m ? 'selected' : ''}>${m} min</option>`).join('')}</select></label>
+    <label>Nivel del grupo<select id="glvl">${LV.map((l, i) => `<option value="${i}" ${gs.lvl === i ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
+    <label>Duración<select id="gmin">${[45,60,75,90,105,120].map(m => `<option value="${m}" ${gs.min === m ? 'selected' : ''}>${m} min</option>`).join('')}</select></label>
    </div>
    <div class="gbtns"><button class="btn2" id="gok">Proponer sesión</button>${gplan.length ? '<button class="btn3" id="gre">↻ Otra propuesta</button>' : ''}</div>
    <div id="gout"></div></div>`;
   $('#gt').querySelectorAll('button').forEach(el => el.onclick = () => { const i = +el.dataset.i; gs.t.has(i) ? gs.t.delete(i) : gs.t.add(i); el.classList.toggle('on'); });
-  const read = () => { gs.kw = $('#gkw').value.trim(); gs.age = +$('#gage').value; gs.n = Math.max(2, +$('#gn').value || 14); gs.gk = +$('#ggk').value; gs.min = +$('#gmin').value; };
+  const read = () => { gs.kw = $('#gkw').value.trim(); gs.age = +$('#gage').value; gs.lvl = +$('#glvl').value; gs.n = Math.max(2, +$('#gn').value || 14); gs.gk = +$('#ggk').value; gs.min = +$('#gmin').value; };
+  $('#gage').onchange = () => { $('#gmin').value = MIN_AGE(+$('#gage').value); };
   $('#gok').onclick = () => { read(); buildPlan(); renderGen(); };
   if ($('#gre')) $('#gre').onclick = () => { read(); gs.seed++; buildPlan(); renderGen(); };
   if (gplan.length || $('#gok').dataset.done) renderPlan();

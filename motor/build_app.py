@@ -200,8 +200,14 @@ for k, d in drawn.items():
                      x={'obj': d.get('objetivo', ''), 'mont': d['montaje'], 'how': d['juego'], 'pts': d['punto'], 'cues': d['consigna'],
                         'fac': d.get('variantes', {}).get('facil', ''), 'dif': d.get('variantes', {}).get('dificil', ''), 'dur': d.get('duracion', ''),
                         'ser': d.get('series', ''), 'adapt': d.get('adaptacion', ''), 'sp': d.get('espacio', '')}))
+# Duración aproximada para los ejercicios que no la traen (petición de Sergio, 23 nov)
+DUR_BLOQUE = {'Calentamiento': 12, 'Técnica y duelos': 12, 'Rondos': 10, 'Posesiones y juego de posición': 15, 'Superioridades': 15,
+              'Oleadas y transiciones': 15, 'Finalización': 15, 'Defensa y presión': 15, 'Partidos y situaciones reales': 20,
+              'Balón parado': 12, 'Porteros': 12}
 for r in recs:
     r['x'] = {k: v for k, v in r['x'].items() if v}
+    if not re.search(r'\d+\s*min', r['x'].get('dur', '')):
+        r['x']['dur'] = f"≈ {DUR_BLOQUE.get(BL[r['b']], 12)} min (aproximada)"
     if r['i'] in TOP: r['tp'] = TOP[r['i']]
 _hide = {l.strip() for l in open(os.path.join(ROOT, 'datos', 'origen_oculto.txt'), encoding='utf-8') if l.strip() and not l.startswith('#')}
 for r in recs:
