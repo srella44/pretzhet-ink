@@ -1,0 +1,208 @@
+{
+ "id": "LU-P292",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rueda de salida",
+ "formato": "Rueda de pases · 2 balones",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "26 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 45″ de pausa. Series 1–2: un sentido; series 3–4: sentido contrario (empiezan los del otro lado). Cada 2 series se cambian los puestos dentro de la misma línea (propuesta).",
+ "objetivo": "Automatizar hábitos ofensivos de salida: desmarque de apoyo antes de recibir, dejada de cara, pase tenso y control orientado (fuente). Cómo explicarlo: muéstralo a cámara lenta con un balón y los números del recorrido; luego salen los dos balones. Errores típicos: el mediocentro recibe parado y de espaldas, dejadas flojas o al cuerpo, pases largos que botan, controlar hacia el lado equivocado. Qué observar: timing del desmarque (moverse justo cuando el pasador levanta la cabeza), perfil abierto al recibir, pase tenso a ras de suelo. Montaje detallado (propuesta): rectángulo de 26 × 20 m; en un fondo, postas de los 2 centrales a 5 m de cada banda; en el otro, las de los 2 interiores en las mismas líneas; los 2 mediocentros a mitad, a 7 y 13 m de la banda de arriba; 2 jugadores en cada posta de central e interior.",
+ "montaje": "26 × 20 m. En un fondo, 2 centrales; en el otro, 2 interiores en su línea; en medio, 2 mediocentros. 2 jugadores por posta.",
+ "juego": "Salen 2 balones a la vez (fuente). Central al mediocentro, que se desmarca antes (1); dejada de cara al otro central (2); pase tenso al interior de su línea (3); pase al mediocentro contrario (4); dejada al otro interior y pase al central.",
+ "punto": "Sin puntos. Reto: 8 vueltas sin fallo en 2′30″.",
+ "consigna": "Desmárcate antes de recibir; pase tenso.",
+ "variantes": {
+  "facil": "Un solo balón y control libre antes de cada pase (propuesta).",
+  "dificil": "Dejadas a un toque obligatorias, o un defensor pasivo junto a cada mediocentro que le obliga a desmarcarse (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 18 m y un solo balón. Infantil (12–13): tal cual. Cadete: dos balones a un toque (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASES - HÁBITOS OFENSIVOS",
+  "ref": "300 ejercicios Level Up Coach · p. 292 (tarea 291)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Posición de las postas, número de jugadores por posta, series, cambio de sentido y reto (propuesta). Diagrama sin gráfico original: se dibujan los pasos 1–4 de un balón.",
+ "diagrama": {
+  "field": [
+   26,
+   20
+  ],
+  "dashed": true,
+  "tag": "26 × 20 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "players": [
+   {
+    "r": "D",
+    "x": 1.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": -1,
+    "y": 5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 1.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": -1,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24.5,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 24.5,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 15,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     5
+    ],
+    "b": [
+     11,
+     7.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     11,
+     7.5
+    ],
+    "b": [
+     1.5,
+     15
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     1.5,
+     15
+    ],
+    "b": [
+     24.5,
+     15
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     24.5,
+     15
+    ],
+    "b": [
+     11,
+     7.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     13,
+     9.5
+    ],
+    "b": [
+     11.4,
+     8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    20.6,
+    "CENTRALES",
+    "middle"
+   ],
+   [
+    24.5,
+    20.6,
+    "INTERIORES",
+    "middle"
+   ],
+   [
+    12.5,
+    2.6,
+    "MEDIOCENTROS",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "id": "PIK-0003",
+ "bloque": "Técnica y duelos",
+ "titulo": "Dos metas en la esquina",
+ "formato": "5v5 · 4 miniporterías",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "26 × 26 m",
+ "duracion": "16 min",
+ "series": "4 partidos de 3′ con 1′ de pausa; tras cada partido los equipos cambian de pareja de porterías (propuesta).",
+ "objetivo": "Atacar dos metas a la vez y cambiar de objetivo cuando la defensa cierra una; defender dos metas contiguas basculando. Cómo explicarlo: pinta del mismo color las dos porterías de cada equipo (fuente) y pregunta: «si tapan esta, ¿dónde está la otra?». Errores típicos: atacar siempre la misma meta, todos al balón, nadie abierto en el lado contrario. Qué observar (fuente): si la defensa cierra una meta, ¿el apoyo alejado ofrece un pase hacia la otra? Montaje detallado (propuesta): cuadrado de 26 × 26 m; una miniportería de 2 m en el centro de cada lado; los amarillos atacan las de la derecha y abajo (conos amarillos) y defienden las de la izquierda y arriba; los rojos, al revés.",
+ "montaje": "26 × 26 m con una miniportería en el centro de cada lado. Cada equipo ataca 2 contiguas y defiende las otras 2.",
+ "juego": "5 contra 5 libre (fuente). Se marca en cualquiera de las 2 metas de ataque. Tras gol, saca quien lo recibe desde su meta (fuente). Balón fuera: saque con el pie. Sin portero: nadie se queda delante de su meta.",
+ "punto": "Gol: 1. Gol tras cambiar de meta en la jugada: 2.",
+ "consigna": "Si cierran una meta, busca la otra.",
+ "variantes": {
+  "facil": "4 contra 4 + 1 comodín que ataca con el que tiene el balón (propuesta).",
+  "dificil": "Máximo 3 toques, o gol solo a un toque en la meta de abajo (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 4 contra 4 en 22 × 22 m. Alevín (10–11): tal cual. Infantil (12–13): 6 contra 6 en 30 × 30 m y 3 toques (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Dos metas al doblar la esquina",
+  "ref": "FIFA Training Centre · Technical activation and small-sided games (8–12)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tamaño de las porterías, qué pareja ataca cada equipo, saque de banda, regla de no quedarse delante de la meta, gol doble, series y variantes (propuesta). Diagrama con 4 de cada equipo.",
+ "diagrama": {
+  "field": [
+   26,
+   26
+  ],
+  "extent": {
+   "xmin": -20,
+   "xmax": 46,
+   "ymin": -1.5,
+   "ymax": 27.5
+  },
+  "goals": [
+   [
+    0,
+    13,
+    "L"
+   ],
+   [
+    26,
+    13,
+    "R"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 13,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.4
+   },
+   {
+    "x": 13,
+    "y": 26,
+    "lado": "B",
+    "ancho": 2.4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 21,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 18,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 11,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     7
+    ],
+    "b": [
+     7,
+     15
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     7,
+     15
+    ],
+    "b": [
+     12,
+     21
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     12,
+     21
+    ],
+    "b": [
+     13,
+     25.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    28,
+    13,
+    "AMARILLOS: DCHA. Y ABAJO",
+    "start"
+   ],
+   [
+    -2,
+    13,
+    "ROJOS: IZQ. Y ARRIBA",
+    "end"
+   ]
+  ]
+ }
+}

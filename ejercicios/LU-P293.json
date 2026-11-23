@@ -1,0 +1,204 @@
+{
+ "id": "LU-P293",
+ "bloque": "Técnica y duelos",
+ "titulo": "Salidas desde portería",
+ "formato": "Portero + 7 · sin rivales",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–16 jug.",
+ "espacio": "Medio campo · 50 × 45 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ (una por salida) con 1′ de explicación entre ellas; con 16 jugadores, dos equipos que alternan salida y descanso activo (propuesta).",
+ "objetivo": "Conocer y repetir tres salidas de balón desde el portero y sus variantes (fuente): por fuera con circulación previa, por dentro con el interior lejano al espacio y tercer hombre, y por dentro con el lateral interiorizado como tercer hombre. Cómo explicarlo: dibuja las tres en la pizarra con colores, camina la primera sin balón y luego a velocidad real. Errores típicos: el lateral pegado a la línea de fondo, pases horizontales flojos entre centrales, el interior que viene al balón y tapa su propio espacio, recibir de espaldas. Qué observar: perfil abierto de centrales y mediocentro, distancias de 10–15 m entre pasadores, tercer hombre que ya mira hacia delante al recibir. Montaje detallado (propuesta): medio campo de fútbol 11 (50 × 45 m) con portería; portero, 2 centrales en las esquinas del área, 2 laterales abiertos a 18 m, mediocentro en el centro y 2 interiores a 30 m de la portería; carriles exteriores marcados con conos a 10 m de cada banda.",
+ "montaje": "Medio campo (50 × 45 m) con portería. Portero, 2 centrales, 2 laterales, mediocentro y 2 interiores. Sin rivales.",
+ "juego": "El míster dice la salida (fuente). 1: circular portero-centrales y salir por fuera con lateral e interior. 2: por dentro, tercer hombre y el interior lejano al espacio. 3: el lateral entra por dentro y hace de tercer hombre. Acaba al pasar el medio campo.",
+ "punto": "Sin puntos. Reto: 3 salidas seguidas sin fallo.",
+ "consigna": "Perfil abierto y pase tenso al pie.",
+ "variantes": {
+  "facil": "Solo la salida 1, con control libre (propuesta).",
+  "dificil": "Añadir 2–3 rivales que presionan al 50 % y el portero elige la salida según lo que vea (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): salidas 1 y 2, en fútbol 11 o adaptadas a fútbol 8 sin un interior. Cadete (14–15): las tres y luego con presión. Alevín: no recomendada; usar una salida en fútbol 7 (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIONES GRUPALES - INICIO DE JUEGO CON VARIANTES",
+  "ref": "300 ejercicios Level Up Coach · p. 293 (tarea 292)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de los puestos, orden de las salidas, final de cada acción, series y reto (propuesta). La fuente da 8 jugadores y 45 × 50 m; diagrama en horizontal, recortado a la mitad con la salida 1 (no sale el otro lateral).",
+ "diagrama": {
+  "field": [
+   50,
+   30
+  ],
+  "tag": "medio campo (recorte) · 50 × 45 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 51,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 22.5,
+    "lado": "L",
+    "ancho": 7
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     50,
+     10
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     10
+    ],
+    [
+     50,
+     10
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2,
+    "y": 22.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 28.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 26,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     22.5
+    ],
+    "b": [
+     8,
+     15
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     8,
+     15
+    ],
+    "b": [
+     18,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     31,
+     15
+    ],
+    "b": [
+     27,
+     7
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     18,
+     5
+    ],
+    "b": [
+     26.6,
+     6.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     27,
+     7
+    ],
+    "b": [
+     40,
+     6
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": 1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    49,
+    1.6,
+    "CARRIL EXTERIOR",
+    "end"
+   ]
+  ]
+ }
+}

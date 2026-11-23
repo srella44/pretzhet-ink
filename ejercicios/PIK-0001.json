@@ -1,0 +1,255 @@
+{
+ "id": "PIK-0001",
+ "bloque": "Técnica y duelos",
+ "titulo": "El defensor llega de enfrente",
+ "formato": "2 rondos 4v1",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug.",
+ "espacio": "2 × (10 × 10 m)",
+ "duracion": "12 min",
+ "series": "3 series de 3′ con 1′ de pausa; el míster llama un número cada 30–40″ para que todos defiendan 1–2 veces por serie (propuesta).",
+ "objetivo": "Conservar el balón 4 contra 1 sabiendo por dónde llega el defensor, y reaccionar rápido al cambio de papel. Cómo explicarlo: «antes de recibir, mira de dónde viene el defensor y controla hacia el otro lado». Errores típicos: controlar hacia el defensor, quedarse quieto cuando el compañero tiene el balón, el que cruza pasea. Qué observar (fuente): ¿el receptor mira por dónde llega el defensor antes de orientar su primer toque? Seguridad: ida por un lado del pasillo y vuelta por el otro (fuente), para que no choquen. Montaje detallado (propuesta): dos cuadrados de 10 × 10 m separados por un pasillo de 5 m; cada grupo, 5 jugadores con peto de su color numerados del 1 al 5 y un balón.",
+ "montaje": "Dos cuadrados de 10 × 10 m con un pasillo de 5 m. Un grupo de 5 en cada uno, numerados del 1 al 5, con balón.",
+ "juego": "Cada grupo se pasa el balón. El míster dice un número: los dos con ese número cruzan y defienden en el otro cuadrado: dos rondos de 4 contra 1 (fuente). Ida por un lado del pasillo y vuelta por el otro. Con otro número, vuelven.",
+ "punto": "Robo: 1 al grupo del defensor. 5 pases seguidos: 1.",
+ "consigna": "Mira por dónde llega antes de controlar.",
+ "variantes": {
+  "facil": "Cuadrados de 12 × 12 m y el defensor solo puede tocar el balón, no robarlo (propuesta).",
+  "dificil": "Dos números a la vez (4 contra 2 en cada cuadrado), o máximo 2 toques (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): cuadrados de 12 m y el que cruza conduce un balón. Benjamín (8–9): tal cual. Alevín (10–11): 2 toques y cuadrados de 9 m (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "El defensor llega de enfrente",
+  "ref": "FIFA Training Centre · Bring all the elements into the game (4–8)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ancho del pasillo, frecuencia de las llamadas, series y puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   10
+  ],
+  "nofield": true,
+  "tag": "2 × 10 × 10 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     10,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     10
+    ],
+    ""
+   ],
+   [
+    [
+     10,
+     10
+    ],
+    [
+     0,
+     10
+    ],
+    ""
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     15,
+     0
+    ],
+    [
+     25,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     10
+    ],
+    ""
+   ],
+   [
+    [
+     25,
+     10
+    ],
+    [
+     15,
+     10
+    ],
+    ""
+   ],
+   [
+    [
+     15,
+     10
+    ],
+    [
+     15,
+     0
+    ],
+    ""
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 1.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.8,
+    "y": 1.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8.8,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 4.6,
+    "y": 4.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16.2,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23.8,
+    "y": 1.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 23.8,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 16.2,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 20.6,
+    "y": 5.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.6,
+     4.4
+    ],
+    "b": [
+     19.4,
+     3.3
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     20.6,
+     5.6
+    ],
+    "b": [
+     5.8,
+     6.8
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     1.2,
+     1.5
+    ],
+    "b": [
+     8.8,
+     1.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    11.6,
+    "PASILLO 5 m",
+    "middle"
+   ]
+  ]
+ }
+}

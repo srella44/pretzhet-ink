@@ -1,0 +1,243 @@
+{
+ "id": "LU-P143",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito del lateral",
+ "formato": "Circuito por puesto",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ con 1′ de pausa; cada lateral hace una repetición completa cada 40–60″ (con 2–3 laterales que se turnan). Los compañeros que sirven rotan cada serie (propuesta).",
+ "objetivo": "Acciones técnicas del lateral encadenadas (fuente): control y pase medio, salida rápida, temporización defensiva orientando al rival, ataque al área y despeje orientado. Cómo explicarlo: recorre el circuito andando y nombra cada acción. Errores típicos: control hacia dentro (hacia la portería), pase medio flojo o bombeado, entrar al atacante sin frenar, despejar al centro. Qué observar: control orientado hacia fuera, perfil defensivo que lleva al atacante a la banda, despeje alto y hacia la banda. Montaje detallado (propuesta): cuadrado de 20 × 20 m junto al área; un compañero con balones dentro del área (sirve), otro en el centro del campo (recibe), una escalera de 4 m paralela a la banda, un atacante con balón a 15 m de la escalera y un servidor que centra para el despeje.",
+ "montaje": "20 × 20 m junto al área. Un compañero en el área (sirve), otro en el centro (recibe), una escalera, un atacante y un centrador.",
+ "juego": "El lateral recibe del área (1), controla y da un pase medio al del centro (2). Sale rápido por la escalera (3), temporiza al atacante que conduce y lo lleva a la banda (4). Luego entra al área a por el centro y despeja orientado a la banda (fuente).",
+ "punto": "Sin puntos. Reto: el atacante no supera al lateral.",
+ "consigna": "Control hacia fuera; llévalo a banda.",
+ "variantes": {
+  "facil": "Sin escalera y atacante al 50 % (propuesta).",
+  "dificil": "Atacante que puede marcar en una miniportería si supera al lateral, o despeje a una zona marcada de 5 m (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): circuito completo a ritmo medio. Cadete (14–15): atacante libre y despeje a zona. Alevín: solo control, pase y 1 contra 1 defensivo (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "TRABAJO INDIVIDUALIZADO LATERALES",
+  "ref": "300 ejercicios Level Up Coach · p. 143 (tarea 142)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente da 1 jugador y 20 × 20 m: compañeros que sirven, colocación de cada estación, turnos, reto y series (propuesta). Diagrama con los pasos 1–4.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     4,
+     5,
+     16
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     9,
+     17
+    ],
+    [
+     13,
+     17
+    ],
+    ""
+   ],
+   [
+    [
+     9,
+     18.2
+    ],
+    [
+     13,
+     18.2
+    ],
+    ""
+   ],
+   [
+    [
+     9,
+     17
+    ],
+    [
+     9,
+     18.2
+    ],
+    ""
+   ],
+   [
+    [
+     10,
+     17
+    ],
+    [
+     10,
+     18.2
+    ],
+    ""
+   ],
+   [
+    [
+     11,
+     17
+    ],
+    [
+     11,
+     18.2
+    ],
+    ""
+   ],
+   [
+    [
+     12,
+     17
+    ],
+    [
+     12,
+     18.2
+    ],
+    ""
+   ],
+   [
+    [
+     13,
+     17
+    ],
+    [
+     13,
+     18.2
+    ],
+    ""
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 2.5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 17.5,
+    "f": -60
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 14,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 1,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     9
+    ],
+    "b": [
+     6.5,
+     17.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     6.5,
+     17.5
+    ],
+    "b": [
+     18,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     7.5,
+     17.6
+    ],
+    "b": [
+     14,
+     17.6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     18.5,
+     14
+    ],
+    "b": [
+     15,
+     18.5
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    2.5,
+    15.2,
+    "ÁREA",
+    "middle"
+   ],
+   [
+    11,
+    19.8,
+    "ESCALERA",
+    "middle"
+   ]
+  ]
+ }
+}

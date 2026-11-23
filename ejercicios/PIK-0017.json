@@ -1,0 +1,194 @@
+{
+ "id": "PIK-0017",
+ "bloque": "Técnica y duelos",
+ "titulo": "Sal hacia tres puertas",
+ "formato": "Portero + 5 contra 4",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10–11 jug.",
+ "espacio": "32 × 25 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa. Cada 2 series cambia el equipo que presiona (fuente: alternar) (tiempos propuesta).",
+ "objetivo": "Salir jugando desde el portero ante presión y elegir la salida libre. Cómo explicarlo: «el portero mira antes de pasar: ¿quién está libre?». Errores típicos: centrales pegados al portero, pasar siempre al mismo lado, recibir de espaldas con un rival encima, el portero que se precipita. Qué observar (fuente): ¿el portero reconoce qué salida ha dejado libre la primera línea rival? Montaje detallado (propuesta): campo de 32 × 25 m con portería de fútbol 7 y portero en un fondo; en el otro, 3 puertas de 3 m con conos (centro y a 4 m de cada banda); 3 defensas y 2 apoyos (mediocentros) contra 4 presionantes; balones junto al portero.",
+ "montaje": "32 × 25 m. En un fondo, portería con portero; en el otro, 3 puertas de 3 m. Portero, 3 defensas y 2 apoyos contra 4 que presionan.",
+ "juego": "Empieza el portero (fuente). Los 6 intentan cruzar conduciendo una puerta. Si los 4 roban, atacan la portería y tienen 8″ para marcar. Tras cada acción, se reinicia desde el portero (fuente). Máximo 3 toques en campo propio.",
+ "punto": "Cruzar una puerta: 1. Robo y gol: 2 a los que presionan.",
+ "consigna": "Portero: mira antes de pasar.",
+ "variantes": {
+  "facil": "Presionan 3 y uno espera en la mitad rival (propuesta).",
+  "dificil": "Presionan 5, o solo vale la puerta contraria al lado por el que se salió (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 28 × 22 m y 3 presionantes. Infantil (12–13): tal cual. Cadete: 36 × 28 m y presión con 5 (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Salir desde portería hacia tres metas",
+  "ref": "Bcoach · Build from GK"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ancho y posición de las puertas, cómo se puntúa, contraataque de los presionantes, toques y series (propuesta).",
+ "diagrama": {
+  "field": [
+   32,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 34,
+   "ymin": -1,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 5
+   }
+  ],
+  "cones": [
+   [
+    32,
+    3
+   ],
+   [
+    32,
+    6
+   ],
+   [
+    32,
+    11
+   ],
+   [
+    32,
+    14
+   ],
+   [
+    32,
+    19
+   ],
+   [
+    32,
+    22
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.2,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     12.5
+    ],
+    "b": [
+     6,
+     21
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     6,
+     21
+    ],
+    "b": [
+     15,
+     18
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     15,
+     18
+    ],
+    "b": [
+     31.6,
+     20.5
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    33.5,
+    1.8,
+    "3 PUERTAS",
+    "end"
+   ]
+  ]
+ }
+}

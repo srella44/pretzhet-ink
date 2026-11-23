@@ -1,0 +1,237 @@
+{
+ "id": "LU-P173",
+ "bloque": "Técnica y duelos",
+ "titulo": "Ataca y defiende",
+ "formato": "4v4 + 2 equipos fuera + porteros",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug. (16 + 2 porteros)",
+ "espacio": "30 × 20 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; cuenta goles por equipo en toda la tarea (propuesta). Con 12–14 jugadores, 3 contra 3.",
+ "objetivo": "Ataque rápido, cambio de rol y finalización (fuente): atacar con ventaja de salida y, al perder, defender o salir del campo. Cómo explicarlo: «marcas y te quedas; te marcan y sales». Errores típicos: el equipo que entra lo hace andando, nadie se queda atrás al atacar, el que pierde el balón no defiende. Qué observar: velocidad de la primera acción al entrar, progresión con apoyos del portero, disputas y reacción tras pérdida. Montaje detallado (propuesta): 30 × 20 m con portería de fútbol 7 y portero en cada fondo; 2 equipos de 4 dentro y 1 esperando detrás de cada portería con balones.",
+ "montaje": "30 × 20 m con portería y portero en cada fondo. 4 contra 4 dentro; los otros 2 equipos esperan detrás de cada portería.",
+ "juego": "Empieza un portero con su equipo para progresar y finalizar (fuente). Si el rival roba, ataca la portería contraria. Tras gol, el equipo que lo recibe sale y entra con balón el que espera detrás de esa portería, atacando la contraria (fuente).",
+ "punto": "Gol: 1 para el equipo. Quien marca se queda dentro.",
+ "consigna": "Entra rápido y ataca ya.",
+ "variantes": {
+  "facil": "Equipo que entra con 5″ de ventaja antes de que defiendan (propuesta).",
+  "dificil": "8″ para finalizar desde que se entra, o gol solo a 2 toques (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 3 contra 3 en 25 × 18 m. Alevín (10–11): tal cual. Infantil (12–13): 35 × 25 m y 8″ para finalizar (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE - DEFENSA (4+4vs4+4)",
+  "ref": "300 ejercicios Level Up Coach · p. 173 (tarea 172)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Porterías, series, puntuación y variantes (propuesta). Regla de la fuente: un equipo ataca y defiende en cada repetición antes de salir. Diagrama con 3 de cada equipo que espera.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -5.5,
+   "xmax": 35.5,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5
+   },
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 28.8,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": -3.5,
+    "y": 3.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": -3.5,
+    "y": 8,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": -3.5,
+    "y": 12.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 33.5,
+    "y": 3.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 33.5,
+    "y": 8,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 33.5,
+    "y": 12.5,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     10
+    ],
+    "b": [
+     7,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     7,
+     4
+    ],
+    "b": [
+     15,
+     8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     19,
+     16
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     19,
+     16
+    ],
+    "b": [
+     29.4,
+     11.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    -3.5,
+    17.5,
+    "ESPERAN",
+    "middle"
+   ],
+   [
+    33.5,
+    17.5,
+    "ESPERAN",
+    "middle"
+   ]
+  ]
+ }
+}

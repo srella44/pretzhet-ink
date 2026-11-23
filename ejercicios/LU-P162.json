@@ -1,0 +1,130 @@
+{
+ "id": "LU-P162",
+ "bloque": "Técnica y duelos",
+ "titulo": "Protege, gira y marca",
+ "formato": "1v1 de espaldas + pasador",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "3–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ con 1′ de pausa; cada acción dura como mucho 8″. Rotación tras cada acción: pasador → receptor → defensor → pasador (propuesta). Con más de 3, varios cuadrados.",
+ "objetivo": "Proteger el balón de espaldas, temporizar y girar para finalizar; en defensa, anticipar o impedir el giro (fuente). Cómo explicarlo: «cuerpo entre el balón y el defensor, brazo para sentirlo y gira hacia el lado que deje libre». Errores típicos: recibir parado y pegado al defensor, girar siempre hacia el mismo lado, defensor que se lanza y deja girar. Qué observar: control con el pie lejano al defensor, orientación corporal, defensor a un brazo de distancia que anticipa si el pase es flojo. Montaje detallado (propuesta): cuadrado de 12 × 12 m con 2 miniporterías en un mismo fondo, a 3 m de cada esquina; el pasador fuera, en el fondo contrario, con balones; el receptor dentro, de espaldas a las porterías, y el defensor detrás de él.",
+ "montaje": "12 × 12 m con 2 miniporterías en un fondo. Pasador fuera en el fondo opuesto; dentro, receptor de espaldas y defensor detrás.",
+ "juego": "El pasador da al receptor (fuente). Este controla, protege dentro del cuadrado (fuente) e intenta girarse y marcar en cualquiera de las 2 miniporterías. El defensor intenta anticipar o robar. Acaba en gol, robo o fuera. Rotan los tres.",
+ "punto": "Gol: 1. Robo o anticipación: 1 al defensor.",
+ "consigna": "Cuerpo delante y gira al lado libre.",
+ "variantes": {
+  "facil": "El defensor no puede entrar hasta el control (propuesta).",
+  "dificil": "Máximo 5″ para marcar, o el pasador puede volver a recibir y entrar a 2 contra 1 (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): cuadrado de 12 × 15 m y defensor pasivo hasta el control. Alevín (10–11): tal cual. Infantil (12–13): 5″ para finalizar (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIÓN INDIVIDUAL - TEMPORIZACIÓN - PROTECCIÓN Y ORIENTACIÓN CORPORAL",
+  "ref": "300 ejercicios Level Up Coach · p. 162 (tarea 161)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de porterías y pasador, final de la acción, rotación, tiempos y puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 13.5,
+   "ymin": -1,
+   "ymax": 13
+  },
+  "goals": [
+   [
+    12,
+    3,
+    "R"
+   ],
+   [
+    12,
+    9,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1.8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7.2,
+    "y": 6.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.8,
+     6
+    ],
+    "b": [
+     4.4,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     5,
+     6
+    ],
+    "b": [
+     8.5,
+     2.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     8.8,
+     2.4
+    ],
+    "b": [
+     11.6,
+     3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    12.6,
+    "PASADOR FUERA",
+    "middle"
+   ]
+  ]
+ }
+}

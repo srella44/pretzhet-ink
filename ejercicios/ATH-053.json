@@ -1,0 +1,195 @@
+{
+ "id": "ATH-053",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rombo de porterías",
+ "formato": "7v7 + 4 porterías interiores",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "14–18 jug.",
+ "espacio": "45 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′30″ de pausa (propuesta). Con 16–18 jugadores, 8 contra 8 o 9 contra 9 en 50 × 45 m (propuesta, en la línea de la serie de la fuente).",
+ "objetivo": "Variante táctica de la serie de posesiones con porterías pequeñas (fuente): con 4 porterías interiores en rombo se premia el juego por dentro y se obliga al equipo que defiende a adelantar líneas y no meterse atrás, sin dejar de proteger sus porterías de fondo. Cómo explicarlo: «el rombo es la zona de los mediocentros: si cierran por dentro, abre; si se abren, entra por el rombo». Errores típicos: defensa hundida junto a sus porterías, todos al rombo y nadie da amplitud, pases a través de la portería sin que nadie reciba detrás. Qué observar: escalonamiento de líneas, pase entre líneas al compañero de cara, ayudas defensivas en el centro. Montaje detallado (propuesta): 45 × 40 m; 2 miniporterías de 3 m en cada fondo, a 12 m de las bandas; en el centro, 4 miniporterías formando un rombo a 7 m del punto central, abiertas hacia fuera y hacia dentro (se puede pasar por ellas en los dos sentidos).",
+ "montaje": "45 × 40 m. 2 miniporterías en cada fondo y 4 en el centro formando un rombo, a 7 m del punto central.",
+ "juego": "7 contra 7, máximo 3 toques. Se marca en las 2 porterías del fondo rival. Pasar el balón a través de una portería del rombo a un compañero que lo controla también puntúa (los dos equipos, en cualquier sentido). Tras gol, saca de su fondo el que lo recibió.",
+ "punto": "Gol en fondo: 2. Pase por el rombo recibido: 1.",
+ "consigna": "Adelanta la línea; juega por dentro.",
+ "variantes": {
+  "facil": "Toques libres y rombo más ancho (a 9 m del centro) (propuesta).",
+  "dificil": "El pase por el rombo solo vale si el receptor juega de cara a la primera, o las porterías del rombo solo se pueden usar en sentido de ataque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 5 contra 5 en 35 × 30 m y rombo de 2 porterías. Infantil (12–13): 7 contra 7 tal cual. Cadete: 8 contra 8 o 9 contra 9 en 50 × 45 m (propuesta).",
+ "fuente": {
+  "autor": "Athletic Club · Manual de ejercicios (Lezama 2005)",
+  "titulo_original": "P. 4 P.P. 4 P.P. INTERIORES ROMBO",
+  "ref": "Manual de ejercicios Athletic Club · p. 72"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "El texto de la fuente llega cortado y no hay PDF en el repositorio: medidas, distancia del rombo, cómo se puntúa en las porterías interiores, toques y saques son propuesta. Diagrama con 4 de cada equipo: pase por la portería de arriba del rombo y tiro.",
+ "diagrama": {
+  "field": [
+   45,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 47,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    0,
+    28,
+    "L"
+   ],
+   [
+    45,
+    12,
+    "R"
+   ],
+   [
+    45,
+    28,
+    "R"
+   ],
+   [
+    15.5,
+    20,
+    "L"
+   ],
+   [
+    29.5,
+    20,
+    "R"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 22.5,
+    "y": 13,
+    "lado": "T",
+    "ancho": 2.4
+   },
+   {
+    "x": 22.5,
+    "y": 27,
+    "lado": "B",
+    "ancho": 2.4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     20
+    ],
+    "b": [
+     13,
+     9
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     13,
+     9
+    ],
+    "b": [
+     30,
+     15
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     30,
+     15
+    ],
+    "b": [
+     44.6,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    21,
+    "ROMBO",
+    "middle"
+   ]
+  ]
+ }
+}

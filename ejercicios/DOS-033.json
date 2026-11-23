@@ -1,0 +1,185 @@
+{
+ "id": "DOS-033",
+ "bloque": "Técnica y duelos",
+ "titulo": "Regate al defensor",
+ "formato": "Filas · oposición semipasiva",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "15 m entre filas",
+ "duracion": "15 min",
+ "series": "3 bloques de 4′ con 1′ de pausa (fuente: 15′): bloque 1 regates sin finta, bloque 2 con finta antes del regate, bloque 3 cada uno elige y enseña su regate favorito (fuente). El defensor cambia cada 2′ (propuesta).",
+ "objetivo": "Aprender regates y fintas ante un defensor que acompaña sin robar (fuente). Regates propuestos: cambio de dirección con el interior, con el exterior, bicicleta, croqueta y pisada. Cómo explicarlo: el míster muestra el regate a cámara lenta y dice su nombre antes de cada tanda. Errores típicos: regatear desde lejos (fuente), mirar solo el balón, no acelerar después del regate, pase flojo a la fila. Qué observar: regate a 1–2 m del defensor, cambio de ritmo al salir y pase al primer jugador de la fila. Montaje detallado (propuesta): dos conos a 15 m; una fila detrás de cada cono, la de un lado con balones; en medio, un defensor semipasivo o un cono grande. Con más de 8 jugadores, dos figuras en paralelo separadas 5 m.",
+ "montaje": "Dos filas enfrentadas a 15 m, con balones en una. En medio, un defensor semipasivo. Más de 8: dos figuras.",
+ "juego": "El primero conduce hacia el defensor, hace a 1–2 m el regate que marca el míster, acelera y pasa a la fila de enfrente, a cuyo final va. El defensor solo acompaña. Primero sin finta, luego con finta; al final, cada uno su favorito (fuente).",
+ "punto": "Sin puntos. Reto: 5 regates limpios seguidos por fila.",
+ "consigna": "Regatea cerca, no desde lejos.",
+ "variantes": {
+  "facil": "Un cono en vez de defensor, o defensor quieto (propuesta).",
+  "dificil": "Defensor que puede robar si el regate es lejos, o el que recibe en la otra fila sale ya en conducción (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): cono y 2 regates por sesión. Alevín (10–11): defensor semipasivo. Infantil (12–13): defensor al 50 % y regate con cambio de ritmo obligado (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Figura de regates oposición semi pasiva",
+  "ref": "Dosier de sesiones · pág. 8 (J2.2)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Distancia entre filas de la base; reparto en bloques, cambio de defensor, reto y regates propuestos (propuesta). Edad propuesta.",
+ "diagrama": {
+  "field": [
+   15,
+   11
+  ],
+  "nofield": true,
+  "tag": "15 m entre filas",
+  "extent": {
+   "xmin": -4,
+   "xmax": 20.5,
+   "ymin": -0.5,
+   "ymax": 11.5
+  },
+  "cones": [
+   [
+    0,
+    2.5
+   ],
+   [
+    15,
+    2.5
+   ],
+   [
+    0,
+    8.5
+   ],
+   [
+    15,
+    8.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 2.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 2.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16.6,
+    "y": 8.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19.2,
+    "y": 8.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 8.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     2.5
+    ],
+    "b": [
+     6.5,
+     2.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     6.5,
+     2.6
+    ],
+    "b": [
+     10.5,
+     5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 2,
+    "s1": 4
+   },
+   {
+    "a": [
+     10.8,
+     4.8
+    ],
+    "b": [
+     16.2,
+     2.9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 4,
+    "s1": 10
+   },
+   {
+    "a": [
+     16.6,
+     8.5
+    ],
+    "b": [
+     10,
+     8.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    11.3,
+    "SEGUNDA FIGURA (MÁS DE 8)",
+    "middle"
+   ]
+  ]
+ }
+}

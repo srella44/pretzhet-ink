@@ -1,0 +1,316 @@
+{
+ "id": "LU-P146",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito y remate",
+ "formato": "Circuito coordinativo",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug.",
+ "espacio": "20 × 18 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ con 1′30″ de pausa; sale un jugador cada 10–12″ para que no se junten; vuelta andando por fuera (propuesta).",
+ "objetivo": "Coordinación, saltos y apoyos (fuente) con una finalización en medio para unir lo físico con la técnica: llegar cansado y controlar bien. Cómo explicarlo: haz el circuito una vez despacio, nombrando cada estación. Errores típicos: caer con la pierna rígida en los aros, mirar los pies en la escalera, llegar al control parado o de espaldas a la portería, chutar sin mirar al portero. Qué observar: aterrizaje suave sobre la punta del pie, brazos activos, control orientado hacia la portería y remate en 2 toques. Montaje detallado (propuesta): 5 aros en línea (salto y caída a una pierna), 3 vallas bajas (salto con los dos pies), escalera de 4 m (un apoyo por hueco), 5 picas en zigzag, zona de remate a 14 m de la portería con un servidor a un lado, y al volver, otras 2 escaleras (doble apoyo y apoyos laterales).",
+ "montaje": "Aros, vallas, escalera y 5 picas en zigzag; zona de remate a 14 m de una portería con portero y servidor.",
+ "juego": "Salto a una pierna en los aros (1), a pies juntos en las vallas (2), un apoyo por hueco (3) y eslalon (4). Recibe del servidor, controla y remata (5). Vuelve por las escaleras: doble apoyo y apoyos laterales (fuente). Sale otro cada 12″.",
+ "punto": "Gol: 1. Reto: más goles en la serie.",
+ "consigna": "Control orientado y remate.",
+ "variantes": {
+  "facil": "Quitar las vallas y remate tras dos controles (propuesta).",
+  "dificil": "Pase aéreo del servidor, o remate a un toque (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): solo aros, picas y remate, sin vallas. Alevín (10–11): circuito sin la segunda escalera. Infantil (12–13): completo (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "CIRCUITO FÍSICO - COORDINATIVO 1",
+  "ref": "300 ejercicios Level Up Coach · p. 146 (tarea 145)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente da 1 jugador y 18 × 20 m: material de cada estación, distancias, servidor, portero, salida de cada jugador y puntuación (propuesta). En el diagrama la portería está arriba y no se dibujan las escaleras de vuelta.",
+ "diagrama": {
+  "field": [
+   20,
+   18
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1.5,
+   "ymax": 18.5
+  },
+  "zones": [
+   {
+    "t": "circle",
+    "x": 3,
+    "y": 15,
+    "r": 0.7
+   },
+   {
+    "t": "circle",
+    "x": 4.6,
+    "y": 15,
+    "r": 0.7
+   },
+   {
+    "t": "circle",
+    "x": 6.2,
+    "y": 15,
+    "r": 0.7
+   }
+  ],
+  "lines": [
+   [
+    [
+     8.5,
+     14.3
+    ],
+    [
+     8.5,
+     15.7
+    ],
+    ""
+   ],
+   [
+    [
+     9.8,
+     14.3
+    ],
+    [
+     9.8,
+     15.7
+    ],
+    ""
+   ],
+   [
+    [
+     11.1,
+     14.3
+    ],
+    [
+     11.1,
+     15.7
+    ],
+    ""
+   ],
+   [
+    [
+     12.5,
+     14.4
+    ],
+    [
+     16.5,
+     14.4
+    ],
+    ""
+   ],
+   [
+    [
+     12.5,
+     15.6
+    ],
+    [
+     16.5,
+     15.6
+    ],
+    ""
+   ],
+   [
+    [
+     12.5,
+     14.4
+    ],
+    [
+     12.5,
+     15.6
+    ],
+    ""
+   ],
+   [
+    [
+     13.5,
+     14.4
+    ],
+    [
+     13.5,
+     15.6
+    ],
+    ""
+   ],
+   [
+    [
+     14.5,
+     14.4
+    ],
+    [
+     14.5,
+     15.6
+    ],
+    ""
+   ],
+   [
+    [
+     15.5,
+     14.4
+    ],
+    [
+     15.5,
+     15.6
+    ],
+    ""
+   ],
+   [
+    [
+     16.5,
+     14.4
+    ],
+    [
+     16.5,
+     15.6
+    ],
+    ""
+   ]
+  ],
+  "cones": [
+   [
+    18.5,
+    13
+   ],
+   [
+    17.2,
+    11.2
+   ],
+   [
+    18.5,
+    9.4
+   ],
+   [
+    17.2,
+    7.6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 6.5,
+    "f": -110
+   },
+   {
+    "r": "C",
+    "x": 5,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 12,
+    "y": 1,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.4,
+     15
+    ],
+    "b": [
+     17.2,
+     15
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "nt": 0.25
+   },
+   {
+    "a": [
+     17.6,
+     14.6
+    ],
+    "b": [
+     16.2,
+     7.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 4,
+    "s1": 10
+   },
+   {
+    "a": [
+     5,
+     6.5
+    ],
+    "b": [
+     15,
+     6.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     15.5,
+     6.5
+    ],
+    "b": [
+     12.8,
+     0.8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    4.6,
+    17.6,
+    "AROS",
+    "middle"
+   ],
+   [
+    9.8,
+    12.6,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    14.5,
+    17.6,
+    "ESCALERA",
+    "middle"
+   ],
+   [
+    5,
+    9.2,
+    "SERVIDOR",
+    "middle"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5
+   }
+  ]
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "id": "LU-P169",
+ "bloque": "Técnica y duelos",
+ "titulo": "Fútbol-tenis 2 contra 2",
+ "formato": "2v2 · fútbol-tenis",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–12 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "12 min",
+ "series": "Partidos a 7 puntos o de 3′; los ganadores suben de campo y los perdedores bajan (propuesta). Con más de 4, varios campos.",
+ "objetivo": "Técnica individual y habilidad (fuente): control del balón aéreo con todas las superficies, pase al compañero y envío preciso al campo rival. Cómo explicarlo: haz un punto de ejemplo con las tres reglas: un bote como mucho, dos toques mínimo por equipo y nadie toca dos veces seguidas. Errores típicos: dejar botar dos veces, controlar fuerte hacia arriba, enviar el balón sin mirar a los rivales. Qué observar: control amortiguado, comunicación entre los dos, envío al hueco o a la espalda del rival. Montaje detallado (propuesta): campo de 12 × 10 m dividido en 2 zonas de 6 × 10 m; red, cuerda a 1 m o una fila de conos como separación.",
+ "montaje": "Campo de 12 × 10 m dividido en 2 zonas iguales por una red o cuerda baja. Una pareja en cada zona.",
+ "juego": "Saca un jugador al campo rival (fuente). Allí el balón puede botar una vez; luego deben dar al menos 2 toques (sin que nadie toque 2 seguidas) antes de devolverlo, y ya no puede botar en su campo (fuente).",
+ "punto": "Punto: 2 botes en campo rival, doble toque o envío fuera.",
+ "consigna": "Amortigua y busca el hueco.",
+ "variantes": {
+  "facil": "Dos botes permitidos y un toque de cada uno no obligatorio (propuesta).",
+  "dificil": "Máximo 3 toques por equipo, o solo con la pierna mala (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): dos botes y red en el suelo. Alevín (10–11): tal cual. Infantil (12–13): cuerda a 1 m y máximo 3 toques (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE CALENTAMIENTO - FÚTBOL TÉNIS - TÉCNICA INDIVIDUAL Y HABILIDAD",
+  "ref": "300 ejercicios Level Up Coach · p. 169 (tarea 168)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Separación de las zonas, formato del partido, rotación de campos y variantes (propuesta). Reglas y puntos de la fuente.",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 13,
+   "ymin": -1,
+   "ymax": 11
+  },
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     10
+    ],
+    ""
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3
+    ],
+    "b": [
+     3.5,
+     7.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     3.5,
+     7.5
+    ],
+    "b": [
+     8.2,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "balls": [
+   [
+    8.4,
+    5
+   ]
+  ],
+  "labels": [
+   [
+    6,
+    10.8,
+    "RED O CUERDA",
+    "middle"
+   ]
+  ]
+ }
+}

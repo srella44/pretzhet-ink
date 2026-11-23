@@ -1,0 +1,388 @@
+{
+ "id": "LU-P148",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tres estaciones de agilidad",
+ "formato": "Circuito · 3 grupos",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–15 jug.",
+ "espacio": "20 × 18 m",
+ "duracion": "15 min",
+ "series": "3 rondas de 4′ (una por estación) con 1′ para cambiar de estación; en cada estación sale uno cada 6–8″ (propuesta). Los 3 grupos rotan: 1 → 2 → 3.",
+ "objetivo": "Movilidad, coordinación y cambios de ritmo y dirección (fuente) como activación o bloque físico-técnico. Al final de cada estación se añade una acción con balón (propuesta) para que no sea solo carrera. Cómo explicarlo: un jugador hace cada estación de ejemplo; el grupo copia. Errores típicos: pasos largos y lentos en la escalera, frenar con el talón, girar el cuerpo entero en el desplazamiento lateral, pisar las picas. Qué observar: apoyos cortos y rápidos, centro de gravedad bajo al frenar, brazos coordinados. Montaje detallado (propuesta): 3 estaciones en paralelo, separadas 6 m. Estación 1: cuadrado de 4 picas de 1 m (dentro, fuera por un lado, dentro, fuera por el otro), 6 picas de eslalon y escalera. Estación 2: escalera (apoyos laterales, cambiando de lado a mitad), 5 aros y 2 picas a 5 m (sprint, frenada, carrera de espaldas y salida a la otra). Estación 3: 5 conos en zigzag para desplazamiento lateral y eslalon en picas.",
+ "montaje": "Tres estaciones en paralelo, separadas 6 m, un grupo en cada una: picas y escalera; escalera, aros y 2 picas; conos y eslalon.",
+ "juego": "E1: entrar y salir del cuadrado de picas, eslalon y escalera a un apoyo. E2: escalera lateral, un apoyo por aro y sprint con frenada y carrera de espaldas entre picas. E3: desplazamiento lateral entre conos y eslalon a tope (fuente). Al acabar, pase al siguiente (propuesta).",
+ "punto": "Sin puntos. Reto: recorrido limpio sin tocar material.",
+ "consigna": "Apoyos cortos y rápidos.",
+ "variantes": {
+  "facil": "Quitar los aros y hacer el eslalon a ritmo medio (propuesta).",
+  "dificil": "Al final de cada estación, recibir un pase y conducir a una puerta de conos, o reacción a una señal del míster (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): solo las estaciones 1 y 3, en forma de juego por relevos. Alevín (10–11): tal cual. Infantil (12–13): con balón al final de cada estación (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "CIRCUITO FÍSICO - COORDINATIVO 3",
+  "ref": "300 ejercicios Level Up Coach · p. 148 (tarea 147)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente da 1 jugador y 20 × 18 m: reparto en 3 grupos, distancias, tiempos, rotación, pase final y reto (propuesta). La fuente no tiene balón: se propone añadirlo al final de cada estación.",
+ "diagrama": {
+  "field": [
+   20,
+   18
+  ],
+  "nofield": true,
+  "tag": "20 × 18 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21,
+   "ymin": -0.5,
+   "ymax": 18.5
+  },
+  "cones": [
+   [
+    2,
+    1.5
+   ],
+   [
+    3.5,
+    1.5
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3.5,
+    3
+   ],
+   [
+    6,
+    2.2
+   ],
+   [
+    7.5,
+    2.2
+   ],
+   [
+    9,
+    2.2
+   ],
+   [
+    10.5,
+    2.2
+   ],
+   [
+    3,
+    14.5
+   ],
+   [
+    4.5,
+    16.5
+   ],
+   [
+    6,
+    14.5
+   ],
+   [
+    7.5,
+    16.5
+   ],
+   [
+    9,
+    14.5
+   ],
+   [
+    12,
+    15.5
+   ],
+   [
+    13.5,
+    15.5
+   ],
+   [
+    15,
+    15.5
+   ],
+   [
+    16.5,
+    15.5
+   ],
+   [
+    17,
+    8.5
+   ],
+   [
+    19.5,
+    8.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     12.5,
+     1.6
+    ],
+    [
+     17.5,
+     1.6
+    ],
+    ""
+   ],
+   [
+    [
+     12.5,
+     2.8
+    ],
+    [
+     17.5,
+     2.8
+    ],
+    ""
+   ],
+   [
+    [
+     12.5,
+     1.6
+    ],
+    [
+     12.5,
+     2.8
+    ],
+    ""
+   ],
+   [
+    [
+     13.75,
+     1.6
+    ],
+    [
+     13.75,
+     2.8
+    ],
+    ""
+   ],
+   [
+    [
+     15,
+     1.6
+    ],
+    [
+     15,
+     2.8
+    ],
+    ""
+   ],
+   [
+    [
+     16.25,
+     1.6
+    ],
+    [
+     16.25,
+     2.8
+    ],
+    ""
+   ],
+   [
+    [
+     17.5,
+     1.6
+    ],
+    [
+     17.5,
+     2.8
+    ],
+    ""
+   ],
+   [
+    [
+     2,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    ""
+   ],
+   [
+    [
+     2,
+     9.2
+    ],
+    [
+     7,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     3.25,
+     8
+    ],
+    [
+     3.25,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     4.5,
+     8
+    ],
+    [
+     4.5,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     5.75,
+     8
+    ],
+    [
+     5.75,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9.2
+    ],
+    ""
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 9.5,
+    "y": 8.6,
+    "r": 0.6
+   },
+   {
+    "t": "circle",
+    "x": 11,
+    "y": 8.6,
+    "r": 0.6
+   },
+   {
+    "t": "circle",
+    "x": 12.5,
+    "y": 8.6,
+    "r": 0.6
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0,
+    "y": 2.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 0,
+    "y": 8.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 15.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.6,
+     2.2
+    ],
+    "b": [
+     18,
+     2.2
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     0.6,
+     8.6
+    ],
+    "b": [
+     16.4,
+     8.6
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     1.6,
+     15.5
+    ],
+    "b": [
+     17.6,
+     15.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "nt": 0.3
+   }
+  ],
+  "labels": [
+   [
+    0,
+    5.2,
+    "ESTACIÓN 1",
+    "start"
+   ],
+   [
+    0,
+    11.6,
+    "ESTACIÓN 2",
+    "start"
+   ],
+   [
+    0,
+    18.3,
+    "ESTACIÓN 3",
+    "start"
+   ]
+  ]
+ }
+}

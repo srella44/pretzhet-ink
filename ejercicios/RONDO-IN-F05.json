@@ -1,0 +1,174 @@
+{
+ "id": "RONDO-IN-F05",
+ "bloque": "Técnica y duelos",
+ "titulo": "2 contra 2 con apoyos",
+ "formato": "2v2 + 4 apoyos",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "6–8 partidos de 90″ a máxima intensidad con 45″ de pausa mientras se rotan los puestos (fuente: partidos de 90″ y cambio). Con 12 jugadores, 4 esperan fuera y entran en el siguiente cambio (propuesta).",
+ "objetivo": "Atacar y defender en igualdad 2 contra 2 usando a los apoyos para salir de la presión y finalizar rápido. Cómo explicarlo: «el apoyo es tu tercer compañero: dásela y desmárcate para que te la devuelva de cara». Errores típicos: pasar al apoyo y quedarse quieto, los dos atacantes en la misma línea, defender los dos al balón y dejar libre al otro. Qué observar: desmarque justo después del pase al apoyo, ataque rápido a portería tras la devolución, defensa que tapa el pase al apoyo. Montaje detallado (propuesta): cuadrado de 20 × 20 m con una miniportería de 3 m (o portería de fútbol 7 sin portero) en el centro de cada fondo; los 2 apoyos de cada equipo se colocan fuera, a 2–3 m a cada lado del poste de la portería que atacan.",
+ "montaje": "20 × 20 m, una portería de 3 m en cada fondo. 2 contra 2 dentro; cada equipo, 2 apoyos fuera junto a la portería que ataca.",
+ "juego": "Partidos de 90″ a tope (fuente). Los apoyos juegan a 2 toques, solo con su equipo y no marcan. Balón fuera: saca el rival. Tras gol, saca el que lo recibe desde su fondo. A los 90″, los apoyos entran y los de dentro salen a apoyar.",
+ "punto": "Gol: 1 punto. Gol tras pase de un apoyo: 2 (fuente).",
+ "consigna": "Dásela al apoyo y desmárcate.",
+ "variantes": {
+  "facil": "3 contra 3 dentro (fuente), o apoyos que pueden conducir 2 m por fuera (propuesta).",
+  "dificil": "Apoyos a un toque (fuente), o el gol solo vale si el último pase viene de un apoyo (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 3 contra 3 y cuadrado de 22 × 20 m. Infantil (12–13): tal cual. Cadete: 25 × 20 m con porterías de fútbol 7 y portero (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Dos contra dos con apoyos (IN-F05)",
+  "ref": "RONDO Vol. 4 · Infantil · págs. 11, 20, 22"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tamaño de las porterías, colocación exacta de los apoyos, toques de los apoyos, saques, rotación y pausas (propuesta). Jugadores propuestos.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -1,
+   "ymax": 22.2
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    20,
+    10,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.6,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.6,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": -1.6,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -1.6,
+    "y": 15.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     13
+    ],
+    "b": [
+     21.6,
+     15.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 12
+   },
+   {
+    "a": [
+     10,
+     5.5
+    ],
+    "b": [
+     16,
+     10
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     21.6,
+     15.5
+    ],
+    "b": [
+     16.6,
+     10.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     16.8,
+     10.2
+    ],
+    "b": [
+     19.6,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    21.7,
+    "APOYOS FUERA, A LOS LADOS DE LA PORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

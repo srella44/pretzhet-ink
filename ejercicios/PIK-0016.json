@@ -1,0 +1,233 @@
+{
+ "id": "PIK-0016",
+ "bloque": "Técnica y duelos",
+ "titulo": "Asegura el robo",
+ "formato": "5v2 · 2 cuadrados",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "7–14 jug.",
+ "espacio": "2 × (10 × 10 m)",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; con 14 jugadores, dos grupos de 7 con sus dos cuadrados (propuesta).",
+ "objetivo": "Rondo con traslado: conservar, cambiar de cuadrado para escapar de la presión y, al robar, asegurar el balón antes de cambiar de papel. Cómo explicarlo: «robar no basta: tienes que dar un pase o salir conduciendo». Errores típicos: el que roba lo pierde al primer toque, los 5 que pierden el balón se quedan mirando, cambiar de cuadrado sin que nadie esté allí para recibir. Qué observar (fuente): ¿el jugador que pierde balón reacciona mientras el rival intenta asegurar su primera acción? Montaje detallado (propuesta): dos cuadrados de 10 × 10 m separados 4 m; 5 atacantes y 2 defensores empiezan en uno; el otro, vacío.",
+ "montaje": "Dos cuadrados de 10 × 10 m separados 4 m. En uno, 5 atacantes contra 2 defensores; el otro, vacío.",
+ "juego": "Tras 4 pases seguidos pueden pasar a uno que se desmarca al otro cuadrado; van todos y los 2 defensores les siguen (fuente). Si roban, deben dar un pase entre ellos o salir conduciendo; entonces cambian con los 2 últimos que tocaron.",
+ "punto": "Cambio de cuadrado: 1 a los 5. Robo asegurado: 1 a los 2.",
+ "consigna": "Si pierdes, aprieta ya.",
+ "variantes": {
+  "facil": "Cambio de cuadrado tras 3 pases, o defensores que tienen que robar y salir conduciendo (sin pase) (propuesta).",
+  "dificil": "Máximo 2 toques a los 5, o el cambio solo vale si el pase cruza a ras de suelo (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cuadrados de 12 × 12 m y 3 toques. Infantil (12–13): tal cual. Cadete: 2 toques y cuadrados de 9 m (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Consolidar el robo antes del cambio de rol",
+  "ref": "Bcoach · Birrondal"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Separación entre cuadrados, quién pasa a defender tras el robo, toques, series y puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   10
+  ],
+  "nofield": true,
+  "tag": "2 × 10 × 10 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -1.5,
+   "ymax": 11.5
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     10,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     10
+    ],
+    ""
+   ],
+   [
+    [
+     10,
+     10
+    ],
+    [
+     0,
+     10
+    ],
+    ""
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     14,
+     0
+    ],
+    [
+     24,
+     0
+    ],
+    ""
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     10
+    ],
+    ""
+   ],
+   [
+    [
+     24,
+     10
+    ],
+    [
+     14,
+     10
+    ],
+    ""
+   ],
+   [
+    [
+     14,
+     10
+    ],
+    [
+     14,
+     0
+    ],
+    ""
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 1.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 6.3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     1.8
+    ],
+    "b": [
+     17,
+     3
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     9,
+     8.2
+    ],
+    "b": [
+     17.2,
+     3.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     6.5,
+     6.3
+    ],
+    "b": [
+     15.5,
+     6.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    19,
+    9,
+    "CUADRADO LIBRE",
+    "middle"
+   ]
+  ]
+ }
+}

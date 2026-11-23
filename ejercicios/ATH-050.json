@@ -1,0 +1,217 @@
+{
+ "id": "ATH-050",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cuadrante y laterales",
+ "formato": "7v7 (8v8 o 9v9)",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "14–18 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′30″ de pausa; en la pausa, corrección táctica de 30″ (propuesta). 8 contra 8 o 9 contra 9 (fuente) en 45 × 45 m.",
+ "objetivo": "Unir posesión y finalización (fuente): circular para mover al rival, buscar la amplitud que dan las porterías laterales y atacar la portería que quede libre; en defensa, bascular y cerrar el lado del balón. Cómo explicarlo: «si cierran el centro, abre a la banda; si van a la banda, entra por dentro». Errores típicos: jugar siempre hacia el mismo lado, extremos metidos dentro, defensa que no bascula y deja libre la lateral. Qué observar: posiciones, orden y distancias entre líneas (fuente), cambios de orientación y llegadas de segunda línea. Montaje detallado (propuesta): cuadrado de 40 × 40 m; 2 miniporterías de 3 m en cada fondo, a 12 m de cada banda; una miniportería lateral en el centro de cada banda (a la altura del medio campo), válida para los dos equipos; cada equipo con su dibujo (p. ej. 2-3-1 + portero de campo en 7 contra 7).",
+ "montaje": "40 × 40 m. Cada equipo defiende 2 miniporterías en su fondo. En cada banda, a mitad, una miniportería lateral para los dos.",
+ "juego": "7 contra 7 respetando puestos y distancias (fuente). Máximo 3 toques. Se circula para abrir al rival y se finaliza en una portería de fondo rival o en una lateral. Tras gol o fuera, saca de su fondo el que defendía.",
+ "punto": "Gol en fondo: 2. En lateral: 1. 10 pases seguidos: 1.",
+ "consigna": "Abre por fuera, finaliza por dentro.",
+ "variantes": {
+  "facil": "Toques libres y gol en lateral solo con conducción (propuesta).",
+  "dificil": "Gol en lateral solo a un toque, o la lateral solo cuenta tras un cambio de orientación (propuesta). Siguiente de la serie: 2 laterales + 1 interior (ATH-051)."
+ },
+ "adaptacion": "Alevín (10–11): 5 contra 5 en 30 × 30 m. Infantil (12–13): 7 contra 7 tal cual. Cadete: 8 contra 8 o 9 contra 9 en 45 × 45 m (fuente) (propuesta).",
+ "fuente": {
+  "autor": "Athletic Club · Manual de ejercicios (Lezama 2005)",
+  "titulo_original": "P. 4 P.P. 2 P.P. LATERALES - CUADRANTE (7/7 - 8/8 - 9/9)",
+  "ref": "Manual de ejercicios Athletic Club · p. 69"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "El texto de la fuente llega cortado y no hay PDF en el repositorio: medidas, colocación de las porterías, que las laterales valgan para los dos, toques, saques y puntuación son propuesta. Diagrama con 4 contra 5 para que se lea.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2.8,
+   "ymax": 42
+  },
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    0,
+    28,
+    "L"
+   ],
+   [
+    40,
+    12,
+    "R"
+   ],
+   [
+    40,
+    28,
+    "R"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 3
+   },
+   {
+    "x": 20,
+    "y": 40,
+    "lado": "B",
+    "ancho": 3
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     20
+    ],
+    "b": [
+     14,
+     7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     14,
+     7
+    ],
+    "b": [
+     27,
+     17
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     27,
+     17
+    ],
+    "b": [
+     39.5,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     14,
+     7
+    ],
+    "b": [
+     19.6,
+     1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    -1.6,
+    "LATERAL (LOS DOS)",
+    "start"
+   ]
+  ]
+ }
+}

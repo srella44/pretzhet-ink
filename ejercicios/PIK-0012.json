@@ -1,0 +1,170 @@
+{
+ "id": "PIK-0012",
+ "bloque": "Técnica y duelos",
+ "titulo": "Conecta los dos apoyos",
+ "formato": "4v4 + 4 apoyos",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "22 × 22 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa. En cada pausa, 2 jugadores de dentro cambian con sus apoyos, para que todos pasen por fuera (fuente: rotar apoyos; tiempos propuesta).",
+ "objetivo": "Conservar el balón con la idea de cambiar el sentido del juego: llegar a un lado y, desde ahí, encontrar el apoyo del lado contrario. Cómo explicarlo: «cuando la tengas arriba, alguien tiene que estar ya mirando abajo». Errores típicos: todos se van hacia el apoyo que tiene el balón, el apoyo devuelve a quien está tapado, no hay nadie perfilado para el cambio. Qué observar (fuente): tras llegar a un lado, ¿aparece un jugador perfilado para cambiar el sentido? Montaje detallado (propuesta): cuadrado de 22 m; los 2 apoyos amarillos fuera, a mitad de los lados de arriba y abajo; los 2 rojos, a mitad de los lados izquierdo y derecho; pueden moverse por fuera a lo largo de su lado.",
+ "montaje": "Cuadrado de 22 m. 4 contra 4 dentro. Cada equipo, 2 apoyos fuera en lados opuestos (amarillos arriba y abajo).",
+ "juego": "Dentro, máximo 3 toques. Pasar a un apoyo propio puntúa; este devuelve en 1–2 toques y se busca el apoyo contrario. Si el rival roba, ataca sus apoyos. Balón fuera: saca el apoyo más cercano del otro equipo.",
+ "punto": "Un apoyo: 1. Los dos en una posesión: 4 (fuente).",
+ "consigna": "Tras llegar a un lado, cambia el sentido.",
+ "variantes": {
+  "facil": "Apoyos con 3 toques y cuadrado de 25 m (propuesta).",
+  "dificil": "Apoyos a un toque, o el cambio solo vale 4 si el balón pasa por dentro antes de llegar al segundo apoyo (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4 contra 4 en 24 × 24 m, toques libres dentro. Infantil (12–13): tal cual. Cadete: 22 × 22 m y máximo 2 toques dentro (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Conectar los dos apoyos opuestos",
+  "ref": "FIFA Training Centre · Dynamic rondos and numerical advantages (12–15)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Límite de toques, toques de los apoyos, saque tras balón fuera, duración de las series y rotación de apoyos (propuesta). Diagrama con 3 de cada equipo dentro para que se lea.",
+ "diagrama": {
+  "field": [
+   22,
+   22
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 25,
+   "ymin": -3,
+   "ymax": 25
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6,
+    "f": [
+     11,
+     22
+    ]
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 16,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 9.5,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 23.8,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": -1.8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23.8,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     6
+    ],
+    "b": [
+     11,
+     -1.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     -1.8
+    ],
+    "b": [
+     15,
+     6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     15,
+     6
+    ],
+    "b": [
+     11,
+     16
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     11,
+     16
+    ],
+    "b": [
+     11,
+     23.8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 10,
+    "s1": 12
+   }
+  ]
+ }
+}

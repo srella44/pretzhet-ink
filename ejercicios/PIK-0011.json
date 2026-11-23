@@ -1,0 +1,183 @@
+{
+ "id": "PIK-0011",
+ "bloque": "Técnica y duelos",
+ "titulo": "Gánate el derecho a atacar",
+ "formato": "3v3 + portero",
+ "edad": "9–12 años",
+ "nivel": "Fácil",
+ "jugadores": "7–14 jug.",
+ "espacio": "24 × 16 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; con 14 jugadores, dos campos o equipos que entran cada serie (propuesta).",
+ "objetivo": "Transición defensa-ataque: tras robar, asegurar el balón y llevarlo controlado a la línea para ganarse el derecho a atacar. Cómo explicarlo: «robar es la mitad; la otra mitad es dejar el balón quieto en la línea». Errores típicos: tras robar, chutar el balón lejos; todos van al balón y nadie se abre; el equipo que pierde no presiona. Qué observar (fuente): ¿se abre un compañero para facilitar la salida inmediatamente después del robo? Montaje detallado (propuesta): 24 × 16 m; portería de fútbol 7 con portero en un fondo; el otro fondo es la línea de parada, marcada con conos.",
+ "montaje": "24 × 16 m. En un fondo, portería con portero; el otro fondo es una línea de conos. 3 contra 3 dentro.",
+ "juego": "Un equipo ataca la portería (fuente). Si el otro roba (o para el portero y se la da), tiene que llevar el balón y pararlo con la suela sobre la línea: entonces cambian los papeles (fuente) y saca el portero al nuevo atacante. Tras gol, sigue atacando el mismo.",
+ "punto": "Gol: 1. Parar el balón en la línea: derecho a atacar.",
+ "consigna": "Al robar, ábrete y asegura.",
+ "variantes": {
+  "facil": "Vale parar el balón en cualquier punto de la mitad contraria (propuesta).",
+  "dificil": "La línea solo vale tras 3 pases, o 3 contra 3 + 1 comodín que defiende siempre (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 2 contra 2 + portero en 20 × 14 m. Alevín (10–11): tal cual. Infantil (12–13): 4 contra 4 en 30 × 20 m (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Ganar el derecho a atacar",
+  "ref": "England Football Learning · Transition session – transition to attack"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Qué pasa cuando para el portero, saque tras cambio de papel, quién sigue tras gol, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26,
+   "ymin": -1,
+   "ymax": 17.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 8,
+    "lado": "L",
+    "ancho": 5
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     23,
+     0,
+     24,
+     16
+    ]
+   }
+  ],
+  "cones": [
+   [
+    24,
+    0
+   ],
+   [
+    24,
+    4
+   ],
+   [
+    24,
+    8
+   ],
+   [
+    24,
+    12
+   ],
+   [
+    24,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.2,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     4.5
+    ],
+    "b": [
+     14.5,
+     2.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     8,
+     10
+    ],
+    "b": [
+     14.5,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     15,
+     3
+    ],
+    "b": [
+     23.4,
+     3.5
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    22.6,
+    17,
+    "PARAR EL BALÓN AQUÍ",
+    "end"
+   ]
+  ]
+ }
+}

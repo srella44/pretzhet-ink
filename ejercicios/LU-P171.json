@@ -1,0 +1,216 @@
+{
+ "id": "LU-P171",
+ "bloque": "Técnica y duelos",
+ "titulo": "Posición en 2 zonas",
+ "formato": "6v6 + 4 comodines",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "16 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′30″ de pausa; los comodines cambian cada serie (propuesta).",
+ "objetivo": "Juego de posición con juego interior, amplitud, paredes y tercer hombre, y presión tras pérdida (fuente). Cómo explicarlo: dibuja el 4-3-3 y coloca a cada uno en su zona: «los de dentro buscan al de fuera libre y el balón tiene que llegar a la otra zona». Errores típicos: comodines escondidos, mediocentro de espaldas, extremos metidos dentro, no presionar al perder. Qué observar: perfil para jugar hacia la otra zona, ocupación de los lados exteriores (fuente), reacción a la pérdida. Montaje detallado (propuesta): 30 × 24 m dividido en 2 zonas de 15 × 24 m; cada equipo pone en una zona a su mediocentro y 2 interiores y en la otra a 2 extremos y su delantero (fuente); 2 comodines en cada zona, que van con el equipo que tiene allí a su mediocentro: atacan con él y defienden contra el rival (fuente: comodines ofensivos o defensivos según el balón y la zona).",
+ "montaje": "30 × 24 m en 2 zonas. Cada equipo: mediocentro e interiores en una; extremos y delantero en otra. 2 comodines por zona.",
+ "juego": "Se conserva con los comodines (fuente), máximo 3 toques. Los de cada zona van con el equipo que tiene allí su centro del campo: atacan o defienden según quién tenga el balón (fuente). Cada uno juega en su zona.",
+ "punto": "10 pases: 1. Pase de zona a zona recibido: 1.",
+ "consigna": "Busca al libre de la otra zona.",
+ "variantes": {
+  "facil": "Toques libres y comodines siempre con el que tiene el balón (propuesta).",
+  "dificil": "2 toques, o el punto de zona a zona solo vale con tercer hombre (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 5 contra 5 + 2 comodines en 30 × 24 m, sin dibujo fijo. Cadete (14–15): tal cual con 3 toques. Juvenil: 2 toques (propuesta). Fuente de fútbol profesional.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO POSICIÓN - JUEGO INTERIOR - AMPLITUD - TRANSICIONES",
+  "ref": "300 ejercicios Level Up Coach · p. 171 (tarea 170)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas de las zonas, con quién va cada pareja de comodines (interpretación de la fuente), toques, puntuación y series (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -1.8,
+   "ymax": 25
+  },
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 2.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 2.5,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 21.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26.5,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 18.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 27.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 27.5,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     12
+    ],
+    "b": [
+     2.5,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     2.5,
+     4
+    ],
+    "b": [
+     9.5,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     9.5,
+     5
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    -1,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    22.5,
+    -1,
+    "ZONA 2",
+    "middle"
+   ]
+  ]
+ }
+}

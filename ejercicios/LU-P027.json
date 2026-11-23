@@ -1,0 +1,175 @@
+{
+ "id": "LU-P027",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rueda de perfiles",
+ "formato": "Rueda de pases · 2 balones",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "26 × 18 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 45″ de pausa. Cada cierto número de vueltas se cambia la orientación para trabajar los dos perfiles (fuente). Tras cada serie, rotación de postas: A → B → C → A (propuesta).",
+ "objetivo": "Pase, control y orientación corporal (fuente): dejar de cara y perfilarse para el tercer hombre. Cómo explicarlo: un balón a cámara lenta con los números del recorrido; después salen los dos a la vez (fuente). Errores típicos: B recibe de frente y no se gira para ver a C, pases al pie equivocado, controles que frenan el balón, esperar quieto a recibir. Qué observar: B abre el cuerpo tras la dejada para recibir de C de cara; pases tensos a ras de suelo; ritmo continuo con los dos balones. Montaje detallado (propuesta): 26 × 18 m; una posta A en cada extremo del lado largo (2 jugadores en cada una), una posta C en el centro de cada banda (1 jugador) y dos B en el centro, cada una a 8 m de su A; un balón en cada A.",
+ "montaje": "26 × 18 m. Una posta A en cada extremo (2 jugadores), una C en cada banda y dos B en el centro. Un balón en cada A.",
+ "juego": "A pasa a su B, que la devuelve de cara (1). A juega con la C de su lado (2), que la da a B ya perfilado (3). B pasa a la C de la otra banda (4) y esta, a la A del otro extremo (5), que vuelve a empezar. 2 balones a la vez.",
+ "punto": "Sin puntos. Reto: 6 vueltas sin fallo en 2′30″.",
+ "consigna": "Perfílate antes de recibir.",
+ "variantes": {
+  "facil": "Un solo balón y dos toques en todos los pases (propuesta).",
+  "dificil": "Todo a un toque salvo C, o un defensor pasivo junto a cada B (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 16 m y un balón. Infantil (12–13): tal cual. Cadete: dos balones a un toque (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE - Técnica ofensiva - Pases - Orientación corporal",
+  "ref": "300 ejercicios Level Up Coach · p. 27 (tarea 26)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de las postas, jugadores por posta, rotación, tiempos y reto (propuesta). Sin gráfico original: se dibuja el recorrido de un balón.",
+ "diagrama": {
+  "field": [
+   26,
+   18
+  ],
+  "dashed": true,
+  "tag": "26 × 18 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 29,
+   "ymin": -1.5,
+   "ymax": 19.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.6,
+    "y": 9,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 0.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 17.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     9,
+     10.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     1,
+     9
+    ],
+    "b": [
+     13,
+     0.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     13,
+     0.5
+    ],
+    "b": [
+     9,
+     10.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     9,
+     10.5
+    ],
+    "b": [
+     13,
+     17.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     13,
+     17.5
+    ],
+    "b": [
+     25,
+     9
+    ],
+    "k": "pass",
+    "n": 5,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   }
+  ]
+ }
+}

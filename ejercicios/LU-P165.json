@@ -1,0 +1,182 @@
+{
+ "id": "LU-P165",
+ "bloque": "Técnica y duelos",
+ "titulo": "Por las seis zonas",
+ "formato": "3v3 + 3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "21 × 14 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; gana el equipo con más puntos al final (propuesta).",
+ "objetivo": "Circular con pases filtrados y cerrar líneas de pase (fuente): los poseedores fijos en su carril se ofrecen entre defensores; los defensores presionan y anticipan. Cómo explicarlo: «el balón tiene que tocar las seis casillas: busca la que aún no ha tocado». Errores típicos: jugar siempre con el de al lado, recibir tapado, defensores que persiguen el balón todos juntos. Qué observar: perfil y movimiento dentro de la casilla para dar línea de pase, pase tenso entre dos defensores, acoso al poseedor y cierre del pase interior. Montaje detallado (propuesta): rectángulo de 21 × 14 m dividido en 2 zonas por la mitad y en 3 carriles de 4,7 m: 6 casillas; un poseedor de cada equipo en cada casilla de su zona; los 3 defensores libres por todo el campo.",
+ "montaje": "21 × 14 m en 2 zonas y 3 carriles: 6 casillas. Dos equipos poseedores, uno por casilla en su zona; 3 defensores libres.",
+ "juego": "Los poseedores no salen de su casilla (fuente), máximo 2 toques. Hay que pasar el balón por las 6 casillas sin que roben. Si los defensores roban, cambian el papel con el equipo que perdió el balón y ocupan sus casillas (fuente).",
+ "punto": "Balón por las 6 casillas sin robo: 1 (fuente).",
+ "consigna": "Ofrécete entre los defensores.",
+ "variantes": {
+  "facil": "3 toques y defensores que solo pueden estar 2 en una misma zona (propuesta).",
+  "dificil": "Un toque, o el punto solo cuenta si se pasa de zona con un pase filtrado entre dos defensores (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 24 × 16 m y 3 toques. Infantil (12–13): tal cual. Cadete: un toque en la zona del balón (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO POSESIÓN 3vs3+3 EN SEIS ZONAS - CIRCULACIÓN",
+  "ref": "300 ejercicios Level Up Coach · p. 165 (tarea 164)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas de cada casilla, toques, defensores libres, series y variantes (propuesta). Sin gráfico original.",
+ "diagrama": {
+  "field": [
+   21,
+   14
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 22,
+   "ymin": -1,
+   "ymax": 15
+  },
+  "lines": [
+   [
+    [
+     10.5,
+     0
+    ],
+    [
+     10.5,
+     14
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     4.67
+    ],
+    [
+     21,
+     4.67
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     9.33
+    ],
+    [
+     21,
+     9.33
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 2.3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 11.7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 2.3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 11.7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 10.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     2.3
+    ],
+    "b": [
+     6.5,
+     7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     6.5,
+     7
+    ],
+    "b": [
+     15,
+     7
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.65
+   },
+   {
+    "a": [
+     15,
+     7
+    ],
+    "b": [
+     17.5,
+     2.3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   }
+  ]
+ }
+}

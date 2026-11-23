@@ -1,0 +1,163 @@
+{
+ "id": "DOS-049",
+ "bloque": "Técnica y duelos",
+ "titulo": "1 contra 1 con pared",
+ "formato": "1v1 + 2 comodines",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–12 jug.",
+ "espacio": "15 × 10 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ con 1′ de pausa (fuente: 15′). Cada 2′ los comodines cambian con dos jugadores de las filas. Con más de 6 jugadores, dos zonas a la vez (propuesta).",
+ "objetivo": "Doy y salgo: superar al defensor con una pared sin delatar el pase (fuente). Hábitos: mirar antes de recibir, dar el pase y salir. Cómo explicarlo: «llévale el balón al defensor; cuando se acerque, pared y adelante». Errores típicos: hacer la pared lejos del defensor, avisar con el cuerpo de a quién se va a pasar, pasar y frenar. Qué observar: pared desde cerca, con cambio de ritmo y a un toque; el comodín se ofrece en línea y devuelve al espacio; el defensor sigue al atacante y no al balón (táctico defensivo de la sesión). Montaje detallado (propuesta): zona de 15 × 10 m; un comodín fuera de cada banda larga, a mitad; fila de atacantes detrás de un fondo y fila de defensores con balones detrás del otro.",
+ "montaje": "Zona de 15 × 10 m. Un comodín fuera de cada banda, a mitad. Atacantes en fila en un fondo; defensores con balón en el otro.",
+ "juego": "El defensor pasa al atacante y sale a defender (fuente). El atacante debe superarle con una pared con un comodín y cruzar conduciendo el fondo rival; sin pared no vale. Si roba o sale el balón, acaba. Cambian de fila.",
+ "punto": "Fondo tras pared: 1 (fuente). Robo: 1 al defensor.",
+ "consigna": "Pared de cerca y sin delatar el pase.",
+ "variantes": {
+  "facil": "El defensor no puede entrar hasta que el atacante toca el balón dos veces, o zona de 15 m de ancho (propuesta).",
+  "dificil": "Comodines a un toque, o el atacante puede elegir 1 contra 1 sin pared pero solo vale medio punto (propuesta). Progresión de la fuente: 2 contra 2 + 4 comodines en 15 × 15 m."
+ },
+ "adaptacion": "Alevín (10–11): zona de 15 × 12 m y defensor que sale 1″ tarde. Infantil (12–13): tal cual, comodines a 1 toque en la última serie (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego de aplicación 1v1+2C: pared",
+  "ref": "Dosier de sesiones · pág. 14 (S1.2)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Meta en el fondo y punto vienen de la base (propuesta previa); colocación de las filas, final de la acción, rotación de comodines, punto del defensor y series (propuesta). Edad propuesta.",
+ "diagrama": {
+  "field": [
+   15,
+   10
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 17.5,
+   "ymin": -3,
+   "ymax": 13
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     0,
+     15,
+     10
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 6.2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16.4,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 11.6,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5.5
+    ],
+    "b": [
+     7.5,
+     -1.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 12
+   },
+   {
+    "a": [
+     4.6,
+     5.2
+    ],
+    "b": [
+     10.8,
+     2.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     7.5,
+     -1.6
+    ],
+    "b": [
+     11.2,
+     2.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     11.2,
+     2.4
+    ],
+    "b": [
+     14.6,
+     3.2
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    17.3,
+    -2.4,
+    "CRUZAR EL FONDO",
+    "end"
+   ]
+  ]
+ }
+}
