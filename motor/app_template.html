@@ -6,6 +6,7 @@
 <title>Escòla · by Prètzhèt Ink</title>
 <meta name="description" content="Escòla: banco de ejercicios de fútbol base, by Prètzhèt Ink.">
 <meta name="theme-color" content="#050F20">
+<link rel="icon" type="image/svg+xml" href="%%ICON%%">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -17,7 +18,7 @@ body { margin:0; color:var(--ink); font-family: Inter, system-ui, -apple-system,
 button, input, select { font-family: inherit; letter-spacing: inherit }
 .top { position: sticky; top: 0; z-index: 20; background: var(--navy); color:#fff; padding: 12px 24px 12px; border-bottom: 3px solid var(--coral) }
 .row1 { display:flex; align-items:center; gap:18px; max-width:1600px; margin:0 auto }
-.brand img { height:54px; width:auto; display:block }
+.brand img { height:54px; width:auto; display:block } .brand img.lg2 { height:60px }
 .search { flex: 1; max-width: 680px; margin: 0 auto; position: relative }
 .search input { width:100%; border:1px solid rgba(255,255,255,.12); border-radius: 999px; padding: 12px 18px 12px 44px; font-size: 14.5px; background: rgba(255,255,255,.08); color: #fff; outline: none; transition: background .15s, box-shadow .15s }
 .search input::placeholder { color: rgba(255,255,255,.5) }
@@ -194,7 +195,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   .tool h2 { font-size: 24px } .tool select { font-size: 12px; padding: 7px 10px }
   .feat { padding: 12px 12px 14px } .feat .g { grid-auto-columns: 62% }
   .wrap { padding: 12px 10px 90px }
-  .row1 { gap: 6px } .brand img { height: 36px } .bn { display:none } .hb { font-size: 12px; padding: 6px 9px } .btn-f { margin-left: 0; padding: 8px 11px; font-size: 12px }
+  .row1 { gap: 6px } .brand img.lg2 { height: 38px } .hb { font-size: 12px; padding: 6px 9px } .btn-f { margin-left: 0; padding: 8px 11px; font-size: 12px }
   .top { padding: 8px 10px 8px } .blocks { padding-top: 8px }
 }
 .side .go { display:none }
@@ -211,7 +212,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 <body>
 <header class="top" id="top">
   <div class="row1">
-    <button class="brand" id="logo" title="Inicio"><img src="%%LOGO%%" alt="Prètzhèt Ink · Inicio"><span class="bn"><b>Escòla</b><small>by Prètzhèt Ink</small></span></button>
+    <button class="brand" id="logo" title="Inicio"><img class="lg2" src="%%LOGO2%%" alt="Escòla by Prètzhèt Ink · Inicio"></button>
     <label class="search"><svg viewBox="0 0 16 16"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="Buscar un ejercicio: rondo, 3v2, pared, portero…" autocomplete="off"></label>
     <span class="acct" id="acct"></span><button class="hb" id="bfav" title="Mis favoritos">♥ Favoritos <b id="nfav">0</b></button><button class="hb" id="bses">Sesiones <b id="nses">0</b></button>
