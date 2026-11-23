@@ -152,3 +152,6 @@ Separación automática de jugadores (2026-11-23): `_separa` en `motor/ficha_eng
 ## Etiqueta «IA» para los ejercicios con solo título (2026-11-23, Sergio)
 - Los de toplidercoach Fútbol Base, SoccerDrive y SoccerXpert que solo traen título se siguen desarrollando a fondo, pero llevan en la app la etiqueta «IA» (y se filtran por ella). Cambio en `motor/build_app.py`; sale en la app con la próxima tanda del carril A (290 ejercicios de la app la llevan).
 - No entran en el libro salvo Porteros: hoy el libro solo tiene los 36 de Porteros de este tipo, así que `datos/seleccion.json` no cambia.
+
+## Objetivo final (2026-11-23, Sergio)
+- Banco cerrado en unas 3.250 fichas: la cola actual (3.302) menos los «IA» que se eliminen. Libro: 1.000. No se añaden más fuentes salvo petición expresa.
