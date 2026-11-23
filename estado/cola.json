@@ -624,37 +624,43 @@
 "id": "TFB100-075",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"prioridad": true
 },
 {
 "id": "TFB100-077",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"prioridad": true
 },
 {
 "id": "TFB100-080",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"prioridad": true
 },
 {
 "id": "TFB100-071",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"prioridad": true
 },
 {
 "id": "PIK-0005",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"prioridad": true
 },
 {
 "id": "IG-Dc9SVeSzQbJ",
 "fase": 1,
 "bloque": "Porteros",
-"nota": "TOP del libro"
+"nota": "TOP del libro",
+"prioridad": true
 },
 {
 "id": "PI-TP-001",
@@ -7101,37 +7107,43 @@
 "id": "TFB100-076",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"prioridad": true
 },
 {
 "id": "TFB100-078",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"prioridad": true
 },
 {
 "id": "TFB100-079",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"prioridad": true
 },
 {
 "id": "TFB100-072",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"prioridad": true
 },
 {
 "id": "TFB100-074",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"prioridad": true
 },
 {
 "id": "TFB100-073",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"prioridad": true
 },
 {
 "id": "PI-TP-002",
@@ -7249,7 +7261,8 @@
 "id": "PIK-0006",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"prioridad": true
 },
 {
 "id": "ORI-0169",
@@ -7297,7 +7310,8 @@
 "id": "IG-DMaioZ2xOBh",
 "fase": 2,
 "bloque": "Porteros",
-"nota": "libro"
+"nota": "libro",
+"prioridad": true
 },
 {
 "id": "PI-TP-012",
@@ -15779,49 +15793,57 @@
 "id": "IG-DRuaDv5kajR",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "resto del banco (app)"
+"nota": "resto del banco (app)",
+"prioridad": true
 },
 {
 "id": "IG-Df4kDWTsQui",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "resto del banco (app)"
+"nota": "resto del banco (app)",
+"prioridad": true
 },
 {
 "id": "IG-Dfx4nODKEOJ",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "resto del banco (app)"
+"nota": "resto del banco (app)",
+"prioridad": true
 },
 {
 "id": "JL-0977",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "resto del banco (app)"
+"nota": "resto del banco (app)",
+"prioridad": true
 },
 {
 "id": "JL-0986",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "resto del banco (app)"
+"nota": "resto del banco (app)",
+"prioridad": true
 },
 {
 "id": "JL-0995",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "resto del banco (app)"
+"nota": "resto del banco (app)",
+"prioridad": true
 },
 {
 "id": "JL-1019",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "resto del banco (app)"
+"nota": "resto del banco (app)",
+"prioridad": true
 },
 {
 "id": "PIK-AV-028",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "resto del banco (app)"
+"nota": "resto del banco (app)",
+"prioridad": true
 },
 {
 "id": "ORI-0105",
@@ -17139,7 +17161,8 @@
 "id": "TLC-0336",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "toplidercoach · solo 16+/18+, adaptar a fútbol base (app, propuesta)"
+"nota": "toplidercoach · solo 16+/18+, adaptar a fútbol base (app, propuesta)",
+"prioridad": true
 },
 {
 "id": "TLC-0339",
@@ -19053,7 +19076,8 @@
 "id": "TLC-0703",
 "fase": 4,
 "bloque": "Porteros",
-"nota": "toplidercoach · solo 16+/18+, adaptar a fútbol base (app, propuesta)"
+"nota": "toplidercoach · solo 16+/18+, adaptar a fútbol base (app, propuesta)",
+"prioridad": true
 },
 {
 "id": "TLC-0704",
@@ -19756,5 +19780,257 @@
 "fase": 4,
 "bloque": "Partidos y situaciones reales",
 "nota": "Vídeo de Sergio · fotogramas en fuentes/videos (propuesta)"
+},
+{
+"id": "WEB-0328",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0329",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0330",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0383",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0384",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0385",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0386",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0387",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0410",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0440",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0706",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0717",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0809",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0815",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1031",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1051",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1651",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1685",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1686",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1687",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1691",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1695",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1700",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1701",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1702",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1704",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1705",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1707",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0490",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0793",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0919",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-0935",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1053",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1647",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1563",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
+},
+{
+"id": "WEB-1587",
+"fase": 2,
+"bloque": "Porteros",
+"nota": "Portero: desarrollar a fondo (propuesta)",
+"prioridad": true
 }
 ]
