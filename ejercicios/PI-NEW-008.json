@@ -1,0 +1,88 @@
+{
+ "id": "PI-NEW-008",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Malabares suaves",
+ "formato": "Individual",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "Todo el grupo",
+ "espacio": "15 × 12 m",
+ "duracion": "4 min",
+ "series": "3 tandas de 10.",
+ "objetivo": "Tacto con el balón en reposo.",
+ "montaje": "Cada jugador con su balón, repartidos por el campo con 3 m de espacio libre alrededor.",
+ "juego": "Lanzan el balón con las manos a la altura del pecho y lo controlan con el empeine o la suela, sin dejar que se aleje. Cuentan en voz baja 10 toques seguidos. Si falla, empiezan otra vez desde 1. Hacen 3 tandas de 10, alternando el pie.",
+ "punto": "Sin puntuación. Cada uno compite contra sí mismo para llegar a 10.",
+ "consigna": "Toques suaves, sin prisa.",
+ "variantes": {
+  "facil": "Dejarlo botar una vez entre toque y toque.",
+  "dificil": "Alternar pie derecho e izquierdo."
+ },
+ "adaptacion": "En pequeños, ayudan con las manos.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Malabares suaves",
+  "ref": "Ficha propia nueva PI-NEW-008"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   15,
+   12
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 15.9,
+   "ymin": -0.9,
+   "ymax": 12.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    0.6,
+    "10 TOQUES",
+    "middle"
+   ]
+  ]
+ }
+}

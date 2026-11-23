@@ -1,0 +1,87 @@
+{
+ "id": "PI-NEW-011",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Estatuas de estiramiento",
+ "formato": "Individual",
+ "edad": "6–12 años",
+ "nivel": "Fácil",
+ "jugadores": "Todo el grupo",
+ "espacio": "20 × 14 m",
+ "duracion": "5 min",
+ "series": "4 estatuas.",
+ "objetivo": "Estirar sin perder el control del balón.",
+ "montaje": "Todos con balón en un campo de 20 × 14 m. El entrenador se coloca de pie en el centro, a la vista de todos.",
+ "juego": "Conducen despacio. Cuando el entrenador levanta la mano, paran el balón con la suela y se quedan quietos como una estatua. El entrenador dice un estiramiento (gemelo, muslo, hombro) y todos lo hacen 15 segundos. Luego vuelven a conducir. Repiten 4 veces.",
+ "punto": "Sin puntuación. Cada estatua bien hecha se premia con un aplauso del grupo.",
+ "consigna": "Para, estira y respira.",
+ "variantes": {
+  "facil": "Elegir ellos el estiramiento.",
+  "dificil": "Estirar con el balón bajo la suela."
+ },
+ "adaptacion": "Con pequeños, el estiramiento lo muestra el entrenador.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Estatuas de estiramiento",
+  "ref": "Ficha propia nueva PI-NEW-011"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 20.9,
+   "ymin": -0.9,
+   "ymax": 14.9
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": 10,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 3.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 10.5,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "labels": [
+   [
+    10,
+    1.4,
+    "ESTATUA 15 s",
+    "middle"
+   ]
+  ]
+ }
+}

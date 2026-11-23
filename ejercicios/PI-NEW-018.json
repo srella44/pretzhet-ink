@@ -1,0 +1,100 @@
+{
+ "id": "PI-NEW-018",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Pasa y estira",
+ "formato": "Parejas",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–20 jug.",
+ "espacio": "15 × 8 m",
+ "duracion": "5 min",
+ "series": "6 repeticiones por pareja.",
+ "objetivo": "Estirar lo que se acaba de trabajar.",
+ "montaje": "Parejas frente a frente, a 5 m, con un balón por pareja.",
+ "juego": "Uno pasa el balón y estira durante 10 segundos el músculo de la pierna con la que ha pasado (muslo o gemelo). Su pareja controla, pasa y estira igual con su pierna. Hacen 6 pases cada uno, estirando siempre justo después de pasar.",
+ "punto": "Sin puntuación. Dura 5 minutos.",
+ "consigna": "Pasa y estira la pierna.",
+ "variantes": {
+  "facil": "Estirar sin soltar el equilibrio apoyándose en la pareja.",
+  "dificil": "Alternar pierna cada pase."
+ },
+ "adaptacion": "Grupos pequeños: en tríos.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Pasa y estira",
+  "ref": "Ficha propia nueva PI-NEW-018"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   15,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 15.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     12,
+     4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     4
+    ],
+    "b": [
+     3,
+     4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    1.4,
+    "PASA → ESTIRA 10 s",
+    "middle"
+   ]
+  ]
+ }
+}

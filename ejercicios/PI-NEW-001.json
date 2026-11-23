@@ -1,0 +1,154 @@
+{
+ "id": "PI-NEW-001",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Paseo con respiración",
+ "formato": "Parejas",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–20 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "5 min",
+ "series": "Una vez, al final de la sesión.",
+ "objetivo": "Bajar pulsaciones con pases suaves y respiración lenta.",
+ "montaje": "Parejas con un balón, repartidas por un campo de 20 × 14 m. Todos van caminando; nadie corre en ningún momento.",
+ "juego": "Dentro de la pareja se pasan el balón despacio, a unos 4 m, sin dejar de caminar. Después de 3 pases seguidos se paran: inspiran 4 segundos por la nariz, sueltan el aire otros 4 por la boca y siguen. Así durante 5 minutos.",
+ "punto": "Sin puntuación. El entrenador avisa del final y todos se quedan quietos con una última respiración.",
+ "consigna": "Pasa suave y respira hondo.",
+ "variantes": {
+  "facil": "Pasos más cortos y balón más cerca.",
+  "dificil": "Cuentan 6 segundos al inspirar y 6 al soltar."
+ },
+ "adaptacion": "Con los pequeños, solo 2 respiraciones por parada.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Paseo con respiración",
+  "ref": "Ficha propia nueva PI-NEW-001"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 20.9,
+   "ymin": -0.9,
+   "ymax": 14.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 11,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     8,
+     3
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     3
+    ],
+    "b": [
+     3,
+     3
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     3,
+     7.5
+    ],
+    "b": [
+     8,
+     7.5
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     12,
+     11
+    ],
+    "b": [
+     17,
+     11
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    10,
+    13.2,
+    "3 PASES → RESPIRA",
+    "middle"
+   ]
+  ]
+ }
+}

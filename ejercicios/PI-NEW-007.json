@@ -1,0 +1,143 @@
+{
+ "id": "PI-NEW-007",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Tren lento de pases",
+ "formato": "Fila",
+ "edad": "7–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 10 m",
+ "duracion": "5 min",
+ "series": "Dos vueltas de campo.",
+ "objetivo": "Pase y apoyo caminando, sin prisa.",
+ "montaje": "Filas de 4 jugadores, uno detrás de otro y separados 3 m. El último de la fila lleva el balón. Todos caminan hacia el otro lado del campo.",
+ "juego": "Mientras caminan, el último pasa el balón al de delante, y este al siguiente, hasta llegar al primero. Cuando el balón llega al primero, este se retrasa, se coloca el último de la fila con el balón y empieza otra vez.",
+ "punto": "Sin puntuación. Cuentan cuántas veces cruzan el campo sin que el balón se pare.",
+ "consigna": "Camina y pasa con calma.",
+ "variantes": {
+  "facil": "Filas de 3.",
+  "dificil": "Pase al primer toque."
+ },
+ "adaptacion": "Reducir a 2 filas si el grupo es pequeño.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Tren lento de pases",
+  "ref": "Ficha propia nueva PI-NEW-007"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   20,
+   10
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 20.9,
+   "ymin": -0.9,
+   "ymax": 10.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.0,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5.6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.2,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.8,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.8,
+     5
+    ],
+    "b": [
+     9.2,
+     5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     9.2,
+     5
+    ],
+    "b": [
+     5.6,
+     5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     5.6,
+     5
+    ],
+    "b": [
+     2,
+     5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     14.5,
+     5
+    ],
+    "b": [
+     19,
+     5
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    10,
+    9.2,
+    "TODOS CAMINAN",
+    "middle"
+   ]
+  ]
+ }
+}

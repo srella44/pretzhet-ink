@@ -770,6 +770,28 @@
 "uso": "Interno: tú y tus compañeros (licencia no indicada)"
 },
 {
+"id": "TLC-0152",
+"blk": "Calentamiento",
+"rank": 71,
+"title": "Conducción, giro y tiro",
+"author": "toplidercoach · Entrenadores Top (Xabi Alonso)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0276",
+"blk": "Calentamiento",
+"rank": 72,
+"title": "Pases encadenados al portero",
+"author": "toplidercoach · Entrenadores Top (Ancelotti)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
 "id": "TFB100-093",
 "blk": "Técnica y duelos",
 "rank": 1,
@@ -1980,6 +2002,116 @@
 "uso": "Libre (diseño propio)"
 },
 {
+"id": "TLC-0060",
+"blk": "Técnica y duelos",
+"rank": 111,
+"title": "1v1 a dos perfiles",
+"author": "toplidercoach · Entrenadores Top (Mendilibar)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0302",
+"blk": "Técnica y duelos",
+"rank": 112,
+"title": "Balones a la jaula",
+"author": "toplidercoach · Entrenadores Top (Roger Schmidt)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0108",
+"blk": "Técnica y duelos",
+"rank": 113,
+"title": "Tiro y 1v1 tras eslalon",
+"author": "toplidercoach · Entrenadores Top (Iraola)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0296",
+"blk": "Técnica y duelos",
+"rank": 114,
+"title": "Pases en W",
+"author": "toplidercoach · Entrenadores Top (Niko Kovač)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0117",
+"blk": "Técnica y duelos",
+"rank": 115,
+"title": "De 1v0 a 4v4",
+"author": "toplidercoach · Entrenadores Top (Imanol Alguacil)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0144",
+"blk": "Técnica y duelos",
+"rank": 116,
+"title": "1v1 en cada área y 2v2",
+"author": "toplidercoach · Entrenadores Top (Klopp)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0232",
+"blk": "Técnica y duelos",
+"rank": 117,
+"title": "Carrera y 1v1 a miniportería",
+"author": "toplidercoach · Entrenadores Top (Thiago Motta)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0148",
+"blk": "Técnica y duelos",
+"rank": 118,
+"title": "Paredes entre picas",
+"author": "toplidercoach · Entrenadores Top (Rui Borges)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0069",
+"blk": "Técnica y duelos",
+"rank": 119,
+"title": "Persecución con giro",
+"author": "toplidercoach · Entrenadores Top (Kompany)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0399",
+"blk": "Técnica y duelos",
+"rank": 120,
+"title": "Control orientado y pase",
+"author": "toplidercoach · Entrenadores Top (TÉCNICA)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
 "id": "TFB25-005",
 "blk": "Rondos",
 "rank": 1,
@@ -3188,6 +3320,50 @@
 "score": 3.16,
 "top": "",
 "uso": "Interno: tú y tus compañeros (licencia no indicada)"
+},
+{
+"id": "IG-DMZqehNtBu4",
+"blk": "Rondos",
+"rank": 111,
+"title": "Rondo 5v2 con puerta",
+"author": "@fifatrainingcentre",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "VID-pn7gxduh",
+"blk": "Rondos",
+"rank": 112,
+"title": "Circuito 3v1, 4v2 y 3v1",
+"author": "Reel de Instagram (autor sin identificar)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0052",
+"blk": "Rondos",
+"rank": 113,
+"title": "Rondo con interior",
+"author": "toplidercoach · Entrenadores Top (Hansi Flick)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "VID-78fefrn9",
+"blk": "Rondos",
+"rank": 114,
+"title": "Rondo 3v2 con cambio de zona",
+"author": "Reel de Instagram (autor sin identificar)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
 },
 {
 "id": "TFB100-011",
@@ -5456,6 +5632,50 @@
 "uso": "Solo tú (suscripción personal / referencia pública; no redistribuir)"
 },
 {
+"id": "PI-NEW-022",
+"blk": "Superioridades",
+"rank": 87,
+"title": "2 contra 1 y relevo",
+"author": "Prètzhèt Ink · diseño propio",
+"kind": "Ficha propia nueva",
+"score": 0,
+"top": "",
+"uso": "Propio"
+},
+{
+"id": "PI-NEW-023",
+"blk": "Superioridades",
+"rank": 88,
+"title": "3 contra 2 por carriles",
+"author": "Prètzhèt Ink · diseño propio",
+"kind": "Ficha propia nueva",
+"score": 0,
+"top": "",
+"uso": "Propio"
+},
+{
+"id": "PI-NEW-024",
+"blk": "Superioridades",
+"rank": 89,
+"title": "4 contra 3 con cambio",
+"author": "Prètzhèt Ink · diseño propio",
+"kind": "Ficha propia nueva",
+"score": 0,
+"top": "",
+"uso": "Propio"
+},
+{
+"id": "PI-NEW-025",
+"blk": "Superioridades",
+"rank": 90,
+"title": "3 contra 3 con comodín",
+"author": "Prètzhèt Ink · diseño propio",
+"kind": "Ficha propia nueva",
+"score": 0,
+"top": "",
+"uso": "Propio"
+},
+{
 "id": "TFB100-031",
 "blk": "Oleadas y transiciones",
 "rank": 1,
@@ -7656,6 +7876,50 @@
 "uso": "Interno: tú y tus compañeros (licencia no indicada)"
 },
 {
+"id": "TLC-0150",
+"blk": "Finalización",
+"rank": 111,
+"title": "Pared y ruptura",
+"author": "toplidercoach · Entrenadores Top (Arbeloa)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0396",
+"blk": "Finalización",
+"rank": 112,
+"title": "Pared, giro y remate",
+"author": "toplidercoach · Entrenadores Top (Francesco Farioli)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0341",
+"blk": "Finalización",
+"rank": 113,
+"title": "Tiro por equipos",
+"author": "toplidercoach · Entrenadores Top (Zidane)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
+"id": "TLC-0168",
+"blk": "Finalización",
+"rank": 114,
+"title": "Cinco posiciones y remate",
+"author": "toplidercoach · Entrenadores Top (Iñigo Pérez)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
+},
+{
 "id": "TFB100-041",
 "blk": "Defensa y presión",
 "rank": 1,
@@ -8424,6 +8688,17 @@
 "score": 4.13,
 "top": "",
 "uso": "Interno: tú y tus compañeros (licencia no indicada)"
+},
+{
+"id": "TLC-0018",
+"blk": "Defensa y presión",
+"rank": 71,
+"title": "Defender el 3v2 + comodín",
+"author": "toplidercoach · Entrenadores Top (Gerrard)",
+"kind": "Referencia",
+"score": 0,
+"top": "",
+"uso": "Interno: tú y tus compañeros (propuesta)"
 },
 {
 "id": "TFB100-065",

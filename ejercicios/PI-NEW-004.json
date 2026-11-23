@@ -1,0 +1,127 @@
+{
+ "id": "PI-NEW-004",
+ "bloque": "Vuelta a la calma",
+ "titulo": "El espejo lento",
+ "formato": "Parejas",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–20 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "5 min",
+ "series": "2 minutos y cambio de guía.",
+ "objetivo": "Coordinación suave y atención al compañero.",
+ "montaje": "Parejas frente a frente, a 2 m, sin balón. Uno es el guía y el otro el espejo.",
+ "juego": "El guía hace movimientos muy lentos con brazos, piernas y tronco (levantar un brazo, dar un paso atrás, agacharse). El espejo los copia a la vez, como si fuera su reflejo. A los 2 minutos, a la señal del entrenador, cambian los papeles.",
+ "punto": "Sin puntuación. Si el guía va demasiado rápido, el espejo se lo dice y el guía repite el movimiento más despacio.",
+ "consigna": "Muévete despacio y mira a tu pareja.",
+ "variantes": {
+  "facil": "Solo movimientos de brazos.",
+  "dificil": "Añadir un balón en el suelo que el guía mueve con la suela y el espejo copia."
+ },
+ "adaptacion": "Con grupos pequeños, el entrenador hace de guía.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "El espejo lento",
+  "ref": "Ficha propia nueva PI-NEW-004"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 12.9,
+   "ymin": -0.9,
+   "ymax": 10.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": [
+     3,
+     6
+    ]
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 7,
+    "f": [
+     3,
+     3
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3,
+    "f": [
+     9,
+     6
+    ]
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 7,
+    "f": [
+     9,
+     3
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     1.6,
+     2
+    ],
+    "k": "run",
+    "s0": 5,
+    "s1": 5,
+    "side": 1,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     3,
+     7
+    ],
+    "b": [
+     1.6,
+     8
+    ],
+    "k": "run",
+    "s0": 5,
+    "s1": 5,
+    "side": 1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    3,
+    5,
+    "GUÍA",
+    "middle"
+   ],
+   [
+    9,
+    5,
+    "ESPEJO",
+    "middle"
+   ]
+  ]
+ }
+}

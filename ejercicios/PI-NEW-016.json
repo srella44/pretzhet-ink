@@ -1,0 +1,173 @@
+{
+ "id": "PI-NEW-016",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Pelota viajera",
+ "formato": "Corro",
+ "edad": "6–12 años",
+ "nivel": "Fácil",
+ "jugadores": "6–10 jug.",
+ "espacio": "14 × 11 m",
+ "duracion": "5 min",
+ "series": "Dos vueltas.",
+ "objetivo": "Bajar el ritmo sentados en grupo.",
+ "montaje": "Corro de 6 jugadores sentados en el suelo, con las piernas estiradas hacia el centro. Un balón.",
+ "juego": "Pasan el balón con las manos al de su derecha. Quien lo recibe lo sube sobre su cabeza, estira la espalda y lo pasa al siguiente. Dan una vuelta completa y después otra en sentido contrario.",
+ "punto": "Sin puntuación. El balón no puede tocar el suelo.",
+ "consigna": "Sube el balón y estira.",
+ "variantes": {
+  "facil": "Pasar solo con las manos y sin subir.",
+  "dificil": "Pasar el balón con los pies sentados."
+ },
+ "adaptacion": "Grupos de más de 6: dos corros.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Pelota viajera",
+  "ref": "Ficha propia nueva PI-NEW-016"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   10,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 10.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5.0,
+    "y": 0.6,
+    "f": [
+     5,
+     4.0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.46,
+    "y": 2.3,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 8.46,
+    "y": 5.7,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 5.0,
+    "y": 7.4,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1.54,
+    "y": 5.7,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1.54,
+    "y": 2.3,
+    "f": [
+     5,
+     4.0
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.0,
+     0.6000000000000001
+    ],
+    "b": [
+     8.46,
+     2.3
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8.46,
+     2.3
+    ],
+    "b": [
+     8.46,
+     5.7
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     8.46,
+     5.7
+    ],
+    "b": [
+     5.0,
+     7.4
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     5.0,
+     7.4
+    ],
+    "b": [
+     1.54,
+     5.7
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    5,
+    4.0,
+    "BALÓN ARRIBA",
+    "middle"
+   ]
+  ]
+ }
+}

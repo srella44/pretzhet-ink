@@ -1,0 +1,158 @@
+{
+ "id": "PI-NEW-009",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Tela de araña",
+ "formato": "Corro",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "14 × 11 m",
+ "duracion": "5 min",
+ "series": "Una vuelta y otra al revés.",
+ "objetivo": "Pase a distancia suave y atención a quién recibe.",
+ "montaje": "Corro de 6 jugadores de pie, separados 4 m, con un balón.",
+ "juego": "Pasan el balón al segundo compañero de su derecha, saltándose al del lado. Así el balón dibuja una estrella dentro del corro. Quien recibe hace un estiramiento de 3 segundos antes de pasar. A mitad de ronda cambian el sentido.",
+ "punto": "Sin puntuación. Termina cuando el balón vuelve al primer jugador.",
+ "consigna": "Pase suave y mira a quien recibe.",
+ "variantes": {
+  "facil": "Pasar al de al lado.",
+  "dificil": "Pasar a dos toques como máximo."
+ },
+ "adaptacion": "Con 7 u 8, saltar a un jugador en cada pase.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Tela de araña",
+  "ref": "Ficha propia nueva PI-NEW-009"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   10,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 10.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5.0,
+    "y": 0.6,
+    "f": [
+     5,
+     4.0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.46,
+    "y": 2.3,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 8.46,
+    "y": 5.7,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 5.0,
+    "y": 7.4,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1.54,
+    "y": 5.7,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1.54,
+    "y": 2.3,
+    "f": [
+     5,
+     4.0
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.0,
+     0.6000000000000001
+    ],
+    "b": [
+     8.46,
+     5.7
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8.46,
+     5.7
+    ],
+    "b": [
+     1.54,
+     5.7
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     1.54,
+     5.7
+    ],
+    "b": [
+     5.0,
+     0.6000000000000001
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    4.0,
+    "ESTRELLA",
+    "middle"
+   ]
+  ]
+ }
+}

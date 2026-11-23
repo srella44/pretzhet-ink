@@ -1,0 +1,191 @@
+{
+ "id": "PI-NEW-003",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Corro de estiramientos",
+ "formato": "Corro",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "14 × 11 m",
+ "duracion": "6 min",
+ "series": "Una ronda completa.",
+ "objetivo": "Estirar los músculos que más han trabajado y escuchar al compañero.",
+ "montaje": "Corro de 8 jugadores de pie, separados unos 3 m, con un balón. El jugador que lo tiene hace de guía en ese momento.",
+ "juego": "El guía propone un estiramiento (muslo, gemelo o espalda) y lo enseña. Todos lo hacen y lo aguantan 15 segundos, sin rebotes. Después el guía pasa el balón al compañero de su derecha, que propone otro estiramiento distinto. Así hasta dar la vuelta.",
+ "punto": "Sin puntuación. Termina cuando el balón vuelve al primer guía.",
+ "consigna": "Estira sin dolor y respira.",
+ "variantes": {
+  "facil": "El entrenador propone los estiramientos.",
+  "dificil": "Cada uno estira un músculo que haya usado hoy y dice cuál."
+ },
+ "adaptacion": "Con grupos mayores de 8, hacer varios corros.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Corro de estiramientos",
+  "ref": "Ficha propia nueva PI-NEW-003"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   10,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 10.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5.0,
+    "y": 0.6,
+    "f": [
+     5,
+     4.0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.83,
+    "y": 1.6,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9.0,
+    "y": 4.0,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 7.83,
+    "y": 6.4,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 5.0,
+    "y": 7.4,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.17,
+    "y": 6.4,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1.0,
+    "y": 4.0,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.17,
+    "y": 1.6,
+    "f": [
+     5,
+     4.0
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.0,
+     0.6000000000000001
+    ],
+    "b": [
+     7.83,
+     1.6
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7.83,
+     1.6
+    ],
+    "b": [
+     9.0,
+     4.0
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     9.0,
+     4.0
+    ],
+    "b": [
+     7.83,
+     6.4
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     7.83,
+     6.4
+    ],
+    "b": [
+     5.0,
+     7.4
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    5,
+    4.0,
+    "15 s",
+    "middle"
+   ]
+  ]
+ }
+}

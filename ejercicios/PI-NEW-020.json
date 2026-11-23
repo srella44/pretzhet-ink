@@ -1,0 +1,112 @@
+{
+ "id": "PI-NEW-020",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Pasa y camina",
+ "formato": "Dos filas",
+ "edad": "7–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–16 jug.",
+ "espacio": "18 × 8 m",
+ "duracion": "5 min",
+ "series": "Un cambio de lado cada 2 minutos.",
+ "objetivo": "Pase y movimiento a ritmo muy bajo.",
+ "montaje": "Dos filas frente a frente, a 8 m. El primero de una de ellas tiene el balón.",
+ "juego": "Pasa al primero de la fila contraria y camina hasta colocarse al final de esa fila. Quien recibe controla, pasa de vuelta al primero de la fila de enfrente y camina igual. El balón va y viene sin pararse, todos a ritmo de paseo.",
+ "punto": "Sin puntuación. Cuentan los pases seguidos sin fallo.",
+ "consigna": "Pasa, camina y relaja los brazos.",
+ "variantes": {
+  "facil": "Filas a 6 m.",
+  "dificil": "Pase de primeras."
+ },
+ "adaptacion": "Si son pocos, una sola pareja.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Pasa y camina",
+  "ref": "Ficha propia nueva PI-NEW-020"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   18,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 18.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     15,
+     3
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     3.6
+    ],
+    "b": [
+     3,
+     6.4
+    ],
+    "k": "run",
+    "s0": 8,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    9,
+    7.6,
+    "PASA Y CAMINA",
+    "middle"
+   ]
+  ]
+ }
+}

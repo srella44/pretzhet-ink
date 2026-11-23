@@ -1,0 +1,113 @@
+{
+ "id": "PI-NEW-013",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Suela suave",
+ "formato": "Individual",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "Todo el grupo",
+ "espacio": "14 × 10 m",
+ "duracion": "4 min",
+ "series": "20 segundos por pie.",
+ "objetivo": "Relajar los pies con balón.",
+ "montaje": "Cada jugador con balón, de pie, con 2 m libres alrededor. No hace falta descalzarse.",
+ "juego": "Pasan la suela por encima del balón y lo ruedan despacio: hacia delante, hacia atrás y hacia los lados. Lo hacen 20 segundos con cada pie, sin dejar que el balón se escape. Después lo paran y sacuden la pierna para soltar los músculos.",
+ "punto": "Sin puntuación. Dura 4 minutos en total.",
+ "consigna": "Pie relajado y balón suave.",
+ "variantes": {
+  "facil": "Sin cambiar de pie, 10 segundos.",
+  "dificil": "Rodar el balón alrededor del cuerpo sin mirar."
+ },
+ "adaptacion": "Con calzado de tacos, hacerlo con más cuidado.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Suela suave",
+  "ref": "Ficha propia nueva PI-NEW-013"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   14,
+   10
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 14.9,
+   "ymin": -0.9,
+   "ymax": 10.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3.9
+    ],
+    "b": [
+     4.3,
+     4.7
+    ],
+    "k": "run",
+    "s0": 6,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     11,
+     3.9
+    ],
+    "b": [
+     9.8,
+     4.7
+    ],
+    "k": "run",
+    "s0": 6,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    7,
+    5.4,
+    "20 s CADA PIE",
+    "middle"
+   ]
+  ]
+ }
+}

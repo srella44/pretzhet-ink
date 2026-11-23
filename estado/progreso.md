@@ -13,6 +13,33 @@
 
 | Hueco | ID creado |
 |---|---|
+| NUEVO-VC-01 | PI-NEW-001 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-02 | PI-NEW-002 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-03 | PI-NEW-003 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-04 | PI-NEW-004 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-05 | PI-NEW-005 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-06 | PI-NEW-006 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-07 | PI-NEW-007 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-08 | PI-NEW-008 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-09 | PI-NEW-009 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-10 | PI-NEW-010 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-11 | PI-NEW-011 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-12 | PI-NEW-012 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-13 | PI-NEW-013 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-14 | PI-NEW-014 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-15 | PI-NEW-015 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-16 | PI-NEW-016 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-17 | PI-NEW-017 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-18 | PI-NEW-018 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-19 | PI-NEW-019 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-20 | PI-NEW-020 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-VC-21 | PI-NEW-021 (fuera del libro y sin TOP, a petición de Sergio; solo en la app) |
+| NUEVO-SUP-01 | PI-NEW-022 (en el libro) |
+| NUEVO-SUP-02 | PI-NEW-023 (en el libro) |
+| NUEVO-SUP-03 | PI-NEW-024 (en el libro) |
+| NUEVO-SUP-04 | PI-NEW-025 (en el libro) |
+
+Fase 3 cerrada (2026-11-23, sesión con Sergio): 25 fichas PI-NEW. Sergio no quiere los 21 de Vuelta a la calma en el libro ni como TOP: se sustituyen en `datos/seleccion.json` por 21 fichas ya dibujadas (propuesta): 10 de Técnica y duelos (TLC-0060, -0302, -0108, -0296, -0117, -0144, -0232, -0148, -0069, -0399), 4 de Rondos (IG-DMZqehNtBu4, VID-pn7gxduh, TLC-0052, VID-78fefrn9), 4 de Finalización (TLC-0150, -0396, -0341, -0168), 2 de Calentamiento (TLC-0152, -0276) y 1 de Defensa y presión (TLC-0018). La selección queda en 1.000. Textos de las fichas propias reescritos con pasos concretos. No hay que crear más ejercicios nuevos: la tarea de ejercicios originales ya no tiene huecos.
 
 ## toplidercoach · Entrenadores Top (alta en el banco, 2026-11-22)
 

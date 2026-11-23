@@ -1,0 +1,99 @@
+{
+ "id": "PI-NEW-006",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Balón en la barriga",
+ "formato": "Individual",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "Todo el grupo",
+ "espacio": "10 × 8 m",
+ "duracion": "4 min",
+ "series": "10 respiraciones.",
+ "objetivo": "Relajar la respiración y bajar las pulsaciones.",
+ "montaje": "Cada jugador tumbado boca arriba, en fila y separados 2 m, con un balón apoyado sobre la barriga. Basta un espacio de 10 × 8 m.",
+ "juego": "Cierran los ojos y respiran hondo: el balón sube al inspirar y baja al soltar el aire. Hacen 10 respiraciones lentas contando en voz baja. Al terminar abren los ojos, se sientan despacio y esperan a que acaben los demás.",
+ "punto": "Sin puntuación. Si el balón se cae, lo colocan otra vez y siguen contando.",
+ "consigna": "Que el balón suba y baje despacio.",
+ "variantes": {
+  "facil": "Solo 5 respiraciones.",
+  "dificil": "Respirar contando hasta 5 al inspirar y 5 al soltar."
+ },
+ "adaptacion": "Con frío, hacerlo sentados con el balón en las rodillas.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Balón en la barriga",
+  "ref": "Ficha propia nueva PI-NEW-006"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   10,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 10.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 3.8,
+    "y": 4,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 6.1,
+    "y": 4,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 8.4,
+    "y": 4,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "balls": [
+   [
+    1.5,
+    4
+   ],
+   [
+    3.8,
+    4
+   ],
+   [
+    6.1,
+    4
+   ],
+   [
+    8.399999999999999,
+    4
+   ]
+  ],
+  "labels": [
+   [
+    5,
+    1.4,
+    "10 RESPIRACIONES",
+    "middle"
+   ]
+  ]
+ }
+}

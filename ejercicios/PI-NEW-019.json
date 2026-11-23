@@ -1,0 +1,154 @@
+{
+ "id": "PI-NEW-019",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Cuatro esquinas tranquilo",
+ "formato": "Cuadrado",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "5 min",
+ "series": "4 vueltas.",
+ "objetivo": "Pase y desplazamiento con calma.",
+ "montaje": "Cuadrado de 12 m con un cono en cada esquina. Un jugador por esquina y un balón. Las esquinas se numeran de 1 a 4.",
+ "juego": "El de la esquina 1 pasa a la 2 y camina hasta ocupar su sitio. El de la 2 controla, pasa a la 3 y camina hasta la esquina 3, y así sucesivamente. Cada vuelta completa cambian de sentido.",
+ "punto": "Sin puntuación. Cuentan las vueltas sin parar el balón.",
+ "consigna": "Pasa y camina a la siguiente esquina.",
+ "variantes": {
+  "facil": "Cuadrado de 8 m.",
+  "dificil": "Con un solo toque."
+ },
+ "adaptacion": "Si hay más gente, 2 cuadrados.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Cuatro esquinas tranquilo",
+  "ref": "Ficha propia nueva PI-NEW-019"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 12.9,
+   "ymin": -0.9,
+   "ymax": 12.9
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 2.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 9.5,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     2.5
+    ],
+    "b": [
+     9.5,
+     2.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     2.5
+    ],
+    "b": [
+     9.5,
+     9.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     9.5,
+     9.5
+    ],
+    "b": [
+     2.5,
+     9.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     2.5,
+     9.5
+    ],
+    "b": [
+     2.5,
+     2.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 4
+   }
+  ]
+ }
+}

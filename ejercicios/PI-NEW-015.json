@@ -1,0 +1,207 @@
+{
+ "id": "PI-NEW-015",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Tríos caminando",
+ "formato": "Tríos",
+ "edad": "7–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–18 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "5 min",
+ "series": "Dos sentidos de giro.",
+ "objetivo": "Pase y movimiento sencillo con calma.",
+ "montaje": "Tríos formando un triángulo de 4 m de lado, con un balón por trío. Cada trío ocupa su propio espacio.",
+ "juego": "Se pasan el balón siguiendo las agujas del reloj. Después de cada pase, quien pasó camina un paso hacia el compañero que recibió, así el triángulo gira poco a poco. Cuando completan 6 pases, cambian de sentido.",
+ "punto": "Sin puntuación. Cuentan los giros completos sin que el balón se pare.",
+ "consigna": "Pasa y camina un paso.",
+ "variantes": {
+  "facil": "Triángulo de 3 m.",
+  "dificil": "Pase al primer toque."
+ },
+ "adaptacion": "Si falta uno, en pareja.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Tríos caminando",
+  "ref": "Ficha propia nueva PI-NEW-015"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 20.9,
+   "ymin": -0.9,
+   "ymax": 12.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3.5,
+    "f": [
+     5,
+     5.5
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 3.5,
+    "f": [
+     5,
+     5.5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8,
+    "f": [
+     5,
+     5.5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3.5,
+    "f": [
+     15,
+     5.5
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3.5,
+    "f": [
+     15,
+     5.5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": [
+     15,
+     5.5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3.5
+    ],
+    "b": [
+     7,
+     3.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     3.5
+    ],
+    "b": [
+     5,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     8
+    ],
+    "b": [
+     3,
+     3.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     13,
+     3.5
+    ],
+    "b": [
+     15,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     17,
+     3.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     3.5
+    ],
+    "b": [
+     13,
+     3.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10,
+    11,
+    "CAMBIO DE SENTIDO CADA 6",
+    "middle"
+   ]
+  ]
+ }
+}

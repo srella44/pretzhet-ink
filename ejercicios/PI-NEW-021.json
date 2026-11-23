@@ -1,0 +1,189 @@
+{
+ "id": "PI-NEW-021",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Lo mejor del día",
+ "formato": "Corro",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "14 × 11 m",
+ "duracion": "5 min",
+ "series": "Una ronda.",
+ "objetivo": "Cerrar la sesión con algo positivo de cada uno.",
+ "montaje": "Corro sentado de 8 jugadores, con un balón. El entrenador se sienta dentro del corro.",
+ "juego": "El jugador que tiene el balón dice en una frase lo mejor que ha hecho hoy o algo bueno de un compañero. Después rueda el balón al de su derecha, y así hasta dar la vuelta completa. Todos aplauden al terminar cada intervención.",
+ "punto": "Sin puntuación. Nadie está obligado a hablar: puede pasar el balón sin decir nada.",
+ "consigna": "Di algo bueno y pasa.",
+ "variantes": {
+  "facil": "Solo decir un nombre y «gracias».",
+  "dificil": "Decir también qué quieres mejorar."
+ },
+ "adaptacion": "Prebenjamín: contestan con una palabra.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Lo mejor del día",
+  "ref": "Ficha propia nueva PI-NEW-021"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   10,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 10.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5.0,
+    "y": 0.6,
+    "f": [
+     5,
+     4.0
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.83,
+    "y": 1.6,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9.0,
+    "y": 4.0,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 7.83,
+    "y": 6.4,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 5.0,
+    "y": 7.4,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.17,
+    "y": 6.4,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1.0,
+    "y": 4.0,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.17,
+    "y": 1.6,
+    "f": [
+     5,
+     4.0
+    ]
+   },
+   {
+    "r": "C",
+    "x": 5,
+    "y": 4.0,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.0,
+     0.6000000000000001
+    ],
+    "b": [
+     7.83,
+     1.6
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7.83,
+     1.6
+    ],
+    "b": [
+     9.0,
+     4.0
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     9.0,
+     4.0
+    ],
+    "b": [
+     7.83,
+     6.4
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     7.83,
+     6.4
+    ],
+    "b": [
+     5.0,
+     7.4
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5
+   }
+  ]
+ }
+}

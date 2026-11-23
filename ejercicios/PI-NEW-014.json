@@ -1,0 +1,138 @@
+{
+ "id": "PI-NEW-014",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Camino de conos lento",
+ "formato": "Fila",
+ "edad": "7–13 años",
+ "nivel": "Fácil",
+ "jugadores": "5–15 jug.",
+ "espacio": "18 × 8 m",
+ "duracion": "5 min",
+ "series": "Ida y vuelta, 2 veces.",
+ "objetivo": "Control cercano con calma.",
+ "montaje": "Cinco conos en fila, separados 3 m, formando un camino de unos 18 m. Los jugadores esperan por turnos en un extremo, cada uno con su balón.",
+ "juego": "Cada jugador conduce el balón caminando en zigzag entre los conos, pasando uno por cada lado. Al llegar al final, deja el balón y vuelve andando con los brazos hacia arriba, respirando hondo. Sale el siguiente cuando el anterior pasa el tercer cono.",
+ "punto": "Sin puntuación. No se pisa ningún cono.",
+ "consigna": "Camina y toca suave.",
+ "variantes": {
+  "facil": "Conos separados 4 m.",
+  "dificil": "Con la pierna menos hábil."
+ },
+ "adaptacion": "Si hay mucha gente, dos caminos de conos.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Camino de conos lento",
+  "ref": "Ficha propia nueva PI-NEW-014"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   18,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 18.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "cones": [
+   [
+    3,
+    4
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    12,
+    4
+   ],
+   [
+    15,
+    4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 6.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     4
+    ],
+    "b": [
+     3.8,
+     3.2
+    ],
+    "k": "cond",
+    "s0": 8,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     3.2
+    ],
+    "b": [
+     7,
+     4.8
+    ],
+    "k": "cond",
+    "s0": 8,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     13.5,
+     4.8
+    ],
+    "b": [
+     17,
+     6.5
+    ],
+    "k": "run",
+    "s0": 8,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    9,
+    7.4,
+    "ZIGZAG",
+    "middle"
+   ]
+  ]
+ }
+}

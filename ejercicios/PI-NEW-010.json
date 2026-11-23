@@ -1,0 +1,153 @@
+{
+ "id": "PI-NEW-010",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Conducción en silencio",
+ "formato": "Individual",
+ "edad": "7–13 años",
+ "nivel": "Fácil",
+ "jugadores": "Todo el grupo",
+ "espacio": "20 × 14 m",
+ "duracion": "5 min",
+ "series": "Una vuelta de campo.",
+ "objetivo": "Conducción lenta y atención al espacio.",
+ "montaje": "Todos con un balón dentro de un campo de 20 × 14 m, sin conos. Nadie habla durante la actividad.",
+ "juego": "Conducen caminando despacio por todo el campo, mirando a los lados y sin tocar a nadie. Cuando el entrenador silba suave, cambian de dirección y siguen. Si dos balones se acercan, los dos jugadores se paran un momento y se dejan paso.",
+ "punto": "Sin puntuación. Dura 5 minutos.",
+ "consigna": "Despacio y sin hablar.",
+ "variantes": {
+  "facil": "Sin silbido: cambian cuando quieran.",
+  "dificil": "Con la pierna menos hábil."
+ },
+ "adaptacion": "Con muchos jugadores, usar más campo.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Conducción en silencio",
+  "ref": "Ficha propia nueva PI-NEW-010"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 20.9,
+   "ymin": -0.9,
+   "ymax": 14.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 7,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     9,
+     4
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     4
+    ],
+    "b": [
+     11,
+     4
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     10
+    ],
+    "b": [
+     9,
+     10
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     16,
+     10
+    ],
+    "b": [
+     11,
+     10
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    10,
+    1.2,
+    "SIN HABLAR",
+    "middle"
+   ]
+  ]
+ }
+}

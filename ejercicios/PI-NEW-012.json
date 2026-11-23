@@ -1,0 +1,113 @@
+{
+ "id": "PI-NEW-012",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Pase a un pie",
+ "formato": "Parejas",
+ "edad": "7–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–20 jug.",
+ "espacio": "12 × 8 m",
+ "duracion": "5 min",
+ "series": "5 pases por pie.",
+ "objetivo": "Equilibrio y pase suave.",
+ "montaje": "Parejas frente a frente, a 4 m, con un balón por pareja y espacio libre alrededor.",
+ "juego": "Se pasan el balón con el interior del pie mientras se mantienen sobre una sola pierna, con los brazos abiertos. Hacen 5 pases y cambian de pierna de apoyo. Si uno pierde el equilibrio y apoya el otro pie, la pareja vuelve a contar desde 1.",
+ "punto": "Sin puntuación. Cada pareja intenta llegar a 10 pases seguidos.",
+ "consigna": "Un pie en el suelo y pase suave.",
+ "variantes": {
+  "facil": "Pueden apoyar una mano en el hombro del compañero.",
+  "dificil": "Pase de interior y control con la suela."
+ },
+ "adaptacion": "Para pequeños, 3 m de separación.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Pase a un pie",
+  "ref": "Ficha propia nueva PI-NEW-012"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   12,
+   8
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 12.9,
+   "ymin": -0.9,
+   "ymax": 8.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 6,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     2.5
+    ],
+    "b": [
+     9,
+     2.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     6
+    ],
+    "b": [
+     3,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6,
+    4.2,
+    "UN PIE",
+    "middle"
+   ]
+  ]
+ }
+}

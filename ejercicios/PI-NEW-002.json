@@ -1,0 +1,143 @@
+{
+ "id": "PI-NEW-002",
+ "bloque": "Vuelta a la calma",
+ "titulo": "Pasa y un paso atrás",
+ "formato": "Parejas",
+ "edad": "6–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–20 jug.",
+ "espacio": "15 × 10 m",
+ "duracion": "5 min",
+ "series": "2 vueltas de ida y vuelta.",
+ "objetivo": "Pase suave y control de la distancia mientras baja el ritmo.",
+ "montaje": "Parejas frente a frente, separadas 4 m, con un balón por pareja. Cada pareja ocupa una franja de unos 12 × 3 m.",
+ "juego": "Se pasan el balón suave y, justo después de cada pase, los dos dan un paso atrás: se van alejando poco a poco hasta unos 12 m. Al llegar, vuelven acercándose un paso después de cada pase, hasta los 4 m del principio.",
+ "punto": "Sin puntuación. Una ida y vuelta completa es una serie; hacen dos.",
+ "consigna": "Pase suave, sin prisa.",
+ "variantes": {
+  "facil": "Empezar a 3 m y llegar solo a 8 m.",
+  "dificil": "Pasar con la pierna menos hábil."
+ },
+ "adaptacion": "Prebenjamín: máximo 6 m de separación.",
+ "fuente": {
+  "autor": "Prètzhèt Ink · diseño propio",
+  "titulo_original": "Pasa y un paso atrás",
+  "ref": "Ficha propia nueva PI-NEW-002"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ejercicio nuevo de diseño propio: todo (edad, medidas, series, reglas y diagrama) es propuesta, sin prueba de campo.",
+ "diagrama": {
+  "field": [
+   15,
+   10
+  ],
+  "dashed": true,
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 15.9,
+   "ymin": -0.9,
+   "ymax": 10.9
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     2.5
+    ],
+    "b": [
+     7,
+     2.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     7.5
+    ],
+    "b": [
+     2,
+     7.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     3,
+     2.5
+    ],
+    "b": [
+     1.4,
+     2.5
+    ],
+    "k": "run",
+    "s0": 5,
+    "s1": 5,
+    "side": 1,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     7,
+     2.5
+    ],
+    "b": [
+     9,
+     2.5
+    ],
+    "k": "run",
+    "s0": 5,
+    "s1": 5,
+    "side": 1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    5,
+    "UN PASO ATRÁS POR PASE",
+    "middle"
+   ]
+  ]
+ }
+}
