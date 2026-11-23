@@ -562,7 +562,17 @@ const GT = [
 const MIN_AGE = i => i <= 1 ? 60 : 90;
 const gs = { t: new Set(), age: 3, lvl: 1, n: 14, gk: 1, min: 90, kw: '', seed: 1 };
 let gplan = [], gpool = {};
-function rnd(i) { const x = Math.sin(i * 9301 + gs.seed * 49297) * 233280; return x - Math.floor(x); }
+// Variedad: cada propuesta es distinta. Se elige al azar entre los mejores (con más probabilidad los mejor puntuados)
+// y se evitan los ejercicios propuestos en las últimas sesiones (se recuerdan en este navegador).
+let RECENT = []; try { RECENT = JSON.parse(localStorage.getItem('pi-gen-recent') || '[]'); } catch (e) {}
+const recentSet = () => new Set(RECENT);
+function remember(ids) { RECENT = ids.concat(RECENT.filter(i => !ids.includes(i))).slice(0, 120); try { localStorage.setItem('pi-gen-recent', JSON.stringify(RECENT)); } catch (e) {} }
+function rnd() { return Math.random(); }
+function pickFrom(pool, ok, k) {
+  const c = pool.filter(x => ok(x[0])).slice(0, k || 30); if (!c.length) return null;
+  const top = c[0][1], w = c.map(x => Math.exp((x[1] - top) / 30)); let t = Math.random() * w.reduce((a, b) => a + b, 0);
+  for (let i = 0; i < c.length; i++) { t -= w[i]; if (t <= 0) return c[i][0]; } return c[c.length - 1][0];
+}
 function minOf(r) { const m = /(\d+)\s*min/.exec((r.x && r.x.dur) || ''); return m ? +m[1] : 0; }
 // La edad orienta pero no manda: cuenta más el nivel del grupo. Solo se descartan ejercicios muy alejados (más de 4 años).
 function ageGap(r) { if (!r.a) return 0; const g = AGES[gs.age]; return r.a[0] > g[2] ? r.a[0] - g[2] : r.a[1] < g[1] ? g[1] - r.a[1] : 0; }
@@ -577,7 +587,8 @@ function gscore(r, blocks, words, idx) {
   if (!gs.gk && needsGk(r)) s -= 60;
   const dl = Math.abs(Math.max(0, LV.indexOf(r.n)) - gs.lvl); s += [35, 10, -25, -60][dl];
   s -= [0, 12, 28, 45, 70][ageGap(r)];
-  return s + rnd(idx) * 30;
+  if (recentSet().has(r.i)) s -= 45;
+  return s;
 }
 function candidates(phase) {
   const sel = [...gs.t].map(i => GT[i]); const kw = gs.kw ? norm2(gs.kw).split(/\s+/).filter(w => w.length > 2).map(stem) : [];
@@ -585,14 +596,15 @@ function candidates(phase) {
   if (phase === 'cal') { blocks = [0, 2]; words = words.concat(['activacion','calentamiento']); }
   else if (phase === 'fin') { blocks = [8]; }
   else blocks = sel.length ? [...new Set(sel.flatMap(x => x[1]))] : [1,2,3,4,5,6,7];
-  return R.filter(r => fitsAge(r) && fitsPl(r)).map((r, j) => [r, gscore(r, blocks, words, j + phase.length * 7)]).filter(x => x[1] > -500).sort((a, b) => b[1] - a[1]).map(x => x[0]);
+  return R.filter(r => fitsAge(r) && fitsPl(r)).map((r, j) => [r, gscore(r, blocks, words, j + phase.length * 7)]).filter(x => x[1] > -500).sort((a, b) => b[1] - a[1]);
 }
 function similar(a, b) { const A = new Set(a._t.split(' ').filter(w => w.length > 3)), Bw = b._t.split(' ').filter(w => w.length > 3); if (!Bw.length) return false; return Bw.filter(w => A.has(w)).length / Bw.length >= .6; }
 function buildPlan() {
   const nMain = gs.min <= 50 ? 2 : gs.min <= 80 ? 3 : 4;
   const phases = ['cal'].concat(Array(nMain).fill('pri'), ['fin']);
   gpool = { cal: candidates('cal'), pri: candidates('pri'), fin: candidates('fin') };
-  const used = []; gplan = phases.map(ph => { const r = gpool[ph].find(c => !used.some(u => u === c || similar(u, c))); if (r) used.push(r); return { ph, r, k: 0 }; }).filter(x => x.r);
+  const used = []; gplan = phases.map(ph => { const r = pickFrom(gpool[ph], c => !used.some(u => u === c || similar(u, c)), ph === 'pri' ? 40 : 25); if (r) used.push(r); return { ph, r, seen: new Set(r ? [r.i] : []) }; }).filter(x => x.r);
+  remember(gplan.map(x => x.r.i));
   // Reparte el tiempo: calentamiento ~15 %, partido final ~20 %, el resto entre la parte principal
   const cal = Math.round(gs.min * .15 / 5) * 5 || 10, fin = Math.round(gs.min * .2 / 5) * 5 || 10, pri = gplan.filter(x => x.ph === 'pri').length || 1;
   const each = Math.max(8, Math.round((gs.min - cal - fin) / pri));
@@ -600,7 +612,9 @@ function buildPlan() {
 }
 function swap(i) {
   const x = gplan[i], pool = gpool[x.ph], others = gplan.filter((y, j) => j !== i).map(y => y.r);
-  for (let k = 1; k <= pool.length; k++) { const c = pool[(pool.indexOf(x.r) + k) % pool.length]; if (!others.some(u => u === c || similar(u, c))) { x.r = c; break; } }
+  const ok = c => c !== x.r && !others.some(u => u === c || similar(u, c));
+  const c = pickFrom(pool, c => ok(c) && !x.seen.has(c.i), 60) || pickFrom(pool, ok, 60);
+  if (c) { x.r = c; x.seen.add(c.i); remember([c.i]); }
   renderPlan();
 }
 function whyTxt(r) {
