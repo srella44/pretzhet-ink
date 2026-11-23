@@ -1,0 +1,146 @@
+{
+ "id": "RONDO-IN-U04",
+ "bloque": "Técnica y duelos",
+ "titulo": "El defensor que sale",
+ "formato": "1v1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–12 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "3 bloques de 3 min con 1 min de pausa; cada jugador defiende y ataca por turnos (unas 6 acciones por bloque) (propuesta).",
+ "objetivo": "Defensa del 1 contra 1 tras un pase: salir a cerrar, frenar al atacante con perfil de lado y orientarlo hacia fuera (fuente); para el atacante, recibir y desbordar. Cómo explicarlo: «sal rápido, frena a 2 m, ponte de lado y llévalo a la banda». Errores típicos: llegar en línea recta y lanzarse, ponerse de frente con los pies paralelos, dejar el camino interior libre. Qué observar: últimos pasos cortos, perfil y distancia. Montaje detallado: cuadrado de 15 × 12 m dentro de la estación de 25 × 20 m; miniportería en el centro de un lado corto; los defensores en fila junto a la miniportería y los atacantes en fila en el lado opuesto, con un balón cada defensor.",
+ "montaje": "Cuadrado de 15 × 12 m con una miniportería en un lado corto. Defensores en fila junto a ella con balón; atacantes enfrente.",
+ "juego": "El defensor pasa al atacante y sale a cerrarle. Tiene que frenarlo y llevarlo hacia fuera; el atacante intenta marcar en la miniportería. Acaba con gol, robo o balón fuera del cuadrado. Los dos cambian de fila: quien atacó pasa a defender.",
+ "punto": "Gol: 1 al atacante. Robo o sacarlo del cuadrado: 1 al defensor.",
+ "consigna": "Perfil de lado: llévalo fuera.",
+ "variantes": {
+  "facil": "Campo estrecho (fuente): 15 × 8 m.",
+  "dificil": "Dos miniporterías que defender (fuente), en las dos esquinas del lado corto."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín: cuadrado de 15 × 10 m y el defensor sale cuando el atacante controla. Cadete: el atacante tiene 5″ para marcar (propuesta). Frase de la fuente: «Perfil de lado: lo has llevado adonde querías». Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El defensor que sale (IN-U04)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 10"
+ },
+ "completado": "Medidas del cuadrado dentro de la estación, colocación de las filas, final de la acción, rotación y series (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   15,
+   12
+  ],
+  "tag": "15 × 12 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 18,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "goals": [
+   [
+    15,
+    6,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": 6,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 10,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     9
+    ],
+    "b": [
+     2.2,
+     6.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13,
+     9
+    ],
+    "b": [
+     8.5,
+     6.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 8,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     1.5,
+     6
+    ],
+    "b": [
+     6,
+     10.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 14,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    -1.5,
+    8.6,
+    "ATACAN",
+    "middle"
+   ],
+   [
+    16.5,
+    12.7,
+    "DEFIENDEN",
+    "middle"
+   ],
+   [
+    6.5,
+    1.2,
+    "LLEVARLO FUERA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "RONDO-PB-F06",
+ "bloque": "Técnica y duelos",
+ "titulo": "Uno contra uno pequeñito",
+ "formato": "1v1",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "2–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "12 min",
+ "series": "Partidos de 40″ y cambio de compañero; 8–10 partidos por jugador con 20″ para cambiar (propuesta).",
+ "objetivo": "Primeros duelos 1 contra 1: conducir hacia la portería, intentar marcar y, al perder, correr a recuperar enseguida (fuente: «Buena carrera para recuperarlo»). Cómo explicarlo: «tú contra tu amigo; si te lo quita, corre a por él». Errores típicos: chutar desde lejos sin pensar, quedarse parado al perder el balón, los dos agrupados encima del balón sin avanzar. Qué observar: conducción hacia delante, intentos de regate y reacción tras la pérdida. Montaje detallado: dentro de 15 × 15 m, 2 campitos de 8 × 5 m separados 2,5 m; en cada lado corto una portería ancha de 3–4 m con dos conos; un balón por campito y balones de reserva en el centro.",
+ "montaje": "Campitos de 8 × 5 m (dos caben en 15 × 15 m) con una portería ancha de conos en cada lado corto. Un niño contra otro.",
+ "juego": "Juegan 1 contra 1 durante 40″: el balón sale del centro del campito y cada uno ataca la portería de enfrente. Tras gol o fuera, el míster deja otro balón en medio. Al acabar los 40″, cada niño cambia de compañero (giran en el mismo sentido).",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "¡Si lo pierdes, corre a por él!",
+ "variantes": {
+  "facil": "Porterías anchísimas (fuente): todo el lado corto.",
+  "dificil": "El gol solo vale desde cerca (fuente): marca una línea de conos a 2 m de la portería."
+ },
+ "adaptacion": "Prebenjamín (6–7): tal cual, sin portero. Con 4–5 niños: 1 contra 1 y quien espera recoge balones. Benjamín: campitos de 12 × 8 m y porterías de 2 m (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Uno contra uno pequeñito (PB-F06)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 4"
+ },
+ "completado": "Ancho de porterías, saque del balón, forma de rotar y series (propuesta). Jugadores propuestos. El texto de referencias venía mezclado; se usó el del volumen.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   8,
+   5
+  ],
+  "tag": "campito 8 × 5 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 9,
+   "ymin": -2.6,
+   "ymax": 6.4
+  },
+  "cones": [
+   [
+    0,
+    0.5
+   ],
+   [
+    0,
+    4.5
+   ],
+   [
+    8,
+    0.5
+   ],
+   [
+    8,
+    4.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 1.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": -1.6,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": -1.6,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     2.5
+    ],
+    "b": [
+     5.4,
+     4
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 16,
+    "s1": 4
+   },
+   {
+    "a": [
+     5.4,
+     4
+    ],
+    "b": [
+     7.9,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 6,
+    "s1": 2
+   },
+   {
+    "a": [
+     5,
+     1.8
+    ],
+    "b": [
+     5.9,
+     3.2
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    4,
+    5.9,
+    "PORTERÍAS ANCHAS DE CONOS",
+    "middle"
+   ]
+  ]
+ }
+}

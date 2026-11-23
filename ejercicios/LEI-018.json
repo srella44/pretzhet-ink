@@ -1,0 +1,166 @@
+{
+ "id": "LEI-018",
+ "bloque": "Calentamiento",
+ "titulo": "Conducir, pasar y seguir",
+ "formato": "grupos de 3",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "20 min",
+ "series": "4 bloques de 4′ con 1′ de pausa: 1) pase básico; 2) control con el exterior y sacar a un lado; 3) control con el interior; 4) pase al grupo de al lado (fuente; tiempos propuestos). Duración de la fuente: 20′.",
+ "objetivo": "Preparación física y mental para la sesión, manejo del balón con confianza y técnica previa (fuente). Cómo explicarlo: haz la secuencia con un grupo y que el resto copie. Errores típicos: conducir con toques largos, quedarse mirando el pase sin seguirlo, pase flojo que obliga a ir a buscarlo. Qué observar: conducción con el exterior a velocidad constante y número de toques (fuente). Montaje detallado: grupos de 3 en paralelo, separados 4 m; dos jugadores detrás de un cono y uno detrás de otro cono a 12 m; un balón por grupo. Conos de salida y de pase (a 4 m de cada cono) para marcar dónde termina la conducción.",
+ "montaje": "Grupos de 3 en calles paralelas: 2 detrás de un cono y 1 detrás de otro a 12 m. Un balón por grupo.",
+ "juego": "A conduce 4 m, pasa a B (enfrente) y sigue su pase hasta la fila de B. B hace lo mismo hacia C, sin parar. Luego: control con el exterior y sacar el balón a un lado antes de pasar; después, control con el interior. Progresión: pasar al grupo de al lado.",
+ "punto": "Sin puntos (fuente). Reto: 20 pases en 1′ (propuesta).",
+ "consigna": "Conduce rápido y sigue tu pase.",
+ "variantes": {
+  "facil": "Calles de 8 m y control libre (propuesta).",
+  "dificil": "Pase a 1 toque tras la conducción, o la progresión al grupo de al lado con pase en diagonal de 12 m (fuente + propuesta)."
+ },
+ "adaptacion": "10–11 años: 8–10 m y control con la planta permitido. 12–13 años: 12 m, control con el exterior obligatorio y progresión diagonal (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Passing warm up 1",
+  "ref": "LeicesterCity.pdf · p. 21"
+ },
+ "completado": "Distancias (12 m y 4 m de conducción), tiempos por bloque y reto (propuesta). Jugadores y edad propuestos. Texto traducido y redactado con palabras propias.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1.5,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    3.5,
+    4
+   ],
+   [
+    16.5,
+    4
+   ],
+   [
+    3.5,
+    11
+   ],
+   [
+    16.5,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 4,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 11,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 0.5,
+    "y": 11,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 11,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     7.5,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     7.8,
+     4
+    ],
+    "b": [
+     16.5,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     7.6,
+     4.4
+    ],
+    "b": [
+     16,
+     6.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3,
+    "nt": 0.8
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.7,
+    "12 m",
+    "middle"
+   ],
+   [
+    11,
+    13.8,
+    "PROGRESIÓN: AL GRUPO DE AL LADO",
+    "middle"
+   ]
+  ]
+ }
+}

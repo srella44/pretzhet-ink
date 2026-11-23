@@ -1,0 +1,149 @@
+{
+ "id": "RONDO-AL-S07",
+ "bloque": "Técnica y duelos",
+ "titulo": "Uno contra uno con condición",
+ "formato": "1v1",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "2–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "Partidos de 45″ (fuente) con 45″ de descanso; la pareja que descansa recoge balones. Cambio de rival cada 2 partidos (propuesta).",
+ "objetivo": "Aplicar el tema del día (finta, cambio de dirección o protección del balón) en un 1 contra 1 real con dos porterías que defender y dos que atacar (fuente). Cómo explicarlo: di el tema antes de empezar y enséñalo una vez. Errores típicos: tirar de lejos sin usar el tema, conducir siempre hacia la misma portería, defender abierto y dejar pasar por el centro. Qué observar: atacar la portería libre tras la finta y proteger con el cuerpo entre rival y balón. Montaje detallado: campos de 15 × 10 m (dos caben en la estación de 20 × 20 m), dos miniporterías de 2 m en cada lado corto, en las esquinas; balones de reserva junto a cada campo.",
+ "montaje": "Campos de 15 × 10 m (dos en 20 × 20 m) con dos miniporterías en cada lado corto. 1 contra 1; otra pareja espera fuera.",
+ "juego": "El balón sale del centro y se juega 1 contra 1 durante 45″: cada uno defiende sus dos miniporterías y ataca las otras dos. Tras gol o fuera, saca desde su línea quien encajó. El gol logrado usando el tema del día vale doble.",
+ "punto": "Gol: 1 punto. Gol con el tema del día: 2 (fuente).",
+ "consigna": "Usa el tema del día para marcar.",
+ "variantes": {
+  "facil": "Miniporterías de 3 m (fuente).",
+  "dificil": "Miniporterías de 1 m (fuente). El gol solo vale desde dentro de una zona de 4 m (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): tal cual. Benjamín: miniporterías de 3 m y partidos de 30″. Infantil: miniporterías de 1 m y 2 contra 2 a continuación (propuesta). Frase de la fuente: «Has protegido el balón y luego te has girado: perfecto». Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Uno contra uno con condición (AL-S07)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 3"
+ },
+ "completado": "Medidas de cada campo y de las miniporterías, saque tras gol, descanso, rotación y series (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   15,
+   10
+  ],
+  "tag": "15 × 10 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 16.5,
+   "ymin": -2.8,
+   "ymax": 11.5
+  },
+  "goals": [
+   [
+    0,
+    2,
+    "L"
+   ],
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    15,
+    2,
+    "R"
+   ],
+   [
+    15,
+    8,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": -1.6,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": -1.6,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     5
+    ],
+    "b": [
+     6.5,
+     8
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 14,
+    "s1": 4
+   },
+   {
+    "a": [
+     6.5,
+     8
+    ],
+    "b": [
+     11.5,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     11.5,
+     8
+    ],
+    "b": [
+     14.7,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 4,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    10.8,
+    "FINTA = GOL DOBLE",
+    "middle"
+   ]
+  ]
+ }
+}

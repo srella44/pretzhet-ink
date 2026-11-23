@@ -1,0 +1,141 @@
+{
+ "id": "RONDO-AL-T01",
+ "bloque": "Calentamiento",
+ "titulo": "El semáforo",
+ "formato": "individual",
+ "edad": "10–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "15 min",
+ "series": "4 bloques de 3 min con 45″ de pausa; un color cada 5–8″ (propuesta). Estación de 15′ (fuente).",
+ "objetivo": "Conducción con las dos piernas y la cabeza alta, cambiando de ritmo según la señal (fuente: tema del bloque). Cómo explicarlo: enseña los tres colores con un ejemplo cada uno antes de empezar. Errores típicos: mirar el balón y no oír ni ver la señal, en «verde» dar toques largos y chocar, en «amarillo» usar la pierna buena. Qué observar: balón pegado al cambiar de ritmo y frenada con la suela en «rojo». Montaje detallado: cuadrado de 20 × 15 m con conos; un balón por jugador; el míster fuera, con tres conos o petos de colores (rojo, amarillo, verde) para enseñar la señal además de decirla.",
+ "montaje": "Todos dentro de un rectángulo de 20 × 15 m, cada uno con su balón. El míster fuera, con tres petos de colores.",
+ "juego": "Todos conducen libres. El míster canta o enseña un color: «rojo», balón parado con la suela; «amarillo», despacio con la pierna mala; «verde», se acelera sin tocar a nadie. Quien choca o se equivoca no suma ese semáforo y sigue jugando.",
+ "punto": "1 punto a quien llega a 10 «semáforos» sin chocar (fuente).",
+ "consigna": "Cabeza alta y balón pegado.",
+ "variantes": {
+  "facil": "Cuadrado más grande y solo verde y rojo (fuente).",
+  "dificil": "Se añade el «azul»: cambio de dirección con el exterior (fuente). La señal solo se enseña, sin decirla (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): tal cual. Benjamín: solo verde y rojo y 25 × 20 m. Infantil: añade «azul» y «blanco» (giro de 180° con la suela) (propuesta). Frase de la fuente: «Genial, el balón ha ido pegado al pie incluso al cambiar de ritmo». Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El semáforo (AL-T01)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 3"
+ },
+ "completado": "Señal visual con petos, qué pasa al fallar, consigna corta y series (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 23.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 150,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": -20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12.5,
+    "f": 10,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     4
+    ],
+    "b": [
+     10,
+     6.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     8,
+     10
+    ],
+    "b": [
+     13,
+     12.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     15.5,
+     9
+    ],
+    "b": [
+     17,
+     3
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 14,
+    "s1": 6
+   }
+  ],
+  "lights": [
+   [
+    21.8,
+    7.5
+   ]
+  ],
+  "labels": [
+   [
+    21.8,
+    11.6,
+    "MÍSTER",
+    "middle"
+   ]
+  ]
+ }
+}

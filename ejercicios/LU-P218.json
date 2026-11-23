@@ -1,0 +1,374 @@
+{
+ "id": "LU-P218",
+ "bloque": "Calentamiento",
+ "titulo": "Doble rueda con estaciones",
+ "formato": "2 grupos · ruedas",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "12–16 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "16 min",
+ "series": "4 series de 3 min con 1 min de pausa (fuente: 4 series). Serie 1: azules fuera, amarillos dentro, en un sentido. Serie 2: igual, en el otro sentido. Serie 3: se cambian los grupos. Serie 4: igual que la 3, en el otro sentido (fuente).",
+ "objetivo": "Activar con controles, conducción y técnica individual, y a la vez coordinación sin balón (fuente). Cómo explicarlo: muéstralo con un jugador en cada posta y una vuelta a cámara lenta; cada posta tiene su tarea fija. Errores típicos: salir tarde de la posta, parar la conducción para mirar, saltarse aros o huecos de la escalera, pases flojos en la rueda de dentro. Qué observar: control orientado hacia la siguiente posta y que nadie espere quieto. Montaje detallado (propuesta, la fuente da 40 × 90 m de zona y las tareas): cuadrado exterior de 24 m con 4 postas (J1–J4) en las esquinas; entre J2 y J3 dos conos para dar la vuelta; entre J4 y J1 conos de eslalon. Cuadrado interior de 12 m con 4 postas y una estación en cada lado: escalera (J1→J2), 3 vallas bajas (J2→J3), 3 aros (J3→J4) y 3 picas para carrera lateral (J4→J1).",
+ "montaje": "Cuadrado de 24 m con 4 postas para los azules y, dentro, otro de 12 m con 4 postas y estaciones: escalera, vallas, aros y picas.",
+ "juego": "Fuera, el azul que recibe conduce a la siguiente posta (recto, vuelta a conos, recto o eslalon) y la entrega; van 2 balones. Dentro, rueda de pases amarilla: tras pasar, cada uno va a la siguiente posta haciendo su estación.",
+ "punto": "Sin puntos. Reto (propuesta): más ruedas en 3′.",
+ "consigna": "Controla hacia la siguiente posta.",
+ "variantes": {
+  "facil": "Una sola rueda dentro y conducción recta en todas las postas (propuesta).",
+  "dificil": "Cambiar la secuencia de pases (fuente), pases a un toque dentro, o cambiar las tareas del grupo de dentro según lo que quiera trabajar el cuerpo técnico (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): cuadrado exterior de 20 m y sin aros. Infantil (12–13): tal cual. Cadete: pases a un toque y conducción a máxima velocidad (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "DINÁMICA DE CALENTAMIENTO 2 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "300 ejercicios Level Up Coach · p. 218 (tarea 217)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas de los cuadrados, colocación de las estaciones, número de balones, duración de cada serie y reto de ruedas (propuesta). Interpretación del recorrido a partir del texto (no hay diagrama original).",
+ "diagrama": {
+  "field": [
+   24,
+   24
+  ],
+  "dashed": true,
+  "tag": "25 × 25 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "lines": [
+   [
+    [
+     9,
+     8.0
+    ],
+    [
+     15,
+     8.0
+    ],
+    ""
+   ],
+   [
+    [
+     9,
+     9.2
+    ],
+    [
+     15,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     9.0,
+     8.0
+    ],
+    [
+     9.0,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     9.75,
+     8.0
+    ],
+    [
+     9.75,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     10.5,
+     8.0
+    ],
+    [
+     10.5,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     11.25,
+     8.0
+    ],
+    [
+     11.25,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     12.0,
+     8.0
+    ],
+    [
+     12.0,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     12.75,
+     8.0
+    ],
+    [
+     12.75,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     13.5,
+     8.0
+    ],
+    [
+     13.5,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     14.25,
+     8.0
+    ],
+    [
+     14.25,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     15.0,
+     8.0
+    ],
+    [
+     15.0,
+     9.2
+    ],
+    ""
+   ],
+   [
+    [
+     16.6,
+     11
+    ],
+    [
+     17.6,
+     11
+    ],
+    ""
+   ],
+   [
+    [
+     16.6,
+     13
+    ],
+    [
+     17.6,
+     13
+    ],
+    ""
+   ],
+   [
+    [
+     16.6,
+     15
+    ],
+    [
+     17.6,
+     15
+    ],
+    ""
+   ]
+  ],
+  "cones": [
+   [
+    23,
+    6.5
+   ],
+   [
+    23,
+    17.5
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    7.5
+   ],
+   [
+    1,
+    16.5
+   ],
+   [
+    1,
+    19
+   ],
+   [
+    7.4,
+    11
+   ],
+   [
+    7.4,
+    13
+   ],
+   [
+    7.4,
+    15
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 18,
+    "r": 0.7
+   },
+   {
+    "t": "circle",
+    "x": 12,
+    "y": 18,
+    "r": 0.7
+   },
+   {
+    "t": "circle",
+    "x": 14,
+    "y": 18,
+    "r": 0.7
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 1,
+    "y": 1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 1,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 23,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 1,
+    "y": 23,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 18,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     1
+    ],
+    "b": [
+     22.4,
+     1
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 10
+   },
+   {
+    "a": [
+     6,
+     6
+    ],
+    "b": [
+     17.4,
+     6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 10,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     23,
+     23
+    ],
+    "b": [
+     1.6,
+     23
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 10
+   },
+   {
+    "a": [
+     18,
+     6.8
+    ],
+    "b": [
+     18,
+     17.2
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ }
+}

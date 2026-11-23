@@ -1,0 +1,180 @@
+{
+ "id": "RONDO-IN-M07",
+ "bloque": "Calentamiento",
+ "titulo": "El juego de los reflejos",
+ "formato": "1v1 por parejas",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "4 bloques de 2 min con 30″ de pausa; unas 8–10 señales por bloque y cambio de pareja en cada bloque (propuesta).",
+ "objetivo": "Velocidad de reacción ante una señal y salida en conducción con el balón controlado. Cómo explicarlo: hazlo una vez con un jugador; tócate rápido la parte que cantas y di que «¡balón!» puede llegar en cualquier momento. Errores típicos: anticiparse antes de la palabra, coger el balón y conducir con toques largos que se escapan, girarse por el lado malo. Qué observar: atención, primer apoyo explosivo y el primer toque ya orientado hacia su línea. Montaje detallado: parejas frente a frente a 4 m, balón en el suelo a 2 m de cada uno; una línea de conos 6–8 m detrás de cada jugador; varias parejas en paralelo separadas 4 m.",
+ "montaje": "Parejas frente a frente a 4 m, con el balón en el suelo en medio. Cada uno tiene su línea de conos 7 m a su espalda.",
+ "juego": "El míster canta partes del cuerpo («¡rodilla!», «¡cabeza!») y los dos se las tocan. Al oír «¡balón!», quien lo coge primero conduce hasta su línea; el otro le persigue y puede robar. Se vuelve al centro y sigue. Cambio de pareja cada 2′.",
+ "punto": "1 punto a quien cruza su línea con el balón controlado.",
+ "consigna": "¡Qué lectura de la señal!",
+ "variantes": {
+  "facil": "Solo hay que coger el balón con la mano, sin conducir (fuente).",
+  "dificil": "La señal es un color que el míster enseña (petos o conos) en lugar de la palabra (fuente). Salida desde sentados o de espaldas (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín (10–11): balón a 1,5 m de cada uno y línea a 5 m. Cadete: el que pierde puede defender hasta la línea con contacto legal (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El juego de los reflejos (IN-M07)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 7"
+ },
+ "completado": "Distancias entre jugadores y a la línea, persecución con robo, rotación de parejas y series (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 17.3
+  },
+  "lines": [
+   [
+    [
+     3,
+     0.5
+    ],
+    [
+     3,
+     14.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     17,
+     0.5
+    ],
+    [
+     17,
+     14.5
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    3,
+    0.5
+   ],
+   [
+    3,
+    14.5
+   ],
+   [
+    17,
+    0.5
+   ],
+   [
+    17,
+    14.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 2.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12.2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 12.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    10,
+    2.8
+   ],
+   [
+    10,
+    12.2
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     7.5
+    ],
+    "b": [
+     3.4,
+     7.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 16,
+    "s1": 4
+   },
+   {
+    "a": [
+     11.5,
+     7.5
+    ],
+    "b": [
+     8.6,
+     7.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 14,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    3,
+    16.5,
+    "SU LÍNEA",
+    "middle"
+   ],
+   [
+    17,
+    16.5,
+    "SU LÍNEA",
+    "middle"
+   ]
+  ]
+ }
+}

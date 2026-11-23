@@ -1,0 +1,150 @@
+{
+ "id": "DOS-067",
+ "bloque": "Calentamiento",
+ "titulo": "Velocidad y pilla-pilla",
+ "formato": "parejas + pilla-pilla",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "Velocidad: 6 salidas por pareja (4′). Pilla-pilla: juegos a), b) y c) de 3′ cada uno con 30″ de pausa y nuevos pilladores en cada juego (propuesta). Duración de la fuente: 15′.",
+ "objetivo": "Velocidad de reacción, mirar y conducir (fuente). Cómo explicarlo: juego a juego, cambiando solo una regla cada vez. Errores típicos: conducir mirando el balón y chocar, quedarse en las esquinas, pilladores que persiguen todos al mismo. Qué observar: cabeza levantada, cambios de dirección con balón, que el balón «salve» al compañero más amenazado. Montaje detallado: velocidad por parejas frente a frente, a 1 m de un cono central, cada uno con su línea de salvación a 8 m detrás. Pilla-pilla en un cuadrado de 20 × 20 m; petos para los pilladores y para el juego a).",
+ "montaje": "Parejas frente a frente con un cono en medio y una línea a 8 m. Luego, cuadrado de 20 × 20 m con 3–4 pilladores.",
+ "juego": "Velocidad: a la voz de «¡ya!» van a por el cono; quien lo coge corre a su línea y el otro le persigue (propuesta). Pilla-pilla: a) peto en el pantalón, sin balón; b) pillan 4 y el resto conduce; c) pillan 3–4, el resto con 2 balones: el balón salva.",
+ "punto": "Cono en la línea: 1. Si te pillan, pasas a pillar (propuesta).",
+ "consigna": "Cabeza arriba y ayuda con el balón.",
+ "variantes": {
+  "facil": "Pilla-pilla con un solo pillador y en el juego c) 3 balones (propuesta).",
+  "dificil": "Salida de la pareja tumbados o de espaldas; en c) un solo balón que salva y que solo se puede pasar, no llevar en conducción más de 3 toques (propuesta)."
+ },
+ "adaptacion": "10–11 años: línea a 6 m y 2 pilladores en b) y c). 12–13 años: línea a 8–10 m y 4 pilladores (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juegos de velocidad + pilla-pilla",
+  "ref": "Dosier de sesiones · pág. 21 (S2.4)"
+ },
+ "completado": "Persecución tras coger el cono, distancias, tiempos y qué pasa al ser pillado (propuesta). Jugadores y edad propuestos.",
+ "top": "",
+ "probado": true,
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "tag": "20 × 20 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1.5,
+   "ymax": 21
+  },
+  "players": [
+   {
+    "r": "D",
+    "x": 6,
+    "y": 6,
+    "f": 30
+   },
+   {
+    "r": "D",
+    "x": 14.5,
+    "y": 14.5,
+    "f": -135
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 16.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 2.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9.5,
+     9
+    ],
+    "b": [
+     15.4,
+     9.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     14.5,
+     14.5
+    ],
+    "b": [
+     15.8,
+     11.3
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     3.5
+    ],
+    "b": [
+     9.2,
+     3.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10,
+    19.3,
+    "EL BALÓN SALVA",
+    "middle"
+   ]
+  ]
+ }
+}

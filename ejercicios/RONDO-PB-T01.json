@@ -1,0 +1,139 @@
+{
+ "id": "RONDO-PB-T01",
+ "bloque": "Calentamiento",
+ "titulo": "Los perritos de paseo",
+ "formato": "individual",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "5–6 paseos de 1 min con 30″ de pausa; en cada paseo, 4–5 órdenes «¡a la cama!» (propuesta).",
+ "objetivo": "Primer contacto con la conducción: llevar el balón cerca y pararlo con la suela al oír la señal. Juego simbólico: el balón es el perrito y hay que cuidarlo (fuente). Cómo explicarlo: «saca a pasear a tu perrito; que no se escape lejos». Errores típicos: chutar el balón y correr detrás, mirar solo al balón y chocar, parar con la punta en lugar de la suela. Qué observar: toques suaves con el interior y el exterior y la suela encima del balón en la parada. Montaje detallado: rectángulo de 20 × 15 m marcado con conos; un balón del n.º 3 por jugador; el míster en el borde, visible para todos.",
+ "montaje": "Un balón del n.º 3 por jugador (su perrito) dentro de un rectángulo de 20 × 15 m. El míster, en el borde.",
+ "juego": "Cada uno saca a pasear a su perrito por el parque, conduciendo sin chocar con nadie. Cuando el míster dice «¡a la cama!», el perrito se para debajo del pie (suela encima). Se cuentan los perritos parados y vuelve el paseo. Cambia de pie en cada paseo.",
+ "punto": "Un aplauso por cada perrito parado: se cuentan (fuente).",
+ "consigna": "Pie encima: ¡a dormir!",
+ "variantes": {
+  "facil": "Se lleva el balón con las manos y luego con los pies (fuente).",
+  "dificil": "«A la cama» con el pie que menos se usa (fuente). Órdenes nuevas: «¡al parque!» (acelerar) o «¡a casa!» (ir a un cono) (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): tal cual. Benjamín: rectángulo más pequeño (15 × 12 m) y parada con la planta y giro (propuesta). Frase de la fuente: «Qué frenada tan buena con el pie encima del balón». Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Los perritos de paseo (PB-T01)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 3"
+ },
+ "completado": "Duración de los paseos, número de órdenes, consigna corta y series (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3.5,
+    "f": 20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3,
+    "f": 160,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12,
+    "f": -20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 11,
+    "f": 200,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     3.5
+    ],
+    "b": [
+     8.5,
+     5.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     4,
+     12
+    ],
+    "b": [
+     9.5,
+     13.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     3
+    ],
+    "b": [
+     16.5,
+     7
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    15.5,
+    13.6,
+    "¡A LA CAMA!",
+    "middle"
+   ]
+  ]
+ }
+}

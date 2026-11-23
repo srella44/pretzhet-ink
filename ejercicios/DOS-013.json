@@ -1,0 +1,247 @@
+{
+ "id": "DOS-013",
+ "bloque": "Calentamiento",
+ "titulo": "Rueda de controles",
+ "formato": "rueda con receptor central",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–6 jug.",
+ "espacio": "5 × 5 m (+ filas)",
+ "duracion": "15 min",
+ "series": "4 bloques de 3′, uno por control (en diagonal, girando, con el exterior, con finta), con 30″ de pausa; con 10–12 jugadores, dos ruedas a la vez (propuesta). Duración de la fuente: 15′.",
+ "objetivo": "Controles orientados con distintas superficies de contacto (fuente). Cómo explicarlo: enseña el control del bloque y di hacia qué puerta sale. Errores típicos: controlar hacia la presión (fuente), recibir de frente y parado, control largo que se escapa del cuadrado. Qué observar: perfilarse antes de recibir (fuente), primer toque hacia la salida y pase tenso. Montaje detallado: cuadrado de 5 × 5 m con 4 conos; una fila de 2–3 jugadores con balón a 5 m por debajo y otra igual a 5 m por arriba; a cada lado del cuadrado, dos puertas de discos de 1,5 m que marcan las salidas del control.",
+ "montaje": "Cuadrado de 5 × 5 m con B dentro. Dos filas con balón, a 5 m arriba y abajo. Puertas de discos a los lados.",
+ "juego": "A pasa a B, que hace el control que se indica (en diagonal, girando, con el exterior, con finta) saliendo hacia una puerta, y pasa a la fila de enfrente. A ocupa el sitio de B (fuente) y B va al final de esa fila. La siguiente sale desde arriba.",
+ "punto": "Control por la puerta y pase a la fila: 1 (propuesta).",
+ "consigna": "Perfílate antes de recibir.",
+ "variantes": {
+  "facil": "Pase con la mano y control con el pie, o sin puertas de salida (propuesta).",
+  "dificil": "El entrenador grita la puerta justo cuando sale el pase, o un defensor pasivo detrás de B que marca hacia dónde no controlar (propuesta)."
+ },
+ "adaptacion": "10–11 años: controles en diagonal y con el exterior. 12–13 años: los 4 controles y puerta cantada en el último momento (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Rueda de pases y controles",
+  "ref": "Dosier de sesiones · pág. 4, 18 (J1.3, S2.1)"
+ },
+ "completado": "Distancia de las filas, puertas de salida, recorrido de B y puntos (propuesta). Edad propuesta.",
+ "top": "",
+ "probado": true,
+ "diagrama": {
+  "field": [
+   16,
+   17
+  ],
+  "tag": "cuadrado 5 × 5 m",
+  "nofield": true,
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 16.5,
+   "ymin": -1,
+   "ymax": 18
+  },
+  "lines": [
+   [
+    [
+     5.5,
+     6
+    ],
+    [
+     10.5,
+     6
+    ],
+    "4 4"
+   ],
+   [
+    [
+     10.5,
+     6
+    ],
+    [
+     10.5,
+     11
+    ],
+    "4 4"
+   ],
+   [
+    [
+     10.5,
+     11
+    ],
+    [
+     5.5,
+     11
+    ],
+    "4 4"
+   ],
+   [
+    [
+     5.5,
+     11
+    ],
+    [
+     5.5,
+     6
+    ],
+    "4 4"
+   ]
+  ],
+  "cones": [
+   [
+    5.5,
+    6
+   ],
+   [
+    10.5,
+    6
+   ],
+   [
+    10.5,
+    11
+   ],
+   [
+    5.5,
+    11
+   ]
+  ],
+  "discs": [
+   [
+    1.5,
+    4.5
+   ],
+   [
+    1.5,
+    6.5
+   ],
+   [
+    14.5,
+    4.5
+   ],
+   [
+    14.5,
+    6.5
+   ],
+   [
+    1.5,
+    10.5
+   ],
+   [
+    1.5,
+    12.5
+   ],
+   [
+    14.5,
+    10.5
+   ],
+   [
+    14.5,
+    12.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 16.3,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 2.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 0.4,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     14
+    ],
+    "b": [
+     8,
+     9.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     8.5
+    ],
+    "b": [
+     13,
+     5.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     5.5
+    ],
+    "b": [
+     8.6,
+     2.9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     8,
+     14
+    ],
+    "b": [
+     6.4,
+     9.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    2.8,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

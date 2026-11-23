@@ -1,0 +1,181 @@
+{
+ "id": "DOS-012",
+ "bloque": "Calentamiento",
+ "titulo": "Pases por parejas",
+ "formato": "parejas libres",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 bloques de 3′ con 30″ de pausa: 1) control y pase; 2) control orientado con la pierna lejana; 3) conducción y pared desde cerca; 4) todos con todos (fuente, sénior) (organización propuesta).",
+ "objetivo": "Hábitos: control obligatorio, pase y dar línea de pase evitando los conos (fuente). Cómo explicarlo: «si entre tú y el balón hay un cono, muévete». Errores típicos: recibir parado o tapado por un cono, pasar sin mirar, controlar hacia el cono. Qué observar: mirar antes y después de recibir, control orientado y en movimiento (fuente). Montaje detallado: cuadrado de 20 × 20 m con 10–12 conos altos repartidos al azar; parejas (o tríos) con un balón, todas a la vez dentro.",
+ "montaje": "Cuadrado de 20 × 20 m con 10–12 conos repartidos. Parejas o tríos con un balón, todas dentro y en movimiento.",
+ "juego": "Cada pareja se pasa el balón por todo el cuadrado: control obligatorio y pase. Quien no tiene balón se mueve para tener línea de pase libre de conos. Cada 3′ cambia la consigna; al final, todos con todos (pasa a cualquiera que no sea quien te la dio).",
+ "punto": "Pase recibido sin tocar cono: 1. Reto: 15 en 1′ (propuesta).",
+ "consigna": "Mira antes y controla en movimiento.",
+ "variantes": {
+  "facil": "Menos conos y dos toques libres antes de pasar (propuesta).",
+  "dificil": "Dejar correr el balón por detrás sin tocarlo y pasar a 2 toques; o un jugador sin balón que intercepta (fuente sénior + propuesta)."
+ },
+ "adaptacion": "10–11 años: 6–8 conos y parejas. 12–13 años: 12 conos, tríos y las variantes sénior (pared, dejar correr) (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Pases por parejas",
+  "ref": "Dosier de sesiones · pág. 4, 13, 18 (J1.3, S1.1, S2.1)"
+ },
+ "completado": "Número de conos, bloques de 3′ y reto de puntos (propuesta). Edad propuesta.",
+ "top": "",
+ "probado": true,
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "tag": "20 × 20 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1.5,
+   "ymax": 21
+  },
+  "cones": [
+   [
+    5,
+    4
+   ],
+   [
+    16,
+    2
+   ],
+   [
+    9.5,
+    8.5
+   ],
+   [
+    3.5,
+    12
+   ],
+   [
+    16,
+    11
+   ],
+   [
+    10,
+    15.5
+   ],
+   [
+    6,
+    18
+   ],
+   [
+    17,
+    17.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.2,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 12.8,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 17.5,
+    "f": -120
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 14.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13.2,
+     5
+    ],
+    "b": [
+     12.2,
+     11.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 1,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     3,
+     6.5
+    ],
+    "b": [
+     11.6,
+     11.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     7.5,
+     12.8
+    ],
+    "b": [
+     12.8,
+     17.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     17.5,
+     14.5
+    ],
+    "b": [
+     17,
+     6.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": []
+ }
+}

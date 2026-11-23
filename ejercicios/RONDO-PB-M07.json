@@ -1,0 +1,177 @@
+{
+ "id": "RONDO-PB-M07",
+ "bloque": "Calentamiento",
+ "titulo": "Las madrigueras",
+ "formato": "juego de grupo",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "6–8 rondas de 1 min de carrera libre; en cada ronda cambia la forma de entrar (propuesta).",
+ "objetivo": "Coordinación y control del cuerpo: correr libre mirando alrededor, frenar al oír la señal y entrar de distintas formas (saltando, a la pata coja, con el balón). Nadie queda eliminado: siempre hay madrigueras para todos (fuente). Cómo explicarlo: cuéntalo como un cuento de conejos que vuelven a su madriguera. Errores típicos: chocar por correr mirando al suelo, pisar los aros al correr, dos niños peleando por un aro. Qué observar: frenadas equilibradas y saltos con los dos pies. Montaje detallado: 6–8 aros (o círculos de conos de 1 m) repartidos por el cuadrado de 20 × 20 m, al menos uno por niño; en las rondas con balón, un balón por jugador.",
+ "montaje": "Aros repartidos por un cuadrado de 20 × 20 m: son las madrigueras. Al menos uno por niño. Todos empiezan corriendo libres.",
+ "juego": "Se corre libre por el espacio sin pisar los aros. Al pitido, cada uno entra en una madriguera de la forma que diga el míster: saltando con pies juntos, a la pata coja o con el balón. Siempre hay sitio para todos: nadie se elimina. Se sale y se repite.",
+ "punto": "1 punto a quien entra de la forma correcta (fuente).",
+ "consigna": "¡Qué salto dentro de la madriguera!",
+ "variantes": {
+  "facil": "Se entra caminando (fuente).",
+  "dificil": "Dos amigos en la misma madriguera, abrazados (fuente). Se corre conduciendo el balón y se entra con el balón pisado dentro del aro (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): tal cual, con mucho juego y pocas explicaciones. Benjamín: se corre conduciendo y al pitido se deja el balón dentro del aro con la suela (propuesta). Indicaciones después de la jugada, nunca durante; destaca lo que ha salido bien (fuente: «Cómo hablas»).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Las madrigueras (PB-M07)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 5"
+ },
+ "completado": "Número y reparto de aros, duración de las rondas y series (propuesta). Jugadores propuestos.",
+ "top": "",
+ "probado": false,
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "tag": "20 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 22.6
+  },
+  "zones": [
+   {
+    "t": "circle",
+    "x": 3,
+    "y": 3,
+    "r": 0.9
+   },
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 3,
+    "r": 0.9
+   },
+   {
+    "t": "circle",
+    "x": 17,
+    "y": 3,
+    "r": 0.9
+   },
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 10,
+    "r": 0.9
+   },
+   {
+    "t": "circle",
+    "x": 3,
+    "y": 17,
+    "r": 0.9
+   },
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 17,
+    "r": 0.9
+   },
+   {
+    "t": "circle",
+    "x": 17,
+    "y": 17,
+    "r": 0.9
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 8,
+    "f": [
+     3,
+     3
+    ]
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 8,
+    "f": [
+     17,
+     3
+    ]
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 13,
+    "f": [
+     17,
+     17
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     8
+    ],
+    "b": [
+     3.6,
+     3.8
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 14,
+    "s1": 14
+   },
+   {
+    "a": [
+     14,
+     8
+    ],
+    "b": [
+     16.4,
+     3.8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 14,
+    "s1": 14
+   },
+   {
+    "a": [
+     14.5,
+     13
+    ],
+    "b": [
+     16.4,
+     16.2
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 14,
+    "s1": 14
+   }
+  ],
+  "labels": [
+   [
+    10,
+    21.6,
+    "AROS = MADRIGUERAS",
+    "middle"
+   ]
+  ]
+ }
+}

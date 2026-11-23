@@ -1,0 +1,267 @@
+{
+ "id": "LU-P219",
+ "bloque": "Calentamiento",
+ "titulo": "Pase y cambio de zona",
+ "formato": "3 grupos · 6 zonas",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "12–15 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa: en cada serie los grupos cambian de zona para pasar por las tres (fuente). Tras el cambio de zona se puede añadir una tarea física (fuente).",
+ "objetivo": "Calentar con pases, controles orientados y cambios de zona continuos (fuente). Cómo explicarlo: «paso y me voy a la otra zona de mi color, a una seta libre». Errores típicos: controlar hacia fuera en lugar de hacia el siguiente compañero, irse a una seta ocupada, pasar sin mirar quién está libre. Qué observar: control orientado y comunicación (nombre antes del pase). Montaje detallado (propuesta, la fuente da 40 × 90 m): rectángulo de 30 × 20 m; en el centro, zona azul 1 (arriba) y zona azul 2 (abajo); a la izquierda, zonas amarillas 1 y 2; a la derecha, zonas rojas 1 y 2 (en la fuente, naranjas). Cada zona con 3 setas (una más que jugadores) para que siempre haya una libre. 4–5 jugadores por grupo y 2 balones.",
+ "montaje": "30 × 20 m. Zonas azules 1 y 2 en el centro, amarillas a la izquierda y rojas a la derecha. Setas en cada zona, siempre una libre.",
+ "juego": "Empiezan 2 azules con balón. El de la zona azul 1 pasa a un amarillo y corre a una seta libre de la azul 2; el amarillo controla, pasa a otro azul y se va a su otra zona. A la vez, el de la azul 2 hace lo mismo con los rojos. Sin parar.",
+ "punto": "Sin puntos. Reto (propuesta): 4′ sin perder el balón.",
+ "consigna": "Pasa y cambia de zona.",
+ "variantes": {
+  "facil": "Control y pase con toques libres; solo un balón (propuesta).",
+  "dificil": "Pase a un toque, 3 balones a la vez, o tarea física al cambiar de zona (fuente: tareas físicas en los cambios)."
+ },
+ "adaptacion": "Alevín (10–11): 25 × 15 m y un balón. Infantil (12–13): tal cual. Cadete: un toque y 3 balones (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "DINÁMICA DE CALENTAMIENTO 3 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "300 ejercicios Level Up Coach · p. 219 (tarea 218)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, colocación de las zonas, número de setas y de jugadores, duración de las series y reto (propuesta). El grupo naranja de la fuente se dibuja en rojo.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "tag": "30 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     11,
+     1.5,
+     19,
+     6.5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     11,
+     13.5,
+     19,
+     18.5
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     7,
+     0
+    ],
+    [
+     7,
+     20
+    ],
+    "3 4"
+   ],
+   [
+    [
+     23,
+     0
+    ],
+    [
+     23,
+     20
+    ],
+    "3 4"
+   ]
+  ],
+  "discs": [
+   [
+    17,
+    4
+   ],
+   [
+    13,
+    16
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    27,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 13,
+    "y": 4,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     4
+    ],
+    "b": [
+     3.6,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 10
+   },
+   {
+    "a": [
+     13,
+     4.5
+    ],
+    "b": [
+     13,
+     15
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 10,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     12.4,
+     15.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     3,
+     5
+    ],
+    "b": [
+     3,
+     15
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 10,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     17,
+     16
+    ],
+    "b": [
+     26.4,
+     16
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 10
+   },
+   {
+    "a": [
+     17,
+     15.5
+    ],
+    "b": [
+     17,
+     5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 10,
+    "nt": 0.4
+   }
+  ],
+  "labels": [
+   [
+    15,
+    -0.6,
+    "ZONA AZUL 1",
+    "middle"
+   ],
+   [
+    15,
+    21.2,
+    "ZONA AZUL 2",
+    "middle"
+   ],
+   [
+    3.5,
+    -0.6,
+    "AMARILLOS",
+    "middle"
+   ],
+   [
+    26.5,
+    -0.6,
+    "ROJOS",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "id": "DOS-022",
+ "bloque": "Calentamiento",
+ "titulo": "Habilidad sola y en pareja",
+ "formato": "individual + parejas",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "6′ individual (1′ por superficie) + 3 retos por parejas de 2′; cambia de pareja tras cada reto (propuesta). Duración de la fuente: 15′.",
+ "objetivo": "Toques y habilidad con distintas superficies de contacto (fuente), y que los propios jugadores inventen retos y compitan. Cómo explicarlo: muestra cada superficie (empeine, interior, exterior, muslo, cabeza) y deja que copien. Errores típicos: golpear fuerte, pie relajado, retos imposibles que nadie consigue. Qué observar: toque suave y balón cerca (fuente), uso de las dos piernas. Montaje detallado: cada jugador con un balón, repartidos por un espacio libre de unos 20 × 20 m, separados al menos 3 m; el entrenador en el centro para que todos le vean.",
+ "montaje": "Cada jugador con balón, repartidos y separados 3 m. El entrenador en el centro enseña cada superficie.",
+ "juego": "1) Toques con la superficie que explica el entrenador: empeine, interior, exterior, muslo y cabeza, 1′ cada una. 2) Por parejas, uno propone un reto (p. ej. 3 toques pie-muslo-cabeza y pase) y el otro lo copia; luego cambian. Si falla, otro intento.",
+ "punto": "Reto superado: 1 punto. Gana quien suma más (propuesta).",
+ "consigna": "Toque suave y balón cerca.",
+ "variantes": {
+  "facil": "Toques con un bote entre medias o lanzándose el balón con la mano (propuesta).",
+  "dificil": "Retos solo con la pierna menos hábil, o pases por el aire en pareja sin que caiga contando récord (propuesta)."
+ },
+ "adaptacion": "10–11 años: toques con bote y retos de 2 superficies. 12–13 años: sin bote, retos de 3–4 superficies y récord por parejas (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Habilidad individual y por parejas",
+  "ref": "Dosier de sesiones · pág. 6 (J1.5)"
+ },
+ "completado": "Tiempos por superficie, forma de los retos por parejas, intentos y puntos (propuesta). Jugadores y edad propuestos.",
+ "top": "",
+ "probado": true,
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "tag": "espacio libre 20 × 20 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1.5,
+   "ymax": 21
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 10.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 4.5,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     16
+    ],
+    "b": [
+     11,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    8,
+    19,
+    "RETO EN PAREJA",
+    "middle"
+   ],
+   [
+    10,
+    13,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ]
+ }
+}

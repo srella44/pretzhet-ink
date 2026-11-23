@@ -1,0 +1,206 @@
+{
+ "id": "LU-P050",
+ "bloque": "Calentamiento",
+ "titulo": "Posesión de 3 roles",
+ "formato": "6v6 + 6 comodines",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa: en cada serie los equipos cambian de rol (poseedores → defensores → comodines) para que todos pasen por los tres (propuesta). Gana el equipo que más puntos suma como poseedor (propuesta).",
+ "objetivo": "Mover el balón con movilidad y apoyos, presionar tras pérdida y evitar finalizaciones; también finalizar rápido tras robo (fuente: atraer para mover, líneas de pase, presión alta). Cómo explicarlo: tres petos, tres trabajos; quien pierde no protesta, presiona. Errores típicos: comodines que se esconden detrás de un rival, poseedores parados esperando el balón, perder y quedarse mirando en lugar de cerrar la miniportería más cercana. Qué observar: reacción en los 5 primeros segundos tras perder y que el defensor que roba busque el pase previo antes de tirar. Montaje detallado: rectángulo de 40 × 30 m con 6 miniporterías de 2 m: dos en cada banda larga y una en cada fondo (fuente); tres equipos de 6 con petos de colores distintos; balones de reserva junto al entrenador (propuesta).",
+ "montaje": "40 × 30 m con 6 miniporterías de 2 m: 2 en cada banda y 1 en cada fondo. 3 equipos de 6: poseedores, defensores y comodines.",
+ "juego": "Poseedores (máx. 2 toques) y comodines (1 toque) guardan el balón. Si los defensores roban, dan un pase y tiran a cualquier miniportería; los que perdieron presionan para evitarlo. Tras gol o balón fuera, saca el míster.",
+ "punto": "Poseedores: 1 punto cada 12 pases. Defensores: gol.",
+ "consigna": "Si pierdes, presiona ya.",
+ "variantes": {
+  "facil": "Comodines a 2 toques y 10 pases para puntuar (propuesta).",
+  "dificil": "Poseedores a 1 toque, o el gol de los defensores solo vale en las miniporterías de los fondos (propuesta). Cambiar la secuencia de roles sin avisar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 5 contra 5 + 5 en 35 × 25 m y 8 pases por punto. Infantil (12–13): tal cual. Cadete: 15 pases por punto y 4 segundos para finalizar tras robo (propuesta). La fuente es de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSESIÓN - Movilidad - Cambios de rol - Activación tras pérdida",
+  "ref": "300 ejercicios Level Up Coach · p. 50 (tarea 49)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, duración, series y rotación de roles, saque tras gol y variantes (propuesta). En el diagrama se dibujan 4 poseedores, 3 defensores y 3 comodines de los 18.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "tag": "40 × 30 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    40,
+    15,
+    "R"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 13,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.4,
+    "portero": false
+   },
+   {
+    "x": 27,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.4,
+    "portero": false
+   },
+   {
+    "x": 13,
+    "y": 30,
+    "lado": "B",
+    "ancho": 2.4,
+    "portero": false
+   },
+   {
+    "x": 27,
+    "y": 30,
+    "lado": "B",
+    "ancho": 2.4,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 25.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 35,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 7,
+    "f": 45
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 14,
+    "f": 135
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 15,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     22
+    ],
+    "b": [
+     15.4,
+     25.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 10
+   },
+   {
+    "a": [
+     16,
+     25.5
+    ],
+    "b": [
+     27.4,
+     22.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 10
+   },
+   {
+    "a": [
+     23,
+     15
+    ],
+    "b": [
+     26.8,
+     19.6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 10
+   },
+   {
+    "a": [
+     12,
+     14
+    ],
+    "b": [
+     8,
+     19
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    20,
+    3.6,
+    "6 MINIPORTERÍAS DE 2 M",
+    "middle"
+   ]
+  ]
+ }
+}

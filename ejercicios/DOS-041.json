@@ -1,0 +1,191 @@
+{
+ "id": "DOS-041",
+ "bloque": "Calentamiento",
+ "titulo": "Toques y relevos",
+ "formato": "individual + relevos",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "15 min",
+ "series": "5′ de toques individuales (1′ por superficie: empeine, interior, muslo, cabeza, libre) y 3 relevos de unos 2′ con 1′ de pausa; en cada relevo cambia la superficie obligatoria (propuesta). Duración de la fuente: 15′.",
+ "objetivo": "Habilidad y controles por el aire con distintas superficies de contacto (fuente), primero en solitario y después en competición por equipos. Cómo explicarlo: enseña cada superficie con 3 toques delante de ellos y di el récord a batir. Errores típicos: golpear fuerte y perseguir el balón, tobillo suelto en el empeine, mirar solo al suelo en el relevo. Qué observar: toques suaves y balón cerca del cuerpo (fuente), que alternen las dos piernas. Montaje detallado: primero cada jugador con balón en un espacio libre de 20 × 15 m. Después, 2 o 3 equipos de 4 en calles de 4 m de ancho; en cada calle, dos líneas de conos a 12 m; la mitad del equipo detrás de cada línea, frente a frente.",
+ "montaje": "Todos con balón. Luego 2–3 equipos de 4 en calles: dos líneas de conos a 12 m y medio equipo detrás de cada línea.",
+ "juego": "Toques: 5′ con la superficie que diga el entrenador. Relevo: el primero cruza los 12 m dando toques sin que el balón toque el suelo y se lo da en la mano al de enfrente, que vuelve igual. Si cae, para y hace 3 toques antes de seguir (propuesta).",
+ "punto": "Gana el equipo que acaba antes el relevo (fuente): 1 punto.",
+ "consigna": "Toques suaves y balón cerca.",
+ "variantes": {
+  "facil": "Se permite un bote entre toques, o se lleva el balón con las manos y se dan 3 toques cada 3 m (propuesta).",
+  "dificil": "Solo con la pierna menos hábil, alternando pie-muslo-cabeza, o el relevo es pasando el balón por el aire al de enfrente sin que caiga (propuesta)."
+ },
+ "adaptacion": "10–11 años: se permite un bote y distancia de 8 m. 12–13 años: sin botes, 12 m y superficie obligatoria por relevo. Con niños de 8–9, toques con bote y relevo en conducción (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Habilidad (toques) y relevos",
+  "ref": "Dosier de sesiones · pág. 11, 16 (J2.5, S1.4)"
+ },
+ "completado": "Distancia de 12 m, organización frente a frente, regla si cae el balón y series (propuesta). Jugadores y edad propuestos.",
+ "top": "",
+ "probado": true,
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "lines": [
+   [
+    [
+     0,
+     7.5
+    ],
+    [
+     20,
+     7.5
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    4,
+    1.5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    16,
+    1.5
+   ],
+   [
+    16,
+    6
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    4,
+    13.5
+   ],
+   [
+    16,
+    9
+   ],
+   [
+    16,
+    13.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3.75,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.5,
+    "y": 3.75,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 3.75,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 3.75,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 11.25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": -0.5,
+    "y": 11.25,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 11.25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 1.8,
+    "y": 11.25,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3.75
+    ],
+    "b": [
+     17.3,
+     3.75
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     11.25
+    ],
+    "b": [
+     17.3,
+     11.25
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.7,
+    "12 m CON TOQUES",
+    "middle"
+   ],
+   [
+    10,
+    14.6,
+    "RELEVO",
+    "middle"
+   ]
+  ]
+ }
+}

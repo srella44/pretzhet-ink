@@ -1,0 +1,167 @@
+{
+ "id": "DOS-008",
+ "bloque": "Técnica y duelos",
+ "titulo": "Regate y pase al compañero",
+ "formato": "1v1 continuo",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–16 jug.",
+ "espacio": "Zona de 10 × 10 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ con 1′ de pausa; con más de 10 jugadores, dos zonas a la vez (propuesta). Duración de la fuente: 15′.",
+ "objetivo": "Regatear para salir de la zona y seguir el juego con un pase; defender el 1 contra 1 (fuente). Cómo explicarlo: «llévale el balón al defensor, cambia de ritmo y pasa». Errores típicos: pasar sin haber superado al defensor (fuente), regatear parado, defensor que se lanza al suelo. Qué observar: ataque decidido al defensor y cambio de ritmo al pasarlo (fuente); defensor perfilado que orienta hacia fuera. Montaje detallado: zona de 10 × 10 m marcada con conos; a 4 m de cada lado (izquierda y derecha) una fila del equipo A y otra del equipo B; un defensor de B dentro y el primer atacante de A con balón en la fila izquierda.",
+ "montaje": "Zona de 10 × 10 m. A 4 m a izquierda y derecha, una fila de A y otra de B. Un defensor de B dentro.",
+ "juego": "A entra con balón y regatea al defensor para salir por el lado contrario y pasar a su compañero de la fila de enfrente, que entra y ataca hacia el otro lado. Si B roba, ataca él contra el A que la perdió (fuente). Tras pasar, va al final de esa fila.",
+ "punto": "Regate y pase recibido: 1. Robo y salida: 1 (propuesta).",
+ "consigna": "Ataca al defensor y cambia de ritmo.",
+ "variantes": {
+  "facil": "Defensor que solo tapa durante la primera serie, o zona de 12 m de ancho (propuesta).",
+  "dificil": "Zona de 8 × 8 m, o el atacante tiene 5″ para salir de la zona (propuesta)."
+ },
+ "adaptacion": "10–11 años: zona de 12 × 10 m y defensor que no entra al balón hasta que el atacante pisa la zona. 12–13 años: 10 × 10 m y defensa libre (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "JUEGO DE APLICACIÓN REGATE 1v1",
+  "ref": "Dosier de sesiones · pág. 3, 15 (J1.2, S1.3)"
+ },
+ "completado": "Colocación de las filas a ambos lados, rotación y puntuación (propuesta). Edad propuesta.",
+ "top": "",
+ "probado": true,
+ "diagrama": {
+  "field": [
+   22,
+   12
+  ],
+  "tag": "zona 10 × 10 m",
+  "nofield": true,
+  "extent": {
+   "xmin": -1,
+   "xmax": 23,
+   "ymin": -1,
+   "ymax": 13
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     6,
+     1,
+     16,
+     11
+    ]
+   }
+  ],
+  "cones": [
+   [
+    6,
+    1
+   ],
+   [
+    16,
+    1
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    16,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 1.5,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 6.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     6
+    ],
+    "b": [
+     15,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 1,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     15.5,
+     3
+    ],
+    "b": [
+     20,
+     3.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     11.5,
+     6.5
+    ],
+    "b": [
+     13.5,
+     4.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    11,
+    12.4,
+    "ZONA DEL 1 CONTRA 1",
+    "middle"
+   ]
+  ]
+ }
+}

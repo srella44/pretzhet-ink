@@ -1,0 +1,183 @@
+{
+ "id": "TFB100-091",
+ "bloque": "Técnica y duelos",
+ "titulo": "Carrera de zigzag y gol",
+ "formato": "carrera 1 contra 1",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "2–10 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 5 carreras con 1 min de descanso; en cada ronda se cambian los carriles (fuente). Ronda 1 libre, ronda 2 pierna buena, ronda 3 pierna mala, ronda 4 termina en 1 contra 1 (propuesta del orden).",
+ "objetivo": "Conducción en zigzag a máxima velocidad con el balón controlado y finalización precisa, en forma de competición (fuente). Cómo explicarlo: es una carrera, pero si te saltas un cono no vale. Errores típicos (fuente): separarse demasiado del balón en el zigzag, saltarse conos por la prisa, usar siempre la misma pierna, tirar sin mirar la portería. Qué observar: toques cortos y con las dos piernas entre conos y una mirada a la portería antes de tirar. Montaje detallado: 2 carriles paralelos de 5 conos separados 2,5 m (conos de dos colores, uno por jugador); los jugadores salen desde extremos opuestos; una miniportería sin portero en cada lado, en diagonal al final de cada carril (propuesta las distancias).",
+ "montaje": "20 × 15 m: 2 carriles de 5 conos y una miniportería en cada lado. Un jugador con balón al inicio de cada carril.",
+ "juego": "A la señal del míster, los dos salen a la vez desde extremos opuestos. Cada uno hace el zigzag por todos sus conos y, al acabar, conduce en diagonal a su miniportería y marca. Saltarse un cono obliga a repetirlo. Luego salen los dos siguientes.",
+ "punto": "1 punto al primero que marca en su miniportería.",
+ "consigna": "Balón pegado y toques cortos.",
+ "variantes": {
+  "facil": "Conos más separados y sin competición (fuente).",
+  "dificil": "Solo con la pierna mala, o terminar con un 1 contra 1 entre los dos (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): conos separados y gol con cualquier pie. Benjamín (8–9): conos más juntos y en la última ronda el gol solo vale con la pierna menos hábil (fuente). Alevín: conos a 1,5 m (propuesta).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Carrera de habilidad 1 contra 1: zigzag y gol en miniportería",
+  "ref": "100 tareas de fútbol base · pág. 111"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancia entre conos, regla del cono saltado y orden de las rondas (propuesta). Diagrama en horizontal.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "tag": "20 × 15 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -1.2,
+   "ymax": 16.5
+  },
+  "goals": [
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    20,
+    7.5,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    4,
+    3
+   ],
+   [
+    6.5,
+    3
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    11.5,
+    3
+   ],
+   [
+    14,
+    3
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    8.5,
+    12
+   ],
+   [
+    11,
+    12
+   ],
+   [
+    13.5,
+    12
+   ],
+   [
+    16,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     3
+    ],
+    "b": [
+     15.6,
+     3
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 4
+   },
+   {
+    "a": [
+     16,
+     3.6
+    ],
+    "b": [
+     19.4,
+     6.6
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     18.5,
+     12
+    ],
+    "b": [
+     4.4,
+     12
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 4
+   },
+   {
+    "a": [
+     4,
+     11.4
+    ],
+    "b": [
+     0.6,
+     8.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    8.2,
+    "SALEN A LA VEZ",
+    "middle"
+   ]
+  ]
+ }
+}
