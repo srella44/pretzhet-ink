@@ -257,6 +257,15 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 .user-bar .avatar { width:28px; height:28px; border-radius:50%; background:var(--coral); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:13px }
 .user-bar button { all:unset; cursor:pointer; font:600 11px Inter,sans-serif; color:rgba(255,255,255,.5); text-decoration:underline }
 .btn-login { all:unset; cursor:pointer; font:700 12px Inter,sans-serif; color:#fff; background:var(--coral); padding:7px 14px; border-radius:8px }
+/* Gate: ocultar contenido sin sesión */
+.wrap { display:none }
+.wrap.unlocked { display:block }
+.gate { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:70vh; text-align:center; padding:40px 24px; gap:16px }
+.gate .g-icon { width:80px; height:80px; border-radius:50%; background:var(--navy); display:flex; align-items:center; justify-content:center; font-size:36px }
+.gate h2 { font:800 24px/1.2 Inter,sans-serif; color:var(--navy); margin:0 }
+.gate p { font:400 15px/1.5 Inter,sans-serif; color:var(--muted); margin:0; max-width:360px }
+.gate .btn-gate { background:var(--coral); color:#fff; border:0; font:700 16px Inter,sans-serif; padding:16px 36px; border-radius:12px; cursor:pointer; transition:opacity .2s }
+.gate .btn-gate:hover { opacity:.85 }
 </style>
 </head>
 <body>
@@ -317,6 +326,12 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   </div>
 </div>
 
+<div class="gate" id="gate">
+  <div class="g-icon">⚽</div>
+  <h2>Acceso exclusivo</h2>
+  <p>Este banco de ejercicios es para compradores del libro <strong>Prètzhèt Ink</strong>. Entra con tu cuenta o regístrate con el código que viene con tu libro.</p>
+  <button class="btn-gate" id="bGateLogin">Entrar / Registrarse</button>
+</div>
 <div class="wrap">
 <aside class="side" id="side">
   <div class="dh">Filtros <button id="cls" aria-label="Cerrar">×</button></div>
@@ -600,15 +615,17 @@ $('#bfav').onclick = () => { st.est = 'fav'; home = false; apply(); scrollTo(0, 
 try { setMe(JSON.parse(localStorage.getItem('pi-user') || '{}')); } catch (e) { setMe({}); }
 /* ===== Supabase Auth & Sync ===== */
 function showAuth(u) {
-  const bar = $('#userBar'), btn = $('#blogin');
+  const bar = $('#userBar'), btn = $('#blogin'), wrap = $('.wrap'), gate = $('#gate');
   if (u) {
     sbUser = u;
     bar.style.display = 'flex'; btn.style.display = 'none';
     $('#uAvt').textContent = (u.email || '?')[0].toUpperCase();
     $('#uName').textContent = u.email;
+    wrap.classList.add('unlocked'); gate.style.display = 'none';
   } else {
     sbUser = null;
     bar.style.display = 'none'; btn.style.display = '';
+    wrap.classList.remove('unlocked'); gate.style.display = '';
   }
 }
 async function sbLoad() {
@@ -645,11 +662,19 @@ if (SB) {
 
 /* Auth modal logic */
 const authOvl = $('#authOverlay'), authBox = $('#authBox');
-$('#blogin').onclick = () => { authOvl.classList.add('open'); $('#authLog').style.display = ''; $('#authReg').style.display = 'none'; $('#authOk').style.display = 'none'; };
+const openAuthModal = () => { authOvl.classList.add('open'); $('#authLog').style.display = ''; $('#authReg').style.display = 'none'; $('#authOk').style.display = 'none'; };
+$('#blogin').onclick = openAuthModal;
+$('#bGateLogin').onclick = openAuthModal;
 $('#toLogin').onclick = () => { $('#authReg').style.display = 'none'; $('#authLog').style.display = ''; };
 $('#toReg').onclick = () => { $('#authLog').style.display = 'none'; $('#authReg').style.display = ''; };
 authOvl.onclick = e => { if (e.target === authOvl) authOvl.classList.remove('open'); };
 $('#bLogout').onclick = async () => { if (SB) { await SB.auth.signOut(); showAuth(null); toast('Sesión cerrada'); } };
+/* Bloquear acciones sin login */
+['bfav','bses','bgen'].forEach(id => {
+  const el = $('#' + id); if (!el) return;
+  const orig = el.onclick;
+  el.onclick = function(e) { if (!sbUser) { openAuthModal(); return; } if (orig) orig.call(this, e); };
+});
 
 function showErr(id, msg) { const el = $(id); el.textContent = msg; el.classList.add('on'); }
 function hideErr(id) { $(id).classList.remove('on'); }
