@@ -1,0 +1,235 @@
+{
+ "id": "IG-DfmPkN-sTVg",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Dos salidas y una amenaza",
+ "formato": "P+7v6",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "14 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "18 min",
+ "series": "5 bloques de 2′30″ con 1 minuto de pausa; los 6 que presionan cambian con 6 de los que salen en la mitad (propuesta).",
+ "objetivo": "Salida de balón con dos opciones por fuera y amenaza por dentro: si el rival cierra el centro, salir por una puerta ancha; si abre las bandas para tapar fuera, atacar la miniportería central (fuente). Trabaja también la reorganización defensiva tras pérdida. Cómo explicarlo: «mira primero dentro; si está cerrado, fuera». Errores típicos: el portero juega siempre al mismo lado; los centrales muy juntos; tras perder, nadie presiona y el rival conserva los 7″. Qué observar: altura de los laterales, perfil del mediocentro y reacción de los 5″ tras pérdida.",
+ "montaje": "50 × 40 m. Portería con portero en un fondo; en el otro, dos puertas de 8 m en las bandas y una miniportería central (propuesta). 7 amarillos y el portero contra 6 rojos.",
+ "juego": "Inicia el portero. Los amarillos pasan una puerta controlando o marcan en la mini. Si los rojos roban, marcan en la portería grande o conservan 7″. El míster puede meter un 2.º balón (fuente).",
+ "punto": "Puerta o mini: 1 (propuesta). Rojos: gol o 7″, 1 (fuente).",
+ "consigna": "Mira dentro; si está cerrado, fuera.",
+ "variantes": {
+  "facil": "Los rojos presionan con 5 y la miniportería central vale doble (propuesta).",
+  "dificil": "Puertas de 6 m y solo se puede salir por la puerta del lado contrario al que empezó el portero (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): como está. Alevín: 40 × 30 m, 6 + portero contra 4. Cadete: 6 contra 7 con presión de 5″ tras pérdida obligatoria (propuesta).",
+ "fuente": {
+  "autor": "@labofsoms (Instagram)",
+  "titulo_original": "Dos salidas por fuera y una amenaza central",
+  "ref": "https://www.instagram.com/labofsoms/reel/DfmPkN-sTVg/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ancho de las puertas (8 m), puntuación de los amarillos, series, rotación y adaptación (propuesta). Edad y dificultad propuestas en la base. Diagrama simplificado (no salen todos los jugadores). Diagrama girado (la portería grande a la izquierda) y simplificado.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 51.5,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 3
+   }
+  ],
+  "cones": [
+   [
+    50,
+    0
+   ],
+   [
+    50,
+    8
+   ],
+   [
+    50,
+    32
+   ],
+   [
+    50,
+    40
+   ]
+  ],
+  "lines": [
+   [
+    [
+     50,
+     0
+    ],
+    [
+     50,
+     8
+    ],
+    "2 0"
+   ],
+   [
+    [
+     50,
+     32
+    ],
+    [
+     50,
+     40
+    ],
+    "2 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 29,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     29
+    ],
+    "b": [
+     21,
+     36
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     36
+    ],
+    "b": [
+     36,
+     28
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     36,
+     28
+    ],
+    "b": [
+     48,
+     35
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    46,
+    10,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    46,
+    30.5,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "id": "RONDO-BJ-D06",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tres balones que salvar",
+ "formato": "3 × 3 con 3 balones",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "9 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2 minutos con 30″ de pausa; en cada ronda se cambia un jugador de cada equipo para mezclar (propuesta).",
+ "objetivo": "Pasar y moverse entre mucho tráfico: buscar al compañero con la mirada, pasar antes de que llegue otro equipo y ofrecerse en un hueco libre (fuente). Cómo explicarlo: «tu balón nunca se duerme: pasa y busca hueco». Errores típicos: el que recibe se queda parado esperando; pases largos que cruzan a otro equipo; los tres del equipo muy juntos. Qué observar: si levantan la cabeza antes de recibir y si el que pasa se mueve. Material (propuesta): 4 conos, petos de tres colores y balones de reserva.",
+ "montaje": "20 × 20 m. Tres equipos de tres con peto distinto, mezclados dentro, y un balón por equipo. El míster fuera, con balones de reserva.",
+ "juego": "Cada equipo se pasa su balón sin pararlo entre los demás: pase antes de 3″ (propuesta). Si se para o sale, entra otro balón. No se toca el balón de otro equipo.",
+ "punto": "Balón parado o fuera: 1 a los otros dos equipos (fuente).",
+ "consigna": "Pasa y busca un hueco libre.",
+ "variantes": {
+  "facil": "Se puede conducir (fuente); 5 segundos con el balón (propuesta).",
+  "dificil": "Campo más pequeño, 15 × 15 m (fuente); solo dos toques por jugador o pase obligatorio al primer toque en los últimos 30″ (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): tal cual. Prebenjamín: dos equipos de tres y 20 × 20 m. Alevín: cuatro equipos de tres en 20 × 20 m y dos toques (propuesta). Frase de la fuente: «Has mirado a tu compañero antes de pasar».",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Tres balones que salvar (BJ-D06)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Regla de los 3 segundos, prohibido tocar el balón de otro equipo, reanudación con balón de reserva, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 4,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 12,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 17.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     11,
+     8.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     17,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     10.5
+    ],
+    "b": [
+     12.5,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

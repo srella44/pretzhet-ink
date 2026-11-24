@@ -1,0 +1,176 @@
+{
+ "id": "LU-P012",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v3+1 en dos zonas",
+ "formato": "10v4+1",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug.",
+ "espacio": "24 × 28 m",
+ "duracion": "18 min",
+ "series": "4 series de 3′30″ con 1 minuto de pausa; cambian los 4 defensores en cada serie (propuesta).",
+ "objetivo": "Encontrar al hombre libre y al tercer hombre para conectar las dos zonas a través de las miniporterías, y cambiar rápido de fase tras pérdida (fuente). Cómo explicarlo: «abre la línea de pase moviendo el balón hasta que la miniportería quede libre». Errores típicos: forzar el pase por la miniportería tapada; los 5 de la zona sin balón parados; tras perder, nadie presiona y los defensores salen conduciendo. Qué observar: paredes y tercer hombre para desbloquear, apoyo de la otra zona al otro lado de la miniportería.",
+ "montaje": "24 × 28 m en 2 zonas con 2 miniporterías en la línea central (propuesta). Cinco amarillos por zona; 4 rojos: 3 en la zona del balón y 1 en la otra. Un comodín ayuda en la zona activa (propuesta).",
+ "juego": "Los amarillos, sin salir de su zona, pasan el balón a la otra zona a través de una miniportería, o llegan a 20 pases. Al cambiar, cruzan 2 rojos. Si roban, salen conduciendo.",
+ "punto": "Mini o 20 pases: 1. Rojos: salir conduciendo, 1 (fuente).",
+ "consigna": "Mueve el balón hasta abrir la mini.",
+ "variantes": {
+  "facil": "Miniporterías de 3 m y 15 pases para punto (propuesta).",
+  "dificil": "Dos toques y el pase por la miniportería a un toque (propuesta)."
+ },
+ "adaptacion": "Cadete y juvenil: como la fuente. Infantil (12–13): 4 contra 2 + 1 en cada zona, 22 × 26 m y 12 pases (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSESIÓN 10vs4+1 (5vs3+1)",
+  "ref": "300 ejercicios Level Up Coach · p. 12 (tarea 11)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Posición de las miniporterías en la línea central, papel del comodín (+1), cómo cruzan los rojos al cambiar de zona, series y adaptación (propuesta). Diagrama simplificado (no salen todos los jugadores).",
+ "diagrama": {
+  "field": [
+   28,
+   24
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 29,
+   "ymin": -1,
+   "ymax": 25
+  },
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     13
+    ],
+    "b": [
+     11,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     19
+    ],
+    "b": [
+     19,
+     20
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2,
+    "nt": 0.6
+   }
+  ],
+  "labels": [],
+  "goals": [
+   [
+    14,
+    6,
+    "L"
+   ],
+   [
+    14,
+    18,
+    "R"
+   ]
+  ]
+ }
+}

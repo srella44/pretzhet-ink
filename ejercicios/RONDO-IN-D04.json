@@ -1,0 +1,166 @@
+{
+ "id": "RONDO-IN-D04",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Comodines de banda",
+ "formato": "5v5 + 2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "12 min",
+ "series": "3 series de 3′30″ con 45″ de pausa; los comodines cambian en cada serie (propuesta).",
+ "objetivo": "Usar la amplitud: conservar con los comodines de banda y cambiar el juego de lado cuando un lado está cerrado (fuente). Cómo explicarlo: «si un lado está lleno, el otro está vacío». Errores típicos: todos los de dentro hacia el balón y nadie al lado débil; pase al comodín y quedarse quieto; cambio de banda lento por dentro que interceptan. Qué observar: perfil abierto al recibir, si alguien se ofrece por dentro para el cambio. Frase de la fuente: «Muy bien, has cambiado de banda cuando estaba cerrado».",
+ "montaje": "30 × 20 m. Cinco amarillos contra cinco rojos dentro. Un comodín en cada banda, fuera, juega con quien tiene el balón y se mueve por su banda (2 toques, propuesta).",
+ "juego": "El equipo con balón conserva con los comodines (7 contra 5). Punto con 6 pases seguidos o con un cambio de banda completo, de un comodín al otro. Tras punto sigue la posesión; si roban, juega el otro.",
+ "punto": "1 punto por serie o por cambio de banda (fuente).",
+ "consigna": "Si un lado está cerrado, cambia de banda.",
+ "variantes": {
+  "facil": "Tres comodines, el tercero dentro (fuente).",
+  "dificil": "Comodines a un toque (fuente). Variante «Hoy» de la fuente: después de cada punto se ataca una miniportería a elegir."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín: 4 contra 4 y 25 × 18 m. Cadete: comodines a un toque y dentro a dos toques (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Posesión con comodines de banda (IN-D04)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Toques y movimiento de los comodines, qué pasa tras punto y robo, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1.8,
+   "ymax": 21.8
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": 12,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     3
+    ],
+    "b": [
+     12,
+     -1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     -1
+    ],
+    "b": [
+     15,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     15,
+     9
+    ],
+    "b": [
+     18,
+     21
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

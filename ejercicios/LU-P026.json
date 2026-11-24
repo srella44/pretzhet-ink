@@ -1,0 +1,180 @@
+{
+ "id": "LU-P026",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "11v5 contra un bloque",
+ "formato": "11v5",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug.",
+ "espacio": "35 × 40 m",
+ "duracion": "18 min",
+ "series": "4 series de 3′30″ con 1′30″ de pausa; cambian los 5 del bloque en cada serie (propuesta).",
+ "objetivo": "Doble trabajo: el equipo de 11 progresa y crea ocasiones; los 5 defienden en bloque compacto, cierran las líneas de pase interiores y orientan la presión hacia fuera (fuente). Cómo explicarlo al bloque: «juntos, a la altura del balón; que no pase nada por dentro». Errores típicos: un defensor salta solo y abre un hueco; el equipo de 11 circula sin atacar los espacios entre líneas. Qué observar: distancia entre los 5 (no más de 8–10 m), interceptaciones y finalizaciones tras pase interior.",
+ "montaje": "35 × 40 m, portería de F7 sin portero en cada fondo (propuesta). Once amarillos por puestos, con los dos centrales delante de su portería. Cinco rojos en bloque.",
+ "juego": "Inicia un central y su equipo ataca la portería contraria; los centrales no marcan en la de su espalda. Los rojos defienden juntos y, si recuperan, marcan en cualquiera. Tras gol o fuera, inicia un central.",
+ "punto": "Gol amarillo: 1. Gol rojo: 2 (propuesta).",
+ "consigna": "Bloque: juntos y nada por dentro.",
+ "variantes": {
+  "facil": "Seis en el bloque y porterías más anchas (propuesta).",
+  "dificil": "Los amarillos a dos toques y gol solo tras un pase entre líneas (propuesta)."
+ },
+ "adaptacion": "Cadete y juvenil: como la fuente. Infantil (12–13): 8 contra 4 en 30 × 35 m con porterías de fútbol 7 (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSESIÓN (11vs5) - Defensa en bloque - Cerrar líneas de pase",
+  "ref": "300 ejercicios Level Up Coach · p. 26 (tarea 25)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Porterías de fútbol 7 sin portero, colocación de los 11 (la fuente remite a un gráfico), reanudaciones, puntuación, series y adaptación (propuesta). Diagrama simplificado.",
+ "diagrama": {
+  "field": [
+   40,
+   35
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -1,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17.5,
+    "lado": "L",
+    "ancho": 6
+   },
+   {
+    "x": 40,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     11
+    ],
+    "b": [
+     12,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     3
+    ],
+    "b": [
+     27,
+     17.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     27,
+     17.5
+    ],
+    "b": [
+     34,
+     27
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

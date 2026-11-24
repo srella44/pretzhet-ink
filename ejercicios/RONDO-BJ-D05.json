@@ -1,0 +1,176 @@
+{
+ "id": "RONDO-BJ-D05",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "El puente de los compañeros",
+ "formato": "4v4 + 2 puentes",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 15 m",
+ "duracion": "12 min",
+ "series": "4 partidos de 2′30″ con 30″ de pausa; los puentes cambian en cada partido hasta que hayan pasado todos (propuesta).",
+ "objetivo": "Llevar el balón al otro lado combinando con un compañero de apoyo en la banda: ver al puente, pasarle y seguir (fuente). Cómo explicarlo: «si te cierran el camino, usa el puente». Errores típicos: conducir siempre recto hacia los rivales; pasar al puente y quedarse mirando; el puente parado en una esquina. Qué observar: si levantan la cabeza antes de llegar al rival y si el puente se mueve a la altura del balón. Material (propuesta): 8 conos, petos de tres colores (dos equipos y puentes) y 6 balones.",
+ "montaje": "25 × 15 m. Dos equipos de 4 dentro: cada uno ataca una línea de fondo. Dos puentes (blancos), uno en cada banda y fuera, juegan con quien lleva el balón.",
+ "juego": "Se marca parando el balón con la suela sobre la línea rival. Se conduce o se pasa, también a los puentes (2 toques, propuesta). Si roban, el otro ataca su línea. Tras punto, saca el rival.",
+ "punto": "1 punto por cada línea alcanzada (fuente).",
+ "consigna": "Si te cierran, usa el puente.",
+ "variantes": {
+  "facil": "No se puede robar a los puentes (fuente) y se juega 4 contra 3 (propuesta).",
+  "dificil": "El punto vale doble si el balón pasa por un puente (fuente); puentes a un toque (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): tal cual. Prebenjamín: 3 contra 3, 20 × 12 m y punto también conduciendo por encima de la línea sin parar. Alevín: punto solo si antes ha tocado un puente (propuesta). Frase de la fuente: «Has ayudado a tu compañero: genial».",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El puente de los compañeros (BJ-D05)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número por equipo (4 contra 4), toques y movimiento de los puentes, reanudaciones, series y rotación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   15
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 26,
+   "ymin": -1.8,
+   "ymax": 16.8
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": 12,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     15,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1,
+    "nt": 0.45
+   },
+   {
+    "a": [
+     15,
+     16
+    ],
+    "b": [
+     19,
+     13.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     19,
+     13.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     19,
+     13.8
+    ],
+    "b": [
+     25,
+     13
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    24.4,
+    3.2,
+    "LÍNEA",
+    "end"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "id": "RONDO-IN-D03",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tres zonas, tres líneas",
+ "formato": "3v2 · 3v2 · 3v2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug.",
+ "espacio": "35 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 30″ de pausa; cada serie, una pareja de rivales cambia con un trío de atacantes (propuesta).",
+ "objetivo": "Progresar de defensa a ataque pasando por el centro del campo: romper una línea de rivales con el pase y dar apoyo en la zona siguiente (fuente). Cómo explicarlo: «antes de pasar, mira si hay un compañero libre detrás de los dos rivales». Errores típicos: los medios se esconden detrás de los rivales; pase raso pero lento que interceptan; los defensas se pasan entre ellos sin buscar romper la línea. Qué observar: perfil del medio al recibir (de lado para jugar hacia delante), separación de los tres de cada zona para dar línea de pase. Frase de la fuente: «Pase que ha roto la línea».",
+ "montaje": "35 × 20 m en 3 zonas: defensas, medios y delanteros. 3 atacantes por zona contra 2 rivales (propuesta); nadie sale de su zona.",
+ "juego": "Saca el míster a un defensa. Punto: llevar el balón de la zona 1 a la 3 pasando por la 2; luego se vuelve atrás igual. Si un rival roba, sale conduciendo por la banda.",
+ "punto": "Progresión completa: 1 (fuente). Robo y salida: 1 rival (propuesta).",
+ "consigna": "Pase que rompa la línea.",
+ "variantes": {
+  "facil": "Un rival por zona (fuente).",
+  "dificil": "Se puede saltar la zona central con un pase alto: vale doble si se controla (fuente); dos toques en la zona central (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín: 3 contra 1 en la zona de defensas para salir fácil. Cadete: medios a dos toques y un rival puede pasar de zona para presionar (propuesta). Con 12 jugadores: 3 contra 1 en las zonas de los extremos.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Tres zonas, tres líneas (IN-D03)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tres atacantes por zona, vuelta del balón hacia atrás tras el punto, puntuación de los rivales al robar, series y rotaciones (propuesta). El texto de la fuente llega cortado en parte.",
+ "diagrama": {
+  "field": [
+   35,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 36,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     11.7,
+     0
+    ],
+    [
+     11.7,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     23.3,
+     0
+    ],
+    [
+     23.3,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     11
+    ],
+    "b": [
+     17.5,
+     11.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     17.5,
+     11.5
+    ],
+    "b": [
+     26,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    5.8,
+    1.4,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    17.5,
+    1.4,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    29,
+    1.4,
+    "ZONA 3",
+    "middle"
+   ]
+  ]
+ }
+}

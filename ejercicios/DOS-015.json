@@ -1,0 +1,190 @@
+{
+ "id": "DOS-015",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Conservar entre puertas",
+ "formato": "4v4+1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1 minuto de pausa; el comodín cambia en cada serie (propuesta). La fuente da 20′ en total.",
+ "objetivo": "Conservar el balón y recibir pases a través de puertas coordinando el desmarque con el pasador (fuente). Hábitos: mirar antes y después de recibir, controles orientados, una ayuda a cada lado del poseedor. Cómo explicarlo: «desmárcate cuando te miran, no antes». Errores típicos (fuente): desmarcarse lejos o cuando el compañero no te puede ver. Qué observar: si el receptor llega a la puerta en el momento del pase y si el poseedor tiene siempre un apoyo a cada lado. Con niños pequeños, la fuente propone un 3 contra 3 sin perder el balón (si controlo bien, no me la quitan).",
+ "montaje": "20 × 20 m con 5 puertas de conos de 2 m repartidas por dentro (fuente: 4–6). Dos equipos de 4 y un comodín que juega con el que tiene el balón.",
+ "juego": "El equipo con balón (5 contra 4) conserva y busca que un compañero reciba un pase a través de una puerta. No vale la misma puerta dos veces seguidas (propuesta). Si roban, el otro hace lo mismo.",
+ "punto": "1 punto por pase recibido a través de una puerta (fuente).",
+ "consigna": "Desmárcate cuando te miran.",
+ "variantes": {
+  "facil": "Dos comodines si hay diferencia de nivel o de número (fuente); puertas de 3 m (propuesta).",
+  "dificil": "Sin comodín (4 contra 4) y solo 3 puertas; el pase por la puerta tiene que recibirse con control orientado hacia fuera de ella (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): puertas de 3 m y dos comodines. Infantil y cadete: como está. Con pequeños: 3 contra 3 de conservación sin puertas (fuente).",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "CONSERVACIÓN 4v4+1C + PTs",
+  "ref": "dosier.pdf · pág. 4 (sesión J1.3)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Número de puertas (5), tamaño de las puertas, regla de no repetir puerta, reanudación, series y edad (propuesta). Puntuación ya completada en la base (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "cones": [
+   [
+    4,
+    4
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    15,
+    3.5
+   ],
+   [
+    17,
+    3.5
+   ],
+   [
+    10,
+    9
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    3.5,
+    15.5
+   ],
+   [
+    5.5,
+    15.5
+   ],
+   [
+    15.5,
+    14
+   ],
+   [
+    15.5,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 17.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     10
+    ],
+    "b": [
+     8,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     7
+    ],
+    "b": [
+     13,
+     12.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     3
+    ],
+    "b": [
+     13,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3,
+    "nt": 0.35
+   }
+  ],
+  "labels": []
+ }
+}

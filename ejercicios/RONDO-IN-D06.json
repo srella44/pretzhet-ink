@@ -1,0 +1,148 @@
+{
+ "id": "RONDO-IN-D06",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "La posesión que cuenta",
+ "formato": "6v3",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 30″ de pausa; se apunta la serie más larga de cada grupo de seis (propuesta).",
+ "objetivo": "Conservar con posiciones fijas: abiertos que dan amplitud y jugadores dentro que dan línea de pase entre los rivales (fuente). Cómo explicarlo: «dale siempre dos opciones a tu compañero». Errores típicos: los de dentro se esconden detrás de un rival; los abiertos pegados a la esquina; pases al pie del que está tapado. Qué observar: si el de dentro se perfila para jugar a dos lados, si se cambia el juego cuando los tres cierran un lado. Frase de la fuente: «Le has dado siempre dos opciones a tu compañero».",
+ "montaje": "25 × 20 m. Seis amarillos fijos: uno abierto en cada lado y dos dentro (propuesta). Tres rojos presionan dentro. El míster, con balones en la banda.",
+ "juego": "Los seis se pasan el balón contando en voz alta. Si los rojos roban y sacan el balón del cuadrado (pase o conducción), cambian con el que perdió y los dos más cercanos (propuesta).",
+ "punto": "Cuenta la serie de pases más larga (fuente).",
+ "consigna": "Dale siempre dos opciones a tu compañero.",
+ "variantes": {
+  "facil": "6 contra 2 (fuente).",
+  "dificil": "6 contra 4 (fuente); los de dentro a dos toques (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín: 6 contra 2 en 22 × 18 m. Cadete: 6 contra 3 en 20 × 16 m y abiertos a un toque (propuesta). Si son más de 14: dos grupos en paralelo (fuente).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La posesión que cuenta (IN-D06)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Reparto de posiciones (cuatro abiertos y dos dentro), quién cambia al robar, series (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 26,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 0.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 24.2,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 19.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     10
+    ],
+    "b": [
+     9,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     7
+    ],
+    "b": [
+     12.5,
+     19.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     12.5,
+     19.2
+    ],
+    "b": [
+     24.2,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

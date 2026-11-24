@@ -1,0 +1,165 @@
+{
+ "id": "LU-P091",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "6v6 con 4 comodines",
+ "formato": "6v6+4",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "28 × 36 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1′30″ de pausa; los comodines cambian cada dos series (propuesta).",
+ "objetivo": "Encontrar al hombre libre y atraer para mover: el equipo con balón usa la superioridad de los cuatro comodines (central, mediocentro e interiores) para circular de un lado a otro (fuente). Cómo explicarlo: «el comodín libre es el que está a la espalda del que presiona». Errores típicos: comodines metidos dentro en lugar de dar amplitud y profundidad; jugar siempre con el mismo comodín; pase al comodín tapado. Qué observar: perfil del mediocentro para jugar a un lado y a otro, cambio de orientación cuando el rival carga un lado.",
+ "montaje": "28 × 36 m. Dos equipos de 6 (laterales, extremos y mediapuntas). Cuatro comodines: central en un fondo, mediocentro dentro e interiores en las bandas, siempre abiertos (propuesta).",
+ "juego": "Inicia un comodín y juega con un equipo (10 contra 6). Hay que jugar con los 4 comodines sin perder el balón o dar 14 pases. Comodines a dos toques. Si se pierde el balón, cambio de papeles.",
+ "punto": "Los 4 comodines o 14 pases: 1 punto (fuente).",
+ "consigna": "Busca al comodín libre.",
+ "variantes": {
+  "facil": "10 pases para punto y comodines con toques libres (propuesta).",
+  "dificil": "Los 4 comodines en orden distinto cada vez y 18 pases; el equipo sin balón suma 1 punto si roba en los 5″ tras perderlo (propuesta)."
+ },
+ "adaptacion": "Cadete y juvenil: como la fuente. Infantil: 5 contra 5 + 3 comodines (sin el central) en 25 × 30 m y 10 pases (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN 6 vs 6 + 4 (DFC - MC - INT)",
+  "ref": "300 ejercicios Level Up Coach · p. 91 (tarea 90)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Puestos de los equipos (como en la tarea 1 de la fuente) y colocación de los comodines (central en un fondo, mediocentro dentro, interiores en bandas), series y adaptación (propuesta). La fuente remite a un gráfico que no está en el texto. Diagrama simplificado (no salen todos los jugadores).",
+ "diagrama": {
+  "field": [
+   36,
+   28
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 37,
+   "ymin": -1.8,
+   "ymax": 29.8
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": -0.9,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 28.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.9,
+     14
+    ],
+    "b": [
+     13,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     20
+    ],
+    "b": [
+     18,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     18,
+     14
+    ],
+    "b": [
+     22,
+     -0.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

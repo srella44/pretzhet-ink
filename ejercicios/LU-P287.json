@@ -1,0 +1,180 @@
+{
+ "id": "LU-P287",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "7v7 con zonas de puntuación",
+ "formato": "7v7",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "14 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "18 min",
+ "series": "4 series de 3′30″ con 1 minuto de pausa (propuesta).",
+ "objetivo": "Circular con amplitud y encontrar líneas de pase hacia la zona libre, con ritmo alto por el límite de toques (fuente). Cómo explicarlo: «si una zona está cerrada, lleva el balón a la otra». Errores típicos: todos amontonados hacia la zona donde se acaba de puntuar; entrar en la zona antes del pase; pases sin tensión. Qué observar: amplitud de los extremos, cambio de orientación y desmarque de entrada a la zona en el momento del pase.",
+ "montaje": "30 × 30 m con una zona de puntuación de 5 m en cada fondo (propuesta). Dos equipos de 7 en el centro.",
+ "juego": "Posesión a dos toques. Punto: un jugador recibe controlado dentro de una zona tras un pase; el siguiente tiene que ser en la otra zona (propuesta). En la zona solo entran un atacante y un defensor. Robo: juega el otro.",
+ "punto": "Recepción controlada en zona: 1 punto (propuesta).",
+ "consigna": "Zona cerrada: ve a la otra.",
+ "variantes": {
+  "facil": "Toques libres y zonas de 6 m (propuesta).",
+  "dificil": "Un toque en el último pase y recepción obligatoria a la carrera (propuesta)."
+ },
+ "adaptacion": "Juvenil y cadete: como está. Infantil (12–13): 5 contra 5 + comodín en 28 × 25 m y tres toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Juego de Posesión - 7x7 Con Zona De Puntuación - @Zonadefutboles - www.zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · p. 287 (tarea 286)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Profundidad de las zonas (5 m), regla de alternar zonas, quién puede entrar, número de toques (2), puntuación, series y adaptación (propuesta). La fuente solo da el formato y las zonas. Diagrama simplificado (no salen todos los jugadores).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     25,
+     0,
+     30,
+     30
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 25,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     16
+    ],
+    "b": [
+     20,
+     26
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     7
+    ],
+    "b": [
+     27.5,
+     14
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     26
+    ],
+    "b": [
+     27.5,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    2.5,
+    29,
+    "ZONA",
+    "middle"
+   ],
+   [
+    27.5,
+    29,
+    "ZONA",
+    "middle"
+   ]
+  ]
+ }
+}

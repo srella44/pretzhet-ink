@@ -1,0 +1,177 @@
+{
+ "id": "LU-P038",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+5 contra el bloque",
+ "formato": "10v5",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "15 jug.",
+ "espacio": "22 × 30 m",
+ "duracion": "18 min",
+ "series": "3 bloques de 5 minutos con 1′30″ de pausa (propuesta); el cambio de papeles ya se produce en cada robo (fuente).",
+ "objetivo": "Ocupación racional del espacio con balón y defensa en bloque sin él: los dos equipos que atacan atraen rivales y progresan hacia la zona menos poblada; los cinco que defienden forman triángulos, anticipan e interceptan (fuente). Cómo explicarlo: «llévalos a un lado y juega donde no están». Errores típicos: dos jugadores del mismo equipo en la misma línea; laterales metidos dentro; defensores separados más de 8 m. Qué observar: amplitud de bandas, altura de los fondos y apoyo de los interiores entre líneas.",
+ "montaje": "22 × 30 m con carriles de banda de 4 m (propuesta). Tres equipos de 5. Atacan dos: laterales y extremos en los carriles, centrales y medios en los fondos, interiores dentro. Defiende el tercero.",
+ "juego": "Los 10 juegan a dos toques para atraer y progresar a la zona libre. Si un defensor roba, su equipo cambia el papel con el equipo que perdió el balón (fuente).",
+ "punto": "14 pases sin robo: 1 (fuente). Robo: 1 (propuesta).",
+ "consigna": "Llévalos a un lado y juega donde no están.",
+ "variantes": {
+  "facil": "10 pases para punto y toques libres (propuesta).",
+  "dificil": "Un toque en los carriles; el punto solo vale si el balón pasa por los dos fondos (propuesta)."
+ },
+ "adaptacion": "Cadete y juvenil: como la fuente. Infantil (12–13): tres equipos de 4 en 20 × 25 m y 10 pases (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO POSESIÓN (5vs5+5) - Defensa en bloque - Ocupación racional",
+  "ref": "300 ejercicios Level Up Coach · p. 38 (tarea 37)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ancho de los carriles (4 m), puntos por robo, series y adaptación (propuesta). La fuente remite a un gráfico que no está en el texto; colocación según la descripción. Diagrama simplificado (no salen todos los jugadores).",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 31.2,
+   "ymin": -1,
+   "ymax": 23
+  },
+  "lines": [
+   [
+    [
+     0,
+     4
+    ],
+    [
+     30,
+     4
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     18
+    ],
+    [
+     30,
+     18
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     11
+    ],
+    "b": [
+     8,
+     2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     2
+    ],
+    "b": [
+     12,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     13
+    ],
+    "b": [
+     22,
+     20
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

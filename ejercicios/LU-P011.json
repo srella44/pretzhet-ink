@@ -1,0 +1,217 @@
+{
+ "id": "LU-P011",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 8v8+2 y ruptura",
+ "formato": "8v8+2",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1′30″ de pausa (propuesta); cambio de comodines a mitad de la tarea.",
+ "objetivo": "Conservar con orden por zonas y saber cuándo romper al espacio: tras 10 pases, el equipo elige entre seguir hasta 20 o buscar un desmarque de ruptura de un delantero o extremo a la zona de puntuación (fuente). Trabaja batir líneas, cambio de rol tras pérdida y cerrar líneas de pase. Cómo explicarlo: «primero tener el balón; luego, si el defensor mira al balón, rompe». Errores típicos: romper antes del pase 10; desmarque en línea con el defensor (fuera de juego en el partido); los comodines juntos. Qué observar: momento de la ruptura (cuando el poseedor levanta la cabeza) y pase al espacio a la carrera.",
+ "montaje": "30 × 30 m en 4 cuadrantes, con una franja de puntuación de 5 m en dos lados (propuesta). Dos equipos de 8 y 2 comodines libres (nunca en la misma zona).",
+ "juego": "Solo delanteros y extremos salen de su zona. Con 10 pases, se sigue hasta 20 o se busca a un delantero o extremo que rompe y recibe en la franja de puntuación. Robo: cambio de rol.",
+ "punto": "20 pases: 1. Recibir en la franja tras ruptura: 1 (fuente).",
+ "consigna": "Primero 10 pases; luego rompe.",
+ "variantes": {
+  "facil": "8 pases antes de poder romper y 15 para punto (propuesta).",
+  "dificil": "Comodines a un toque y ruptura solo con pase al primer toque (propuesta)."
+ },
+ "adaptacion": "Cadete y juvenil: como la fuente. Infantil (12–13): 6 contra 6 + 2 en 30 × 25 m, 8 pases para romper y 15 para punto (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO POSESIÓN 8vs8+2 - Posesión y desmarques",
+  "ref": "300 ejercicios Level Up Coach · p. 11 (tarea 10)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Cuadrantes de 15 × 15 m, franjas de puntuación de 5 m en dos lados, reparto de dos jugadores por cuadrante, series y adaptación (propuesta). La fuente remite a un gráfico que no está en el texto. Diagrama simplificado (no salen los 20 jugadores).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -5.6,
+   "xmax": 35.6,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     -5,
+     0,
+     0,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     35,
+     30
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     30,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 25,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     4
+    ],
+    "b": [
+     22,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     12
+    ],
+    "b": [
+     32.5,
+     22
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     8
+    ],
+    "b": [
+     32.5,
+     22
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    32.5,
+    29.2,
+    "PUNTO",
+    "middle"
+   ]
+  ]
+ }
+}

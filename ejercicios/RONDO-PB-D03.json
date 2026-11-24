@@ -1,0 +1,156 @@
+{
+ "id": "RONDO-PB-D03",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Todos contra el míster",
+ "formato": "todos v míster",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "4 juegos de 2 minutos con 30″ de pausa para beber y celebrar los goles (propuesta).",
+ "objetivo": "Primer juego de equipo: pasarse el balón para superar a un rival y marcar juntos (fuente). Cómo explicarlo: «somos un equipo: si el míster te tapa, pásala a un amigo». Errores típicos: todos detrás del balón formando un racimo; nadie se separa para recibir; el que tiene el balón conduce hasta perderlo. Qué observar: si alguno se abre a la banda para recibir y si celebran el gol de otro como suyo. Material (propuesta): una portería grande (o de F7) y 6 balones en una caja detrás de la línea de salida.",
+ "montaje": "20 × 15 m, portería grande en un fondo y sin portero. Todos los niños, con un solo balón, salen desde el fondo contrario. El míster y un ayudante defienden.",
+ "juego": "Los niños avanzan pasando y conduciendo para marcar. El míster y el ayudante tapan y roban sin chocar; si roban, el balón vuelve a la línea de salida (propuesta). Tras gol, se sale de nuevo.",
+ "punto": "Gol de los niños: 1 punto. El míster no marca nunca (fuente).",
+ "consigna": "Si te tapan, pásala a un amigo. ¡Qué equipo!",
+ "variantes": {
+  "facil": "El míster camina (fuente); sin ayudante (propuesta).",
+  "dificil": "El gol vale doble si antes ha habido un pase (fuente); con 10–12 niños, dos balones a la vez (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): tal cual. Con 4–5 años: portería ancha y el míster de rodillas. Benjamín: el ayudante pasa a portero y el gol tras dos pases vale triple (propuesta). Frase de la fuente: «¡Qué equipo!».",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Todos contra el míster (PB-D03)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 13"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Línea de salida, qué pasa al robar, que no hay portero, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21.6,
+   "ymin": -1,
+   "ymax": 16
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 9.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     7.5
+    ],
+    "b": [
+     4.5,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     4.5,
+     12.5
+    ],
+    "b": [
+     10,
+     11.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     11.5
+    ],
+    "b": [
+     19.5,
+     8.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    13,
+    14.2,
+    "MÍSTER Y AYUDANTE",
+    "middle"
+   ]
+  ]
+ }
+}

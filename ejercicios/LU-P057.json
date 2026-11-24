@@ -1,0 +1,213 @@
+{
+ "id": "LU-P057",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Recibir en las esquinas",
+ "formato": "7v7+2",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug.",
+ "espacio": "30 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1 minuto de pausa (propuesta).",
+ "objetivo": "Atraer para mover: llevar al rival a una zona, conectar por asociación con la zona libre y filtrar el pase a la esquina en el momento justo (fuente). Trabaja desmarques, pases al espacio y acoso al poseedor. Cómo explicarlo: «juntadlos en un lado y atacad la esquina contraria». Errores típicos: esperar dentro de la esquina (no está permitido); pase a la esquina sin desmarque previo; los comodines sin perfil para jugar a un toque. Qué observar: si el receptor entra a la esquina en carrera y si el equipo cambia de lado tras atraer.",
+ "montaje": "30 × 40 m con un cuadrado de 6 × 6 m en cada esquina (propuesta). Dos equipos de 7 dentro y un comodín en cada banda, que juega con el que tiene el balón.",
+ "juego": "Punto: un compañero recibe un pase dentro de una esquina. En las esquinas solo se entra para recibir o para impedirlo. Máximo 3 toques; comodines a 1. Robo: cambio de rol.",
+ "punto": "1 punto por pase recibido en una esquina (fuente).",
+ "consigna": "Atrae en un lado y ataca la esquina libre.",
+ "variantes": {
+  "facil": "Esquinas de 8 × 8 m y 4 toques (propuesta).",
+  "dificil": "No vale la misma esquina dos veces seguidas; jugadores a 2 toques (propuesta)."
+ },
+ "adaptacion": "Cadete y juvenil: como la fuente. Infantil (12–13): 5 contra 5 + 2 en 25 × 35 m, esquinas de 7 m y toques libres (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSESIÓN - Desmarques - Pases al espacio - Atraer para mover",
+  "ref": "300 ejercicios Level Up Coach · p. 57 (tarea 56)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida de las esquinas (6 × 6 m), qué pasa tras punto, series y adaptación (propuesta). Diagrama simplificado.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -1.8,
+   "ymax": 31.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     6,
+     6
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     34,
+     0,
+     40,
+     6
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     24,
+     6,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     34,
+     24,
+     40,
+     30
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 20,
+    "y": -1,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 31,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 17,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     10
+    ],
+    "b": [
+     20,
+     -1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     -1
+    ],
+    "b": [
+     28,
+     18
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     32,
+     24
+    ],
+    "b": [
+     36.5,
+     27
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     28,
+     18
+    ],
+    "b": [
+     36.5,
+     27
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

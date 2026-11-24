@@ -1,0 +1,181 @@
+{
+ "id": "LU-P021",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tres equipos: dentro y fuera",
+ "formato": "4+1v4 + 4",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "13 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "18 min",
+ "series": "4 series de 3′30″ con 1 minuto de pausa; el comodín cambia en cada serie (propuesta).",
+ "objetivo": "Cambio de rol rápido y líneas de pase: aprovechar la superioridad (4 + comodín + 4 exteriores contra 4) con paredes y tercer hombre hasta 15 pases, y finalizar a un toque (fuente). Cómo explicarlo: «quien pierde, defiende al instante». Errores típicos: el equipo que pierde tarda en cambiar de papel; exteriores parados; finalizar con dos toques. Qué observar: anticipaciones de los defensores, paredes con el exterior y orden en el cambio dentro–fuera.",
+ "montaje": "30 × 30 m, miniportería en cada esquina (propuesta). Tres equipos de 4: amarillos con balón y comodín dentro; rojos defienden dentro; blancos fuera, uno por lado.",
+ "juego": "Con 15 pases, gol a un toque en cualquier mini. Dentro, 2 toques; fuera, 1 (fuente). Si pierde un amarillo, defienden los amarillos; si pierde uno de fuera, su equipo defiende y los amarillos salen.",
+ "punto": "15 pases y gol: 1 punto (fuente).",
+ "consigna": "Quien pierde, defiende al instante.",
+ "variantes": {
+  "facil": "10 pases para poder finalizar y exteriores a dos toques (propuesta).",
+  "dificil": "Finalizar solo en la miniportería contraria a la del último gol; comodín a un toque (propuesta)."
+ },
+ "adaptacion": "Cadete y juvenil: como la fuente. Infantil (12–13): 25 × 25 m, 10 pases y dos toques también fuera (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO POSESIÓN (4vs4+5) - Cambios de rol - Líneas de pase",
+  "ref": "300 ejercicios Level Up Coach · p. 21 (tarea 20)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de las 4 miniporterías (esquinas) y de los exteriores (uno por lado), series y adaptación (propuesta). La fuente remite a un gráfico que no está en el texto. Diagrama simplificado (no salen todos los jugadores).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 32.4,
+   "ymin": -1.6,
+   "ymax": 31.6
+  },
+  "goals": [
+   [
+    0,
+    2,
+    "L"
+   ],
+   [
+    0,
+    28,
+    "L"
+   ],
+   [
+    30,
+    2,
+    "R"
+   ],
+   [
+    30,
+    28,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 15,
+    "y": -0.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 30.8,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 30.8,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -0.8,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     15,
+     -0.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     -0.8
+    ],
+    "b": [
+     22,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     8
+    ],
+    "b": [
+     29.5,
+     2.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

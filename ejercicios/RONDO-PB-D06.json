@@ -1,0 +1,153 @@
+{
+ "id": "RONDO-PB-D06",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "El gol juntos",
+ "formato": "parejas",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 3 minutos; en cada ronda se cambian las parejas (propuesta).",
+ "objetivo": "Pasar al compañero mientras se avanza y marcar juntos (fuente). Cómo explicarlo: «el gol solo vale si los dos habéis tocado el balón». Errores típicos: uno conduce todo el rato y el otro corre detrás; pase muy fuerte o hacia atrás; tirar desde muy lejos. Qué observar: si el que no tiene balón corre por delante y a un lado para recibir. Frase de la fuente: «Buen pase al amigo».",
+ "montaje": "20 × 15 m, portería grande en un fondo. Parejas en fila en el otro fondo, con un balón cada una. Línea de conos a 6 m de la portería (propuesta).",
+ "juego": "Sale una pareja: avanzan pasándose el balón y tiran antes de la línea. Vale si los dos lo han tocado. Recogen y vuelven por la banda; sale la siguiente cuando la anterior pasa la mitad (propuesta).",
+ "punto": "Gol juntos: 1 punto (fuente).",
+ "consigna": "Buen pase al amigo y gol juntos.",
+ "variantes": {
+  "facil": "Sin portero (fuente); se puede tirar desde cualquier sitio (propuesta).",
+  "dificil": "El míster hace de portero (fuente); el gol vale doble con tres pases o más (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): tal cual. Con 4–5 años: portería ancha, sin portero y sin línea de tiro. Benjamín: un defensor que sale desde la portería cuando la pareja cruza la mitad (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El gol juntos (PB-D06)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Línea de tiro a 6 m, ritmo de salida, vuelta por la banda, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 21.6,
+   "ymin": -1,
+   "ymax": 16
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 5
+   }
+  ],
+  "lines": [
+   [
+    [
+     14,
+     2
+    ],
+    [
+     14,
+     13
+    ],
+    "4 4"
+   ]
+  ],
+  "cones": [
+   [
+    14,
+    2
+   ],
+   [
+    14,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     5
+    ],
+    "b": [
+     6,
+     10.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     10.5
+    ],
+    "b": [
+     19.5,
+     8.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    14,
+    14.6,
+    "LÍNEA DE TIRO",
+    "middle"
+   ]
+  ]
+ }
+}

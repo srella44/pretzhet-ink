@@ -1,0 +1,187 @@
+{
+ "id": "PIK-0020",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Conducir para atraer",
+ "formato": "4+2v4",
+ "edad": "11–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "24 × 18 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 minutos con 1 minuto de pausa; atacantes y defensores cambian de papel en cada serie y los comodines cada dos (propuesta).",
+ "objetivo": "Fijar y atraer: el comodín entra conduciendo en la franja de un defensor para que salga a por él, y suelta el pase al compañero que queda libre (fuente). Pregunta de la fuente para el entrenador: ¿el comodín fija a un defensor antes de soltar el pase? Cómo explicarlo: «conduce hacia el defensor, no hacia el hueco; cuando salga, pasa». Errores típicos: soltar el pase antes de que el defensor se comprometa; conducir de lado sin atacar; los atacantes juntos en la misma franja. Qué observar: distancia a la que el comodín suelta el pase (2–3 m del defensor) y si el receptor ya está perfilado.",
+ "montaje": "24 × 18 m en 4 franjas de 6 m (propuesta), con un defensor rojo en cada una sin salir de ella. Cuatro amarillos y dos comodines salen con balón desde un fondo.",
+ "juego": "Los 6 progresan de fondo a fondo. Solo los comodines pueden entrar conduciendo en una franja para atraer al defensor y pasar al libre. Robo o fuera: nueva salida.",
+ "punto": "Fondo rival: 1 (fuente). Robo: 1 rojo (propuesta).",
+ "consigna": "Conduce hacia el defensor y pasa.",
+ "variantes": {
+  "facil": "Los defensores solo pueden moverse andando en las dos primeras franjas (propuesta).",
+  "dificil": "Dos defensores en la franja central y uno en cada extremo (propuesta); los comodines solo pueden conducir 3 m."
+ },
+ "adaptacion": "Alevín (11): franjas de 7 m y sin límite de toques para los amarillos. Infantil (12–13): como está. Cadete: atacantes a un toque fuera de la franja del comodín (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Conducir para atraer en el juego de posición (4c4+2 fijar–atraer)",
+  "ref": "https://library.bcoach.app/tareas/4c4-2-fijar-atraer-e4db6bcc92df/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Cuatro franjas de 6 m a lo largo con un defensor en cada una, límite de toques de los amarillos, puntuación de los defensores, series y rotaciones (propuesta). Interpretación de «rectángulo dividido en cuatro» y «progresar de fondo a fondo».",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 25,
+   "ymin": -1,
+   "ymax": 19
+  },
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     18
+    ],
+    "6 5"
+   ],
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     18
+    ],
+    "6 5"
+   ],
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     18
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 1.5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     9
+    ],
+    "b": [
+     6,
+     8.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     8.5
+    ],
+    "b": [
+     10,
+     14.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "balls": [],
+  "labels": [
+   [
+    3,
+    17.2,
+    "FRANJA 1",
+    "middle"
+   ],
+   [
+    21,
+    17.2,
+    "FONDO",
+    "middle"
+   ]
+  ]
+ }
+}

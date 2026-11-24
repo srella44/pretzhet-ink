@@ -1,0 +1,156 @@
+{
+ "id": "RONDO-BJ-D03",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Parejas contra cazadores",
+ "formato": "parejas v 2",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "10–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 minutos con 30″ de pausa; al empezar cada ronda, dos cazadores nuevos (propuesta).",
+ "objetivo": "Pasarse el balón en pareja con gente alrededor: mirar al compañero, pasar antes de que llegue el cazador y moverse a un hueco para volver a recibir (fuente). Cómo explicarlo: «si el cazador viene a por ti, pásala; si viene a por tu compañero, ofrécete». Errores típicos: la pareja muy cerca (un cazador tapa a los dos); conducir hasta que te roban; pase fuerte que se va fuera. Qué observar: distancia de la pareja (4–8 m) y si el que no tiene balón se mueve. Frase de la fuente: «Has mirado a tu compañero antes de pasar».",
+ "montaje": "20 × 20 m. Cuatro o cinco parejas con un balón cada una, repartidas. Dos cazadores sin balón y con peto, dentro.",
+ "juego": "Las parejas se pasan su balón moviéndose por todo el cuadrado. Los cazadores intentan robar o sacar cualquier balón. Quien lo pierde pasa a cazador y el cazador ocupa su sitio.",
+ "punto": "1 punto a la pareja cada 5 pases (fuente).",
+ "consigna": "Mira a tu compañero antes de pasar.",
+ "variantes": {
+  "facil": "Un cazador (fuente).",
+  "dificil": "Las parejas pueden pasar también a otras parejas en apuros (fuente); con 12, tres cazadores (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): tal cual. Prebenjamín: un cazador y 25 × 25 m. Alevín: tríos en lugar de parejas, tres cazadores y punto cada 6 pases (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Parejas contra cazadores (BJ-D03)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de parejas, cómo se cambia (el cazador entra en la pareja), puntos al cambiar, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 12,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 10,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     9,
+     2.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     6.5,
+     8
+    ],
+    "b": [
+     5,
+     12
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 16,
+    "n": 2
+   },
+   {
+    "a": [
+     3,
+     13
+    ],
+    "b": [
+     8,
+     17.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}
