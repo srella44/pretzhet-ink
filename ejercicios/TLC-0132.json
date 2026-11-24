@@ -1,0 +1,118 @@
+{
+ "id": "TLC-0132",
+ "bloque": "Finalización",
+ "titulo": "Luis Enrique: 2v2 y tiro",
+ "formato": "2v2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. + 2 porteros",
+ "espacio": "40 × 33 m (doble área)",
+ "duracion": "14 min",
+ "series": "3 rondas de 4 min por pareja; 1 min de pausa. Rotan ataque, defensa y portero tras cada tiro.",
+ "objetivo": "Pase–control orientado–tiro desde 16–20 m con oposición igual y trabajar al portero con la vista tapada. Cómo explicarlo: pase firme al pie, control hacia el lado del tiro y golpeo sin pasos extra. Errores típicos: control hacia atrás y defensor que se tira al suelo. Qué observar: perfil de cuerpo y distancia del defensor.",
+ "montaje": "Campo de 40 × 33 m, portería de 6 m con portero. A1 con balón en la banda y A2 a 18 m de la portería; D1 marca a A2 y D2 a A1.",
+ "juego": "A1 pasa a A2 y sube a apoyar. A2 controla orientado y tira desde 16–20 m; D1 cierra sin tirarse al suelo y D2 estorba la vista del portero. Rebote: sigue el juego; luego cambian los papeles.",
+ "punto": "Gol: 1 punto. Parada: 1 para la defensa.",
+ "consigna": "Pase al pie y tira sin armar de más.",
+ "variantes": {
+  "facil": "Defensores pasivos y tiro a 14 m.",
+  "dificil": "D1 presiona activo y A2 solo 2 toques; tiro a 20 m."
+ },
+ "adaptacion": "Alevín (10–11): tiro a 12–14 m y portería de 5 m. Infantil (12–13): como está. Cadete: 18–22 m (como en la fuente) y 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Luis Enrique)",
+  "titulo_original": "LUIS ENRIQUE FINALIZACIÓN Y DUELOS 2X2",
+  "ref": "toplidercoach.com/luis-enrique-finalizacion-y-duelos-2x2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: doble área, grupos en las esquinas, pase–control–tiro de 18–22 m, defensor emparejado, portero con tapones en la visión y rotación. Distancia bajada a 16–20 m, puntuación, tiempos y la regla de no tirarse al suelo propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 35
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 16.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     6
+    ],
+    "b": [
+     20,
+     23.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     21,
+     24
+    ],
+    "b": [
+     39.2,
+     18
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    21,
+    29.5,
+    "TIRO 16–20 M",
+    "middle"
+   ]
+  ]
+ }
+}

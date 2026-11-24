@@ -1,0 +1,181 @@
+{
+ "id": "TLC-0177",
+ "bloque": "Finalización",
+ "titulo": "Arrasate: el 9 y el giro",
+ "formato": "Delantero + 3 pasadores",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. + portero",
+ "espacio": "30 × 24 m",
+ "duracion": "12 min",
+ "series": "4 delanteros distintos x 6 acciones; 1 min de pausa al cambiar. Cada acción dura unos 15 s.",
+ "objetivo": "Descargar y girar para recibir de cara y rematar con rapidez. Cómo explicarlo: apoyo con el cuerpo de lado, dejada limpia, giro corto y pedir el balón al pie. Errores típicos: girar antes de dejar, no mirar la portería y tocar dos veces. Qué observar: tiempo entre la dejada y la vuelta a pedirla.",
+ "montaje": "Cuadrado de 5 × 5 m con conos a 18 m de una portería de 6 m con portero. Delantero dentro; 3 pasadores fuera, a 10–12 m, con balones.",
+ "juego": "P1 pasa al delantero, que deja de cara a P2 y sale en curva fuera del cuadrado. P2 le devuelve al pie y tira a 1–2 toques. Cada 6 acciones cambia el delantero.",
+ "punto": "Gol: 1 punto; 2 si recibe de cara y tira de primeras.",
+ "consigna": "Descarga, gira y pide de cara.",
+ "variantes": {
+  "facil": "Cuadrado de 7 × 7 m y pasador que da el pase al pie.",
+  "dificil": "Cuadrado de 4 × 4 m, 2 toques en total y pase al espacio."
+ },
+ "adaptacion": "Alevín (10–11): tiro a 12 m y cuadrado de 7 × 7 m. Infantil (12–13): como está. Cadete: añade un defensor pasivo dentro del cuadrado.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Jagoba Arrasate)",
+  "titulo_original": "JAGOBA ARRASATE, FINALIZACIÓN",
+  "ref": "toplidercoach.com/jagoba-arrasate-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: cuadrado de unos 5 × 5 m en la frontal, delantero dentro, 2–3 pasadores fuera, portero, descarga, movimiento circular y remate a 1–2 toques, rotación del delantero. Distancias, series y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 33,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "cones": [
+   [
+    19.5,
+    9.5
+   ],
+   [
+    24.5,
+    9.5
+   ],
+   [
+    24.5,
+    14.5
+   ],
+   [
+    19.5,
+    14.5
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     4
+    ],
+    "b": [
+     21,
+     11
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     12.5
+    ],
+    "b": [
+     10,
+     19.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     11
+    ],
+    "b": [
+     21.5,
+     5.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     9.8,
+     19.5
+    ],
+    "b": [
+     21,
+     6.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     21.5,
+     5.5
+    ],
+    "b": [
+     29.4,
+     10.5
+    ],
+    "k": "pass",
+    "n": 5,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    22,
+    22.5,
+    "CUADRADO 5 × 5",
+    "middle"
+   ]
+  ]
+ }
+}

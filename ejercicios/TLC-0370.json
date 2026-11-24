@@ -1,0 +1,263 @@
+{
+ "id": "TLC-0370",
+ "bloque": "Finalización",
+ "titulo": "Allegri: rueda doble",
+ "formato": "Dos ruedas + tiro",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + 2 porteros",
+ "espacio": "40 × 36 m",
+ "duracion": "12 min",
+ "series": "6 min por lado en 2 tandas de 3 min (cambio de lado a la mitad); 1 min de pausa. Rotación continua.",
+ "objetivo": "Sincronizar dos combinaciones a la vez y terminar con remate. Cómo explicarlo: la secuencia de 4 pases es conocida; lo importante es el ritmo, el pase de ruptura y la llegada del último. Errores típicos: chocar con la otra rueda, pases flojos y rematar de lado. Qué observar: coordinación de los 2 lados.",
+ "montaje": "Campo de 40 × 36 m con 2 porterías de 6 m con portero, arriba y abajo. En cada lado, 4 jugadores: J1 con balón, J2, J3 y J4 (remata). Dos balones salen a la vez.",
+ "juego": "J1 pasa a J2, J2 a J3, J3 pasa al espacio y J4 lo ataca y tira a 1–2 toques. Cada uno sigue su pase. J4 pasa a ser J1 del lado contrario y los demás avanzan un puesto.",
+ "punto": "Gol: 1 punto para su lado. Cambio de lado a los 3 min.",
+ "consigna": "Ritmo y remate.",
+ "variantes": {
+  "facil": "Pase de ruptura raso y tiro a dos toques.",
+  "dificil": "Combinación con pared y remate de primeras."
+ },
+ "adaptacion": "Alevín (10–11): campo de 30 × 28 m y un solo lado a la vez. Infantil (12–13): como está. Cadete: defensor pasivo por lado.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Massimiliano Allegri)",
+  "titulo_original": "ALLEGRI RUEDA DE PASES Y FINALIZACIÓN",
+  "ref": "toplidercoach.com/allegri-rueda-de-pases-y-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: dos porterías enfrentadas lateralmente, dos grupos de jugadores, dos balones simultáneos con combinación pautada, remate del último y rotación al perfil contrario. Combinación exacta (4 pases), medidas, tiempos y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   36
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 39
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 20,
+    "y": 36,
+    "lado": "B",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 30,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 6,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     30
+    ],
+    "b": [
+     10,
+     22
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     10,
+     22
+    ],
+    "b": [
+     5,
+     14
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     5,
+     14
+    ],
+    "b": [
+     12,
+     9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     16,
+     14
+    ],
+    "b": [
+     12,
+     9
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     9
+    ],
+    "b": [
+     18.5,
+     0.8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     36,
+     6
+    ],
+    "b": [
+     30,
+     14
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     30,
+     14
+    ],
+    "b": [
+     35,
+     22
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     35,
+     22
+    ],
+    "b": [
+     28,
+     27
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     24,
+     22
+    ],
+    "b": [
+     28,
+     27
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     28,
+     27
+    ],
+    "b": [
+     21.5,
+     35.2
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

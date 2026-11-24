@@ -1,0 +1,188 @@
+{
+ "id": "TLC-0198",
+ "bloque": "Finalización",
+ "titulo": "Klopp: 4v0, contra y 8v4",
+ "formato": "Fases encadenadas",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "12 jug. + 2 porteros",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "6 ciclos de unos 40 s cada uno, con 1 min de pausa entre ciclos. Los equipos cambian de papel en cada ciclo.",
+ "objetivo": "Encadenar finalización, contraataque y ataque rápido en superioridad, siempre en vertical. Cómo explicarlo: pases cortos, sin repetir, y salir en cuanto el tiro termina; el contraataque busca la espalda de los defensores. Errores típicos: pases de más, no repetir velocidad y desorden al replegar. Qué observar: rapidez de las salidas.",
+ "montaje": "Doble área de 50 × 36 m, portería de 6 m con portero en cada fondo. 4 amarillos en medio campo, 4 rojos detrás de la portería y 4 azules defendiendo al otro lado.",
+ "juego": "1) Los amarillos combinan y tiran sin oposición. 2) Al tirar, los rojos contraatacan a la otra portería contra los azules. 3) Al acabar, los 8 atacantes juegan 8v4 durante 25 s.",
+ "punto": "Gol en 1): 1 punto; en 2) o 3): 2.",
+ "consigna": "Vertical, sin pases de más.",
+ "variantes": {
+  "facil": "Fase 3 en 8v6 y sin límite de tiempo.",
+  "dificil": "Fase 1 a 2 toques y fase 3 en 8v4 en 15 s."
+ },
+ "adaptacion": "Alevín (10–11): campo de 40 × 30 m y fase 3 en 6v3. Infantil (12–13): como está. Cadete: tiempos de 20 s y 4 toques máximo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Jürgen Klopp)",
+  "titulo_original": "KLOPP, FINALIZACIÓN GRUPOS DE 4",
+  "ref": "toplidercoach.com/klopp-finalizacion-grupos-de-4/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: 3 secuencias enlazadas: 4v0 con tiro, contraataque de 4 jugadores desde detrás de la portería y ataque rápido 8v4. Las posiciones iniciales, el reparto en 3 grupos de 4, los tiempos y los puntos están propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 57,
+   "ymin": -3,
+   "ymax": 39
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 18,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 0,
+    "y": 18,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 32,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 54,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 54,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 54,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 54,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 30,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     32,
+     8
+    ],
+    "b": [
+     36,
+     18
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     36,
+     18
+    ],
+    "b": [
+     49.2,
+     18.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     54,
+     11
+    ],
+    "b": [
+     30,
+     15
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    54,
+    32,
+    "CONTRAATAQUE",
+    "middle"
+   ]
+  ]
+ }
+}

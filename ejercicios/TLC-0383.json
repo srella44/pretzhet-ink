@@ -1,0 +1,147 @@
+{
+ "id": "TLC-0383",
+ "bloque": "Finalización",
+ "titulo": "Bielsa: centros",
+ "formato": "2 centrales + 2 extremos",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. + portero",
+ "espacio": "40 × 34 m",
+ "duracion": "14 min",
+ "series": "3 series de 4 centros por banda; 1 min de pausa. Cambio de centrales y de lado en cada serie.",
+ "objetivo": "Centros tensos y despejes seguros con achique posterior. Cómo explicarlo: el extremo centra a 1 toque y raso-medio; los centrales miran el balón y al rival, atacan y despejan a banda; después suben 5 m. Errores típicos: despejar al centro, dar la espalda y no achicar. Qué observar: primer paso y perfil.",
+ "montaje": "Zona de 40 × 34 m con portería de 6 m y portero. 2 centrales en el área; 2 extremos en bandas a 22 m del fondo. Entrenador con balones al centro.",
+ "juego": "El entrenador pasa a un extremo, que centra a 1 toque (primer palo, penalti o segundo). Los centrales corren de cara y despejan a banda o frontal; luego achican 5 m. Cambian de lado.",
+ "punto": "Despeje válido: 1 punto. Centro a la zona: 1 del extremo.",
+ "consigna": "Despeja fuera y achica.",
+ "variantes": {
+  "facil": "Centro raso y sin salto de los centrales.",
+  "dificil": "Centro de primeras y un atacante que remata."
+ },
+ "adaptacion": "Alevín (10–11): zona de 30 × 26 m y centro por abajo. Infantil (12–13): como está. Cadete: con un atacante que remata al área.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Marcelo Bielsa)",
+  "titulo_original": "BIELSA CENTROS LATERALES",
+  "ref": "toplidercoach.com/bielsa-centros-laterales/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: zona en torno al área grande, jugadores exteriores que centran en ambos perfiles, centrales que despejan a zonas seguras y achican tras el despeje, roles alternados. Ejercicio defensivo: no hay atacante rematador en la fuente. Medidas, series, zonas y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   34
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 43,
+   "ymin": -4,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 8,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 23,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     17
+    ],
+    "b": [
+     21.5,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     3
+    ],
+    "b": [
+     29,
+     16
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     33,
+     10
+    ],
+    "b": [
+     29.5,
+     14.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     29,
+     16
+    ],
+    "b": [
+     20,
+     27
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

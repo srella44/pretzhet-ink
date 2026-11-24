@@ -1,0 +1,171 @@
+{
+ "id": "TLC-0241",
+ "bloque": "Finalización",
+ "titulo": "Hurzeler: bloque bajo",
+ "formato": "5v4 + portero",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "9 jug. + portero",
+ "espacio": "28 × 24 m",
+ "duracion": "14 min",
+ "series": "5 ataques por equipo atacante, de 25 s cada uno; 1 min de pausa entre rondas. Cambian atacantes y defensores.",
+ "objetivo": "Encontrar perfil de tiro frente a un bloque bajo con circulación rápida y pocos toques. Cómo explicarlo: mover el balón de lado a lado, atraer y soltar; rompe el que no tiene balón. Errores típicos: pases al pie del marcador, jugar parado y tirar a la barrera. Qué observar: segundo toque y movilidad sin balón.",
+ "montaje": "Zona de 28 × 24 m junto a portería de 6 m con portero. 5 atacantes con balón contra 4 defensores en bloque bajo cerca del área.",
+ "juego": "Los atacantes circulan a 1–2 toques con paredes y rupturas hasta tener perfil de tiro. Los defensores se mueven con el balón. Máximo 25 s por ataque.",
+ "punto": "Gol: 2 puntos; tiro a puerta: 1. Gana el equipo con más puntos.",
+ "consigna": "Mueve el balón y busca el tiro.",
+ "variantes": {
+  "facil": "Defensores semipasivos y 30 s por ataque.",
+  "dificil": "Defensores activos y 2 toques por jugador."
+ },
+ "adaptacion": "Alevín (10–11): 4v3 en 24 × 20 m. Infantil (12–13): como está. Cadete: con comodín y segunda jugada.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Fabian Hürzeler)",
+  "titulo_original": "FABIAN HURZELER, FINALIZACIÓN",
+  "ref": "toplidercoach.com/fabian-hurzeler-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: zona cercana al área, 4–5 atacantes contra 4–5 defensores en bloque bajo, circulación rápida a pocos toques y finalización. Número de jugadores, medidas, tiempo de ataque y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   28,
+   24
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 31,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 28,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     16,
+     4.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     4
+    ],
+    "b": [
+     12.5,
+     11
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     17,
+     20.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     17,
+     21
+    ],
+    "b": [
+     27.3,
+     14.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "id": "TLC-0078",
+ "bloque": "Finalización",
+ "titulo": "Maresca: 1v1 y puertas",
+ "formato": "1v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3 min (cada jugador hace 3–4 duelos por ronda); 1 min de pausa. Cambio de roles al acabar cada ronda.",
+ "objetivo": "Reaccionar a un balón servido, orientar el cuerpo para proteger y resolver un 1 contra 1 con cambio de ritmo. Cómo explicarlo: recibe de lado, mira al defensor antes del primer toque y ataca su pierna de apoyo. Errores típicos: recoger de frente, tocar demasiado y chutar sin superar al defensor. Qué observar: primer control y decisión en 8 s.",
+ "montaje": "Campo de 30 × 24 m; en el fondo, 2 puertas de 1,5 m separadas 6 m. 3 atacantes en fila a la izquierda y 3 defensores a la derecha. Entrenador con balones arriba.",
+ "juego": "El entrenador sirve al espacio; salen el primer atacante y el primer defensor. 1v1: el atacante recoge, supera al rival y pasa por una puerta en 8 s. Si el defensor roba, la lleva a la banda.",
+ "punto": "Puerta: 1 punto. Robo y banda: 1 del defensor.",
+ "consigna": "Cambia de ritmo.",
+ "variantes": {
+  "facil": "Puertas de 3 m y defensor sin robar (solo cierra).",
+  "dificil": "Puertas de 1 m y solo 6 s por duelo."
+ },
+ "adaptacion": "Alevín (10–11): campo de 24 × 18 m y puertas de 2 m. Infantil (12–13): como está. Cadete: añade un comodín que apoya en la finalización.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Maresca)",
+  "titulo_original": "MARESCA, DUELOS 1X1 Y FINALIZACIÓN",
+  "ref": "toplidercoach.com/maresca-duelos-1x1-y-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: balón enviado desde banda, recogida, 1v1 y finalización por puertas, equipos de 3–5, medio campo recortado. Medidas, puertas de 1,5 m, tiempo de 8 s, puntuación y rotación propuestas (propuesta). La fuente da 2 porteros y no los usa en las puertas: no se dibujan. Edad adaptada de 13+ a 10–13.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 34,
+   "ymin": -4,
+   "ymax": 26
+  },
+  "cones": [
+   [
+    30,
+    5
+   ],
+   [
+    30,
+    6.5
+   ],
+   [
+    30,
+    17.5
+   ],
+   [
+    30,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 15,
+    "y": -2.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -2.5,
+    "y": 19.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -2.5,
+    "y": 23.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": -2.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 28.5,
+    "y": -2.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     -2
+    ],
+    "b": [
+     9.5,
+     10.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     9,
+     12
+    ],
+    "b": [
+     24,
+     12
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     24,
+     12
+    ],
+    "b": [
+     29.6,
+     6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    30,
+    8.6,
+    "PUERTAS",
+    "end"
+   ]
+  ]
+ }
+}

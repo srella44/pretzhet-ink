@@ -1,0 +1,153 @@
+{
+ "id": "TLC-0192",
+ "bloque": "Finalización",
+ "titulo": "Mendilibar: físico y tiro",
+ "formato": "Circuito + tiro",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "4 jug. + 4 porteros",
+ "espacio": "30 × 30 m",
+ "duracion": "14 min",
+ "series": "5 rondas por jugador; salida cada 6 s y 1 min de pausa entre rondas. Pasa a otro puesto cada ronda.",
+ "objetivo": "Golpear con calidad tras un esfuerzo físico y reaccionar a la señal. Cómo explicarlo: acelera sin perder el control, recibe orientado y golpea con el interior o el empeine mirando a la esquina. Errores típicos: llegar sin aire y tirar al centro, o no mirar el balón al recibir. Qué observar: técnica de golpeo bajo fatiga.",
+ "montaje": "Campo de 30 × 30 m con 4 minipuertas de 4 m, una por lado, con portero. 4 jugadores en las esquinas de un cuadrado de 12 m, con 3 conos de eslalon delante cada uno.",
+ "juego": "Salen de uno en uno cada 6 s: eslalon y sprint al centro. El portero de su lado le pasa raso y tira a 1–2 toques a la minipuerta de su izquierda. Vuelve trotando.",
+ "punto": "Gol: 1 punto; de primeras: 2.",
+ "consigna": "Llega entero y golpea con calidad.",
+ "variantes": {
+  "facil": "Solo eslalon y pase al pie, sin sprint.",
+  "dificil": "Añade 5 saltos antes del eslalon y tiro a un toque."
+ },
+ "adaptacion": "Alevín (10–11): minipuertas de 5 m y sin saltos. Infantil (12–13): como está. Cadete: pase aéreo del portero y finalización a un toque.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Mendilibar)",
+  "titulo_original": "MENDILIBAR,FINALIZACIÓN FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/mendilibarfinalizacion-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: 4 jugadores en los vértices de un cuadrado, circuito físico a la señal, pase de uno de los 4 porteros y finalización a 1–2 contactos con retorno. Medidas, tiempos, orden de salida y puntuación propuestos (propuesta); como esfuerzo físico se usa eslalon y sprint (la fuente da ejemplos). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 15,
+    "y": 30,
+    "lado": "B",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 30,
+    "y": 15,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 6,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 24,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 24,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     7
+    ],
+    "b": [
+     13,
+     12
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     1.5
+    ],
+    "b": [
+     15,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     12.5
+    ],
+    "b": [
+     1.2,
+     14.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    15,
+    19.5,
+    "ESLALÓN Y SPRINT",
+    "middle"
+   ]
+  ]
+ }
+}

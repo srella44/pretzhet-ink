@@ -1,0 +1,205 @@
+{
+ "id": "TLC-0093",
+ "bloque": "Finalización",
+ "titulo": "Sahin: partido por bandas",
+ "formato": "5v5+1",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + 2 porteros",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 partes de 3 min con 1 min de pausa; el comodín cambia al final de cada parte.",
+ "objetivo": "Respetar zonas y crear sociedades por banda. Cómo explicarlo: cada equipo sabe su banda, el comodín reparte superioridades en el centro. Errores típicos: invadir la banda del rival, juntarse varios en el balón y olvidar la cobertura. Qué observar: distancias entre lateral, interior y extremo y el momento del apoyo.",
+ "montaje": "Campo de 50 × 36 m, portería de 6 m con portero en cada fondo y 3 franjas de 12 m: banda amarilla, centro y banda azul. 5 contra 5; el comodín solo juega en el centro, con quien tiene el balón.",
+ "juego": "Cada equipo ataca por su banda y solo pisa la del rival para defender. Antes de tirar, 3 pases en la banda propia.",
+ "punto": "Gol cumpliendo la regla: 2 puntos; si no, 1. Partes de 3 min.",
+ "consigna": "Sociedad en banda y cobertura atrás.",
+ "variantes": {
+  "facil": "Sin límite de pases previos y comodín que juega con ambos equipos.",
+  "dificil": "Máximo 2 toques y solo 2 pases en banda antes de tirar."
+ },
+ "adaptacion": "Alevín (10–11): 4v4+1 en 40 × 30 m. Infantil (12–13): como está. Cadete: franja central permitida a un interior por equipo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nuri Sahin)",
+  "titulo_original": "NURI SAHIN, PARTIDO SECTOR CENTRAL Y LATERAL",
+  "ref": "toplidercoach.com/nuri-sahin-partido-sector-central-y-lateral/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: 5v5 + neutral, campo en zonas, perfil derecho/izquierdo de ataque preferente y franja central de apoyo. Medidas, regla de 3 pases, puntuación y tiempos propuestos (propuesta). Edad adaptada de 13+ a 12–13. Bloque original de la cola: Finalización.",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 52,
+   "ymin": -2,
+   "ymax": 38
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     12,
+     50,
+     24
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 18,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 18,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 26,
+    "y": 18,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     8
+    ],
+    "b": [
+     32,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     32,
+     6
+    ],
+    "b": [
+     40,
+     9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     40,
+     9
+    ],
+    "b": [
+     48.5,
+     15.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    25,
+    3,
+    "BANDA AMARILLA",
+    "middle"
+   ],
+   [
+    25,
+    34,
+    "BANDA AZUL",
+    "middle"
+   ],
+   [
+    25,
+    22.8,
+    "SOLO COMODÍN",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "id": "TLC-0205",
+ "bloque": "Finalización",
+ "titulo": "Maresca: sprint y tiro",
+ "formato": "Físico + tiro",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "6 jug. + portero",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min: 8 salidas de 2 jugadores por ronda; 1 min de pausa. Trote de vuelta entre salidas.",
+ "objetivo": "Disparar con calma tras un sprint y mantener la intensidad al volver. Cómo explicarlo: el esfuerzo manda, pero antes de golpear hay que mirar la portería y fijar el apoyo. Errores típicos: tirar sin mirar, golpear con la punta y relajar la vuelta. Qué observar: técnica de golpeo con pulsaciones altas.",
+ "montaje": "Campo de 40 × 30 m con portería de 6 m y portero. 2 jugadores en esquinas opuestas a 18 m del área; 4 esperan detrás. Entrenador con balones junto al borde del área.",
+ "juego": "A la señal, los 2 sprintan al borde del área. El entrenador sirve raso al primero en llegar, que tira a 1–2 toques; el otro rechaza. Vuelven rápido a la esquina contraria.",
+ "punto": "Gol: 1 punto; de rechace: 2. Gana quien más sume en 3 min.",
+ "consigna": "Llega acelerado y tira con calma.",
+ "variantes": {
+  "facil": "Trote de vuelta y sprint de 12 m.",
+  "dificil": "Defensor que sale en retardo y tiro a un toque."
+ },
+ "adaptacion": "Alevín (10–11): sprint de 12 m, vuelta caminando y 2 min por ronda. Infantil (12–13): como está. Cadete: con escalera previa y defensor activo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Enzo Maresca)",
+  "titulo_original": "MARESCA, FINALIZACIÓN FÍSICO TÉCNICA",
+  "ref": "toplidercoach.com/maresca-finalizacion-fisico-tecnica/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: 2 jugadores salen a la vez de zonas opuestas a carrera de alta intensidad, el entrenador sirve a la frontal, tiro y vuelta a alta intensidad cambiando posiciones. Distancias, rondas y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 43,
+   "ymin": -4,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -2.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -2.5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -2.5,
+    "y": 19.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -2.5,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 28,
+    "y": -2.5,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     3,
+     27
+    ],
+    "b": [
+     22,
+     18
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     27.5,
+     -2
+    ],
+    "b": [
+     23,
+     13
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     22,
+     13.5
+    ],
+    "b": [
+     39.3,
+     15.3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    22,
+    22,
+    "BORDE DEL ÁREA",
+    "middle"
+   ]
+  ]
+ }
+}

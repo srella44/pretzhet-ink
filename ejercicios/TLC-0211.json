@@ -1,0 +1,270 @@
+{
+ "id": "TLC-0211",
+ "bloque": "Finalización",
+ "titulo": "Dorival: dos canales",
+ "formato": "Combinación + tiro",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + 2 porteros",
+ "espacio": "40 × 33 m",
+ "duracion": "12 min",
+ "series": "5 rondas de 2 min; 1 min de pausa. Los dos canales trabajan a la vez y se turnan los porteros.",
+ "objetivo": "Combinaciones de 3 y 4 toques con perfil corporal correcto y remate sincronizado. Cómo explicarlo: pase diagonal, pase recto, pared y ruptura sin cortes; el que rompe sale cuando el frontal toca. Errores típicos: pared flojo, salir antes de tiempo y rematar sin mirar. Qué observar: timing de la pared.",
+ "montaje": "Campo de 40 × 33 m con 2 porterías de 5 m, con portero, a la derecha. Dos canales de 4 jugadores (amarillos arriba, rojos abajo): J1 con balón, J2, J3 frontal y J4 esperando.",
+ "juego": "J1 pasa en diagonal a J2, J2 pasa recto a J3, J3 devuelve la pared a J2, que rompe y tira a 1–2 toques. Los dos canales a la vez. Se rota: J1 a J4 y los demás suben un puesto.",
+ "punto": "Gol: 1 punto. Gana el canal con más goles en 4 min.",
+ "consigna": "Pared limpia y rompe con timing.",
+ "variantes": {
+  "facil": "Pared a dos toques y tiro sin prisa.",
+  "dificil": "Pared de primeras con la pierna menos hábil y un defensor pasivo."
+ },
+ "adaptacion": "Alevín (10–11): campo de 30 × 24 m y paredes a 2 toques. Infantil (12–13): como está. Cadete: oposición pasiva en cada canal.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Dorival Júnior)",
+  "titulo_original": "DORIVAL JR. FINALIZACIÓN",
+  "ref": "toplidercoach.com/dorival-jr-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: dos canales paralelos/simétricos, pase diagonal inicial, pase recto a frontal, pared y ruptura, tiro simultáneo en ambas porterías, rotación por estaciones. Número de jugadores por canal, medidas, tiempos y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 8,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 25,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 30,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 25,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     12,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     12,
+     10
+    ],
+    "b": [
+     22,
+     6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     6
+    ],
+    "b": [
+     27,
+     9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     10
+    ],
+    "b": [
+     27,
+     9
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     27,
+     9
+    ],
+    "b": [
+     39.3,
+     8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     3,
+     30
+    ],
+    "b": [
+     12,
+     23
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     12,
+     23
+    ],
+    "b": [
+     22,
+     27
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     27
+    ],
+    "b": [
+     27,
+     24
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     23
+    ],
+    "b": [
+     27,
+     24
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     27,
+     24
+    ],
+    "b": [
+     39.3,
+     25
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    20,
+    16.5,
+    "DOS CANALES",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "id": "TLC-0294",
+ "bloque": "Finalización",
+ "titulo": "Rose: sprint, pared y tiro",
+ "formato": "Circuito + tiro",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "6 jug. + portero",
+ "espacio": "40 × 28 m",
+ "duracion": "14 min",
+ "series": "5 vueltas completas; cada salida a los 10 s de la anterior y 1 min de pausa. Todos pasan por las 3 salidas.",
+ "objetivo": "Entrenar resistencia intermitente sin perder precisión en el último gesto. Cómo explicarlo: sprint, giro de 90° y recibir orientado; el tiro llega con la cabeza fría. Errores típicos: no girar bien el cono, control largo y tirar al centro. Qué observar: calidad del primer toque tras el giro.",
+ "montaje": "Campo de 40 × 28 m con portería de 6 m y portero. 3 salidas en el fondo a 12 m de un cono de giro; 2 jugadores por salida. Entrenador con balones.",
+ "juego": "Sale el primero de la salida 1: sprint al cono, giro y arranque al área. El entrenador pasa raso; tira a 1–2 toques y vuelve trotando. A los 10 s sale la salida 2, luego la 3.",
+ "punto": "Gol: 1 punto; de primeras: 2. Gana quien más sume.",
+ "consigna": "Sprint, giro y calma.",
+ "variantes": {
+  "facil": "Sin cono y tiro a dos toques.",
+  "dificil": "Doble sprint y tiro con la pierna no dominante."
+ },
+ "adaptacion": "Alevín (10–11): giro a 8 m y 8 min en total. Infantil (12–13): como está. Cadete: con defensor pasivo en el área.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Marco Rose)",
+  "titulo_original": "MARCO ROSE FINALIZACIÓN COMPONENTE FÍSICO",
+  "ref": "toplidercoach.com/finalizacion-componente-fisico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: 3 posiciones de salida con rotación, acción física previa (sprint, giro, salto) y acción técnica con balón, tiempos de salida prefijados, trabajo intermitente. Medidas, tiempos y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   28
+  ],
+  "extent": {
+   "xmin": -6,
+   "xmax": 43,
+   "ymin": -4,
+   "ymax": 30
+  },
+  "cones": [
+   [
+    12,
+    16
+   ],
+   [
+    12,
+    4
+   ],
+   [
+    12,
+    24
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -3.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -3.5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -3.5,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": -2.5,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     14
+    ],
+    "b": [
+     11.2,
+     15.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     12.8,
+     16
+    ],
+    "b": [
+     20,
+     12
+    ],
+    "k": "run",
+    "n": null,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     23.5,
+     -2
+    ],
+    "b": [
+     21,
+     11
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     20.5,
+     12
+    ],
+    "b": [
+     39.3,
+     13.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

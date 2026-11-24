@@ -1,0 +1,156 @@
+{
+ "id": "TLC-0261",
+ "bloque": "Finalización",
+ "titulo": "Tuchel: dentro-fuera-dentro",
+ "formato": "Rueda 5 + tiro",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug. + portero",
+ "espacio": "36 × 30 m",
+ "duracion": "12 min",
+ "series": "6 min de trabajo en 3 series de 2 min; 1 min de pausa. Rotación de puestos en cada serie.",
+ "objetivo": "Automatizar la secuencia dentro-fuera-dentro para fijar al rival y llegar a rematar. Cómo explicarlo: el interior pasa fuera y sigue su carrera al área; el extremo juega al espacio dentro. Errores típicos: parar tras el pase, pase fuera sin ángulo y llegar tarde. Qué observar: sincronía entre pase y desmarque.",
+ "montaje": "Zona de 36 × 30 m con portería de 6 m y portero. Pivote con balón a 32 m, interior a 20 m, extremo en banda y punta fijo en el área.",
+ "juego": "El pivote pasa al interior (dentro), este abre al extremo (fuera) y sigue al área; el extremo juega al espacio y el interior remata a 1–2 toques. Rotan: pivote a interior, interior a extremo y extremo a punta.",
+ "punto": "Gol: 1 punto; a un toque: 2. Gana quien sume 8 en 6 min.",
+ "consigna": "Dentro, fuera y llega.",
+ "variantes": {
+  "facil": "Sin punta y remate a 2 toques.",
+  "dificil": "Con un defensor pasivo y remate de primeras."
+ },
+ "adaptacion": "Alevín (10–11): zona de 28 × 24 m y sin punta. Infantil (12–13): como está. Cadete: con defensor activo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Thomas Tuchel)",
+  "titulo_original": "TUCHEL, RUEDA DE PASES CON FINALIZACIÓN",
+  "ref": "toplidercoach.com/tuchel-rueda-de-pases-con-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: jugadores según su rol (extremos, interiores, punta), combinaciones dentro-fuera-dentro, ocupación del área y ritmo competitivo. Posiciones concretas, número de jugadores (5), medidas, rotación y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 39,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 36,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     15
+    ],
+    "b": [
+     14,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     14,
+     10
+    ],
+    "b": [
+     22,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     3
+    ],
+    "b": [
+     26,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     14,
+     10
+    ],
+    "b": [
+     26,
+     12
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     26,
+     12
+    ],
+    "b": [
+     35.3,
+     14.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

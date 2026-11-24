@@ -1,0 +1,177 @@
+{
+ "id": "TLC-0172",
+ "bloque": "Finalización",
+ "titulo": "Allegri: centro y remate",
+ "formato": "Parejas + centro",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "8 jug. + 2 porteros",
+ "espacio": "45 × 30 m",
+ "duracion": "14 min",
+ "series": "6 series de 1 min de esfuerzo con 1 min de pausa; cada pareja sale 3 veces y alterna banda derecha e izquierda.",
+ "objetivo": "Centros tensos tras carrera larga y remate con llegada coordinada. Cómo explicarlo: la pareja centradora conduce rápido, levanta la cabeza y busca primer palo, punto de penalti o segundo palo; la rematadora llega sin parar. Errores típicos: centro blando, llegar antes de tiempo y rematar sin ángulo. Qué observar: sincronía de ambas parejas.",
+ "montaje": "Campo de 45 × 30 m, portería de 6 m con portero en cada fondo. En cada fondo, 2 parejas: centradora (banda) y rematadora (carril contrario). Entrenador con balones.",
+ "juego": "El entrenador pasa a la centradora, que conduce y centra. La rematadora corre por el otro carril y remata. Al acabar, sale una pareja del fondo contrario. Se alternan bandas.",
+ "punto": "Gol: 1 punto; de cabeza o de primeras: 2.",
+ "consigna": "Centra tenso y llega con intención.",
+ "variantes": {
+  "facil": "Carrera de 25 m y un solo toque para conducir.",
+  "dificil": "Centro a la primera, sin conducción, y remate a un toque."
+ },
+ "adaptacion": "Alevín (10–11): campo de 35 × 24 m y balón del número 4. Infantil (12–13): como está. Cadete: 45 × 30 m con defensor pasivo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Allegri)",
+  "titulo_original": "ALLEGRI FINALIZACIÓN",
+  "ref": "toplidercoach.com/allegri-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: 30 × 45 m, 8 jugadores en 4 parejas en ambos fondos, entrenador activa la acción, conducción, centro, remate de la otra pareja, rueda continua y alternancia de perfiles. Series, puntos, carriles y distancias propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   45,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 48,
+   "ymin": -4,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 45,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": -2.5,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     -1.5
+    ],
+    "b": [
+     4.2,
+     2.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     34,
+     3
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     34,
+     3
+    ],
+    "b": [
+     39,
+     12.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     8,
+     26
+    ],
+    "b": [
+     38,
+     14
+    ],
+    "k": "run",
+    "n": null,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     38,
+     13.5
+    ],
+    "b": [
+     44.3,
+     15.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    24,
+    28.5,
+    "CARRIL REMATADORES",
+    "middle"
+   ]
+  ]
+ }
+}

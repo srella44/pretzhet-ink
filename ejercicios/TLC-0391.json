@@ -1,0 +1,165 @@
+{
+ "id": "TLC-0391",
+ "bloque": "Finalización",
+ "titulo": "Real Sociedad: el 9",
+ "formato": "Delantero + 3",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. + portero",
+ "espacio": "40 × 34 m",
+ "duracion": "12 min",
+ "series": "3 series de 6 acciones por delantero (3 de centro, 3 de apoyo); 1 min de pausa. Cambio de delantero en cada serie.",
+ "objetivo": "Interpretar centros y combinar con el interior para rematar en distintas zonas. Cómo explicarlo: engaña con el desmarque, ataca primero o segundo palo, y si el balón no llega, baja a la frontal. Errores típicos: llegar antes del centro y rematar siempre igual. Qué observar: timing del desmarque y perfil.",
+ "montaje": "Portería de 6 m con portero. Delantero en el área; un extremo con balones en cada banda; un interior con balón a 26 m de la portería.",
+ "juego": "Secuencia 1: el extremo centra y el delantero remata al primer o segundo palo. Secuencia 2: el delantero baja, recibe del interior y se la devuelve; luego tira desde 16–20 m. Alternan bandas.",
+ "punto": "Gol de centro: 2 puntos; de media distancia: 1.",
+ "consigna": "Engaña y ataca el palo.",
+ "variantes": {
+  "facil": "Centro raso y un solo remate.",
+  "dificil": "Remate de primeras y defensor pasivo."
+ },
+ "adaptacion": "Alevín (10–11): centros por abajo y tiro a 12 m. Infantil (12–13): como está. Cadete: con un central activo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Real Sociedad)",
+  "titulo_original": "FINALIZACIÓN MOVIMIENTOS DELANTERO CENTRO",
+  "ref": "toplidercoach.com/finalizacion-movimientos-delantero-centro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: 4 jugadores (delantero, 2 en banda, interior), desmarques a centros por ambas bandas y apoyo en el interior con disparo desde media distancia, ajuste de perfiles y superficie. Medidas, series y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   34
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 43,
+   "ymin": -4,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 30,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 31,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 22,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     30,
+     3
+    ],
+    "b": [
+     35,
+     12
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     30,
+     13
+    ],
+    "b": [
+     35,
+     12
+    ],
+    "k": "run",
+    "n": null,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     35,
+     12
+    ],
+    "b": [
+     39.3,
+     15.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     14.5,
+     18.5
+    ],
+    "b": [
+     23.6,
+     21.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     24,
+     22
+    ],
+    "b": [
+     39.3,
+     19.2
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

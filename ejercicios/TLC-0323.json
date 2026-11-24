@@ -1,0 +1,229 @@
+{
+ "id": "TLC-0323",
+ "bloque": "Finalización",
+ "titulo": "Tuchel: circuito de tiro",
+ "formato": "Postas de tiro",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. + 3 porteros",
+ "espacio": "40 × 36 m",
+ "duracion": "16 min",
+ "series": "3 vueltas de 2 min por posta con rotación de postas cada 40 s y 1 min de pausa. Rotan también los porteros.",
+ "objetivo": "Tirar desde distintos contextos con control orientado y buena superficie de golpeo. Cómo explicarlo: pase de 10 m, devolución, control a la pierna de tiro y golpeo; en el centro, desmarque antes de recibir. Errores típicos: control hacia atrás, golpeo sin mirar y no desmarcarse. Qué observar: continuidad.",
+ "montaje": "3 porterías de 6 m con portero (2 laterales y una frontal). Postas laterales: 2 jugadores a 10 m con balones. Central: delantero en el borde del área y entrenador a 8 m con balones.",
+ "juego": "Laterales: pase de 10 m, devolución, control orientado y tiro. Central: el entrenador pasa al delantero tras desmarque y este tira a 1–2 toques. Cada 40 s cambian de posta.",
+ "punto": "Gol: 1 punto. Récord: 20 goles en 3 vueltas.",
+ "consigna": "Control orientado y tiro sin pausas.",
+ "variantes": {
+  "facil": "Pase de 8 m y 3 toques en total.",
+  "dificil": "Control y tiro a 2 toques en total y 10 s por posta."
+ },
+ "adaptacion": "Alevín (10–11): pase de 8 m, sin posta central. Infantil (12–13): como está. Cadete: con defensor pasivo en cada posta.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Thomas Tuchel)",
+  "titulo_original": "TUCHEL CIRCUITO DE FINALIZACIÓN",
+  "ref": "toplidercoach.com/tuchel-circuito-de-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: 3 porterías reglamentarias, postas laterales (pase medio-largo, devolución, control orientado y tiro), posta central (pase al delantero tras desmarque), rotación continua. Distancias, tiempos, reparto de jugadores y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   36
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 39
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 20,
+    "y": 36,
+    "lado": "B",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 18,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 27,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 26,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     16,
+     13
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     13
+    ],
+    "b": [
+     10,
+     7
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     10,
+     7
+    ],
+    "b": [
+     18.3,
+     0.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     27,
+     26
+    ],
+    "b": [
+     34,
+     17.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     28,
+     13
+    ],
+    "b": [
+     34,
+     17.5
+    ],
+    "k": "run",
+    "n": null,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     4,
+     27
+    ],
+    "b": [
+     16,
+     23
+    ],
+    "k": "pass",
+    "n": null,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     23
+    ],
+    "b": [
+     10,
+     29
+    ],
+    "k": "pass",
+    "n": null,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     10,
+     29
+    ],
+    "b": [
+     18.3,
+     35.2
+    ],
+    "k": "pass",
+    "n": null,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

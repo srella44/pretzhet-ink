@@ -1,0 +1,140 @@
+{
+ "id": "TLC-0219",
+ "bloque": "Finalización",
+ "titulo": "Valverde: dejada y llegada",
+ "formato": "Trío + tiro",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. + portero",
+ "espacio": "36 × 26 m",
+ "duracion": "12 min",
+ "series": "5 series de 6 acciones por jugador; 1 min de pausa. Roles: 2 pasadores, 1 delantero, 1 llegador.",
+ "objetivo": "Pase tenso y orientado, dejada limpia del delantero y llegada con tiro desde segunda línea. Cómo explicarlo: el pase debe llegar al pie atrasado del delantero; el llegador mira la dejada y acelera. Errores típicos: pase blando, dejada al sitio equivocado y llegada tarde. Qué observar: coordinación de los tres.",
+ "montaje": "Portería de 6 m con portero. Delantero a 14 m de la portería, de espaldas a ella. En cada banda, un pasador con balones a 14 m de él. Un llegador a 19 m de la portería, en segunda línea.",
+ "juego": "El pasador sirve raso y tenso al pie del delantero, que deja de cara al llegador. El llegador arranca con el pase y tira a 1–2 toques. Se alternan bandas; tras 6 acciones, rotan los roles.",
+ "punto": "Gol: 1 punto; de primeras: 2. Gana quien llegue a 6 puntos.",
+ "consigna": "Pasa tenso, deja de cara y llega.",
+ "variantes": {
+  "facil": "Pase aéreo no, solo raso, y 2 toques al tirar.",
+  "dificil": "Pared previa pasador–delantero y tiro a un toque."
+ },
+ "adaptacion": "Alevín (10–11): distancias de 10 m y tiro a 14 m. Infantil (12–13): como está. Cadete: con defensor activo sobre el delantero.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Ernesto Valverde)",
+  "titulo_original": "VALVERDE, FINALIZACIÓN",
+  "ref": "toplidercoach.com/valverde-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama dibujado desde el texto (propuesta). Fuente: dos jugadores por banda envían pases interiores a un delantero de espaldas, que deja de cara o de primeras a un tercero que llega de segunda línea y tira; rotación entre pasadores y finalizadores. Distancias, series y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   36,
+   26
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 39,
+   "ymin": -2,
+   "ymax": 28
+  },
+  "porterias": [
+   {
+    "x": 36,
+    "y": 13,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 23,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     3
+    ],
+    "b": [
+     21.5,
+     10.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     11.5
+    ],
+    "b": [
+     17.4,
+     14.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     17.5,
+     15
+    ],
+    "b": [
+     35.3,
+     13.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -1.2,
+    "PASADOR",
+    "middle"
+   ],
+   [
+    6,
+    27.2,
+    "PASADOR",
+    "middle"
+   ]
+  ]
+ }
+}
