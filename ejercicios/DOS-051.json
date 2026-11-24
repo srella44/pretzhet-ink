@@ -8,15 +8,15 @@
  "jugadores": "10–14 jug. + 2 PT",
  "espacio": "25 × 25 m + 2 zonas",
  "duracion": "20 min",
- "series": "3 × 6 min con 1 min de descanso (propuesta).",
- "objetivo": "Dar y salir y hacer paredes para entrar en la zona de gol.",
- "montaje": "25 × 25 m con una zona de 8 m delante de cada portería con portero. Dos equipos de 4 a 6 y uno o dos comodines a un toque.",
- "juego": "Para entrar en la zona y marcar hay que hacer una pared, o cinco pases y un desmarque. En la zona se juega con fuera de juego.",
- "punto": "Gol, 1 punto.",
+ "series": "3 series de 6 min con 1 min de descanso; entre series, el equipo que pierde cambia de rol con los comodines (propuesta).",
+ "objetivo": "Que el equipo entienda que para romper la defensa hay que ayudar al compañero con balón: dar y salir, y combinar con pared. Cómo explicarlo: «la pared es el pase que abre la puerta de la zona». Errores típicos: pasar y quedarse mirando, pared sin desmarque posterior, entrar en la zona en posición de fuera de juego. Qué observar: distancia de apoyo (5–8 m), cambio de ritmo tras el pase y que los comodines devuelvan a un toque (propuesta).",
+ "montaje": "25 × 25 m con zona de gol de 8 m ante cada portería y un portero en cada una. Dos equipos de 4–6 y 1–2 comodines a un toque (propuesta).",
+ "juego": "Para pisar la zona y marcar hay que hacer una pared o cinco pases y un desmarque; en la zona hay fuera de juego. Si lo roban, ataca el otro.",
+ "punto": "Gol, 1 punto. Gana quien más goles sume en 3 series.",
  "consigna": "Ayuda al que tiene el balón: dala y sal.",
  "variantes": {
-  "facil": "Sin fuera de juego en la zona (propuesta).",
-  "dificil": "Solo vale la pared; los cinco pases no abren la zona (propuesta)."
+  "facil": "Sin fuera de juego en la zona y vale una pared o tres pases seguidos (propuesta).",
+  "dificil": "Solo vale la pared; los cinco pases no abren la zona, y los comodines juegan a un toque obligado (propuesta)."
  },
  "adaptacion": "Alevín: 4 contra 4 + 2 comodines. Cadete y juvenil: un comodín (propuesta).",
  "fuente": {
@@ -26,7 +26,7 @@
  },
  "top": "Para entrar en la zona de gol hace falta una pared o cinco pases y desmarque.",
  "probado": true,
- "completado": "Edad, series y variantes (propuesta). Diagrama con menos jugadores de los reales.",
+ "completado": "Edad, series y variantes (propuesta). Diagrama con menos jugadores de los reales. Montaje, reglas de saque y robo, rotación y observación (propuesta).",
  "diagrama": {
   "field": [
    41,

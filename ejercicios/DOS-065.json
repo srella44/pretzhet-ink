@@ -9,10 +9,10 @@
  "espacio": "12 × 12 m",
  "duracion": "15 min",
  "series": "3 × 4 min con 1 min de descanso (propuesta).",
- "objetivo": "Atacar el control y regatear con finta dentro del rondo, en lugar de parar el balón.",
- "montaje": "Cuadrado de 12 × 12 m. Cuatro atacantes, uno en cada lado, y dos defensores dentro.",
- "juego": "Tres toques obligatorios: control, regate con finta al defensor que sale y pase. Si un defensor roba o el balón sale, cambia con el atacante que falló (propuesta).",
- "punto": "5 pases seguidos con regate, 1 punto (propuesta).",
+ "objetivo": "Atacar el control y regatear con finta dentro del rondo, en lugar de parar el balón. Cómo explicarlo: «el control ya es el primer regate: sácalo del defensor». Errores típicos: parar el balón del todo, fintar sin acercarse al defensor, pasar sin mirar. Qué observar: control orientado y finta con el cuerpo, no solo con el pie (propuesta).",
+ "montaje": "Cuadrado de 12 × 12 m. Un atacante en cada lado y dos defensores dentro. Un balón.",
+ "juego": "Tres toques: control, regate con finta al defensor que sale y pase. Si un defensor roba o el balón sale, cambia con quien falló (propuesta).",
+ "punto": "5 pases seguidos con regate, 1 punto (propuesta). Gana quien más puntos tenga tras 3 series.",
  "consigna": "Ataca con el control y finta antes de regatear.",
  "variantes": {
   "facil": "Un solo defensor dentro (4 contra 1).",
@@ -26,7 +26,7 @@
  },
  "top": "Rondo de regates: lleva el regate y la finta al rondo.",
  "probado": true,
- "completado": "Edad, rotación tras robo, puntuación y variantes (propuesta).",
+ "completado": "Edad, rotación tras robo, puntuación y variantes (propuesta). Colocación inicial y cuenta de pases con regate (propuesta).",
  "diagrama": {
   "field": [
    12,

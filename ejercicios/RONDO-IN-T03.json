@@ -9,10 +9,10 @@
  "espacio": "25 × 20 m",
  "duracion": "12 min",
  "series": "3 × 3 min (propuesta); se rota de puesto cada 5 balones.",
- "objetivo": "Orientar el primer toque con información que llega a la espalda del receptor: mirar antes de recibir.",
- "montaje": "Tríos en línea, unos 7 m entre jugadores. A tiene el balón; B en medio; C, detrás de B, con un cono de cada color.",
- "juego": "A pasa a B. Mientras el balón viaja, C levanta un color. B controla hacia ese lado y pasa a C. Rotación: A pasa al medio, B al fondo y C sale con el balón.",
- "punto": "1 punto por cada control hacia el lado correcto.",
+ "objetivo": "Orientar el primer toque con información que llega a la espalda del receptor: mirar antes de recibir. Cómo explicarlo: «el color es tu pista; míralo antes de que llegue el balón». Errores típicos: recibir sin mirar, control demasiado largo, pasar sin perfilarse. Qué observar: giro de cabeza y control hacia el lado correcto (propuesta).",
+ "montaje": "25 × 20 m. Tríos en línea a unos 7 m. A con el balón; B en medio; C, detrás de B, con un cono naranja y otro amarillo.",
+ "juego": "A pasa a B. Mientras viaja el balón, C levanta un color. B controla hacia ese lado y pasa a C. Rotan: A al medio, B al fondo, C sale con balón. Cada 5 balones, se rota.",
+ "punto": "1 punto por control hacia el lado correcto.",
  "consigna": "Mira el color antes de que llegue el balón.",
  "variantes": {
   "facil": "C dice el color en voz alta.",
@@ -25,7 +25,7 @@
   "ref": "RONDO Vol. 4 · Infantil · pág. 3"
  },
  "probado": false,
- "completado": "Distancia entre jugadores, rotación y series (propuesta).",
+ "completado": "Distancia entre jugadores, rotación y series (propuesta). Conos naranja y amarillo, y ganador de serie (propuesta).",
  "diagrama": {
   "field": [
    16,

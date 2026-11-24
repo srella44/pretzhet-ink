@@ -9,10 +9,10 @@
  "espacio": "20 × 15 m",
  "duracion": "10 min",
  "series": "4 × 2 min, unos 6 aparcamientos por serie (propuesta).",
- "objetivo": "Conducir cerca del balón, levantar la cabeza para encontrar sitio y frenar el balón con la suela.",
- "montaje": "Cuatro miniporterías de dos colores (los aparcamientos). Cada jugador conduce su coche: el balón.",
+ "objetivo": "Conducir cerca del balón, levantar la cabeza para encontrar sitio y frenar el balón con la suela. Cómo explicarlo: «tu balón es un coche: despacio, cerca y mirando dónde hay sitio». Errores típicos: conducir demasiado rápido, chocar con otros, mirar solo el balón. Qué observar: frenada con la suela y paso corto (propuesta).",
+ "montaje": "20 × 15 m con cuatro miniporterías de dos colores, repartidas: son los aparcamientos. Cada jugador conduce su coche: el balón.",
  "juego": "Todos conducen libres. El míster canta un color y cada uno aparca: deja el balón parado dentro de una portería de ese color. Luego, a conducir otra vez.",
- "punto": "1 punto a quien aparca sin chocar con nadie.",
+ "punto": "1 punto a quien aparca sin chocar.",
  "consigna": "Coche despacio y cerca: mira dónde hay sitio.",
  "variantes": {
   "facil": "Plazas de 2 m de ancho.",
@@ -25,7 +25,7 @@
   "ref": "RONDO Vol. 2 · Benjamín · pág. 4"
  },
  "probado": false,
- "completado": "Número de porterías y series (propuesta).",
+ "completado": "Número de porterías y series (propuesta). Qué hacer si la plaza está ocupada y suma de puntos (propuesta).",
  "diagrama": {
   "field": [
    20,

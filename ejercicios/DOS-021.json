@@ -9,9 +9,9 @@
  "espacio": "30 × 20 m",
  "duracion": "15 min",
  "series": "3 × 4 min con 1 min de descanso (propuesta).",
- "objetivo": "Mirar, decidir entre pase y conducción y encadenar acciones sin pausa.",
- "montaje": "30 × 20 m con una portería en cada fondo. Dos equipos con el mismo número de jugadores, cada uno en su fondo.",
- "juego": "Empieza un 2 contra 1. Al terminar la acción, el último que ha tocado el balón sale, y entran dos atacantes nuevos del otro equipo contra el que se quedó a defender. Así sin parar.",
+ "objetivo": "Mirar, decidir entre pase y conducción y encadenar acciones sin pausa. Cómo explicarlo: «antes de recibir, ya sabes si pasas o conduces». Errores típicos: conducir mirando solo el balón, perder tiempo al entrar, no apoyar al compañero. Qué observar: mirada previa y pase al desmarcado (propuesta).",
+ "montaje": "30 × 20 m con una portería en cada fondo. Dos equipos con el mismo número de jugadores, en fila en su fondo.",
+ "juego": "Empieza un 2 contra 1. Al terminar, el último que tocó el balón sale y entran dos atacantes nuevos del otro equipo contra el que se quedó a defender. Así sin parar.",
  "punto": "Gol, 1 punto para su equipo.",
  "consigna": "Antes de recibir, ya sabes si pasas o conduces.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "Oleadas continuas: sale el último que tocó y entran dos nuevos. Sin pausas.",
  "probado": true,
- "completado": "Edad, número de jugadores, series y variante fácil (propuesta). Porterías sin portero; si hay porteros, se ponen.",
+ "completado": "Edad, número de jugadores, series y variante fácil (propuesta). Porterías sin portero; si hay porteros, se ponen. Colocación de las filas y balones (propuesta).",
  "diagrama": {
   "field": [
    30,

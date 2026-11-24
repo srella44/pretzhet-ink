@@ -9,9 +9,9 @@
  "espacio": "40 × 35 m",
  "duracion": "18 min",
  "series": "4 × 4 min con 1 min de descanso (propuesta).",
- "objetivo": "Bascular hacia el balón sin abrir el carril central.",
- "montaje": "40 × 35 m (propuesta) en tres carriles. Portería con portero; una puerta de conos en cada banda.",
- "juego": "Seis atacan contra cinco. El ataque decide si salir por una banda o entrar por dentro; la defensa bascula sin dejar libre el carril central.",
+ "objetivo": "Bascular hacia el balón sin abrir el carril central. Cómo explicarlo: «si sales a la banda, tu compañero cierra por dentro; el centro es lo último que se regala». Errores típicos: bascular todos hacia el balón y dejar el centro libre, saltar a presionar sin cobertura, línea rota. Qué observar: distancia entre defensores (4–6 m) y que el más cercano al balón sea siempre el que presiona (propuesta).",
+ "montaje": "40 × 35 m (propuesta) en tres carriles. Portería con portero y una puerta de conos en cada banda. 6 atacantes contra 5 defensores.",
+ "juego": "El ataque elige salir por una banda o entrar por dentro; la defensa bascula sin dejar libre el carril central. Tras robo, se despeja a banda y sale otro balón (propuesta). Los equipos rotan cada serie.",
  "punto": "Cruzar conduciendo una puerta lateral, 1. Gol por dentro, 2.",
  "consigna": "Bascula, pero el centro siempre cerrado.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "Gol por dentro vale doble: bascular sin abrir el centro.",
  "probado": false,
- "completado": "Medidas, edad, series y variantes (propuesta).",
+ "completado": "Medidas, edad, series y variantes (propuesta). Reinicio tras robo y rotación de equipos (propuesta).",
  "diagrama": {
   "field": [
    40,

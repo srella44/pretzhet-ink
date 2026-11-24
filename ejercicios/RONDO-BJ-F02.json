@@ -9,10 +9,10 @@
  "espacio": "10 × 5 m",
  "duracion": "15 min",
  "series": "Duelos de 45 s; al terminar cada uno, se sube o se baja de campito.",
- "objetivo": "Encarar y marcar en 1 contra 1 muchas veces, con todos jugando siempre.",
- "montaje": "Varios campitos de 10 × 5 m en fila, cada uno con dos miniporterías. Un 1 contra 1 en cada campito.",
- "juego": "Cada duelo dura 45 s. Quien gana sube un campito hacia el primero y quien pierde baja. En el primero se queda el ganador; en el último, el que pierde.",
- "punto": "Quien gana sube y quien pierde baja: todos juegan siempre.",
+ "objetivo": "Encarar, fintar y marcar muchas veces en 1 contra 1, con todos jugando siempre y compitiendo con rivales de su nivel. Cómo explicarlo: «ganar es subir de campito; el primero es el de los mejores». Errores típicos: salir sin mirar al rival, finta lejos del defensor, definir sin mirar la portería. Qué observar: primer toque hacia delante y disparo tras la finta (propuesta).",
+ "montaje": "Campitos de 10 × 5 m en fila, con dos miniporterías cada uno. Un 1 contra 1 en cada uno; sobrantes de relevo (propuesta).",
+ "juego": "Duelos de 45″. Al sonar, quien gana sube un campito y quien pierde baja. Empate: sube quien marcó el último gol (propuesta). En el primero se queda el ganador; en el último, el que pierde.",
+ "punto": "Gana quien más goles marque. Todos juegan siempre.",
  "consigna": "Encara, finta y define.",
  "variantes": {
   "facil": "Miniporterías más anchas.",
@@ -26,7 +26,7 @@
  },
  "top": "Duelo de los caballeros: 1 contra 1 en campitos con sube y baja. Todos juegan siempre.",
  "probado": false,
- "completado": "Qué pasa en el primer y el último campito, y adaptación (propuesta).",
+ "completado": "Qué pasa en el primer y el último campito, y adaptación (propuesta). Balón fuera, desempate, relevo y qué pasa en los campitos extremos (propuesta).",
  "diagrama": {
   "field": [
    10,

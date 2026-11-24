@@ -9,10 +9,10 @@
  "espacio": "18 × 18 m",
  "duracion": "12 min",
  "series": "4 series de 3 min (propuesta).",
- "objetivo": "Conservar con paciencia y, al perder el balón, cambiar de equipo y atacar las minimetas.",
- "montaje": "Cuadrado de 18 × 18 m con una minimeta en cada esquina. Dentro, 5 azules contra 2 rojos; fuera, seis rojos de apoyo.",
- "juego": "Los azules dan 10 a 12 pases seguidos: eso es gol. Si los rojos roban, todos pasan a atacar las minimetas y los azules defienden.",
- "punto": "10 a 12 pases, 1 punto. Gol en minimeta tras robo, 1 punto (propuesta).",
+ "objetivo": "Conservar con paciencia y, al perder el balón, cambiar de equipo y atacar las minimetas. Cómo explicarlo: «10 pases = gol; si lo pierdes, cambia el juego en dos segundos». Errores típicos: pasar sin mirar, no ocupar el ancho, no reaccionar rápido a la pérdida. Qué observar: apoyos fuera a distancia y orientación corporal para el siguiente pase (propuesta).",
+ "montaje": "Cuadrado de 18 × 18 m con una minimeta en cada esquina. Dentro, 5 azules contra 2 rojos; fuera, 6 rojos de apoyo en los lados (propuesta).",
+ "juego": "Los azules dan 10–12 pases seguidos: gol. Si los rojos roban, todos pasan a atacar las minimetas y los azules defienden.",
+ "punto": "10–12 pases, 1 punto. Gol en minimeta tras robo, 1 punto (propuesta).",
  "consigna": "Tras 10 pases, ya has ganado.",
  "variantes": {
   "facil": "8 pases (propuesta).",
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Edad, medidas, puntos y series (propuesta); deducido del vídeo, que solo trae rótulos breves.",
+ "completado": "Edad, medidas, puntos y series (propuesta); deducido del vídeo, que solo trae rótulos breves. Reanudación balón fuera y colocación de apoyos (propuesta).",
  "diagrama": {
   "field": [
    18,

@@ -9,9 +9,9 @@
  "espacio": "55 × 40 m",
  "duracion": "20 min",
  "series": "2 partes de 10 min con 3 min para repasar las jugadas.",
- "objetivo": "Practicar las jugadas de balón parado del equipo dentro de un partido real, con el premio del gol doble.",
- "montaje": "Partido de fútbol 7 con porteros en 55 × 40 m.",
- "juego": "Cada córner, falta o saque de banda en campo rival se juega con una jugada entrenada; antes de sacar, el equipo dice su nombre. Cada tiro a puerta que no acaba en gol da un córner al que ha tirado.",
+ "objetivo": "Practicar las jugadas de balón parado del equipo dentro de un partido real, con el premio del gol doble. Cómo explicarlo: «antes de sacar, di el nombre de la jugada». Errores típicos: sacar sin avisar, no ocupar su sitio, ir demasiado rápido. Qué observar: colocación y que todos sepan su tarea (propuesta).",
+ "montaje": "Partido de fútbol 7 con porteros en 55 × 40 m. Se han practicado antes 2–3 jugadas de balón parado. Dos equipos con petos.",
+ "juego": "Cada córner, falta o saque de banda en campo rival se juega con una jugada entrenada; antes de sacar, el equipo dice su nombre. Cada tiro a puerta que no es gol da un córner a quien ha tirado.",
  "punto": "Gol normal, 1. Gol a balón parado o en la jugada que nace de él, 2.",
  "consigna": "Despacio al colocarse, rápido al ejecutar.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "El gol de estrategia vale doble: lleva el balón parado entrenado al partido.",
  "probado": false,
- "completado": "Diagrama recortado al tercio de ataque, con el córner en corto de la fuente.",
+ "completado": "Diagrama recortado al tercio de ataque, con el córner en corto de la fuente. Número de jugadas previas (propuesta).",
  "diagrama": {
   "field": [
    40,

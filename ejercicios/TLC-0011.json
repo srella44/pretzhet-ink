@@ -9,9 +9,9 @@
  "espacio": "Medio campo · 36 × 30 m",
  "duracion": "10 min",
  "series": "Series de 2 min por lado, cambiando los roles (propuesta).",
- "objetivo": "Sincronizar el centro y la llegada en ataque, y anticipar y despejar en defensa.",
- "montaje": "Portería con portero. Un pasador en el centro, un jugador de banda, un rematador que llega desde atrás y un defensor.",
- "juego": "El pasador juega a la banda. El jugador de banda centra al área. El rematador llega en carrera y remata, mientras el defensor corre hacia su portería para despejar.",
+ "objetivo": "Sincronizar el centro y la llegada en ataque, y anticipar y despejar en defensa. Cómo explicarlo: «el rematador arranca cuando el pasador toca a la banda». Errores típicos: llegar antes del centro, centro sin mirar, defensa que se queda en línea. Qué observar: tiempo de la carrera de llegada y calidad del centro (propuesta).",
+ "montaje": "Medio campo de 36 × 30 m con portería y portero. Pasador en el centro, jugador de banda a 15 m del fondo, rematador que llega desde atrás y un defensor (propuesta).",
+ "juego": "El pasador juega a la banda; esta centra al área. El rematador llega en carrera y remata, mientras el defensor corre hacia su portería para despejar. Se hacen 6–8 repeticiones y rotan los roles.",
  "punto": "Gol, 1 punto. Despeje del defensor, 1 punto.",
  "consigna": "Llega tarde y de frente al centro.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Edad, puntos y roles (propuesta); el texto original nombra 2x1 y 3 jugadores.",
+ "completado": "Edad, puntos y roles (propuesta); el texto original nombra 2x1 y 3 jugadores. Colocación inicial, repeticiones y rotación de roles (propuesta).",
  "diagrama": {
   "field": [
    36,

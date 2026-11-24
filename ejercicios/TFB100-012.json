@@ -9,10 +9,10 @@
  "espacio": "20 × 20 m",
  "duracion": "15 min",
  "series": "4 series de 3 min con 1 min de descanso.",
- "objetivo": "Conservar en igualdad usando a los apoyos exteriores y entrar al campo con un buen control orientado.",
- "montaje": "Cuadrado de 20 × 20 m con 3 contra 3 dentro. Cada equipo tiene dos apoyos fuera: los amarillos arriba y abajo; los azules, a los lados.",
- "juego": "Al jugar con un apoyo propio, se intercambian: el apoyo entra con control orientado y el que pasó sale a ocupar su sitio. Los apoyos juegan a uno o dos toques.",
- "punto": "Cada 6 pases seguidos, 1 punto.",
+ "objetivo": "Conservar en igualdad usando a los apoyos exteriores y entrar al campo con un buen control orientado. Cómo explicarlo: «pasa al apoyo y sal a ocupar su sitio; el apoyo entra con el control». Errores típicos: pasar y quedarse parado, control hacia atrás, no ofrecerse dentro. Qué observar: control orientado hacia espacio libre (propuesta).",
+ "montaje": "Cuadrado de 20 × 20 m con 3 contra 3 dentro. Cada equipo, dos apoyos fuera: amarillos arriba y abajo; azules, a los lados.",
+ "juego": "Al jugar con un apoyo propio se intercambian: el apoyo entra con control orientado y el que pasó sale a su sitio. Los apoyos juegan a uno o dos toques.",
+ "punto": "Cada 6 pases seguidos, 1 punto. Gana quien más puntos tenga tras 4 series.",
  "consigna": "Pasa y sal; entra con el control.",
  "variantes": {
   "facil": "Un comodín dentro con el equipo que tiene el balón.",
@@ -26,7 +26,7 @@
  },
  "top": "Intercambio con los apoyos tras jugar con ellos: control orientado y movimiento constante.",
  "probado": false,
- "completado": "Colores adaptados al diagrama (amarillos y azules en lugar de azules y rojos).",
+ "completado": "Colores adaptados al diagrama (amarillos y azules en lugar de azules y rojos). Balón fuera y ganador de la serie (propuesta).",
  "diagrama": {
   "field": [
    20,

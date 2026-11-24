@@ -9,9 +9,9 @@
  "espacio": "22 × 15 m",
  "duracion": "14 min",
  "series": "4 series de 3 min con 1 min de pausa (propuesta).",
- "objetivo": "Portero que para y lanza la transición aprovechando que el rival que ha tirado tarda en volver.",
- "montaje": "22 × 15 m con portería y portero en cada fondo. Dos parejas; balones de reserva junto a las porterías.",
- "juego": "Se juega 2 contra 2. Tras tirar, el rematador rodea un cono junto a la portería que atacaba antes de volver. Si el portero atrapa, saca enseguida para jugar el 2 contra 1.",
+ "objetivo": "Portero que para y lanza la transición aprovechando que el rival que ha tirado tarda en volver. Cómo explicarlo: «atrapa, mira y lanza al compañero libre; la rapidez es el premio». Errores típicos: sacar a ciegas, quedarse sin mirar tras atrapar, lanzar al rival. Qué observar: decisión rápida entre sacar rápido o asegurar (propuesta).",
+ "montaje": "22 × 15 m con portería y portero en cada fondo. Dos parejas (2 contra 2). Un cono junto a cada portería; balones de reserva.",
+ "juego": "Se juega 2 contra 2. Tras tirar, el rematador rodea el cono junto a la portería que atacaba antes de volver. Si el portero atrapa, saca enseguida para jugar el 2 contra 1.",
  "punto": "Gol, 1. Gol tras saque rápido del portero, 2 (propuesta).",
  "consigna": "Portero: ¿saco rápido o aseguro?",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "El portero que para lanza el 2v1: portero integrado en la transición.",
  "probado": false,
- "completado": "Puntuación, series, variantes y adaptación (propuesta).",
+ "completado": "Puntuación, series, variantes y adaptación (propuesta). Colocación del cono y ganador por series (propuesta).",
  "diagrama": {
   "field": [
    22,

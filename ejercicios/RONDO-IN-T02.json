@@ -10,9 +10,9 @@
  "duracion": "12 min",
  "series": "4 × 2 min con 45 s de pausa; cambio de pareja cada 2 series (propuesta).",
  "objetivo": "Conducción rápida con la cabeza levantada, cambio de ritmo y descarga precisa al compañero que se ofrece; el que no tiene balón aprende a moverse para dar apoyo. Cómo explicarlo: «cruza la puerta y busca a tu pareja: ella tiene que estar ya libre». Errores típicos: conducir mirando el balón, el compañero parado detrás de otra pareja, descarga fuerte o a la espalda. Qué observar: cambio de ritmo antes de la puerta y apoyo a 6–10 m en línea de pase limpia. Montaje detallado: 25 × 20 m con 6 miniporterías o puertas de conos de 2 m repartidas. Un balón por pareja.",
- "montaje": "25 × 20 m con 6 puertas de 2 m repartidas. Por parejas, un balón.",
- "juego": "Uno conduce rápido hacia una puerta y la cruza; el compañero se mueve para darle apoyo a 6–10 m y recibe la descarga. Luego cambian: ahora conduce el otro hacia una puerta distinta. Nadie se para.",
- "punto": "Puertas cruzadas por la pareja en 2′ (fuente).",
+ "montaje": "25 × 20 m con 6 puertas de conos de 2 m repartidas. Por parejas, un balón, separadas 6–10 m.",
+ "juego": "Uno conduce rápido y cruza una puerta; el compañero se mueve a 6–10 m para dar apoyo y recibe la descarga. Luego cambian: conduce el otro hacia otra puerta.",
+ "punto": "Cada pareja cuenta las puertas cruzadas en 2′. Gana la que más sume tras 4 series.",
  "consigna": "Cabeza arriba al conducir.",
  "variantes": {
   "facil": "Puertas anchas de 3 m (fuente).",
@@ -24,7 +24,7 @@
   "titulo_original": "Conduce y descarga (IN-T02)",
   "ref": "RONDO Vol. 4 · Infantil · pág. 10"
  },
- "completado": "Número de puertas, distancia del apoyo y series (propuesta).",
+ "completado": "Número de puertas, distancia del apoyo y series (propuesta). Regla de no repetir puerta y desempate por puertas totales (propuesta).",
  "top": "",
  "probado": false,
  "diagrama": {

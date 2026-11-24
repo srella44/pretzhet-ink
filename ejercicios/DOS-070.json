@@ -9,10 +9,10 @@
  "espacio": "40 × 30 m",
  "duracion": "20 min",
  "series": "3 × 5 min con 1 min de descanso; rotan los grupos de las esquinas (propuesta).",
- "objetivo": "Resolver el 2 contra 1 con pared, doblada o pasillo y pasar al contraataque sin pausa.",
- "montaje": "40 × 30 m con portería y portero en cada fondo. Los equipos esperan en las esquinas.",
- "juego": "Un defensor pasa a dos atacantes y sale a defender en el medio campo: 2 contra 1. Al terminar el ataque, dos compañeros del defensor se suman y contraatacan 3 contra 2 hacia la otra portería.",
- "punto": "Gol, 1 punto para su equipo.",
+ "objetivo": "Resolver el 2 contra 1 con pared, doblada o pasillo y pasar al contraataque sin pausa. Cómo explicarlo: «el que defendía ahora ataca: sal al instante». Errores típicos: pasar tarde, no fijar al defensor, olvidar el pase atrás. Qué observar: pase tras fijar y velocidad del tercer hombre en la transición (propuesta).",
+ "montaje": "40 × 30 m con portería y portero en cada fondo. Los equipos esperan en las esquinas de su fondo,.",
+ "juego": "Un defensor pasa a dos atacantes y sale a defender en medio campo: 2 contra 1. Al terminar el ataque, dos compañeros del defensor se suman y contraatacan 3 contra 2 hacia la otra portería.",
+ "punto": "Gol, 1 punto para su equipo. Gana quien más marque en 3 series.",
  "consigna": "Fija al defensor y suelta en el momento justo.",
  "variantes": {
   "facil": "El defensor sale desde más lejos (propuesta).",
@@ -26,7 +26,7 @@
  },
  "top": "Oleada 2v1 que se convierte en contraataque 3v2: transición inmediata.",
  "probado": true,
- "completado": "Edad, número de jugadores, series y variantes (propuesta).",
+ "completado": "Edad, número de jugadores, series y variantes (propuesta). Colocación y rotación de grupos (propuesta).",
  "diagrama": {
   "field": [
    40,

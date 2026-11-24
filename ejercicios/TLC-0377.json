@@ -9,9 +9,9 @@
  "espacio": "40 × 30 m",
  "duracion": "10 min",
  "series": "4 × 2 min; cambiar el sentido en cada serie (fuente).",
- "objetivo": "Pase a un toque con perfil abierto, fuerza ajustada a la distancia y dirección exacta.",
- "montaje": "Rombo con un jugador por vértice y dos en el de salida. Más distancia, más exigencia.",
- "juego": "Pases encadenados a un toque alrededor del rombo. Quien pasa sigue a su balón y ocupa el vértice siguiente. Se alterna sentido horario y antihorario; también con paredes.",
+ "objetivo": "Pase a un toque con perfil abierto, fuerza ajustada a la distancia y dirección exacta. Cómo explicarlo: «abre el cuerpo antes de que llegue el balón y pasa al pie de fuera». Errores típicos: recibir de frente, pasar flojo o largo, quedarse en el vértice. Qué observar: perfil abierto en cada recepción y que el pase salga sin control previo (propuesta).",
+ "montaje": "Rombo de 4 conos con vértices a unos 15 m (propuesta) en 40 × 30 m. Un jugador por vértice y dos en el de salida con un balón.",
+ "juego": "Pases a un toque por el rombo. Quien pasa sigue a su balón y ocupa el vértice siguiente. Se alterna el sentido. Fallo: vuelta a cero.",
  "punto": "Vueltas seguidas sin segundo toque (propuesta).",
  "consigna": "Abre el cuerpo antes de que llegue el balón.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Distancias concretas y puntuación (propuesta).",
+ "completado": "Distancias concretas y puntuación (propuesta). Distancia entre vértices y regla de fallo (propuesta).",
  "diagrama": {
   "field": [
    40,

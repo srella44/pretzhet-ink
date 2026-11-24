@@ -9,10 +9,10 @@
  "espacio": "18 × 14 m",
  "duracion": "10 min",
  "series": "3 partidos de 3 min con 1 min de descanso.",
- "objetivo": "Competir entre porteros parando y lanzando, con saques de mano y de pie.",
- "montaje": "Dos porterías enfrentadas a unos 15 m, con un portero en cada una y una línea central.",
- "juego": "Por turnos, cada portero intenta marcar al otro desde su mitad: primero con saque de mano y después con el pie. El que para, lanza. Nadie pasa la línea central.",
- "punto": "Cada gol, 1. Gana el primero que llega a 5.",
+ "objetivo": "Competir entre porteros parando y lanzando, con saques de mano y de pie. Cómo explicarlo: «parar bien es empezar el siguiente ataque». Errores típicos: no recolocarse tras lanzar, lanzar sin mirar dónde está el rival, rechazar al centro. Qué observar: posición base con manos al frente y distancia al poste (propuesta).",
+ "montaje": "18 × 14 m con dos porterías a unos 15 m y un portero en cada una. Línea central de conos. Con 4, dos esperan y se turnan (propuesta).",
+ "juego": "Por turnos, cada portero intenta marcar al otro desde su zona: primero con saque de mano, luego con el pie. El que para, lanza. No se pasa la línea central. Balón fuera: saca el que defendía.",
+ "punto": "Cada gol, 1 punto. Gana el primero que llegue a 5.",
  "consigna": "Lanza y recolócate enseguida: hazte grande.",
  "variantes": {
   "facil": "Porterías más alejadas.",
@@ -26,7 +26,7 @@
  },
  "top": "Duelo de porteros: competición directa con muchísimas acciones.",
  "probado": false,
- "completado": "",
+ "completado": " Turnos con 4 jugadores y balón fuera (propuesta).",
  "diagrama": {
   "field": [
    18,

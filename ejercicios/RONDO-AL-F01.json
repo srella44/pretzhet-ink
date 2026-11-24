@@ -9,9 +9,9 @@
  "espacio": "25 × 20 m",
  "duracion": "15 min",
  "series": "2 × 4 min por papel: a los 4 min se cambian los papeles.",
- "objetivo": "Atacar en superioridad hasta el tiro y, si se pierde, defender el contraataque a las miniporterías.",
- "montaje": "25 × 20 m con portería y portero en un fondo y dos miniporterías en el otro.",
- "juego": "Los atacantes salen en superioridad, 3 contra 2, y tiran a puerta. Si los defensores recuperan, contraatacan y marcan en las miniporterías. A los 4 min se cambian los papeles.",
+ "objetivo": "Atacar en superioridad hasta el tiro y, si se pierde, defender el contraataque a las miniporterías. Cómo explicarlo: «tiras a la grande, pero si pierdes, ahora defiendes y te cuesta menos marcar al otro lado». Errores típicos: tirar sin fijar al defensor, no volver tras perder, pase al defensor. Qué observar: pase al libre y disparo tras fijar (propuesta).",
+ "montaje": "25 × 20 m con portería y portero en un fondo y dos miniporterías en el otro. 3 atacantes salen desde el centro contra 2 defensores (propuesta).",
+ "juego": "Los atacantes salen 3 contra 2 y tiran a puerta. Si los defensores recuperan, contraatacan y marcan en las miniporterías. Tras gol o parada, sale otro trío. A los 4 min cambian los papeles.",
  "punto": "Gol en la portería, 2 puntos. Gol en miniportería, 1 punto.",
  "consigna": "Fija al defensor y pasa al libre.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "Ataque en superioridad a portería grande y, si roban, gol en miniporterías.",
  "probado": false,
- "completado": "Adaptación (propuesta).",
+ "completado": "Adaptación (propuesta). Colocación y reinicio de la jugada (propuesta).",
  "diagrama": {
   "field": [
    25,

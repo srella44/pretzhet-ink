@@ -9,8 +9,8 @@
  "espacio": "40 × 30 m",
  "duracion": "15 min",
  "series": "3 partes de 4 min con 1 min de descanso.",
- "objetivo": "Salir del 2 contra 2 de una mitad y conectar con el comodín para crear un 3 contra 2 rápido en la otra.",
- "montaje": "40 × 30 m en dos mitades con una zona estrecha en medio; portería y portero en cada fondo. 2 contra 2 por mitad y un comodín en la zona.",
+ "objetivo": "Salir del 2 contra 2 de una mitad y conectar con el comodín para crear un 3 contra 2 rápido en la otra. Cómo explicarlo: «muévete para salir del duelo, busca al comodín y rápido al 3 contra 2». Errores típicos: pasar al comodín sin desmarcarse, comodín que no entra, cambiar de mitad. Qué observar: pase y entrada inmediata del comodín (propuesta).",
+ "montaje": "40 × 30 m en dos mitades con zona central estrecha de 5 m (propuesta); portería y portero en cada fondo. 2 contra 2 por mitad y un comodín en la zona.",
  "juego": "Nadie cambia de mitad. Para pasar a la otra hay que conectar con el comodín, que pasa y entra para formar un 3 contra 2 rápido.",
  "punto": "Gol, 1 punto. Gol en menos de 3 pases tras conectar con el comodín, 2.",
  "consigna": "Comodín: pasa y entra.",
@@ -26,7 +26,7 @@
  },
  "top": "Doble área con comodín en la zona intermedia: 2 contra 2 en cada mitad conectados por el comodín.",
  "probado": false,
- "completado": "Diagrama con el campo girado: porterías a los lados.",
+ "completado": "Diagrama con el campo girado: porterías a los lados. Anchura de la zona central y balón fuera (propuesta).",
  "diagrama": {
   "field": [
    40,

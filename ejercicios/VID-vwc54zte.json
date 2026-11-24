@@ -9,9 +9,9 @@
  "espacio": "16 × 20 m",
  "duracion": "12 min",
  "series": "4 series de 2 min (propuesta).",
- "objetivo": "Activar la técnica a ritmo alto y jugar al primer toque entre fuera y dentro.",
- "montaje": "Rectángulo de 16 × 20 m con un cuadrado de 8 × 8 m dentro y minimetas en las esquinas de un fondo. Seis jugadores fuera, tres dentro.",
- "juego": "Los de fuera juegan a uno o dos toques y buscan a los de dentro, que presionan. Si roban, buscan las minimetas. Cada serie se mide con cronómetro.",
+ "objetivo": "Activar la técnica a ritmo alto y jugar al primer toque entre fuera y dentro. Cómo explicarlo: «los de fuera mueven el balón rápido; los de dentro presionan juntos». Errores típicos: tocar dos veces, pasar sin mirar, presionar por separado. Qué observar: velocidad de circulación y orientación del cuerpo (propuesta).",
+ "montaje": "Rectángulo de 16 × 20 m con cuadrado de 8 × 8 m dentro y minimetas en las esquinas de un fondo. Seis jugadores fuera, tres dentro. Un balón.",
+ "juego": "Los de fuera juegan a uno o dos toques y buscan a los de dentro, que presionan sin salir del cuadrado. Si roban, atacan las minimetas. Cada 2 min cambian los tres de dentro (propuesta).",
  "punto": "Gol en minimeta tras robo, 1 punto (propuesta).",
  "consigna": "Rápido, a un toque y mirando.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Edad, medidas, puntos y series (propuesta); dibujado a partir de las imágenes del reel.",
+ "completado": "Edad, medidas, puntos y series (propuesta); dibujado a partir de las imágenes del reel. Cambio de los de dentro y puntuación por pases (propuesta).",
  "diagrama": {
   "field": [
    16,

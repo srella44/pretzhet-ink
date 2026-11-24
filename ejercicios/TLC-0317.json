@@ -9,10 +9,10 @@
  "espacio": "30 × 20 m",
  "duracion": "10 min",
  "series": "3 series de 3 min, subiendo el ritmo (fuente).",
- "objetivo": "Activar conducción, pared y cambio de ritmo antes de la parte principal.",
- "montaje": "Dos filas enfrentadas a unos 25 m, todos con balón.",
- "juego": "El primero conduce hacia la otra fila y pasa al primero de enfrente, que le devuelve la pared al espacio. Tras recibir, cambio de ritmo y se une a esa fila. El que dio la pared sale con su balón hacia el otro lado.",
- "punto": "Sin puntuación (propuesta).",
+ "objetivo": "Activar la conducción, la pared y el cambio de ritmo antes de la parte principal. Cómo explicarlo: «tu pared termina cuando aceleras, no cuando recibes». Errores típicos: no acelerar tras la pared, devolver el balón atrás del compañero, quedarse parado tras pasar. Qué observar: que la devolución llegue al espacio y que el ritmo suba en cada serie (propuesta).",
+ "montaje": "30 × 20 m. Dos filas de 2–4 jugadores enfrentadas a unos 25 m, todos con balón.",
+ "juego": "El primero conduce a la otra fila y pasa al primero de enfrente, que le devuelve la pared al espacio. Tras recibir, cambia de ritmo y se une a esa fila; el que dio la pared sale con su balón al lado contrario.",
+ "punto": "Sin puntuación (propuesta). Ritmo: 60 %, 75 %, máximo (propuesta).",
  "consigna": "Tras la pared, acelera de verdad.",
  "variantes": {
   "facil": "Pared con control previo (propuesta).",
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Distancia entre filas y salida alterna (propuesta). La ficha cita 4 muñecos que el texto no explica; no se dibujan.",
+ "completado": "Distancia entre filas y salida alterna (propuesta). La ficha cita 4 muñecos que el texto no explica; no se dibujan. Filas de 2–4 jugadores, ritmo por serie y colocación de conos (propuesta).",
  "diagrama": {
   "field": [
    30,

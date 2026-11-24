@@ -9,9 +9,9 @@
  "espacio": "30 × 25 m",
  "duracion": "10 min",
  "series": "Series de 2 min; rotan los papeles (propuesta).",
- "objetivo": "Atacar rápido con 2 contra 1 y, en defensa, ganar tiempo hasta que llegue la ayuda.",
- "montaje": "30 × 25 m con una miniportería. Un jugador con balón detrás de dos atacantes.",
- "juego": "El jugador pasa a uno de los dos atacantes y sale a defender. Los dos atacan la miniportería en 2 contra 1. Cuando acaba la acción, otro jugador pasa a defender y sale una nueva pareja.",
+ "objetivo": "Atacar rápido con 2 contra 1 y, en defensa, ganar tiempo hasta que llegue la ayuda. Cómo explicarlo: «el que pasa, defiende: corre al hueco entre los dos». Errores típicos: atacar sin fijar al defensor, no pasar al libre, defensor que se lanza. Qué observar: pase en el momento de fijar y carrera de apoyo (propuesta).",
+ "montaje": "30 × 25 m con una miniportería. Un jugador con balón a 8 m detrás de dos atacantes; el resto en fila (propuesta).",
+ "juego": "El jugador pasa a uno de los dos atacantes y sale a defender. Los dos atacan la miniportería en 2 contra 1. Al acabar, otro pasa y defiende y sale una pareja nueva.",
  "punto": "Gol, 1 punto. Si el defensor despeja o roba, 1 punto.",
  "consigna": "Pasa y corre a defender.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Edad, puntos y series (propuesta); el pie del reel está cortado.",
+ "completado": "Edad, puntos y series (propuesta); el pie del reel está cortado. Colocación inicial y fila de espera (propuesta).",
  "diagrama": {
   "field": [
    30,

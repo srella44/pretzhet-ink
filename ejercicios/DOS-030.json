@@ -9,10 +9,10 @@
  "espacio": "30 × 20 m",
  "duracion": "15 min",
  "series": "3 rondas completas (1v0 a 3v2) por equipo, con 1 min de descanso (propuesta).",
- "objetivo": "Atacar siempre en superioridad y decidir rápido entre pasar o regatear.",
- "montaje": "30 × 20 m con portería y portero en cada fondo. Dos equipos, cada uno en su fondo.",
- "juego": "Empieza un 1 contra 0 con tiro. Al terminar, salen dos del equipo que defendía y atacan 2 contra 1 hacia la otra portería contra el que tiró. Después 3 contra 2, y así sucesivamente.",
- "punto": "Gol, 1 punto para su equipo.",
+ "objetivo": "Atacar siempre en superioridad y decidir rápido entre pasar o regatear. Cómo explicarlo: «cada oleada es una carrera: el defensor de antes es ahora tu rival». Errores típicos: esperar al compañero, regatear con 2 contra 1 sin necesidad, no volver a defender tras el tiro. Qué observar: velocidad de la primera conducción y pase al libre cuando el defensor se acerca (propuesta).",
+ "montaje": "30 × 20 m con portería y portero en cada fondo. Dos equipos en fila, cada uno tras su portería, con los balones (propuesta).",
+ "juego": "Un jugador sale 1 contra 0 y tira. Al acabar, salen dos del equipo contrario y atacan 2 contra 1 hacia la otra portería (defiende el que tiró). Luego 3 contra 2, y las oleadas se encadenan.",
+ "punto": "Gol, 1 punto para su equipo. Gana quien más marque en 3 rondas (propuesta).",
  "consigna": "Mira antes: ¿paso o regateo? Ataca en velocidad.",
  "variantes": {
   "facil": "Se repite el 2 contra 1 en lugar de pasar al 3 contra 2 (propuesta).",
@@ -26,7 +26,7 @@
  },
  "top": "Oleadas encadenadas de 1v0 a 3v2: superioridad creciente y transición constante.",
  "probado": true,
- "completado": "Edad, número de jugadores, series y variantes (propuesta).",
+ "completado": "Edad, número de jugadores, series y variantes (propuesta). Colocación de las filas y desempate por goles (propuesta).",
  "diagrama": {
   "field": [
    30,

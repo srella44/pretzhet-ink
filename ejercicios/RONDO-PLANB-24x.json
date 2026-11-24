@@ -9,9 +9,9 @@
  "espacio": "Vestuario",
  "duracion": "5 min",
  "series": "Una ronda al final de la sesión.",
- "objetivo": "Cerrar sin enfriarse cuando hace frío o el campo está pesado, y dar voz a los jugadores en la próxima sesión.",
- "montaje": "Los últimos 5 minutos, en el vestuario. Todos sentados en corro y el entrenador con ellos.",
- "juego": "Cada jugador dice cuál ha sido su juego favorito del día y por qué, en una frase (propuesta). Entre todos se decide con cuál empezar el próximo entrenamiento.",
+ "objetivo": "Cerrar la sesión sin enfriarse cuando hace frío o el campo está pesado, y dar voz a los jugadores para la próxima sesión. Cómo explicarlo: «un minuto por persona: di tu favorito y por qué». Errores típicos: que hable solo el entrenador, ridiculizar una elección, alargarse y enfriar al grupo. Qué observar: quién participa menos para animarle sin presionar (propuesta).",
+ "montaje": "Los últimos 5 minutos, en el vestuario o un lugar cubierto. Todos sentados en corro, entrenador incluido, con ropa seca (propuesta).",
+ "juego": "Cada jugador dice su juego favorito del día y por qué, en una frase (propuesta). Entre todos se decide con cuál empezar el próximo entrenamiento; el entrenador cuenta los votos.",
  "punto": "Sin puntuación. El juego elegido abre la próxima sesión.",
  "consigna": "Escucha a todos y respeta lo que se decida.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "Cierre a cubierto: cada uno dice su juego favorito y se elige con cuál empezar el próximo día.",
  "probado": false,
- "completado": "Edad, «por qué» en una frase, variantes y adaptación (propuesta).",
+ "completado": "Edad, «por qué» en una frase, variantes y adaptación (propuesta). Ropa seca, reparto del turno y desempate (propuesta).",
  "diagrama": {
   "field": [
    12,

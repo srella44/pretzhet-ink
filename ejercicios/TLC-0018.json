@@ -9,9 +9,9 @@
  "espacio": "30 × 20 m",
  "duracion": "12 min",
  "series": "4 × 3 min con 1 min de descanso (propuesta).",
- "objetivo": "Defender en inferioridad: temporizar, bascular juntos y provocar el error del rival.",
- "montaje": "30 × 20 m (propuesta). Dos miniporterías en un fondo y, entre ellas y fuera del campo, un comodín que apoya al ataque. 3 contra 2.",
- "juego": "Ataque rápido y con amplitud, con apoyo del comodín (1–2 toques). La defensa temporiza y bascula junta, sin lanzarse a robar. Luego, cambio de papeles.",
+ "objetivo": "Defender en inferioridad: temporizar, bascular juntos y provocar el error del rival. Cómo explicarlo: «no te lances: cierra por dentro y espera a tu compañero». Errores típicos: salir los dos a la vez, dejar pasillo interior, no recuperar la forma. Qué observar: distancia entre los dos defensores (3–4 m) y orientación del cuerpo (propuesta).",
+ "montaje": "30 × 20 m (propuesta). Dos miniporterías en un fondo y, fuera, entre ellas, un comodín que apoya al ataque. 3 atacantes contra 2 defensores.",
+ "juego": "El ataque, rápido y con amplitud, juega con el comodín (1–2 toques). La defensa temporiza y bascula junta, sin lanzarse a robar. Tras gol, robo o balón fuera, cambian los papeles.",
  "punto": "Gol, 1. Robo y pase al otro fondo, 1 (propuesta).",
  "consigna": "Temporiza y cierra por dentro.",
  "variantes": {
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Medidas, miniporterías, puntuación de la defensa y rotación (propuesta). La web habla de parejas que alternan ataque y defensa. Sin diagrama original.",
+ "completado": "Medidas, miniporterías, puntuación de la defensa y rotación (propuesta). La web habla de parejas que alternan ataque y defensa. Sin diagrama original. Colocación inicial y reanudación (propuesta).",
  "diagrama": {
   "field": [
    30,

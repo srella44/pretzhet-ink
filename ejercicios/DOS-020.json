@@ -9,9 +9,9 @@
  "espacio": "20 × 15 m",
  "duracion": "20 min",
  "series": "5 × 3 min; se cambia de papel en cada acción (propuesta).",
- "objetivo": "Decidir en carrera y finalizar con un perseguidor encima.",
- "montaje": "Dos puertas de colores a la salida y dos miniporterías al fondo.",
- "juego": "A pasa a B. B se gira y sale conduciendo por la puerta del color que elija. A le persigue entrando por la puerta del otro color. Al encontrarse, 1 contra 1: B intenta marcar.",
+ "objetivo": "Decidir en carrera y finalizar con un perseguidor encima: elegir la puerta, mirar y conducir a máxima velocidad. Cómo explicarlo: «tú decides por qué puerta sales; el que te persigue sale por la otra». Errores típicos: conducir mirando solo el balón, ir en horizontal y no hacia la portería, esperar al defensor. Qué observar: giro rápido tras recibir y disparo sin parar (propuesta).",
+ "montaje": "20 × 15 m. Salida con dos puertas de colores de 2 m (amarilla y naranja); al fondo, dos miniporterías. A y B a 4 m de las puertas (propuesta).",
+ "juego": "A pasa a B. B se gira y sale por la puerta del color que elija; A le persigue por la otra. Al encontrarse, 1 contra 1: B intenta marcar. Se cambia de papel en cada acción.",
  "punto": "Gol, 1 punto. Robo del defensor, 1 punto (propuesta).",
  "consigna": "Mira siempre y conduce a máxima velocidad.",
  "variantes": {
@@ -25,7 +25,7 @@
   "ref": "Dosier de sesiones · pág. 5 (J1.4)"
  },
  "probado": true,
- "completado": "Edad, series y punto del defensor (propuesta).",
+ "completado": "Edad, series y punto del defensor (propuesta). Distancia de salida, terminación de la acción y cambio de papel (propuesta).",
  "diagrama": {
   "field": [
    20,

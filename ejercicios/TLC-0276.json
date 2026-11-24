@@ -9,10 +9,10 @@
  "espacio": "30 × 20 m",
  "duracion": "10 min",
  "series": "3 series de 3 min, cambiando el perfil (propuesta).",
- "objetivo": "Activar pase y control en movimiento e integrar al portero con el pie.",
- "montaje": "Dos filas separadas unos 10 m, frente a una portería con portero a unos 25 m.",
- "juego": "Salen a la vez los primeros de cada fila y avanzan pasándose el balón hacia la portería. El último pase va al portero, que devuelve con el pie a la fila contraria. En cada repetición se cambia de perfil.",
- "punto": "Sin puntuación (propuesta).",
+ "objetivo": "Activar pase y control en movimiento e integrar al portero con el pie. Cómo explicarlo: «cada pase te manda moverte: pasa y ve a otro hueco». Errores típicos: parar el balón antes del pase, pasar fuerte al portero, retrasarse en la fila. Qué observar: control orientado y la distancia constante entre las dos filas (propuesta).",
+ "montaje": "30 × 20 m. Dos filas de 4 separadas 10 m, a unos 25 m de una portería con portero (propuesta). Un balón por fila.",
+ "juego": "Salen los primeros de cada fila avanzando y pasándose el balón hacia la portería. El último pase va al portero, que devuelve con el pie a la fila contraria. En cada vuelta se cambia de perfil.",
+ "punto": "Sin puntuación (propuesta). Se cuentan las vueltas sin fallar un pase.",
  "consigna": "Pasa y muévete: nunca te quedes parado.",
  "variantes": {
   "facil": "Tres pases fijos antes del portero (propuesta).",
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "La ficha habla de 2 porteros: se dibuja uno; el segundo puede ir en otra portería en el lado opuesto (propuesta). Distancias y series (propuesta).",
+ "completado": "La ficha habla de 2 porteros: se dibuja uno; el segundo puede ir en otra portería en el lado opuesto (propuesta). Distancias y series (propuesta). Distancia de las filas, número de jugadores y cuenta de vueltas (propuesta).",
  "diagrama": {
   "field": [
    30,

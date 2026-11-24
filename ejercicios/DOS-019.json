@@ -9,10 +9,10 @@
  "espacio": "20 × 20 m",
  "duracion": "15 min",
  "series": "Series de 1 min con 1 min de descanso.",
- "objetivo": "Conducir con la cabeza levantada entre muchos jugadores y entrar a robar el balón que otro conduce.",
- "montaje": "En el centro, una base con muchos balones. En cada esquina, una casa de conos por equipo.",
- "juego": "A la señal, cada equipo lleva en conducción todos los balones que pueda a su casa, de uno en uno. Vacía la base, se roba en las otras casas (propuesta). Serie de 1 min.",
- "punto": "Gana el equipo con más balones en casa al final de la serie.",
+ "objetivo": "Conducir con la cabeza levantada entre muchos jugadores y entrar a robar el balón que otro conduce. Cómo explicarlo: «mira dónde hay balones libres antes de salir». Errores típicos: conducir chocando con los demás, ir siempre a la misma casa, mirar solo el balón. Qué observar: visión periférica y que cambien de ritmo al esquivar (propuesta).",
+ "montaje": "20 × 20 m. En el centro, una base con muchos balones. En cada esquina, una casa de conos de 3 × 3 m (propuesta) por equipo.",
+ "juego": "A la señal, cada equipo lleva conduciendo todos los balones que pueda a su casa, de uno en uno. Con la base vacía, se roban balones de otras casas, sin empujar (propuesta). Serie de 1 min.",
+ "punto": "Gana el equipo con más balones en casa al final de cada serie.",
  "consigna": "Mira dónde hay balones libres antes de salir.",
  "variantes": {
   "facil": "Sin robo: solo la base.",
@@ -25,7 +25,7 @@
   "ref": "Dosier de sesiones · pág. 5 (J1.4)"
  },
  "probado": true,
- "completado": "Edad, robo en las otras casas y duración de la serie (propuesta).",
+ "completado": "Edad, robo en las otras casas y duración de la serie (propuesta). Tamaño de la casa y reparto de balones (propuesta).",
  "diagrama": {
   "field": [
    20,

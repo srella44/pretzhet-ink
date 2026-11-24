@@ -9,10 +9,10 @@
  "espacio": "40 × 40 m",
  "duracion": "16 min",
  "series": "4 estaciones × 3 min; 30 s para rotar (propuesta).",
- "objetivo": "Activar al inicio de la sesión combinando coordinación, velocidad y agilidad con conducción y pase.",
- "montaje": "Cuatro estaciones de cuatro jugadores: escalera o aros, eslalon de conos con balón, saltos y pase con control orientado.",
- "juego": "Cada grupo trabaja seguido en su estación, alternando la tarea física con la acción de balón. Al tiempo, todos rotan a la estación siguiente.",
- "punto": "Sin puntos. Se puede cerrar con pase a miniportería (fuente).",
+ "objetivo": "Activar al inicio de la sesión combinando coordinación, velocidad y agilidad con conducción y pase. Cómo explicarlo: «cuatro estaciones, tres minutos cada una, técnica limpia aunque llegues cansado». Errores típicos: ir tan rápido que se pierde la técnica, parar entre repeticiones, mal pase final. Qué observar: calidad del primer toque tras el esfuerzo (propuesta).",
+ "montaje": "40 × 40 m con cuatro estaciones de cuatro jugadores, una por esquina: escalera o aros, eslalon con balón, saltos y pase con control orientado (propuesta).",
+ "juego": "Cada grupo trabaja en su estación alternando la tarea física con la acción de balón. A los 3 min suena la señal y rotan a la estación siguiente en 30 s.",
+ "punto": "Sin puntos. Cierre con pase a miniportería (fuente).",
  "consigna": "Técnica limpia aunque llegues cansado.",
  "variantes": {
   "facil": "Estaciones solo de coordinación sin balón al inicio (propuesta).",
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Tareas concretas de cada estación y tiempos (propuesta); la web remite a la animación.",
+ "completado": "Tareas concretas de cada estación y tiempos (propuesta); la web remite a la animación. Material de cada estación y duración de la rotación (propuesta).",
  "diagrama": {
   "field": [
    40,

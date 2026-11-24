@@ -9,10 +9,10 @@
  "espacio": "40 × 30 m",
  "duracion": "10 min",
  "series": "3 × 3 min con 1 min de pausa (propuesta).",
- "objetivo": "Activar con coordinación, agilidad y velocidad, terminando cada esfuerzo con un pase corto preciso.",
- "montaje": "Tres filas de tres jugadores (A, B y C) en triángulo, cada una con su tarea física: saltos, eslalon y sprint corto.",
- "juego": "El primero de cada fila hace su ejercicio físico y termina con un pase corto a la fila siguiente. Después rota de fila en el orden A, B, C y vuelta a A. Se trabaja seguido, sin parar la rueda.",
- "punto": "Sin puntos (propuesta).",
+ "objetivo": "Activar con coordinación, agilidad y velocidad, terminando cada esfuerzo con un pase corto preciso. Cómo explicarlo: «esfuerzo fuerte, pase suave y preciso». Errores típicos: pasar sin perfilarse, no respetar el orden de la rotación, bajar la intensidad. Qué observar: pase al pie correcto tras el esfuerzo (propuesta).",
+ "montaje": "40 × 30 m. Tres filas de tres (A, B y C) en triángulo, a 12 m (propuesta). A: saltos sobre 3 conos; B: eslalon de 4 conos; C: sprint de 8 m. Un balón por fila.",
+ "juego": "El primero de cada fila hace su ejercicio y termina con un pase corto a la fila siguiente. Luego rota de fila en el orden A, B, C y vuelta a A, sin parar la rueda.",
+ "punto": "Sin puntos (propuesta). Récord de pases bien dados.",
  "consigna": "Perfílate antes de pasar.",
  "variantes": {
   "facil": "Tareas solo de coordinación (propuesta).",
@@ -26,7 +26,7 @@
  },
  "top": "",
  "probado": false,
- "completado": "Tarea concreta de cada fila, colocación y series (propuesta).",
+ "completado": "Tarea concreta de cada fila, colocación y series (propuesta). Longitud de los recorridos y conteo de pases (propuesta).",
  "diagrama": {
   "field": [
    40,

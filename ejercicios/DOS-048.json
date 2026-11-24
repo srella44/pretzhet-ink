@@ -8,11 +8,11 @@
  "jugadores": "8–20 jug.",
  "espacio": "20 × 20 m",
  "duracion": "15 min",
- "series": "5 min de pases por parejas + 3 rondas de juego (propuesta).",
- "objetivo": "Pared rápida, mirar antes de pasar y velocidad de reacción.",
- "montaje": "Parejas con un balón, todas mezcladas en el mismo cuadrado.",
- "juego": "Primero, pases libres por parejas: mirar, pared y pase con el exterior. Después, el juego: si una pareja hace una pared alrededor de otra pareja, esa pareja queda eliminada.",
- "punto": "Gana la última pareja que queda.",
+ "series": "5 min de pases por parejas + 3 rondas de 3 min con 30 s de pausa (propuesta).",
+ "objetivo": "Mirar antes de pasar, hacer la pared rápida y reaccionar a lo que hacen las demás parejas. Cómo explicarlo: «tu pareja y tú sois un equipo; buscad otra pareja y pasad el balón por detrás o alrededor de ella con una pared». Errores típicos: pasar sin mirar, ir todos a la misma pareja, pared demasiado lenta o floja. Qué observar: cabeza levantada y comunicación entre la pareja (propuesta).",
+ "montaje": "Cuadrado de 20 × 20 m con 4 conos. Parejas con un balón, mezcladas, a unos 5 m unas de otras.",
+ "juego": "5 min de pases libres: mirar, pared y pase con el exterior. Luego, juego: si una pareja hace una pared alrededor de otra, esa pareja queda eliminada y sale. Sin contacto (propuesta).",
+ "punto": "Gana la última pareja en pie. 3 rondas de 3 min; victoria = 1 punto (propuesta).",
  "consigna": "Busca otra pareja y hazle la pared encima.",
  "variantes": {
   "facil": "Eliminada = pierde una vida; tres vidas (propuesta).",
@@ -25,7 +25,7 @@
   "ref": "Dosier de sesiones · pág. 14 (S1.2)"
  },
  "probado": true,
- "completado": "Edad y versión con vidas (propuesta).",
+ "completado": "Edad y versión con vidas (propuesta). Duración de rondas, puntos por victoria, regla de no contacto y distancia de separación (propuesta).",
  "diagrama": {
   "field": [
    20,

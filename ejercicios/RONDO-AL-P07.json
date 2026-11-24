@@ -9,10 +9,10 @@
  "espacio": "35 × 25 m",
  "duracion": "15 min",
  "series": "Partidos de 3 min; 4 o 5 rondas (propuesta).",
- "objetivo": "Competir en partidos cortos con mucha intensidad y sin eliminados: todos juegan siempre.",
- "montaje": "Cuadrícula de 35 × 25 m: dos campos de 3 contra 3 con miniporterías. El de arriba es el campo de los campeones.",
- "juego": "Partidos de 3 min. Quien gana sube al campo de los campeones y quien pierde baja. Todos juegan siempre: nadie queda eliminado.",
- "punto": "Gana quien marca más. En empate, sube quien marcó el último gol (propuesta).",
+ "objetivo": "Competir en partidos cortos con mucha intensidad y sin eliminados: todos juegan siempre. Cómo explicarlo: «ganar es subir; perder es bajar un campo, nunca salir». Errores típicos: protestar el resultado, dejar al compañero solo, perder tiempo en el cambio. Qué observar: rapidez al cambiar de campo y pase antes del tiro (propuesta).",
+ "montaje": "35 × 25 m con dos campos de 3 contra 3 uno sobre otro, con miniporterías. El de arriba es el de los campeones. Cuatro equipos: dos juegan, dos esperan.",
+ "juego": "Partidos de 3 min. Quien gana sube a campeones y quien pierde baja; los que esperan entran por abajo (propuesta). ",
+ "punto": "Gana quien marca más; en empate, sube quien marcó el último gol (propuesta).",
  "consigna": "Gana pasándoos el balón.",
  "variantes": {
   "facil": "Porterías grandes.",
@@ -26,7 +26,7 @@
  },
  "top": "Torneo de sube y baja: partidos cortos, competitivos y sin eliminados.",
  "probado": false,
- "completado": "Desempate, series, consigna y adaptación (propuesta). Diagrama con los dos campos uno encima del otro.",
+ "completado": "Desempate, series, consigna y adaptación (propuesta). Diagrama con los dos campos uno encima del otro. Equipos que esperan y entrada de los relevos (propuesta).",
  "diagrama": {
   "field": [
    35,

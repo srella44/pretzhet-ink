@@ -9,10 +9,10 @@
  "espacio": "25 × 25 m",
  "duracion": "15 min",
  "series": "4 × 2 min con 1 min de descanso.",
- "objetivo": "Superar el duelo individual apoyándose en una referencia lejana: el comodín del fondo.",
- "montaje": "Dos miniporterías en cada fondo y un comodín entre ellas. Dos contra dos en el campo.",
- "juego": "Para marcar en el fondo que se ataca, antes hay que conectar con su comodín, que juega a uno o dos toques. Tras robo, se ataca hacia el otro fondo con su comodín.",
- "punto": "Gol en cualquiera de las dos miniporterías, 1 punto.",
+ "objetivo": "Superar el duelo individual apoyándose en una referencia lejana, el comodín del fondo. Cómo explicarlo: «sin pasar por el comodín no hay gol: muévete para que te vea». Errores típicos: pasar al comodín sin desmarcarse después, quedarse parado esperando la devolución, atacar sin mirar. Qué observar: pase al comodín y desmarque de ruptura inmediato (propuesta).",
+ "montaje": "25 × 25 m con dos miniporterías por fondo y un comodín entre ellas. 2 contra 2 en el campo, sin portero.",
+ "juego": "Para marcar en un fondo hay que conectar antes con su comodín (uno o dos toques). Gol en cualquiera de sus dos miniporterías. Tras robo, se ataca al otro fondo con su comodín.",
+ "punto": "Cada gol, 1 punto. Comodines rotan cada serie.",
  "consigna": "Busca la referencia lejana, pasa y muévete.",
  "variantes": {
   "facil": "Comodines con toques libres.",
@@ -25,7 +25,7 @@
   "ref": "100 tareas de fútbol base · pág. 101"
  },
  "probado": false,
- "completado": "Campo dibujado en horizontal.",
+ "completado": "Campo dibujado en horizontal. Distancia entre miniporterías y rotación de comodines (propuesta).",
  "diagrama": {
   "field": [
    25,

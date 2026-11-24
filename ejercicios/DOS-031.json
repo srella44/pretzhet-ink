@@ -9,10 +9,10 @@
  "espacio": "30 × 25 m",
  "duracion": "15 min",
  "series": "3 × 4 min con 1 min de descanso; rota el jugador de la zona de inicio (propuesta).",
- "objetivo": "Usar al jugador extra para crear superioridad y progresar conduciendo hasta la última zona.",
- "montaje": "30 × 25 m en tres zonas, con una miniportería en cada fondo. 2 contra 2 (o 3 contra 3) en la central y un jugador de cada equipo en su zona de inicio.",
- "juego": "El jugador de la zona de inicio ayuda en ataque y en defensa sin salir de ella. Para marcar hay que entrar conduciendo en la última zona.",
- "punto": "Gol, 1 punto.",
+ "objetivo": "Usar al jugador extra para crear superioridad y progresar conduciendo hasta la última zona. Cómo explicarlo: «tu jugador de inicio es tu seguro: pásale cuando te presionen». Errores típicos: olvidar al jugador de la zona de inicio, entrar sin conducir, atacar todos a la vez. Qué observar: pase atrás y vuelta al espacio libre (propuesta).",
+ "montaje": "30 × 25 m en tres zonas de unos 10 m, con miniportería en cada fondo. 2 contra 2 (o 3 contra 3) en la central y un jugador de cada equipo en su zona de inicio.",
+ "juego": "El jugador de inicio ayuda en ataque y defensa sin salir de su zona. Para marcar hay que entrar conduciendo en la última zona. Tras gol o balón fuera, se reinicia desde la zona de inicio.",
+ "punto": "Gol, 1 punto. Cada 4 min rota el jugador de inicio.",
  "consigna": "Usa al extra; regatea o pasa al desmarcado.",
  "variantes": {
   "facil": "Gol también con pase a la última zona (propuesta).",
@@ -26,7 +26,7 @@
  },
  "top": "Jugador fijo en la zona de inicio y gol entrando conduciendo: superioridad para progresar.",
  "probado": true,
- "completado": "Edad, tipo de portería (miniportería), series, variantes y rotación (propuesta).",
+ "completado": "Edad, tipo de portería (miniportería), series, variantes y rotación (propuesta). Reanudación tras gol y tres zonas de 10 m (propuesta).",
  "diagrama": {
   "field": [
    30,

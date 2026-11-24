@@ -9,10 +9,10 @@
  "espacio": "20 × 20 m",
  "duracion": "10 min",
  "series": "5 × 60″ con 45″ de descanso (propuesta).",
- "objetivo": "Conducir con la cabeza levantada y las dos piernas, buscando puertas libres entre compañeros.",
- "montaje": "Cuadrado con 8 puertas de conos de dos colores, de 1,5 m. Cada jugador con un balón.",
- "juego": "En 60″, cada uno pasa conduciendo por el máximo de puertas. No vale repetir la misma dos veces seguidas ni chocar con nadie.",
- "punto": "Cada puerta, 1 punto. Cada uno intenta batir su récord en la serie siguiente.",
+ "objetivo": "Conducir con la cabeza levantada y con las dos piernas, buscar la puerta libre y evitar chocar. Cómo explicarlo: «cuenta puertas, no pasos; si la puerta está ocupada, ve a otra». Errores típicos: mirar solo el balón, ir siempre a la misma puerta, conducir demasiado fuerte y perder el balón. Qué observar: giros con el exterior y cuántas puertas distintas usa cada niño (propuesta).",
+ "montaje": "Cuadrado de 20 × 20 m con 8 puertas de conos de 1,5 m, de dos colores, repartidas. Cada jugador, un balón.",
+ "juego": "En 60″ cada uno cruza conduciendo el máximo de puertas. No vale repetir la misma dos veces seguidas ni chocar. Si el balón sale, se recupera y se vuelve a entrar sin puntuar (propuesta).",
+ "punto": "Cada puerta, 1 punto. Se anota el total y se intenta batir el propio récord en la serie siguiente.",
  "consigna": "Cabeza arriba: busca la puerta libre.",
  "variantes": {
   "facil": "Puertas de 2 m.",
@@ -25,7 +25,7 @@
   "ref": "RONDO Vol. 3 · Alevín · pág. 6"
  },
  "probado": false,
- "completado": "Anchura de las puertas en el montaje y series (propuesta).",
+ "completado": "Anchura de las puertas en el montaje y series (propuesta). Qué pasa si el balón sale, descanso y puntos por serie (propuesta).",
  "diagrama": {
   "field": [
    20,
