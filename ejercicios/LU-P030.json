@@ -1,0 +1,172 @@
+{
+ "id": "LU-P030",
+ "bloque": "Superioridades",
+ "titulo": "Dos contra dos más comodín",
+ "formato": "2v2+1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug.",
+ "espacio": "14 × 18 m",
+ "duracion": "16 min",
+ "series": "Repeticiones de 30″ como máximo; 4 series de 3′ con 1′ de pausa (propuesta). Cada pareja descansa mientras juegan las otras.",
+ "objetivo": "Progresar y finalizar en 3 contra 2 aprovechando al comodín; los defensores anticipan e interceptan para evitar el remate (fuente). Cómo explicarlo: «el comodín es tu tercer compañero: úsalo y ve a por el remate». Errores típicos: no usar al comodín; los dos atacantes en la misma línea; defensores que se van al balón y dejan libre al otro. Qué observar: si tiran pronto cuando hay ventaja y la reacción tras pérdida (un solo contraataque).",
+ "montaje": "14 × 18 m con portería pequeña y portero en cada fondo. Dos equipos de 4 fuera, en sus bandas. Un comodín dentro, con quien ataca.",
+ "juego": "Entran dos de cada equipo: 2 contra 2 + comodín. Un portero pasa al comodín y este a uno de los que entran. Si el defensor o el portero se hacen con el balón, atacan una vez la otra portería.",
+ "punto": "Gol: 1. Gol en el contraataque: 2 (propuesta).",
+ "consigna": "Usa al comodín y ve a rematar.",
+ "variantes": {
+  "facil": "Comodín que también puede marcar (propuesta).",
+  "dificil": "Comodín a 1 toque; 8″ para finalizar desde que el comodín pasa (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 14 × 18 m y toques libres. Infantil: comodín a 2 toques. Cadete: 3 contra 3 + comodín en 18 × 22 m (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA (4vs3) - Progresión - Finalizaciones - 3 vs 2",
+  "ref": "300 ejercicios Level Up Coach · p. 30 (tarea 29)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Puntos, duración de las repeticiones, series, variantes y adaptación (propuesta). Edad bajada a 10–13 años: el espacio es pequeño y las reglas sencillas.",
+ "diagrama": {
+  "field": [
+   18,
+   14
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 19.6,
+   "ymin": -3,
+   "ymax": 17
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 7,
+    "lado": "L",
+    "ancho": 3.5,
+    "portero": true
+   },
+   {
+    "x": 18,
+    "y": 7,
+    "lado": "R",
+    "ancho": 3.5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": -1.8,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": -1.8,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 10.5,
+    "y": 15.8,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 15.8,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "balls": [
+   [
+    1.6,
+    7.5
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     7
+    ],
+    "b": [
+     7.5,
+     7.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 12
+   },
+   {
+    "a": [
+     7.5,
+     7.5
+    ],
+    "b": [
+     11,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     3
+    ],
+    "b": [
+     17.4,
+     6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": []
+ }
+}

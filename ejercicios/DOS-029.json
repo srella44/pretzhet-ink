@@ -1,0 +1,179 @@
+{
+ "id": "DOS-029",
+ "bloque": "Superioridades",
+ "titulo": "2v1 por franjas",
+ "formato": "2v1 + 2v1",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 salidas por pareja; los defensores cambian cada serie (propuesta).",
+ "objetivo": "Fijar y pasar en conducción: llevar el balón hacia el defensor hasta que se compromete y pasar al compañero libre (fuente). Evitar pasar antes de fijar (fuente). Cómo explicarlo: «conduce hacia él; cuando te salga, pasa». Errores típicos: conducir hacia la banda en vez de hacia el defensor; el compañero se queda detrás del balón; pases largos que el segundo defensor corta. Qué observar: altura del compañero (a la par o algo por delante) y cambio de ritmo tras el pase.",
+ "montaje": "20 × 15 m en 4 franjas de 5 m (propuesta). Un defensor fijo en la 2.ª franja y otro en la 4.ª. Dos miniporterías al final. Las parejas salen con balón.",
+ "juego": "Sale una pareja conduciendo: 2 contra 1 en la 2.ª franja y otro en la 4.ª. Hay que superarlas sin perder el balón y marcar. Si roba un defensor, sale otra pareja.",
+ "punto": "Franja con defensor superada: 1. Gol: 2 (fuente).",
+ "consigna": "Conduce hacia él y pasa.",
+ "variantes": {
+  "facil": "Defensores que solo pueden tapar, sin robar (propuesta).",
+  "dificil": "Franjas de 4 m o los defensores pueden salir 1 m de su franja (propuesta)."
+ },
+ "adaptacion": "Benjamín: como está. Alevín: el segundo defensor puede ayudar en la 3.ª franja (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "JUEGO DE APLICACIÓN: 2v1",
+  "ref": "dosier.pdf · pág. 7, 16 (sesiones J2.1, S1.4)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Franjas de 5 m, defensores fijos en su franja, reanudación tras robo, series y variantes (propuesta). Edad 8–11 años (sesiones del campus junior). Diagrama según la página 7.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 21.4,
+   "ymin": -1,
+   "ymax": 16
+  },
+  "lines": [
+   [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    20,
+    4,
+    "R"
+   ],
+   [
+    20,
+    11,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     11
+    ],
+    "b": [
+     6,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     1.5,
+     4
+    ],
+    "b": [
+     10,
+     3.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     6.3,
+     9.8
+    ],
+    "b": [
+     10.5,
+     4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     11,
+     3.8
+    ],
+    "b": [
+     19.4,
+     4
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

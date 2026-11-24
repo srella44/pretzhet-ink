@@ -1,0 +1,240 @@
+{
+ "id": "LU-P075",
+ "bloque": "Superioridades",
+ "titulo": "Salir con 7 y atacar con 4",
+ "formato": "7v4 / 4v7",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "22 jug.",
+ "espacio": "36 × 54 m",
+ "duracion": "24 min",
+ "series": "3 partes de 7 minutos con 1′30″ de pausa (propuesta). Cambiar en cada parte a dos jugadores de zona.",
+ "objetivo": "Salir jugando en superioridad y llevar el balón en buenas condiciones a la zona de ataque, donde se ataca en inferioridad: recibir perfilado y finalizar rápido (fuente). Sin balón, presión alta al robo. Cómo explicarlo: «atrás tenemos ventaja: sal limpio; delante, recibe de cara y termina rápido». Errores típicos: pases a la zona 2 a un compañero tapado; conducir a la zona 2 y no volver. Qué observar: el momento del pase vertical y la orientación de los delanteros.",
+ "montaje": "36 × 54 m en dos mitades, con portero en cada fondo. Dos equipos de 11: cada uno tiene 7 en su mitad y 4 en la contraria. Nadie cambia de zona.",
+ "juego": "Cada equipo sale 7 contra 4 en su mitad y ataca 4 contra 7 en la otra. Solo cruza uno con balón, conduciendo, y luego vuelve. Salida a 2 toques; ataque, libre. Robo en la salida rival: se finaliza.",
+ "punto": "Gol: 1. Gol tras robo en zona de salida rival: 2 (propuesta).",
+ "consigna": "Atrás, sal limpio; delante, termina rápido.",
+ "variantes": {
+  "facil": "Zona de ataque 5 contra 6 (propuesta).",
+  "dificil": "Gol en menos de 8″ desde que el balón entra en la zona de ataque, o zona de salida a 1 toque (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 8 contra 8 + porteros en 40 × 50 m con 5 contra 3 en salida y 3 contra 5 en ataque. Cadete y juvenil: como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO REDUCIDO - Salir jugando - Conectar zonas - Ataque en inferioridad - Presión alta",
+  "ref": "300 ejercicios Level Up Coach · p. 75 (tarea 74)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Porteros dentro de los 11, puntos, series, variantes y adaptación (propuesta). Diagrama simplificado (no salen los 22).",
+ "diagrama": {
+  "field": [
+   54,
+   36
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 55.6,
+   "ymin": -1,
+   "ymax": 38.6
+  },
+  "lines": [
+   [
+    [
+     27,
+     0
+    ],
+    [
+     27,
+     36
+    ],
+    "8 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 18,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 54,
+    "y": 18,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 46,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 48,
+    "y": 31,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     18
+    ],
+    "b": [
+     20,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     20,
+     6
+    ],
+    "b": [
+     31,
+     4.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     31.5,
+     4.8
+    ],
+    "b": [
+     42,
+     11
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 12
+   },
+   {
+    "a": [
+     42,
+     11
+    ],
+    "b": [
+     53.4,
+     16.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    13.5,
+    37.9,
+    "ZONA 1 · 7 V 4",
+    "middle"
+   ],
+   [
+    40.5,
+    37.9,
+    "ZONA 2 · 4 V 7",
+    "middle"
+   ]
+  ]
+ }
+}

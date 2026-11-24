@@ -1,0 +1,171 @@
+{
+ "id": "TFB40-015",
+ "bloque": "Superioridades",
+ "titulo": "Tres oleadas seguidas",
+ "formato": "2v1 · 2v2 · 3v2",
+ "edad": "8–11 años",
+ "nivel": "Medio",
+ "jugadores": "7–12 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "3 series completas de las tres oleadas por grupo, con 1′30″ de descanso (fuente).",
+ "objetivo": "Encadenar tres oleadas en dos porterías enfrentadas y cambiar el chip entre atacar y defender (fuente). Errores típicos: no aprovechar la superioridad del 2 contra 1 ni del 3 contra 2; tardar en cambiar de atacante a defensor; el que entra lo hace por la misma zona que el balón; defender de frente sin temporizar en inferioridad. Consignas de la fuente: «Rápido mientras hay ventaja», «Cambia el chip: ahora defiendes», «Entra por fuera y abre el campo», «Temporiza hasta que llegue la ayuda».",
+ "montaje": "30 × 25 m con portería y portero en cada fondo. Filas de atacantes y de defensores junto a las porterías, con balones.",
+ "juego": "1.ª: 2 contra 1 hacia la portería A. 2.ª: entra un defensor con balón por el lado de A: 2 contra 2 hacia B. 3.ª: entra un atacante con balón desde el fondo B: 3 contra 2 hacia A. Cada acción, 10″ como máximo.",
+ "punto": "Cada gol, 1; se suman las tres acciones (fuente).",
+ "consigna": "Rápido mientras hay ventaja.",
+ "variantes": {
+  "facil": "Más tiempo por acción y toques libres (fuente).",
+  "dificil": "Menos tiempo por acción o el nuevo jugador entra antes de que acabe la anterior (fuente)."
+ },
+ "adaptacion": "Benjamín: el nuevo jugador entra cuando termina la acción anterior. Alevín: entra en cuanto se tira, aunque la jugada no haya terminado (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Oleadas 2 contra 1, 2 contra 2 y 3 contra 2 en dos porterías",
+  "ref": "40 tareas de transiciones y oleadas · pág. 25"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente. Diagrama: primera acción (2 contra 1) con los que entran en la 2.ª y 3.ª en semitransparente.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 31.6,
+   "ymin": -2.8,
+   "ymax": 27.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": -1.6,
+    "f": 90,
+    "ball": true,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 26.6,
+    "f": -90,
+    "ball": true,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     8
+    ],
+    "b": [
+     16,
+     9.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     16,
+     9.8
+    ],
+    "b": [
+     14,
+     17
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     25,
+     18
+    ],
+    "b": [
+     14.5,
+     17.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     13.5,
+     17.3
+    ],
+    "b": [
+     1,
+     14
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    6.5,
+    -1.6,
+    "2.ª ENTRA",
+    "start"
+   ],
+   [
+    23.5,
+    26.6,
+    "3.ª ENTRA",
+    "end"
+   ]
+  ]
+ }
+}

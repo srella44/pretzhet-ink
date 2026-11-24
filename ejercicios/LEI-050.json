@@ -1,0 +1,231 @@
+{
+ "id": "LEI-050",
+ "bloque": "Superioridades",
+ "titulo": "Ocho contra cuatro en cajas",
+ "formato": "8v4 (4 × 2v1)",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "20 min",
+ "series": "4 bloques de 4–5 minutos; al acabar cada bloque, los 4 defensores cambian con 4 atacantes (fuente). Pausa de 1′ (propuesta).",
+ "objetivo": "Aprovechar muchos 2 contra 1 seguidos: buen primer control, pase raso y tenso con el interior, apoyos que se mueven para ayudar al poseedor, ritmo alto, fintas y paredes para abrir espacio (fuente). Cómo explicarlo: «en tu caja sois dos contra uno: muévete para que te vean». Errores típicos: el compañero se esconde detrás del defensor; pases largos de una caja a la lejana; retener el balón sin necesidad.",
+ "montaje": "40 × 20 m en 4 cajas de 10 × 20 m, con portería y portero en cada fondo (propuesta). En cada caja, 2 atacantes y 1 defensor (8 contra 4). Nadie sale de su caja.",
+ "juego": "Los atacantes deben pasar por las 4 cajas en la misma posesión antes de atacar la portería. Si los defensores roban, salen de sus cajas y atacan la otra. Cada 4–5′ cambian los papeles (fuente).",
+ "punto": "Gol del ataque: 1. Gol tras robo: 2 (propuesta).",
+ "consigna": "Muévete para que te vean.",
+ "variantes": {
+  "facil": "Bastan 3 cajas para poder atacar (propuesta).",
+  "dificil": "Atacantes a 2 toques; tras robo, los defensores tienen 6″ para marcar (propuesta)."
+ },
+ "adaptacion": "Alevín: 36 × 18 m y gol sin portero en miniportería. Infantil y cadete: como está (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "8v4 with many 2v1's",
+  "ref": "LeicesterCity.pdf · p. 55"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Porterías con portero en los dos fondos, puntos y variantes (propuesta). La fuente habla también de un atacante que se queda en el centro: no se ve claro en el texto y se ha omitido. Texto traducido y redactado con palabras propias.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41.6,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 9.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     6,
+     16
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6,
+     16
+    ],
+    "b": [
+     17,
+     15
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17,
+     15
+    ],
+    "b": [
+     24,
+     5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     24,
+     5
+    ],
+    "b": [
+     36,
+     15
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

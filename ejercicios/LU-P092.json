@@ -1,0 +1,186 @@
+{
+ "id": "LU-P092",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "De fondo a fondo con ventaja",
+ "formato": "8v8+4",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "20 jug.",
+ "espacio": "38 × 38 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1′ de pausa; en cada pausa, los 4 comodines entran por 4 jugadores (propuesta).",
+ "objetivo": "Aprovechar la superioridad que dan los comodines para conservar y llevar el balón de un fondo al otro; separarse del par y recibir perfilado (fuente). Tras pérdida, los más cercanos presionan al receptor. Cómo explicarlo: «despégate de tu par y recibe mirando al otro fondo». Errores típicos: pedir el balón pegado al rival; jugar siempre hacia atrás; no presionar al perder. Qué observar: apoyos a distintas alturas y perfil del que recibe.",
+ "montaje": "38 × 38 m. Dos equipos de 8 por puestos (laterales, medios, interiores y extremos). Cuatro comodines fuera, dos en cada fondo, que no entran en el campo.",
+ "juego": "Un comodín saca para un equipo: 12 contra 8. Hay que llevar el balón a los comodines del otro fondo. Comodines a 2 toques, sin pasarse entre ellos ni que se les robe. Pérdida: cambio de papeles.",
+ "punto": "Balón que llega de un fondo al otro: 1 punto (propuesta).",
+ "consigna": "Sepárate del par y recibe de cara.",
+ "variantes": {
+  "facil": "Comodines a 3 toques y el punto vale con llegar a cualquier comodín tras 6 pases (propuesta).",
+  "dificil": "Equipos a 2 toques; tras pérdida, 5″ para robar o el otro equipo suma 1 (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 6 contra 6 + 4 en 32 × 32 m. Cadete y juvenil: como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN 8 vs 8 + 4 (LAT - MC - INT - EXT)",
+  "ref": "300 ejercicios Level Up Coach · p. 92 (tarea 91)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Reparto de los comodines (dos por fondo), puntuación de fondo a fondo, series, variantes y adaptación (propuesta). La fuente no da puntos. Diagrama simplificado (no salen los 16 de campo).",
+ "diagrama": {
+  "field": [
+   38,
+   38
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 40.6,
+   "ymin": -1.5,
+   "ymax": 39.5
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 39.6,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 39.6,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.6,
+     12
+    ],
+    "b": [
+     8,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     18,
+     19
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     18,
+     19
+    ],
+    "b": [
+     27,
+     8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     27,
+     8
+    ],
+    "b": [
+     39.6,
+     12
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

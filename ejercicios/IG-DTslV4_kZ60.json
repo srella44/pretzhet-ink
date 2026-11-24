@@ -1,0 +1,186 @@
+{
+ "id": "IG-DTslV4_kZ60",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Dentro y fuera del cuadrado",
+ "formato": "4v4+1v1",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "16 min",
+ "series": "4 series de 3 minutos con 1′ de pausa; el de dentro del cuadrado cambia en cada punto (propuesta).",
+ "objetivo": "Encontrar al compañero entre líneas y ofrecerse enseguida al que recibe dentro para la devolución (fuente). Cómo explicarlo: «pasa dentro y ve a por la devolución». Errores típicos: pasar dentro y quedarse quieto; pase al cuadrado con el rival delante; el de dentro recibe de espaldas y se gira sin mirar. Qué observar: el apoyo del pasador tras soltar el balón, que es lo que decide la jugada (fuente).",
+ "montaje": "25 × 20 m, cuadrado de 6 × 6 m en el centro y minipuerta en cada esquina (propuesta). Dos equipos de 5: 4 fuera y 1 dentro del cuadrado, que no sale (propuesta).",
+ "juego": "El equipo con balón busca pasar a su compañero del cuadrado y recibir su devolución; le marca el rival de dentro. Si roba quien defiende, tiene 6″ para marcar en una minipuerta.",
+ "punto": "Pase dentro y devolución: 1 (fuente). Gol tras robo: 1.",
+ "consigna": "Pasa dentro y ve a por la devolución.",
+ "variantes": {
+  "facil": "El de dentro no tiene marcador (4 contra 4 + 1) (propuesta).",
+  "dificil": "La devolución tiene que ser a un toque y a un compañero distinto del que pasó (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): como está. Benjamín: cuadrado de 8 × 8 m y el de dentro sin marcador. Infantil: devolución a un toque (propuesta).",
+ "fuente": {
+  "autor": "@edf.futebol (Instagram)",
+  "titulo_original": "Entrar y salir del cuadrado entre líneas",
+  "ref": "https://www.instagram.com/edf.futebol/reel/DTslV4_kZ60/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, cuadrado central de 6 × 6 m, un jugador de cada equipo dentro, minipuertas en las esquinas, 6 segundos tras robo, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 26.6,
+   "ymin": -1.2,
+   "ymax": 21.2
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     9.5,
+     7,
+     15.5,
+     13
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    2,
+    "L"
+   ],
+   [
+    0,
+    18,
+    "L"
+   ],
+   [
+    25,
+    2,
+    "R"
+   ],
+   [
+    25,
+    18,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 2.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 17.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 11.2,
+    "y": 11.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 3.2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14.2,
+    "y": 8.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     11.2,
+     11.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     7,
+     13.2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     11.2,
+     11.4
+    ],
+    "b": [
+     7.4,
+     13.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "labels": []
+ }
+}

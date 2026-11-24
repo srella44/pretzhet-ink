@@ -1,0 +1,226 @@
+{
+ "id": "LU-P097",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tres carriles y miniporterías",
+ "formato": "7v7+3",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "17 jug.",
+ "espacio": "40 × 50 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1′ de pausa (propuesta); los comodines exteriores pueden ser los porteros.",
+ "objetivo": "Atacar con amplitud ocupando los tres carriles y progresar aprovechando los comodines; defender juntos en el carril del balón y el de al lado (fuente). Cómo explicarlo: «con balón, ancho; sin balón, todos al lado del balón». Errores típicos: dos atacantes en el mismo carril; defensores que se quedan en el carril lejano; cambiar de orientación tarde. Qué observar: el cambio de carril rápido cuando el rival bascula.",
+ "montaje": "40 × 50 m en 3 carriles a lo largo y 2 miniporterías en cada fondo (propuesta). Dos equipos de 7. Comodines: uno fuera de cada fondo (o porteros) y uno dentro (propuesta).",
+ "juego": "Empieza un comodín exterior. El equipo con balón ocupa los 3 carriles y ataca las miniporterías rivales; el que defiende solo pisa el carril del balón y el de al lado. Fuera: reinicia el comodín de su fondo.",
+ "punto": "Gol en miniportería: 1 punto (propuesta).",
+ "consigna": "Con balón, ancho; sin balón, junto al balón.",
+ "variantes": {
+  "facil": "Defensores obligados a ocupar solo el carril del balón (propuesta).",
+  "dificil": "Cambiar las miniporterías por una línea de fondo que hay que cruzar conduciendo (fuente)."
+ },
+ "adaptacion": "Infantil (12–13): 5 contra 5 + 3 en 32 × 40 m. Cadete y juvenil: como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN 7 vs 7 + 3 (DFC - LAT / EXT - MC - DLC)",
+  "ref": "300 ejercicios Level Up Coach · p. 97 (tarea 96)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de miniporterías, colocación de los 3 comodines (dos exteriores y uno dentro), puntos, series y adaptación (propuesta). Diagrama simplificado.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -1.5,
+   "ymax": 41.5
+  },
+  "lines": [
+   [
+    [
+     0,
+     13.3
+    ],
+    [
+     50,
+     13.3
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     26.7
+    ],
+    [
+     50,
+     26.7
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    32,
+    "L"
+   ],
+   [
+    50,
+    8,
+    "R"
+   ],
+   [
+    50,
+    32,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -2,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 52,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -2,
+     20
+    ],
+    "b": [
+     9,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9,
+     6
+    ],
+    "b": [
+     17,
+     15
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17,
+     15
+    ],
+    "b": [
+     35,
+     33
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     35,
+     33
+    ],
+    "b": [
+     49,
+     32
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

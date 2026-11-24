@@ -1,0 +1,202 @@
+{
+ "id": "LU-P042",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Nueve contra cinco y cambio",
+ "formato": "5v5+4+4",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "18 jug.",
+ "espacio": "24 × 36 m",
+ "duracion": "22 min",
+ "series": "4 bloques de 4 minutos con 1′30″ de pausa (propuesta). En la pausa, el entrenador cambia a 2 jugadores de dentro por 2 de fuera de cada equipo para que todos pasen por los dos papeles.",
+ "objetivo": "Conservar el balón creando superioridad con los compañeros de fuera y ocupar enseguida el sitio libre tras el intercambio (fuente). Cómo explicarlo: «fuera hay cuatro amigos tuyos; úsalos y entra a ayudar». Errores típicos: el que pasa fuera se queda dentro (debe salir al puesto); los de dentro se juntan junto al balón; pases flojos al exterior que el rival corta. Qué observar: si el que recibe dentro está perfilado para jugar hacia el lado contrario y si el que sale lo hace rápido.",
+ "montaje": "24 × 36 m. Dos equipos de 9: 5 dentro y 4 fuera. En cada lado, un exterior de cada equipo en su mitad (propuesta).",
+ "juego": "El equipo con balón usa a sus 4 exteriores: 9 contra 5. Quien pasa fuera cambia el puesto con el exterior. Los de fuera no se pasan entre ellos; 2 toques (propuesta). Robo o fuera: balón al otro equipo.",
+ "punto": "12 pases seguidos: 1 punto (fuente). Gana quien más sume en 4′ (propuesta).",
+ "consigna": "Pasa fuera y cambia el sitio.",
+ "variantes": {
+  "facil": "8 pases para el punto y exteriores con toques libres (propuesta).",
+  "dificil": "Dentro a 2 toques y exteriores a 1; el punto solo cuenta si han tocado el balón exteriores de dos lados distintos (propuesta)."
+ },
+ "adaptacion": "Cadete y juvenil: como la fuente. Infantil (12–13): equipos de 7 (4 dentro y 3 fuera, uno por lado menos el de un fondo) en 20 × 30 m y 10 pases (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSESIÓN (2 equipos de 9)",
+  "ref": "300 ejercicios Level Up Coach · p. 42 (tarea 41)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Reparto de los exteriores (uno de cada equipo por lado, cada uno en su mitad), 2 toques fuera, puntuación por tiempo, series y adaptación (propuesta). Diagrama simplificado: no salen los exteriores del equipo que defiende ni todos los de dentro.",
+ "diagrama": {
+  "field": [
+   36,
+   24
+  ],
+  "extent": {
+   "xmin": -3.6,
+   "xmax": 39.6,
+   "ymin": -3.4,
+   "ymax": 27.4
+  },
+  "lines": [
+   [
+    [
+     18,
+     -2.6
+    ],
+    [
+     18,
+     -0.4
+    ],
+    "3 3"
+   ],
+   [
+    [
+     18,
+     24.4
+    ],
+    [
+     18,
+     26.6
+    ],
+    "3 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 25.6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37.6,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     -1.6,
+     18
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     -0.6,
+     12
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     -1.6,
+     18
+    ],
+    "b": [
+     6,
+     21.5
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    18.6,
+    27,
+    "1 EXTERIOR POR TRAMO",
+    "start"
+   ]
+  ]
+ }
+}

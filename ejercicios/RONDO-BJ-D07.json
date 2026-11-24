@@ -1,0 +1,131 @@
+{
+ "id": "RONDO-BJ-D07",
+ "bloque": "Superioridades",
+ "titulo": "Cuatro contra dos",
+ "formato": "4v2",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "15 min",
+ "series": "5 rondas de 2′30″ con 30″ de pausa; si nadie falla en una ronda, el míster cambia a los dos de dentro (propuesta).",
+ "objetivo": "Pasar en superioridad buscando el pase que atraviesa a los dos de dentro y moverse por la línea para abrir ese pase. Cómo explicarlo: «si no hay hueco, muévete por tu lado hasta que lo haya». Errores típicos: pasar siempre al de al lado (no se arriesga nunca); quedarse quieto en el centro del lado; pase flojo que los de dentro tocan. Qué observar: si el que va a recibir se mueve antes y si los de dentro se reparten (uno presiona, otro tapa el centro).",
+ "montaje": "Cuadrado de 12 × 12 m (propuesta) en un espacio de 20 × 20 m. Cuatro fuera, uno por lado, que se mueven por su lado. Dos dentro.",
+ "juego": "Los de fuera se pasan el balón. Si uno de dentro lo toca, cambia con el que falló el pase. Los de fuera no entran al cuadrado (propuesta).",
+ "punto": "1 por cada pase que cruza el cuadrado (fuente).",
+ "consigna": "Muévete por tu lado y cruza el pase.",
+ "variantes": {
+  "facil": "Cuadrado más grande (fuente): 15 × 15 m (propuesta).",
+  "dificil": "Los de fuera pueden entrar a recibir (fuente). Otros días: el pase que cruza vale 2, o los dos de dentro van de la mano (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): como está. Prebenjamín: 4 contra 1 en 12 × 12 m. Alevín: dos toques fuera y cuadrado de 10 × 10 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Cuatro contra dos (BJ-D07)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 12"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida del cuadrado (12 × 12 m), un jugador por lado que se mueve por su línea, prohibido entrar al cuadrado, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "dashed": true,
+  "tag": "cuadrado 12 × 12 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 15,
+   "ymin": -3,
+   "ymax": 15
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": -1.8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 13.8,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 13.8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 3.8,
+    "y": 3.2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8.6,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.8,
+     6
+    ],
+    "b": [
+     6,
+     -1.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6,
+     -1.8
+    ],
+    "b": [
+     6,
+     13.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13.8,
+     6
+    ],
+    "b": [
+     13.8,
+     10
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": []
+ }
+}

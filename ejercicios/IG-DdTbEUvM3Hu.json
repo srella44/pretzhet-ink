@@ -1,0 +1,197 @@
+{
+ "id": "IG-DdTbEUvM3Hu",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Un punto fuera o tres dentro",
+ "formato": "4v4+3",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "13 jug.",
+ "espacio": "25 × 35 m",
+ "duracion": "18 min",
+ "series": "4 partes de 3′30″ con 1′ de pausa; en cada pausa los comodines entran por 3 jugadores de campo (propuesta).",
+ "objetivo": "Decidir dónde rematar: la minipuerta es fácil y da poco; la portería grande es difícil y da mucho (fuente). Obliga a mirar al portero y a los defensores antes de elegir. Cómo explicarlo: «¿uno fácil o tres valientes?». Errores típicos: tirar siempre a la minipuerta; buscar la portería grande sin ventaja; olvidar los cinco pases. Qué observar: si cuentan los pases en voz alta y si usan a los apoyos de banda para girar el juego.",
+ "montaje": "25 × 35 m. En cada fondo, portería de F7 con portero en el centro y 2 minipuertas en las esquinas (propuesta). Dos equipos de 4. Tres comodines: uno en cada banda y uno dentro (propuesta).",
+ "juego": "4 contra 4 con comodines para el que tiene el balón. Con 5 pases seguidos se puede rematar en el fondo rival. Apoyos de banda a 1 o 2 toques. Tras gol o fuera, saca el portero que no marcó.",
+ "punto": "Minipuerta: 1 punto. Portería grande: 3 puntos (fuente).",
+ "consigna": "¿Uno fácil o tres valientes?",
+ "variantes": {
+  "facil": "3 pases para poder rematar y apoyos con toques libres (propuesta).",
+  "dificil": "Apoyos de banda a 1 toque y gol en la portería grande solo tras pase de un comodín (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): como está. Benjamín: 3 contra 3 + 3 en 20 × 30 m y 3 pases. Infantil: apoyos a 1 toque (propuesta).",
+ "fuente": {
+  "autor": "@labofsoms (Instagram)",
+  "titulo_original": "¿Un punto fuera o tres por dentro?",
+  "ref": "https://www.instagram.com/labofsoms/reel/DdTbEUvM3Hu/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Situación de las minipuertas (esquinas de cada fondo) y de la portería grande con portero, tercer comodín dentro, reanudación, series y adaptación (propuesta). Edad 10–11 años (la base proponía U11).",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 36.6,
+   "ymin": -2.4,
+   "ymax": 27.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 35,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    3,
+    "L"
+   ],
+   [
+    0,
+    22,
+    "L"
+   ],
+   [
+    35,
+    3,
+    "R"
+   ],
+   [
+    35,
+    22,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": 26.4,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     17.5,
+     -1.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17.5,
+     -1.4
+    ],
+    "b": [
+     23,
+     6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     23,
+     6
+    ],
+    "b": [
+     34.5,
+     4.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": []
+ }
+}

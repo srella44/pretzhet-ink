@@ -1,0 +1,176 @@
+{
+ "id": "RONDO-BJ-F05",
+ "bloque": "Superioridades",
+ "titulo": "Dos contra uno en el castillo",
+ "formato": "2v1",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "5–8 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "Rondas de 4 parejas por guardián; cambia el guardián al acabar cada ronda (propuesta). Unas 6 rondas en 15 minutos.",
+ "objetivo": "Atacar en 2 contra 1 esperando el momento justo para pasar: llevar el balón hacia el guardián y soltarlo cuando se compromete (fuente: «Has esperado el momento justo»). Cómo explicarlo: «llévalo hasta él; cuando venga, pasa». Errores típicos: pasar desde lejos sin fijar; los dos atacantes juntos; el guardián que se tira al suelo. Qué observar: la distancia entre los dos atacantes (3–4 m) y si el que no lleva balón se adelanta un poco.",
+ "montaje": "20 × 20 m con miniportería en un fondo y el guardián delante. Línea de conos a 12 m de la portería (propuesta). Parejas atacantes con balón en el otro fondo.",
+ "juego": "Sale una pareja: 2 contra 1 contra el guardián. Si el guardián roba, sale conduciendo más allá de los conos. Luego, otra pareja. Cada 4 parejas cambia el guardián (propuesta).",
+ "punto": "Gol: 1 a la pareja. Guardián que sale: 1 a él (fuente).",
+ "consigna": "Llévalo hasta él y pasa a tiempo.",
+ "variantes": {
+  "facil": "El guardián sale desde más lejos (fuente).",
+  "dificil": "El gol vale doble si llega tras un pase (fuente). Otros días: 2 contra 2, o la jugada en 8″ (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): como está. Prebenjamín: guardián que solo puede tapar, sin robar (propuesta). Alevín: 8″ para acabar (fuente, variante del día).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Dos contra uno en el castillo (BJ-F05)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancia de la línea de conos (12 m), cambio de guardián cada 4 parejas, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 23.2,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ]
+  ],
+  "cones": [
+   [
+    12,
+    1
+   ],
+   [
+    12,
+    5.5
+   ],
+   [
+    12,
+    10
+   ],
+   [
+    12,
+    14.5
+   ],
+   [
+    12,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 4.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 7,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.8,
+    "y": 5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 21.8,
+    "y": 8.5,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     7
+    ],
+    "b": [
+     8.5,
+     8.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     18,
+     13.5
+    ],
+    "b": [
+     8,
+     14
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     8.2,
+     8.8
+    ],
+    "b": [
+     7.8,
+     13.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     7.5,
+     14
+    ],
+    "b": [
+     0.6,
+     11
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    12.6,
+    3.3,
+    "LÍNEA",
+    "start"
+   ]
+  ]
+ }
+}

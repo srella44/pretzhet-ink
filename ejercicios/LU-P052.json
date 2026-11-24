@@ -1,0 +1,205 @@
+{
+ "id": "LU-P052",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Banda, centro y remate",
+ "formato": "3v3+2 · 2v2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "13 jug.",
+ "espacio": "40 × 50 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1′ de pausa (propuesta). Cada serie se cambia de banda (izquierda y derecha) y los rematadores pasan a la banda.",
+ "objetivo": "Asociarse en el carril lateral para sacar a un compañero libre junto al área y centrar; en el área, atacar el centro con dos rematadores (fuente). Cómo explicarlo: «dos o tres pases para atraer y uno que sale a centrar». Errores típicos: salir a centrar sin haber dado los pases; centro sin mirar a los rematadores; rematadores que llegan juntos al mismo palo. Qué observar: que uno ataque el primer palo y el otro el segundo, y que el centrador levante la cabeza antes de golpear.",
+ "montaje": "Media cancha de 40 × 50 m con portero. En la banda, un rectángulo de 12 × 18 m (propuesta): 3 contra 3 y 2 comodines en sus lados. En el área, 2 rematadores y 2 defensores.",
+ "juego": "Empieza un comodín (1 toque). Tras 2–3 pases, un atacante sale conduciendo o recibe fuera, junto al área, y centra. Si los defensores roban, buscan 5 pases con los comodines.",
+ "punto": "Gol tras centro: 1. Robo y 5 pases: 1 (fuente).",
+ "consigna": "Atrae dentro y sal a centrar.",
+ "variantes": {
+  "facil": "Rematadores 2 contra 1 en el área y comodines a 2 toques (propuesta).",
+  "dificil": "El centro tiene que ser al primer toque tras recibir fuera; gol de cabeza o volea vale 2 (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): campo de 35 × 40 m y centro con el pie bueno libre. Cadete: como la fuente. Alevín: 2 contra 2 en el rectángulo y gol de cualquier forma (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN en Banda + Centro y remate - Asociaciones en carril lateral",
+  "ref": "300 ejercicios Level Up Coach · p. 52 (tarea 51)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas del rectángulo (12 × 18 m), reparto 3 contra 3 + 2 comodines y portero, series, variantes y adaptación (propuesta). Edad ajustada a 12–15 años (centros y remates). La fuente remite a un gráfico que no está en el texto. Diagrama: solo la banda y el área (la media cancha no se dibuja entera) y menos jugadores en el rectángulo para que se lea.",
+ "diagrama": {
+  "field": [
+   26,
+   22
+  ],
+  "tag": "banda y área (detalle)",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 27.5,
+   "ymin": -2,
+   "ymax": 23.6
+  },
+  "porterias": [
+   {
+    "x": 17,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     10
+    ]
+   ],
+   [
+    [
+     8,
+     10
+    ],
+    [
+     26,
+     10
+    ]
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     9,
+     8,
+     22
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 20,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 13.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 12.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5.8,
+    "y": 18,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 9.8,
+    "y": 18.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 7.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 3.6,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 22.5,
+    "y": 4.2,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     20
+    ],
+    "b": [
+     6.5,
+     13.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6.5,
+     13.5
+    ],
+    "b": [
+     2.3,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     1.6,
+     12.5
+    ],
+    "b": [
+     1.8,
+     6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     2.6,
+     5
+    ],
+    "b": [
+     13,
+     7.2
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "IG-DbYhqpKo2qH",
+ "bloque": "Superioridades",
+ "titulo": "2v2 con pared en los fondos",
+ "formato": "2v2+2",
+ "edad": "8–9 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "14 min",
+ "series": "5 rondas de 2 minutos con 40″ de pausa; tras cada ronda, una pareja pasa a hacer de apoyos (propuesta).",
+ "objetivo": "Usar al apoyo del fondo para pasar de 2 contra 2 a 3 contra 2 y liberar al compañero (fuente). Observar cuándo conviene apoyar al pie y cuándo llegar por detrás del rival (fuente). Cómo explicarlo: «pásala al de fondo y corre por detrás». Errores típicos: pasar al apoyo y quedarse quieto; los dos atacantes en la misma línea; tirar desde lejos sin ventaja. Qué observar: el desmarque del compañero a la espalda del defensor justo cuando sale el pase al apoyo.",
+ "montaje": "20 × 15 m con una minipuerta en el centro de cada fondo. Un apoyo neutral en cada fondo, junto a la minipuerta, que se mueve por su línea (propuesta). Dos parejas dentro.",
+ "juego": "2 contra 2. El poseedor puede pasar al apoyo del fondo que ataca (1 toque, no marca) para que la devuelva a él o al compañero que llega por detrás del rival. Tras gol o fuera, saca la otra pareja.",
+ "punto": "Gol: 1. Gol tras devolución del apoyo: 2 (propuesta).",
+ "consigna": "Pásala al fondo y corre por detrás.",
+ "variantes": {
+  "facil": "Apoyos con 2 toques; los apoyos también pueden jugar entre sí (propuesta).",
+  "dificil": "Solo vale el gol tras usar al apoyo y a un toque (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): como está. Alevín: 25 × 18 m y gol solo a un toque tras la devolución. Prebenjamín: sin apoyos los primeros minutos y luego con ellos (propuesta).",
+ "fuente": {
+  "autor": "@finalthird.pro (Instagram)",
+  "titulo_original": "Dos contra dos con pared en los fondos",
+  "ref": "https://www.instagram.com/finalthird.pro/reel/DbYhqpKo2qH/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas (20 × 15 m), apoyos neutrales a 1 toque que no marcan, reanudación, puntos, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 22.6,
+   "ymin": -1,
+   "ymax": 16
+  },
+  "goals": [
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    20,
+    7.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21.4,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     4
+    ],
+    "b": [
+     21.4,
+     11.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6.5,
+     11
+    ],
+    "b": [
+     15.5,
+     13.2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     21.4,
+     11.5
+    ],
+    "b": [
+     16,
+     13.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "labels": []
+ }
+}

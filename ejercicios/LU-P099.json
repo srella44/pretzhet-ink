@@ -1,0 +1,184 @@
+{
+ "id": "LU-P099",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Extremos que cambian de lado",
+ "formato": "6v6+3",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug.",
+ "espacio": "30 × 36 m",
+ "duracion": "18 min",
+ "series": "4 series de 3′30″ con 1′ de pausa; los comodines rotan con un equipo cada serie (propuesta).",
+ "objetivo": "Conservar con amplitud y profundidad apoyándose en los comodines, que hacen de extremos del equipo con balón (fuente). Al cambiar la posesión, los laterales del que defiende se cierran dentro y los del que ataca se abren. Cómo explicarlo: «con balón, laterales abiertos; sin balón, dentro». Errores típicos: laterales que no se abren tras recuperar; extremos que tardan en cambiar de lado. Qué observar: velocidad del reajuste tras cada robo.",
+ "montaje": "30 × 36 m. Dos equipos de 6 (centrales, laterales, medio e interior, delantero). Tres comodines: dos extremos en las bandas de la mitad que ataca el equipo con balón y uno dentro (propuesta).",
+ "juego": "Un equipo conserva con los comodines. Al cambiar la posesión, los extremos se pasan a la otra mitad, los laterales del que defiende se cierran dentro y los del que ataca se abren a la banda.",
+ "punto": "16 pases sin que robe el rival: 1 punto (fuente).",
+ "consigna": "Con balón, abiertos; sin balón, dentro.",
+ "variantes": {
+  "facil": "12 pases para el punto y comodines a toques libres (propuesta).",
+  "dificil": "Dos toques para todos; el pase al extremo debe llegar desde el lateral o el interior (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 5 contra 5 + 3 en 28 × 32 m y 12 pases. Cadete y juvenil: como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN 6vs6+3 (DFC - LAT - MC / INT - DLC)",
+  "ref": "300 ejercicios Level Up Coach · p. 99 (tarea 98)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente dice que los comodines son extremos que cambian de lado según la posesión; reparto de los 3 (dos extremos y uno dentro), series y adaptación (propuesta). Diagrama simplificado.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 37.5,
+   "ymin": -2.4,
+   "ymax": 32.4
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 27,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 31.4,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 20.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     11
+    ],
+    "b": [
+     11,
+     3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     3
+    ],
+    "b": [
+     27,
+     -1.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     27,
+     -1.4
+    ],
+    "b": [
+     25,
+     15
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

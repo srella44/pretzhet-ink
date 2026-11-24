@@ -1,0 +1,188 @@
+{
+ "id": "LU-P077",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Filtrar al interior",
+ "formato": "4v4+6",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug.",
+ "espacio": "26 × 26 m",
+ "duracion": "18 min",
+ "series": "4 series de 3′30″ con 1′ de pausa; los comodines rotan con un equipo cada serie (propuesta).",
+ "objetivo": "Mover el balón por fuera para atraer y abrir un hueco entre dos rivales por el que filtrar el pase a los comodines del centro (fuente). Cómo explicarlo: «muévelo fuera hasta que se abra la puerta y pasa por dentro». Errores típicos: filtrar sin hueco (pase cortado); mover el balón lento y sin intención; los comodines del centro escondidos detrás de un rival. Qué observar: pase tenso y raso entre dos defensores y control orientado del comodín para devolver hacia fuera.",
+ "montaje": "26 × 26 m con un cuadrado central de 8 × 8 m (propuesta). Dos equipos de 4. Seis comodines: uno en cada vértice y dos dentro del cuadrado.",
+ "juego": "Un equipo conserva con los comodines y busca filtrar entre dos rivales un pase a un comodín del centro. Comodines a 2 toques; los del centro no salen. Se roba a cualquiera. Robo: cambio de papeles.",
+ "punto": "Pase filtrado que recibe un comodín central: 1 (fuente).",
+ "consigna": "Muévelo fuera y pasa por dentro.",
+ "variantes": {
+  "facil": "Cuadrado central de 10 × 10 m y comodines a 3 toques (propuesta).",
+  "dificil": "El punto solo vale si el comodín del centro devuelve a un toque a un compañero (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 24 × 24 m y comodines del centro libres de toques. Cadete y juvenil: como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSESIÓN - Filtrar Pase - Mover para atraer - Conectar con intermedios",
+  "ref": "300 ejercicios Level Up Coach · p. 77 (tarea 76)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida del cuadrado central (8 × 8 m), series, variantes y adaptación (propuesta). La fuente remite a un gráfico que no está en el texto: colocación según la descripción.",
+ "diagrama": {
+  "field": [
+   26,
+   26
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 28.4,
+   "ymin": -2.4,
+   "ymax": 28.4
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     9,
+     9,
+     17,
+     17
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -1,
+    "y": -1,
+    "f": 45
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": -1,
+    "f": 135
+   },
+   {
+    "r": "C",
+    "x": -1,
+    "y": 27,
+    "f": -45
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 27,
+    "f": -135
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 22.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 13.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     21,
+     4
+    ],
+    "b": [
+     6,
+     3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6,
+     3
+    ],
+    "b": [
+     11,
+     12.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     12.5
+    ],
+    "b": [
+     20.5,
+     22.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

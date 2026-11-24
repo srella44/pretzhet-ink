@@ -1,0 +1,165 @@
+{
+ "id": "LU-P094",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Medios entre dos orillas",
+ "formato": "3v3+6",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "22 × 30 m",
+ "duracion": "16 min",
+ "series": "4 series de 3 minutos con 1′ de pausa; los comodines cambian con un equipo cada serie (propuesta).",
+ "objetivo": "Que los medios e interiores reciban en ventaja (tiempo, espacio y orientación) para conectar los dos grupos de comodines (fuente). El defensor puede saltar a robar al comodín, pero deja igualdad dentro. Cómo explicarlo: «recibe de lado y gira hacia la otra orilla». Errores típicos: recibir de espaldas; los tres a la misma altura; devolver siempre al comodín que pasó. Qué observar: desmarque antes del pase y control orientado.",
+ "montaje": "22 × 30 m. Dos equipos de 3 (medios e interiores) dentro. Seis comodines: tres en cada fondo, en los vértices y en el centro (propuesta).",
+ "juego": "Un comodín empieza. Hay que llevar el balón de un grupo de comodines al otro. Comodines a 2 toques, sin jugar con los del otro fondo; se les puede robar. Pérdida: cambio de papeles.",
+ "punto": "Balón de una orilla a la otra: 1 punto (propuesta).",
+ "consigna": "Recibe de lado y gira a la otra orilla.",
+ "variantes": {
+  "facil": "Comodines a 3 toques y defensores que no salen a robarles (propuesta).",
+  "dificil": "Dentro a 2 toques; el punto solo vale si el balón pasa por los tres de dentro (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 24 × 30 m. Cadete: como la fuente. Alevín: 2 comodines por fondo y toques libres (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN 3 vs 3 + 6 (MC - INT)",
+  "ref": "300 ejercicios Level Up Coach · p. 94 (tarea 93)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de los 3 comodines por fondo, puntuación (la fuente no da puntos), series, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 32.6,
+   "ymin": -1.4,
+   "ymax": 23.4
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 31.4,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 31.4,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 31.4,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.4,
+     11
+    ],
+    "b": [
+     8,
+     7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     7
+    ],
+    "b": [
+     15,
+     15
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15,
+     15
+    ],
+    "b": [
+     31.4,
+     20
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

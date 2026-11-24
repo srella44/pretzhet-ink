@@ -1,0 +1,181 @@
+{
+ "id": "LEI-040",
+ "bloque": "Superioridades",
+ "titulo": "Uno contra uno que se hace dos",
+ "formato": "1v1 → 2v1",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8 jug.",
+ "espacio": "28 × 15 m",
+ "duracion": "15 min",
+ "series": "Jugadas de 20–30″; cada uno juega unas 6 veces en el centro (propuesta). Pausa de 1′ a mitad.",
+ "objetivo": "Encarar al defensor sin miedo y encontrar al compañero de la zona final; aprender a ofrecerse moviéndose a lo ancho (fuente). Con la progresión, usar al de atrás para jugar hacia atrás y salir del 1 contra 1. Errores típicos: dar la espalda al defensor; pase flojo o anunciado; el receptor quieto. Consignas de la fuente: sé valiente y encara; deséquilíbralo con pies rápidos; relájate en el pase; llega rápido al balón y frena.",
+ "montaje": "28 × 15 m con zona final de 4 m en cada fondo (propuesta). Dos equipos de 4: uno de cada equipo en cada zona y dos en el centro. Míster en la banda con balones.",
+ "juego": "El míster mete el balón: 1 contra 1 en el centro. Cada uno busca a su compañero de la zona que ataca, que se mueve a lo ancho. Después, los del centro pasan a las zonas y salen otros dos.",
+ "punto": "Pase recibido en la zona final: 1 punto (propuesta).",
+ "consigna": "Encara, levanta la cabeza y pasa.",
+ "variantes": {
+  "facil": "El receptor puede entrar 2 m en el campo (propuesta).",
+  "dificil": "Progresión de la fuente: el compañero de la zona de atrás sirve de apoyo y se puede jugar hacia atrás (2 contra 1). Más exigente: superar al defensor con un regate antes de pasar (propuesta)."
+ },
+ "adaptacion": "Benjamín: 24 × 12 m. Alevín e infantil: como está. Cadete: el receptor debe recibir y girar dentro de la zona sin que entre el defensor (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "1v1 leading to 2v1",
+  "ref": "LeicesterCity.pdf · p. 44"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ancho de las zonas finales (4 m), reparto de los 8 jugadores, puntos, series y variantes (propuesta). Texto traducido y redactado con palabras propias.",
+ "diagrama": {
+  "field": [
+   28,
+   15
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 29.4,
+   "ymin": -2.8,
+   "ymax": 16
+  },
+  "lines": [
+   [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 11.5,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    14,
+    -1.4
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     -1.2
+    ],
+    "b": [
+     12.2,
+     8.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     12,
+     9
+    ],
+    "b": [
+     18,
+     12
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     26,
+     4
+    ],
+    "b": [
+     26,
+     9
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     18.4,
+     12
+    ],
+    "b": [
+     25.6,
+     9.2
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    14.6,
+    -1.6,
+    "MÍSTER",
+    "start"
+   ]
+  ]
+ }
+}

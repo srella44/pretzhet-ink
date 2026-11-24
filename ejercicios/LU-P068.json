@@ -1,0 +1,183 @@
+{
+ "id": "LU-P068",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tercer hombre por franjas",
+ "formato": "4v4+3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "20 × 28 m",
+ "duracion": "18 min",
+ "series": "4 series de 3′30″ con 1′ de pausa (propuesta); en la pausa, los comodines pasan a un equipo y entran otros 3.",
+ "objetivo": "Hacer circular el balón de una franja a otra usando al tercer hombre: paso al comodín para que descargue en un compañero, o paso a un compañero lejano para que descargue en un comodín (fuente). Cómo explicarlo: «si no te llega directo, que llegue por otro». Errores típicos: cerrarse hacia el balón y perder la amplitud; tercer hombre parado esperando el pase; tres toques. Qué observar: cuerpo abierto al recibir y si el tercero se mueve antes de que salga el primer pase.",
+ "montaje": "20 × 28 m en 3 franjas de 9 m (propuesta). Dos equipos de 4 y 3 comodines: uno en la franja central y uno en cada banda de esa franja (propuesta).",
+ "juego": "Máximo 2 toques. Se pasa de franja a franja con el tercer hombre: paso al comodín y descarga en un compañero, o paso a uno lejano y descarga en el comodín. Pérdida o fuera: cambio de papeles.",
+ "punto": "10 pases: 1 (fuente). Con tercer hombre: +1 (propuesta).",
+ "consigna": "Si no llega directo, que llegue por otro.",
+ "variantes": {
+  "facil": "Comodines a 3 toques y 8 pases para el punto (propuesta).",
+  "dificil": "Un toque para el tercer hombre; solo puntúa el pase que salta una franja entera (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 22 × 30 m y punto con 8 pases. Cadete: como la fuente. Rondo por puestos (fuente): centrales y mediocentros en los equipos, mediocentro y laterales de comodines.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN - Circulación de balón - Concepto 3º hombre",
+  "ref": "300 ejercicios Level Up Coach · p. 68 (tarea 67)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número y anchura de las franjas, colocación de los 3 comodines (uno dentro y dos en las bandas de la franja central), punto extra por tercer hombre, series y adaptación (propuesta). La fuente remite a un gráfico que no está en el texto.",
+ "diagrama": {
+  "field": [
+   28,
+   20
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 29.4,
+   "ymin": -2.4,
+   "ymax": 22.4
+  },
+  "lines": [
+   [
+    [
+     9.3,
+     0
+    ],
+    [
+     9.3,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     18.7,
+     0
+    ],
+    [
+     18.7,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 21.4,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     14,
+     9.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     14,
+     9.5
+    ],
+    "b": [
+     25,
+     16.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     25,
+     16.5
+    ],
+    "b": [
+     25,
+     3.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

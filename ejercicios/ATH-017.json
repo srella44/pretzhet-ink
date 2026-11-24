@@ -1,0 +1,183 @@
+{
+ "id": "ATH-017",
+ "bloque": "Superioridades",
+ "titulo": "Cuatro miniporterías con uno más",
+ "formato": "5v4 / 4v3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–10 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "18 min",
+ "series": "4 partes de 3′30″ con 1′ de pausa; en cada parte juega en inferioridad un equipo distinto (propuesta).",
+ "objetivo": "Atacar con un jugador más sabiendo aprovecharlo (abrir el campo, buscar al libre) y defender con uno menos con mucho compromiso y concentración: juntarse, cerrar el centro y bascular hacia el balón (fuente). Cómo explicarlo: «con uno más, ancho y rápido; con uno menos, juntos y al balón». Errores típicos: el equipo grande juega lento y por el centro; el pequeño sale a presionar cada uno por su cuenta. Qué observar: dónde aparece el hombre libre y si el que defiende cierra la miniportería del lado del balón.",
+ "montaje": "30 × 25 m con 2 miniporterías en cada fondo, cerca de las esquinas (propuesta). Dos equipos de 5; el que juega con uno menos deja a uno fuera.",
+ "juego": "5 contra 4 (o 4 contra 3). Cada equipo ataca las 2 miniporterías rivales. Tras gol, saca de su fondo quien lo recibió. Cada parte cambia el equipo que juega con uno menos (propuesta).",
+ "punto": "Gol: 1. Gol del equipo con uno menos: 2 (propuesta).",
+ "consigna": "Con uno más, ancho; con uno menos, juntos.",
+ "variantes": {
+  "facil": "6 contra 4 para el equipo que ataca (propuesta).",
+  "dificil": "El equipo con uno más juega a 2 toques; el de uno menos marca doble tras robo en campo rival (propuesta)."
+ },
+ "adaptacion": "Alevín: 4 contra 3 en 25 × 20 m. Infantil: 5 contra 4 en 30 × 25 m. Cadete: 6 contra 5 en 40 × 30 m (propuesta).",
+ "fuente": {
+  "autor": "Athletic Club · Manual de ejercicios (Lezama 2005)",
+  "titulo_original": "P. 4 P.P. SUPERIORIDAD (4/ 4 - 5/ 5)",
+  "ref": "Manual de ejercicios Athletic Club · p. 28"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "El texto de la fuente llega cortado y no hay PDF en el repositorio: medidas, colocación de las miniporterías, cómo se crea la inferioridad, rotación, puntos y series son propuesta (siguiendo los partidos de 4 miniporterías del mismo manual).",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 31.4,
+   "ymin": -1,
+   "ymax": 27.6
+  },
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    20,
+    "L"
+   ],
+   [
+    30,
+    5,
+    "R"
+   ],
+   [
+    30,
+    20,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 26.6,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     12.5
+    ],
+    "b": [
+     12,
+     21
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     21
+    ],
+    "b": [
+     22,
+     19
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     22,
+     19
+    ],
+    "b": [
+     29.4,
+     20
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    14.8,
+    26.6,
+    "ESPERA FUERA",
+    "start"
+   ]
+  ]
+ }
+}

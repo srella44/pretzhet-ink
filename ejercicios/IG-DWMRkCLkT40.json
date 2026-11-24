@@ -1,0 +1,187 @@
+{
+ "id": "IG-DWMRkCLkT40",
+ "bloque": "Superioridades",
+ "titulo": "El duelo que da refuerzos",
+ "formato": "2v2 → 4v2",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "15 min",
+ "series": "3 series de 5 jugadas con 1′ de pausa; tras cada jugada los duelistas pasan a refuerzos y los refuerzos a la fila de duelistas (propuesta).",
+ "objetivo": "Ganar el duelo tras una entrada coordinativa y, en cuanto se gana, aprovechar el 4 contra 2 antes de que la defensa se ordene (fuente). Cómo explicarlo: «gana el balón y acaba rápido: ahora sois cuatro». Errores típicos: los refuerzos entran todos hacia el balón; conducir en vez de pasar al libre; la pareja que pierde se rinde. Qué observar: entrada de los refuerzos por fuera para abrir el campo y la reacción de la pareja que defiende (temporizar).",
+ "montaje": "30 × 20 m, 2 miniporterías por fondo (propuesta). Cada equipo: una pareja tras 4 aros en su fondo y 2 refuerzos en la banda, en el medio campo (propuesta). Míster en la otra banda.",
+ "juego": "Tras los aros, el míster mete el balón al centro: 2 contra 2. La pareja que lo gana llama a sus refuerzos: 4 contra 2 hacia las miniporterías rivales, con 10″ (propuesta). La que pierde defiende sola.",
+ "punto": "Gol: 1. Robo de la pareja que defiende: 2 (propuesta).",
+ "consigna": "Gana el balón y acaba rápido.",
+ "variantes": {
+  "facil": "Entran 3 refuerzos (5 contra 2) o 15″ para marcar (propuesta).",
+  "dificil": "Entra 1 refuerzo del equipo que pierde 3″ después: 4 contra 3 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): como está. Benjamín: entrada coordinativa sencilla (4 aros) y 15″. Infantil: 4 contra 3 con refuerzo defensor retrasado (propuesta).",
+ "fuente": {
+  "autor": "@edf.futebol (Instagram)",
+  "titulo_original": "El duelo de parejas decide quién recibe refuerzos",
+  "ref": "https://www.instagram.com/edf.futebol/reel/DWMRkCLkT40/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, porterías, tipo de entrada coordinativa, colocación de los refuerzos, tiempo para marcar, puntos, rotación y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 31.4,
+   "ymin": -2.8,
+   "ymax": 24.6
+  },
+  "goals": [
+   [
+    0,
+    4,
+    "L"
+   ],
+   [
+    0,
+    16,
+    "L"
+   ],
+   [
+    30,
+    4,
+    "R"
+   ],
+   [
+    30,
+    16,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16.5,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 21.6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 21.6,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": -1.6,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": -1.6,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     21.6
+    ],
+    "b": [
+     9,
+     16
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     19,
+     21.6
+    ],
+    "b": [
+     24,
+     16.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 3
+   },
+   {
+    "a": [
+     11,
+     5
+    ],
+    "b": [
+     12.6,
+     10
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     13.4,
+     10.8
+    ],
+    "b": [
+     23.6,
+     16
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    13,
+    23.8,
+    "REFUERZOS",
+    "middle"
+   ]
+  ]
+ }
+}
