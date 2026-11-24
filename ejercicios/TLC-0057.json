@@ -1,0 +1,174 @@
+{
+ "id": "TLC-0057",
+ "bloque": "Técnica y duelos",
+ "titulo": "Oleadas 3v3 con ventaja",
+ "formato": "3v3 con ventaja de 3 s",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "25 × 27 m",
+ "duracion": "10 min",
+ "series": "6 oleadas por trío (cambio de roles tras cada una), con 1 min de pausa cada 3 oleadas. En total, 3 vueltas de 3 oleadas.",
+ "objetivo": "Aprovechar una ventaja temporal con pases en carrera y finalizar rápido, mientras los defensores persiguen sin rendirse. Cómo explicarlo: conduce con la cabeza arriba, pasa en movimiento y remata antes de que lleguen; si defiendes, persigue sin parar. Errores típicos: pararse a pasar, rematar tarde y no presionar al que lleva el balón. Qué observar: pases a un toque y velocidad en la finalización.",
+ "montaje": "Campo de 25 × 27 m con 2 miniporterías de 3 m en el fondo. 3 conos a 5 m de la salida. Tríos atacante y defensor en la línea de salida, a 4 m.",
+ "juego": "El trío atacante sale con balón, pasándose en carrera y girando cada uno su cono. A los 3 s sale el defensor y persigue. Los atacantes finalizan en una miniportería. Luego se invierten los papeles.",
+ "punto": "Gol: 1 punto. Balón robado o fuera: 1 punto al defensor.",
+ "consigna": "Pasa en carrera y remata antes.",
+ "variantes": {
+  "facil": "Los defensores salen a los 5 s y las porterías son de 4 m.",
+  "dificil": "Salida a 2 s, 2 toques máximo y un defensor extra tras el primer pase."
+ },
+ "adaptacion": "Alevín (10–11): ventaja de 5 s y sin límite de toques. Infantil (12–13): como está. Cadete: 2 s y un defensor extra.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Arbeloa)",
+  "titulo_original": "ARBELOA DUELOS",
+  "ref": "toplidercoach.com/arbeloa-duelos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 3v3 en oleadas con picas y dos miniporterías; distancias entre trío, tiempo, puntos y series propuestos (propuesta). Edad adaptada de 13+ a 12–13. Bloque propuesto por el título (Técnica y duelos).",
+ "diagrama": {
+  "field": [
+   25,
+   27
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.8,
+   "ymax": 29
+  },
+  "goals": [],
+  "porterias": [
+   {
+    "x": 7,
+    "y": 0,
+    "lado": "T",
+    "ancho": 3,
+    "portero": false
+   },
+   {
+    "x": 18,
+    "y": 0,
+    "lado": "T",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    6,
+    17
+   ],
+   [
+    12.5,
+    17
+   ],
+   [
+    19,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 21.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 21.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 21.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 26.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 26.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 26.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     21.5
+    ],
+    "b": [
+     8.5,
+     15.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     14.8
+    ],
+    "b": [
+     13.5,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     13.5,
+     9
+    ],
+    "b": [
+     17,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     12.5,
+     26.5
+    ],
+    "b": [
+     13,
+     18.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 4
+   }
+  ]
+ }
+}

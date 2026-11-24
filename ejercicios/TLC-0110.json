@@ -1,0 +1,158 @@
+{
+ "id": "TLC-0110",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 con comodines",
+ "formato": "1v1 + 3 comodines por jugador",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "24 × 16 m",
+ "duracion": "12 min",
+ "series": "4 duelos de 2 min por pareja con 30 s de pausa. Se cambian los papeles de duelista y comodín, y los comodines rotan por parejas.",
+ "objetivo": "Mejorar el 1v1 con apoyos: usar a los comodines para atraer, soltar y acelerar; y defender con intensidad. Cómo explicarlo: pasa al comodín, pide la devolución y ataca en cuanto el defensor se mueva; defiende cerrando el pase y obliga a ir hacia fuera. Errores típicos: pasar sin intención, driblar sin apoyo y dejar el centro libre. Qué observar: lectura corporal del rival y cambio de ritmo.",
+ "montaje": "Rectángulo de 24 × 16 m con un 1v1 en el centro. Cada duelista tiene 3 comodines en su lado largo: amarillos arriba, azules abajo. Línea de gol: fondo derecho (2 conos).",
+ "juego": "El atacante pasa por 2 comodines (máx. 2 toques) y luego intenta superar al defensor y cruzar la línea conduciendo. Si el defensor roba, ataca solo o con sus comodines.",
+ "punto": "Cruzar la línea: 1 punto. Robo y pase a comodín: 1 punto.",
+ "consigna": "Apóyate, espera el momento y acelera.",
+ "variantes": {
+  "facil": "Pasar solo por 1 comodín, y que el defensor no pueda presionar hasta el primer pase.",
+  "dificil": "Pasar por 3 comodines, 1 toque de comodín y línea de gol de 6 m."
+ },
+ "adaptacion": "Alevín (10–11): 1 comodín obligado. Infantil (12–13): como está. Cadete: 3 comodines y 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nuno)",
+  "titulo_original": "NUNO, FÍSICO TÉCNICO, DUELOS",
+  "ref": "toplidercoach.com/nuno-fisico-tecnico-duelos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 1v1 con 3 comodines por jugador en el perímetro, con condiciones opcionales; campo reducido a 24 × 16 m, línea de gol, tiempos y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   24,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    23,
+    6
+   ],
+   [
+    23,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 1.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 1.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 1.2,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 14.8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 14.8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 14.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     8
+    ],
+    "b": [
+     12,
+     2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     1.2
+    ],
+    "b": [
+     10.4,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     9.6,
+     8.4
+    ],
+    "b": [
+     21,
+     10
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    4.2,
+    "GOL",
+    "middle"
+   ]
+  ]
+ }
+}

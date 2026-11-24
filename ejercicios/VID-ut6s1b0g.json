@@ -1,0 +1,213 @@
+{
+ "id": "VID-ut6s1b0g",
+ "bloque": "Rondos",
+ "titulo": "Rondo y 4 porterías",
+ "formato": "4v2 central + 4 guardianes",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10–14 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "14 min",
+ "series": "4 rondas de 3 min con 1 min de pausa. Al acabar, los azules pasan a atacar y se rotan los porteros; con menos de 14 jugadores, porterías sin portero.",
+ "objetivo": "Combinar el rondo corto con la finalización: mantener la posesión en el cuadrado central y atacar la portería que quede libre. Cómo explicarlo: primero muevo el balón dentro y, cuando un guardián se queda lejos de su portería, abro y chuto. Errores típicos: chutar con prisa, quedarse siempre en el cuadrado y no mirar las cuatro porterías. Qué observar: escaneo y cambio de lado.",
+ "montaje": "Campo de 40 × 40 m, portería con portero en cada lado. Cuadrado central de 12 × 12 m: 4 blancos v 2 azules. Otros 4 azules, uno a 7 m de cada portería.",
+ "juego": "Los blancos juegan 4v2 y pueden salir a atacar cualquier portería. Cada guardián defiende solo la suya y no entra al cuadrado. Si los azules roban, pasan a un compañero libre.",
+ "punto": "Gol: 1 punto. 8 pases seguidos en el cuadrado: 1 punto.",
+ "consigna": "Mueve el balón y ataca la portería libre.",
+ "variantes": {
+  "facil": "Cuadrado de 10 × 10 m y guardianes quietos en la línea de portería.",
+  "dificil": "Cuadrado de 6 × 6 m, un solo guardián por portería sin portero y solo 3 toques."
+ },
+ "adaptacion": "Alevín (10–11): cuadrado de 10 × 10 m. Infantil (12–13): como está. Cadete: máximo 3 toques y guardianes con 2 m de salida.",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Rondo central con 4 porterías",
+  "ref": "Instagram · reel ut6s1b0g"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, reglas, puntos y series (propuesta); deducido de los fotogramas del vídeo, que casi no traen texto. Cuadrado central con 4 blancos y 2 azules, 4 azules junto a las porterías y 4 porteros (como en el vídeo); reglas de entrada y salida del rondo y puntos propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 43
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 20,
+    "y": 40,
+    "lado": "B",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 20,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     14,
+     14
+    ],
+    [
+     26,
+     14
+    ],
+    "4 3"
+   ],
+   [
+    [
+     26,
+     14
+    ],
+    [
+     26,
+     26
+    ],
+    "4 3"
+   ],
+   [
+    [
+     26,
+     26
+    ],
+    [
+     14,
+     26
+    ],
+    "4 3"
+   ],
+   [
+    [
+     14,
+     26
+    ],
+    [
+     14,
+     14
+    ],
+    "4 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15.3,
+    "y": 15.3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24.7,
+    "y": 15.3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15.3,
+    "y": 24.7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24.7,
+    "y": 24.7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 33,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15.3,
+     24.7
+    ],
+    "b": [
+     23.2,
+     24.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     24.7,
+     24.7
+    ],
+    "b": [
+     27,
+     32
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

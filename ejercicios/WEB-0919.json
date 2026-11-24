@@ -1,0 +1,147 @@
+{
+ "id": "WEB-0919",
+ "bloque": "Porteros",
+ "titulo": "Reparto a dianas",
+ "formato": "1 portero + entrenador",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "1–3 jug.",
+ "espacio": "34 × 20 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 10 envíos por portero (5 con el pie y 5 con la mano), 1 min de pausa. Con 2–3 porteros, uno envía y los demás recogen balones y devuelven al entrenador.",
+ "objetivo": "Trabajar la precisión del reparto del portero, con el pie y con la mano, para iniciar el juego. Cómo explicarlo: primero miro la puerta, luego coloco el cuerpo hacia ella y golpeo con el interior o lanzo con el brazo estirado y bajo. Errores típicos: mirar solo el balón, cuerpo cerrado y pase sin dirección. Qué observar: el último apoyo apunta a la puerta, el balón sale raso y el portero se recoloca tras el envío.",
+ "montaje": "Portería de 6 m. Tres puertas de 2 m (dos conos) a 14–16 m, en abanico: 1 arriba, 2 al centro y 3 abajo. Entrenador con balones a 8 m, junto al portero.",
+ "juego": "El entrenador pasa raso y grita «uno», «dos» o «tres». El portero controla, levanta la cabeza y pasa con el pie a esa puerta. Luego repite sacando de mano, raso.",
+ "punto": "Balón que cruza la puerta rodando: 1 punto. Meta: 12 de 20.",
+ "consigna": "Mira la puerta, cuerpo abierto y pase raso.",
+ "variantes": {
+  "facil": "Puertas de 3 m a 10 m, avisando la puerta antes de pasarle el balón.",
+  "dificil": "Puertas de 1,5 m a 20 m, control orientado y pase de primeras; el entrenador avisa la puerta cuando el portero ya ha controlado."
+ },
+ "adaptacion": "Alevín (10–11): puertas de 3 m a 10 m y solo con la pierna fuerte. Infantil (12–13): como está. Cadete: puertas de 1,5 m a 20 m y de primeras.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "Keeper Targets",
+  "ref": "https://www.soccerdrive.com/soccer-drills/keeper-targets"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerDrive, solo título (marcada para socios). «Keeper Targets» interpretado como reparto del portero a dianas; medidas, puntos y series propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   34,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 35,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    15,
+    3
+   ],
+   [
+    15,
+    5
+   ],
+   [
+    18,
+    9
+   ],
+   [
+    18,
+    11
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    15,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2.4,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": 13.8,
+    "f": [
+     3,
+     10.5
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     13.8
+    ],
+    "b": [
+     3.6,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     2.4,
+     10
+    ],
+    "b": [
+     14.6,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    15.4,
+    1.6,
+    "PUERTA 1",
+    "middle"
+   ],
+   [
+    21,
+    10,
+    "PUERTA 2",
+    "start"
+   ],
+   [
+    15.4,
+    19,
+    "PUERTA 3",
+    "middle"
+   ]
+  ]
+ }
+}

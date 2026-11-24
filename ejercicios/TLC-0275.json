@@ -1,0 +1,348 @@
+{
+ "id": "TLC-0275",
+ "bloque": "Calentamiento",
+ "titulo": "Escalera, control y pase",
+ "formato": "2 filas · escalera",
+ "edad": "12–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6 jug.",
+ "espacio": "24 × 20 m",
+ "duracion": "8 min",
+ "series": "4 vueltas de 90 s por fila (cada jugador hace 3 pasadas), con 30 s de pausa. En cada vuelta se cambia el patrón de la escalera.",
+ "objetivo": "Combinar coordinación en escalera con recepción orientada y pase, para llegar activados y con buen primer toque. Cómo explicarlo: pies rápidos y bajos en la escalera, levanta la cabeza al salir, controla hacia la portería y pasa con el interior. Errores típicos: mirar los pies, control largo y pase sin dirección. Qué observar: calidad de los apoyos y primer toque orientado.",
+ "montaje": "Dos escaleras (o 6 conos) de 8 m, paralelas a 10 m. Una fila de 3 jugadores con balón al inicio de cada una y una miniportería de 3 m a 13 m del final.",
+ "juego": "El primero de la fila 1 hace la escalera, un apoyo por cuadro. Al salir, el primero de la fila 2 le pasa raso. Controla orientado y pasa a gol. Luego se cambian los papeles.",
+ "punto": "Pase a gol: 1 punto; +1 si controla de un toque.",
+ "consigna": "Pies rápidos, control orientado y pase firme.",
+ "variantes": {
+  "facil": "Un apoyo por cuadro, portería de 5 m y balón que llega parado.",
+  "dificil": "Dos apoyos por cuadro, control y pase de primeras y portería de 2 m."
+ },
+ "adaptacion": "Alevín (10–11): sin tiro, solo pase y portería de 5 m. Infantil (12–13): como está. Cadete: golpeo a portería y de primeras.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Simeone)",
+  "titulo_original": "SIMEONE ACTIVACIÓN CON BALÓN",
+  "ref": "toplidercoach.com/simeone-activacion-con-balon/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: escalera + dos filas + porterías pequeñas; distancias, vueltas y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -1.8,
+   "ymax": 22
+  },
+  "goals": [
+   [
+    24,
+    5,
+    "R"
+   ],
+   [
+    24,
+    15,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     3.5,
+     4.3
+    ],
+    [
+     11.5,
+     4.3
+    ],
+    "100 0"
+   ],
+   [
+    [
+     3.5,
+     5.7
+    ],
+    [
+     11.5,
+     5.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     3.5,
+     4.3
+    ],
+    [
+     3.5,
+     5.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     4.833333333333333,
+     4.3
+    ],
+    [
+     4.833333333333333,
+     5.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     6.166666666666666,
+     4.3
+    ],
+    [
+     6.166666666666666,
+     5.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     7.5,
+     4.3
+    ],
+    [
+     7.5,
+     5.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     8.833333333333332,
+     4.3
+    ],
+    [
+     8.833333333333332,
+     5.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     10.166666666666668,
+     4.3
+    ],
+    [
+     10.166666666666668,
+     5.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     11.5,
+     4.3
+    ],
+    [
+     11.5,
+     5.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     3.5,
+     14.3
+    ],
+    [
+     11.5,
+     14.3
+    ],
+    "100 0"
+   ],
+   [
+    [
+     3.5,
+     15.7
+    ],
+    [
+     11.5,
+     15.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     3.5,
+     14.3
+    ],
+    [
+     3.5,
+     15.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     4.833333333333333,
+     14.3
+    ],
+    [
+     4.833333333333333,
+     15.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     6.166666666666666,
+     14.3
+    ],
+    [
+     6.166666666666666,
+     15.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     7.5,
+     14.3
+    ],
+    [
+     7.5,
+     15.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     8.833333333333332,
+     14.3
+    ],
+    [
+     8.833333333333332,
+     15.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     10.166666666666668,
+     14.3
+    ],
+    [
+     10.166666666666668,
+     15.7
+    ],
+    "100 0"
+   ],
+   [
+    [
+     11.5,
+     14.3
+    ],
+    [
+     11.5,
+     15.7
+    ],
+    "100 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 1.8,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 1.8,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 1.8,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 13.5,
+    "y": 15,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     5
+    ],
+    "b": [
+     12,
+     5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     13.5,
+     15
+    ],
+    "b": [
+     13,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     5.2
+    ],
+    "b": [
+     23,
+     5.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

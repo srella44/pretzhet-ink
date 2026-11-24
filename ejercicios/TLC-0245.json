@@ -1,0 +1,171 @@
+{
+ "id": "TLC-0245",
+ "bloque": "Calentamiento",
+ "titulo": "Activación y remate",
+ "formato": "2 carriles simétricos",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 22 m",
+ "duracion": "8 min",
+ "series": "4 pasadas por jugador, de menos a más intensidad: pase al pie y tiro, luego pase a la red o disparo fuerte. 20 s de pausa entre pasadas.",
+ "objetivo": "Subir la temperatura y activar piernas con pase, agilidad y velocidad, y llegar al golpeo ya activados. Cómo explicarlo: sal suave, acelera en el último cono y golpea con la técnica correcta aunque sea calentamiento. Errores típicos: salir a tope, pasar flojo al compañero y golpear antes de equilibrarse. Qué observar: apoyos rápidos entre conos, pase al pie y golpeo con el empeine. Intensidad progresiva.",
+ "montaje": "Dos carriles iguales a 15 m. Cada uno: 3 conos en zig-zag, un compañero fijo a 9 m de una portería de 4 m y 4 jugadores en fila, el primero con balón.",
+ "juego": "El primero pasa al compañero fijo, hace el zig-zag y recibe su devolución. Acaba con pase a la red (rondas 1–2) o disparo fuerte (3–4). Luego pasa a ser fijo.",
+ "punto": "Pase o disparo dentro: 1 punto. Gana el carril con más.",
+ "consigna": "Sal suave, acelera y golpea bien.",
+ "variantes": {
+  "facil": "Zig-zag de 2 conos y portería de 6 m, sin puntos.",
+  "dificil": "Vallas bajas en lugar de conos, devolución a un toque y portería de 3 m."
+ },
+ "adaptacion": "Alevín (10–11): zig-zag corto y sin disparo fuerte. Infantil (12–13): como está. Cadete: disparo fuerte y vallas de 30 cm.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Mourinho)",
+  "titulo_original": "MOURINHO, ACTIVACIÓN CON FINALIZACIÓN",
+  "ref": "toplidercoach.com/mourinho-activacion-con-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). La fuente no fija distancias ni puntos: dos carriles, 3 conos, compañero fijo, rondas y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1.8,
+   "ymax": 24
+  },
+  "porterias": [
+   {
+    "x": 7.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 4,
+    "portero": false
+   },
+   {
+    "x": 22.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 4,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    10,
+    17
+   ],
+   [
+    5,
+    15
+   ],
+   [
+    10,
+    13
+   ],
+   [
+    20,
+    17
+   ],
+   [
+    25,
+    15
+   ],
+   [
+    20,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 20,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.3,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 22.5,
+    "y": 20,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 25.7,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 22.5,
+    "y": 9,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     20
+    ],
+    "b": [
+     7.5,
+     10.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     7.5,
+     20
+    ],
+    "b": [
+     11.4,
+     11.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     11.4,
+     11
+    ],
+    "b": [
+     8,
+     0.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

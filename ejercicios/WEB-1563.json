@@ -1,0 +1,167 @@
+{
+ "id": "WEB-1563",
+ "bloque": "Porteros",
+ "titulo": "Regate, tiro y portero 2",
+ "formato": "1 atacante v portero",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–6 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 6 duelos por portero (cada atacante hace 1) con 1 min de pausa. Los atacantes hacen fila y rotan; el portero descansa 1 min entre rondas.",
+ "objetivo": "Entrenar el 1 contra 1 del portero tras una conducción: achicar el ángulo, tamaño y decisión (salir o esperar), y, si para, jugar rápido con la mano hacia una puerta. Cómo explicarlo: salgo en cuanto el atacante tropieza con el último cono, me agrando y no me tiro el primero. Errores típicos: quedarse en la línea, tirarse antes de tiempo y sacar sin mirar. Qué observar: distancia de salida y el primer apoyo hacia delante.",
+ "montaje": "Portería de 6 m. Slalom de 4 conos a 2,5 m, desde 22 hasta 12 m. Dos puertas de 2 m (dos conos) a 11 m, a cada lado.",
+ "juego": "El atacante conduce el slalom, da un toque y chuta. El portero sale a achicar. Si para, lanza raso con la mano a una puerta en menos de 6 s.",
+ "punto": "Gol: 1 punto. Parada: 1 punto (+1 si lanza a una puerta).",
+ "consigna": "Sal a tiempo y juega rápido.",
+ "variantes": {
+  "facil": "Atacante lento por el slalom, portería de 7 m y tiros desde el segundo cono.",
+  "dificil": "Atacante a toda velocidad, un defensor que sale 3 s después y puertas de 1,5 m."
+ },
+ "adaptacion": "Alevín (10–11): slalom de 3 conos y sin defensor. Infantil (12–13): como está. Cadete: con un defensor que persigue desde los 25 m.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "Dribble, Shoot, Goalkeeper #2",
+  "ref": "https://www.soccerdrive.com/soccer-drills/dribble-shoot-goalkeeper-2-0"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerDrive, solo título (marcada para socios). «Dribble, Shoot, Goalkeeper #2» interpretado como slalom + tiro + reparto del portero; la ficha del número 1 no se conoce; distancias, tiempos y puntos propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 31,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    22,
+    9
+   ],
+   [
+    19.5,
+    11
+   ],
+   [
+    17,
+    9
+   ],
+   [
+    14.5,
+    11
+   ],
+   [
+    11,
+    2.5
+   ],
+   [
+    11,
+    4.5
+   ],
+   [
+    11,
+    15.5
+   ],
+   [
+    11,
+    17.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.6,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26.5,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 28.5,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     26.5,
+     10
+    ],
+    "b": [
+     13.2,
+     10
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     10.2
+    ],
+    "b": [
+     1,
+     8.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     1.6,
+     10
+    ],
+    "b": [
+     10.6,
+     3.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    11,
+    0.6,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    11,
+    19.4,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

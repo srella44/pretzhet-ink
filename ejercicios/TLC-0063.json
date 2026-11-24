@@ -1,0 +1,240 @@
+{
+ "id": "TLC-0063",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido en 2 campos",
+ "formato": "3v3 + portero en 2 campos",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 porteros",
+ "espacio": "44 × 30 m",
+ "duracion": "16 min",
+ "series": "4 tiempos de 4 min con 1 min de pausa. Los tríos van rotando campos y cada tiempo se cambian los papeles de «premio» y «castigo».",
+ "objetivo": "Entender cuándo conviene atacar y cuándo arriesgar, y leer el partido: llegar a la portería grande, proteger la ventaja y reaccionar rápido al perder. Cómo explicarlo: tu premio es la portería grande; si marcas en una pequeña ganas poco y cambias de campo. Errores típicos: chutar con prisa a una pequeña, no volver tras perder y no hablar. Qué observar: decisión de arriesgar y velocidad de transición.",
+ "montaje": "Dos campos de 20 × 30 m. En cada uno, portería grande con portero arriba y dos minis de 2 m abajo. Campo A: amarillos v azules. Campo B: azules v amarillos. 3v3 en cada campo.",
+ "juego": "El trío «premio» ataca la portería grande y el otro, las pequeñas. Si el que defiende la grande marca en una pequeña, cambia de campo con su trío del otro campo y pasa a ser «premio».",
+ "punto": "Gol grande: 2 puntos. Gol pequeño: 1 y cambio de campo.",
+ "consigna": "Busca el campo premio.",
+ "variantes": {
+  "facil": "Un comodín ofensivo extra solo en el campo «premio» y 2 miniporterías de 3 m.",
+  "dificil": "Gol grande doble, 2 toques en un campo y cambio obligatorio de campo cada 2 min."
+ },
+ "adaptacion": "Alevín (10–11): 3v3 con comodín y minis de 3 m. Infantil (12–13): como está. Cadete: 2 toques y gol en grande triple.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Ancelotti)",
+  "titulo_original": "ANCELOTTI PARTIDO DOS CAMPOS",
+  "ref": "toplidercoach.com/ancelotti-partido-dos-campos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 14 jugadores (2 porteros); cuatro tríos, medidas de campo, puntos y la forma del cambio de campo propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   44,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 45,
+   "ymin": -3.5,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 11,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 33,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     22,
+     0
+    ],
+    [
+     22,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    4,
+    28.5
+   ],
+   [
+    6,
+    28.5
+   ],
+   [
+    16,
+    28.5
+   ],
+   [
+    18,
+    28.5
+   ],
+   [
+    26,
+    28.5
+   ],
+   [
+    28,
+    28.5
+   ],
+   [
+    38,
+    28.5
+   ],
+   [
+    40,
+    28.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 19.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 10.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 19.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 39,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 10.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 39,
+    "y": 9,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     19.5
+    ],
+    "b": [
+     6,
+     17.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     15.5,
+     12.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     33,
+     19.5
+    ],
+    "b": [
+     38,
+     17.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    11,
+    -2.4,
+    "PREMIO"
+   ],
+   [
+    33,
+    -2.4,
+    "PREMIO"
+   ]
+  ]
+ }
+}

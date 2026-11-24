@@ -1,0 +1,185 @@
+{
+ "id": "VID-n80x6nk5",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4 + 3 comodines",
+ "formato": "4v4 + 3 comodines",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "36 × 30 m",
+ "duracion": "16 min",
+ "series": "4 bloques de 4 min con 1 min de pausa. En cada bloque rota un comodín y se intercambian los petos entre equipos para que todos pasen por cada puesto.",
+ "objetivo": "Practicar la posesión con orientación hacia delante y el uso de los jugadores libres como referencia. Cómo explicarlo: busca al comodín del fondo o de la línea central y juega a su espalda; los comodines juegan siempre con quien tiene el balón. Errores típicos: pasarlo todo atrás, juntarse con el balón y no abrir el campo. Qué observar: amplitud, pase al tercer hombre y ritmo.",
+ "montaje": "Campo de 36 × 30 m con línea central. Dos equipos de 4 y 3 comodines amarillos: uno por fondo y uno en la central. No se les presiona.",
+ "juego": "Juega el equipo con balón y los 3 comodines (7v4). Si lo pierde, los comodines pasan al rival. Comodines a 2 toques.",
+ "punto": "Pase al comodín del fondo y vuelta: 1 punto. 8 pases seguidos: 1 punto.",
+ "consigna": "Amplitud y juega al hueco.",
+ "variantes": {
+  "facil": "Comodines en el centro del campo y 2 toques por jugador.",
+  "dificil": "Un toque para los comodines, 4 s para marcar tras el pase al fondo y espacio de 30 × 30 m."
+ },
+ "adaptacion": "Alevín (10–11): comodines libres y 3 toques. Infantil (12–13): como está. Cadete: ataque en 8 s y comodín solo a un toque.",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "4v4 + 3 posicional (Tottenham)",
+  "ref": "Instagram · reel n80x6nk5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, reglas, puntos y series (propuesta); deducido de los fotogramas del vídeo, que casi no traen texto. En el vídeo solo se ve el campo, los 3 comodines y los equipos de 4; las reglas de comodines, la puntuación y la dimensión del campo son una propuesta (propuesta). Similar a IG-DgDDtYeosph.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 39,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 1.4,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 34.6,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 22,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 26,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     26,
+     22
+    ],
+    "b": [
+     18.8,
+     15.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     15
+    ],
+    "b": [
+     8,
+     8.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     24
+    ],
+    "b": [
+     8.4,
+     19.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    1.4,
+    12.2,
+    "COMODÍN",
+    "start"
+   ],
+   [
+    34.6,
+    12.2,
+    "COMODÍN",
+    "end"
+   ]
+  ]
+ }
+}

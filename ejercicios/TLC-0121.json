@@ -1,0 +1,183 @@
+{
+ "id": "TLC-0121",
+ "bloque": "Defensa y presión",
+ "titulo": "Entrada y duelos 1v1 a 2v2",
+ "formato": "1v1 → 2v1 → 2v2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug. + portero",
+ "espacio": "36 × 30 m",
+ "duracion": "12 min",
+ "series": "6 rondas de 2 min con 30 s de pausa. En cada ronda empieza un equipo distinto con ventaja y se cambian las filas para que todos pasen por atacante, defensor, superioridad e inferioridad.",
+ "objetivo": "Mejorar la entrada, la temporización y la ayuda defensiva en igualdad e inferioridad, y el desborde y apoyo en superioridad. Cómo explicarlo: defiende de lado, retrasa al rival y espera a tu compañero; si atacas, juega rápido antes de que llegue la ayuda. Errores típicos: lanzarse a entrar, ir los dos al balón y no hablar. Qué observar: velocidad de salida, perfil defensivo y comunicación.",
+ "montaje": "Zona de 36 × 30 m con portería de 6 m y portero. 4 filas de 2: dos de amarillos en el fondo opuesto y dos de azules a cada lado de la portería.",
+ "juego": "Sale un amarillo con balón y un azul: 1v1 a portería. A los 3 s sale otro amarillo (2v1) y 3 s después el otro azul (2v2). Tras gol, robo o fuera, empieza un azul con balón.",
+ "punto": "Gol: 1 punto. Balón recuperado: 1 punto al defensor.",
+ "consigna": "Defiende de lado, temporiza y habla.",
+ "variantes": {
+  "facil": "Solo 1v1 y 2v1, con 5 s de ventaja al atacante y portería de 8 m.",
+  "dificil": "Salida 2 s después, finalización a un toque tras superar al defensor y gol doble en 2v2."
+ },
+ "adaptacion": "Alevín (10–11): 1v1 y 2v1 con 5 s de ventaja. Infantil (12–13): como está. Cadete: 2v2 directo con salida simultánea.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Mourinho)",
+  "titulo_original": "MOURINHO DUELOS ENTRADA INTERCEPTACIÓN",
+  "ref": "toplidercoach.com/entrada-interceptacion-duelos-progresivos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Campo entero de la fuente adaptado a 30 × 36 m con 8 jugadores; tiempos de salida, puntos y rondas propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 38,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    28,
+    8
+   ],
+   [
+    28,
+    22
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    3,
+    27
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 30,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 25,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     30,
+     10
+    ],
+    "b": [
+     17,
+     12.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     13,
+     10.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     20
+    ],
+    "b": [
+     21,
+     17.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     5,
+     25
+    ],
+    "b": [
+     13,
+     19.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

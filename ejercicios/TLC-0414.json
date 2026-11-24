@@ -1,0 +1,257 @@
+{
+ "id": "TLC-0414",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido hexagonal",
+ "formato": "6v6 + porteros",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "12 jug. + 2 porteros",
+ "espacio": "40 × 28 m",
+ "duracion": "16 min",
+ "series": "2 partes de 8 min con 2 min de pausa y cambio de lado. A mitad de cada parte, el entrenador añade una condición nueva (toques, tiempo o pase vertical).",
+ "objetivo": "Jugar rápido hacia delante y por dentro en un campo sin esquinas, y presionar tras perder. Cómo explicarlo: no hay esquinas donde descansar, así que busca al compañero de dentro y ataca la portería; si pierdes, aprieta ya. Errores típicos: abrir siempre a la banda, pasar atrás sin necesidad y no cerrar el centro al defender. Qué observar: pases verticales, desmarques diagonales y presión tras pérdida.",
+ "montaje": "Campo de 40 × 28 m, portería de 5 m con portero en cada lado corto. Esquinas cortadas en diagonal de 6 m con conos: prohibidas. 6v6 + portero.",
+ "juego": "Partido libre. Pisar una esquina es saque de banda para el rival. 12 s para chutar o saca el portero rival. Al robar, atacar en 5 s.",
+ "punto": "Gol: 1 punto. Gol tras pase vertical por dentro (máx. 3 pases): 2.",
+ "consigna": "Juega por dentro y presiona al perder.",
+ "variantes": {
+  "facil": "Sin límite de tiempo para chutar y esquinas de 4 m.",
+  "dificil": "Máximo 2 toques, 8 s para chutar y esquinas de 8 m."
+ },
+ "adaptacion": "Prebenjamín (6–7): 5v5, esquinas de 4 m y sin tiempos. Benjamín (8–9): como está sin condiciones. Alevín (10–11): con condiciones.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Bordalás)",
+  "titulo_original": "BORDALÁS PARTIDO HEXAGONAL",
+  "ref": "toplidercoach.com/bordalas-partido-hexagonal/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). La fuente da 7v7 en medio campo; reducido a 40 × 28 m con 6v6 y portero; tiempos, puntos y reglas de las esquinas propuestos (propuesta). La fuente marca «desde 7 años»: edad propuesta 8–11.",
+ "diagrama": {
+  "field": [
+   40,
+   28
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.5,
+   "ymax": 29.5
+  },
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      0,
+      0
+     ],
+     [
+      6,
+      0
+     ],
+     [
+      0,
+      6
+     ]
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      40,
+      0
+     ],
+     [
+      34,
+      0
+     ],
+     [
+      40,
+      6
+     ]
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      0,
+      28
+     ],
+     [
+      6,
+      28
+     ],
+     [
+      0,
+      22
+     ]
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      40,
+      28
+     ],
+     [
+      34,
+      28
+     ],
+     [
+      40,
+      22
+     ]
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     0,
+     6
+    ],
+    "100 0"
+   ],
+   [
+    [
+     34,
+     0
+    ],
+    [
+     40,
+     6
+    ],
+    "100 0"
+   ],
+   [
+    [
+     0,
+     22
+    ],
+    [
+     6,
+     28
+    ],
+    "100 0"
+   ],
+   [
+    [
+     40,
+     22
+    ],
+    [
+     34,
+     28
+    ],
+    "100 0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 14,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 14,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     22
+    ],
+    "b": [
+     26.2,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     14
+    ],
+    "b": [
+     34,
+     10
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

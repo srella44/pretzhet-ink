@@ -1,0 +1,166 @@
+{
+ "id": "TLC-0094",
+ "bloque": "Calentamiento",
+ "titulo": "Reacción por colores",
+ "formato": "3 jug. · salida al color",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "8 min",
+ "series": "6 rondas por trío de 3 carreras, con 30 s de pausa. El entrenador cambia entre estímulo verbal y gestual cada 2 rondas.",
+ "objetivo": "Trabajar la reacción a un estímulo y la decisión de finalizar rápido o proteger. Cómo explicarlo: trota atento al grito, sal explosivo al balón del color y decide enseguida; los otros dos defienden y retroceden. Errores típicos: salir tarde, no acelerar y tirar sin mirar. Qué observar: explosividad de salida, lectura del duelo y temporización de los defensores.",
+ "montaje": "Triángulo de 12 m con 3 conos de colores (rojo, azul, amarillo), cada uno con un balón. Portería de 6 m a 8 m del cono amarillo. Tres jugadores trotan alrededor.",
+ "juego": "El entrenador nombra un color y los tres corren a ese balón. El primero chuta; los otros dos defienden. Luego vuelven a trotar.",
+ "punto": "Gol: 1 punto al atacante. Parada o robo: 1 punto a los defensores.",
+ "consigna": "Sal explosivo y decide rápido.",
+ "variantes": {
+  "facil": "Estímulo visual claro (peto del color) y chute libre de primeras.",
+  "dificil": "Estímulo gestual, portero y control antes del chute."
+ },
+ "adaptacion": "Alevín (10–11): trote lento y sin defensores. Infantil (12–13): como está. Cadete: portero y control orientado.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Simeone)",
+  "titulo_original": "SIMEONE, VELOCIDAD + DUELO",
+  "ref": "toplidercoach.com/simeone-velocidad-duelo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: triángulo de 3 conos y 3 balones; distancias, rondas, puntos y portería propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 32,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    11,
+    4
+   ],
+   [
+    11,
+    16
+   ],
+   [
+    21.4,
+    10
+   ]
+  ],
+  "balls": [
+   [
+    12,
+    4.8
+   ],
+   [
+    12,
+    16.8
+   ],
+   [
+    22.4,
+    10.8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 13.5,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 6.5,
+    "f": -150
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.5,
+     13.5
+    ],
+    "b": [
+     11.4,
+     15.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     16
+    ],
+    "b": [
+     29.4,
+     8.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     18.5,
+     10
+    ],
+    "b": [
+     15,
+     12.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    11,
+    1.8,
+    "ROJO",
+    "middle"
+   ],
+   [
+    11,
+    19,
+    "AZUL",
+    "middle"
+   ],
+   [
+    21.4,
+    7.2,
+    "AMARILLO",
+    "middle"
+   ]
+  ]
+ }
+}

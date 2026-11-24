@@ -1,0 +1,172 @@
+{
+ "id": "VID-wgnin6de",
+ "bloque": "Calentamiento",
+ "titulo": "Pase en triángulo",
+ "formato": "4 jug. · 3 variantes",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug.",
+ "espacio": "16 × 14 m",
+ "duracion": "10 min",
+ "series": "3 bloques de 3 min (una variante por bloque) con 45 s de pausa. Con 8 jugadores, dos triángulos a la vez. Cambiar de sentido a mitad de cada bloque.",
+ "objetivo": "Calentar con pases cortos y movimiento constante, enlazando pase, desmarque y orientación. Cómo explicarlo: pasa al pie del compañero, mira antes de recibir y ocupa rápido el hueco. Errores típicos: pase flojo, quedarse parado tras pasar y recibir de espaldas. Qué observar: perfil abierto, primer toque hacia el siguiente cono y ritmo suave que sube poco a poco.",
+ "montaje": "Triángulo de 3 conos con lados de 10 m. Un jugador junto a cada cono y un cuarto con el balón, en un cono con dos.",
+ "juego": "Var. 1: pasa y ocupa el cono del receptor. Var. 2: pasa y corre al cono libre. Var. 3: pasa a un cono y su jugador devuelve de primeras al libre (tercer hombre).",
+ "punto": "10 pases seguidos sin fallo: 1 punto; si cae, vuelta a 0.",
+ "consigna": "Pasa al pie, mira y ocupa el hueco.",
+ "variantes": {
+  "facil": "Pases de dos toques y lados de 8 m.",
+  "dificil": "Un toque y dos balones a la vez, con lados de 12 m."
+ },
+ "adaptacion": "Alevín (10–11): variantes 1 y 2 con dos toques. Infantil (12–13): como está. Cadete: un toque, dos balones y lados de 12 m.",
+ "fuente": {
+  "autor": "Reel de Instagram (autor sin identificar)",
+  "titulo_original": "Pase en triángulo · 3 variantes",
+  "ref": "Instagram · reel wgnin6de"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, reglas, puntos y series (propuesta); deducido de los fotogramas del vídeo, que casi no traen texto. Las tres variantes cambian de recorrido en el vídeo; su descripción exacta es una interpretación (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   14
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 17.5,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "cones": [
+   [
+    8,
+    2
+   ],
+   [
+    3,
+    11
+   ],
+   [
+    13,
+    11
+   ]
+  ],
+  "lines": [
+   [
+    [
+     8,
+     2
+    ],
+    [
+     3,
+     11
+    ],
+    "100 0"
+   ],
+   [
+    [
+     3,
+     11
+    ],
+    [
+     13,
+     11
+    ],
+    "100 0"
+   ],
+   [
+    [
+     13,
+     11
+    ],
+    [
+     8,
+     2
+    ],
+    "100 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 12.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.8,
+    "y": 12.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.4,
+    "y": 12.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     12.2
+    ],
+    "b": [
+     7.2,
+     2.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     3.4,
+     12
+    ],
+    "b": [
+     8,
+     3.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 14,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     0.9
+    ],
+    "b": [
+     13.6,
+     10.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    8,
+    7,
+    "VARIANTE 1"
+   ]
+  ]
+ }
+}
