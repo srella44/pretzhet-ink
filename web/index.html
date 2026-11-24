@@ -186,8 +186,8 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   .top .hb, .top .btn-f { display:none !important }
   .row1 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px } .brand img { height: 42px }
   .row1::before { content: ''; flex: 1; order: -1 }
-  .row1 .brand { order: 0 }
-  .row1 .btn-login, .row1 .user-bar { order: 1; margin-left: auto }
+  .row1 .brand { order: 0; flex: none }
+  .row1 .btn-login, .row1 .user-bar { order: 1; flex: 1; display: flex; justify-content: flex-end }
   .search { order: 10; flex-basis: 100%; max-width: none }
   .count { display:none }
   .toast { bottom: calc(84px + env(safe-area-inset-bottom)) }
