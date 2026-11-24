@@ -185,5 +185,11 @@ print(len(recs), sum(1 for r in recs if r['lb']), len(svgs))
 blocks = [{'n': b, 'c': '#' + c, 'k': ink(c)} for b, c in BLOCKS.items()]
 DATA = json.dumps({'blocks': blocks, 'recs': recs, 'svg': svgs}, ensure_ascii=False, separators=(',', ':'))
 tpl = open(os.path.join(ROOT, 'motor', 'app_template.html')).read()
-open(os.path.join(ROOT, 'salida', 'app', 'Pretzhet_Ink_app.html'), 'w').write(tpl.replace('/*DATA*/null', DATA))
-print('bytes', len(DATA))
+out = tpl.replace('/*DATA*/null', DATA)
+open(os.path.join(ROOT, 'salida', 'app', 'Pretzhet_Ink_app.html'), 'w').write(out)
+# Sincronizar automáticamente web/index.html
+import shutil
+web_dir = os.path.join(ROOT, 'web')
+os.makedirs(web_dir, exist_ok=True)
+shutil.copy2(os.path.join(ROOT, 'salida', 'app', 'Pretzhet_Ink_app.html'), os.path.join(web_dir, 'index.html'))
+print('bytes', len(DATA), '· web/index.html sincronizado')
