@@ -1,0 +1,167 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "PIK-AV-015",
+ "bloque": "Superioridades",
+ "titulo": "De 1 contra 1 a 3 contra 3",
+ "formato": "1v1 → 3v3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug. + P",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "3 rondas de las 6 acciones por grupo; entre rondas, atacantes y defensores cambian de papel; 1′ de pausa (propuesta).",
+ "objetivo": "Reconocer en cada momento si se ataca en superioridad, en igualdad o solo contra el portero y decidir según eso: encarar, fijar y pasar o conservar (fuente: superioridades e igualdades cambiantes). Cómo explicarlo: «antes de recibir, cuenta: ¿cuántos somos y cuántos son?». Errores típicos: jugar igual el 2 contra 1 que el 2 contra 2; tardar en salir en la acción siguiente; los defensores que acaban se quedan dentro estorbando. Qué observar: la velocidad de decisión y si en igualdad alguien busca el 1 contra 1.",
+ "montaje": "30 × 25 m con portería y portero. Atacantes en fila en el medio campo, defensores junto al poste y el entrenador con balones.",
+ "juego": "6 ataques seguidos: 1 contra el portero, 1v1, 2v1, 2v2, 3v2 y 3v3. Cada uno sale cuando acaba el anterior; 10″ por ataque (propuesta). Tras la ronda, se cambian los papeles.",
+ "punto": "Gol: 1 al ataque. Robo y conducción al medio campo: 1 a la defensa (propuesta).",
+ "consigna": "Cuenta cuántos sois y decide.",
+ "variantes": {
+  "facil": "Solo 4 acciones: 1 contra portero, 2 contra 1, 3 contra 2 y 3 contra 3 (propuesta).",
+  "dificil": "8″ por ataque y los defensores de la acción anterior pueden seguir defendiendo (propuesta)."
+ },
+ "adaptacion": "Alevín: 25 × 20 m y portería de fútbol 7. Infantil: como está. Cadete: 8″ por acción (propuesta).",
+ "fuente": {
+  "autor": "m777ax (YouTube)",
+  "titulo_original": "Progresión 1v1 → 2v1 → 3v2 → 3v3",
+  "ref": "youtube.com/watch?v=a-zVwfMVI_4"
+ },
+ "completado": "La fuente da la secuencia de 6 acciones y el cambio de roles; el vídeo no se ha observado en detalle. Medidas, filas, tiempo por acción, puntuación, series, variantes y adaptación (propuesta). Aviso de la base: mecánica parecida a PIK-AV-009 (sin ficha por ahora).",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 31.6,
+   "ymin": -2.4,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19.5,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19.5,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 30.8,
+    "y": 21,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     14,
+     7.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     13
+    ],
+    "b": [
+     18,
+     13
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     14.3,
+     7.9
+    ],
+    "b": [
+     18,
+     12.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     18.3,
+     13
+    ],
+    "b": [
+     29.3,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    15,
+    -1.5,
+    "ACCIÓN 5 DE 6: 3 CONTRA 2"
+   ]
+  ]
+ }
+}

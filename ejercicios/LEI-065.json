@@ -1,0 +1,169 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "LEI-065",
+ "bloque": "Superioridades",
+ "titulo": "Tres contra uno y relevo",
+ "formato": "3v1",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6 jug. por grupo",
+ "espacio": "20 × 10 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; en cada ronda empieza defendiendo un trío distinto (propuesta). El defensor cansado puede pedir relevo a un compañero en cualquier momento (fuente).",
+ "objetivo": "Conservar el balón en 3 contra 1 con pases al lado seguro del compañero y abrir el espacio lo máximo posible; el equipo que espera aprende a colocarse lejos para ganar tiempo (fuente). Cómo explicarlo: «el defensor siempre tapa a alguien: pasa al que no tapa». Errores típicos: los tres en el mismo lado; conducir sin necesidad; pasar al pie del lado del defensor. Qué observar: si el que va a recibir se mueve antes del pase y si, al robar, el defensor saca el balón rápido a su cuadrado.",
+ "montaje": "Dos cuadrados de 10 × 10 m pegados. En uno, 3 atacantes contra 1 defensor; en el otro, sus 2 compañeros, muy separados.",
+ "juego": "Los 3 se pasan el balón. Si el defensor roba, pasa a sus 2 compañeros y entra con ellos: 3 contra 1 allí. Del trío que perdió, cruza a defender el que falló (propuesta).",
+ "punto": "Se cuentan los segundos de cada posesión: gana el trío con la más larga (propuesta).",
+ "consigna": "Pasa al lado que no tapa.",
+ "variantes": {
+  "facil": "Cuadrados de 12 × 12 m o 4 contra 1 (propuesta).",
+  "dificil": "Dos toques para el trío, o el defensor que roba tiene que conducir hasta el otro cuadrado en vez de pasar (propuesta)."
+ },
+ "adaptacion": "Prebenjamín y benjamín: 4 contra 1 en 12 × 12 m. Alevín: como está. Infantil: cuadrados de 8 × 10 m (medida de la fuente) y dos toques (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "3v1 Possession Game.",
+  "ref": "LeicesterCity.pdf · p. 72"
+ },
+ "completado": "Quién cruza a defender tras el robo, puntuación por trío, series, variantes y adaptación (propuesta). Edad bajada a 8–11 por ser un 3 contra 1 sencillo. Texto traducido y redactado con palabras propias.",
+ "diagrama": {
+  "field": [
+   20,
+   10
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 21.2,
+   "ymin": -1,
+   "ymax": 12.4
+  },
+  "tag": "2 cuadrados de 10 × 10 m",
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     10
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.4,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8.6,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5.2,
+    "y": 4.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 1.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18.4,
+    "y": 8.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.6,
+     1.8
+    ],
+    "b": [
+     8.4,
+     2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8.4,
+     2
+    ],
+    "b": [
+     5,
+     8.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     5.2,
+     4.6
+    ],
+    "b": [
+     12,
+     1.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     5.2,
+     4.6
+    ],
+    "b": [
+     14.5,
+     6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    5,
+    11.4,
+    "3 CONTRA 1"
+   ],
+   [
+    15,
+    11.4,
+    "ESPERAN 2"
+   ]
+  ]
+ }
+}

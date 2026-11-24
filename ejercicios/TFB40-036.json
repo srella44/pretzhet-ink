@@ -1,0 +1,232 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "TFB40-036",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Contra en tres carriles",
+ "formato": "3v2+1",
+ "edad": "12–18 años",
+ "nivel": "Alto",
+ "jugadores": "7–14 jug.",
+ "espacio": "70 × 50 m",
+ "duracion": "18 min",
+ "series": "4 series de 3 contraataques por grupo con 1′ de descanso; alterna la banda del primer pase (fuente). El perseguidor sale cuando el central recibe; tras cada acción rotan los grupos (fuente).",
+ "objetivo": "Contraatacar ocupando los tres carriles: el que recupera conduce por dentro, los extremos corren por fuera y todos llegan al área antes de 10″ (fuente). Errores típicos: el central pasa demasiado pronto, sin fijar; extremos que se meten por dentro y se estorban; los dos llegan al mismo palo. Consignas de la fuente: «¡Robo! Conduce y mira», «Extremos: pegados a la banda», «Uno al primer palo, otro al segundo».",
+ "montaje": "70 × 50 m con portería y portero. Abajo, el entrenador; delante, un central y dos extremos pegados a las bandas. Arriba, 2 defensores; detrás del central, un perseguidor.",
+ "juego": "El entrenador pasa al central y los extremos salen a tope. El central conduce hasta el medio campo, fija y abre a una banda; los otros, a primer y segundo palo. 10″ para tirar.",
+ "punto": "Gol: 1; antes de 8″: 2. Robo y salida: 1 a la defensa.",
+ "consigna": "Fija y abre.",
+ "variantes": {
+  "facil": "12″ para tirar, o el perseguidor no defiende (fuente).",
+  "dificil": "Un tercer defensor espera en el área, o el gol solo vale tras centro (fuente)."
+ },
+ "adaptacion": "Infantil: 12″ y sin perseguidor. Cadete: 10″ y perseguidor. Juvenil: 8″ y tercer defensor en el área (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Contraataque en tres carriles: robo en campo propio y gol en diez segundos",
+  "ref": "40 tareas de transiciones y oleadas · pág. 48"
+ },
+ "completado": "Ficha completa en la fuente (exclusiva del dossier). Diagrama en horizontal; colores cambiados a la leyenda del libro (atacantes amarillos, defensores azules).",
+ "diagrama": {
+  "field": [
+   70,
+   50
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 72,
+   "ymin": -1,
+   "ymax": 51
+  },
+  "tag": "70 × 50 m",
+  "porterias": [
+   {
+    "x": 70,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     35,
+     0
+    ],
+    [
+     35,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     54,
+     10
+    ],
+    [
+     70,
+     10
+    ]
+   ],
+   [
+    [
+     54,
+     10
+    ],
+    [
+     54,
+     40
+    ]
+   ],
+   [
+    [
+     54,
+     40
+    ],
+    [
+     70,
+     40
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -2.6,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 47,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 50,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 50,
+    "y": 32,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -2.6,
+     25
+    ],
+    "b": [
+     10,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     25
+    ],
+    "b": [
+     38,
+     25
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     3
+    ],
+    "b": [
+     52,
+     5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     38.5,
+     24.6
+    ],
+    "b": [
+     52,
+     5.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     10,
+     47
+    ],
+    "b": [
+     60,
+     34
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 5
+   },
+   {
+    "a": [
+     5,
+     34
+    ],
+    "b": [
+     30,
+     29
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": []
+ }
+}

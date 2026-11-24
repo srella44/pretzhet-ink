@@ -1,0 +1,174 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "RONDO-IN-F03",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Superioridad en oleadas",
+ "formato": "3v2+P",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + 2 P",
+ "espacio": "30 × 20 m",
+ "duracion": "12 min",
+ "series": "2 bloques de 5′ con 1′ de pausa; cada jugador ataca unas 6 veces (propuesta).",
+ "objetivo": "Atacar rápido en 3 contra 2 fijando al defensor antes de pasar y, al terminar, defender enseguida en inferioridad (fuente). Cómo explicarlo: «ataca al defensor para que se quede contigo y suelta en ese momento». Errores típicos: pasar antes de fijar; los tres por el centro; el que tira se queda mirando y no vuelve. Frase de refuerzo de la fuente: «Muy bien, has fijado al defensor antes de pasar».",
+ "montaje": "30 × 20 m con portería y portero en cada fondo (propuesta). Dos grupos de atacantes, cada uno en fila junto a una portería. Empiezan 3 atacantes contra 2 defensores.",
+ "juego": "3 contra 2 hacia una portería, 8″ (fuente). Al acabar, quien ha tirado defiende con un compañero contra 3 atacantes nuevos que salen enseguida desde el otro fondo hacia la otra portería (fuente).",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Fija al defensor antes de pasar.",
+ "variantes": {
+  "facil": "4 contra 2 (fuente).",
+  "dificil": "3 contra 3 con un defensor que llega tarde (fuente)."
+ },
+ "adaptacion": "Alevín: 4 contra 2 y 10″. Infantil: como está. Cadete: 3 contra 3 con uno que llega tarde y 6″ (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Superioridad en oleadas (IN-F03)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 17"
+ },
+ "completado": "Porterías con portero en los dos fondos, filas, series y adaptación (propuesta). Regla de 8″ tomada del «Hoy» de la sesión.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 32.4,
+   "ymin": -1,
+   "ymax": 22.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31.4,
+    "y": 3,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 31.4,
+    "y": 17,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     10
+    ],
+    "b": [
+     14.5,
+     10
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     3.5
+    ],
+    "b": [
+     21,
+     3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     14.8,
+     9.9
+    ],
+    "b": [
+     21.3,
+     3.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     21.6,
+     3.4
+    ],
+    "b": [
+     29.3,
+     8.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    15,
+    21.3,
+    "8 S PARA ACABAR"
+   ]
+  ]
+ }
+}

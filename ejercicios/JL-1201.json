@@ -1,0 +1,152 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "JL-1201",
+ "bloque": "Superioridades",
+ "titulo": "Pase entre zonas 2 contra 1",
+ "formato": "2v1",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug. por grupo",
+ "espacio": "18 × 12 m",
+ "duracion": "8 min",
+ "series": "3 × 2′; cada 2′ cambia el defensor (fuente). Con 4 tríos, en paralelo.",
+ "objetivo": "Pasar el balón al compañero de la otra zona a través del defensor: moverse por la zona para abrir la línea de pase, pase raso y tenso y control orientado (fuente). Cómo explicarlo: «si el defensor te tapa, da dos pasos y vuelve a aparecer». Errores típicos: el receptor se queda quieto detrás del defensor; pase flojo que se corta; el del balón no lo protege. Qué observar: si el atacante sin balón se mueve antes de que su compañero levante la cabeza.",
+ "montaje": "18 × 12 m en 3 zonas de 6 m. Un atacante en cada zona de los lados y el defensor en la central; nadie sale de su zona.",
+ "juego": "Los atacantes se pasan el balón cruzando la zona central y se mueven para abrir el pase. El defensor intenta cortar todos los pases que pueda en 2′; luego cambia (fuente).",
+ "punto": "Defensor: 1 por pase cortado. Atacantes: 1 cada 5 pases (propuesta).",
+ "consigna": "Muévete hasta ver el hueco.",
+ "variantes": {
+  "facil": "Zona central más estrecha (4 m) o defensor que solo se mueve a lo ancho (propuesta).",
+  "dificil": "Pase de primeras, o dos defensores en la zona central (2 contra 2 sin robo) (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: zonas de 8 m y pase con la mano si cuesta. Benjamín y alevín: como está. Infantil: a un toque (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos",
+  "titulo_original": "Juego técnico 2:1 | entrada 1201",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · p. 261"
+ },
+ "completado": "La fuente dice 15 × 12 m con zonas de 6 × 12 m (no cuadra): se usa 18 × 12 m. Qué pasa con el balón cortado, puntuación de los atacantes, variantes y adaptación (propuesta). Edad bajada a 8–11.",
+ "diagrama": {
+  "field": [
+   18,
+   12
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 19,
+   "ymin": -1,
+   "ymax": 13.4
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     6,
+     0,
+     12,
+     12
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15.5,
+     8.5
+    ],
+    "b": [
+     15.5,
+     3.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     2.5,
+     4
+    ],
+    "b": [
+     15.3,
+     3.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     9,
+     7
+    ],
+    "b": [
+     9,
+     4.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    9,
+    12.8,
+    "DEFENSOR"
+   ]
+  ]
+ }
+}

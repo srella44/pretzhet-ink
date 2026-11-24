@@ -1,0 +1,222 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "TFB100-037",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Tiro frontal y oleada 3v2",
+ "formato": "3v2+P",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "10–16 jug.",
+ "espacio": "50 × 45 m",
+ "duracion": "18 min",
+ "series": "3 series de 4 repeticiones por grupo con 1′30″ de descanso (fuente). Rotación: los de la acción 1 pasan a la oleada y los atacantes de la oleada, a defender (fuente).",
+ "objetivo": "Encadenar una combinación sin oposición que acaba en disparo desde la frontal con una oleada 3 contra 2 (fuente). Errores típicos: el pivote recibe de frente y no puede descargar; el 1 llega parado al tiro; en la oleada, los tres por el centro. Consignas de la fuente: «Descarga de cara», «Llega y golpea», «Abrid el campo», «Rápido en la superioridad».",
+ "montaje": "Medio campo con portería y portero. Acción 1: el 1 en el centro, uno en banda y un pivote. Acción 2: 3 atacantes en el medio campo y 2 defensores.",
+ "juego": "1) Sin oposición: el 1 abre a banda, esta juega con el pivote, que descarga al 1, y tira de fuera del área. 2) Al tirar, 3 contra 2 (12″). Luego rotan.",
+ "punto": "Gol de la frontal: 2. En el 3 contra 2: 1. Robo: 1 a la defensa.",
+ "consigna": "Llega y golpea.",
+ "variantes": {
+  "facil": "En la oleada, 3 contra 1 (fuente).",
+  "dificil": "Defensor pasivo sobre el pivote; tiro de primeras; 3 contra 3 con uno que vuelve; tras robo, contra a 2 minis; 10″ para la oleada (fuente)."
+ },
+ "adaptacion": "Alevín: oleada 2 contra 1. Infantil y cadete: 3 contra 2. Juvenil: 3 contra 2 con un defensor que vuelve (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Tiro desde la frontal y oleada 3 contra 2",
+  "ref": "100 tareas de fútbol base · pág. 51"
+ },
+ "completado": "Ficha completa en la fuente. Edad tomada de la ficha original (alevín a cadete). El diagrama muestra la acción 1; los de la oleada esperan en el medio campo.",
+ "diagrama": {
+  "field": [
+   50,
+   45
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 51.6,
+   "ymin": -1,
+   "ymax": 47
+  },
+  "tag": "medio campo 50 × 45 m",
+  "porterias": [
+   {
+    "x": 50,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     34,
+     7
+    ],
+    [
+     50,
+     7
+    ]
+   ],
+   [
+    [
+     34,
+     7
+    ],
+    [
+     34,
+     38
+    ]
+   ],
+   [
+    [
+     34,
+     38
+    ],
+    [
+     50,
+     38
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 22.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 36,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 12,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 22.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 33,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     22.5
+    ],
+    "b": [
+     25,
+     3.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     3.5
+    ],
+    "b": [
+     36,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     36,
+     19
+    ],
+    "b": [
+     27.5,
+     27
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     27.8,
+     27
+    ],
+    "b": [
+     49.3,
+     24
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   },
+   {
+    "a": [
+     14,
+     22.5
+    ],
+    "b": [
+     27,
+     28
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    2,
+    46.2,
+    "LUEGO: 3 CONTRA 2",
+    "start"
+   ]
+  ]
+ }
+}

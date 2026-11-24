@@ -1,0 +1,221 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "ATH-009",
+ "bloque": "Superioridades",
+ "titulo": "Cuatro contra tres y traslado",
+ "formato": "4v3 + 4",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "15 min",
+ "series": "3 bloques de 4′ con 1′ de pausa; cada bloque defiende un equipo distinto (propuesta).",
+ "objetivo": "Con un jugador más, salir de la presión del rival y llevar el balón a la otra zona; el que defiende en inferioridad aprende a presionar sin descanso y a cerrar el pase largo (fuente: superioridad y progresión). Cómo explicarlo: «sois cuatro contra tres: siempre hay uno libre, encontradlo». Errores típicos: pasar al otro rectángulo sin haber movido antes al rival; los que esperan, quietos y tapados; los 3 que presionan van todos al balón. Qué observar: si el equipo con balón busca al libre y si el defensor de la zona intermedia lee el pase largo.",
+ "montaje": "40 × 20 m: dos rectángulos de 15 m y una zona intermedia de 10 m (propuesta). Tres equipos de 4: uno en cada rectángulo; el tercero defiende con 3 donde está el balón y 1 en medio.",
+ "juego": "4 contra 3, presión libre. Tras 4 pases (propuesta), balón al otro rectángulo y 3 defensores cruzan. Si roban, pasan a tener el balón y quien perdió defiende.",
+ "punto": "Pase que llega: 1. Robo: 1 a la defensa (propuesta).",
+ "consigna": "Con uno más, busca al libre.",
+ "variantes": {
+  "facil": "El defensor de la zona intermedia no puede interceptar (propuesta).",
+  "dificil": "Dos toques, o el pase largo tiene que ir raso y de primeras (propuesta)."
+ },
+ "adaptacion": "Alevín: rectángulos de 15 × 15 m y 3 pases antes del cambio. Infantil: como está. Cadete: dos toques y 6 pases (propuesta).",
+ "fuente": {
+  "autor": "Athletic Club · Lezama 2005",
+  "titulo_original": "POSESIÓN INFERIORIDAD PRESIÓN LIBRE",
+  "ref": "Manual de ejercicios Athletic Club · p. 15"
+ },
+ "completado": "El texto de la fuente llega cortado («…el cuarto jugador que defiende lo hará en la zona…») y sin PDF a mano: medidas, número de pases, cambio de papeles, puntuación, series, variantes y adaptación son (propuesta). Revisar con el manual original si se puede.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 21.6
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15,
+     0,
+     25,
+     20
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 37.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 37.5,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3
+    ],
+    "b": [
+     12.5,
+     2.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12.5,
+     2.5
+    ],
+    "b": [
+     12.5,
+     17
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     12.5,
+     17
+    ],
+    "b": [
+     28,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     9.5,
+     12.5
+    ],
+    "b": [
+     29.5,
+     11
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    20,
+    20.9,
+    "ZONA INTERMEDIA"
+   ]
+  ]
+ }
+}

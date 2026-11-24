@@ -1,0 +1,170 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "TFB40-006",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Transiciones 2 contra 1",
+ "formato": "2v1+P",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ con 1′ de descanso (fuente).",
+ "objetivo": "Resolver ataques rápidos en 2 contra 1 fijando al defensor, con desdoblamientos y rupturas, y pasar a defender al terminar (fuente). Antes de empezar, el entrenador explica los desdoblamientos, las rupturas y cómo fijar al defensor y decidir (fuente). Errores típicos: la pareja pegada; el que se queda a defender tarda en darse cuenta; pase tarde, cuando el defensor ya ha robado. Consignas de la fuente: «Fija y decide», «Separaos», «Desdobla o rompe».",
+ "montaje": "30 × 25 m con portería y portero en cada fondo. Dos equipos, cada uno en fila junto a un poste de su portería. Empieza una pareja contra un defensor rival.",
+ "juego": "La pareja ataca y tiene 8″ para acabar. Al terminar, el último que tocó el balón sale; su compañero se queda a defender contra dos rivales nuevos, que atacan la otra portería. Y así, sin parar.",
+ "punto": "Cada gol: 1 para su equipo (fuente).",
+ "consigna": "Fija y decide; terminas y defiendes.",
+ "variantes": {
+  "facil": "Más tiempo por acción (fuente).",
+  "dificil": "El defensor que se queda puede pedir ayuda a un compañero tras 4″ (2 contra 2) (fuente)."
+ },
+ "adaptacion": "Prebenjamín: el defensor que se queda no puede robar hasta su mitad. Benjamín: defensa libre y 8″ para tirar (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Transiciones 2 contra 1 continuas",
+  "ref": "40 tareas de transiciones y oleadas · pág. 15"
+ },
+ "completado": "Ficha completa en la fuente. Edad tomada de la ficha original (prebenjamín y benjamín). Filas junto a los postes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 32.2,
+   "ymin": -1,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31.2,
+    "y": 17.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 31.2,
+    "y": 21.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 2.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 6.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     8
+    ],
+    "b": [
+     13.5,
+     9
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     17
+    ],
+    "b": [
+     18,
+     18
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     13.8,
+     9.1
+    ],
+    "b": [
+     18.3,
+     17.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     18.6,
+     17.8
+    ],
+    "b": [
+     29.3,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

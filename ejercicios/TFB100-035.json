@@ -1,0 +1,158 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "TFB100-035",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "El defensor que recupera",
+ "formato": "1v1+P",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "5–14 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 duelos por jugador con 1′ de descanso (fuente). Tiro desde fuera del área obligado por el defensor: 1 para él (fuente).",
+ "objetivo": "Defender un balón a la espalda: correr hacia la propia portería por el camino más corto, adelantar al atacante por dentro y ponerse entre él y la portería (fuente). Errores típicos: correr detrás del atacante en vez de hacia la portería; entrar por detrás y hacer falta; el atacante controla hacia fuera y pierde ángulo. Consignas de la fuente: «Adelántale por dentro», «Ponte entre él y la portería», «Pierna del lado del balón», «Sin falta».",
+ "montaje": "40 × 30 m con portería y portero. Atacante a 25 m de la portería; defensor 2–3 m detrás y a un lado. Entrenador en el medio campo.",
+ "juego": "El entrenador mete el balón al espacio. El atacante tiene 7″ para marcar; el defensor corre por dentro hacia su portería y se pone delante. Falta por detrás: penalti.",
+ "punto": "Gol: 1. Robo: 1 al defensor; robo y conducir al centro: 2.",
+ "consigna": "Corre hacia tu portería.",
+ "variantes": {
+  "facil": "El defensor sale al lado del atacante, sin desventaja (fuente).",
+  "dificil": "El defensor sale 5 m por detrás, o el balón va a un lado o al otro sin avisar (fuente)."
+ },
+ "adaptacion": "Alevín: el defensor sale a 1 m del atacante. Infantil: a 2 m. Cadete: a 3 m y el atacante puede tirar en cuanto controla (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Duelo de recuperación: el defensor que corre hacia su portería y adelanta al atacante",
+  "ref": "100 tareas de fútbol base · pág. 49"
+ },
+ "completado": "Ficha completa en la fuente. Edad tomada de la ficha original (alevín a cadete).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 41.6,
+   "ymin": -1,
+   "ymax": 32.8
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     26,
+     5
+    ],
+    [
+     40,
+     5
+    ]
+   ],
+   [
+    [
+     26,
+     5
+    ],
+    [
+     26,
+     25
+    ]
+   ],
+   [
+    [
+     26,
+     25
+    ],
+    [
+     40,
+     25
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 1.5,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 17.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     15
+    ],
+    "b": [
+     24,
+     11.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     12.5
+    ],
+    "b": [
+     23.5,
+     11.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12.5,
+     17.5
+    ],
+    "b": [
+     31,
+     15.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    13.5,
+    31.9,
+    "DEFENSOR: 2–3 M DETRÁS Y A UN LADO"
+   ]
+  ]
+ }
+}

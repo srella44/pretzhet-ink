@@ -1,0 +1,188 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "LU-P263",
+ "bloque": "Superioridades",
+ "titulo": "Rupturas en 2 contra 1",
+ "formato": "2v1+P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–17 jug.",
+ "espacio": "50 × 50 m",
+ "duracion": "15 min",
+ "series": "3 bloques de 5′, uno por cada ruptura y en el orden de la fuente; pausa de 1′ entre bloques (propuesta). Cada pareja repite unas 4 veces por bloque.",
+ "objetivo": "Combinar conducción, desmarque y pase en 2 contra 1 para llegar a finalizar: tres tipos de ruptura del compañero del poseedor (fuente). Cómo explicarlo: «tú llevas al defensor hacia ti; tu compañero elige por dónde romper y tú le das el balón por delante». Errores típicos: romper antes de que el poseedor haya fijado; pase al pie en vez de al espacio; desmarque en línea recta y en fuera de juego; el poseedor no levanta la cabeza. Qué observar: el momento del pase (cuando el defensor se compromete) y si la ruptura por banda acaba en centro con llegada al área.",
+ "montaje": "Medio campo con portería y portero. Parejas en fila en el medio campo; un defensor espera a 25 m de la portería (propuesta). Se trabajan 3 rupturas.",
+ "juego": "El del balón conduce al defensor y su compañero rompe: 1) por delante; 2) por detrás, al centro, a rematar; 3) por detrás, por banda, a centrar. Fijado el defensor, pase al espacio y tiro.",
+ "punto": "Gol: 1 a la pareja. Robo o tiro fuera: 1 al defensor (propuesta).",
+ "consigna": "Fija primero, luego pasa.",
+ "variantes": {
+  "facil": "Defensor pasivo que solo acompaña (propuesta).",
+  "dificil": "La pareja elige la ruptura sin avisar y el defensor sale a la vez desde un lado; 8″ para tirar (propuesta)."
+ },
+ "adaptacion": "Alevín: 35 m de campo, portería de fútbol 7 y solo las rupturas 1 y 2. Infantil: las tres. Cadete: con un segundo defensor que vuelve desde atrás (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · Pere Riera",
+  "titulo_original": "ACCIONES COMBINADAS CON BALÓN - Finalizaciones 5 (2x1)",
+  "ref": "300 ejercicios Level Up Coach · p. 263"
+ },
+ "completado": "La fuente da las 3 rupturas, 17 jugadores y 50 × 50 m. Posición del defensor, puntuación, series, variantes y adaptación (propuesta). El diagrama muestra la ruptura por fuera.",
+ "diagrama": {
+  "field": [
+   45,
+   40
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 46.6,
+   "ymin": -1,
+   "ymax": 43
+  },
+  "tag": "medio campo",
+  "porterias": [
+   {
+    "x": 45,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     29,
+     8
+    ],
+    [
+     45,
+     8
+    ]
+   ],
+   [
+    [
+     29,
+     8
+    ],
+    [
+     29,
+     32
+    ]
+   ],
+   [
+    [
+     29,
+     32
+    ],
+    [
+     45,
+     32
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 21,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 23,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 14,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     21
+    ],
+    "b": [
+     18,
+     19.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     11
+    ],
+    "b": [
+     32,
+     9
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     18.5,
+     19.4
+    ],
+    "b": [
+     31.5,
+     9.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     32,
+     9.4
+    ],
+    "b": [
+     44.3,
+     18
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    42.2,
+    "3 RUPTURAS · AQUÍ, POR FUERA"
+   ]
+  ]
+ }
+}

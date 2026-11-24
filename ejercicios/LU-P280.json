@@ -1,0 +1,260 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "LU-P280",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Pierde y temporiza",
+ "formato": "5v3 + 2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10–13 jug.",
+ "espacio": "35 × 30 m",
+ "duracion": "16 min",
+ "series": "4 bloques de 3′ con 1′ de pausa; en cada bloque cambian los 3 que defienden (propuesta). Con 13 jugadores, 3 de relevo entran en cada bloque.",
+ "objetivo": "Tras perder el balón, defender en inferioridad: el más cercano temporiza (frena al poseedor sin lanzarse) mientras los demás repliegan y vuelven a marcar (fuente: temporizar, replegar y continuar marcas). Con balón, circular de un carril a otro. Cómo explicarlo: «el primero no roba: frena; los demás llegan». Errores típicos: el primero se lanza y le superan; todos van al balón y dejan libres a los de fuera; los que roban se quedan dentro en vez de jugar con los de fuera. Qué observar: la distancia del que temporiza (1–2 m) y si los demás cierran el pase a los de fuera.",
+ "montaje": "35 × 30 m: rectángulo de 25 × 15 m en 3 carriles y zona de puntuación de 5 m (propuesta). Dentro, 5 contra 3; fuera, 2 más de los 3.",
+ "juego": "Los 5 conservan y, tras 3 pases, cambian de carril. Si los 3 roban, juegan con los de fuera para entrar conduciendo en la zona. Al perder, uno temporiza y el resto repliega.",
+ "punto": "Cambio de carril: 1. Entrar en la zona: 2 (propuesta).",
+ "consigna": "Uno frena, los demás vuelven.",
+ "variantes": {
+  "facil": "Los 5 pueden volver a la zona hasta que el balón salga del rectángulo; sin límite de tiempo (propuesta).",
+  "dificil": "Tras robo, 6″ para entrar en la zona; los 5 a dos toques (propuesta)."
+ },
+ "adaptacion": "Alevín: 4 contra 2 dentro y 1 fuera. Infantil: como está. Cadete: los de fuera pueden moverse por todo el contorno (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Situaciones de transición y temporización defensiva",
+  "ref": "300 ejercicios Level Up Coach · p. 280"
+ },
+ "completado": "La fuente da la mecánica (5 con balón, 3 defienden, robo y juego con los de fuera hacia la zona de puntuación; temporizar y replegar), 13 jugadores y 35 × 30 m. Rectángulo, carriles, zona de puntuación, número de pases, puntos, series, variantes y adaptación (propuesta). Edad 12–15 por la exigencia táctica.",
+ "diagrama": {
+  "field": [
+   35,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 36.5,
+   "ymin": -0.6,
+   "ymax": 30.6
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     25,
+     35,
+     30
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     5,
+     3
+    ],
+    [
+     30,
+     3
+    ]
+   ],
+   [
+    [
+     30,
+     3
+    ],
+    [
+     30,
+     18
+    ]
+   ],
+   [
+    [
+     30,
+     18
+    ],
+    [
+     5,
+     18
+    ]
+   ],
+   [
+    [
+     5,
+     18
+    ],
+    [
+     5,
+     3
+    ]
+   ],
+   [
+    [
+     13.3,
+     3
+    ],
+    [
+     13.3,
+     18
+    ],
+    "4 5"
+   ],
+   [
+    [
+     21.7,
+     3
+    ],
+    [
+     21.7,
+     18
+    ],
+    "4 5"
+   ],
+   [
+    [
+     0,
+     25
+    ],
+    [
+     35,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26.5,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 21.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 21.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     19,
+     12.5
+    ],
+    "b": [
+     28,
+     21.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     28,
+     21.5
+    ],
+    "b": [
+     28,
+     27.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     26.5,
+     15.5
+    ],
+    "b": [
+     26,
+     20.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     17.5,
+     5
+    ],
+    "b": [
+     21,
+     17
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    27.5,
+    "ZONA DE PUNTUACIÓN"
+   ]
+  ]
+ }
+}

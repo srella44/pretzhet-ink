@@ -1,0 +1,196 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "LEI-071",
+ "bloque": "Superioridades",
+ "titulo": "Ocho contra cuatro",
+ "formato": "4v4+4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 P",
+ "espacio": "50 × 30 m",
+ "duracion": "25 min",
+ "series": "4 partes de 5′ con 1′ de pausa; en cada parte cambia el equipo comodín, de modo que los tres equipos pasan por los tres papeles (propuesta).",
+ "objetivo": "Aprovechar una superioridad muy grande: jugar tranquilo con balón, hacer el campo grande y buscar el juego a uno o dos toques; los 4 que defienden aprenden a presionar juntos (fuente). Cómo explicarlo: «sois el doble: no hay prisa, hay espacio». Errores típicos: los 8 amontonados alrededor del balón; comodines escondidos detrás de un rival; los 4 que defienden presionan de uno en uno. Qué observar: si el equipo con balón abre las dos bandas y si, al robar, los 4 se dan cuenta de que ahora atacan con los comodines.",
+ "montaje": "50 × 30 m con portería y portero en cada fondo. Tres equipos de 4: dos juegan entre sí y el tercero, de comodines, va con el que tiene el balón (8 contra 4).",
+ "juego": "Reglas normales. Si los 4 que defienden roban, los comodines juegan con ellos y atacan la otra portería. Cada 5′ cambia el equipo comodín (propuesta).",
+ "punto": "Gol: 1. Gol tras 6 pases seguidos: 2 (propuesta).",
+ "consigna": "Campo grande y a uno o dos toques.",
+ "variantes": {
+  "facil": "Los comodines no pueden ser presionados (propuesta).",
+  "dificil": "Comodines a un toque, o el equipo que roba tiene 8″ para tirar (propuesta)."
+ },
+ "adaptacion": "Alevín: 40 × 25 m, 3 equipos de 3 (6 contra 3). Infantil: como está. Cadete: comodines a dos toques (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "8v4 3 team game. (Barcelona Game).",
+  "ref": "LeicesterCity.pdf · p. 78"
+ },
+ "completado": "Medidas tomadas de la fuente (30 × 50 m). Rotación del equipo comodín, puntuación, variantes y adaptación (propuesta). Texto traducido y redactado con palabras propias.",
+ "diagrama": {
+  "field": [
+   50,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 52,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 41,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 18.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     7
+    ],
+    "b": [
+     22,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     4
+    ],
+    "b": [
+     29,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     29,
+     14
+    ],
+    "b": [
+     41,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     41,
+     6
+    ],
+    "b": [
+     49.3,
+     13.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

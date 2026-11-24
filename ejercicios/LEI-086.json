@@ -1,0 +1,232 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "LEI-086",
+ "bloque": "Superioridades",
+ "titulo": "3v2 + 3v2 cambiando campo",
+ "formato": "6v4",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "65 × 20 m",
+ "duracion": "20 min",
+ "series": "4 bloques de 4′ con 1′ de pausa; tras cada bloque, 2 atacantes pasan a defender y 2 defensores a atacar (propuesta). Robo y salida conduciendo: 1 para la defensa (propuesta).",
+ "objetivo": "Atacar en superioridad en un campo y, cuando la defensa se cierra, cambiar el juego con un pase largo y raso al otro campo, donde los compañeros esperan en 3 contra 2 (fuente: comunicación entre campos, pase cruzado con las dos piernas). Cómo explicarlo: «si os cierran aquí, allí sobra uno». Errores típicos: pase de cambio flojo o por alto; los del otro campo quietos esperando; los defensores no cruzan a ayudar. Qué observar: el aviso del compañero lejano («¡cambia!») y si los defensores leen el cambio y cruzan a tiempo.",
+ "montaje": "Dos campos de 30 × 20 m separados por una franja libre de 5 m; cada campo, con 2 miniporterías en su fondo exterior (propuesta). En cada campo, 3 atacantes y 2 defensores.",
+ "juego": "Empieza un 3 contra 2 en un campo. Los atacantes no pisan la franja: cambian de campo con un pase. Los defensores sí la cruzan. Si roban, marcan conduciendo hasta la franja (propuesta).",
+ "punto": "Gol: 1; justo tras cambiar de campo: 2 (propuesta).",
+ "consigna": "Si te cierran, cambia de campo.",
+ "variantes": {
+  "facil": "Los defensores no pueden cruzar la franja (propuesta).",
+  "dificil": "Gol solo tras haber cambiado de campo, o atacantes a dos toques (propuesta)."
+ },
+ "adaptacion": "Alevín: campos de 25 × 15 m y 3 contra 1 en cada uno. Infantil: como está. Cadete: pase de cambio a un toque (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "3v2 + 3v2 on two goals each.",
+  "ref": "LeicesterCity.pdf · p. 97"
+ },
+ "completado": "La fuente solo da el reparto (6 contra 4), las medidas (2 campos de 30 × 20 m) y la regla de la franja. Anchura de la franja, colocación de las miniporterías (en el fondo exterior de cada campo), salida tras robo, puntuación, series, variantes y adaptación (propuesta). Texto traducido y redactado con palabras propias.",
+ "diagrama": {
+  "field": [
+   65,
+   20
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 66.4,
+   "ymin": -1,
+   "ymax": 21.6
+  },
+  "tag": "2 campos de 30 × 20 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     35,
+     20
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     35,
+     0
+    ],
+    [
+     35,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    65,
+    5,
+    "R"
+   ],
+   [
+    65,
+    15,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 23,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 13.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 51,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 57.5,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 56,
+    "y": 15.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     23,
+     9
+    ],
+    "b": [
+     16,
+     16
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     16,
+     16
+    ],
+    "b": [
+     42,
+     16
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     42,
+     16
+    ],
+    "b": [
+     51,
+     4.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     51,
+     4.5
+    ],
+    "b": [
+     64.3,
+     5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    32.5,
+    21,
+    "FRANJA: SOLO LA CRUZAN LOS DEFENSORES"
+   ]
+  ]
+ }
+}

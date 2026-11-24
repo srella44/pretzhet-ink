@@ -1,0 +1,225 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "TFB40-023",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Vallas, 2v1 y 3v2 de vuelta",
+ "formato": "2v1 → 3v2",
+ "edad": "10–18 años",
+ "nivel": "Alto",
+ "jugadores": "10–16 jug.",
+ "espacio": "60 × 40 m",
+ "duracion": "18 min",
+ "series": "3 series de 4 oleadas por grupo con 2′ de descanso: es muy intensa (fuente).",
+ "objetivo": "Atacar a máxima velocidad tras una salida de coordinación y transitar enseguida a defender un 3 contra 2 (fuente). Errores típicos: saltar las vallas mirando al suelo y salir tarde; en el 2 contra 1, pasar sin fijar; tras tirar, los 2 atacantes se quedan mirando. Consignas de la fuente: «Pies rápidos», «Sal mirando al balón», «Rápido a portería».",
+ "montaje": "60 × 40 m con portería y portero en cada fondo. En el centro, vallas para los 2 atacantes; delante, un defensor. En la banda, 2 compañeros del defensor.",
+ "juego": "A la señal, los 2 atacantes saltan las vallas y atacan en 2 contra 1: 10″. Al acabar, el defensor y los 2 de la banda atacan la otra portería en 3 contra 2: 10″. Luego, el siguiente grupo.",
+ "punto": "Cada gol: 1 para su equipo (fuente).",
+ "consigna": "Termina y defiende.",
+ "variantes": {
+  "facil": "Sin vallas y con el defensor más atrás (fuente).",
+  "dificil": "Salida a la señal del entrenador; defensor que sale a la vez desde un lado; tercera acción 4 contra 3; los del 3 contra 2 tienen que tocar los tres (fuente)."
+ },
+ "adaptacion": "Alevín: vallas bajas o picas en el suelo. Infantil y cadete: vallas de 30 cm. Juvenil: salida a la señal del entrenador (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Salida de velocidad con vallas, 2 contra 1 y 3 contra 2 de vuelta",
+  "ref": "40 tareas de transiciones y oleadas · pág. 34"
+ },
+ "completado": "Ficha completa en la fuente. Edad tomada de la ficha original (alevín a juvenil). Vallas dibujadas como líneas cortas.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 61.6,
+   "ymin": -3.4,
+   "ymax": 42.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     17,
+     13
+    ],
+    [
+     17,
+     17
+    ],
+    "1 0"
+   ],
+   [
+    [
+     20,
+     13
+    ],
+    [
+     20,
+     17
+    ],
+    "1 0"
+   ],
+   [
+    [
+     17,
+     23
+    ],
+    [
+     17,
+     27
+    ],
+    "1 0"
+   ],
+   [
+    [
+     20,
+     23
+    ],
+    [
+     20,
+     27
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 24,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 25,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     15
+    ],
+    "b": [
+     35,
+     14
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     25
+    ],
+    "b": [
+     45,
+     27
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     35.3,
+     14.1
+    ],
+    "b": [
+     45.3,
+     26.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     45.6,
+     26.6
+    ],
+    "b": [
+     59.3,
+     21.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    18.5,
+    41.9,
+    "VALLAS"
+   ],
+   [
+    30,
+    41.9,
+    "DESPUÉS: 3 CONTRA 2 HACIA LA OTRA PORTERÍA"
+   ]
+  ]
+ }
+}

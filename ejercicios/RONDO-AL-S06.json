@@ -1,0 +1,178 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "RONDO-AL-S06",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Contraataque rápido",
+ "formato": "4v4+P",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug. + 2 P",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "3 partes de 4′ con 1′ de pausa (propuesta).",
+ "objetivo": "Aprovechar el momento del robo: mirar a portería nada más recuperar y atacar rápido antes de que el rival se coloque (fuente). Cómo explicarlo: «el mejor momento para marcar es justo después de robar». Errores típicos: tras robar, pasar hacia atrás por costumbre; nadie se desmarca hacia delante; el equipo que pierde no vuelve. Frase de refuerzo de la fuente: «Contraataque rapidísimo: ahí está el gol».",
+ "montaje": "25 × 20 m con portería y portero en cada fondo (propuesta). Dos equipos de 4 (o 5). El entrenador, en la banda, cuenta en voz alta tras cada robo.",
+ "juego": "Partido normal. Cuando un equipo recupera el balón tiene 6″ para tirar (fuente): el entrenador los cuenta. Si no tira a tiempo, sigue el partido, pero su gol ya vale 1. Saques de banda con el pie (propuesta).",
+ "punto": "Gol al contraataque (en esos 6″): 2. Gol normal: 1 (fuente).",
+ "consigna": "Robas y miras a portería.",
+ "variantes": {
+  "facil": "8″ para el contraataque (fuente).",
+  "dificil": "4″ para el contraataque (fuente)."
+ },
+ "adaptacion": "Benjamín: 8″ y porterías pequeñas. Alevín: como está. Infantil: 4″ y 5 contra 5 (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Contraataque rápido (AL-S06)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 10"
+ },
+ "completado": "Porterías con portero, número por equipo, quién cuenta los segundos, saques, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 26.6,
+   "ymin": -1,
+   "ymax": 21.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14.5,
+    "y": 13.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11.5,
+     9
+    ],
+    "b": [
+     16.5,
+     3.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     16.5,
+     3.5
+    ],
+    "b": [
+     20.5,
+     5.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     18.5,
+     15
+    ],
+    "b": [
+     22,
+     12.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     20.8,
+     5.6
+    ],
+    "b": [
+     24.3,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    21,
+    "6 S PARA TIRAR TRAS ROBO"
+   ]
+  ]
+ }
+}

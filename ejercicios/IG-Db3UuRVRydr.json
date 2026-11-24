@@ -1,0 +1,171 @@
+{
+ "top": "",
+ "probado": false,
+ "id": "IG-Db3UuRVRydr",
+ "bloque": "Superioridades",
+ "titulo": "2 contra 1 y contra a minis",
+ "formato": "2v1+P",
+ "edad": "8–9 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "3 series de 3′ con 1′ de pausa; en cada jugada rotan los puestos (propuesta).",
+ "objetivo": "Atacar por dentro en 2 contra 1 y elegir bien: pasar si el defensor cierra el centro y conducir si salta al balón (fuente). El defensor aprende a robar y a salir rápido al contraataque. Cómo explicarlo: «si viene a por ti, pasa; si se queda, avanza tú». Errores típicos: los dos atacantes por el mismo lado; el que no lleva balón se para; tras perder, nadie vuelve a tapar. Qué observar: si el poseedor mira al defensor antes de decidir.",
+ "montaje": "25 × 20 m: portería con portero en un fondo y 2 miniporterías en las esquinas del otro; carril central de 10 m (propuesta). Parejas con balón junto a las minis; un defensor en medio.",
+ "juego": "La pareja ataca por el carril y tira; 8″ (propuesta). Si el defensor roba, marca en una mini. Rotan: atacante a defensor, defensor a portero y portero a la fila.",
+ "punto": "Gol: 1 para quien marque (propuesta).",
+ "consigna": "Si te cierra, pasa; si salta, conduce.",
+ "variantes": {
+  "facil": "Defensor que empieza en la portería y sale cuando la pareja entra en el carril (propuesta).",
+  "dificil": "Un segundo defensor sale con retraso desde un lado (2 contra 2), o gol solo de primeras (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: sin carril y portería sin portero. Benjamín: como está. Alevín: 6″ y carril de 8 m (propuesta).",
+ "fuente": {
+  "autor": "@edf.futebol (Instagram)",
+  "titulo_original": "Dos atacan por dentro y el defensor sale a miniportería",
+  "ref": "instagram.com/edf.futebol/reel/Db3UuRVRydr"
+ },
+ "completado": "La fuente da la mecánica y la consigna de observación. Medidas, ancho del carril, tiempo por jugada, orden de rotación, puntuación, series, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 26.4,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     0,
+     5
+    ],
+    [
+     25,
+     5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     25,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    2.5,
+    "L"
+   ],
+   [
+    0,
+    17.5,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     7.8
+    ],
+    "b": [
+     9.5,
+     7.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     12.2
+    ],
+    "b": [
+     15,
+     13.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     9.8,
+     7.6
+    ],
+    "b": [
+     15.3,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     15.5,
+     13
+    ],
+    "b": [
+     24.3,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}
