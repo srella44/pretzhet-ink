@@ -1,0 +1,212 @@
+{
+ "id": "TLC-0280",
+ "bloque": "Técnica y duelos",
+ "titulo": "Ten Hag: circuito",
+ "formato": "Circuito físico",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "12 min",
+ "series": "Cada estación dura 40 s y se cambia con 20 s de recuperación. 3 vueltas completas.",
+ "objetivo": "Activar fuerza, equilibrio y velocidad con balón en parte del circuito. Cómo explicarlo: técnica antes que velocidad, mantener postura en el equilibrio y calidad de pase pese al cansancio. Errores típicos: saltos sin amortiguar, perder el equilibrio y esprintar sin recuperar. Qué observar: postura y fatiga.",
+ "montaje": "Tres estaciones en 40 × 20 m: 1) 4 vallas bajas; 2) 2 bosu con un balón; 3) slalom de 4 conos y sprint de 6 m. Dos filas de 3 en la salida.",
+ "juego": "Dos a la vez: saltan las vallas, hacen 6 controles en equilibrio sobre el bosu y pasan el balón, y acaban con slalom y sprint. Rotan a la fila.",
+ "punto": "Sin puntos: gana quien hace más repeticiones limpias.",
+ "consigna": "Técnica primero.",
+ "variantes": {
+  "facil": "Sin balón en el equilibrio y vallas a 15 cm.",
+  "dificil": "Sin recuperación entre estaciones y pase con un toque."
+ },
+ "adaptacion": "Alevín (10–11): vallas muy bajas y 30 s. Infantil (12–13): como está. Cadete: 45 s y más repeticiones.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Erik ten Hag)",
+  "titulo_original": "ERIK TEN HAG, CIRCUITO FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/erik-ten-hag-circuito-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: circuito de fuerza, propiocepción con bosu y agilidad-velocidad, con balón en ciertas estaciones y rotación continua. Medidas, tiempos y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3.5,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    3,
+    3
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    12,
+    3
+   ],
+   [
+    26,
+    6
+   ],
+   [
+    28.5,
+    4.5
+   ],
+   [
+    31,
+    6
+   ],
+   [
+    33.5,
+    4.5
+   ]
+  ],
+  "discs": [
+   [
+    17,
+    4
+   ],
+   [
+    20,
+    4
+   ]
+  ],
+  "labels": [
+   [
+    7.5,
+    0.5,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    18.5,
+    0.5,
+    "BOSU",
+    "middle"
+   ],
+   [
+    30,
+    0.5,
+    "SLALOM",
+    "middle"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -1,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 38,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 38,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    18.5,
+    6.5
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     13,
+     5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     5
+    ],
+    "b": [
+     21,
+     5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     5
+    ],
+    "b": [
+     34,
+     5.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     34,
+     5.5
+    ],
+    "b": [
+     37,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 4
+   }
+  ]
+ }
+}

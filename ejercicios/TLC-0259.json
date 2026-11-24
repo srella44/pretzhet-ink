@@ -1,0 +1,139 @@
+{
+ "id": "TLC-0259",
+ "bloque": "Técnica y duelos",
+ "titulo": "Simeone: 1v1",
+ "formato": "1v1 vertical",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "6 turnos por jugador como atacante y como defensor; 30 s de pausa cada 3 turnos.",
+ "objetivo": "Duelo 1v1 con atacante agresivo y vertical y defensor que usa perfil, distancia y timing. Cómo explicarlo: el atacante busca portería sin dar vueltas; el defensor se pone de lado y guía. Errores típicos: atacante que se para, defensor que se lanza y que no recupera tras ser superado. Qué observar: vertical y recuperación.",
+ "montaje": "20 × 20 m. Portería de 3 m con 2 conos en un lado. A 14 m, atacante con balón; a 5 m delante, el defensor. Los otros 4, en dos filas junto a la salida.",
+ "juego": "Salen a la vez: el atacante busca el tiro en menos de 6 s; el defensor perfila, guía y trata de robar. Rota: atacante a defensor y defensor al final de la fila.",
+ "punto": "Gol: 1 punto. Robo, fuera o sin tiro en 6 s: 1 punto al defensor.",
+ "consigna": "Vertical y valiente; defiende de lado.",
+ "variantes": {
+  "facil": "10 s para tirar y portería de 4 m.",
+  "dificil": "Portero en la portería y 5 s para tirar."
+ },
+ "adaptacion": "Alevín (10–11): 12 m al gol y 8 s. Infantil (12–13): como está. Cadete: portero y salida con pase previo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Diego Simeone)",
+  "titulo_original": "SIMEONE 1X1",
+  "ref": "toplidercoach.com/simeone-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: rueda de jugadores con acción ofensiva y defensiva por serie, ataque directo y vertical, defensor trabajando perfil y timing, con posibles porterías o portero. Distancias, tiempo de 6 s y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 24,
+   "ymin": -2,
+   "ymax": 22.5
+  },
+  "goals": [
+   [
+    20,
+    10,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 3,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 17,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 1,
+    "y": 6,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 1,
+    "y": 14,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     10
+    ],
+    "b": [
+     13,
+     9
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     11
+    ],
+    "b": [
+     14,
+     11
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     9
+    ],
+    "b": [
+     19.3,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

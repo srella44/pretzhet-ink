@@ -1,0 +1,187 @@
+{
+ "id": "TLC-0244",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rose: zonas 4v4",
+ "formato": "4v4 a zona rival",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "12 min",
+ "series": "Partidos de 3 min; el que pierde rota y descansa. Total: 4 rondas, 1 min de pausa entre rondas.",
+ "objetivo": "Progresar con dirección y buscar profundidad aunque falten efectivos atrás. Cómo explicarlo: quien ocupa la zona rival aparece en el momento justo y el poseedor mira antes de arriesgar. Errores típicos: pase sin timing, todos atacando a la vez y quedar sin cobertura. Qué observar: cómo se reorganiza el equipo.",
+ "montaje": "30 × 20 m con línea central y zona de gol de 4 m en cada fondo. 4v4 y un equipo de 4 espera fuera con petos. Un balón en el equipo que saca.",
+ "juego": "Cada equipo busca entrar en la zona rival con el balón controlado, conduciendo o con pase a un compañero que ya esté dentro. Tras el punto, saca el que lo recibe.",
+ "punto": "Entrada con control: 1 punto. Gana el primero a 3.",
+ "consigna": "Llega a la zona en el momento justo.",
+ "variantes": {
+  "facil": "Dos comodines por fuera y sin límite de toques.",
+  "dificil": "Máximo 2 toques y un solo jugador permitido en la zona rival."
+ },
+ "adaptacion": "Alevín (10–11): zona de 6 m y 3v3. Infantil (12–13): como está. Cadete: 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Marco Rose)",
+  "titulo_original": "MARCO ROSE, COMPETICIÓN ALCANZAR ZONAS",
+  "ref": "toplidercoach.com/marco-rose-competicion-alcanzar-zonas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 4v4 en unos 30×20 m con dos zonas, entrar en la zona rival conduciendo o con pase, el equipo que marca permanece y el que pierde rota. Zonas de gol, puntuación, 3 equipos y rondas propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 25
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     4,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     26,
+     0,
+     30,
+     20
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 22.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 22.5,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     14,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     10
+    ],
+    "b": [
+     22,
+     17
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     17
+    ],
+    "b": [
+     27.5,
+     13
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

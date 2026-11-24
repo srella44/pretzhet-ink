@@ -1,0 +1,280 @@
+{
+ "id": "TLC-0355",
+ "bloque": "Técnica y duelos",
+ "titulo": "Xavi: circuito",
+ "formato": "Circuito físico",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "28 × 24 m",
+ "duracion": "12 min",
+ "series": "4 carriles de 3 jugadores; 3 vueltas por jugador con 20 s de pausa entre salidas.",
+ "objetivo": "Activar agilidad, velocidad y coordinación al inicio de la sesión, sin balón o con un pase final sencillo. Cómo explicarlo: empezar suave y subir; apoyos rápidos y cuerpo firme. Errores típicos: pisar los aros, parar entre estaciones y colas. Qué observar: técnica de carrera y apoyos.",
+ "montaje": "4 carriles de 28 m a 6 m con 3 jugadores cada uno. En cada carril: 3 aros de zancadas, 3 conos de slalom a 2 m y sprint de 8 m al cono.",
+ "juego": "Sale el primero: zancadas por los aros, slalom con cambios de ritmo y sprint al cono; vuelve trotando al final de su fila. El siguiente sale al pasar el anterior los aros.",
+ "punto": "Sin puntos: gana el carril con menos errores en 3 vueltas.",
+ "consigna": "Apoyos rápidos y sin pisar los aros.",
+ "variantes": {
+  "facil": "Slalom sin cambio de ritmo y sprint de 5 m.",
+  "dificil": "Con balón: conducción en el slalom y pase final."
+ },
+ "adaptacion": "Alevín (10–11): zancadas más cortas y sprint de 5 m. Infantil (12–13): como está. Cadete: con balón y pase final.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Xavi Hernández)",
+  "titulo_original": "XAVI HERNÁNDEZ,CIRCUITO FÍSICO",
+  "ref": "toplidercoach.com/fc-barcelona-circuito-fisico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: filas con grupos reducidos en secuencia de zancadas, saltos, cambios de ritmo, agilidad con conos o escaleras y gesto técnico sencillo, con rotación continua. Medidas, series y puntuación propuestas; sin balón, como indica la fuente (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   28,
+   24
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 30,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "dashed": true,
+  "discs": [
+   [
+    7,
+    3
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    11,
+    3
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    9,
+    9
+   ],
+   [
+    11,
+    9
+   ],
+   [
+    7,
+    15
+   ],
+   [
+    9,
+    15
+   ],
+   [
+    11,
+    15
+   ],
+   [
+    7,
+    21
+   ],
+   [
+    9,
+    21
+   ],
+   [
+    11,
+    21
+   ]
+  ],
+  "cones": [
+   [
+    14,
+    3
+   ],
+   [
+    16,
+    4.2
+   ],
+   [
+    18,
+    3
+   ],
+   [
+    14,
+    9
+   ],
+   [
+    16,
+    10.2
+   ],
+   [
+    18,
+    9
+   ],
+   [
+    14,
+    15
+   ],
+   [
+    16,
+    16.2
+   ],
+   [
+    18,
+    15
+   ],
+   [
+    14,
+    21
+   ],
+   [
+    16,
+    22.2
+   ],
+   [
+    18,
+    21
+   ],
+   [
+    26,
+    3
+   ],
+   [
+    26,
+    9
+   ],
+   [
+    26,
+    15
+   ],
+   [
+    26,
+    21
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 21,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.5,
+     3
+    ],
+    "b": [
+     12,
+     3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     3.2
+    ],
+    "b": [
+     19.5,
+     3.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     21,
+     3
+    ],
+    "b": [
+     25.5,
+     3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,191 @@
+{
+ "id": "TLC-0266",
+ "bloque": "Técnica y duelos",
+ "titulo": "Flick: sprint",
+ "formato": "Conducción y agilidad",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; sale la fila 1 y, al acabar, la fila 2.",
+ "objetivo": "Activar con conducción técnica, agilidad y sprint final. Cómo explicarlo: conducir pegado, pasar con calidad y entrar en la escalera sin perder velocidad; el sprint final es lo más intenso. Errores típicos: pase flojo, pisar la escalera y no acelerar al final. Qué observar: transición de técnica a físico.",
+ "montaje": "Dos carriles de 40 m a 8 m. En cada uno: 3 conos de zigzag, zona de pase a 15 m con un compañero y escalera de 4 aros. Los demás esperan en fila.",
+ "juego": "Salen 2 a la vez con balón: zigzag con recorte, pase al compañero y, sin balón, escalera y sprint de 8 m. El compañero se queda; el que sale va al final de la fila.",
+ "punto": "Carrera entre carriles: llega primero con pase limpio, 1 punto.",
+ "consigna": "Conduce pegado y sprint al final.",
+ "variantes": {
+  "facil": "Sin sprint final y zigzag recto.",
+  "dificil": "Pase a un toque y estímulo sonoro para empezar el sprint."
+ },
+ "adaptacion": "Alevín (10–11): carril de 25 m. Infantil (12–13): como está. Cadete: pase con control orientado previo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Hansi Flick)",
+  "titulo_original": "HANSI FLICK, FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/hansi-flick-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: dos filas paralelas con balón, conducción con habilidad, pase a zona o compañero, escalera o conos y carrera progresiva o sprint final. Medidas, series y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "cones": [
+   [
+    7,
+    7
+   ],
+   [
+    10,
+    9
+   ],
+   [
+    13,
+    7
+   ],
+   [
+    7,
+    21
+   ],
+   [
+    10,
+    23
+   ],
+   [
+    13,
+    21
+   ]
+  ],
+  "discs": [
+   [
+    24,
+    8
+   ],
+   [
+    26,
+    8
+   ],
+   [
+    28,
+    8
+   ],
+   [
+    30,
+    8
+   ],
+   [
+    24,
+    22
+   ],
+   [
+    26,
+    22
+   ],
+   [
+    28,
+    22
+   ],
+   [
+    30,
+    22
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -0.5,
+    "y": 11,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -0.5,
+    "y": 25,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     8
+    ],
+    "b": [
+     14,
+     8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     8
+    ],
+    "b": [
+     17.5,
+     10.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     8
+    ],
+    "b": [
+     38,
+     8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

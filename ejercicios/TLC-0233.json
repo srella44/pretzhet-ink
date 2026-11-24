@@ -1,0 +1,174 @@
+{
+ "id": "TLC-0233",
+ "bloque": "Calentamiento",
+ "titulo": "Kompany: recorrido",
+ "formato": "Recorrido con tiro",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "12 min",
+ "series": "5 recorridos por jugador, 1 min de pausa entre rondas. Si hay dos equipos, cada uno monta su recorrido.",
+ "objetivo": "Encadenar conducción rápida, pase de precisión, carrera y tiro final con la técnica intacta. Cómo explicarlo: cabeza arriba en la conducción, cuerpo orientado en el pase y tiro con precisión, no con potencia. Errores típicos: conducción larga, pase fuera de diana y tiro sin calma. Qué observar: técnica cuando llega el cansancio.",
+ "montaje": "Salida con balón. A 11 m, cono de giro; a 12 m, compañero con diana de 2 m. A la derecha, balón parado y zona de 4 × 4 m. Portería de 3 m con servidor con balones.",
+ "juego": "Conduce a velocidad, gira y pasa raso al compañero. Sprint al balón parado, lo lleva a la zona, recibe otro balón del servidor y tira a la portería pequeña.",
+ "punto": "Pase en diana: 1. Balón en zona: 1. Gol: 2.",
+ "consigna": "Conduce, pasa en diana y tira sin prisa.",
+ "variantes": {
+  "facil": "Sin oposición y sin tiempo límite.",
+  "dificil": "Tiempo límite de 20 s y defensor pasivo en el tiro."
+ },
+ "adaptacion": "Alevín (10–11): recorrido de 20 m y portería de 4 m. Infantil (12–13): como está. Cadete: 20 s y distintas superficies de golpeo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Vincent Kompany)",
+  "titulo_original": "KOMPANY, TÉCNICA+VELOCIDAD",
+  "ref": "toplidercoach.com/kompany-tecnicavelocidad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: conducción veloz, giro, pase de precisión, carrera a balón estático que se traslada, nuevo balón y tiro a precisión; dos escenarios simétricos opcionales. Medidas y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 34,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "goals": [
+   [
+    30,
+    10,
+    "R"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     20,
+     3,
+     26,
+     9
+    ]
+   }
+  ],
+  "cones": [
+   [
+    14,
+    16
+   ],
+   [
+    14,
+    3
+   ]
+  ],
+  "balls": [
+   [
+    24,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     16
+    ],
+    "b": [
+     13,
+     16
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     16
+    ],
+    "b": [
+     14,
+     3.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     23.5,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     24,
+     14
+    ],
+    "b": [
+     22,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 4
+   },
+   {
+    "a": [
+     27,
+     14
+    ],
+    "b": [
+     23,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 5
+   }
+  ]
+ }
+}

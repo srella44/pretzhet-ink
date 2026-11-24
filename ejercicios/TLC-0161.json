@@ -1,0 +1,152 @@
+{
+ "id": "TLC-0161",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Kovac: rueda en V",
+ "formato": "Rueda con pared",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; en la 3.ª serie, con un toque.",
+ "objetivo": "Mecanizar paredes, perfiles de recepción y pase en ventaja con cambio de ritmo tras la pared. Cómo explicarlo: el pase va al espacio por delante del compañero, no al pie; tras devolver la pared se acelera de inmediato. Errores típicos: quedarse parado tras la pared, pase débil y rotar mal. Qué observar: cuerpo orientado y ritmo.",
+ "montaje": "V de 20 × 20 m: conos en los extremos y la punta, y un jugador en cada rama. El balón empieza en el extremo izquierdo.",
+ "juego": "El extremo pasa a la punta, que pasa al otro extremo y arranca hacia la rama: pared obligatoria con devolución de primeras. Todos rotan en sentido antihorario.",
+ "punto": "Sin puntos: rondas sin fallo en 2 min; objetivo 8.",
+ "consigna": "Pase al espacio y acelera tras la pared.",
+ "variantes": {
+  "facil": "Dos toques por jugador y ritmo suave.",
+  "dificil": "Un toque en la pared y 2 balones a la vez."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y distancias de 8 m. Infantil (12–13): como está. Cadete: 1 toque y balones a la vez.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Niko Kovac)",
+  "titulo_original": "NIKO KOVAC RUEDA DE PASES",
+  "ref": "toplidercoach.com/niko-kovac-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: formación en V con 5 jugadores, pared obligatoria en un vértice, cambio de ritmo y rotación antihoraria. Posición de las ramas, series, puntuación y objetivo de rondas propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "dashed": true,
+  "cones": [
+   [
+    2,
+    2
+   ],
+   [
+    18,
+    2
+   ],
+   [
+    10,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3.5,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 17,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 3.5,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3.5
+    ],
+    "b": [
+     10,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     17
+    ],
+    "b": [
+     18,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     16
+    ],
+    "b": [
+     14,
+     7
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     18,
+     3.5
+    ],
+    "b": [
+     14.5,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ]
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "id": "TLC-0147",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Arbeloa: perfiles",
+ "formato": "Rueda en 2 filas",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; en la 3.ª serie se cambia el sentido de giro.",
+ "objetivo": "Mejorar el control orientado, la devolución precisa y la conducción tras el control. Cómo explicarlo: antes de recibir, mirar y poner el cuerpo de lado para controlar hacia dentro y conducir sin frenar. Errores típicos: recibir de frente, pase largo sin ajustar la fuerza y rotar a la posición equivocada. Qué observar: perfil corporal y ritmo.",
+ "montaje": "Dos filas de 4 conos a 8 m (8 m entre conos), un jugador en cada cono y 2 balones por fila, en los extremos. Cada uno tiene enfrente a otro de la otra fila.",
+ "juego": "El del extremo pasa al de enfrente, que devuelve. Controla hacia dentro, conduce 4 m en diagonal y pasa largo al cono libre del otro extremo. Los 2 balones circulan a la vez.",
+ "punto": "Sin puntos: pases seguidos sin fallo; superar 20.",
+ "consigna": "Controla de lado y conduce sin frenar.",
+ "variantes": {
+  "facil": "Solo 1 balón por fila y pase largo a 6 m.",
+  "dificil": "Control y pase a 2 toques y un tercer balón en la rueda."
+ },
+ "adaptacion": "Alevín (10–11): distancias de 6 m y sin límite de toques. Infantil (12–13): como está. Cadete: 2 toques y 3 balones.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Álvaro Arbeloa)",
+  "titulo_original": "ARBELOA PASES PERFILES",
+  "ref": "toplidercoach.com/arbeloa-pases-perfiles/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 2 filas paralelas de 4 posiciones, 2 balones por fila, pase al interior frontal, devolución, control orientado, conducción en diagonal y pase a la posición lejana. Distancias, series y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 14,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 14,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 14,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 14,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "cones": [
+   [
+    3,
+    4.2
+   ],
+   [
+    11,
+    4.2
+   ],
+   [
+    19,
+    4.2
+   ],
+   [
+    27,
+    4.2
+   ],
+   [
+    3,
+    15.8
+   ],
+   [
+    11,
+    15.8
+   ],
+   [
+    19,
+    15.8
+   ],
+   [
+    27,
+    15.8
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     6
+    ],
+    "b": [
+     3,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     14
+    ],
+    "b": [
+     6.6,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     26,
+     5.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3,
+    "nt": 0.45
+   }
+  ]
+ }
+}

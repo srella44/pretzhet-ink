@@ -1,0 +1,202 @@
+{
+ "id": "TLC-0231",
+ "bloque": "Técnica y duelos",
+ "titulo": "Emery: pase",
+ "formato": "Pase y agilidad",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug.",
+ "espacio": "18 × 28 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; cada serie cambia la acción del circuito.",
+ "objetivo": "Activar pase corto y agilidad a la vez. Cómo explicarlo: pasar con precisión, ir directo a la estación y volver al final de la fila sin estorbar la línea de pase. Errores típicos: pase al pie flojo, material en la línea de pase y filas desordenadas. Qué observar: calidad del pase pese al esfuerzo.",
+ "montaje": "4 carriles de 12 m con 2 jugadores por extremo, a 7 m. A 2,5 m de cada carril, 3 aros o conos sin tapar el pase. Un balón por carril.",
+ "juego": "El primero pasa al de enfrente y corre a su estación: 3 saltos con aros y vuelta a su fila. El que recibe controla, devuelve y hace lo mismo. Ritmo continuo.",
+ "punto": "Sin puntos: pases seguidos sin fallo; objetivo, 30 en 2 min.",
+ "consigna": "Pasa preciso y activa.",
+ "variantes": {
+  "facil": "Pase a 2 toques y estación de conos.",
+  "dificil": "Pase a un toque y estación de vallas bajas con giro."
+ },
+ "adaptacion": "Alevín (10–11): carril de 8 m y 2 toques. Infantil (12–13): como está. Cadete: 1 toque y control orientado previo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Unai Emery)",
+  "titulo_original": "EMERY, FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/emery-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 4 filas enfrentadas en parejas con pase corto y estaciones físicas paralelas a la línea de pase, sin interponerse. Medidas, series y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   18,
+   28
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 20.5,
+   "ymin": -2,
+   "ymax": 30
+  },
+  "dashed": true,
+  "discs": [
+   [
+    6,
+    6.5
+   ],
+   [
+    9,
+    6.5
+   ],
+   [
+    12,
+    6.5
+   ],
+   [
+    6,
+    13.5
+   ],
+   [
+    9,
+    13.5
+   ],
+   [
+    12,
+    13.5
+   ],
+   [
+    6,
+    20.5
+   ],
+   [
+    9,
+    20.5
+   ],
+   [
+    12,
+    20.5
+   ],
+   [
+    6,
+    27.5
+   ],
+   [
+    9,
+    27.5
+   ],
+   [
+    12,
+    27.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 25,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     9,
+     6.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   }
+  ]
+ }
+}

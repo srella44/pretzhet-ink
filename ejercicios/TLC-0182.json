@@ -1,0 +1,146 @@
+{
+ "id": "TLC-0182",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Gurbanov: rueda",
+ "formato": "Rueda tipo rondo",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; cambio de sentido cada vuelta o a la señal.",
+ "objetivo": "Trabajar paredes rápidas y tercer hombre con circulación continua por ambos perfiles. Cómo explicarlo: dos toques máximo, el pase llega al pie bueno y se orienta el cuerpo hacia el siguiente. Errores típicos: pases flojos, perder el perfil y parar la rueda. Qué observar: comunicación y fluidez.",
+ "montaje": "Pentágono de 30 × 30 m con 5 conos a 12 m y un balón en el de arriba. Si hay más jugadores, otra rueda con su balón.",
+ "juego": "Alternan: pared (A pasa a B, B devuelve de primeras y A pasa a C) y tercer hombre (A a B, B toca a C). Cada uno va al cono al que pasa. A la señal, cambio de sentido.",
+ "punto": "Sin puntos: vueltas sin fallo; superar 10. Si falla, de cero.",
+ "consigna": "Pared rápida y tercer hombre sin pausas.",
+ "variantes": {
+  "facil": "Tres toques y pase a 8 m.",
+  "dificil": "Un toque en la pared y 2 balones a la vez."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y 8 m entre conos. Infantil (12–13): como está. Cadete: 1 toque y cambio por señal visual.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Gurbanov)",
+  "titulo_original": "GURBANOV, RUEDA DE PASES",
+  "ref": "toplidercoach.com/gurbanov-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: rueda tipo rondo de 5 jugadores con paredes y tercer hombre, ambos perfiles y cambio de sentido. Distancias, series y puntuación propuestas; ignorados los muñecos y porterías que menciona el resumen (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "dashed": true,
+  "nofield": true,
+  "cones": [
+   [
+    15,
+    3
+   ],
+   [
+    26,
+    11
+   ],
+   [
+    21,
+    25
+   ],
+   [
+    9,
+    25
+   ],
+   [
+    4,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 11,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 24,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 24,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 11,
+    "f": 45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     4.5
+    ],
+    "b": [
+     24.5,
+     10.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     11
+    ],
+    "b": [
+     15.8,
+     5.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     5.5
+    ],
+    "b": [
+     20,
+     23
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

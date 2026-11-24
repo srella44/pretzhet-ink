@@ -1,0 +1,166 @@
+{
+ "id": "TLC-0199",
+ "bloque": "Técnica y duelos",
+ "titulo": "Howe: slalom",
+ "formato": "Circuito y remate",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug.",
+ "espacio": "36 × 30 m",
+ "duracion": "12 min",
+ "series": "3 vueltas por jugador; 30 s de pausa entre vueltas. Máximo 4 jugadores esperando en la fila.",
+ "objetivo": "Unir una acción física (velocidad y agilidad) con una combinación y un remate. Cómo explicarlo: salir fuerte del slalom, mirar al pasador y devolver de primeras. Errores típicos: salir antes de tiempo, filas largas y rematar sin orientar el cuerpo. Qué observar: coordinación de salidas y calidad del remate cansado.",
+ "montaje": "36 × 30 m. Slalom de 4 conos a 2,5 m a la izquierda; un pasador con balones en el centro; un delantero a 8 m de la portería de 6 m con portero. El resto en fila tras el primer cono.",
+ "juego": "El 1.º hace el slalom a máxima velocidad. El pasador le da el balón, combina con el delantero (pared) y remata. Rota: slalom, pasador, delantero, fila.",
+ "punto": "Gol: 1 punto. Gana quien más goles haga en 3 vueltas.",
+ "consigna": "Slalom veloz, pared y remate.",
+ "variantes": {
+  "facil": "Slalom a ritmo medio y sin portero.",
+  "dificil": "Pared a un toque y remate en menos de 4 s tras el slalom."
+ },
+ "adaptacion": "Alevín (10–11): slalom de 6 m y portería de 5 m. Infantil (12–13): como está. Cadete: 4 vueltas y remate a un toque.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Eddie Howe)",
+  "titulo_original": "EDDIE HOWE FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/eddie-howe-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: acción física, balón desde el centro, combinación y finalización, rotación por todas las posiciones y máximo 4 jugadores en la fila. Slalom, medidas, puntuación y vueltas propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 40,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 36,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    5,
+    22
+   ],
+   [
+    7.5,
+    24.5
+   ],
+   [
+    10,
+    22
+   ],
+   [
+    12.5,
+    24.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 10,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 26.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 27.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     23
+    ],
+    "b": [
+     14,
+     23
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     10
+    ],
+    "b": [
+     15,
+     21
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     22
+    ],
+    "b": [
+     27,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     27,
+     19
+    ],
+    "b": [
+     35.5,
+     15.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

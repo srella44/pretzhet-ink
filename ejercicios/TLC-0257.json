@@ -1,0 +1,156 @@
+{
+ "id": "TLC-0257",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Simeone: paredes",
+ "formato": "Rueda con 2 balones",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "24 × 24 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; cada serie cambia el sentido.",
+ "objetivo": "Contacto continuo con el balón, paredes y sincronía entre dos balones. Cómo explicarlo: pasar y moverse, con el cuerpo orientado hacia quien viene. Errores típicos: pasar y quedarse parado, rotar al sitio equivocado y chocar los dos balones. Qué observar: comunicación y fluidez.",
+ "montaje": "Ocho conos en anillo de 24 × 24 m, a unos 9 m, con un jugador en cada uno. Dos balones en conos opuestos.",
+ "juego": "Quien tiene el balón pasa al cono siguiente, que devuelve de primeras. Luego pasa al cono dos más allá y ocupa el sitio del compañero al que pasó. Los dos balones circulan a la vez.",
+ "punto": "Sin puntos: vueltas sin parar ningún balón; objetivo, 8 seguidas.",
+ "consigna": "Pasa, devuelve y rota a la siguiente estación.",
+ "variantes": {
+  "facil": "Un solo balón y 2 toques.",
+  "dificil": "Un toque, sentido contrario a la señal y un tercer balón."
+ },
+ "adaptacion": "Alevín (10–11): 1 balón y distancias de 6 m. Infantil (12–13): como está. Cadete: 1 toque y 3 balones.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Diego Simeone)",
+  "titulo_original": "SIMEONE, RUEDA DE PASES, PAREDES",
+  "ref": "toplidercoach.com/simeone-rueda-de-pases-paredes/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: estructura de pases y paredes en circuito con estaciones fijas, inicio con 2 balones y rotación. Número de estaciones, secuencia exacta, series y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   24,
+   24
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 26.5,
+   "ymin": -2.5,
+   "ymax": 26.5
+  },
+  "dashed": true,
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 21,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     12,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     3
+    ],
+    "b": [
+     4,
+     4.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     21,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     11,
+     3
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}

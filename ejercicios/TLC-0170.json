@@ -1,0 +1,200 @@
+{
+ "id": "TLC-0170",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Farke: hexágono",
+ "formato": "Rueda con 2 balones",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min con 30 s de pausa; los 2 de relevo entran a cada serie.",
+ "objetivo": "Sincronizar a dos parejas que se cruzan, con pase en perfiles opuestos y control orientado. Cómo explicarlo: los dos de la base salen a la vez y se cruzan sin chocar; cada uno juega con el lateral del lado contrario. Errores típicos: salir descompasados, cruzar demasiado pegados y rotar al sitio equivocado. Qué observar: ritmo común y concentración.",
+ "montaje": "Hexágono de 30 × 30 m con 6 conos: 3 por lado, a 10 m. Un jugador por cono; los 2 de la base con balón. Otros 2 esperan detrás.",
+ "juego": "Los 2 de la base salen a la vez y se cruzan conduciendo. Cada uno pasa al lateral contrario, que juega al de arriba; este pasa a la nueva base. Todos rotan al cono al que pasaron.",
+ "punto": "Sin puntos: vueltas sin tocarse ni parar; objetivo 10.",
+ "consigna": "Salid a la vez y cruzad sin chocar.",
+ "variantes": {
+  "facil": "Un solo balón y salida alterna.",
+  "dificil": "Dos toques máximo y sentido contrario a la señal."
+ },
+ "adaptacion": "Alevín (10–11): 1 balón y cono a 6 m. Infantil (12–13): como está. Cadete: 2 toques y señal de cambio de sentido.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Daniel Farke)",
+  "titulo_original": "DANIEL FARKE RUEDA DE PASES",
+  "ref": "toplidercoach.com/daniel-farke-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: hexágono de 6 posiciones, 2 balones, salida simultánea desde la base con cruce, asociación con el lateral del perfil contrario y rotación hacia el cono al que se pasa. Último pase de cierre, medidas y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 34
+  },
+  "dashed": true,
+  "cones": [
+   [
+    5,
+    24
+   ],
+   [
+    5,
+    14
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    25,
+    24
+   ],
+   [
+    25,
+    14
+   ],
+   [
+    25,
+    4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 24,
+    "f": -30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 24,
+    "f": -150,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 30.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 30.5,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     24
+    ],
+    "b": [
+     17,
+     20
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     24
+    ],
+    "b": [
+     13,
+     21
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     20
+    ],
+    "b": [
+     25,
+     14.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     21
+    ],
+    "b": [
+     5,
+     14.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     14
+    ],
+    "b": [
+     5,
+     4.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

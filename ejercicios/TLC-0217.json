@@ -1,0 +1,160 @@
+{
+ "id": "TLC-0217",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Klopp: finta y pared",
+ "formato": "Rueda con pared",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; en la 3.ª, con señal para elegir el lado de salida.",
+ "objetivo": "Activar con balón: finta, regate en velocidad, conducción recta y pared. Cómo explicarlo: empezar suave y subir el ritmo cada serie; la pared es corta y limpia. Errores típicos: finta sin cambio de ritmo, pared lenta y colas largas. Qué observar: calidad del gesto antes que velocidad en las primeras repeticiones.",
+ "montaje": "Dos filas de 3 enfrentadas a 24 m, un balón en el primero de cada una. En el centro de cada carril, a 10 m de la salida, un cono con un compañero de la otra fila para la pared.",
+ "juego": "Salen a la vez los primeros: finta y regate, conducción recta al cono y pared. Tras la pared, cada uno se coloca al final de la fila contraria.",
+ "punto": "Sin puntos: cada pared limpia suma. Objetivo: 20 por serie.",
+ "consigna": "Finta, conduce y pared limpia.",
+ "variantes": {
+  "facil": "Sin finta y pared a 2 toques.",
+  "dificil": "Pared a un toque y señal para elegir lado."
+ },
+ "adaptacion": "Alevín (10–11): ritmo suave y distancia de 8 m. Infantil (12–13): como está. Cadete: pared a un toque y pase largo final.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Jürgen Klopp)",
+  "titulo_original": "KLOPP, RUEDA DE PASES",
+  "ref": "toplidercoach.com/klopp-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: dos filas enfrentadas, finta y regate en velocidad, conducción recta, pared en zona marcada y cambio de fila. Distancias, series y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    14,
+    6.5
+   ],
+   [
+    16,
+    13.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 14,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 6.5,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     6
+    ],
+    "b": [
+     13,
+     6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     6.2
+    ],
+    "b": [
+     16,
+     6.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     6.8
+    ],
+    "b": [
+     14,
+     6.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     27,
+     14
+    ],
+    "b": [
+     17,
+     14
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}

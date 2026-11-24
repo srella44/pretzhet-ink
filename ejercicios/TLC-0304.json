@@ -1,0 +1,168 @@
+{
+ "id": "TLC-0304",
+ "bloque": "Técnica y duelos",
+ "titulo": "Deschamps: 1v1",
+ "formato": "Pase y 1v1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "14 min",
+ "series": "6 acciones por jugador; 30 s de pausa cada 3. Se alternan los dos lados.",
+ "objetivo": "Encadenar conducción, pase raso y 1v1 con reacción inmediata del que pasa, que se hace defensor. Cómo explicarlo: tras pasar, girar y correr al cono para defender; el receptor orienta bien antes de encarar. Errores típicos: pase flojo, defensor lento y atacante que no finaliza. Qué observar: reacción y decisión.",
+ "montaje": "Portería de 6 m con portero en el centro de un lado. 4 grupos de 2 en diagonales, dos a cada lado a 6 y 22 m. Cono de giro a 8 m de cada grupo y cono central a 16 m.",
+ "juego": "El primero conduce en diagonal al cono y pasa raso al grupo opuesto; luego gira y defiende. El receptor rodea el cono central, encara el 1v1 y tira. Rotan.",
+ "punto": "Gol: 1 punto. Robo, fuera o parada: 1 al defensor.",
+ "consigna": "Pasa, gira y defiende.",
+ "variantes": {
+  "facil": "Defensor pasivo y 3 toques para el atacante.",
+  "dificil": "Defensor activo desde el pase y 5 s para tirar."
+ },
+ "adaptacion": "Alevín (10–11): 1v1 a 15 m de la portería. Infantil (12–13): como está. Cadete: atacante con 2 toques tras el cono.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Didier Deschamps)",
+  "titulo_original": "DESCHAMPS CONDUCCIÓN +1X1",
+  "ref": "toplidercoach.com/conduccion-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 4 grupos en diagonales frente a la portería, conducción a un cono, pase raso en diagonal, giro a defensor, conducción alrededor de cono central, 1v1 y tiro. Medidas y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -3.5,
+   "ymax": 33
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    11,
+    14
+   ],
+   [
+    17,
+    19
+   ],
+   [
+    19,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 24,
+    "f": -135
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 2,
+    "y": 5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 28,
+    "y": 27,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     8
+    ],
+    "b": [
+     10.5,
+     13.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     11.5,
+     14.5
+    ],
+    "b": [
+     25.5,
+     23.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     26,
+     24
+    ],
+    "b": [
+     18,
+     19
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     18,
+     18
+    ],
+    "b": [
+     15,
+     1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

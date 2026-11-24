@@ -1,0 +1,182 @@
+{
+ "id": "TLC-0186",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Nagelsmann: tríos",
+ "formato": "Rueda por tríos",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "5 series de 2 min con 30 s de pausa; cada serie, un trío descansa y el apoyo central cambia.",
+ "objetivo": "Mejorar combinaciones pautadas de 3 jugadores con un apoyo central: pase, apoyo y tercer hombre. Cómo explicarlo: el que pasa se mueve, el apoyo juega de primeras de cara y el tercero recibe lanzado. Errores típicos: apoyo mal perfilado, salir antes de tiempo y pase largo flojo. Qué observar: sincronía y velocidad.",
+ "montaje": "40 × 30 m en 3 sectores: un trío en cada extremo (el 3.º espera fuera) y un apoyo fijo en el centro. El balón, en el primero del trío izquierdo.",
+ "juego": "Pasa al apoyo y se desmarca; el apoyo toca de primeras al que llega y este lanza largo al otro trío, que repite. Cada uno va al final de su trío.",
+ "punto": "Sin puntos: 12 secuencias sin error en 2 min.",
+ "consigna": "Pase, apoyo y tercer hombre a velocidad.",
+ "variantes": {
+  "facil": "Apoyo con 2 toques y pase largo a 20 m.",
+  "dificil": "Combinación nueva cada 30 s y un toque en el apoyo."
+ },
+ "adaptacion": "Alevín (10–11): sin pase largo, solo 2 toques. Infantil (12–13): como está. Cadete: cambio de combinación a la señal.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Julian Nagelsmann)",
+  "titulo_original": "NAGELSMANN, RUEDA DE PASES TRIOS",
+  "ref": "toplidercoach.com/nagelsmann-rueda-de-pases-trios/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: tríos enfrentados con un jugador fijo central, combinación pautada con tercer hombre y paso al trío del lado opuesto. Combinación concreta, rotaciones, series y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 35
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     0,
+     26,
+     30
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 32.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 32.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 32.5,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     8
+    ],
+    "b": [
+     19,
+     14.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     15
+    ],
+    "b": [
+     11,
+     20
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     11,
+     19.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     11,
+     20
+    ],
+    "b": [
+     35,
+     21.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4,
+    "nt": 0.4
+   }
+  ]
+ }
+}

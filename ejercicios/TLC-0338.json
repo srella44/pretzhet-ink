@@ -1,0 +1,153 @@
+{
+ "id": "TLC-0338",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Schmidt: rueda PSV",
+ "formato": "Rueda con apoyos",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; los 2 apoyos cambian cada serie.",
+ "objetivo": "Activar con golpeos cortos y medios al interior del pie, con llegada en carrera. Cómo explicarlo: llegar a la pelota en movimiento, golpear con el interior y seguir hacia la fila siguiente; no recibir parado. Errores típicos: salir tarde, pase sin fuerza y hacer cola. Qué observar: timing y ritmo.",
+ "montaje": "4 filas de 2 en las esquinas de 30 × 24 m, enfrentadas en parejas. 2 apoyos dentro, uno por pareja, a 10 m. Un balón por pareja de filas.",
+ "juego": "El primero pasa al apoyo y corre a la fila enfrentada; el apoyo devuelve de un toque a su carrera y este golpea en carrera al primero de la otra fila. Pase corto, medio o a un toque.",
+ "punto": "Sin puntos: pases seguidos sin fallo; objetivo, 25.",
+ "consigna": "Llega en carrera y golpea con el interior.",
+ "variantes": {
+  "facil": "Pase corto y 2 toques.",
+  "dificil": "Pase a un toque y 2 balones por pareja."
+ },
+ "adaptacion": "Alevín (10–11): 8 m de distancia y 2 toques. Infantil (12–13): como está. Cadete: 1 toque y pase medio de 20 m.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Roger Schmidt)",
+  "titulo_original": "ROGER SCHMIDT RUEDA DE PASES",
+  "ref": "toplidercoach.com/rueda-de-pases-psv/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 4 filas enfrentadas en dos parejas, 2 jugadores interiores de apoyo, secuencia de pase corto, medio y a un toque con golpeo en carrera. Medidas, secuencia exacta y puntuación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 22,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 22,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     8.5,
+     10.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     3.5,
+     15
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     9,
+     12
+    ],
+    "b": [
+     3,
+     17
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "id": "TLC-0134",
+ "bloque": "Técnica y duelos",
+ "titulo": "Conte: pase y 1v1",
+ "formato": "1v1 con pase y tiro",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 24 m",
+ "duracion": "14 min",
+ "series": "2 bloques de 6 min con 2 min de pausa: en cada uno se juegan las dos mitades a la vez. Cada jugador pasa por ataque y defensa.",
+ "objetivo": "Trabajar el control orientado tras pase, el 1v1 ofensivo y defensivo y la finalización. Cómo explicarlo: el defensor acelera nada más pasar y el atacante decide regate, cambio de ritmo o tiro. Errores típicos: control hacia atrás, defensor que llega parado y atacante que no termina. Qué observar: calidad del primer control y dureza de la aceleración defensiva.",
+ "montaje": "40 × 24 m, franja central de 8 m y portería de 5 m con portero en cada extremo. En cada mitad: defensor con balón junto a la franja y atacante en la banda tras un cono.",
+ "juego": "A la vez en ambas mitades: pasa el defensor; el atacante controla, rodea el cono y hace 1v1 a gol; el defensor acelera. Siempre se tira. Rotan de fila.",
+ "punto": "Gol: 1 punto. Robo, fuera o parada: 1 al defensor.",
+ "consigna": "Control orientado y termina siempre.",
+ "variantes": {
+  "facil": "Defensor sale 1 s después de pasar y portería de 6 m.",
+  "dificil": "Atacante con 3 toques máximo y defensor que sale a la vez que el pase."
+ },
+ "adaptacion": "Alevín (10–11): 1v1 a 15 m de la portería y sin límite de toques. Infantil (12–13): como está. Cadete: 3 toques y portería de 4 m.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Antonio Conte)",
+  "titulo_original": "CONTE DUELOS 1 X 1",
+  "ref": "toplidercoach.com/conte-duelos-1-x-1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: pase inicial, conducción alrededor del cono lateral, 1v1 y tiro, con salida simultánea desde las dos bandas y porteros. Medidas, puntuación, series y rotación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "extent": {
+   "xmin": -4.5,
+   "xmax": 44.5,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 12,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     16,
+     0,
+     24,
+     24
+    ]
+   }
+  ],
+  "cones": [
+   [
+    8,
+    22
+   ],
+   [
+    32,
+    2
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 18,
+    "y": 17,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     17
+    ],
+    "b": [
+     12,
+     21
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     21
+    ],
+    "b": [
+     7,
+     15
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     18,
+     17
+    ],
+    "b": [
+     9,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     7,
+     15
+    ],
+    "b": [
+     1,
+     12.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 4
+   },
+   {
+    "a": [
+     22,
+     7
+    ],
+    "b": [
+     28,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     28,
+     3
+    ],
+    "b": [
+     33,
+     9
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     22,
+     7
+    ],
+    "b": [
+     31,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     33,
+     9
+    ],
+    "b": [
+     39,
+     11.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ }
+}
