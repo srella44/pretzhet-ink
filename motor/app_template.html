@@ -669,12 +669,6 @@ $('#toLogin').onclick = () => { $('#authReg').style.display = 'none'; $('#authLo
 $('#toReg').onclick = () => { $('#authLog').style.display = 'none'; $('#authReg').style.display = ''; };
 authOvl.onclick = e => { if (e.target === authOvl) authOvl.classList.remove('open'); };
 $('#bLogout').onclick = async () => { if (SB) { await SB.auth.signOut(); showAuth(null); toast('Sesión cerrada'); } };
-/* Bloquear acciones sin login */
-['bfav','bses','bgen'].forEach(id => {
-  const el = $('#' + id); if (!el) return;
-  const orig = el.onclick;
-  el.onclick = function(e) { if (!sbUser) { openAuthModal(); return; } if (orig) orig.call(this, e); };
-});
 
 function showErr(id, msg) { const el = $(id); el.textContent = msg; el.classList.add('on'); }
 function hideErr(id) { $(id).classList.remove('on'); }
@@ -868,6 +862,13 @@ addEventListener('resize', hh); hh(); if (document.fonts) document.fonts.ready.t
 if (store.b) { (store.b||[]).forEach(i=>B[i]&&st.b.add(i)); (store.a||[]).forEach(i=>AGES[i]&&st.a.add(i)); (store.l||[]).forEach(i=>LV[i]&&st.l.add(i)); (store.p||[]).forEach(i=>PL[i]&&st.p.add(i)); Object.assign(st, { org: store.org||'', est: store.est||'', ord: store.ord||'sc' }); }
 $('#f-ord').value = st.ord;
 apply(); hh();
+
+/* Bloquear acciones sin login */
+['bfav','bses','bgen'].forEach(id => {
+  const el = $('#' + id); if (!el) return;
+  const orig = el.onclick;
+  el.onclick = function(e) { if (!sbUser) { openAuthModal(); return; } if (orig) orig.call(this, e); };
+});
 </script>
 </body>
 </html>
