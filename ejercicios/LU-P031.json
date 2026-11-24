@@ -1,0 +1,256 @@
+{
+ "id": "LU-P031",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Robo y ataque rápido 8v6+2",
+ "formato": "8v6+2",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "16 jug. + PT",
+ "espacio": "65 × 50 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1′30″ de pausa (propuesta). A mitad de tarea se cambian los papeles: los rojos pasan a atacar con 8.",
+ "objetivo": "Circular para atacar con ventaja y, sobre todo, aprovechar el robo con un ataque rápido contra una defensa en inferioridad (fuente: cambio de rol, coberturas, defensa en bloque, finalizaciones). Antes de empezar, el entrenador explica cómo se mueve la línea de 3 cuando el rival progresa por banda (fuente). Cómo explicarlo: «si robas, en 3 pases tienes que tirar». Errores típicos: el equipo que roba da pases atrás; los 3 defensas amarillos suben a la zona media; los rojos presionan uno a uno sin bloque. Qué observar: el primer pase tras robo (adelante y al espacio) y la cobertura del central del lado contrario.",
+ "montaje": "65 × 50 m en 3 zonas (propuesta). Portería con portero en un fondo y 2 miniporterías en el otro. Amarillos 8: 3 defensas, 4 medios y un delantero. Rojos 6 + 2 comodines con los amarillos.",
+ "juego": "Saca el portero y los amarillos (10 contra 6) atacan las miniporterías. Si roban, los rojos atacan rápido la portería contra los 3 defensas, que no entran en la zona media. Tras gol, saca el portero.",
+ "punto": "Miniportería: 1. Gol rojo tras robo: 2 (propuesta).",
+ "consigna": "Robo: ¡vertical y rápido!",
+ "variantes": {
+  "facil": "Sin la regla de los defensas: pueden subir a la zona media, y los rojos atacan 6 contra 4 (propuesta).",
+  "dificil": "Tras robo, los rojos tienen 8″ para tirar; o un solo comodín (9 contra 6) (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): fútbol 7, 7 contra 5 + 1 en 50 × 40 m con 2 defensas atrás. Cadete (14–15): como está. Juvenil: 2 toques en la zona media (propuesta). La fuente lo plantea para equipos mayores: en base, explicar antes los movimientos de la línea defensiva.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA (8vs6+2) - Transiciones - Ataque rápido",
+  "ref": "300 ejercicios Level Up Coach · p. 31 (tarea 30)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida de las zonas, puntos, series, variantes y adaptación (propuesta). Colores cambiados (azul → amarillo, naranja → rojo). Edad bajada a 12–15 años (la base proponía 14–18).",
+ "diagrama": {
+  "field": [
+   65,
+   50
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 67,
+   "ymin": -1,
+   "ymax": 51
+  },
+  "lines": [
+   [
+    [
+     22,
+     0
+    ],
+    [
+     22,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     43,
+     0
+    ],
+    [
+     43,
+     50
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 25,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    65,
+    14,
+    "R"
+   ],
+   [
+    65,
+    36,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 39,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 45,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 52,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 37,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 53,
+    "y": 44,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 44,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 58,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 58,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 45,
+    "y": 37,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     28,
+     8
+    ],
+    "b": [
+     37,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     37,
+     14
+    ],
+    "b": [
+     52,
+     24
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     36,
+     27
+    ],
+    "b": [
+     25,
+     31
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     25,
+     31
+    ],
+    "b": [
+     1.2,
+     27
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    11,
+    48.6,
+    "SOLO 3 DEFENSAS",
+    "middle"
+   ]
+  ]
+ }
+}

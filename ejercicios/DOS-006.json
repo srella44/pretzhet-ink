@@ -1,0 +1,216 @@
+{
+ "id": "DOS-006",
+ "bloque": "Finalización",
+ "titulo": "El finalizador",
+ "formato": "Por equipos + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–16 jug. + PT",
+ "espacio": "Área y frontal",
+ "duracion": "20 min",
+ "series": "3 sets (un set = todos los jugadores han hecho su serie de 5 acciones) con 1′ de pausa (propuesta).",
+ "objetivo": "Finalizar en situaciones distintas y seguidas, en competición (fuente). Cada acción pide una superficie distinta: empeine en la falta, interior en el 1 contra 1, interior de primeras al pase atrás, empeine en la volea y frente en el cabezazo (fuente: «coloca antes que potencia»). Cómo explicarlo: «cinco remates, cinco maneras». Errores típicos: prisa sin mirar al portero (fuente), volea con el cuerpo echado atrás, cabezazo con los ojos cerrados. Qué observar: que vuelva a la zona inicial antes de cada acción y que mire al portero antes de tirar.",
+ "montaje": "Área y frontal con portería y portero. Cinco puntos de acción con conos (propuesta). Dos equipos iguales; el míster sirve.",
+ "juego": "Cada jugador hace su serie: 1) falta directa, 2) 1 contra 1 ante el portero, 3) tiro de primeras tras pase atrás, 4) volea y 5) cabezazo. Antes de cada acción vuelve a la salida. Un set: ronda de todos.",
+ "punto": "Gol: 1 para su equipo; gana el set el que más marca.",
+ "consigna": "Coloca antes que potencia.",
+ "variantes": {
+  "facil": "Volea tras bote y cabezazo con balón lanzado con la mano desde cerca (propuesta).",
+  "dificil": "Un defensor pasivo en el 1 contra 1 y en el pase atrás; o la serie seguida en 40″ (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): sin cabezazo y falta desde 11 m. Alevín (10–11): como está, cabezazo con balón a la mano. Infantil (12–13): falta con barrera de 2 picas (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "The finisher",
+  "ref": "Dosier de sesiones · pág. 2, 7, 13, 18 (J1.1, J2.1, S1.1, S2.1)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Puntuación por set (propuesta), puntos de acción marcados con conos, servicio del míster, series, variantes y adaptación (propuesta). La posición de las acciones sigue el croquis del dosier.",
+ "diagrama": {
+  "field": [
+   40,
+   26
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 40.6,
+   "ymin": -1.6,
+   "ymax": 26.6
+  },
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     16.5
+    ],
+    "0"
+   ],
+   [
+    [
+     6,
+     16.5
+    ],
+    [
+     34,
+     16.5
+    ],
+    "0"
+   ],
+   [
+    [
+     34,
+     16.5
+    ],
+    [
+     34,
+     0
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 20,
+    "y": 20.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 21.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 37,
+    "y": 4,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 3.5,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     20.5
+    ],
+    "b": [
+     18,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     31,
+     21.5
+    ],
+    "b": [
+     25,
+     15
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     37,
+     4
+    ],
+    "b": [
+     27,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     3.5,
+     9.5
+    ],
+    "b": [
+     11.5,
+     9.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    20,
+    25,
+    "FALTA",
+    "middle"
+   ],
+   [
+    31,
+    25.4,
+    "1 CONTRA 1",
+    "middle"
+   ],
+   [
+    28.5,
+    13,
+    "PASE ATRÁS",
+    "start"
+   ],
+   [
+    12,
+    13.4,
+    "VOLEA · CABEZA",
+    "middle"
+   ]
+  ]
+ }
+}

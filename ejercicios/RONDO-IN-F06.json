@@ -1,0 +1,169 @@
+{
+ "id": "RONDO-IN-F06",
+ "bloque": "Finalización",
+ "titulo": "El área llena",
+ "formato": "5v5 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. + 2 PT",
+ "espacio": "25 × 20 m",
+ "duracion": "16 min",
+ "series": "3 partes de 4 minutos con 1′30″ de pausa (propuesta).",
+ "objetivo": "Muchos tiros, muchos rechaces y muchas segundas jugadas (fuente): tirar en cuanto hay hueco y atacar siempre el rechace. Frase de la fuente: «Tiro inmediato: el portero estaba tapado». Cómo explicarlo: «si ves portería, tira; y después, ¡al rechace!». Errores típicos: un control de más antes de tirar, mirar el tiro en vez de ir al rechace, defender sin tapar el tiro. Qué observar: cuántos jugadores atacan el rechace y si el defensor tapa con el cuerpo.",
+ "montaje": "25 × 20 m (espacio estrecho y corto) con dos porterías de fútbol 7 y portero en cada una. 5 contra 5. El míster, en la banda, con balones de reserva.",
+ "juego": "Partido en poco espacio: se tira en cuanto se puede y todos van a por el rechace. Si el balón sale, el míster mete otro enseguida; tras gol, para el que ha encajado (propuesta).",
+ "punto": "Gol: 1. Gol de rechace: 2.",
+ "consigna": "Tira pronto y ¡sigue el balón!",
+ "variantes": {
+  "facil": "4 contra 4 (fuente).",
+  "dificil": "El gol al primer toque vale doble (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): 4 contra 4 en 20 × 15 m. Infantil (12–13): como está. Cadete (14–15): 6 contra 6 en 30 × 20 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El área llena (IN-F06)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tipo de portería, saque del míster, a quién va el balón tras gol, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 26.6,
+   "ymin": -0.8,
+   "ymax": 20.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19.5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     24.3,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     19.5,
+     14
+    ],
+    "b": [
+     23,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     4
+    ],
+    "b": [
+     23,
+     7.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

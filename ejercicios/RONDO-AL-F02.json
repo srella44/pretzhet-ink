@@ -1,0 +1,180 @@
+{
+ "id": "RONDO-AL-F02",
+ "bloque": "Finalización",
+ "titulo": "Elige tu ataque",
+ "formato": "2v1 o 3v2 + PT",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug. + PT",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 minutos con 1′ de pausa; los 3 defensores cambian cada serie (propuesta).",
+ "objetivo": "Leer dónde está la ventaja y atacarla: en el 2 contra 1 fijar y pasar; en el 3 contra 2 abrir el campo y buscar al libre. Frase de la fuente: «Muy bien, has atacado al defensor y luego has pasado». Cómo explicarlo: «mirad antes de salir: ¿por dónde es más fácil?». Errores típicos: decidir tarde y entrar los tres en el pasillo estrecho, pasar sin fijar, tirar sin mirar al portero. Qué observar: que la elección se haga antes de llegar a los conos y la distancia entre atacantes.",
+ "montaje": "25 × 20 m con portería y portero. Dos pasillos con conos: el derecho, de 7 m, con 1 defensor, y el central con 2 (propuesta). Atacantes de 3 en 3, con balón desde el otro fondo.",
+ "juego": "Los atacantes eligen: por el pasillo derecho van 2 (2 contra 1) o por el central los 3 (3 contra 2). Los defensores no salen de su pasillo (propuesta); si roban, conducen al fondo de salida. Luego, otro trío.",
+ "punto": "Gol: 1. Gol por el central, más difícil: 2 (propuesta).",
+ "consigna": "Mira dónde hay ventaja y atácala.",
+ "variantes": {
+  "facil": "Siempre con dos de ventaja: 2 contra 0 por la derecha o 3 contra 1 por el centro (fuente).",
+  "dificil": "El defensor extra entra a los 3″ (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): solo el pasillo derecho, 2 contra 1, con miniporterías. Alevín (10–11): como está. Infantil (12–13): 3 pasillos y un defensor que puede cambiar de pasillo (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Elige tu ataque (AL-F02)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 22"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida de los pasillos, defensores fijos, qué pasillo es el más difícil, qué hacen al robar, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 26.6,
+   "ymin": -0.8,
+   "ymax": 20.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     2,
+     7
+    ],
+    [
+     25,
+     7
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 9,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 2,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 16.5,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     2
+    ],
+    "b": [
+     12.5,
+     2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     17.5,
+     5.5
+    ],
+    "b": [
+     9.5,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12.3,
+     2.2
+    ],
+    "b": [
+     9.2,
+     5.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     8.8,
+     6.2
+    ],
+    "b": [
+     0.7,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    24.6,
+    8.8,
+    "PASILLO 2 CONTRA 1 ↑",
+    "end"
+   ],
+   [
+    16,
+    18.8,
+    "CENTRAL 3 CONTRA 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "id": "PIK-0010",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Oleada con defensor que vuelve",
+ "formato": "3v1+1",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug. + PT",
+ "espacio": "30 × 26 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 minutos con 1′ de pausa (propuesta). Tríos que atacan por turnos; los dos defensores cambian cada 3 ataques. Con 9–10 jugadores, 3 tríos y la pareja de defensores rotando.",
+ "objetivo": "Atacar rápido en superioridad antes de que llegue la ayuda defensiva: el portador conduce hacia el primer defensor, lo fija y suelta el balón cuando se compromete (fuente: «¿Fija el portador al primer defensor antes de que llegue la ayuda?»). Cómo explicarlo: «tenéis 3 contra 1, pero solo unos segundos; luego será 3 contra 2». Errores típicos: pasar de lejos sin fijar, los tres atacantes en la misma línea, perder tiempo con pases atrás. Qué observar: si el trío acaba antes de que llegue el segundo defensor y si el que recupera mira las puertas.",
+ "montaje": "30 × 26 m: portería y portero en un fondo; en el otro, dos puertas de 3 m en las esquinas (propuesta). 3 atacantes con balón; un defensor a 15 m y otro 5 m detrás del trío.",
+ "juego": "Al primer toque salen todos: 3 contra 1 a portería mientras el segundo defensor vuelve. Si roban, salen conduciendo por una puerta. Luego otro trío; defensores nuevos cada 3 ataques.",
+ "punto": "Gol: 1; antes de la ayuda: 2. Salida por puerta: 1 (propuesta).",
+ "consigna": "Fija al primero antes de la ayuda.",
+ "variantes": {
+  "facil": "El segundo defensor sale 8 m por detrás o espera a que el trío cruce el medio campo (propuesta).",
+  "dificil": "El segundo defensor sale a 2–3 m, o el trío tiene 8″ para tirar (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 2 contra 1 + 1 en 25 × 20 m. Alevín (10–11): como está. Infantil (12–13): 3 contra 1 + 1 y además un tercer defensor que entra desde la banda a los 3″ (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Oleada con un defensor que vuelve",
+  "ref": "FFF · Côte-d'Or (PDF de ejercicios)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida de las puertas (3 m) y su sitio, distancia del primer defensor (15 m), rotaciones, puntos, series, variantes y adaptación (propuesta). Rotación de defensores cada 3 ataques (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   26
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 31.6,
+   "ymin": -1,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 13,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    0,
+    1.5
+   ],
+   [
+    0,
+    4.5
+   ],
+   [
+    0,
+    21.5
+   ],
+   [
+    0,
+    24.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 3.5,
+    "y": 17.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     13
+    ],
+    "b": [
+     14.5,
+     13
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 3,
+    "n": 1
+   },
+   {
+    "a": [
+     3.5,
+     17.5
+    ],
+    "b": [
+     11.5,
+     16.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     14.5,
+     13
+    ],
+    "b": [
+     20,
+     6.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     12,
+     5
+    ],
+    "b": [
+     19.5,
+     5.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    1.2,
+    3,
+    "PUERTA",
+    "start"
+   ],
+   [
+    1.2,
+    23,
+    "PUERTA",
+    "start"
+   ]
+  ]
+ }
+}

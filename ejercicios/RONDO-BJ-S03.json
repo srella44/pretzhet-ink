@@ -1,0 +1,133 @@
+{
+ "id": "RONDO-BJ-S03",
+ "bloque": "Finalización",
+ "titulo": "Las voleas",
+ "formato": "Grupo + PT",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2′30″ con 30″ de pausa; en cada ronda se intenta batir el récord de la anterior (propuesta).",
+ "objetivo": "Golpear de volea con buen contacto: mirar el balón hasta el golpeo, pie firme y cuerpo encima del balón para que no salga por arriba. Frase de la fuente: «¡Qué gol de volea!». Cómo explicarlo: «el balón no toca el suelo: lo esperas y le das». Errores típicos: echar el cuerpo atrás, golpear con la punta, pases altos imposibles. Qué observar: la calidad del pase alto (que se pueda rematar) y que todos rematen, no solo los mejores.",
+ "montaje": "20 × 15 m con una portería (propuesta: de 5 m) y un portero. Los demás juegan juntos, en un solo grupo, con un balón.",
+ "juego": "Se pasan el balón y solo se marca de volea, tras un pase alto de un compañero (con el pie o, si cuesta, con la mano; propuesta). Quien tira y no da a portería pasa a ser el portero, y el portero se une al grupo. El grupo busca juntar el máximo de goles.",
+ "punto": "Cada gol de volea: 1 punto para el grupo. Récord que batir.",
+ "consigna": "Mira el balón hasta que lo golpeas.",
+ "variantes": {
+  "facil": "El balón puede dar un bote (fuente).",
+  "dificil": "El gol de muslo o de pecho (control y volea) vale 3 (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): pase con la mano y balón que bota antes. Benjamín (8–9): como está. Alevín (10–11): pase alto solo con el pie (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Las voleas (BJ-S03)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 14"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tamaño de la portería, pase alto con la mano si cuesta, rondas, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 20.6,
+   "ymin": -1.6,
+   "ymax": 15.6
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 7,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 13,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     9
+    ],
+    "b": [
+     11.6,
+     7.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12.3,
+     6.4
+    ],
+    "b": [
+     10.5,
+     1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     11.5
+    ],
+    "b": [
+     14,
+     6.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    6.6,
+    "PASE ALTO",
+    "middle"
+   ]
+  ]
+ }
+}

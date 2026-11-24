@@ -1,0 +1,156 @@
+{
+ "id": "LU-P248",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Del 1v1 al 3v3",
+ "formato": "1v1 → 3v3 + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + 2 PT",
+ "espacio": "30 × 30 m",
+ "duracion": "16 min",
+ "series": "4 rondas completas (1 contra 1 hasta 3 contra 3) por serie, 3 series con 1′ de pausa (propuesta). En la serie siguiente empiezan los azules con ventaja.",
+ "objetivo": "Leer si tengo ventaja o no: en superioridad, ser verticales y acabar rápido; en igualdad, pases seguros para provocar un 1 contra 1 y finalizar (fuente). Defender en inferioridad orientando al rival hacia fuera (fuente). Cómo explicarlo: «antes de recibir, cuenta: ¿somos más? ¡A portería!». Errores típicos: en superioridad, pases de más; en igualdad, perder el balón por correr; el defensor en inferioridad que se lanza. Qué observar: el cambio de ritmo de los que entran y si el que defiende solo cierra el centro.",
+ "montaje": "30 × 30 m con portería y portero en cada fondo (propuesta). 3 rojos y 3 azules esperan en una banda, cada equipo junto a la portería que defiende. Los rojos atacan la de la derecha.",
+ "juego": "1 contra 1. Al acabar la acción (gol, fuera o parada) entra un rojo y saca su portero: 2 contra 1. Luego un azul: 2 contra 2; un rojo: 3 contra 2; un azul: 3 contra 3. Los de dentro siguen; luego, todos fuera.",
+ "punto": "Gol: 1. En superioridad en menos de 6″: 2 (propuesta).",
+ "consigna": "¿Ventaja? Vertical. ¿Igualdad? Seguro.",
+ "variantes": {
+  "facil": "Cada acción empieza con el balón para el que acaba de entrar (propuesta).",
+  "dificil": "Las superioridades con 6″ para tirar y, en igualdad, 3 pases antes de tirar (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): hasta 2 contra 2 en 25 × 20 m con miniporterías. Alevín (10–11): como está. Infantil (12–13): llegar a 4 contra 4 en 35 × 30 m (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach (Miguel Sobejano @Miwel86 · Zonadefutbol.es)",
+  "titulo_original": "Transiciones Superioridad / Igualdad",
+  "ref": "300 ejercicios Level Up Coach · p. 248 (tarea 247)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Porterías con portero, sitio de espera, quién saca en cada acción, puntos, series, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 31.6,
+   "ymin": -1,
+   "ymax": 34.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 30,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 12,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 33,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 33,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     32
+    ],
+    "b": [
+     13.6,
+     23
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     15.5,
+     19.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     15.5,
+     21.5
+    ],
+    "b": [
+     24,
+     20
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     24,
+     20
+    ],
+    "b": [
+     29.5,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

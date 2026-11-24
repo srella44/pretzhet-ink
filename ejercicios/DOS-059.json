@@ -1,0 +1,201 @@
+{
+ "id": "DOS-059",
+ "bloque": "Finalización",
+ "titulo": "Multichut por equipos",
+ "formato": "2 equipos + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–16 jug. + PT",
+ "espacio": "Área y frontal",
+ "duracion": "20 min",
+ "series": "Cada equipo hace las 4 series dos veces; 30″ de pausa entre series (propuesta).",
+ "objetivo": "Finalizar en cuatro situaciones distintas (fuente): tras control, tras dejada de cara, de volea y llegando al centro. Cómo explicarlo: «cada serie, un remate distinto; el pleno vale mucho». Errores típicos: control largo en la serie 1, la dejada fuerte o de lado en la 2, volea con el cuerpo atrás en la 3, los tres atacantes llegan juntos al mismo palo en la 4. Qué observar: que los porteros también compitan (sus paradas cuentan) y la llegada escalonada al centro.",
+ "montaje": "Área y frontal con portería y portero. Picas en la frontal, a 18 m (propuesta). Dos equipos: uno hace sus series y luego el otro.",
+ "juego": "Cuatro series: 1) pase raso, control y tiro; 2) pase alto, dejada de cara y tiro; 3) pase alto, control y volea; 4) combinación, centro y entrada de 3 atacantes. Pasa el míster (propuesta).",
+ "punto": "Gol: 1. Pleno en la serie: +2. Ninguno: −1. Puntúan también los porteros.",
+ "consigna": "Cada serie, un remate distinto.",
+ "variantes": {
+  "facil": "Las series 2 y 3 con balón lanzado con la mano (propuesta).",
+  "dificil": "Un defensor pasivo en la serie 4 y tiro a un toque en la 1 (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): solo series 1, 2 y 4, con centro raso. Alevín (10–11): como está, volea tras bote. Infantil (12–13): como está (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Multichut por equipos",
+  "ref": "Dosier de sesiones · pág. 17, 22 (S1.5, S2.5)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Distancia de las picas, quién da el pase, orden de los equipos, series, variantes y adaptación (propuesta). El diagrama muestra la serie 2 (dejada de cara y tiro).",
+ "diagrama": {
+  "field": [
+   40,
+   26
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 40.6,
+   "ymin": -1.6,
+   "ymax": 27
+  },
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     16.5
+    ],
+    "0"
+   ],
+   [
+    [
+     6,
+     16.5
+    ],
+    [
+     34,
+     16.5
+    ],
+    "0"
+   ],
+   [
+    [
+     34,
+     16.5
+    ],
+    [
+     34,
+     0
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    11,
+    18
+   ],
+   [
+    29,
+    18
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 20,
+    "y": 24.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 21.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 23.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 23.5,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     24.5
+    ],
+    "b": [
+     20,
+     15.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     15.5
+    ],
+    "b": [
+     16.5,
+     18.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     21.5
+    ],
+    "b": [
+     16,
+     19
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     16.2,
+     18.4
+    ],
+    "b": [
+     22,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    9.4,
+    18.2,
+    "PICA",
+    "end"
+   ]
+  ]
+ }
+}

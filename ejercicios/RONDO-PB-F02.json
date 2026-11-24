@@ -1,0 +1,124 @@
+{
+ "id": "RONDO-PB-F02",
+ "bloque": "Finalización",
+ "titulo": "El gato y el ratón",
+ "formato": "1v1 por parejas",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "Rondas de 4 carreras por pareja (2 de ratón y 2 de gato) con descanso mientras salen las otras parejas (propuesta). Cambiar de pareja cada ronda.",
+ "objetivo": "Conducir rápido hacia la portería con el balón cerca del pie y meterlo en la madriguera aunque te persigan; el gato aprende a correr para tocar el balón, no al compañero. Frase de la fuente: «¡Qué gato tan rápido!». Cómo explicarlo: «ratón, a casa sin que te pillen el balón». Errores típicos: el ratón da toques largos y el gato llega; mirar atrás todo el rato; el gato que empuja. Qué observar: toques cortos y la cabeza que se levanta para ver la madriguera.",
+ "montaje": "15 × 15 m con una miniportería en un fondo: la madriguera. Por parejas: el ratón con balón a 12 m y el gato 3 m por detrás (propuesta). Caben 2 parejas a la vez, cada una con su madriguera.",
+ "juego": "A la señal, el ratón conduce hasta la madriguera y mete el balón. El gato sale detrás e intenta tocar el balón con el pie antes. Después se cambian los papeles.",
+ "punto": "Ratón en la madriguera: 1. Gato que toca el balón: 1.",
+ "consigna": "Balón pegado al pie y ¡a casa!",
+ "variantes": {
+  "facil": "El gato sale más atrás (fuente).",
+  "dificil": "Dos madrigueras: el ratón elige (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Benjamín (8–9): el gato sale a 2 m y el ratón tiene que meter el balón conduciendo, no chutando (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El gato y el ratón (PB-F02)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias de salida, dos parejas a la vez, rondas y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 16.4,
+   "ymin": -0.6,
+   "ymax": 15.6
+  },
+  "goals": [
+   [
+    15,
+    4,
+    "R"
+   ],
+   [
+    15,
+    11,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": 0,
+    "ball": true,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 11,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     13.6,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     1,
+     4
+    ],
+    "b": [
+     10,
+     5.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    7.6,
+    "MADRIGUERA →",
+    "middle"
+   ]
+  ]
+ }
+}

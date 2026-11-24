@@ -1,0 +1,212 @@
+{
+ "id": "LEI-113",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Al 9 y acompaña",
+ "formato": "3v3+2 · 1v1 en cada fondo",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "60 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 minutos con 1′ de pausa; cada serie cambian el delantero y su marcador por dos del centro (propuesta). El pase al delantero puede ir al pie o a la espalda del defensor (fuente).",
+ "objetivo": "Tener el balón en el centro y, en el momento justo, jugar al delantero y acompañarle rápido; si se pierde, contraatacar (fuente). Puntos: triángulos y movilidad en el centro, pases cortos y buscar el espacio (fuente). Cómo explicarlo: «5 pases, al 9 y ¡vamos dos!». Errores típicos: jugar al delantero cuando está tapado, que no salga nadie a acompañar, el defensor que roba y la pierde por querer salir solo. Qué observar: el perfil del delantero y la elección del que sale en apoyo.",
+ "montaje": "60 × 40 m con portería y portero en cada fondo y zona central de 20 m (propuesta). Dentro, 3 contra 3 y 2 comodines. Cerca de cada portería, un delantero marcado por un defensor rival.",
+ "juego": "El míster mete el balón al centro. Tras 5 pases se juega al delantero; sale a acompañarle uno que no sea el pasador: 2 contra 1. Si el defensor roba, juega a los suyos del centro, que contraatacan.",
+ "punto": "Gol: 1. Gol tras robo del defensor: 2 (propuesta).",
+ "consigna": "5 pases, al delantero y ¡acompaña!",
+ "variantes": {
+  "facil": "3 pases para poder jugar al delantero (propuesta).",
+  "dificil": "Sin comodines (3 contra 3) o el ataque al delantero en 8″ (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 50 × 35 m, 3 pases y sin fuera de juego. Infantil (12–13): como está. Cadete: 4 contra 4 + 2 en 70 × 50 m como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Counter -attack from central midfield.",
+  "ref": "LeicesterCity.pdf · p. 129"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas reducidas (la fuente usa 70 × 50 m para 18 jugadores), 2 contra 1 al acompañar (la fuente habla de crear superioridad cerca de la portería), puntos, series, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 61.6,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     40,
+     0
+    ],
+    [
+     40,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 25,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 23,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 37,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 47,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 51,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 17,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     25,
+     13
+    ],
+    "b": [
+     34,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     34,
+     9
+    ],
+    "b": [
+     46.5,
+     14.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     33,
+     31
+    ],
+    "b": [
+     46,
+     27
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    30,
+    39,
+    "ZONA CENTRAL 3 CONTRA 3 + 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "RONDO-BJ-F08",
+ "bloque": "Finalización",
+ "titulo": "Tres porterías, un goleador",
+ "formato": "Libre + 3 porteros",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–10 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2′30″ con 30″ de pausa (propuesta). El portero devuelve rodando los balones que para; cada uno lleva su cuenta de goles (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada, elegir la portería libre y tirar colocado; los porteros aprenden a colocarse y a reaccionar. Cómo explicarlo: «mira las tres porterías y ve a la que esté más libre». Errores típicos: ir todos a la misma portería, tirar desde muy lejos, conducir mirando al suelo. Qué observar: cambios de dirección hacia la portería libre y que todos pasen por la portería al menos una vez.",
+ "montaje": "20 × 20 m con tres miniporterías en triángulo, a unos 15 m una de otra, cada una con un portero (propuesta). Los demás, cada uno con un balón (propuesta).",
+ "juego": "Todos conducen libres y tiran a cualquiera de las tres porterías. Quien marca pasa a ser portero de esa portería y el portero sale a jugar con el balón del goleador (propuesta).",
+ "punto": "Gol: 1 punto para quien marca.",
+ "consigna": "Cabeza arriba: busca la portería libre.",
+ "variantes": {
+  "facil": "Porteros de rodillas (fuente).",
+  "dificil": "No se puede marcar dos veces seguidas en la misma portería (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): porterías anchas y porteros de rodillas. Benjamín (8–9): como está. Alevín (10–11): 4 porterías y tiro antes de una línea a 5 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Tres porterías, un goleador (BJ-F08)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancia entre porterías, un balón por jugador, cómo devuelve el portero, rondas y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 21.2,
+   "ymin": -0.6,
+   "ymax": 20.6
+  },
+  "goals": [
+   [
+    1,
+    10,
+    "L"
+   ],
+   [
+    19,
+    3,
+    "R"
+   ],
+   [
+    19,
+    17,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2.2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 17.8,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "G",
+    "x": 17.8,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     6
+    ],
+    "b": [
+     13.5,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     13.8,
+     3.8
+    ],
+    "b": [
+     18.4,
+     3.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     15
+    ],
+    "b": [
+     4.5,
+     12
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

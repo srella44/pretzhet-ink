@@ -1,0 +1,178 @@
+{
+ "id": "RONDO-IN-F01",
+ "bloque": "Finalización",
+ "titulo": "Equipos que cambian",
+ "formato": "4v4 + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–12 jug. + 2 PT",
+ "espacio": "25 × 20 m",
+ "duracion": "18 min",
+ "series": "3 partes de 5 minutos con 1′ de pausa; cada uno lleva su cuenta de puntos durante toda la tarea (propuesta). Gana quien más puntos individuales suma.",
+ "objetivo": "Atacar y finalizar con compañeros que cambian todo el rato: comunicarse, adaptarse rápido al nuevo equipo y buscar el gol. Cómo explicarlo: «tu compañero de ahora puede ser tu rival dentro de un minuto: habla y juega con todos». Errores típicos: el que entra tarda en saber de qué equipo es; jugar solo con los amigos; dejar de defender tras el gol. Qué observar: que el que entra pida el balón enseguida y que todos tiren (el punto es individual, pero se gana jugando con el equipo).",
+ "montaje": "25 × 20 m con portería y portero en cada fondo. 4 contra 4 y 2–4 jugadores esperando en la banda con petos de los dos colores.",
+ "juego": "Partido normal. Tras cada gol, uno de cada equipo sale y entra uno de los que esperan, con el peto del equipo al que entra: los equipos nunca son iguales. El míster dice quién sale.",
+ "punto": "Gol: 1 punto individual a cada jugador del equipo que marca.",
+ "consigna": "Habla con tu nuevo equipo y ataca.",
+ "variantes": {
+  "facil": "Porterías grandes (fuente).",
+  "dificil": "El gol vale doble en los 8″ siguientes a una recuperación (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): 3 contra 3 + porteros en 20 × 15 m. Infantil (12–13): como está. Cadete (14–15): 5 contra 5 en 30 × 25 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "4 contra 4 con equipos que cambian (IN-F01)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de jugadores que esperan, petos, quién decide los cambios, series y adaptación (propuesta). Quién sale lo decide el míster, para que todos jueguen lo mismo (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 26.6,
+   "ymin": -1,
+   "ymax": 23.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8.5,
+    "y": 22.2,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 14.5,
+    "y": 22.2,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     14
+    ],
+    "b": [
+     18,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     15
+    ],
+    "b": [
+     24.3,
+     11.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     8.5,
+     21.6
+    ],
+    "b": [
+     10.5,
+     17.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    22.4,
+    "ESPERAN",
+    "start"
+   ]
+  ]
+ }
+}

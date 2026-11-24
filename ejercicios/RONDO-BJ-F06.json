@@ -1,0 +1,169 @@
+{
+ "id": "RONDO-BJ-F06",
+ "bloque": "Finalización",
+ "titulo": "El reto de los números",
+ "formato": "1v1 · 2v2",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "Unas 20 llamadas; cada jugador debería salir 4–5 veces. Descanso natural mientras esperan (propuesta).",
+ "objetivo": "Reaccionar rápido a la llamada, llegar antes al balón y finalizar en 1 contra 1 o 2 contra 2, jugando con el compañero cuando salen dos. Frase de la fuente: «Buen juego junto a tu compañero». Cómo explicarlo: «escucha tu número, corre y piensa: ¿regate o pase?». Errores típicos: salir antes de la llamada, los dos compañeros detrás del balón, tirar desde muy lejos. Qué observar: la primera decisión al llegar al balón y si se ayudan en el 2 contra 2.",
+ "montaje": "25 × 20 m con una miniportería en cada fondo. Dos equipos de 4–6 en las bandas, uno en cada una, numerados del 1 al 6. El míster, en una esquina, con los balones.",
+ "juego": "El míster canta uno o dos números y lanza el balón al centro. Los nombrados entran y juegan 1 contra 1 o 2 contra 2 hasta gol o fuera (máx. 40″). Cada equipo ataca la portería de su derecha (propuesta).",
+ "punto": "Gol: 1 punto para el equipo.",
+ "consigna": "Escucha tu número y ¡llega primero!",
+ "variantes": {
+  "facil": "Porterías grandes (fuente).",
+  "dificil": "Se cantan tres números: 3 contra 3 (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): solo un número y el míster deja el balón quieto en el centro. Benjamín (8–9): como está. Alevín (10–11): números con cuentas («3 + 2») y 3 contra 3 (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El reto de los números (BJ-F06)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de jugadores por equipo, sitio del míster, tiempo máximo por llamada, portería que ataca cada equipo y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2.4,
+   "ymax": 22.4
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    25,
+    10,
+    "R"
+   ]
+  ],
+  "balls": [
+   [
+    12.5,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": -1.4,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": -1.4,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 4.5,
+    "y": 21.4,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 21.4,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 15.5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 16.5,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.2,
+    "y": 21.2,
+    "f": -45,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.4,
+     20.4
+    ],
+    "b": [
+     12,
+     10.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     4.5
+    ],
+    "b": [
+     11.8,
+     8.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     8.5,
+     15.5
+    ],
+    "b": [
+     11.6,
+     11.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

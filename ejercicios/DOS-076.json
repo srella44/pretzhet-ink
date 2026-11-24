@@ -1,0 +1,155 @@
+{
+ "id": "DOS-076",
+ "bloque": "Finalización",
+ "titulo": "Torneo de penaltis",
+ "formato": "Por rondas o equipos + PT",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–12 jug. + PT",
+ "espacio": "Área",
+ "duracion": "12 min",
+ "series": "2 torneos: uno por rondas (eliminación) y otro por equipos (propuesta). Por turnos, los eliminados también pueden hacer de porteros. Torneo por rondas o por equipos, como se prefiera (fuente).",
+ "objetivo": "Tirar a portería bajo presión (fuente): decidir antes dónde se tira, mantener la decisión y golpear con calma. Cómo explicarlo: «elige el sitio en la carrera, no en el último paso». Errores típicos: cambiar de idea al final, mirar al portero en el último momento, carrera demasiado larga. Qué observar: la rutina de cada jugador (colocar el balón, mirar, respirar) y si se mantiene cuando quedan pocos.",
+ "montaje": "Área con portería y portero. Fila detrás del punto de penalti (9 m en fútbol 7; 11 m en fútbol 11).",
+ "juego": "Cada uno tira y vuelve a la fila. Por rondas: quien falla queda eliminado hasta que queda uno. Por equipos: tiran alternos, uno de cada equipo, y cada gol suma. Los eliminados recogen balones.",
+ "punto": "Rondas: gana el último que no falla. Equipos: más goles en 5 tiros (propuesta).",
+ "consigna": "Elige el sitio antes y no cambies.",
+ "variantes": {
+  "facil": "Desde más cerca o el portero de rodillas (propuesta).",
+  "dificil": "Decir antes al portero dónde se va a tirar, tirar con la pierna mala o con el exterior (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): desde 7 m. Alevín (10–11): 9 m. Infantil (12–13): 9 m en fútbol 7 u 11 m en fútbol 11 (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego: torneo de penaltys",
+  "ref": "Dosier de sesiones · J1.4, J2.4, S1.4, S2.4"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Distancia del penalti según la edad, qué hacen los eliminados, puntuación por equipos, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   18
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 30.6,
+   "ymin": -1.6,
+   "ymax": 18.6
+  },
+  "lines": [
+   [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     13
+    ],
+    "0"
+   ],
+   [
+    [
+     5,
+     13
+    ],
+    [
+     25,
+     13
+    ],
+    "0"
+   ],
+   [
+    [
+     25,
+     13
+    ],
+    [
+     25,
+     0
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "discs": [
+   [
+    15,
+    9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 10.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 15.8,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 15.8,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     10.5
+    ],
+    "b": [
+     12.6,
+     0.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     16.2,
+     11.6
+    ],
+    "b": [
+     20,
+     15
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    16.5,
+    8.6,
+    "PUNTO DE PENALTI",
+    "start"
+   ]
+  ]
+ }
+}

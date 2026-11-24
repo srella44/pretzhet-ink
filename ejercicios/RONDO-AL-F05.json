@@ -1,0 +1,152 @@
+{
+ "id": "RONDO-AL-F05",
+ "bloque": "Finalización",
+ "titulo": "Dos porterías, tres equipos",
+ "formato": "3v3 · 3 equipos",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "9–12 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "18 min",
+ "series": "3 partidas de 6 minutos con 1′ de pausa; en cada partida empieza en las porterías un equipo distinto (propuesta). Si un equipo es de 4, el cuarto espera junto a una portería y cambia con su compañero en cada gol (propuesta).",
+ "objetivo": "Finalizar rápido para seguir en el campo y, de paso, que todos jueguen de portero. Cómo explicarlo: «si marcas te quedas; si encajas, a la portería». Errores típicos: tirar sin preparar; el equipo de porteros que tarda en entrar; nadie vuelve a defender. Qué observar: la transición del equipo que entra (salen ya jugando) y que el equipo que va a la portería ocupe las dos porterías enseguida.",
+ "montaje": "25 × 20 m con dos porterías de fútbol 7 (propuesta). Tres equipos de 3–4: dos juegan y el tercero hace de porteros, uno en cada portería (si son 4, uno espera).",
+ "juego": "Partido entre los dos equipos de campo. Tras gol, el que marca se queda; el que encaja va a las porterías y entra el de los porteros, que saca. Sin gol en 2′, sale el que más lleva dentro.",
+ "punto": "1 punto por gol; gana el que más suma en 6′.",
+ "consigna": "Marca y te quedas: ¡acaba rápido!",
+ "variantes": {
+  "facil": "Porterías de 3 m (fuente).",
+  "dificil": "El equipo que entra sale ya con el balón (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): 2 contra 2 con 3 equipos de 2 y miniporterías anchas. Alevín (10–11): como está. Infantil (12–13): 4 contra 4 en 30 × 25 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Dos porterías, tres equipos (AL-F05)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 28"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tipo de portería, qué hace el cuarto jugador, quién saca, regla de los 2′ sin gol, series y adaptación (propuesta). Regla de los 2′ sin gol (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 27.2,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 3,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     14
+    ],
+    "b": [
+     16,
+     5.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     5
+    ],
+    "b": [
+     24.3,
+     8.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     -0.6,
+     3.6
+    ],
+    "b": [
+     1.2,
+     8.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

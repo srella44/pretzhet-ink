@@ -1,0 +1,150 @@
+{
+ "id": "RONDO-PB-F03",
+ "bloque": "Finalización",
+ "titulo": "Gol al gigante",
+ "formato": "Todos contra el míster",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 minutos con 30″ de pausa para contar el récord (propuesta).",
+ "objetivo": "Muchos tiros en poco tiempo: conducir, levantar la cabeza y chutar sin miedo. Frase de la fuente: «¡Gol! Qué chut». Cómo explicarlo: «el gigante es grande, pero lento: tira donde no está». Errores típicos: tirar todos a la vez al gigante, chutar con la punta, entrar por delante del que va a tirar. Qué observar: que miren dónde está el míster antes de tirar y que vuelvan por el lado, no por el centro.",
+ "montaje": "20 × 15 m con portería grande (propuesta: de fútbol 7). El míster es el gigante y hace de portero. Cada niño, con su balón, en el fondo contrario (propuesta).",
+ "juego": "Todos salen a la vez conduciendo y tiran cuando quieren. Recogen su balón, salen por un lado y vuelven a entrar por el fondo para tirar otra vez. El gigante para sin tirarse (propuesta).",
+ "punto": "Goles de todo el grupo: récord que batir.",
+ "consigna": "Mira dónde está el gigante y chuta.",
+ "variantes": {
+  "facil": "El gigante de rodillas (fuente).",
+  "dificil": "Se tira antes de una línea (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Benjamín (8–9): línea de tiro a 8 m y gol con la pierna mala vale 2 (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Gol al gigante (PB-F03)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 13"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Tamaño de la portería, sitio de salida, rondas y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 21,
+   "ymin": -1.6,
+   "ymax": 15.6
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 13,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     9
+    ],
+    "b": [
+     12,
+     1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     12.5
+    ],
+    "b": [
+     5,
+     6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     20,
+     7
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 2,
+    "n": 3
+   },
+   {
+    "a": [
+     20,
+     7
+    ],
+    "b": [
+     17,
+     14.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 2,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -1.2,
+    "GIGANTE (MÍSTER)",
+    "middle"
+   ]
+  ]
+ }
+}
