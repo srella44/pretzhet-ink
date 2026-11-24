@@ -1,0 +1,136 @@
+{
+ "id": "WEB-1702",
+ "bloque": "Porteros",
+ "titulo": "Caída desde las rodillas",
+ "formato": "1 PT + 1 servidor",
+ "edad": "9–12 años",
+ "nivel": "Fácil",
+ "jugadores": "2 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "8 min",
+ "series": "4 series de 6 balones (3 por lado) con 45 s de descanso. Cambian portero y servidor tras cada serie.",
+ "objetivo": "Aprender la caída lateral en un paso fácil: de rodillas, con el cuerpo de lado y manos detrás del balón. Cómo explicarlo: caigo de lado, el brazo de abajo detrás y recojo al pecho. Errores típicos: caer sobre el pecho, mover solo los brazos y dejar el balón detrás. Qué observar: lado del cuerpo que cae, manos detrás del balón y cabeza abierta.",
+ "montaje": "Portería de 6 m con césped blando. Portero de rodillas en el centro. Una colchoneta (o zona blanda) de 2 × 1,5 m a cada lado. El servidor, con balones, a 5 m de la portería.",
+ "juego": "El servidor lanza un balón raso o a media altura a 1 m del portero; este cae al lado con las manos detrás del balón y lo recoge al pecho. Se levanta, devuelve y se coloca de nuevo.",
+ "punto": "Balón blocado con caída lateral: 1 punto; rechazado: 0.",
+ "consigna": "Cae de lado, manos detrás.",
+ "variantes": {
+  "facil": "Balón lanzado muy despacio y a 50 cm del portero.",
+  "dificil": "De pie con un paso lateral previo y balón a media altura."
+ },
+ "adaptacion": "Benjamín (8–9): colchoneta y lanzamiento despacio. Alevín (10–11): como está. Infantil: pasar a caída desde de pie.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "GK Technique - Falling, on Knees #1",
+  "ref": "https://www.soccerdrive.com/soccer-drills/gk-technique-falling-knees-1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerDrive, solo título (la fuente indica «consultar»). Distancias, series y puntuación propuestas a partir del nombre (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "tag": "12 × 10 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 13,
+   "ymin": -1.6,
+   "ymax": 11
+  },
+  "porterias": [
+   {
+    "x": 6,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     1.5,
+     1.5,
+     3.5,
+     3.5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     8.5,
+     1.5,
+     10.5,
+     3.5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 6,
+    "y": 2.3,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 8,
+    "f": [
+     6,
+     1
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     8
+    ],
+    "b": [
+     5.2,
+     2.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     2.3
+    ],
+    "b": [
+     3.4,
+     2.3
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    2.5,
+    4.4,
+    "COLCHONETA",
+    "middle"
+   ],
+   [
+    9.5,
+    4.4,
+    "COLCHONETA",
+    "middle"
+   ]
+  ]
+ }
+}

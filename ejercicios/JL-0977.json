@@ -1,0 +1,124 @@
+{
+ "id": "JL-0977",
+ "bloque": "Porteros",
+ "titulo": "Duelo de porteros 1v1",
+ "formato": "1 portero v 1 portero",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "2 jug.",
+ "espacio": "28 × 12 m",
+ "duracion": "10 min",
+ "series": "5 turnos de 2 min por pareja con 30 s de pausa; si hay más porteros, se juega por parejas y el que pierde cede su portería al siguiente.",
+ "objetivo": "Trabajar a la vez el saque de pie desde las manos (volea o balón a ras) y el blocaje o desvío de lanzamientos largos. Cómo explicarlo: soltar el balón cerca del pie, empeine firme y mirar la portería rival. Errores típicos: lanzar sin dirección, quedarse adelantado y no volver a la línea tras sacar. Qué observar: la precisión del saque y la vuelta a la posición base.",
+ "montaje": "Campo de 28 × 12 m con portería de 5 m y un portero en cada fondo. Cada portero tiene 3 balones junto a su portería.",
+ "juego": "Un portero saca con el pie desde las manos (volea o balón botado) e intenta marcar. El rival defiende con las manos; si bloca, saca él. Si el balón sale por la banda, saca el otro.",
+ "punto": "Gol: 1 punto. Gol directo de volea: 2. Gana quien más tenga tras 2 min.",
+ "consigna": "Saque fuerte y vuelve a tu línea.",
+ "variantes": {
+  "facil": "Pelota de talla 4 y saque con bote antes de golpear.",
+  "dificil": "Solo vale gol de volea y el portero que bloca tiene 5 s para sacar."
+ },
+ "adaptacion": "Alevín (10–11): campo de 22 × 10 m y portería de 4 m. Infantil (12–13): como está. Cadete: portería de 6 m y 30 m de campo.",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Porteros 1v1: una portería · nº 977",
+  "ref": "libro-futbol-1380-juegos-para-el-entrenamiento-de-la-tecnica.pdf | p.208 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Origen: 1.380 juegos para el entrenamiento de la técnica (p. 208), texto cortado en la base: solo da dos porteros que sacan con el pie contra la portería rival. Medidas, puntuación y turnos propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   28,
+   12
+  ],
+  "tag": "28 × 12 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 31,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 6,
+    "lado": "L",
+    "ancho": 5,
+    "portero": false
+   },
+   {
+    "x": 28,
+    "y": 6,
+    "lado": "R",
+    "ancho": 5,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 26.5,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    2.2,
+    4.2
+   ],
+   [
+    25.8,
+    7.8
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     6
+    ],
+    "b": [
+     26,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     26.5,
+     6
+    ],
+    "b": [
+     26.5,
+     4.3
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    14,
+    10.8,
+    "DUELO: CADA UNO DEFIENDE SU PORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

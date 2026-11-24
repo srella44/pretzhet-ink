@@ -1,0 +1,262 @@
+{
+ "id": "WEB-0706",
+ "bloque": "Porteros",
+ "titulo": "Circuito de porteros",
+ "formato": "4 PT + 2 servidores",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "24 × 20 m",
+ "duracion": "20 min",
+ "series": "4 estaciones de 90 s con 30 s de cambio (6 min por vuelta). 3 vueltas con 1 min de descanso entre vueltas.",
+ "objetivo": "Trabajar de forma completa la agilidad, el blocaje y la caída en un circuito corto. Cómo explicarlo: cada estación tiene una tarea; rápido y bien hecho vale más que mucho. Errores típicos: descuidar la técnica por la velocidad, saltarse conos y no avisar al cambiar de estación. Qué observar: calidad del gesto en la última estación, con cansancio.",
+ "montaje": "Cuatro estaciones en 24 × 20 m: 1) slalom de 5 conos; 2) tres vallas bajas; 3) servidor con balones altos; 4) servidor con balones laterales. 4 porteros y 2 servidores.",
+ "juego": "Cada portero trabaja 90 s y rota en sentido horario. En 1 y 2 trabajan los pies; en 3 bloca balones altos y en 4 cae de lado a balones rasos.",
+ "punto": "Balón blocado en 3 y 4: 1 punto. Gana quien sume más.",
+ "consigna": "Calidad en cada estación.",
+ "variantes": {
+  "facil": "Estaciones 3 y 4 con balones lanzados lentos y sin vallas.",
+  "dificil": "Tiros más fuertes, estaciones de 2 min y 4 vueltas."
+ },
+ "adaptacion": "Alevín (10–11): 60 s por estación. Infantil (12–13): como está. Cadete y juvenil: 2 min por estación y balones con efecto.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "Goalkeeper Circuit",
+  "ref": "https://www.soccerdrive.com/soccer-drills/goalkeeper-circuit"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerDrive, solo título (marcada para socios). Estaciones, tiempos y puntuación propuestos a partir del nombre (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "tag": "24 × 20 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 25,
+   "ymin": -1.5,
+   "ymax": 21.6
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0.5,
+     1.5,
+     10.5,
+     8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     13.5,
+     1.5,
+     23.5,
+     8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0.5,
+     12,
+     10.5,
+     18.8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     13.5,
+     12,
+     23.5,
+     18.8
+    ]
+   }
+  ],
+  "cones": [
+   [
+    3,
+    3.5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    3.5
+   ],
+   [
+    9,
+    6
+   ]
+  ],
+  "lines": [
+   [
+    [
+     16.5,
+     3.2
+    ],
+    [
+     16.5,
+     5.8
+    ],
+    "100 0"
+   ],
+   [
+    [
+     18.5,
+     3.2
+    ],
+    [
+     18.5,
+     5.8
+    ],
+    "100 0"
+   ],
+   [
+    [
+     20.5,
+     3.2
+    ],
+    [
+     20.5,
+     5.8
+    ],
+    "100 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.8,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 15,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 3.5,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 16,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8.5,
+    "y": 16.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 16.5,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     4.8
+    ],
+    "b": [
+     13.5,
+     4.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 0,
+    "s1": 0,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     8.2
+    ],
+    "b": [
+     19,
+     11.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 0,
+    "s1": 0,
+    "n": 2
+   },
+   {
+    "a": [
+     13.2,
+     15.5
+    ],
+    "b": [
+     10.8,
+     15.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 0,
+    "s1": 0,
+    "n": 3
+   },
+   {
+    "a": [
+     5,
+     11.8
+    ],
+    "b": [
+     5,
+     8.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 0,
+    "s1": 0,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    5.5,
+    0.7,
+    "1 SLALOM",
+    "middle"
+   ],
+   [
+    18.5,
+    0.7,
+    "2 VALLAS",
+    "middle"
+   ],
+   [
+    5.5,
+    20.4,
+    "3 BALONES ALTOS",
+    "middle"
+   ],
+   [
+    18.5,
+    20.4,
+    "4 BALONES LATERALES",
+    "middle"
+   ]
+  ]
+ }
+}

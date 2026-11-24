@@ -1,0 +1,166 @@
+{
+ "id": "TLC-0703",
+ "bloque": "Porteros",
+ "titulo": "Rueda de pases con portero",
+ "formato": "4 + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de pausa: 2 con secuencia a la derecha, 2 a la izquierda. Cambia el portero cada 2 series si hay más de uno.",
+ "objetivo": "Integrar al portero en la circulación: pase, tercer hombre y pase final al portero con buen perfil. Cómo explicarlo: el tercer hombre aparece por detrás del pase, no se pasa al que acaba de dar el balón. Errores típicos: forzar el pase directo, recibir de frente sin perfilarse y quedarse parado tras pasar. Qué observar: ritmo alto con precisión, voz y rotaciones ordenadas.",
+ "montaje": "Rectángulo de 40 × 20 m con portería a un lado y 4 conos formando un rombo de 12 m. Cuatro jugadores en los vértices (1 apoyo, 2 bandas, 3 delante); portero con balón.",
+ "juego": "El portero pasa al 1; este al 2; el 2 al 3 (tercer hombre) y el 3 devuelve al portero. Tras cada pase, cada jugador ocupa el sitio del receptor. El portero pasa al 1 y se repite.",
+ "punto": "Secuencia completa sin fallo: 1 punto.",
+ "consigna": "Perfila, pasa y ocupa el sitio.",
+ "variantes": {
+  "facil": "Dos toques para todos, sin límite de tiempo y rombo de 10 m.",
+  "dificil": "Un toque en los jugadores de campo, portero a 1–2 toques y un defensor pasivo que molesta."
+ },
+ "adaptacion": "Infantil (12–13): como está. Alevín (10–11): rombo de 10 m y portero con 2 toques. Cadete: 1 toque y defensor que presiona.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Real Sociedad)",
+  "titulo_original": "IMANOL ALGUACIL RUEDA DE PASES CON PORTERO",
+  "ref": "https://toplidercoach.com/imanol-alguacil-rueda-de-pases-con-portero/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Origen: toplidercoach, 18+ (Real Sociedad), diagrama solo en la web. Adaptado a fútbol base: edad 12–13, distancias, rotación y puntuación propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "tag": "40 × 20 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 41,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    11,
+    10
+   ],
+   [
+    17,
+    3
+   ],
+   [
+    17,
+    17
+   ],
+   [
+    23,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 17,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     10
+    ],
+    "b": [
+     10,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 16,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     10
+    ],
+    "b": [
+     17,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     3
+    ],
+    "b": [
+     17,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 3
+   },
+   {
+    "a": [
+     17,
+     17
+    ],
+    "b": [
+     2.5,
+     10.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 4,
+    "nt": 0.45
+   }
+  ]
+ }
+}

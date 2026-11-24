@@ -1,0 +1,120 @@
+{
+ "id": "WEB-0330",
+ "bloque": "Porteros",
+ "titulo": "Pasos laterales y caída",
+ "formato": "1–2 porteros",
+ "edad": "9–12 años",
+ "nivel": "Normal",
+ "jugadores": "2 jug.",
+ "espacio": "16 × 14 m",
+ "duracion": "10 min",
+ "series": "4 series de 6 repeticiones (3 por lado) con 1 min de descanso. Cambia el portero tras cada serie.",
+ "objetivo": "Combinar el desplazamiento lateral con pasos cortos (sin cruzar los pies) y la caída lateral para parar. Cómo explicarlo: empujo con el pie de abajo, caigo de lado con las manos al balón y el cuerpo detrás. Errores típicos: cruzar los pies, caer de espaldas o con el balón detrás de las manos. Qué observar: mano de abajo detrás del balón y recogida al pecho.",
+ "montaje": "Portería de 6 m. Dos conos, uno a cada lado, a 2 m de cada palo y 1 m delante de la línea. El portero empieza junto al cono izquierdo. El entrenador, a 8 m con balones, frente al centro.",
+ "juego": "El portero hace pasos laterales hasta el cono derecho y vuelve al izquierdo. Al llegar al centro, el entrenador lanza un balón raso a un lado y el portero cae de lado, lo bloca y lo recoge al pecho.",
+ "punto": "Parada limpia con el balón cogido: 1 punto; si lo rechaza, 0.",
+ "consigna": "Pasos cortos, cae de lado.",
+ "variantes": {
+  "facil": "Recorrido de un solo lado, balón lanzado con la mano y muy despacio.",
+  "dificil": "Más velocidad, balón a media altura o tiro del entrenador con el pie."
+ },
+ "adaptacion": "Benjamín (8–9): lanzar a la altura del pecho. Alevín (10–11): raso y a 1 m del cuerpo. Infantil: tiro con el pie y a media altura.",
+ "fuente": {
+  "autor": "SoccerXpert",
+  "titulo_original": "Goalkeeper Footwork Exercise - Shuffle Dives",
+  "ref": "https://soccerxpert.com/drills/details/goalkeeper-footwork-exercise-shuffle-dive"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerXpert, solo título y edad 9+. Distancias, series y puntuación propuestas a partir del nombre (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   14
+  ],
+  "tag": "16 × 14 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1.6,
+   "ymax": 15
+  },
+  "porterias": [
+   {
+    "x": 8,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    3.5,
+    3.2
+   ],
+   [
+    12.5,
+    3.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 3.5,
+    "y": 1.8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 9.5,
+    "f": [
+     8,
+     1
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     1.8
+    ],
+    "b": [
+     12,
+     1.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     9.5
+    ],
+    "b": [
+     6,
+     1.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    8,
+    12.2,
+    "ENTRENADOR A 8 M",
+    "middle"
+   ]
+  ]
+ }
+}

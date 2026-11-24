@@ -1,0 +1,182 @@
+{
+ "id": "WEB-0328",
+ "bloque": "Porteros",
+ "titulo": "Pies rápidos con vallas",
+ "formato": "1–2 porteros",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "2 jug.",
+ "espacio": "16 × 14 m",
+ "duracion": "10 min",
+ "series": "4 series por portero: 3 pasadas de vallas + 1 tiro cada una, con 1 min de descanso. El otro portero cuenta y recoge balones.",
+ "objetivo": "Mejorar la velocidad y coordinación de pies para recolocarse entre postes. Cómo explicarlo: pies ligeros, rodillas flexionadas y mirada al frente, no a las vallas. Errores típicos: tocar las vallas, mirar al suelo y llegar al final sin posición base. Qué observar: ritmo constante, caderas bajas y que acabe parado antes del tiro.",
+ "montaje": "Portería de 6 m. Cinco vallas bajas (20–30 cm) en fila, a 1 m entre sí, paralelas a la línea de gol y a 3 m de ella. El entrenador, a 10 m de la portería con balones, frente al centro.",
+ "juego": "El portero salta de lado cada valla con los dos pies juntos y a ritmo rápido; al pasar la última, vuelve al centro de la portería, se coloca en posición base y el entrenador lanza un tiro raso a un lado.",
+ "punto": "Pasada limpia sin tocar vallas: 1 punto. Parada: 1 punto.",
+ "consigna": "Pies rápidos y listo al final.",
+ "variantes": {
+  "facil": "Pasos laterales entre las vallas sin saltar y tiro con la mano.",
+  "dificil": "Saltos a un pie, salida al tocar la última valla y tiros más fuertes y altos."
+ },
+ "adaptacion": "Alevín (10–11): vallas de 15 cm y tiro suave. Infantil (12–13): como está. Cadete: vallas de 30 cm y tiro fuerte.",
+ "fuente": {
+  "autor": "SoccerXpert",
+  "titulo_original": "Goalkeeper Footwork Exercise with Hurdle",
+  "ref": "https://soccerxpert.com/drills/details/goalkeeper-footwork-exercise-with-hurdle"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerXpert, solo título y edad 9+. Cinco vallas, distancias, series y puntuación propuestos a partir del nombre (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   14
+  ],
+  "tag": "16 × 14 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1.6,
+   "ymax": 15
+  },
+  "porterias": [
+   {
+    "x": 8,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     3.2,
+     3
+    ],
+    [
+     3.2,
+     5.2
+    ],
+    "100 0"
+   ],
+   [
+    [
+     5.2,
+     3
+    ],
+    [
+     5.2,
+     5.2
+    ],
+    "100 0"
+   ],
+   [
+    [
+     7.2,
+     3
+    ],
+    [
+     7.2,
+     5.2
+    ],
+    "100 0"
+   ],
+   [
+    [
+     9.2,
+     3
+    ],
+    [
+     9.2,
+     5.2
+    ],
+    "100 0"
+   ],
+   [
+    [
+     11.2,
+     3
+    ],
+    [
+     11.2,
+     5.2
+    ],
+    "100 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.8,
+    "y": 4.1,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 11,
+    "f": [
+     8,
+     0.5
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     4.1
+    ],
+    "b": [
+     12.6,
+     4.1
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     12.6,
+     4.1
+    ],
+    "b": [
+     8,
+     1.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     11
+    ],
+    "b": [
+     10.5,
+     0.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    7.2,
+    7.6,
+    "5 VALLAS A 1 M",
+    "middle"
+   ]
+  ]
+ }
+}

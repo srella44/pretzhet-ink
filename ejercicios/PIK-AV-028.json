@@ -1,0 +1,134 @@
+{
+ "id": "PIK-AV-028",
+ "bloque": "Porteros",
+ "titulo": "1v1 con portero",
+ "formato": "1 atacante + 1 perseguidor v PT",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "3–6 jug.",
+ "espacio": "30 × 22 m",
+ "duracion": "15 min",
+ "series": "3 series de 5 duelos por atacante con 1 min de descanso. Rotan atacante, perseguidor y portero tras cada serie.",
+ "objetivo": "Cuándo cambiar de ritmo y aprovechar la inercia del portero que sale, y cómo el portero reduce el ángulo sin tirarse pronto. Cómo explicarlo (portero): salir de frente, cerrar el ángulo y quedarse de pie hasta que el delantero toque el balón. Errores típicos: tirarse antes del disparo, quedarse en la línea y perder el tiempo. Qué observar: la distancia de salida y los brazos abiertos.",
+ "montaje": "Portería de 6 m. Un cono a 25 m marca la salida: el atacante con balón y un perseguidor azul 3 m detrás.",
+ "juego": "A la señal, el atacante conduce y debe marcar antes de que el perseguidor le alcance. El portero sale a cerrar el ángulo. Si el perseguidor toca el balón, acaba.",
+ "punto": "Gol: 1 al atacante. Parada, fuera o robo: 1 al portero.",
+ "consigna": "Atrévete a cambiar de ritmo.",
+ "variantes": {
+  "facil": "Perseguidor a 5 m y atacante con 20 m de recorrido.",
+  "dificil": "Perseguidor a 1,5 m y sin límite de toques; el portero empieza 3 m fuera de la línea."
+ },
+ "adaptacion": "Alevín (11): portería de 5 m y recorrido de 18 m. Infantil (12–13): como está. Con porteros de 14–15 años, sumar un segundo perseguidor.",
+ "fuente": {
+  "autor": "@training1.2.1",
+  "titulo_original": "Finalización 1v1 frente al portero con ventaja",
+  "ref": "https://www.instagram.com/reel/Db84dIwuD92"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: reel de Instagram @training1.2.1, sin montaje verificado en la fuente. Estructura con un perseguidor, distancias y puntuación propuestas (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "tag": "30 × 22 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1.6,
+   "ymax": 23
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    15,
+    21
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 15,
+    "y": 1.3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 18,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 21,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     18
+    ],
+    "b": [
+     15,
+     9
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     9
+    ],
+    "b": [
+     17,
+     0.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     1.3
+    ],
+    "b": [
+     15,
+     4.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    18,
+    21,
+    "SALIDA",
+    "start"
+   ]
+  ]
+ }
+}

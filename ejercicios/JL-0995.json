@@ -1,0 +1,111 @@
+{
+ "id": "JL-0995",
+ "bloque": "Porteros",
+ "titulo": "Fútbol-voley de porteros",
+ "formato": "1 portero v 1 portero",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "2 jug.",
+ "espacio": "12 × 8 m",
+ "duracion": "10 min",
+ "series": "4 sets de 3 min con 1 min de pausa. Si se juega por equipos, los porteros de la cola entran al perder un punto.",
+ "objetivo": "Mejorar el golpeo de puños y el despeje a una mano con precisión, y la lectura del balón en el aire. Cómo explicarlo: golpear con los nudillos planos, brazo estirado y mirando a dónde cae. Errores típicos: golpear con la palma, ir con el brazo flojo y dejar botar el balón dos veces. Qué observar: la dirección del golpeo y la colocación bajo el balón.",
+ "montaje": "Pista de 12 × 8 m con una red o cuerda a 2 m en el centro. Un portero en cada campo, con balón de talla 4. El portero que saca empieza en el fondo de su campo.",
+ "juego": "Se juega con golpes de puños por encima de la red. El balón puede botar una sola vez en el campo del que recibe y se devuelve de puños. Quien falla o manda el balón fuera pierde el punto y el rival saca.",
+ "punto": "Gana el set quien llegue a 7 puntos.",
+ "consigna": "Puños firmes y ojos al balón.",
+ "variantes": {
+  "facil": "Red a 1,5 m, bote permitido hasta dos veces y pista de 10 × 8 m.",
+  "dificil": "Sin bote (volea) y red a 2,2 m. También puede usarse solo la mano no hábil."
+ },
+ "adaptacion": "Alevín (10–11): pelota de talla 4 y 2 botes. Infantil (12–13): como está. Cadete y juvenil: sin bote y red alta.",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Porteros 1v1",
+  "ref": "libro-futbol-1380-juegos-para-el-entrenamiento-de-la-tecnica.pdf | p.212 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Origen: 1.380 juegos para el entrenamiento de la técnica (p. 212), texto cortado: fútbol-voley con puños y un solo bote. Medidas, set y puntuación propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   8
+  ],
+  "tag": "12 × 8 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 13,
+   "ymin": -1.8,
+   "ymax": 9
+  },
+  "lines": [
+   [
+    [
+     6,
+     -0.6
+    ],
+    [
+     6,
+     8.6
+    ],
+    "2 2"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 9.5,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     4
+    ],
+    "b": [
+     8.8,
+     2.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     4
+    ],
+    "b": [
+     9.5,
+     2.7
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -1.1,
+    "RED A 2 M",
+    "middle"
+   ]
+  ]
+ }
+}

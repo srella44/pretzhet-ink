@@ -1,0 +1,132 @@
+{
+ "id": "WEB-0384",
+ "bloque": "Porteros",
+ "titulo": "Recorrido en arco",
+ "formato": "1–2 porteros",
+ "edad": "9–12 años",
+ "nivel": "Normal",
+ "jugadores": "1–2 jug.",
+ "espacio": "16 × 14 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 vueltas completas al arco con 1 min de descanso y 4 balones lanzados al final de cada serie.",
+ "objetivo": "Aprender a moverse en arco para cubrir el ángulo: pasos laterales manteniéndose a la misma distancia de la portería. Cómo explicarlo: imagina un hilo que te une al centro de la portería. Errores típicos: cruzar los pies, alejarse del arco al girar y mirar los conos. Qué observar: distancia constante a la línea y manos delante.",
+ "montaje": "Portería de 6 m. Cinco conos en arco de 4 m de radio centrado en la portería. Empieza en el cono izquierdo. El entrenador, a 10 m, con balones.",
+ "juego": "Recorre el arco con pasos laterales tocando cada cono con la mano. En el último, se coloca en posición base y el entrenador lanza un balón a media altura.",
+ "punto": "Vuelta limpia: 1 punto. Balón blocado: 1.",
+ "consigna": "Mantén la distancia en todo el arco.",
+ "variantes": {
+  "facil": "Radio de 3 m, solo 3 conos y lanzar con la mano.",
+  "dificil": "Radio de 5 m, sin tocar cono con la mano y balón lanzado raso al segundo palo."
+ },
+ "adaptacion": "Alevín (10–11): arco de 3 m y balón lanzado a mano. Infantil (12–13): arco de 4 m. Cadete: arco de 5 m y tiro con el pie.",
+ "fuente": {
+  "autor": "SoccerXpert",
+  "titulo_original": "Goalkeeper - Arc Drill 1",
+  "ref": "https://soccerxpert.com/drills/details/goalkeeper-arc-drill-1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerXpert, solo título y edad 9+. Forma del arco, radios y puntuación propuestos a partir del nombre (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   14
+  ],
+  "tag": "16 × 14 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1.6,
+   "ymax": 15
+  },
+  "porterias": [
+   {
+    "x": 8,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    4.3,
+    2.5
+   ],
+   [
+    5.2,
+    4.4
+   ],
+   [
+    8,
+    5.2
+   ],
+   [
+    10.8,
+    4.4
+   ],
+   [
+    11.7,
+    2.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 4.3,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 11,
+    "f": [
+     8,
+     0.5
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.3,
+     1.5
+    ],
+    "b": [
+     7.2,
+     3.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     11
+    ],
+    "b": [
+     8,
+     1.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    8,
+    12.8,
+    "ARCO DE 4 M DE RADIO",
+    "middle"
+   ]
+  ]
+ }
+}

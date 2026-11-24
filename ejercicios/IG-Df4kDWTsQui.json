@@ -1,0 +1,147 @@
+{
+ "id": "IG-Df4kDWTsQui",
+ "bloque": "Porteros",
+ "titulo": "Rondo 3+PT contra 2",
+ "formato": "3+PT v 2",
+ "edad": "8–9 años",
+ "nivel": "Normal",
+ "jugadores": "5–6 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 45 s de pausa. Los 2 defensores cambian por otros dos jugadores tras cada serie; el portero siempre es el cuarto poseedor.",
+ "objetivo": "Que el portero juegue con los pies como un jugador más del rondo: ofrecerse, perfilarse, pasar con las dos piernas y mantener la posesión con tres apoyos a su alrededor. Cómo explicarlo: siempre hay que ofrecer un pase fácil al que tiene el balón. Errores típicos: recibir de frente sin perfilarse, devolver siempre al mismo compañero y levantar el balón. Qué observar: primer toque orientado y cabeza arriba.",
+ "montaje": "Cuadrado de 12 × 12 m con 4 conos. En las esquinas, 3 amarillos y el portero (peto verde). En el centro, 2 defensores azules. Un balón.",
+ "juego": "Los 4 pasan el balón por las esquinas y los azules intentan robarlo. El portero solo juega con los pies, máximo 2 toques. Quien pierde el balón cambia con un azul.",
+ "punto": "8 pases seguidos: 1 punto. Pase entre azules: 2.",
+ "consigna": "Ofrécete, perfílate y pasa raso.",
+ "variantes": {
+  "facil": "Un solo defensor y el portero con 3 toques.",
+  "dificil": "Portero a 1 toque, 3 defensores o cuadrado de 10 × 10 m."
+ },
+ "adaptacion": "Prebenjamín (6–7): 4 contra 1, sin puntos. Benjamín (8–9): como está. Alevín (10–11): 2 toques para todos y 10 pases para puntuar.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base (@tareasfutbolbase)",
+  "titulo_original": "El guardameta conserva con los tres apoyos",
+  "ref": "https://www.instagram.com/tareasfutbolbase/reel/Df4kDWTsQui/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: reel de Instagram de @tareasfutbolbase, solo con el título. Tamaño del cuadrado, reglas, rotaciones y puntuación propuestos para 8–9 años (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "tag": "12 × 12 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 13.5,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 1.5,
+    "f": [
+     10,
+     1.5
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 1.5,
+    "f": [
+     10.5,
+     10.5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 10.5,
+    "f": [
+     1.5,
+     10.5
+    ]
+   },
+   {
+    "r": "G",
+    "x": 1.5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 5.5,
+    "f": [
+     1.5,
+     1.5
+    ]
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 7,
+    "f": [
+     10.5,
+     10.5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     1.5
+    ],
+    "b": [
+     10.5,
+     1.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     10.5,
+     1.5
+    ],
+    "b": [
+     10.5,
+     10.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2
+   }
+  ]
+ }
+}

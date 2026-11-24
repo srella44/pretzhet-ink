@@ -1,0 +1,128 @@
+{
+ "id": "TFB100-074",
+ "bloque": "Porteros",
+ "titulo": "Tocar conos y recolocarse",
+ "formato": "1 portero + 1 tirador",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "2–4 jug.",
+ "espacio": "14 × 16 m",
+ "duracion": "10 min",
+ "series": "4 series de 5 tiros con 1 min de descanso (6 tiros si es un solo portero). Con varios porteros, uno trabaja y los demás recogen balones y animan.",
+ "objetivo": "Recolocarse rápido en el centro de la portería tras un desplazamiento y estar en posición base (parado, pies a la anchura de los hombros, manos delante) antes del tiro. Cómo explicarlo: el tiro se para con los pies quietos, no en movimiento. Errores típicos: llegar al centro y tirarse sin parar, mirar el cono en vez del balón, dar pasos largos. Qué observar: que el último paso sea corto y que las manos estén listas.",
+ "montaje": "Portería de 6 m. Dos conos a cada lado, a 2 m de la línea y 2 m de cada palo. El portero empieza en el centro. El tirador, con balones, a 10 m de la portería.",
+ "juego": "El portero toca un cono izquierdo, vuelve al centro, toca uno derecho y regresa a la posición base. Entonces el tirador dispara. Si no llega parado y listo, no hay tiro y se repite.",
+ "punto": "Tiro parado desde posición base: 1 punto; en movimiento: 0.",
+ "consigna": "Rápido y parado antes del tiro.",
+ "variantes": {
+  "facil": "Un solo cono antes de cada tiro y tiro raso suave al centro.",
+  "dificil": "El tirador elige el momento del disparo, tiros a cualquier lado y a media altura, o hay que tocar tres conos."
+ },
+ "adaptacion": "Benjamín (8–9): tiro suave a media altura. Alevín (10–11): tiro fuerte y a cualquier lado. Con porteros de 12–13 años, sumar un cono más y descanso de 45 s.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Portero: tocar conos, recolocarse y parar",
+  "ref": "100-tareas-de-futbol-base.pdf · pág. 92"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Origen: 100 tareas de fútbol base, pág. 92. Reescrito con palabras propias; distancias exactas de los conos y del tirador, número de series y puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   14,
+   16
+  ],
+  "tag": "14 × 16 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 15,
+   "ymin": -1.6,
+   "ymax": 17
+  },
+  "porterias": [
+   {
+    "x": 7,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "cones": [
+   [
+    1.5,
+    2.8
+   ],
+   [
+    3,
+    4.5
+   ],
+   [
+    12.5,
+    2.8
+   ],
+   [
+    11,
+    4.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 7,
+    "y": 1.3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 11,
+    "f": [
+     7,
+     0
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     1.3
+    ],
+    "b": [
+     3.4,
+     4.1
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     11
+    ],
+    "b": [
+     7.8,
+     0.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7,
+    14.6,
+    "TIRADOR A 10 M",
+    "middle"
+   ]
+  ]
+ }
+}

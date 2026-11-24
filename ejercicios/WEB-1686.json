@@ -1,0 +1,116 @@
+{
+ "id": "WEB-1686",
+ "bloque": "Porteros",
+ "titulo": "Calentamiento dinámico",
+ "formato": "3–6 porteros + balón",
+ "edad": "9–12 años",
+ "nivel": "Fácil",
+ "jugadores": "3–6 jug.",
+ "espacio": "20 × 10 m",
+ "duracion": "10 min",
+ "series": "2 vueltas de ida y vuelta por ejercicio (4 ejercicios) con 20 s de descanso. En total unos 8 min.",
+ "objetivo": "Preparar el cuerpo y las manos del portero con movimientos propios del puesto. Cómo explicarlo: ligero, dinámico y con el balón siempre en las manos. Errores típicos: ir muy rápido sin técnica, apoyar con el talón y perder el balón. Qué observar: rodillas altas, hombros relajados y balón controlado.",
+ "montaje": "Pasillo de 20 × 10 m con conos en las esquinas. Los porteros, en fila en un fondo, cada uno con un balón en las manos, a 2 m uno del otro.",
+ "juego": "Ida y vuelta de cada ejercicio con balón: 1) trote con balón por detrás del cuello; 2) pasos laterales pasando el balón por la cintura; 3) zancadas con giro de tronco; 4) lanzar y atrapar tras cada paso.",
+ "punto": "Sin puntos. Se repite si el balón cae dos veces seguidas.",
+ "consigna": "Ligero, balón cerca.",
+ "variantes": {
+  "facil": "Sin balón y con pasos más cortos.",
+  "dificil": "Balón más pesado o ritmo más alto y cambios de sentido a la señal."
+ },
+ "adaptacion": "Benjamín (8–9): 3 ejercicios. Infantil: como está. Cadete: añade saltos con rodillas al pecho.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "GK Dynamic Warmup with Ball",
+  "ref": "https://www.soccerdrive.com/soccer-drills/gk-dynamic-warmup-ball"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerDrive, solo título (marcada para socios). Ejercicios, orden y duración propuestos a partir del nombre (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   10
+  ],
+  "tag": "20 × 10 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1.5,
+   "ymax": 11.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    10
+   ],
+   [
+    0,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 2,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 2,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     2
+    ],
+    "b": [
+     18,
+     2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 0,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     8
+    ],
+    "b": [
+     3,
+     8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 0,
+    "s1": 12,
+    "n": 2
+   }
+  ]
+ }
+}

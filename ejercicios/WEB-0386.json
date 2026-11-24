@@ -1,0 +1,127 @@
+{
+ "id": "WEB-0386",
+ "bloque": "Porteros",
+ "titulo": "Abajo y arriba",
+ "formato": "1–2 porteros",
+ "edad": "9–12 años",
+ "nivel": "Normal",
+ "jugadores": "1–2 jug.",
+ "espacio": "16 × 12 m",
+ "duracion": "8 min",
+ "series": "4 series de 5 repeticiones con 45 s de descanso. Uno trabaja y el otro devuelve el balón.",
+ "objetivo": "Levantarse rápido del suelo y estar listo en posición base antes del siguiente tiro. Cómo explicarlo: empujo con las manos y las rodillas, y me pongo de pie sin quitar los ojos del balón. Errores típicos: levantarse lento, dar la espalda al balón y quedarse arrodillado. Qué observar: tiempo para volver a estar parado y manos delante.",
+ "montaje": "Portería de 6 m. El portero, en el centro de la línea. El entrenador, con 5 balones, a 8 m. Delante del portero, una zona de césped blando de 2 × 1 m (o colchoneta).",
+ "juego": "A la señal, el portero se tumba boca abajo en la zona, se levanta de un salto y se coloca en posición base. El entrenador lanza un balón raso cuando lo ve parado; el portero lo para y devuelve.",
+ "punto": "Parada tras levantarse a tiempo: 1 punto; si no está listo, 0.",
+ "consigna": "Rápido, de pie y manos delante.",
+ "variantes": {
+  "facil": "Empezar de rodillas y lanzar el balón con 2 s de margen.",
+  "dificil": "Tumbarse boca arriba, levantarse con giro y tiro del entrenador con el pie."
+ },
+ "adaptacion": "Alevín (10–11): empezar de rodillas. Infantil (12–13): como está. Cadete: 2 caídas seguidas y tiro fuerte.",
+ "fuente": {
+  "autor": "SoccerXpert",
+  "titulo_original": "Goalkeeper - Down Up Drill",
+  "ref": "https://soccerxpert.com/drills/details/goalkeeper-down-up"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerXpert, solo título y edad 9+. Reglas, series y puntuación propuestas a partir del nombre (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   12
+  ],
+  "tag": "16 × 12 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1.6,
+   "ymax": 13
+  },
+  "porterias": [
+   {
+    "x": 8,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     6.5,
+     3.5,
+     9.5,
+     5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 8,
+    "y": 1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 9,
+    "f": [
+     8,
+     1
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     1.8
+    ],
+    "b": [
+     8,
+     3.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     9
+    ],
+    "b": [
+     8,
+     2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    4.5,
+    "ZONA BLANDA",
+    "start"
+   ],
+   [
+    8,
+    11.2,
+    "ENTRENADOR A 8 M",
+    "middle"
+   ]
+  ]
+ }
+}

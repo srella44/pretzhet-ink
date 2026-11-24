@@ -1,0 +1,116 @@
+{
+ "id": "WEB-0410",
+ "bloque": "Porteros",
+ "titulo": "Calentamiento en pareja",
+ "formato": "2 porteros",
+ "edad": "9–12 años",
+ "nivel": "Fácil",
+ "jugadores": "2 jug.",
+ "espacio": "8 × 12 m",
+ "duracion": "10 min",
+ "series": "3 fases de 3 min (manos bajas, altas y voleas) con 30 s de pausa entre fases; terminan 1 min de estiramiento ligero.",
+ "objetivo": "Calentar manos, hombros y piernas con balón y acostumbrarse al contacto. Cómo explicarlo: manos en W, dedos abiertos y balón atrapado cerca del pecho. Errores típicos: dejar caer los brazos, mirar al suelo y lanzar sin precisión. Qué observar: cabeza fija, manos activas y buenos apoyos.",
+ "montaje": "Dos porteros enfrentados a 6 m en un pasillo de 8 × 12 m, con conos en las esquinas. Un balón talla 4 para los dos (talla 5 desde los 12 años). Guantes puestos.",
+ "juego": "Fase 1: se lanzan el balón raso con la mano y lo bloquean. Fase 2: balón a media altura y alto. Fase 3: uno suelta el balón y lo golpea de volea suave a las manos del otro.",
+ "punto": "Cada 10 recepciones sin caída: 1 punto.",
+ "consigna": "Manos activas y mirada al balón.",
+ "variantes": {
+  "facil": "Distancia de 4 m y lanzamientos con las dos manos por abajo.",
+  "dificil": "Distancia de 8 m, un toque y alternando mano derecha e izquierda."
+ },
+ "adaptacion": "Benjamín (8–9): 4 m y balón de talla 4. Infantil (12–13): 6 m. Cadete en adelante: 8 m y balones con más velocidad.",
+ "fuente": {
+  "autor": "SoccerXpert",
+  "titulo_original": "Goalkeeper Warm-up Drill",
+  "ref": "https://soccerxpert.com/drills/details/id1280"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerXpert, solo título y edad 9+. Fases, distancias y puntos propuestos a partir del nombre (propuesta).",
+ "diagrama": {
+  "field": [
+   8,
+   12
+  ],
+  "tag": "8 × 12 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 9.5,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    0
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 4,
+    "y": 2.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 4,
+    "y": 8.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     2.5
+    ],
+    "b": [
+     4,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     8.5
+    ],
+    "b": [
+     4,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    4,
+    11.5,
+    "DISTANCIA 6 M",
+    "middle"
+   ]
+  ]
+ }
+}

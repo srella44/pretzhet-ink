@@ -1,0 +1,145 @@
+{
+ "id": "WEB-1705",
+ "bloque": "Porteros",
+ "titulo": "Fuerza del portero",
+ "formato": "2–4 porteros",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–4 jug.",
+ "espacio": "16 × 10 m",
+ "duracion": "15 min",
+ "series": "3 vueltas de 4 estaciones (30 s de trabajo y 30 s de descanso por estación) con 1 min entre vueltas.",
+ "objetivo": "Mejorar la fuerza de piernas, tronco y hombros con el propio peso y con el balón, sin cargas altas. Cómo explicarlo: técnica antes que cantidad, espalda recta y respiración pausada. Errores típicos: espalda arqueada, saltar sin amortiguar y perder la postura al cansarse. Qué observar: aterrizar con rodillas flexionadas y tronco firme.",
+ "montaje": "Cuatro estaciones en fila a 4 m: 1) sentadillas con salto; 2) flexiones; 3) abdominal con balón en las manos; 4) saltos con rodillas al pecho. Un portero por estación; balón talla 4.",
+ "juego": "Cada portero trabaja 30 s y descansa 30 s, y rota a la señal. En las vueltas 2 y 3 bloca un balón lanzado por el compañero tras la estación 4. Todo con técnica limpia.",
+ "punto": "Cada repetición correcta: 1 punto; postura incorrecta, 0.",
+ "consigna": "Técnica y espalda recta.",
+ "variantes": {
+  "facil": "Series de 20 s y sin saltos, solo sentadilla.",
+  "dificil": "Estaciones de 40 s y balón medicinal ligero de 1 kg."
+ },
+ "adaptacion": "Alevín (10–11): solo peso corporal, 20 s. Infantil (12–13): como está. Cadete: 40 s y balón medicinal ligero.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "GK Technique, Fitness, Strength",
+  "ref": "https://www.soccerdrive.com/soccer-drills/gk-technique-fitness-strength"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerDrive, solo título (marcada para socios). Estaciones, tiempos y puntuación propuestos a partir del nombre; carga adaptada a fútbol base (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   10
+  ],
+  "tag": "16 × 10 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1.5,
+   "ymax": 11.5
+  },
+  "cones": [
+   [
+    2,
+    2
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    14,
+    2
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "G",
+    "x": 6,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "G",
+    "x": 10,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "G",
+    "x": 14,
+    "y": 4.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.2,
+     6.5
+    ],
+    "b": [
+     5,
+     6.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 0,
+    "s1": 0,
+    "n": 1
+   },
+   {
+    "a": [
+     7.2,
+     6.5
+    ],
+    "b": [
+     9,
+     6.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 0,
+    "s1": 0,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    2,
+    8.5,
+    "1",
+    "middle"
+   ],
+   [
+    6,
+    8.5,
+    "2",
+    "middle"
+   ],
+   [
+    10,
+    8.5,
+    "3",
+    "middle"
+   ],
+   [
+    14,
+    8.5,
+    "4",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "id": "WEB-0490",
+ "bloque": "Porteros",
+ "titulo": "Tenis de porteros",
+ "formato": "1 portero v 1 portero",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "2 jug.",
+ "espacio": "14 × 8 m",
+ "duracion": "10 min",
+ "series": "4 sets de 3 min con 1 min de pausa. Si hay más porteros, juegan por parejas y rotan al terminar el set.",
+ "objetivo": "Mejorar el golpeo de volea desde las manos, la lectura del balón alto y el blocaje tras bote. Cómo explicarlo: suelto el balón, golpeo sobre el empeine y mi vuelta rápida a la posición. Errores típicos: golpear mal con la punta, dejar botar dos veces y no volver al centro. Qué observar: la dirección y la altura del golpeo.",
+ "montaje": "Pista de 14 × 8 m con red o cuerda a 1,2 m en el centro. Un portero en cada campo con balón talla 4. El que saca empieza en el fondo de su campo.",
+ "juego": "Se saca de volea con el pie por encima de la red. El rival bloca al vuelo o tras un solo bote y devuelve de volea. Quien deja botar dos veces, golpea fuera o toca la red pierde el punto; saca quien lo gana.",
+ "punto": "Gana el set quien llegue a 7 puntos.",
+ "consigna": "Golpea fuerte y vuelve al centro.",
+ "variantes": {
+  "facil": "Red a 0,8 m, pista de 10 × 8 m y 2 botes permitidos.",
+  "dificil": "Sin bote (solo al vuelo), red a 1,5 m o solo con el pie menos hábil."
+ },
+ "adaptacion": "Alevín (10–11): 2 botes y red baja. Infantil (12–13): como está. Cadete: al vuelo y red a 1,5 m.",
+ "fuente": {
+  "autor": "SoccerDrive",
+  "titulo_original": "Goalkeeper Tennis",
+  "ref": "https://www.soccerdrive.com/soccer-drills/goalkeeper-tennis"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Origen: SoccerDrive, solo título (la fuente indica «consultar»). Variante propia de la idea del nombre (volea sobre la red), distinta del fútbol-voley de puños JL-0995 (propuesta).",
+ "diagrama": {
+  "field": [
+   14,
+   8
+  ],
+  "tag": "14 × 8 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 15,
+   "ymin": -1.8,
+   "ymax": 9
+  },
+  "lines": [
+   [
+    [
+     7,
+     -0.6
+    ],
+    [
+     7,
+     8.6
+    ],
+    "2 2"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 11,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     10,
+     2.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     4
+    ],
+    "b": [
+     11,
+     2.7
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7,
+    -1.1,
+    "RED A 1,2 M",
+    "middle"
+   ]
+  ]
+ }
+}
