@@ -185,6 +185,8 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   .tabbar { display:flex }
   .top .hb, .top .btn-f { display:none !important }
   .row1 { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px } .brand img { height: 42px }
+  .user-bar #uName { display: none }
+  .user-bar { gap: 5px }
   .search { order: 10; flex-basis: 100%; max-width: none }
   .count { display:none }
   .toast { bottom: calc(84px + env(safe-area-inset-bottom)) }
@@ -388,7 +390,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
 const DATA = /*DATA*/null;
 const SB_URL = 'https://cfqcwfgvgwjoimckhcgu.supabase.co';
 const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmcWN3Zmd2Z3dqb2ltY2toY2d1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTU1MjExMDcsImV4cCI6MjExMTA5NzEwN30._zCVnXpeft1r8f1Z0nXDW64s4kvb0TdVr6AyZelpA70';
-const SB = window.supabase ? window.supabase.createClient(SB_URL, SB_KEY) : null;
+const SB = window.supabase ? window.supabase.createClient(SB_URL, SB_KEY, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true } }) : null;
 const B = DATA.blocks, R = DATA.recs, SVG = DATA.svg;
 const AGES = [['Prebenjamín',6,7],['Benjamín',8,9],['Alevín',10,11],['Infantil',12,13],['Cadete',14,15],['Juvenil',16,18],['Sin indicar']];
 const LV = ['Fácil','Normal','Medio','Alto'];
