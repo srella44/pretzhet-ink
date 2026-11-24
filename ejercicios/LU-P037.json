@@ -1,0 +1,183 @@
+{
+ "id": "LU-P037",
+ "bloque": "Rondos",
+ "titulo": "Del 4v2 al 6v4",
+ "formato": "4v2 → 6v4",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "18 × 18 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; cada serie empieza dentro un equipo distinto con el balón (propuesta).",
+ "objetivo": "Encadenar un rondo de conservación con un cambio de rol: al robar en el 4 contra 2, el equipo que defendía sale del cuadrado pequeño y el juego se abre a un 6 contra 4 en todo el espacio, con gol en miniporterías tras 10 pases (fuente). Trabaja anticipación, interceptación y transición. Cómo explicarlo: «dentro, guarda el balón; si robas, busca a tu compañero de fuera o a un comodín y abrimos el campo». Errores típicos: los 4 del rondo se quedan mirando tras perder; el que roba conduce en vez de pasar fuera; en el 6 contra 4 nadie ocupa los lados y el pase al comodín llega tapado. Qué observar: primer pase tras robo, reacción de los que pierden (presión inmediata), ocupación de anchura en el espacio grande. Montaje detallado (propuesta): cuadrado de 18 × 18 m con un cuadrado interior de 8 × 8 m en el centro y 4 miniporterías, una en el centro de cada lado; dos equipos de 4 y 2 comodines (blancos) que juegan con el que tiene el balón en el espacio grande; dentro empiezan 4 amarillos contra 2 rojos; los otros 2 rojos y los 2 comodines esperan en el espacio grande.",
+ "montaje": "18 × 18 m, cuadrado de 8 × 8 m dentro y una miniportería por lado. Dentro, 4 amarillos contra 2 rojos; fuera, 2 rojos y 2 comodines.",
+ "juego": "Dentro, 4 contra 2 a 2 toques. Si los rojos roban, pasan a un compañero de fuera o a un comodín y se juega en todo el campo: 6 contra 4. Tras 10 pases seguidos se marca en cualquier miniportería.",
+ "punto": "Gol tras 10 pases: 1. Luego se reinicia el 4 contra 2.",
+ "consigna": "Robas: pase fuera y abre el campo.",
+ "variantes": {
+  "facil": "Cuadrado interior de 10 × 10 m y 6 pases antes de poder marcar (propuesta).",
+  "dificil": "Si los amarillos recuperan en el espacio grande antes de 5″, gol directo sin pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): interior de 10 × 10 m y 6 pases para marcar. Infantil (12–13): tal cual. Cadete (14–15): 2 toques también en el espacio grande (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO (4vs2) + (6vs4) - Posesión - Líneas de pase - Cambio de rol",
+  "ref": "300 ejercicios Level Up Coach · p. 37 (tarea 36)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida del cuadrado interior (8 × 8 m), colocación de las 4 miniporterías, quién empieza el siguiente 4 contra 2, series, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   18,
+   18
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 19.6,
+   "ymin": -1,
+   "ymax": 19
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     5,
+     5,
+     13,
+     13
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    9,
+    "L"
+   ],
+   [
+    18,
+    9,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 6.2,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 6.2,
+    "y": 12,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": -135
+   },
+   {
+    "r": "B",
+    "x": 8.2,
+    "y": 8.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10.6,
+    "y": 10.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 2.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15.6,
+    "y": 15.4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 15.6,
+    "y": 2.4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 2.4,
+    "y": 15.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.6,
+     10.2
+    ],
+    "b": [
+     15.6,
+     15.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15.6,
+     15.4
+    ],
+    "b": [
+     15.6,
+     2.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     15.6,
+     2.4
+    ],
+    "b": [
+     18,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    9.4,
+    4.3,
+    "ROBO",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,237 @@
+{
+ "id": "ACO-010",
+ "bloque": "Rondos",
+ "titulo": "Atraer y encontrar al lejano",
+ "formato": "5v2 → 5v2",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "12 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; en cada serie defiende una pareja distinta (propuesta).",
+ "objetivo": "Buena orientación corporal, mover y atraer rivales, jugar hacia la zona menos poblada y encontrar al alejado o la línea de pase interior (fuente). Cómo explicarlo: «atraed a los dos defensores a vuestra zona; cuando estén cerca, el pase va lejos». Errores típicos: pasar a la otra zona sin haber atraído (los defensores llegan antes); pase largo flojo o por el aire; los que cambian de zona van andando; los de la zona 2 no se ofrecen. Qué observar: perfil abierto hacia la zona 2, ritmo de los 5 pases, desmarque del alejado. Montaje detallado (propuesta): dos zonas de 12 × 12 m separadas por un pasillo de 6 m (la fuente lo titula «La profundidad»); 5 amarillos y 2 rojos en la zona 1; 2 amarillos alejados en la zona 2.",
+ "montaje": "Dos zonas de 12 × 12 m con un pasillo de 6 m. Zona 1: 5 contra 2. Zona 2: 2 amarillos esperan.",
+ "juego": "Tras 5 pases como mínimo en la zona 1, se puede pasar a la zona 2. Al llegar el pase, 3 amarillos de la zona 1 y los 2 defensores corren a la zona 2: allí se juega otro 5 contra 2. Si roban, el que roba cambia con el que perdió.",
+ "punto": "Cada cambio de zona con el pase controlado: 1 punto.",
+ "consigna": "Atrae aquí y juega allí.",
+ "variantes": {
+  "facil": "Pasillo de 3 m y 4 pases mínimos (propuesta).",
+  "dificil": "Solo 1 defensor puede cambiar de zona a la vez; los atacantes a 2 toques (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): pasillo de 4 m y toques libres. Infantil (12–13): tal cual. Cadete (14–15): 2 toques y pasillo de 8 m (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · Mejora del ataque combinativo",
+  "titulo_original": "RONDO POSICIONAL – ATRAER Y ENCONTRAR",
+  "ref": "mejoradelataquecombinativo.pdf · p. 21"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "El texto de la fuente llega cortado tras «cambiarán a la zona 2, donde acudirán…» y el PDF no está disponible: medidas, pasillo, número de jugadores que cambian de zona, qué pasa al robar, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   12
+  ],
+  "nofield": true,
+  "tag": "12 × 12 m · pasillo 6 m",
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 31.4,
+   "ymin": -1.2,
+   "ymax": 13.2
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     12,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     12
+    ],
+    "1 0"
+   ],
+   [
+    [
+     12,
+     12
+    ],
+    [
+     0,
+     12
+    ],
+    "1 0"
+   ],
+   [
+    [
+     0,
+     12
+    ],
+    [
+     0,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     18,
+     0
+    ],
+    [
+     30,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     12
+    ],
+    "1 0"
+   ],
+   [
+    [
+     30,
+     12
+    ],
+    [
+     18,
+     12
+    ],
+    "1 0"
+   ],
+   [
+    [
+     18,
+     12
+    ],
+    [
+     18,
+     0
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 2.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.4,
+    "y": 10.4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 4.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7.8,
+    "y": 7.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26.5,
+    "y": 8.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.6,
+     10
+    ],
+    "b": [
+     22,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     2.4
+    ],
+    "b": [
+     19.6,
+     1.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6,
+    13.4,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    24,
+    13.4,
+    "ZONA 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "id": "LU-P049",
+ "bloque": "Rondos",
+ "titulo": "Hexágono con permutas",
+ "formato": "6v6 + 1",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "13 jug.",
+ "espacio": "hexágono 26 × 28 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; tras cada serie, los 3 de fuera de cada equipo pasan dentro (propuesta).",
+ "objetivo": "Posesión con movilidad y permutas: el interior que juega con un compañero de fuera cambia su puesto con él, y el equipo puntúa con 12 pases o 3 permutas en la misma posesión (fuente). Trabaja atraer para mover, líneas de pase y el triángulo defensivo del equipo sin balón. Cómo explicarlo: «juega con el de fuera y ocupa su sitio; él entra y da una línea de pase nueva». Errores típicos: la permuta se hace andando; los 3 interiores en línea; el comodín se esconde detrás de un rival; los de fuera se quedan quietos en el centro de su lado. Qué observar: triángulos dentro, comunicación en la permuta, perfil para ver dentro y fuera, el equipo sin balón tapando el pase interior. Montaje detallado (propuesta): hexágono de unos 26 × 28 m marcado con 6 conos; amarillos fuera en los lados 1, 3 y 5 y rojos en los lados 2, 4 y 6; 3 de cada equipo dentro y el comodín (blanco) siempre dentro.",
+ "montaje": "Hexágono de 26 × 28 m. Cada equipo: 3 dentro y 3 fuera, en lados alternos. Un comodín dentro con el que tiene el balón.",
+ "juego": "El equipo con balón y el comodín guardan la posesión. Máximo 3 toques (comodín, 2). Cuando un interior pasa a un compañero de fuera, los dos cambian el puesto. Si roban o sale el balón, el otro equipo ataca con sus 3 de fuera.",
+ "punto": "12 pases o 3 permutas en la misma posesión: 1 punto.",
+ "consigna": "Pasa fuera y ocupa su sitio.",
+ "variantes": {
+  "facil": "Toques libres y 10 pases por punto; comodín con 3 toques (propuesta).",
+  "dificil": "Interiores a 2 toques y el de fuera solo puede devolverla dentro, nunca a otro de fuera (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): toques libres para los de fuera y 10 pases. Cadete (14–15): como la fuente. Juvenil: 2 toques dentro (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO Hexagonal - Movilidad - Permuta de posiciones - Líneas de Pase",
+  "ref": "300 ejercicios Level Up Coach · p. 49 (tarea 48)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Lados que ocupa cada equipo, qué pasa tras salir el balón, series, variantes y adaptación (propuesta). Edad bajada a 12–15 años para fútbol base.",
+ "diagrama": {
+  "field": [
+   28,
+   26
+  ],
+  "nofield": true,
+  "tag": "hexágono 26 × 28 m",
+  "lines": [
+   [
+    [
+     27.5,
+     13.0
+    ],
+    [
+     20.75,
+     23.83
+    ],
+    "1 0"
+   ],
+   [
+    [
+     20.75,
+     23.83
+    ],
+    [
+     7.25,
+     23.83
+    ],
+    "1 0"
+   ],
+   [
+    [
+     7.25,
+     23.83
+    ],
+    [
+     0.5,
+     13.0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     0.5,
+     13.0
+    ],
+    [
+     7.25,
+     2.17
+    ],
+    "1 0"
+   ],
+   [
+    [
+     7.25,
+     2.17
+    ],
+    [
+     20.75,
+     2.17
+    ],
+    "1 0"
+   ],
+   [
+    [
+     20.75,
+     2.17
+    ],
+    [
+     27.5,
+     13.0
+    ],
+    "1 0"
+   ]
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 29.4,
+   "ymin": -1.2,
+   "ymax": 27.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 25.36,
+    "y": 19.08,
+    "f": [
+     14,
+     13
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.64,
+    "y": 19.08,
+    "f": [
+     14,
+     13
+    ]
+   },
+   {
+    "r": "A",
+    "x": 14.0,
+    "y": 0.77,
+    "f": [
+     14,
+     13
+    ]
+   },
+   {
+    "r": "B",
+    "x": 14.0,
+    "y": 25.23,
+    "f": [
+     14,
+     13
+    ]
+   },
+   {
+    "r": "B",
+    "x": 2.64,
+    "y": 6.92,
+    "f": [
+     14,
+     13
+    ]
+   },
+   {
+    "r": "B",
+    "x": 25.36,
+    "y": 6.92,
+    "f": [
+     14,
+     13
+    ]
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.6,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 14.6,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 13.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.5,
+     9
+    ],
+    "b": [
+     11.5,
+     18
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     11.5,
+     18
+    ],
+    "b": [
+     25.36,
+     19.08
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     25.36,
+     19.08
+    ],
+    "b": [
+     21,
+     13.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     11.5,
+     18
+    ],
+    "b": [
+     21,
+     21.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 14
+   }
+  ],
+  "labels": []
+ }
+}

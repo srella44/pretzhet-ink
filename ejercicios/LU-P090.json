@@ -1,0 +1,163 @@
+{
+ "id": "LU-P090",
+ "bloque": "Rondos",
+ "titulo": "Rondo 6v3: presión y cobertura",
+ "formato": "6v3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; en cada serie entran 3 defensores distintos (propuesta).",
+ "objetivo": "Para los 6: circular atrayendo defensores y conectar con el libre, con orientación corporal que permita jugar (fuente). Para los 3: defender en triángulo, uno presiona siempre al poseedor y los otros dos controlan a los receptores más cercanos (fuente). Cómo explicarlo: «atacantes: si vienen dos a por ti, hay uno libre; defensores: uno aprieta, dos tapan». Errores típicos: atacantes amontonados en un lado; pase al compañero vigilado; los 3 defensores van a la vez al balón y dejan pasar por dentro. Qué observar: perfil de los receptores, el pase entre líneas que rompe el triángulo, la coordinación de la presión. Montaje detallado (propuesta): cuadrado de 12 × 12 m; 4 atacantes fuera (uno por lado) y 2 dentro, o los 6 libres por el cuadrado; 3 defensores dentro.",
+ "montaje": "Cuadrado de 12 × 12 m. Seis atacantes (4 por los lados y 2 dentro) contra 3 defensores dentro.",
+ "juego": "Toques libres para los 6. Un defensor presiona siempre al que tiene el balón y los otros dos vigilan a los receptores cercanos. Tras robo o balón fuera, el que lo perdió cambia con el defensor que más tiempo lleve dentro.",
+ "punto": "12 pases seguidos: 1. Robo de los 3: 1 punto para ellos.",
+ "consigna": "Uno aprieta, dos tapan. Busca al libre.",
+ "variantes": {
+  "facil": "Dos defensores (6 contra 2) y 10 pases por punto (propuesta).",
+  "dificil": "6 contra 3 a 2 toques; el pase entre dos defensores vale doble (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 14 × 14 m y 8 pases por punto. Infantil (12–13): tal cual. Cadete (14–15): 2 toques (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO (6vs3) - PASES - CONTROL - LÍNEAS DE PASE - ORIENTACIÓN CORPORAL",
+  "ref": "300 ejercicios Level Up Coach · p. 90 (tarea 89)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Reparto de los 6 (4 fuera y 2 dentro), cuál de los defensores sale, puntuación, series, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 13.6,
+   "ymin": -1.6,
+   "ymax": 13.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": -0.8,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.8,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8.6,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 4.5,
+    "y": 1.8,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 7.4,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5.4,
+    "y": 8.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     -0.8
+    ],
+    "b": [
+     12.8,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     12.8,
+     4
+    ],
+    "b": [
+     9,
+     8.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     9,
+     8.6
+    ],
+    "b": [
+     -0.8,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3,
+    "nt": 0.42
+   },
+   {
+    "a": [
+     4.5,
+     1.8
+    ],
+    "b": [
+     10.8,
+     3.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 16
+   }
+  ],
+  "labels": []
+ }
+}

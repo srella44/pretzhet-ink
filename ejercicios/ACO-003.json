@@ -1,0 +1,205 @@
+{
+ "id": "ACO-003",
+ "bloque": "Rondos",
+ "titulo": "Rondo y tercer hombre",
+ "formato": "4v2 + 2C + 1v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; tras cada serie cambian los papeles (los de la posesión pasan a defender) (propuesta).",
+ "objetivo": "Circular hasta encontrar la línea de pase, conectar con el punta y usar el tercer hombre: el punta deja de cara a un comodín de la zona intermedia, que finaliza (fuente). Cómo explicarlo: «moved el balón hasta que el pase al punta esté limpio; punta, de cara y de primeras; comodín, llega de frente». Errores típicos: pase al punta precipitado con su marcador encima; punta que se gira en lugar de descargar; comodín parado esperando; tiro sin preparar. Qué observar: paciencia en el rondo, perfil del punta, llegada del tercer hombre en carrera. Montaje detallado (propuesta): 30 × 24 m con portería y portero en un fondo; zona exterior de 12 m (rondo) con 4 atacantes contra 2 defensores; zona intermedia de 8 m con 2 comodines; zona final de 10 m con el punta y su defensor.",
+ "montaje": "30 × 24 m, portería y portero en un fondo. Rondo 4v2 en la zona exterior; 2 comodines en la intermedia; punta y defensor al final.",
+ "juego": "Los 4 circulan (mínimo 4 pases) hasta encontrar la línea de pase al punta. El punta deja de cara a un comodín, que tira desde su zona o entra a finalizar. Si los 2 defensores roban, conducen hasta pasar la línea de fondo del rondo.",
+ "punto": "Gol: 2. Robo y salida en conducción: 1 a los defensores.",
+ "consigna": "Mueve, encuentra al punta y llega de cara.",
+ "variantes": {
+  "facil": "Sin defensor al punta y 3 pases mínimos en el rondo (propuesta).",
+  "dificil": "Rondo a 2 toques y el comodín debe tirar de primeras; un defensor puede salir a la zona intermedia (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): sin defensor al punta y 26 × 22 m. Infantil (12–13): tal cual. Cadete (14–15): rondo a 2 toques y comodines a 1 (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · Mejora del ataque combinativo",
+  "titulo_original": "RONDO – ENCONTRAR LÍNEAS DE PASE",
+  "ref": "mejoradelataquecombinativo.pdf · p. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "El texto de la fuente llega cortado y el PDF no está en el repositorio ni en el proyecto: medidas, número de atacantes y defensores, zonas, portería con portero, pases mínimos, qué pasa al robar, puntuación, series, variantes y adaptación son (propuesta) a partir de los objetivos y del inicio del desarrollo.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 32.4,
+   "ymin": -1,
+   "ymax": 25
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     24
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12,
+    "lado": "R",
+    "ancho": 5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.4,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5.4,
+    "y": 8.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 6.4,
+    "f": 180
+   },
+   {
+    "r": "G",
+    "x": 28.8,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.4,
+     8
+    ],
+    "b": [
+     23,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     23,
+     10
+    ],
+    "b": [
+     16,
+     18
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     18
+    ],
+    "b": [
+     29,
+     13.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    6,
+    23.4,
+    "RONDO",
+    "middle"
+   ],
+   [
+    16,
+    23.4,
+    "COMODINES",
+    "middle"
+   ]
+  ]
+ }
+}

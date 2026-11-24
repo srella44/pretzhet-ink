@@ -1,0 +1,195 @@
+{
+ "id": "IG-DfCJjV8M03T",
+ "bloque": "Rondos",
+ "titulo": "Robo y salida por los lados",
+ "formato": "6v3 por franjas",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "20 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; cada serie cambian los 3 defensores (propuesta).",
+ "objetivo": "Posesión que debe recorrer tres franjas y volver por la central, con un defensor presionando en cada franja; al interceptar, los defensores se asocian con el de la franja vecina para marcar en una de las cuatro miniporterías laterales (fuente). Trabaja circulación entre líneas y la transición defensa-ataque. Cómo explicarlo: «atacantes, del 1 al 3 y vuelta al 1 pasando por el centro; defensores, si robáis, buscad a vuestro vecino y a la mini». Errores típicos: pase largo saltando la franja central; atacantes parados en el centro de su franja; tras robo, el defensor conduce solo en lugar de combinar. Qué observar: pases entre franjas tensos, apoyos para recibir de cara, reacción de los atacantes tras perder. Montaje detallado (propuesta): rectángulo de 20 × 30 m en 3 franjas de 20 × 10 m; 2 atacantes y 1 defensor en cada franja; 2 miniporterías en cada lateral (una a cada lado de la franja central).",
+ "montaje": "20 × 30 m en 3 franjas de 10 m. En cada franja, 2 atacantes y 1 defensor. Dos miniporterías en cada lateral.",
+ "juego": "Cada uno en su franja. Los atacantes llevan el balón de la franja 1 a la 3 y vuelven a la 1, siempre pasando por la central. Si un defensor intercepta, combina con los defensores de las franjas vecinas y marca en cualquier miniportería.",
+ "punto": "Ida y vuelta: 1 punto. Gol de los defensores: 2.",
+ "consigna": "Ida y vuelta por el centro.",
+ "variantes": {
+  "facil": "Solo ida (franja 1 a 3) y el defensor de la franja central no puede robar, solo interceptar (propuesta).",
+  "dificil": "Atacantes a 2 toques y 8″ para cruzar cada franja (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 3 atacantes por franja y solo ida. Alevín (10–11): tal cual. Infantil (12–13): 2 toques y gol de los defensores en 6″ tras robar (propuesta).",
+ "fuente": {
+  "autor": "@labofsoms (Instagram)",
+  "titulo_original": "Robo y salida lateral por sectores",
+  "ref": "Reel DfCJjV8M03T"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, 2 atacantes por franja, posición de las miniporterías, puntuación, series, variantes y adaptación (propuesta). Edad propuesta a partir de «U11». La fuente es una descripción breve del reel.",
+ "diagrama": {
+  "field": [
+   20,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 21.6,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "lines": [
+   [
+    [
+     0,
+     10
+    ],
+    [
+     20,
+     10
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     20
+    ],
+    [
+     20,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    0,
+    23,
+    "L"
+   ],
+   [
+    20,
+    7,
+    "R"
+   ],
+   [
+    20,
+    23,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 9.4,
+    "y": 16.4,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 25.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 26,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 23.6,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     4
+    ],
+    "b": [
+     15,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     14
+    ],
+    "b": [
+     6,
+     25.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     6,
+     25.5
+    ],
+    "b": [
+     4,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3,
+    "nt": 0.45
+   }
+  ],
+  "labels": []
+ }
+}

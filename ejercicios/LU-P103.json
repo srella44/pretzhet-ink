@@ -1,0 +1,259 @@
+{
+ "id": "LU-P103",
+ "bloque": "Rondos",
+ "titulo": "Hexágono 9 contra 4",
+ "formato": "9v4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "13 jug.",
+ "espacio": "hexágono 28 × 22 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; al cambiar de serie, entran 4 defensores nuevos a la vez (fuente: rotación por tiempo).",
+ "objetivo": "Mantener la posesión jugando siempre dentro–fuera: los de los lados no pueden pasarse a los lados vecinos, así que el balón tiene que pasar por los de dentro (fuente). Trabaja circulación rápida, movilidad dentro del dispositivo y pase interior. Cómo explicarlo: «fuera, solo al de dentro o al lado de enfrente; dentro, moveos para que siempre haya uno libre». Errores típicos: los 3 de dentro se quedan quietos detrás de un defensor; pases fuera–fuera prohibidos; recibir de espaldas dentro. Qué observar: movilidad de los interiores, perfil para jugar al lado contrario, velocidad de circulación. Montaje detallado (propuesta): hexágono de 28 × 22 m con 6 conos; 6 atacantes fuera, uno por lado; 3 atacantes y 4 defensores dentro.",
+ "montaje": "Hexágono de 28 × 22 m. Seis atacantes fuera (uno por lado) y tres dentro, contra 4 defensores dentro.",
+ "juego": "Los 9 guardan el balón jugando dentro–fuera: un jugador de un lado no puede pasar a los lados vecinos (sí al de dentro o a un lado no vecino). Si roban, el que perdió cambia con un defensor; o se cambian los 4 defensores a la vez al acabar la serie.",
+ "punto": "12 pases seguidos: 1. Dentro–fuera–dentro sin robo: 1.",
+ "consigna": "Fuera, juega dentro; dentro, muévete.",
+ "variantes": {
+  "facil": "9 contra 3 y toques libres (propuesta).",
+  "dificil": "Los de fuera a 1 toque y los de dentro a 2 (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 9 contra 3 y toques libres. Cadete (14–15): como la fuente, 2 toques fuera. Juvenil: 1 toque fuera (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO Hexagonal 9 vs 4",
+  "ref": "300 ejercicios Level Up Coach · p. 103 (tarea 102)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Reparto de los 9 (6 fuera y 3 dentro), puntuación, series, variantes y adaptación (propuesta). Mismo ejercicio que el «Rondo Hexagonal 9 vs 4» del ebook de Alex Ortiz (AO-21). Edad bajada a 12–15 años.",
+ "diagrama": {
+  "field": [
+   28,
+   22
+  ],
+  "nofield": true,
+  "tag": "hexágono 28 × 22 m",
+  "lines": [
+   [
+    [
+     27.0,
+     11.0
+    ],
+    [
+     20.5,
+     20.01
+    ],
+    "1 0"
+   ],
+   [
+    [
+     20.5,
+     20.01
+    ],
+    [
+     7.5,
+     20.01
+    ],
+    "1 0"
+   ],
+   [
+    [
+     7.5,
+     20.01
+    ],
+    [
+     1.0,
+     11.0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     1.0,
+     11.0
+    ],
+    [
+     7.5,
+     1.99
+    ],
+    "1 0"
+   ],
+   [
+    [
+     7.5,
+     1.99
+    ],
+    [
+     20.5,
+     1.99
+    ],
+    "1 0"
+   ],
+   [
+    [
+     20.5,
+     1.99
+    ],
+    [
+     27.0,
+     11.0
+    ],
+    "1 0"
+   ]
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 29.4,
+   "ymin": -1.4,
+   "ymax": 23.4
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 24.93,
+    "y": 16.05,
+    "f": [
+     14,
+     11
+    ]
+   },
+   {
+    "r": "A",
+    "x": 14.0,
+    "y": 21.31,
+    "f": [
+     14,
+     11
+    ]
+   },
+   {
+    "r": "A",
+    "x": 3.07,
+    "y": 16.05,
+    "f": [
+     14,
+     11
+    ]
+   },
+   {
+    "r": "A",
+    "x": 3.07,
+    "y": 5.95,
+    "f": [
+     14,
+     11
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.0,
+    "y": 0.69,
+    "f": [
+     14,
+     11
+    ]
+   },
+   {
+    "r": "A",
+    "x": 24.93,
+    "y": 5.95,
+    "f": [
+     14,
+     11
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 6.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 15.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21.8,
+    "y": 13.6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 14.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.07,
+     5.95
+    ],
+    "b": [
+     9,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     11
+    ],
+    "b": [
+     18,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     18,
+     15
+    ],
+    "b": [
+     24.93,
+     5.95
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

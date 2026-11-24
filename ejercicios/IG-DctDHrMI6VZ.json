@@ -1,0 +1,148 @@
+{
+ "id": "IG-DctDHrMI6VZ",
+ "bloque": "Rondos",
+ "titulo": "Pase dentro y permuta",
+ "formato": "2v2 + 2 apoyos",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa (propuesta). En la pausa, cada equipo cambia a sus 2 de fuera por 2 de dentro si no han permutado. Con 12–16 jugadores, dos campos a la vez o un tercer equipo que entra cada serie.",
+ "objetivo": "Mantener el balón en un 4 contra 4 en el que cada equipo tiene 2 jugadores dentro y 2 apoyos fuera, y aprender que el pase interior es el que hace avanzar el juego: solo al completarlo cambian de sitio el apoyo y el interior (fuente). Cómo explicarlo: «fuera, buscad al de dentro; si no está libre, cambiad de lado con el otro apoyo». Errores típicos: los apoyos se la pasan entre ellos sin mirar dentro; los interiores se quedan detrás de su par; la permuta se hace andando y el equipo queda descolocado; el interior que recibe la devuelve sin girarse. Qué observar: perfil abierto del interior, pase fuerte al pie lejano del defensor, permuta rápida (el apoyo entra y el interior sale a su lado), presión de los 2 interiores rivales al perder. Montaje detallado (propuesta): cuadrado de 20 × 20 m; los 2 apoyos amarillos fuera, en los lados de arriba y abajo; los 2 apoyos rojos fuera, en los lados izquierdo y derecho; dentro, 2 amarillos y 2 rojos.",
+ "montaje": "20 × 20 m, 4 contra 4. Cada equipo: 2 dentro y 2 apoyos fuera en lados opuestos (amarillos arriba-abajo, rojos a los lados).",
+ "juego": "El de fuera puede pasar al otro apoyo (cambio de lado) o meterla dentro. Solo si el pase interior llega, el apoyo y el interior que recibe cambian el puesto. Los apoyos no entran ni roban. Si roban, el otro equipo hace lo mismo.",
+ "punto": "10 pases seguidos: 1 punto (fuente).",
+ "consigna": "Busca dentro y cambia el puesto.",
+ "variantes": {
+  "facil": "Apoyos con toques libres y un comodín dentro para el que tiene el balón (6 contra 2 dentro de juego) (propuesta).",
+  "dificil": "Apoyos a 1 toque y prohibido el pase entre los 2 apoyos dos veces seguidas; punto con 8 pases si hay 2 permutas (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 22 × 22 m, toques libres y 8 pases por punto. Alevín (10–11): tal cual. Infantil (12–13): 18 × 18 m y apoyos a 2 toques (propuesta).",
+ "fuente": {
+  "autor": "@misterelite_coach (Instagram)",
+  "titulo_original": "La permuta depende de completar el pase",
+  "ref": "Reel DctDHrMI6VZ"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de los apoyos (amarillos arriba y abajo, rojos a los lados), que los apoyos no roban, series, variantes y adaptación (propuesta). Edad propuesta a partir de «U11». La fuente es una descripción breve del reel.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 22.4,
+   "ymin": -2.4,
+   "ymax": 22.4
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": -1.2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21.2,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": -1.2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21.2,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 9,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 15.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     -1.2
+    ],
+    "b": [
+     3.5,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     -1.2
+    ],
+    "b": [
+     14.5,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     3.5,
+     9
+    ],
+    "b": [
+     4.5,
+     -1.3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    15.6,
+    3.2,
+    "PERMUTA",
+    "start"
+   ]
+  ]
+ }
+}

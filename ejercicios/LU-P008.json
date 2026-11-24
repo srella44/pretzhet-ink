@@ -1,0 +1,183 @@
+{
+ "id": "LU-P008",
+ "bloque": "Rondos",
+ "titulo": "Rondo móvil en dos zonas",
+ "formato": "8v2 (5v2)",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; en cada serie defiende una pareja distinta (propuesta). Punto cada 20 pases seguidos (fuente).",
+ "objetivo": "Circular a 1 toque en un rondo que se desplaza entre dos zonas y encontrar al compañero alejado: el pase de una esquina a una esquina de la otra zona obliga a cambiar de posición a dos parejas (fuente). Trabaja abrir intervalos, batir líneas de pase y conectar zonas. Cómo explicarlo: «si las dos esquinas de tu lado están tapadas, busca la esquina de la otra zona; quien la pasa, entra al centro». Errores típicos: la pareja central se queda en la misma línea que los defensores; las esquinas no se mueven a lo largo del lado para abrir el pase; la permuta se hace tarde y la zona queda vacía. Qué observar: perfil abierto, pase tenso a 1 toque, comunicación en la permuta. Montaje detallado (propuesta): 14 × 14 m dividido en dos zonas de 14 × 7 m; 4 parejas con balón: pareja A en las 2 esquinas de arriba, pareja B en las 2 de abajo, pareja C dentro (centro) y pareja D fuera, en el centro de los lados izquierdo y derecho (sirven a las dos zonas); 2 defensores dentro, libres por las dos zonas.",
+ "montaje": "14 × 14 m en 2 zonas. 4 parejas con balón: 2 esquinas arriba, 2 abajo, una pareja en el centro y otra en los lados. 2 defienden.",
+ "juego": "Todos a 1 toque. Se juega en la zona del balón (5 contra 2) y se cambia de zona cuando se quiera. Si una esquina pasa a una esquina de la otra zona, la pareja que pasó entra al centro y la del centro ocupa sus esquinas. Si roban, la pareja que perdió defiende.",
+ "punto": "20 pases seguidos: 1 punto para los del balón (fuente).",
+ "consigna": "Esquina lejana libre: pásala y entra.",
+ "variantes": {
+  "facil": "2 toques y punto cada 12 pases; cuadrado de 16 × 16 m (propuesta).",
+  "dificil": "Solo valen los pases de esquina a esquina contraria tras 3 pases en la zona; un tercer defensor que solo entra en la zona del balón (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 16 × 16 m, 2 toques y 12 pases por punto. Infantil (12–13): 14 × 14 m y 2 toques. Cadete (14–15): 1 toque como la fuente (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO móvil en dos zonas 8vs2 (5vs2)",
+  "ref": "300 ejercicios Level Up Coach · p. 8 (tarea 7)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de las 4 parejas (esquinas, centro y lados), qué pareja defiende tras el robo, series, variantes y adaptación (propuesta). Sin gráfico original en el texto: colocación a partir de «conos marcados y zonas exteriores».",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 16.2,
+   "ymin": -1.6,
+   "ymax": 15.6
+  },
+  "lines": [
+   [
+    [
+     0,
+     7
+    ],
+    [
+     14,
+     7
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    14,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 0.6,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.4,
+    "y": 0.6,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 13.4,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 13.4,
+    "y": 13.4,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.4,
+    "y": 10.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15.2,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3.2,
+    "y": 5.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9.8,
+    "y": 6.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.6,
+     0.6
+    ],
+    "b": [
+     13.4,
+     13.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     8,
+     3.4
+    ],
+    "b": [
+     2.2,
+     1.0
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7,
+    15.1,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    5.2,
+    -0.9,
+    "PERMUTA",
+    "start"
+   ]
+  ]
+ }
+}

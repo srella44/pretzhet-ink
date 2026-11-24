@@ -1,0 +1,160 @@
+{
+ "id": "LU-P290",
+ "bloque": "Rondos",
+ "titulo": "6 contra 4 sin petos",
+ "formato": "4v4 + 2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; cada serie, 2 comodines distintos (fuente: los comodines cambian en cada serie).",
+ "objetivo": "Movilidad y circulación del balón en superioridad (6 contra 4) y, sobre todo, obligar a mirar: los equipos juegan sin petos, así que hay que reconocer a los compañeros antes de recibir (fuente). Cómo explicarlo: «antes de que te llegue, mira y cuenta quién es de los tuyos». Errores típicos: pases al rival por no levantar la cabeza; jugadores parados esperando el balón; todos al centro. Qué observar: escaneos antes de recibir, comunicación (nombres en voz alta), uso de los comodines para dar superioridad. Montaje detallado (propuesta): cuadrado de 25 × 25 m; dos equipos de 4 sin petos (cada uno recuerda a sus compañeros) y 2 comodines con peto que juegan siempre con el que tiene el balón.",
+ "montaje": "Cuadrado de 25 × 25 m. Dos equipos de 4 sin petos y 2 comodines con peto, siempre con el que tiene el balón.",
+ "juego": "El equipo con balón y los 2 comodines (6 contra 4) guardan la posesión con toques libres. No hay petos: hay que saber quién es compañero. Si el rival roba o el balón sale, cambian los papeles. Al cambiar de serie, entran 2 comodines nuevos.",
+ "punto": "10 pases seguidos: 1 punto (propuesta).",
+ "consigna": "Mira antes de recibir: ¿quién es de los tuyos?",
+ "variantes": {
+  "facil": "Petos para un solo equipo en la primera serie; 8 pases por punto (propuesta).",
+  "dificil": "Comodines a 1 toque y todos a 2 toques; prohibido devolver al que te la dio (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 22 m y 8 pases. Infantil (12–13): tal cual. Cadete (14–15): 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Rondo - Superioridad numérica- @Zonadefutboles - www.zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · p. 290 (tarea 289)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Puntuación, toques, series, variantes y adaptación (propuesta). En el diagrama los colores solo sirven para distinguir los equipos: en el campo juegan sin petos.",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 26,
+   "ymin": -1,
+   "ymax": 26
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12.5,
+    "y": 5.2,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     12.5,
+     5.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12.5,
+     5.2
+    ],
+    "b": [
+     19,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     6
+    ],
+    "b": [
+     18,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    24.2,
+    "SIN PETOS",
+    "middle"
+   ]
+  ]
+ }
+}

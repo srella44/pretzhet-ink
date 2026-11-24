@@ -1,0 +1,130 @@
+{
+ "id": "LU-P087",
+ "bloque": "Rondos",
+ "titulo": "Rondo 4 contra 2 corto",
+ "formato": "4v2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "7 × 7 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ con 1′ de pausa; con 12 jugadores, 2 rondos a la vez (propuesta).",
+ "objetivo": "Pase, control y líneas de pase en un espacio muy reducido: atraer a los dos defensores y encontrar al compañero libre, con el cuerpo orientado para poder jugar (fuente). Cómo explicarlo: «recibe de lado para ver a los dos compañeros; si te vienen los dos, el libre está detrás». Errores típicos: recibir de frente y de espaldas al pase siguiente; pase entre los dos defensores sin que haya hueco; los de fuera quietos en el centro de su lado; control largo que se va del cuadrado. Qué observar: control orientado, pase raso y tenso, ajustes cortos por el lado para abrir la línea. Montaje detallado (propuesta): cuadrado de 7 × 7 m marcado con 4 conos; los 4 atacantes, uno por lado; los 2 defensores dentro.",
+ "montaje": "Cuadrado de 7 × 7 m. Cuatro atacantes, uno por lado, y dos defensores dentro.",
+ "juego": "Los 4 se pasan el balón a 2 toques como máximo y se mueven por su lado para dar línea de pase. Los 2 defensores intentan robar o tocar el balón. Tras robo, el que perdió cambia con el defensor que más tiempo lleve dentro.",
+ "punto": "10 pases seguidos: 1. Robo antes de 5 pases: 1 al defensor.",
+ "consigna": "Recibe de lado y busca al libre.",
+ "variantes": {
+  "facil": "Cuadrado de 10 × 10 m y toques libres (propuesta).",
+  "dificil": "A 1 toque, o pase entre los 2 defensores = 2 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 10 × 10 m y toques libres. Infantil (12–13): 8 × 8 m a 2 toques. Cadete (14–15): 7 × 7 m como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO (4vs2) - PASES - CONTROL - LÍNEAS DE PASE",
+  "ref": "300 ejercicios Level Up Coach · p. 87 (tarea 86)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colocación de un atacante por lado, cuál de los defensores sale, puntuación, series, variantes y adaptación (propuesta). Edad 12–15 por lo reducido del espacio.",
+ "diagrama": {
+  "field": [
+   7,
+   7
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 8.4,
+   "ymin": -1.4,
+   "ymax": 8.4
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": -0.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.6,
+    "y": 3.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.8,
+    "y": 7.6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.6,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3.3,
+    "y": 2.3,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 4.6,
+    "y": 4.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     -0.6
+    ],
+    "b": [
+     7.6,
+     3.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     3.3,
+     2.3
+    ],
+    "b": [
+     5.8,
+     3.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     7.6,
+     3.2
+    ],
+    "b": [
+     -0.6,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3,
+    "nt": 0.72
+   }
+  ],
+  "labels": []
+ }
+}

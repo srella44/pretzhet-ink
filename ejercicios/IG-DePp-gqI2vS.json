@@ -1,0 +1,187 @@
+{
+ "id": "IG-DePp-gqI2vS",
+ "bloque": "Rondos",
+ "titulo": "Persecución de rondos",
+ "formato": "2 × (5v2)",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "28 × 28 m",
+ "duracion": "15 min",
+ "series": "4 carreras de 2′30″ con 1′ de pausa; en cada carrera cambian los defensores (propuesta).",
+ "objetivo": "Rondo 5 contra 2 con prisa: cada 5 pases el grupo entero se traslada al cuadrante siguiente y compite por alcanzar al otro grupo (fuente). Trabaja la velocidad de circulación y, sobre todo, reorganizarse rápido tras el cambio de cuadrante (fuente: valorar el tiempo perdido). Cómo explicarlo: «5 pases y al siguiente cuadrante; el que llega antes, gana». Errores típicos: arriesgar pases para ir más rápido y perder el balón; tras cambiar, nadie ocupa los lados; los defensores no cambian a la vez. Qué observar: pase seguro y rápido, comunicación al cambiar («¡vamos!»), colocación inmediata en el nuevo cuadrante. Montaje detallado (propuesta): cuadrado de 28 × 28 m en 4 cuadrantes de 14 × 14 m; grupo 1 (amarillos + 2 rojos) en el cuadrante de arriba a la izquierda; grupo 2 (azules + 2 rojos) en el de abajo a la derecha.",
+ "montaje": "28 × 28 m en 4 cuadrantes de 14 m. Dos grupos de 5 contra 2 en cuadrantes opuestos.",
+ "juego": "A la señal, cada grupo juega su 5 contra 2. Con 5 pases seguidos, el grupo entero (con sus 2 defensores) pasa al cuadrante siguiente en sentido horario y sigue. Si roban, el que perdió cambia con el defensor. Gana el grupo que alcanza al otro.",
+ "punto": "Alcanzar al otro grupo: 1. Si nadie, gana quien más cambia.",
+ "consigna": "Cinco pases y al siguiente, ¡rápido!",
+ "variantes": {
+  "facil": "4 pases por cambio y 5 contra 1 (propuesta).",
+  "dificil": "A 2 toques y el cambio solo vale si el balón llega al nuevo cuadrante por pase (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 4 contra 1 y 4 pases. Alevín (10–11): tal cual. Infantil (12–13): cuadrantes de 12 m y 2 toques (propuesta).",
+ "fuente": {
+  "autor": "@misterelite_coach (Instagram)",
+  "titulo_original": "Persecución entre dos rondos",
+  "ref": "Reel DePp-gqI2vS"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, que los defensores viajan con su grupo, qué pasa al robar, cómo se gana si nadie alcanza, series, variantes y adaptación (propuesta). Edad propuesta a partir de «U11». La fuente es una descripción breve del reel.",
+ "diagrama": {
+  "field": [
+   28,
+   28
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 29.2,
+   "ymin": -1.2,
+   "ymax": 29.2
+  },
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     28
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     14
+    ],
+    [
+     28,
+     14
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 1.5,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 1.5,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 12.5,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 12.5,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 0.9,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8.6,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 15.5,
+    "f": 45
+   },
+   {
+    "r": "D",
+    "x": 26.5,
+    "y": 15.5,
+    "f": 135
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 26.5,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 26.5,
+    "y": 26.5,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 14.9,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 19.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22.6,
+    "y": 23,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     3.6
+    ],
+    "b": [
+     20,
+     3.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     24.4
+    ],
+    "b": [
+     8,
+     24.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   }
+  ],
+  "labels": []
+ }
+}

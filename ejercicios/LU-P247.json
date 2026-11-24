@@ -1,0 +1,220 @@
+{
+ "id": "LU-P247",
+ "bloque": "Rondos",
+ "titulo": "Roba y busca al alejado",
+ "formato": "4v2 + 1",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "7 jug.",
+ "espacio": "2 cuadrados de 8 × 8 m",
+ "duracion": "14 min",
+ "series": "4 series de 2′30″ con 1′ de pausa (propuesta).",
+ "objetivo": "Orientar la presión para robar y, al robar, orientarse para jugar con el compañero alejado (fuente). Cómo explicarlo: «defensores, llevad al poseedor a la esquina para quitarle ángulos; si robáis, mirad al otro cuadrado antes de que os presionen». Errores típicos: los 2 defensores van al balón por el mismo lado; tras robar, el que roba conduce de cara a su rival en vez de girarse; pase largo flojo que no llega al otro cuadrado; los demás tardan en cambiar de espacio. Qué observar: presión en diagonal que cierra la línea interior, perfil del que roba, rapidez en el cambio de cuadrado. Montaje detallado (propuesta): dos cuadrados de 8 × 8 m separados 10 m (la fuente da 12 × 12 m como medida del espacio); en uno, 4 atacantes por fuera, uno por lado, y 2 defensores dentro; en el otro, 1 jugador espera.",
+ "montaje": "2 cuadrados de 8 × 8 m a 10 m. En uno, 4 atacantes por fuera (uno por lado) y 2 defensores dentro. En el otro espera 1.",
+ "juego": "4 contra 2 por fuera del cuadrado. Si un defensor roba y pasa al jugador alejado, se queda a descansar en su cuadrado; los demás cambian al otro espacio: el que perdió pasa a defender con el otro defensor y el alejado juega con los 3 atacantes.",
+ "punto": "10 pases: 1. Robo y pase al alejado: 1 al que roba.",
+ "consigna": "Llévalo a la esquina; roba y busca lejos.",
+ "variantes": {
+  "facil": "Cuadrados de 10 × 10 m y el alejado puede moverse por fuera de su cuadrado para recibir (propuesta).",
+  "dificil": "Atacantes a 2 toques y el defensor tiene 3″ para pasar al alejado tras robar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cuadrados de 10 × 10 m a 8 m y toques libres. Infantil (12–13): tal cual. Cadete (14–15): 2 toques y 12 m entre cuadrados (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Rondo Transición 4×2+1 - Miguel Sobejano @Miwel86 - Zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · p. 247 (tarea 246)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida de cada cuadrado (8 × 8 m; la fuente da 12 × 12 m), quién forma el nuevo rondo (el otro defensor sigue defendiendo con el que perdió), puntuación, series, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   26,
+   8
+  ],
+  "nofield": true,
+  "tag": "8 × 8 m · a 10 m",
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 27.8,
+   "ymin": -2.4,
+   "ymax": 10
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     8,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     8
+    ],
+    "1 0"
+   ],
+   [
+    [
+     8,
+     8
+    ],
+    [
+     0,
+     8
+    ],
+    "1 0"
+   ],
+   [
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     18,
+     0
+    ],
+    [
+     26,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     26,
+     0
+    ],
+    [
+     26,
+     8
+    ],
+    "1 0"
+   ],
+   [
+    [
+     26,
+     8
+    ],
+    [
+     18,
+     8
+    ],
+    "1 0"
+   ],
+   [
+    [
+     18,
+     8
+    ],
+    [
+     18,
+     0
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 8.9,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2.6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 5.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     5.4
+    ],
+    "b": [
+     22,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     8.9,
+     4
+    ],
+    "b": [
+     17.4,
+     1.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2,
+    "nt": 0.6
+   }
+  ],
+  "labels": [
+   [
+    22,
+    9.4,
+    "ALEJADO",
+    "middle"
+   ]
+  ]
+ }
+}

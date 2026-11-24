@@ -1,0 +1,142 @@
+{
+ "id": "LU-P151",
+ "bloque": "Rondos",
+ "titulo": "Rondo 2v2 + 4 apoyos",
+ "formato": "2v2 + 4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "10 × 14 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; en la pausa cambian las parejas de dentro y de fuera (propuesta).",
+ "objetivo": "Transiciones y movilidad en espacio reducido: cuatro parejas, dos fuera (amplitud y profundidad) y dos dentro; la pareja que pierde el balón pasa siempre a defender dentro y la que roba ocupa su sitio (fuente). Cómo explicarlo: «si pierdes, a defender; si robas, a tener el balón con los de fuera». Errores típicos: la pareja de dentro se pone en línea con los defensores; los de fuera se quedan quietos; la pareja que pierde tarda en presionar; cambio de puesto lento. Qué observar: desmarque de apoyo dentro, pase a la pareja de fuera opuesta, presión inmediata tras pérdida. Montaje detallado (propuesta): rectángulo de 10 × 14 m; pareja azul en los lados largos (amplitud), pareja blanca en los lados cortos (profundidad); dentro, pareja amarilla con balón contra pareja roja.",
+ "montaje": "10 × 14 m. Una pareja en los lados largos y otra en los cortos (fuera). Dentro, 2 amarillos con balón contra 2 rojos.",
+ "juego": "La pareja de dentro juega con las dos de fuera contra los 2 rojos, a 2 toques. Si los rojos roban, cambian el rol con la pareja que perdió. Si la pierde una pareja de fuera, entra a defender y los que robaron ocupan su sitio.",
+ "punto": "8 pases seguidos: 1 punto (propuesta).",
+ "consigna": "Pierdes: presiona. Robas: dale salida.",
+ "variantes": {
+  "facil": "Toques libres para los de fuera y 6 pases por punto (propuesta).",
+  "dificil": "Los de fuera a 1 toque y no pueden pasarse entre ellos (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 12 × 16 m y toques libres fuera. Infantil (12–13): tal cual. Cadete (14–15): todos a 2 toques y fuera a 1 (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RONDO 2vs2+4 - TRANSICIONES - MOVILIDAD",
+  "ref": "300 ejercicios Level Up Coach · p. 151 (tarea 150)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Colores (azules en bandas = amplitud, blancos en fondos = profundidad), puntuación, series, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   14,
+   10
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 15.8,
+   "ymin": -1.8,
+   "ymax": 11.8
+  },
+  "players": [
+   {
+    "r": "D",
+    "x": 7,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 10.9,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -0.9,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 14.9,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.8,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 7.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6.6,
+    "y": 4.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8.6,
+    "y": 7.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.8,
+     3
+    ],
+    "b": [
+     7,
+     -0.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     -0.9
+    ],
+    "b": [
+     10,
+     7.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2,
+    "nt": 0.58
+   },
+   {
+    "a": [
+     10,
+     7.4
+    ],
+    "b": [
+     14.9,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "id": "RONDO-PLANB-02",
+ "bloque": "Rondos",
+ "titulo": "El rondo que gira",
+ "formato": "3v1",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4 jug.",
+ "espacio": "6 × 6 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′ con 30″ de pausa; en cada serie se intenta batir el récord de pases del grupo (fuente: récord de pases).",
+ "objetivo": "Plan B para cuando solo vienen 4 jugadores: un 3 contra 1 continuo en el que nadie se queda mucho rato en el centro, porque el defensor que toca el balón sale y entra quien lo perdió (fuente). Trabaja pase, apoyo a los dos lados del poseedor y presión individual. Cómo explicarlo: «tres por fuera, siempre dos apoyos al que la tiene; el del centro sale en cuanto toque el balón». Errores típicos: el que no participa se queda en el lado de enfrente (sin apoyo); pase cerca del defensor; correr detrás del balón en vez de cortar la línea. Qué observar: movimiento al lado libre tras cada pase, perfil abierto, el defensor orientando hacia un lado. Montaje detallado (propuesta): cuadrado de 6 × 6 m con 4 conos; los 3 atacantes por fuera, en tres lados distintos; el defensor dentro.",
+ "montaje": "Cuadrado de 6 × 6 m. Tres atacantes por fuera, en tres lados distintos; uno dentro defiende.",
+ "juego": "Los 3 se pasan el balón y se mueven por fuera para dar siempre dos apoyos al que la tiene. En cuanto el del centro toca el balón, sale y entra el que dio el último pase (o lo perdió). Se cuentan los pases seguidos y se busca el récord.",
+ "punto": "Récord de pases seguidos del grupo (fuente).",
+ "consigna": "Dos apoyos siempre al que la tiene.",
+ "variantes": {
+  "facil": "Cuadrado de 8 × 8 m y toques libres; el defensor necesita controlar el balón, no solo tocarlo (propuesta).",
+  "dificil": "A 2 toques y luego a 1; prohibido pasar al lado de enfrente (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 8 × 8 m y toques libres. Alevín (10–11): 6 × 6 m a 2 toques. Infantil (12–13): 5 × 5 m a 1 toque (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El rondo que gira",
+  "ref": "RONDO Bonus 3 · Plan B (24 juegos) · «Vienen 4»"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Interpretación de «quien toca el balón sale del centro» (sale el defensor y entra el que perdió el balón), colocación por fuera, toques, series, variantes y adaptación (propuesta). Edad ampliada a 8–13 años.",
+ "diagrama": {
+  "field": [
+   6,
+   6
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 7.3,
+   "ymin": -1.3,
+   "ymax": 7.3
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    6,
+    0
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    6,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": -0.7,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.7,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -0.7,
+    "y": 3.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2.8,
+    "y": 3,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     -0.7
+    ],
+    "b": [
+     6.7,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     -0.7,
+     3.4
+    ],
+    "b": [
+     2.6,
+     6.7
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 2
+   }
+  ],
+  "labels": []
+ }
+}
