@@ -1,0 +1,179 @@
+{
+ "id": "TLC-0380",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Salida de balón 7v5",
+ "formato": "Salida desde portero 7v5",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "12 jug.",
+ "espacio": "44 × 28 m",
+ "duracion": "18 min",
+ "series": "4 series de 4 min con 1 min de pausa. Los equipos cambian de papel cada serie y se prueba una presión distinta (4-1, 2-3, 3-2).",
+ "objetivo": "Salir jugando desde el portero ante presión alta, eligiendo la vía de progresión. Cómo explicarlo: busca dónde está la superioridad y no fuerces. Errores típicos: pasar al pie con el rival encima, conducir en vez de pasar y no ordenar alturas. Qué observar: perfil en la primera recepción, comunicación y reacción tras pérdida.",
+ "montaje": "Campo de 44 × 28 m con portería a la izquierda y 2 miniporterías a la derecha como vías. Salida: portero, 2 centrales, mediocentro, 2 laterales y mediapunta. Presionan 5.",
+ "juego": "El portero saca jugado y el equipo progresa hasta pasar por una miniportería. Si el rival roba, ataca la portería grande y los de salida se repliegan.",
+ "punto": "Pasar por una vía: 1 punto. Gol: 2. Gol tras robo del rival: 2.",
+ "consigna": "Elige la vía y pasa rápido.",
+ "variantes": {
+  "facil": "Presionan 4 jugadores y sin límite de tiempo.",
+  "dificil": "Presión 4-1 y 8 s para llegar a una vía."
+ },
+ "adaptacion": "Alevín (10–11): 6v4 y campo de 38 × 26 m. Infantil (12–13): como está. Cadete: 7v6 y presión tras pérdida.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Erik ten Hag)",
+  "titulo_original": "ERIK TEN HAG SALIDA DE BALÓN",
+  "ref": "toplidercoach.com/salida-de-balon-ajax/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: saque de puerta con 7×5, presión alta en 4-1, 2-3 o 3-2, porterías pequeñas como vías de progresión y transición. Reparto de puestos (12 jug.), medidas, series y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   44,
+   28
+  ],
+  "extent": {
+   "xmin": -4.5,
+   "xmax": 48,
+   "ymin": -2,
+   "ymax": 30
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 14,
+    "lado": "L",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    44,
+    6,
+    "R"
+   ],
+   [
+    44,
+    22,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     14
+    ],
+    "b": [
+     8,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     12,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     3
+    ],
+    "b": [
+     24,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

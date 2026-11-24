@@ -1,0 +1,190 @@
+{
+ "id": "TLC-0036",
+ "bloque": "Rondos",
+ "titulo": "Rondo hexagonal 7v4",
+ "formato": "7v4 con comodines",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "11 jug.",
+ "espacio": "Hexágono de 30 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa. El rol cambia tras cada pérdida o a las 6 recuperaciones.",
+ "objetivo": "Jugar en superioridad en un espacio amplio y apoyarse en los comodines. Cómo explicarlo: el primer pase siempre es libre; después, busca el apoyo interior. Errores típicos: espacio demasiado pequeño, pases largos a ciegas y comodines que se quedan fijos. Qué observar: apoyos interiores y quién se desmarca ante la presión.",
+ "montaje": "Hexágono de 30 m. En el borde, 4 amarillos y 3 comodines que juegan con quien tenga balón. Dentro, 4 rojos presionan.",
+ "juego": "Los 7 mantienen el balón a toque libre; el primer pase no se intercepta. Si los rojos roban o el balón sale, quien lo perdió pasa al centro y el que lo recuperó sale.",
+ "punto": "8 pases: 1 punto a los 7. Recuperación o fuera: 1 punto a los rojos.",
+ "consigna": "Primer pase libre, después apoyo interior.",
+ "variantes": {
+  "facil": "Presionan solo 3 rojos y los comodines juegan a 2 toques.",
+  "dificil": "Presionan 5 y se juega a 2 toques máximo."
+ },
+ "adaptacion": "Alevín (10–11): hexágono de 22 m y 3 presionantes. Infantil (12–13): como está. Cadete: 2 toques y presión de 5.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nuno Espírito Santo)",
+  "titulo_original": "NUNO,RONDO HEXAGONAL",
+  "ref": "toplidercoach.com/nunorondo-hexagonal/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: hexágono con 4 jugadores de presión, 4 poseedores y 3 comodines; cambio de roles por pérdida. Reparto de puestos, series y puntuación propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "nofield": true,
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      29,
+      15
+     ],
+     [
+      22,
+      27.1
+     ],
+     [
+      8,
+      27.1
+     ],
+     [
+      1,
+      15
+     ],
+     [
+      8,
+      2.9
+     ],
+     [
+      22,
+      2.9
+     ]
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 29,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 27.1,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 27.1,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 1,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2.9,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 2.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 8.5,
+    "f": 150
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 19,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     29,
+     15
+    ],
+    "b": [
+     22,
+     27.1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     27.1
+    ],
+    "b": [
+     8,
+     27.1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     27.1
+    ],
+    "b": [
+     1,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

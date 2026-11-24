@@ -1,0 +1,180 @@
+{
+ "id": "TLC-0400",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda 3er hombre y perfiles",
+ "formato": "Pentágono de 10",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "Pentágono de 14 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 45 s de pausa. Se cambia el sentido de la rueda y el pie de control en cada serie.",
+ "objetivo": "Recibir de lado, controlar con la pierna alejada y pasar con el interior en una rueda continua. Cómo explicarlo: mira antes de recibir y deja el balón en la línea del siguiente pase. Errores típicos: controles muertos, recibir de frente y pausas. Qué observar: perfil previo y ritmo.",
+ "montaje": "Pentágono de 14 m con un cono en cada vértice. Dos jugadores por vértice; el primero tiene balón y el segundo espera junto al cono.",
+ "juego": "Pasa al vértice siguiente con el interior, a ras. Tras pasar, ocupa ese vértice y su compañero entra. Quien recibe controla con la pierna alejada, orientado al próximo pase.",
+ "punto": "10 vueltas completas sin fallo: 1 punto. Si falla, vuelta a cero.",
+ "consigna": "Perfil, pierna alejada y pase tenso.",
+ "variantes": {
+  "facil": "Tres toques y pentágono de 12 m.",
+  "dificil": "Un toque y un segundo balón en sentido contrario."
+ },
+ "adaptacion": "Alevín (10–11): 3 toques y 12 m. Infantil (12–13): como está. Cadete: un toque y dos balones.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Xavi Hernández)",
+  "titulo_original": "XAVI HERNÁNDEZ RUEDA DE PASE TERCER HOMBRE DOS PERFILES",
+  "ref": "toplidercoach.com/rueda-de-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: rueda de pase corta (cuadrado, rombo, zigzag…) con perfil previo, control con la pierna alejada y pase con interior. Pentágono con 10 jugadores, toques por vuelta, series y puntos propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 21,
+   "ymin": -5,
+   "ymax": 21
+  },
+  "nofield": true,
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      8,
+      1
+     ],
+     [
+      14.7,
+      5.9
+     ],
+     [
+      12.1,
+      13.8
+     ],
+     [
+      3.9,
+      13.8
+     ],
+     [
+      1.3,
+      5.9
+     ]
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 1,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.7,
+    "y": 5.9,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 12.1,
+    "y": 13.8,
+    "f": -130
+   },
+   {
+    "r": "A",
+    "x": 3.9,
+    "y": 13.8,
+    "f": -50
+   },
+   {
+    "r": "A",
+    "x": 1.3,
+    "y": 5.9,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": -2.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4.8,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 14.2,
+    "y": 16.6,
+    "f": -130
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 16.6,
+    "f": -50
+   },
+   {
+    "r": "A",
+    "x": -2,
+    "y": 4.8,
+    "f": 30
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     1
+    ],
+    "b": [
+     14.7,
+     5.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     14.7,
+     5.9
+    ],
+    "b": [
+     12.1,
+     13.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     12.1,
+     13.8
+    ],
+    "b": [
+     3.9,
+     13.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

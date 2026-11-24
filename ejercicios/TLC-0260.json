@@ -1,0 +1,140 @@
+{
+ "id": "TLC-0260",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda 3er hombre",
+ "formato": "Cuadrado con entradas",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 45 s de pausa. En cada serie cambia el sentido del juego y los puestos.",
+ "objetivo": "Sincronizar las entradas de los laterales, dejar de cara y crear superioridad en el interior. Cómo explicarlo: el lateral entra justo cuando el interior recibe. Errores típicos: entrar demasiado pronto, control de espaldas y descarga sin ángulo. Qué observar: tiempo de aparición y orientación del cuerpo.",
+ "montaje": "Cuadrado de 16 × 16 m con picas: 4 jugadores en el centro de cada lado y 4 dentro, uno en cada cuarto. Un lateral tiene balón.",
+ "juego": "El lateral pasa a un interior y el lateral de enfrente entra en carrera. El interior deja de cara a ese tercer hombre y sale a su puesto. Quien entra se queda dentro. Sigue el siguiente lateral.",
+ "punto": "5 secuencias seguidas sin fallo: 1 punto. Si falla, vuelta a cero.",
+ "consigna": "Entra a tiempo y deja de cara.",
+ "variantes": {
+  "facil": "Sin giro de sentido y 2 toques.",
+  "dificil": "Un toque y un defensor pasivo dentro."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y cuadrado de 14 m. Infantil (12–13): como está. Cadete: un toque con defensor activo.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Edin Terzic)",
+  "titulo_original": "EDIN TERZIC RUEDA DE PASES TERCER HOMBRE",
+  "ref": "toplidercoach.com/edin-terzic-rueda-de-pases-tercer-hombre/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: cuadrado con picas, jugadores en los lados y en el centro, entradas sincronizadas y tercer hombre. Nº de jugadores (8), medidas, secuencia exacta, series y puntos propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 19,
+   "ymin": -3,
+   "ymax": 19
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": -1,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 17,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     -1
+    ],
+    "b": [
+     4,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     8
+    ],
+    "b": [
+     12,
+     8.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     12,
+     8.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

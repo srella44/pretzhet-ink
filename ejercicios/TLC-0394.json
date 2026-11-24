@@ -1,0 +1,173 @@
+{
+ "id": "TLC-0394",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de 10 y paredes",
+ "formato": "Rueda de 10 jugadores",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "26 × 14 m",
+ "duracion": "12 min",
+ "series": "3 series de 3 min 30 s con 1 min de pausa; cambia el sentido de la rueda en cada serie.",
+ "objetivo": "Coordinar paredes, tercer hombre y desmarques de apoyo con pases precisos a pocos contactos. Cómo explicarlo: aprenderse primero la secuencia caminando y luego jugarla a ritmo. Errores típicos: moverse antes del pase, pase sin fuerza y salirse del orden. Qué observar: comunicación, tiempo del desmarque y precisión antes que velocidad.",
+ "montaje": "Dos filas de 5 jugadores a 10 m una de otra y 5 m entre jugadores. El primero de la izquierda tiene balón. Un cono en el centro marca la pared.",
+ "juego": "Pasa a la derecha y corre al cono; el receptor devuelve de pared; este juega al tercer hombre de la fila izquierda y ocupa su puesto. Todos se mueven tras pasar.",
+ "punto": "15 pases seguidos sin fallo: 1 punto. Cada error resta 1.",
+ "consigna": "Pasa, muévete y no llegues antes del balón.",
+ "variantes": {
+  "facil": "Dos toques y filas a 10 m.",
+  "dificil": "Un toque, segundo balón por el otro lado y muñecos como oposición pasiva."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y 8 m. Infantil (12–13): como está. Cadete: un toque, dos balones y oposición.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Eduardo Coudet)",
+  "titulo_original": "COUDET, RUEDA DE PASES",
+  "ref": "toplidercoach.com/coudet-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: rueda con 10 o más jugadores, paredes, tercer hombre y desmarques de apoyo y ruptura; la disposición del gráfico no es visible. Distancias, orden de la secuencia, series y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   26,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 28,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    12,
+    7
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24.5,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     9.5,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     11,
+     6.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     9.5,
+     12
+    ],
+    "b": [
+     11.5,
+     7.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     12,
+     7
+    ],
+    "b": [
+     12,
+     2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 10,
+    "n": 4
+   }
+  ]
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "id": "TLC-0074",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Transición 3v3",
+ "formato": "3v3 central + contraataque 3v3",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "13 jug.",
+ "espacio": "50 × 30 m (medio campo)",
+ "duracion": "18 min",
+ "series": "4 series de 4 min con 1 min de pausa. Cada 4 ataques cambian los roles de los equipos.",
+ "objetivo": "Robar en la zona central y atacar rápido, o defender en 3v3. Cómo explicarlo: si recuperas, lanza ya a los delanteros; si pierdes, vigila marcas antes. Errores típicos: pase lento tras robo, marcajes sueltos y duda entre tirar o conservar. Qué observar: velocidad de la decisión y marcaje preventivo.",
+ "montaje": "Medio campo de 50 × 30 m con zona central de 20 × 20 m: 3 amarillos contra 3 rojos y 2 miniporterías. Delante, 3 amarillos (2 extremos y delantero) contra 3 rojos, y portero.",
+ "juego": "3v3 de posesión. Si los amarillos roban, lanzan a sus 3 delanteros, que atacan 3v3. Si roban los rojos, tiran a una miniportería. Tras 4 ataques cambian los roles.",
+ "punto": "Gol del contraataque: 2 puntos. Gol del rojo a miniportería: 1.",
+ "consigna": "Roba y lanza rápido a los delanteros.",
+ "variantes": {
+  "facil": "Delanteros con 1 defensor menos (3v2) y 3 toques.",
+  "dificil": "Dos toques en la zona y 8 s para tirar tras robo."
+ },
+ "adaptacion": "Alevín (10–11): campo de 40 × 26 m y 3v2 en ataque. Infantil (12–13): como está. Cadete: 2 toques y 6 s.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Roberto De Zerbi)",
+  "titulo_original": "DE ZERBI, TRANSICIONES EN IGUALDAD",
+  "ref": "toplidercoach.com/de-zerbi-transiciones-en-igualdad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: medio campo, 3c3 central con disputa, 3 atacantes fijos contra 3 defensores y miniporterías para el que roba dentro; cambio de roles tras un nº de ataques. Medidas, portero (13 jug.), series y puntuación propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   50,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 54,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    0,
+    20,
+    "L"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     2,
+     5,
+     22,
+     25
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 41,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 41,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     12,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     15
+    ],
+    "b": [
+     34,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ]
+ }
+}

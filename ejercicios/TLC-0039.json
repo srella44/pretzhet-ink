@@ -1,0 +1,170 @@
+{
+ "id": "TLC-0039",
+ "bloque": "Rondos",
+ "titulo": "Rombo 5v2",
+ "formato": "Rombo 3v1 + 2 receptores",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "7 jug.",
+ "espacio": "20 × 20 m (rombo)",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 1 min de pausa; rotan los roles tras cada serie.",
+ "objetivo": "Salir con balón desde atrás usando al tercer hombre y reaccionar rápido tras pérdida. Cómo explicarlo: el trío combina con un defensor encima hasta abrir pase a un receptor adelantado. Errores típicos: pase directo al delantero sin fijar, defensores del trío muy juntos y no presionar tras perder. Qué observar: triángulos y perfil corporal.",
+ "montaje": "Rombo de 20 m con dos miniporterías arriba. Base: 2 centrales y 1 mediocentro; arriba, 2 receptores. Dentro, 2 azules: uno presiona y otro vigila.",
+ "juego": "El trío circula 3v1 hasta conectar con un receptor, que devuelve al trío. Si un azul roba, ataca una miniportería.",
+ "punto": "Conectar con receptor: 1 punto. Gol tras robo: 2.",
+ "consigna": "Combina, fija y busca al tercer hombre.",
+ "variantes": {
+  "facil": "Sin segundo defensor hasta 5 pases.",
+  "dificil": "Segundo defensor activo y 2 toques máximo."
+ },
+ "adaptacion": "Alevín (10–11): rombo de 15 m y 1 defensor. Infantil (12–13): como está. Cadete: 2 toques y receptores con tiro.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (José Mourinho)",
+  "titulo_original": "MOURINHO RONDO 5 X 2",
+  "ref": "toplidercoach.com/mourinho-rondo-5-x-2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: rombo, 3×1 de salida con receptores adelantados, tercer hombre y transición tras robo. El segundo defensor (7 jugadores), las miniporterías, las series y la puntuación son propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 24,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "dashed": true,
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      10,
+      1
+     ],
+     [
+      19,
+      10
+     ],
+     [
+      10,
+      19
+     ],
+     [
+      1,
+      10
+     ]
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    4,
+    "L"
+   ],
+   [
+    20,
+    4,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 12,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     18
+    ],
+    "b": [
+     3,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     13
+    ],
+    "b": [
+     17,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     13
+    ],
+    "b": [
+     15,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

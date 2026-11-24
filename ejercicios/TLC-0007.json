@@ -1,0 +1,216 @@
+{
+ "id": "TLC-0007",
+ "bloque": "Rondos",
+ "titulo": "Rondos y ataque 4v2",
+ "formato": "3v2 en rondo + ataque 4v2",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "15 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "4 series de 3 min con 1 min de pausa. Se cambian los roles de los equipos en cada serie.",
+ "objetivo": "Mantener la posesión bajo presión (3v2), conectar con el comodín central y atacar rápido en 4v2. Cómo explicarlo: paciencia en el rondo y velocidad cuando se conecta. Errores típicos: pasar al comodín con prisa, atacar todos por el mismo carril y no ayudar atrás. Qué observar: ritmo de pase, ocupación de carriles y finalización en menos de 8 s.",
+ "montaje": "Campo de 40 × 30 m con 2 porterías. Dos rondos de 12 × 12 m a 10 m entre sí: 2 amarillos, 2 rojos y 1 comodín en cada uno; otro comodín en el centro. Dos jugadores guardan cada portería.",
+ "juego": "Rondo 3v2 con comodín. Si el equipo con balón conecta con el comodín central, sus 4 jugadores atacan 4v2 la portería rival. Los defensores de portería inician el rondo siguiente.",
+ "punto": "Gol: 1 punto. Sin tiro en 8 s: 1 punto al defensor.",
+ "consigna": "Rondo con calma, ataque en 8 s.",
+ "variantes": {
+  "facil": "Exigir solo 3 pases antes de conectar y rondos de 14 × 14 m.",
+  "dificil": "Rondos de 8 × 8 m, ataque 5v2 con el comodín central y 6 s para finalizar."
+ },
+ "adaptacion": "Alevín (10–11): rondos de 14 × 14 m y sin tiempo límite. Infantil (12–13): como está. Cadete: 6 s y rondos de 8 × 8 m.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Jacob Neestrup)",
+  "titulo_original": "JACOB NEESTRUP, DUELOS DOS RONDOS",
+  "ref": "toplidercoach.com/jacob-neestrup-duelos-dos-rondos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 40×30 m con dos porterías, dos rondos 3c2, comodín central y ataque 4c2; los puestos de los 15 jugadores, el tiempo límite de 8 s, las series y la puntuación son propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -4.5,
+   "xmax": 44.5,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     3,
+     9,
+     15,
+     21
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     25,
+     9,
+     37,
+     21
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 36,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 26,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     10
+    ],
+    "b": [
+     14,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     20
+    ],
+    "b": [
+     20,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     35,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "id": "TLC-0050",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión: alcanzar zonas",
+ "formato": "5v5 con zona de gol",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa. Se cambia de equipo cada serie.",
+ "objetivo": "Mover el balón con paciencia hasta encontrar la zona de gol, alternando orientaciones. Cómo explicarlo: entras al pasillo y sales de primeras a un compañero distinto. Errores típicos: salir al mismo jugador, marcar siempre por el mismo lado y no reaccionar tras pérdida. Qué observar: cambios de orientación y ocupación de espacios.",
+ "montaje": "Campo de 30 × 20 m con una franja central rayada de 6 m. Dos equipos de 5, toque libre, que empiezan desde su fondo. Cuatro conos marcan la franja.",
+ "juego": "Para marcar, un equipo mete el balón en la franja y alguien lo saca a un toque a un compañero distinto del que lo metió. No se marca dos veces seguidas en la misma franja sin perder el balón.",
+ "punto": "Gol: 1 punto. Salida sin cumplir la secuencia: no vale.",
+ "consigna": "Entra a la franja y sal de primeras.",
+ "variantes": {
+  "facil": "Dentro de la franja, 2 toques y 4 jugadores por equipo.",
+  "dificil": "Dos toques en las zonas y obligación de cambiar de lado para repetir."
+ },
+ "adaptacion": "Alevín (10–11): 4v4 en 25 × 18 m. Infantil (12–13): como está. Cadete: 6v6, 2 toques y 40 × 25 m.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Pep Guardiola)",
+  "titulo_original": "GUARDIOLA POSESIÓN ALCANZAR ZONAS",
+  "ref": "toplidercoach.com/posesion-alcanzar-zonas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 5, 6 o 7 por equipo, 3 zonas, gol al sacar de la franja a un toque a otro compañero. Medida de la franja (6 m), series y puntuación propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     12,
+     0,
+     18,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     6
+    ],
+    "b": [
+     15,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     6
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    15,
+    18.8,
+    "ZONA DE GOL",
+    "middle"
+   ]
+  ]
+ }
+}

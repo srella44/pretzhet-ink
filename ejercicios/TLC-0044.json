@@ -1,0 +1,250 @@
+{
+ "id": "TLC-0044",
+ "bloque": "Rondos",
+ "titulo": "Rondo, circuito y 1v1",
+ "formato": "Rondo 8v3 + circuito + 1v1",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "14 jug.",
+ "espacio": "40 × 22 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa. Los 3 presionantes rotan con los de espera al terminar cada serie.",
+ "objetivo": "Presionar fuerte, salir explosivo y decidir bajo fatiga. Cómo explicarlo: cuando roba o se cumplen los pases, se corre el circuito y se defiende el 1v1 sin tiempo muerto. Errores típicos: salir despacio, defender de frente sin perfilar y atacante sin terminar. Qué observar: intensidad, distancia del 1v1 y velocidad de finalización.",
+ "montaje": "Rondo de 16 × 16 m: 8 amarillos fuera, 3 rojos dentro. A 4 m, 3 conos y una zona 1v1 de 10 × 16 m con miniportería de 3 m, donde esperan atacantes con balón.",
+ "juego": "Rondo 8v3. Si roban los rojos o hay 10 pases, los 3 rojos salen, hacen el circuito y defienden un 1v1 contra un atacante, que tira.",
+ "punto": "Robo o 10 pases: 1 punto al rondo. Gol: 1 al atacante; parada o robo: 1 al rojo.",
+ "consigna": "Presiona, corre el circuito y defiende.",
+ "variantes": {
+  "facil": "Presionan 2 rojos y 1v1 sin circuito.",
+  "dificil": "Rondo a 2 toques, presionan 3 con cambio de circuito y 1v1 a un toque de tiro."
+ },
+ "adaptacion": "Alevín (10–11): circuito corto y 1v1 en 10 × 10 m. Infantil (12–13): como está. Cadete: 2 toques y 1v1 a máxima velocidad.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (José Mourinho)",
+  "titulo_original": "MOURINHO RONDO CIRCUITO FÍSICO Y 1VS1",
+  "ref": "toplidercoach.com/rondo-circuito-fisico-1vs1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: rondo con 2–3 presionantes que, al robar o tras un nº de pases, hacen un circuito físico y un 1v1 con finalización. Medidas, 8v3, atacantes de espera, series y puntos propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   22
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 44,
+   "ymin": -2,
+   "ymax": 24
+  },
+  "nofield": true,
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     1,
+     3,
+     17,
+     19
+    ]
+   }
+  ],
+  "goals": [
+   [
+    40,
+    11,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    21,
+    7
+   ],
+   [
+    24,
+    11
+   ],
+   [
+    27,
+    7
+   ]
+  ],
+  "lines": [
+   [
+    [
+     29,
+     3
+    ],
+    [
+     39,
+     3
+    ],
+    "3 3"
+   ],
+   [
+    [
+     29,
+     19
+    ],
+    [
+     39,
+     19
+    ],
+    "3 3"
+   ],
+   [
+    [
+     29,
+     3
+    ],
+    [
+     29,
+     19
+    ],
+    "3 3"
+   ],
+   [
+    [
+     39,
+     3
+    ],
+    [
+     39,
+     19
+    ],
+    "3 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     9,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     11
+    ],
+    "b": [
+     21,
+     7
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     7
+    ],
+    "b": [
+     32,
+     11
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

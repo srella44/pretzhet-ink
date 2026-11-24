@@ -1,0 +1,155 @@
+{
+ "id": "TLC-0384",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de pases en rombo",
+ "formato": "Rombo a un contacto",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "Rombo de 12 m (2 ruedas)",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 45 s de pausa; a la mitad de cada serie se cambia el sentido de la rueda.",
+ "objetivo": "Pasar a un contacto con el interior del pie, dejar de cara y hallar al tercer hombre. Cómo explicarlo: tras tu pase te mueves al puesto siguiente, nunca te quedas quieto. Errores típicos: pase sin perfilar, receptor que se queda en su sitio y balón que muere. Qué observar: perfil abierto antes del pase y ritmo constante de la rotación.",
+ "montaje": "Grupos de 4 en los vértices de un rombo de 12 m. El del vértice norte tiene balón. Dos rombos a la vez, en campos paralelos.",
+ "juego": "Norte pasa al este y corre a su puesto; este deja de cara al sur; sur juega al oeste, el más alejado. Todos rotan un puesto. Pases rasos a un toque con el interior, sin pausa.",
+ "punto": "20 pases seguidos sin fallo: 1 punto. Si cae el balón, la cuenta vuelve a 0.",
+ "consigna": "Perfílate, un toque y corre al siguiente puesto.",
+ "variantes": {
+  "facil": "Dos toques solo para quien recibe y rombo de 10 m.",
+  "dificil": "Tercer hombre obligatorio antes de jugar al lejano y rombo de 14 m."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y 10 m. Infantil (12–13): como está. Cadete: a un toque y dos balones en sentido contrario.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Diego Simeone)",
+  "titulo_original": "SIMEONE, RUEDA DE PASES",
+  "ref": "toplidercoach.com/simeone-rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: rombo con jugadores en los cuatro vértices, pases por el interior, tercer hombre y rotación. Distancias, nº de jugadores, series y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "dashed": true,
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      8,
+      1
+     ],
+     [
+      15,
+      8
+     ],
+     [
+      8,
+      15
+     ],
+     [
+      1,
+      8
+     ]
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 1,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     1
+    ],
+    "b": [
+     15,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     8,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     15
+    ],
+    "b": [
+     1,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     8,
+     1
+    ],
+    "b": [
+     1.3,
+     7.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 4
+   }
+  ]
+ }
+}

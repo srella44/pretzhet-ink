@@ -1,0 +1,181 @@
+{
+ "id": "TLC-0371",
+ "bloque": "Técnica y duelos",
+ "titulo": "Despeje y 3v1 físico",
+ "formato": "Circuito + despeje + 3v1",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "36 × 30 m (zona del área)",
+ "duracion": "16 min",
+ "series": "4 rondas de 3 min con 1 min de pausa. En cada ronda rotan los 2 bloques (defensoras y atacantes) cada 4 repeticiones para que todos pasen por los dos roles.",
+ "objetivo": "Trabajar la contundencia en el despeje (perfil del cuerpo, dirección del rechace) y el 3v1 a máxima velocidad tras un esfuerzo físico. Cómo explicarlo: primero el estímulo físico, después la decisión rápida. Errores típicos: despejar al centro del área, atacantes que conducen de más y defensora que llega parada. Qué observar: dirección del despeje y número de contactos del ataque.",
+ "montaje": "5 defensoras en el fondo y 5 atacantes en la banda. Tres conos de agilidad. Entrenador con balones en el borde del área; portería de 6 m.",
+ "juego": "Sale una defensora: slalom, sprint y despeje del balón del entrenador. A la vez, 3 atacantes juegan 3v1 a gol. Luego rotan.",
+ "punto": "Gol: 1 punto. Despeje fuera del área: 1 a la defensora.",
+ "consigna": "Esfuerzo, despeje fuerte y 3v1 vertical.",
+ "variantes": {
+  "facil": "Atacantes con 4 s extra de ventaja y sin circuito previo.",
+  "dificil": "3v2 con límite de 8 s para terminar o balón de despeje aéreo."
+ },
+ "adaptacion": "Alevín (10–11): sin circuito físico y 3v1 con portería de 7 m. Infantil (12–13): como está. Cadete: 2 balones de despeje seguidos y 3v2.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Jorge Vilda)",
+  "titulo_original": "JORGE VILDA, FÍSICO TÉCNICO",
+  "ref": "toplidercoach.com/jorge-vilda-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: estímulo físico previo, despeje frontal y 3×1 simultáneo. Medidas, conos, series, puntuación y rotación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 40,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 36,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     26,
+     0
+    ],
+    [
+     26,
+     30
+    ],
+    "4 4"
+   ]
+  ],
+  "cones": [
+   [
+    3,
+    23
+   ],
+   [
+    6,
+    26
+   ],
+   [
+    9,
+    23
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 2,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 27,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     20
+    ],
+    "b": [
+     25,
+     17
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     30,
+     27
+    ],
+    "b": [
+     27,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     5
+    ],
+    "b": [
+     22,
+     9
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     22,
+     9
+    ],
+    "b": [
+     35,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

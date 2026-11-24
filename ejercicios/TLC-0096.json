@@ -1,0 +1,150 @@
+{
+ "id": "TLC-0096",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Duelos 1v1 con 3 metas",
+ "formato": "1v1 con 3 miniporterías",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "40 × 33 m (doble área)",
+ "duracion": "14 min",
+ "series": "4 vueltas de 3 min con 1 min de pausa. Cada pareja repite 5 duelos y rota con los que esperan.",
+ "objetivo": "Desbordar, elegir la meta con mejor ángulo y defender temporizando; después, reaccionar tras robo. Cómo explicarlo: el atacante mira dónde hay espacio y el defensor cierra la meta cercana. Errores típicos: atacar siempre a la misma meta, defensor que se lanza y falta de cambio de ritmo. Qué observar: cambios de ritmo y distancia de intervención.",
+ "montaje": "Campo de 40 × 33 m con 3 miniporterías de 3 m a la derecha y una a la izquierda. Un duelo en juego; los otros 4 esperan en los laterales.",
+ "juego": "El atacante sale con balón e intenta marcar en cualquiera de las 3 metas. Si el defensor roba, contraataca. Luego entra otra pareja.",
+ "punto": "Gol: 1 punto. Robo: 1 para el defensor; gol en contraataque: 2.",
+ "consigna": "Cambia de ritmo y elige tu meta.",
+ "variantes": {
+  "facil": "Atacante con 3 s de ventaja y 5 m menos de distancia.",
+  "dificil": "Atacante a 3 toques, 8 s por duelo y un portero en una meta."
+ },
+ "adaptacion": "Alevín (10–11): campo de 30 × 25 m y metas de 4 m. Infantil (12–13): como está. Cadete: 3 toques y portero.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Bruno Lage)",
+  "titulo_original": "BRUNO LAGE, DUELOS 1X1 Y TRANSICIÓN",
+  "ref": "toplidercoach.com/bruno-lage-duelos-1x1-y-transicion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 3 miniporterías en el fondo del defensor, duelo 1v1 y contraataque tras robo. Medidas, meta contraria, nº de duelos, series y puntuación propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   33
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 44,
+   "ymin": -2,
+   "ymax": 35
+  },
+  "goals": [
+   [
+    40,
+    7,
+    "R"
+   ],
+   [
+    40,
+    16.5,
+    "R"
+   ],
+   [
+    40,
+    26,
+    "R"
+   ],
+   [
+    0,
+    16.5,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 16.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 30,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     16.5
+    ],
+    "b": [
+     21,
+     9
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     9
+    ],
+    "b": [
+     39,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     26,
+     16.5
+    ],
+    "b": [
+     22,
+     12.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

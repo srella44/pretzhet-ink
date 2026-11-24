@@ -1,0 +1,188 @@
+{
+ "id": "TLC-0046",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión juego alterno",
+ "formato": "4v4 interior + 8 apoyos",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "16 jug.",
+ "espacio": "20 × 20 m + bandas de 3 m",
+ "duracion": "16 min",
+ "series": "4 series de 2 min 30 s con 1 min de pausa; al acabar cada serie cambian interiores y apoyos.",
+ "objetivo": "Asociarse por dentro con pases cortos y paredes, usando el apoyo exterior solo cuando hace falta. Cómo explicarlo: tras usar un apoyo, haz un pase interior antes de volver a usarlo. Errores típicos: abusar de los apoyos, quedarse quieto y juntarse. Qué observar: movilidad y distancias interiores.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 amarillos y 4 rojos. Fuera, 8 apoyos (2 por lado) que juegan con quien tenga balón y no puntúan.",
+ "juego": "Los interiores suman pases entre compañeros. Tras usar un apoyo hay que dar al menos 1 pase interior antes de usar otro. Cada 2 min 30 s intercambian dentro y fuera.",
+ "punto": "10 pases interiores seguidos: 1 gol. Pérdida: la cuenta vuelve a 0.",
+ "consigna": "Pasa por dentro y mueve las marcas.",
+ "variantes": {
+  "facil": "Solo 3 apoyos activos y sin regla del pase interior.",
+  "dificil": "Dos toques, 12 pases por gol y apoyos a un toque."
+ },
+ "adaptacion": "Alevín (10–11): 3v3 con 6 apoyos. Infantil (12–13): como está. Cadete: 2 toques y 12 pases.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Xavi Hernández)",
+  "titulo_original": "XAVI HERNÁNDEZ,POSESIÓN JUEGO ALTERNO",
+  "ref": "toplidercoach.com/posesion-juego-alterno/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 2 equipos de 8, 4 interiores por equipo y apoyos exteriores; regla del pase interior y gol cada 10 pases. Reparto de los 8 apoyos fuera, medidas y series propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 25,
+   "ymin": -5,
+   "ymax": 25
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": -2.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": -2.5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 22.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 22.5,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": -2.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": -2.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 22.5,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 22.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     16,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     4
+    ],
+    "b": [
+     22.5,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     22.5,
+     6
+    ],
+    "b": [
+     16,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

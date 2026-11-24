@@ -1,0 +1,213 @@
+{
+ "id": "TLC-0029",
+ "bloque": "Rondos",
+ "titulo": "Rondo 6v6 + 6 apoyos",
+ "formato": "4v4 + 2v2 con apoyos",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "18 jug.",
+ "espacio": "36 × 18 m",
+ "duracion": "18 min",
+ "series": "3 series de 4 min con 1 min de pausa. Cada serie entra un equipo distinto como apoyo exterior.",
+ "objetivo": "Jugar con apoyos exteriores, cambiar de cuadrado y elegir bien entre la zona con mucha gente y la libre. Cómo explicarlo: si hay presión, descarga; si hay espacio, cambia. Errores típicos: apoyos exteriores parados, pase al cuadrado lleno y estructura rota. Qué observar: velocidad del cambio de zona y orden interior.",
+ "montaje": "Campo de 36 × 18 m en dos cuadrados: 4v4 en uno y 2v2 en el otro. Fuera, 6 apoyos del tercer equipo: 2 por fondo y 1 por lateral.",
+ "juego": "Se juega por todo el campo; los apoyos del cuadrado con balón se ofrecen. Se cambia de cuadrado con pase. Cada 4 min o 5 pérdidas rotan los equipos.",
+ "punto": "15 pases seguidos: 1 punto. Cambio de cuadrado y vuelta: 1 extra.",
+ "consigna": "Descarga fuera y cambia a la zona libre.",
+ "variantes": {
+  "facil": "Apoyos con 2 toques y 4v4 con comodín interior.",
+  "dificil": "Apoyos a un toque, solo 5 s para cambiar de cuadrado y pase obligatorio a 2 apoyos."
+ },
+ "adaptacion": "Alevín (10–11): 3v3 + 2v2 y 4 apoyos. Infantil (12–13): como está. Cadete: apoyos a un toque y presión tras pérdida.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Roberto De Zerbi)",
+  "titulo_original": "DE ZERBI RONDO 6X6+6",
+  "ref": "toplidercoach.com/de-zerbi-rondo-6x66/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 3 equipos de 6, un 4v4 y un 2v2 en el mismo rectángulo y 6 apoyos fuera. Medidas, rotación por tiempo o pérdidas, puntos y series propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   36,
+   18
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 40,
+   "ymin": -4,
+   "ymax": 22
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     18
+    ],
+    "5 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": -2,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": -2,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 38,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 38,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": -2.2,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 20.2,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     13,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     4
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     12
+    ],
+    "b": [
+     38,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

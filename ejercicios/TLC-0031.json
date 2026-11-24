@@ -1,0 +1,185 @@
+{
+ "id": "TLC-0031",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Lado a lado 6v6",
+ "formato": "6v6 + 2 comodines y fondos",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "18 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "18 min",
+ "series": "4 series de 4 min con 1 min de pausa. Los apoyos de fondo rotan con un jugador interior en cada serie.",
+ "objetivo": "Progresar de un lado al otro con superioridad, usando comodines y apoyos de fondo. Cómo explicarlo: primero llega a tu fondo y después gira el juego al contrario. Errores típicos: apoyos sin diagonales, abusar de los comodines y pases tardíos al fondo. Qué observar: amplitud, apoyos diagonales y timing del pase al fondo.",
+ "montaje": "Campo de 30 × 20 m: 6 amarillos contra 6 rojos y 2 comodines. En cada fondo, fuera, un apoyo amarillo y uno rojo.",
+ "juego": "El equipo con balón usa 1 comodín, conecta con su apoyo de un fondo y lleva el balón al otro fondo para conectar con el segundo. Si pierde, invierte el rival.",
+ "punto": "Conectar con los 2 apoyos: 1 punto. Pérdida antes de conectar: 0.",
+ "consigna": "Amplitud, comodín y gira al otro fondo.",
+ "variantes": {
+  "facil": "Sin obligación de comodín y 3 toques.",
+  "dificil": "Dos toques y obligación de usar los 2 comodines."
+ },
+ "adaptacion": "Alevín (10–11): 5v5 + 1 comodín en 26 × 18 m. Infantil (12–13): como está. Cadete: 2 toques y comodines limitados.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Ivan Juric)",
+  "titulo_original": "IVAN JURIC, POSESIÓN LADO A LADO",
+  "ref": "toplidercoach.com/ivan-juric-posesion-lado-a-lado/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 6v6 con 2 comodines y un apoyo de fondo por equipo; reglas de provocación opcionales. Medidas, apoyos en ambos fondos (18 jug.), series y puntuación propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 34,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8.8,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -2,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -2,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     10
+    ],
+    "b": [
+     8.8,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8.8,
+     7
+    ],
+    "b": [
+     -2,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ]
+ }
+}

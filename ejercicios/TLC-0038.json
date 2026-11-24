@@ -1,0 +1,186 @@
+{
+ "id": "TLC-0038",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 5v5+2 a 4 metas",
+ "formato": "5v5 + 2 neutrales",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa. En cada serie cambian los neutrales.",
+ "objetivo": "Circular rápido en superioridad (7v5) y finalizar tras una secuencia de pases. Cómo explicarlo: primero juegas la secuencia, luego temporizas y tiras. Errores típicos: tirar antes de completar los pases, neutrales parados y perder el orden. Qué observar: ocupación de espacios, uso de apoyos y calma antes del tiro.",
+ "montaje": "Campo de 40 × 20 m con 2 miniporterías por fondo. Dos equipos de 5 y 2 neutrales que juegan con quien tiene balón y no marcan.",
+ "juego": "El equipo con balón hace 6 pases (los neutrales cuentan) y tira a cualquiera de las 4 metas. Si lo pierde, el rival hace sus 6 pases antes de tirar.",
+ "punto": "Gol tras 6 pases: 1 punto. Tiro antes: gol anulado.",
+ "consigna": "Seis pases, calma y tira.",
+ "variantes": {
+  "facil": "Secuencia de 4 pases y 3 toques.",
+  "dificil": "Secuencia de 7 pases, 2 toques y neutrales a un toque."
+ },
+ "adaptacion": "Alevín (10–11): 4 pases y campo de 35 × 20 m. Infantil (12–13): como está. Cadete: 7 pases y 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Nuri Sahin)",
+  "titulo_original": "NURI SAHIN,POSESION 5X5+2",
+  "ref": "toplidercoach.com/nuri-sahinposesion-5x52/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 5v5 + 2 neutrales, 4 porterías y secuencia de pases previa al tiro. Nº de pases (6), medidas, series y puntos propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "goals": [
+   [
+    0,
+    6,
+    "L"
+   ],
+   [
+    0,
+    14,
+    "L"
+   ],
+   [
+    40,
+    6,
+    "R"
+   ],
+   [
+    40,
+    14,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 10,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     4
+    ],
+    "b": [
+     15,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     23,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     23,
+     6
+    ],
+    "b": [
+     40,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

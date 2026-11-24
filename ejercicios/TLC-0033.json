@@ -1,0 +1,183 @@
+{
+ "id": "TLC-0033",
+ "bloque": "Rondos",
+ "titulo": "Rondo obstáculos",
+ "formato": "6v3 con obstáculos y 4 metas",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "9 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa. Cada serie cambia el trío presionante.",
+ "objetivo": "Mantener la posesión con líneas de pase bloqueadas y robar con intención de marcar. Cómo explicarlo: busca al tercer hombre para saltar el muñeco. Errores típicos: pases al muñeco, presión desordenada del trío y no salir rápido tras el robo. Qué observar: amplitud, orientación del control y cierre de líneas.",
+ "montaje": "Cuadrado de 15 × 15 m: 6 amarillos fuera, 3 rojos dentro y 3 muñecos fijos. Cuatro miniporterías junto a las esquinas. El entrenador da el primer balón.",
+ "juego": "Rondo 6v3: no se puede pasar a través de un muñeco. Si el trío roba, tira a cualquier miniportería y gana 1 vida. Con 10 pases seguidos, o 3 vidas, cambia el trío.",
+ "punto": "10 pases: 1 punto a los 6. Gol del trío tras robo: 1 vida.",
+ "consigna": "Rodea el muñeco y busca al tercer hombre.",
+ "variantes": {
+  "facil": "Un solo muñeco y 4 defensores de espacio de 18 × 18 m.",
+  "dificil": "Dos toques máximo, 12 × 12 m y 12 pases por punto."
+ },
+ "adaptacion": "Alevín (10–11): 2 muñecos y 8 pases. Infantil (12–13): como está. Cadete: 2 toques, 12 × 12 m y 12 pases.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Ernesto Valverde)",
+  "titulo_original": "VALVERDE, RONDO CON OBSTACULOS",
+  "ref": "toplidercoach.com/valverde-rondo-con-obstaculos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: rondo 6c3 con muñecos, 4 miniporterías, vidas y cambio de trío a 8–10 pases. Medidas, puntos y series propuestos (propuesta). Edad adaptada de 13+/16+/18+ a 12–13.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 18,
+   "ymin": -3,
+   "ymax": 18
+  },
+  "goals": [
+   [
+    0,
+    3,
+    "L"
+   ],
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    15,
+    3,
+    "R"
+   ],
+   [
+    15,
+    12,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    4,
+    4
+   ],
+   [
+    11,
+    9
+   ],
+   [
+    5,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 0.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 0.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 14.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 14.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     0.5
+    ],
+    "b": [
+     12,
+     0.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     0.5
+    ],
+    "b": [
+     14.5,
+     7.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     7.5,
+     6
+    ],
+    "b": [
+     10,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

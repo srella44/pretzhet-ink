@@ -1,0 +1,144 @@
+{
+ "id": "TLC-0054",
+ "bloque": "Rondos",
+ "titulo": "Klopp 2v1, 3v2 y retardo",
+ "formato": "2v1 + 3v2 con portero",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "33 × 18 m (doble área)",
+ "duracion": "14 min",
+ "series": "4 series de 4 min con 1 min de pausa y rotación de roles en cada serie.",
+ "objetivo": "Aprovechar la superioridad inicial, fijar al defensor y finalizar rápido en el 3v2. Cómo explicarlo: primero engancha, después pasa y corre para llegar a tiempo. Errores típicos: pasar antes de fijar, correr los tres en paralelo y conducir de más. Qué observar: amplitud, alturas diferentes y velocidad del último pase.",
+ "montaje": "Campo de 33 × 18 m en 2 sectores, portería de 5 m con portero. Sector 1: 2 atacantes y 1 defensor. Sector 2: 1 receptor y 2 defensores; uno sale con 2 s de retardo.",
+ "juego": "Los 2 atacantes atraen al defensor y pasan al receptor; después corren al sector 2 y juegan 3v2 con tiro inmediato. Si los defensores roban, contraatacan. Se rotan los roles.",
+ "punto": "Gol: 1 punto; en contraataque, 2. Tiro fuera o parada: 0.",
+ "consigna": "Atrae, pasa y finaliza sin dudar.",
+ "variantes": {
+  "facil": "Sin defensor retardado y 10 s para tirar.",
+  "dificil": "Defensor retardado a 2 s, pase a un toque y 6 s para el 3v2."
+ },
+ "adaptacion": "Alevín (10–11): campo de 28 × 16 m y 12 s para finalizar. Infantil (12–13): como está. Cadete: dos balones y 6 s.",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Jürgen Klopp)",
+  "titulo_original": "KLOPP RONDO FINALIZACIÓN",
+  "ref": "toplidercoach.com/klopp-rondo-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 2×1 que conecta con un apoyo y se convierte en 3×2 a portería con transición inmediata; el retraso del segundo defensor, medidas, series y puntos propuestos (propuesta). Posible duplicado de TLC-0049, con variantes distintas. Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   33,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 37,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "lines": [
+   [
+    [
+     16.5,
+     0
+    ],
+    [
+     16.5,
+     18
+    ],
+    "5 4"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 33,
+    "y": 9,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     13
+    ],
+    "b": [
+     21,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     25,
+     9
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     21,
+     15
+    ],
+    "b": [
+     32,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}
