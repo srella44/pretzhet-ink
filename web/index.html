@@ -286,7 +286,7 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
       <h2>Crear cuenta</h2>
       <p>Introduce el código de activación que viene con tu libro y crea tu cuenta.</p>
       <label>Código de activación</label>
-      <input id="aCode" type="text" placeholder="PIK-XXXXX" maxlength="9" autocomplete="off" style="text-transform:uppercase">
+      <input id="aCode" type="text" placeholder="PIK-XXXXX" maxlength="24" autocomplete="off" style="text-transform:uppercase">
       <div class="err" id="eCode"></div>
       <label>Email</label>
       <input id="aEmail" type="email" placeholder="tu@email.com" autocomplete="email">
@@ -659,7 +659,7 @@ $('#btnReg').onclick = async () => {
   const code = $('#aCode').value.trim().toUpperCase();
   const email = $('#aEmail').value.trim();
   const pass = $('#aPass').value;
-  if (!/^PIK-[A-Z0-9]{5}$/.test(code)) { showErr('#eCode', 'El código debe tener el formato PIK-XXXXX'); return; }
+  if (!/^PIK-[A-Z0-9]{4,20}$/.test(code)) { showErr('#eCode', 'Código no válido. Debe empezar por PIK-'); return; }
   if (!email) { showErr('#eReg', 'Introduce tu email'); return; }
   if (pass.length < 6) { showErr('#eReg', 'La contraseña debe tener al menos 6 caracteres'); return; }
   const btn = $('#btnReg'); btn.disabled = true; btn.textContent = 'Validando código…';
