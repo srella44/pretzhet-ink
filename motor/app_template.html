@@ -184,11 +184,10 @@ mark { background: linear-gradient(transparent 60%, rgba(240,83,63,.28) 60%); co
   .top { padding: 10px 14px }
   .tabbar { display:flex }
   .top .hb, .top .btn-f { display:none !important }
-  .row1 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px } .brand img { height: 42px }
-  .row1::before { content: ''; flex: 1; order: -1 }
-  .row1 .brand { order: 0; flex: none }
-  .row1 .btn-login, .row1 .user-bar { order: 1; flex: 1; display: flex; justify-content: flex-end }
-  .search { order: 10; flex-basis: 100%; max-width: none }
+  .row1 { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px; position: relative; padding-right: 70px } .brand img { height: 42px }
+  .row1 .btn-login { position: absolute; right: 0; top: 50%; transform: translateY(-50%) }
+  .row1 .user-bar { position: absolute; right: 0; top: 50%; transform: translateY(-50%) }
+  .search { order: 10; flex-basis: 100%; max-width: none; position: relative }
   .count { display:none }
   .toast { bottom: calc(84px + env(safe-area-inset-bottom)) }
   .wrap, .home { padding-bottom: 100px }
