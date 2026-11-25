@@ -1,0 +1,147 @@
+{
+ "id": "TFB25-013",
+ "bloque": "Rondos",
+ "titulo": "Rondo con portero 4+1 v 2",
+ "formato": "4+P v 2",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "7–14 jug.",
+ "espacio": "16 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; si hay dos porteros, uno por serie. Los defensores cambian cada serie.",
+ "objetivo": "Integrar al portero en el juego con los pies y entrenar la reacción de todos tras perder cerca de la portería. Cómo explicarlo: «portero, ofrécete al lado del balón; si perdemos, a por ella». Errores típicos: pase flojo al portero, portero que no se ofrece, no presionar tras pérdida. Qué observar: perfil del portero, pase tenso y raso, 6″ de reacción. Material: portería grande, 4 conos, balones de reserva, 2 colores de peto.",
+ "montaje": "Cuadrado de 16 × 14 m y portería a 6 m. 4 atacantes fuera en 3 lados, portero en el 4.º (juega con pies) y 2 defensores dentro.",
+ "juego": "Máx. 3 toques; el portero no usa las manos. Si los defensores roban, tienen 6″ para tirar; los atacantes recuperan y el portero vuelve a su portería. Tras tiro o robo, balón nuevo.",
+ "punto": "Atacantes: 1 punto por 8 pases. Defensores: 1 si roban y tiran a puerta, 2 si marcan.",
+ "consigna": "Portero, ofrécete al lado del balón.",
+ "variantes": {
+  "facil": "Los defensores deben dar un pase entre ellos antes de tirar, o el cuadrado se agranda.",
+  "dificil": "Portero a un toque, o cuenta como robo cualquier pase que reciba de espaldas a su portería."
+ },
+ "adaptacion": "Benjamín: toques libres para el portero y 8″ para tirar. Infantil: portero a 2 toques y 5″.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 25 rondos para fútbol base",
+  "titulo_original": "Rondo con portero: 4+1 contra 2 y, si roban, a portería",
+  "ref": "25 rondos para fútbol base · pág. 22"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuadrado de 16 × 14 m con portería grande a unos 6 m; 4 atacantes en tres lados y el portero en el cuarto jugando con los pies; 2 defensores dentro; máx. 3 toques; 6″ para tirar tras robar; puntuación 8 pases / robo y tiro / gol; series, variantes y adaptación de la fuente. Edad de la base (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 18.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     6,
+     16,
+     20
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 8,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 8,
+    "y": 6.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 20,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 14.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.1,
+     19.5
+    ],
+    "b": [
+     15.6,
+     13.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     15.4,
+     11.9
+    ],
+    "b": [
+     9,
+     7
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     8.4,
+     7.2
+    ],
+    "b": [
+     0.6,
+     11.7
+    ],
+    "k": "pass",
+    "n": 3
+   }
+  ],
+  "tag": "16 × 14 m + portería"
+ }
+}

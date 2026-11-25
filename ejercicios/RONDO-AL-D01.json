@@ -1,0 +1,138 @@
+{
+ "id": "RONDO-AL-D01",
+ "bloque": "Rondos",
+ "titulo": "El rondo de los carteros",
+ "formato": "5v2",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "7 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 3′ (propuesta); con 14 jugadores, dos cuadrados a la vez.",
+ "objetivo": "Conservar el balón en superioridad dentro de un cuadrado, moviéndose para ofrecer líneas de pase antes de que llegue la presión. Cómo explicarlo: «muévete para que te vean y pasa lejos de los dos defensores». Errores típicos: juntarse en una esquina, pase flojo, no cambiar de lado. Qué observar: perfil al recibir, uso de todo el cuadrado, cuenta de pases en voz alta. Material: 4 conos, 1 balón, 2 petos.",
+ "montaje": "Cuadrado de 20 × 20 m marcado con 4 conos. 5 jugadores dentro mantienen el balón y 2 defensores con peto intentan tocarlo.",
+ "juego": "Los 5 se pasan el balón libremente moviéndose por todo el cuadrado. Si un defensor toca el balón, el que lo perdió se pone el peto y el defensor se une a los 5. Si el balón sale, pierde quien lo sacó.",
+ "punto": "1 punto cada 6 pases seguidos (cuenta el grupo en voz alta). Gana el grupo que más puntos sume en cada serie.",
+ "consigna": "Muévete para que te vean.",
+ "variantes": {
+  "facil": "4 contra 1 con el mismo cuadrado.",
+  "dificil": "Punto doble por los pases al primer toque."
+ },
+ "adaptacion": "Benjamín: cuadrado de 15 × 15 m y toques libres. Infantil: 4 toques máx. y punto doble al primer toque.",
+ "fuente": {
+  "autor": "RONDO · Vol. 3 · Alevín (10–11 años)",
+  "titulo_original": "El rondo de los carteros",
+  "ref": "RONDO Vol3 · págs. 3, 14, 17, 31, 34, 48"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 5 jugadores dentro de un cuadrado mantienen el balón y 2 intentan tocarlo, quien pierde cambia con quien lo toca, 1 punto cada 6 pases seguidos, 4 contra 1 más fácil, punto doble al primer toque más difícil, 20 × 20 m. (propuesta): cuadrado marcado con conos, balón fuera, series, duración, adaptación y explicación de roles.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 10.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 5.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 13,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.7,
+     5.2
+    ],
+    "b": [
+     9.1,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 12
+   },
+   {
+    "a": [
+     10.7,
+     11.2
+    ],
+    "b": [
+     14.4,
+     15.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "tag": "20 × 20 m"
+ }
+}

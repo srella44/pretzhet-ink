@@ -1,0 +1,183 @@
+{
+ "id": "TFB25-018",
+ "bloque": "Rondos",
+ "titulo": "Rondo 6v2 en tres zonas",
+ "formato": "6v2",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 15 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ cambiando la pareja de defensores.",
+ "objetivo": "Mover el balón en una zona para desordenar a los defensores y encontrar el pase que atraviesa la zona central hasta el otro grupo. Cómo explicarlo: «mueve y rompe la línea; uno presiona y otro tapa». Errores típicos: pase al aire sin atraer, pase blando que se corta, el grupo lejano que no se ofrece. Qué observar: atracción del rojo, pase raso y tenso, ofrecerse del otro lado. Material: 6 conos, 1 balón, petos de 2 colores.",
+ "montaje": "Rectángulo de 30 × 15 m en 3 zonas: extremos de 11 m con 3 azules cada uno y centro de 8 m con 2 rojos.",
+ "juego": "Los 3 azules mueven el balón en su zona (máx. 3 pases) y buscan un pase raso que cruce el centro. Solo un rojo presiona; el otro tapa. Al cruzar, el que presionó vuelve y el otro entra.",
+ "punto": "Pase que cruza: 1 punto. Rojos: 1 por robo o balón tocado, y cambian con 2 azules.",
+ "consigna": "Mueve y rompe la línea.",
+ "variantes": {
+  "facil": "Zona central más estrecha o un azul más en cada zona.",
+  "dificil": "El pase que cruza a 1 toque; máx. 2 pases antes de cruzar; o un azul entra al centro a recibir (tercer hombre)."
+ },
+ "adaptacion": "Benjamín: centro estrecho y un solo defensor que sale. Alevín e infantil: tal cual. Cadete: 2 toques en los extremos.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 25 rondos para fútbol base",
+  "titulo_original": "Rondo 6 contra 2 en tres zonas: el pase que rompe la línea",
+  "ref": "25 rondos para fútbol base · pág. 28"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: rectángulo de unos 30 × 15 m en tres zonas, 3 azules en cada extremo y 2 rojos en el centro, uno presiona y otro tapa, 3 pases máx. antes de cruzar, pase raso, puntuación, variantes, series y adaptación de la fuente. Medida exacta de la zona central (8 m) y edad de la base son (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   15
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -2.5,
+   "ymax": 17.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     11,
+     0,
+     19,
+     15
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     11,
+     0
+    ],
+    [
+     11,
+     15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8.6,
+    "y": 11.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.6,
+     10.8
+    ],
+    "b": [
+     2.8,
+     11.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     2,
+     11
+    ],
+    "b": [
+     2,
+     4.3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     2.8,
+     2.6
+    ],
+    "b": [
+     21.2,
+     3.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    15,
+    13.4,
+    "CENTRO",
+    "middle"
+   ]
+  ],
+  "tag": "3 zonas · 30 × 15 m"
+ }
+}

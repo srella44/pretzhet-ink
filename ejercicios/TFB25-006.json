@@ -1,0 +1,170 @@
+{
+ "id": "TFB25-006",
+ "bloque": "Rondos",
+ "titulo": "Rondo 3v1 en dos cuadros",
+ "formato": "3v1 + 3v1",
+ "edad": "10–15 años",
+ "nivel": "Fácil",
+ "jugadores": "8 jug.",
+ "espacio": "24 × 10 m",
+ "duracion": "12 min",
+ "series": "3 partidos a 10 puntos (unos 4′ cada uno); tras cada partido cambia el defensor de cada equipo.",
+ "objetivo": "Mantener el balón en un 3 contra 1 mientras un compañero defiende en el otro cuadro, con concentración en ataque y en defensa. Cómo explicarlo: «siempre dos apoyos al que tiene el balón; defensor, tapa y roba». Errores típicos: quedarse en línea, pasar cerca del defensor, olvidar el otro cuadrado. Qué observar: ángulos de apoyo, presión del defensor, atención al cambio de rol. Material: 8 conos, 2 balones, petos de 2 colores.",
+ "montaje": "Dos cuadrados de 10 × 10 m con pasillo de 4 m. 2 equipos de 4: en cada cuadrado, 3 de un equipo mantienen contra 1 del otro.",
+ "juego": "Dos rondos a la vez, a 2 toques y con 2 apoyos al poseedor. Si el defensor roba, sale conduciendo del cuadrado; quien perdió defiende en el otro y el defensor vuelve con los suyos.",
+ "punto": "8 pases seguidos: 1 punto. Cada robo (o balón fuera): 1 punto. Gana el primero a 10.",
+ "consigna": "Siempre dos apoyos.",
+ "variantes": {
+  "facil": "Toques libres o cuadrados más grandes.",
+  "dificil": "Un toque; cuadrados de 8 × 8 m; el que roba debe pasar a un compañero del otro cuadrado; o 3 contra 2 con 5 por equipo."
+ },
+ "adaptacion": "Prebenjamín y benjamín: 10 × 10 m y toques libres. Alevín e infantil: 8 × 8 m a 2 toques y punto con 10 pases.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 25 rondos para fútbol base",
+  "titulo_original": "Rondo 3 contra 1 por equipos en dos cuadros a la vez",
+  "ref": "25 rondos para fútbol base · pág. 14"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos cuadrados de unos 10 × 10 m con pasillo de 4 m, dos equipos de 4, 3 contra 1 en cada cuadrado a la vez, el que roba sale conduciendo, puntos por 8 pases y por robo, primero a 10, variantes, series y adaptación de la fuente. Edad de la base (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   10
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 26.5,
+   "ymin": -2.5,
+   "ymax": 12.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     10,
+     0,
+     14,
+     10
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     10
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8.4,
+    "y": 2.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8.4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 5.2,
+    "y": 4.8,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 15.6,
+    "y": 2.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22.4,
+    "y": 2.6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 8.4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 4.8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.5,
+     8.0
+    ],
+    "b": [
+     1.9,
+     2.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     19.4,
+     8.0
+    ],
+    "b": [
+     22.0,
+     3.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    12,
+    5,
+    "PASILLO",
+    "middle"
+   ]
+  ],
+  "tag": "2 cuadrados · 24 × 10 m"
+ }
+}

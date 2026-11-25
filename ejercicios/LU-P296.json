@@ -1,0 +1,167 @@
+{
+ "id": "LU-P296",
+ "bloque": "Técnica y duelos",
+ "titulo": "Línea de 4: bascular y cerrar",
+ "formato": "4v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "16 min",
+ "series": "4 series de 4′ con 1′ de pausa; cambian los 4 defensores y el delantero centro en cada serie (propuesta).",
+ "objetivo": "Que la línea de 4 se mueva unida según dónde esté el balón: bascular y deslizar, cerrar el pase interior y no dejar que los extremos giren con tiempo. Cómo explicarlo: «el balón manda: el más cercano presiona, el resto cierra hacia dentro y cubre». Errores típicos: línea rota con huecos, salir dos a la vez, defender mirando solo al balón. Qué observar: distancias entre defensas (8–10 m), voz del central, coberturas. Material: 3 miniporterías, 2 conos (picas), petos de 2 colores.",
+ "montaje": "40 × 25 m: 4 defensores en línea ante 3 miniporterías. 5 atacantes: delantero, 2 interiores y 2 extremos con un cono cada uno.",
+ "juego": "Los atacantes se pasan el balón sin pasar la línea. Los defensores basculan según el balón del delantero: impiden el gol y que un extremo reciba y gire alrededor de su cono.",
+ "punto": "Defensores: 1 punto por balón robado y 1 por extremo que no gira. Atacantes: 1 por gol y 1 por giro.",
+ "consigna": "Bascula con el balón; cierra por dentro.",
+ "variantes": {
+  "facil": "Atacantes a 2 toques como máximo y sin girar con el balón: solo ofrecerse (propuesta).",
+  "dificil": "Los atacantes tocan libre y se añade un sexto atacante en el pasillo central (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 4v4 y miniporterías más anchas. Cadete (14–15): tal cual y con el entrenador gritando «cambio» para obligar a bascular.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ACCIONES GRUPALES - LÍNEA DEFENSIVA - BASCULACIONES Y DESLIZAMIENTOS",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 296"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: línea de 4 defensores contra 5 jugadores que se pasan el balón; los defensas se mueven según el balón del delantero centro para impedir gol en 3 miniporterías detrás de la línea y evitar que los extremos reciban y hagan un giro completo en conducción a la pica; 9 jugadores, 40 × 25 m. (propuesta): distancias, reparto de los atacantes, puntuación, series, variantes y edades.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 27.5
+  },
+  "cones": [
+   [
+    31,
+    2.5
+   ],
+   [
+    31,
+    22.5
+   ]
+  ],
+  "goals": [
+   [
+    40,
+    6.5,
+    "R"
+   ],
+   [
+    40,
+    12.5,
+    "R"
+   ],
+   [
+    40,
+    18.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 22.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 21.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.6,
+     13.2
+    ],
+    "b": [
+     16,
+     21.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     24.3,
+     21.5
+    ],
+    "b": [
+     28.2,
+     23.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     24.2,
+     15.8
+    ],
+    "b": [
+     25.6,
+     19.3
+    ],
+    "k": "run",
+    "n": 3
+   }
+  ],
+  "tag": "línea de 4 · 40 × 25 m"
+ }
+}

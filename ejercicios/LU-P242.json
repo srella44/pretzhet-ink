@@ -1,0 +1,271 @@
+{
+ "id": "LU-P242",
+ "bloque": "Técnica y duelos",
+ "titulo": "Fútbol-tenis en 5 zonas",
+ "formato": "5 equipos de 4",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "20 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "20 min",
+ "series": "5 partidos a 10 puntos (unos 4′ cada uno); al acabar cada partido todos se mueven una zona (propuesta).",
+ "objetivo": "Mejorar el control, el pase y el golpeo en espacio reducido y con presión de tiempo, decidiendo a qué zona se envía el balón. Cómo explicarlo: «controla de tu lado, pasa a un compañero y envía lejos de quien espera». Errores típicos: dos toques seguidos del mismo jugador, enviar a la zona de origen, golpear fuerte y sin dirección. Qué observar: perfil al recibir, control orientado, comunicación entre los 4 de cada zona. Material: cinta o red baja, 8 conos, 1–2 balones, 5 colores de peto.",
+ "montaje": "Cruz de 20 × 20 m: centro de 8 × 8 m con cinta baja en sus 4 lados y 4 zonas de 8 × 6 m. 5 equipos de 4: uno en cada zona.",
+ "juego": "Una zona exterior saca al centro (un bote). El centro da hasta 4 pases, sin repetir toque seguido, y envía a otra zona exterior, no a la de origen. Esa zona devuelve y sigue.",
+ "punto": "Quien falla (2 botes, fuera, 5.º pase, devolver al origen) da 1 punto al rival. A 10 gana; entra otro equipo al centro.",
+ "consigna": "Controla de tu lado y envía lejos.",
+ "variantes": {
+  "facil": "Dos botes permitidos y toques libres dentro de cada zona (propuesta).",
+  "dificil": "Sin bote: solo controles y voleas de primeras, y 3 pases como máximo en el centro (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 2 botes y hasta 5 pases. Infantil (12–13): un bote y 4 pases. Con 15 jugadores, 3 por zona y zonas más pequeñas.",
+ "fuente": {
+  "autor": "Level Up Coach · Juanlu Toledo @JuanluAxel",
+  "titulo_original": "JUEGO DE FUTBOL TENIS EN 5 ZONAS",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 242"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 5 cuadrados, red de fútbol-tenis en el central, los 4 externos compiten contra el central; sacan siempre los externos al central, un bote, máximo 4 pases, un toque seguido por jugador, nunca devolver al cuadrado de origen; gana el primero a 10 y se rota pasando cada equipo por el centro; 20 jugadores, 20 × 20 m. (propuesta): medidas de las zonas, forma en cruz, cómo se anota cada punto (falla = punto del rival), que la zona receptora devuelva al centro, series y variantes.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     6,
+     6,
+     14,
+     14
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     14,
+     0
+    ],
+    "1 0"
+   ],
+   [
+    [
+     6,
+     6
+    ],
+    [
+     6,
+     0
+    ],
+    "6 5"
+   ],
+   [
+    [
+     14,
+     6
+    ],
+    [
+     14,
+     0
+    ],
+    "6 5"
+   ],
+   [
+    [
+     6,
+     14
+    ],
+    [
+     6,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     14,
+     14
+    ],
+    [
+     14,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     6
+    ],
+    [
+     6,
+     6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     14
+    ],
+    [
+     6,
+     14
+    ],
+    "6 5"
+   ],
+   [
+    [
+     14,
+     6
+    ],
+    [
+     20,
+     6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     14,
+     14
+    ],
+    [
+     20,
+     14
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 8.4,
+    "y": 2.0,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.8,
+    "y": 3.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8.2,
+    "y": 8.4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 8.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12.2,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 17.6,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17.6,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 2.4,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 2.4,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8.4,
+    "y": 17.8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 11.8,
+    "y": 16.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.9,
+     2.6
+    ],
+    "b": [
+     9.4,
+     7.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 12
+   },
+   {
+    "a": [
+     8.9,
+     8.9
+    ],
+    "b": [
+     9.6,
+     11.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     10.7,
+     11.9
+    ],
+    "b": [
+     16.8,
+     10.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "labels": [],
+  "tag": "cruz 20 × 20 m"
+ }
+}

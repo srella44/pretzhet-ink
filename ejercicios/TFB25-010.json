@@ -1,0 +1,151 @@
+{
+ "id": "TFB25-010",
+ "bloque": "Rondos",
+ "titulo": "Rondo 5v2 en círculo",
+ "formato": "5v2",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "7–14 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′; los defensores cambian como muy tarde cada 2′. Anota en voz alta los puntos de cada grupo.",
+ "objetivo": "Mantener el balón 5 contra 2 y buscar el pase que atraviesa a los dos defensores. Cómo explicarlo: «mira el hueco, primer toque para preparar el pase; defensores, juntos». Errores típicos: pases solo al compañero de al lado, defensores separados, pase blando entre ellos. Qué observar: primer toque orientado, tensión del pase, coordinación de la pareja defensora. Material: 5 conos, 1 balón, 2 petos.",
+ "montaje": "Círculo de 5 m de radio con 5 conos: un jugador junto a cada uno y 2 defensores dentro.",
+ "juego": "A 2 toques, moviéndose junto a su cono. El pase entre los 2 defensores a un compañero no contiguo vale más. Si un defensor toca el balón, entran el que pasó y el compañero de su derecha.",
+ "punto": "Pase normal: 1 punto; entre los defensores: 2; 10 pases seguidos: 5 extra. Defensores: 1 por robo.",
+ "consigna": "Mira el hueco.",
+ "variantes": {
+  "facil": "Toques libres o un círculo más grande.",
+  "dificil": "Un toque para el pase entre defensores, o 3 defensores contra 5."
+ },
+ "adaptacion": "Benjamín: radio de 6 m y 3 toques. Alevín: 5 m y 2 toques; el pase entre defensores, solo raso.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 25 rondos para fútbol base",
+  "titulo_original": "Rondo 5 contra 2 en círculo: el pase entre los dos defensores vale doble",
+  "ref": "25 rondos para fútbol base · pág. 19"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: círculo con 5 jugadores junto a sus conos a unos 5 m del centro, 2 defensores dentro, 2 toques, pase entre defensores vale doble, entran el que pasó y su compañero de la derecha, 10 pases = 5 extra, variantes, series y adaptación de la fuente. Edad de la base (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": 0.6,
+   "xmax": 15.4,
+   "ymin": 1.2,
+   "ymax": 15.6
+  },
+  "nofield": true,
+  "zones": [
+   {
+    "t": "circle",
+    "x": 8,
+    "y": 8,
+    "r": 5.4
+   }
+  ],
+  "cones": [
+   [
+    8,
+    14.3
+   ],
+   [
+    2.2,
+    10.3
+   ],
+   [
+    3.8,
+    2.8
+   ],
+   [
+    12.2,
+    2.8
+   ],
+   [
+    13.8,
+    10.3
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 13.0,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.24,
+    "y": 9.55,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5.06,
+    "y": 3.95,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 10.94,
+    "y": 3.95,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12.76,
+    "y": 9.55,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6.2,
+    "y": 7.2,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 10.6,
+    "y": 8.0,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.4,
+     12.2
+    ],
+    "b": [
+     10.7,
+     4.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     11.4,
+     4.2
+    ],
+    "b": [
+     12.5,
+     8.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "tag": "círculo r = 5 m"
+ }
+}

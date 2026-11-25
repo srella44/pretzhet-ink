@@ -1,0 +1,177 @@
+{
+ "id": "IG-DeHwAhYuJUU",
+ "bloque": "Rondos",
+ "titulo": "Del rondo 5v2 al 8v5",
+ "formato": "5v2 → 8v5",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "13 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ con 1′ de pausa; el rojo que roba cambia cada serie (propuesta).",
+ "objetivo": "Pasar de conservar en un rondo a atacar en gran espacio: los defensores que roban se convierten en apoyos interiores, y el equipo que pierde reacciona y ataca las miniportas. Cómo explicarlo: «roba, sal y conviértete en pivote». Errores típicos: salir sin apoyo, pivotes pegados al poseedor, no atacar rápido tras robar. Qué observar: apoyo interior, cambio de ritmo, reacción tras pérdida. Material: 4 miniportas, 4 conos, petos de 2 colores.",
+ "montaje": "Rondo 5v2 en 14 × 14 m dentro de 40 × 30 m con 4 miniportas. 5 azules contra 2 rojos; los otros 6 rojos esperan fuera.",
+ "juego": "10 pases azules puntúan. Si los 2 rojos roban y salen, el espacio se amplía y pasan a ser pivotes interiores de los 8 rojos contra 5 azules. A los 12 pases rojos se abren las miniportas; si los azules roban, atacan cualquiera.",
+ "punto": "Rondo: 10 pases, 1 punto. 8v5: gol 1; gol tras robo azul, 2.",
+ "consigna": "Roba, sal y apoya por dentro.",
+ "variantes": {
+  "facil": "Con 8 pases se abren las miniportas y los pivotes pueden tocar libre (propuesta).",
+  "dificil": "Rondo a 2 toques y miniportas solo abiertas a los 14 pases (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): medidas indicadas. Con menos de 13 jugadores, 4 azules y 6 rojos (propuesta).",
+ "fuente": {
+  "autor": "Reel de Instagram · @coachesviewsfootball",
+  "titulo_original": "Los dos recuperadores se convierten en pivotes",
+  "ref": "https://www.instagram.com/coachesviewsfootball/reel/DeHwAhYuJUU/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: diez pases puntúan en el rondo inicial; si los 2 rivales roban y salen, se amplía el espacio y ambos dan apoyo interior al equipo de ocho; doce pases habilitan cuatro minipuertas y los cinco pueden atacar cualquiera inmediatamente tras robar; rondo 5 contra 2 que pasa a 8 contra 5. (propuesta): medidas, reparto de equipos, puntuación, series, variantes y edades; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     13,
+     8,
+     27,
+     22
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    22,
+    "L"
+   ],
+   [
+    40,
+    8,
+    "R"
+   ],
+   [
+    40,
+    22,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25.5,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 20.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25.5,
+    "y": 20.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 9.2,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 17.6,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 22.6,
+    "y": 16,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 25,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24.7,
+     20.6
+    ],
+    "b": [
+     15.3,
+     20.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     23.2,
+     16.6
+    ],
+    "b": [
+     33,
+     24.2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "tag": "rondo + 4 miniportas"
+ }
+}

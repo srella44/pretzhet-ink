@@ -1,0 +1,126 @@
+{
+ "id": "TFB25-001",
+ "bloque": "Rondos",
+ "titulo": "Rondo 4v1: el que falla entra",
+ "formato": "4v1",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "5–10 jug.",
+ "espacio": "8 × 8 m",
+ "duracion": "12 min",
+ "series": "3 series de 3′. Con más de 10 jugadores, dos cuadrados a la vez.",
+ "objetivo": "Dar los primeros pasos en el rondo: pasar, controlar y moverse para ayudar al compañero con balón. Cómo explicarlo: «es la regla de siempre del patio: el que falla se la queda». Errores típicos: pase fuerte y sin mirar, quedarse parado en su lado, no ayudar al que tiene el balón. Qué observar: mirar antes de pasar, recibir de lado, ayuda al compañero. Material: 4 conos, 1 balón, 1 peto por cuadrado.",
+ "montaje": "Cuadrado de 8 × 8 m. 4 jugadores, uno en cada lado, y 1 defensor en el centro con peto.",
+ "juego": "Los de fuera se pasan el balón sin salir de su lado, por el suelo y sin pase por alto. Si el defensor toca el balón o el pase sale, el que falló se pone el peto y entra, y el defensor ocupa su sitio.",
+ "punto": "Gana quien menos veces entre al centro. Si un defensor lleva 1′ sin tocarla, cambia igualmente.",
+ "consigna": "Mira antes de pasar; ayuda al compañero.",
+ "variantes": {
+  "facil": "Cuadrado de 10 × 10 m y control antes de pasar.",
+  "dificil": "2 toques como máximo, o punto extra para los de fuera si el pase pasa entre las piernas del defensor."
+ },
+ "adaptacion": "Prebenjamín: 10 × 10 m y control antes de pasar. Benjamín: 8 × 8 m y 2 toques en la última serie.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 25 rondos para fútbol base",
+  "titulo_original": "Rondo 4 contra 1: el que falla se la queda",
+  "ref": "25 rondos para fútbol base · pág. 9"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuadrado de 8 × 8 m, 4 jugadores en los lados y 1 defensor central, el que falla entra, sin pase por alto, gana quien menos entra, series, variantes y adaptación de la fuente. Edad (6–11 años por la adaptación de la fuente) y nivel son (propuesta).",
+ "diagrama": {
+  "field": [
+   8,
+   8
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 10.5,
+   "ymin": -2.5,
+   "ymax": 10.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    0
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": -0.9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.9,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.2,
+    "y": 4.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.9,
+     -0.7
+    ],
+    "b": [
+     8.2,
+     3.3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     8.4,
+     4.9
+    ],
+    "b": [
+     4.6,
+     8.3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "tag": "8 × 8 m"
+ }
+}

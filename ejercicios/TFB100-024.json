@@ -1,0 +1,137 @@
+{
+ "id": "TFB100-024",
+ "bloque": "Rondos",
+ "titulo": "Tercer hombre en 2 cuadrados",
+ "formato": "5v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 8 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ con 1′ de descanso; cambia el defensor al robar o salir el balón.",
+ "objetivo": "Mejorar la circulación buscando siempre al tercer hombre y el cambio de orientación entre dos zonas. Cómo explicarlo: «antes de recibir, mira dónde está el tercer hombre; si el defensor cruza, cambia de cuadrado». Errores típicos: devolver el pase, recibir de frente al defensor, no ofrecerse a distintas alturas. Qué observar: primer control orientado, pase de cambio raso, tiempo que tarda el defensor en cruzar. Material: 6 conos, 1 balón, 1 peto.",
+ "montaje": "Dos cuadrados contiguos de 8 × 8 m: 3 atacantes en uno, 2 en el otro y 1 defensor que presiona donde esté el balón.",
+ "juego": "Prohibido devolver el pase a quien te lo dio: se busca al tercer hombre. Solo el balón cambia de cuadrado; el defensor tiene 2″ para cruzar. Si roba o el balón sale, cambia con quien lo perdió.",
+ "punto": "5 pases seguidos con un cambio de cuadrado: 1 punto para el grupo.",
+ "consigna": "Busca al tercer hombre.",
+ "variantes": {
+  "facil": "Se puede devolver el pase una vez por posesión y toques libres.",
+  "dificil": "A 2 toques como máximo, o un segundo defensor, uno por cuadrado."
+ },
+ "adaptacion": "Alevín: cuadrados de 10 m y se puede devolver una vez. Infantil: 8 m y nunca se devuelve al que te ha pasado.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Rondo del tercer hombre 5 contra 1 en dos cuadrados",
+  "ref": "100 tareas de fútbol base · pág. 37"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos cuadrados de 8 × 8 m, 3 atacantes y 2 atacantes, 1 defensor, prohibido devolver el pase, solo el balón cambia de cuadrado, 2″ para cruzar, punto cada 5 pases con cambio, series, variantes y adaptación de la fuente. Edad de la base (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   8
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 18.5,
+   "ymin": -2.5,
+   "ymax": 10.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     8,
+     0,
+     16,
+     8
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     8
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 1.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 6.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.2,
+    "y": 4.1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 5.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14.2,
+    "y": 2.2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 4.4,
+    "y": 4.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.6,
+     6.1
+    ],
+    "b": [
+     5.4,
+     4.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     6.9,
+     4.0
+    ],
+    "b": [
+     13.4,
+     2.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "tag": "2 cuadrados · 16 × 8 m"
+ }
+}

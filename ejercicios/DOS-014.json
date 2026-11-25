@@ -1,0 +1,119 @@
+{
+ "id": "DOS-014",
+ "bloque": "Rondos",
+ "titulo": "Rondo 3v1 o 3v2",
+ "formato": "3v1 / 2v2+C",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–5 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de descanso; cambia el defensor al perder el balón o a los 90″ (propuesta).",
+ "objetivo": "Desmarcarse para dar una ayuda a cada lado del poseedor y dar línea de pase. Cómo explicarlo: «dala y ayuda, juega de costado, mira antes y después de pasar». Errores típicos: quedarse tapado, parar el balón del todo, jugar parado. Qué observar: ángulos de apoyo, orientación del cuerpo, control orientado. Material: 4 conos, 1 balón, 1 peto.",
+ "montaje": "Rondo 3 contra 1 en 10 × 10 m con 4 conos. Con más nivel: 2 contra 2 más comodín en 12 × 12 m, toques libres.",
+ "juego": "Los 3 atacantes dan siempre una ayuda a cada lado del poseedor: se desmarcan, dan línea de pase, juegan de costado y miran antes de pasar. Quien pierde el balón defiende.",
+ "punto": "1 punto cada 5 pases seguidos (propuesta). Gana quien más puntos sume en las series.",
+ "consigna": "Da línea de pase, dala y ayuda.",
+ "variantes": {
+  "facil": "Toques libres y el defensor solo cierra líneas durante el primer minuto (propuesta).",
+  "dificil": "2 toques como máximo, o 2 contra 2 + comodín en 12 × 12 m."
+ },
+ "adaptacion": "Alevín: 10 × 10 m y toques libres. Infantil: 2 toques; 3 contra 2 si el grupo domina el 3 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "RONDO 3v1 / 3v2 (según nivel)",
+  "ref": "dosier.pdf · pág. 4, 9"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: rondo 3v1 en 10 × 10 m, siempre una ayuda a cada lado del poseedor, 2v2+1C en 12 × 12 m con toque libre y formato conservación, incidir en dar línea de pase, mirar y jugar de costado, evitar estar tapado y jugar parado. (propuesta): puntuación (1 punto cada 5 pases), cambios de defensor, series, variantes y edades.",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 12.5,
+   "ymin": -2.5,
+   "ymax": 12.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    10,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.2,
+    "y": 1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 8.3,
+    "y": 6.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 4.6,
+    "y": 5.0,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.7,
+     7.6
+    ],
+    "b": [
+     7.5,
+     6.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     8.4,
+     5.8
+    ],
+    "b": [
+     5.9,
+     2.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "tag": "10 × 10 m"
+ }
+}

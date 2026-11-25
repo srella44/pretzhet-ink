@@ -1,0 +1,139 @@
+{
+ "id": "LU-P222",
+ "bloque": "Rondos",
+ "titulo": "Rondo 8v2 tercer hombre",
+ "formato": "8v2",
+ "edad": "10–13 años",
+ "nivel": "Alto",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambian los 2 defensores en cada serie.",
+ "objetivo": "Progresar con pases verticales buscando al tercer hombre y conectar con el grupo del otro lado. Cómo explicarlo: «no pases al de al lado: busca al tercero y juega hacia delante». Errores típicos: pase al compañero contiguo, quedarse mirando el pase, no recuperar tras perder. Qué observar: pase vertical raso, apoyo del tercero, reacción del que pierde. Material: 4 conos, 2 balones, petos de 2 colores.",
+ "montaje": "Rectángulo de 30 × 20 m. 8 atacantes en 2 grupos de 4, uno en cada lado corto frente al otro, y 2 defensores en el centro.",
+ "juego": "Prohibido pasar al compañero de al lado: se busca al tercer hombre. Quien pierde el balón debe recuperarlo antes de que conecte con otro; si un defensor lo toca, entra el último atacante que lo tocó.",
+ "punto": "1 punto cada vez que el balón llega al grupo del otro lado. Gana el grupo que más puntos sume en la serie.",
+ "consigna": "No al de al lado: busca al tercero.",
+ "variantes": {
+  "facil": "Se permite 1 pase al de al lado por posesión y toques libres (propuesta).",
+  "dificil": "A 2 toques, o un tercer defensor (propuesta)."
+ },
+ "adaptacion": "Alevín: 24 × 16 m y toques libres. Infantil: 30 × 20 m a 2 toques.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios · Jesús Piñero @PineroCoach · Zonadefutbol.es",
+  "titulo_original": "RONDO RECTANGULAR, BÚSQUEDA DE 3ER HOMBRE (EN VERTICALIDAD)",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 222"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: rectángulo de 30 × 20 m, 8 contra 2, 4 jugadores que conservan por cada lado frente a frente, punto al progresar a la zona contraria o jugador final, prohibido pasar al compañero de al lado, el que pierde el balón debe recuperarlo antes de que conecte con otro; 10 jugadores. (propuesta): lectura del «jugador final» como grupo contrario, cambio de defensores, series, variantes y edades; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 28.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 28.5,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 28.5,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     7.8
+    ],
+    "b": [
+     27.7,
+     12.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10,
+    "nt": 0.7
+   },
+   {
+    "a": [
+     27.7,
+     12.8
+    ],
+    "b": [
+     2.3,
+     17.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 8,
+    "s1": 10,
+    "nt": 0.3
+   }
+  ],
+  "tag": "30 × 20 m"
+ }
+}

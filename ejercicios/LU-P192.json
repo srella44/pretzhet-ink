@@ -1,0 +1,272 @@
+{
+ "id": "LU-P192",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito coordinación y 2v2",
+ "formato": "Circuito 4 bloques",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "16 min",
+ "series": "4 rotaciones de 3′ (un bloque cada una) y 1′ de pausa al final; dentro de cada bloque cambian de posta a mitad de tiempo (propuesta).",
+ "objetivo": "Combinar coordinación, saltos y velocidad con duelos reales de 1 contra 1 y 2 contra 2 que obligan a decidir tras el esfuerzo. Cómo explicarlo: «llega fresco al duelo: la técnica va después de la carrera». Errores típicos: bajar el ritmo en la coordinación, 1 contra 1 sin orientar, no finalizar en tiempo. Qué observar: coordinación de apoyos, balón pegado en el zigzag, decisión en el duelo. Material: escalera, 6 conos, 4 vallas bajas, 2 miniporterías, balones.",
+ "montaje": "20 × 20 m, 4 bloques de 2 postas con 4 jugadores: lateral + escalera; aéreo + 1v1; zigzag + saltos; velocidad + 2v2.",
+ "juego": "En cada bloque, 2 hacen la primera posta y 2 la segunda; a los 90″ se cambian. Un duelo es una sola acción: si el atacante pierde, acaba. Cada 3′ pasan al siguiente bloque.",
+ "punto": "Duelos: 1 punto por gol y 1 si el defensor roba y saca el balón. Gana el grupo con más puntos.",
+ "consigna": "Decide rápido.",
+ "variantes": {
+  "facil": "Duelos 1 contra 1 sin finalizar y el entrenador lanza el balón aéreo con la mano (propuesta).",
+  "dificil": "Tiempo límite de 6″ para finalizar y el 2 contra 2 permite una transición tras robo (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): escalera sencilla y vallas más bajas. Infantil (12–13): medidas indicadas.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios · Pere Riera @Pere36287525",
+  "titulo_original": "CIRCUITO FÍSICO - TÉCNICO 8",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 192"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: circuito coordinación + 1x1 + 2x2 con postas A carrera lateral, B escalera, C disputa de balón aéreo lanzado por el entrenador, D 1x1, E conducción zigzag, F multisaltos, G velocidad y H 2x2; rotaciones; solo una acción, si los atacantes pierden se acaba, tiempo límite y transiciones permitidas; 16 jugadores, 20 × 20 m. (propuesta): reparto en 4 bloques de 4, tiempos, puntos, variantes y edades; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "cones": [
+   [
+    2.5,
+    1.5
+   ],
+   [
+    2.5,
+    8.5
+   ],
+   [
+    3,
+    13.5
+   ],
+   [
+    5,
+    16.5
+   ],
+   [
+    7,
+    13.5
+   ],
+   [
+    9,
+    16.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     20,
+     10
+    ],
+    "6 5"
+   ],
+   [
+    [
+     4.5,
+     2
+    ],
+    [
+     4.5,
+     8
+    ],
+    "1 0"
+   ],
+   [
+    [
+     6.5,
+     2
+    ],
+    [
+     6.5,
+     8
+    ],
+    "1 0"
+   ],
+   [
+    [
+     4.5,
+     2
+    ],
+    [
+     6.5,
+     2
+    ],
+    "1 0"
+   ],
+   [
+    [
+     4.5,
+     5
+    ],
+    [
+     6.5,
+     5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     4.5,
+     8
+    ],
+    [
+     6.5,
+     8
+    ],
+    "1 0"
+   ]
+  ],
+  "goals": [
+   [
+    20,
+    13,
+    "R"
+   ],
+   [
+    20,
+    17,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": 2.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.4,
+    "y": 6.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 15.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 14.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     5.2
+    ],
+    "b": [
+     2.5,
+     8
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     16.6,
+     2.9
+    ],
+    "b": [
+     14.2,
+     6.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     13.6,
+     15.7
+    ],
+    "b": [
+     19.2,
+     14.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    5.5,
+    -1.1,
+    "COORD.",
+    "middle"
+   ],
+   [
+    15,
+    -1.1,
+    "AÉREO·1V1",
+    "middle"
+   ],
+   [
+    5.5,
+    21.2,
+    "ZIGZAG",
+    "middle"
+   ],
+   [
+    15,
+    21.2,
+    "VELOZ·2V2",
+    "middle"
+   ]
+  ],
+  "tag": "4 bloques · 20 × 20 m"
+ }
+}

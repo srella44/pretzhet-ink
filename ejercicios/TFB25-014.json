@@ -1,0 +1,163 @@
+{
+ "id": "TFB25-014",
+ "bloque": "Rondos",
+ "titulo": "Rondo grande 8+1 v 2",
+ "formato": "8+C v 2",
+ "edad": "12–15 años",
+ "nivel": "Fácil",
+ "jugadores": "11–14 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "3 series de 4′; cambia el comodín en cada serie.",
+ "objetivo": "Activar a un grupo grande con un rondo de mucho volumen de pase, alternando el balón entre los jugadores de dentro y los de fuera. Cómo explicarlo: «dentro, fuera, dentro: separaos dentro y pide con la voz». Errores típicos: juntarse dentro, pase de fuera a fuera, olvidar que el 3.er pase sale. Qué observar: control hacia el espacio libre, comunicación, ocupación del cuadrado. Material: 4 conos para el cuadrado interior, 4 para el exterior, petos de 3 colores.",
+ "montaje": "Cuadrado de 18 × 18 m en 30 × 30 m. 4 azules fuera (uno por lado), 4 azules y 1 comodín dentro y 2 rojos defendiendo.",
+ "juego": "Los de fuera solo pasan a uno de dentro; dentro, 2 pases seguidos y el 3.º sale fuera. Todos a 2 toques. Si un rojo toca el balón, entra el azul que lo perdió.",
+ "punto": "Sin puntos por equipos: cada jugador cuenta las veces que ha defendido; el que menos, gana.",
+ "consigna": "Dentro, fuera, dentro.",
+ "variantes": {
+  "facil": "Sin la regla de alternar, o 3 fuera y 4 dentro.",
+  "dificil": "Dentro a 1 toque; entra un 3.er defensor; fuera a fuera solo por el centro; o 2 balones y 4 defensores."
+ },
+ "adaptacion": "Benjamín: cuadrado interior de 20 × 20 m y toques libres. Alevín e infantil: 18 × 18 m a 2 toques. Cadete: 1 toque para los de fuera.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 25 rondos para fútbol base",
+  "titulo_original": "Rondo grande 8+1 contra 2: de dentro a fuera",
+  "ref": "25 rondos para fútbol base · pág. 23"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuadrado de unos 18 × 18 m dentro de 30 × 30, 4 azules fuera, 4 azules y comodín dentro, 2 rojos, el de fuera solo pasa a uno de dentro y el 3.er pase dentro sale fuera, cambia el que pierde, cuenta de veces defendidas, variantes, series y adaptación de la fuente. Edad de la base (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     6,
+     6,
+     24,
+     24
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4.2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25.8,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 25.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 4.2,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 20.5,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 16.8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15.6,
+     4.9
+    ],
+    "b": [
+     9.8,
+     9.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 12
+   },
+   {
+    "a": [
+     10.3,
+     10
+    ],
+    "b": [
+     20.3,
+     9.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     21.6,
+     9.6
+    ],
+    "b": [
+     25.2,
+     14.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "tag": "18 × 18 m en 30 × 30 m"
+ }
+}

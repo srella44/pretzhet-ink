@@ -1,0 +1,222 @@
+{
+ "id": "LU-P266",
+ "bloque": "Técnica y duelos",
+ "titulo": "Batir líneas 6v6 + 2",
+ "formato": "6v6+2C",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "50 × 45 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de pausa; los equipos cambian de rol y los comodines de banda en cada serie (propuesta).",
+ "objetivo": "Conectar con los compañeros que están detrás de la línea de presión rival, por dentro o con ayuda de los comodines, y progresar zona a zona hasta finalizar. Cómo explicarlo: «atrae a la primera línea, rompe con un pase y la segunda zona se activa». Errores típicos: pase a un compañero ya tapado, comodín sin recibir de cara, no acompañar tras el pase. Qué observar: ocupación de amplitud y profundidad, velocidad al conectar con la siguiente línea, orden de los defensores superados. Material: 6 conos, 1 portería con portero, 2 colores de peto + 1 para comodines.",
+ "montaje": "50 × 45 m en 3 zonas, portería con portero. Azules: 2 por zona. Rojos: 3 en zona 1 y 3 en zona 2. 2 comodines en las bandas.",
+ "juego": "Los azules conectan zona 1 con zona 2 (por dentro o con un comodín); los 3 rojos superados salen a presionar. Con el balón en zona 3, los rojos de zona 2 salen a robar y los 2 delanteros finalizan.",
+ "punto": "Conectar con zona 2: 1 punto; con zona 3: 2; gol: 3. Tras robo o pérdida, cambio de rol.",
+ "consigna": "Rompe la línea.",
+ "variantes": {
+  "facil": "Los rojos de la primera línea salen solo 3″ después del pase y los comodines juegan a toques libres (propuesta).",
+  "dificil": "Máximo 2 toques en la zona 1 y 8″ para finalizar desde que entra en zona 3 (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): zonas de 15 m y 3 comodines. Cadete (14–15): medidas indicadas y 2 toques en zona 1.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Juego de posesión 6vs6 + 2 - Batir líneas y progresar",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 266"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 6 + 2 comodines exteriores; empiezan en la primera zona y conectan con los compañeros detrás de la línea de presión rival; tras conectar, los 3 defensores superados salen; al llegar a la zona de los delanteros los defensores pueden salir a robar y los delanteros finalizan; 14 jugadores, 45 × 50 m. (propuesta): reparto 2-2-2 y 3+3, portería con portero, puntuación, series, variantes y edades.",
+ "diagrama": {
+  "field": [
+   50,
+   45
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 55,
+   "ymin": -2.5,
+   "ymax": 47.5
+  },
+  "lines": [
+   [
+    [
+     17,
+     0
+    ],
+    [
+     17,
+     45
+    ],
+    "6 5"
+   ],
+   [
+    [
+     33,
+     0
+    ],
+    [
+     33,
+     45
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 50,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 29,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 22.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 22.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 43.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.7,
+     16.6
+    ],
+    "b": [
+     10.3,
+     2.2
+    ],
+    "k": "pass",
+    "n": 1
+   },
+   {
+    "a": [
+     11.8,
+     1.8
+    ],
+    "b": [
+     22.4,
+     15.0
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     23.8,
+     16
+    ],
+    "b": [
+     40.2,
+     15.2
+    ],
+    "k": "pass",
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    41,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    25,
+    41,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    41.5,
+    41,
+    "ZONA 3",
+    "middle"
+   ]
+  ],
+  "tag": "3 zonas · 50 × 45 m"
+ }
+}

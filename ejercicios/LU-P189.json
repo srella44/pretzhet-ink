@@ -1,0 +1,299 @@
+{
+ "id": "LU-P189",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito 5: presión y 1v1",
+ "formato": "Circuito 3 postas",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "18 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "22 min",
+ "series": "3 series de 6′ con 1′ de pausa; en cada serie los 3 grupos cambian de posta (propuesta).",
+ "objetivo": "Trabajar a máxima intensidad la velocidad, la coordinación, la presión sobre el poseedor y el duelo aéreo en el área, enlazando lo físico con lo técnico. Cómo explicarlo: «sprint, presión coordinada y, al robar, a rematar de cabeza o pie». Errores típicos: presionar sin cerrar el pase, rematar sin atacar el centro, no volver rápido al cono. Qué observar: intensidad, orden de salida, calidad del centro. Material: 1 portería con portero, escalera de coordinación, 8 conos, balones, petos de 3 colores.",
+ "montaje": "40 × 40 m, 3 postas de 6: A) velocidad + escalera; B) presión 2v4; C) 1v1 con remate aéreo y portero. Centra el entrenador.",
+ "juego": "A: sprint, atrás y escalera. B: 2 presionan a 4 en 15 × 15 m; quien roba pasa a C. C: 1 contra 1 y remate de centro; luego toca el palo, vuelve al cono y repite con roles cambiados.",
+ "punto": "1 punto por remate a puerta y 1 por robo en B. Rotan de posta cada 6′.",
+ "consigna": "Máxima intensidad en cada acción.",
+ "variantes": {
+  "facil": "Presión 2 contra 6 y centros sin oposición en la posta C (propuesta).",
+  "dificil": "Presión 2 contra 4 con solo 6″ para robar y 1 contra 1 con el centro al primer toque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): sprints de 8 m y presión 2 contra 6. Infantil (12–13): medidas indicadas.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios · Pere Riera @Pere36287525",
+  "titulo_original": "CIRCUITO FÍSICO - TÉCNICO 5",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 189"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: circuito físico-técnico con 4 acciones (velocidad adelante/atrás, presión 2x4/5/6, 1x1 con remate aéreo tras robar y velocidad hasta el palo y vuelta al cono, escalera de coordinación), centros del segundo portero o entrenadores, máxima intensidad, cambios de grupo cada 6 minutos, 3 series de 6 minutos con 1 de descanso; 18 jugadores, 40 × 40 m. (propuesta): reparto en 3 postas de 6 (la escalera se une a la velocidad), medidas, puntos, variantes y edades; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 42.5
+  },
+  "cones": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    17
+   ],
+   [
+    18,
+    21
+   ],
+   [
+    33,
+    21
+   ],
+   [
+    18,
+    36
+   ],
+   [
+    33,
+    36
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     18,
+     21,
+     33,
+     36
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     9,
+     21
+    ],
+    [
+     9,
+     36
+    ],
+    "1 0"
+   ],
+   [
+    [
+     11.5,
+     21
+    ],
+    [
+     11.5,
+     36
+    ],
+    "1 0"
+   ],
+   [
+    [
+     9,
+     21
+    ],
+    [
+     11.5,
+     21
+    ],
+    "1 0"
+   ],
+   [
+    [
+     9,
+     24.75
+    ],
+    [
+     11.5,
+     24.75
+    ],
+    "1 0"
+   ],
+   [
+    [
+     9,
+     28.5
+    ],
+    [
+     11.5,
+     28.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     9,
+     32.25
+    ],
+    [
+     11.5,
+     32.25
+    ],
+    "1 0"
+   ],
+   [
+    [
+     9,
+     36
+    ],
+    [
+     11.5,
+     36
+    ],
+    "1 0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 30,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 25.5,
+    "y": 21,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 28.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25.5,
+    "y": 36,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 28.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23.2,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 28.2,
+    "y": 30.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 14,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 9.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 37.5,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     9.5
+    ],
+    "b": [
+     4,
+     16
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     25.5,
+     34.8
+    ],
+    "b": [
+     18.8,
+     29.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     36.5,
+     12.6
+    ],
+    "b": [
+     30.8,
+     10.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1
+   }
+  ],
+  "labels": [
+   [
+    10,
+    1.6,
+    "A VELOCIDAD",
+    "middle"
+   ],
+   [
+    25.5,
+    39,
+    "B PRESIÓN 2V4",
+    "middle"
+   ],
+   [
+    13,
+    19.3,
+    "ESCALERA",
+    "middle"
+   ],
+   [
+    14,
+    6,
+    "C 1V1 AÉREO",
+    "middle"
+   ]
+  ],
+  "tag": "3 postas · 40 × 40 m"
+ }
+}

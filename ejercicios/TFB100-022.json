@@ -1,0 +1,126 @@
+{
+ "id": "TFB100-022",
+ "bloque": "Rondos",
+ "titulo": "Rondo 4v1 por edades",
+ "formato": "4v1",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "5–15 jug.",
+ "espacio": "8 × 8 m",
+ "duracion": "12 min",
+ "series": "4 series de 90″ con 1′ de descanso; cada uno defiende una serie. Con varios cuadrados, todo el grupo trabaja a la vez.",
+ "objetivo": "Mantener la posesión con pases precisos y controles orientados, adaptando la condición de toques a la edad. Cómo explicarlo: «mira antes de recibir, perfila el cuerpo y pasa raso y fuerte». Errores típicos: recibir de frente al defensor, pase blando, quedarse parado entre conos. Qué observar: perfil corporal, línea de pase ofrecida, rapidez al pasar. Material: 4 conos por cuadrado, un balón y un peto.",
+ "montaje": "Cuadrado de 8 × 8 m con 4 conos: 4 atacantes, uno por lado entre conos, y 1 defensor en el centro. Varios cuadrados a la vez.",
+ "juego": "Los atacantes se pasan el balón sin entrar; solo se desplazan por su lado. Si el defensor toca el balón o este sale, cambia con el último atacante que lo tocó. Toques según la edad.",
+ "punto": "Pases seguidos del grupo en 2′: superar su récord. Luego rotan.",
+ "consigna": "Perfila el cuerpo antes de recibir.",
+ "variantes": {
+  "facil": "Prebenjamín: toques libres y defensor que solo cierra líneas durante el primer minuto.",
+  "dificil": "Alevín: cuadrado de 10 × 10 m, a 1 toque o alternos. Aún más difícil: prohibido devolver el pase a quien te lo dio."
+ },
+ "adaptacion": "Prebenjamín: toques libres, cuadrado de 10 m. Benjamín: 2–3 toques. Alevín: 1 toque o alternos (la ficha original da cifras algo distintas; se unifican, propuesta).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Rondo 4 contra 1 con condiciones por edades",
+  "ref": "100 tareas de fútbol base · pág. 35"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuadrado de 8 × 8 m con 4 conos, 4 atacantes en los lados y 1 defensor en el centro, cambio al tocar o salir el balón, condición de toques por edad, récord de pases en 2′, variantes, series y adaptación de la fuente. Edad (6–11 años por las condiciones que da la fuente) y unificación de toques son (propuesta).",
+ "diagrama": {
+  "field": [
+   8,
+   8
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 10.5,
+   "ymin": -2.5,
+   "ymax": 10.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    0
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": -0.9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.9,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8.9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 4.4,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.9,
+     -0.7
+    ],
+    "b": [
+     8.2,
+     3.3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     8.4,
+     4.9
+    ],
+    "b": [
+     4.6,
+     8.3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "tag": "8 × 8 m"
+ }
+}

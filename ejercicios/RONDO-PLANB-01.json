@@ -1,0 +1,123 @@
+{
+ "id": "RONDO-PLANB-01",
+ "bloque": "Técnica y duelos",
+ "titulo": "El rey del campito",
+ "formato": "2v2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4 jug. (por grupo)",
+ "espacio": "20 × 14 m",
+ "duracion": "12 min",
+ "series": "6 partidos de 2′ con 30″ de pausa para cambiar de pareja; el grupo juega dos veces la vuelta completa (propuesta).",
+ "objetivo": "Jugar 2 contra 2 con porterías, ataque y defensa en pocos metros y mucha participación, aprendiendo a asociarse con cualquier compañero. Cómo explicarlo: «habla con tu pareja: uno ataca el balón y el otro cubre». Errores típicos: los dos defienden al mismo rival, tirar sin mirar, no volver a defender. Qué observar: coberturas, pared, quién decide cuándo tirar. Material: 2 miniporterías, 4 conos, 1 balón y 2 colores de peto por grupo.",
+ "montaje": "Campo de 20 × 14 m con una miniportería en cada fondo. Grupos de 4: dos parejas, una contra otra.",
+ "juego": "2 contra 2 con porterías; si el balón sale, se saca con el pie. Cada 2′ cambia la pareja: A+B contra C+D, A+C contra B+D y A+D contra B+C.",
+ "punto": "Gol: 1 punto para ambos. Cada jugador suma los goles de sus 3 parejas; gana quien más sume en los 6′.",
+ "consigna": "Hablad: uno aprieta, otro cubre.",
+ "variantes": {
+  "facil": "Porterías de 3 m y un jugador comodín fijo que juega con quien tenga el balón (propuesta).",
+  "dificil": "Máximo 3 toques por jugador y gol válido solo desde fuera del círculo de 4 m de la portería (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campo de 18 × 12 m y toques libres. Infantil (12–13): medidas indicadas y 3 toques.",
+ "fuente": {
+  "autor": "RONDO · Bonus 3 · Plan B",
+  "titulo_original": "El rey del campito",
+  "ref": "RONDO Bonus 3 · Plan B"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: «Vienen 4»: 2 contra 2 con miniporterías; cada 2′ se cambia de compañero; en tres cambios todos han jugado con todos. (propuesta): medidas del campo, saques, puntuación individual, series, variantes y edades; edad de la base.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 16.5
+  },
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    20,
+    7,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     14
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14.5,
+    "y": 11.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.1,
+     9.1
+    ],
+    "b": [
+     8.3,
+     4.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     9.2,
+     3.4
+    ],
+    "b": [
+     19.2,
+     6.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1
+   }
+  ],
+  "tag": "20 × 14 m"
+ }
+}

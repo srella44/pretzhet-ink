@@ -1,0 +1,158 @@
+{
+ "id": "TFB25-023",
+ "bloque": "Rondos",
+ "titulo": "Rondo 2v2 con 4 apoyos",
+ "formato": "2v2+4A",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "6 series de 1′30″ con 1′ de descanso (en ese tiempo hacen de apoyos). Tarea muy intensa.",
+ "objetivo": "Jugar en espacio muy reducido con oposición igualada, usando a los apoyos para conservar y progresar hasta el lado contrario. Cómo explicarlo: «aléjate del apoyo para que te dé el pase y busca al de enfrente». Errores típicos: pedir el balón pegado al apoyo, pasar apoyo a apoyo, perder y no robar en 2″. Qué observar: cuerpo entre balón y rival, apoyos a un toque, juego de espaldas. Material: 4 conos, petos de 3 colores, balones de reserva.",
+ "montaje": "Cuadrado de 12 × 12 m: 2 contra 2 dentro y un apoyo (peto distinto) en cada lado, que juega con quien tiene el balón y a un toque.",
+ "juego": "Los apoyos no se pasan entre sí. Dentro, máx. 3 toques. Si roban, atacan ellos. Si el balón sale, el entrenador da otro al apoyo más cercano del equipo que no lo sacó.",
+ "punto": "1 punto cada vez que el balón viaja de un apoyo al de enfrente. Gana la pareja con más puntos.",
+ "consigna": "Aléjate del apoyo y busca al de enfrente.",
+ "variantes": {
+  "facil": "Apoyos a 2 toques o cuadrado de 15 × 15 m.",
+  "dificil": "El punto solo cuenta si el pase final llega de primeras, o los de dentro juegan a 2 toques."
+ },
+ "adaptacion": "Infantil: 14 × 14 m y apoyos a 2 toques al principio. Cadete y juvenil: 12 × 12 m, apoyos a 1 toque y punto solo con pase final de primeras.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 25 rondos para fútbol base",
+  "titulo_original": "Rondo 2 contra 2 con cuatro apoyos: de un lado al de enfrente",
+  "ref": "25 rondos para fútbol base · pág. 34"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuadrado 12 × 12 m, 2 contra 2 dentro y 4 apoyos a un toque, punto por pase de un apoyo al de enfrente, apoyos sin pasarse directamente, 3 toques dentro, balón nuevo al apoyo más cercano, series, variantes y adaptación de la fuente. Edad de la base (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 14.5,
+   "ymin": -2.5,
+   "ymax": 14.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    12,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 6,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 12.9,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 12.9,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": -0.9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.4,
+    "y": 7.4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8.8,
+    "y": 3.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6.4,
+    "y": 8.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9.2,
+    "y": 8.8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     12.1
+    ],
+    "b": [
+     3.8,
+     8.1
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 12
+   },
+   {
+    "a": [
+     3.8,
+     6.8
+    ],
+    "b": [
+     8.3,
+     4.1
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     8.9,
+     3.0
+    ],
+    "b": [
+     6.4,
+     -0.1
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "tag": "12 × 12 m"
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "id": "TFB100-026",
+ "bloque": "Rondos",
+ "titulo": "Rondo 5v2 y pase al delantero",
+ "formato": "5v2 → 2v1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9–12 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "16 min",
+ "series": "3 series de 5′ con 1′30″ de descanso; en cada serie cambian los defensores del rondo y el central.",
+ "objetivo": "Unir un rondo con la finalización: conservar en superioridad y, cuando se abra la línea, encontrar al delantero y acompañarle hasta el gol. Cómo explicarlo: «mueve el balón hasta que se abra, pasa y acompaña». Errores típicos: pase vertical precipitado, quien pasa no sale a apoyar, delantero parado. Qué observar: perfil del delantero, apoyo de cara, decisión tira o asiste. Material: portería con portero, 4 conos, petos de 2 colores, balones de reserva.",
+ "montaje": "Media cancha con portería. A 25 m, rondo de 5 azules contra 2 rojos en 20 × 15 m; en la frontal, delantero azul y central rojo.",
+ "juego": "Tras 6 pases (2 toques) pasan al delantero; quien lo da sale a apoyarle: 2 contra 1 ante central y portero, 8″ para tirar. Los 2 rojos no salen. Si roban, cambian con los que perdieron.",
+ "punto": "Gol: 2 puntos. Tiro sin gol: 1. Si el central roba y saca el balón del área: 1 rojo.",
+ "consigna": "Pasa y acompaña.",
+ "variantes": {
+  "facil": "El central es pasivo, o no hay central: el delantero descarga y el que llega tira.",
+  "dificil": "Rondo a 1 toque; salen 2 azules tras el pase (3 contra 1); el delantero recibe siempre en movimiento; 8 pases y 5″ para tirar."
+ },
+ "adaptacion": "Alevín: pase al delantero tras 5 pases. Infantil: tras 7. Cadete y juvenil: 2 toques y el delantero con un defensor a la espalda.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Rondo 5 contra 2 y pase al delantero para finalizar",
+  "ref": "100 tareas de fútbol base · pág. 39"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuadrado de 20 × 15 m a 25 m de la portería, rondo 5 contra 2, delantero marcado por un central, 6 pases y pase vertical, sale el que pasa (2 contra 1), 8″ para tirar, puntuación, variantes, series y adaptación de la fuente. Edad de la base (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 55,
+   "ymin": 8,
+   "ymax": 32
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     6,
+     12.5,
+     26,
+     27.5
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 22,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 27.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 41,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     26.7,
+     21.7
+    ],
+    "b": [
+     37.2,
+     19.3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     27,
+     23.5
+    ],
+    "b": [
+     34,
+     29
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     38.8,
+     18.8
+    ],
+    "b": [
+     48.8,
+     20
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 10,
+    "s1": 8
+   }
+  ],
+  "tag": "rondo + finalización"
+ }
+}

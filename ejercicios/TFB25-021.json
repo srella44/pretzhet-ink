@@ -1,0 +1,160 @@
+{
+ "id": "TFB25-021",
+ "bloque": "Rondos",
+ "titulo": "Rondo 5v3: cambio al lejano",
+ "formato": "5v3",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug.",
+ "espacio": "40 × 24 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ rotando a los defensores.",
+ "objetivo": "Atraer a los defensores a un lado y cambiar el balón al compañero que espera en la otra mitad para seguir con ventaja. Cómo explicarlo: «atrae y cambia; lejano, despégate de tu marca». Errores típicos: cambiar sin atraer, pase alto y lento, cruzar los 3 a la vez. Qué observar: pase largo raso, aparición del lejano, cruce rápido de ayudas. Material: 4 miniporterías, 4 conos, petos de 2 colores.",
+ "montaje": "40 × 24 m en 2 mitades, miniporterías en las esquinas. 5 azules contra 3 rojos; el 5.º azul (lejano) y 1 rojo, en la otra mitad.",
+ "juego": "Tras 4 pases (máx. 2 toques), cambian al lejano; 3 azules cruzan a ayudarle y 1 queda de lejano. Cruza 1 rojo. Si roban, los rojos tienen 6″ para marcar en cualquier miniportería.",
+ "punto": "Cambio que llega al lejano: 1 punto azul. Robo y gol en miniportería: 2 puntos rojos.",
+ "consigna": "Atrae y cambia.",
+ "variantes": {
+  "facil": "5 contra 2 (sin el rojo que vigila al lejano) y toques libres.",
+  "dificil": "Cambio a 1 toque; solo 3 pases antes del cambio; el rojo del lejano puede anticiparse; el lejano controla orientado."
+ },
+ "adaptacion": "Alevín: cambio tras 3 pases y balón raso. Infantil y cadete: tras 4. Juvenil: el lejano controla orientado y conduce hasta su línea.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 25 rondos para fútbol base",
+  "titulo_original": "Rondo 5 contra 3 en dos mitades con cambio de orientación al jugador lejano",
+  "ref": "25 rondos para fútbol base · pág. 32"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: rectángulo de unos 40 × 24 m en dos mitades con miniportería en cada esquina de los lados cortos, 5 azules contra 3 rojos, jugador lejano, cambio tras 4 pases, cruzan 3 azules y 1 rojo, 6″ para marcar, puntuación, variantes, series y adaptación de la fuente. Edad de la base (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 26.5
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    19,
+    "L"
+   ],
+   [
+    40,
+    5,
+    "R"
+   ],
+   [
+    40,
+    19,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 9.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.8,
+     15.4
+    ],
+    "b": [
+     11.3,
+     4.7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     12.8,
+     4.1
+    ],
+    "b": [
+     33.1,
+     11.3
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "tag": "2 mitades · 40 × 24 m"
+ }
+}

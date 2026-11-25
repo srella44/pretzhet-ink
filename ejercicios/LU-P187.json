@@ -1,0 +1,188 @@
+{
+ "id": "LU-P187",
+ "bloque": "Técnica y duelos",
+ "titulo": "Zona de marca 7v5",
+ "formato": "7v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "20 min",
+ "series": "4 series de 5′ con 1′ de pausa; cambian los papeles de ataque y defensa (propuesta).",
+ "objetivo": "Salir con el balón, llegar a la zona de marca y finalizar con fuera de juego, con el delantero siempre implicado, y reaccionar rápido tras perder. Cómo explicarlo: «pasa, mira el fuera de juego y llega acompañando». Errores típicos: recibir en fuera de juego, delantero que no se mueve, olvidar volver a defender tras la pérdida. Qué observar: desmarque de ruptura, línea defensiva, transición 5 contra 4. Material: 2 porterías pequeñas, 6 conos, petos de 2 colores.",
+ "montaje": "40 × 30 m, zona de marca de 12 m (fuera de juego), porterías de 3 m. 7 atacantes (3 atrás, MC, DI, DD, DE) contra 5.",
+ "juego": "Los atacantes buscan recibir en zona de marca; el DE debe intervenir. Si los defensores evitan el tiro, contraatacan y solo los defienden MC, DE, DI y DD (5 contra 4).",
+ "punto": "Gol tras recibir en zona de marca: 1 punto. Gol del contraataque: 1 para los defensores.",
+ "consigna": "Recibe en zona de marca.",
+ "variantes": {
+  "facil": "Sin fuera de juego y el delantero no tiene que intervenir en la jugada (propuesta).",
+  "dificil": "El receptor en zona de marca debe pasar a otro compañero que haya entrado y los defensores pueden hacer 1 contra 1 en las bandas."
+ },
+ "adaptacion": "Infantil (12–13): 6v4 y 35 × 28 m. Cadete (14–15): medidas indicadas y fuera de juego estricto.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios · Víctor Olmeda @Vite_Olmeda",
+  "titulo_original": "F7 - APLICACIÓN 7x5",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 187"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: gol recibiendo en zona de marca y marcando en portería pequeña (participa el delantero), se trabaja el fuera de juego; si los defensas evitan la finalización hacen contra y solo pueden defenderlos MC, DE, DI y DD (5 contra 4); condición: el receptor en zona de marca debe pasar a otro compañero que haya entrado; 12 jugadores. (propuesta): dimensiones, reparto 3+4 contra 5, portería contraria del contraataque, puntos, series, variantes y edades.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     28,
+     0,
+     40,
+     30
+    ]
+   }
+  ],
+  "goals": [
+   [
+    40,
+    15,
+    "R"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.7,
+     10.4
+    ],
+    "b": [
+     16.4,
+     7.3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     17.7,
+     7.3
+    ],
+    "b": [
+     30.4,
+     13.6
+    ],
+    "k": "pass",
+    "n": 2
+   },
+   {
+    "a": [
+     31.7,
+     14.1
+    ],
+    "b": [
+     39.2,
+     15.0
+    ],
+    "k": "pass",
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    34,
+    27.8,
+    "ZONA DE MARCA",
+    "middle"
+   ]
+  ],
+  "tag": "F7 · 40 × 30 m"
+ }
+}
