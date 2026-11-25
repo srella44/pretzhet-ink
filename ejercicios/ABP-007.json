@@ -1,0 +1,197 @@
+{
+ "id": "ABP-007",
+ "bloque": "Balón parado",
+ "titulo": "Falta frontal: abrir hueco",
+ "formato": "3v3+P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "7–10 jug.",
+ "espacio": "Frontal del área",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 6 faltas con 1′ de pausa; los dos de la barrera y el lanzador rotan en cada serie. Primero sin portero, después con portero.",
+ "objetivo": "Falta frontal con dos atacantes metidos en la barrera rival: se apartan justo en el golpeo y abren un hueco por el que pasa el tiro, que el portero no ve salir. Después atacan el rechace. Cómo explicarlo: «vosotros sois la cortina: os apartáis tarde, cuando el pie de A1 va a tocar el balón». Errores típicos: apartarse antes (el portero lo ve); el tiro va alto por encima del hueco; los de la barrera se quedan mirando y no van al rechace. Qué observar: coordinación del gesto, tiro raso o a media altura con el empeine y carrera al rechace.",
+ "montaje": "Falta frontal a 24 m. Barrera de 4: dos atacantes (A2 y A3) en el lado de dentro, pegados a 2 defensores o picas. Portero. A1 en el balón; A4 fuera del área para el rechace (propuesta).",
+ "juego": "A1 levanta el brazo y arranca. Justo antes del golpeo, A3 y A2 se apartan girando hacia la portería (1 y 2) y abren hueco. A1 tira raso por el hueco (3). A2, A3 y A4 van al rechace.",
+ "punto": "Gol directo: 3. De rechace: 2. Entre palos: 1.",
+ "consigna": "Apártate tarde y ve al rechace.",
+ "variantes": {
+  "facil": "Sin portero y con picas en la barrera: solo afinar el momento de apartarse (propuesta).",
+  "dificil": "El portero ve dónde se colocan los atacantes y puede moverse; A1 elige entre el hueco o el palo del portero (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): falta a 16–18 m, barrera de 3 con 1 atacante. Infantil (12–13): como está. Cadete (14–15): añadir un defensor que salga de la barrera al golpeo (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 25 acciones a balón parado",
+  "titulo_original": "FALTA FRONTAL 5",
+  "ref": "25-jugadas-ensayadas.pdf · p. 11"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente es solo un esquema gráfico sin texto y en esta tanda no se pudo ver la página: atacantes en la barrera que abren hueco, rechace, colocación, puntuación, series, variantes y adaptación son (propuesta). Revisar con el dibujo de AFOPRO.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "tag": "frontal del área",
+  "extent": {
+   "xmin": -2,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10.0,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     16.5,
+     0
+    ],
+    [
+     16.5,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     0.8499999999999996
+    ],
+    [
+     5.5,
+     0.8499999999999996
+    ],
+    "6 5"
+   ],
+   [
+    [
+     5.5,
+     0.8499999999999996
+    ],
+    [
+     5.5,
+     19.15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     5.5,
+     19.15
+    ],
+    [
+     0,
+     19.15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 25,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17.5,
+    "f": 200
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 18,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     8.5
+    ],
+    "b": [
+     12,
+     4.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     5.5
+    ],
+    "b": [
+     11,
+     1.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     10
+    ],
+    "b": [
+     0.8,
+     7.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 12,
+    "nt": 0.2,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    3.2,
+    "BARRERA MIXTA",
+    "middle"
+   ]
+  ]
+ }
+}

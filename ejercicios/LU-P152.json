@@ -1,0 +1,173 @@
+{
+ "id": "LU-P152",
+ "bloque": "Rondos",
+ "titulo": "Rondo 4v4+1 con permutas",
+ "formato": "4v4+1",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "16 min",
+ "series": "(propuesta) 4 series de 3′ con 1′ de pausa; en cada serie se cambian los de dentro por los de fuera y el comodín.",
+ "objetivo": "Conservar con superioridad y movilidad (fuente): pase, control, anticipación e interceptación, con cambios de papel tras robo y permutas entre los de dentro y los de fuera. Cómo explicarlo: «si pasas fuera, puedes cambiarte con él: entra con balón y tú sales a su sitio». Errores típicos: pasar fuera y quedarse mirando; el de fuera entra sin mirar y la pierde; al perder nadie presiona y el rival suma pases fáciles. Qué observar: perfil abierto para ver dentro y fuera, la permuta rápida y la reacción tras pérdida (5″ de presión).",
+ "montaje": "14 × 14 m. Dos equipos de 4 y un comodín. De cada equipo, 2 dentro y 2 fuera: uno en los lados de arriba y abajo, el otro en izquierda y derecha. El comodín, dentro.",
+ "juego": "Dentro es 3 contra 2 con el comodín. Tras pasar a uno de fuera, pueden cambiarse: entra él y sale el que pasó (opcional). El comodín, a 2 toques y sin permutar. Robo: cambian los papeles.",
+ "punto": "10 pases seguidos sin que el rival toque: 1 punto (fuente).",
+ "consigna": "Pasa fuera, cámbiate y ofrece otra vez.",
+ "variantes": {
+  "facil": "18 × 18 m y comodín con toques libres; los de fuera, a 3 toques (propuesta).",
+  "dificil": "Los de fuera a 1 toque; la permuta es obligatoria tras cada pase fuera; punto con 8 pases si incluye una permuta (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 16 × 16 m, toques libres y sin permutas al principio. Infantil (12–13): como está. Cadete (14–15): 12 × 12 m y todos a 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "RONDO 4vs4+1- TRANSICIONES - PERMUTAS - MOVILIDAD",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 152"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos de cada equipo y el comodín dentro, los otros dos en los lados; asociación libre con los de fuera y permuta opcional tras pase; cambio de rol tras robo; el comodín juega con los de fuera pero no permuta y va a 2 toques; punto con 10 pases; 9 jugadores, 14 × 14. La fuente dice «cuatro equipos de cuatro» pero da 9 jugadores: se interpreta como dos equipos de 4 + comodín (con 4 equipos, dos cuadrados a la vez). Lados de cada equipo, series, variantes y adaptación (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 16.6,
+   "ymin": -2.6,
+   "ymax": 16.6
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    14,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15.4,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": -1.4,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15.4,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4.5
+    ],
+    "b": [
+     8.4,
+     -0.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s1": 10,
+    "n": 1,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     9,
+     -1.4
+    ],
+    "b": [
+     8.5,
+     3.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "n": 2,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     4,
+     4.5
+    ],
+    "b": [
+     1.5,
+     -1.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3,
+    "nt": 0.75
+   }
+  ],
+  "labels": [
+   [
+    13.5,
+    -1.6,
+    "PERMUTA",
+    "middle"
+   ]
+  ]
+ }
+}

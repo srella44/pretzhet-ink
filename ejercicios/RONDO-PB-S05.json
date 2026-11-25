@@ -1,0 +1,139 @@
+{
+ "id": "RONDO-PB-S05",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Gol en la verja",
+ "formato": "1v1 por parejas",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "2–16 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "(propuesta) 4 rondas de 2′; en cada ronda se cambia de pareja y en la 3.ª se tira con la otra pierna.",
+ "objetivo": "Pase y tiro con precisión y parar el balón con la suela (fuente: «Buena parada con la suela»), en un juego de calle por parejas donde se toca el balón cada pocos segundos. Cómo explicarlo: «tira para que pase entre los conos; tu amigo la para con la suela y tira él». Errores típicos: tirar con la punta; querer tirar muy fuerte y fallar; parar con la mano o dejar que se escape el balón. Qué observar: pie de apoyo al lado del balón, golpeo con el interior y la suela encima del balón al pararlo.",
+ "montaje": "15 × 15 m. Por parejas, una verja de 2 conos separados 2 m y cada niño a 5 m de ella, uno enfrente del otro. Un balón por pareja; 4 a 6 parejas en filas separadas 4 m (propuesta).",
+ "juego": "Se tira por turnos para que el balón pase entre los conos. El amigo lo para con la suela y tira él desde ahí; si no pasa, lo recoge y tira igual. Cada 2′, cambio de pareja (propuesta).",
+ "punto": "1 punto por cada verja (fuente). Cada niño cuenta los suyos.",
+ "consigna": "¡Buena parada con la suela!",
+ "variantes": {
+  "facil": "Verja ancha (fuente), de 3 m, y a 3 m de distancia (propuesta).",
+  "dificil": "Verja estrecha (fuente), de 1 m; tiro de primeras sin parar el balón (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Con 4–5 años: verja de 3 m y se puede parar con la mano. Benjamín (8–9): verja de 1,5 m a 7 m y pase de primeras (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Gol en la verja (PB-S05)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 11"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: por parejas, verja de dos conos en medio, se tira por turnos para que pase y el amigo la para y tira; 1 punto por verja; verja ancha o estrecha; 15 × 15 m; frase «Buena parada con la suela». Medidas de la verja y distancias, cambio de pareja, punto extra, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 16,
+   "ymin": -1,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    7.5,
+    1.8
+   ],
+   [
+    7.5,
+    3.8
+   ],
+   [
+    7.5,
+    6.5
+   ],
+   [
+    7.5,
+    8.5
+   ],
+   [
+    7.5,
+    11.2
+   ],
+   [
+    7.5,
+    13.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 2.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 12.8,
+    "y": 2.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.8,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 12.2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.8,
+    "y": 12.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.2,
+     2.8
+    ],
+    "b": [
+     12.1,
+     2.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12.8,
+     7.5
+    ],
+    "b": [
+     2.9,
+     7.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "id": "RONDO-PB-F01",
+ "bloque": "Finalización",
+ "titulo": "¿Quién coge el balón?",
+ "formato": "1v1",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "4–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "(propuesta) 3 rondas de 6–8 salidas por pareja; en cada ronda se cambia de pareja.",
+ "objetivo": "Reaccionar rápido, ganar el balón en carrera y protegerlo hasta la línea (fuente). Es el primer 1 contra 1 de los pequeños: girarse, llegar antes y poner el cuerpo entre el rival y el balón. Cómo explicarlo: «cuando oyes ¡ya!, te giras, corres y el que lo coge lo lleva hasta la línea». Errores típicos: girarse mirando al compañero en vez de al balón; empujar con las manos; coger el balón y conducir con toques largos. Qué observar: el giro rápido, la carrera al balón y el cuerpo delante del rival.",
+ "montaje": "15 × 15 m. El míster en un lado con balones. Por parejas, de pie y de espaldas al míster, a 3 m de él. Línea de llegada con conos en el lado contrario; las demás parejas esperan a un lado.",
+ "juego": "El míster hace rodar un balón y grita «¡ya!». Los dos se giran y corren: quien lo coge lo lleva conduciendo más allá de la línea y el otro intenta quitárselo sin empujar. Sale la siguiente pareja.",
+ "punto": "1 punto a quien cruza la línea con el balón (fuente).",
+ "consigna": "Gírate rápido y pon el cuerpo delante.",
+ "variantes": {
+  "facil": "Se sale de uno en uno (fuente): solo conducir hasta la línea sin rival (propuesta).",
+  "dificil": "Se sale desde sentados (fuente); el que gana tira a una miniportería en vez de cruzar la línea (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Con 4–5 años: de uno en uno y balón grande. Benjamín (8–9): campo de 20 m y miniportería con portero al final (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "¿Quién coge el balón? (PB-F01)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: por parejas de espaldas al míster, el míster hace rodar un balón, quien lo coge lo lleva más allá de la línea; 1 punto; más fácil de uno en uno, más difícil desde sentados; 15 × 15 m. Distancias, señal «¡ya!», robo del otro, series, variante con miniportería y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 16,
+   "ymin": -2.6,
+   "ymax": 16.4
+  },
+  "cones": [
+   [
+    0,
+    15
+   ],
+   [
+    5,
+    15
+   ],
+   [
+    10,
+    15
+   ],
+   [
+    15,
+    15
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     15
+    ],
+    [
+     15,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": -1.3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 5.2,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 9.8,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 4,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": -1.6,
+    "y": 7.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 11,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "balls": [
+   [
+    7.5,
+    10.5
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     -1.3
+    ],
+    "b": [
+     7.5,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s1": 8,
+    "nt": 0.25,
+    "n": 1
+   },
+   {
+    "a": [
+     5.2,
+     3
+    ],
+    "b": [
+     6.9,
+     9.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     7.5,
+     10.5
+    ],
+    "b": [
+     7.5,
+     15.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12,
+    16.2,
+    "LÍNEA",
+    "middle"
+   ],
+   [
+    11.2,
+    -1.4,
+    "MÍSTER",
+    "start"
+   ]
+  ]
+ }
+}

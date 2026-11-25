@@ -1,0 +1,153 @@
+{
+ "id": "RONDO-PB-P03",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido a cuatro porterías",
+ "formato": "3v3",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "(propuesta) 4 partidos de 3′ con 30″ para beber; tras cada partido se cambia de rival. Con 12 niños, dos campos iguales.",
+ "objetivo": "Que todos marquen muchos goles y empiecen a levantar la cabeza para elegir portería (fuente: «más porterías, más goles, más sonrisas»). Cómo explicarlo: «tenéis dos porterías para marcar; si una está tapada, id a la otra». Errores típicos: todos detrás del balón en racimo; tirar siempre a la misma portería aunque esté tapada; un niño se queda de portero (no hay porteros). Qué observar: si alguno cambia de portería conduciendo o con un pase, y si al perder el balón se vuelven a tapar sus porterías.",
+ "montaje": "20 × 15 m. Dos miniporterías en cada fondo, cerca de las esquinas y separadas 8 m. Equipos de 3, sin portero. (propuesta).",
+ "juego": "3 contra 3 de 3′. Cada equipo ataca las dos miniporterías del fondo contrario y defiende las suyas. Si una está tapada, a la otra. Tras gol, saca el que lo recibe.",
+ "punto": "Gol en cualquiera de las dos porterías: 1 punto (fuente). Cada partido empieza de cero (propuesta).",
+ "consigna": "¿Tapada? ¡A la otra portería!",
+ "variantes": {
+  "facil": "Porterías anchas (fuente), de 2 m o más; el míster entra con el equipo que va perdiendo (propuesta).",
+  "dificil": "Una de las porterías vale doble (fuente); el míster dice cuál cambiando un cono de color (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Con 4–5 años: 2 contra 2 y porterías grandes. Benjamín (8–9): 4 contra 4 en 25 × 20 m y gol doble si antes hubo un pase (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido con cuatro porterías (PB-P03)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 13"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 contra 3 con dos miniporterías por equipo, gol 1 punto, más fácil porterías anchas, más difícil una vale doble. Colocación de las porterías, sin porteros, saques, tiempo de partido, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 21.2,
+   "ymin": -0.8,
+   "ymax": 15.8
+  },
+  "goals": [
+   [
+    0,
+    3.5,
+    "L"
+   ],
+   [
+    0,
+    11.5,
+    "L"
+   ],
+   [
+    20,
+    3.5,
+    "R"
+   ],
+   [
+    20,
+    11.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 12.8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 5.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     8
+    ],
+    "b": [
+     9.6,
+     3.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     3
+    ],
+    "b": [
+     19.3,
+     3.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     15.5,
+     10.5
+    ],
+    "b": [
+     13,
+     5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    14,
+    14.6,
+    "TAPADA: A LA OTRA",
+    "middle"
+   ]
+  ]
+ }
+}

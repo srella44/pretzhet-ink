@@ -1,0 +1,231 @@
+{
+ "id": "LU-P177",
+ "bloque": "Balón parado",
+ "titulo": "Falta frontal: pase atrás",
+ "formato": "ABP ofensiva",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9–12 jug.",
+ "espacio": "Frontal del área",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 6 faltas con 1′ de pausa: andando, a ritmo real sin rival y con barrera, portero y 2 defensores. Se rotan los papeles.",
+ "objetivo": "Falta frontal ensayada (fuente): un pase atrás saca el balón de la barrera, se combina con un compañero que espera en el área y el balón llega al jugador que corre por detrás de la barrera. Cómo explicarlo: «el 2 sale en el primer pase, ni antes ni después; el 4 se lo pone en carrera». Errores típicos: el 2 sale antes y queda en fuera de juego; pase del 4 por detrás del 2; el 5 no ataca el 2.º palo. Qué observar: señal clara, pases rasos y tensos, carrera del 2 en diagonal por detrás de la barrera y decisión entre tiro o pase atrás al 2.º palo.",
+ "montaje": "Falta frontal a 24 m. Barrera de 3 y portero. El 1 pisa el balón; el 3, 4 m detrás; el 4 en la línea del área a la izquierda; el 2 a la derecha de la barrera; el 5 en el 2.º palo (propuesta).",
+ "juego": "El 1 pasa atrás al 3 (1), que juega con el 4 (2). En el primer pase, el 2 corre por detrás de la barrera sin fuera de juego (3). El 4 se la pone en carrera (4) y el 2 tira o la da al 5 (fuente).",
+ "punto": "Gol: 3. Remate a puerta: 1. Fuera de juego o pérdida: 0.",
+ "consigna": "Corre en el pase atrás, nunca antes.",
+ "variantes": {
+  "facil": "Sin rival: el 4 recibe y pasa sin presión; la barrera de picas (propuesta).",
+  "dificil": "El 3 elige con quién combinar entre el 4 y otro compañero a la derecha; un defensor sigue al 2 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11, fútbol 7): falta a 18 m y sin el 5. Infantil (12–13): como está. Cadete (14–15): con 6 defensores y el portero adelantado (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP OFENSIVA - SAQUE DE FALTA FRONTAL 1",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 177"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el 1 pisa y pasa atrás al 3, que se asocia con uno de los que esperan el centro; el 2 corre en el primer pase, sin fuera de juego, detrás de la barrera; quien recibe del 3 conecta con el 2, que tira o pasa al 2.º palo; 11 jugadores, 20 × 20. Colocación exacta, distancias, oposición, puntuación, series, variantes y adaptación (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "tag": "frontal del área",
+  "extent": {
+   "xmin": -2,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10.0,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     16.5,
+     0
+    ],
+    [
+     16.5,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     0.8499999999999996
+    ],
+    [
+     5.5,
+     0.8499999999999996
+    ],
+    "6 5"
+   ],
+   [
+    [
+     5.5,
+     0.8499999999999996
+    ],
+    [
+     5.5,
+     19.15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     5.5,
+     19.15
+    ],
+    [
+     0,
+     19.15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 24,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 28.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 18.3,
+    "f": 200
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 16,
+    "f": 200
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 6,
+    "f": 160
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 10.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     10
+    ],
+    "b": [
+     27.8,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     28.5,
+     10
+    ],
+    "b": [
+     18.7,
+     17.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     23,
+     16
+    ],
+    "b": [
+     11.5,
+     15
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     18,
+     18.3
+    ],
+    "b": [
+     12.2,
+     15.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    6.5,
+    1.3,
+    "2.º PALO",
+    "middle"
+   ],
+   [
+    20.5,
+    5.2,
+    "BARRERA",
+    "middle"
+   ]
+  ]
+ }
+}

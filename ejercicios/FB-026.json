@@ -1,0 +1,177 @@
+{
+ "id": "FB-026",
+ "bloque": "Calentamiento",
+ "titulo": "Evitar al destructor",
+ "formato": "Conducción",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–14 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 2 minutos con 30 segundos de pausa y cambio de destructores.",
+ "objetivo": "Que cada niño conduzca con la cabeza levantada, proteja el balón con el cuerpo y cambie de dirección para huir de un rival, en un juego en el que todos participan y nadie queda eliminado mucho tiempo.",
+ "montaje": "20 × 20 m con 4 conos. Todos dentro con su balón. Dos «destructores» con peto azul y sin balón.",
+ "juego": "Todos conducen sin salir del cuadrado. Los destructores sacan balones con el pie, sin empujar. Si sacan el tuyo, pasas a destructor y él coge tu balón.",
+ "punto": "1 punto si acabas la ronda sin ser destructor; −1 si tu balón sale solo. Gana el que más tenga.",
+ "consigna": "Cabeza arriba; tu cuerpo, entre balón y destructor.",
+ "variantes": {
+  "facil": "Un solo destructor y que solo pueda tocar el balón, no sacarlo. El cuadrado de 25 × 25 m para tener más espacio.",
+  "dificil": "Tres destructores y el cuadrado de 15 × 15 m. Solo se puede conducir con la pierna menos hábil durante los últimos 30 segundos."
+ },
+ "adaptacion": "Prebenjamín (6–7 años): un solo destructor, cuadrado grande y sin puntos; solo se cuenta quién se divierte más. Benjamín (8–9): dos destructores y puntos. Si hay pocos jugadores, usar 10 × 10 m con un destructor.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "EVITAR AL DESTRUCTOR",
+  "ref": "https://toplidercoach.com/futbol-base/evitar-al-destructor/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9). Es la ficha que Sergio aprobó como modelo (datos/modelo_ficha_fb.json): montaje, reglas, puntos, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1.5,
+   "ymax": 22.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": [
+     4,
+     12
+    ]
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 16,
+    "f": [
+     12,
+     12
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     8,
+     5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     16,
+     9
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     5,
+     11
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    10,
+    21.6,
+    "2 DESTRUCTORES (AZUL)",
+    "middle"
+   ]
+  ]
+ }
+}

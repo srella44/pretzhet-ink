@@ -1,0 +1,344 @@
+{
+ "id": "LU-P196",
+ "bloque": "Rondos",
+ "titulo": "Rondo físico en 3 zonas",
+ "formato": "4v2 ×2 + 4v0",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "3 cuadrados de 7 × 7 m",
+ "duracion": "15 min",
+ "series": "(propuesta) 4 series de 3′ con 1′ 30″ de pausa activa (pases por parejas). Cada serie cambia la posta física.",
+ "objetivo": "Rondo con carga física (fuente): conservar en 4 contra 2 y, al perder, un esfuerzo a tope (esprint y posta) para volver a defender en otra zona. Trabaja pase, cambio de rol, transición tras pérdida y la intensidad desde que se pierde hasta que se recupera (fuente). Cómo explicarlo: «si tu pareja pierde, esprint al cono, la posta y a defender a la zona libre». Errores típicos: hacer la posta a medias; llegar a la zona nueva andando; en la zona libre pasarse el balón parados. Qué observar: reacción inmediata tras perder, calidad del pase con cansancio y que la zona sin defensores mueva el balón rápido.",
+ "montaje": "Tres cuadrados de 7 × 7 m en fila, a 3 m. A 8 m, un cono con posta física (5 saltos o 5 sentadillas). 16 jugadores por parejas: zonas 1 y 2, 3 parejas; zona 3, 2 parejas sin defensores (propuesta).",
+ "juego": "Zonas 1 y 2: 4 contra 2. Zona 3: 4 se pasan el balón (fuente). Si roba la pareja que defiende, ataca; la que perdió esprinta al cono (1), hace la posta y va a defender a la zona libre (2).",
+ "punto": "+1 por cada 10 pases seguidos; −1 cada pérdida (propuesta).",
+ "consigna": "Pierdes: esprint, posta y a robar.",
+ "variantes": {
+  "facil": "Cuadrados de 9 × 9 m y posta corta (3 saltos); el cono a 5 m (propuesta).",
+  "dificil": "Atacantes a 2 toques y cuadrados de 6 × 6 m; la posta incluye un esprint de ida y vuelta (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): sin posta física (solo esprint al cono) y cuadrados de 9 × 9 m. Infantil (12–13): posta suave con saltos bajos. Cadete (14–15): como está (propuesta). Con menos jugadores: 2 zonas y 10 jugadores.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios (Pere Riera)",
+  "titulo_original": "RONDO FÍSICO - 3 zonas 4 Vs 2. Pere Riera @Pere36287525",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 196"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4x2 en dos zonas con 3 parejas (dos atacan, una defiende) y una zona con 2 parejas sin defensores; la pareja que pierde hace velocidad máxima al cono, la posta física y va a la zona sin defensores; máxima intensidad desde la pérdida; 16 jugadores, 20 × 20. Medidas de los cuadrados, distancia al cono, tipo de posta, puntuación, series, variantes y adaptación (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   27,
+   7
+  ],
+  "nofield": true,
+  "tag": "3 cuadrados de 7 × 7 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 28,
+   "ymin": -2.2,
+   "ymax": 17
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     7,
+     0
+    ],
+    "none"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     17,
+     0
+    ],
+    "none"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     27,
+     0
+    ],
+    "none"
+   ],
+   [
+    [
+     7,
+     0
+    ],
+    [
+     7,
+     7
+    ],
+    "none"
+   ],
+   [
+    [
+     17,
+     0
+    ],
+    [
+     17,
+     7
+    ],
+    "none"
+   ],
+   [
+    [
+     27,
+     0
+    ],
+    [
+     27,
+     7
+    ],
+    "none"
+   ],
+   [
+    [
+     7,
+     7
+    ],
+    [
+     0,
+     7
+    ],
+    "none"
+   ],
+   [
+    [
+     17,
+     7
+    ],
+    [
+     10,
+     7
+    ],
+    "none"
+   ],
+   [
+    [
+     27,
+     7
+    ],
+    [
+     20,
+     7
+    ],
+    "none"
+   ],
+   [
+    [
+     0,
+     7
+    ],
+    [
+     0,
+     0
+    ],
+    "none"
+   ],
+   [
+    [
+     10,
+     7
+    ],
+    [
+     10,
+     0
+    ],
+    "none"
+   ],
+   [
+    [
+     20,
+     7
+    ],
+    [
+     20,
+     0
+    ],
+    "none"
+   ]
+  ],
+  "cones": [
+   [
+    13.5,
+    14.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 0.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.2,
+    "y": 1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 6.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.2,
+    "y": 6.2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 2.6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.6,
+    "y": 4.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.8,
+    "y": 0.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16.2,
+    "y": 1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.8,
+    "y": 6.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16.2,
+    "y": 6.2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12.6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14.6,
+    "y": 4.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20.8,
+    "y": 0.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26.2,
+    "y": 1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20.8,
+    "y": 6.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26.2,
+    "y": 6.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     0.8
+    ],
+    "b": [
+     5.6,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10
+   },
+   {
+    "a": [
+     13.5,
+     8
+    ],
+    "b": [
+     13.5,
+     13.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     13.5,
+     14.5
+    ],
+    "b": [
+     21.5,
+     8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    23.5,
+    -1.2,
+    "SIN DEFENSORES",
+    "middle"
+   ],
+   [
+    16.5,
+    15.6,
+    "POSTA FÍSICA",
+    "start"
+   ]
+  ]
+ }
+}

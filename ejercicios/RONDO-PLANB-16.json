@@ -1,0 +1,140 @@
+{
+ "id": "RONDO-PLANB-16",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Dos balones en el pabellón",
+ "formato": "3v3 · 2 balones",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "12 min",
+ "series": "(propuesta) Partidos de 3′; el que marca dos goles seguidos se queda y entra un equipo nuevo. Unos 12′ en total.",
+ "objetivo": "Plan B para días de lluvia o pabellón (fuente): mucho movimiento en poco espacio con dos balones blandos. Obliga a mirar antes de correr, a atacar con un balón y defender con el otro y a decidir rápido. Cómo explicarlo: «hay dos partidos a la vez: mira dónde están los dos balones». Errores típicos: los seis detrás del mismo balón; tiros fuertes y altos (peligro en sala); nadie vuelve a la portería propia. Qué observar: quién mira los dos balones y cómo se reparten sin que lo diga el míster.",
+ "montaje": "Pabellón: 20 × 12 m, dos porterías de sala sin portero. Equipos de 3 y dos balones blandos a la vez (propuesta).",
+ "juego": "3 contra 3 con los dos balones en juego (fuente): se ataca y se defiende a la vez. Tiro solo raso. Partidos de 3′ (propuesta).",
+ "punto": "Gol: 1. Quien marca 2 seguidos se queda; entra otro equipo (propuesta).",
+ "consigna": "Mira los dos balones antes de correr.",
+ "variantes": {
+  "facil": "Un solo balón al principio y el segundo entra al minuto; porterías de 4 m (propuesta).",
+  "dificil": "Máximo 2 toques; con el balón de color el gol vale doble (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): balones blandos y porterías anchas. Alevín (10–11): como está. Infantil (12–13): 25 × 15 m y 4 contra 4 con un balón normal de sala y otro blando (propuesta). Con prebenjamines, nunca más de 3 contra 3 (fuente).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El partido de dos balones (Plan B · Pabellón)",
+  "ref": "RONDO Bonus 3 · Plan B (24 juegos) · «Pabellón o espacio pequeño»"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: pabellón o espacio pequeño, 3 contra 3 con dos balones blandos, mucho movimiento en poco espacio. Medidas, porterías, tiro raso, saques, rotación de equipos, puntuación, variantes y adaptación (propuesta). Edad propuesta 8–13 años. Muy parecido a RONDO-PB-P07 (6–7 años, campo); aquí se orienta a pabellón y edades mayores.",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "tag": "pabellón 20 × 12 m",
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 21.2,
+   "ymin": -0.8,
+   "ymax": 12.8
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 6,
+    "lado": "L",
+    "ancho": 3
+   },
+   {
+    "x": 20,
+    "y": 6,
+    "lado": "R",
+    "ancho": 3
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 10.3,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     3
+    ],
+    "b": [
+     9.4,
+     2.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     2
+    ],
+    "b": [
+     19.3,
+     5.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     10.3
+    ],
+    "b": [
+     3.5,
+     10.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

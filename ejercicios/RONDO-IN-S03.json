@@ -1,0 +1,224 @@
+{
+ "id": "RONDO-IN-S03",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Gol que pasa por banda",
+ "formato": "6v6 + 2 P",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12–16 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "(propuesta) 3 partes de 4′ con 1′ de pausa. 1.ª: en los pasillos no se defiende; 2.ª y 3.ª: se defiende. Si sois más de 14, cambios cada 2′.",
+ "objetivo": "Hacer el campo grande cuando tenemos el balón (fuente: bloque «Amplitud y profundidad»): abrir a la banda, atraer al rival hacia ella y volver dentro o centrar. Cómo explicarlo: «el gol vale más si el balón ha pisado un pasillo; con los dos pasillos, el triple». Errores típicos: todos por dentro y nadie se abre; el extremo baja a pedir dentro del pasillo de su lado; pasar al pasillo sin ventaja y perderla allí. Qué observar: un jugador abierto en cada pasillo cuando el equipo tiene el balón, el cambio de orientación de un pasillo al otro y la llegada al área cuando hay centro.",
+ "montaje": "40 × 30 m con porterías de fútbol 7 y porteros. Dos pasillos de 5 m junto a las bandas. Equipos de 6 o 7. Pasillos libres (propuesta).",
+ "juego": "Partido de 12′. El gol vale más si el balón ha pasado por un pasillo: abrir, atraer y volver dentro o centrar. 1.ª parte: en los pasillos no se defiende; después, sí (fuente).",
+ "punto": "Gol: 1. Tras pasar por un pasillo: 2. Por los dos: 3 (fuente).",
+ "consigna": "Abre el campo: banda y dentro.",
+ "variantes": {
+  "facil": "En los pasillos no se defiende (fuente); además, el que recibe en el pasillo tiene 3″ libres (propuesta).",
+  "dificil": "En los pasillos se defiende (fuente); el gol tras centro desde el pasillo y remate de primeras vale 4 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 35 × 25 m, 5 contra 5 y pasillos sin defensa. Infantil (12–13): como está. Cadete (14–15): 50 × 35 m, 7 contra 7 y pasillos con defensa desde el principio (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Amplitud (IN-S03)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 13"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: partido con dos pasillos exteriores; gol 1, con pasillo 2, con los dos 3; más fácil sin defender en los pasillos, más difícil defendiendo; 40 × 30 m. Ancho de los pasillos, número de jugadores, porteros, saques, series, variantes añadidas y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41.6,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     40,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     25,
+     40,
+     30
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     5
+    ],
+    [
+     40,
+     5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     25
+    ],
+    [
+     40,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 27.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     15
+    ],
+    "b": [
+     18.5,
+     27
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     27.5
+    ],
+    "b": [
+     31,
+     27.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     31,
+     27.5
+    ],
+    "b": [
+     30.2,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     30,
+     11
+    ],
+    "b": [
+     39.3,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    6,
+    27.8,
+    "PASILLO",
+    "middle"
+   ],
+   [
+    6,
+    2.8,
+    "PASILLO",
+    "middle"
+   ]
+  ]
+ }
+}

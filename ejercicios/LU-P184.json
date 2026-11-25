@@ -1,0 +1,258 @@
+{
+ "id": "LU-P184",
+ "bloque": "Balón parado",
+ "titulo": "Falta lateral: corto y 2.º palo",
+ "formato": "ABP ofensiva",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9–12 jug.",
+ "espacio": "Lateral del área",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 6 faltas (3 por banda) con 1′ de pausa: andando, a ritmo real y con 3 marcadores y portero.",
+ "objetivo": "Falta lateral ensayada (fuente): un saque en corto cambia el ángulo, el más cercano al balón se va al 2.º palo y los otros tres atacan el 1.er palo y el penalti. El del 2.º palo remata o la devuelve de cabeza al centro. Cómo explicarlo: «el corto mueve a la defensa; el centro va lejos, al 2.º palo». Errores típicos: el corto es largo y la barrera llega; el del 2.º palo sale antes del corto; nadie ataca el penalti. Qué observar: pase corto con la suela parada, carrera cruzada al 2.º palo y centro alto que supere al portero.",
+ "montaje": "Falta lateral a la altura del área, cerca de la banda. A1 y A2 junto al balón. En el área, en línea a 15 m: A3 (el más cercano al balón), A4, A5 y A6. Barrera de 2 y portero (propuesta).",
+ "juego": "A1 toca corto a A2, que lo para (1). A3 se va al 2.º palo (2) y A4, A5 y A6 atacan el 1.er palo y el penalti (3). A2 centra al 2.º palo (4): A3 remata o la cabecea al centro (fuente).",
+ "punto": "Gol: 3. Remate o cabeza al centro útil: 1 (propuesta).",
+ "consigna": "Engaña con el corto; centro lejos.",
+ "variantes": {
+  "facil": "Sin rival y centro con la mano desde el sitio de A2 (propuesta).",
+  "dificil": "Un defensor sale al corto; si tapa a A2, este pasa atrás a A1, que centra al 1.er palo (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11, fútbol 7): 3 en el área y centro raso al 2.º palo. Infantil (12–13): como está. Cadete (14–15): con 6 defensores (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP OFENSIVA - SAQUE DE FALTA LATERAL 1",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 184"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos jugadores junto al balón, saque en corto y el compañero lo para; el más cercano al balón en el área se va al 2.º palo; los otros 3 al 1.er palo y al penalti; el del 2.º palo remata o centra para los 3. Distancias, oposición, puntuación, series, variantes y adaptación (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   44,
+   20
+  ],
+  "tag": "lateral del área",
+  "extent": {
+   "xmin": -1,
+   "xmax": 45,
+   "ymin": -2.4,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 14,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     34,
+     16.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     34,
+     16.5
+    ],
+    [
+     34,
+     0
+    ],
+    "6 5"
+   ],
+   [
+    [
+     4.85,
+     0
+    ],
+    [
+     4.85,
+     5.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     4.85,
+     5.5
+    ],
+    [
+     23.15,
+     5.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     23.15,
+     5.5
+    ],
+    [
+     23.15,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 40,
+    "y": 10,
+    "f": 160,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 14,
+    "f": 200
+   },
+   {
+    "r": "D",
+    "x": 32.3,
+    "y": 3.0,
+    "f": 20
+   },
+   {
+    "r": "D",
+    "x": 33.4,
+    "y": 5.8,
+    "f": 20
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 14,
+    "f": -150
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 15.5,
+    "f": -100
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 15,
+    "f": -80
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 9.3,
+    "f": 70
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 10.3,
+    "f": 70
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     40,
+     10
+    ],
+    "b": [
+     37.6,
+     13.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     29,
+     14
+    ],
+    "b": [
+     8.5,
+     4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "nt": 0.65,
+    "n": 2
+   },
+   {
+    "a": [
+     23,
+     15.5
+    ],
+    "b": [
+     15.5,
+     7.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     11,
+     15
+    ],
+    "b": [
+     17,
+     3.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     37,
+     14
+    ],
+    "b": [
+     9.4,
+     3.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "nt": 0.3,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    38,
+    2.2,
+    "BARRERA",
+    "middle"
+   ]
+  ]
+ }
+}

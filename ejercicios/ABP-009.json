@@ -1,0 +1,243 @@
+{
+ "id": "ABP-009",
+ "bloque": "Balón parado",
+ "titulo": "Falta lateral al 1.er palo",
+ "formato": "5v6+P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–14 jug.",
+ "espacio": "Lateral del área",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 6 faltas (3 desde cada lado) con 1′ de pausa; cambian el lanzador y los papeles de los rematadores en cada serie.",
+ "objetivo": "Falta lateral con centro tenso al primer palo: un atacante gana la posición por delante de su marca y remata; otro arrastra al penalti y otro cierra el segundo palo por si el balón pasa. Cómo explicarlo: «el balón va al primer palo, fuerte y a media altura; el primero que llegue por delante lo toca». Errores típicos: centro bombeado que coge el portero; rematadores parados esperando; todos van al mismo sitio. Qué observar: centro tenso por delante del portero, desmarque por delante del defensor (no por detrás), A5 colocado para el rechace.",
+ "montaje": "Falta lateral a la altura del área, a 5 m de ella. Barrera de 2 y portero. A1 lanza; A2, A3 y A4 en línea a 17 m de la portería; A5 en la frontal. 3 marcadores (propuesta).",
+ "juego": "En la carrera de A1, A2 ataca el 1.er palo por delante de su marca (1), A3 arrastra al penalti (2) y A4 va al 2.º palo (3). A1 centra tenso a media altura al 1.er palo (4). A5, al rechace.",
+ "punto": "Gol: 3. Remate a puerta: 1.",
+ "consigna": "Centro tenso; gana por delante.",
+ "variantes": {
+  "facil": "Sin marcadores y centro con la mano desde el sitio de la falta (propuesta).",
+  "dificil": "Dos marcadores más y el portero puede salir; A1 elige 1.er o 2.º palo según dónde haya hueco (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11, fútbol 7): falta más cerca, barrera de 1 y 2 rematadores. Infantil (12–13): como está. Cadete (14–15): con 6 defensores y centro siempre desde la banda de la pierna buena del lanzador (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 25 acciones a balón parado",
+  "titulo_original": "FALTA LATERAL 1",
+  "ref": "25-jugadas-ensayadas.pdf · p. 14"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente es solo un esquema gráfico sin texto y en esta tanda no se pudo ver la página: centro al 1.er palo, carreras, colocación, puntuación, series, variantes y adaptación son (propuesta). Revisar con el dibujo de AFOPRO.",
+ "diagrama": {
+  "field": [
+   44,
+   20
+  ],
+  "tag": "lateral del área",
+  "extent": {
+   "xmin": -1,
+   "xmax": 45,
+   "ymin": -2.4,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 14,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     34,
+     16.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     34,
+     16.5
+    ],
+    [
+     34,
+     0
+    ],
+    "6 5"
+   ],
+   [
+    [
+     4.85,
+     0
+    ],
+    [
+     4.85,
+     5.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     4.85,
+     5.5
+    ],
+    [
+     23.15,
+     5.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     23.15,
+     5.5
+    ],
+    [
+     23.15,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 40,
+    "y": 10,
+    "f": 200,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 32.3,
+    "y": 3.0,
+    "f": 20
+   },
+   {
+    "r": "D",
+    "x": 33.4,
+    "y": 5.8,
+    "f": 20
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 14,
+    "f": -110
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 15,
+    "f": -100
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 14,
+    "f": -80
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 25.5,
+    "y": 9.3,
+    "f": 70
+   },
+   {
+    "r": "D",
+    "x": 19.5,
+    "y": 10,
+    "f": 80
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 9.5,
+    "f": 70
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     26,
+     14
+    ],
+    "b": [
+     18.8,
+     4.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     15
+    ],
+    "b": [
+     14.5,
+     8.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     14
+    ],
+    "b": [
+     9,
+     3.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     40,
+     10
+    ],
+    "b": [
+     18.4,
+     4.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "nt": 0.35,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    38,
+    2.2,
+    "BARRERA",
+    "middle"
+   ]
+  ]
+ }
+}

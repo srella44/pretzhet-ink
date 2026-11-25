@@ -1,0 +1,221 @@
+{
+ "id": "ABP-005",
+ "bloque": "Balón parado",
+ "titulo": "Falta frontal: toque y centro",
+ "formato": "4v5+P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–12 jug.",
+ "espacio": "Frontal del área",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 6 faltas con 1′ de pausa: 1.ª andando y sin defensores; 2.ª a ritmo real con barrera de picas; 3.ª con barrera y 2 marcadores. Se cambian los papeles en cada serie.",
+ "objetivo": "Falta frontal ensayada: en vez de tirar contra la barrera, un toque lateral saca el balón hacia la derecha y se centra al área, donde dos compañeros atacan el penalti y el segundo palo. Cómo explicarlo: «la barrera espera el tiro; nosotros movemos el balón y atacamos el espacio de detrás». Errores típicos: los rematadores salen antes del toque (fuera de juego); el toque es lento y la barrera llega; el centro va al portero. Qué observar: toque raso y firme, A2 que centra tras un control orientado, carreras cruzadas de A3 y A4 y llegada a la vez que el balón.",
+ "montaje": "Falta frontal a 25 m. Barrera de 3 y portero. A1 en el balón; A2 a 12 m a la derecha; A3 y A4 a la izquierda, en la línea del área, con marcador.",
+ "juego": "A1 toca raso a A2 (1), que controla y centra tenso al 2.º palo o al penalti (2). En el toque, A3 ataca el 2.º palo (3) y A4 el penalti (4).",
+ "punto": "Gol: 3. Remate a puerta: 1. Centro despejado o fuera de juego: 0.",
+ "consigna": "Toque firme y centro a la carrera.",
+ "variantes": {
+  "facil": "Sin marcadores y con barrera de picas; A2 centra con la mano desde el sitio (propuesta).",
+  "dificil": "Un tercer defensor sale de la barrera hacia A2 en el toque: A2 decide entre centrar, devolver a A1 o conducir hacia dentro y tirar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11, fútbol 7): falta a 18 m, barrera de 2 y un solo rematador. Infantil (12–13): como está. Cadete (14–15): con 4 marcadores y el centro siempre de primeras (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 25 acciones a balón parado",
+  "titulo_original": "FALTA FRONTAL 3",
+  "ref": "25-jugadas-ensayadas.pdf · p. 9"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente es solo un esquema gráfico sin texto y en esta tanda no se pudo ver la página (el proyecto solo da el texto): toque lateral, centro, carreras, colocación, puntuación, series, variantes y adaptación son (propuesta). Revisar con el dibujo de AFOPRO.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "tag": "frontal del área",
+  "extent": {
+   "xmin": -2,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10.0,
+    "lado": "L",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     16.5,
+     0
+    ],
+    [
+     16.5,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     0.8499999999999996
+    ],
+    [
+     5.5,
+     0.8499999999999996
+    ],
+    "6 5"
+   ],
+   [
+    [
+     5.5,
+     0.8499999999999996
+    ],
+    [
+     5.5,
+     19.15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     5.5,
+     19.15
+    ],
+    [
+     0,
+     19.15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 25,
+    "y": 9.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 19.3,
+    "f": 200
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 0.9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 2.8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 6.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     25,
+     9.5
+    ],
+    "b": [
+     23,
+     18.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     22.5,
+     19.3
+    ],
+    "b": [
+     6,
+     4.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "nt": 0.45,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     0.9
+    ],
+    "b": [
+     4.5,
+     2.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3,
+    "nt": 0.65
+   },
+   {
+    "a": [
+     21,
+     2.8
+    ],
+    "b": [
+     10.5,
+     7.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "nt": 0.3,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    15.8,
+    "BARRERA",
+    "middle"
+   ]
+  ]
+ }
+}

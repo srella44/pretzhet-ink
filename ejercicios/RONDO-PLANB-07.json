@@ -1,0 +1,137 @@
+{
+ "id": "RONDO-PLANB-07",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Los 4 contra el míster",
+ "formato": "4v1",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "4 jug. + míster",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "(propuesta) 4 rondas de 2′ con 30″ de pausa; en cada ronda se intenta batir el récord de goles de la anterior.",
+ "objetivo": "Plan B para cuando solo vienen 4 (fuente): jugar juntos contra un rival que solo defiende, con muchos pases, desmarques y tiros. Cómo explicarlo: «somos 4 contra 1: si el míster te tapa, pásala al que está libre». Errores típicos: todos pegados al balón; conducir hasta chocar con el míster; tirar siempre a la misma portería. Qué observar: si se abren para ofrecer pase, si cambian de portería cuando el míster tapa una y si celebran el gol de otro.",
+ "montaje": "Vienen 4. 20 × 15 m con dos miniporterías en un fondo, separadas 9 m. Los 4 salen con un balón desde el fondo contrario; el míster defiende delante de las porterías (propuesta).",
+ "juego": "Los 4 juntos contra el míster: pases y conducción para marcar en cualquier miniportería. El míster solo defiende, nunca tira (fuente); si roba, el balón vuelve a la salida. Rondas de 2′.",
+ "punto": "Gol: 1. Gol tras un pase: 2. (propuesta).",
+ "consigna": "Si te tapa, pásala: somos 4 contra 1.",
+ "variantes": {
+  "facil": "El míster camina y solo defiende una portería (propuesta).",
+  "dificil": "Gol solo de primeras o tras dos pases; el míster puede defender con un ayudante (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): míster andando y porterías anchas. Benjamín y alevín (8–11): el míster defiende a tope y gol solo tras pase. Con 5 o 6 jugadores, uno pasa a defender con el míster (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Todos contra el míster (Plan B · Vienen 4)",
+  "ref": "RONDO Bonus 3 · Plan B (24 juegos) · «Vienen 4»"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: vienen 4; los jugadores juntos contra el míster, gol en miniporterías, el míster no tira nunca, solo defiende. Medidas, colocación de las porterías, qué pasa al robar, rondas, puntuación, variantes y adaptación (propuesta). Edad ampliada a 6–11 años. Es la versión de 4 jugadores y miniporterías de RONDO-PB-D03 (todos contra el míster en portería grande).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21.2,
+   "ymin": -1,
+   "ymax": 16
+  },
+  "goals": [
+   [
+    20,
+    3,
+    "R"
+   ],
+   [
+    20,
+    12,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 5.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     7
+    ],
+    "b": [
+     11.4,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     12.5
+    ],
+    "b": [
+     19.3,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     5.5
+    ],
+    "b": [
+     17.2,
+     9.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12,
+    2.4,
+    "MÍSTER",
+    "middle"
+   ]
+  ]
+ }
+}

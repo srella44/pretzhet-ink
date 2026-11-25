@@ -1,0 +1,183 @@
+{
+ "id": "FB-028",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tercer hombre a portería",
+ "formato": "4v4+1",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9–13 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "16 min",
+ "series": "4 partidos de 3′ con 1′ de pausa; tras cada partido se cambia el comodín (propuesta).",
+ "objetivo": "Llevar el tercer hombre al juego real: buscar al compañero de espaldas para que deje de cara a un tercero que llega y que ataca la portería (propuesta). Cómo explicarlo: «si tu compañero está de espaldas y marcado, no busques el giro: que te la deje y llega tú, o que se la deje a otro». Errores típicos: el de espaldas siempre intenta girarse; nadie arranca al ver el pase; todos se acercan al balón. Qué observar: quién se ofrece de espaldas entre líneas, quién lee la dejada antes de que ocurra y si la dejada va al espacio de cara. Material: 4 miniporterías, petos de 3 colores, balones de repuesto.",
+ "montaje": "30 × 20 m con 2 miniporterías en cada fondo. Dos equipos de 4 y un comodín de blanco con el que tiene el balón, a 1 toque (propuesta).",
+ "juego": "4 contra 4 + 1. Se busca el tercer hombre: pase a un compañero de espaldas (1), un tercero arranca (2), recibe la dejada de primeras (3) y tira o pasa (4). Si roban, atacan ellos. Partidos de 3′.",
+ "punto": "Gol: 1. Gol tras tercer hombre: 3 (propuesta).",
+ "consigna": "De espaldas y marcado: deja de cara.",
+ "variantes": {
+  "facil": "5 contra 3 + 1 y el comodín con toques libres (propuesta).",
+  "dificil": "Solo vale el gol tras tercer hombre; máximo 2 toques para todos (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 35 × 25 m y el gol normal también vale. Cadete (14–15): 25 × 20 m, 2 toques y solo goles tras tercer hombre (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASES TERCER HOMBRE (3)",
+  "ref": "https://toplidercoach.com/futbol-base/pases-tercer-hombre-3/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15). Se interpreta «(3)» como el último paso: el tercer hombre en juego real con porterías (FB-030 es el paso con un defensor). Montaje, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Hay otros ejercicios de tercer hombre en el banco (TFB100-024, LU-P018…); este se diferencia por el partido 4v4+1 a cuatro miniporterías.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 31.2,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    30,
+    5,
+    "R"
+   ],
+   [
+    30,
+    15,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21.5,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 18.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     10
+    ],
+    "b": [
+     18.2,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     14.5
+    ],
+    "b": [
+     22,
+     15.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     10
+    ],
+    "b": [
+     21.6,
+     14.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     22.5,
+     15.3
+    ],
+    "b": [
+     29.3,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 4
+   }
+  ]
+ }
+}

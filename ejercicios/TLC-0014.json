@@ -1,0 +1,218 @@
+{
+ "id": "TLC-0014",
+ "bloque": "Superioridades",
+ "titulo": "Ataque en 3 zonas",
+ "formato": "4×2 · 4×3 · 3×2",
+ "edad": "13–16 años",
+ "nivel": "Medio",
+ "jugadores": "13–15 jug.",
+ "espacio": "36 × 30 m",
+ "duracion": "20 min",
+ "series": "(propuesta) 4 series de 4′ con 1′ de pausa; cada serie cambian 2 atacantes por 2 defensores. Unas 8–10 acciones por serie.",
+ "objetivo": "Atacar cada zona como pide (fuente): paciencia con mucha ventaja en la salida (4×2), más ritmo y apoyos en la zona intermedia (4×3) y leer el momento de sumarse a la zona final, donde el delantero está solo contra 2, para crear un 3×2 y finalizar. Cómo explicarlo: «en la 1 tenemos tiempo; en la 2, rápido; en la 3, llegamos dos para ayudar al 9». Errores típicos: jugar igual en las tres zonas; todos en la misma línea; llegar a la zona 3 tarde o los cuatro a la vez. Qué observar: ocupación de espacios, aceleración al ver la ventaja, el momento de incorporarse y la decisión en el 3×2.",
+ "montaje": "36 × 30 m en 3 zonas de 12 m; portería con portero al fondo. Zona 1: 4 atacantes contra 2. Zona 2: 3 defensores. Zona 3: delantero contra 2. Los defensores no salen de su zona (propuesta).",
+ "juego": "Los 4 salen en la zona 1 (4×2) y pasan a la 2 conduciendo (1) o con pase: 4×3. Cuando el balón entra en la 3 (2), se suman 2 de la zona 2 (3): 3×2 para finalizar (fuente). Luego, otra vez en la zona 1.",
+ "punto": "Gol: 2. Tiro a puerta: 1.",
+ "consigna": "Paciencia con ventaja; acelera al ver la 3.",
+ "variantes": {
+  "facil": "Toques libres y un solo defensor en la zona 3 (propuesta).",
+  "dificil": "Máximo 2 toques en las zonas 1 y 2 y un defensor de la zona 2 puede replegar a la 3 (fuente); todos deben tocar el balón antes de entrar en la 3 (fuente)."
+ },
+ "adaptacion": "Infantil (12–13): 40 × 30 m y en la zona 3 entran 2 atacantes con el delantero desde el principio. Cadete (14–15): como está. Juvenil (16–18): 30 × 30 m como el original y 1 toque en la zona 2 (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Postecoglou)",
+  "titulo_original": "POSTECOGLOU POSESIÓN 3 ZONAS SUPERIORIDADES",
+  "ref": "toplidercoach.com/posesion-3-zonas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tres zonas (inicio, progresión, finalización); 4×2 en la zona 1, 4×3 en la intermedia, 1×2 en la final que pasa a 3×2 con dos de la zona intermedia; tras finalizar o perder se reinicia en la zona 1; variantes de toques, que todos toquen, repliegue de un defensor; 15 jugadores, 1 portero, 30 × 30. Adaptado a fútbol base (la web lo da para 16+): medidas de 36 × 30 m, edad 13–16, que los defensores no salgan de su zona, puntuación, series y adaptación por edades son (propuesta).",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 37.6,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 36,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 13.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 26.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 20.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31.5,
+    "y": 18.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     26.5
+    ],
+    "b": [
+     19,
+     27
+    ],
+    "k": "cond",
+    "side": 1,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     19.5,
+     27
+    ],
+    "b": [
+     28.6,
+     13.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 10,
+    "n": 2,
+    "nt": 0.62
+   },
+   {
+    "a": [
+     19.5,
+     27
+    ],
+    "b": [
+     28,
+     23
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3,
+    "nt": 0.7
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.6,
+    "4×2",
+    "middle"
+   ],
+   [
+    18,
+    -0.6,
+    "4×3",
+    "middle"
+   ],
+   [
+    30,
+    -0.6,
+    "1×2 → 3×2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "RONDO-PB-P07",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido con dos balones",
+ "formato": "3v3 · 2 balones",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "(propuesta) 4 partidos de 3′ con 30″ de pausa; se cambian los equipos en cada partido.",
+ "objetivo": "Que nadie se quede mirando: con dos balones siempre hay uno cerca de cada niño (fuente), así que todos tocan mucho, atacan y defienden a la vez. Cómo explicarlo: «hay dos balones: si uno está lejos, ve a por el otro». Errores típicos: los seis detrás del mismo balón; el que acaba de marcar se queda celebrando y no va a por el otro balón. Qué observar: si alguno mira dónde está el segundo balón antes de correr y si defienden su portería cuando el rival ataca con el otro.",
+ "montaje": "20 × 15 m con una miniportería de 3 m en cada fondo. Equipos de 3, sin portero. El míster, en la banda, con balones (propuesta).",
+ "juego": "3 contra 3 con dos balones a la vez: el míster mete uno por cada banda. Se ataca con un balón y se defiende con el otro. Si uno sale, entra otro. Partidos de 3′.",
+ "punto": "Gol con cualquiera de los dos balones: 1 punto (fuente).",
+ "consigna": "¡Todos en movimiento!",
+ "variantes": {
+  "facil": "Balones blandos (fuente) y porterías de 4 m; el míster juega con el equipo que va perdiendo (propuesta).",
+  "dificil": "Un balón vale doble (fuente): por ejemplo, el de otro color (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Con 4–5 años: 2 contra 2 y balones blandos. Benjamín (8–9): 4 contra 4 en 25 × 20 m; el gol del balón de color solo vale si antes hubo un pase (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido con dos balones (PB-P07)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 contra 3 con dos balones, gol 1 punto, más fácil balones blandos, más difícil un balón vale doble; frase «¡Todos en movimiento!». Ancho de porterías, saques del míster, tiempo de partido, series y adaptación (propuesta). Parecido a RONDO-PLANB-16 (versión de pabellón).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 21.2,
+   "ymin": -0.8,
+   "ymax": 15.8
+  },
+  "goals": [
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    20,
+    7.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 12.8,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     9.4,
+     2.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     2
+    ],
+    "b": [
+     19.3,
+     6.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     12.8
+    ],
+    "b": [
+     5,
+     12
+    ],
+    "k": "cond",
+    "side": 1,
+    "s1": 10,
+    "n": 3
+   }
+  ]
+ }
+}

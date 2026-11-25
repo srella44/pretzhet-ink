@@ -1,0 +1,181 @@
+{
+ "id": "FB-024",
+ "bloque": "Técnica y duelos",
+ "titulo": "Regate por puertas",
+ "formato": "Conducción y regate",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–14 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 1′ 30″ con 30″ de pausa; en cada ronda cambian los 2 guardianes (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada, buscar el espacio libre y regatear para cruzar puertas evitando a los guardianes (propuesta). Cómo explicarlo: «cada puerta que cruzas con el balón es un punto; si un guardián la tapa, busca otra». Errores típicos: mirar solo al balón y chocar; repetir siempre la misma puerta; toques largos que se escapan. Qué observar: cabeza arriba, toques cortos al llegar a la puerta, cambio de dirección con el exterior y la suela, uso de las dos piernas. Material: 12 conos, un balón por niño, 2 petos.",
+ "montaje": "20 × 20 m con 6 a 8 puertas de 2 conos (1,5 m) repartidas. Todos con balón. Dos guardianes con peto y sin balón (propuesta).",
+ "juego": "Rondas de 1′ 30″: se conduce y se cruzan puertas regateando, nunca la misma dos veces seguidas. Los guardianes tapan puertas (3″ máx.) o tocan balones: 3 toques de suela y sigues.",
+ "punto": "1 punto por puerta; con la pierna mala, 2. Récord personal (propuesta).",
+ "consigna": "Cabeza arriba: busca la puerta libre.",
+ "variantes": {
+  "facil": "Sin guardianes la primera ronda y puertas de 2,5 m (propuesta).",
+  "dificil": "3 guardianes; antes de cruzar hay que hacer un regate (bicicleta, cambio con el exterior); puertas de 1 m (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): un guardián que solo camina y puertas anchas; sin contar puntos la primera ronda. Benjamín (8–9): como está, con regate obligatorio en la última ronda (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "REGATE POR PUERTAS",
+  "ref": "https://toplidercoach.com/futbol-base/regate-por-puertas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9). Montaje, número de puertas, guardianes, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción del ejercicio.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1,
+   "ymax": 22.2
+  },
+  "cones": [
+   [
+    3.2,
+    4
+   ],
+   [
+    4.8,
+    4
+   ],
+   [
+    15.2,
+    4
+   ],
+   [
+    16.8,
+    4
+   ],
+   [
+    9.2,
+    10
+   ],
+   [
+    10.8,
+    10
+   ],
+   [
+    3.2,
+    16
+   ],
+   [
+    4.8,
+    16
+   ],
+   [
+    16,
+    15.2
+   ],
+   [
+    16,
+    16.8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 9.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 13.5,
+    "f": 30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 11.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 13.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     9.5
+    ],
+    "b": [
+     4.4,
+     1.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     13.5
+    ],
+    "b": [
+     19,
+     18
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     11.5
+    ],
+    "b": [
+     16,
+     14.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10,
+    21.5,
+    "PUERTAS DE 1,5 m",
+    "middle"
+   ]
+  ]
+ }
+}

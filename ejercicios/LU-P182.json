@@ -1,0 +1,212 @@
+{
+ "id": "LU-P182",
+ "bloque": "Balón parado",
+ "titulo": "Córner: bloqueo y 1.er palo",
+ "formato": "ABP ofensiva",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + 6",
+ "espacio": "Cuarto de campo",
+ "duracion": "15 min",
+ "series": "(propuesta) 10 córneres por banda en 2 series con 2′ de pausa; primero sin rival y luego con 5 defensores y portero.",
+ "objetivo": "Córner al primer palo (fuente): el del primer palo se acerca al balón y deja el hueco; un compañero se coloca delante del portero; en el segundo palo uno bloquea al marcador de su compañero, que llega libre al primer palo a rematar. Cómo explicarlo: «el hueco lo hace el 1, el bloqueo el 3 y el remate el 4». Errores típicos: bloquear con las manos (falta); salir antes de la señal; centro flojo que cae en la zona del portero. Qué observar: señal, bloqueo legal (cuerpo quieto en la trayectoria del defensor), carrera en diagonal del rematador y centro tenso al primer palo.",
+ "montaje": "Cuarto de campo. Lanzador en el córner. Uno en el 1.er palo, uno junto al portero y dos en el 2.º palo. Rival: 2 a 5 al hombre.",
+ "juego": "A la señal, el del 1.er palo se acerca al balón y deja hueco (1). Otro tapa al portero sin tocarle. En el 2.º palo, uno se planta ante el marcador de su compañero, que va libre al 1.er palo (2) a rematar (3).",
+ "punto": "Gol: 3. Remate a puerta: 1. Bloqueo con manos: 0 y se repite.",
+ "consigna": "Bloquea sin manos; ataca el hueco.",
+ "variantes": {
+  "facil": "Sin rival y centro con la mano desde el vértice del área (propuesta).",
+  "dificil": "Defensa mixta (zona + 2 al hombre); si el bloqueo no sale, el lanzador busca el 2.º palo (propuesta)."
+ },
+ "adaptacion": "Alevín (fútbol 7): sin el jugador del portero y con un solo bloqueo. Infantil (12–13): tal cual. Cadete (14–15): con 7 defensores (propuesta). Bloqueo siempre sin manos y sin chocar.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP OFENSIVA - SAQUE DE ESQUINA OFENSIVO 8",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 182"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: envío al 1.er palo tras señal; el del 1.er palo se aproxima y crea espacio, uno evita la salida del portero, el del 2.º palo bloquea al marcador de su compañero y el que queda libre va al 1.er palo a rematar; 11 jugadores. Colocación, oposición, bloqueo sin manos, series, puntuación, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 14.5,
+    "f": 120
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 11,
+    "f": 60
+   },
+   {
+    "r": "A",
+    "x": 37.5,
+    "y": 18.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 11,
+    "f": 150
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 8.5,
+    "f": 200
+   },
+   {
+    "r": "A",
+    "x": 47,
+    "y": 7,
+    "f": 160
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     28,
+     14.5
+    ],
+    "b": [
+     19.5,
+     16.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     47,
+     7
+    ],
+    "b": [
+     31.5,
+     16
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "nt": 0.4,
+    "n": 2
+   },
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     30.5,
+     16.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 3,
+    "nt": 0.3
+   }
+  ],
+  "labels": [
+   [
+    44,
+    4,
+    "BLOQUEO",
+    "middle"
+   ]
+  ]
+ }
+}

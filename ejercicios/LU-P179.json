@@ -1,0 +1,220 @@
+{
+ "id": "LU-P179",
+ "bloque": "Balón parado",
+ "titulo": "Falta en banda: dejada",
+ "formato": "ABP ofensiva",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug.",
+ "espacio": "Último cuarto",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 5 faltas desde cada banda con 1′ de pausa: andando, a ritmo real y con 3 defensores. Se rotan los papeles.",
+ "objetivo": "Falta en la banda ensayada (fuente): cuatro movimientos a la vez; uno arrastra y deja un espacio que ocupa otro, que recibe y deja de cara para que un tercero centre de primeras al jugador que llega desde la banda contraria. Cómo explicarlo: «el 1 vacía, el 4 llena, el 4 deja y el 2 la pone». Errores típicos: salir a destiempo; dejada que se queda corta; el 3 llega antes que el balón y se para. Qué observar: señal clara, pase al espacio y no al pie, dejada de primeras con el interior y centro tenso entre portero y defensas.",
+ "montaje": "Falta junto a la banda a 30 m del fondo. Sacador en la banda; el 1 a 7 m por delante y el 4 a 12 m; el 2 detrás, a 11 m; el 3 en el lado contrario del área. Rival: 3 y portero (propuesta).",
+ "juego": "Salen los 4 a la vez (fuente). El 1 va hacia dentro y deja su sitio; el 4 lo ocupa (1) y recibe (2). El 4 deja de cara (3) y el 2, de primeras, centra (4) al 3, que llega desde la otra banda (5).",
+ "punto": "Gol: 3. Remate del 3: 1. Pérdida antes del centro: 0.",
+ "consigna": "Todos a la vez; dejada de primeras.",
+ "variantes": {
+  "facil": "Sin rival y el 2 puede controlar antes de centrar (propuesta).",
+  "dificil": "Un defensor sigue al 4 y otro al 3: si el 4 está tapado, el sacador juega con el 1 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11, fútbol 7): sin el 1 y el centro lo hace el 4 directamente. Infantil (12–13): como está. Cadete (14–15): con 5 defensores y portero (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP OFENSIVA - SAQUE DE FALTA BANDA 1",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 179"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el 1, 2, 3 y 4 empiezan a la vez; el sacador juega al espacio que crea el 1 y que aprovecha el 4; el 4 deja de cara para el 2, que de primeras busca en el área al que llega de la banda contraria; 6 jugadores, 20 × 20. Colocación y distancias, oposición, puntuación, series, variantes y adaptación (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   44,
+   22
+  ],
+  "tag": "último cuarto (no a escala)",
+  "extent": {
+   "xmin": -1,
+   "xmax": 45.4,
+   "ymin": -2.4,
+   "ymax": 23
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     32,
+     16.5
+    ],
+    "6 5"
+   ],
+   [
+    [
+     32,
+     16.5
+    ],
+    [
+     32,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 43.5,
+    "y": 20,
+    "f": 200,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 14,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 8,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 20,
+    "f": -150
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": -40
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 6.5,
+    "f": 60
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     38,
+     14
+    ],
+    "b": [
+     33,
+     17
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     34,
+     8
+    ],
+    "b": [
+     39,
+     13.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     43.5,
+     20
+    ],
+    "b": [
+     39.6,
+     14.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     39.5,
+     13.8
+    ],
+    "b": [
+     30.8,
+     19.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 10,
+    "nt": 0.4,
+    "n": 3
+   },
+   {
+    "a": [
+     30,
+     20
+    ],
+    "b": [
+     9.5,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "nt": 0.55,
+    "n": 4
+   },
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     8.4,
+     3.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 5
+   }
+  ]
+ }
+}

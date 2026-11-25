@@ -1,0 +1,174 @@
+{
+ "id": "FB-030",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tercer hombre en triángulo",
+ "formato": "3v1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "14 × 22 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ 30″ con 45″ de pausa; dos series empezando por la derecha y dos por la izquierda (propuesta).",
+ "objetivo": "Entender el tercer hombre: el pivote, con un rival a la espalda, no se gira; deja de primeras para un compañero que ya llega de cara y que progresa (propuesta). Cómo explicarlo: «si tienes a uno detrás, no te gires: deja de cara al que llega corriendo». Errores típicos: C arranca tarde (cuando B ya recibe); B controla y se gira y D roba; pase de A flojo o al pie equivocado. Qué observar: pase tenso de A al pie lejano de B, el arranque de C cuando sale el primer pase, dejada con el interior al espacio y conducción hacia la puerta con la cabeza arriba. Material: 5 conos, 6–8 balones por grupo.",
+ "montaje": "Triángulo: A en la base, B (pivote) a 10 m enfrente y C a 8 m a un lado de B. Detrás de B, un defensor (D) semiactivo. Puerta de 3 m a 8 m por delante (propuesta).",
+ "juego": "A pasa tenso a B (1). Al salir el pase, C arranca (2) y B, con D detrás, le deja de primeras (3). C cruza la puerta conduciendo (4). Rotación: A→B→D→C→fila.",
+ "punto": "Puerta: 1 punto. Si D toca el balón: 1 para D (propuesta).",
+ "consigna": "Arranca cuando sale el primer pase.",
+ "variantes": {
+  "facil": "D pasivo (solo se queda detrás) y C puede controlar antes de conducir (propuesta).",
+  "dificil": "D activo al 100 %; C debe pasar de primeras a un compañero que espera tras la puerta en vez de conducir (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): D semiactivo y distancias de 8 m. Cadete (14–15): D activo, distancias de 12 m y todo a 1 toque. Con alevines (10–11), sin defensor (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASES TERCER HOMBRE (2)",
+  "ref": "https://toplidercoach.com/futbol-base/pases-tercer-hombre-2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15). Se interpreta «(2)» como el paso con un defensor a la espalda del pivote (el (1) sería sin oposición y el (3) en juego). Montaje, distancias, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   23,
+   14
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 24,
+   "ymin": -1,
+   "ymax": 15
+  },
+  "cones": [
+   [
+    2,
+    9
+   ],
+   [
+    12,
+    9
+   ],
+   [
+    9,
+    2.5
+   ],
+   [
+    21,
+    3
+   ],
+   [
+    21,
+    6.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.3,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.2,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2.5,
+    "f": 30
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     9
+    ],
+    "b": [
+     11.2,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     2.5
+    ],
+    "b": [
+     13.5,
+     4.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     9
+    ],
+    "b": [
+     13.4,
+     5.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     14,
+     4.8
+    ],
+    "b": [
+     21.6,
+     4.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 2,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    21,
+    1.2,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    15.2,
+    12.2,
+    "SEMIACTIVO",
+    "middle"
+   ]
+  ]
+ }
+}

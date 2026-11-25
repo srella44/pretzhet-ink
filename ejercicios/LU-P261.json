@@ -1,0 +1,161 @@
+{
+ "id": "LU-P261",
+ "bloque": "Defensa y presión",
+ "titulo": "Conduce, tira y defiende",
+ "formato": "1v1 continuo",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "12–18 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 4′ con 1′ 30″ de pausa; cada jugador hace unas 4–5 acciones por serie. Cambian los porteros entre series.",
+ "objetivo": "Encadenar ataque y defensa (fuente): conducción a máxima velocidad, tiro y, sin parar, carrera para defender al siguiente atacante del otro grupo. Si el defensor llega, 1 contra 1; si no, tiro libre. Cómo explicarlo: «tiras y no celebras: corres a defender la otra portería». Errores típicos: conducir con toques cortos (más lento); tirar y quedarse mirando; el defensor entra de frente y a la carrera y le regatean. Qué observar: conducción con toques largos y el exterior, cabeza arriba antes de tirar, carrera del defensor por dentro (entre atacante y portería) y frenada antes de entrar.",
+ "montaje": "40 × 30 m con portería y portero en cada fondo. Dos grupos de 6 a 8 con balones en esquinas opuestas: el A abajo a la derecha (ataca la izquierda) y el B arriba a la izquierda (propuesta).",
+ "juego": "Sale uno del A conduciendo a tope y tira. Entonces sale uno del B hacia la otra portería (1) y el del A corre a defenderla (2): si llega, 1 contra 1; si no, tira solo (3). Y así seguido.",
+ "punto": "Gol: 1 para su grupo. Robo: 1 para el defensor.",
+ "consigna": "Conduce a tope; tiras y a defender.",
+ "variantes": {
+  "facil": "Campo de 30 × 25 m y el defensor sale 2″ más tarde (más tiros) (propuesta).",
+  "dificil": "El atacante solo puede tirar dentro del área y el defensor sale a la vez que el atacante toca el balón (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 30 × 20 m, porterías de fútbol 7 y sin defensa la primera serie. Alevín (10–11): como está. Infantil (12–13): 50 × 35 m y tiro solo tras regatear al defensor si llega (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios (Pere Riera)",
+  "titulo_original": "ATAQUE VS DEFENSA - Finalizaciones 3 (1x1) - Pere Riera @Pere36287525",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 261"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos grupos de 8; conducción a velocidad máxima; si el defensor llega, 1x1, si no, tiro; al acabar la acción ofensiva se va a defender la otra portería; 18 jugadores, 50 × 50. Medidas adaptadas (40 × 30 m), colocación de los grupos en esquinas opuestas, momento de salida, puntuación, series, variantes y adaptación (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41.6,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 36.5,
+    "y": 32,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 39,
+    "y": 32,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 1.2,
+    "y": -1.8,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 3.7,
+    "y": -1.8,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 6,
+    "f": 30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 19,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     6
+    ],
+    "b": [
+     29,
+     11.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     19
+    ],
+    "b": [
+     27.5,
+     15
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     29.5,
+     12
+    ],
+    "b": [
+     39,
+     14.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    33,
+    29.2,
+    "GRUPO A",
+    "middle"
+   ],
+   [
+    9.5,
+    -1.6,
+    "GRUPO B",
+    "start"
+   ]
+  ]
+ }
+}
