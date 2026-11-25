@@ -1,0 +1,196 @@
+{
+ "id": "LU-P209",
+ "bloque": "Defensa y presión",
+ "titulo": "6v6: controla en la zona",
+ "formato": "6v6 (4-2)",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta); cada 2 series cambian los papeles de ataque y defensa.",
+ "objetivo": "Atacar con desmarques de apoyo y de ruptura hasta recibir dentro de la zona de punto (fuente), y, para quien defiende, aguantar colocado en 4-2 como indica el míster: cerrar el pase entre líneas y vigilar la espalda. Cómo explicarlo: si tu compañero se ofrece al pie, tú rompes al espacio. Errores típicos: todos piden al pie, ruptura antes de que el pasador pueda ver, defensa que no corrige su altura. Qué observar (fuente): que el ataque mantenga equilibrio, siempre dos por detrás del balón.",
+ "montaje": "Campo de 50 × 40 m con zona de punto de 8 m en un fondo (propuesta). Dos equipos de 6 en 4-2: uno ataca; el otro defiende colocado como manda el míster.",
+ "juego": "Los atacantes combinan y se desmarcan en apoyo y ruptura: hay punto si uno controla dentro de la zona el pase de un compañero. Si roban, los defensores salen conduciendo (propuesta).",
+ "punto": "Control en zona: 1. Robo y salida: 1 (propuesta).",
+ "consigna": "Uno apoya, otro rompe.",
+ "variantes": {
+  "facil": "Un comodín ofensivo más (7 contra 6) o zona de punto de 12 m (propuesta).",
+  "dificil": "Recepción en zona a un toque, o el control solo vale tras pase al espacio desde el carril central (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 45 × 35 m y defensa que no puede entrar en la zona de punto. Cadete (14–15): como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA - DESMARQUES 2 Equipos de 6 - Hugo Álvarez @HugoAlvrz",
+  "ref": "300 ejercicios Level Up Coach · tarea 208 (pág. 209)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fondo de la zona de punto (8 m), salida de los defensores tras robo, puntuación, series y adaptación (propuesta). Equipos de 6 en 4-2, colocación defensiva dirigida por el míster, desmarques de apoyo y ruptura, punto con control en la zona y equilibrio ofensivo son de la fuente.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 50.6,
+   "ymin": -0.6,
+   "ymax": 40.6
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     42,
+     0,
+     50,
+     40
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     42,
+     0
+    ],
+    [
+     42,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 35,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 35,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 31,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     16
+    ],
+    "b": [
+     20.5,
+     27.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     20.6,
+     12.4
+    ],
+    "b": [
+     45.5,
+     11.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     21.5,
+     27.4
+    ],
+    "b": [
+     45,
+     12.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    46,
+    38.8,
+    "ZONA",
+    "middle"
+   ]
+  ]
+ }
+}

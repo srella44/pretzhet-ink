@@ -1,0 +1,137 @@
+{
+ "id": "JL-1058",
+ "bloque": "Defensa y presión",
+ "titulo": "1v1: derriba el pitote",
+ "formato": "1v1 × 3 parejas",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "8 × 1 min (fuente) con 30 s de pausa; cada minuto se cambia de pareja o de papel (propuesta).",
+ "objetivo": "Defender el 1 contra 1 cuando el atacante busca el tiro: tapar la línea de tiro hacia el pitote y robar con entrada o carga (fuente). Cómo explicarlo: la carga es hombro con hombro, con el brazo pegado al cuerpo, cuando el balón está a distancia de juego; la entrada, de pie, con el interior del pie al balón. Errores típicos: cargar con el codo o por detrás, tirarse al suelo, ir al balón cuando el atacante lo tiene pegado. Qué observar: si el defensor se queda entre el balón y el pitote sin lanzarse.",
+ "montaje": "Cuadrado de 20 × 20 m con tres pitotes (conos altos) neutrales dentro. Tres parejas, un balón por pareja.",
+ "juego": "El atacante desborda y tira para derribar un pitote, desde 5 m o más (propuesta); si lo tumba, lo levanta y sigue. El defensor roba con entrada o carga legal y pasa a atacar. Sin tirarse al suelo.",
+ "punto": "Robo: 1 al defensor (fuente). Pitote derribado: 1 al atacante (propuesta).",
+ "consigna": "Tapa el tiro: entre él y el pitote.",
+ "variantes": {
+  "facil": "Tiro desde 3 m o más (propuesta).",
+  "dificil": "Durante 1 min el mismo defensor intenta recuperar el máximo de balones (juego siguiente de la fuente)."
+ },
+ "adaptacion": "Alevín (10–11): tiro desde 4 m. Infantil (12–13): desde 5 m (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 1:1 | entrada 1058",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 227, bloque 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancia mínima de tiro, punto del atacante, pausas y adaptación (propuesta). 3 parejas en 20 × 20 m, tres pitotes neutrales, 8 × 1 min, punto por recuperar con entrada o carga y atacante que sigue con el balón tras derribar son de la fuente. Variación de JL-1044.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 20.6,
+   "ymin": -0.6,
+   "ymax": 20.6
+  },
+  "cones": [
+   [
+    3.5,
+    10
+   ],
+   [
+    17,
+    3.5
+   ],
+   [
+    13,
+    17.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 9.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 3.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 15,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 16.5,
+    "f": -135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     9.5
+    ],
+    "b": [
+     8.5,
+     6.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     8.3,
+     6.8
+    ],
+    "b": [
+     4,
+     9.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 4,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    19,
+    19.2,
+    "PITOTES = CONOS ALTOS",
+    "end"
+   ]
+  ]
+ }
+}

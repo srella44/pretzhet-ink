@@ -1,0 +1,141 @@
+{
+ "id": "JL-1044",
+ "bloque": "Defensa y presión",
+ "titulo": "1v1: entrada y carga",
+ "formato": "1v1 × 3 parejas",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "8 × 1 min (fuente) con 30 s de pausa; cada minuto se cambia de pareja o de papel (propuesta).",
+ "objetivo": "Recuperar el balón en el 1 contra 1 con una entrada o una carga reglamentaria (fuente), y para el atacante, protegerlo con el cuerpo. Cómo explicarlo: la carga es hombro con hombro, con el brazo pegado al cuerpo, cuando el balón está a distancia de juego; la entrada, de pie, con el interior del pie al balón. Errores típicos: cargar con el codo o por detrás, tirarse al suelo, ir al balón cuando el atacante lo tiene pegado. Qué observar: si el defensor espera el momento en que el balón se separa del pie.",
+ "montaje": "Cuadrado de 20 × 20 m con tres parejas a la vez, un balón por pareja. En cada una, uno ataca y el otro defiende.",
+ "juego": "El atacante conduce y protege para no perder el balón. El defensor intenta recuperarlo con una entrada o una carga hombro con hombro, de pie y sin falta. Si roba, cambian los papeles al instante. Sin entradas por detrás ni al suelo (propuesta).",
+ "punto": "Robo limpio: 1 punto al defensor (fuente).",
+ "consigna": "Hombro con hombro, de pie y al balón.",
+ "variantes": {
+  "facil": "Atacante que solo puede conducir hacia delante, sin girar (propuesta).",
+  "dificil": "Durante 1 min el mismo defensor intenta recuperar el máximo de balones (juego siguiente de la fuente)."
+ },
+ "adaptacion": "Alevín (10–11): carga solo con el balón en disputa y 15 × 15 m. Infantil (12–13): como está (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 1:1 | entrada 1044",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 225, bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Normas de seguridad (sin entradas por detrás ni al suelo), pausas, variante fácil y adaptación (propuesta). 3 parejas en 20 × 20 m, 8 × 1 min, punto por recuperar con entrada o carga, cambio de papeles y atacante que mantiene la posesión son de la fuente. Base de una serie de variaciones (JL-1050, JL-1058).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 20.6,
+   "ymin": -0.6,
+   "ymax": 20.6
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 6.5,
+    "f": -150
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 10,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 12,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 16.5,
+    "f": -150
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     10
+    ],
+    "b": [
+     17,
+     15
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     11.5,
+     12
+    ],
+    "b": [
+     15.6,
+     15.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    10,
+    19,
+    "CARGA LEGAL, DE PIE",
+    "middle"
+   ]
+  ]
+ }
+}

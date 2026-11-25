@@ -1,0 +1,145 @@
+{
+ "id": "JL-1109",
+ "bloque": "Defensa y presión",
+ "titulo": "Anticipa en superioridad",
+ "formato": "4v4 + 2 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "50 × 25 m",
+ "duracion": "8 min",
+ "series": "8 min seguidos (fuente) o 2 × 4 min con 1 min de pausa (propuesta). Los comodines cambian a mitad (propuesta).",
+ "objetivo": "Practicar la anticipación con ventaja numérica: el equipo que defiende presiona 6 contra 4 con los comodines y cada anticipación de sus jugadores es punto (fuente). Anticipar es llegar al balón antes que el receptor, cortándolo por delante de él. Cómo explicarlo: mira a la vez balón y receptor; sal cuando el pase ya ha salido y va hacia él. Errores típicos: salir antes del pase (te la juegan a la espalda), llegar por detrás del receptor, anticipar sin cobertura. Qué observar: si los defensores leen el pase a dos toques del atacante.",
+ "montaje": "Campo de 50 × 25 m. Dos equipos de 4 y dos comodines que defienden con el equipo sin balón (6 contra 4).",
+ "juego": "El equipo con balón lo mantiene a dos toques. Los que defienden presionan con los comodines y buscan anticipar: cortar el pase por delante del receptor. Quien anticipa pasa a atacar.",
+ "punto": "Anticipación: 1; la del comodín no cuenta (propuesta).",
+ "consigna": "Lee el pase y sal por delante.",
+ "variantes": {
+  "facil": "Atacantes a tres toques o un solo comodín defensivo (propuesta).",
+  "dificil": "Atacantes libres de toques: el pase sale antes y hay que leerlo mejor (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 40 × 25 m. Cadete (14–15): como está (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 1109",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 239, bloque 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Comodines con peto distinto que presionan dentro, que la anticipación del comodín no puntúe, pausas, variantes y adaptación (propuesta). 4 contra 4 + 2 comodines con el que defiende, 50 × 25 m, 8 min, punto por anticipación, cambio de papel tras anticipar y atacantes a dos toques son de la fuente. La fuente dice «los que defienden por dentro del campo»: se interpreta que solo puntúan los del equipo. Pareja de JL-1141 (comodines al revés).",
+ "diagrama": {
+  "field": [
+   50,
+   25
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 50.6,
+   "ymin": -0.6,
+   "ymax": 25.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 17,
+    "f": -150
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 38,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     29.4,
+     5.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     20,
+     7.6
+    ],
+    "b": [
+     25,
+     5.8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    25,
+    24,
+    "6 DEFIENDEN CONTRA 4",
+    "middle"
+   ]
+  ]
+ }
+}

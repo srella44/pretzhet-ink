@@ -1,0 +1,165 @@
+{
+ "id": "JL-0423",
+ "bloque": "Finalización",
+ "titulo": "2v2+2 en el área",
+ "formato": "2v2 + 2 comodines + PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + PT",
+ "espacio": "Área grande (40 × 16,5 m)",
+ "duracion": "12 min",
+ "series": "6 × 2 min (fuente) con 45 s de pausa; los comodines cambian cada 2 min (fuente): entran dos jugadores de las parejas y salen los comodines (propuesta).",
+ "objetivo": "Tiro rápido en superioridad dentro del área: con los dos comodines de los laterales, el equipo con balón juega 4 contra 2 y tiene que tirar antes del 4.º pase (fuente). Cómo explicarlo: el comodín abre el ángulo; recibe, mira al portero y tira o devuelve. Errores típicos: buscar siempre al comodín aunque haya tiro, tirar con el defensor delante, quedarse parado tras perder. Qué observar: si el atacante sin balón se desmarca para recibir de cara.",
+ "montaje": "Área grande con portería de fútbol 11 y portero neutral. Dos parejas dentro y un comodín por fuera de cada línea lateral del área, con quien tiene el balón.",
+ "juego": "Las dos parejas atacan la misma portería: con los comodines, 4 contra 2. Tiro antes del 4.º pase o el balón pasa al rival. Si el portero bloca, saca al equipo que no tiró.",
+ "punto": "Gol: 1. Gol tras pase del comodín: 2 (propuesta).",
+ "consigna": "Abre al comodín y llega.",
+ "variantes": {
+  "facil": "Un solo defensor (2 contra 1 + comodines) o tiro antes del 6.º pase (propuesta).",
+  "dificil": "Comodines a un toque y tiro antes del 3.er pase (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): área de fútbol 7 (unos 30 × 13 m) y portería de 6 × 2 m. Cadete (14–15): como está. Alevín: comodines a dos toques y tiro antes del 5.º pase (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 2:2 +2 | entrada 423",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 99, bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Puntuación, pausas, reanudación tras robo y adaptación (propuesta). Jugadores, área grande con portería normal y portero neutral, comodines en las líneas laterales del área con la posesión, cambio cada 2 min, 6 × 2 min, tiro antes del 4.º pase y saque del portero al equipo que no tiró son de la fuente. Variación del mismo juego que JL-0415/0428 (cambia la posición de los comodines).",
+ "diagrama": {
+  "field": [
+   40,
+   16.5
+  ],
+  "extent": {
+   "xmin": -2.8,
+   "xmax": 42.8,
+   "ymin": -1.6,
+   "ymax": 17.4
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 41.4,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 11,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 6,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 7,
+    "f": 120
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 11,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     11
+    ],
+    "b": [
+     -0.6,
+     8.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s1": 12
+   },
+   {
+    "a": [
+     -1.4,
+     8.5
+    ],
+    "b": [
+     17,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     27,
+     6
+    ],
+    "b": [
+     18.4,
+     4.6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     18,
+     4.4
+    ],
+    "b": [
+     16.8,
+     0.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 6,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    -2.6,
+    15.6,
+    "COMODÍN",
+    "start"
+   ],
+   [
+    42.6,
+    15.6,
+    "COMODÍN",
+    "end"
+   ]
+  ]
+ }
+}

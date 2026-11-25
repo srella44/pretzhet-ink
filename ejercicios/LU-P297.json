@@ -1,0 +1,202 @@
+{
+ "id": "LU-P297",
+ "bloque": "Defensa y presión",
+ "titulo": "Presión alta guiada",
+ "formato": "6 contra picas",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "6 jug. + míster",
+ "espacio": "45 × 50 m",
+ "duracion": "15 min",
+ "series": "4 tandas de 6 inicios (unos 2 min) con 1 min de pausa (propuesta). En la pausa, el míster corrige con los jugadores parados en su sitio.",
+ "objetivo": "Automatizar los movimientos de presión alta según cómo inicia el rival: con los centrales, con el mediocentro que baja a recibir o con los laterales (fuente). Cómo explicarlo: el balón manda; el que está más cerca salta y orienta hacia la banda, el siguiente cierra el pase cercano y los demás tapan por dentro. Errores típicos: saltar dos a la vez, saltar recto (sin cortar el pase al otro central), quedarse mirando cuando el balón cambia. Qué observar: si los seis se recolocan antes de que el míster cambie de pica.",
+ "montaje": "Medio campo de 45 × 50 m. Seis picas son el rival que sale: portero, 2 centrales, 2 laterales y mediocentro. Seis jugadores presionan (punta, mediapunta, 2 extremos, 2 medios).",
+ "juego": "El míster, con balón, se pone junto a una pica. En 3 s los seis se colocan: uno salta orientando, otro cierra el pase cercano y el resto tapa dentro. Cada 5–8 s cambia de pica.",
+ "punto": "Grupo colocado a tiempo: 1 punto (propuesta).",
+ "consigna": "Salta uno, cierran todos.",
+ "variantes": {
+  "facil": "El míster anuncia la pica antes de moverse y da 5 s (propuesta).",
+  "dificil": "Sin picas: jugadores que hacen posesión y circulación real y los defensores se mueven según el balón (variante de la fuente)."
+ },
+ "adaptacion": "Infantil (12–13): en fútbol 7, cuatro picas (portero, 2 centrales, mediocentro) y cuatro presionadores. Cadete (14–15): como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIONES GRUPALES - MOVIMIENTOS PRESIÓN ALTA",
+  "ref": "300 ejercicios Level Up Coach · tarea 296 (pág. 297)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad subida a 12–15 años (es trabajo táctico), posición de las picas y de los presionadores, tiempos, puntuación, series y adaptación (propuesta). Movimientos guiados por el balón del míster, inicios con centrales, mediocentro o laterales, picas y variante con jugadores reales son de la fuente. Tarea sin oposición real: valorar si merece el libro.",
+ "diagrama": {
+  "field": [
+   45,
+   50
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 45.6,
+   "ymin": 14,
+   "ymax": 51.8
+  },
+  "porterias": [
+   {
+    "x": 22.5,
+    "y": 50,
+    "lado": "B",
+    "ancho": 7,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 22.5,
+    "y": 47.6,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 43,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 43,
+    "f": -90,
+    "ball": true,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 34,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 34,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 22.5,
+    "y": 35,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 28,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 25,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 25,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 22,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 17.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 17.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     19,
+     28
+    ],
+    "b": [
+     28.5,
+     40.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     37,
+     25
+    ],
+    "b": [
+     40,
+     31
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     27,
+     22
+    ],
+    "b": [
+     24.5,
+     31.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     25
+    ],
+    "b": [
+     11.5,
+     39
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    44.5,
+    40,
+    "PICAS = RIVAL",
+    "end"
+   ]
+  ]
+ }
+}

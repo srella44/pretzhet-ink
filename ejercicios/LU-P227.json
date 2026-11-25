@@ -1,0 +1,224 @@
+{
+ "id": "LU-P227",
+ "bloque": "Defensa y presión",
+ "titulo": "4v4+2: bascular en 3-1",
+ "formato": "4v4 + 2 delanteros + PT",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug. (con PT)",
+ "espacio": "50 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa; en cada pausa rotan delanteros, defensa de fondo y jugadores de la zona central (propuesta).",
+ "objetivo": "Bascular en bloque (fuente): el defensor de la zona del balón presiona y orienta, los otros tres tapan el pase interior detrás de él formando un 3-1, y cuando el balón cambia de zona, retroceden rápido; el que salta orienta para dar tiempo al compañero a recolocarse (fuente). Cómo explicarlo: uno aprieta, tres cierran el centro; si el balón va lejos, el que apretaba vuelve. Errores típicos: saltar dos a la vez, línea de tres que no se mueve con el balón, presionar recto sin orientar. Qué observar: si el pase interior queda siempre tapado.",
+ "montaje": "Campo de 50 × 40 m con dos porterías. Zona central de 20 m: 4 contra 4. En cada fondo, 2 puntas contra 1 defensa (propuesta).",
+ "juego": "Los 4 con balón buscan a sus puntas. Los 4 que defienden basculan: uno presiona y orienta; los otros 3 tapan el pase interior (3-1). Si conectan: 2 contra 1 + portero y balón del míster al otro equipo.",
+ "punto": "Gol: 1. Robo en el centro: 1 (propuesta).",
+ "consigna": "Uno aprieta, tres tapan dentro.",
+ "variantes": {
+  "facil": "Sin delanteros: los atacantes puntúan con un pase raso que cruza la línea del fondo (propuesta).",
+  "dificil": "Un atacante más (5 contra 4) en la zona central (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 45 × 35 m y portería de fútbol 7. Cadete (14–15): como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA - 4x4+2 - Pere Riera @Pere36287525",
+  "ref": "300 ejercicios Level Up Coach · tarea 226 (pág. 227)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Reparto del campo en tres zonas, un defensa por zona de fondo, porterías en los dos fondos, puntuación, series y adaptación (propuesta). 4 contra 4 + 2, basculación con presión al balón y 3-1 tapando el pase interior, 2 contra 1 en portería al conectar, balón del míster al equipo que defendía, retroceso y orientación del que salta, 16 jugadores y 40 × 50 m son de la fuente.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 51.6,
+   "ymin": -0.6,
+   "ymax": 40.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     35,
+     0
+    ],
+    [
+     35,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 35,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 12,
+    "f": -150
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 24.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 45,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     9
+    ],
+    "b": [
+     30.4,
+     4.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     22.5,
+     11.5
+    ],
+    "b": [
+     28.6,
+     6.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     31.4,
+     4.8
+    ],
+    "b": [
+     39.6,
+     11.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    25,
+    39,
+    "4 CONTRA 4: BASCULAR",
+    "middle"
+   ]
+  ]
+ }
+}

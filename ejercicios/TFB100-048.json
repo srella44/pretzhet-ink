@@ -1,0 +1,165 @@
+{
+ "id": "TFB100-048",
+ "bloque": "Defensa y presión",
+ "titulo": "Delantero de espaldas",
+ "formato": "1v1 + pasador + PT",
+ "edad": "12–18 años",
+ "nivel": "Medio",
+ "jugadores": "4–12 jug.",
+ "espacio": "40 × 35 m",
+ "duracion": "15 min",
+ "series": "3 series de 6 acciones por pareja con 1 min de descanso (fuente). Cada 5 jugadas cambia la pareja (fuente).",
+ "objetivo": "Defender al delantero que baja a recibir de espaldas: anticipar si el pase llega flojo y, si no, llegar pegado para que no pueda girarse (fuente). También: leer el pase antes de que salga, contacto legal con el antebrazo, no tirarse. Errores típicos (fuente): quedarse lejos y dejarle girarse, ir a anticipar tarde y quedar fuera de la jugada, tirarse al suelo, perder de vista el balón por mirar al delantero. Qué observar: la distancia del central al delantero cuando sale el pase.",
+ "montaje": "Zona de 40 × 35 m ante portería y portero. Pasador a 30 m de la portería. Delantero y central en la frontal, el central detrás.",
+ "juego": "El delantero baja a recibir de espaldas, delante de los conos. Pase flojo o largo: el central anticipa; si no llega, se pega para que no se gire. Máximo 2 pases. Si se gira, tira ya. Sin agarrar.",
+ "punto": "Central: anticipa 2, le obliga atrás 1. Delantero: gira y tira 1, gol 3.",
+ "consigna": "Si llega flojo, anticipa; si no, pégate.",
+ "variantes": {
+  "facil": "El pasador avisa del pase con la voz o el delantero tiene que recibir a un toque (fuente).",
+  "dificil": "Dos delanteros y dos centrales con dos pasadores: los centrales hablan para ver quién anticipa y quién cubre (fuente)."
+ },
+ "adaptacion": "Infantil (12–13): el pasador avisa antes de pasar. Cadete (14–15): pase libre. Juvenil (16–18): el delantero tiene un apoyo para descargar (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Defender al delantero que recibe de espaldas: anticipar o no dejarle girarse",
+  "ref": "100 tareas de fútbol base · pág. 63"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (texto y 3 gráficos, pág. 63 mirada). Edad tomada de la ficha original (infantil, cadete y juvenil), en lugar de la propuesta de la base (10–13).",
+ "diagrama": {
+  "field": [
+   35,
+   40
+  ],
+  "tag": "40 × 35 m",
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 36.6,
+   "ymin": -0.6,
+   "ymax": 40.6
+  },
+  "porterias": [
+   {
+    "x": 35,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     18,
+     6
+    ],
+    [
+     18,
+     34
+    ],
+    "4 4"
+   ]
+  ],
+  "cones": [
+   [
+    18,
+    6
+   ],
+   [
+    18,
+    13
+   ],
+   [
+    18,
+    27
+   ],
+   [
+    18,
+    34
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 18,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15.5,
+     18
+    ],
+    "b": [
+     10.5,
+     18.6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     5,
+     25
+    ],
+    "b": [
+     10,
+     19.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     21,
+     18
+    ],
+    "b": [
+     12.6,
+     17.6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    19,
+    38.2,
+    "LÍNEA DE LA FRONTAL",
+    "start"
+   ],
+   [
+    5,
+    29.5,
+    "PASADOR",
+    "middle"
+   ]
+  ]
+ }
+}

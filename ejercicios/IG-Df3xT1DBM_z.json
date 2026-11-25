@@ -1,0 +1,166 @@
+{
+ "id": "IG-Df3xT1DBM_z",
+ "bloque": "Defensa y presión",
+ "titulo": "4v4+3: comodín interior",
+ "formato": "4v4 + 3 comodines",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "16 min",
+ "series": "4 series de 3 min con 1 min de pausa; los comodines cambian en cada pausa (propuesta).",
+ "objetivo": "Salir del lado presionado usando al comodín interior: recibe fuera de la sombra del defensor y conecta con el lado libre (fuente). Para quien defiende: presionar al balón y tapar con la sombra el pase al interior. Cómo explicarlo: el interior no se esconde detrás del rival; se mueve hasta ver al pasador. Errores típicos: comodín interior parado a la espalda de un defensor, pase al interior sin que pueda girarse, equipo que se junta en el lado del balón. Qué observar: cuántas veces el balón cambia de lado por dentro.",
+ "montaje": "Cuadrado de 30 × 30 m con 4 contra 4. Tres comodines con quien tiene el balón: uno fuera en cada banda y uno interior.",
+ "juego": "El equipo con balón y los comodines (7 contra 4) buscan 8 pases. Los comodines juegan a dos toques. El interior busca recibir fuera de la sombra del defensor y abrir al lado libre. Si roban, cambian los papeles.",
+ "punto": "8 pases: 1. Cambio de lado por el interior: +1 (propuesta).",
+ "consigna": "Sal de la sombra y abre al lado libre.",
+ "variantes": {
+  "facil": "Seis pases para puntuar o comodines a tres toques (propuesta).",
+  "dificil": "Comodines a un toque y el punto solo vale si el interior interviene (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 30 m y punto con 6 pases. Infantil (12–13): 8 pases y comodines a dos toques, como la fuente (propuesta).",
+ "fuente": {
+  "autor": "@klube.ai",
+  "titulo_original": "Comodín interior para salir del lado presionado",
+  "ref": "Instagram · reel Df3xT1DBM_z"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad (10–13 años), punto extra por cambio de lado, cambio de papeles tras robo, series y adaptación (propuesta). 4 contra 4 + 3 comodines (uno por banda y uno interior) en 30 × 30 m, dos contactos, 8 pases para puntuar e interior fuera de la sombra son de la descripción del autor.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 31.6,
+   "ymin": -0.6,
+   "ymax": 30.6
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": -1.2,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 31.2,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 11.5,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 8,
+    "f": -140
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     11.5
+    ],
+    "b": [
+     15.6,
+     16
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     4,
+     4.5
+    ],
+    "b": [
+     14.6,
+     15.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     15.6,
+     16.4
+    ],
+    "b": [
+     23.4,
+     24.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    29,
+    29,
+    "LADO LIBRE",
+    "end"
+   ]
+  ]
+ }
+}

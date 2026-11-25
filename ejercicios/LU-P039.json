@@ -1,0 +1,175 @@
+{
+ "id": "LU-P039",
+ "bloque": "Defensa y presión",
+ "titulo": "3v3+5: disputa y marca",
+ "formato": "3v3 + 5 comodines + PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + PT",
+ "espacio": "40 × 20 m",
+ "duracion": "15 min",
+ "series": "5 rondas de 5 balones (unos 2 min) con 1 min de pausa; en cada pausa, un trío pasa a comodines (propuesta).",
+ "objetivo": "Ganar la disputa y defender al hombre: cada jugador tiene un par al que marca (fuente); quien gana el balón finaliza y quien lo pierde evita el tiro con anticipaciones, interceptaciones y marcaje individual (fuente). Cómo explicarlo: antes de que entre el balón, colócate entre tu par y la portería, viendo balón y rival. Errores típicos: mirar solo el balón y perder al par, ir todos a la disputa, dejar libre el tiro desde la frontal. Qué observar: quién gana la posición antes de que el comodín meta el balón.",
+ "montaje": "Zona de 40 × 20 m con portería y portero. Dos tríos dentro, cada uno con su par. Cinco comodines fuera con balón: dos por banda y uno en el fondo.",
+ "juego": "El míster nombra a un comodín, que mete su balón: lo disputan los tríos y quien lo gana ataca la portería con los comodines; el otro defiende al hombre. Tras tiro o fuera, entra otro balón, hasta 5.",
+ "punto": "Gol: 1. Gana el trío con más goles en 5 balones (propuesta).",
+ "consigna": "Pegado a tu par y gana la disputa.",
+ "variantes": {
+  "facil": "El comodín pasa a un jugador concreto en vez de al espacio (propuesta).",
+  "dificil": "Comodines a un toque y gol válido solo antes de 8 s desde la disputa (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): portería de fútbol 7 y comodines a dos toques. Cadete (14–15): como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA (3vs3+5+p) - Finalizaciones - Marcaje individual",
+  "ref": "300 ejercicios Level Up Coach · tarea 38 (pág. 39)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Posición de los comodines, puntuación, rondas y adaptación (propuesta). Tríos con comodines exteriores y portero, un balón por comodín, el míster nombra quién mete el balón, disputa, finalizar con ayuda de los comodines, secuencia hasta los 5 balones y 20 × 40 m son de la fuente.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 41.8,
+   "ymin": -2.4,
+   "ymax": 22.4
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 12,
+    "y": -1.3,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": -1.3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 21.3,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 21.3,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.3,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15.5,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 29.5,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     27,
+     -1.3
+    ],
+    "b": [
+     22,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 2
+   },
+   {
+    "a": [
+     15.8,
+     8.2
+    ],
+    "b": [
+     21.4,
+     5.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     22.5,
+     5.3
+    ],
+    "b": [
+     39.4,
+     8.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    -2.4,
+    21.8,
+    "5 COMODINES CON BALÓN",
+    "start"
+   ]
+  ]
+ }
+}

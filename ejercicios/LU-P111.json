@@ -1,0 +1,217 @@
+{
+ "id": "LU-P111",
+ "bloque": "Defensa y presión",
+ "titulo": "Defender el área: 3 zonas",
+ "formato": "10v10 + 1 comodín",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "21 jug. (con PT)",
+ "espacio": "65 × 45 m",
+ "duracion": "24 min",
+ "series": "3 series de 7 min con 1 min 30 s de pausa (propuesta).",
+ "objetivo": "Defender el área con la línea de cuatro según los principios del equipo (fuente): cerrar el centro, controlar al delantero y a quien llega de segunda línea, y salir juntos tras despejar. En ataque, crear el 3 contra 2 con los que pueden cambiar de zona (fuente). Cómo explicarlo: el área se defiende de dentro afuera; primero el hombre más peligroso, luego el balón. Errores típicos: centrales que salen del área a por el balón, lateral lejano que no cierra, nadie con el que llega desde atrás. Qué observar: quién marca al interior que entra en zona 3.",
+ "montaje": "Campo de 65 × 45 m, dos porterías, en tres zonas: inicio, creación y finalización. Dos equipos de 10 en 1-4-3-3 y un comodín con quien ataca.",
+ "juego": "Cada uno juega en su zona; solo los de la media (interiores y comodín) cambian de zona para crear superioridad. La línea de cuatro defiende el área. Tras robo, cambio de rol.",
+ "punto": "Gol: 1. Robo en el área y salida a zona media: 1 (propuesta).",
+ "consigna": "Primero el área, luego el balón.",
+ "variantes": {
+  "facil": "Solo puede cambiar de zona un interior (propuesta).",
+  "dificil": "También puede subir un lateral, o el comodín juega a un toque (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): fútbol 7 en 50 × 40 m, 6 contra 6 + comodín (línea de tres). Cadete y juvenil: como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO CONDICIONADO (10vs10+1) - DEFENSA DE ÁREA - ATAQUE ORGANIZADO",
+  "ref": "300 ejercicios Level Up Coach · tarea 110 (pág. 111)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Puntuación, series, variantes y adaptación (propuesta). Equipos de 10 en 1-4-3-3 + comodín, tres zonas, solo los de zona 2 cambian de zona, defensa de área de la línea de cuatro, cambio de rol y 45 × 65 m son de la fuente. Diagrama simplificado (solo la zona de finalización y la media).",
+ "diagrama": {
+  "field": [
+   65,
+   45
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 66.6,
+   "ymin": -0.6,
+   "ymax": 45.6
+  },
+  "porterias": [
+   {
+    "x": 65,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     45
+    ],
+    "6 5"
+   ],
+   [
+    [
+     45,
+     0
+    ],
+    [
+     45,
+     45
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 58,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 59,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 59,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 58,
+    "y": 38,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 50,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 51,
+    "y": 22.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 50,
+    "y": 37,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 28,
+    "y": 22.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 30,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     35,
+     31
+    ],
+    "b": [
+     46,
+     30
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     37,
+     13
+    ],
+    "b": [
+     49.4,
+     9.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     50,
+     10
+    ],
+    "b": [
+     46,
+     29.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    10,
+    2,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    32.5,
+    2,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    55,
+    43.5,
+    "ZONA 3",
+    "middle"
+   ]
+  ]
+ }
+}

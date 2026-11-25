@@ -1,0 +1,179 @@
+{
+ "id": "TFB100-045",
+ "bloque": "Defensa y presión",
+ "titulo": "Línea de 3: permutas",
+ "formato": "3 + PT contra 4",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "18 min",
+ "series": "3 series de 5 ataques con 1 min 30 s de descanso (fuente). Con 12 jugadores, dos grupos de atacantes que se alternan.",
+ "objetivo": "Que la línea de tres defensas de fútbol 7 aprenda a cubrirse y a permutar: si un defensa es superado, el compañero sale a cubrirle y el superado ocupa el sitio libre (fuente). También: bascular hacia el balón, hablar y replegar tras ser superado. Errores típicos (fuente): el central sale tarde o demasiado lejos, el superado se queda mirando o persigue por detrás, el lateral contrario no se cierra y deja un pasillo en el centro, nadie habla. Qué observar: el tiempo que tarda la línea en recomponerse.",
+ "montaje": "Medio campo de fútbol 7 (40 × 30 m) con portero. Tres defensas contra cuatro atacantes (2 extremos, interior y delantero) que salen del medio campo.",
+ "juego": "Los atacantes buscan la banda; tienen 15 s y hay fuera de juego. Si superan al lateral, el central cubre, el superado ocupa su sitio y el otro lateral se cierra. Robo: al portero o conducir al medio campo.",
+ "punto": "Gol: 1. Robo: 1; tras una permuta: 2.",
+ "consigna": "Sale uno, cubre el de al lado.",
+ "variantes": {
+  "facil": "Tres atacantes contra tres defensas, sin delantero, para ver la permuta con calma (fuente).",
+  "dificil": "Cinco atacantes y un mediocentro que ayuda a los defensas, o paredes con un comodín en el centro del campo (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): los atacantes no pueden centrar. Infantil (12–13): juego libre y el gol tras centro vale doble para obligar a cerrar el área (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Coberturas y permutas en la línea de tres de fútbol 7",
+  "ref": "100 tareas de fútbol base · pág. 60"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (texto y 3 gráficos, pág. 60 mirada). Solo se añade el reparto con 12 jugadores (propuesta). Edad de la ficha original (alevín e infantil).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 40.6,
+   "ymin": -1.6,
+   "ymax": 30.6
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     30
+    ],
+    [
+     40,
+     30
+    ],
+    "0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 8,
+    "y": 12,
+    "f": 120
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 19,
+    "f": -100,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 22,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 20,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 15,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     19
+    ],
+    "b": [
+     3,
+     8
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     20,
+     8
+    ],
+    "b": [
+     9,
+     5.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 14,
+    "s1": 8
+   },
+   {
+    "a": [
+     8,
+     12
+    ],
+    "b": [
+     18.5,
+     11
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 14,
+    "s1": 8
+   },
+   {
+    "a": [
+     31,
+     9
+    ],
+    "b": [
+     25,
+     9.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4,
+    "s0": 14,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    20,
+    28.6,
+    "SALEN DEL CENTRO DEL CAMPO",
+    "middle"
+   ]
+  ]
+ }
+}

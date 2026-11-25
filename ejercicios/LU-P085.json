@@ -1,0 +1,199 @@
+{
+ "id": "LU-P085",
+ "bloque": "Defensa y presión",
+ "titulo": "9v9 con zona excluida",
+ "formato": "9v9 + 2 PT",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug. + 2 PT",
+ "espacio": "65 × 50 m",
+ "duracion": "24 min",
+ "series": "3 series de 7 min con 1 min 30 s de pausa (propuesta).",
+ "objetivo": "Salir jugando contra presión alta y conectar con los alejados (fuente). Para quien presiona: saltar juntos, cerrar el pase tenso y ganar la 2.ª jugada si el rival juega directo. Formas de conectar zonas (fuente): pase tenso al compañero que supera la franja, balón al espacio que abre un compañero o balón a disputar para ganar la 2.ª jugada. Errores típicos: pase tenso sin control previo del receptor, nadie para la 2.ª jugada, presionar en solitario. Qué observar: qué equipo gana los rechaces junto a la franja.",
+ "montaje": "Campo de 65 × 50 m, dos porterías y una franja central excluida de 10 m. Cada equipo: portero, 6 atrás y 3 arriba (propuesta).",
+ "juego": "Inicia siempre el portero. Se sale jugando y se envía a la otra zona: pase tenso, al espacio o a disputar. Se cruza la franja, pero nadie conduce ni recibe en ella. Un jugador de cada equipo puede cambiar de zona.",
+ "punto": "Gol: 1. Robo arriba y gol en 10 s: 2 (propuesta).",
+ "consigna": "Presiona junto y gana la 2.ª jugada.",
+ "variantes": {
+  "facil": "Franja de 6 m y dos jugadores pueden cambiar de zona (propuesta).",
+  "dificil": "Pase a la otra zona solo raso y tenso, o el portero inicia con 3 s como máximo (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): fútbol 7 en 50 × 40 m, 6 contra 6 (4 + 2 por zona). Cadete y juvenil: como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO CONDICIONADO - Salida balón - Presión alta - Conectar con alejados - Disputas",
+  "ref": "300 ejercicios Level Up Coach · tarea 84 (pág. 85)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ancho de la franja (10 m), reparto 6 + 3 por equipo (la fuente habla de 6 contra 4, 6 contra 3 y 7 contra 4 en cada zona), puntuación, series y adaptación (propuesta). Equipos de 9 + portero, inicio desde portería, zona excluida sin conducir ni recibir, un jugador de cada equipo que cambia de zona, tres formas de conectar y 50 × 65 m son de la fuente. Diagrama simplificado.",
+ "diagrama": {
+  "field": [
+   65,
+   50
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 66.6,
+   "ymin": -0.6,
+   "ymax": 50.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 25,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 65,
+    "y": 25,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     27.5,
+     0,
+     37.5,
+     50
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 38,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 40,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 47,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 51,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 53,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 51,
+    "y": 38,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     25
+    ],
+    "b": [
+     18.4,
+     20.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     19,
+     20
+    ],
+    "b": [
+     44.4,
+     15.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15.4,
+     30.4
+    ],
+    "b": [
+     18.4,
+     23
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    32.5,
+    48.8,
+    "PROHIBIDO RECIBIR",
+    "middle"
+   ]
+  ]
+ }
+}

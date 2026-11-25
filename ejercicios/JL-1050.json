@@ -1,0 +1,184 @@
+{
+ "id": "JL-1050",
+ "bloque": "Defensa y presión",
+ "titulo": "1v1 a 3 porterías neutras",
+ "formato": "1v1 × 3 parejas",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "8 × 1 min (fuente) con 30 s de pausa; cada minuto se cambia de pareja o de papel (propuesta).",
+ "objetivo": "Defender el 1 contra 1 cuando el atacante puede elegir entre tres porterías: cerrar la más cercana y robar con entrada o carga (fuente). Cómo explicarlo: la carga es hombro con hombro, con el brazo pegado al cuerpo, cuando el balón está a distancia de juego; la entrada, de pie, con el interior del pie al balón. Errores típicos: cargar con el codo o por detrás, tirarse al suelo, ir al balón cuando el atacante lo tiene pegado. Qué observar: si el defensor se coloca entre el atacante y la portería más cercana.",
+ "montaje": "Cuadrado de 20 × 20 m con tres porterías neutrales de 2 m (conos) dentro. Tres parejas, un balón por pareja.",
+ "juego": "El atacante desborda y cruza conduciendo una portería, por cualquier lado, y sigue con el balón. El defensor roba con entrada o carga y pasa a atacar. Sin repetir portería (propuesta).",
+ "punto": "Robo: 1 al defensor. Portería cruzada: 1 al atacante (propuesta).",
+ "consigna": "Cierra la portería cercana.",
+ "variantes": {
+  "facil": "Porterías de 3 m y el defensor empieza a 3 m (propuesta).",
+  "dificil": "Durante 1 min el mismo defensor intenta recuperar el máximo de balones (juego siguiente de la fuente)."
+ },
+ "adaptacion": "Alevín (10–11): porterías de 3 m. Infantil (12–13): de 2 m, como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 1:1 | entrada 1050",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 226, bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Sitio de las porterías, punto del atacante, regla de no repetir portería, pausas y adaptación (propuesta). 3 parejas en 20 × 20 m, tres porterías pequeñas neutrales de 2 m, 8 × 1 min, punto por recuperar con entrada o carga y atacante que sigue con el balón tras cruzar son de la fuente. Variación de JL-1044.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 20.6,
+   "ymin": -0.6,
+   "ymax": 20.6
+  },
+  "cones": [
+   [
+    2,
+    9
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    18,
+    9
+   ],
+   [
+    18,
+    11
+   ],
+   [
+    9,
+    18
+   ],
+   [
+    11,
+    18
+   ]
+  ],
+  "lines": [
+   [
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     11
+    ],
+    "0"
+   ],
+   [
+    [
+     18,
+     9
+    ],
+    [
+     18,
+     11
+    ],
+    "0"
+   ],
+   [
+    [
+     9,
+     18
+    ],
+    [
+     11,
+     18
+    ],
+    "0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 8.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 9.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 13,
+    "f": 120,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 15.5,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 5.5,
+    "f": -150
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9.5,
+     8.5
+    ],
+    "b": [
+     5,
+     5.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     5,
+     5.5
+    ],
+    "b": [
+     2.5,
+     9.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    19,
+    1.6,
+    "3 PORTERÍAS DE 2 M",
+    "end"
+   ]
+  ]
+ }
+}

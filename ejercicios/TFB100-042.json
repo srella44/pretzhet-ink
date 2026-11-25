@@ -1,0 +1,136 @@
+{
+ "id": "TFB100-042",
+ "bloque": "Defensa y presión",
+ "titulo": "1v1 en pasillo: a la banda",
+ "formato": "1v1 a miniportería",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "2–12 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "12 min",
+ "series": "3 series de 5 duelos por pareja con 1 min de descanso (fuente). Con más de 4 parejas, montar dos pasillos.",
+ "objetivo": "Defender el 1 contra 1 sin lanzarse: frenar antes de llegar, perfilarse y llevar al atacante hacia la banda, lejos de la portería (fuente). También: pasos cortos y piernas flexionadas, robar en el momento justo. Cómo explicarlo: corre rápido al salir y frena a 2–3 m; pie adelantado del lado de dentro. Errores típicos (fuente): llegar corriendo de frente y que te pase de largo, ponerse de frente con las piernas abiertas (te la pasa por el túnel), mirar los pies y las fintas, meter la pierna demasiado pronto. Qué observar: a qué distancia frena y hacia qué lado orienta.",
+ "montaje": "Pasillo de 20 × 12 m con miniportería en un fondo. El defensor, junto a ella con balón; el atacante, en el otro fondo.",
+ "juego": "El defensor pasa raso y sale: frena antes de llegar, se perfila y lleva al atacante a una banda. El atacante tiene 8 s para marcar. Si el defensor roba, sale conduciendo. Sin tirarse al suelo; balón fuera por banda: gana el defensor. Luego cambian.",
+ "punto": "Gol: 1 al atacante. Robo: 1; robo y salir conduciendo: 2.",
+ "consigna": "Frena, de lado y llévale a la banda.",
+ "variantes": {
+  "facil": "Pasillo de 10 m de ancho, o el atacante solo puede conducir, sin regates de velocidad (fuente).",
+  "dificil": "Pasillo más ancho o dos miniporterías, una en cada esquina del fondo: el defensor decide qué lado cierra (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): pasillo de 15 m de ancho. Alevín (10–11): 12 m y el defensor solo puntúa si roba sin hacer falta (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Defensa del 1 contra 1 en pasillo: frenar, perfilarse y llevar al atacante a la banda",
+  "ref": "100 tareas de fútbol base · pág. 57"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (texto y 3 gráficos, pág. 57 mirada). Solo se añade el uso de dos pasillos con muchas parejas (propuesta). Edad y nivel de la ficha original (benjamín y alevín, básico).",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 21.6,
+   "ymin": -0.6,
+   "ymax": 12.6
+  },
+  "goals": [
+   [
+    20,
+    6,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    20,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17.5,
+     6
+    ],
+    "b": [
+     2,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 14,
+    "s1": 14
+   },
+   {
+    "a": [
+     17,
+     5.2
+    ],
+    "b": [
+     11,
+     4.6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     3,
+     6.6
+    ],
+    "b": [
+     10,
+     10.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 14,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10.5,
+    11.4,
+    "LLEVAR A LA BANDA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "JL-1141",
+ "bloque": "Defensa y presión",
+ "titulo": "Anticipa en inferioridad",
+ "formato": "4v4 + 2 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "50 × 25 m",
+ "duracion": "8 min",
+ "series": "8 min seguidos (fuente) o 2 × 4 min con 1 min de pausa (propuesta). Los comodines cambian a mitad (propuesta).",
+ "objetivo": "Practicar la anticipación en inferioridad: los 4 que defienden contra 6 (4 + 2 comodines con el balón) solo pueden robar leyendo el pase y llegando antes (fuente). Anticipar es llegar al balón antes que el receptor, cortándolo por delante de él. Cómo explicarlo: mira a la vez balón y receptor; sal cuando el pase ya ha salido y va hacia él. Errores típicos: salir antes del pase (te la juegan a la espalda), llegar por detrás del receptor, anticipar sin cobertura. Qué observar: si los defensores se cierran por dentro y anticipan el pase más probable en vez de perseguir el balón.",
+ "montaje": "Campo de 50 × 25 m. Dos equipos de 4 y dos comodines con el equipo que tiene el balón (6 contra 4).",
+ "juego": "El equipo con balón lo mantiene a dos toques con los comodines. Los 4 que defienden buscan anticipar: cortar el pase por delante del receptor. Quien anticipa pasa a atacar.",
+ "punto": "Anticipación: 1. 10 pases seguidos: 1 (propuesta).",
+ "consigna": "Ciérrate dentro y anticipa.",
+ "variantes": {
+  "facil": "Un solo comodín (5 contra 4) (propuesta).",
+  "dificil": "Atacantes libres de toques (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 40 × 25 m y 8 pases para puntuar. Cadete (14–15): como está (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 1141",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 247, bloque 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Punto por 10 pases, pausas, variantes y adaptación (propuesta). 4 contra 4 + 2 comodines con el equipo en posesión, 50 × 25 m, 8 min, punto por anticipación, cambio de papel tras anticipar y atacantes a dos toques son de la fuente. Pareja de JL-1109 (comodines al revés).",
+ "diagrama": {
+  "field": [
+   50,
+   25
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 50.6,
+   "ymin": -0.6,
+   "ymax": 25.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 42,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 18,
+    "f": -150
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     19.4,
+     12.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     24,
+     8.6
+    ],
+    "b": [
+     21.2,
+     11.4
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 10,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    25,
+    24,
+    "6 CON BALÓN CONTRA 4",
+    "middle"
+   ]
+  ]
+ }
+}

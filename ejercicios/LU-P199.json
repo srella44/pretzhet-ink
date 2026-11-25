@@ -1,0 +1,216 @@
+{
+ "id": "LU-P199",
+ "bloque": "Defensa y presión",
+ "titulo": "9v9: segunda jugada",
+ "formato": "9v9 (con PT)",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug. (con PT)",
+ "espacio": "65 × 50 m",
+ "duracion": "24 min",
+ "series": "3 series de 7 min con 1 min 30 s de pausa; los inicios se alternan entre las dos porterías (fuente).",
+ "objetivo": "Juego directo y segunda jugada: el envío largo del portero o de un central, la disputa, la cobertura y ganar el rechace (fuente). Después, decidir: mantener y circular para progresar o atacar rápido (fuente). Para quien defiende: un central disputa y el otro cubre; los medios rodean la caída. Cómo explicarlo: antes del envío, cada uno sabe a qué cuadro va. Errores típicos: todos miran la disputa y nadie va al rechace, centrales en la misma línea sin cobertura. Qué observar: quién llega primero a la 2.ª jugada.",
+ "montaje": "Campo de 65 × 50 m con dos porterías. Dos equipos de 9 (con portero). La zona central se divide en 4 cuadros iguales, donde caen los envíos y las segundas jugadas.",
+ "juego": "Inicia el portero en largo o pasa a un central para que envíe él. Tras la disputa, el que gana la 2.ª jugada decide: circular para progresar o atacar rápido. Los inicios cambian de portería.",
+ "punto": "Gol: 1. Ganar la 2.ª jugada en los cuadros: 1 (propuesta).",
+ "consigna": "Uno disputa, otro cubre, todos al rechace.",
+ "variantes": {
+  "facil": "Envío solo desde el portero, sin presión en el inicio (propuesta).",
+  "dificil": "Tras ganar la 2.ª jugada, hay que finalizar en 8 s (propuesta)."
+ },
+ "adaptacion": "Cadete (14–15): 60 × 45 m y remate de cabeza solo dentro del área. Juvenil: como está. En menores de 14 se prefiere juego por abajo (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA - 9vs9 JUEGO DIRECTO - PROGRESIÓN",
+  "ref": "300 ejercicios Level Up Coach · tarea 198 (pág. 199)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas de los 4 cuadros, puntuación, series, variantes y adaptación (propuesta). Equipos de 9, zona central en 4 espacios para lanzamiento y 2.ª jugada, inicio del portero o del central, decisión tras la 2.ª jugada, alternar porterías y 65 × 50 m son de la fuente. Diagrama simplificado.",
+ "diagrama": {
+  "field": [
+   65,
+   50
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 66.6,
+   "ymin": -0.6,
+   "ymax": 50.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 25,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 65,
+    "y": 25,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     45,
+     0
+    ],
+    [
+     45,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     32.5,
+     0
+    ],
+    [
+     32.5,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     25
+    ],
+    [
+     45,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 32,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 29,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 39.5,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 50,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 51,
+    "y": 34,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     32
+    ],
+    "b": [
+     36.4,
+     19.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     37.5,
+     19.4
+    ],
+    "b": [
+     40.4,
+     32.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     41.5,
+     33.5
+    ],
+    "b": [
+     56,
+     36
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    32.5,
+    48.8,
+    "4 CUADROS DE 2.ª JUGADA",
+    "middle"
+   ]
+  ]
+ }
+}

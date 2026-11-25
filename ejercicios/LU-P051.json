@@ -1,0 +1,222 @@
+{
+ "id": "LU-P051",
+ "bloque": "Defensa y presión",
+ "titulo": "Defender en bloque bajo",
+ "formato": "10v9 + comodín + PT",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "20 jug. + PT",
+ "espacio": "75 × 40 m",
+ "duracion": "24 min",
+ "series": "3 series de 7 min con 1 min 30 s de pausa (propuesta).",
+ "objetivo": "Para el bloque bajo: bascular juntos, cerrar el centro y defender el 2 contra 2 en banda y la llegada de segunda línea; al robar, salir con el comodín (fuente). Para el ataque: amplitud, 2 contra 2 en banda, incorporaciones de segunda línea, ocupar la zona de rechace y buen cambio de rol tras pérdida (fuente). Cómo explicarlo: la línea se mueve con el balón, no con el rival. Errores típicos: lateral que sale solo y deja hueco, medio que no ayuda en banda, nadie en la frontal para el rechace. Qué observar: distancia entre líneas cuando el balón cambia de lado.",
+ "montaje": "Zona de 75 m de ancho × 40 de fondo con portería. 10 atacantes contra 9 en bloque bajo. Un comodín en una zona marcada lejos del área (propuesta).",
+ "juego": "Los 10 circulan en amplitud y buscan el 2 contra 2 en banda y el hombre libre; máximo 3 toques salvo al fijar. El comodín juega con quien tiene el balón sin salir de su zona.",
+ "punto": "Gol: 1. Robo y pase al comodín: 1.",
+ "consigna": "Bascula junto y cierra dentro.",
+ "variantes": {
+  "facil": "Sin límite de toques y comodín que puede moverse por todo el ancho (propuesta).",
+  "dificil": "Atacantes a dos toques o 10 contra 10 (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): fútbol 7 en 50 × 30 m, 6 contra 5 + comodín. Cadete y juvenil: como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA. Ataque ante Bloque Bajo - Amplitud - Situaciones banda - Incorporaciones 2º Línea",
+  "ref": "300 ejercicios Level Up Coach · tarea 50 (pág. 51)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad subida a 14–18 años (la base proponía 10–13: 21 jugadores en bloque bajo), lectura de 40 × 75 m como 75 de ancho × 40 de fondo, situación de la zona del comodín, series y adaptación (propuesta). Equipos de 10 y 9, comodín en zona marcada con quien ataca, máximo 3 toques salvo al fijar, el ataque solo puntúa con gol y la defensa al jugar con el comodín son de la fuente. Diagrama simplificado.",
+ "diagrama": {
+  "field": [
+   75,
+   40
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 75.6,
+   "ymin": -1.6,
+   "ymax": 40.6
+  },
+  "porterias": [
+   {
+    "x": 37.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     28,
+     33,
+     47,
+     40
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 24,
+    "y": 8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 7,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 7,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 51,
+    "y": 8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 55,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 37.5,
+    "y": 23,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 22,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 69,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 64,
+    "y": 22,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 49,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 37.5,
+    "y": 29,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 37.5,
+    "y": 37,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     22
+    ],
+    "b": [
+     6.5,
+     11.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     21
+    ],
+    "b": [
+     10,
+     3
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     24,
+     8.5
+    ],
+    "b": [
+     13,
+     9.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    47.5,
+    39.2,
+    "COMODÍN",
+    "start"
+   ]
+  ]
+ }
+}

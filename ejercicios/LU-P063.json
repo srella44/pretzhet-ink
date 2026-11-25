@@ -1,0 +1,194 @@
+{
+ "id": "LU-P063",
+ "bloque": "Defensa y presión",
+ "titulo": "6v5: supera la 1.ª línea",
+ "formato": "6v5 + PT",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug. + PT",
+ "espacio": "45 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta); cada 2 series cambian atacantes y defensores.",
+ "objetivo": "Para el ataque: superar la primera línea de presión rival y conectar con los puntas fijando al par (fuente): pared, conducción o pase y dejada. Para la defensa: acosar al par, marcar al hombre en zona 2 y no dejar girarse al que recibe. Cómo explicarlo: si te salta el defensor, juega con el de al lado; si nadie te salta, conduce. Errores típicos: pasar sin fijar, cruzar dos atacantes, defensa que se va al balón y deja al par. Qué observar: qué forma de superar la línea elige cada uno.",
+ "montaje": "Campo de 45 × 40 m con portería y portero en dos zonas: zona 1 (20 m), 3 atacantes contra 2; zona 2 (25 m), 3 contra 3 (propuesta).",
+ "juego": "Los de zona 1 pasan a zona 2 con pared, conducción o pase a un compañero de zona 2 y dejada. Solo cruza uno: arriba, 4 contra 3. Los defensores no salen de su zona. Si roban, nuevo balón del míster.",
+ "punto": "Gol: 1. Robo de la defensa: 1 (propuesta).",
+ "consigna": "Fija y suelta.",
+ "variantes": {
+  "facil": "Dos atacantes pueden cruzar (5 contra 3) (propuesta).",
+  "dificil": "Un defensor de zona 2 puede bajar a zona 1 a presionar (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 40 × 35 m y portería de fútbol 7. Cadete (14–15): como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA - Superar línea presión rival - Conectar con puntas - Fijar",
+  "ref": "300 ejercicios Level Up Coach · tarea 62 (pág. 63)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad subida a 12–15 años, reparto de jugadores por zona (3 contra 2 y 3 contra 3), medida de cada zona, punto de la defensa, series y adaptación (propuesta). Equipos de 6 y 5 + portero, tres formas de pasar a zona 2, un solo atacante que cruza, 4 contra 3 arriba, defensores sin salir de su zona, balón nuevo del míster y 40 × 45 m son de la fuente.",
+ "diagrama": {
+  "field": [
+   45,
+   40
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 46.6,
+   "ymin": -0.6,
+   "ymax": 40.6
+  },
+  "porterias": [
+   {
+    "x": 45,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 24,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 35,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32.5,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 32,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     24
+    ],
+    "b": [
+     27.4,
+     24
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10.5,
+     23
+    ],
+    "b": [
+     24,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     27.6,
+     23.4
+    ],
+    "b": [
+     24.4,
+     14.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 10,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    10,
+    39,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    32.5,
+    39,
+    "ZONA 2",
+    "middle"
+   ]
+  ]
+ }
+}

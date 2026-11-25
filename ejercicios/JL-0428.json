@@ -1,0 +1,171 @@
+{
+ "id": "JL-0428",
+ "bloque": "Finalización",
+ "titulo": "2v2+4 con 4 apoyos",
+ "formato": "2v2 + 4 comodines + PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + PT",
+ "espacio": "Área grande (40 × 16,5 m)",
+ "duracion": "8 min",
+ "series": "4 × 2 min (fuente) con 45 s de pausa; cada 2 min se cambian los comodines (fuente), de modo que en 4 series todos juegan dentro (propuesta).",
+ "objetivo": "Finalizar rápido con muchos apoyos: el equipo con balón juega 6 contra 2 con comodines en las bandas y en la frontal y debe tirar antes del 4.º pase (fuente). Cómo explicarlo: de banda se centra o se pasa atrás; de la frontal se tira o se filtra. Errores típicos: pasar entre comodines sin atacar el área, no fijar al defensor antes de soltar, rematar sin perfilarse. Qué observar: si los dos atacantes se reparten primer y segundo palo.",
+ "montaje": "Área grande con portero neutral. Dos parejas dentro. Cuatro comodines por fuera: uno en cada lateral del área y dos en la frontal.",
+ "juego": "Las dos parejas atacan la misma portería. Comodines con quien tiene el balón (6 contra 2), a dos toques (propuesta). Tiro antes del 4.º pase o cambia el balón. Si el portero bloca, saca a la otra pareja.",
+ "punto": "Gol: 1; tras centro de banda: 2 (propuesta).",
+ "consigna": "Fija, suelta y ataca el área.",
+ "variantes": {
+  "facil": "Comodines a tres toques y tiro antes del 5.º pase (propuesta).",
+  "dificil": "Comodines a un toque, sin pase entre comodines y tiro antes del 3.er pase (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): área de fútbol 7 y remate de cabeza solo con balón raso o a media altura. Cadete (14–15): como está (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 2:2+4 | entrada 428",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 100, bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Separación de los comodines de la frontal, toques, puntuación y pausas (propuesta). Jugadores, área grande con portería normal y portero neutral, comodines (2 en bandas y 2 en frontal) con la posesión, cambio cada 2 min, 4 × 2 min, tiro antes del 4.º pase y saque del portero son de la fuente (que anota 9 jugadores). Variación del mismo juego que JL-0423 (más comodines).",
+ "diagrama": {
+  "field": [
+   40,
+   16.5
+  ],
+  "extent": {
+   "xmin": -2.8,
+   "xmax": 42.8,
+   "ymin": -1.6,
+   "ymax": 19.4
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 41.4,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 18,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 23,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 9,
+    "f": -135
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 6,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     -0.6,
+     9.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s1": 12
+   },
+   {
+    "a": [
+     -1.4,
+     9
+    ],
+    "b": [
+     26.5,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     28,
+     9
+    ],
+    "b": [
+     26.6,
+     4.8
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     26.3,
+     4.3
+    ],
+    "b": [
+     21.5,
+     0.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    42.6,
+    17.8,
+    "4 COMODINES CON EL BALÓN",
+    "end"
+   ]
+  ]
+ }
+}

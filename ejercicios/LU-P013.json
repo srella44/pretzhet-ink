@@ -1,0 +1,204 @@
+{
+ "id": "LU-P013",
+ "bloque": "Defensa y presión",
+ "titulo": "10v9: jugar al espacio",
+ "formato": "10v9 + PT",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "19 jug. + PT",
+ "espacio": "90 × 45 m",
+ "duracion": "24 min",
+ "series": "3 series de 7 min con 1 min 30 s de pausa (propuesta); se cambia el equipo que ataca la portería grande cada serie si se quiere trabajar a los dos.",
+ "objetivo": "Para el equipo de 10: circular con paciencia y atacar la espalda de la defensa con desmarques de ruptura (fuente). Para el de 9: defender en bloque con presión media, controlar la profundidad y, cuando ven venir el pase, retroceder hacia el área (fuente). Cómo explicarlo: el pase al espacio sale cuando el delantero arranca, no antes. Errores típicos: defensa que no retrocede a tiempo, delanteros en fuera de juego, pase al espacio sin nadie que corra. Qué observar: la altura de la línea defensiva cuando el pasador levanta la cabeza.",
+ "montaje": "Campo de 90 × 45 m: portería con portero en un fondo y tres miniporterías en el otro. 10 (4-4-2) atacan la portería; 9 (4-3-2) la defienden.",
+ "juego": "Los 10 inician desde sus defensas y circulan hasta que uno recibe al espacio, tras su ruptura: solo así vale el gol. Los 9 pueden hundirse cerca del área; si roban, marcan en una miniportería.",
+ "punto": "Gol: 1; en miniportería: 1 (propuesta).",
+ "consigna": "Defensa: mira la espalda, retrocede.",
+ "variantes": {
+  "facil": "Fuera de juego solo desde la línea del área (propuesta).",
+  "dificil": "El equipo de 9 juega con 10 (igualdad) o el gol solo vale tras recibir al espacio y finalizar en 6 s (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): fútbol 7, 7 contra 6 en 60 × 40 m con dos miniporterías. Cadete y juvenil: como está (propuesta). La fuente es de fútbol profesional: edades, medidas para base y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA (10vs9+P) - Jugar al espacio",
+  "ref": "300 ejercicios Level Up Coach · tarea 12 (pág. 13)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Puntuación, series, variantes y adaptación (propuesta). Equipos de 10 (4-4-2) y 9 (4-3-2), portería contra tres miniporterías, inicio desde los defensas, gol solo tras recibir al espacio, defensa que se hunde cerca del área y 90 × 45 m son de la fuente. Diagrama simplificado (no salen todos los jugadores).",
+ "diagrama": {
+  "field": [
+   90,
+   45
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 91.6,
+   "ymin": -0.6,
+   "ymax": 45.6
+  },
+  "porterias": [
+   {
+    "x": 90,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    22.5,
+    "L"
+   ],
+   [
+    0,
+    37,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 38,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 31,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 61,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 69,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 67,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 67,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 69,
+    "y": 38,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 53,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 53,
+    "y": 30,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     61,
+     21.5
+    ],
+    "b": [
+     77,
+     15
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     42,
+     31
+    ],
+    "b": [
+     76.5,
+     15.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     67,
+     16.5
+    ],
+    "b": [
+     74,
+     13
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    1.2,
+    43.6,
+    "3 MINIPORTERÍAS",
+    "start"
+   ]
+  ]
+ }
+}
