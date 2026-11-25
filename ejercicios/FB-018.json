@@ -1,0 +1,135 @@
+{
+ "bloque": "Finalización",
+ "titulo": "Finta de espaldas y tiro",
+ "formato": "1v1 + pasador + P",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug. + P",
+ "espacio": "20 × 16 m frente a portería",
+ "duracion": "15 min",
+ "series": "4 series de 6 balones por jugador con 1′ de pausa; rotación pasador → delantero → defensor → pasador (propuesta).",
+ "objetivo": "Recibir de espaldas a la portería con un defensor detrás, engañarlo con una finta (amago a un lado, giro al otro) y tirar rápido. Cómo explicarlo: primero sin defensor, enseñando el amago con el hombro y el giro con el exterior o el interior. Errores típicos: recibir pegado al defensor, girar hacia donde está el defensor, finta lenta, tiro tras demasiados toques. Qué observar: separarse 1–2 m del defensor antes de recibir, mirar por encima del hombro, finta con el cuerpo y giro al lado contrario, tiro en 2 toques. Material: portería de fútbol 7, portero, 12 balones, 4 conos.",
+ "montaje": "Portería de fútbol 7 y portero. Delantero de espaldas a 13 m, con el defensor 1 m detrás. Pasador con balones a 20 m.",
+ "juego": "El pasador da raso al delantero (1). Este se separa, amaga girarse por un lado y gira por el otro (2) y tira en 2 toques como máximo (3). El defensor es pasivo hasta la serie 3.",
+ "punto": "Gol: 2. Tiro entre palos: 1. Robo: 1 para el defensor.",
+ "consigna": "Mira antes, amaga y gira al lado libre.",
+ "variantes": {
+  "facil": "Defensor de cono o pasivo toda la tarea; dos toques para girar y tirar (propuesta).",
+  "dificil": "Defensor activo desde el principio y tiro en 3″; el pasador puede pedir la devolución (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): defensor pasivo y tiro a 10 m. Alevín (10–11): defensor activo en la serie 3 y 4 y tiro a 13 m. Infantil: con portería grande (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11). Colocación, distancias, reglas del defensor, puntos, rotación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   22
+  ],
+  "tag": "20 × 22 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -3,
+   "ymax": 23.5
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 13,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 10.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 20.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 22.6,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     20.5
+    ],
+    "b": [
+     10,
+     13.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10,
+     13
+    ],
+    "b": [
+     13.5,
+     11.2
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     13.6,
+     10.6
+    ],
+    "b": [
+     7.8,
+     1.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 14
+   }
+  ],
+  "labels": [
+   [
+    6.5,
+    13,
+    "AMAGO",
+    "end"
+   ]
+  ]
+ },
+ "id": "FB-018",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FINTA DE ESPALDAS Y TIRO",
+  "ref": "https://toplidercoach.com/futbol-base/finta-de-espaldas-y-tiro/"
+ },
+ "top": "",
+ "probado": false
+}

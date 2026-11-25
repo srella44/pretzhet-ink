@@ -1,0 +1,151 @@
+{
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rombo de pases",
+ "formato": "Rueda · 2 rombos",
+ "edad": "10–15 años",
+ "nivel": "Fácil",
+ "jugadores": "8–14 jug.",
+ "espacio": "Rombo de 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ con 45″ de pausa: 1) a 2 toques, 2) a 1 toque, 3) con pared, 4) sentido contrario.",
+ "objetivo": "Pase y control básicos con continuidad: pasar, seguir el pase y llegar a tiempo, con un reto de equipo para que no sea mecánico. Cómo explicarlo: medio grupo mira una vuelta lenta. Errores típicos: pase al pie malo, recibir parado y de frente, olvidarse de seguir el pase. Qué observar: pase con el interior y tobillo firme, control hacia el siguiente cono, apoyo de 2 pasos antes de recibir. Material: 8 conos para 2 rombos, 4 balones.",
+ "montaje": "Dos rombos de 12 m (conos a 8,5 m), separados 5 m. Por rombo: 2 en el cono de salida con balón y 1 en cada uno de los otros.",
+ "juego": "El de salida pasa al cono de la derecha (1) y sigue su pase (2). El que recibe controla orientado y pasa al siguiente (3). Desde la serie 3, el pase del cono 2 al 3 es una pared.",
+ "punto": "Vuelta completa sin fallo: 1 punto. Gana el rombo con más.",
+ "consigna": "Pasa y sigue tu pase.",
+ "variantes": {
+  "facil": "Rombo de 10 m y sin competir: solo contar vueltas (propuesta).",
+  "dificil": "Dos balones por rombo a la vez y todo a un toque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 10 m y 2 toques. Infantil (12–13): 12 m y pared. Cadete (14–15): 15 m, un toque y dos balones (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15). Forma de rombo, distancias, series, competición entre rombos, puntos, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "nofield": true,
+  "tag": "rombo de 12 m",
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 16,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "cones": [
+   [
+    7,
+    1
+   ],
+   [
+    13,
+    7
+   ],
+   [
+    7,
+    13
+   ],
+   [
+    1,
+    7
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 13,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15.2,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 1,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     13
+    ],
+    "b": [
+     13,
+     7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     7.8,
+     14.2
+    ],
+    "b": [
+     13.8,
+     8.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 14
+   },
+   {
+    "a": [
+     13,
+     7
+    ],
+    "b": [
+     7,
+     1
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    7,
+    7,
+    "12 m",
+    "middle"
+   ]
+  ]
+ },
+ "id": "FB-014",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASES",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pases-2/"
+ },
+ "top": "",
+ "probado": false
+}

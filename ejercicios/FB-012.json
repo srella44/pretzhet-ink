@@ -1,0 +1,210 @@
+{
+ "bloque": "Finalización",
+ "titulo": "Tres postas, una portería",
+ "formato": "Circuito · 3 postas + P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–12 jug. + P",
+ "espacio": "Área y frontal (30 × 25 m)",
+ "duracion": "18 min",
+ "series": "3 series de 5′ con 1′ de pausa; tras cada serie todos rotan de posta (1 → 2 → 3 → 1).",
+ "objetivo": "Finalizar con tres situaciones distintas que se dan en partido: tiro tras regate, tiro tras pared y remate de un pase lateral. Cómo explicarlo: un ejemplo de cada posta antes de empezar. Errores típicos: tirar sin mirar al portero, cuerpo hacia atrás (balón alto), rematar parado esperando el pase. Qué observar: pie de apoyo junto al balón, tiro cruzado y raso, llegada al primer o segundo palo en el pase lateral. Material: portería, portero, 3 picas, 20 balones, conos.",
+ "montaje": "Portería y portero. Posta 1 (izquierda, 22 m) con una pica a 16 m. Posta 2 (centro, 25 m) con un jugador de pared a 18 m. Posta 3: pasador en la línea de fondo.",
+ "juego": "Salen por turno cada 8″. 1 conduce, regatea la pica y tira (1). 2 hace la pared (2) y tira de primeras (3). En la 3, pase raso atrás al que entra (4). Cada uno cambia de fila.",
+ "punto": "Gol: 1 punto para la posta. Parada blocada: 1 para el portero.",
+ "consigna": "Mira al portero y tira cruzado y raso.",
+ "variantes": {
+  "facil": "Sin portero, con 2 conos en las esquinas para apuntar; salida cada 12″ (propuesta).",
+  "dificil": "En la posta 1 la pica es un defensor pasivo y en la 3 hay un defensor que sale al pase (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de fútbol 7 y tiros desde 14 m. Infantil (12–13): fútbol 11 y 16–18 m. Prebenjamines: solo posta 1 (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13). Postas, distancias, turnos, rotación, puntos, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   26
+  ],
+  "tag": "30 × 26 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -3,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     16
+    ],
+    "6 5"
+   ],
+   [
+    [
+     4,
+     16
+    ],
+    [
+     26,
+     16
+    ],
+    "6 5"
+   ],
+   [
+    [
+     26,
+     16
+    ],
+    [
+     26,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    7,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 23.5,
+    "f": -80,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 24.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 18,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 2,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 19,
+    "f": -110
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     23.5
+    ],
+    "b": [
+     8.5,
+     12
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     24.5
+    ],
+    "b": [
+     15,
+     18
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15,
+     18
+    ],
+    "b": [
+     17.5,
+     13.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     28,
+     2
+    ],
+    "b": [
+     22.5,
+     11
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    3,
+    26.8,
+    "POSTA 1",
+    "middle"
+   ],
+   [
+    15,
+    27.4,
+    "POSTA 2",
+    "middle"
+   ],
+   [
+    25.5,
+    -1.8,
+    "POSTA 3",
+    "middle"
+   ]
+  ]
+ },
+ "id": "FB-012",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-finalizacion/"
+ },
+ "top": "",
+ "probado": false
+}

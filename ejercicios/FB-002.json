@@ -1,0 +1,213 @@
+{
+ "bloque": "Calentamiento",
+ "titulo": "Slalom y duelo al balón",
+ "formato": "1v1 · 2 filas",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "22 × 16 m",
+ "duracion": "12 min",
+ "series": "3 series de 3′ con 1′ de pausa; cada serie cambia el tipo de agilidad en el slalom: frontal, lateral y hacia atrás.",
+ "objetivo": "Activar con agilidad (apoyos rápidos y cambios de dirección) y pasar enseguida a un duelo 1 contra 1 con balón, como en el juego: llegar antes, proteger y regatear. Cómo explicarlo: una pareja de muestra a ritmo lento. Errores típicos: pisar los platos, llegar al balón y frenarse, regatear sin mirar la puerta libre. Qué observar: apoyos cortos y cadera baja en el slalom, primer toque para alejar el balón del rival, cambio de ritmo al encarar. Material: 10 platos, 4 conos para 2 puertas, 15 balones, petos.",
+ "montaje": "22 × 16 m. Dos filas en un lado corto, a 8 m (amarillos y rojos), cada una con 5 platos en zigzag delante. Entrenador en el centro con balones. Al fondo, 2 puertas de 2 m.",
+ "juego": "A la palmada sale uno de cada fila y hace su slalom (1 y 2). El entrenador lanza un balón al centro (3): quien lo gana ataca y marca cruzando conduciendo una puerta (4). Si roba el otro, ataca él.",
+ "punto": "Gol: 1 punto para la fila. Gana la fila con más puntos.",
+ "consigna": "Pies rápidos y cabeza arriba al llegar.",
+ "variantes": {
+  "facil": "Sin slalom: sale el que el entrenador nombre y el balón se deja quieto en el centro (propuesta).",
+  "dificil": "Slalom de 7 platos con giros de 180° y 3 puertas: el entrenador dice a cuál no se puede marcar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): slalom frontal y puertas de 3 m. Infantil (12–13): las 3 formas de slalom. Cadete (14–15): espacio 26 × 18 m y el balón llega por alto (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15). Montaje, slalom, duelo, puertas, puntos, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   22,
+   16
+  ],
+  "tag": "22 × 16 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 23.5,
+   "ymin": -1.5,
+   "ymax": 17.5
+  },
+  "discs": [
+   [
+    2.5,
+    3
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5.5,
+    3
+   ],
+   [
+    7,
+    5
+   ],
+   [
+    8.5,
+    3
+   ],
+   [
+    2.5,
+    13
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    5.5,
+    13
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8.5,
+    13
+   ]
+  ],
+  "cones": [
+   [
+    22,
+    2
+   ],
+   [
+    22,
+    6
+   ],
+   [
+    22,
+    10
+   ],
+   [
+    22,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.8,
+    "y": 4,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 0.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -1.8,
+    "y": 12,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    14.5,
+    8
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.5,
+     4
+    ],
+    "b": [
+     10.5,
+     5.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     0.5,
+     12
+    ],
+    "b": [
+     10.5,
+     10.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     12,
+     8
+    ],
+    "b": [
+     14.5,
+     8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     15.5,
+     8
+    ],
+    "b": [
+     21.5,
+     4.5
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    13.5,
+    12.8,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ]
+ },
+ "id": "FB-002",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD Y REGATE COMPETITIVO",
+  "ref": "https://toplidercoach.com/futbol-base/17562/"
+ },
+ "top": "",
+ "probado": false
+}

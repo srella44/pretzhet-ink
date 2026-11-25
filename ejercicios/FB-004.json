@@ -1,0 +1,185 @@
+{
+ "bloque": "Técnica y duelos",
+ "titulo": "Puertas de colores",
+ "formato": "Conducción · equipos de 3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–16 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 1′30″ con 1′ de pausa. Rondas 1 y 2 sin ladrones; rondas 3 y 4 con 2 ladrones (uno de cada equipo, por turnos).",
+ "objetivo": "Conducir con la cabeza levantada, elegir la puerta libre y cambiar de dirección tras cruzarla, en competición por equipos. Cómo explicarlo: un jugador hace el recorrido de 3 puertas en voz alta («amarilla, roja, azul»). Errores típicos: cruzar dos veces la misma puerta, chocar por mirar el balón, conducir lejos del pie con ladrones. Qué observar: toques cortos al acercarse a la puerta, giro con interior o exterior al salir, protección del balón con el cuerpo cuando llega un ladrón. Material: 18 conos de 3 colores (9 puertas de 2 m), 1 balón por jugador, petos.",
+ "montaje": "25 × 25 m con 9 puertas de 2 m (3 amarillas, 3 rojas, 3 azules). Equipos de 3–4 con peto, todos dentro con un balón.",
+ "juego": "A la señal, cada uno conduce y cruza puertas, nunca 2 seguidas del mismo color. Cuenta en voz alta. Rondas 3 y 4: 2 ladrones; si te roban, 5 toques fuera y vuelves.",
+ "punto": "Puerta bien cruzada: 1 punto para el equipo. Se suman las 4 rondas.",
+ "consigna": "Cabeza arriba: busca la puerta libre.",
+ "variantes": {
+  "facil": "Se puede repetir color y las puertas son de 3 m; sin ladrones (propuesta).",
+  "dificil": "El entrenador canta un color y solo valen puertas de ese color hasta la siguiente señal; 3 ladrones (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): puertas de 3 m y ladrones solo en la última ronda. Infantil (12–13): tal cual, con pierna menos hábil en la ronda 4. Si hay menos de 10, 20 × 20 m y 6 puertas (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13). Es la versión 3 de una serie de competiciones de conducción; se diseña distinta de FB-006 (relevos): puertas de colores con ladrones. Montaje, reglas, puntos, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "dashed": true,
+  "tag": "25 × 25 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "cones": [
+   [
+    4,
+    4
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    19,
+    4
+   ],
+   [
+    21,
+    4
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    3,
+    14
+   ],
+   [
+    22,
+    11
+   ],
+   [
+    22,
+    13
+   ],
+   [
+    5,
+    21
+   ],
+   [
+    7,
+    21
+   ],
+   [
+    18,
+    21
+   ],
+   [
+    20,
+    21
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 16,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 17,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 12.5,
+    "f": 45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     8
+    ],
+    "b": [
+     5.3,
+     4.8
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     16,
+     17
+    ],
+    "b": [
+     19,
+     20.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     12.5
+    ],
+    "b": [
+     14.5,
+     15
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    12,
+    9.8,
+    "LADRÓN",
+    "middle"
+   ]
+  ]
+ },
+ "id": "FB-004",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COMPETICION CONDUCCIÓN 3",
+  "ref": "https://toplidercoach.com/futbol-base/competicion-conduccion-3/"
+ },
+ "top": "",
+ "probado": false
+}

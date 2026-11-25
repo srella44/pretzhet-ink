@@ -1,0 +1,207 @@
+{
+ "id": "LU-P076",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Salida: 3 opciones",
+ "formato": "Rueda de pases + 2 pasivos",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; los 2 pasivos cambian cada serie (propuesta). Rotación por orden alfabético sea cual sea la opción (fuente).",
+ "objetivo": "Inicio de juego con toma de decisión y tercer hombre (fuente): el central B mira dónde están los 2 rivales pasivos y elige la salida libre. Cómo explicarlo: el entrenador mueve a los pasivos y pregunta «¿por dónde sales?». Errores típicos: B decide antes de mirar, el interior recibe de espaldas y no descarga, el lateral se queda pegado a la línea sin pedirla al espacio. Qué observar: perfil abierto de B al recibir, descarga de cara del interior, pase al espacio delante del lateral. Material: 8 conos, 6 balones, 2 petos para los pasivos.",
+ "montaje": "30 × 30 m. A con balones en un fondo y el central B; delante, lateral C, interior I y mediocentro M; F y G cierran la rueda. 2 rivales pasivos.",
+ "juego": "A pasa a B (1). B mira a los pasivos y elige: espacio del lateral C (2), interior I que descarga a M y este abre a C, o M que abre a C. C pasa a F (3), F largo a G (4) y G a A.",
+ "punto": "Sin puntos. Mala elección: 1 para los pasivos (propuesta).",
+ "consigna": "Mira antes de recibir.",
+ "variantes": {
+  "facil": "Un solo pasivo y B con 2 toques (propuesta).",
+  "dificil": "Los pasivos pasan a semiactivos (pueden interceptar) y B juega a 2 toques (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 25 × 25 m, un pasivo y solo dos opciones (lateral o mediocentro). Infantil (12–13): tal cual. Cadete: semiactivos (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE con toma de decisión - Inicio de juego - Tercer hombre",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 76 (tarea 75)"
+ },
+ "completado": "Fuente: secuencia A → B, tres opciones de B (espacio del lateral, interior que descarga al mediocentro, mediocentro que abre), C → F → G → A, oposición pasiva que cambia de sitio, rotación alfabética, 14 jugadores, 30 × 30 m. El interior se llama I y el mediocentro M para no confundirlos con los rivales (E en la fuente). Tiempos, punto por mala elección, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "dashed": true,
+  "tag": "30 × 30 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 28,
+    "f": -30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 27,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 25,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 20.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 21.5,
+    "y": 20,
+    "f": 120
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     28
+    ],
+    "b": [
+     11,
+     27
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     27
+    ],
+    "b": [
+     27,
+     18.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     27,
+     25
+    ],
+    "b": [
+     23,
+     3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     23,
+     3
+    ],
+    "b": [
+     5,
+     3
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    2,
+    30.6,
+    "A",
+    "middle"
+   ],
+   [
+    11,
+    29.6,
+    "B",
+    "middle"
+   ],
+   [
+    29.5,
+    25,
+    "C",
+    "start"
+   ],
+   [
+    18,
+    12.4,
+    "I",
+    "middle"
+   ],
+   [
+    8,
+    11.4,
+    "M",
+    "middle"
+   ],
+   [
+    25.5,
+    3,
+    "F",
+    "start"
+   ],
+   [
+    5,
+    0.4,
+    "G",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

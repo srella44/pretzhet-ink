@@ -1,0 +1,157 @@
+{
+ "bloque": "Finalización",
+ "titulo": "Intercambio de puntas: 2 contra 1",
+ "formato": "2v1 + P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + P",
+ "espacio": "30 × 30 m",
+ "duracion": "18 min",
+ "series": "4 series de 4′ con 1′ de pausa; rotación mediocentro → punta → defensor → mediocentro. En las series 3 y 4 el defensor es activo (propuesta).",
+ "objetivo": "Que los dos delanteros se intercambien la posición (uno viene corto y el otro ataca el espacio que deja) para engañar al defensor y finalizar en 2 contra 1. Cómo explicarlo: sin defensor y andando, con un cono donde empieza cada carrera. Errores típicos: los dos vienen a pedir al pie, el que viene corto se gira sin mirar, el pase al espacio llega tarde. Qué observar: carreras cruzadas a la vez, dejada de cara de primeras, pase al hueco entre defensor y portero, el que no remata va al rechace. Material: portería, portero, 15 balones, 6 conos.",
+ "montaje": "Portería y portero. Mediocentro M con balones a 30 m. Dos puntas a 18 m, separados 10 m; un defensor entre ellos a 15 m.",
+ "juego": "Los puntas cruzan: uno viene corto (1) y el otro ataca el hueco que deja (2). M pasa al que viene (3), que la deja de cara o se gira y pasa al espacio al compañero (4), que remata.",
+ "punto": "Gol: 2. Tras dejada y pase al espacio: 3. Robo: 1 para el defensor.",
+ "consigna": "Uno viene, el otro se va: a la vez.",
+ "variantes": {
+  "facil": "Defensor pasivo toda la tarea y M puede pasar directamente al espacio (propuesta).",
+  "dificil": "Dos defensores (2 contra 2) y un tercer atacante que llega desde M al rechace (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 25 × 25 m y defensor activo solo en la serie 4. Cadete (14–15): tal cual o 2 contra 2. Alevín: sin defensor (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15). Se interpreta «intercambio» como intercambio de posiciones entre los dos delanteros y (III) como la versión con oposición. Colocación, carreras, puntos, rotación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "tag": "30 × 30 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -3,
+   "ymax": 31.5
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 28,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 30.3,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 13,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 9.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     13
+    ],
+    "b": [
+     17.5,
+     19
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     8,
+     13
+    ],
+    "b": [
+     12,
+     5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     15,
+     28
+    ],
+    "b": [
+     17.3,
+     19.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17.5,
+     19
+    ],
+    "b": [
+     12.5,
+     5.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "nt": 0.6
+   }
+  ],
+  "labels": [
+   [
+    17.6,
+    28,
+    "M",
+    "start"
+   ]
+  ]
+ },
+ "id": "FB-022",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FINALIZACIÓN INTERCAMBIO (III)",
+  "ref": "https://toplidercoach.com/futbol-base/finalizacion-intercambio-iii/"
+ },
+ "top": "",
+ "probado": false
+}

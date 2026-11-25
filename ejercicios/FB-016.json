@@ -1,0 +1,186 @@
+{
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito técnico por parejas",
+ "formato": "Circuito · parejas",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "16 min",
+ "series": "4 vueltas de 3′ con 1′ de pausa; en cada vuelta se cambia la estación de inicio y la pierna (derecha, izquierda, libre, la mala).",
+ "objetivo": "Repetir mucho con balón los gestos básicos (conducir, pasar, controlar y tirar) en estaciones cortas, siempre con un compañero y un pequeño reto. Cómo explicarlo: el entrenador enseña cada estación con una pareja antes de empezar. Errores típicos: esperar mucho en una estación, pases con la punta, tiros sin mirar. Qué observar: balón cerca en la conducción, pase con el interior, control con la planta o el interior, tiro con el empeine. Material: 8 conos, 4 platos, 2 miniporterías, 6 balones.",
+ "montaje": "20 × 20 m con 4 estaciones en las esquinas, 1 pareja por estación: slalom de 4 conos; puerta de 1 m a 6 m; cuadrado de toques de 3 × 3 m; miniportería a 8 m.",
+ "juego": "Cada pareja hace 45″ por estación y gira a la palmada: slalom (1), pases por la puerta (2), toques de planta e interior y conducción y tiro (3). Cuentan sus aciertos.",
+ "punto": "Se suman slaloms, pases por la puerta y goles de la pareja.",
+ "consigna": "Mucho balón y cabeza arriba.",
+ "variantes": {
+  "facil": "Estaciones de 1′ y puerta de 2 m (propuesta).",
+  "dificil": "Estaciones de 30″ y solo con la pierna menos hábil en la vuelta 4 (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): solo estaciones 1 y 4. Benjamín (8–9): las 4 con puerta de 2 m. Alevín (10–11): puerta de 1 m y tiro a 10 m (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11). Estaciones, parejas, tiempos, recuento, variantes y adaptación son (propuesta). Distinto de FB-010 (multiacción con decisión): aquí son estaciones fijas por parejas para benjamines.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "dashed": true,
+  "tag": "20 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 22,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    3,
+    2
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    7,
+    2
+   ],
+   [
+    9,
+    2
+   ],
+   [
+    15,
+    7.5
+   ],
+   [
+    15,
+    8.5
+   ]
+  ],
+  "discs": [
+   [
+    2,
+    14
+   ],
+   [
+    5,
+    14
+   ],
+   [
+    2,
+    17
+   ],
+   [
+    5,
+    17
+   ]
+  ],
+  "goals": [
+   [
+    20,
+    16,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 15.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     2
+    ],
+    "b": [
+     9.5,
+     3.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     11.5,
+     8
+    ],
+    "b": [
+     18.5,
+     8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     16
+    ],
+    "b": [
+     19.5,
+     16
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    3.5,
+    19.3,
+    "TOQUES",
+    "middle"
+   ]
+  ]
+ },
+ "id": "FB-016",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO TÉCNICO",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-tecnico-2/"
+ },
+ "top": "",
+ "probado": false
+}

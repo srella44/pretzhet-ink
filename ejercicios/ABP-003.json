@@ -1,0 +1,189 @@
+{
+ "id": "ABP-003",
+ "bloque": "Balón parado",
+ "titulo": "Falta frontal: amago y tiro",
+ "formato": "3v4+P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug.",
+ "espacio": "Frontal del área",
+ "duracion": "15 min",
+ "series": "3 series de 6 faltas con 1′ de pausa; cada serie cambian los papeles de los 3 atacantes (amago, toque y tiro) y entran 2 nuevos en la barrera (propuesta).",
+ "objetivo": "Falta frontal ensayada: un amago que mueve la barrera y al portero, un toque corto lateral y un tiro desde un ángulo nuevo. Cómo explicarlo: andando, con un cono donde muere el toque corto; después a ritmo real. Errores típicos: el amago se nota (frena antes), el toque es largo y el tirador llega forzado, el tirador espera parado. Qué observar: que el primero corra de verdad hasta pasar el balón, que el pase corto sea de 2–3 m y raso, y que el tirador golpee de primeras con el empeine. Material: 1 portería, 4 picas o 4 jugadores en barrera, 10 balones.",
+ "montaje": "Falta frontal a 20 m. Barrera de 3 a 9 m (o 3 picas) y portero. A1 y A2 junto al balón y A3 a 4 m a la derecha. Un cuarto defensor tapa a A3.",
+ "juego": "A1 corre y pasa por encima del balón sin tocarlo (1). A2 toca en corto 2 m a la derecha (2) y A3 llega lanzado y tira de primeras (3) por el lado sin barrera. El cuarto defensor sale al mover el balón.",
+ "punto": "Gol: 2. Tiro entre palos: 1. Tiro a la barrera o fuera: 0.",
+ "consigna": "Que el amago sea de verdad.",
+ "variantes": {
+  "facil": "Sin el cuarto defensor y con la barrera de picas; el tirador puede dar un toque de control (propuesta).",
+  "dificil": "El cuarto defensor sale desde la barrera y el portero conoce las dos opciones; A2 decide si toca corto o tira directo según se mueva la barrera (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): falta a 16–18 m y barrera de 2. Infantil (12–13): 20 m y barrera de 3. Para los más pequeños, tirar con el interior buscando colocación antes que fuerza (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 25 acciones a balón parado",
+  "titulo_original": "FALTA FRONTAL 1",
+  "ref": "25-jugadas-ensayadas.pdf · p. 7"
+ },
+ "completado": "La fuente es solo un esquema gráfico sin texto y en esta tanda no se pudo ver la página: amago, toque corto, tiro, colocación, puntuación, series, variantes y adaptación son (propuesta). Revisar con el dibujo de AFOPRO.",
+ "diagrama": {
+  "field": [
+   30,
+   26
+  ],
+  "tag": "frontal 30 × 26 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -2.5,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     3,
+     12
+    ],
+    [
+     27,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     27,
+     12
+    ],
+    [
+     27,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 24,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 22,
+    "f": -100,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 23,
+    "f": -120
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 16,
+    "f": 150
+   }
+  ],
+  "balls": [],
+  "arrows": [
+   {
+    "a": [
+     12.5,
+     24
+    ],
+    "b": [
+     18.5,
+     18.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     16,
+     22
+    ],
+    "b": [
+     19.5,
+     20.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     19.8,
+     20.6
+    ],
+    "b": [
+     19,
+     1.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 14,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    15,
+    9.0,
+    "BARRERA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

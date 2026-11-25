@@ -1,0 +1,227 @@
+{
+ "id": "LU-P024",
+ "bloque": "Finalización",
+ "titulo": "Rueda y remate",
+ "formato": "Rueda de pases + P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "20 min",
+ "series": "4 secuencias × 4′ con 1′ de pausa; rotación A → B → D → C → A tras cada acción y cambio de lado en cada repetición (propuesta).",
+ "objetivo": "Progresar con pases de primeras y acabar en remate (fuente). La elección de B (a qué lado devuelve) decide la de los demás (fuente). Secuencia 1: dejada del punta para el interior que entra (C) y pase al espacio al otro punta. Secuencia 2: el punta deja a B, que filtra. Secuencia 3: lateral que se incorpora, centro y remate de los dos puntas. Secuencia 4: pared lateral-punta y centro. Errores típicos: puntas parados, pases al pie cuando hay espacio, remates sin acompañar. Qué observar: comunicación, timing del desmarque, segundo palo ocupado. Material: portería grande, portero, 15 balones, 6 conos.",
+ "montaje": "35 × 35 m con portería y portero. A con balones a 32 m; B por delante; 2 puntas (D) a 12 m y 2 interiores (C) abiertos a 18 m.",
+ "juego": "A pasa a B (1); B devuelve a un lado (2) y A, de primeras, busca a un punta (3). Este deja de cara a C, que entra por dentro (4), y C filtra al otro punta (5), que remata. Cada 4′ cambia la secuencia.",
+ "punto": "Gol: 1 para el grupo. Reto: 6 por secuencia.",
+ "consigna": "Mira antes: tu elección manda.",
+ "variantes": {
+  "facil": "Solo secuencias 1 y 2, 2 toques permitidos (propuesta).",
+  "dificil": "Un defensor pasivo que se coloca delante de un punta: B debe devolver al lado contrario (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 30 m y secuencias 1 y 2. Infantil (12–13): las 4. Cadete: con defensor (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDAS DE PASE - Toma de decisión - Progresión - Finalización",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 24 (tarea 23)"
+ },
+ "completado": "Fuente: 4 secuencias con A, B, puntas D, C y laterales, la elección de uno condiciona la de los demás, 12 jugadores, 35 × 35 m. Distancias, portero, rotación, tiempos, reto, variantes y adaptación son (propuesta). Se dibuja la secuencia 1.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "tag": "35 × 35 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 36.5,
+   "ymin": -3,
+   "ymax": 36.5
+  },
+  "porterias": [
+   {
+    "x": 17.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 33,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 24,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 30,
+    "f": -60,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 11,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 21,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 21,
+    "f": -135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17.5,
+     33
+    ],
+    "b": [
+     17.5,
+     24
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17.5,
+     24
+    ],
+    "b": [
+     9,
+     30
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     9,
+     30
+    ],
+    "b": [
+     10,
+     11
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 12
+   },
+   {
+    "a": [
+     3,
+     21
+    ],
+    "b": [
+     11.5,
+     17.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10,
+     11
+    ],
+    "b": [
+     12,
+     17
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     12.5,
+     17
+    ],
+    "b": [
+     24,
+     5
+    ],
+    "k": "pass",
+    "n": 5,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    14.8,
+    33.3,
+    "A",
+    "end"
+   ],
+   [
+    20.3,
+    24,
+    "B",
+    "start"
+   ],
+   [
+    10,
+    8.4,
+    "D",
+    "middle"
+   ],
+   [
+    25,
+    8.4,
+    "D",
+    "middle"
+   ],
+   [
+    3,
+    23.7,
+    "C",
+    "middle"
+   ],
+   [
+    32,
+    23.7,
+    "C",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

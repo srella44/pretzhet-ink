@@ -1,0 +1,217 @@
+{
+ "bloque": "Técnica y duelos",
+ "titulo": "Relevos de conducción",
+ "formato": "Relevos · 4 equipos",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "4 carriles de 15 × 3 m",
+ "duracion": "12 min",
+ "series": "5 rondas (una por superficie: interior, exterior, planta, pierna menos hábil, libre) con 1′ de pausa entre rondas.",
+ "objetivo": "Conducción en slalom con control cercano, giro rápido y conducción en velocidad en línea recta, en una competición por relevos. Cómo explicarlo: el entrenador hace una ida y vuelta mostrando la superficie de la ronda. Errores típicos: saltarse conos, girar dando una vuelta grande, entregar el relevo con un pase fuerte que se escapa. Qué observar: toques cortos en el slalom y largos en la vuelta, giro con la planta pegado al último cono, relevo con pase raso al pie. Material: 4 × 5 conos, 4 balones, 4 platos de salida.",
+ "montaje": "4 carriles de 15 m, a 3 m entre sí: 4 conos de slalom a 2,5 m y un cono final. Un equipo de 2–4 por carril, en fila, con balón.",
+ "juego": "A la señal, el primero conduce en slalom (1), gira en el cono final con la planta (2) y vuelve recto en velocidad (3). Tras la salida pasa al siguiente.",
+ "punto": "Por ronda: 3, 2, 1 y 0 puntos. Cono derribado: repetir desde él.",
+ "consigna": "Toques cortos entre conos y largos al volver.",
+ "variantes": {
+  "facil": "Sin slalom: ida y vuelta en recta con giro en el cono (propuesta).",
+  "dificil": "Slalom con 6 conos a 1,5 m y la vuelta con el balón tocando solo con la pierna menos hábil (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 12 m y conos a 3 m. Infantil (12–13): 15 m y superficies obligatorias. Con equipos desiguales, el equipo corto repite un jugador (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13). Carriles, slalom, giro, relevo, puntos, rondas por superficie, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   17,
+   14
+  ],
+  "nofield": true,
+  "tag": "carriles de 15 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 18,
+   "ymin": -1,
+   "ymax": 15
+  },
+  "cones": [
+   [
+    3,
+    2
+   ],
+   [
+    5.5,
+    2
+   ],
+   [
+    8,
+    2
+   ],
+   [
+    10.5,
+    2
+   ],
+   [
+    15,
+    2
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    5.5,
+    7
+   ],
+   [
+    8,
+    7
+   ],
+   [
+    10.5,
+    7
+   ],
+   [
+    15,
+    7
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    5.5,
+    12
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    10.5,
+    12
+   ],
+   [
+    15,
+    12
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     14
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": 2,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 0.8,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": -1.5,
+    "y": 7,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 13.5,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": -1.5,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     2
+    ],
+    "b": [
+     10.5,
+     3.6
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     10.8,
+     8.5
+    ],
+    "b": [
+     15.5,
+     8.2
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     13.5,
+     13
+    ],
+    "b": [
+     2,
+     13.2
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    0,
+    -0.2,
+    "SALIDA",
+    "middle"
+   ]
+  ]
+ },
+ "id": "FB-006",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COMPETICIÓN CONDUCCIÓN 1",
+  "ref": "https://toplidercoach.com/futbol-base/competicion-conduccion-1/"
+ },
+ "top": "",
+ "probado": false
+}

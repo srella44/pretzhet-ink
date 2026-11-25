@@ -1,0 +1,154 @@
+{
+ "bloque": "Calentamiento",
+ "titulo": "¡Atrápame!",
+ "formato": "Parejas · persecución con balón",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "6 persecuciones de 30″ con 30″ de pausa; se cambian los papeles en cada una y de pareja cada 2.",
+ "objetivo": "Calentar conduciendo con cambios de dirección y de ritmo, con la cabeza levantada, en un juego de persecución por parejas. Cómo explicarlo: una pareja de muestra. Errores típicos: el que persigue se olvida de su balón, el que huye sale del cuadrado o se esconde detrás de otros sin moverse, choques por mirar el balón. Qué observar: balón a menos de 1 m del pie, cambios de dirección con interior y exterior, frenadas con la planta. Material: 4 conos, 1 balón por jugador, petos para el que persigue.",
+ "montaje": "20 × 20 m. Parejas, cada uno con su balón, separadas 5 m. En cada pareja uno persigue (peto en la mano) y el otro huye.",
+ "juego": "A la señal conducen los dos. El que persigue intenta tocar la espalda del otro con la mano sin alejarse más de 1 m de su balón. Nadie sale del cuadrado. A los 30″ se cambian.",
+ "punto": "Pillada: 1. Perder el balón o salir: 1 para el otro.",
+ "consigna": "Balón pegado, cabeza arriba y cambia de ritmo.",
+ "variantes": {
+  "facil": "El que persigue va sin balón (propuesta).",
+  "dificil": "Para pillar hay que tocar el balón del que huye con el propio balón, de un pase (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): perseguidor sin balón en las 2 primeras rondas. Alevín (10–11): tal cual. Infantil (12–13): 15 × 15 m y pillar con un pase (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13). Parejas, reglas de persecución, puntos, tiempos, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "dashed": true,
+  "tag": "20 × 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 2.5,
+    "y": 8.5,
+    "f": -30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 11,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 4.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 16,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 18,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     4
+    ],
+    "b": [
+     12.5,
+     2.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     2.5,
+     8.5
+    ],
+    "b": [
+     5.5,
+     6
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     16,
+     11
+    ],
+    "b": [
+     13.5,
+     15
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "labels": []
+ },
+ "id": "FB-020",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ATRÁPAME SI PUEDES",
+  "ref": "https://toplidercoach.com/futbol-base/atrapame-si-puedes/"
+ },
+ "top": "",
+ "probado": false
+}

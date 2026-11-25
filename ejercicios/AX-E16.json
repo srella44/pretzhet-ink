@@ -1,0 +1,233 @@
+{
+ "id": "AX-E16",
+ "bloque": "Defensa y presión",
+ "titulo": "Cerrar el pase al hombre libre",
+ "formato": "10v10+P",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "21 jug.",
+ "espacio": "60 × 50 m (3/4 de campo)",
+ "duracion": "24 min",
+ "series": "4 series de 5′ con 1′30″ de pausa; tras 2 series se cambian los papeles de atacantes y defensores (propuesta).",
+ "objetivo": "Conectar zonas y encontrar hombres libres (fuente) visto desde la defensa: presionar al poseedor y, a la vez, tapar el pase al compañero libre de la franja siguiente. Cómo explicarlo: parar el juego cuando un atacante reciba solo y preguntar quién tenía que taparlo. Errores típicos: todos saltan al balón y dejan libre al de detrás, la línea de medios se parte, nadie avisa. Qué observar: distancia entre líneas (10–12 m), orientación del cuerpo para ver balón y hombre, saltos coordinados a la señal del más cercano. Material: portería grande, 2 miniporterías, 12 conos para las franjas, petos de 2 colores.",
+ "montaje": "60 × 50 m en 3 franjas de 20 m. Portería y portero en un fondo; 2 miniporterías en el otro. 10 atacantes desde la franja 1 contra 10 defensores + portero.",
+ "juego": "Para pasar de franja hay que dar el pase a un compañero libre (sin rival a 2 m) en la siguiente. Los defensores presionan al poseedor y cierran ese pase. Si roban, 8 s para marcar en miniportería.",
+ "punto": "Defensa: robo en franjas 1–2: 2; gol: 1. Ataque: gol: 2.",
+ "consigna": "Tapa el pase al libre antes de saltar.",
+ "variantes": {
+  "facil": "8 contra 8 + portero en 50 × 45 m y 5 s para el pase al libre (propuesta).",
+  "dificil": "Los atacantes juegan a 2 toques en la franja 2 y el robo en franja 1 vale 3 (propuesta)."
+ },
+ "adaptacion": "Cadete (14–15): 9 contra 9 en 55 × 45 m. Juvenil (16–18): tal cual. En fútbol 8, 7 contra 7 + portero en media cancha (propuesta).",
+ "fuente": {
+  "autor": "Alex Ortiz (base de datos de ejercicios)",
+  "titulo_original": "A-D Conectar Zonas - Hombres Libres",
+  "ref": "BASE-DATOS-EJERCICIOS @ALEXORTIZ1987 · hoja BASE DE DATOS, fila 21"
+ },
+ "completado": "La fuente solo da título, objetivos (conectar zonas, líneas de pase), espacio (3/4 de campo), fase (todas) y 21 jugadores. Reparto 10 contra 10 + portero, franjas, regla del hombre libre, miniporterías, puntos, series, variantes y adaptación son (propuesta); edad propuesta por la base. Se orienta a la defensa por estar en el bloque Defensa y presión.",
+ "diagrama": {
+  "field": [
+   60,
+   50
+  ],
+  "tag": "60 × 50 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 63,
+   "ymin": -1.5,
+   "ymax": 51.5
+  },
+  "porterias": [
+   {
+    "x": 60,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    0,
+    35,
+    "L"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     40,
+     0
+    ],
+    [
+     40,
+     50
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 30,
+    "y": 38,
+    "r": 3.2
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 42,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 38,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 52,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     20
+    ],
+    "b": [
+     10.5,
+     23.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     24,
+     31
+    ],
+    "b": [
+     26.5,
+     35
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     25
+    ],
+    "b": [
+     29,
+     36.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 14,
+    "nt": 0.35
+   }
+  ],
+  "labels": [
+   [
+    34,
+    38,
+    "HOMBRE LIBRE",
+    "start"
+   ],
+   [
+    10,
+    48.5,
+    "FRANJA 1",
+    "middle"
+   ],
+   [
+    30,
+    48.5,
+    "FRANJA 2",
+    "middle"
+   ],
+   [
+    50,
+    48.5,
+    "FRANJA 3",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

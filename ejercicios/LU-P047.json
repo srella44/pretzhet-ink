@@ -1,0 +1,191 @@
+{
+ "id": "LU-P047",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda tercer hombre",
+ "formato": "Rueda de pases · 6 postas",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "28 × 15 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; rotación A → B → C → D → E → F → A al seguir el pase (fuente: orden alfabético; tiempos, propuesta).",
+ "objetivo": "Tercer hombre: saltar una línea con el pase a C y conectar con el intermedio B ya de cara (fuente). Cómo explicarlo: con un cono como «defensor» delante de B para que la finta tenga sentido. Errores típicos: B no finta y recibe tapado, C devuelve fuerte o al pie malo, B recibe de espaldas. Qué observar: finta que aleja del supuesto defensor, cambio de dirección de B en el momento en que C controla, dejada de cara al pie de golpeo, pase medio tenso a D. Material: 4 conos, 4 balones.",
+ "montaje": "28 × 15 m. En un lado A (con balón), B por delante y C abierto; en el otro, D, E y F igual. 2 por posta. Un cono hace de defensor de B.",
+ "juego": "B finta y se ofrece (1). A pasa a C (2), que se ofrece en horizontal o vertical según B. B cambia de dirección y C se la deja de cara (3). B pasa largo a D (4) y empieza el otro lado.",
+ "punto": "Sin puntos. Reto: 10 secuencias por lado en 3′.",
+ "consigna": "Finta, ofrécete y recibe de cara.",
+ "variantes": {
+  "facil": "Sin finta y con 2 toques en todos los pases (propuesta).",
+  "dificil": "Un defensor real y pasivo junto a B; dejada y pase largo de primeras (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 12 m, pase largo raso. Infantil (12–13): tal cual. Cadete (14–15): a un toque salvo B (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE. Concepto de 3º hombre - Saltar línea y conectar con intermedio",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 47 (tarea 46)"
+ },
+ "completado": "Fuente: secuencia de 6 pasos (finta y apoyo de B, pase de A a C, dejada de cara, pase medio a D, repetir con E y F), rotación alfabética, máxima intensidad y finta previa, 12 jugadores, 15 × 28 m. Colocación exacta, cono-defensor, tiempos, reto, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   28,
+   15
+  ],
+  "dashed": true,
+  "tag": "28 × 15 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 31,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "cones": [
+   [
+    9.5,
+    9.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 7.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 11,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2.5,
+    "f": 150
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29.4,
+    "y": 7.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 4,
+    "f": 150
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 12.5,
+    "f": -30
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     11
+    ],
+    "b": [
+     11.5,
+     7.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     1,
+     7.5
+    ],
+    "b": [
+     9,
+     2.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9,
+     2.5
+    ],
+    "b": [
+     11.8,
+     6.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     11.5,
+     7.5
+    ],
+    "b": [
+     27,
+     7.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 10,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    7,
+    14,
+    "B",
+    "middle"
+   ],
+   [
+    9,
+    0.0,
+    "C",
+    "middle"
+   ],
+   [
+    1,
+    10.2,
+    "A",
+    "middle"
+   ],
+   [
+    27,
+    10.2,
+    "D",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,154 @@
+{
+ "id": "LEI-122",
+ "bloque": "Calentamiento",
+ "titulo": "Calma con balón",
+ "formato": "Individual · 1 balón c/u",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "Todo el grupo",
+ "espacio": "Círculo de 20 m",
+ "duracion": "12 min",
+ "series": "4 partes: 2′ manejo suave, 2′ toques, 4′ estiramientos, 2′ andar con balón y 2′ de charla final (fuente; reparto de minutos de los estiramientos y charla, propuesta).",
+ "objetivo": "Bajar el ritmo al final de la sesión sin perder el contacto con el balón (fuente: poca exigencia técnica por el tempo bajo; estiramientos y actividad suave para reducir la rigidez muscular) y cerrar con una revisión de la sesión. Cómo explicarlo: el entrenador marca cada cambio con una palmada. Errores típicos: convertirlo en carrera, toques con fuerza que mandan el balón lejos, estiramientos con prisa. Qué observar: todos en movimiento suave, cabeza arriba para no chocar, respuesta a la pregunta «¿qué he mejorado hoy?».",
+ "montaje": "Círculo de 20 m de diámetro marcado con 8 conos. Cada jugador con un balón dentro del círculo. El entrenador en el borde.",
+ "juego": "2′ conduciendo despacio con interior, exterior y planta. 2′ de toques (pie, muslo, cabeza). Se deja el balón y cada uno estira. 2′ andando con balón. Se acaba sentados repasando la sesión.",
+ "punto": "Sin puntos. Reto suave: récord de toques sin que caiga.",
+ "consigna": "Despacio, cabeza arriba y respirando.",
+ "variantes": {
+  "facil": "Toques con un bote permitido entre cada toque (propuesta).",
+  "dificil": "Toques alternando pie derecho, izquierdo y muslo en orden; en la conducción, cambio de superficie cada palmada (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): toques con bote y estiramientos guiados por el entrenador. Alevín e infantil (10–13): tal cual; cada jugador dice una cosa que ha hecho bien (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "End of session cool down 1 Circle.",
+  "ref": "LeicesterCity.pdf · p. 140"
+ },
+ "completado": "Fuente: círculo, cada uno con balón, 2′ de manejo a ritmo bajo, 2′ de toques con distintas partes del cuerpo, estiramientos individuales, 2′ andando con balón y repaso de la sesión; 20 min. Diámetro del círculo, reto de toques, variantes y adaptación son (propuesta). Antes estaba en el bloque «Vuelta a la calma» (ya no existe).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "nofield": true,
+  "tag": "círculo de 20 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    10,
+    0
+   ],
+   [
+    17.1,
+    2.9
+   ],
+   [
+    20,
+    10
+   ],
+   [
+    17.1,
+    17.1
+   ],
+   [
+    10,
+    20
+   ],
+   [
+    2.9,
+    17.1
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    2.9,
+    2.9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 21.6,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     5
+    ],
+    "b": [
+     11,
+     3.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15,
+     13
+    ],
+    "b": [
+     12,
+     16.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ },
+ "top": "",
+ "probado": false
+}

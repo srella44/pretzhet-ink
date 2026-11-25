@@ -1,0 +1,161 @@
+{
+ "id": "DOS-057",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Fútbol tenis por divisiones",
+ "formato": "2v2",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "Campos de 8 × 12 m",
+ "duracion": "30 min",
+ "series": "6 partidos de 4′ (o a 5 puntos) con 1′ para cambiar de campo; las parejas ganadoras suben y las perdedoras bajan (fuente: por divisiones; tiempos propuesta).",
+ "objetivo": "Habilidad y golpeo en competición (fuente): controlar balones que botan, jugar con todas las superficies y decidir rápido entre controlar, pasar al compañero o devolver. Cómo explicarlo: un punto de muestra con el entrenador. Errores típicos: dejar botar dos veces, mirar solo el balón y no el hueco rival, devolver siempre de primeras sin preparar. Qué observar: control orientado para dejarlo al compañero, búsqueda del espacio vacío del campo rival, comunicación «¡mía!». Material: red de fútbol tenis o una fila de conos/vallas de 40 cm por campo, 1 balón por campo, petos.",
+ "montaje": "Varios campos de 8 × 12 m con red o fila de conos en medio (campo 1 = primera división). Una pareja por mitad y un balón.",
+ "juego": "Saque a bote pronto. Máximo 2 toques por jugador y 1 bote; se puede pasar al compañero. Tras cada partido, quien gana sube de campo y quien pierde baja.",
+ "punto": "Punto si bota dos veces, sale o no pasa la red. A 5 (propuesta).",
+ "consigna": "Control, pase al compañero y remate al hueco.",
+ "variantes": {
+  "facil": "Dos botes permitidos y 3 toques por jugador; red más baja (propuesta).",
+  "dificil": "Sin bote, 1 toque por jugador o puntos dobles si se gana de cabeza (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campos de 6 × 10 m y un bote. Infantil (12–13): tal cual. Con número impar, la pareja que espera entra en el último campo a la siguiente ronda (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "Futbol tenis",
+  "ref": "dosier.pdf · pág. 17, 22 (sesiones S1.5 y S2.5)"
+ },
+ "probado": true,
+ "completado": "Fuente: partidos de fútbol tenis, saque a bote pronto, 2 toques por jugador, 1 bote máximo, varios campos por divisiones, 30′. Medidas de cada campo, 2v2, partidos a 5, tiempos, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   8
+  ],
+  "tag": "8 × 12 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 13.5,
+   "ymin": -1.5,
+   "ymax": 9.5
+  },
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     8
+    ],
+    "2 0"
+   ]
+  ],
+  "cones": [
+   [
+    6,
+    0
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6.2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 1.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10.5,
+    "y": 5.8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     2
+    ],
+    "b": [
+     10,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10.5,
+     5.8
+    ],
+    "b": [
+     9,
+     1.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9,
+     1.8
+    ],
+    "b": [
+     3,
+     5.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "nt": 0.35
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.9,
+    "RED",
+    "middle"
+   ]
+  ]
+ },
+ "top": ""
+}

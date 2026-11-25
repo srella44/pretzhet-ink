@@ -1,0 +1,157 @@
+{
+ "id": "LU-P006",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de paredes",
+ "formato": "Rueda de pases · tríos",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "18 jug. (3 × 6)",
+ "espacio": "14 × 14 m",
+ "duracion": "15 min",
+ "series": "3 niveles × 4′ con 1′ de pausa; a mitad de cada nivel se cambia el sentido de giro para usar las dos piernas (fuente: alternar sentidos; tiempos, propuesta).",
+ "objetivo": "Pase, control orientado, pared y timing (fuente). Nivel 1: pared con el mismo compañero. Nivel 2: la pared la da un tercero (C). Nivel 3: triangulación de primeras. Cómo explicarlo: un balón a ritmo lento con el grupo mirando; luego los 3 cuadrados a la vez. Errores típicos: arrancar antes de que salga el pase, pared con el pie lejano, pases botando. Qué observar: apoyo cerca (3–4 m) antes del desmarque al espacio, pase al pie bueno del que llega, controles hacia la siguiente posta. Material: 12 conos para 3 cuadrados, 3–6 balones.",
+ "montaje": "3 cuadrados de 14 × 14 m, uno por grupo de 6. Postas en 3 esquinas: A (2 y balón), B (2) y C (2). Cada uno sigue a su pase.",
+ "juego": "Nivel 1: A pasa a B (1) y le da apoyo; B se la devuelve (2), corre al espacio (3) y recibe la pared (4). B pasa a C, que controla orientado y juega a A. Nivel 2: la pared la da C. Nivel 3: triangulación de primeras.",
+ "punto": "Sin puntos. Reto: 8 secuencias seguidas sin fallo.",
+ "consigna": "Apoya cerca y luego ataca el espacio.",
+ "variantes": {
+  "facil": "Solo nivel 1 y con 2 toques en todos los pases (propuesta).",
+  "dificil": "Dos balones a la vez por cuadrado y todo a un toque; o un defensor pasivo en el centro (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 12 × 12 m y niveles 1 y 2. Infantil (12–13): los 3 niveles. Cadete: dos balones (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE - Progresión, paredes y triangulaciones",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 6 (tarea 5)"
+ },
+ "completado": "Fuente: 3 niveles de pared y triangulación entre A, B y C, alternar sentidos, 18 jugadores, 14 × 14 m. Reparto en 3 cuadrados de 6, colocación de las postas, tiempos, reto, variantes y adaptación son (propuesta). Sin gráfico original visible: se dibuja el nivel 1.",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "dashed": true,
+  "tag": "14 × 14 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 16.5,
+   "ymin": -2,
+   "ymax": 16.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 13,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 14.8,
+    "f": -45,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 13,
+    "f": -135
+   },
+   {
+    "r": "C",
+    "x": 15.2,
+    "y": 14.8,
+    "f": -135,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 9.5,
+    "f": -60,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     13
+    ],
+    "b": [
+     8,
+     1.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     1.5
+    ],
+    "b": [
+     4,
+     9.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "nt": 0.45
+   },
+   {
+    "a": [
+     8,
+     1.5
+    ],
+    "b": [
+     11.5,
+     6.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     4,
+     9.5
+    ],
+    "b": [
+     11.3,
+     6.8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    4,
+    12,
+    "APOYO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

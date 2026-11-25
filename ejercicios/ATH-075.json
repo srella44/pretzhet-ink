@@ -1,0 +1,190 @@
+{
+ "id": "ATH-075",
+ "bloque": "Finalización",
+ "titulo": "Llegada frontal y tiro",
+ "formato": "Rueda de pases + P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; en las series 2 y 4 se juega por el lado izquierdo para tirar con la otra pierna (propuesta).",
+ "objetivo": "Tiro desde la frontal tras una rueda de pases corta (fuente), cuidando el detalle de cada posta (fuente). Cómo explicarlo: primero sin portero, para corregir el apoyo y el golpeo. Errores típicos: el pivote devuelve fuerte, el tirador llega parado o con el pie cambiado, tiro alto por echar el cuerpo atrás. Qué observar: dejada a 1–2 m por delante del tirador, carrera en diagonal para golpear con el interior o el empeine, pie de apoyo al lado del balón, seguir el tiro al rechace. Material: portería, portero, 15 balones, 4 conos.",
+ "montaje": "Portería y portero. A con balones a 26 m, centrado; B (pivote) de espaldas a 19 m; C a 22 m, abierto 6 m a la derecha. 2–3 por posta.",
+ "juego": "A pasa raso a B (1), que deja de cara hacia la frontal (2). C llega lanzado en diagonal (3) y tira desde 17 m (4). Rotación A → B → C → A.",
+ "punto": "Gol de primeras: 2. Con control: 1. Rechace: 1.",
+ "consigna": "Llega lanzado y golpea encima del balón.",
+ "variantes": {
+  "facil": "Tiro con control permitido y portería sin portero, con dianas en las esquinas (propuesta).",
+  "dificil": "Un defensor sale desde el área al pase de B; el tirador puede pasar a A, que se incorpora (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): tiro a 14 m y portería de fútbol 7. Infantil (12–13): 17–18 m. Benjamín: sin pivote, pase directo de A a C (propuesta).",
+ "fuente": {
+  "autor": "Athletic Club · Manual de ejercicios de fútbol",
+  "titulo_original": "LLEGADAS CORTAS FRONTALES. TIROS 2",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 109"
+ },
+ "completado": "Fuente (texto breve): tiro tras una rueda de pases, insistir en la correcta ejecución y cuidar los detalles de cada posta. Colocación de las postas, distancias, secuencia, rotación, puntos, series, variantes y adaptación son (propuesta); edad y jugadores propuestos por la base. No hay copia del PDF en el repositorio para ver el diagrama original.",
+ "diagrama": {
+  "field": [
+   30,
+   28
+  ],
+  "tag": "30 × 28 m",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -3,
+   "ymax": 29.5
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     16
+    ],
+    "6 5"
+   ],
+   [
+    [
+     4,
+     16
+    ],
+    [
+     26,
+     16
+    ],
+    "6 5"
+   ],
+   [
+    [
+     26,
+     16
+    ],
+    [
+     26,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 27,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 18,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 22,
+    "f": -130
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     27
+    ],
+    "b": [
+     15,
+     18
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15,
+     18
+    ],
+    "b": [
+     17,
+     14.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     25,
+     22
+    ],
+    "b": [
+     18,
+     15.2
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     17.5,
+     14.5
+    ],
+    "b": [
+     12.5,
+     1.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 10,
+    "s1": 14
+   }
+  ],
+  "labels": [
+   [
+    12.2,
+    27,
+    "A",
+    "end"
+   ],
+   [
+    12.2,
+    18,
+    "B",
+    "end"
+   ],
+   [
+    27.6,
+    22,
+    "C",
+    "start"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

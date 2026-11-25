@@ -1,0 +1,216 @@
+{
+ "id": "ABP-001",
+ "bloque": "Balón parado",
+ "titulo": "Falta lejana al 2.º palo",
+ "formato": "5v4+P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–12 jug.",
+ "espacio": "Medio campo",
+ "duracion": "15 min",
+ "series": "3 series de 6 lanzamientos (3 desde cada banda) con 1′30″ de pausa; tras cada serie, 2 rematadores pasan a defender y 2 defensores a rematar (propuesta).",
+ "objetivo": "Jugada ensayada de falta lejana: arrastrar con los de delante para que el remate llegue desde atrás al segundo palo. Cómo explicarlo: primero andando y sin defensores, señalando con conos dónde termina cada carrera; después a ritmo real con defensa. Errores típicos: salir antes del golpeo (fuera de juego), los cuatro corren al mismo sitio, el centro sale flojo y el portero lo coge, nadie va al rechace. Qué observar: que los arrastres crucen por delante del portero, que el del segundo palo llegue lanzado y no parado, y que el lanzador mire antes de golpear. Material: 1 portería grande, 10 balones, 6 conos y petos de 2 colores.",
+ "montaje": "Medio campo con portería y portero. Falta a 30 m, cerca de la banda izquierda. 1 lanzador y 4 rematadores en línea a 18 m; 4 defensores a 14 m.",
+ "juego": "Al golpeo salen los 4: los 2 de dentro arrastran al primer palo y al penalti (1 y 2); los 2 de fuera atacan el segundo palo (3). El lanzador centra tenso al segundo palo (4). Vale 1 rechace.",
+ "punto": "Gol: 2. Remate entre palos: 1. Despeje: 1 para la defensa.",
+ "consigna": "Arrastra tú para que remate el de detrás.",
+ "variantes": {
+  "facil": "Sin defensores primero y después con 2 defensores pasivos; centro desde 25 m (propuesta).",
+  "dificil": "Defensa en zona con 5 y un sexto defensor que sale al rechace; el lanzador elige primer o segundo palo según cómo se coloque la defensa (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): falta a 22–25 m y balón n.º 4; el centro puede ir bombeado. Infantil (12–13): 30 m y centro tenso. En fútbol 7, 3 rematadores y 3 defensores (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 25 acciones a balón parado",
+  "titulo_original": "FALTA ALEJADA 1",
+  "ref": "25-jugadas-ensayadas.pdf · p. 4"
+ },
+ "completado": "La fuente es solo un esquema gráfico sin texto y en esta tanda no se pudo ver la página: colocación, movimientos (arrastres y ataque al segundo palo), puntuación, series, variantes y adaptación son (propuesta) a partir del nombre de la jugada. Revisar con el dibujo de AFOPRO.",
+ "diagrama": {
+  "field": [
+   36,
+   32
+  ],
+  "nofield": false,
+  "tag": "medio campo",
+  "extent": {
+   "xmin": -1,
+   "xmax": 37,
+   "ymin": -2.5,
+   "ymax": 33
+  },
+  "porterias": [
+   {
+    "x": 18,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     8,
+     6
+    ],
+    [
+     28,
+     6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     28,
+     6
+    ],
+    [
+     28,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 29,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 26.5,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 23.5,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 12,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15.5,
+     20
+    ],
+    "b": [
+     13,
+     4.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10,
+     20
+    ],
+    "b": [
+     15.5,
+     8.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     26.5,
+     20
+    ],
+    "b": [
+     23,
+     4.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     4,
+     29
+    ],
+    "b": [
+     23,
+     6
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 16,
+    "nt": 0.25
+   }
+  ],
+  "labels": [
+   [
+    31.5,
+    7.5,
+    "2.º PALO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

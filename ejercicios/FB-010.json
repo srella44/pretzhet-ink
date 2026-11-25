@@ -1,0 +1,192 @@
+{
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito por colores",
+ "formato": "Circuito · 2 equipos",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "15 min",
+ "series": "3 series de 4′ con 1′ de pausa. En cada serie cambia la acción de la estación 2 (pared con interior, con exterior o control aéreo).",
+ "objetivo": "Encadenar acciones técnicas distintas (conducción, pared, control y tiro) con una decisión en la última: el entrenador canta el color de la miniportería. Cómo explicarlo: un jugador recorre el circuito y se nombra cada acción. Errores típicos: hacer el circuito sin cambio de ritmo, pared con pase fuerte, tirar sin mirar el color cantado. Qué observar: toques cortos en el slalom y largo al salir, pase al pie del compañero de la pared, control orientado hacia la portería correcta. Material: 6 picas, 4 conos, 2 miniporterías de colores distintos, 15 balones, petos.",
+ "montaje": "30 × 20 m, un circuito por equipo: slalom de 5 picas, compañero fijo para la pared a 8 m, zona de control de 4 × 4 m y 2 miniporterías (roja y amarilla).",
+ "juego": "Sale uno de cada equipo. Slalom (1), pared con el compañero (2) y control en la zona (3); al entrar, el entrenador canta un color: tiro a esa miniportería (4). Cambia con el de la pared.",
+ "punto": "Gol en la cantada: 2. Llegar antes a la zona: 1.",
+ "consigna": "Cambia de ritmo al salir del slalom.",
+ "variantes": {
+  "facil": "Sin color cantado (vale cualquier portería) y pared con 2 toques (propuesta).",
+  "dificil": "El color se canta justo antes del tiro y el control llega por alto (balón lanzado por el compañero) (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4 picas y miniporterías a 8 m. Infantil (12–13): tal cual con pared a un toque. Con más de 12 jugadores, 3 circuitos (propuesta).",
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13). Estaciones, colores, competición por equipos, puntos, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "tag": "30 × 20 m",
+  "extent": {
+   "xmin": -3,
+   "xmax": 31.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    3,
+    3
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    12,
+    3
+   ],
+   [
+    15,
+    3
+   ]
+  ],
+  "goals": [
+   [
+    30,
+    4,
+    "R"
+   ],
+   [
+    30,
+    14,
+    "R"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     19,
+     8,
+     23,
+     12
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -2,
+    "y": 3,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 14,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 4,
+    "f": 120
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.5,
+     3
+    ],
+    "b": [
+     16.5,
+     3.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     18.5,
+     4
+    ],
+    "b": [
+     12,
+     14
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     14
+    ],
+    "b": [
+     20.5,
+     10.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     22.5,
+     10
+    ],
+    "b": [
+     29.5,
+     14
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    21,
+    14.4,
+    "CONTROL",
+    "middle"
+   ],
+   [
+    12,
+    16.9,
+    "PARED",
+    "middle"
+   ]
+  ]
+ },
+ "id": "FB-010",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO TÉCNICO MULTIACCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-tecnico-multiaccion/"
+ },
+ "top": "",
+ "probado": false
+}
