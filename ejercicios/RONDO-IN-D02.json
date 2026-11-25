@@ -1,0 +1,180 @@
+{
+ "id": "RONDO-IN-D02",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "El rombo",
+ "formato": "5v2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "7 jug. (8–12)",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cada ronda cambian los 2 defensores.",
+ "objetivo": "Mantener la posesión con un jugador en el centro del rombo: jugar de cara, mover el balón por fuera para abrir el pasillo y buscar el pase interior. Cómo explicarlo: «si los defensores se van a un lado, hay un pasillo al centro: juega por dentro». Errores típicos: jugar siempre por fuera, recibir de espaldas al defensor, que el central no se ofrezca. Qué observar: perfil del central al recibir, apoyos del rombo en ángulo y pase rápido tras fijar al defensor.",
+ "montaje": "Cuadrado de 20 × 20 m. 4 atacantes en los vértices de un rombo, 1 atacante en el centro y 2 defensores dentro. 1 balón.",
+ "juego": "Atacantes a 2 toques: mueven el balón por fuera y lo pasan por el centro (vértice–central–vértice). Si un defensor roba o sale, cambia con el último que pasó.",
+ "punto": "1 punto por cada pase que cruza el centro. Rondas de 3 min; gana quien más puntos sume.",
+ "consigna": "Mueve por fuera y pasa por dentro.",
+ "variantes": {
+  "facil": "Un solo defensor y los atacantes a 3 toques, con el central libre para moverse por todo el rombo.",
+  "dificil": "Tres defensores y 1 toque para el central; el pase interior solo vale si el central devuelve a un vértice distinto."
+ },
+ "adaptacion": "Infantil (12–13): como en la ficha. Alevín (10–11): 5v2 con rombo de 18 m y 3 toques. Cadete (14–15): 3 defensores y 1 toque para todos. Con 6 jugadores, 3 atacantes por fuera y 1 central.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El rombo",
+  "ref": "RONDO Vol4 · págs. 8, 10, 19, 30, 41, 50"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuatro jugadores en rombo más uno en el centro contra dos, 1 punto por cada pase que cruza el centro, más fácil contra un defensor, más difícil contra tres, 20 × 20 m. (propuesta): distancias del rombo, nº de jugadores, series, reglas de cambio, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "tag": "20 × 20 m · rombo",
+  "lines": [
+   [
+    [
+     10,
+     2
+    ],
+    [
+     18,
+     10
+    ],
+    "4 3"
+   ],
+   [
+    [
+     18,
+     10
+    ],
+    [
+     10,
+     18
+    ],
+    "4 3"
+   ],
+   [
+    [
+     10,
+     18
+    ],
+    [
+     2,
+     10
+    ],
+    "4 3"
+   ],
+   [
+    [
+     2,
+     10
+    ],
+    [
+     10,
+     2
+    ],
+    "4 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.3,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 8.2,
+    "y": 7.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.2,
+    "y": 12.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     2
+    ],
+    "b": [
+     12.3,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     12.3,
+     10
+    ],
+    "b": [
+     10,
+     18
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     10,
+     18
+    ],
+    "b": [
+     18,
+     10
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

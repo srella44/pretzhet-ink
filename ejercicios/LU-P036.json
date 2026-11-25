@@ -1,0 +1,175 @@
+{
+ "id": "LU-P036",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Conectar zonas 3v3+3",
+ "formato": "3 equipos de 3",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "12 × 21 m",
+ "duracion": "12 min",
+ "series": "5 bloques de 3′ con 1′ de pausa; en cada bloque defiende un equipo distinto. (propuesta)",
+ "objetivo": "Orientar el cuerpo para saber si eres jugador libre (recibir orientado y conectar con la siguiente zona) o acosado (jugar de cara y seguir circulando). Cómo explicarlo: «mira al defensor: si no te aprieta, gira y conecta; si te aprieta, devuelve de cara». Errores típicos: recibir de espaldas, girar con presión, pasar sin mirar antes. Qué observar: perfil corporal al recibir y decisión libre/acosado en la zona 2.",
+ "montaje": "Campo de 12 × 21 m en 3 zonas de 7 m. Tres equipos de 3: cada uno tiene un jugador en cada zona. Amarillos y rojos colaboran; los azules defienden (1 por zona). 1 balón.",
+ "juego": "Amarillos y rojos circulan; las zonas 1 y 3 no se conectan directamente: el balón debe pasar por la zona 2. Los azules solo presionan en su zona. Si roban o sale, defiende otro equipo.",
+ "punto": "1 punto por cada conexión de zona 1 a 3 pasando por la 2.",
+ "consigna": "Mira al rival: libre, gira; acosado, de cara.",
+ "variantes": {
+  "facil": "Sin defensor en la zona 2 y 3 toques en las zonas extremas.",
+  "dificil": "Los azules pueden pasar a la zona 2 y presionar con 2; el pase de zona a zona a 2 toques."
+ },
+ "adaptacion": "Alevín (10–11): como en la ficha con 2 toques libres. Infantil (12–13): como en la ficha. Cadete (14–15): 1 toque en la zona 2 y presión de dos defensores.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSESIÓN (3vs3+3) - Conectar zonas - Orientación corporal - Cambio de rol",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 36"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 equipos de 3 con un jugador por zona, dos equipos colaboran y el tercero defiende hasta pérdida o robo, los jugadores de la zona 2 orientan el cuerpo (libre/acosado), zonas 1 y 3 sin conexión directa, 9 jug., 12 × 21 m. (propuesta): puntuación, series, rotación, variantes y adaptación. Adaptado a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   21,
+   12
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 22.5,
+   "ymin": -1.5,
+   "ymax": 14.5
+  },
+  "tag": "12 × 21 m · 3 zonas",
+  "lines": [
+   [
+    [
+     7,
+     0
+    ],
+    [
+     7,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.8,
+    "y": 5.5,
+    "f": -180
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9.2,
+    "y": 6,
+    "f": -180
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 3,
+    "f": -180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 9,
+    "f": -180
+   },
+   {
+    "r": "D",
+    "x": 15.8,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     3
+    ],
+    "b": [
+     10.5,
+     3
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     10.5,
+     3
+    ],
+    "b": [
+     17.5,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ],
+  "labels": [
+   [
+    3.5,
+    13.2,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    10.5,
+    13.2,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    17.5,
+    13.2,
+    "ZONA 3",
+    "middle"
+   ]
+  ]
+ }
+}

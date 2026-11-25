@@ -1,0 +1,228 @@
+{
+ "id": "LU-P022",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 6v6+4: progresar",
+ "formato": "6v6 + 4 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "12 × 30 m",
+ "duracion": "14 min",
+ "series": "4 bloques de 3′ con 1′ de pausa; en cada bloque cambian los comodines de los fondos. (propuesta)",
+ "objetivo": "Progresar de una zona a otra con balón y cambiar de rol al instante: asociarse con un comodín para avanzar y anticipar cuando se defiende. Cómo explicarlo: «ve de zona en zona; si pierdes, el rival se organiza de inmediato y tú pasas a defender». Errores típicos: pasar entre comodines (no permitido), no mirar antes de avanzar, perder el equilibrio al cambiar de rol. Qué observar: asociación con el comodín y reacción inmediata tras la pérdida.",
+ "montaje": "Campo de 12 × 30 m en 3 zonas de 10 m. En cada una, 2 amarillos y 2 azules sin salir de ella. 4 comodines, uno en cada línea horizontal. El balón empieza en un comodín.",
+ "juego": "Amarillos y comodines mantienen el balón y progresan de zona en zona. Los comodines no juegan entre sí, pero sí pasan de zona. Todos a 2 toques. Si roban o sale, cambio de rol.",
+ "punto": "1 punto por jugar en las 3 zonas sin perder el balón.",
+ "consigna": "Progresa de zona en zona y cambia de rol al instante.",
+ "variantes": {
+  "facil": "3 toques para todos y zonas de 12 m de largo (campo de 12 × 36 m).",
+  "dificil": "1 toque para los comodines y 2 para los demás; el punto vale 2 si el balón vuelve a la primera zona sin perderse."
+ },
+ "adaptacion": "Infantil (12–13): 5v5 + 4 comodines en 12 × 27 m. Cadete (14–15): como en la ficha. Con 12 jugadores: 4v4 + 4 comodines (2 por zona).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSESIÓN (6vs6+4) - Cambios de rol - Progresión",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 22"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 6 (2-2-2 en 3 zonas) + 4 comodines ofensivos en las líneas horizontales, progresar de zona en zona, cambio de rol tras robo o pérdida, comodines sin asociarse entre sí, 2 contactos, 1 punto por jugar en las 3 zonas sin perder, 16 jug., 12 × 30 m. (propuesta): reparto por zona, series, variantes y adaptación. Adaptado a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   30,
+   12
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "tag": "12 × 30 m · 3 zonas",
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": false
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 9,
+    "f": -180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 3,
+    "f": -180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 9,
+    "f": -180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 3,
+    "f": -180
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 9,
+    "f": -180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 3,
+    "f": -180
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 31.5,
+    "y": 6,
+    "f": -180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.5,
+     6
+    ],
+    "b": [
+     3,
+     3
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     7,
+     9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     10,
+     6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     10,
+     6
+    ],
+    "b": [
+     13,
+     3
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

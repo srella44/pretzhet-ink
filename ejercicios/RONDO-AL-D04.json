@@ -1,0 +1,184 @@
+{
+ "id": "RONDO-AL-D04",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Las tres zonas",
+ "formato": "3v2 + 2 + 3v2",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. (8–12)",
+ "espacio": "30 × 20 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cada ronda cambian los 4 defensores por 4 atacantes.",
+ "objetivo": "Circular en superioridad hasta encontrar al jugador libre del medio y conectar con la otra zona: atraer al rival en una zona para jugar con el compañero de la zona contraria. Cómo explicarlo: «mueve el balón para que tu rival se acerque y pasa al centro». Errores típicos: pasar al centro sin mirar, pasar al comodín cuando está tapado, quedarse parado esperando. Qué observar: apoyos a distancia correcta, perfil abierto del comodín y rapidez para jugar a la otra zona.",
+ "montaje": "Campo de 30 × 20 m en 3 zonas de 10 m. En cada zona exterior, 3 atacantes contra 2 defensores; en la central, 2 comodines sin rival.",
+ "juego": "Los atacantes circulan en su zona, pasan a un comodín central y este juega a la otra zona. Si un defensor roba o el balón sale, cambia con quien lo perdió.",
+ "punto": "1 punto por cruzar las 3 zonas. Rondas de 3 min.",
+ "consigna": "Atrae al rival, juega al centro y cambia de zona.",
+ "variantes": {
+  "facil": "En la zona central no hay defensor y los comodines pueden jugar a 2 toques; zonas exteriores de 12 × 20 m para tener más espacio.",
+  "dificil": "Un defensor en la zona central y los comodines a un toque; solo vale el punto si el pase de la zona al centro es raso."
+ },
+ "adaptacion": "Benjamín (8–9): zona exterior de 3v1 y sin defensor en el centro. Alevín (10–11): como en la ficha. Infantil (12–13): defensor en el centro y comodines a un toque. Con 9 jugadores: 2v1 en las zonas exteriores y 1 comodín.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Las tres zonas",
+  "ref": "RONDO Vol3 · págs. 13, 16, 30, 33, 44, 47"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: campo en tres zonas, punto por pasar de una zona exterior a la otra a través del compañero de la zona central, 1 punto por pase que cruza las tres zonas, más fácil sin defensor central, más difícil con defensor, 30 × 20 m. (propuesta): reparto 3v2 + 2 comodines, nº de jugadores, series, reglas de cambio y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "tag": "30 × 20 m · 3 zonas de 10 m",
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     10,
+     0,
+     20,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 5.2,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 5.2,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24.8,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24.8,
+    "y": 14.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     10
+    ],
+    "b": [
+     15,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     15,
+     5
+    ],
+    "b": [
+     23,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

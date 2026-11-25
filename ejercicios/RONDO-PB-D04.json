@@ -1,0 +1,266 @@
+{
+ "id": "RONDO-PB-D04",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "La cadena de bomberos",
+ "formato": "2 filas de 5",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug. (8–12)",
+ "espacio": "18 × 14 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2′ con 30″ de pausa; entre rondas la fila gira un puesto y el último pasa a ser el primero.",
+ "objetivo": "Pasar con el interior del pie con precisión y justa fuerza a un compañero que está a 3 m, y recibir parando el balón sin que se escape. Cómo explicarlo: «somos bomberos: el cubo de agua tiene que llegar al fuego sin que se caiga». Errores típicos: pasar demasiado fuerte, no mirar al compañero, no parar antes de pasar, quedarse mirando el balón. Qué observar: pie de apoyo junto al balón, pierna firme al pasar y cuerpo de frente al compañero.",
+ "montaje": "Dos filas de 5 niños, a 3 m uno de otro, mirando a una miniportería (el «cubo») a 3 m del último. 1 balón por fila, en el primero.",
+ "juego": "A la señal, el balón pasa de bombero en bombero con el pie, a ras de suelo; el último lo mete en el cubo. Si se escapa, vuelve a empezar desde el tramo anterior.",
+ "punto": "1 punto por balón en el cubo. Ronda de 2 min: gana la fila con más.",
+ "consigna": "Pase justo justo: ni fuerte ni flojo.",
+ "variantes": {
+  "facil": "Pase con las manos, rodando, y distancia de 2 m entre bomberos. Se permite parar el balón con la mano.",
+  "dificil": "La cadena hace una curva (forma de L) y el último bombero ha de chutar a una miniportería a 4 m."
+ },
+ "adaptacion": "Prebenjamín (6–7): como en la ficha. Benjamín (8–9): distancia de 4 m, balón en movimiento y 2 toques por bombero. Con 12 niños, filas de 6 con 2 cubos.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La cadena de bomberos",
+  "ref": "RONDO Vol1 · págs. 5, 9, 20, 24, 28, 40"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: fila a 3 m, el balón pasa con los pies hasta el cubo (miniportería), luego se cambia de sitio, se cuentan balones, más fácil con manos, más difícil en curva, 20 × 15 m. (propuesta): 2 filas de 5, distancia al cubo, series, vuelta atrás al fallar, rotación, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   18,
+   14
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 20,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "tag": "18 × 14 m · 3 m entre bomberos",
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 10,
+    "f": 0
+   }
+  ],
+  "goals": [
+   [
+    18,
+    4,
+    "R"
+   ],
+   [
+    18,
+    10,
+    "R"
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     6,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     6,
+     4
+    ],
+    "b": [
+     9,
+     4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     9,
+     4
+    ],
+    "b": [
+     12,
+     4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     4
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     18,
+     4
+    ],
+    "k": "pass",
+    "n": 5,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     6,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     6,
+     10
+    ],
+    "b": [
+     9,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     9,
+     10
+    ],
+    "b": [
+     12,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     10
+    ],
+    "b": [
+     15,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     15,
+     10
+    ],
+    "b": [
+     18,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ]
+ }
+}

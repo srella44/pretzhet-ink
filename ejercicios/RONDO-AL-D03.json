@@ -1,0 +1,151 @@
+{
+ "id": "RONDO-AL-D03",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "La caza del tesoro",
+ "formato": "Parejas + 2 cazadores",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (8–12)",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 45″ de pausa; al empezar cada ronda, 2 jugadores nuevos hacen de cazadores.",
+ "objetivo": "Proteger el balón con el cuerpo, pasar y moverse para mantener la posesión en pareja, y robar con presión. Cómo explicarlo: «el balón es el tesoro: escóndelo con el cuerpo y pásalo cuando el cazador se acerque». Errores típicos: quedarse parado después de pasar, dar la espalda sin proteger, pasar al compañero tapado. Qué observar: cuerpo entre rival y balón, apoyos para ofrecerse y cazadores que presionan al balón y no a las piernas.",
+ "montaje": "Cuadrado de 20 × 20 m. 4 parejas con 1 balón cada una (el tesoro) y 2 cazadores azules sin balón.",
+ "juego": "Cada pareja se pasa el balón y lo esconde. Si un cazador roba, cambia de papel con quien lo perdió.",
+ "punto": "10 pases seguidos de una pareja = 1 punto y vuelve a 0. Si el balón sale, pierde los pases.",
+ "consigna": "Esconde el tesoro: cuerpo entre el cazador y el balón.",
+ "variantes": {
+  "facil": "Un solo cazador y 3 parejas, o pases a dos toques: se puntúa con 6 pases en vez de 10.",
+  "dificil": "El balón robado hay que sacarlo del cuadrado conduciéndolo para ganar el punto de cazador; con 3 cazadores y solo 2 toques por jugador."
+ },
+ "adaptacion": "Alevín (10–11): como en la ficha. Benjamín (8–9): 1 cazador, campo de 25 × 25 m y 6 pases por punto. Infantil (12–13): 3 cazadores y puntuar con 12 pases a 2 toques.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La caza del tesoro",
+  "ref": "RONDO Vol3 · págs. 5, 19, 22, 36, 39, 50"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cada pareja con un balón que conserva pasándoselo, los cazadores roban, quien roba cambia el papel con quien pierde, 10 pases = 1 punto, más fácil con un cazador, más difícil sacando el balón robado, 20 × 20 m. (propuesta): nº de parejas y cazadores, series, pérdida de pases al salir, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 9.5,
+    "f": 200
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     7.5,
+     5.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     7.5,
+     5.5
+    ],
+    "b": [
+     3,
+     4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     10,
+     9.5
+    ],
+    "b": [
+     8,
+     6.8
+    ],
+    "k": "run"
+   }
+  ]
+ }
+}

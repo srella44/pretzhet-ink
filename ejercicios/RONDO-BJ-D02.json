@@ -1,0 +1,158 @@
+{
+ "id": "RONDO-BJ-D02",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Los mensajeros",
+ "formato": "4v4 + 2 aduaneros",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug. (8–12)",
+ "espacio": "25 × 15 m",
+ "duracion": "15 min",
+ "series": "5 rondas de 2′ con 30″ de pausa; al empezar cada ronda cambian los 2 aduaneros por 2 jugadores de las casas.",
+ "objetivo": "Pasar con fuerza y precisión a un compañero lejano, por raso y con el interior, mirando antes de pasar y orientando el cuerpo hacia el destino. Cómo explicarlo: «tú eres el mensajero: el paquete tiene que llegar a la casa de enfrente sin que lo toque el aduanero». Errores típicos: pasar flojo y por alto, pasar sin mirar al aduanero, quedarse parado tras pasar. Qué observar: que el pase sea raso, que el receptor se ofrezca y controle de cara y que el aduanero no pueda anticipar siempre el pase.",
+ "montaje": "Campo de 25 × 15 m con una casa de 5 m en cada lado. 4 jugadores en cada casa y 2 aduaneros azules en el centro. 1 balón por casa.",
+ "juego": "Pase raso al compañero de la casa de enfrente, cruzando el centro. Si el aduanero toca el balón o este se sale, el que pasó cambia de sitio con él.",
+ "punto": "1 punto por paquete; cada 2 min cambian los aduaneros.",
+ "consigna": "Pase fuerte, raso y preciso.",
+ "variantes": {
+  "facil": "Un solo aduanero y que el paquete pueda ir con un bote, o campo de 20 × 15 m para pasar más corto.",
+  "dificil": "El balón tiene que ir raso y a 2 toques (control y pase). Con 3 aduaneros, o paquete doble: dos balones a la vez."
+ },
+ "adaptacion": "Prebenjamín (6–7): casas de 4 m, un aduanero y sin puntos. Benjamín (8–9): como en la ficha. Alevín (10–11): campo de 30 × 15 m y 3 aduaneros. Si hay menos de 8 jugadores, 3 por casa y 1 aduanero.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Los mensajeros",
+  "ref": "RONDO Vol2 · págs. 8, 11, 25, 28, 40, 42"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos equipos en casas laterales, dos aduaneros en el centro, 1 punto por paquete, más fácil con un aduanero, más difícil con pase raso, 25 × 15 m. (propuesta): nº de jugadores (10), series y rotación de aduaneros, reparto de balones, variantes y adaptación por edades.",
+ "diagrama": {
+  "field": [
+   25,
+   15
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "tag": "25 × 15 m · casas de 5 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     20,
+     0,
+     25,
+     15
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.8,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.8,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21.2,
+    "y": 5.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23.5,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 21.2,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 7.2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13.8,
+    "y": 11.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     2.5
+    ],
+    "b": [
+     21.2,
+     5.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     23.5,
+     9
+    ],
+    "b": [
+     3.8,
+     9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 10
+   }
+  ]
+ }
+}

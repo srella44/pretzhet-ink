@@ -1,0 +1,193 @@
+{
+ "id": "LU-P015",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 4v4+3: dejada",
+ "formato": "4v4 + 3 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "22 × 14 m",
+ "duracion": "14 min",
+ "series": "3 bloques de 4′ con 1′ de pausa; en cada bloque cambian los comodines. (propuesta)",
+ "objetivo": "Conectar zonas con el tercer hombre: el comodín del medio deja de cara al compañero para que juegue hacia la otra zona. Cómo explicarlo: «pasa al medio, el medio te la deja de cara y tú juegas al otro lado». Errores típicos: el comodín devuelve al mismo jugador, el receptor controla de espaldas, el pase de conexión sale flojo. Qué observar: orientación del control, tiempo de la dejada y movimiento del tercer hombre.",
+ "montaje": "Campo de 22 × 14 m en 3 franjas (8, 6 y 8 m). En cada exterior, 2 amarillos y 2 azules; en la central, 1 comodín. Otros 2 comodines en los fondos.",
+ "juego": "Amarillos y comodines circulan. Para pasar de una franja a la otra, el comodín central debe dejar de cara a un compañero (pared o tercer hombre). Si roban o sale, cambio de rol.",
+ "punto": "1 punto por conectar franjas tras dejada de cara.",
+ "consigna": "Pasa al medio y juega al otro lado: tercer hombre.",
+ "variantes": {
+  "facil": "Comodín central a 3 toques y franja central de 8 m; sin defensores en la franja central.",
+  "dificil": "Dejada de cara a 1 toque; el pase de conexión debe ser raso y nadie repite compañero."
+ },
+ "adaptacion": "Infantil (12–13): como en la ficha. Alevín (10–11): 3v3 + 3 comodines en 20 × 12 m. Cadete (14–15): 2 toques para todos y franja central de 4 m.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSESIÓN (4vs4+3) - Dejar de cara - Triangulaciones",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 15"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 4 y 3 comodines ofensivos, conectar zonas con una dejada de cara (triangulación o tercer hombre) del comodín de la zona media, cambio de rol tras pérdida, 11 jug., 22 × 14 m. (propuesta): reparto de jugadores y comodines por franja, puntuación, series, variantes y adaptación. Adaptado a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   22,
+   14
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 25,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "tag": "22 × 14 m",
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     14
+    ],
+    "6 5"
+   ],
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     14
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     8,
+     0,
+     14,
+     14
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19.5,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 23.5,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     9.5
+    ],
+    "b": [
+     11,
+     7
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     11,
+     7
+    ],
+    "b": [
+     2.5,
+     4.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     2.5,
+     4.5
+    ],
+    "b": [
+     19,
+     4.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

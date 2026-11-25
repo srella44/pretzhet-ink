@@ -1,0 +1,204 @@
+{
+ "id": "LU-P275",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 6v6 + 6 con rotación",
+ "formato": "4v3 + 3 + 2",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "18 jug.",
+ "espacio": "46 × 30 m",
+ "duracion": "18 min",
+ "series": "Rondas de 4′ con 1′ de pausa; cada vez que se roba el balón los equipos rotan (propuesta); 4 rondas.",
+ "objetivo": "Atraer con la posesión en la zona activa para abrir intervalos y superar la línea central con un pase hacia el compañero libre de la otra zona. Cómo explicarlo: «circula, atrae a los tres defensores y busca el pase a la zona de recepción sobre los defensores del centro». Errores típicos: pases demasiado fuertes o sin precisión, no abrir amplitud, no mover al defensor. Qué observar: amplitud en la zona activa, tiempo del pase al otro lado y ocupación de intervalos.",
+ "montaje": "Campo de 46 × 30 m: zona activa (18 m), central (10 m) y recepción (18 m). 4 poseedores en la activa y 2 en la recepción; 3 defensores en la activa y 3 en la central. El tercer equipo espera.",
+ "juego": "Los poseedores circulan y buscan pasar a la recepción sobre los defensores del centro; allí se reinicia. Si roban, los defensores poseen y entra el tercer equipo.",
+ "punto": "1 punto por pase que llega a la recepción. Rondas de 4 min.",
+ "consigna": "Atrae en la zona activa y salta la línea central.",
+ "variantes": {
+  "facil": "Zona central de 8 m y pase raso permitido; 4v2 en la zona activa.",
+  "dificil": "Los defensores del centro pueden interceptar al vuelo; pase solo por alto o raso a 2 toques como máximo."
+ },
+ "adaptacion": "Infantil (12–13): campo de 40 × 26 m, 4v2 en la activa. Cadete (14–15): como en la ficha. Con 12 jugadores: 3v2 en la activa, 2 defensores en el centro y 1 receptor.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Juego de posesión con cambios de rol (6vs6 - 6)",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 275"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 equipos de 6, uno en posesión (4-2) con un equipo defensor 3-3 (3 en la zona activa y 3 en el espacio central que impiden superar la línea con un pase), cambios de rol, reinicio en la otra zona, permuta de equipos, 18 jug., 46 × 30 m. (propuesta): medidas de las zonas, puntuación, series, rotación, variantes y adaptación. Adaptado a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   46,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 47.5,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "tag": "46 × 30 m",
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     28,
+     0
+    ],
+    [
+     28,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     18,
+     0,
+     28,
+     30
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 22.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21.5,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21.5,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     6
+    ],
+    "b": [
+     10,
+     9
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     10,
+     9
+    ],
+    "b": [
+     36,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ],
+  "labels": [
+   [
+    9,
+    -0.2,
+    "ZONA ACTIVA",
+    "middle"
+   ],
+   [
+    23,
+    -0.2,
+    "CENTRAL",
+    "middle"
+   ],
+   [
+    37,
+    -0.2,
+    "RECEPCIÓN",
+    "middle"
+   ]
+  ]
+ }
+}

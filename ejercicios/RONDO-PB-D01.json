@@ -1,0 +1,134 @@
+{
+ "id": "RONDO-PB-D01",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "El pase al amigo",
+ "formato": "Parejas",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug. (por parejas)",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 3′ con 1′ de pausa; al empezar cada ronda se cambia de pareja.",
+ "objetivo": "Pasar y parar el balón con suavidad: controlar con la suela, mirar al compañero y devolver con el interior del pie a ras de suelo. Cómo explicarlo: «dale el balón a tu amigo como si le dieras un huevo». Errores típicos: pasar con la punta, no parar el balón antes de devolverlo, mirar solo el balón y no al amigo. Qué observar: pie de apoyo junto al balón, pierna que pasa firme y rodilla flexionada al recibir. Material: 1 balón por pareja y conos para el cuadrado.",
+ "montaje": "Cuadrado de 15 × 15 m. Parejas enfrentadas a 3 m, con 1 balón cada una, sin chocar.",
+ "juego": "Pase raso: quien recibe para con la suela, mira y devuelve con el interior. Cada 5 pases buenos, los dos dan un paso atrás.",
+ "punto": "La pareja cuenta los pases en voz alta: 1 punto por cada serie de 5 pases buenos. Gana la pareja con más puntos.",
+ "consigna": "Para con la suela, mira al amigo y pasa suave.",
+ "variantes": {
+  "facil": "Pase con las manos, rodando por el suelo, y distancia de 2 m. Se permite parar con el pie sin suela.",
+  "dificil": "Pase por dentro de una miniportería de 2 m situada en medio de la pareja y, después, devolver a 2 toques."
+ },
+ "adaptacion": "Prebenjamín (6–7): como en la ficha, sin ganar ni perder. Benjamín (8–9): distancia de 5 m y control con el pie hábil y luego con el otro. Si sobra un niño, hace trío y se pasan en triángulo.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El pase al amigo",
+  "ref": "RONDO Vol1 · págs. 3, 14, 18, 22, 34, 36"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: parejas cerca, parar con la suela, cada 5 pases un paso atrás, cuenta de pases, más fácil con manos, más difícil por miniportería, 15 × 15 m. (propuesta): nº de jugadores, distancias, series, puntuación por series de 5, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 16.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "tag": "15 × 15 m · parejas a 3 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     3.6
+    ],
+    "b": [
+     5.5,
+     3.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     5.5,
+     4.5
+    ],
+    "b": [
+     2.5,
+     4.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    7.9,
+    "CADA 5 PASES: UN PASO ATRÁS",
+    "middle"
+   ]
+  ]
+ }
+}

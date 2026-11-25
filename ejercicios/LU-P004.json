@@ -1,0 +1,221 @@
+{
+ "id": "LU-P004",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Juego posición 7v7+1",
+ "formato": "7v7 + 1 comodín",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug.",
+ "espacio": "32 × 28 m",
+ "duracion": "16 min",
+ "series": "4 bloques de 4′ con 1′ de pausa; en cada bloque el comodín cambia. (propuesta)",
+ "objetivo": "Conectar zonas con equilibrio: el equipo con balón sube jugadores a la zona 2 sin descuidar la salida, y el que defiende presiona arriba con 3 sin dejar la espalda sin cubrir. Cómo explicarlo: «sube 3 y deja 4 detrás: el que sube cuenta con el comodín». Errores típicos: subir más de 3, dejar al comodín solo, presionar con 4 y dejar un hueco. Qué observar: orden de los 3 que suben y ayuda de los 4 de atrás.",
+ "montaje": "Campo de 32 × 28 m en 2 zonas de 16 m, con miniporterías en los fondos. 7 amarillos, 7 azules y 1 comodín amarillo que siempre juega en la zona 2. 1 balón.",
+ "juego": "Los amarillos pasan libremente entre zonas, pero en la zona 2 solo caben 3 más el comodín. Los azules solo presionan allí con 3 y defienden con 4. Los dos equipos buscan gol.",
+ "punto": "Gol = 1 punto. Tras gol, pérdida o balón fuera, cambio de rol.",
+ "consigna": "Sube con 3, mantén 4 detrás y conecta zonas.",
+ "variantes": {
+  "facil": "En la zona 2 caben 4 atacantes más el comodín y los azules presionan solo con 2.",
+  "dificil": "Los amarillos tienen que dar 4 pases en la zona 1 antes de pasar a la 2; 2 toques en la zona 2."
+ },
+ "adaptacion": "Infantil (12–13): 5v5 + 1 comodín en 28 × 24 m (máx. 2 en la zona 2). Cadete (14–15): como en la ficha. Con 11 jugadores: 5v5 + 1 comodín.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN 7vs7+1 - Conectar zonas",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 7 + 1 comodín ofensivo siempre en la zona activa, el equipo en posesión solo mete a 3 atacantes en la zona 2 y el defensor presiona con 3 manteniendo 4 atrás, miniporterías contrarias, 15 jug., 28 × 32 m. (propuesta): reparto de jugadores por zona, series, variantes y adaptación. Adaptado a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   32,
+   28
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 35.5,
+   "ymin": -1.5,
+   "ymax": 29.5
+  },
+  "tag": "32 × 28 m · 2 zonas de 16 m",
+  "lines": [
+   [
+    [
+     16,
+     0
+    ],
+    [
+     16,
+     28
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    14,
+    "L"
+   ],
+   [
+    32,
+    14,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 20.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 22.5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24.5,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9.5,
+     10
+    ],
+    "b": [
+     22.5,
+     14
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     22.5,
+     14
+    ],
+    "b": [
+     20,
+     22
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     20,
+     22
+    ],
+    "b": [
+     26,
+     14
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ],
+  "labels": [
+   [
+    8,
+    -0.3,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    24,
+    -0.3,
+    "ZONA 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "id": "LU-P156",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 7v7+4: paredes",
+ "formato": "7v7 + 4 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "16 min",
+ "series": "4 bloques de 4′ con 1′ de pausa; cada bloque se cambian los 4 comodines. (propuesta)",
+ "objetivo": "Jugar paredes (pase, desmarque y devolución al primer toque) como forma de ganar espacio y mantener la posesión. Cómo explicarlo: «pasa y muévete al hueco; el compañero te la devuelve a donde vas». Errores típicos: pasar y quedarse parado, devolver sin mirar, que el compañero no controle de cara. Qué observar: desmarque tras el pase, ritmo del pase y movimientos de apoyo; que se busquen paredes y no solo pases seguros. Material: petos de 3 colores y 4 conos.",
+ "montaje": "Cuadrado de 35 × 35 m. Dos equipos de 7 (amarillos y azules) dentro y 4 comodines, uno fuera en el centro de cada lado.",
+ "juego": "Los amarillos mantienen la posesión y buscan paredes (pase, desmarque y devolución) con compañeros o comodines. Comodines a 1 toque. Si roban o sale, cambio de rol.",
+ "punto": "1 punto por cada pared completa, con compañero o comodín. Rondas de 4 min.",
+ "consigna": "Pasa y muévete: pared al hueco.",
+ "variantes": {
+  "facil": "Comodines a 2 toques; campo de 40 × 40 m y paredes con cualquier compañero.",
+  "dificil": "Solo vale la pared si el que la inicia recibe en carrera y devuelve al primer toque; campo de 30 × 30 m."
+ },
+ "adaptacion": "Infantil (12–13): 6v6 + 4 comodines en 32 × 32 m. Cadete (14–15): como en la ficha. Con 14 jugadores: 5v5 + 4 comodines en 30 × 30 m.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO POSESIÓN 7vs7+4 - POSESIÓN - PAREDES",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 156"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 7 y 4 comodines (uno en cada lado del cuadrado), cada pared con compañero o comodín = 1 punto, cambio de rol tras robo o pérdida, comodines a 1 contacto, 18 jug., 35 × 35 m. (propuesta): series, variantes y adaptación. Adaptado a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 38,
+   "ymin": -3,
+   "ymax": 38
+  },
+  "tag": "35 × 35 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26.5,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 26.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": -1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 36.5,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": 36.5,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     14
+    ],
+    "b": [
+     -1.5,
+     17.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     7,
+     14
+    ],
+    "b": [
+     10,
+     20
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     -1.5,
+     17.5
+    ],
+    "b": [
+     10,
+     20
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

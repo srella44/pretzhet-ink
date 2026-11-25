@@ -1,0 +1,238 @@
+{
+ "id": "LU-P002",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Juego de posición 6v6+4",
+ "formato": "6v6 + 4 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "36 × 28 m",
+ "duracion": "16 min",
+ "series": "4 bloques de 4′ con 1′ de pausa; cada bloque se cambian los comodines entre los jugadores que descansan. (propuesta)",
+ "objetivo": "Circular por todo el campo respetando las posiciones: mantener la ocupación racional (cada uno en su sector), dar amplitud y profundidad y orientar la presión al perder el balón. Cómo explicarlo: «cada uno en su sector: el balón viaja por todos, pero tú no te mueves de tu zona». Errores típicos: salirse del sector, que dos jugadores ocupen el mismo hueco, pasar sin mirar la línea de pase. Qué observar: apoyos en ángulo, uso de los comodines y reacción inmediata al perder.",
+ "montaje": "Campo de 36 × 28 m en 6 sectores de 12 × 14 m, con 1 amarillo y 1 azul por sector. 2 comodines centrales, 1 mediocentro y 1 delantero libre.",
+ "juego": "Amarillos y comodines circulan el balón; cada jugador solo juega en su sector. Si roban o sale, cambio de rol.",
+ "punto": "15 pases seguidos = 1 punto. Rondas de 4 min.",
+ "consigna": "Cada uno en su sector: amplitud, profundidad y apoyo.",
+ "variantes": {
+  "facil": "Sectores de 14 × 16 m y 12 pases por punto. Los comodines juegan libres de toques y se mueven por su línea.",
+  "dificil": "20 pases por punto, 2 toques para todos y comodines a un toque. El delantero solo puede recibir de cara."
+ },
+ "adaptacion": "Infantil (12–13): 5v5 + 3 comodines en sectores de 12 × 14 m. Cadete (14–15): como en la ficha. Juvenil (16+): sectores de 12 × 12 m y 2 toques. Con 12 jugadores: 4 sectores y 2 comodines.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN 6 vs 6 + 4",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 6 (2 laterales, 2 extremos y 2 mediapuntas) + 4 comodines (2 centrales, mediocentro y delantero), cada equipo solo en su zona, el delantero libre, 15 pases = 1 punto, 16 jug., 28 × 36 m. (propuesta): la cuadrícula de 6 sectores, series, variantes, adaptación por edades. Adaptado a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   36,
+   28
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 37.5,
+   "ymin": -1.5,
+   "ymax": 29.5
+  },
+  "tag": "36 × 28 m · 6 sectores de 12 × 14 m",
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     28
+    ],
+    "6 5"
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     28
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     14
+    ],
+    [
+     36,
+     14
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 33.5,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.5,
+     19
+    ],
+    "b": [
+     3.5,
+     18
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     3.5,
+     18
+    ],
+    "b": [
+     15.5,
+     18
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     15.5,
+     18
+    ],
+    "b": [
+     18,
+     14
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     18,
+     14
+    ],
+    "b": [
+     33.5,
+     14
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

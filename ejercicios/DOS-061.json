@@ -1,0 +1,172 @@
+{
+ "id": "DOS-061",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Juego posición 4v4+3C",
+ "formato": "4v4 + 3 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "18 × 12 m",
+ "duracion": "15 min",
+ "series": "3 bloques de 4′ con 1′ de pausa; al final de cada bloque se cambian los comodines por 3 jugadores del equipo que descansa. (propuesta)",
+ "objetivo": "Apoyos y desmarques con sentido de progresar: el juego no es tocar por tocar, sino llegar de un comodín de fondo al otro. Cómo explicarlo: «ayuda, doy y voy: pasa, muévete para recibir y juega de cara y de costado». Errores típicos: jugar parado, recibir sin orientar el control, pasar al comodín cuando está tapado. Qué observar: apoyos a distancia, orientación corporal del control y que el comodín interior juegue de cara. Material: petos de 2 colores y 4 conos para los fondos.",
+ "montaje": "Campo de 18 × 12 m. 4 amarillos y 4 azules dentro, 1 comodín dentro y 1 en cada línea de fondo. Balón al equipo amarillo.",
+ "juego": "El equipo con balón progresa de un comodín de fondo al otro con apoyo, doy y voy y pase al comodín interior. Comodines a 2 toques. Si roban o sale, cambio de rol.",
+ "punto": "1 punto cada vez que el balón pasa de un comodín de fondo al otro sin perderse. Gana quien más puntos tenga.",
+ "consigna": "Ayuda, doy y voy: juega de cara y de costado.",
+ "variantes": {
+  "facil": "Campo de 20 × 14 m y los comodines libres de toques; el comodín interior solo juega de cara.",
+  "dificil": "Campo de 16 × 10 m, 2 toques para todos y el comodín interior a un toque; un comodín de fondo solo puede recibir si ha pasado antes por el interior."
+ },
+ "adaptacion": "Infantil (12–13): como en la ficha. Alevín (10–11): campo de 20 × 14 m y 3 toques. Cadete (14–15): campo de 18 × 12 m, 2 toques y 4 pases antes del comodín. Con 9 jugadores: 3v3 + 3 comodines.",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "JUEGO DE POSICIÓN 4v4+3C",
+  "ref": "dosier.pdf · pág. 18"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente (sesión S2.1): 4v4 con 3 comodines (2 en los fondos y 1 dentro), cambio de rol al perder, progresar de comodín a comodín, 18 × 12 m, 11 jug. (propuesta): puntuación (1 punto por pasar de un fondo al otro), series, toques, rotación de comodines, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   18,
+   12
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 20.5,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "tag": "18 × 12 m",
+  "players": [
+   {
+    "r": "C",
+    "x": -1.2,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5.8,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 8.4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 3.8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11.6,
+    "y": 8.8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 9.8,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19.2,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.2,
+     6
+    ],
+    "b": [
+     3,
+     3.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     3,
+     3.5
+    ],
+    "b": [
+     8,
+     2.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     8,
+     2.5
+    ],
+    "b": [
+     9.8,
+     6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     9.8,
+     6
+    ],
+    "b": [
+     19.2,
+     6
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

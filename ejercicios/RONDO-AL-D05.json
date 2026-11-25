@@ -1,0 +1,159 @@
+{
+ "id": "RONDO-AL-D05",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión con miniporterías",
+ "formato": "5v3 + 4 puertas",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug. (8–12)",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 45″ de pausa; al empezar cada ronda cambian los 3 defensores.",
+ "objetivo": "Mantener la posesión y mover el balón con intención: pasar a través de una puerta obliga a mirar, levantar la cabeza y buscar al compañero que se ofrece. Cómo explicarlo: «no pases al compañero más cercano: busca una puerta libre y atraviésala». Errores típicos: pasar siempre por la misma puerta, no mirar al rival, pasar flojo. Qué observar: perfil del jugador al recibir, pase tenso y raso y movimientos para dar línea de pase.",
+ "montaje": "Campo de 25 × 20 m con 4 puertas de 2 m (2 conos cada una): arriba, abajo, izquierda y derecha. 5 atacantes contra 3 defensores.",
+ "juego": "Los atacantes pasan el balón a través de las puertas; no vale pasar dos veces seguidas por la misma. Si un defensor roba o sale, cambia con quien lo perdió.",
+ "punto": "1 punto por cada puerta atravesada. Rondas de 3 min.",
+ "consigna": "Levanta la cabeza: pasa por una puerta libre.",
+ "variantes": {
+  "facil": "Puertas de 3 m y solo 2 defensores; vale repetir puerta tras tres pases.",
+  "dificil": "El pase debe llegar a un compañero en movimiento, con 2 toques como máximo. Puertas de 1,5 m."
+ },
+ "adaptacion": "Benjamín (8–9): 4v2 y puertas de 3 m. Alevín (10–11): como en la ficha. Infantil (12–13): campo de 30 × 25 m, 6v3 y puertas de 1,5 m. Con 6 jugadores: 4v2 en 20 × 15 m.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Posesión con miniporterías",
+  "ref": "RONDO Vol3 · págs. 7, 10, 24, 27, 38, 41"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: mantener el balón en el campo, 4 puertas repartidas, 1 punto por cada pase que atraviesa una, no se pasa dos veces por la misma, más fácil con puertas anchas, más difícil con pase a compañero en movimiento, 25 × 20 m. (propuesta): 5v3, medidas de las puertas, rotación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "tag": "25 × 20 m · 4 puertas de 2 m",
+  "cones": [
+   [
+    11.5,
+    4
+   ],
+   [
+    13.5,
+    4
+   ],
+   [
+    11.5,
+    16
+   ],
+   [
+    13.5,
+    16
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    21,
+    9
+   ],
+   [
+    21,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 12.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     4
+    ],
+    "b": [
+     17.5,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     17.5,
+     4
+    ],
+    "b": [
+     23,
+     12.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

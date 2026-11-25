@@ -1,0 +1,192 @@
+{
+ "id": "LU-P009",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posición 8v8: extremos",
+ "formato": "8v8 con extremos",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "16 jug.",
+ "espacio": "36 × 28 m",
+ "duracion": "16 min",
+ "series": "4 bloques de 4′ con 1′ de pausa; en cada bloque se cambian los extremos entre sí y con el portero. (propuesta)",
+ "objetivo": "Hacer llegar el balón al extremo para fijar o centrar y asociarse en el área: el extremo decide entre centrar desde fuera o entrar conduciendo para hacer una pared o triangulación. Cómo explicarlo: «si ves espacio, entra en conducción; si no, centra al segundo palo». Errores típicos: centrar sin mirar, entrar y perder el balón sin apoyo, no ocupar el área con 2 jugadores. Qué observar: llegada de los interiores y decisión del extremo.",
+ "montaje": "Campo de 36 × 28 m con porterías de 6 m. Dos equipos de 8: portero, 5 por dentro y 2 extremos en las bandas. Los extremos solo juegan cuando su equipo tiene balón.",
+ "juego": "El equipo con balón busca finalizar con los extremos: centro desde fuera o conducción hacia dentro para pared o triangulación. Si roban o sale, cambio de rol.",
+ "punto": "Gol = 1 punto; tras jugada de un extremo = 2 (propuesta).",
+ "consigna": "Extremo: decide, centra o entra y asóciate.",
+ "variantes": {
+  "facil": "Los extremos solo pueden centrar (sin entrar) y el área libre de defensores en el segundo palo.",
+  "dificil": "El extremo debe tocar el balón antes del gol (centro, pared o conducción) y los defensores pueden salir a presionar en banda."
+ },
+ "adaptacion": "Infantil (12–13): 6v6 en 30 × 24 m con portería de 5 m. Cadete (14–15): como en la ficha. Con 12 jugadores: 5v5 con 1 extremo por equipo.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSESIÓN - Posición 8vs8 - Intervención de extremos",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 9"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 8, el equipo con balón busca finalizar con la intervención de los extremos (centros o conducciones para pared o triangulación), los defensores defienden en ambas zonas salvo los extremos que solo actúan con balón, 16 jug., 28 × 36 m. (propuesta): reparto 5 + 2 + portero, puntuación, series, variantes y adaptación. Adaptado a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   36,
+   28
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 39.5,
+   "ymin": -3.5,
+   "ymax": 31.5
+  },
+  "tag": "36 × 28 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": -1.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 29.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": -1.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 29.5,
+    "f": 180
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 14,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 36,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     14
+    ],
+    "b": [
+     14,
+     -1.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     14,
+     -1.5
+    ],
+    "b": [
+     22,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     22,
+     10
+    ],
+    "b": [
+     36,
+     13
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 4
+   }
+  ]
+ }
+}

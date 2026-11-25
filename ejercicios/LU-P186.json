@@ -1,0 +1,189 @@
+{
+ "id": "LU-P186",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 7v4 por sectores",
+ "formato": "7v4",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "14 min",
+ "series": "4 bloques de 3′ con 1′ de pausa; cada bloque se cambian los 4 defensores. (propuesta)",
+ "objetivo": "Generar y ocupar espacios según dónde esté el balón: los atacantes se reparten por los sectores, y los defensores ajustan (uno al balón, dos tapan líneas y uno con el mediocentro). Cómo explicarlo: «tú ocupas el sector libre y no el del compañero; si el balón cambia de lado, cambia tu posición». Errores típicos: juntarse todos en el mismo sector, defensor al balón sin cobertura, líneas de pase abiertas. Qué observar: ocupación de sectores y ajuste defensivo.",
+ "montaje": "Campo de 30 × 25 m en 3 sectores de 10 m y 4 miniporterías en los laterales. 7 atacantes contra 4 defensores (1 al balón, 2 en líneas de pase, 1 al medio).",
+ "juego": "Los atacantes mantienen el balón en sectores distintos. Si los defensores roban, atacan una miniportería y se les presiona.",
+ "punto": "10 pases = 1 punto. Gol de los defensores: 1, más 1 por pase previo.",
+ "consigna": "Ocupa el sector libre y mueve el balón.",
+ "variantes": {
+  "facil": "5v4 en el sector con 3 toques, sin miniporterías, y 8 pases por punto.",
+  "dificil": "2 toques por jugador y miniporterías de 2 m; los atacantes puntúan solo con 12 pases y han de pasar por los 3 sectores."
+ },
+ "adaptacion": "Alevín (10–11): 6v3 y 8 pases por punto. Infantil (12–13): como en la ficha. Cadete (14–15): 7v5 y 2 toques. Con 9 jugadores: 6v3 en 25 × 20 m.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "F7 - POSESIÓN 7X4 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 186"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 7x4 por sectores, 1 defensor al balón, 2 tapan líneas de pase y 1 con el mediocentro, punto a 10 pases, opcional miniporterías en los 4 laterales con puntos para los defensores (1 punto, más 1 por pase previo), 11 jug. (propuesta): medidas del campo y de los sectores, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 33.5,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "tag": "30 × 25 m · 3 sectores",
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     25
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    0,
+    18,
+    "L"
+   ],
+   [
+    30,
+    7,
+    "R"
+   ],
+   [
+    30,
+    18,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 20.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12.3,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12.3,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20.5,
+    "y": 15.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     12.5
+    ],
+    "b": [
+     3.5,
+     21
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     3.5,
+     21
+    ],
+    "b": [
+     15.5,
+     20.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}
