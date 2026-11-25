@@ -1,0 +1,203 @@
+{
+ "id": "DOS-072",
+ "bloque": "Finalización",
+ "titulo": "Figura de pases con tiro",
+ "formato": "Pared + tiro + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug. + PT",
+ "espacio": "Frontal del área",
+ "duracion": "15 min",
+ "series": "4 series de 3 min, 1 min de pausa (propuesta); cada jugador tira unas 8–10 veces. Se alternan las dos estaciones: tira la izquierda, luego la derecha, sin esperar a que el portero se recoloque del todo. La fuente fija 15 min para la tarea.",
+ "objetivo": "Controles orientados y tiro a portería (fuente). Cómo explicarlo: el control ya es el primer paso del tiro; llévate el balón lejos del cuerpo hacia el hueco y golpea al segundo toque. Errores típicos: parar el balón bajo los pies, controlar hacia la pica, mirar el balón al tirar. Qué observar: el perfil antes de recibir la dejada y si el tiro va colocado (fuente: tirar a colocar, controles largos, atención a cómo se golpea).",
+ "montaje": "Frontal con portería y portero. Dos estaciones a 9 m del centro: fila a 20 m y pivote a 12 m con una pica 2 m delante.",
+ "juego": "1 pasa raso al pivote (2), que deja de cara de primeras. 1 controla orientado al lado libre de la pica y tira en 2 toques como máximo. 1 pasa a pivote; el pivote, a la fila.",
+ "punto": "Gol en 2 toques: 1 punto (con 3 no vale). Gana la estación con más goles en 3 min (propuesta).",
+ "consigna": "Control largo al hueco y tira colocado.",
+ "variantes": {
+  "facil": "Sin límite de toques y pica más separada (propuesta).",
+  "dificil": "Variante 1 (fuente): la dejada va por el aire y se controla o se remata de volea. Variante 2 (fuente): pase raso y el pivote, tras dejar, sale a defender el control y el tiro del 1."
+ },
+ "adaptacion": "Alevín (10–11): tiro desde 14–16 m y portería de fútbol 7. Infantil (12–13): como está, con la variante 2. Benjamín (8–9): sin pivote, pase del entrenador y control orientado (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Figura de pases con tiro",
+  "ref": "Dosier de sesiones · pág. 22 (S2.5)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Distancias (20 m y 12 m), separación entre estaciones, rotación, puntuación y series (propuesta). Secuencia, máximo de dos toques y variantes son de la fuente.",
+ "diagrama": {
+  "field": [
+   32,
+   22
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 32.5,
+   "ymin": -1.6,
+   "ymax": 23.2
+  },
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     13
+    ],
+    "0"
+   ],
+   [
+    [
+     6,
+     13
+    ],
+    [
+     26,
+     13
+    ],
+    "0"
+   ],
+   [
+    [
+     26,
+     13
+    ],
+    [
+     26,
+     0
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 16,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    9,
+    14.2
+   ],
+   [
+    23,
+    14.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 20.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 22.6,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 20.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 12,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     20.5
+    ],
+    "b": [
+     9,
+     12.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     12.3
+    ],
+    "b": [
+     10.8,
+     16.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 6
+   },
+   {
+    "a": [
+     7,
+     20.5
+    ],
+    "b": [
+     10.8,
+     16.4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s1": 8
+   },
+   {
+    "a": [
+     10.9,
+     16.2
+    ],
+    "b": [
+     14,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    23,
+    9.3,
+    "PIVOTE",
+    "middle"
+   ],
+   [
+    16,
+    21.8,
+    "FILA A 20 M",
+    "middle"
+   ]
+  ]
+ }
+}

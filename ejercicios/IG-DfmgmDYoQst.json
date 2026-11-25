@@ -1,0 +1,159 @@
+{
+ "id": "IG-DfmgmDYoQst",
+ "bloque": "Finalización",
+ "titulo": "4v4: solo gol de primeras",
+ "formato": "4v4 sin porteros",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "16 min",
+ "series": "4 partidos de 3 min con 1 min de pausa (propuesta); entre partidos, pregunta rápida: ¿qué pase os dejó rematar de primeras?",
+ "objetivo": "Dar valor a la calidad del último pase y al momento de llegada: solo vale rematar al primer contacto (fuente). Cómo explicarlo: el pase tiene que dejar al compañero de cara a la portería; el que remata llega en carrera, no espera. Errores típicos: controlar antes de tirar, pases a la espalda del rematador, todos delante del balón. Qué observar: quién da el pase de gol y desde dónde llega el remate (fuente: elegir el último pase que permita llegar de cara).",
+ "montaje": "Campo de 30 × 20 m con una portería de 4 × 2 m en cada fondo, sin porteros. Dos equipos de 4.",
+ "juego": "Partido 4 contra 4. Solo es gol si el balón entra al primer contacto. Se puede defender en la línea, sin manos. El gol tras control no vale y saca el rival desde su portería.",
+ "punto": "Gol de primeras: 1 punto. Gol de volea o de cabeza: 2 (propuesta).",
+ "consigna": "Pasa para que llegue de cara y remate.",
+ "variantes": {
+  "facil": "Gol en dos toques dentro de una zona de 6 m ante la portería (propuesta).",
+  "dificil": "Solo vale el gol tras pase de primeras también (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 3 contra 3 y porterías de 3 m. Alevín (10–11): como está. Infantil (12–13): 35 × 22 m (propuesta).",
+ "fuente": {
+  "autor": "@misterelite_coach",
+  "titulo_original": "Cuatro contra cuatro al remate de primeras",
+  "ref": "Instagram · reel DfmgmDYoQst"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, tamaño de portería, saques, puntuación y series (propuesta). 4 contra 4 a porterías sin portero, defensa de la línea y gol al primer contacto son de la descripción del autor.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 31.6,
+   "ymin": -0.5,
+   "ymax": 20.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5
+   },
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     22.7,
+     13.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     5
+    ],
+    "b": [
+     24.6,
+     11
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s1": 6
+   },
+   {
+    "a": [
+     24.8,
+     11.4
+    ],
+    "b": [
+     29.6,
+     11.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 6,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    15,
+    19.2,
+    "SOLO GOL DE PRIMERAS",
+    "middle"
+   ]
+  ]
+ }
+}

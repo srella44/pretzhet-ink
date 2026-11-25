@@ -1,0 +1,217 @@
+{
+ "id": "AFIN-009",
+ "bloque": "Finalización",
+ "titulo": "Devuelve, rodea y defiende",
+ "formato": "1v1 + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–9 jug. + PT",
+ "espacio": "Área y frontal (36 × 28 m)",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa (propuesta); unos 8 duelos por jugador. Cada serie se cambia el lado de los conos.",
+ "objetivo": "Finalizar tras conducción en duelo con un defensor que llega de frente tras una devolución (fuente). Cómo explicarlo: recibe orientado hacia tu cono, gira pegado a él y encara al defensor antes de que se coloque. Errores típicos: conducir lejos del cono, levantar la cabeza tarde, el defensor que se lanza al suelo. Qué observar: el primer toque del atacante y la carrera del defensor (frenar y perfilarse).",
+ "montaje": "Área con portería y portero. Atacante 1 en el fondo; defensor en el borde del área; atacante 2 a 25 m. Dos conos a 18 m: uno a la izquierda (defensor) y otro a la derecha (atacante).",
+ "juego": "El atacante 1 pasa al defensor, que devuelve de cara al atacante 2 y va a rodear su cono. El 2 rodea el cono derecho conduciendo y busca el gol ante el defensor. Rotan los tres puestos.",
+ "punto": "Gol: 1 punto. Robo o despeje: 1 al defensor (propuesta).",
+ "consigna": "Gira pegado al cono y encara rápido.",
+ "variantes": {
+  "facil": "El defensor rodea un cono más alejado (propuesta).",
+  "dificil": "El atacante 1 entra después como segundo defensor (1 contra 2) o como apoyo (2 contra 1) (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): conos a 14 m y portería de fútbol 7. Infantil (12–13): como está (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de técnica de finalización con oposición",
+  "titulo_original": "Ejercicio 9",
+  "ref": "10 ejercicios de técnica de finalización con oposición · pág. 11"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, posición de conos y jugadores, rotación, puntuación y series (propuesta). El pase desde la línea de fondo al rival, la devolución de cara, el cono alejado del defensor y la conducción del atacante doblando el cono derecho son de la fuente.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "lines": [
+   [
+    [
+     34,
+     1
+    ],
+    [
+     21,
+     1
+    ],
+    "0"
+   ],
+   [
+    [
+     21,
+     1
+    ],
+    [
+     21,
+     27
+    ],
+    "0"
+   ],
+   [
+    [
+     21,
+     27
+    ],
+    [
+     34,
+     27
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    16,
+    7
+   ],
+   [
+    16,
+    21
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 32.6,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     32.6,
+     7.5
+    ],
+    "b": [
+     21.3,
+     13.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     14
+    ],
+    "b": [
+     8.3,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     21,
+     14
+    ],
+    "b": [
+     16.6,
+     7.6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s1": 6
+   },
+   {
+    "a": [
+     8,
+     14
+    ],
+    "b": [
+     15.4,
+     21.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     16.6,
+     21.6
+    ],
+    "b": [
+     25,
+     17.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 5,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     25.3,
+     17.3
+    ],
+    "b": [
+     33.2,
+     15.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 6,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    16,
+    4.9,
+    "CONO DEFENSOR",
+    "middle"
+   ],
+   [
+    16,
+    23.6,
+    "CONO ATACANTE",
+    "middle"
+   ]
+  ]
+ }
+}

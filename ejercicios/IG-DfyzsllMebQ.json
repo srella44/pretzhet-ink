@@ -1,0 +1,200 @@
+{
+ "id": "IG-DfyzsllMebQ",
+ "bloque": "Finalización",
+ "titulo": "3v2: abrir y centrar",
+ "formato": "3v2 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug. + PT (filas de 3 y 2)",
+ "espacio": "30 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa (propuesta); entran tríos y parejas por turnos desde sus filas.",
+ "objetivo": "Combinar para liberar la banda, centrar y repartir las llegadas al área según qué defensor cubra el primer palo (fuente). Cómo explicarlo: si el defensor va al primer palo, el remate es en el segundo o en el punto de penalti. Errores típicos: los dos rematadores al mismo palo, centrar sin levantar la cabeza, abrir tarde. Qué observar: las alturas de llegada y el envío interceptado (fuente).",
+ "montaje": "Campo de 30 × 30 m ante una portería con portero. 3 atacantes salen desde 30 m (centro y bandas). 2 defensores esperan a 14 m.",
+ "juego": "El central abre a una banda o combina hasta liberar al extremo, que conduce y centra. Los otros dos atacan primer y segundo palo. Si los defensores roban, salen conduciendo por la línea de 30 m.",
+ "punto": "Gol: 1; de primeras: 2; robo y salida: 1 (propuesta).",
+ "consigna": "Si cubren el primer palo, ve al segundo.",
+ "variantes": {
+  "facil": "Un solo defensor activo y el otro pasivo (propuesta).",
+  "dificil": "Centro en menos de 8 s desde el primer pase y un tercer defensor que llega de atrás (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 25 × 25 m y portería de fútbol 7. Infantil (12–13): como está (propuesta).",
+ "fuente": {
+  "autor": "@touchline.tactics_",
+  "titulo_original": "Abrir para centrar en tres contra dos",
+  "ref": "Instagram · reel DfyzsllMebQ"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, posición de salida de cada uno, contraataque defensor, puntuación y series (propuesta). 3 contra 2 + portero, apertura a banda, centro y llegadas según el defensor del primer palo son de la descripción del autor.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 31.6,
+   "ymin": -0.5,
+   "ymax": 24.5
+  },
+  "lines": [
+   [
+    [
+     30,
+     2
+    ],
+    [
+     20,
+     2
+    ],
+    "0"
+   ],
+   [
+    [
+     20,
+     2
+    ],
+    [
+     20,
+     22
+    ],
+    "0"
+   ],
+   [
+    [
+     20,
+     22
+    ],
+    [
+     30,
+     22
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 15.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     12
+    ],
+    "b": [
+     5.7,
+     20.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     6.3,
+     21
+    ],
+    "b": [
+     22,
+     21.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s1": 4
+   },
+   {
+    "a": [
+     22.3,
+     21.3
+    ],
+    "b": [
+     26.5,
+     13.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     2.4,
+     12.3
+    ],
+    "b": [
+     25.5,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     6,
+     3
+    ],
+    "b": [
+     25,
+     9
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 5,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    1,
+    23.3,
+    "SALIDA A 30 M",
+    "start"
+   ]
+  ]
+ }
+}

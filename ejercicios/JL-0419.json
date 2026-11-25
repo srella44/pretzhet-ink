@@ -1,0 +1,148 @@
+{
+ "id": "JL-0419",
+ "bloque": "Finalización",
+ "titulo": "2v2+2 a lo ancho",
+ "formato": "2v2 + 2 comodines + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + 2 PT",
+ "espacio": "25 × 20 m",
+ "duracion": "8 min",
+ "series": "8 × 1 min (fuente) con 30 s de pausa; los comodines cambian cada minuto (fuente).",
+ "objetivo": "Tiro en superioridad numérica: el equipo con balón, ayudado por los comodines, debe crear y aprovechar la ocasión rápido, porque hay que tirar antes del 4.º pase (fuente). Cómo explicarlo: busca la línea de tiro desde el primer pase; si el portero está colocado, un pase más y tira. Errores típicos: pasar por pasar hasta agotar los pases, tirar sin ángulo, no repliegar tras perder. Qué observar: cuántos tiros salen por posesión y desde dónde. Las porterías anchas en las bandas obligan a mover el balón a lo ancho y a tirar desde ángulos distintos.",
+ "montaje": "Campo de 25 × 20 m con una portería de 7 m y portero en el centro de cada banda larga. Dos parejas y 2 comodines con el equipo que tiene el balón.",
+ "juego": "Cada pareja ataca la portería de enfrente con los 2 comodines a favor (4 contra 2). Hay que tirar antes del 4.º pase; si no, el balón es del rival. Cada minuto cambian los comodines.",
+ "punto": "Gol: 1 punto; de primeras: 2 (propuesta).",
+ "consigna": "Abre el campo y tira antes del 4.º pase.",
+ "variantes": {
+  "facil": "Un solo comodín y tiro antes del 5.º pase (propuesta).",
+  "dificil": "Comodines a un toque y gol solo desde fuera de un semicírculo de 5 m (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de 5 m. Infantil (12–13): 7 m como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 2:2+2 | entrada 419",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 97, bloque 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente habla de dos porterías laterales de 7 m sin más detalle: se interpretan en el centro de cada banda larga (propuesta). Saques, puntuación y pausas (propuesta). Jugadores, medidas, porteros, comodines con la posesión, cambio cada minuto, 8 × 1 min y tiro antes del 4.º pase son de la fuente. Parecido a JL-0421 (cambia el tipo de portería).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 25.5,
+   "ymin": -1.6,
+   "ymax": 21.6
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 12.5,
+    "y": 20,
+    "lado": "B",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 16.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 9,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 8.5,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 13,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 4.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     13
+    ],
+    "b": [
+     12.7,
+     16.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     16.5
+    ],
+    "b": [
+     18.8,
+     9.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     9
+    ],
+    "b": [
+     13.8,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    18.5,
+    2,
+    "PORTERÍA 7 M",
+    "start"
+   ]
+  ]
+ }
+}

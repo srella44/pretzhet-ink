@@ -1,0 +1,249 @@
+{
+ "id": "AFIN-003",
+ "bloque": "Finalización",
+ "titulo": "Tercer hombre y centros",
+ "formato": "3 atacantes vs 3 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–14 jug. + PT",
+ "espacio": "Medio campo (44 × 36 m)",
+ "duracion": "18 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta). Los 3 defensas cambian en cada serie; los centradores, cada 2.",
+ "objetivo": "Encadenar finalización tras tercer hombre con ataque al área en dos centros seguidos ante igualdad numérica (fuente). Cómo explicarlo: tras tirar no se celebra, se sale del área rodeando el cono y se vuelve a entrar ocupando primer palo, segundo palo y punto de penalti. Errores típicos: los tres al mismo sitio, esperar el centro parados, no rodear el cono. Qué observar: el reparto de zonas y el desmarque para ganar la posición al defensa.",
+ "montaje": "Medio campo con portería y portero. Pasador (30 m), mediapunta (22 m) y punta (15 m) por el centro. Centradores en el córner derecho y en la banda izquierda. 3 defensas en el área.",
+ "juego": "Pase al mediapunta, pase al hueco, el punta arrastra y tira. Los 3 atacantes entran: rematan el centro del córner contra los 3 defensas, rodean los conos de la frontal y rematan el centro lejano.",
+ "punto": "Tercer hombre: 1. Centro: 2; de primeras: 3 (propuesta).",
+ "consigna": "Primer palo, segundo palo y penalti.",
+ "variantes": {
+  "facil": "2 defensas en el área en lugar de 3 (propuesta).",
+  "dificil": "Al despejar, los defensas atacan dos miniporterías en el medio campo (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): fútbol 7, centros desde más cerca y con la mano si hace falta. Infantil (12–13): como está (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de técnica de finalización con oposición",
+  "titulo_original": "Ejercicio 3",
+  "ref": "10 ejercicios de técnica de finalización con oposición · pág. 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias, posición de los centradores y conos, rotación, puntuación y series (propuesta). Secuencia del tercer hombre, los dos centros (cercano y lejano) y los 3 defensores son de la fuente.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "lines": [
+   [
+    [
+     34,
+     1
+    ],
+    [
+     21,
+     1
+    ],
+    "0"
+   ],
+   [
+    [
+     21,
+     1
+    ],
+    [
+     21,
+     27
+    ],
+    "0"
+   ],
+   [
+    [
+     21,
+     27
+    ],
+    [
+     34,
+     27
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    17,
+    8
+   ],
+   [
+    17,
+    20
+   ],
+   [
+    21,
+    22
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 27.4,
+    "f": -120,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 1,
+    "f": 60,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     14
+    ],
+    "b": [
+     10.7,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     14
+    ],
+    "b": [
+     23,
+     11.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s1": 6
+   },
+   {
+    "a": [
+     18,
+     17.5
+    ],
+    "b": [
+     23,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s1": 8
+   },
+   {
+    "a": [
+     23.3,
+     11.4
+    ],
+    "b": [
+     33.2,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     32,
+     27.4
+    ],
+    "b": [
+     30.5,
+     19.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 5,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     14,
+     1
+    ],
+    "b": [
+     24.5,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 6,
+    "s0": 10,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    2,
+    10.4,
+    "TERCER HOMBRE",
+    "start"
+   ]
+  ]
+ }
+}

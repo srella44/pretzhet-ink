@@ -1,0 +1,227 @@
+{
+ "id": "LEI-107",
+ "bloque": "Finalización",
+ "titulo": "3v3: triángulo y dejada",
+ "formato": "3v3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. por campo",
+ "espacio": "35 × 25 m",
+ "duracion": "20 min",
+ "series": "4 partidos de 4 min con 1 min de pausa (propuesta); con más grupos, el ganador sube de campo.",
+ "objetivo": "Pase de primeras y movimiento para crear espacio: buscar el triángulo, recibir la dejada y meter el pase al que entra (fuente). Cómo explicarlo: formad un triángulo; el de la punta es quien deja de cara. Errores típicos: pasar por el triángulo sin nadie que reciba, dejada hacia atrás sin ángulo, entrar a la zona antes de la dejada. Qué observar: si el tercer jugador ya se mueve cuando sale la dejada.",
+ "montaje": "Campo de 35 × 25 m con una zona de 4 m en cada fondo y un triángulo de conos de 3 m de lado en el centro. 3 contra 3.",
+ "juego": "Cada equipo ataca una zona de fondo. Antes debe pasar por el triángulo a un compañero, que la deja de cara. Desde ahí, el pase a un compañero que entra en esa zona es gol. Si roban, empieza el otro.",
+ "punto": "Gol: 1 punto (pase recibido en la zona tras triángulo y dejada).",
+ "consigna": "Tras la dejada, pase de primeras al que entra.",
+ "variantes": {
+  "facil": "Triángulo de 4 m de lado y zona de fondo de 6 m (propuesta).",
+  "dificil": "Gol solo con pase de primeras tras la dejada (fuente) y máximo 3 toques por jugador (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 22 m. Infantil (12–13): como está, con la progresión de primeras (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "3v3 Finishing (setting the ball back)",
+  "ref": "Leicester City Academy · pág. 121"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fondo de las zonas (4 m), tamaño del triángulo, reinicio, series y adaptación (propuesta). Campo de 35 × 25 m, triángulo central, dejada y gol en la zona de fondo son de la fuente.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.5,
+   "ymin": -0.5,
+   "ymax": 26.6
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     4,
+     25
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     31,
+     0,
+     35,
+     25
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      17.5,
+      10.9
+     ],
+     [
+      15.8,
+      13.9
+     ],
+     [
+      19.2,
+      13.9
+     ]
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     25
+    ],
+    "6 5"
+   ],
+   [
+    [
+     31,
+     0
+    ],
+    [
+     31,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    17.5,
+    10.9
+   ],
+   [
+    15.8,
+    13.9
+   ],
+   [
+    19.2,
+    13.9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 20.5,
+    "f": -30
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     12
+    ],
+    "b": [
+     23.7,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     24,
+     15
+    ],
+    "b": [
+     19.3,
+     20.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     15
+    ],
+    "b": [
+     32.5,
+     11
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s1": 10
+   },
+   {
+    "a": [
+     19,
+     20.5
+    ],
+    "b": [
+     32.4,
+     11.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    33,
+    25.9,
+    "ZONA DE GOL",
+    "middle"
+   ],
+   [
+    17.5,
+    9.4,
+    "TRIÁNGULO 3 M",
+    "middle"
+   ]
+  ]
+ }
+}

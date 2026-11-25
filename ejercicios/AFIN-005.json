@@ -1,0 +1,246 @@
+{
+ "id": "AFIN-005",
+ "bloque": "Finalización",
+ "titulo": "Pared, centro y remate",
+ "formato": "3 rematadores vs 3 + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–14 jug. + PT",
+ "espacio": "Medio campo (44 × 36 m)",
+ "duracion": "18 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta). Defensores nuevos en cada serie.",
+ "objetivo": "Pared para lanzar al lateral, centro y llegada al área de tres rematadores (punta, extremo e interior del lado contrario) ante tres defensores; después, temporizar y atacar el segundo centro (fuente). Cómo explicarlo: el lateral centra cuando ve a sus compañeros arrancar; cada rematador tiene su zona. Errores típicos: llegar antes del centro y quedar parados, centro sin fuerza, no temporizar rodeando los conos. Qué observar: la sincronía centro-llegada y el remate con la superficie correcta.",
+ "montaje": "Medio campo con portería y portero. Interior a 28 m, mediapunta a 22 m y lateral derecho a 30 m. Punta, extremo e interior izquierdo a 20 m. 3 defensores en el área.",
+ "juego": "Pared interior-mediapunta y pase al espacio para el lateral, que llega y centra. Los 3 rematan contra los 3 defensores, rodean los conos de la frontal y atacan el segundo centro, desde la izquierda.",
+ "punto": "Gol: 1; de primeras o de cabeza: 2 (propuesta).",
+ "consigna": "Arranca cuando el lateral levanta la cabeza.",
+ "variantes": {
+  "facil": "2 defensores y centro raso hacia atrás (propuesta).",
+  "dificil": "Los defensores, al despejar, salen conduciendo por la frontal y cuenta como punto (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): fútbol 7 y rematadores a 15 m. Infantil (12–13): como está (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de técnica de finalización con oposición",
+  "titulo_original": "Ejercicio 5",
+  "ref": "10 ejercicios de técnica de finalización con oposición · pág. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias, colocación exacta de cada puesto, rotación, puntuación y series (propuesta). Pared, pase al lateral, tres rematadores, conos para temporizar, segundo centro desde la izquierda y 3 defensores son de la fuente.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "lines": [
+   [
+    [
+     34,
+     1
+    ],
+    [
+     21,
+     1
+    ],
+    "0"
+   ],
+   [
+    [
+     21,
+     1
+    ],
+    [
+     21,
+     27
+    ],
+    "0"
+   ],
+   [
+    [
+     21,
+     27
+    ],
+    [
+     34,
+     27
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    19,
+    7
+   ],
+   [
+    19,
+    13
+   ],
+   [
+    19,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 26.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 2,
+    "f": 30,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 21.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 13.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 20.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     19
+    ],
+    "b": [
+     10.7,
+     14.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     14
+    ],
+    "b": [
+     8,
+     20.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s1": 8
+   },
+   {
+    "a": [
+     8,
+     20.5
+    ],
+    "b": [
+     23,
+     26.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     7,
+     26.5
+    ],
+    "b": [
+     22.6,
+     26.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4,
+    "s1": 8
+   },
+   {
+    "a": [
+     23.4,
+     26.5
+    ],
+    "b": [
+     30,
+     13.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 5,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    19,
+    4.8,
+    "CONOS",
+    "middle"
+   ]
+  ]
+ }
+}

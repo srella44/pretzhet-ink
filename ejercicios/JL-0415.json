@@ -1,0 +1,143 @@
+{
+ "id": "JL-0415",
+ "bloque": "Finalización",
+ "titulo": "2v2+1: tira antes del 4.º",
+ "formato": "2v2 + 1 comodín + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "5 jug. + 2 PT",
+ "espacio": "20 × 15 m",
+ "duracion": "6 min",
+ "series": "6 × 1 min (fuente) con 30 s de pausa; el comodín cambia cada minuto (fuente).",
+ "objetivo": "Tiro en superioridad numérica: el equipo con balón, ayudado por los comodines, debe crear y aprovechar la ocasión rápido, porque hay que tirar antes del 4.º pase (fuente). Cómo explicarlo: busca la línea de tiro desde el primer pase; si el portero está colocado, un pase más y tira. Errores típicos: pasar por pasar hasta agotar los pases, tirar sin ángulo, no repliegar tras perder. Qué observar: cuántos tiros salen por posesión y desde dónde.",
+ "montaje": "Campo de 20 × 15 m con una portería de fútbol 7 y portero en cada fondo. Dos parejas y un comodín que juega con el equipo que tiene el balón.",
+ "juego": "Cada pareja ataca una portería: con el comodín, 3 contra 2. Hay que tirar antes del 4.º pase; si no, el balón es del rival. Tras gol o fuera, saca el portero. Cada minuto cambia el comodín.",
+ "punto": "Gol: 1 punto. Gana la pareja con más goles en 6 min.",
+ "consigna": "Busca el tiro antes del 4.º pase.",
+ "variantes": {
+  "facil": "Tiro antes del 6.º pase (propuesta).",
+  "dificil": "Tiro antes del 3.er pase y el comodín a un toque (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): campo de 18 × 12 m y porterías de 3 m. Alevín (10–11): como está. Infantil (12–13): comodín a dos toques (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 2:2 +1 | entrada 415",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 97, bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Saques, regla si no se tira a tiempo, puntuación y pausas (propuesta). Jugadores, medidas, porterías normales con porteros, comodín con la posesión, cambio cada minuto, 6 × 1 min y tiro antes del 4.º pase son de la fuente.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 21.6,
+   "ymin": -0.5,
+   "ymax": 15.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 7.5,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 20,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 11.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     4
+    ],
+    "b": [
+     8.2,
+     11.1
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     11.5
+    ],
+    "b": [
+     11.7,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     11
+    ],
+    "b": [
+     19.4,
+     8.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    14.4,
+    "COMODÍN CON EL BALÓN",
+    "middle"
+   ]
+  ]
+ }
+}

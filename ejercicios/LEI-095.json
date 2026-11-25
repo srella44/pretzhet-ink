@@ -1,0 +1,189 @@
+{
+ "id": "LEI-095",
+ "bloque": "Finalización",
+ "titulo": "3v2 y 2v1 en zona final",
+ "formato": "3v2 → 2v1 + PT",
+ "edad": "10–13 años",
+ "nivel": "Alto",
+ "jugadores": "8–16 jug. + PT",
+ "espacio": "30 × 42 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta). Con 16 jugadores (fuente), dos campos o dos grupos que se alternan. Defensas cambian cada serie.",
+ "objetivo": "Perder la marca con cambios de ritmo y dirección, combinar en superioridad y terminar con buena técnica, mirando la posición del portero para tirar pronto (fuente). Cómo explicarlo: el 3 contra 2 sirve para meter el balón al delantero; el 2 contra 1 para tirar. Errores típicos: entrar dos atacantes a la zona final, delantero quieto en fuera de juego, pase al pie con el defensor encima. Qué observar: el desmarque del delantero y el momento en que entra el segundo atacante.",
+ "montaje": "Campo de 30 × 42 m con portería y portero. Zona final de 30 × 20 m con fuera de juego. Atrás: servidor, 2 atacantes y 2 defensas. En la zona final: 1 delantero y 1 defensa.",
+ "juego": "El servidor pasa a un atacante y se suma por detrás (3 contra 2). Combinan hasta meter el balón al delantero. Entonces entra un solo atacante: 2 contra 1 y tiro. Al acabar, un atacante rota y se reinicia.",
+ "punto": "Gol: 1; en menos de 6 pases: 2 (propuesta).",
+ "consigna": "Cambia de ritmo y pierde a tu marca.",
+ "variantes": {
+  "facil": "Sin fuera de juego y el defensa de la zona final espera en la línea de gol (propuesta).",
+  "dificil": "Progresión 1 (fuente): se entra conduciendo a la zona final. Progresión 2 (fuente): el delantero deja de cara y tiran los dos que llegan."
+ },
+ "adaptacion": "Alevín (10–11): sin fuera de juego y zona final de 25 × 16 m. Infantil (12–13): como está (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Shooting 1",
+  "ref": "Leicester City Academy · pág. 107"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Largo total del campo, puesto del defensa de la zona final, puntuación, series y adaptación (propuesta). Zona final de 20 × 30 m con fuera de juego, 3 contra 2, entrada de un solo atacante, rotación y progresiones son de la fuente.",
+ "diagrama": {
+  "field": [
+   42,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 43.6,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "lines": [
+   [
+    [
+     22,
+     0
+    ],
+    [
+     22,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     22,
+     0,
+     42,
+     30
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 42,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 2,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 19.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     15
+    ],
+    "b": [
+     10.7,
+     8.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     8
+    ],
+    "b": [
+     11,
+     21.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     22
+    ],
+    "b": [
+     29.7,
+     13.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     11,
+     8
+    ],
+    "b": [
+     26,
+     6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    23,
+    1.3,
+    "ZONA FINAL 20 × 30 M",
+    "start"
+   ],
+   [
+    2,
+    18.3,
+    "SERVIDOR",
+    "middle"
+   ]
+  ]
+ }
+}

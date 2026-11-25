@@ -1,0 +1,217 @@
+{
+ "id": "LU-P225",
+ "bloque": "Finalización",
+ "titulo": "Rueda y tercer hombre",
+ "formato": "Circuito 8 jug. + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + PT",
+ "espacio": "40 × 26 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa (propuesta): se alterna un ataque por la izquierda y otro por la derecha (fuente). Con más de 8 jugadores, filas de 2 en las esquinas.",
+ "objetivo": "Conectar con el jugador alejado a través del tercer hombre y terminar con tiro tras la dejada de frente (fuente). Cómo explicarlo: el pase largo busca al interior lejano porque el cercano ya está tapado; el que deja de cara pone el balón delante del que llega. Errores típicos: pases sin tensión, interiores de espaldas, el que tira llega antes de tiempo. Qué observar: la orientación del cuerpo de los interiores y la calidad de la dejada.",
+ "montaje": "Cuadrado de 24 × 24 m a 16 m de una portería con portero. Un jugador en cada esquina, balones en las de atrás. Dos interiores en el centro, a 8 m.",
+ "juego": "La esquina de atrás pasa al interior lejano, que juega de cara con el otro. Este, a un toque, busca la esquina de delante más alejada, que deja de frente al primero para que tire. Luego, por el otro lado.",
+ "punto": "Gol: 1; con toda la secuencia a un toque: 2 (propuesta).",
+ "consigna": "Juega al lejano y llega para tirar.",
+ "variantes": {
+  "facil": "Dos toques en cada pase y tiro desde más cerca (propuesta).",
+  "dificil": "Un defensor sale de la portería cuando se da el tercer pase (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): rectángulo de 28 × 20 m y dos toques. Infantil (12–13): como está y a un toque (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE + 3er Hombre Con Finalizacion - Jesús Piñero @PineroCoach - Zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · tarea 224 (pág. 225)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente da 40 × 60 m para 8 jugadores; se dibuja un cuadrado de 24 × 24 m a 16 m de la portería. Quién tira (el interior que empieza), rotación, puntuación y series (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   26
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 41.6,
+   "ymin": -0.5,
+   "ymax": 27.6
+  },
+  "lines": [
+   [
+    [
+     0,
+     1
+    ],
+    [
+     24,
+     1
+    ],
+    "6 5"
+   ],
+   [
+    [
+     24,
+     1
+    ],
+    [
+     24,
+     25
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     25
+    ],
+    [
+     24,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 13,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 2.8,
+    "f": 30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 23.2,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 2.8,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 23.2,
+    "f": -150
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 8.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 17.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     2.8
+    ],
+    "b": [
+     11.7,
+     17.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     17.5
+    ],
+    "b": [
+     12,
+     8.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     8.5
+    ],
+    "b": [
+     22.2,
+     22.9
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     12.3,
+     17.6
+    ],
+    "b": [
+     26,
+     14.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4,
+    "s1": 8
+   },
+   {
+    "a": [
+     22.5,
+     23.2
+    ],
+    "b": [
+     26.2,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 5,
+    "s1": 6
+   },
+   {
+    "a": [
+     26.4,
+     14.6
+    ],
+    "b": [
+     39.2,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 6,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    1,
+    26.8,
+    "RUEDA 24 × 24 M",
+    "start"
+   ]
+  ]
+ }
+}

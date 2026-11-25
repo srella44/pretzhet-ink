@@ -1,0 +1,150 @@
+{
+ "id": "IG-DOggAYnkXEE",
+ "bloque": "Finalización",
+ "titulo": "2v2 y centros de fuera",
+ "formato": "2v2 + 2 centradores + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug. + PT",
+ "espacio": "24 × 18 m",
+ "duracion": "15 min",
+ "series": "5 series de 2 min con 1 min de pausa (propuesta). Cada 2 series los centradores entran a jugar y una pareja sale a centrar.",
+ "objetivo": "Disputar el balón aéreo o raso que llega desde fuera y rematar en duelo; cambiar de papel al instante cuando cambia la posesión (fuente). Cómo explicarlo: atacante, gana la posición antes de que salga el centro; defensor, mira balón y rival a la vez. Errores típicos: esperar el balón parado, ir los dos atacantes al mismo palo, defensor de espaldas. Qué observar: los desmarques de ruptura y el remate al primer toque.",
+ "montaje": "Área de 24 × 18 m ante una portería con portero. Dentro, 2 atacantes contra 2 defensores. Fuera, un centrador en cada banda, con 5 balones.",
+ "juego": "Un centrador envía al área y los atacantes intentan rematar. Si los defensores ganan el balón, pasan a un centrador y pasan a atacar. Al principio el envío es con la mano; después, con el pie.",
+ "punto": "Gol: 1; de primeras o de cabeza: 2 (propuesta).",
+ "consigna": "Gana la posición antes del centro.",
+ "variantes": {
+  "facil": "Envío con la mano (fuente) y un defensor pasivo (propuesta).",
+  "dificil": "Centro con el pie (fuente) y los centradores solo pueden centrar a un toque tras recibir (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): envío con la mano, balón ligero. Alevín (10–11): centro con el pie raso. Infantil (12–13): centro con el pie por el aire (propuesta).",
+ "fuente": {
+  "autor": "@edf.futebol",
+  "titulo_original": "Duelo de parejas con centros exteriores",
+  "ref": "Instagram · reel DOggAYnkXEE"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, medidas, portería con portero, posición y número de balones de los centradores, puntuación y series (propuesta). 2 contra 2 con apoyos exteriores, cambio de función al cambiar la posesión y progresión de la mano al pie son de la descripción del autor.",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 27.2,
+   "ymin": -1.6,
+   "ymax": 18.5
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 25.6,
+    "y": 6,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 13,
+    "f": -80
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 14,
+    "f": -100
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 8.5,
+    "f": 120
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     25.6,
+     6
+    ],
+    "b": [
+     13,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s1": 8
+   },
+   {
+    "a": [
+     8,
+     13
+    ],
+    "b": [
+     12.2,
+     5.2
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s1": 8
+   },
+   {
+    "a": [
+     12.6,
+     4.6
+    ],
+    "b": [
+     10.5,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    -1.6,
+    9,
+    "CENTRADOR",
+    "middle"
+   ],
+   [
+    25.6,
+    9,
+    "CENTRADOR",
+    "middle"
+   ]
+  ]
+ }
+}

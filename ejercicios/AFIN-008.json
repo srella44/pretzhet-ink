@@ -1,0 +1,224 @@
+{
+ "id": "AFIN-008",
+ "bloque": "Finalización",
+ "titulo": "2v1 y 3v2 tras el pase",
+ "formato": "2v1 y 3v2 + PT",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "10–14 jug. + PT",
+ "espacio": "Medio campo (44 × 36 m)",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa (propuesta). Se alterna izquierda (2 contra 1) y derecha (3 contra 2) sin parar.",
+ "objetivo": "Aprovechar la superioridad para finalizar: fijar al defensor y soltar en el momento justo, o tirar si el defensor tapa el pase (fuente: 2x1 y 3x2). Cómo explicarlo: conduce hacia el defensor; si sale a ti, pasa; si se queda con tu compañero, tira. Errores típicos: pasar antes de fijar, conducir hacia la banda, apoyos en la misma línea. Qué observar: la decisión pase-tiro y la amplitud de los apoyos.",
+ "montaje": "Medio campo con portería y portero. Izquierda: 2 filas de atacantes a 28 m y un defensor a 22 m. Derecha: 3 filas a 30 m y 2 defensores esperando a 17 m.",
+ "juego": "Izquierda: el atacante pasa al defensor, que devuelve al otro atacante: 2 contra 1 hasta tirar. Derecha: los atacantes se pasan entre ellos y atacan 3 contra 2. Se alternan los lados sin parar.",
+ "punto": "Gol: 1; robo o despeje: 1 a la defensa (propuesta).",
+ "consigna": "Fija al defensor y suelta en el momento justo.",
+ "variantes": {
+  "facil": "Los defensores solo pueden interceptar, no entrar (propuesta).",
+  "dificil": "Un defensor más que sale desde la línea de fondo cuando se cruza la frontal (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): fútbol 7, salida desde 20 m. Infantil (12–13): como está. Benjamín: solo el 2 contra 1 (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de técnica de finalización con oposición",
+  "titulo_original": "Ejercicio 8",
+  "ref": "10 ejercicios de técnica de finalización con oposición · pág. 10"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias, número de filas, alternancia, puntuación y series (propuesta). El 2 contra 1 iniciado con pase al defensor y el 3 contra 2 de la derecha son de la fuente.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "lines": [
+   [
+    [
+     34,
+     1
+    ],
+    [
+     21,
+     1
+    ],
+    "0"
+   ],
+   [
+    [
+     21,
+     1
+    ],
+    [
+     21,
+     27
+    ],
+    "0"
+   ],
+   [
+    [
+     21,
+     27
+    ],
+    [
+     34,
+     27
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 23.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     3
+    ],
+    "b": [
+     11.7,
+     6.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     7
+    ],
+    "b": [
+     4.3,
+     11.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     4.4,
+     12
+    ],
+    "b": [
+     17,
+     11.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3,
+    "s1": 4
+   },
+   {
+    "a": [
+     17.3,
+     11.5
+    ],
+    "b": [
+     33.2,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 6,
+    "s1": 4
+   },
+   {
+    "a": [
+     4,
+     17
+    ],
+    "b": [
+     11.7,
+     25.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 5,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    6,
+    1.3,
+    "2 CONTRA 1",
+    "start"
+   ],
+   [
+    14,
+    27.3,
+    "3 CONTRA 2",
+    "start"
+   ]
+  ]
+ }
+}

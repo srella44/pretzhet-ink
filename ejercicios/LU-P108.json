@@ -1,0 +1,236 @@
+{
+ "id": "LU-P108",
+ "bloque": "Finalización",
+ "titulo": "Rombo y centro",
+ "formato": "Circuito de pases + centro + PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12–18 jug. + PT",
+ "espacio": "45 × 50 m (medio campo)",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta), alternando un sector y otro en cada ataque (fuente). Cada 2 series se cambia el pie de centro intercambiando los sectores.",
+ "objetivo": "Pases orientados, desmarque de apoyo, desdoblamiento y centro con llegada al área (fuente). Cómo explicarlo: cada control ya mira al siguiente compañero; el que desdobla corre cuando su pase sale. Errores típicos: controlar de espaldas, desdoblar tarde, centrar sin mirar quién llega. Qué observar: el ritmo de la secuencia y la llegada a primer y segundo palo.",
+ "montaje": "Medio campo con portería y portero. A en el centro a 38 m con los balones. En cada sector (derecho e izquierdo), 4 jugadores en rombo (B, C, D, E) y una pica en la banda.",
+ "juego": "A abre a un sector. B recibe orientado y pasa a C, que viene al apoyo; C toca con D, que juega con E mientras B desdobla. E abre a la banda y B centra; C y E rematan en primer y segundo palo.",
+ "punto": "Gol de centro: 1; de primeras: 2 (propuesta).",
+ "consigna": "Pase tenso al pie y desdobla cuando pasas.",
+ "variantes": {
+  "facil": "Se suprime el pase C–D y el centro es con la mano del entrenador al principio (propuesta).",
+  "dificil": "Un defensor en el área que sale cuando B centra; todos los pases a un toque (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): sectores más cortos y centro desde 20 m. Cadete (14–15): como está y a un toque. Alevín: solo la secuencia B–E con centro (propuesta). Fuente profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIONES COMBINADAS CON BALÓN - CENTROS - FINALIZACIONES",
+  "ref": "300 ejercicios Level Up Coach · tarea 107 (pág. 108)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Edad, posiciones con medidas, rematadores (C y E), rotación, puntuación y series (propuesta). Secuencia de pases y desdoblamiento de la secuencia 1 de la fuente; la secuencia 2 (F, G, H, I) va en el otro sector.",
+ "diagrama": {
+  "field": [
+   40,
+   34
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 41.6,
+   "ymin": -0.5,
+   "ymax": 34.5
+  },
+  "lines": [
+   [
+    [
+     40,
+     4
+    ],
+    [
+     27,
+     4
+    ],
+    "0"
+   ],
+   [
+    [
+     27,
+     4
+    ],
+    [
+     27,
+     30
+    ],
+    "0"
+   ],
+   [
+    [
+     27,
+     30
+    ],
+    [
+     40,
+     30
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    21,
+    32.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 24,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 18.5,
+    "f": 120
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 27,
+    "f": -150
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 20,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     15
+    ],
+    "b": [
+     8.7,
+     23.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     24
+    ],
+    "b": [
+     14.7,
+     18.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     18.5
+    ],
+    "b": [
+     19.7,
+     26.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     20,
+     27
+    ],
+    "b": [
+     25.7,
+     20.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4
+   },
+   {
+    "a": [
+     9.3,
+     24.5
+    ],
+    "b": [
+     30,
+     31.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 5,
+    "s1": 8
+   },
+   {
+    "a": [
+     26,
+     20
+    ],
+    "b": [
+     30,
+     31
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     30.3,
+     31
+    ],
+    "b": [
+     35,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 7,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    21,
+    30.4,
+    "PICA",
+    "middle"
+   ],
+   [
+    2,
+    18.2,
+    "A",
+    "middle"
+   ]
+  ]
+ }
+}

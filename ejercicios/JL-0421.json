@@ -1,0 +1,274 @@
+{
+ "id": "JL-0421",
+ "bloque": "Finalización",
+ "titulo": "2v2+2 a triángulos",
+ "formato": "2v2 + 2 comodines + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + 2 PT",
+ "espacio": "25 × 20 m",
+ "duracion": "8 min",
+ "series": "8 × 1 min (fuente) con 30 s de pausa; los comodines cambian cada minuto (fuente).",
+ "objetivo": "Tiro en superioridad numérica: el equipo con balón, ayudado por los comodines, debe crear y aprovechar la ocasión rápido, porque hay que tirar antes del 4.º pase (fuente). Cómo explicarlo: busca la línea de tiro desde el primer pase; si el portero está colocado, un pase más y tira. Errores típicos: pasar por pasar hasta agotar los pases, tirar sin ángulo, no repliegar tras perder. Qué observar: cuántos tiros salen por posesión y desde dónde. La portería triangular se puede atacar por sus tres lados: hay que mover al portero y buscar el lado libre.",
+ "montaje": "Campo de 25 × 20 m con dos porterías triangulares de conos (7 m por lado), con un portero dentro. Dos parejas y 2 comodines con el balón.",
+ "juego": "Cada pareja ataca un triángulo: se marca por cualquiera de sus 3 lados, raso. Con los comodines es 4 contra 2. Hay que tirar antes del 4.º pase; si no, el balón es del rival.",
+ "punto": "Gol: 1; tras mover al portero de lado: 2 (propuesta).",
+ "consigna": "Mueve al portero y tira al lado libre.",
+ "variantes": {
+  "facil": "Triángulo de 8 m y un solo comodín (propuesta).",
+  "dificil": "Triángulo de 6 m y comodines a un toque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): triángulos de 6 m y gol raso. Infantil (12–13): 7 m como la fuente (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 2:2 +2 | entrada 421",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 98, bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Posición de los triángulos, altura máxima del gol, puntuación y pausas (propuesta). Jugadores, medidas, porterías triangulares de 7 m × 3 lados con portero, comodines con la posesión, cambio cada minuto, 8 × 1 min y tiro antes del 4.º pase son de la fuente. Parecido a JL-0419 (cambia el tipo de portería).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 25.5,
+   "ymin": -1.9,
+   "ymax": 20.5
+  },
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      1.5,
+      6.5
+     ],
+     [
+      1.5,
+      13.5
+     ],
+     [
+      7.56,
+      10
+     ]
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      23.5,
+      6.5
+     ],
+     [
+      23.5,
+      13.5
+     ],
+     [
+      17.44,
+      10
+     ]
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     1.5,
+     6.5
+    ],
+    [
+     1.5,
+     13.5
+    ],
+    "0"
+   ],
+   [
+    [
+     1.5,
+     13.5
+    ],
+    [
+     7.56,
+     10
+    ],
+    "0"
+   ],
+   [
+    [
+     7.56,
+     10
+    ],
+    [
+     1.5,
+     6.5
+    ],
+    "0"
+   ],
+   [
+    [
+     23.5,
+     6.5
+    ],
+    [
+     23.5,
+     13.5
+    ],
+    "0"
+   ],
+   [
+    [
+     23.5,
+     13.5
+    ],
+    [
+     17.44,
+     10
+    ],
+    "0"
+   ],
+   [
+    [
+     17.44,
+     10
+    ],
+    [
+     23.5,
+     6.5
+    ],
+    "0"
+   ]
+  ],
+  "cones": [
+   [
+    1.5,
+    6.5
+   ],
+   [
+    1.5,
+    13.5
+   ],
+   [
+    7.56,
+    10
+   ],
+   [
+    23.5,
+    6.5
+   ],
+   [
+    23.5,
+    13.5
+   ],
+   [
+    17.44,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 3.6,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 21.4,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 4.5,
+    "y": 18.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     3.5
+    ],
+    "b": [
+     17.7,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     3
+    ],
+    "b": [
+     13.7,
+     15.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     13.5,
+     16
+    ],
+    "b": [
+     19.8,
+     12.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    -1,
+    "TRIÁNGULOS 7 M: GOL POR LOS 3 LADOS",
+    "middle"
+   ]
+  ]
+ }
+}

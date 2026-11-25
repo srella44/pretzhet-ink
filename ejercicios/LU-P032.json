@@ -1,0 +1,264 @@
+{
+ "id": "LU-P032",
+ "bloque": "Finalización",
+ "titulo": "Tres llegadas al área",
+ "formato": "3 secuencias + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–13 jug. + PT",
+ "espacio": "45 × 50 m (medio campo)",
+ "duracion": "20 min",
+ "series": "3 rondas de 6 min (2 min por secuencia y lado) con 1 min de pausa; tras cada ronda se cambia de lado (fuente: tras varias repeticiones cambiar lateralidad).",
+ "objetivo": "Timing de la llegada al área en tres situaciones típicas: pase atrás desde el fondo, dejada de cara del delantero y centro desde la banda (fuente). Cómo explicarlo: el que remata arranca cuando el compañero levanta la cabeza, no antes. Errores típicos: llegar parado, pase atrás sin fuerza, delantero que recibe de frente en vez de perfilado. Qué observar: la sincronía pase-llegada y que el remate sea de primeras.",
+ "montaje": "Medio campo con portería y portero. A: fila en la banda izquierda, cerca del fondo. B: fila central a 30 m, intermedio a 22 m y delantero de espaldas a 17 m. C: fila en la banda derecha.",
+ "juego": "A: conduce paralelo al fondo y pasa atrás al que entra. B: pasa al intermedio, que juega con el delantero; este la deja de cara y tira. C: conduce por la banda y centra al que entra. Orden A, B, C.",
+ "punto": "Gol: 1 punto. Reto: 5 goles en 9 llegadas (propuesta).",
+ "consigna": "Arranca cuando el pasador levanta la cabeza.",
+ "variantes": {
+  "facil": "El rematador sale ya desde dentro del área (propuesta).",
+  "dificil": "Un defensor pasivo en el área que se vuelve activo en la última ronda (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): fútbol 7, área de 26 × 13 m y fila B a 22 m. Infantil (12–13): como está. Benjamín: solo la secuencia A (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIONES COMBINADAS CON BALÓN - Finalizaciones - Timing",
+  "ref": "300 ejercicios Level Up Coach · tarea 31 (pág. 32)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancias de cada fila, reparto de jugadores, reto de goles y series (propuesta). Las tres secuencias, el orden alfabético y el cambio de lado son de la fuente.",
+ "diagrama": {
+  "field": [
+   36,
+   32
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 37.6,
+   "ymin": -0.5,
+   "ymax": 32.5
+  },
+  "lines": [
+   [
+    [
+     36,
+     3
+    ],
+    [
+     23,
+     3
+    ],
+    "0"
+   ],
+   [
+    [
+     23,
+     3
+    ],
+    [
+     23,
+     29
+    ],
+    "0"
+   ],
+   [
+    [
+     23,
+     29
+    ],
+    [
+     36,
+     29
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 36,
+    "y": 16,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 32.5,
+    "y": 1.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 29.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 24,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     32.5,
+     1.5
+    ],
+    "b": [
+     33,
+     7.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s1": 4
+   },
+   {
+    "a": [
+     33,
+     7.8
+    ],
+    "b": [
+     27,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     2,
+     16
+    ],
+    "b": [
+     9.7,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     16
+    ],
+    "b": [
+     17.2,
+     13.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     17.5,
+     13
+    ],
+    "b": [
+     14,
+     18
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s1": 6
+   },
+   {
+    "a": [
+     14.2,
+     18.2
+    ],
+    "b": [
+     35.2,
+     17.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 6,
+    "s1": 4
+   },
+   {
+    "a": [
+     8,
+     29.5
+    ],
+    "b": [
+     25,
+     29.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s1": 4
+   },
+   {
+    "a": [
+     25.3,
+     29.6
+    ],
+    "b": [
+     30,
+     21
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    30,
+    1.6,
+    "A",
+    "end"
+   ],
+   [
+    2,
+    19.2,
+    "B",
+    "middle"
+   ],
+   [
+    8,
+    26.6,
+    "C",
+    "middle"
+   ]
+  ]
+ }
+}

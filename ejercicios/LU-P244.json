@@ -1,0 +1,223 @@
+{
+ "id": "LU-P244",
+ "bloque": "Finalización",
+ "titulo": "Supera la presión y define",
+ "formato": "6v6 + 2 PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug. (12 + 2 PT)",
+ "espacio": "30 × 40 m (doble área)",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta); cambio de papeles en cada serie. Cada ataque dura como máximo 15 s (propuesta).",
+ "objetivo": "Superar la presión con superioridad del portero y batir la línea de pase para que los dos de delante finalicen rápido; sin balón, presionar alto y replegar en cuanto el pase supera la línea (fuente). Cómo explicarlo: si el pase supera a los 4, la carrera es de los de delante. Errores típicos: conducir hacia la presión, pase horizontal entre dos rivales, delanteros quietos en la misma línea. Qué observar: el uso del portero como hombre libre y el primer control de los delanteros.",
+ "montaje": "Doble área de 30 × 40 m, porterías y porteros. En una franja de 10 m ante la portería amarilla, 4 amarillos + portero contra 4 azules. Al otro lado, 2 delanteros amarillos contra 2 defensas azules.",
+ "juego": "Saca el portero amarillo y su equipo (5 contra 4) busca un pase que supere la presión hacia los delanteros. Al conectar, sube 1 amarillo y los 4 azules repliegan. Si roban en la franja, tiran.",
+ "punto": "Gol: 1; antes de 10 s: 2. Gol azul tras robo: 1 (propuesta).",
+ "consigna": "Atrae la presión y busca al de detrás.",
+ "variantes": {
+  "facil": "Los azules presionan con 3 y no pueden entrar en la línea de fondo del portero (propuesta).",
+  "dificil": "Límite de toques por jugador o de tiempo para el ataque (fuente); los 2 defensas azules pueden salir a la franja (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): campo de 30 × 36 m y presión con 3. Cadete (14–15): como está (propuesta). Fuente profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "DOBLE AREA (6X6+2P LINEAS DE PASE) - FINALIZACION - Juanlu Toledo @JuanluAxel",
+  "ref": "300 ejercicios Level Up Coach · tarea 243 (pág. 244)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente habla de una zona de robo de cuadrados de 5 × 9 m poco clara: se simplifica a una franja de 10 m. Reparto 4+2 por equipo, máximo de toques, quién sube, puntuación y series (propuesta). Edad bajada a 12–15 años.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41.6,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     10,
+     30
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 27.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14.5,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     12
+    ],
+    "b": [
+     4.6,
+     20.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     4.5,
+     21
+    ],
+    "b": [
+     25.7,
+     10.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 12
+   },
+   {
+    "a": [
+     26.3,
+     10.2
+    ],
+    "b": [
+     39.2,
+     13.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     9,
+     24
+    ],
+    "b": [
+     21,
+     25
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4,
+    "s0": 12
+   }
+  ],
+  "labels": [
+   [
+    0.8,
+    29.3,
+    "ZONA DE PRESIÓN 10 M",
+    "start"
+   ]
+  ]
+ }
+}

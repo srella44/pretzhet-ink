@@ -1,0 +1,212 @@
+{
+ "id": "LEI-092",
+ "bloque": "Finalización",
+ "titulo": "Entra conduciendo y define",
+ "formato": "6v3 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug. + PT",
+ "espacio": "40 × 40 m",
+ "duracion": "21 min",
+ "series": "3 × 7 min (fuente): en cada bloque defiende un equipo de 3 en inferioridad (todos defienden una vez). 1–2 min de pausa entre bloques (propuesta).",
+ "objetivo": "Atraer al defensor y entrar al área conduciendo para definir 1 contra 1 ante el portero; tras pérdida, cambiar rápido de chip (fuente). Cómo explicarlo: el apoyo de los compañeros abre el hueco; la entrada al área es conduciendo, no con pase. Errores típicos: conducir hacia el defensor sin cambio de ritmo, tirar antes de entrar, definir con prisa. Qué observar: el último toque antes de la línea y la calma en el 1 contra 1.",
+ "montaje": "Campo de 40 × 40 m con portería y portero en un fondo y el área (26 × 13 m) marcada. Rojos y amarillos (3 + 3) atacan contra 3 azules, cuya meta es el fondo contrario.",
+ "juego": "Los 6 intentan entrar al área conduciendo. Los azules no pueden pisar el área: quien entra queda solo ante el portero. Se reinicia desde el fondo. Si roban, los azules ganan cruzando el fondo contrario.",
+ "punto": "Gol: 1 al que marca; azul que cruza la línea: 1.",
+ "consigna": "Atrae al defensor y entra conduciendo.",
+ "variantes": {
+  "facil": "Sin portero: gol al entrar conduciendo y parar el balón en el área (propuesta).",
+  "dificil": "3 o 5 pases antes de poder entrar al área, o 5 contra 3 con uno de los seis como apoyo fuera del campo (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): 35 × 35 m y portería de fútbol 7. Infantil (12–13): 40 × 40 m. Benjamín: 4 contra 2 en 30 × 30 m (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Shot on Goal and Dribbling",
+  "ref": "Leicester City Academy · pág. 104"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas pasadas de yardas a metros (45 yd ≈ 40 m), tamaño del área, reinicio, puntuación y adaptación (propuesta). Equipos, regla del área, contraataque azul, 3 × 7 min y variantes son de la fuente.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 41.6,
+   "ymin": -1.9,
+   "ymax": 30.5
+  },
+  "lines": [
+   [
+    [
+     40,
+     2
+    ],
+    [
+     27,
+     2
+    ],
+    "0"
+   ],
+   [
+    [
+     27,
+     2
+    ],
+    [
+     27,
+     28
+    ],
+    "0"
+   ],
+   [
+    [
+     27,
+     28
+    ],
+    [
+     40,
+     28
+    ],
+    "0"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     27,
+     2,
+     40,
+     28
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     14
+    ],
+    "b": [
+     14.3,
+     5.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     14.3,
+     5
+    ],
+    "b": [
+     28.5,
+     6
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2,
+    "s1": 4
+   },
+   {
+    "a": [
+     28.8,
+     6.2
+    ],
+    "b": [
+     39.2,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    0.3,
+    -1,
+    "META AZUL: CRUZAR LA LÍNEA IZQUIERDA",
+    "start"
+   ],
+   [
+    33.5,
+    29.3,
+    "ÁREA: NO ENTRAN AZULES",
+    "middle"
+   ]
+  ]
+ }
+}

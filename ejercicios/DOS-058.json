@@ -1,0 +1,182 @@
+{
+ "id": "DOS-058",
+ "bloque": "Finalización",
+ "titulo": "Rápido de cabeza",
+ "formato": "Fila + servidor + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "5–10 jug. + servidor",
+ "espacio": "Portería y área pequeña",
+ "duracion": "15 min",
+ "series": "Juego continuo de 15 min (fuente) en 3 rondas de 4 min con 1 min de pausa (propuesta). Un remate cada 5–6 s. En menores de 12, máximo unos 10 remates de cabeza por jugador y sesión (propuesta).",
+ "objetivo": "Juego de cabeza y remate en plancha (fuente). Cómo explicarlo: ojos abiertos, cuello firme, golpear con la frente y dirigir el balón hacia abajo. Errores típicos: cerrar los ojos, golpear con la coronilla, saltar tarde, plancha con los brazos recogidos. Qué observar: el paso de impulso y si el remate va al suelo. Al fallar se pasa a portero: el castigo es suave y mantiene el juego vivo.",
+ "montaje": "Portería de fútbol 7 con portero. Fila de rematadores a 8 m, en el centro. El servidor, a 4 m de la fila en diagonal, con 10 balones.",
+ "juego": "El servidor lanza con la mano a la cabeza del primero, que remata (en plancha si llega bajo). Si marca, vuelve a la fila. Si falla, pasa a portero y el portero va a la fila. Un remate cada 5 s.",
+ "punto": "Cada gol, 1 punto. Gana quien más goles sume en la ronda o quien menos veces haya ido a portería (propuesta).",
+ "consigna": "Ojos abiertos y golpea con la frente.",
+ "variantes": {
+  "facil": "Balón ligero o de playa y servicio más corto (propuesta).",
+  "dificil": "Variante de la fuente: finalizar de volea. También: servicio desde la banda o un defensor pasivo detrás del rematador (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): balón ligero, remate de pie, plancha solo sobre hierba blanda. Infantil (12–13): balón normal y plancha. Por debajo de 10 años, sustituir por volea con bote (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Rápido de cabeza",
+  "ref": "Dosier de sesiones · pág. 17 (S1.5)"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Distancias, colocación del servidor, ritmo, puntuación, series y límite de remates por edad (propuesta). La regla de marcar-volver a la fila y fallar-pasar a portero es de la fuente.",
+ "diagrama": {
+  "field": [
+   24,
+   16
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 24.5,
+   "ymin": -1.6,
+   "ymax": 16.5
+  },
+  "lines": [
+   [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     5
+    ],
+    "0"
+   ],
+   [
+    [
+     4,
+     5
+    ],
+    [
+     20,
+     5
+    ],
+    "0"
+   ],
+   [
+    [
+     20,
+     5
+    ],
+    [
+     20,
+     0
+    ],
+    "0"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 8.4,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 13.4,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": 5.6,
+    "f": [
+     12,
+     8.4
+    ],
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17.5,
+     5.6
+    ],
+    "b": [
+     12.4,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s1": 10
+   },
+   {
+    "a": [
+     12,
+     8.4
+    ],
+    "b": [
+     10.2,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     13,
+     8.8
+    ],
+    "b": [
+     17.5,
+     13.8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    19,
+    4.4,
+    "SERVIDOR",
+    "start"
+   ],
+   [
+    6.6,
+    8.6,
+    "8 M",
+    "middle"
+   ],
+   [
+    17.5,
+    15.4,
+    "SI MARCA, A LA FILA",
+    "middle"
+   ]
+  ]
+ }
+}

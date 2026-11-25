@@ -1,0 +1,210 @@
+{
+ "id": "AX-E17",
+ "bloque": "Finalización",
+ "titulo": "Bascular y finalizar",
+ "formato": "7 atacantes vs 6 + PT",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "14 jug. (13 + PT)",
+ "espacio": "30 × 32 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta). Se cambian atacantes y defensores cada 2 series.",
+ "objetivo": "Ataque contra defensa con dos objetivos (fuente): los defensores basculan en bloque hacia el lado del balón y los atacantes cambian el juego para atacar el lado débil y finalizar. Cómo explicarlo: defensores, cuando el balón va a una banda, todos se desplazan hacia ella y el lado contrario cierra por dentro; atacantes, si todos están en un lado, el gol está en el otro. Errores típicos: defensores que persiguen el balón sin cerrar el centro, cambio de juego lento o sin tensión. Qué observar: la distancia entre defensores y la velocidad del cambio de orientación.",
+ "montaje": "Campo de 30 × 32 m: portería y portero en un fondo y dos miniporterías en el otro. 7 atacantes (2 extremos, 3 medios, 2 puntas) contra 6 defensores.",
+ "juego": "Atacan los 7 desde su fondo; los 6 defensores basculan hacia el lado del balón. Tras un cambio de orientación de banda a banda, el gol vale doble. Si roban, atacan una miniportería.",
+ "punto": "Gol: 1; tras cambio de juego: 2 (propuesta).",
+ "consigna": "Si cierran un lado, cambia al otro.",
+ "variantes": {
+  "facil": "6 contra 5 y campo de 34 m de ancho (propuesta).",
+  "dificil": "Máximo 2 toques para los atacantes y 15 s por ataque (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 6 contra 5 y explicar la basculación parados antes de empezar. Cadete (14–15): como está (propuesta). La base proponía 14–18 años.",
+ "fuente": {
+  "autor": "Alex Ortiz (base de datos de ejercicios)",
+  "titulo_original": "A-D Basculaciones - Finalización",
+  "ref": "BASE-DATOS-EJERCICIOS @ALEXORTIZ1987 · hoja BASE DE DATOS, fila 22"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente solo da título, objetivos (basculaciones y finalización), espacio (30 × 32 m) y 14 jugadores. Reparto de jugadores, miniporterías, regla del cambio de orientación, puntuación, series y edad desarrollados a partir de esos datos (propuesta).",
+ "diagrama": {
+  "field": [
+   32,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 33.6,
+   "ymin": -1.9,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 32,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    6,
+    "L"
+   ],
+   [
+    0,
+    24,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 27.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 22.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 19.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26.5,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     2.5
+    ],
+    "b": [
+     5.3,
+     8.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     11.7,
+     27.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 12
+   },
+   {
+    "a": [
+     25,
+     22
+    ],
+    "b": [
+     26,
+     27.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     12.3,
+     27.5
+    ],
+    "b": [
+     27.5,
+     18
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    0.3,
+    -1,
+    "CONTRAATAQUE: MINIPORTERÍAS",
+    "start"
+   ]
+  ]
+ }
+}

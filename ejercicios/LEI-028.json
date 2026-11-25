@@ -1,0 +1,175 @@
+{
+ "id": "LEI-028",
+ "bloque": "Finalización",
+ "titulo": "Tira y recupera",
+ "formato": "1v1 + PT",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–10 jug. + PT",
+ "espacio": "30 × 30 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa (propuesta); unas 8 llegadas por jugador. Recuperación al volver caminando a la fila.",
+ "objetivo": "Conducir rápido, tirar con potencia y, nada más tirar, recuperar para defender el siguiente ataque (fuente). Cómo explicarlo: tira con el pie más cercano al balón y vuelve a defender sin mirar si ha sido gol. Errores típicos: conducir con muchos toques, no levantar la cabeza antes de tirar, quedarse mirando el tiro. Preguntas de la fuente: ¿qué puerta es mejor atacar y por qué? ¿a qué distancia quieres tirar? ¿qué haces después de tirar?",
+ "montaje": "Portería con portero. Línea de tiro a 15 m con dos puertas de conos de 3 m, a 6 m del centro. Fila con balón a 28 m.",
+ "juego": "El primero conduce hacia una puerta y tira al cruzarla. Entonces sale el siguiente con su balón y el que ha tirado se gira a defenderle. Luego va a la fila y el atacante defiende al siguiente.",
+ "punto": "Gol: 1 punto. Defensor que roba o bloquea el tiro: 1 punto (propuesta).",
+ "consigna": "Tira y gírate a defender.",
+ "variantes": {
+  "facil": "El defensor sale solo cuando el atacante cruza la línea de tiro (propuesta).",
+  "dificil": "Puertas más estrechas y tiro obligado con la pierna menos hábil en una serie (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): línea de tiro a 12 m y portería de fútbol 7. Infantil (12–13): 15 m (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "1v1 Power Shooting",
+  "ref": "Leicester City Academy · pág. 32"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ancho y posición de las puertas, distancia de la fila, puntuación y series (propuesta). Línea de tiro a 15 m, dos puertas, salida del siguiente al cruzar la línea, defensa del que ha tirado y vuelta a la fila son de la fuente.",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 31.6,
+   "ymin": -0.5,
+   "ymax": 22.5
+  },
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     22
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 30,
+    "y": 11,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    15,
+    3.5
+   ],
+   [
+    15,
+    6.5
+   ],
+   [
+    15,
+    15.5
+   ],
+   [
+    15,
+    18.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     7
+    ],
+    "b": [
+     14.2,
+     5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 4,
+    "s1": 8
+   },
+   {
+    "a": [
+     17.5,
+     6
+    ],
+    "b": [
+     29.2,
+     9.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     4,
+     11
+    ],
+    "b": [
+     14.2,
+     16.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     17.6,
+     7.2
+    ],
+    "b": [
+     16.5,
+     14.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4,
+    "s0": 10,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    15.6,
+    21.2,
+    "LÍNEA DE TIRO 15 M",
+    "start"
+   ]
+  ]
+ }
+}
