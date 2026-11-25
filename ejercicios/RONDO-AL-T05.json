@@ -1,0 +1,142 @@
+{
+ "id": "RONDO-AL-T05",
+ "bloque": "Calentamiento",
+ "titulo": "Doble tarea",
+ "formato": "Conducción + lanzamientos",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "9–15 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 2′ con 30″ de pausa; cambian los tres jugadores con balón de mano en cada ronda (propuesta).",
+ "objetivo": "Hacer dos cosas a la vez: conducir con el pie y atrapar y lanzar con las manos sin perder el control del balón. Cómo explicarlo: «tu balón del pie nunca para». Errores típicos: parar para coger el balón de mano, lanzar sin mirar, no avisar al compañero. Qué observar: cabeza arriba, comunicación («¡aquí!») y conducción sin parar. Material: 1 balón por jugador y 3 balones amarillos pequeños o blandos.",
+ "montaje": "Campo de 20 × 20 m. Todos conducen un balón. Tres jugadores (en blanco) llevan además un balón amarillo en las manos.",
+ "juego": "Todos conducen libres. Los tres con balón amarillo lo lanzan a un compañero que lo coge sin perder su balón del pie y lo lanza a otro. Se cuentan los pases de mano de cada equipo de 3 durante 2′.",
+ "punto": "Equipo de 3 con balón amarillo que más pases de mano completa en 2′ (fuente); si cae al suelo, no cuenta (propuesta).",
+ "consigna": "Conduce y cabeza arriba: mira a quién lanzar.",
+ "variantes": {
+  "facil": "Balones de mano más grandes o blandos (fuente).",
+  "dificil": "El balón amarillo se pasa con los pies (fuente); o con un solo toque de pie (propuesta)."
+ },
+ "adaptacion": "Alevín: como está. Infantil: sin pausas entre lanzamientos. Benjamín: balón de mano más grande y lanzamientos solo a distancia corta.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Doble tarea (AL-T05)",
+  "ref": "RONDO Vol. 3 · Alevín · págs. 7, 12, 17, 22, 27, 50"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: todos conducen, 3 jugadores con balón amarillo en las manos, lanzar y coger sin perder el balón, puntos por equipo en 2′, variantes. Nº de jugadores, rondas y pausas (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "players": [
+   {
+    "r": "C",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.8,
+     4.2
+    ],
+    "b": [
+     15.2,
+     5.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     15.4,
+     6.8
+    ],
+    "b": [
+     9.8,
+     15.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     8.2,
+     15.8
+    ],
+    "b": [
+     4.6,
+     4.9
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    19.6,
+    "BALÓN AMARILLO EN BLANCO",
+    "middle"
+   ]
+  ]
+ }
+}

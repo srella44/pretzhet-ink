@@ -1,0 +1,141 @@
+{
+ "id": "RONDO-AL-T04",
+ "bloque": "Calentamiento",
+ "titulo": "La lavadora",
+ "formato": "Conducción con salidas",
+ "edad": "10–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m (centro de 10 × 10)",
+ "duracion": "10 min",
+ "series": "5 rondas de 1′30″ con 30″ de pausa; en cada ronda quien tiene elección cambia (propuesta).",
+ "objetivo": "Conducir con cabeza arriba en poco espacio, salir a velocidad hacia un cono y volver a entrar con el balón controlado. Cómo explicarlo: dentro es la lavadora y fuera, el cono de salida. Errores típicos: salir sin mirar si hay gente, dar toques largos fuera, chocar al entrar. Qué observar: cambio de ritmo, control al volver a entrar, quién decide rápido. Material: 4 conos de lado, 4 conos para el cuadrado y un balón por jugador.",
+ "montaje": "Cuadrado central de 10 × 10 m con un cono de salida a 5 m del centro de cada lado. Todos con balón dentro.",
+ "juego": "Conducen libres dentro. Al pitido cada uno sale por el lado que elija, rodea un cono con el balón y vuelve a entrar. Quien entra primero elige el lado de la siguiente salida.",
+ "punto": "Quien entra el primero suma 1 punto (fuente). Gana quien más puntos reúna en 5 rondas.",
+ "consigna": "Mira antes de salir y entra rápido.",
+ "variantes": {
+  "facil": "El cono se rodea con el balón en las manos (fuente).",
+  "dificil": "El cono se rodea solo con el exterior del pie (fuente); salida con la pierna menos hábil (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: sin competir por entrar primero. Alevín: como está. Infantil: salidas en pares y toques limitados.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La lavadora (AL-T04)",
+  "ref": "RONDO Vol. 3 · Alevín · págs. 4, 9, 32, 37, 42, 47"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuadrado central de 10 × 10, pitido, rodear un cono y volver a entrar, el primero elige el siguiente lado, 1 punto, variantes. Nº de rondas, distancias a los conos y jugadores (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     5,
+     5,
+     15,
+     15
+    ]
+   }
+  ],
+  "cones": [
+   [
+    10,
+    1.2
+   ],
+   [
+    18.8,
+    10
+   ],
+   [
+    10,
+    18.8
+   ],
+   [
+    1.2,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13.2,
+     8
+    ],
+    "b": [
+     17.6,
+     9.2
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     17.6,
+     11
+    ],
+    "b": [
+     14.2,
+     12.6
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 2,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.8,
+    "CONO",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "id": "TFB100-002",
+ "bloque": "Calentamiento",
+ "titulo": "Control orientado tras chinos",
+ "formato": "Parejas",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "2–12 jug.",
+ "espacio": "10 × 15 m",
+ "duracion": "10 min",
+ "series": "3 series de 2′ por pareja con 30″ de descanso; en cada serie cambia el pie que controla. Cada minuto se cambian los papeles de pasador y receptor.",
+ "objetivo": "Controlar orientando el balón hacia un lado para salir en dirección libre y devolver el pase en solo dos toques. Cómo explicarlo: «recibe mirando al hueco, no al balón». Errores típicos: controlar parado y salir después, controlar siempre con la misma pierna, pase sin tensión. Qué observar: perfil del cuerpo antes de recibir, primer toque hacia el chino y tensión del pase. Material: 2 chinos y 1 balón por pareja.",
+ "montaje": "Parejas a 12 m. Delante del receptor, dos chinos a 4 m. El pasador tiene el balón.",
+ "juego": "El pasador pasa raso. El receptor se perfila, controla orientando el balón para salir por detrás de un chino y devuelve en dos toques. Cada vez, por un lado distinto; cada minuto cambian.",
+ "punto": "Devolución a dos toques con pase tenso: 1 punto (propuesta).",
+ "consigna": "Perfílate y controla al chino.",
+ "variantes": {
+  "facil": "Tres toques: control, ajuste y pase (fuente).",
+  "dificil": "El pasador dice el lado de salida justo cuando el balón ya viaja; o tres jugadores en línea: el del medio controla orientado y pasa al otro extremo (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): pareja a 8 m y tres toques. Benjamín (8–9): 12 m y solo dos toques. Alevín (10–11), si se usa: 15 m y control con la pierna menos hábil (propuesta).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Control orientado y pase saliendo por detrás de los chinos",
+  "ref": "100 tareas de fútbol base · pág. 13"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: parejas a 12 m, dos chinos a 4 m delante del receptor, dos toques, alternar lado, cambio cada minuto, variantes y series. Edad tomada de la ficha original (6–9) en vez de la propuesta de la base; puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    12,
+    3
+   ],
+   [
+    12,
+    7
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     5
+    ],
+    "b": [
+     13.2,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     14,
+     4.4
+    ],
+    "b": [
+     12.4,
+     1.7
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     12.2,
+     1.5
+    ],
+    "b": [
+     2.4,
+     4.3
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 4,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    12,
+    9.4,
+    "CHINOS",
+    "middle"
+   ]
+  ]
+ }
+}

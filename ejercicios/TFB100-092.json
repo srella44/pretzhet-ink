@@ -1,0 +1,193 @@
+{
+ "id": "TFB100-092",
+ "bloque": "Técnica y duelos",
+ "titulo": "Relevos de conducción",
+ "formato": "Circuito por equipos",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "4–14 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "3–4 carreras con 1′ de descanso; el orden de la fila cambia en cada una. Todos tiran con la pierna que diga el entrenador en esa carrera.",
+ "objetivo": "Conducir con el balón cerca del pie, superar obstáculos y terminar con un tiro, en forma de relevos por equipos. Cómo explicarlo: «es una carrera: eslalon, puente, gol y chocar la mano». Errores típicos: dar toques largos y perder el balón, mirar solo el balón, salir antes de que el compañero choque. Qué observar: balón pegado al pie, tiro a portería y esperar el relevo. Material: 6 conos, 2 vallas bajas o picas sobre conos, 2 miniporterías y 1 balón por niño.",
+ "montaje": "Dos carriles de 25 m, uno por equipo: 3 conos en zigzag, un puente (valla o pica sobre conos) y una miniportería. Fila al inicio.",
+ "juego": "A la señal sale el primero: eslalon, pasa el balón bajo el puente (él lo salta o lo rodea), recupera y tira. Recoge su balón, vuelve por fuera y choca la mano al siguiente.",
+ "punto": "Gana la carrera quien termine antes con todos sus goles: 1 punto. Se juegan 3 o 4.",
+ "consigna": "Balón pegado al pie y a por el gol.",
+ "variantes": {
+  "facil": "Conos más separados y sin puente (fuente).",
+  "dificil": "Eslalon solo con la pierna menos hábil, o tiro desde más lejos (fuente)."
+ },
+ "adaptacion": "Prebenjamín: conos a 3 m y puente rodeándolo. Benjamín: conos a 2 m, salto sobre el puente y tiro con la pierna que diga el entrenador (fuente). Alevín: sin puente y más lejos (propuesta).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Circuito de conducción para prebenjamines: eslalon, puente y gol en miniportería",
+  "ref": "100 tareas de fútbol base · pág. 112"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos carriles con tres conos, puente y miniportería, relevos, reglas de salida, cono saltado, fallo de tiro, pierna según el entrenador, puntos por carrera ganada, variantes, series y adaptación. Edad tomada de la ficha original (6–9). Medidas de los carriles (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 27.5,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    7,
+    4.5
+   ],
+   [
+    11,
+    6.5
+   ],
+   [
+    15,
+    4.5
+   ],
+   [
+    7,
+    13.5
+   ],
+   [
+    11,
+    15.5
+   ],
+   [
+    15,
+    13.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     19,
+     4.2
+    ],
+    [
+     19,
+     6.8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     19,
+     13.2
+    ],
+    [
+     19,
+     15.8
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    25,
+    5.5,
+    "R"
+   ],
+   [
+    25,
+    14.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 5.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.2,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 14.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 0.2,
+    "y": 14.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     5.5
+    ],
+    "b": [
+     16.2,
+     5.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     17.4,
+     5.5
+    ],
+    "b": [
+     20.6,
+     5.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 2,
+    "s1": 2
+   },
+   {
+    "a": [
+     21.4,
+     5.5
+    ],
+    "b": [
+     24.4,
+     5.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 2,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    11,
+    2.4,
+    "ESLALON",
+    "middle"
+   ],
+   [
+    19,
+    2.4,
+    "PUENTE",
+    "middle"
+   ]
+  ]
+ }
+}

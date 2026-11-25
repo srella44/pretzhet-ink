@@ -1,0 +1,131 @@
+{
+ "id": "DOS-001",
+ "bloque": "Calentamiento",
+ "titulo": "Triángulo de conducción",
+ "formato": "Conducción con giros",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "Triángulo de 9 m",
+ "duracion": "10 min",
+ "series": "4 vueltas de 2′30″ con 30″ de pausa; en cada vuelta el entrenador cambia la superficie del giro (propuesta). Sale el siguiente al volver a la salida.",
+ "objetivo": "Mejorar la conducción con cambios de dirección y giros con distintas superficies (interior, exterior, por detrás, finta y giro con el exterior). Cómo explicarlo: «giro en cada cono con lo que pida el míster». Errores típicos: girar parado, girar siempre con la misma pierna, bajar la cabeza al girar. Qué observar: toques cortos, cabeza arriba al salir del giro y salida acelerada. Material: 3 conos y 1 balón por jugador.",
+ "montaje": "Triángulo de 9 m de lado con un cono en cada vértice. En cada cono, un grupo de 2–4 jugadores en fila y el primero con balón.",
+ "juego": "Se conduce de cono a cono. En cada cono se gira con la superficie que pida el entrenador (interior, exterior, por detrás o finta). Al llegar al siguiente grupo sale su compañero.",
+ "punto": "Cada giro bien hecho (cabeza arriba, sin parar): 1 punto en 2′30″ (propuesta).",
+ "consigna": "Cabeza arriba al salir del giro.",
+ "variantes": {
+  "facil": "Triángulo de 12 m y giro libre (propuesta).",
+  "dificil": "Triángulo de 7 m y pedir el giro justo al llegar al cono, con la pierna menos hábil (propuesta)."
+ },
+ "adaptacion": "Alevín: giros con interior y exterior. Infantil: como está. Cadete: más velocidad y finta antes del giro (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Triángulo de conducción",
+  "ref": "Dosier de sesiones · pág. 2"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: tres conos en triángulo, un grupo con balón en cada cono, giro con la superficie que pide el entrenador, cabeza arriba, evitar girar parado y siempre con la misma pierna; triángulo de 8–10 m. Rotaciones, vueltas, puntos y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    7.5,
+    1.5
+   ],
+   [
+    3,
+    9.5
+   ],
+   [
+    12,
+    9.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 10.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.4,
+    "y": 10.8,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": -0.2,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.9,
+     9.8
+    ],
+    "b": [
+     11.1,
+     9.8
+    ],
+    "k": "cond",
+    "n": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     11.5,
+     8.8
+    ],
+    "b": [
+     8.2,
+     2.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     6.8,
+     2.4
+    ],
+    "b": [
+     3.5,
+     8.8
+    ],
+    "k": "cond",
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    12.4,
+    "TRIÁNGULO 9 M",
+    "middle"
+   ]
+  ]
+ }
+}

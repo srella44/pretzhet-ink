@@ -1,0 +1,119 @@
+{
+ "id": "RONDO-BJ-M05",
+ "bloque": "Calentamiento",
+ "titulo": "El espejo",
+ "formato": "Parejas en espejo",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "6 turnos de 40″ (3 por cada papel) con 20″ de pausa; después, el movimiento elegido por la pareja ganadora, 1′ (propuesta).",
+ "objetivo": "Activar el cuerpo con movimientos del fútbol (pasos laterales, saltitos, sentadillas) y trabajar la atención y la coordinación al copiar al compañero. Cómo explicarlo: «tu compañero es tu espejo, haz lo mismo y a la vez». Errores típicos: ir tarde, hacer movimientos demasiado rápidos para el espejo, mirar al suelo. Qué observar: aterrizaje suave, ritmo parecido, cabeza arriba. Sin material.",
+ "montaje": "Campo de 15 × 15 m. Parejas una frente a otra, a 3 m, repartidas por el campo y sin balón. Uno es el guía y el otro el espejo.",
+ "juego": "El guía hace pasos laterales, saltitos y sentadillas; el espejo copia a la vez, como un reflejo. A los 40″ cambian los papeles. El míster pide más rápido o más lento.",
+ "punto": "La pareja más coordinada y más silenciosa elige el siguiente movimiento para todos (fuente); se decide en cada cambio.",
+ "consigna": "¡Pies rapidísimos, copia al espejo!",
+ "variantes": {
+  "facil": "Movimientos lentos (fuente).",
+  "dificil": "Cada uno con un balón en las manos (fuente); o con balón en los pies, sin perderlo (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: movimientos muy sencillos y turnos de 30″. Benjamín: como está. Alevín: el espejo copia con balón en el pie.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El espejo (BJ-M05)",
+  "ref": "RONDO Vol. 2 · Benjamín · págs. 7, 12, 17, 22, 27, 50"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: parejas, uno guía y otro espejo, cambio a los 40″, punto a la pareja coordinada, variantes, 15 × 15 m. Distancia, nº de turnos y descansos (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5.5,
+    "y": 12.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     4
+    ],
+    "b": [
+     2.5,
+     6.2
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     5.5,
+     4
+    ],
+    "b": [
+     5.5,
+     6.2
+    ],
+    "k": "run",
+    "n": 2,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    4,
+    0.6,
+    "GUÍA ←→ ESPEJO",
+    "middle"
+   ]
+  ]
+ }
+}

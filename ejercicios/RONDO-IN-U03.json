@@ -1,0 +1,147 @@
+{
+ "id": "RONDO-IN-U03",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tiro desde la frontal",
+ "formato": "Tríos con pared y tiro",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "3–9 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 turnos de 3′ con 1′ de pausa; cada jugada rotan los tres (el que tira va a la fila) (propuesta). Tríos de uno en uno.",
+ "objetivo": "Combinar pared corta y apoyo para que el tercer jugador llegue y tire desde la frontal con espacio. Cómo explicarlo: «pared, apoyo y llega el tercero». Errores típicos: llegar tarde, apoyar sin perfilar, tirar sin mirar al portero. Qué observar: sincronía del tercero, tiro de primeras y colocación. Material: 1 portería con portero y balones.",
+ "montaje": "Campo de 25 × 20 m con portería grande y portero. Tríos: el 1 con balón, el 2 a 6 m a su derecha y el 3 más atrás, a 10 m, listo para llegar. La frontal está a 7 m de la portería.",
+ "juego": "Pared corta entre el 1 y el 2; el 1 pasa luego en apoyo al 3, que llega desde atrás y dispara de primeras desde la frontal. Los tres rotan: tirador a la fila, 1 va de 2 y 2 de 3.",
+ "punto": "Gol: 1 punto. Gol con la pierna menos hábil: 2 puntos.",
+ "consigna": "Pared, apoyo y llega el tercero.",
+ "variantes": {
+  "facil": "Tiro desde más cerca (fuente).",
+  "dificil": "Un defensor sale al primer toque (fuente)."
+ },
+ "adaptacion": "Infantil: como está. Alevín: tiro tras un control. Cadete: defensor pasivo y tiro a un toque (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El tiro desde la frontal (IN-U03)",
+  "ref": "RONDO Vol. 4 · Infantil · págs. 3, 5, 7, 21, 33, 35"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: en tríos, pared corta entre dos y apoyo al tercero, que llega (texto cortado: «que llega» a tirar), 1 punto y 2 con la pierna mala, variantes, 25 × 20. Distancias, rotación y tiempos (propuesta); el final del texto se interpreta como tiro desde la frontal por el título.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "porterias": [
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 11.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.7,
+     5.8
+    ],
+    "b": [
+     7.4,
+     9.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     8.6,
+     9.2
+    ],
+    "b": [
+     9.4,
+     5.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     10.2,
+     5.8
+    ],
+    "b": [
+     16.6,
+     10.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     18.6,
+     11.4
+    ],
+    "b": [
+     24.4,
+     10.4
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    14,
+    "FRONTAL",
+    "middle"
+   ]
+  ]
+ }
+}

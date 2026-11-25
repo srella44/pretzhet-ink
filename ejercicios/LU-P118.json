@@ -1,0 +1,153 @@
+{
+ "id": "LU-P118",
+ "bloque": "Calentamiento",
+ "titulo": "Tríos y controles",
+ "formato": "Carrera + balísticos + tríos",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "Carrera 3–5′, estiramientos balísticos 4′ (6 gestos de ~20″ × 2) y tríos de pase y control orientado 6′; pausa de 30″ entre bloques (propuesta).",
+ "objetivo": "Preparar piernas y caderas con estiramientos dinámicos y terminar con pases y controles orientados por tríos. Cómo explicarlo: «controla hacia donde va tu siguiente pase». Errores típicos: balancear la pierna con rigidez, controlar de frente, pasar flojo. Qué observar: amplitud sin dolor, perfil de control, pase tenso. Material: 1 balón por trío y 6 conos.",
+ "montaje": "Campo de 20 × 20 m. A: carrera libre 3–5′. B: círculo. C: tríos en triángulo de 8 m, con un balón por trío.",
+ "juego": "B: pierna adelante y atrás, isquios, talón al glúteo, aductores y abductores. C: pase y control orientado al siguiente; quien pasa se mueve a su lado y se repite.",
+ "punto": "El trío cuenta pases seguidos con control orientado; récord del grupo (propuesta).",
+ "consigna": "Controla hacia el siguiente pase.",
+ "variantes": {
+  "facil": "Control libre y triángulo de 6 m (propuesta).",
+  "dificil": "Control y pase a un toque, o dos balones por trío (propuesta)."
+ },
+ "adaptacion": "Alevín: triángulo de 6 m. Infantil: como está. Cadete: pase a un toque y estiramientos más amplios (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "CALENTAMIENTO 6",
+  "ref": "Level Up Coach · 300 ejercicios · p. 118"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: A carrera continua 3–5′, B estiramientos balísticos en círculo (6 gestos), C tríos de pase y control orientado, 20 × 20 m. Tiempos de cada parte, distancias del triángulo y récord (propuesta); edad y jugadores propuestos.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    4,
+    4
+   ],
+   [
+    12,
+    4
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    12,
+    13
+   ],
+   [
+    4,
+    13
+   ],
+   [
+    8,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11.4,
+    "f": 270
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 18.6,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     3.4
+    ],
+    "b": [
+     12,
+     3.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     12.4,
+     4.4
+    ],
+    "b": [
+     8.7,
+     10.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 6,
+    "s1": 10
+   },
+   {
+    "a": [
+     7.3,
+     10.4
+    ],
+    "b": [
+     3.6,
+     4.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   }
+  ]
+ }
+}

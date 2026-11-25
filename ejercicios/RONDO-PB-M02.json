@@ -1,0 +1,200 @@
+{
+ "id": "RONDO-PB-M02",
+ "bloque": "Calentamiento",
+ "titulo": "El circuito del pirata",
+ "formato": "Circuito",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "10 min",
+ "series": "4 vueltas de 2′ con 30″ de pausa; salen de uno en uno cada 5″ (propuesta). Cada vuelta termina con el tesoro al cofre.",
+ "objetivo": "Moverse con equilibrio y coordinación (saltar, caminar en línea, pasar por un obstáculo) y terminar cogiendo un balón. Cómo explicarlo: es el viaje de un pirata hasta el tesoro. Errores típicos: pisar las cuerdas, salirse del puente, salir demasiado pronto. Qué observar: equilibrio, aterrizaje y esperar el turno. Material: 2 cuerdas, 1 línea (cuerda o cinta), 4 conos con una pica y balones.",
+ "montaje": "Circuito de 20 × 12 m: río (2 cuerdas), puente (línea de 3 m), cueva (4 conos) y 6 balones tesoro al final. Fila al inicio.",
+ "juego": "Salen de uno en uno cada 5″. Saltan el río, cruzan el puente en equilibrio, pasan agachados por la cueva y cogen un tesoro. Vuelven trotando por fuera y entregan el balón al cofre.",
+ "punto": "Cada vuelta terminada: un tesoro al cofre del grupo; se cuentan al final (fuente).",
+ "consigna": "¡Qué equilibrio en el puente!",
+ "variantes": {
+  "facil": "Sin cueva (fuente).",
+  "dificil": "Con el balón en las manos todo el circuito (fuente); o conducido con el pie (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: como está. Benjamín: balón en las manos y más obstáculos. Alevín: conducir el balón con el pie en el circuito.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El circuito del pirata (PB-M02)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · págs. 8, 10, 19, 21, 27, 29"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: río (dos cuerdas), puente (línea), cueva (obstáculo) y tesoro (balón); tesoro al cofre; variantes. Medidas, nº de vueltas y salidas cada 5″ (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "lines": [
+   [
+    [
+     4,
+     4
+    ],
+    [
+     4,
+     8
+    ],
+    "2 0"
+   ],
+   [
+    [
+     5.4,
+     4
+    ],
+    [
+     5.4,
+     8
+    ],
+    "2 0"
+   ],
+   [
+    [
+     8,
+     6
+    ],
+    [
+     11,
+     6
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    14,
+    4.5
+   ],
+   [
+    14,
+    7.5
+   ],
+   [
+    16.5,
+    4.5
+   ],
+   [
+    16.5,
+    7.5
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     4.5,
+     16.5,
+     7.5
+    ]
+   }
+  ],
+  "balls": [
+   [
+    18.5,
+    5
+   ],
+   [
+    18.5,
+    7
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     7.6,
+     6
+    ],
+    "k": "run",
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     11.6,
+     6
+    ],
+    "b": [
+     13.4,
+     6
+    ],
+    "k": "run",
+    "n": 2,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     17,
+     6
+    ],
+    "b": [
+     18,
+     6
+    ],
+    "k": "run",
+    "n": 3,
+    "s0": 2,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    4.7,
+    3.1,
+    "RÍO",
+    "middle"
+   ],
+   [
+    9.5,
+    4.4,
+    "PUENTE",
+    "middle"
+   ],
+   [
+    15.2,
+    3.1,
+    "CUEVA",
+    "middle"
+   ],
+   [
+    18.5,
+    9,
+    "TESOROS",
+    "middle"
+   ]
+  ]
+ }
+}

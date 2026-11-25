@@ -1,0 +1,134 @@
+{
+ "id": "DOS-035",
+ "bloque": "Calentamiento",
+ "titulo": "Pases entre conos",
+ "formato": "Parejas",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 10 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′ con 30″ de descanso; en cada serie cambia la superficie y el pie de control (propuesta). Se cambia de papel cada minuto.",
+ "objetivo": "Mejorar el pase y el control orientado con distintas superficies, recibiendo con el cuerpo perfilado hacia el lado libre. Cómo explicarlo: «pasa por la puerta y controla hacia el lado libre». Errores típicos: pasar sin tensión, controlar de frente, no perfilarse. Qué observar: primer toque hacia el lado libre, tensión del pase y calidad del segundo toque. Material: 4 conos y 1 balón por pareja.",
+ "montaje": "Parejas a 15 m, frente a frente. Delante de cada jugador, a 2 m, dos conos a 3 m forman una puerta. Un balón por pareja.",
+ "juego": "A pasa raso por la puerta de B. B controla orientado hacia un lado, saliendo por detrás del cono, y devuelve por la puerta de A. Se varían trayectorias y superficies.",
+ "punto": "Cada pase por la puerta con control orientado: 1 punto; gana la pareja con más (propuesta).",
+ "consigna": "Control orientado hacia el lado libre.",
+ "variantes": {
+  "facil": "Puerta más ancha (4 m) y control libre (propuesta).",
+  "dificil": "Pase a un toque tras el control o puerta de 2 m (propuesta)."
+ },
+ "adaptacion": "Alevín: 10 m y control libre. Infantil: como está. Cadete: pase de primeras y control con la pierna menos hábil (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Pases entre conos",
+  "ref": "Dosier de sesiones · pág. 9"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: parejas a 15 m, dos conos delante de cada jugador, pase por un lado del cono, control orientado por detrás y pase de nuevo, trayectorias y superficies variadas, control hacia el lado libre. Medidas de la puerta, series, puntos y variantes (propuesta); edad y jugadores propuestos.",
+ "diagrama": {
+  "field": [
+   16,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    3,
+    3.5
+   ],
+   [
+    3,
+    6.5
+   ],
+   [
+    13,
+    3.5
+   ],
+   [
+    13,
+    6.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.9,
+     5
+    ],
+    "b": [
+     14.1,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     5.8
+    ],
+    "b": [
+     15,
+     7.8
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 4
+   },
+   {
+    "a": [
+     14.6,
+     8
+    ],
+    "b": [
+     1.9,
+     5.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 4,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    3,
+    1.6,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    13,
+    1.6,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

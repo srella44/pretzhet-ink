@@ -1,0 +1,154 @@
+{
+ "id": "RONDO-AL-T07",
+ "bloque": "Calentamiento",
+ "titulo": "El río y las piedras",
+ "formato": "Conducción con palmada",
+ "edad": "10–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2′ con 30″ de pausa; en cada ronda se quita una piedra más (propuesta). Un jugador distinto da las palmadas cada ronda.",
+ "objetivo": "Conducir con la cabeza arriba, ver las piedras libres y frenar el balón con control dentro de un espacio pequeño. Cómo explicarlo: el campo es un río y solo se pisa en las piedras. Errores típicos: mirar solo el balón, frenar fuera del aro, ir todos a la misma piedra. Qué observar: freno con la suela, cabeza levantada, cambio de dirección. Material: 6 aros o cuadrados de 2 m y un balón por jugador.",
+ "montaje": "Campo de 20 × 20 m con 6 piedras (aros o cuadrados de 2 m). Cada uno conduce un balón; el míster da las palmadas.",
+ "juego": "Todos conducen. A cada palmada hay que parar el balón dentro de una piedra libre (una por balón). Quien no encuentra piedra hace 5 toques de suela y sigue: nadie queda eliminado.",
+ "punto": "Parar en piedra libre: 1 punto; gana quien más sume en 2′ (propuesta).",
+ "consigna": "Cabeza arriba: busca tu piedra.",
+ "variantes": {
+  "facil": "Más piedras que jugadores (fuente).",
+  "dificil": "Una piedra menos en cada turno (fuente); o parar solo con el exterior del pie (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: piedras más grandes y palmadas más espaciadas. Alevín: como está. Infantil: parar con la pierna menos hábil.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El río y las piedras (AL-T07)",
+  "ref": "RONDO Vol. 3 · Alevín · págs. 5, 10, 15, 38, 43, 48"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 6 piedras de 2 m, palmada, parar dentro, 5 toques de suela, variantes. Puntos, rondas y diagrama (propuesta); jugadores 6–12 (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "circle",
+    "x": 4,
+    "y": 4,
+    "r": 1
+   },
+   {
+    "t": "circle",
+    "x": 16,
+    "y": 4,
+    "r": 1
+   },
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 10,
+    "r": 1
+   },
+   {
+    "t": "circle",
+    "x": 4,
+    "y": 16,
+    "r": 1
+   },
+   {
+    "t": "circle",
+    "x": 16,
+    "y": 16,
+    "r": 1
+   },
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 18,
+    "r": 1
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 1,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10
+    ],
+    "b": [
+     8.5,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "s0": 8,
+    "s1": 18
+   },
+   {
+    "a": [
+     14.8,
+     16
+    ],
+    "b": [
+     17.6,
+     16.2
+    ],
+    "k": "cond",
+    "n": 2,
+    "s0": 2,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    19,
+    3.3,
+    "PALMADA",
+    "middle"
+   ]
+  ]
+ }
+}

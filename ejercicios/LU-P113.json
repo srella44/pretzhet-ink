@@ -1,0 +1,141 @@
+{
+ "id": "LU-P113",
+ "bloque": "Calentamiento",
+ "titulo": "Rueda de pases",
+ "formato": "Carrera + activación + rueda",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "Carrera 3–5′, activación 5′ (11 ejercicios de ~20″ cada uno) y rueda de pases 6′ con dos balones; pausa de 30″ entre bloques (propuesta).",
+ "objetivo": "Subir el pulso, activar los músculos y terminar con pases rápidos a un contacto con las dos piernas (técnica individual y pase). Cómo explicarlo: «pasa y sigue tu pase, nadie se queda quieto». Errores típicos: pasar sin mirar, controlar con la misma pierna, retrasarse en seguir el pase. Qué observar: ritmo, comunicación y que los dos balones no se crucen. Material: 2 balones y 4 conos.",
+ "montaje": "Campo de 20 × 20 m. A: carrera libre 3–5′. B: dos filas de 15 m. C: 4 jugadores en un cuadrado de 8 m con 2 balones.",
+ "juego": "B: giros de cintura, laterales, skipping, saltos, cambios de ritmo y sprint. C: pasa a la esquina de tu derecha a un toque y ve a ella; repite con las dos piernas.",
+ "punto": "Se cuentan las vueltas seguidas sin parar un balón (propuesta).",
+ "consigna": "Pase a un toque y sigue.",
+ "variantes": {
+  "facil": "Un solo balón y control antes de pasar (propuesta).",
+  "dificil": "Tres balones, o pase y cambio de sentido cada 30″ (propuesta)."
+ },
+ "adaptacion": "Alevín: ritmo más suave y rueda a dos toques. Infantil: como está. Cadete: rueda con tres balones y sprint más largo (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "CALENTAMIENTO 2",
+  "ref": "Level Up Coach · 300 ejercicios · p. 113"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: A carrera continua 3–5′, B activación en dos filas de 15 m (11 ejercicios), C rueda de pase ritmo con dos balones (pase corto, técnica individual, un contacto, ambas lateralidades), 20 × 20 m. Duración de cada parte, distancias de la rueda y récord (propuesta); edad y jugadores propuestos.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    6,
+    6
+   ],
+   [
+    14,
+    6
+   ],
+   [
+    14,
+    14
+   ],
+   [
+    6,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 15,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.2,
+     5
+    ],
+    "b": [
+     13.8,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     6.2
+    ],
+    "b": [
+     15,
+     13.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     13.8,
+     15
+    ],
+    "b": [
+     6.2,
+     15
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    10,
+    2.4,
+    "RUEDA DE PASES",
+    "middle"
+   ]
+  ]
+ }
+}

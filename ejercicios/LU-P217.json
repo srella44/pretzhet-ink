@@ -1,0 +1,154 @@
+{
+ "id": "LU-P217",
+ "bloque": "Calentamiento",
+ "titulo": "Pared en cadena",
+ "formato": "Posta de conducción y pase",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "4 vueltas de 2′30″ con 30″ de pausa; cada vuelta empieza el otro grupo de filas (propuesta). Salen a la vez la fila 1 y la fila 3.",
+ "objetivo": "Practicar controles, conducción y técnica individual en cadena: conducir hasta la seta, pared, conducir entre obstáculos y pasar al tercero, con ambos perfiles. Cómo explicarlo: «cada uno hace su recorrido y entrega al siguiente». Errores típicos: pared sin mirar, perder el balón en los conos, salir antes de tiempo. Qué observar: perfil de control, ritmo y paso al tercero. Material: 1 seta amarilla, 6 setas o conos de obstáculos y 2 balones.",
+ "montaje": "Campo de 30 × 30 m. Jugador 1 con balón en una esquina; seta amarilla a 8 m; jugador 2 al centro y jugador 3 tras una zona de 4 conos.",
+ "juego": "1 conduce a la seta y hace pared con el 2; el 2 sale entre los conos y pasa al 3; el 3 repite con el perfil contrario. Salen a la vez las filas 1 y 3.",
+ "punto": "Cada cadena sin perder el balón: 1 punto (propuesta).",
+ "consigna": "Cambia de ritmo y pasa al tercero.",
+ "variantes": {
+  "facil": "Sin obstáculos: conducción en línea recta (propuesta).",
+  "dificil": "Segunda pared de 2 con 3 y de 4 con 1, con cambios de ritmo y movilidad articular del 2 tras pasar al 3 (fuente)."
+ },
+ "adaptacion": "Alevín: recorrido más corto y sin cambio de perfil. Infantil: como está. Cadete: cambios de ritmo y dos toques como máximo (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "DINÁMICA DE CALENTAMIENTO 1 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "Level Up Coach · 300 ejercicios · p. 217"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: salida en conducción a la seta amarilla, pared 1–2, conducción entre obstáculos y pase al 3, perfil contrario del 3, salen a la vez la fila 1 y la 3; ampliaciones del texto. Campo reducido de 50 × 90 a 30 × 30 m, medidas, rondas y puntos (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "discs": [
+   [
+    3,
+    11
+   ]
+  ],
+  "cones": [
+   [
+    17,
+    10.5
+   ],
+   [
+    19.5,
+    15
+   ],
+   [
+    22,
+    10.5
+   ],
+   [
+    24.5,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 20,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4.2
+    ],
+    "b": [
+     3,
+     9.8
+    ],
+    "k": "cond",
+    "n": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     3.6,
+     11.4
+    ],
+    "b": [
+     10.2,
+     12.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 8,
+    "s1": 12
+   },
+   {
+    "a": [
+     12.2,
+     13
+    ],
+    "b": [
+     25.2,
+     13
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     25.5,
+     14
+    ],
+    "b": [
+     26.8,
+     19
+    ],
+    "k": "pass",
+    "n": 4,
+    "s0": 4,
+    "s1": 14
+   }
+  ],
+  "labels": [
+   [
+    3,
+    13.6,
+    "SETA",
+    "middle"
+   ]
+  ]
+ }
+}

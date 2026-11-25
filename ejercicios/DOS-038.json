@@ -1,0 +1,129 @@
+{
+ "id": "DOS-038",
+ "bloque": "Calentamiento",
+ "titulo": "Pilla-pilla sin y con balón",
+ "formato": "Pilla-pilla",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "3 fases de 3–4′ con 30″ de pausa; cada 90″ se cambian los que pillan (propuesta).",
+ "objetivo": "Practicar movimientos del fútbol (arrancar, frenar, cambiar de dirección), conducir y levantar la cabeza para ver a los que pillan (visión periférica). Cómo explicarlo: «cabeza arriba para ver a quien viene». Errores típicos: mirar solo el balón, esquivar siempre al mismo lado, correr en línea recta. Qué observar: giros, frenadas y quién ve el peligro antes de que llegue. Material: 1 peto por jugador y 1 balón por jugador en las fases 2 y 3.",
+ "montaje": "Cuadrado de 20 × 20 m, todos con peto. Dos jugadores pillan; los demás corren.",
+ "juego": "Fase 1, sin balón: se pilla tocando con el peto; el pillado pasa a pillar. Fase 2: los que pillan sin balón, los demás conducen. Fase 3: igual, pero se pilla quitando el peto del pantalón.",
+ "punto": "Se cuentan las veces que cada uno es pillado: gana quien menos (propuesta).",
+ "consigna": "Cabeza arriba para ver a los que pillan.",
+ "variantes": {
+  "facil": "Más espacio (25 × 25 m) y un solo pillador (propuesta).",
+  "dificil": "Menos espacio (15 × 15 m) o tres que pillan (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): como está. Alevín (10–11): fases 1 y 2, y peto en el pantalón en la 3 sin balón. Benjamín: solo fase 1 con juego libre.",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Pilla-pilla sin y con balón",
+  "ref": "Dosier de sesiones · pág. 10"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: cuadrado, unos pillan; fase 1 sin balón con peto, fase 2 con balón para los que corren, fase 3 quitando el peto del pantalón; consigna de cabeza arriba; 20 × 20 m. Pillas rotativas, duración de las fases y cómputo de pillados (propuesta); edad y jugadores propuestos por la base.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "players": [
+   {
+    "r": "B",
+    "x": 6,
+    "y": 6,
+    "f": 45
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 15,
+    "f": 225
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 10,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.8,
+     6.8
+    ],
+    "b": [
+     8.8,
+     11
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 12
+   },
+   {
+    "a": [
+     10.4,
+     3.8
+    ],
+    "b": [
+     14,
+     2.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    0.8,
+    "PILLAN",
+    "start"
+   ]
+  ]
+ }
+}

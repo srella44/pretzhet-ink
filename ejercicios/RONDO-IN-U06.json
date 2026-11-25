@@ -1,0 +1,154 @@
+{
+ "id": "RONDO-IN-U06",
+ "bloque": "Técnica y duelos",
+ "titulo": "Pared y desmarque",
+ "formato": "Parejas hacia portería",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "2–8 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 turnos de 3′ con 1′ de pausa; cada 3 jugadas cambian los papeles de jugador 1 y 2 (propuesta). Por parejas, de una en una.",
+ "objetivo": "Superar a un defensor con una pared, y después pasar al hueco al compañero que se desmarca para finalizar. Cómo explicarlo: «pasa, sigue y ofrécete al hueco». Errores típicos: pared sin moverse, desmarque demasiado pronto o tarde, pase al hueco sin tensión. Qué observar: movimiento tras el pase, sincronía del desmarque y finalización. Material: 1 portería con portero, 1 cono y balones.",
+ "montaje": "Campo de 25 × 20 m con portería grande y portero. Por parejas. Un cono hace de defensor a 10 m de la portería. El jugador 1 tiene el balón; el 2 espera a su lado.",
+ "juego": "El 1 pasa al 2 y corre por fuera del cono; el 2 devuelve de primeras (pared). El 1 pasa al hueco al 2, que se desmarca hacia la portería y finaliza a un toque antes del área.",
+ "punto": "Gol: 1 punto. La pareja suma sus goles en 3′ y se cambia.",
+ "consigna": "Pasa, sigue y busca el hueco.",
+ "variantes": {
+  "facil": "Sin portero (fuente).",
+  "dificil": "Defensor activo en lugar del cono (fuente)."
+ },
+ "adaptacion": "Infantil: como está. Alevín: cono más cerca y pared a dos toques. Cadete: defensor activo y pared a un toque (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Pared y desmarque (IN-U06)",
+  "ref": "RONDO Vol. 4 · Infantil · págs. 9, 11, 13, 23, 42, 57"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: por parejas hacia la portería, pared para superar un cono-defensor y pase al hueco al desmarque que finaliza, 1 punto, variantes, 25 × 20. Posición del cono, tiempos y rotación (propuesta); diagrama con posiciones fantasma.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    9,
+    10
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 19.5,
+    "y": 14.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.7,
+     8.8
+    ],
+    "b": [
+     6.4,
+     14.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     7.6,
+     14.2
+    ],
+    "b": [
+     13.4,
+     8.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     14.8,
+     8.2
+    ],
+    "b": [
+     19,
+     13.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     20.2,
+     14
+    ],
+    "b": [
+     24.4,
+     11.2
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    9,
+    12.4,
+    "CONO",
+    "middle"
+   ]
+  ]
+ }
+}

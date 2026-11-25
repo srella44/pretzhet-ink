@@ -1,0 +1,217 @@
+{
+ "id": "TFB100-096",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tres trucos y tiro",
+ "formato": "Circuito de finalización",
+ "edad": "8–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–14 jug.",
+ "espacio": "40 × 50 m",
+ "duracion": "18 min",
+ "series": "3 series de 6′ con 1′30″ de descanso; los jugadores cambian de fila en cada serie. Las filas salen en orden: izquierda, centro y derecha.",
+ "objetivo": "Llegar a portería con tres recursos técnicos distintos (autopase, pared, bicicleta) y terminar siempre con un golpeo. Cómo explicarlo: «cada fila tiene su truco; al acabar pasas a la siguiente fila». Errores típicos: hacer la finta lejos del cono, no cambiar de ritmo tras la finta, tirar sin mirar al portero. Qué observar: finta a dos pasos, golpeo con interior y respeto del orden de salida. Material: 1 portería con portero, 2 conos o picas, un pivote y balones en cada fila.",
+ "montaje": "Tres filas ante portería con portero, a 45 m: arriba con cono (autopase), centro con pivote y abajo con pica (bicicleta).",
+ "juego": "Izquierda: conduce, autopase y dispara. Centro: pared con el pivote y dispara. Derecha: bicicleta ante la pica y dispara. Salen en orden y pasan a la fila de al lado.",
+ "punto": "Gol: 1 punto; pierna no dominante: 2. El pivote cambia cada 5 tiros.",
+ "consigna": "Finta y cambio de ritmo.",
+ "variantes": {
+  "facil": "Sin fintas: conducción y disparo en cada fila (fuente).",
+  "dificil": "Defensor pasivo en cada fila, o disparo en menos de 5″; o dos filas a la vez para exigir dos disparos seguidos al portero (fuente)."
+ },
+ "adaptacion": "Benjamín: sin bicicleta, solo recorte. Alevín: con bicicleta. Infantil y cadete: 6″ desde la salida hasta el tiro (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Circuito de finalización con autopase, pared y bicicleta",
+  "ref": "100 tareas de fútbol base · pág. 116"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tres filas ante una portería, autopase, pared con pivote, bicicleta, orden de salida, puntos, variantes, series y adaptación. Edad tomada de la ficha original (8–15). Distancias entre filas y pivote (propuesta). Diagrama vertical y simplificado.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 52,
+   "ymin": -3,
+   "ymax": 43
+  },
+  "cones": [
+   [
+    14,
+    7
+   ],
+   [
+    14,
+    33
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 33,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.2,
+     7
+    ],
+    "b": [
+     12.6,
+     7
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     15.4,
+     9
+    ],
+    "b": [
+     48.4,
+     18.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 2,
+    "s1": 4
+   },
+   {
+    "a": [
+     4.8,
+     20
+    ],
+    "b": [
+     12.4,
+     20
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     16.8,
+     20
+    ],
+    "b": [
+     48.4,
+     20
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 2,
+    "s1": 4
+   },
+   {
+    "a": [
+     4.2,
+     33
+    ],
+    "b": [
+     12.6,
+     33
+    ],
+    "k": "cond",
+    "n": 5,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     15.4,
+     31
+    ],
+    "b": [
+     48.4,
+     21.8
+    ],
+    "k": "pass",
+    "n": 6,
+    "s0": 2,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    14,
+    4.4,
+    "CONO",
+    "middle"
+   ],
+   [
+    14,
+    17,
+    "PIVOTE",
+    "middle"
+   ],
+   [
+    14,
+    36.2,
+    "PICA",
+    "middle"
+   ]
+  ]
+ }
+}

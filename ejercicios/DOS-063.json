@@ -1,0 +1,149 @@
+{
+ "id": "DOS-063",
+ "bloque": "Calentamiento",
+ "titulo": "Figura de pases en Y",
+ "formato": "Figura de pases",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "12 min",
+ "series": "3 bloques de 4′ (uno por paso) con 30″ de pausa; tras cada pase se rota en el sentido de las agujas del reloj (propuesta).",
+ "objetivo": "Practicar el control y el pase, la pared (doy y voy) y el juego a la segunda línea dejando correr el balón. Cómo explicarlo: «pasa, muévete y busca al tercero». Errores típicos: pasar y quedarse parado, pared sin perfil, dejar correr el balón demasiado tarde. Qué observar: movimiento tras el pase, orientación del cuerpo y comunicación. Material: 4 conos y 1 balón por trío.",
+ "montaje": "Figura en Y de 15 × 15 m: el 1 con balón en la base, el 2 en el centro a 6 m y el 3 en la punta a 6 m, con 4 conos de referencia.",
+ "juego": "Paso 1: control y pase del 1 al 2. Paso 2: conducción corta y pared con el 2; el 1 sigue hacia la izquierda. Paso 3: el 2 deja correr el balón y lo envía al 3. Rotan: 1→2→3→1.",
+ "punto": "Cada secuencia completa sin perder el balón: 1 punto (propuesta).",
+ "consigna": "Pasa y muévete: busca al tercero.",
+ "variantes": {
+  "facil": "Solo pase y control, sin pared (propuesta).",
+  "dificil": "Todo a un toque y 5 m de distancia (propuesta)."
+ },
+ "adaptacion": "Alevín: pase y control con 2 toques. Infantil: como está. Cadete: a un toque y con oposición pasiva de un defensor (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Figura de pases en «y»",
+  "ref": "Dosier de sesiones · pág. 19"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: figura en Y con tres jugadores, 1) control y pase, 2) conducción y pared desde cerca, 3) dejar correr el balón por detrás hacia el tercero; 15 m. Distancias, rotación, series, puntos y variantes (propuesta); edad y jugadores propuestos.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "cones": [
+   [
+    7.5,
+    13
+   ],
+   [
+    7.5,
+    7
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    11.5,
+    2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 14.2,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 7.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12.8,
+    "y": 2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     13.2
+    ],
+    "b": [
+     7.5,
+     8.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     7.1,
+     13.6
+    ],
+    "b": [
+     4.5,
+     7.2
+    ],
+    "k": "run",
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     7.1,
+     7.1
+    ],
+    "b": [
+     5.2,
+     6.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     4.6,
+     6.2
+    ],
+    "b": [
+     11.6,
+     2.6
+    ],
+    "k": "pass",
+    "n": 4,
+    "s0": 8,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    16.2,
+    "BASE DE LA Y",
+    "middle"
+   ]
+  ]
+ }
+}

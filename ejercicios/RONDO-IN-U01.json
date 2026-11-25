@@ -1,0 +1,172 @@
+{
+ "id": "RONDO-IN-U01",
+ "bloque": "Técnica y duelos",
+ "titulo": "Dentro, fuera y gol",
+ "formato": "Combinación hacia portería",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–9 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "4 turnos de 3′ con 1′ de pausa; cada 3 jugadas rotan los papeles (medio → extremo → delantero) (propuesta).",
+ "objetivo": "Combinar medio, extremo y delantero: pase dentro, descarga, apertura y centro para rematar atacando el área. Cómo explicarlo: «dentro, fuera y centro». Errores típicos: pase dentro sin perfil, descarga lenta, centro sin esperar al que llega. Qué observar: el delantero de espaldas, el momento de la apertura y la llegada al área. Material: 1 portería con portero, conos y balones.",
+ "montaje": "Campo de 30 × 25 m con portería grande y portero. Tres grupos: medio (con balón, atrás), extremo (banda alta) y delantero (de espaldas, en el centro). Si son más de 9, se juega por los dos lados.",
+ "juego": "El medio juega dentro al delantero, que descarga de cara; el medio abre al extremo, que centra al área para quien ha atacado (el delantero). Remate al primer toque o tras control. Rotan en cada jugada.",
+ "punto": "Gol: 1 punto. Gol al primer toque: 2 puntos.",
+ "consigna": "Dentro, descarga, abre y centra.",
+ "variantes": {
+  "facil": "Sin portero (fuente).",
+  "dificil": "Un defensor pasivo en el área (fuente); 6″ máximo de principio a fin (propuesta)."
+ },
+ "adaptacion": "Infantil: como está. Alevín: centro bajo y sin defensor. Cadete: defensor activo y remate a un toque (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Dentro, fuera y centro (IN-U01)",
+  "ref": "RONDO Vol. 4 · Infantil · págs. 22, 28, 30, 32, 34, 36"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tres grupos (medio, extremo, delantero), pase dentro, descarga, apertura, centro y remate, puntos 1 y 2, variantes, 30 × 25. Rotación, tiempos y jugadores (propuesta); diagrama con una jugada y un delantero fantasma.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 11,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.8,
+     10.4
+    ],
+    "b": [
+     13.2,
+     12.7
+    ],
+    "k": "pass",
+    "n": 1,
+    "s0": 6,
+    "s1": 10
+   },
+   {
+    "a": [
+     13.2,
+     12.2
+    ],
+    "b": [
+     8.3,
+     9.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     8.8,
+     9
+    ],
+    "b": [
+     19,
+     3.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     20.4,
+     4.4
+    ],
+    "b": [
+     24,
+     10.4
+    ],
+    "k": "pass",
+    "n": 4,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     25.6,
+     11.6
+    ],
+    "b": [
+     29.4,
+     12.4
+    ],
+    "k": "pass",
+    "n": 5,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    6,
+    7.4,
+    "MEDIO",
+    "middle"
+   ],
+   [
+    20,
+    0.6,
+    "EXTREMO",
+    "middle"
+   ],
+   [
+    14,
+    15.6,
+    "DELANTERO",
+    "middle"
+   ]
+  ]
+ }
+}
