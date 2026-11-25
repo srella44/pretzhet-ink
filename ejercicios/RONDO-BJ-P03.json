@@ -1,0 +1,337 @@
+{
+ "id": "RONDO-BJ-P03",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "3 contra 3 por campos",
+ "formato": "3v3",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "18 jug. (6 equipos)",
+ "espacio": "3 campos de 25 × 10 m",
+ "duracion": "18 min",
+ "series": "5 partidos de 3 min con 30 s para cambiar de campo (propuesta).",
+ "objetivo": "Competir en partidos cortos donde nadie queda eliminado: se sube y se baja (fuente). Cómo explicarlo: «si ganas, subes un campo; si pierdes, bajas; nadie se sienta». Errores típicos (propuesta): perder tiempo en el cambio, protestar el resultado, jugar solo en vez de pasar. Qué observar: pase antes del gol. Frase de la fuente: «Buen pase antes del gol».",
+ "montaje": "Tres campitos de 25 × 10 m uno junto a otro (propuesta; la fuente da 25 × 20 m) con miniporterías. Uno es el de los campeones. Seis equipos de 3.",
+ "juego": "Partidos de 3 min. Quien gana sube un campo y quien pierde baja (en los extremos se quedan). En empate, sube quien marcó el último gol; sin goles, penaltis de uno (propuesta).",
+ "punto": "Se sube y se baja, nadie sale (fuente).",
+ "consigna": "Pasa antes de tirar.",
+ "variantes": {
+  "facil": "Porterías grandes (fuente).",
+  "dificil": "El campo de los campeones tiene porterías pequeñas (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: los equipos se mezclan a mitad; se juega sin porteros; el gol vale doble después de un pase. Prebenjamín: 2 contra 2. Alevín: «Torneo de sube y baja» (RONDO-AL-P07) (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido 3 contra 3 por campos (BJ-P03)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Reparto del espacio en 3 franjas, desempate, quién se queda en los extremos, series y adaptación (propuesta). Diagrama: campo de campeones completo y los otros dos con menos jugadores.",
+ "diagrama": {
+  "field": [
+   66,
+   18
+  ],
+  "tag": "3 campitos · 3 contra 3",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 67.5,
+   "ymin": -0.8,
+   "ymax": 22.4
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     20,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     0,
+     18
+    ],
+    [
+     20,
+     18
+    ],
+    "0"
+   ],
+   [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     18
+    ],
+    "0"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     18
+    ],
+    "0"
+   ],
+   [
+    [
+     23,
+     0
+    ],
+    [
+     43,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     23,
+     18
+    ],
+    [
+     43,
+     18
+    ],
+    "0"
+   ],
+   [
+    [
+     23,
+     0
+    ],
+    [
+     23,
+     18
+    ],
+    "0"
+   ],
+   [
+    [
+     43,
+     0
+    ],
+    [
+     43,
+     18
+    ],
+    "0"
+   ],
+   [
+    [
+     46,
+     0
+    ],
+    [
+     66,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     46,
+     18
+    ],
+    [
+     66,
+     18
+    ],
+    "0"
+   ],
+   [
+    [
+     46,
+     0
+    ],
+    [
+     46,
+     18
+    ],
+    "0"
+   ],
+   [
+    [
+     66,
+     0
+    ],
+    [
+     66,
+     18
+    ],
+    "0"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    9,
+    "L"
+   ],
+   [
+    20,
+    9,
+    "R"
+   ],
+   [
+    23,
+    9,
+    "L"
+   ],
+   [
+    43,
+    9,
+    "R"
+   ],
+   [
+    46,
+    9,
+    "L"
+   ],
+   [
+    66,
+    9,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 6,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 12,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 52,
+    "y": 6,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 12,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     9
+    ],
+    "b": [
+     7.6,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     3.5
+    ],
+    "b": [
+     15.5,
+     8.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2
+   },
+   {
+    "a": [
+     60,
+     21
+    ],
+    "b": [
+     14,
+     21
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    19.7,
+    "CAMPEONES",
+    "middle"
+   ],
+   [
+    37,
+    19.7,
+    "GANA: SUBE UN CAMPO",
+    "middle"
+   ]
+  ],
+  "nofield": true
+ }
+}

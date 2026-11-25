@@ -1,0 +1,142 @@
+{
+ "id": "RONDO-PB-P01",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 3 contra 3",
+ "formato": "3v3",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6 por campito",
+ "espacio": "20 × 15 m",
+ "duracion": "15 min",
+ "series": "4 partidos de 3 min con 1 min para beber; se cambia de rival cada partido (propuesta).",
+ "objetivo": "Jugar mucho y tocar mucho balón: con 3 por equipo todos atacan y defienden (fuente). Cómo explicarlo: «cuando tenemos el balón, vamos a la portería de enfrente; cuando lo tienen ellos, a recuperarlo». Errores típicos (propuesta): todos detrás del balón como una piña, alguien quieto en la portería, celebrar y no volver. Qué observar: que todos toquen balón. Frase de la fuente: «Buen gol de equipo».",
+ "montaje": "Campito de 20 × 15 m con una portería ancha (4–5 m) en cada fondo, sin portero fijo. Con muchos jugadores, varios campitos al lado: todos juegan y nadie espera.",
+ "juego": "3 contra 3 normal. Nadie se queda de portero: defiende quien esté más cerca. Saque de banda con el pie o conduciendo. Tras gol, saca el equipo que lo ha recibido desde su portería.",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Todos atacan, todos defienden.",
+ "variantes": {
+  "facil": "Porterías anchísimas (fuente).",
+  "dificil": "Después del gol se sale desde la propia portería (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: el gol de quien aún no ha marcado vale un aplauso especial; equipos mezclados; cambio de rival cada 3 min. Benjamín: 4 contra 4 en 25 × 20 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido 3 contra 3 (PB-P01)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ancho de portería, saques, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 21.6,
+   "ymin": -0.6,
+   "ymax": 15.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 7.5,
+    "lado": "L",
+    "ancho": 5
+   },
+   {
+    "x": 20,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     7.5
+    ],
+    "b": [
+     9.5,
+     11.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     12
+    ],
+    "b": [
+     15.5,
+     13.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     15.8,
+     13.3
+    ],
+    "b": [
+     19.5,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

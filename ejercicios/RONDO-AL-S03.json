@@ -1,0 +1,142 @@
+{
+ "id": "RONDO-AL-S03",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "¡Desmárcate!",
+ "formato": "4v4",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 partes de 2 min con 1 min de pausa; se cambian los papeles si un equipo domina (propuesta).",
+ "objetivo": "Pedir el balón con un movimiento: alejarse del defensor y luego venir al balón para recibir libre (fuente). Cómo explicarlo: «primero te vas, luego vienes; si te quedas quieto, te lo roban». Errores típicos (propuesta): desmarque demasiado pronto o tardío, venir al balón por detrás del defensor, recibir de espaldas. Qué observar: el cambio de ritmo al venir y el perfil al recibir.",
+ "montaje": "25 × 20 m sin porterías. 4 contra 4; con 10, dos suplentes que entran cada 2 min (propuesta).",
+ "juego": "El equipo con balón intenta mantenerlo. Solo cuenta la recepción de quien antes se ha desmarcado (se aleja del defensor y viene al balón). El míster cuenta en voz alta; si roban, cuenta el otro.",
+ "punto": "1 punto por cada recepción tras un desmarque (fuente). Gana quien más sume en 2 min.",
+ "consigna": "Te vas y vuelves.",
+ "variantes": {
+  "facil": "Un comodín siempre libre con el que tiene el balón (fuente).",
+  "dificil": "Punto doble si quien recibe se gira enseguida (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: solo se recibe fuera de un círculo de conos; después de recibir se tira a una miniportería; punto doble por los pases al primer toque. Benjamín: 4 contra 4 + comodín. Infantil: 5 contra 5 en 30 × 25 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "¡Desmárcate! (AL-S03)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 21"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de jugadores, duración, quién cuenta los puntos, relevos y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 17,
+    "f": -45
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15.5,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 14,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     5
+    ],
+    "b": [
+     18,
+     2.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     2.5
+    ],
+    "b": [
+     11,
+     2.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     10
+    ],
+    "b": [
+     10.5,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    19.5,
+    19.2,
+    "TE VAS Y VUELVES",
+    "middle"
+   ]
+  ]
+ }
+}

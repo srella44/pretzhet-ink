@@ -1,0 +1,149 @@
+{
+ "id": "RONDO-BJ-P06",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Arbitramos nosotros",
+ "formato": "4v4 o 5v5",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "3 tiempos de 4 min con 1 min de pausa; un capitán distinto en cada tiempo (propuesta, de la fuente).",
+ "objetivo": "Jugar sin árbitro: los jugadores deciden faltas y saques y aprenden a ponerse de acuerdo y a respetar al rival (fuente). Cómo explicarlo: «si hay duda, se habla un segundo y se sigue; quien hace falta, la reconoce». Errores típicos (propuesta): discusiones largas, uno que decide siempre, protestar. Qué observar: gestos de juego limpio para premiarlos.",
+ "montaje": "25 × 20 m con portería pequeña y portero en cada fondo (propuesta). 4 contra 4 o 5 contra 5, sin árbitro. El míster, fuera del campo, mira y apunta.",
+ "juego": "Las faltas y los saques los deciden los jugadores; si no hay acuerdo, salto entre dos. El míster no pita: premia en voz alta los gestos de juego limpio (reconocer una falta, ayudar a levantarse).",
+ "punto": "Gol: 1 punto. Gesto de juego limpio: 1 punto (fuente).",
+ "consigna": "Lo decidimos nosotros.",
+ "variantes": {
+  "facil": "El míster ayuda a decidir (fuente).",
+  "dificil": "El míster no interviene nada (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: quien hace falta ayuda al otro a levantarse y se sigue; al acabar, cada equipo dice algo bueno del otro; un capitán distinto en cada tiempo. Alevín e infantil: ver «Partido autoarbitrado» (RONDO-IN-P05) (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido arbitrado por nosotros (BJ-P06)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Porterías con portero, salto entre dos en caso de duda, ejemplos de juego limpio, tiempos y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 26.6,
+   "ymin": -0.6,
+   "ymax": 22.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16.5,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 17.5,
+    "f": 180
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    21.8,
+    "SIN ÁRBITRO: DECIDEN ELLOS",
+    "middle"
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     11
+    ],
+    "b": [
+     18,
+     5.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     5
+    ],
+    "b": [
+     21.5,
+     7.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "id": "DOS-026",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido de tiro",
+ "formato": "4v4+P",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug. + 2 P",
+ "espacio": "20 × 20 m",
+ "duracion": "20 min",
+ "series": "4 partidos de 4 min con 1 min de pausa; con tres equipos, partidos a gol cambio (fuente y propuesta).",
+ "objetivo": "Tirar mucho, con distintas superficies y desde distintas posiciones (fuente). Cómo explicarlo: «controla orientado hacia la portería y, si la ves, tira». Errores típicos (fuente): recrearse con el balón; también (propuesta) controlar hacia atrás, tirar sin mirar al portero, no seguir el rechace. Qué observar: control orientado y tiro en el primer o segundo toque.",
+ "montaje": "20 × 20 m con portería y portero en cada fondo. 4 contra 4; con 10–12, tres equipos o un comodín por banda (propuesta).",
+ "juego": "Partido con máximo 2–3 toques por jugador: hay que controlar orientado y tirar rápido. Con tres equipos, gol cambio: el que encaja sale y entra el que espera. Rechace del portero: sigue la jugada.",
+ "punto": "Gol: 1. Gol al primer toque o desde lejos (más de 12 m): 2 (fuente).",
+ "consigna": "Orienta el control y tira rápido.",
+ "variantes": {
+  "facil": "Toques libres y porterías grandes (propuesta).",
+  "dificil": "Máximo 2 toques y el gol de cabeza o de volea vale triple (propuesta)."
+ },
+ "adaptacion": "Alevín: 3 toques y 25 × 20 m. Infantil: 2–3 toques. Cadete: 2 toques y comodines a un toque (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Partido de tiro a portería",
+  "ref": "Dosier de sesiones · pág. 6"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: partido reducido 4v4 con porterías y porteros, con o sin comodines, 2–3 toques, gol cambio con tres equipos, gol doble al primer toque o desde fuera del área. «Fuera del área» pasa a «más de 12 m» por no haber área en 20 × 20 m (propuesta). Series, rechace, variantes y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 21.6,
+   "ymin": -0.6,
+   "ymax": 21.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 20,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16.5,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     9.3,
+     9.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     10
+    ],
+    "b": [
+     19.5,
+     11.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    20.8,
+    "GOL DESDE LEJOS O AL 1.ER TOQUE: 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,183 @@
+{
+ "id": "TFB100-062",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4 contra 4 + 2 comodines",
+ "formato": "4v4+2",
+ "edad": "6–9 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. (con 2 P)",
+ "espacio": "36 × 30 m",
+ "duracion": "20 min",
+ "series": "4 partes de 4 min con 1 min de descanso, cambiando a los comodines (fuente).",
+ "objetivo": "Aprovechar la superioridad que dan los comodines de banda para atacar con amplitud y llegar a portería (fuente). También: atacar por dentro después de jugar por fuera y presionar tras pérdida. Cómo explicarlo: «si no ves pase dentro, ábrela al comodín y entra». Errores típicos (propuesta): todos amontonados en el centro, comodín olvidado, pasar y quedarse quieto. Qué observar: que tras abrir al comodín alguien ataque el espacio.",
+ "montaje": "36 × 30 m con portería y portero en cada fondo. 4 contra 4 dentro. Un comodín en cada banda, que se mueve a lo largo de su banda.",
+ "juego": "Los comodines juegan siempre con el equipo que tiene el balón y no pueden marcar. Bloques de 4–5 min: al acabar, dos jugadores de campo pasan a comodín y los comodines entran.",
+ "punto": "Gol: 1 punto.",
+ "consigna": "Abre al comodín, pasa y ofrécete.",
+ "variantes": {
+  "facil": "Los comodines pueden entrar al campo (fuente).",
+  "dificil": "Comodines a uno o dos toques (fuente)."
+ },
+ "adaptacion": "Prebenjamín: comodines con toques libres. Benjamín: a dos toques y el gol tras pase del comodín vale doble (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Partido 4 contra 4 con dos comodines por fuera",
+  "ref": "100 tareas de fútbol base · pág. 79"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (pág. 79 mirada). Edad de la ficha original (prebenjamín y benjamín). Errores típicos (propuesta).",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 37.8,
+   "ymin": -2.6,
+   "ymax": 32.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 36,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": -1.3,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 31.3,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     15
+    ],
+    "b": [
+     17,
+     29.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     31.3
+    ],
+    "b": [
+     22,
+     21.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     20
+    ],
+    "b": [
+     30,
+     18
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     30.5,
+     17.6
+    ],
+    "b": [
+     35.5,
+     15.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 4
+   }
+  ]
+ }
+}

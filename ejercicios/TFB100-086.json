@@ -1,0 +1,161 @@
+{
+ "id": "TFB100-086",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Entrar conduciendo y pisar",
+ "formato": "3v3",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "6–8 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "16 min",
+ "series": "4 series de 3 min con 1 min de descanso activo (fuente). Con 8, el equipo que sobra entra al minuto y medio (propuesta).",
+ "objetivo": "Dar valor a la conducción y al regate dentro del juego: para marcar hay que entrar conduciendo en la zona de gol (fuente). También: atacar el espacio libre conduciendo, fijar al rival con la conducción y defender sin lanzarse. Cómo explicarlo: «si hay espacio, conduce; si te sale un rival, ataca y suéltala o sigue». Errores típicos (propuesta): pasar dentro de la zona (no vale), esperar en la zona, defensor que entra de frente y se queda clavado. Qué observar: amago y cambio de ritmo antes de entrar.",
+ "montaje": "25 × 20 m con una zona de gol de 3 m a lo ancho en cada fondo. 3 contra 3 sin porteros.",
+ "juego": "Se marca entrando conduciendo en la zona rival y pisando el balón dentro. No vale pasar a uno que ya está dentro ni esperar en la zona. Saque de banda con el pie; tras gol, saca quien encaja.",
+ "punto": "Gol: 1. Si quien marca supera a un rival con un regate justo antes: 2.",
+ "consigna": "Si hay espacio, conduce.",
+ "variantes": {
+  "facil": "Zona de gol más ancha o un comodín que ataca siempre (4 contra 3) (fuente).",
+  "dificil": "Campo más estrecho, máximo 3 toques por jugador o gol solo entrando por un pasillo lateral marcado (fuente)."
+ },
+ "adaptacion": "Alevín: zona de gol de 4 m. Infantil: de 3 m. Cadete: de 2 m y máximo 2 toques antes de conducir (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "3 contra 3 a línea de conducción: el gol es entrar con el balón y pisarlo",
+  "ref": "100 tareas de fútbol base · pág. 105"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (pág. 105 mirada). Edad de la ficha original (alevín a cadete). Saque tras gol y relevo con 8 jugadores (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 25.6,
+   "ymin": -0.6,
+   "ymax": 22.4
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     3,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     22,
+     0,
+     25,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 10.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     10
+    ],
+    "b": [
+     9.5,
+     15.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     16
+    ],
+    "b": [
+     14.5,
+     15.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     15.2
+    ],
+    "b": [
+     23.5,
+     17
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "balls": [
+   [
+    23.6,
+    17.2
+   ]
+  ],
+  "labels": [
+   [
+    12.5,
+    21.6,
+    "ZONAS DE GOL DE 3 M",
+    "middle"
+   ]
+  ]
+ }
+}

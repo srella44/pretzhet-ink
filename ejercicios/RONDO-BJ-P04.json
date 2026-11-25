@@ -1,0 +1,202 @@
+{
+ "id": "RONDO-BJ-P04",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Zonas mágicas",
+ "formato": "5v5",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug. (con 2 P)",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "3 tiempos de 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Descubrir que en las bandas y esquinas hay espacio y tiempo: abrirse para recibir y conducir libre (fuente). Cómo explicarlo: «si la zona mágica está libre, llévate allí el balón y piensa tranquilo». Errores típicos (propuesta): quedarse a vivir en la zona, entrar sin saber qué hacer luego, todos al centro. Qué observar: qué hace el jugador al salir de la zona. Frase de la fuente: «Gran idea abrirte a la banda».",
+ "montaje": "25 × 20 m con portería y portero en cada fondo; 5 contra 5 (4 + portero) (propuesta). En las cuatro esquinas, una zona mágica de 5 × 4 m marcada con conos.",
+ "juego": "Partido normal. Quien entra conduciendo en una zona mágica no puede ser atacado durante 3 s (los cuenta el míster). Luego sale o pasa y ya se le puede presionar. No se repite zona seguida (propuesta).",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Ábrete a la banda.",
+ "variantes": {
+  "facil": "Zonas grandes (fuente).",
+  "dificil": "Desde la zona mágica hay que pasar (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: el gol después de la zona mágica vale doble; solo dos zonas; zona mágica también para el portero. Prebenjamín: zonas de 6 × 5 m y 5 s. Alevín: zonas de 4 × 3 m y 2 s (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido con zonas mágicas (BJ-P04)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 13"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Porteros, medida de las zonas, quién cuenta los 3 s, regla de no repetir zona, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 26.6,
+   "ymin": -0.6,
+   "ymax": 20.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     4
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     20,
+     0,
+     25,
+     4
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     16,
+     5,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     20,
+     16,
+     25,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     10
+    ],
+    "b": [
+     11.5,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     4
+    ],
+    "b": [
+     21.5,
+     2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     21.8,
+     2.3
+    ],
+    "b": [
+     17.5,
+     8.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 14,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    5.2,
+    "3 S LIBRE",
+    "middle"
+   ]
+  ]
+ }
+}

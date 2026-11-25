@@ -1,0 +1,200 @@
+{
+ "id": "RONDO-IN-P03",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido de fútbol 11",
+ "formato": "11v11 / 8v8",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "16–22 jug.",
+ "espacio": "Fútbol 11 o medio campo",
+ "duracion": "25 min",
+ "series": "2 partes de 12 min con 2 min de pausa; en la pausa, una idea por línea (propuesta).",
+ "objetivo": "Jugar en el espacio y con el sistema de competición de fútbol 11 (1-4-3-3 o 1-4-4-2) cuando hay jugadores y campo (fuente). Cómo explicarlo: «cada uno sabe su puesto; las líneas juntas, como un bloque». Errores típicos (propuesta): líneas muy separadas, laterales que no suben, todos detrás del balón. Qué observar: distancias entre líneas. Frase de la fuente: «Tarjeta verde merecida».",
+ "montaje": "Con 22 y campo: 11 contra 11 en fútbol 11, en 1-4-3-3 o 1-4-4-2. Si no: 8 contra 8 en medio campo de fútbol 11 jugando de área a área, con porterías de fútbol 7 al borde de cada área (propuesta).",
+ "juego": "Partido normal con las reglas de competición. Cada equipo decide su sistema antes de empezar y lo mantiene toda la parte. Saques y faltas como en el partido del fin de semana.",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Líneas juntas.",
+ "variantes": {
+  "facil": "8 contra 8 (fuente).",
+  "dificil": "Arbitra un jugador por turnos (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: fuera de juego activo; cada línea se pone un objetivo antes de empezar. Alevín: fútbol 8 o fútbol 7 en su campo. Cadete: siempre 11 contra 11 (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido de fútbol 11 (IN-P03)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Dónde van las porterías en el 8 contra 8, sistema fijo por parte, series y adaptación (propuesta). Diagrama del 8 contra 8 de área a área, simplificado.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "tag": "8 v 8 · área a área",
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 61.8,
+   "ymin": -0.6,
+   "ymax": 40.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     40
+    ],
+    "0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 50,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 50,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 51,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     13
+    ],
+    "b": [
+     32.5,
+     6.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     33,
+     6
+    ],
+    "b": [
+     44,
+     5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     35,
+     20
+    ],
+    "b": [
+     45,
+     17
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

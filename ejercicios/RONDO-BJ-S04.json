@@ -1,0 +1,194 @@
+{
+ "id": "RONDO-BJ-S04",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Torneo de los campitos",
+ "formato": "1v1",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8 jug. (4 campos)",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "6–8 partidos de 1 min con 30 s para cambiar de campo (propuesta).",
+ "objetivo": "Atreverse a regatear y defender uno contra uno en partidos muy cortos, sin eliminados (fuente). Cómo explicarlo: «ganar es subir un campo; perder es bajar, nunca salir». Errores típicos (propuesta): conducir mirando el balón, defender de frente y lanzarse, perder tiempo en el cambio de campo. Qué observar: fintas y cambios de ritmo. Frase de la fuente: «Felicitar al rival: buen gesto».",
+ "montaje": "25 × 20 m en 4 campitos de unos 12 × 9 m, con una miniportería en cada fondo. Una pareja por campito; el de arriba a la derecha es el de los campeones.",
+ "juego": "1 contra 1 de 1 min. Al pitido, quien gana sube un campo y quien pierde baja. En empate, sube quien marcó el último gol; sin goles, piedra-papel-tijera (propuesta).",
+ "punto": "Se sube y se baja: todos juegan siempre (fuente).",
+ "consigna": "Ataca al rival y supéralo.",
+ "variantes": {
+  "facil": "Miniporterías anchas (fuente).",
+  "dificil": "En el campo de los campeones, miniporterías estrechas (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: el gol vale doble con una finta; 2 contra 2; quien pierde elige el balón. Prebenjamín: campos más anchos. Alevín: partidos de 90 s (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El torneo de los campitos (BJ-S04)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida de cada campito, desempate, saque tras gol, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "tag": "4 campitos · 25 × 20 m",
+  "extent": {
+   "xmin": -1,
+   "xmax": 26,
+   "ymin": -0.6,
+   "ymax": 22.4
+  },
+  "lines": [
+   [
+    [
+     12.5,
+     0
+    ],
+    [
+     12.5,
+     20
+    ],
+    "0"
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     25,
+     10
+    ],
+    "0"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    12.5,
+    5,
+    "R"
+   ],
+   [
+    12.5,
+    15,
+    "L"
+   ],
+   [
+    25,
+    15,
+    "R"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    12.5,
+    15,
+    "R"
+   ],
+   [
+    12.5,
+    5,
+    "L"
+   ],
+   [
+    25,
+    5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     4
+    ],
+    "b": [
+     9.5,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    18.75,
+    9.1,
+    "CAMPEONES",
+    "middle"
+   ],
+   [
+    12.5,
+    21.6,
+    "GANA SUBE · PIERDE BAJA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "id": "TFB100-067",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Tres equipos: marca y queda",
+ "formato": "5v5 + 5 apoyos",
+ "edad": "10–18 años",
+ "nivel": "Medio",
+ "jugadores": "15–21 jug. + 2 P",
+ "espacio": "45 × 35 m",
+ "duracion": "24 min",
+ "series": "24 min en partidos de 3 min como máximo; se cuentan los partidos ganados (fuente).",
+ "objetivo": "Competir en partidos cortos e intensos con transiciones constantes: cada equipo cambia de papel según el resultado (fuente). También: ataque rápido para marcar antes que el rival, transición defensiva inmediata y uso de los apoyos de fuera. Cómo explicarlo: «quien marca se queda; quien encaja sale, y sale rápido». Errores típicos (propuesta): el equipo que entra tarda en colocarse, nadie usa a los apoyos, los que marcan celebran y no se preparan. Qué observar: los 5 segundos tras cada gol.",
+ "montaje": "45 × 35 m con portería y portero en cada fondo. Tres equipos de 5 a 7: dos juegan y el tercero hace de apoyos en las bandas con el que tiene el balón.",
+ "juego": "Partido a un gol o 3 min. Quien marca se queda y ataca la otra portería; quien encaja sale a las bandas y entran los apoyos. Sin gol, sale el que más lleva dentro. Apoyos a 2 toques, sin marcar.",
+ "punto": "Gol: 1 al equipo que marca. Gana quien más goles sume.",
+ "consigna": "Marcas y te preparas; entra rápido.",
+ "variantes": {
+  "facil": "Partidos de 5 minutos (fuente).",
+  "dificil": "Apoyos a un toque; el que entra sale desde su portero y tiene 20 s para marcar; gol de primeras doble; o el que marca debe defender un segundo ataque inmediato para quedarse (fuente)."
+ },
+ "adaptacion": "Alevín: equipos de 5 y apoyos con toques libres. Infantil: de 6. Cadete y juvenil: de 7 y apoyos a un toque (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Partido de tres equipos: el que marca se queda",
+  "ref": "100 tareas de fútbol base · pág. 84"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (pág. 84 mirada). Edad de la ficha original (alevín a juvenil). Errores típicos (propuesta).",
+ "diagrama": {
+  "field": [
+   45,
+   35
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 46.8,
+   "ymin": -2.6,
+   "ymax": 37.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 45,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 17.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 39,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": -1.3,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": -1.3,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 36.3,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 36.3,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     17.5
+    ],
+    "b": [
+     15,
+     34.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     36.3
+    ],
+    "b": [
+     29.5,
+     25
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     24
+    ],
+    "b": [
+     40,
+     21
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     40.3,
+     20.6
+    ],
+    "b": [
+     44.5,
+     18.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 4
+   }
+  ]
+ }
+}

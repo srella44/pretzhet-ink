@@ -1,0 +1,121 @@
+{
+ "id": "RONDO-BJ-S01",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Todos contra todos de tres",
+ "formato": "1v1+P",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "Grupos de 3",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 3 min con 1 min de pausa; se cambian los grupos en cada ronda (propuesta).",
+ "objetivo": "Jugar mucho uno contra uno y tirar a portería, y decidir entre todos las normas del juego (fuente). Cómo explicarlo: «cada uno juega para sí; si marcas, te toca ser portero». Errores típicos (propuesta): tirar sin mirar al portero, no proteger el balón, discutir las normas mucho tiempo. Qué observar: que todos pasen por la portería y tiren con las dos piernas.",
+ "montaje": "Por grupo, un campo de unos 20 × 20 m con una portería de 4 m (propuesta) y un portero. Grupos de tres: uno de portero y dos de campo. Varios grupos a la vez.",
+ "juego": "Los dos de campo juegan uno contra otro hacia la misma portería. Quien marca pasa a portero y el portero sale a jugar. Balón fuera: saca el otro desde el fondo. Las demás normas las deciden ellos.",
+ "punto": "Gol: 1 punto (fuente). Cada uno lleva su cuenta.",
+ "consigna": "Si marcas, a la portería.",
+ "variantes": {
+  "facil": "Porterías anchas (fuente).",
+  "dificil": "El gol con la pierna mala vale doble (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: dos balones en el mismo grupo; por parejas contra uno, rotando; el portero puede salir a jugar. Prebenjamín: campo de 15 × 15 m y portería ancha. Alevín: grupos de 4 (2 contra 1 + portero) (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Todos contra todos de tres en tres (BJ-S01)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medida de la portería, saque tras balón fuera, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 20.6,
+   "ymin": -1.6,
+   "ymax": 20.6
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 7.5,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     11
+    ],
+    "b": [
+     6,
+     6.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     6.2
+    ],
+    "b": [
+     9.2,
+     0.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     10.5,
+     1.2
+    ],
+    "b": [
+     11,
+     16
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    15,
+    17,
+    "QUIEN MARCA, A PORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

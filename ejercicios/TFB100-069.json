@@ -1,0 +1,234 @@
+{
+ "id": "TFB100-069",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Fuera de juego adelantado",
+ "formato": "6v6+1",
+ "edad": "12–18 años",
+ "nivel": "Medio",
+ "jugadores": "13–15 jug. + 2 P",
+ "espacio": "50 × 35 m",
+ "duracion": "25 min",
+ "series": "3 partes de 7 min con 2 min de descanso (fuente; en las reglas habla de dos partes de 10 min: elige según el tiempo).",
+ "objetivo": "Jugar con el fuera de juego desde una línea marcada para trabajar el desmarque en el momento justo y la defensa en línea (fuente). También: pase al espacio a la espalda y comunicación de la última línea. Cómo explicarlo: «rompe cuando el pasador levanta la cabeza; los de atrás, subimos juntos». Errores típicos (propuesta): salir antes del pase, un defensor que se queda y habilita a todos, pase al pie en vez de al espacio. Qué observar: el perfil del que rompe y quién ordena la línea.",
+ "montaje": "50 × 35 m con portería y portero en cada fondo y una línea de conos a 15 m de cada una. 6 contra 6 + un comodín con el que ataca, que no marca.",
+ "juego": "Solo hay fuera de juego pasada la línea de conos: es fuera si recibes por delante de ella y del último defensor al salir el pase. Detrás de la línea se recibe libre. Fuera de juego: falta indirecta.",
+ "punto": "Gol: 1. Gol tras ruptura a la espalda sin fuera de juego: 2.",
+ "consigna": "Rompe al levantar la cabeza.",
+ "variantes": {
+  "facil": "Sin fuera de juego: la línea solo sirve de referencia (fuente).",
+  "dificil": "Línea a 20 m; gol solo tras recibir detrás de la línea; máximo 3 toques; comodín con el que defiende; o 1 punto por cada 3 fueras de juego provocados (fuente)."
+ },
+ "adaptacion": "Infantil: sin comodín y línea a 18 m. Cadete: a 15 m. Juvenil: a 15 m y el gol tras pase a la espalda vale doble (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Partido 6 contra 6 + 1 con línea de fuera de juego adelantada",
+  "ref": "100 tareas de fútbol base · pág. 86"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (pág. 86 mirada). Edad de la ficha original (infantil a juvenil). Errores típicos (propuesta). La fuente da dos duraciones distintas (2 × 10 y 3 × 7 min).",
+ "diagrama": {
+  "field": [
+   50,
+   35
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 51.8,
+   "ymin": -0.6,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     35,
+     0,
+     50,
+     35
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     35
+    ],
+    "6 5"
+   ],
+   [
+    [
+     35,
+     0
+    ],
+    [
+     35,
+     35
+    ],
+    "6 5"
+   ],
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     35
+    ],
+    "0"
+   ]
+  ],
+  "cones": [
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    35
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 20,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 29,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 37.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     31,
+     8
+    ],
+    "b": [
+     41.5,
+     10.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     17
+    ],
+    "b": [
+     41,
+     11.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     42,
+     11
+    ],
+    "b": [
+     46,
+     15
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    35,
+    37,
+    "FUERA DE JUEGO DESDE LA LÍNEA",
+    "middle"
+   ]
+  ]
+ }
+}

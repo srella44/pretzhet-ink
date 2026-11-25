@@ -1,0 +1,156 @@
+{
+ "id": "RONDO-BJ-P01",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 5 contra 5",
+ "formato": "5v5+P",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "10–14 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "20 min",
+ "series": "4 tiempos de 4 min con 1 min de pausa; quien sobra rota cada 3 min (fuente).",
+ "objetivo": "Jugar el partido de la sesión con muchas acciones por jugador y sin nadie parado (fuente). Cómo explicarlo: «aquí se juega como el sábado, pero todos tocan mucho balón». Errores típicos (propuesta): todos detrás del balón, el portero siempre el mismo, nadie abre el campo. Qué observar: si se ocupan las bandas y si todos participan.",
+ "montaje": "25 × 20 m con portería y portero en cada fondo; 5 contra 5 (4 + portero). Al lado, un campito de 15 × 10 m con miniporterías para un 2 contra 2 con los que sobren.",
+ "juego": "Partido normal con saque de banda con los pies. Cada 3 min los del 2 contra 2 cambian con jugadores del partido. Si sois 14–16 y tenéis el campo, fútbol 7 u 8 según vuestra competición.",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Todos ayudan, todos atacan.",
+ "variantes": {
+  "facil": "Porterías grandes (fuente).",
+  "dificil": "Después de gol se sale desde el portero (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: bonus si marcan todos los jugadores; el portero cambia con cada gol; dos balones durante 1 min. Prebenjamín: 3 contra 3 en 20 × 15 m. Alevín: fútbol 7 (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido 5 contra 5 (BJ-P01)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Portero dentro de los 5, medida del campito del 2 contra 2, tiempos y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 26.6,
+   "ymin": -0.6,
+   "ymax": 20.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     10
+    ],
+    "b": [
+     17.5,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     3.5
+    ],
+    "b": [
+     21,
+     6.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     21.3,
+     6.8
+    ],
+    "b": [
+     24.5,
+     9.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   }
+  ]
+ }
+}

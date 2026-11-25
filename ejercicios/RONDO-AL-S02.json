@@ -1,0 +1,170 @@
+{
+ "id": "RONDO-AL-S02",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "El pase que sirve",
+ "formato": "4v4",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "3 partes de 4 min con 1 min de pausa; en la pausa el míster pregunta qué pase ha servido (propuesta).",
+ "objetivo": "Elegir el pase útil: el que hace avanzar al equipo o lo deja en un espacio libre, no el primero que se ve (fuente). Cómo explicarlo: «antes de pasar, pregúntate: ¿con este pase estamos más cerca o más libres?». Errores típicos (propuesta): pases laterales sin intención, pasar al compañero tapado, no mirar antes de recibir. Qué observar: la cabeza levantada antes del control. El míster solo para el juego para enseñar una buena decisión (fuente).",
+ "montaje": "25 × 20 m con 2 miniporterías en cada fondo, sin porteros. 4 contra 4; con 10, uno por equipo entra cada 2 min (propuesta).",
+ "juego": "Partido normal. El gol vale doble si llega tras un pase que hace avanzar al equipo o deja al compañero en un espacio libre. El míster solo para el juego para enseñar una buena decisión.",
+ "punto": "Gol: 1. Gol tras un pase hacia delante o a un espacio libre: 2 (fuente).",
+ "consigna": "Pasa para avanzar.",
+ "variantes": {
+  "facil": "Porterías más grandes (fuente).",
+  "dificil": "El pase atrás no cuenta para el punto doble (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: el pase que sirve tiene que superar a un rival; quien pasa dice el nombre del compañero; punto extra por cada pase al primer toque que llega. Benjamín: 3 contra 3. Infantil: 5 contra 5 en 30 × 25 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El pase que sirve (AL-S02)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 15"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de jugadores, dos miniporterías por fondo, relevos, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 26,
+   "ymin": -0.6,
+   "ymax": 22.4
+  },
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    25,
+    5,
+    "R"
+   ],
+   [
+    25,
+    15,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     16
+    ],
+    "b": [
+     17.5,
+     17.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     10
+    ],
+    "b": [
+     17,
+     17.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     17.7,
+     17.2
+    ],
+    "b": [
+     24.5,
+     15.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    21.6,
+    "GOL TRAS PASE QUE AVANZA: 2",
+    "middle"
+   ]
+  ]
+ }
+}

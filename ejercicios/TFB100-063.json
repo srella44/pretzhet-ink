@@ -1,0 +1,271 @@
+{
+ "id": "TFB100-063",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Salida corta del portero",
+ "formato": "7v7",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "12–16 jug.",
+ "espacio": "55 × 35 m",
+ "duracion": "20 min",
+ "series": "2 partes de 10 min con 2 min de descanso (fuente). Con más de 14, cambios volantes cada 3 min (propuesta).",
+ "objetivo": "Sacar el balón jugado desde el portero, sin pelotazo, y ofrecerle apoyos (fuente). También: defensas que se abren a las bandas, portero que juega con el pie y presión ordenada del rival a partir de la línea. Cómo explicarlo: «el balón del portero es nuestro primer pase». Errores típicos (fuente): defensas pegados al portero que le quitan espacio, pase botando o flojo, recibir de espaldas junto a la línea de fondo, todo el equipo arriba esperando el pelotazo. Qué observar: si el que recibe ya mira al campo y si alguien se acerca a ayudar. Material: campo de fútbol 7, 2 porterías, conos para las líneas de retroceso, petos y balones.",
+ "montaje": "Campo de fútbol 7 (55 × 35 m), 7 contra 7 con porteros. Línea de conos a 15 m de cada portería.",
+ "juego": "Con el balón en manos del portero, el rival espera tras la línea. El portero saca en corto (raso o con la mano) a un defensa abierto; cuando este toca el balón, el rival ya presiona. Saque que cruza la línea sin botar: se repite.",
+ "punto": "Gol: 1. Si nace del saque corto y el rival no toca: 2.",
+ "consigna": "Defensas, abríos; portero, raso y al pie.",
+ "variantes": {
+  "facil": "Línea de conos más lejos de la portería (18–20 m) para tener más tiempo (fuente).",
+  "dificil": "Línea de conos más cerca (10–12 m) o el portero solo puede sacar con el pie (fuente)."
+ },
+ "adaptacion": "Pensada para benjamín (fuente). Prebenjamín (fútbol 5): línea a 10 m. Alevín: línea a 12 m y el rival puede presionar en cuanto el portero suelta el balón (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Partido de fútbol 7 benjamín: el portero saca en corto y se juega desde atrás",
+  "ref": "100 tareas de fútbol base · pág. 80"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (texto y 3 gráficos, pág. 80 mirada). Edad de la ficha original (benjamín). Solo se añaden los cambios volantes con más de 14 (propuesta).",
+ "diagrama": {
+  "field": [
+   55,
+   35
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 56.8,
+   "ymin": -0.6,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 55,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     35
+    ],
+    "6 5"
+   ],
+   [
+    [
+     40,
+     0
+    ],
+    [
+     40,
+     35
+    ],
+    "6 5"
+   ],
+   [
+    [
+     27.5,
+     0
+    ],
+    [
+     27.5,
+     35
+    ],
+    "0"
+   ]
+  ],
+  "cones": [
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    11.7
+   ],
+   [
+    15,
+    23.3
+   ],
+   [
+    15,
+    35
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    11.7
+   ],
+   [
+    40,
+    23.3
+   ],
+   [
+    40,
+    35
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 23,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    2.2,
+    18.8
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     17
+    ],
+    "b": [
+     8,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     6
+    ],
+    "b": [
+     11.5,
+     4.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     4
+    ],
+    "b": [
+     24.5,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 3
+   },
+   {
+    "a": [
+     26,
+     9
+    ],
+    "b": [
+     33,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    15,
+    37,
+    "LÍNEA DE RETROCESO 15 M",
+    "middle"
+   ]
+  ]
+ }
+}

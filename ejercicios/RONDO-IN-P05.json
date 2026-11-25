@@ -1,0 +1,161 @@
+{
+ "id": "RONDO-IN-P05",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido autoarbitrado",
+ "formato": "6v6+P",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12–16 jug. + 2 P",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 partes de 4 min con 1 min de pausa; en la pausa, cada capitán dice cómo ha ido (propuesta).",
+ "objetivo": "Asumir las decisiones del partido (faltas, saques y fueras de juego) con honestidad y sin protestas (fuente). Cómo explicarlo: «sois los árbitros: si la falta es tuya, levanta la mano». Errores típicos (propuesta): discutir cada jugada, el más fuerte decide siempre, aprovechar para hacer trampas. Qué observar: rapidez para reanudar. Frase de la fuente: «Así se juega: enhorabuena a todos».",
+ "montaje": "40 × 30 m con portería y portero en cada fondo. 6 contra 6 (de 5 a 8 por equipo) y un capitán por equipo (propuesta).",
+ "juego": "Sin árbitro: faltas, saques y fueras de juego los deciden los jugadores; quien comete falta la reconoce. Si hay duda, deciden los capitanes en 5 s; si no, salto entre dos. El míster solo interviene si hace falta.",
+ "punto": "Gol: 1. Gesto de juego limpio: 1 (fuente).",
+ "consigna": "Tu falta, tu mano.",
+ "variantes": {
+  "facil": "El míster ayuda con los fueras de juego (fuente).",
+  "dificil": "Sin ninguna intervención del míster (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: quien comete falta la pita él mismo; un capitán por equipo resuelve las dudas. Benjamín: ver «Arbitramos nosotros» (RONDO-BJ-P06). Cadete: fuera de juego en todo el campo (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido autoarbitrado (IN-P05)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 11"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de jugadores, capitanes y regla de los 5 s, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -0.6,
+   "ymax": 32.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     15
+    ],
+    "b": [
+     26.5,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     7
+    ],
+    "b": [
+     33,
+     6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    20,
+    31.8,
+    "SIN ÁRBITRO · CAPITANES DECIDEN",
+    "middle"
+   ]
+  ]
+ }
+}

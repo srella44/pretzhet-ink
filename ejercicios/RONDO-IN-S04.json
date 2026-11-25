@@ -1,0 +1,164 @@
+{
+ "id": "RONDO-IN-S04",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Defender juntos",
+ "formato": "6v6+P",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "12–16 jug. + 2 P",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 partes de 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Recuperar el balón entre dos (ayuda) o leyendo el pase (intercepción), no cada uno por su cuenta (fuente). Cómo explicarlo: «uno aprieta y el de al lado cierra; si ves el pase antes de que salga, ve a cortarlo». Errores típicos (propuesta): los dos se lanzan a la vez y se quedan superados, nadie cubre al que sale, defender mirando solo el balón. Qué observar: distancia entre el que presiona y el que ayuda. Frase de la fuente: «Has leído el pase antes de que saliera».",
+ "montaje": "40 × 30 m con portería y portero en cada fondo. 6 contra 6 (de 5 a 8 por equipo según el grupo) (propuesta).",
+ "juego": "Partido normal. Si un equipo recupera el balón con una ayuda (dos jugadores sobre el mismo rival) o con una intercepción, suma un punto y sigue jugando con el balón. El míster canta el punto en voz alta.",
+ "punto": "Gol: 1. Recuperación con ayuda o intercepción: 1 (fuente).",
+ "consigna": "Uno aprieta, otro cierra.",
+ "variantes": {
+  "facil": "También vale la recuperación simple en la zona central (fuente).",
+  "dificil": "Solo vale la intercepción (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: quien recupera tiene que jugar hacia delante; línea defensiva que sube junta con bonus si el rival queda en fuera de juego. Alevín: 5 contra 5 y vale también el robo simple. Cadete: solo intercepción (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Defender juntos (IN-S04)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de jugadores, quién canta el punto, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -0.6,
+   "ymax": 30.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 22,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     9
+    ],
+    "b": [
+     19.3,
+     9
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     16
+    ],
+    "b": [
+     21.6,
+     12.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     18
+    ],
+    "b": [
+     12.6,
+     21
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    20,
+    2.8,
+    "AYUDA: 2 SOBRE 1",
+    "middle"
+   ]
+  ]
+ }
+}

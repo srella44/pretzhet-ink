@@ -1,0 +1,172 @@
+{
+ "id": "RONDO-AL-P08",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido con 2 balones",
+ "formato": "5v5+P",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "10–14 jug. + 2 P",
+ "espacio": "35 × 25 m",
+ "duracion": "16 min",
+ "series": "4 bloques de 4 min (2 min con dos balones + 2 min con uno) con 1 min de pausa (fuente y propuesta).",
+ "objetivo": "Que todos estén activos y atentos: con dos balones nadie puede quedarse mirando (fuente). Cómo explicarlo: «hay dos jugadas a la vez: o estás en una, o estás en la otra». Errores típicos (propuesta): todos van al mismo balón, el portero solo mira uno, quedarse parado cuando el balón está lejos. Qué observar: reparto del equipo entre los dos balones.",
+ "montaje": "35 × 25 m con portería y portero en cada fondo; 5 contra 5 (de 5 a 7 por equipo) (propuesta). El míster en la banda con balones de reserva.",
+ "juego": "2 min con dos balones a la vez y después 2 min con uno solo, y se repite. Si un balón sale, el míster mete otro al momento por la banda. Los dos balones valen gol a la vez.",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Con dos balones, nadie para.",
+ "variantes": {
+  "facil": "Balones de colores distintos (fuente).",
+  "dificil": "Con dos balones, el gol solo vale con el amarillo (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: tras un gol con el primer balón, el segundo vale doble; cada equipo defiende con al menos un jugador por balón; tres balones durante 1 min. Benjamín: 4 contra 4 en 25 × 20 m. Infantil: 6 contra 6 en 40 × 30 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido con 2 balones (AL-P08)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Porterías con portero, número de jugadores, reposición de balones, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 36.8,
+   "ymin": -0.6,
+   "ymax": 25.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 35,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 18,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     5
+    ],
+    "b": [
+     17.5,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     4
+    ],
+    "b": [
+     27,
+     2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     19
+    ],
+    "b": [
+     20.5,
+     15.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 3
+   },
+   {
+    "a": [
+     21,
+     15
+    ],
+    "b": [
+     34.5,
+     13.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

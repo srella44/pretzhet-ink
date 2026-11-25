@@ -1,0 +1,212 @@
+{
+ "id": "RONDO-IN-S02",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Salir jugando",
+ "formato": "6v6+P",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12–16 jug. + 2 P",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 partes de 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Salir desde el portero con el balón por abajo y superar la presión hasta el medio campo (fuente). Cómo explicarlo: «portero, centrales abiertos y mediocentro que baja: tres opciones cerca». Errores típicos (propuesta): centrales pegados al portero, mediocentro escondido detrás de un rival, despejar en largo al primer susto. Qué observar: si los centrales se abren y el mediocentro baja (variante «Hoy» de la fuente) y si se juega al lado contrario de la presión. Frase de refuerzo: «Habéis sido valientes: así se aprende».",
+ "montaje": "40 × 30 m con portería y portero en cada fondo y el medio campo marcado. 6 contra 6 (de 5 a 8 por equipo) (propuesta).",
+ "juego": "Partido normal. Todo balón del portero se juega por abajo. Si el equipo pasa del medio campo con el balón controlado tras salir desde el portero y acaba marcando, el gol vale doble. Pelotazo del portero: balón al rival (propuesta).",
+ "punto": "Gol: 1. Gol tras salida jugando: 2 (fuente).",
+ "consigna": "Te ofreces al portero.",
+ "variantes": {
+  "facil": "Los rivales empiezan detrás del medio campo en cada saque del portero (fuente).",
+  "dificil": "Presión libre desde el saque (fuente)."
+ },
+ "adaptacion": "Variantes de la fuente para otros días: el portero toca el balón al menos una vez más en la jugada; los centrales se abren y el mediocentro baja. Alevín: 5 contra 5 y rivales tras el medio campo. Cadete: presión libre y 8 contra 8 en medio campo de fútbol 11 (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Salir jugando (IN-S02)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Número de jugadores, línea de medio campo, regla del pelotazo, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -0.6,
+   "ymax": 32.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    2.2,
+    16.3
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     15.5
+    ],
+    "b": [
+     6,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     26
+    ],
+    "b": [
+     11.5,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     15
+    ],
+    "b": [
+     23,
+     18.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     12.6,
+     11
+    ],
+    "b": [
+     10.5,
+     13.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 2,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    20,
+    31.8,
+    "MEDIO CAMPO",
+    "middle"
+   ]
+  ]
+ }
+}

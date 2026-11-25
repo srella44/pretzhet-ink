@@ -1,0 +1,163 @@
+{
+ "id": "RONDO-BJ-S06",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "La pared del patio",
+ "formato": "Parejas",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "Parejas (6–16 jug.)",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "4 intentos de 2 min; cada pareja apunta su récord y trata de batirlo (propuesta).",
+ "objetivo": "Golpear y controlar el balón que vuelve de la pared, por turnos, sin perderlo (fuente). Cómo explicarlo: «golpea con el interior, apoyo al lado del balón; luego apártate para que llegue tu compañero». Errores típicos (propuesta): golpear con la puntera, quedarse delante del compañero tras chutar, golpear demasiado fuerte. Qué observar: la colocación antes de que llegue el balón. Frase de la fuente: «¡Qué control!».",
+ "montaje": "Parejas ante un banco tumbado o una miniportería estrecha, con una línea a 4 m (propuesta). Varias parejas en 15 × 15 m.",
+ "juego": "Desde detrás de la línea, la pareja golpea por turnos contra la pared, un toque cada uno. Si el balón se escapa, se para o lo toca dos veces el mismo, se cuenta desde cero.",
+ "punto": "La pareja cuenta los toques seguidos: récord que batir (fuente).",
+ "consigna": "Golpea y apártate.",
+ "variantes": {
+  "facil": "Dos toques cada uno (fuente).",
+  "dificil": "Solo pierna mala (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: el balón no puede pararse nunca; de tres jugadores; cooperando contra otra pareja. Prebenjamín: línea a 2 m y dos toques. Alevín: línea a 5 m y solo pierna mala (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La pared del patio (BJ-S06)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 20"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Distancia a la pared, qué reinicia la cuenta, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "goals": [
+   [
+    15,
+    4,
+    "R"
+   ],
+   [
+    15,
+    11,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     11,
+     1
+    ],
+    [
+     11,
+     7
+    ],
+    "6 5"
+   ],
+   [
+    [
+     11,
+     8
+    ],
+    [
+     11,
+     14
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 14.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     3
+    ],
+    "b": [
+     14.6,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 14,
+    "s1": 4,
+    "n": 1,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     14.6,
+     4.3
+    ],
+    "b": [
+     6.4,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 4,
+    "s1": 14,
+    "n": 2,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     8,
+     3
+    ],
+    "b": [
+     7.5,
+     0.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    11.4,
+    14.6,
+    "LÍNEA A 4 M",
+    "start"
+   ]
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 19,
+   "ymin": -0.6,
+   "ymax": 15.6
+  }
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "id": "RONDO-BJ-S07",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "El rey de la colina",
+ "formato": "Todos contra todos",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–14 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 90 s con 1 min de pausa; el cuadrado se estrecha en cada ronda (propuesta).",
+ "objetivo": "Proteger el balón propio con el cuerpo mientras se intenta sacar el de los demás (fuente). Cómo explicarlo: «tu cuerpo entre el rival y el balón; cabeza arriba para ver quién viene». Errores típicos (propuesta): conducir pegado a la línea, olvidar el propio balón por ir a por otro, empujar con las manos. Qué observar: protección de lado y cambio de dirección.",
+ "montaje": "Cuadrado de 20 × 20 m marcado con conos. Todos dentro, cada uno con un balón.",
+ "juego": "Todos conducen protegiendo su balón e intentan sacar fuera del cuadrado el de los demás. Quien lo pierde va a por él, hace 5 toques fuera y vuelve a entrar. Sin empujar con las manos. Gana la ronda quien más balones saque.",
+ "punto": "1 punto por cada balón sacado fuera (fuente).",
+ "consigna": "Protege y ataca.",
+ "variantes": {
+  "facil": "Cuadrado grande (fuente).",
+  "dificil": "Cuadrado que se va estrechando (fuente)."
+ },
+ "adaptacion": "Otras versiones de la fuente: solo se vuelve a entrar pasando por una miniportería; por parejas (uno protege y otro ataca); solo vale con la pierna mala. Prebenjamín: 25 × 25 m. Alevín: 15 × 15 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El rey de la colina (BJ-S07)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Duración de las rondas, regla de manos, series y adaptación (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -0.6,
+   "xmax": 23.4,
+   "ymin": -0.6,
+   "ymax": 22.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    20
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    20,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 3.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 12,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 8,
+    "f": 45,
+    "ball": true
+   }
+  ],
+  "balls": [
+   [
+    21.8,
+    12.5
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     8
+    ],
+    "b": [
+     15.5,
+     11.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 14,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     15
+    ],
+    "b": [
+     21.5,
+     12.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 14,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     21.8,
+     13
+    ],
+    "b": [
+     21.8,
+     18.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10,
+    21.7,
+    "PIERDE: 5 TOQUES Y DENTRO",
+    "middle"
+   ]
+  ]
+ }
+}
