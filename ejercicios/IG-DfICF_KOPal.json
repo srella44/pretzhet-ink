@@ -1,0 +1,174 @@
+{
+ "id": "IG-DfICF_KOPal",
+ "bloque": "Rondos",
+ "titulo": "Seis pases o romper por dentro",
+ "formato": "6v3",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "36 × 30 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambian los 3 defensores en cada serie.",
+ "objetivo": "Aprender cuándo hay que esperar los 6 pases y cuándo romper antes con un pase vertical filtrado entre dos defensores. Cómo explicarlo: «seis pases, pero si se abre un pasillo entre dos defensores, juega ya». Errores típicos: forzar el pase vertical sin ventaja, contar pases sin mirar al rival, pases lentos. Qué observar: lectura del pasillo entre defensores, ritmo de pase, calidad del pase filtrado. Material: 6 conos, 3 balones, petos de 2 colores.",
+ "montaje": "Campo de 36 × 30 m en 2 zonas de 18 × 30. Zona activa: 6 atacantes en el borde y 3 defensores. Al otro lado, 2 comodines.",
+ "juego": "Los 6 circulan a 2 toques y transfieren a un comodín tras 6 pases, o antes si filtran un pase entre dos defensores. El comodín devuelve.",
+ "punto": "1 punto por transferencia; 2 si es filtrado antes del 6.º pase (propuesta).",
+ "consigna": "Seis pases, pero rompe si hay pasillo.",
+ "variantes": {
+  "facil": "Solo 4 pases para transferir y toques libres (propuesta).",
+  "dificil": "Un toque y los comodines solo pueden devolver al segundo toque."
+ },
+ "adaptacion": "Alevín (10–11): 4 pases y 30 × 24 m. Infantil (12–13): 6 pases. Cadete: 8 pases y a dos toques.",
+ "fuente": {
+  "autor": "Reel de Instagram · @coachesviewsfootball",
+  "titulo_original": "Seis pases o romper por dentro",
+  "ref": "https://www.instagram.com/coachesviewsfootball/reel/DfICF_KOPal/"
+ },
+ "completado": "Fuente (descripción del autor): dividir en dos zonas un campo de 36 × 30 m; en el seis contra tres se puede transferir el balón tras seis pases o antes si se filtra entre dos defensores; valorar el pase vertical cuando aparece. (propuesta): quién recibe en la otra zona (2 comodines), puntuación, series, variantes y adaptación; edad (U13) y nivel de la base.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 38.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 1.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 28.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 28,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 28,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     4
+    ],
+    "b": [
+     2,
+     26
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     26
+    ],
+    "b": [
+     9,
+     28.2
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     26
+    ],
+    "b": [
+     28,
+     24
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

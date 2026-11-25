@@ -1,0 +1,149 @@
+{
+ "id": "IG-DfzhZihK6hl",
+ "bloque": "Rondos",
+ "titulo": "Descarga del apoyo interior",
+ "formato": "4v2",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 30″ de pausa; cambian los defensores al robar.",
+ "objetivo": "Que el apoyo interior descargue de primeras cuando recibe marcado para que el pasador reciba de cara y encuentre al tercer jugador libre. Cómo explicarlo: «si te marcan, descarga al primer toque y abre el campo al que pasó». Errores típicos: girarse con el defensor encima, controlar de más, el pasador no se perfila tras el pase. Qué observar: descarga a un toque, perfil del pasador, elección del tercero libre. Material: 4 conos, 1 balón, 2 petos.",
+ "montaje": "Cuadrado de 12 × 12 m: 3 atacantes en el borde, 1 apoyo interior dentro y 2 defensores.",
+ "juego": "Poseedores a 2 toques; el apoyo interior a 1. Si recibe marcado, descarga para que el pasador encuentre de cara al tercero. Robo: el defensor ataca y el responsable defiende.",
+ "punto": "1 punto por cada descarga que acaba en pase al tercero libre (propuesta).",
+ "consigna": "Marcado: descarga a un toque.",
+ "variantes": {
+  "facil": "Toques libres y cuadrado de 14 × 14 m (propuesta).",
+  "dificil": "Todos a un toque y 10 × 10 m; el pasador no puede repetir con el mismo compañero."
+ },
+ "adaptacion": "Alevín (10–11): toques libres para todos menos el apoyo, que juega a uno. Infantil (12–13): 10 × 10 m. Cadete: 1 toque para todos.",
+ "fuente": {
+  "autor": "Reel de Instagram · @klube.ai",
+  "titulo_original": "Descarga a un toque del apoyo interior",
+  "ref": "https://www.instagram.com/klube.ai/reel/DfzhZihK6hl/"
+ },
+ "completado": "Fuente (descripción del autor): rondo 4 contra 2 en 12 × 12 m, dos toques para los poseedores y uno para el apoyo interior, si recibe marcado descarga para que el pasador encuentre de cara al tercero, tras robo intercambian funciones defensor y responsable de la pérdida. (propuesta): reparto 3+1, puntuación, series, variantes y adaptación; edad (U11) y nivel de la base.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.9,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 11.1,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 3.6,
+    "y": 3.8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.4,
+    "y": 9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.9,
+     6
+    ],
+    "b": [
+     5.2,
+     6.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     5.2,
+     6.9
+    ],
+    "b": [
+     1.2,
+     6.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     0.9,
+     5.8
+    ],
+    "b": [
+     5.4,
+     1.2
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

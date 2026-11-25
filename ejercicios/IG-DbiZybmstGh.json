@@ -1,0 +1,275 @@
+{
+ "id": "IG-DbiZybmstGh",
+ "bloque": "Rondos",
+ "titulo": "Encuentra el cuadrado libre",
+ "formato": "3v1 × 3 + 3",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "15 jug.",
+ "espacio": "38 × 8 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; empieza cada serie un cuadrado distinto como libre.",
+ "objetivo": "Jugar a un toque, mirar el entorno y reaccionar rápido: quien falla presiona al trío libre y su defensor pasa a atacar, lo que cambia el cuadrado libre. Cómo explicarlo: «fallas y corres al cuadrado sin defensor; tu defensor entra a jugar». Errores típicos: no ver qué cuadrado está libre, correr tarde, pases flojos que se interceptan. Qué observar: rapidez al cambiar de cuadrado, juego a un toque, atención al entorno. Material: 16 conos, 4 balones, petos.",
+ "montaje": "4 cuadrados de 8 × 8 m en fila, separados 2 m. En 3, trío contra 1 defensor; en el cuarto, un trío libre (15 jugadores).",
+ "juego": "Todo a un toque. Quien falla corre a presionar al trío libre y su defensor se une como atacante. El cuadrado libre cambia con cada error.",
+ "punto": "8 pases seguidos de un trío = 1 punto (propuesta).",
+ "consigna": "Fallas: corre al cuadrado libre.",
+ "variantes": {
+  "facil": "Toques libres en los tres cuadrados y 10 × 10 m (propuesta).",
+  "dificil": "Un toque y el que falla debe tocar un cono del borde antes de entrar al cuadrado libre."
+ },
+ "adaptacion": "Infantil (12–13): a un toque como en la fuente. Alevín (10–11): 2 toques y 10 × 10 m. Cadete: añade un segundo defensor al trío libre.",
+ "fuente": {
+  "autor": "Reel de Instagram · @labofsoms",
+  "titulo_original": "Encuentra el cuadrado sin defensor",
+  "ref": "https://www.instagram.com/labofsoms/reel/DbiZybmstGh/"
+ },
+ "completado": "Fuente (descripción del autor): cuatro cuadrados a un toque, en tres se juega 3 contra 1 y en otro 3 sin oposición, quien falla sale a presionar al trío libre, el defensor de su cuadrado se incorpora al perímetro, el cuadrado libre cambia con cada error. (propuesta): medidas, disposición 2 × 2, puntuación, series, variantes y adaptación; edad (U13) y nivel de la base.",
+ "diagrama": {
+  "field": [
+   38,
+   8
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 40.5,
+   "ymin": -2.5,
+   "ymax": 10.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     8.3,
+     0,
+     9.7,
+     8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     18.3,
+     0,
+     19.7,
+     8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     28.3,
+     0,
+     29.7,
+     8
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     28,
+     0
+    ],
+    [
+     28,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     8
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 1.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 7,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 3.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 1.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 1.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 3.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 1.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 1.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 7,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 3.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 1.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 1.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 7,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     1.2
+    ],
+    "b": [
+     7,
+     1.2
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     1.2
+    ],
+    "b": [
+     31.5,
+     6.8
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    34,
+    -1.1,
+    "CUADRADO LIBRE",
+    "middle"
+   ]
+  ],
+  "tag": "4 cuadrados de 8 × 8 m"
+ },
+ "top": "",
+ "probado": false
+}

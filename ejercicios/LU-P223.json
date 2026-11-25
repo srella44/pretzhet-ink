@@ -1,0 +1,226 @@
+{
+ "id": "LU-P223",
+ "bloque": "Rondos",
+ "titulo": "Rondo en cuatro zonas",
+ "formato": "2v2 × 4 zonas",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 10 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; cada serie se cambian los equipos.",
+ "objetivo": "Mover el balón entre líneas de un sistema 1-4-3-3 respetando zonas: pocos pases por zona, apoyos de los laterales a la zona vecina y defensores que basculan sin saltar zonas. Cómo explicarlo: «cuatro pases como máximo en tu zona y el balón al siguiente; nadie salta de zona». Errores típicos: pasar de más en una zona, defensores que se salen, laterales que no dan apoyo. Qué observar: basculación defensiva, apoyos de los laterales, salida en conducción tras robo. Material: 10 conos, 2 balones, petos de 2 colores.",
+ "montaje": "4 zonas de 10 × 10 m en fila (40 × 10). En cada zona, 2 atacantes y 2 defensores, colocados en líneas de 1-4-3-3 (propuesta).",
+ "juego": "A 2 toques, máximo 4 pases por zona; los laterales dan apoyo a la zona vecina. Los defensores no saltan de zona (solo basculan). Al robar, salen conduciendo.",
+ "punto": "Balón de la zona 1 a la 4 = 1 punto atacantes; robo con salida = 1 defensores (propuesta).",
+ "consigna": "Cuatro pases por zona; nadie salta de zona.",
+ "variantes": {
+  "facil": "Toques libres y 6 pases por zona (propuesta).",
+  "dificil": "A un toque y solo 3 pases por zona; los defensores no pueden bascular más de una zona."
+ },
+ "adaptacion": "Alevín (10–11): 3 zonas y toques libres. Infantil (12–13): 4 zonas a 2 toques. Cadete: añade una quinta zona o un tercer defensor.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios · Jesús Piñero @PineroCoach · Zonadefutbol.es",
+  "titulo_original": "RONDO Rondo Posicional Ajustes De Sistema + Movilidad De 1-4-3-3",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 223"
+ },
+ "completado": "Fuente: 4 zonas de 10 × 10 m con jugadores en sistema 1-4-3-3, 2 toques, no más de 4 pases por zona, laterales dan apoyo a la zona próxima, defensores no saltan zonas salvo basculación, roban y salen en conducción, 16 jugadores. (propuesta): 2 atacantes y 2 defensores por zona, fila de 40 × 10 m, puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   40,
+   10
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 12.5
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     10
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     10
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     10
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32.5,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32.5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36.5,
+    "y": 6.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     2.5
+    ],
+    "b": [
+     2.5,
+     7.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2.5,
+     7.5
+    ],
+    "b": [
+     12.5,
+     7.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     12.5,
+     7.5
+    ],
+    "b": [
+     22.5,
+     2.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

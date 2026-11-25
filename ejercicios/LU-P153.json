@@ -1,0 +1,202 @@
+{
+ "id": "LU-P153",
+ "bloque": "Rondos",
+ "titulo": "Rondo 9v2 con jugador central",
+ "formato": "9v2",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug.",
+ "espacio": "18 × 18 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 30″ de pausa; el defensor que roba cambia de rol con quien perdió.",
+ "objetivo": "Batir líneas conectando con el jugador del centro desde cualquier lado y que los 2 defensores aprendan a cerrar las líneas de pase hacia él. Cómo explicarlo: «los de fuera se asocian para abrir un carril hasta el del centro». Errores típicos: pases solo entre vecinos, defensores pegados al balón dejando libre el centro, el central que no se ofrece. Qué observar: movimiento para abrir línea, pase raso al centro, coordinación de los 2 defensores. Material: 4 conos grandes, 4 pequeños, 1 balón, petos.",
+ "montaje": "Cuadrado de 18 × 18 m. 8 atacantes por el borde y 1 en un cuadrado central de 4 × 4 m (no sale de él). 2 defensores dentro.",
+ "juego": "Los de fuera se asocian para pasar al central, que devuelve a un toque. Los 2 defensores cortan los pases. Quien pierde el balón pasa a defender.",
+ "punto": "1 punto por cada pase al central devuelto sin toque defensor (propuesta).",
+ "consigna": "Abre un carril y conecta con el del centro.",
+ "variantes": {
+  "facil": "Cuadrado de 20 × 20 m y toques libres (propuesta).",
+  "dificil": "Los de fuera a dos toques y el central a un toque; solo vale el pase al centro si antes han tocado 3 jugadores distintos."
+ },
+ "adaptacion": "Alevín (10–11): 20 × 20 m y toques libres. Infantil (12–13): 18 × 18 m a 2 toques. Cadete: añade un tercer defensor.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "RONDO 9vs2 - BATIR LÍNEAS - CONECTAR ZONAS - CERRAR LÍNEAS DE PASE",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 153"
+ },
+ "completado": "Fuente: 11 jugadores, un jugador del grupo en posesión en el espacio central y el resto alrededor, 2 defensores que evitan la relación con el central, intercepción = cambio de rol con quien perdió, el central no sale del cuadrado, 18 × 18 m. (propuesta): puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   18,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 20,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     7,
+     7,
+     11,
+     11
+    ]
+   }
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    18,
+    0
+   ],
+   [
+    18,
+    18
+   ],
+   [
+    0,
+    18
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 0.9,
+    "f": [
+     9,
+     9
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 0.9,
+    "f": [
+     9,
+     9
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 0.9,
+    "f": [
+     9,
+     9
+    ]
+   },
+   {
+    "r": "A",
+    "x": 17.1,
+    "y": 9,
+    "f": [
+     9,
+     9
+    ]
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 17.1,
+    "f": [
+     9,
+     9
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 17.1,
+    "f": [
+     9,
+     9
+    ]
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17.1,
+    "f": [
+     9,
+     9
+    ]
+   },
+   {
+    "r": "A",
+    "x": 0.9,
+    "y": 9,
+    "f": [
+     9,
+     9
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9,
+    "f": [
+     9,
+     0.9
+    ]
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 5.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12.4,
+    "y": 12.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     0.9
+    ],
+    "b": [
+     9,
+     8.4
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     9.5
+    ],
+    "b": [
+     17,
+     9.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "18 × 18 m · central 4 × 4 m"
+ },
+ "top": "",
+ "probado": false
+}

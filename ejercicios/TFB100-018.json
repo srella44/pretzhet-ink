@@ -1,0 +1,305 @@
+{
+ "id": "TFB100-018",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5 + 4 comodines octógono",
+ "formato": "5v5 + 4",
+ "edad": "14–15 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "16 min",
+ "series": "3 series de 4′ con 1′30″ de descanso; cambian los comodines.",
+ "objetivo": "Mantener el balón con ayuda de los comodines y, cuando el rival se descoloca, atacar una de las cuatro miniporterías de las diagonales. Cómo explicarlo: «seis pases y entonces miramos qué portería está libre; el comodín nos sirve para girar». Errores típicos: tirar antes de los pases, no cambiar de lado, defender todos la misma miniportería. Qué observar: cambio de orientación, uso del comodín para girar, defensa de la portería del lado del balón. Material: 8 conos, 4 miniporterías, 3 balones, petos de 3 colores.",
+ "montaje": "Octógono de 30 m: comodín en cada lado recto, miniportería en cada diagonal. Dentro, 5 azules contra 5 rojos.",
+ "juego": "6 pases seguidos (cuentan los comodines) antes de marcar; a 2 toques. Los comodines no marcan. Tras gol, saca un comodín para quien lo encajó.",
+ "punto": "Gol = 1 punto; gol justo tras pase de comodín = 2.",
+ "consigna": "Seis pases y busca la portería libre.",
+ "variantes": {
+  "facil": "Solo 4 pases antes de poder marcar.",
+  "dificil": "8 pases antes de marcar; o solo se marca en una miniportería que no esté en el mismo lado que el último comodín que tocó el balón; o gol de primeras vale doble; o comodines a un toque; o tras gol, el equipo que marca defiende la misma miniportería en el siguiente ataque."
+ },
+ "adaptacion": "Alevín (10–11): comodines con toques libres. Infantil (12–13): a dos toques. Cadete y juvenil: a uno y gol solo tras 8 pases.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Posesión 5 contra 5 + 4 comodines en octógono con cuatro miniporterías",
+  "ref": "100 tareas de fútbol base · pág. 30"
+ },
+ "completado": "Fuente: octógono de unos 30 m, comodín en cada lado recto y miniportería en cada diagonal, 5v5, 6 pases antes de marcar, dos toques, tras gol saca un comodín, puntuación 1/2, consignas, variantes, 16 min, 3 series de 4′ con 1′30″. (propuesta): edad 14–15 años (en la base, 14–18) y distribución de los jugadores en el diagrama.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "nofield": true,
+  "lines": [
+   [
+    [
+     8.8,
+     0
+    ],
+    [
+     21.2,
+     0
+    ],
+    "6 5"
+   ],
+   [
+    [
+     21.2,
+     0
+    ],
+    [
+     30,
+     8.8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     8.8
+    ],
+    [
+     30,
+     21.2
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     21.2
+    ],
+    [
+     21.2,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     21.2,
+     30
+    ],
+    [
+     8.8,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     8.8,
+     30
+    ],
+    [
+     0,
+     21.2
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     21.2
+    ],
+    [
+     0,
+     8.8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     8.8
+    ],
+    [
+     8.8,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    24.1,
+    2.9
+   ],
+   [
+    27.1,
+    5.9
+   ],
+   [
+    27.1,
+    24.1
+   ],
+   [
+    24.1,
+    27.1
+   ],
+   [
+    5.9,
+    27.1
+   ],
+   [
+    2.9,
+    24.1
+   ],
+   [
+    2.9,
+    5.9
+   ],
+   [
+    5.9,
+    2.9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 0.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 29.2,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 0.8,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 29.2,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     9
+    ],
+    "b": [
+     15,
+     1.3
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     1.3
+    ],
+    "b": [
+     20,
+     7.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     8
+    ],
+    "b": [
+     25.4,
+     4.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "tag": "octógono ≈ 30 m"
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,168 @@
+{
+ "id": "AX-E6",
+ "bloque": "Rondos",
+ "titulo": "Rondo de dos zonas: atraer",
+ "formato": "4v2 + 2v2",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "10 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambian los defensores en cada serie.",
+ "objetivo": "Atraer a los defensores a una zona con la posesión para liberar el espacio de la otra y mover el balón allí. Cómo explicarlo: «juega con el defensor: atráelo hacia ti y cambia de zona cuando se abra». Errores típicos: cambiar sin atraer, pase al compañero marcado, el jugador de la zona libre que no se ofrece. Qué observar: paciencia para atraer, cambio de orientación, ocupación de la zona contraria. Material: 6 conos, 2 balones, petos de 2 colores.",
+ "montaje": "Campo de 20 × 12 m en 2 zonas de 10 × 12. Zona 1: 4 atacantes y 2 defensores. Zona 2: 2 atacantes y 2 defensores.",
+ "juego": "Tras 4 pases como mínimo, se cambia de zona con un pase largo; el receptor controla y da un pase. Si un defensor roba, cambia de rol con quien perdió.",
+ "punto": "1 punto por cada cambio de zona con pase posterior (propuesta).",
+ "consigna": "Atrae al defensor y cambia de zona.",
+ "variantes": {
+  "facil": "Toques libres y 2 pases mínimos para cambiar de zona (propuesta).",
+  "dificil": "Un toque en el cambio y el receptor solo puede jugar a un toque."
+ },
+ "adaptacion": "Alevín (10–11): 3 pases mínimos y 24 × 14 m. Infantil (12–13): 4 pases. Cadete: 5 pases y a dos toques.",
+ "fuente": {
+  "autor": "Alex Ortiz · Base de datos de ejercicios",
+  "titulo_original": "Rondo 2 zonas - Atraer para mover",
+  "ref": "BASE-DATOS-EJERCICIOS-@ALEXORTIZ1987.xlsm · fila 11"
+ },
+ "completado": "Fuente: título, objetivo (posesión; atraer para mover), espacio original de 20 × 12 m, fase ataque-transición, 10 jugadores y nivel alto. (propuesta): reparto 6 atacantes y 4 defensores, reglas, puntuación, series, variantes y adaptación; edad y nivel.",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 14.5
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 1.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 10.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 10.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.2,
+    "y": 4.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.4,
+    "y": 7.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 2.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14.5,
+    "y": 4.8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     1.8
+    ],
+    "b": [
+     8.5,
+     1.8
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     2.2
+    ],
+    "b": [
+     8.5,
+     9.8
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     8.5,
+     10.2
+    ],
+    "b": [
+     18.5,
+     10
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

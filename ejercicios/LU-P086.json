@@ -1,0 +1,125 @@
+{
+ "id": "LU-P086",
+ "bloque": "Rondos",
+ "titulo": "Rondo 3v1 en cuadrado",
+ "formato": "3v1",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4 jug.",
+ "espacio": "6 × 6 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′ con 30″ de pausa; el defensor cambia al perder el balón.",
+ "objetivo": "Que el poseedor tenga siempre dos líneas de pase abiertas y que los compañeros se recoloquen tras cada pase en los lados contiguos, perfilándose para recibir. Cómo explicarlo: «tras cada pase, el que se queda sin pase corre al lado libre». Errores típicos: quedarse en el lado opuesto al poseedor, recibir de espaldas, mover al compañero equivocado. Qué observar: orientación corporal (cuerpo abierto al campo), tiempo de reacción tras el pase, control orientado. Material: 4 conos, 1 balón, 1 peto.",
+ "montaje": "Cuadrado de 6 × 6 m (la fuente dice 2 × 2: propuesta 6 × 6). 3 atacantes en 3 lados, el cuarto vacío, y 1 defensor dentro.",
+ "juego": "2 contactos. El poseedor siempre tiene un compañero en cada lado contiguo; tras cada pase, quien se queda sin pase corre al lado libre. Robo o fuera: cambia con el defensor.",
+ "punto": "8 pases seguidos sin toque del defensor = 1 punto (propuesta).",
+ "consigna": "Dos opciones de pase siempre abiertas.",
+ "variantes": {
+  "facil": "Toques libres y cuadrado de 7 × 7 m (propuesta).",
+  "dificil": "Un toque y cuadrado de 5 × 5 m; el recolocado debe llegar antes de que el pase salga."
+ },
+ "adaptacion": "Alevín (10–11): toques libres y 7 × 7 m. Infantil (12–13): 2 contactos y 6 × 6 m.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "RONDO 3VS1 - LÍNEAS DE PASE - ORIENTACIÓN CORPORAL",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 86"
+ },
+ "completado": "Fuente: espacio indicado como 2 × 2 m, defensor dentro, jugadores en lados contiguos con un lado vacío, dos opciones de pase siempre, reestructurarse tras cada pase, dos contactos, cambio de rol tras robo o pérdida, 4 jugadores. (propuesta): medida 6 × 6 m, puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   6,
+   6
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 7.6,
+   "ymin": -1.6,
+   "ymax": 7.6
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    6,
+    0
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    0,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 0.7,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.7,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5.3,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 3,
+    "f": [
+     3,
+     0.7
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     0.7
+    ],
+    "b": [
+     5.2,
+     2.8
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     0.7,
+     3.2
+    ],
+    "b": [
+     3,
+     5.3
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "6 × 6 m (propuesta)"
+ },
+ "top": "",
+ "probado": false
+}

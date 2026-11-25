@@ -1,0 +1,183 @@
+{
+ "id": "LU-P197",
+ "bloque": "Rondos",
+ "titulo": "Rondo 4v2 con transición 4v4",
+ "formato": "4v2 → 4v4",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "40 × 32 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambian las parejas defensoras en cada serie.",
+ "objetivo": "Pasar de una posesión en espacio reducido a un ataque rápido buscando amplitud y profundidad, mientras los defensores temporizan hasta que llegan sus compañeros. Cómo explicarlo: «robo en el rondo: nos abrimos y atacamos ya; defensores, no os tiréis, esperad a vuestros compañeros». Errores típicos: salir en conducción sin abrirse, defensores que se lanzan al balón, no cambiar de rol deprisa. Qué observar: amplitud y profundidad del ataque, temporización del defensor, ritmo del cambio. Material: 8 conos, 2 porterías, 2 balones, petos de 3 colores.",
+ "montaje": "Campo de 40 × 32 m con portería en cada lado corto. 2 zonas de 5 × 5 m, cada una con 4 atacantes y 2 defensores; 2 defensores más esperan en el centro.",
+ "juego": "4v2 de posesión. Al robar la pareja defensora, ataca con la pareja que no perdió (4v4) la portería contraria; defienden los que perdieron y los 2 de fuera.",
+ "punto": "Gol = 1 punto; recuperar = 1 para defensores (propuesta).",
+ "consigna": "Roba, ábrete y ataca; el defensor, espera.",
+ "variantes": {
+  "facil": "Zonas de 6 × 6 m y 4v3 en la transición (propuesta).",
+  "dificil": "Dos toques en el rondo y solo 8 segundos para finalizar tras el robo."
+ },
+ "adaptacion": "Alevín (10–11): campo de 30 × 25 m. Infantil (12–13): 40 × 32 m. Cadete: 8 segundos para finalizar.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios · Pere Riera @Pere36287525",
+  "titulo_original": "RONDO con transiciones 1",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 197"
+ },
+ "completado": "Fuente: 2 zonas de 5 × 5 m con 3 parejas (2 atacan, 1 defiende), 2 defensores fuera de la zona, tras robo la pareja que roba ataca con la que no perdió y la que perdió defiende con la de fuera en 4x4, defensores temporizan, atacantes buscan amplitud y profundidad, 17 jugadores y 40 × 40 m. (propuesta): reparto en 14 jugadores, dimensiones 40 × 32 m, porterías, puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   40,
+   32
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 34.5
+  },
+  "cones": [
+   [
+    3,
+    14
+   ],
+   [
+    10,
+    14
+   ],
+   [
+    3,
+    20
+   ],
+   [
+    10,
+    20
+   ],
+   [
+    32,
+    14
+   ],
+   [
+    39,
+    14
+   ],
+   [
+    32,
+    20
+   ],
+   [
+    39,
+    20
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17,
+    "lado": "L",
+    "ancho": 6
+   },
+   {
+    "x": 40,
+    "y": 17,
+    "lado": "R",
+    "ancho": 6
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.9,
+    "y": 15.7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.3,
+    "y": 17.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 18.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     14
+    ],
+    "b": [
+     8,
+     14
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     19
+    ],
+    "b": [
+     30,
+     18
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    35.5,
+    12,
+    "ZONA 2 (IGUAL)",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,185 @@
+{
+ "id": "LU-P046",
+ "bloque": "Rondos",
+ "titulo": "Rondo con portería central",
+ "formato": "5v2 + portería",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug.",
+ "espacio": "36 × 20 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambian el portero y los defensores.",
+ "objetivo": "Circular con paciencia (6 pases) para encontrar el eje de penetración y finalizar con ventaja; y, para los defensores, evitar la finalización cerrando el pasillo central. Cómo explicarlo: «6 pases moviendo al defensor y, cuando se abra el carril del centro, tira». Errores típicos: tirar con prisa antes del sexto pase, pases a la banda sin intención, defensores que se juntan y dejan el centro libre. Qué observar: amplitud de los de banda, apoyo del punta de espaldas, velocidad del cambio de zona. Material: 4 conos, 1 portería, 3 balones, petos de 3 colores.",
+ "montaje": "Campo de 36 × 20 m en 2 zonas con portería y portero en el centro. Zona activa: 5 atacantes contra 2 defensores; otros 2 defensores esperan al otro lado.",
+ "juego": "6 pases antes de tirar. Gol: los 2 defensores cruzan. Si no hay gol: cruzan lanzador, defensor veterano, punta y bandas (5v2).",
+ "punto": "Gol = 1 punto atacantes; robo o parada = 1 punto defensores (propuesta).",
+ "consigna": "Seis pases y, cuando se abra el centro, finaliza.",
+ "variantes": {
+  "facil": "Solo 4 pases antes de tirar y atacantes a toques libres (propuesta).",
+  "dificil": "Dos toques máximo y tiro obligatorio en los 8 segundos siguientes al sexto pase (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4 pases y portería pequeña de fútbol 7. Infantil (12–13): 6 pases y a dos toques.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "RONDO - posesión con finalización en dos zonas - Encontrar eje de penetración",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 46"
+ },
+ "completado": "Fuente: 20 × 36 m, 11 jugadores, 6 pases antes de finalizar, portería en mitad de las zonas, 5v2 en zona activa, cambios de zona de lanzador, defensor que menos tiempo lleva, punta y bandas. (propuesta): reparto de los 11 (5+2+2+portero+1 de relevo), puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   36,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 38.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 18,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     9,
+     10
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     10
+    ],
+    "b": [
+     14.5,
+     16
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     14.5,
+     16
+    ],
+    "b": [
+     17.5,
+     10.3
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    9,
+    21.3,
+    "ZONA ACTIVA",
+    "middle"
+   ],
+   [
+    27,
+    21.3,
+    "DEFENSORES EN ESPERA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

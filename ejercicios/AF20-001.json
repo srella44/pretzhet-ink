@@ -1,0 +1,166 @@
+{
+ "id": "AF20-001",
+ "bloque": "Rondos",
+ "titulo": "Rondo 5v3 con contraataque",
+ "formato": "5v3 → 3v1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "24 × 15 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 30″ de pausa; cambian los 3 defensores en cada serie.",
+ "objetivo": "Combinar en rondo con 4 jugadores exteriores y 1 interior (mediapunta), y, al robar, contraatacar a portería cuanto antes aprovechando que el rival está desorganizado. Cómo explicarlo: «si robas, no dudes: salimos los tres a por la portería». Errores típicos: robar y quedarse en el rondo, el interior que no se ofrece, el atacante que perdió y no vuelve. Qué observar: velocidad de la transición, apoyos del interior, repliegue del que perdió el balón. Material: 4 conos, 1 portería con portero, 3 balones, petos.",
+ "montaje": "Cuadrado de 15 × 15 m: 4 atacantes en los lados, 1 interior de mediapunta y 3 defensores. A 9 m, portería con portero.",
+ "juego": "Los atacantes a 2 toques. Si roban los 3 defensores, contraatacan a portería contra el atacante que perdió (3v1 + portero) en 8 segundos máximo.",
+ "punto": "Gol = 1 punto; si el que perdió gana el duelo, 1 punto atacantes (propuesta).",
+ "consigna": "Roba y sal: tres contra uno a portería.",
+ "variantes": {
+  "facil": "Contraataque 3v1 sin portero y tiro libre (propuesta).",
+  "dificil": "Contraataque 3v2: defienden el que perdió y el atacante más cercano a la portería."
+ },
+ "adaptacion": "Alevín (10–11): 5v3 con cuadrado de 17 × 17 m. Infantil (12–13): 15 × 15 m. Cadete: 3v2 en el contraataque.",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de contraataque en espacio reducido",
+  "titulo_original": "RONDO 5x3 CON FINALIZACIÓN",
+  "ref": "20-ejercicios-de-contraataque-en-espacio-reducido.pdf · p. 3"
+ },
+ "completado": "Fuente (texto): rondo de 5x3, ocupando todos los costados del cuadrado y con un jugador simulando la posición de interior/mediapunta, los 3 defensores roban a los jugadores exteriores y, al hacerlo, atacan la portería. (propuesta): medidas, quién defiende en el contraataque (3v1), puntuación, series, variantes y adaptación; edad, nivel y nº de jugadores.",
+ "diagrama": {
+  "field": [
+   24,
+   15
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 26.5,
+   "ymin": -2.5,
+   "ymax": 17.5
+  },
+  "dashed": true,
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 24,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 1,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 14.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 7.2,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 4.5,
+    "y": 4.4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 4.4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 10.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     1.2
+    ],
+    "b": [
+     7.5,
+     6.4
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7.2,
+     7.5
+    ],
+    "b": [
+     1.5,
+     7.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     10.6
+    ],
+    "b": [
+     22,
+     8.2
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

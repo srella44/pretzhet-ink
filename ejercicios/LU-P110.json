@@ -1,0 +1,134 @@
+{
+ "id": "LU-P110",
+ "bloque": "Rondos",
+ "titulo": "Rondo 5v2 en dos cuadrados",
+ "formato": "5v2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "7 jug.",
+ "espacio": "14 × 7 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 30″ de pausa; el cambio de defensores es por pérdida.",
+ "objetivo": "Ocupar los vértices en forma de rombo y conectar con el compañero alejado cambiando de zona, reajustando la ocupación tras cada conexión. Cómo explicarlo: «siempre un rombo: uno a cada lado y uno lejos para el cambio». Errores típicos: quedarse sin el jugador alejado, el que pasa no ocupa el lado de unión, pase al lado ocupado. Qué observar: formación del rombo, momento del cambio de zona, cierre de líneas de pase de los defensores. Material: 6 conos, 1 balón, 2 petos.",
+ "montaje": "2 cuadrados de 7 × 7 m juntos (14 × 7). Zona activa: 4 atacantes (uno por lado) y 2 defensores; el 5.º espera lejos.",
+ "juego": "Solo el del lado de unión y los de arriba y abajo cambian el balón de zona. Tras cambiar, el pasador va al lado de unión (rombo). Robo: cambio de rol.",
+ "punto": "1 punto por cada cambio de zona con el rombo bien formado (propuesta).",
+ "consigna": "Rombo siempre y un compañero lejos.",
+ "variantes": {
+  "facil": "Toques libres y cuadrados de 8 × 8 m (propuesta).",
+  "dificil": "Dos toques y el cambio de zona solo vale tras 4 pases en el cuadrado."
+ },
+ "adaptacion": "Alevín (10–11): toques libres y 8 × 8 m. Infantil (12–13): 2 toques. Cadete: 1 toque.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "RONDO (5vs2) - LÍNEAS DE PASE - OCUPACIÓN RACIONAL - VÉRTICES",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 110"
+ },
+ "completado": "Fuente: dos cuadrados de 7 × 7 m (14 × 7), un jugador en cada lado del cuadrado activo, quién puede cambiar de zona, reubicación tras la conexión, figura de rombo y compañero alejado, tras robo cambio de rol, 7 jugadores. (propuesta): puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   14,
+   7
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 9
+  },
+  "lines": [
+   [
+    [
+     7,
+     0
+    ],
+    [
+     7,
+     7
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 0.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 6.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.3,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 2.8,
+    "y": 2.8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.8,
+    "y": 4.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     0.8
+    ],
+    "b": [
+     6.3,
+     3.3
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     6.3,
+     3.5
+    ],
+    "b": [
+     12.5,
+     3.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,169 @@
+{
+ "id": "RONDO-AL-D06",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "El rey de la posesión",
+ "formato": "8v4",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "6 rondas de 45″ con 20″ de pausa para reorganizarse; repetir 2 veces con 1′ de descanso.",
+ "objetivo": "Mantener la posesión entre dos equipos contra el tercero, jugando sencillo, y cambiar de rol rápido al perder. Cómo explicarlo: «sois los reyes mientras no perdáis el balón; si lo perdéis, pasáis a defender». Errores típicos: jugar con prisa, un equipo que no ayuda al otro, tardar en defender al perder. Qué observar: comunicación entre los dos equipos, apertura para recibir, reacción tras pérdida. Material: 4 conos, 1 balón, petos de 3 colores.",
+ "montaje": "Cuadrado de 20 × 20 m. 3 equipos de 4 con petos: 2 juntos mantienen el balón contra el tercero.",
+ "juego": "Los 8 pasan a toques libres. Si el defensor roba o el balón sale, el equipo de quien perdió defiende y el defensor ataca. Rondas de 45″.",
+ "punto": "Cada ronda, el equipo que no perdió el balón (el «rey») suma 1 punto (propuesta).",
+ "consigna": "Juega sencillo y sigue siendo el rey.",
+ "variantes": {
+  "facil": "Cuadrado grande (25 × 25 m).",
+  "dificil": "Punto extra por cada pase al primer toque que llegue. Variante de la fuente: quien recupera hace 3 pases para ser rey."
+ },
+ "adaptacion": "Alevín (10–11): como se describe. Benjamín (8–9): 3 equipos de 3 y cuadrado de 25 × 25 m. Infantil (12–13): 2 toques y 18 × 18 m.",
+ "fuente": {
+  "autor": "RONDO · Vol. 3 · Alevín (10–11 años)",
+  "titulo_original": "El rey de la posesión",
+  "ref": "RONDO Vol3 · págs. 4, 18, 21, 32, 35, 49"
+ },
+ "completado": "Fuente: dos equipos juntos mantienen el balón contra el tercero, quien pierde pasa a defender, se cuenta cuántas veces un equipo sigue siendo «rey» durante 45″, 20 × 20 m, 15 min, más fácil cuadrado grande, más difícil punto extra por pase al primer toque, variante «hoy: quien recupera hace 3 pases para ser rey». (propuesta): 3 equipos de 4 (12 jugadores), reparto de puntos, series y adaptación.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 1.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 17.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13.5,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     3.5
+    ],
+    "b": [
+     9.5,
+     1.8
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     1.8
+    ],
+    "b": [
+     15.5,
+     3
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,235 @@
+{
+ "id": "LU-P104",
+ "bloque": "Rondos",
+ "titulo": "Tres cuadrados 4v1 con relevo",
+ "formato": "4v1 × 3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "15 jug.",
+ "espacio": "30 × 8 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; se rota el que empieza de defensor.",
+ "objetivo": "Mantener la posesión a dos contactos y, al perder, correr rápido a defender en otro cuadrado, priorizando el que se quede sin defensor. Cómo explicarlo: «pierdes y no te quedas: corres al cuadrado sin defensor». Errores típicos: protestar tras perder, ir al cuadrado equivocado, amontonarse dos defensores en el mismo. Qué observar: rapidez del cambio de rol, atención a qué cuadrado está libre, calidad del pase a dos contactos. Material: 12 conos, 3 balones, petos.",
+ "montaje": "3 cuadrados de 8 × 8 m en fila, separados 3 m. En cada uno, 4 atacantes en las esquinas y 1 defensor en el centro.",
+ "juego": "4v1 a 2 contactos. Quien pierde o saca fuera corre a defender a otro cuadrado, mejor al que no tenga defensor; el defensor que roba se queda atacando.",
+ "punto": "8 pases seguidos en un cuadrado = 1 punto (propuesta); se suman los tres.",
+ "consigna": "Pierdes y corres al cuadrado sin defensor.",
+ "variantes": {
+  "facil": "Toques libres y cuadrados de 9 × 9 m (propuesta).",
+  "dificil": "Un toque, y el que pierde debe tocar el cono del borde antes de entrar al otro cuadrado."
+ },
+ "adaptacion": "Alevín (10–11): toques libres y 9 × 9 m. Infantil (12–13): 2 contactos y 8 × 8 m.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "RONDO Cuadrado 4 vs 1 en 3 subespacios",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 104"
+ },
+ "completado": "Fuente: tres espacios iguales con 4v1, máximo dos contactos, el que pierde cambia de rol y va a defender a otra zona, prioridad al espacio sin defensor, 15 jugadores, 8 × 8 m. (propuesta): separación entre cuadrados, puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   30,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     8.3,
+     0,
+     10.7,
+     8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     19.3,
+     0,
+     21.7,
+     8
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     11,
+     0
+    ],
+    [
+     11,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     8
+    ],
+    "6 5"
+   ],
+   [
+    [
+     22,
+     0
+    ],
+    [
+     22,
+     8
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     1
+    ],
+    "b": [
+     7,
+     1
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     1.4,
+     7.4
+    ],
+    "b": [
+     11.5,
+     7.1
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

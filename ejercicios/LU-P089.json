@@ -1,0 +1,173 @@
+{
+ "id": "LU-P089",
+ "bloque": "Rondos",
+ "titulo": "Rondo 7v2 con apoyo central",
+ "formato": "7v2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 30″ de pausa; el cambio de rol es por pérdida.",
+ "objetivo": "Pasar y controlar atrayendo a los dos defensores para conectar con el compañero libre, usando el jugador del centro como pivote y recibiendo con el cuerpo orientado. Cómo explicarlo: «atrae con el pase, suelta de primeras y busca al libre». Errores típicos: recibir de espaldas, pase flojo, centro que se queda quieto, receptores sin perfilarse. Qué observar: perfil del cuerpo al recibir, pase del centro a un toque, apertura de los de fuera. Material: 4 conos, 1 balón, 1 peto.",
+ "montaje": "Cuadrado de 10 × 10 m: 6 atacantes en el borde, 1 atacante en el centro y 2 defensores dentro.",
+ "juego": "A un toque, buscan al libre pasando por el del centro. Quien pierde el balón pasa a defender y el defensor que roba entra a atacar.",
+ "punto": "10 pases seguidos = 1 punto; si pasa por el centro, vale doble (propuesta).",
+ "consigna": "Atrae, suelta a un toque y busca al libre.",
+ "variantes": {
+  "facil": "Dos toques y cuadrado de 12 × 12 m (propuesta).",
+  "dificil": "Un toque y solo cuentan los pases que pasan por el centro; el del centro no puede repetir pase al mismo compañero."
+ },
+ "adaptacion": "Alevín (10–11): 8 × 8 m con 5v2 y toques libres. Infantil (12–13): 7v2 a un toque. Cadete: añade un tercer defensor.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "RONDO (7vs2) - PASES - CONTROL - LÍNEAS DE PASE - ORIENTACIÓN CORPORAL",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 89"
+ },
+ "completado": "Fuente: 10 × 10 m, rondo 7v2, siempre un jugador en la zona central, atraer defensores y conectar con el libre, orientación corporal del receptor, un contacto, cambio de rol tras robo, 9 jugadores. (propuesta): puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 12,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    0,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 1.2,
+    "f": [
+     5,
+     5
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 1.2,
+    "f": [
+     5,
+     5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9.2,
+    "y": 5,
+    "f": [
+     5,
+     5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8.8,
+    "f": [
+     5,
+     5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 8.8,
+    "f": [
+     5,
+     5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 5,
+    "f": [
+     5,
+     5
+    ]
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": [
+     2,
+     1.2
+    ]
+   },
+   {
+    "r": "D",
+    "x": 3.4,
+    "y": 3.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.8,
+    "y": 6.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     1.2
+    ],
+    "b": [
+     4.6,
+     4.7
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     5.3,
+     5.3
+    ],
+    "b": [
+     8.7,
+     8.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "10 × 10 m"
+ },
+ "top": "",
+ "probado": false
+}

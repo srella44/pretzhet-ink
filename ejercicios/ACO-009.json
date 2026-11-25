@@ -1,0 +1,236 @@
+{
+ "id": "ACO-009",
+ "bloque": "Rondos",
+ "titulo": "Rondo 5v3 a portería central",
+ "formato": "5v3 × 2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "18 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambian los defensores y el portero.",
+ "objetivo": "Crear situaciones rápidas de finalización: encontrar al hombre libre o la referencia de ataque y mejorar el remate a portería. Cómo explicarlo: «aquí no se pasa por pasar: se busca al libre y se tira lo antes posible». Errores típicos: demasiados pases sin intención, tiro forzado con defensor cerca, el punta que no se ofrece. Qué observar: rapidez de la circulación, elección del pase al libre, calidad del remate. Material: 4 conos, 2 porterías, 4 balones, petos de 2 colores.",
+ "montaje": "Campo de 40 × 20 m en 2 zonas con dos porterías espalda con espalda en el centro, cada una con portero. En cada zona, 5 atacantes contra 3 defensores.",
+ "juego": "5v3: buscan al libre y finalizan lo más rápido posible en la portería del centro. Si pierden el balón, los defensores lo sacan de la zona. Balón nuevo tras cada jugada.",
+ "punto": "Gol = 1 punto; gol antes del 5.º pase = 2 (propuesta).",
+ "consigna": "Busca al libre y finaliza rápido.",
+ "variantes": {
+  "facil": "Portería sin portero y 6 atacantes contra 3 (propuesta).",
+  "dificil": "Máximo 4 pases antes de tirar y a dos toques."
+ },
+ "adaptacion": "Alevín (10–11): 5v3 con tiro libre de toques. Infantil (12–13): a 2 toques. Cadete: máximo 4 pases.",
+ "fuente": {
+  "autor": "AFOPRO · Mejora del ataque combinativo",
+  "titulo_original": "RONDO POSICIONAL – FACILITAR LA FINALIZACIÓN",
+  "ref": "mejoradelataquecombinativo.pdf · p. 19"
+ },
+ "completado": "Fuente (texto): objetivo crear situaciones rápidas de finalización, encontrar al hombre libre y mejorar el remate; en cada zona hay un 5x3 en ataque que finaliza lo más rápido posible en la portería del medio. Sin diagrama accesible. (propuesta): tamaño, dos porteros, puntuación, series, variantes y adaptación; edad, nivel y nº de jugadores.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 19,
+    "y": 10,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 21,
+    "y": 10,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 3,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27.5,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 14.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     8,
+     10
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     10
+    ],
+    "b": [
+     13,
+     16
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     16
+    ],
+    "b": [
+     18.5,
+     11
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     37,
+     3
+    ],
+    "b": [
+     32,
+     10
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,213 @@
+{
+ "id": "RONDO-BJ-D08",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "El relevo de los pases",
+ "formato": "5v5",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 15 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cada ronda se empieza con otro jugador al principio de la fila.",
+ "objetivo": "Pasar y recibir con rapidez en línea, perfilándose para el siguiente pase, y rematar a portería en equipo. Nadie se queda parado porque todos avanzan un puesto. Cómo explicarlo: «el balón viaja de uno a uno hasta el último, que tira; luego todos avanzáis un puesto». Errores típicos: pase flojo, recibir de espaldas al compañero, olvidar avanzar. Qué observar: pase fuerte y raso, control orientado, ritmo del relevo. Material: 4 conos, 2 miniporterías, 4 balones, petos de 2 colores.",
+ "montaje": "Campo de 25 × 15 m con 2 carriles. En cada uno, un equipo de 5 repartido a lo largo (uno cada 5 m) y una miniportería al final.",
+ "juego": "El balón va del primero al último a pases rasos; el último tira a portería. Luego todos avanzan un puesto y el que tiró va al principio.",
+ "punto": "Gol = 1 punto. Gana el equipo con más goles en 4 rondas de 3′ (propuesta).",
+ "consigna": "Pasa fuerte y avanza un puesto.",
+ "variantes": {
+  "facil": "Distancias cortas entre jugadores (3 m).",
+  "dificil": "Cada jugador recibe con un pie y pasa con el otro. Variante de la fuente: un defensor molesta en el último pase."
+ },
+ "adaptacion": "Prebenjamín (6–7): distancias de 3 m y sin portería. Benjamín (8–9): como se describe. Alevín (10–11): un toque y defensor en el último pase.",
+ "fuente": {
+  "autor": "RONDO · Vol. 2 · Benjamín (8–9 años)",
+  "titulo_original": "El relevo de los pases",
+  "ref": "RONDO Vol2 · págs. 6, 9, 20, 23, 54, 57"
+ },
+ "completado": "Fuente: dos equipos repartidos a lo largo del campo, el balón va del primero al último a base de pases y el último tira a portería, luego todos avanzan un puesto, gol = 1 punto, más fácil distancias cortas, más difícil recibir con un pie y pasar con el otro, 25 × 15 m, variante «hoy: un defensor molesta en el último pase». (propuesta): 2 equipos de 5, carriles de 7,5 m, series y adaptación.",
+ "diagrama": {
+  "field": [
+   25,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "lines": [
+   [
+    [
+     0,
+     7.5
+    ],
+    [
+     25,
+     7.5
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    25,
+    3.75,
+    "R"
+   ],
+   [
+    25,
+    11.25,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3.75,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 3.75,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3.75,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3.75,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 3.75,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 11.25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 11.25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 11.25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 11.25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 11.25,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3.75
+    ],
+    "b": [
+     7,
+     3.75
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     3.75
+    ],
+    "b": [
+     12,
+     3.75
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     3.75
+    ],
+    "b": [
+     17,
+     3.75
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     17,
+     3.75
+    ],
+    "b": [
+     22,
+     3.75
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 4
+   },
+   {
+    "a": [
+     22,
+     3.75
+    ],
+    "b": [
+     24.6,
+     3.75
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 5
+   }
+  ],
+  "tag": "25 × 15 m"
+ },
+ "top": "",
+ "probado": false
+}

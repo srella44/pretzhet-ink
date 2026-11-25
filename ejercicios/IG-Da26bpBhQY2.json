@@ -1,0 +1,173 @@
+{
+ "id": "IG-Da26bpBhQY2",
+ "bloque": "Rondos",
+ "titulo": "Rondo con dos salidas",
+ "formato": "4v2 → 4v2 / 4v3",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "24 × 12 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambian los 2 defensores en cada serie.",
+ "objetivo": "Aprovechar el rondo como inicio de ataque: tras 5 pases se sale a finalizar, y si recupera la pareja defensora se transforma el juego con los apoyos abiertos. Cómo explicarlo: «cinco pases y salimos a atacar; si perdemos, defendemos y los otros salen». Errores típicos: salir a la portería antes de los 5 pases, los apoyos abiertos juntos, no reorganizar al perder. Qué observar: contar los pases en voz alta, apertura de los apoyos, transición al perder. Material: 8 conos, 2 miniporterías, 3 balones, petos de 3 colores.",
+ "montaje": "Campo de 24 × 12 m con rondo central de 10 × 10: 4 atacantes en las esquinas, 2 defensores, 2 apoyos abiertos fuera y una miniportería en cada lado corto.",
+ "juego": "5 pases seguidos y los 4 atacan la miniportería (4v2). Si roba la pareja defensora, juega con los apoyos y ataca la contraria en 4v3; quien perdió espera.",
+ "punto": "Gol = 1 punto; gol tras robo (4v3) = 2 (propuesta).",
+ "consigna": "Cinco pases y salimos; si robas, abre a los apoyos.",
+ "variantes": {
+  "facil": "Rondo de 12 × 12 m y 4 pases para salir (propuesta).",
+  "dificil": "Un toque en el rondo y tras robo los apoyos solo pueden jugar a un toque."
+ },
+ "adaptacion": "Alevín (10–11): 4 pases y 12 × 12 m. Infantil (12–13): 5 pases y 10 × 10 m. Cadete: 6 pases y a 2 toques.",
+ "fuente": {
+  "autor": "Reel de Instagram · @edf.futebol",
+  "titulo_original": "Dos salidas para un mismo rondo",
+  "ref": "https://www.instagram.com/edf.futebol/reel/Da26bpBhQY2/"
+ },
+ "completado": "Fuente (descripción del autor): 4 contra 2, acaba en ataque al sumar 5 pases; si recupera la pareja defensora, juega con los apoyos abiertos y se desencadena un 4 contra 3. (propuesta): dimensiones, miniporterías, quién completa el 4v3, puntuación, series, variantes y adaptación; edad (U11) y nivel de la base.",
+ "diagrama": {
+  "field": [
+   24,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "goals": [
+   [
+    0,
+    6,
+    "L"
+   ],
+   [
+    24,
+    6,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    7,
+    1
+   ],
+   [
+    17,
+    1
+   ],
+   [
+    17,
+    11
+   ],
+   [
+    7,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10.8,
+    "y": 5.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13.2,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 0.7,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 11.3,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     2.5
+    ],
+    "b": [
+     16,
+     2.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     2.8
+    ],
+    "b": [
+     16,
+     9.2
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     16.5,
+     9.5
+    ],
+    "b": [
+     22.5,
+     6.3
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

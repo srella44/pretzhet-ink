@@ -1,0 +1,161 @@
+{
+ "id": "TFB100-014",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "3v3 con dos comodines",
+ "formato": "3v3 + 2",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8 jug.",
+ "espacio": "20 × 16 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de descanso, cambiando a los comodines en cada serie.",
+ "objetivo": "Mantener el balón en superioridad gracias a dos comodines y aprender a abrirse para recibir. Cómo explicarlo: «los comodines juegan siempre con quien tiene el balón: sois cinco contra tres, abríos y moveos». Errores típicos: no abrirse, devolver el pase a quien te lo dio, comodines que se quedan parados. Qué observar: apertura para recibir, mirar antes de recibir, rapidez al perder para robar. Material: 4 conos, 3 balones, petos de 3 colores.",
+ "montaje": "Rectángulo de 20 × 16 m. 2 equipos de 3 y 2 comodines que juegan con quien tiene el balón (5v3).",
+ "juego": "Pases seguidos; comodines a 2 toques, el resto libre. No se devuelve el pase a quien te lo da. Si sale, saca de banda con el pie el rival. Al robar, los comodines cambian de bando.",
+ "punto": "1 punto cada 5 pases seguidos. Gana quien más puntos tenga.",
+ "consigna": "Ábrete, pasa y muévete.",
+ "variantes": {
+  "facil": "Campo más grande (24 × 18 m) o comodines con toques libres.",
+  "dificil": "Seis pases para sumar punto o comodines a un toque."
+ },
+ "adaptacion": "Prebenjamín (6–7): 3 comodines y campo más grande. Benjamín (8–9): 2 comodines a dos toques. Alevín (10–11): 1 comodín y punto cada 6 pases.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Posesión 3 contra 3 con dos comodines dentro para benjamines",
+  "ref": "100 tareas de fútbol base · pág. 26"
+ },
+ "completado": "Fuente: rectángulo de 20 × 16 m, dos equipos de 3 y 2 comodines que juegan con quien tiene el balón, comodines a 2 toques, no devolver el pase a quien te lo da, saque de banda con el pie del contrario, punto cada 5 pases, 3 partes de 4 minutos, consignas, variantes, 15 min. (propuesta): series 4 × 3′ y adaptación por edades (la edad 8–9 sale del título «para benjamines»).",
+ "diagrama": {
+  "field": [
+   20,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    16
+   ],
+   [
+    0,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 9.5,
+    "y": 2.4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 14,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     9.5,
+     2.4
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     2.4
+    ],
+    "b": [
+     17,
+     9.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     10
+    ],
+    "b": [
+     7,
+     14
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

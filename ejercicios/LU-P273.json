@@ -1,0 +1,193 @@
+{
+ "id": "LU-P273",
+ "bloque": "Rondos",
+ "titulo": "Rondo de cuatro cuadrantes",
+ "formato": "3v3 + relevo",
+ "edad": "14–15 años",
+ "nivel": "Normal",
+ "jugadores": "15 jug.",
+ "espacio": "24 × 24 m",
+ "duracion": "15 min",
+ "series": "5 series de 3′ con 45″ de pausa; el trío defensor inicial cambia en cada serie.",
+ "objetivo": "Mantener la posesión el mayor tiempo posible bajo presión y reaccionar al cambio de rol: el que pierde corre al cuadrante donde el entrenador deja el siguiente balón. Cómo explicarlo: «si pierdes, miras al míster y corres adonde caiga el balón». Errores típicos: no mirar al entrenador, ir lentos tras perder, el trío que roba no se organiza. Qué observar: paredes y pases cortos, velocidad del cambio de rol, comunicación del trío. Material: 9 conos, 4 balones de reserva, petos de 4 colores.",
+ "montaje": "24 × 24 m en 4 cuadrantes de 12 × 12. 5 tríos: uno atacante en cada cuadrante y uno defensor en el cuadrante con balón.",
+ "juego": "3v3: el trío atacante conserva. Si el defensor roba o el balón sale, el trío que perdió corre al cuadrante donde el míster deje el balón y defiende allí.",
+ "punto": "10 pases seguidos del trío atacante = 1 punto (propuesta).",
+ "consigna": "Pierdes: mira al míster y corre al balón nuevo.",
+ "variantes": {
+  "facil": "Cuadrantes de 14 × 14 m y toques libres (propuesta).",
+  "dificil": "Dos toques máximo y el defensor que roba debe dar 3 pases antes de ser trío atacante."
+ },
+ "adaptacion": "Infantil (12–13): toques libres y cuadrantes de 14 × 14 m. Cadete (14–15): como en la ficha. Juvenil: a dos toques.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios · Raymond Kroon @RaymondKroon",
+  "titulo_original": "RONDO DE POSESIÓN 4 SUBESPACIOS 12vs3 Dinámico",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 273"
+ },
+ "completado": "Fuente: cuatro subespacios de 12 × 12 m, 5 equipos (cuatro empiezan dentro de cada cuadrante, uno defiende), 3v3 con el equipo poseedor intentando conservar, tras robo el equipo que perdió pasa a defender donde el entrenador deje el balón, 15 jugadores. (propuesta): quién ataca tras el robo, puntuación, series, variantes y adaptación; edad (la base daba 14–18) y nivel.",
+ "diagrama": {
+  "field": [
+   24,
+   24
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     24
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     12
+    ],
+    [
+     24,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 1.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10.8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 2.6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.2,
+    "y": 6.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9.6,
+    "y": 8.2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 1.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22.5,
+    "y": 1.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 10.8,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 1.5,
+    "y": 13.8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 10.5,
+    "y": 13.8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 22.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 13.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 13.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 22.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     1.8
+    ],
+    "b": [
+     10.5,
+     1.8
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     10.5,
+     1.8
+    ],
+    "b": [
+     6,
+     10.8
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

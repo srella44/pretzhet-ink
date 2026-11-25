@@ -1,0 +1,133 @@
+{
+ "id": "LU-P053",
+ "bloque": "Rondos",
+ "titulo": "Rondo de tres equipos",
+ "formato": "6v3",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "24 × 18 m",
+ "duracion": "15 min",
+ "series": "5 series de 3′ con 45″ de pausa; el equipo que defende al empezar cambia en cada serie.",
+ "objetivo": "Mantener la posesión en superioridad asociando a los dos equipos en una estructura 2-1 y cambiar de rol en cuanto se pierde el balón. Cómo explicarlo: «sois seis, no dos grupos de tres: el de la segunda línea entra y sale para dar pase». Errores típicos: cada trío juega por su cuenta, el de segunda línea se queda quieto, tardar en reaccionar tras perder. Qué observar: movimiento fuera-dentro del jugador de segunda línea, líneas de pase abiertas, rapidez al pasar a defender. Material: 4 conos, 1 balón, petos de 3 colores.",
+ "montaje": "Rectángulo de 24 × 18 m. 3 tríos con petos de colores: 2 tríos con balón en 2-1 (dos delante, uno detrás) y el tercero defiende dentro.",
+ "juego": "Los 6 se asocian a 2 contactos; el de segunda línea entra y sale para dar pase. Quien pierde o saca fuera pasa a defender y el defensor ataca.",
+ "punto": "10 pases seguidos = 1 punto para los dos tríos que atacan.",
+ "consigna": "Pierdes, pasas a defender: reacciona ya.",
+ "variantes": {
+  "facil": "Toques libres y campo de 28 × 20 m (propuesta).",
+  "dificil": "Un toque y 12 pases para el punto; el defensor que roba solo puede conducir 3 m antes de pasar."
+ },
+ "adaptacion": "Alevín (10–11): tríos con toques libres. Infantil (12–13): 2 contactos como en la fuente. Cadete: 1 contacto.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "RONDO Posesión Posicional - Posesión en superioridad - Cambios de rol",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 53"
+ },
+ "completado": "Fuente: 3 equipos de 3, dos asociados en 2-1 contra el tercero, 10 pases = 1 punto, máximo 2 contactos, cambio rápido de rol al perder o sacar fuera, 18 × 24 m. (propuesta): series, posiciones, quién empieza, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 21.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21.5,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13.5,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     2.5,
+     3
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2.5,
+     3
+    ],
+    "b": [
+     17,
+     9
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.7,
+    "n": 2
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,213 @@
+{
+ "id": "LU-P198",
+ "bloque": "Rondos",
+ "titulo": "Rondo 4v3 y ataque a portería",
+ "formato": "4v3 → 4v4",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "15 jug.",
+ "espacio": "40 × 28 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa; cambian los 3 defensores de la zona.",
+ "objetivo": "Atacar en transición tras robar: abrir a banda con amplitud y profundidad y buscar el 2v1 con incorporación del lateral. Cómo explicarlo: «robas en la zona y pasas fuera: ahora se juega a posiciones reales y a portería». Errores típicos: robar y conducir sin pasar, el lateral que no se incorpora, los de fuera sin abrir. Qué observar: primer pase tras el robo, amplitud, incorporación del lateral, temporización de los defensores de fuera. Material: 4 conos, 2 porterías, 3 balones, petos de 3 colores.",
+ "montaje": "Campo de 40 × 28 m con portería y portero. Zona de 8 × 8 m a la izquierda: 4 atacantes y 3 defensores. Fuera: 4 atacantes contra 4 defensores.",
+ "juego": "4v3 en la zona. Al robar, pase a los de fuera y ataque a portería; los defensores temporizan. Se busca el 2v1 con el lateral.",
+ "punto": "Gol = 1 punto; si recuperan, 1 punto defensores (propuesta).",
+ "consigna": "Roba, abre a banda y atacamos ya.",
+ "variantes": {
+  "facil": "Zona de 10 × 10 m y portería sin portero (propuesta).",
+  "dificil": "Solo 10 segundos para finalizar tras el primer pase y un defensor más en la zona."
+ },
+ "adaptacion": "Alevín (10–11): campo de 30 × 30 m y 3 defensores fuera. Infantil (12–13): 40 × 40 m. Cadete: 10 segundos para finalizar.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios · Pere Riera @Pere36287525",
+  "titulo_original": "RONDO con transiciones 2",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 198"
+ },
+ "completado": "Fuente: dos zonas de 8 × 8 m donde se juega 4x3, fuera de la zona defensores y 4 atacantes en posiciones reales de juego, al recuperar dentro se ataca portería con los de fuera, defensores temporizan, amplitud y profundidad, 2x1 con incorporación de lateral, 15 jugadores, 40 × 40 m. (propuesta): 4 defensores de fuera (el texto es ambiguo), portería con portero, puntuación, series, variantes y adaptación; edad y nivel de la base.",
+ "diagrama": {
+  "field": [
+   40,
+   28
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 30.5
+  },
+  "cones": [
+   [
+    3,
+    10
+   ],
+   [
+    11,
+    10
+   ],
+   [
+    3,
+    18
+   ],
+   [
+    11,
+    18
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.4,
+    "y": 10.4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 10.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.4,
+    "y": 17.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 17.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 12.3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5.2,
+    "y": 15.8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.8,
+    "y": 15.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 24.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.6,
+     10.4
+    ],
+    "b": [
+     21,
+     3.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     3.5
+    ],
+    "b": [
+     27,
+     10.5
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     17.5
+    ],
+    "b": [
+     37,
+     14
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "tag": "40 × 28 m (propuesta)"
+ },
+ "top": "",
+ "probado": false
+}
