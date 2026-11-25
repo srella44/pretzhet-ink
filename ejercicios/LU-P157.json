@@ -1,0 +1,214 @@
+{
+ "id": "LU-P157",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "7v7+2: ocupa bien el campo",
+ "formato": "7v7 + 2 comodines",
+ "edad": "13–16 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "45 × 35 m",
+ "duracion": "20 min",
+ "series": "(propuesta) 4 × 4′ con 1′ de pausa; en cada serie cambian los que juegan dentro del rectángulo.",
+ "objetivo": "Ocupación racional del espacio y circulación (fuente): el equipo con balón se reparte por zonas de referencia para tener muchas líneas de pase, y busca al tercer hombre; el que defiende trabaja en bloque para cerrar líneas. Cómo explicarlo: «si dos compañeros estáis en la misma zona, uno sobra: busca otra». Errores típicos: todos cerca del balón, los del rectángulo se esconden tras un rival, comodín que juega a 2 toques. Qué observar: cuántas zonas están ocupadas cuando el balón llega a cada sector y el cambio de rol tras pérdida.",
+ "montaje": "45 × 35 m con un rectángulo central de 15 × 12 m. 7 contra 7: 2 de cada equipo juegan solo dentro del rectángulo (se mueven libres en él) y 5 fuera. 2 comodines, uno en cada fondo.",
+ "juego": "Comodines a 1 toque y resto a 2. El equipo con balón se reparte para dar el máximo de pases con los comodines. Los del rectángulo no pueden salir de él. Si roban o sale, cambia la posesión.",
+ "punto": "15 pases seguidos: 1 punto (fuente).",
+ "consigna": "Ocupa una zona libre, no la del balón.",
+ "variantes": {
+  "facil": "10 pases para punto y comodines a 2 toques (propuesta).",
+  "dificil": "Solo puntúa si el balón pasa 2 veces por el rectángulo dentro de los 15 pases (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 6v6+2 en 40 × 30 m y 12 pases. Cadete (14–15): como está. Juvenil: 1 toque dentro del rectángulo (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN 7vs7+2 - OCUPACIÓN RACIONAL - CIRCULACIÓN",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 157 (tarea 156)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 16 jugadores (7v7 + 2 comodines ofensivos), 45 × 35 m, ocupación del espacio con zonas de referencia, cambio de posesión tras robo o pérdida, los jugadores del rectángulo central no pueden salir pero se mueven libres en él, 15 pases = 1 punto, comodines a 1 toque y resto a 2. Tamaño del rectángulo (15 × 12 m), 2 por equipo dentro, comodines en los fondos, series, variantes y adaptación son (propuesta): el gráfico original no está disponible.",
+ "diagrama": {
+  "field": [
+   45,
+   35
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 46.8,
+   "ymin": -0.8,
+   "ymax": 35.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15,
+     11.5,
+     30,
+     23.5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -0.6,
+    "y": 17.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 45.6,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 29,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18.4,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26.4,
+    "y": 20.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14.5,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24.4,
+    "y": 14.2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19.6,
+    "y": 21.0,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.6,
+     17.5
+    ],
+    "b": [
+     6,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6,
+     6
+    ],
+    "b": [
+     18.4,
+     15
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     18.4,
+     15
+    ],
+    "b": [
+     26.4,
+     20.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     26.4,
+     20.6
+    ],
+    "b": [
+     37,
+     9
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

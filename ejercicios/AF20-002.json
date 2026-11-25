@@ -1,0 +1,165 @@
+{
+ "id": "AF20-002",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "3v2 y repliegue",
+ "formato": "3v2 + 1 que repliega + P",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "9–12 jug. + P",
+ "espacio": "30 × 24 m",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 6 oleadas, 1′ de pausa entre series; los defensores cambian cada serie.",
+ "objetivo": "Atacar rápido la superioridad antes de que desaparezca y, en defensa, replegar a toda velocidad para igualar (fuente: un defensor sale detrás del conductor y, si no llega, se une a los centrales). Cómo explicarlo al atacante: «tienes ventaja 3 contra 2 solo unos segundos: fija y pasa ya». Al defensor que repliega: «corre por dentro, hacia la portería, no hacia el balón». Errores típicos: el conductor se recrea y deja llegar al tercer defensor, los extremos se abren demasiado tarde, el que repliega persigue la pelota en vez de cerrar el centro. Qué observar: segundos hasta el tiro y la trayectoria del defensor que vuelve.",
+ "montaje": "30 × 24 m con portería y portero. Salida: 3 atacantes en línea (el central con balón) y 1 defensor 2 m detrás. 2 centrales a 18 m.",
+ "juego": "Cuando el central sale conduciendo, el defensor de atrás corre a por él. Los 3 atacan a 2 centrales; si el que repliega llega, es 3 contra 3. Acaba en gol, fuera o robo, y sale la siguiente oleada.",
+ "punto": "Gol: 1 punto. Robo y pase al entrenador o a una miniportería de salida: 1 punto defensor (propuesta).",
+ "consigna": "Ataca antes de que llegue el tercero.",
+ "variantes": {
+  "facil": "El defensor sale 4 m detrás (propuesta).",
+  "dificil": "El defensor sale a la altura del conductor y gol antes de 8″ (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 25 × 20 m y defensor a 4 m. Alevín (10–11): como está. Infantil (12–13): defensor en línea (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de transiciones en espacio reducido",
+  "titulo_original": "EJERCICIO 2 – TRANSICIÓN 3x2 CON REPLIEGUE PARA EVITAR INFERIORIDAD",
+  "ref": "20-ejercicios-de-contraataque-en-espacio-reducido.pdf · p. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: oleadas de 3x3 en las que un defensor repliega para evitar la superioridad; sale detrás del conductor cuando inicia la conducción y, si no llega, se une a los 2 centrales. Medidas, distancias de salida, portero, puntuación, series, variantes y adaptación son (propuesta): el gráfico original no está en el repositorio.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -1.0,
+   "xmax": 31.4,
+   "ymin": -0.8,
+   "ymax": 24.8
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 20.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 1.2,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21.5,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21.5,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     12
+    ],
+    "b": [
+     13,
+     12
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     1.2,
+     12
+    ],
+    "b": [
+     11,
+     15.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     4,
+     3.5
+    ],
+    "b": [
+     16,
+     4
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     12
+    ],
+    "b": [
+     16,
+     5.2
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

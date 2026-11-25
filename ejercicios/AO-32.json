@@ -1,0 +1,171 @@
+{
+ "id": "AO-32",
+ "bloque": "Rondos",
+ "titulo": "Doble rondo de movilidad 6v2",
+ "formato": "6v2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "9 × 18 m",
+ "duracion": "12 min",
+ "series": "(propuesta) 4 × 2′30″ con 30″ de pausa. La fuente lo usa en el calentamiento de cualquier día.",
+ "objetivo": "Posesión en superioridad conectando con los cercanos y los lejanos, y movilidad constante (fuente): el pase largo de un extremo al otro obliga a intercambiar puestos con los del centro, así que nadie se queda quieto. Cómo explicarlo: «si juegas largo al otro lado, tú y tu compañero de esquina entráis al centro y los del centro salen a vuestras esquinas». Errores típicos: el cambio de puestos es lento y deja un lado sin apoyos, solo se juega corto, el pase largo va por el centro donde están los defensores. Qué observar: rapidez del intercambio y si el pase largo sale cuando los 2 defensores están en un lado.",
+ "montaje": "9 × 18 m. 6 atacantes: 2 en las esquinas de cada extremo y 2 en el centro. 2 defensores libres.",
+ "juego": "Corto o largo, sin número de pases. Si un jugador de un extremo pasa al otro extremo, los 2 de su lado cambian el puesto con los 2 del centro. El defensor que roba cambia con el que perdió.",
+ "punto": "Pase largo con cambio hecho: 1 punto (propuesta).",
+ "consigna": "Juega largo y cambia de puesto ya.",
+ "variantes": {
+  "facil": "Solo un defensor y 3 toques (propuesta).",
+  "dificil": "A 2 toques y el pase largo debe ir raso (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 10 × 20 m, 6v1 y toques libres. Alevín (10–11): como está. Infantil (12–13): 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Alex Ortiz · Ebook 2018",
+  "titulo_original": "Rondo 12 — Doble Rondo Movilidad 6 vs 2",
+  "ref": "Ebook 2018 Alex Ortiz · p. 35 (Rondo 12)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 8 jugadores (6v2) en 9 × 18 m, juego corto o largo sin número de pases, cambio de puestos entre los de la esquina que dio el pase largo y los del centro, defensores libres por ambas zonas y cambio de rol tras robo. Reparto inicial (2-2-2), puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   18,
+   9
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 19.4,
+   "ymin": -1.2,
+   "ymax": 10.2
+  },
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     9
+    ],
+    "4 4"
+   ],
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     9
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 8.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 0.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.2,
+    "y": 0.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17.2,
+    "y": 8.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8.6,
+    "y": 2.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.6,
+    "y": 6.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 4.6,
+    "y": 4.4,
+    "f": [
+     0.8,
+     8.2
+    ]
+   },
+   {
+    "r": "D",
+    "x": 13.4,
+    "y": 4.4,
+    "f": [
+     17.2,
+     8.2
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     8.2
+    ],
+    "b": [
+     17.2,
+     8.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     0.8,
+     0.8
+    ],
+    "b": [
+     6.6,
+     4.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     8.6,
+     2.4
+    ],
+    "b": [
+     2.4,
+     0.6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 8
+   }
+  ]
+ }
+}

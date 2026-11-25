@@ -1,0 +1,200 @@
+{
+ "id": "JL-0050",
+ "bloque": "Superioridades",
+ "titulo": "12v6: tres equipos de 6",
+ "formato": "12v6 (3 equipos de 6)",
+ "edad": "13–16 años",
+ "nivel": "Normal",
+ "jugadores": "18 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "10′ (fuente). (propuesta) 2 × 5′ con 1′ de pausa; anota cuántas veces defiende cada equipo.",
+ "objetivo": "Conservar en un espacio grande con muchos jugadores: dos equipos de 6 se juntan contra uno de 6; al perder, todo el equipo del que falló pasa a defender (fuente). Sirve para trabajar amplitud, pase largo raso y presión tras pérdida con todo el grupo. Cómo explicarlo: «con 12 se ocupa todo el cuadrado: si estáis cerca del balón, alejaos». Errores típicos: todos al lado del balón, pases cortos sin cambiar de orientación, desconectarse cuando el balón está lejos. Qué observar: cambios de orientación y reacción de 6 jugadores a la vez tras perder.",
+ "montaje": "Cuadrado de 35 × 35 m. 3 equipos de 6: amarillos y rojos atacan juntos (12), azules defienden (6). Todos libres.",
+ "juego": "A 2 toques obligatorios. Amarillos y rojos conservan. Si los azules roban, el que falló y su equipo pasan a defender y los azules atacan con el otro equipo.",
+ "punto": "12 pases seguidos: 1 punto. Un cambio de lado a lado vale 2 pases (propuesta).",
+ "consigna": "Ocupa el campo y cambia de lado.",
+ "variantes": {
+  "facil": "Toques libres (propuesta).",
+  "dificil": "30 × 30 m o pase obligatorio a un jugador de otro color (propuesta). Versión a 1 toque: JL-0661."
+ },
+ "adaptacion": "Infantil (12–13): 38 × 38 m y toques libres. Cadete (14–15): como está. Juvenil: 30 × 30 m (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 12:6 | entrada 50",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 25, bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 equipos de 6 (dos atacan, uno defiende), 35 × 35 m, 10′, 2 toques y cambio de rol del que falla y su equipo. Edad (13–16), puntuación, series, variantes y adaptación son (propuesta). Muy parecido a JL-0661 (mismo juego a 1 toque).",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 35.8,
+   "ymin": -0.8,
+   "ymax": 35.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 27.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     11,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     10
+    ],
+    "b": [
+     12,
+     24
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     24
+    ],
+    "b": [
+     19,
+     33
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "id": "LU-P207",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v1 y ruptura a la otra zona",
+ "formato": "3 equipos de 4",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "18 × 40 m",
+ "duracion": "16 min",
+ "series": "(propuesta) 4 × 3′ con 1′ de pausa; en cada serie defiende un equipo distinto.",
+ "objetivo": "Posesión con un fin: dar 8 pases para ganar el derecho a progresar, y hacerlo con un desmarque de ruptura de un compañero hacia la zona intermedia (fuente). El defensor trabaja la presión en la zona y la interceptación del pase intermedio. Cómo explicarlo: «cuenta los pases en voz alta; al 7.º, uno ya está rompiendo». Errores típicos: romper antes de los 8 pases, pase intermedio flojo que se intercepta, control hacia atrás que obliga a volver. Qué observar: el timing del desmarque y el control orientado hacia la zona del otro equipo. Autor de la tarea: Hugo Álvarez.",
+ "montaje": "18 × 40 m: 2 zonas de 14 m en los fondos y una intermedia de 12 m. Amarillos (4) con 1 azul en una; rojos (4) en la otra; 3 azules en la intermedia.",
+ "juego": "4 contra 1. Tras 8 pases, un amarillo rompe a la intermedia y recibe. Si controla, pasa a los rojos, que juegan 4v1 con otro azul. Si los azules roban o cortan el pase, cambian con el equipo que perdió.",
+ "punto": "Cada pase a la otra zona con control: 1 punto (propuesta).",
+ "consigna": "Al 8.º pase, rompe.",
+ "variantes": {
+  "facil": "6 pases para progresar y zona intermedia de 10 m (propuesta).",
+  "dificil": "4 contra 2 en la zona de posesión y 10 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 20 × 40 m y 6 pases. Infantil (12–13): como está. Cadete (14–15): 4v2 en la zona (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSESIÓN - DESMARQUES 3 Equipos de 4 - Hugo Álvarez @HugoAlvrz",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 207 (tarea 206)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 equipos de 4, posesión 4v1 en espacio delimitado, 8 pases para progresar a la zona intermedia con un desmarque de ruptura, tras controlar allí se juega con el equipo de la zona contigua, el equipo defensivo roba en la zona de posesión o intercepta pases a la zona intermedia; 12 jugadores, 18 × 40 m. Tamaño de las zonas, reparto de los azules (1 en la zona y 3 en la intermedia), cambio de rol, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   18
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 40.8,
+   "ymin": -0.8,
+   "ymax": 18.8
+  },
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     18
+    ],
+    "6 5"
+   ],
+   [
+    [
+     26,
+     0
+    ],
+    [
+     26,
+     18
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     0,
+     26,
+     18
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.4,
+    "y": 13.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 9.4,
+    "f": [
+     3,
+     15
+    ]
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 13.4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19.6,
+    "y": 9.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29.5,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     15
+    ],
+    "b": [
+     11.4,
+     13.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     2.5
+    ],
+    "b": [
+     17.4,
+     7.0
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     11.4,
+     13.6
+    ],
+    "b": [
+     17.6,
+     7.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17.6,
+     7.2
+    ],
+    "b": [
+     29,
+     3
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "nt": 0.6
+   }
+  ]
+ }
+}

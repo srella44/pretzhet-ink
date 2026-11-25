@@ -1,0 +1,155 @@
+{
+ "id": "JL-0646",
+ "bloque": "Superioridades",
+ "titulo": "6v3: 4 fuera y 2 dentro",
+ "formato": "6v3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "8′ (fuente). (propuesta) 3 × 2′30″ con 30″ de pausa: cada bloque defiende un trío distinto.",
+ "objetivo": "Atraer por fuera y filtrar por dentro: 4 atacantes en los lados mueven el balón y 2 interiores buscan el hueco entre los 3 defensores (fuente). Cómo explicarlo: «fuera, pase rápido para mover a los tres; dentro, poneos uno a cada lado del defensor central». Errores típicos: los dos interiores se ponen en la misma línea, los de fuera pasan siempre por fuera, pase lento que deja llegar al tercer defensor. Qué observar: cuántos pases entran al interior y si el interior la deja de cara a otro lado.",
+ "montaje": "Cuadrado de 20 × 20 m. 4 atacantes en los lados (se mueven por su lado), 2 atacantes y 3 defensores dentro.",
+ "juego": "Todos a 1 toque. Los de fuera hacen circular y buscan a los 2 de dentro, que juegan de cara hacia otro lado. Si roban o sale, el que falló pasa a defender y el defensor que robó ocupa su sitio.",
+ "punto": "Pase de fuera a dentro y de dentro a otro lado: 1 punto. Robo: 1 punto defensor (propuesta).",
+ "consigna": "Mueve fuera, filtra dentro.",
+ "variantes": {
+  "facil": "2 toques fuera y libres dentro (propuesta).",
+  "dificil": "16 × 16 m o solo vale el punto si el interior juega al lado opuesto al que le pasó (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 22 m y 2 toques. Infantil (12–13): 1 toque fuera y 2 dentro. Cadete (14–15): como está (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 6:3 | entrada 646",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 142, bloque 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4 atacantes en los lados con desplazamiento lateral, 2 apoyos interiores, 3 defensores, 20 × 20 m, 8′ y 1 toque. Rotación al fallar, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 21.6,
+   "ymin": -1.4,
+   "ymax": 21.4
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6.0,
+    "y": 0.0,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20.0,
+    "y": 8.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13.0,
+    "y": 20.0,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 0.0,
+    "y": 13.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.4,
+    "y": 9.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13.4,
+    "y": 13.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10.6,
+    "y": 5.0,
+    "f": [
+     6,
+     0
+    ]
+   },
+   {
+    "r": "D",
+    "x": 5.0,
+    "y": 15.6,
+    "f": [
+     6.4,
+     9
+    ]
+   },
+   {
+    "r": "D",
+    "x": 15.6,
+    "y": 6.4,
+    "f": [
+     13.4,
+     13.6
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.0,
+     0.0
+    ],
+    "b": [
+     6.4,
+     9.0
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6.4,
+     9.0
+    ],
+    "b": [
+     13.4,
+     13.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13.4,
+     13.6
+    ],
+    "b": [
+     20.0,
+     8.0
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

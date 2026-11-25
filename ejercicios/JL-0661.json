@@ -1,0 +1,215 @@
+{
+ "id": "JL-0661",
+ "bloque": "Superioridades",
+ "titulo": "12v6 a un toque",
+ "formato": "12v6 (3 equipos de 6)",
+ "edad": "14–17 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "9 min",
+ "series": "9′ (fuente). (propuesta) 3 × 3′ con 45″ de pausa; cada serie empieza defendiendo un equipo distinto.",
+ "objetivo": "La misma idea que el 12v6 a dos toques (JL-0050) pero a 1 toque: obliga a ver antes de recibir, a dar el pase al pie bueno y a que siempre haya un compañero cerca y otro lejos (fuente: 1 toque). Cómo explicarlo: «si no sabes a quién vas a pasar antes de que te llegue, ya vas tarde». Errores típicos: pases fuertes imposibles de jugar de primeras, apoyos de frente sin perfil, pararse tras pasar. Qué observar: el tercer hombre (pared y pase al que llega) y la presión de los 6 que pierden.",
+ "montaje": "Cuadrado de 35 × 35 m. 3 equipos de 6: amarillos y rojos con balón (12), azules defienden (6). Todos libres.",
+ "juego": "Todos a 1 toque. Amarillos y rojos conservan; buscad la pared y el pase al que llega de cara. Cuando los azules roban, el que perdió y su equipo pasan a defender y los azules atacan.",
+ "punto": "10 pases seguidos a 1 toque: 1 punto. Gana el equipo que menos veces defienda (propuesta).",
+ "consigna": "Mira antes: a un toque.",
+ "variantes": {
+  "facil": "1 toque solo para el equipo de un color; el otro a 2 (propuesta).",
+  "dificil": "30 × 30 m y punto solo con pared y tercer hombre (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): mejor la versión a 2 toques (JL-0050). Cadete (14–15): 1 toque con 40 × 40 m. Juvenil: como está (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 12:6 | entrada 661",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 145, bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos equipos de 6 contra uno que defiende, 35 × 35 m, 9′, 1 toque y cambio de rol del que pierde y su equipo. Edad (14–17), puntuación, series, variantes y adaptación son (propuesta). Es el mismo juego que JL-0050 a 1 toque.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 35.8,
+   "ymin": -0.8,
+   "ymax": 35.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 19,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     18
+    ],
+    "b": [
+     11,
+     12
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     12
+    ],
+    "b": [
+     3,
+     4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     24
+    ],
+    "b": [
+     11.5,
+     18.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     11.5,
+     18.5
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

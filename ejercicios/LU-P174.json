@@ -1,0 +1,219 @@
+{
+ "id": "LU-P174",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "9v7+3: el hombre libre",
+ "formato": "9v7 + 3 comodines + 2 P",
+ "edad": "14–16 años",
+ "nivel": "Alto",
+ "jugadores": "19 jug. + 2 P",
+ "espacio": "40 × 36 m",
+ "duracion": "20 min",
+ "series": "(propuesta) 4 × 4′ con 1′30″ de pausa; tras 2 series, los equipos cambian de papel (el de 7 pasa a ser el de 9).",
+ "objetivo": "Circulación, búsqueda del hombre libre y superioridad numérica contra presión alta (fuente). Los azules, con los comodines y los porteros, deben mover el balón según dónde presionan los verdes; los verdes trabajan la presión orientada y el cierre de líneas, y si roban, conservan en inferioridad. Cómo explicarlo: «si te salta un rival, alguien queda libre: búscalo». Errores típicos: pasar hacia la presión, los comodines alineados con su par, verdes que presionan uno a uno sin orientar. Qué observar: pases al jugador libre en 2 o 3 pases y robos verdes tras presión orientada.",
+ "montaje": "40 × 36 m. Azules (9, en 1-4-1-4-1) contra verdes (7, en 1-4-3-3) y 3 comodines. Un portero en cada línea de fondo.",
+ "juego": "Empiezan los azules con un portero y mueven el balón con comodines y porteros. Si los verdes roban, conservan con los comodines hasta que los azules recuperan.",
+ "punto": "Azules: 20 pases seguidos, 1 punto. Verdes: 7 pases tras robo, 1 punto (fuente).",
+ "consigna": "Si te saltan, alguien está libre.",
+ "variantes": {
+  "facil": "Azules: 15 pases para punto (propuesta).",
+  "dificil": "Azules a 2 toques y comodines a 1 (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 7v5+3 en 34 × 30 m y 15 pases. Cadete (14–15): como está con 18 pases. Juvenil: tal cual (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN (9vs7+3) - CIRCULACIÓN - HOMBRES LIBRES - SUP. NÚMÉRICA",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 174 (tarea 173)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: azules 9 (1-4-1-4-1) contra verdes 7 (1-4-3-3) y 3 comodines, inicio de los azules con un portero, 20 pases = punto azul y 7 pases tras robo = punto verde, todos dentro del espacio y porteros sobre las líneas, 40 × 36 m. La fuente indica 18 jugadores pero 9 + 7 + 3 son 19 (más 2 porteros): si faltan jugadores, quitar un azul (propuesta). Colores del diagrama: azules en amarillo y verdes en rojo. Series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   36
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -0.8,
+   "ymax": 36.8
+  },
+  "players": [
+   {
+    "r": "G",
+    "x": -0.4,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 40.4,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 21.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 21.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 31.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 3.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.4,
+     18
+    ],
+    "b": [
+     14,
+     18
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "nt": 0.7
+   },
+   {
+    "a": [
+     14,
+     18
+    ],
+    "b": [
+     18,
+     31.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     18,
+     31.5
+    ],
+    "b": [
+     25,
+     23
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

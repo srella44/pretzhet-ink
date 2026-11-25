@@ -1,0 +1,241 @@
+{
+ "id": "LU-P154",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 por puertas",
+ "formato": "4v4 + 2 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "24 × 20 m",
+ "duracion": "16 min",
+ "series": "(propuesta) 4 × 3′ con 1′ de pausa; los comodines cambian cada serie.",
+ "objetivo": "Circular de carril a carril y conectar zonas (fuente), con control orientado, anticipación e interceptación como contenidos. Las puertas obligan a pasar por sitios concretos y la regla de máximo 2 por carril obliga a ocupar bien el espacio. Cómo explicarlo: «antes de recibir, mira qué puerta tienes libre; si en tu carril ya hay 2, ve al otro». Errores típicos: amontonarse en el carril del balón, pases que no cruzan por la puerta, comodín que recibe y nadie le ofrece salida. Qué observar: pases a través de las puertas al primer toque y la presión de los 4 que defienden para tapar puertas.",
+ "montaje": "24 × 20 m en 3 carriles de 8 m, con 3 puertas de 2,5 m en cada línea entre carriles. 4 contra 4 dentro y 1 comodín en cada fondo.",
+ "juego": "Un comodín empieza con balón y juega con un equipo. Hay que llevarlo de carril en carril, pasando siempre por una puerta, hasta el comodín contrario. Máximo 2 por equipo en un carril y todos los carriles ocupados. Si roban, atacan ellos.",
+ "punto": "Balón de un comodín al otro sin perderlo: 1 punto (fuente).",
+ "consigna": "Cruza por la puerta libre.",
+ "variantes": {
+  "facil": "Puertas de 3,5 m y comodines con toques libres (propuesta).",
+  "dificil": "Puertas de 2 m y 2 toques para todos (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 26 × 22 m, puertas de 3 m y sin regla de 2 por carril. Infantil (12–13): como está. Cadete (14–15): 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO POSESIÓN 4vs4+2 - CIRCULACIÓN - CONECTAR ZONAS",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 154 (tarea 153)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 10 jugadores (4v4 + 2 comodines ofensivos fuera, en las zonas verticales), 24 × 20 m, circular de carril a carril pasando por 3 miniporterías de conos hasta el comodín contrario, máximo 2 jugadores por equipo en el mismo carril, todos los carriles ocupados y punto al llevar el balón de comodín a comodín. Anchura de puertas (2,5 m), series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "extent": {
+   "xmin": -3.4,
+   "xmax": 27.4,
+   "ymin": -0.8,
+   "ymax": 20.8
+  },
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     20
+    ],
+    "4 4"
+   ],
+   [
+    [
+     16,
+     0
+    ],
+    [
+     16,
+     20
+    ],
+    "4 4"
+   ]
+  ],
+  "cones": [
+   [
+    8,
+    2.3
+   ],
+   [
+    8,
+    4.7
+   ],
+   [
+    8,
+    8.8
+   ],
+   [
+    8,
+    11.2
+   ],
+   [
+    8,
+    15.3
+   ],
+   [
+    8,
+    17.7
+   ],
+   [
+    16,
+    2.3
+   ],
+   [
+    16,
+    4.7
+   ],
+   [
+    16,
+    8.8
+   ],
+   [
+    16,
+    11.2
+   ],
+   [
+    16,
+    15.3
+   ],
+   [
+    16,
+    17.7
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 26,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 15.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 10.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11.6,
+    "y": 9.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12.4,
+    "y": 15.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.4,
+    "y": 6.0,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -2,
+     10
+    ],
+    "b": [
+     4,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     12,
+     4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     4
+    ],
+    "b": [
+     20,
+     15
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     26,
+     10
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

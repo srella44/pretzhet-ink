@@ -1,0 +1,183 @@
+{
+ "id": "AO-23",
+ "bloque": "Rondos",
+ "titulo": "Doble rondo 8v4 y salida",
+ "formato": "8v4 en 2 zonas",
+ "edad": "11–14 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "20 × 24 m",
+ "duracion": "16 min",
+ "series": "Rotación por tiempo y en cada repetición cambian los 4 defensores (fuente). (propuesta) 4 × 3′ con 1′ de pausa: cada jugador defiende al menos una serie.",
+ "objetivo": "Mantener la posesión, conectar las dos zonas y cambiar de rol rápido (fuente): los atacantes atraen a los 2 defensores de una zona y cambian el balón a la otra; los defensores, al robar, juegan entre ellos para salir conduciendo. Cómo explicarlo: «atraed a los dos defensores y cambiad de zona; si perdéis, cerrad la salida». Errores típicos: cambiar de zona sin haber atraído, quedarse 2 contra 2 en la zona vacía, no presionar tras perder. Qué observar: el momento del cambio de zona y la reacción de los 4 o 5 atacantes más cercanos tras la pérdida. Material: 6 conos, petos de 2 colores y 8 balones.",
+ "montaje": "20 × 24 m en 2 zonas de 12 × 20 m. 8 atacantes repartidos; 4 defensores, 2 en cada zona.",
+ "juego": "Toques libres; solo 2 defensores en la zona del balón. Los atacantes cambian de zona cuando quieran y pueden entrar en ella para ser más. Si roban, los defensores buscan salir conduciendo.",
+ "punto": "Salen conduciendo: 1 para defensores. 12 pases: 1 para atacantes (propuesta).",
+ "consigna": "Atrae, cambia de zona y presiona.",
+ "variantes": {
+  "facil": "Los defensores solo tienen que tocar el balón para puntuar (propuesta).",
+  "dificil": "Atacantes a 2 toques y cambio de zona solo tras 5 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 26 m y 9 atacantes. Infantil (12–13): como está. Cadete (14–15): 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Alex Ortiz · Ebook 2018",
+  "titulo_original": "Rondo 3 — Doble Rondo Rectangular 8 vs 4",
+  "ref": "Ebook 2018 Alex Ortiz · p. 26 (Rondo 3)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 8v4 en 20 × 24 m con 2 zonas, toques libres, solo 2 defensores en la zona activa, atacantes que cambian de zona y pueden moverse a la activa, punto si los defensores roban y salen conduciendo, rotación por tiempo y cambio de los 4 defensores. Reparto inicial (5 y 3), punto de los atacantes, series, variantes, edad y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 24.8,
+   "ymin": -0.8,
+   "ymax": 20.8
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 3.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.6,
+    "y": 2.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 16.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.0,
+    "y": 17.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6.2,
+    "y": 10.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21.6,
+    "y": 3.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22.0,
+    "y": 16.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15.0,
+    "y": 17.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5.0,
+    "y": 5.4,
+    "f": [
+     1.6,
+     3
+    ]
+   },
+   {
+    "r": "D",
+    "x": 6.6,
+    "y": 14.0,
+    "f": [
+     1.6,
+     16
+    ]
+   },
+   {
+    "r": "D",
+    "x": 16.6,
+    "y": 8.0,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18.4,
+    "y": 13.0,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.6,
+     3.0
+    ],
+    "b": [
+     6.2,
+     10.0
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6.2,
+     10.0
+    ],
+    "b": [
+     21.6,
+     3.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10.0,
+     17.4
+    ],
+    "b": [
+     14.0,
+     13.4
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   }
+  ]
+ }
+}

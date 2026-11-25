@@ -1,0 +1,176 @@
+{
+ "id": "JL-0030",
+ "bloque": "Superioridades",
+ "titulo": "8v4 con tres equipos",
+ "formato": "8v4 (3 equipos de 4)",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "10′ (fuente). (propuesta) 2 × 5′ con 1′ de pausa; cuenta el tiempo que cada equipo pasa defendiendo.",
+ "objetivo": "Conservar con el doble de jugadores y cambiar rápido de rol: dos equipos de 4 se ayudan para tener el balón y, si pierden, el equipo del que falló pasa entero a defender (fuente). Cómo explicarlo: «abríos mucho: con 8 hay que ocupar todo el cuadrado; si pierde tu equipo, a presionar ya». Errores típicos: amontonarse cerca del balón, pasar solo a los de tu color, tardar en reaccionar tras la pérdida. Qué observar: amplitud del equipo con balón y la presión de los 4 que acaban de perder.",
+ "montaje": "Cuadrado de 20 × 20 m. 3 equipos de 4: amarillos y rojos atacan juntos (8), azules defienden (4). Todos libres.",
+ "juego": "A 2 toques obligatorios. Amarillos y rojos se pasan el balón entre ellos. Si los azules roban, el equipo del que falló pasa a defender y los azules atacan con el otro.",
+ "punto": "10 pases seguidos: 1 punto. Gana el equipo que menos tiempo defienda (propuesta).",
+ "consigna": "Abríos y, si perdéis, presión ya.",
+ "variantes": {
+  "facil": "Toques libres y 22 × 22 m (propuesta).",
+  "dificil": "Pase obligatorio a un jugador de otro color (amarillo-rojo-amarillo) y 1 toque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 22 m y toques libres. Infantil (12–13): como está. Cadete (14–15): 18 × 18 m (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 8:4 | entrada 30",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 22, bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 equipos de 4 (dos atacan, uno defiende), 20 × 20 m, 10′, 2 toques y cambio de rol del equipo del que falla. Puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 20.8,
+   "ymin": -0.8,
+   "ymax": 20.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.4,
+    "y": 3.0,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.0,
+    "y": 1.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17.6,
+    "y": 3.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.0,
+    "y": 17.0,
+    "f": -45
+   },
+   {
+    "r": "B",
+    "x": 2.4,
+    "y": 10.4,
+    "f": -45
+   },
+   {
+    "r": "B",
+    "x": 12.0,
+    "y": 17.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.8,
+    "y": 12.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15.0,
+    "y": 8.0,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6.4,
+    "y": 6.0,
+    "f": [
+     2.4,
+     3
+    ]
+   },
+   {
+    "r": "D",
+    "x": 11.0,
+    "y": 5.6,
+    "f": [
+     10,
+     1.8
+    ]
+   },
+   {
+    "r": "D",
+    "x": 8.4,
+    "y": 12.0,
+    "f": [
+     2.4,
+     10.4
+    ]
+   },
+   {
+    "r": "D",
+    "x": 14.4,
+    "y": 14.6,
+    "f": [
+     12,
+     17.8
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     3.0
+    ],
+    "b": [
+     2.4,
+     10.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     2.4,
+     10.4
+    ],
+    "b": [
+     4.0,
+     17.0
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     4.0,
+     17.0
+    ],
+    "b": [
+     12.0,
+     17.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

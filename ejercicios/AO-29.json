@@ -1,0 +1,279 @@
+{
+ "id": "AO-29",
+ "bloque": "Rondos",
+ "titulo": "Doble 6v2: pasa y cambia",
+ "formato": "6v2 + 6v2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug.",
+ "espacio": "2 cuadros de 14 × 14 m",
+ "duracion": "12 min",
+ "series": "(propuesta) 4 × 2′30″ con 45″ de pausa; los defensores que acaben la serie siguen defendiendo la siguiente si han robado menos de 2 balones.",
+ "objetivo": "Tocar y moverse (fuente): cada jugador que pasa (y cada receptor que interviene) sale corriendo al otro cuadro para ser una opción más allí. Es un rondo con mucho desplazamiento, ideal para calentar con balón. Cómo explicarlo: «pasas y te vas; el que se queda tiene que moverse para recibir». Errores típicos: pasar y quedarse mirando, cruzar el cuadro por el centro estorbando, los que esperan no se ofrecen y el cuadro se queda con pocos apoyos. Qué observar: que los dos rondos tengan siempre al menos 4 atacantes y que nadie se pare tras pasar.",
+ "montaje": "2 cuadros de 14 × 14 m separados 4 m. En cada uno, 6 contra 2 con un balón.",
+ "juego": "Empiezan los dos rondos a la vez. Cada atacante que pasa el balón corre al otro cuadro para ofrecerse allí; el que recibe e interviene también cambia. Si un defensor roba o el balón sale, cambia de rol con el que lo perdió.",
+ "punto": "Cada pérdida resta 1. Gana quien menos pierda (propuesta).",
+ "consigna": "Pasa y vete al otro cuadro.",
+ "variantes": {
+  "facil": "Solo cambia de cuadro el que pasa, cada 2 pases (propuesta).",
+  "dificil": "A 2 toques y cuadros de 12 × 12 m (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): cuadros de 12 × 12 m pegados (sin pasillo) y 6v1. Alevín (10–11): como está. Infantil (12–13): 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Alex Ortiz · Ebook 2018",
+  "titulo_original": "Rondo 9 — Doble Rondo Cuadrado 6 vs 2 + 6 vs 2",
+  "ref": "Ebook 2018 Alex Ortiz · p. 32 (Rondo 9)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 espacios de 14 × 14 m, 6v2 en cada uno a la vez (16 jugadores), el que pasa y cada receptor que interviene cambian de zona, cambio de rol tras robo o pérdida; uso en calentamiento. Pasillo de 4 m, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   32,
+   14
+  ],
+  "nofield": true,
+  "tag": "2 × 14 × 14 m",
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 33.2,
+   "ymin": -1.2,
+   "ymax": 15.2
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     14,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     14
+    ],
+    "0"
+   ],
+   [
+    [
+     14,
+     14
+    ],
+    [
+     0,
+     14
+    ],
+    "0"
+   ],
+   [
+    [
+     0,
+     14
+    ],
+    [
+     0,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     18,
+     0
+    ],
+    [
+     32,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     32,
+     0
+    ],
+    [
+     32,
+     14
+    ],
+    "0"
+   ],
+   [
+    [
+     32,
+     14
+    ],
+    [
+     18,
+     14
+    ],
+    "0"
+   ],
+   [
+    [
+     18,
+     14
+    ],
+    [
+     18,
+     0
+    ],
+    "0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 2.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.0,
+    "y": 0.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12.8,
+    "y": 3.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 11.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7.0,
+    "y": 13.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12.8,
+    "y": 11.0,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 4.8,
+    "y": 5.6,
+    "f": [
+     1.2,
+     2
+    ]
+   },
+   {
+    "r": "D",
+    "x": 8.8,
+    "y": 8.4,
+    "f": [
+     12.8,
+     11
+    ]
+   },
+   {
+    "r": "A",
+    "x": 19.2,
+    "y": 2.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25.0,
+    "y": 0.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 30.8,
+    "y": 3.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19.2,
+    "y": 12.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25.0,
+    "y": 13.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 30.8,
+    "y": 11.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22.8,
+    "y": 6.0,
+    "f": [
+     19.2,
+     2
+    ]
+   },
+   {
+    "r": "D",
+    "x": 27.2,
+    "y": 8.0,
+    "f": [
+     30.8,
+     11.6
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     2.0
+    ],
+    "b": [
+     1.2,
+     11.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     1.6,
+     4.6
+    ],
+    "b": [
+     19.0,
+     7.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "nt": 0.6
+   }
+  ]
+ }
+}

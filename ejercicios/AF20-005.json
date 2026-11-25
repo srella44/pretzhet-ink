@@ -1,0 +1,165 @@
+{
+ "id": "AF20-005",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Juego de cara y 4v2",
+ "formato": "2v2 + 2 comodines + P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug. + P",
+ "espacio": "30 × 24 m",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 6 oleadas con 1′ de pausa; las parejas cambian de rol cada serie y los comodines cada 2 series.",
+ "objetivo": "Combinar para desbloquear y atacar en superioridad (fuente): los dos atacantes de dentro, marcados, tienen que hacer un juego de cara (uno recibe de espaldas y la deja a su compañero de frente); en cuanto lo logran, se suman los 2 comodines y es un 4 contra 2. Cómo explicarlo: «el que recibe de espaldas no se gira: la deja de cara; el que llega de frente ya puede atacar con todos». Errores típicos: intentar girarse con el defensor encima, los comodines se quedan en la banda sin acompañar, centrar tarde. Qué observar: calidad de la dejada y cuántos pases hasta el tiro.",
+ "montaje": "30 × 24 m con portero. 2 atacantes dentro, cada uno con su defensor, y 2 comodines en las bandas (el derecho con balón).",
+ "juego": "El comodín derecho pasa a un atacante (1), que la deja de cara a su compañero (2). Desde ahí entran los 2 comodines: 4 contra 2 hasta el tiro (3). Los defensores intentan cortar esa combinación.",
+ "punto": "Gol: 1 punto. Robo antes del juego de cara: 1 defensor (propuesta).",
+ "consigna": "Déjala de cara y atacad todos.",
+ "variantes": {
+  "facil": "Los defensores empiezan a 2 m de los atacantes (propuesta).",
+  "dificil": "Los comodines no pueden tirar: solo asistir (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 25 × 20 m y un solo defensor. Alevín (10–11): como está. Infantil (12–13): tiro antes de 10″ desde el juego de cara (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de transiciones en espacio reducido",
+  "titulo_original": "EJERCICIO 5 – TRANSICIÓN 2x2 + 2 COMODINES",
+  "ref": "20-ejercicios-de-contraataque-en-espacio-reducido.pdf · p. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el comodín de la derecha inicia buscando el juego de cara de los 2 atacantes interiores; tras el juego de cara, atacan con los 2 comodines (4x2) contra 2 defensores, que intentan primero evitar la combinación. Medidas, posición de salida, portero, puntuación, series, variantes y adaptación son (propuesta). Continuación en AF20-006 (contraataque tras finalizar).",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 31.4,
+   "ymin": -0.8,
+   "ymax": 24.8
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 4,
+    "y": 21.5,
+    "f": -30,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 2.5,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18.0,
+    "y": 16.2,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 7.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     21.5
+    ],
+    "b": [
+     15,
+     14.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15,
+     14.5
+    ],
+    "b": [
+     10.4,
+     11.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     4,
+     2.5
+    ],
+    "b": [
+     18,
+     4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     4,
+     21.5
+    ],
+    "b": [
+     18,
+     21
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 14,
+    "s1": 6
+   },
+   {
+    "a": [
+     10.2,
+     11.2
+    ],
+    "b": [
+     19,
+     11
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   }
+  ]
+ }
+}

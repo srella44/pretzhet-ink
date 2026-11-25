@@ -1,0 +1,239 @@
+{
+ "id": "LU-P101",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "7v7+1: rompe y marca",
+ "formato": "7v7 + 1 comodín",
+ "edad": "13–16 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug.",
+ "espacio": "38 × 48 m",
+ "duracion": "20 min",
+ "series": "(propuesta) 4 × 4′ con 1′30″ de pausa; el comodín cambia en cada serie.",
+ "objetivo": "Atraer para mover, conectar con los intermedios y atacar el espacio a la espalda con desmarques de ruptura (fuente). El balón sale desde los centrales, progresa con el comodín y los interiores, y el gol solo llega recibiendo en la franja de detrás de los centrales rivales. Cómo explicarlo: «primero atraemos por un lado; cuando la defensa se adelanta, alguien rompe a la espalda». Errores típicos: entrar a la franja antes del pase (fuera de juego), romper todos a la vez, pase largo sin haber atraído. Qué observar: el momento del desmarque y el pase al espacio, y si la defensa rival mantiene la línea. Igual que el JDP 18 del ebook de Alex Ortiz (AO-18).",
+ "montaje": "38 × 48 m. En cada fondo, franja de 8 m con 2 miniporterías. 7 contra 7 + 1 comodín con el que tiene el balón.",
+ "juego": "Se inicia desde los centrales. A la franja rival solo se entra con un desmarque de ruptura para recibir (fuera de juego por el último defensor). Tras recibir, entran los defensores y se tira a una miniportería.",
+ "punto": "Gol: 1 punto (propuesta).",
+ "consigna": "Atrae y rompe a la espalda.",
+ "variantes": {
+  "facil": "Dos comodines y franja de 10 m (propuesta).",
+  "dificil": "Máximo 2 toques en campo propio y gol solo de primeras dentro de la franja (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): fútbol 7 (5v5+1) en 30 × 40 m. Cadete (14–15): como está. Juvenil: 2 toques (propuesta). Fuente de fútbol profesional; edad propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "JUEGO DE POSICIÓN 7vs7+1 (DFC - LAT / EXT - MC / INT - DLC)",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 101 (tarea 100)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 15 jugadores (7v7+1) en 38 × 48 m, inicio desde los centrales, conectar balón y jugador en el espacio tras los centrales rivales y finalizar en cualquiera de las 2 porterías, fuera de juego por la posición de los defensores, solo se entra a la zona con desmarque de ruptura y los defensores pueden entrar cuando un rival recibe allí. Profundidad de la franja (8 m), puntuación, series, variantes y adaptación son (propuesta). La misma tarea está en el ebook de Alex Ortiz (JDP 18, AO-18).",
+ "diagrama": {
+  "field": [
+   48,
+   38
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 49.6,
+   "ymin": -0.8,
+   "ymax": 38.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     8,
+     38
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     40,
+     0,
+     48,
+     38
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    0,
+    28,
+    "L"
+   ],
+   [
+    48,
+    10,
+    "R"
+   ],
+   [
+    48,
+    28,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 26,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 37.5,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28.5,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16.5,
+    "y": 14.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 15.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     26
+    ],
+    "b": [
+     19,
+     19
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     19,
+     19
+    ],
+    "b": [
+     25,
+     15.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     33,
+     24
+    ],
+    "b": [
+     43,
+     21
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     25,
+     15.5
+    ],
+    "b": [
+     43,
+     20.4
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 10
+   }
+  ]
+ }
+}

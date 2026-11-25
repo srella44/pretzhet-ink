@@ -1,0 +1,173 @@
+{
+ "id": "AF20-007",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "2v1 con persecución y 3v2",
+ "formato": "2v1(+1) y 3v2 + 2 P",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + 2 P",
+ "espacio": "32 × 22 m",
+ "duracion": "16 min",
+ "series": "(propuesta) 3 series de 6 jugadas completas (ataque y contraataque) con 1′ de pausa.",
+ "objetivo": "Dos transiciones seguidas (fuente): primero un 2 contra 1 en el que el atacante que inicia tiene un perseguidor que quiere igualar; al acabar, sale un jugador de banda del otro equipo y se forma un 3 contra 2 hacia la otra portería contra los dos que acaban de atacar. Cómo explicarlo: «atacas rápido porque te persiguen; al terminar, defiende ya: vienen tres». Errores típicos: el atacante se queda celebrando o lamentándose, el de banda sale sin balón controlado, en el 3v2 se juega por el centro sin abrir. Qué observar: segundos del 2v1 y la reacción defensiva de los dos atacantes.",
+ "montaje": "32 × 22 m, 2 porterías y porteros. Parejas amarillas salen del centro con un azul 2 m detrás del que inicia; otro azul defiende. Más azules en la banda.",
+ "juego": "La pareja ataca 2 contra 1 mientras el perseguidor llega (1-2). Al finalizar, un azul sale conduciendo de la banda (3) y con los 2 defensores ataca la otra portería: 3 contra 2 (4).",
+ "punto": "Gol en el 2v1: 1 amarillo. Gol en el 3v2: 1 azul (propuesta).",
+ "consigna": "Ataca rápido y defiende ya.",
+ "variantes": {
+  "facil": "Perseguidor a 4 m y 3v2 con 1 toque libre de presión (propuesta).",
+  "dificil": "Perseguidor en línea y el 3v2 debe acabar antes de 10″ (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 26 × 18 m y perseguidor a 4 m. Alevín (10–11): como está. Infantil (12–13): perseguidor en línea (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de transiciones en espacio reducido",
+  "titulo_original": "EJERCICIO 7 – ATAQUE 2x2 + TRANSICIÓN 3x2",
+  "ref": "20-ejercicios-de-contraataque-en-espacio-reducido.pdf · p. 9"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el equipo atacante inicia un 2x1 con un defensor que presiona por detrás al que inicia para igualar; al finalizar, un azul de banda sale para hacer un 3x2 (los 2 defensores y él) contra los 2 atacantes anteriores. Medidas, porterías y porteros, distancias, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   32,
+   22
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 33.6,
+   "ymin": -0.8,
+   "ymax": 24.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 11,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 32,
+    "y": 11,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     16,
+     0
+    ],
+    [
+     16,
+     22
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11.6,
+    "y": 10.8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16.4,
+    "y": 23.2,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 19.8,
+    "y": 23.2,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     9
+    ],
+    "b": [
+     22.5,
+     6.8
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     11.6,
+     10.8
+    ],
+    "b": [
+     19,
+     11.2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "nt": 0.55
+   },
+   {
+    "a": [
+     16.4,
+     23.2
+    ],
+    "b": [
+     11.6,
+     17.6
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     15,
+     16
+    ],
+    "b": [
+     9.6,
+     13.6
+    ],
+    "k": "run",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   }
+  ]
+ }
+}

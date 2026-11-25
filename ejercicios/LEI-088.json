@@ -1,0 +1,227 @@
+{
+ "id": "LEI-088",
+ "bloque": "Superioridades",
+ "titulo": "Roba en 4v2 y centra",
+ "formato": "4v2 + centro y remate + P",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. + P",
+ "espacio": "Doble área (40 × 34 m)",
+ "duracion": "20 min",
+ "series": "20′ (fuente). (propuesta) 4 × 4′ con 1′ de pausa; en cada pausa, los 4 del rondo cambian con los 4 de fuera.",
+ "objetivo": "Transición tras robo: en cuanto se gana el balón en el rondo, hay que sacarlo rápido a la banda, llegar a línea de fondo y atacar el centro con dos rematadores (fuente). Cómo explicarlo: «robas y miras a la banda: el primer pase tiene que salir ya». Errores típicos: el que roba conduce en vez de soltar, el extremo centra sin levantar la cabeza, los rematadores llegan antes que el balón y se paran. Qué observar: tiempo entre robo y centro, y que C ataque el primer palo y D el segundo. Variante de la fuente: un jugador rojo sale con los delanteros para defender el centro.",
+ "montaje": "Doble área con portero. Cuadro de 14 × 14 m: 4 rojos contra 2 amarillos. Fuera, 4 amarillos: A y B en bandas, C y D en el centro.",
+ "juego": "Los rojos conservan. Si un amarillo roba, pasa a A o B (1), que conduce al fondo (2) y centra (3); C y D atacan los dos palos (4). Luego, de nuevo 4v2.",
+ "punto": "Gol de primeras: 2; otro gol: 1. 8 pases rojos: 1 (propuesta).",
+ "consigna": "Roba, abre y llega al centro.",
+ "variantes": {
+  "facil": "4 contra 1 en el cuadro para que se robe menos y se centre más (propuesta).",
+  "dificil": "Un rojo sale a defender el centro con C y D (fuente) y el centro debe ir antes de 6″ (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): cuadro de 12 × 12 m, 4v1 y centro raso. Alevín (10–11): como está, portería de fútbol 7. Infantil (12–13): con el rojo defensor (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Crossing from 4:2",
+  "ref": "LeicesterCity.pdf · p. 99"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4 rojos contra 2 blancos en 15 × 15 yardas, al robar pase a A o B, conducción a línea de fondo, centro y remate de C y D, vuelta al 4v2; variante con un rojo que defiende; doble área, 1 portería, 10 jugadores y portero, 20′. Medidas en metros, colores del diagrama (amarillos = equipo que roba), puntuación, rotaciones, series y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   34
+  ],
+  "extent": {
+   "xmin": -0.8,
+   "xmax": 41.8,
+   "ymin": -0.8,
+   "ymax": 34.8
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     3,
+     10,
+     17,
+     24
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 4.4,
+    "y": 11.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15.6,
+    "y": 11.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 4.4,
+    "y": 22.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15.6,
+    "y": 22.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.0,
+    "y": 14.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.6,
+    "y": 20.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24.0,
+    "y": 3.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24.0,
+    "y": 31.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22.0,
+    "y": 13.4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22.0,
+    "y": 21.0,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.0,
+     14.6
+    ],
+    "b": [
+     24.0,
+     3.0
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     24.0,
+     3.0
+    ],
+    "b": [
+     35.6,
+     3.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     35.6,
+     3.4
+    ],
+    "b": [
+     34.6,
+     19.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 10
+   },
+   {
+    "a": [
+     22.0,
+     13.4
+    ],
+    "b": [
+     32.0,
+     14.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     22.0,
+     21.0
+    ],
+    "b": [
+     33.0,
+     20.4
+    ],
+    "k": "run",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    24.0,
+    6.0,
+    "A",
+    "middle"
+   ],
+   [
+    24.0,
+    28.0,
+    "B",
+    "middle"
+   ],
+   [
+    20.6,
+    10.8,
+    "C",
+    "middle"
+   ],
+   [
+    20.6,
+    24.0,
+    "D",
+    "middle"
+   ]
+  ]
+ }
+}

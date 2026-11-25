@@ -1,0 +1,236 @@
+{
+ "id": "JL-0043",
+ "bloque": "Superioridades",
+ "titulo": "6v3 en el hexágono",
+ "formato": "6v3 (3 equipos de 3)",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "Hexágono de 12 m de lado",
+ "duracion": "10 min",
+ "series": "10′ (fuente). (propuesta) 3 × 3′ con 30″ de pausa: cada equipo empieza una serie defendiendo.",
+ "objetivo": "Encontrar el pase que rompe: con 6 atacantes fijos en los vértices y 3 defensores dentro, el balón debe cruzar el hexágono entre dos defensores, no solo rodearlo (fuente: un jugador en cada vértice). Cómo explicarlo: «si el de al lado está tapado, mira al otro lado del hexágono; el pase largo entre dos defensores es el que vale». Errores típicos: pasar siempre al vértice de al lado, pase largo flojo o por arriba, controlar mirando al suelo. Qué observar: pases que cruzan por dentro y control orientado hacia el siguiente vértice libre.",
+ "montaje": "Hexágono de 12 m de lado. 6 atacantes (amarillos y rojos alternados), uno por vértice. 3 azules defienden dentro.",
+ "juego": "A 2 toques obligatorios, sin dejar el vértice. Si los azules roban, el que falló y su equipo pasan a defender y los azules ocupan sus vértices.",
+ "punto": "Pase que cruza entre 2 defensores: 1 punto. 10 pases: 2 (propuesta).",
+ "consigna": "Cruza el pase entre dos defensores.",
+ "variantes": {
+  "facil": "Toques libres y solo 2 defensores (propuesta).",
+  "dificil": "Prohibido pasar al vértice de al lado y 10 m de lado (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 10 m de lado, toques libres y 2 defensores. Infantil (12–13): como está. Cadete (14–15): 1 toque (propuesta).",
+ "fuente": {
+  "autor": "Javier López López - 1.380 juegos",
+  "titulo_original": "Juego técnico 6:3 | entrada 43",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 24, bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: hexágono de 12 m de lado, 2 equipos de 3 en los vértices contra 3 defensores, 10′, 2 toques y cambio de rol del que falla y su equipo. Colores alternados, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   26,
+   22
+  ],
+  "nofield": true,
+  "tag": "hexágono 12 m",
+  "extent": {
+   "xmin": -0.4,
+   "xmax": 26.4,
+   "ymin": -0.6,
+   "ymax": 22.6
+  },
+  "lines": [
+   [
+    [
+     25.0,
+     11.0
+    ],
+    [
+     19.0,
+     21.39
+    ],
+    "0"
+   ],
+   [
+    [
+     19.0,
+     21.39
+    ],
+    [
+     7.0,
+     21.39
+    ],
+    "0"
+   ],
+   [
+    [
+     7.0,
+     21.39
+    ],
+    [
+     1.0,
+     11.0
+    ],
+    "0"
+   ],
+   [
+    [
+     1.0,
+     11.0
+    ],
+    [
+     7.0,
+     0.61
+    ],
+    "0"
+   ],
+   [
+    [
+     7.0,
+     0.61
+    ],
+    [
+     19.0,
+     0.61
+    ],
+    "0"
+   ],
+   [
+    [
+     19.0,
+     0.61
+    ],
+    [
+     25.0,
+     11.0
+    ],
+    "0"
+   ]
+  ],
+  "cones": [
+   [
+    25.0,
+    11.0
+   ],
+   [
+    19.0,
+    21.39
+   ],
+   [
+    7.0,
+    21.39
+   ],
+   [
+    1.0,
+    11.0
+   ],
+   [
+    7.0,
+    0.61
+   ],
+   [
+    19.0,
+    0.61
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 23.8,
+    "y": 11.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18.4,
+    "y": 20.2,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 7.6,
+    "y": 20.2,
+    "f": -60
+   },
+   {
+    "r": "B",
+    "x": 2.2,
+    "y": 11.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7.6,
+    "y": 1.8,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 18.4,
+    "y": 1.8,
+    "f": 120
+   },
+   {
+    "r": "D",
+    "x": 10.6,
+    "y": 8.6,
+    "f": [
+     7.6,
+     1.8
+    ]
+   },
+   {
+    "r": "D",
+    "x": 16.0,
+    "y": 8.6,
+    "f": [
+     7.6,
+     1.8
+    ]
+   },
+   {
+    "r": "D",
+    "x": 13.0,
+    "y": 15.0,
+    "f": [
+     7.6,
+     20.2
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.6,
+     1.8
+    ],
+    "b": [
+     7.6,
+     20.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     7.6,
+     20.2
+    ],
+    "b": [
+     23.8,
+     11.0
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}
