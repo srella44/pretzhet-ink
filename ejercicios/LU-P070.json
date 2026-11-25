@@ -1,0 +1,195 @@
+{
+ "id": "LU-P070",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rondo 6v6+5 comodines",
+ "formato": "6v6+5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "17 jug.",
+ "espacio": "38 × 38 m",
+ "duracion": "15 min",
+ "series": "3 rondas de 5′ con 1′ de pausa; cada ronda cambian los 5 comodines (propuesta).",
+ "objetivo": "Velocidad de circulación: tocar y moverse. Jugar paredes y combinaciones rápidas, conectar con todos los comodines y no perder el balón. Cómo explicarlo: «pasa y muévete, no esperes mirando». Errores típicos: quedarse parado tras pasar, pase blando, no mirar antes de recibir. Qué observar: movimiento inmediato tras el pase, calidad del primer toque y uso de la pared con el comodín.",
+ "montaje": "Campo de 38 × 38 m. 6 amarillos y 6 azules dentro y 5 comodines fijos: 1 en el centro y 1 fuera en cada lado. Empieza un amarillo con balón.",
+ "juego": "Los amarillos conectan con los 5 comodines, en cualquier orden, sin perder el balón. Todos a 2 toques y comodines a 1, sin salir de su zona; se les puede robar. Si roban, cambio de rol.",
+ "punto": "Conectar con los 5 comodines sin perder el balón = 1 punto.",
+ "consigna": "Pasa y muévete: busca a los 5.",
+ "variantes": {
+  "facil": "Campo de 42 × 42 m y 3 toques para todos; los azules no pueden robar a los comodines.",
+  "dificil": "Límite de 20 s por punto; si no lo logran, punto para los azules (propuesta). Comodines a 1 toque y resto a 2."
+ },
+ "adaptacion": "Infantil (12–13): 5v5 + 5 en 34 × 34 m. Cadete (14–15): como en la ficha. Con menos jugadores: 4v4 + 4 comodines en 30 × 30 m.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSESIÓN - Velocidad de circulación - Paredes - Tocar y mover",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 70"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 6 + 5 comodines fijos (4 exteriores y 1 interior), conectar con los 5, cambio de rol al perder, 1 punto por jugar con los 5 sin perder, 2 contactos (comodines 1), comodines no salen de su zona y se les puede robar, 17 jug., 38 × 38 m. (propuesta): colocación concreta, series, variantes y adaptación a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   38,
+   38
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 43,
+   "ymin": -5,
+   "ymax": 43
+  },
+  "tag": "38 × 38 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 30,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 35,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 11,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -3,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 41,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": -3,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 41,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 19,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     30
+    ],
+    "b": [
+     -3,
+     19
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     -3,
+     19
+    ],
+    "b": [
+     6,
+     8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     6,
+     8
+    ],
+    "b": [
+     19,
+     -3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

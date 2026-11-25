@@ -1,0 +1,153 @@
+{
+ "id": "LEI-047",
+ "bloque": "Superioridades",
+ "titulo": "2v1 dos veces seguidas",
+ "formato": "2v1 + 2v1",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "3 jug. por grupo",
+ "espacio": "30 × 15 m",
+ "duracion": "12 min",
+ "series": "4 series de 3′ con 1′ de pausa; en cada serie se rota quién defiende (propuesta).",
+ "objetivo": "Superar a un defensor en 2v1 y volver a repetirlo contra el siguiente: pasar la 1.ª línea sin que el defensor robe, y después la 2.ª. Cómo explicarlo: «atrae al defensor y pasa en el momento justo». Errores típicos: pase tarde, atacantes en la misma línea, conducir sin fijar. Qué observar: decisión de pasar o conducir y desmarque del atacante sin balón.",
+ "montaje": "Campo de 30 × 15 m con 2 líneas de conos a 10 y 20 m y portería de 5 m al fondo. D1 de pie en la 1.ª línea y D2 en la 2.ª. 2 atacantes salen del fondo con balón.",
+ "juego": "D1 no sale de su línea hasta que A1 mueva el balón. Al cruzar la 1.ª línea con balón controlado, D2 puede salir: otro 2v1. Si llegan al fondo, tiran a portería. Si el defensor roba, termina la acción.",
+ "punto": "Cruzar la 1.ª línea con balón = 1. La 2.ª = 1. Gol = 2.",
+ "consigna": "Atrae al defensor y pasa en el momento justo.",
+ "variantes": {
+  "facil": "Los defensores empiezan fuera de su línea a 2 m y los atacantes tienen 3 intentos por serie.",
+  "dificil": "Solo 8 s para llegar al fondo y el defensor puede salir apenas A1 toque el balón (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): como en la ficha. Infantil (12–13): líneas a 12 m y portería de 4 m. Benjamín (8–9): 24 × 12 m y sin límite de tiempo.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "2v1 twice in a game",
+  "ref": "LeicesterCity.pdf · p. 52"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos atacantes juegan 2v1 con el primer defensor D1 y deben cruzar la primera línea sin que robe; D1 no sale de su línea hasta que A1 mueva el balón; tras pasar la 1.ª línea sale D2; si llegan al fondo pueden intentar finalizar. (propuesta): edad, medidas, portería, puntuación, series, rotación, variantes y adaptación. Texto original en inglés; el final de la descripción no consta, la finalización se propone.",
+ "diagrama": {
+  "field": [
+   30,
+   15
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 36,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "tag": "30 × 15 m · 2 líneas",
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    30,
+    5,
+    "R"
+   ],
+   [
+    30,
+    10,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     9,
+     4
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     2,
+     10
+    ],
+    "b": [
+     11,
+     12
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     9,
+     4
+    ],
+    "b": [
+     14,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

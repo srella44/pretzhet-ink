@@ -1,0 +1,165 @@
+{
+ "id": "LU-P260",
+ "bloque": "Superioridades",
+ "titulo": "Combinar y tirar: 3v2",
+ "formato": "3v2",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "5–6 jug.",
+ "espacio": "40 × 34 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de pausa (unas 6 acciones por serie); se rota cada acción (propuesta).",
+ "objetivo": "Combinaciones rápidas con paredes y finalización, terminando en un 3v2 con ataque y defensa inmediatos. Cómo explicarlo: «pared, arranca y tira; ahora defiende 3v2». Errores típicos: pase blando a la pared, arrancar antes de pasar, tirar sin levantar la cabeza. Qué observar: pared a 1 toque, carrera tras el pase y toma de decisión en el 3v2.",
+ "montaje": "Campo de 40 × 34 m con portería y portero. 6 con balón a 30 m de la portería; 1 y 2 a 10 m, a cada lado; 3, 4 y 5 en el borde del área; pica a 14 m.",
+ "juego": "Acción 1: 6 hace pared con 1 y sale a tirar. Acción 2: pared con 2, que sale por detrás de la pica. Acción 3: 3 pasa a 1, a 4 y a 5: atacan 2, 4 y 5 contra 1 y 3 (3v2).",
+ "punto": "Gol en acciones 1 y 2 = 1. Gol en el 3v2 = 2.",
+ "consigna": "Pared, arranca y finaliza.",
+ "variantes": {
+  "facil": "Los 2 defensores del 3v2 solo pueden salir al segundo pase y no hay presión en las acciones 1 y 2.",
+  "dificil": "Máximo 8 s para el 3v2 y los defensores pueden contraatacar a 2 miniporterías (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 3v2 en 30 × 25 m. Infantil (12–13): como en la ficha. Cadete (14–15): 6 s para el 3v2 y 2 toques.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ACCIONES COMBINADAS CON BALÓN - Finalizaciones 2 (3x2) - Pere Riera @Pere36287525",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 260"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: secuencia de paredes del jugador 6 con 1 y 2 (carrera a tirar y salida por detrás de la pica) y 3v2 final (3 pasa a 1, que juega con 4 y este con 5; atacan 2, 4 y 5 y defienden 1 y 3), 50 × 50 m. (propuesta): medidas exactas, puntuación, series, variantes y adaptación; la descripción de la fuente es muy breve y la colocación se interpretó.",
+ "diagrama": {
+  "field": [
+   40,
+   34
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 44,
+   "ymin": -2,
+   "ymax": 36
+  },
+  "tag": "40 × 34 m",
+  "cones": [
+   [
+    14,
+    3
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 4,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     17
+    ],
+    "b": [
+     9,
+     24
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     9,
+     24
+    ],
+    "b": [
+     22,
+     28
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     22,
+     28
+    ],
+    "b": [
+     22,
+     6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     22,
+     6
+    ],
+    "b": [
+     39,
+     15
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 4
+   }
+  ]
+ }
+}

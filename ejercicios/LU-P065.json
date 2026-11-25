@@ -1,0 +1,245 @@
+{
+ "id": "LU-P065",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 7v7+3 en franjas",
+ "formato": "7v7+3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "17 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4′ con 1′ de pausa; cada ronda cambian los comodines por jugadores que descansan (propuesta).",
+ "objetivo": "Circular en amplitud y profundidad conectando zonas: mantener 2 jugadores en cada franja central, cambiar el juego y mover al rival. Cómo explicarlo: «el balón entra por un lado y sale por el otro». Errores típicos: que 3 jugadores ocupen el mismo carril, salirse de la franja lateral, pases sin ángulo. Qué observar: reparto 2-2 en el centro, quién se ofrece libre y la reacción de los defensores al compactarse.",
+ "montaje": "Campo de 40 × 30 m en 4 franjas de 10 m. 7 amarillos (2 por franja lateral, 3 en el centro) y 7 azules. 3 comodines con quien tiene el balón: 1 por franja lateral y 1 en el centro.",
+ "juego": "Los amarillos circulan con amplitud y profundidad, siempre 2-2 en el centro contando al comodín; los laterales no salen de su franja. Los azules se compactan y presionan. Si roban, cambio de rol.",
+ "punto": "12 pases seguidos = 1 punto. Máximo 3 toques por jugador.",
+ "consigna": "Amplitud, profundidad y 2-2 en el centro.",
+ "variantes": {
+  "facil": "Campo de 44 × 32 m y 4 toques; los azules no presionan al balón hasta el 4.º pase.",
+  "dificil": "2 toques y 15 pases por punto; si los azules roban, puntúan con 3 pases y tiro a una miniportería (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 6v6 + 3 en 36 × 28 m. Cadete (14–15): como en la ficha. Con 14 jugadores: 5v5 + 3 comodines y 3 franjas de 12 m.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN - Circulación en amplitud y profundidad - Conectar zonas",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 65"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 7 + 3 comodines (1 por zona horizontal), amplitud y profundidad, 2-2 en la zona central contando al comodín, comodín solo en las zonas centrales, laterales sin salir de su zona, 12 pases = 1 punto, máximo 3 contactos, 17 jug., 30 × 40 m. (propuesta): reparto exacto por franja, series, variantes y adaptación a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "tag": "40 × 30 m · 4 franjas",
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 34,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     22
+    ],
+    "b": [
+     15,
+     23
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     15,
+     23
+    ],
+    "b": [
+     25,
+     23
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     25,
+     23
+    ],
+    "b": [
+     25,
+     7
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     25,
+     7
+    ],
+    "b": [
+     37,
+     8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

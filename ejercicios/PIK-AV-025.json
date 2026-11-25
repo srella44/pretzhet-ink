@@ -1,0 +1,96 @@
+{
+ "id": "PIK-AV-025",
+ "bloque": "Superioridades",
+ "titulo": "Cuadrado 2v1",
+ "formato": "2v1",
+ "edad": "9–11 años",
+ "nivel": "Fácil",
+ "jugadores": "3 jug. por cuadrado",
+ "espacio": "8 × 8 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′ con 30″ de pausa; tras cada punto o robo se rota quién defiende (propuesta).",
+ "objetivo": "Ofrecer apoyo y crear la línea de pase para superar a un defensor en superioridad simple. Cómo explicarlo: «muévete para que el defensor no pueda cortar el pase». Errores típicos: quedarse parado esperando el balón, pase sin ver al defensor, apoyo pegado al poseedor. Qué observar: ángulo de apoyo, perfil abierto al recibir y primer toque orientado.",
+ "montaje": "Cuadrado de 8 × 8 m con 4 conos. 2 atacantes (amarillos) y 1 defensor (azul) dentro. Un atacante empieza con balón. Con 12 jugadores, 4 cuadrados a la vez.",
+ "juego": "Los 2 atacantes se pasan el balón y se mueven para tener siempre una línea de pase libre. El defensor intenta robar o cortar. Si roba o sale, el que falló pasa a defender.",
+ "punto": "5 pases seguidos = 1 punto. Robo del defensor = 1.",
+ "consigna": "Muévete: ofrece una línea de pase libre.",
+ "variantes": {
+  "facil": "Cuadrado de 10 × 10 m y el defensor solo puede robar con el balón en movimiento.",
+  "dificil": "Cuadrado de 6 × 6 m y 8 pases por punto; los atacantes a 2 toques."
+ },
+ "adaptacion": "Benjamín (8–9): 10 × 10 m, toques libres. Alevín (10–11): como en la ficha. Infantil (12–13): 6 × 6 m y 2 toques.",
+ "fuente": {
+  "autor": "Roger Crusells (vídeo)",
+  "titulo_original": "Cuadrado posicional 2v1: crear línea de pase",
+  "ref": "https://www.youtube.com/watch?v=0zKKabqAvLY"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: ejercicio anunciado como cuadrado posicional 2v1 para crear línea de pase; objetivo: ofrecer apoyo y superar presión con superioridad simple; edad estimada U9–U11. (propuesta): medidas, quién ocupa interior/exterior (aquí, todos libres dentro), reglas de puntuación y rotación, series, variantes y adaptación. La fuente no explica las reglas.",
+ "diagrama": {
+  "field": [
+   8,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 10,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "tag": "8 × 8 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     6.5
+    ],
+    "b": [
+     6.5,
+     1.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     2.5,
+     2.5
+    ],
+    "b": [
+     4,
+     3.6
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 12
+   }
+  ]
+ }
+}

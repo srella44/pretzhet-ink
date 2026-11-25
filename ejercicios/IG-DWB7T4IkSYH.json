@@ -1,0 +1,137 @@
+{
+ "id": "IG-DWB7T4IkSYH",
+ "bloque": "Superioridades",
+ "titulo": "Tirar y defender 2v1",
+ "formato": "1 → 2v1 → 3v2",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "5–8 jug.",
+ "espacio": "40 × 26 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; tras cada acción el tirador va a la fila de atacantes y el atacante sale a tirar (propuesta).",
+ "objetivo": "Transición ataque-defensa: tras finalizar, el tirador defiende de inmediato en inferioridad (2v1) y, en la acción siguiente, con ayuda (3v2). Cómo explicarlo: «acabas la jugada y ya defiendes: frena, no te lances». Errores típicos: celebrar el tiro, no volver a defender, lanzarse al balón. Rotar con cuidado para que el estímulo de color no pese más que el objetivo táctico.",
+ "montaje": "Campo de 40 × 26 m con portería de 6 m y portero. Pasador junto a la portería. Tirador a 18 m con 2 conos de color. Detrás, 2 atacantes con balón.",
+ "juego": "El entrenador dice un color; el tirador toca ese cono, recibe del pasador y tira. Luego defiende a los 2 atacantes con balón (2v1). Después se une el pasador (2 contra 3).",
+ "punto": "Gol del tirador = 1. Defensa que corta = 1. Gol atacante = 1.",
+ "consigna": "Acabas el tiro y ya defiendes.",
+ "variantes": {
+  "facil": "La señal de color la da el entrenador antes de que empiece la acción; los atacantes salen con 2 s de retraso.",
+  "dificil": "El estímulo de color cambia en el último momento y los atacantes salen a la vez que el tiro."
+ },
+ "adaptacion": "Alevín (10–11): sin señal de color y 2v1 en 25 × 20 m. Infantil (12–13): como en la ficha. Cadete (14–15): 3v2 desde el inicio.",
+ "fuente": {
+  "autor": "Reel @edf.futebol (Instagram)",
+  "titulo_original": "Finalizar y entrar a defender en inferioridad",
+  "ref": "https://www.instagram.com/edf.futebol/reel/DWB7T4IkSYH/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tras responder a una señal de color el jugador recibe desde línea de fondo y finaliza; inmediatamente defiende un 2v1; en la siguiente acción se incorpora el pasador inicial y defiende un 3v2; rotar para que el estímulo visual no consuma el objetivo táctico; 5–8 jug. (propuesta). (propuesta): colocación, medidas, conos, series, puntuación y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   26
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 44,
+   "ymin": -2,
+   "ymax": 28
+  },
+  "tag": "40 × 26 m",
+  "cones": [
+   [
+    22,
+    9
+   ],
+   [
+    22,
+    17
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 13,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 36,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 19,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     36,
+     3
+    ],
+    "b": [
+     21,
+     12
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     19,
+     13
+    ],
+    "b": [
+     39,
+     13
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 4
+   },
+   {
+    "a": [
+     2,
+     7
+    ],
+    "b": [
+     16,
+     12
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 12
+   }
+  ]
+ }
+}

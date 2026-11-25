@@ -1,0 +1,159 @@
+{
+ "id": "LU-P043",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 4v4+3",
+ "formato": "4v4+3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "36 × 24 m",
+ "duracion": "15 min",
+ "series": "3 rondas de 4′ con 1′ de pausa; en cada ronda cambian los tres comodines (propuesta).",
+ "objetivo": "Mantener la posesión en superioridad (4 + comodines) y llevar el balón de un fondo al otro con máxima amplitud, ofreciendo siempre líneas de pase abiertas. Cómo explicarlo: «abre el campo, que el balón llegue de lado a lado». Errores típicos: juntarse todos en el balón, pasar sin mirar quién queda libre, quedarse parado tras pasar. Qué observar: separación entre jugadores, perfil del cuerpo al recibir y rapidez para cambiar de rol al perder.",
+ "montaje": "Campo de 36 × 24 m. 4 amarillos y 4 azules dentro; 3 comodines blancos: 1 en el centro y 1 tras cada fondo. Un comodín de fondo empieza con balón.",
+ "juego": "Los amarillos y el comodín llevan el balón de un fondo al otro con amplitud. Comodín central a 1 toque, los de fondo a 2 y no se pasan entre sí. Si roban o sale, cambio de rol.",
+ "punto": "Llegar de un fondo al otro sin perderlo = 1 punto (propuesta).",
+ "consigna": "Abre el campo y ofrece línea de pase.",
+ "variantes": {
+  "facil": "Campo de 40 × 28 m y toques libres; los comodines de fondo sí pueden pasarse entre sí.",
+  "dificil": "Campo de 30 × 20 m, 2 toques para todos y +1 punto si el balón toca a los dos comodines de fondo en la misma jugada."
+ },
+ "adaptacion": "Benjamín (8–9): 3v3 + 3 en 28 × 20 m y toques libres. Infantil (12–13): como en la ficha. Cadete (14–15): 2 toques para todos. Con 8 jugadores: 3v3 + 2 comodines de fondo.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN (2 equipos de 4 + 3)",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 43"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 4 + 3 comodines (1 dentro y 2 fuera, en los extremos), llegar de un extremo a otro con amplitud, comodines exteriores a 2 toques y el central a 1, los exteriores no se juegan entre sí, cambio de rol al perder, 11 jug., 24 × 36 m. (propuesta): colocación concreta, series, variantes y adaptación a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   36,
+   24
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 40,
+   "ymin": -1.5,
+   "ymax": 25.5
+  },
+  "tag": "36 × 24 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -2,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 38,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     17
+    ],
+    "b": [
+     6,
+     19
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     6,
+     19
+    ],
+    "b": [
+     18,
+     13
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     18,
+     13
+    ],
+    "b": [
+     38,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

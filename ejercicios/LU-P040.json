@@ -1,0 +1,199 @@
+{
+ "id": "LU-P040",
+ "bloque": "Superioridades",
+ "titulo": "Salida 8v6 hasta zona 1",
+ "formato": "8v6",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "50 × 45 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4′ con 1′ de pausa; cada ronda cambian los papeles de los dos equipos (propuesta).",
+ "objetivo": "Inicio de juego en superioridad: saltar la presión rival circulando desde el portero, progresar y entrar con el balón controlado en la zona 1. Cómo explicarlo: «portero y centrales atraen, el medio recibe libre». Errores típicos: pase largo sin ver el hueco, centrales sin amplitud, medios pegados a los defensores. Qué observar: amplitud de los centrales, hombre libre entre líneas y decisión de progresar o asegurar.",
+ "montaje": "Campo de 50 × 45 m con portería y portero en un fondo y zona 1 de 12 m en el otro. 8 amarillos en 1-4-3 y 6 azules (línea de 4 y 2 delanteros). Sale el portero.",
+ "juego": "Los amarillos circulan para saltar la presión y entrar con el balón controlado en la zona 1. Los azules presionan juntos. Si roban, atacan la portería.",
+ "punto": "Entrar en zona 1 con balón = 1. Gol azul tras robo = 1.",
+ "consigna": "Atrae, mueve y progresa con el balón.",
+ "variantes": {
+  "facil": "Los 2 delanteros azules no presionan al portero y el campo es de 55 × 48 m.",
+  "dificil": "Máximo 3 toques por jugador y 12 s para llegar a la zona 1 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 6v4 en 40 × 36 m. Infantil (12–13): 8v6 como en la ficha. Cadete (14–15): 40 × 55 m y 3 toques.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ATAQUE VS DEFENSA - Inicio de juego (1-4-3) - Superioridad - Progresión",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 40"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: equipo que inicia con 8 (1-4-3-3 en el gráfico) contra 6 defensores (línea de 4 y 2 delanteros), circular para saltar la presión y entrar con balón controlado en zona 1, tras robo los defensores atacan la portería, 14 jug., 45 × 50 m. (propuesta): medidas de la zona 1, puntuación, series, variantes y adaptación a fútbol base.",
+ "diagrama": {
+  "field": [
+   50,
+   45
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -2,
+   "ymax": 47
+  },
+  "tag": "50 × 45 m · zona 1 al fondo",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     38,
+     0,
+     50,
+     45
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 22.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 28,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 38,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 38,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     22
+    ],
+    "b": [
+     9,
+     28
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     9,
+     28
+    ],
+    "b": [
+     21,
+     33
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     21,
+     33
+    ],
+    "b": [
+     44,
+     33
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ],
+  "labels": [
+   [
+    44,
+    22,
+    "ZONA 1",
+    "middle"
+   ]
+  ]
+ }
+}

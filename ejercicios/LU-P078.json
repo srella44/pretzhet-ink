@@ -1,0 +1,232 @@
+{
+ "id": "LU-P078",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Zonas 2v2 y comodines",
+ "formato": "6v6+2+2P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "45 × 28 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4′ con 1′ de pausa; cada ronda rotan porteros y comodines (propuesta).",
+ "objetivo": "Conectar zonas con hombres libres y tercer hombre: llevar el balón desde el portero hasta la zona 3 para finalizar. Cómo explicarlo: «uno atrae, otro sale libre: busca al tercero». Errores típicos: pase directo sin ver al libre, salirse de la zona, no ayudar al pasador. Qué observar: pase al hombre libre, apoyo del comodín y rapidez en la finalización.",
+ "montaje": "Campo de 45 × 28 m en 3 zonas de 15 m con un 2v2 en cada una (sin salir de ella). Un portero por equipo y 2 comodines libres que juegan con quien ataca.",
+ "juego": "Sale el portero amarillo y lleva el balón a la zona 3 para finalizar (pasando o no por la 2). Los comodines también tiran. Si roban, cambio de rol; si sale, saca el portero.",
+ "punto": "Gol = 1 punto; pasando por las 3 zonas, 2 (propuesta).",
+ "consigna": "Busca al hombre libre y al tercero.",
+ "variantes": {
+  "facil": "Campo de 48 × 30 m; los azules no saltan a presionar hasta que el balón entra en su zona.",
+  "dificil": "Máximo 3 toques por jugador y 15 s para llegar a la zona 3; después el balón pasa al otro equipo (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 2v2 por zona en 36 × 24 m con 1 comodín. Cadete (14–15): como en la ficha. Con 10 jugadores: 4v4 + 2 comodines en 2 zonas.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN - Conectar zonas - Hombres libres - 3ºHombre",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 78"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 6 con 2v2 en cada una de las 3 zonas, 2 porteros y 2 comodines que juegan siempre para quien tiene el balón y pueden finalizar, el balón llega a zona 3 para finalizar, cambio de rol al robo, saca el portero, 16 jug., 28 × 45 m. (propuesta): colocación concreta, series, variantes y adaptación a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   45,
+   28
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 49,
+   "ymin": -2,
+   "ymax": 30
+  },
+  "tag": "45 × 28 m · 3 zonas de 15 m",
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     28
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     28
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 14,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 45,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 21,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": 14,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     14
+    ],
+    "b": [
+     6,
+     21
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     6,
+     21
+    ],
+    "b": [
+     16,
+     14
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     16,
+     14
+    ],
+    "b": [
+     36,
+     7
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     36,
+     7
+    ],
+    "b": [
+     46,
+     13
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 4
+   }
+  ]
+ }
+}

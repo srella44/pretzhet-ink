@@ -1,0 +1,251 @@
+{
+ "id": "LU-P093",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 7v7+3 en zonas",
+ "formato": "7v7+3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "17 jug.",
+ "espacio": "45 × 40 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4′ con 1′ de pausa; cada ronda rotan los comodines (propuesta).",
+ "objetivo": "Atacar la zona lejana y conectar con el comodín contrario: repartir el espacio de la zona central (dos mitades iguales) y usar la superioridad de los comodines. Cómo explicarlo: «sal desde el vértice y llega al otro lado». Errores típicos: pisarse el espacio, pasar al vértice sin ángulo, olvidar al comodín libre. Qué observar: reparto en la zona 2, salida en conducción para fijar y apoyos al balón.",
+ "montaje": "Campo de 45 × 40 m en 3 zonas (la central, en 2 mitades). 7 amarillos y 7 azules por zonas. 3 comodines: 1 en cada vértice y 1 en la zona central. Empieza un comodín con balón.",
+ "juego": "El comodín con balón y los amarillos buscan al comodín contrario. Nadie sale de su zona, salvo el comodín central o quien conduce para fijar. Si roban, cambio de rol.",
+ "punto": "Pase al comodín contrario = 1 punto (propuesta).",
+ "consigna": "Reparte la zona 2 y llega al otro vértice.",
+ "variantes": {
+  "facil": "Los azules no presionan hasta que el balón llega a la zona 2; campo de 48 × 44 m.",
+  "dificil": "Comodines a 2 toques, 3 toques para todos y 10 s para llegar al vértice contrario (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 5v5 + 3 en 40 × 36 m. Cadete (14–15): como en la ficha. Con 12 jugadores: 4v4 + 4 comodines y 2 zonas.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN 7 vs 7 + 3 en 3 zonas horizontales (DFC - LAT - MC - INT)",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 93"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: comodín empieza con balón y se asocia con el equipo que ataca la zona lejana para conectar con el comodín contrario, reparto racional en zona 2 (dos mitades), saca el comodín vértice, 17 jug., 40 × 45 m. (propuesta): colocación concreta, series, variantes y adaptación a fútbol base (la fuente es de categorías mayores).",
+ "diagrama": {
+  "field": [
+   45,
+   40
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 50,
+   "ymin": -2,
+   "ymax": 42
+  },
+  "tag": "45 × 40 m · 3 zonas",
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     33,
+     0
+    ],
+    [
+     33,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     22.5,
+     0
+    ],
+    [
+     22.5,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -3,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 48,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 29,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 31,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -3,
+     20
+    ],
+    "b": [
+     5,
+     31
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     5,
+     31
+    ],
+    "b": [
+     16,
+     27
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     16,
+     27
+    ],
+    "b": [
+     28,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     28,
+     12
+    ],
+    "b": [
+     48,
+     20
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

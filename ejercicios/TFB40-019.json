@@ -1,0 +1,175 @@
+{
+ "id": "TFB40-019",
+ "bloque": "Superioridades",
+ "titulo": "Posesión 6v4 y minis",
+ "formato": "6v4",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "3 bloques de 3′ con 1′ de descanso; en cada bloque cambian los 4 que defienden.",
+ "objetivo": "Mantener la posesión en superioridad ocupando bien el espacio y, en defensa, presionar para robar y finalizar rápido. Cómo explicarlo: «abre el campo y pase tenso; si robas, mira portería». Errores típicos: los 4 abiertos se cierran hacia el balón, pases blandos, defensores que presionan por separado. Qué observar: amplitud de los abiertos y presión coordinada de los 4.",
+ "montaje": "Campo de 25 × 20 m con 2 miniporterías en cada fondo. 6 amarillos (4 abiertos, cerca de las esquinas, y 2 por dentro) y 4 azules en el centro. Empiezan los amarillos.",
+ "juego": "Los 6 mantienen el balón y suman pases. Si los 4 azules roban, marcan en cualquiera de las 4 miniporterías. Tras gol o balón fuera, el entrenador da otro balón a los 6. Los roles rotan cada bloque.",
+ "punto": "8 pases seguidos = 1 punto (6). Gol tras robo = 1 punto (4).",
+ "consigna": "Abre el campo y pasa tenso.",
+ "variantes": {
+  "facil": "Espacio de 30 × 22 m o toques libres para los amarillos.",
+  "dificil": "Dos toques como máximo para los 6, o solo 2 miniporterías para los defensores."
+ },
+ "adaptacion": "Benjamín (8–9): toques libres para los seis. Alevín (10–11): 2 toques y 5 s para marcar al robar. Infantil (12–13): como en la ficha.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Posesión 6 contra 4 con finalización en miniporterías tras robo",
+  "ref": "40 tareas de transiciones y oleadas · pág. 29"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 25 × 20 m, 4 miniporterías (2 por fondo), 6 en posesión (4 abiertos y 2 por dentro) contra 4, 8 pases = 1 punto, gol tras robo = 1, bloques de 3–4 min, rotación de roles, variantes y adaptación. (propuesta): edad (12–15 años); el texto se resumió.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "tag": "25 × 20 m",
+  "goals": [
+   [
+    0,
+    6,
+    "L"
+   ],
+   [
+    0,
+    14,
+    "L"
+   ],
+   [
+    25,
+    6,
+    "R"
+   ],
+   [
+    25,
+    14,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     17
+    ],
+    "b": [
+     10.5,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     10.5,
+     10
+    ],
+    "b": [
+     22,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     22,
+     3
+    ],
+    "b": [
+     22,
+     17
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

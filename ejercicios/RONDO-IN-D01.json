@@ -1,0 +1,147 @@
+{
+ "id": "RONDO-IN-D01",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v3 con dos apoyos",
+ "formato": "4v3+2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "4 series de 3′ con 45″ de pausa; tras cada serie se cambian los 3 defensores y los 2 apoyos.",
+ "objetivo": "Mantener la posesión con superioridad y usar los apoyos exteriores para cambiar de lado y salir del presionado. Cómo explicarlo: «si el defensor cierra, juega al apoyo y sal por el lado libre». Errores típicos: pasar siempre al mismo lado, apoyos que se pegan al rectángulo, no mirar antes de recibir. Qué observar: giro del cuerpo, cambios de orientación y reacción de los 3 al perder.",
+ "montaje": "Rectángulo de 20 × 15 m. 4 amarillos dentro, 2 apoyos exteriores (uno fuera en cada lado corto) y 3 azules. Un amarillo empieza con balón.",
+ "juego": "Los 4 amarillos y los apoyos mantienen el balón; apoyos a 2 toques. Si un azul roba, saca el balón del rectángulo conduciendo (salida). Luego, otro balón a los amarillos.",
+ "punto": "8 pases seguidos = 1 punto. Cada salida azul = 1.",
+ "consigna": "Cambia de lado con el apoyo.",
+ "variantes": {
+  "facil": "4 contra 2 dentro del rectángulo, con los 2 apoyos.",
+  "dificil": "Los apoyos juegan a 1 toque si el balón va de apoyo a apoyo; 10 pases por punto (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4v3 en 20 × 18 m y 2 toques. Infantil (12–13): como en la ficha. Cadete (14–15): 4v3 en 18 × 13 m y apoyos a 1 toque.",
+ "fuente": {
+  "autor": "RONDO · Volumen 4 (12–13 años)",
+  "titulo_original": "4 contra 3 con dos apoyos",
+  "ref": "RONDO Vol4 · págs. 3, 12, 21, 23, 25, 32"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 20 × 15 m, 4 en posesión + 2 apoyos exteriores contra 3, 1 punto cada 8 pases y 1 punto por cada salida de los defensores, quien recupera saca el balón del rectángulo conduciendo, más fácil 4v2, más difícil apoyos al primer toque, 12 min. Jugadores: 9 (la base decía 7 (propuesta)). (propuesta): colocación exacta, series, toques de los apoyos y adaptación.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 25,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "tag": "20 × 15 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -2.5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 22.5,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     12
+    ],
+    "b": [
+     -2.5,
+     7.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     -2.5,
+     7.5
+    ],
+    "b": [
+     3,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     17,
+     3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

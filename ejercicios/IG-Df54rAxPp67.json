@@ -1,0 +1,157 @@
+{
+ "id": "IG-Df54rAxPp67",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Salida con pivote que baja",
+ "formato": "5+P v 2",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cada ronda rota el portero, el pivote y los delanteros (propuesta).",
+ "objetivo": "Salida de balón con 3 atrás: el pivote baja entre los centrales para liberar la conducción de un central y subir a los laterales. Cómo explicarlo: «si baja el pivote, el central tiene tiempo y campo para conducir». Errores típicos: pivote que baja tarde o se queda pegado al delantero, laterales demasiado bajos, central que conduce sin mirar. Qué observar: qué salida deja el segundo delantero y cuándo el pivote baja o se queda.",
+ "montaje": "Campo de 40 × 30 m con portería de 6 m y línea de conos a 22 m. Portero, 2 centrales, pivote y 2 laterales contra 2 delanteros.",
+ "juego": "El portero saca; el pivote baja entre los centrales para que uno conduzca y rebase la 1.ª presión; los laterales suben. Si roban, tiran. Acaba al cruzar la línea o al robar.",
+ "punto": "Central que rebasa conduciendo = 1; lateral que recibe alto = 1.",
+ "consigna": "Baja el pivote, conduce el central.",
+ "variantes": {
+  "facil": "Un solo delantero presiona y los laterales empiezan ya en la banda, preparados para recibir.",
+  "dificil": "Los 2 delanteros presionan a máxima intensidad y el segundo cierra la línea con el pivote; 3 toques máximo por jugador (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): como en la ficha. Alevín (10–11): 4+P contra 2 con 1 central menos. Cadete (14–15): línea a 30 m y salida en 8 s.",
+ "fuente": {
+  "autor": "Reel @klube.ai (Instagram)",
+  "titulo_original": "El pivote baja para liberar la conducción",
+  "ref": "https://www.instagram.com/klube.ai/reel/Df54rAxPp67/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: desde portería el pivote puede situarse entre los centrales y subir los laterales; se puntúa si un central rebasa conduciendo la primera presión o un lateral recibe alto; leer qué salida deja el segundo delantero; 5 de campo y portero contra 2, U13. (propuesta): medidas, línea de conos, tiempos, puntuación del robo, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 44,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "tag": "40 × 30 m",
+  "lines": [
+   [
+    [
+     22,
+     0
+    ],
+    [
+     22,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 23,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     15
+    ],
+    "b": [
+     7,
+     23
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     7,
+     23
+    ],
+    "b": [
+     21,
+     25
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     21,
+     25
+    ],
+    "b": [
+     24,
+     27
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 9
+   }
+  ]
+ }
+}

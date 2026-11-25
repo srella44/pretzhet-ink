@@ -1,0 +1,220 @@
+{
+ "id": "LU-P074",
+ "bloque": "Superioridades",
+ "titulo": "Posesión 4v4+3 por dentro",
+ "formato": "4v4+3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "26 × 22 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cada ronda rotan los 3 comodines (propuesta).",
+ "objetivo": "Superioridad por dentro y juego en amplitud: usar a los comodines del centro para mantener el balón y cambiarlo de lado. Cómo explicarlo: «entra por dentro y sal por fuera». Errores típicos: pasar solo por fuera, salir de la subzona, comodín sin perfil abierto. Qué observar: cuándo se usa al comodín, amplitud del equipo con balón y cierre del centro al perder.",
+ "montaje": "Campo de 26 × 22 m con franja central de 8 m en 3 subzonas, 1 comodín en cada una (no salen). 4 amarillos y 4 azules fuera de la franja: 2 centrales y 2 laterales cada uno.",
+ "juego": "Los amarillos mantienen el balón con los comodines (a 1 toque) y lo cambian de lado en amplitud; el resto, a 2 toques. Si pierden, cierran el centro y los azules salen en amplitud.",
+ "punto": "12 pases seguidos = 1 punto.",
+ "consigna": "Entra por dentro y sal en amplitud.",
+ "variantes": {
+  "facil": "Toques libres para los equipos y comodines a 2 toques; campo de 30 × 24 m.",
+  "dificil": "Equipos a 2 toques y 15 pases por punto; si el equipo roba, puntúa con 6 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 3v3 + 3 en 22 × 18 m. Infantil (12–13): como en la ficha. Cadete (14–15): 2 toques y 15 pases por punto.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN - Superioridad por dentro - Jugar en amplitud - Cambios de rol",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 74"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 4 (2 centrales y 2 laterales) + 3 comodines por dentro en subzonas, circular en amplitud, 12 pases seguidos = 1 punto, 2 contactos (comodines 1), comodines no salen de su subzona, 11 jug., 26 × 22 m. (propuesta): colocación exacta, series, variantes y adaptación a fútbol base.",
+ "diagrama": {
+  "field": [
+   26,
+   22
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 29,
+   "ymin": -2,
+   "ymax": 24
+  },
+  "tag": "26 × 22 m · 3 subzonas",
+  "lines": [
+   [
+    [
+     0,
+     7
+    ],
+    [
+     26,
+     7
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     26,
+     15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     8.7,
+     7
+    ],
+    [
+     8.7,
+     15
+    ],
+    "6 5"
+   ],
+   [
+    [
+     17.3,
+     7
+    ],
+    [
+     17.3,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 4.3,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21.7,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     19
+    ],
+    "b": [
+     4.3,
+     11
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     4.3,
+     11
+    ],
+    "b": [
+     8,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     8,
+     3
+    ],
+    "b": [
+     18,
+     3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     18,
+     3
+    ],
+    "b": [
+     24,
+     19
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "id": "IG-DeHf8h9so_Z",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Recuperar y acabar",
+ "formato": "4v4",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug.",
+ "espacio": "40 × 26 m",
+ "duracion": "14 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cada ronda se cambia quién ataca primero (propuesta).",
+ "objetivo": "Presión tras pérdida: el equipo que pierde el balón lo recupera en 5 s y acaba la jugada. Coordinar al primer presionador con quien protege el pase de salida. Cómo explicarlo: «pierdes, cuenta hasta 5 y recupera». Errores típicos: presionar todos al balón y dejar libre el pase, lanzarse tarde, tirar sin mirar. Qué observar: quién presiona primero, quién tapa la salida y la decisión de tirar o asegurar.",
+ "montaje": "Campo de 40 × 26 m con miniportería de 3 m en cada fondo. 4 amarillos contra 4 azules y 1 balón. Empiezan los amarillos; el entrenador cuenta los segundos.",
+ "juego": "Cada equipo ataca su miniportería. Al perder el balón, tiene 5 s para recuperarlo y acabar la jugada. El 1.º presiona al balón y otro tapa el pase de salida. Fuera: saca el entrenador.",
+ "punto": "Gol = 1 punto; gol tras recuperar en 5 s o menos = 2 puntos.",
+ "consigna": "Pierdes, presiona: 5 segundos.",
+ "variantes": {
+  "facil": "Dar 8 s para recuperar y que el equipo que atacó empiece cada jugada con 2 toques de ventaja (5v4).",
+  "dificil": "3 s para recuperar y un máximo de 3 toques tras la recuperación (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 3v3 en 30 × 20 m y 8 s. Alevín (10–11): como en la ficha. Infantil (12–13): 5v5 en 45 × 30 m y 4 s.",
+ "fuente": {
+  "autor": "Reel @edf.futebol (Instagram)",
+  "titulo_original": "Recuperar y acabar la misma posesión",
+  "ref": "https://www.instagram.com/edf.futebol/reel/DeHf8h9so_Z/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: finalización vale dos puntos si se recupera en cinco segundos y se llega al tiro antes de volver a perderla; coordinar al primer presionador con quien protege el pase de salida; U11 y 8–12 jug. (propuesta). (propuesta): campo, porterías, 4v4, tiempos, series, variantes y adaptación (la fuente solo da la regla de puntos).",
+ "diagrama": {
+  "field": [
+   40,
+   26
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 28
+  },
+  "tag": "40 × 26 m",
+  "goals": [
+   [
+    0,
+    13,
+    "L"
+   ],
+   [
+    40,
+    13,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 18,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     20
+    ],
+    "b": [
+     27,
+     18
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 12
+   },
+   {
+    "a": [
+     22,
+     13
+    ],
+    "b": [
+     25,
+     17
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 12
+   },
+   {
+    "a": [
+     29,
+     18
+    ],
+    "b": [
+     40,
+     13
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "id": "LU-P259",
+ "bloque": "Superioridades",
+ "titulo": "Tres grupos: 3v2 y 2v3",
+ "formato": "3v2 / 2v3",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug. + 2 porteros",
+ "espacio": "50 × 34 m",
+ "duracion": "16 min",
+ "series": "6 vueltas de 2′ con 1′ de pausa; cada vuelta rota qué grupo ataca desde el centro (propuesta).",
+ "objetivo": "Finalización en superioridad (3v2) y defensa en inferioridad (2v3), con transición inmediata. Cómo explicarlo: «pase alto para empezar; al acabar, ya defiendes 2 contra 3». Errores típicos: pase alto sin dirección, los 3 atacantes en línea, defensores que se tiran. Qué observar: ritmo de ataque, ocupación del ancho y temporizar del defensor.",
+ "montaje": "Campo de 50 × 34 m con portería y portero en cada fondo. 3 grupos de 5: rojos (portería izquierda), amarillos (derecha) y azules (centro), que atacan una vez.",
+ "juego": "Un azul da un pase alto y 3 azules atacan a 2 rojos hacia la portería roja. Al acabar, los otros 2 azules defienden contra 3 amarillos que atacan la portería azul (2v3). Se rota.",
+ "punto": "Gol atacante = 1. Defensa en inferioridad que corta = 1.",
+ "consigna": "Ataca rápido y defiende después.",
+ "variantes": {
+  "facil": "Los 2 defensores reciben ayuda de un tercero que sale con 3 s de retraso (3v3).",
+  "dificil": "Máximo 8 s por ataque y 3 toques por atacante (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 25 m y 10 s. Infantil (12–13): como en la ficha. Cadete (14–15): 55 × 36 m y 6 s por ataque.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ATAQUE VS DEFENSA - Finalizaciones 1 (3x2) - Pere Riera @Pere36287525",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 259"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 grupos de 5 (rojo y amarillo atacan y defienden; el azul se coloca en medio y solo hace un ataque), pase alto al compañero para iniciar el 3v2, al terminar se defiende un 2v3, 17 jug., 50 × 50 m. (propuesta): reparto de grupos entre porterías, puntuación, series, variantes y adaptación; la descripción de la fuente es breve y se interpretó.",
+ "diagrama": {
+  "field": [
+   50,
+   34
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -2,
+   "ymax": 36
+  },
+  "tag": "50 × 34 m",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 17,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 20,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     3
+    ],
+    "b": [
+     20,
+     9
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     20,
+     9
+    ],
+    "b": [
+     27,
+     17
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     27,
+     17
+    ],
+    "b": [
+     20,
+     25
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     20,
+     25
+    ],
+    "b": [
+     48,
+     19
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 4
+   }
+  ]
+ }
+}

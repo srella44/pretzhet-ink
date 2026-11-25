@@ -1,0 +1,123 @@
+{
+ "id": "PIK-AV-023",
+ "bloque": "Superioridades",
+ "titulo": "Duelos 1v1, 2v1 y 2v2",
+ "formato": "1v1 → 2v2",
+ "edad": "9–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug.",
+ "espacio": "22 × 14 m",
+ "duracion": "12 min",
+ "series": "3 bloques de 3′ (1v1, 2v1 y 2v2) con 1′ de pausa; se rota en fila tras cada acción (propuesta).",
+ "objetivo": "Progresión de duelos a miniportería: 1v1, 2v1 y 2v2. Practicar el duelo, la cooperación para progresar y la defensa en inferioridad. Cómo explicarlo: «si hay ventaja, pasa y aprovéchala; si defiendes en inferioridad, frena». Errores típicos: el atacante que no pasa en el 2v1, defensor que se lanza, desmarques paralelos. Qué observar: toma de decisión y reacción del 2.º defensor.",
+ "montaje": "Campo de 22 × 14 m con miniportería de 3 m en cada fondo. Los jugadores esperan en filas junto a los fondos. Bloque 1: 1v1; 2: 2v1; 3: 2v2. Un atacante empieza con balón.",
+ "juego": "El atacante sale con balón a la miniportería contraria; el defensor sale del fondo opuesto. En el 2v1 se suma un atacante; en el 2v2, un 2.º defensor sale 1 s más tarde. Si roba, ataca la mini contraria.",
+ "punto": "Gol = 1 punto. Robo y gol = 2 puntos.",
+ "consigna": "Duelo: decide y pasa si hay ventaja.",
+ "variantes": {
+  "facil": "El defensor no puede robar durante el 1.er toque del atacante y la mini es de 4 m.",
+  "dificil": "Acción de 8 s como máximo y miniporterías de 2 m (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 15 × 10 m y solo 1v1 y 2v1. Alevín (10–11): como en la ficha. Infantil (12–13): 2v2 con 6 s de tiempo.",
+ "fuente": {
+  "autor": "Onside Training (vídeo)",
+  "titulo_original": "Duelo progresivo a miniporterías: 1v1, 2v1 y 2v2",
+  "ref": "https://www.youtube.com/watch?v=OpEBhzAzWqY"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: vídeo con tres variantes a miniporterías (1v1, 2v1 y 2v2); objetivo: duelos, cooperación para progresar y defensa en inferioridad. (propuesta): se unieron como un solo ejercicio progresivo; campo, rotación, tiempos, puntuación, variantes y adaptación. La fuente no explica las rotaciones.",
+ "diagrama": {
+  "field": [
+   22,
+   14
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 25,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "tag": "22 × 14 m",
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    22,
+    7,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     4
+    ],
+    "b": [
+     13,
+     3
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     5,
+     10
+    ],
+    "b": [
+     13,
+     11
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     13,
+     3
+    ],
+    "b": [
+     13,
+     11
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "LU-P262",
+ "bloque": "Superioridades",
+ "titulo": "Oleadas 2v1 a 8v8",
+ "formato": "2v1 → 8v8",
+ "edad": "10–13 años",
+ "nivel": "Alto",
+ "jugadores": "16 jug. + 2 porteros",
+ "espacio": "50 × 34 m",
+ "duracion": "16 min",
+ "series": "2 vueltas completas (2v1 hasta 8v8) con 2′ de pausa entre vueltas; si hay menos de 16, se llega hasta 6v6.",
+ "objetivo": "Superioridades y finalización en cadena: cada acción suma 2 atacantes y 1 defensor hasta jugar un 8v8, con transición inmediata tras robo. Cómo explicarlo: «ataca rápido: en cuanto acabas, cambias de papel». Errores típicos: no ocupar el ancho, retrasar el tiro, defensores que no se reorganizan. Qué observar: velocidad de reacción tras cada cambio y colocación de la defensa en inferioridad.",
+ "montaje": "Campo de 50 × 34 m con portería y portero en cada fondo. 2 equipos de 8 (amarillos y azules) en las bandas junto a cada portería. Empiezan los azules con balón.",
+ "juego": "Azules atacan un 2v1. Luego salen 2 amarillos: 3v2 (los 2 nuevos + el que defendía). Después 2 azules: 4v3, y así hasta el 8v8. Quien roba hace transición y ataca la portería contraria.",
+ "punto": "Gol = 1 punto. Gol del equipo en inferioridad = 2 (propuesta).",
+ "consigna": "Acabas la jugada y ya cambias de papel.",
+ "variantes": {
+  "facil": "El equipo defensor no puede robar hasta el 2.º pase de los atacantes en las primeras 4 acciones.",
+  "dificil": "Máximo 10 s por acción y 3 toques por jugador (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): hasta 5v5 en 40 × 28 m. Infantil (12–13): como en la ficha. Cadete (14–15): 55 × 38 m y 10 s por acción.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ATAQUE VS DEFENSA - Finalizaciones 4 (2x1, 3x2...) - Pere Riera @Pere36287525",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 262"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 8, 2v1 azules, luego salen 2 amarillos (3v2), 2 azules (4v3) y así hasta el 8v8, tras robo el defensor hace transición y marca en la portería contraria, 18 jug., 50 × 50 m. (propuesta): puntuación, series, variantes y adaptación; el diagrama muestra la fase 3v2.",
+ "diagrama": {
+  "field": [
+   50,
+   34
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -2,
+   "ymax": 36
+  },
+  "tag": "50 × 34 m",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 17,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 20,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     9
+    ],
+    "b": [
+     26,
+     17
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     26,
+     17
+    ],
+    "b": [
+     20,
+     25
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     20,
+     25
+    ],
+    "b": [
+     48,
+     19
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 4
+   }
+  ]
+ }
+}

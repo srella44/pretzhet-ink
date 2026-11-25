@@ -1,0 +1,159 @@
+{
+ "id": "LU-P098",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 3 equipos de 3",
+ "formato": "3v3v3+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "24 × 20 m",
+ "duracion": "15 min",
+ "series": "5 rondas de 3′ con 1′ de pausa; cada ronda rota quién empieza defendiendo (propuesta).",
+ "objetivo": "Mantener la posesión entre dos equipos de 3 (central, medio y delantero) contra otro de 3, y reorganizarse al cambiar de rol. Cómo explicarlo: «cuando pierdes, defiende; cuando robas, colócate en tu puesto». Errores típicos: tardar en reubicarse, no ofrecer ángulo, pasar siempre al mismo lado. Qué observar: velocidad del cambio de rol y colocación defensiva.",
+ "montaje": "Campo de 24 × 20 m. 3 equipos de 3 (amarillos, rojos y azules) y 2 comodines, uno fuera en cada fondo. Amarillos y rojos empiezan con balón; azules defienden.",
+ "juego": "Amarillos y rojos juegan juntos contra los azules; un comodín empieza y se asocia con uno. Quien pierde pasa a defender. Comodines a 2 toques, sin robo y sin pasarse entre sí.",
+ "punto": "Cada 10 pases seguidos = 1 punto (propuesta).",
+ "consigna": "Pierdes, defiende; robas, colócate.",
+ "variantes": {
+  "facil": "Campo de 28 × 22 m y toques libres; los azules solo defienden en zona hasta el 3.er pase.",
+  "dificil": "2 toques para todos y 12 pases por punto; si el defensor roba, punto doble (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 3 equipos de 2 + 2 comodines en 20 × 16 m. Infantil (12–13): como en la ficha. Cadete (14–15): 2 toques y 12 pases por punto.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN 3vs3+3+2P (DFC - MC / INT - DLC)",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 98"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 equipos de 3 (central, medio y delantero), 2 empiezan en posesión y el tercero defiende, cambio de rol al perder y reubicarse con rapidez, comodines (P) a 2 contactos, no se les roba y no juegan entre ellos, 11 jug., 20 × 24 m. (propuesta): puntuación, colocación, series, variantes y adaptación a fútbol base.",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 28,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "tag": "24 × 20 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 26,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     15
+    ],
+    "b": [
+     9,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     9,
+     10
+    ],
+    "b": [
+     15,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     15,
+     10
+    ],
+    "b": [
+     26,
+     10
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}
