@@ -1,0 +1,160 @@
+{
+ "id": "LU-P251",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Presión de 3 puntas a 4+P",
+ "formato": "3v4+P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + 1 P",
+ "espacio": "50 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ 30″ de pausa; rotan los tres atacantes con suplentes o con la línea defensiva (propuesta).",
+ "objetivo": "Ajustes del bloque de los 3 atacantes al presionar la salida de 4 defensas y portero, y transición defensa-ataque tras robo (fuente). Cómo explicarlo: «el del centro salta al que recibe; los de fuera cierran el pase por dentro y empujan hacia la banda». Errores típicos: los tres saltan a la vez y dejan pasillos, presionar sin orientar, tras robar no mirar la portería. Qué observar: distancias entre los tres (10–12 m), carrera curva para tapar el pase al central, finalización rápida tras robo. Material: 2 picas, 1 portería, conos, balones junto al portero.",
+ "montaje": "50 × 40 m con portería y portero en un fondo y 2 picas en el contrario (propuesta). 4 defensas + portero contra 3 atacantes. Empieza siempre el portero.",
+ "juego": "Los defensas sacan el balón y puntúan derribando una pica. Los 3 atacantes presionan juntos; si roban, atacan la portería.",
+ "punto": "Defensas: pica 1. Atacantes: gol tras robo 2; robo arriba 1 (propuesta).",
+ "consigna": "Salta en bloque y cierra el pase por dentro.",
+ "variantes": {
+  "facil": "Los defensas juegan a 2 toques y solo vale una pica (propuesta).",
+  "dificil": "Un mediocentro más con los defensas (3 contra 5 + P) y gol tras robo antes de 8 s (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 3 contra 3 + P en 40 × 30 m. Infantil (12–13): tal cual. Cadete (14–15): 3 contra 5 + P (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "PARTIDO CONDICIONADO SECTORIAL DEFENSIVO 3C4+1P - Benjamín FA @Bfafiera - Zonadefutbol.es",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 251"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4 defensas + portero contra 3 atacantes, se inicia de puerta, los atacantes deben impedir que marquen tirando la pica y si recuperan atacan la portería; ajustes sectoriales de los 3 atacantes y transición; 8 jugadores, 40 × 50 m. Número y lugar de las picas, puntos de los atacantes, series, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 51.5,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    48,
+    10
+   ],
+   [
+    48,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 11,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 31,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     20
+    ],
+    "b": [
+     11.5,
+     26.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     31
+    ],
+    "b": [
+     15,
+     28.5
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     21
+    ],
+    "b": [
+     18,
+     21
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    48,
+    33.4,
+    "PICAS",
+    "middle"
+   ]
+  ]
+ }
+}

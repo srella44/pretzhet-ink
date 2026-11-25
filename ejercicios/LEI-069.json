@@ -1,0 +1,216 @@
+{
+ "id": "LEI-069",
+ "bloque": "Balón parado",
+ "titulo": "4v4 en el área con pasadores",
+ "formato": "4v4+4",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 1 P",
+ "espacio": "Área grande",
+ "duracion": "15 min",
+ "series": "3 partes de 4′ con 1′ de pausa; en cada parte un equipo pasa a ser pasador (propuesta).",
+ "objetivo": "Reconocer rápido la ocasión de tiro y pasar para que el compañero remate de primeras (fuente). Cómo explicarlo: «el pase tiene que dejar el balón listo para tirar sin controlar». Errores típicos: controlar de más dentro del área, pase al pie trasero, nadie sigue el rechace. Qué observar: perfil del cuerpo al tirar, pase tenso de los pasadores, transición del equipo que roba. Material: 1 portería, 12 balones, petos de 3 colores.",
+ "montaje": "Área grande con portería y portero. Tres equipos de 4: dos juegan 4 contra 4 dentro; el tercero pasa desde fuera: uno en cada lado y dos en la frontal.",
+ "juego": "Los atacantes combinan con los pasadores y buscan el gol. Si roban los defensores, pasan antes con un pasador y luego atacan la misma portería. Pasadores a 2 toques.",
+ "punto": "Gol: 1. Gol al primer toque o de cabeza: 2 (propuesta).",
+ "consigna": "Pásala lista para tirar de primeras.",
+ "variantes": {
+  "facil": "Pasadores con toques libres y 4 contra 3 dentro (propuesta).",
+  "dificil": "Los defensores pueden entrar a los pasadores, y tras robo hay que tirar en 5 pases como máximo (progresión 3 de la fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): 3 contra 3 + 3 en un área de fútbol 7. Alevín (10–11): tal cual. Infantil (12–13): solo valen goles al primer toque y de cabeza (fuente).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Quick passing and finishing in the penalty area.",
+  "ref": "LeicesterCity.pdf · p. 76"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tres equipos de 4, dos juegan 4 contra 4 en el área sobre una portería con portero, el tercero hace de pasador alrededor del área; el defensor que roba debe pasar con un exterior antes de atacar; progresiones: pasadores a 2 toques, los dos de banda pueden tirar de primeras, los defensores pueden entrar a los pasadores, tras robo tirar en 5 pases, solo valen goles al primer toque y de cabeza. Colocación exacta de los pasadores, puntuación doble, series y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   16.5
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1.6,
+   "ymax": 19.4
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     10.85,
+     0
+    ],
+    [
+     10.85,
+     5.5
+    ],
+    "none"
+   ],
+   [
+    [
+     10.85,
+     5.5
+    ],
+    [
+     29.15,
+     5.5
+    ],
+    "none"
+   ],
+   [
+    [
+     29.15,
+     5.5
+    ],
+    [
+     29.15,
+     0
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -1.8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 41.8,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 18.2,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 18.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 12.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9.5,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 12,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 7.5,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 26.5,
+    "y": 12.5,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 5.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     12.5
+    ],
+    "b": [
+     26.6,
+     17.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     18.2
+    ],
+    "b": [
+     24.3,
+     8.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     8.2
+    ],
+    "b": [
+     22.5,
+     0.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 4,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    20,
+    19.3,
+    "PASADORES",
+    "middle"
+   ]
+  ]
+ }
+}

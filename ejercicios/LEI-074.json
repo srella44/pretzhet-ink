@@ -1,0 +1,180 @@
+{
+ "id": "LEI-074",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4v4 a tres miniporterías",
+ "formato": "4v4",
+ "edad": "11–14 años",
+ "nivel": "Normal",
+ "jugadores": "8–9 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "20 min",
+ "series": "4 partes de 4′ con 1′ de pausa; en la 3.ª entra el comodín y en la 4.ª el gol da el balón al que marca (fuente y propuesta).",
+ "objetivo": "Defender en grupo (fuente): orientar el bloque hacia el balón, abrirse lo justo para tapar las tres porterías y salir al poseedor por parejas; el atacante busca la portería que queda libre. Cómo explicarlo: «uno sale al balón y el de al lado cubre; los otros dos tapan las porterías del centro». Errores típicos: cuatro defensores en una portería, entrada lanzada al suelo, nadie cubre al que sale. Qué observar: aproximación y perfil, frenar al atacante (amagar la entrada sin lanzarse), cambio de orientación del ataque. Material: 6 miniporterías, conos, petos y un peto de comodín.",
+ "montaje": "30 × 20 m con 3 miniporterías en cada fondo. 4 contra 4: cada equipo defiende las 3 de su fondo y ataca las 3 del rival.",
+ "juego": "Al defender, uno sale al poseedor, el de al lado le cubre y los otros tapan porterías. Tras gol saca quien encaja. Progresión 1: un comodín juega con el que tiene el balón.",
+ "punto": "Gol en cualquier miniportería: 1. Progresión 2: tras gol, el que marca sigue con el balón y ataca las otras 3.",
+ "consigna": "Uno sale al balón y el compañero cubre.",
+ "variantes": {
+  "facil": "Solo cuentan las porterías de los lados (2 por equipo) y se juega 4 contra 3 (propuesta).",
+  "dificil": "La portería central vale doble y se marca solo al primer toque en ella (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 3 contra 3 en 25 × 18 m. Alevín (10–11): tal cual. Infantil (12–13): con comodín y progresión 2 desde el inicio (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "4v4 on three goals",
+  "ref": "LeicesterCity.pdf · p. 82"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tres porterías pequeñas en cada fondo de 20 × 30 m, 4v4, cada equipo defiende las tres de su fondo y ataca las otras; progresión 1, comodín para el que tiene el balón; progresión 2, tras gol se mantiene el balón y se atacan las otras tres; defensa en grupo, salir por parejas, frenar al atacante. Colocación exacta de las porterías, saque tras gol, series, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 31.2,
+   "ymin": -0.8,
+   "ymax": 20.8
+  },
+  "goals": [
+   [
+    0,
+    4,
+    "L"
+   ],
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    0,
+    16,
+    "L"
+   ],
+   [
+    30,
+    4,
+    "R"
+   ],
+   [
+    30,
+    10,
+    "R"
+   ],
+   [
+    30,
+    16,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 17.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17.5,
+     15.5
+    ],
+    "b": [
+     13.8,
+     15.2
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     23,
+     11
+    ],
+    "b": [
+     19.5,
+     12.8
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 10,
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     15
+    ],
+    "b": [
+     15.6,
+     6.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    24.5,
+    19.4,
+    "SALE UNO, CUBRE OTRO",
+    "middle"
+   ]
+  ]
+ }
+}

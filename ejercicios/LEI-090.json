@@ -1,0 +1,222 @@
+{
+ "id": "LEI-090",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Juego de los tres cuadrados",
+ "formato": "4v4+8",
+ "edad": "11–14 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "20 min",
+ "series": "4 partes de 4′ con 1′ de pausa; en cada pausa los de dentro cambian con los de fuera (propuesta).",
+ "objetivo": "Crear ángulos de apoyo para el poseedor y jugar paredes a uno o dos toques con ambas piernas, con paciencia en la posesión (fuente). Cómo explicarlo: «antes de pasar al de fuera, piensa dónde te vas a mover para que te la devuelva». Errores típicos: pasar al exterior y quedarse quieto, apoyos en línea con el rival en medio, pases flojos. Qué observar: ángulo y distancia del apoyo, pase al pie bueno, desmarque tras el pase. Material: conos para 3 zonas, petos de 2 colores, balones de repuesto.",
+ "montaje": "40 × 40 m en 3 franjas: central de 20 m y dos exteriores de 10 m. 4 contra 4 en la central y, en cada exterior, 2 jugadores de cada color (propuesta).",
+ "juego": "Los de dentro conservan el balón y buscan paredes con los exteriores de su color. Al exterior solo le presiona el exterior rival de su franja (propuesta). Tras robo, cambia el que puntúa.",
+ "punto": "Pared completada con un exterior de tu color: 1.",
+ "consigna": "Pasa, muévete y pide la devolución.",
+ "variantes": {
+  "facil": "Exteriores sin presión y 3 toques dentro (propuesta).",
+  "dificil": "Pared a un toque para el exterior y no se puede repetir el mismo exterior dos veces seguidas (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 3 contra 3 + 6 en 30 × 30 m. Infantil (12–13): tal cual. Cadete (14–15): dentro a 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "3 Square Game.",
+  "ref": "LeicesterCity.pdf · p. 101"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4 contra 4 en la zona central conservando el balón, punto por pared con un jugador exterior del mismo color, los exteriores pueden ser presionados (blancos desde atrás, azules desde delante), los jugadores cambian de zona; 40 × 40, 16 jugadores, pases cortos y a un toque con ambas piernas. Reparto en tres franjas, dos de cada color en cada exterior, quién presiona al exterior, series y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     10,
+     40
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     40,
+     40
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 29,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 37,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 21,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 32,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     19,
+     21
+    ],
+    "b": [
+     5.6,
+     10.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     21
+    ],
+    "b": [
+     16,
+     7
+    ],
+    "k": "run",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     10
+    ],
+    "b": [
+     15.3,
+     7.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    41.6,
+    "EXTERIOR",
+    "middle"
+   ],
+   [
+    35,
+    41.6,
+    "EXTERIOR",
+    "middle"
+   ]
+  ]
+ }
+}

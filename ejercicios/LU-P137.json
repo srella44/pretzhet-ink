@@ -1,0 +1,267 @@
+{
+ "id": "LU-P137",
+ "bloque": "Balón parado",
+ "titulo": "Córner corto al 2.º palo",
+ "formato": "ABP ofensiva",
+ "edad": "12–16 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + 6",
+ "espacio": "Cuarto de campo",
+ "duracion": "15 min",
+ "series": "10 córneres por banda en 2 series con 2′ de pausa; primero sin rival, luego con 6 defensores y portero (propuesta).",
+ "objetivo": "Cambiar el ángulo del envío con una pared corta y cargar el segundo palo con un bloqueo que libera al rematador. Cómo explicarlo: «la pared mueve a la defensa; los que van al 1.er palo vacían el 2.º». Errores típicos: pared lenta que deja salir a la defensa, todos al 1.er palo, bloqueo con falta. Qué observar: señal previa, sincronía de las carreras con la devolución, envío al 2.º palo con altura. Material: 1 portería, 10 balones, petos.",
+ "montaje": "Cuarto de campo. Lanzador en el córner y un atacante en el 1.er palo. Cuatro atacantes cerca del 2.º palo. Rival: 6 defensores y portero (propuesta).",
+ "juego": "Tras la señal, el del 1.er palo se acerca al lanzador y le devuelve una pared corta. Dos del 2.º palo desmarcan al 1.er palo, otro bloquea y el cuarto se libera en el 2.º palo, donde va el envío.",
+ "punto": "Remate en el 2.º palo: 1. Gol: 3 (propuesta).",
+ "consigna": "Pared rápida y todos a la vez.",
+ "variantes": {
+  "facil": "Sin rival y envío desde la esquina del área (propuesta).",
+  "dificil": "Si la defensa sale a la pared, el lanzador conduce y centra raso (propuesta)."
+ },
+ "adaptacion": "Alevín (fútbol 7): pared y envío con 3 en el área, sin bloqueo. Infantil (12–13): tal cual. Cadete (14–15): con 8 defensores (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP OFENSIVA - SAQUE DE ESQUINA OFENSIVO 2",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 137"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: envío al 2.º palo; al hacer la señal, el del 1.er palo se acerca al lanzador para recibir corto y devolver; de los cuatro jugadores del 2.º palo, dos desmarcan al 1.er palo, uno bloquea la marca del que desmarca al 2.º palo, donde va el envío desde la banda; 11 jugadores. Oposición, series, puntuación, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 14.8,
+    "f": 340
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 17.5,
+    "f": 170
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 13,
+    "f": 120
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 46,
+    "y": 8,
+    "f": 120
+   },
+   {
+    "r": "A",
+    "x": 39.5,
+    "y": 7.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 42.5,
+    "y": 15.8,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 30.5,
+    "y": 13,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     8.2,
+     17.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     17.5
+    ],
+    "b": [
+     3.8,
+     15
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     40,
+     12
+    ],
+    "b": [
+     30,
+     16.2
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": 1
+   },
+   {
+    "a": [
+     39.5,
+     7.5
+    ],
+    "b": [
+     27,
+     11.5
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": 1
+   },
+   {
+    "a": [
+     3.5,
+     14.8
+    ],
+    "b": [
+     38.5,
+     17
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "n": 3,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     45,
+     13
+    ],
+    "b": [
+     39.4,
+     16.4
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    43,
+    5.2,
+    "BLOQUEO",
+    "middle"
+   ]
+  ]
+ }
+}

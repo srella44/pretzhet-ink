@@ -1,0 +1,188 @@
+{
+ "id": "LU-P211",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "7v7 desmarques de ruptura",
+ "formato": "7v7+2P",
+ "edad": "13–16 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug. + 2 P",
+ "espacio": "70 × 45 m",
+ "duracion": "24 min",
+ "series": "4 partes de 5′ con 1′ 30″ de pausa; los dos delanteros se cambian el papel de apoyo y ruptura en cada parte (propuesta).",
+ "objetivo": "Generar desmarques de ruptura a la espalda de la defensa con dos delanteros que se reparten los papeles: uno viene al apoyo y el otro rompe al espacio, y al revés. El defensor trabaja el timing para no dejarse ganar la espalda. Cómo explicarlo: «si tu compañero viene, tú te vas». Errores típicos: los dos delanteros vienen al pie, ruptura en línea recta y en fuera de juego, pase al espacio tarde. Qué observar: timing de la ruptura con la cabeza levantada del pasador, carrera en diagonal, control orientado hacia portería. Material: conos para las dos líneas de 3/4, 2 porterías, petos.",
+ "montaje": "70 × 45 m con porterías y porteros. 7 contra 7 en 1-2-3-2. Línea de conos a 3/4 de cada campo: quien defiende no la cruza hacia atrás hasta que lo haga el balón.",
+ "juego": "Un delantero viene al apoyo y el otro rompe a la espalda de la línea; luego cambian. Fuera de juego en la línea (propuesta). Tras robo, cambian los papeles.",
+ "punto": "Gol: 1. Gol tras controlar de cara después de una ruptura: +1.",
+ "consigna": "Si tu compañero viene, tú rompes.",
+ "variantes": {
+  "facil": "Sin fuera de juego y el defensor no puede pasar la línea hasta que el atacante reciba (propuesta).",
+  "dificil": "El pase al espacio debe llegar en 2 toques desde que el delantero inicia el desmarque (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 7 contra 7 en 60 × 40 m con la línea a 12 m de la portería. Cadete (14–15): tal cual. Juvenil: 90 × 50 m como en la fuente (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "PARTIDO CONDICIONADO - DESMARQUES 7VS7 + 2P - Hugo Álvarez @HugoAlvrz",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 211"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 7 contra 7 + 2 porteros en 1-2-3-2, línea a 3/4 de la que el defensor no debe retroceder para dejar espacio a la espalda, dos delanteros que alternan desmarque de apoyo y de ruptura; variante: control tras ruptura encarando portería suma 1 más; 16 jugadores, 50 × 90 m. Campo reducido a 70 × 45 m, fuera de juego en la línea, series, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   70,
+   45
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 72,
+   "ymin": -1,
+   "ymax": 46
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 22.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 70,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     45
+    ],
+    "6 5"
+   ],
+   [
+    [
+     17.5,
+     0
+    ],
+    [
+     17.5,
+     45
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     52.5,
+     0,
+     70,
+     45
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 27,
+    "y": 32,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 29,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 51,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 51,
+    "y": 38,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     45,
+     17
+    ],
+    "b": [
+     38.5,
+     13.5
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 10,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     45,
+     29
+    ],
+    "b": [
+     62,
+     22
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 10,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     32
+    ],
+    "b": [
+     61,
+     22.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "n": 3,
+    "nt": 0.4
+   }
+  ],
+  "labels": [
+   [
+    61,
+    43.4,
+    "ESPACIO A LA ESPALDA",
+    "middle"
+   ]
+  ]
+ }
+}

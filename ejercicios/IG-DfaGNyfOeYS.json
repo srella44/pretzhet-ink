@@ -1,0 +1,217 @@
+{
+ "id": "IG-DfaGNyfOeYS",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Derriba los cuatro blancos",
+ "formato": "4v4",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "16 min",
+ "series": "4 partidas de 3′ (o hasta que un equipo derribe los 4 blancos) con 1′ de pausa para recolocar los balones (propuesta).",
+ "objetivo": "Atacar y defender varios objetivos a la vez: cuando quedan menos blancos, el ataque debe preparar el tiro hacia el blanco que sigue en pie y la defensa debe proteger el que queda. Cómo explicarlo: «mira qué blanco les queda y lleva el balón hacia ese lado». Errores típicos: tirar siempre al mismo sitio, defender todos juntos en un blanco, chutar desde muy lejos sin opción. Qué observar: conservar el balón cuando no hay tiro claro, cambios de orientación hacia el blanco libre, ayudas en defensa. Material: 8 conos o setas, 8 balones de blanco, 1 balón de juego, petos.",
+ "montaje": "20 × 15 m. En cada fondo, 4 balones sobre conos a 3–4 m: son los blancos del equipo. 4 contra 4 con un balón de juego. Nadie pisa la franja de 2 m ante los blancos (propuesta).",
+ "juego": "Hay que derribar con el balón de juego los blancos rivales; el derribado se retira. Con pocos blancos, conserva y prepara el tiro hacia el que queda.",
+ "punto": "Blanco derribado: 1. Gana quien tira los 4 o lleva más al final.",
+ "consigna": "Mira qué blanco queda y ataca ese lado.",
+ "variantes": {
+  "facil": "Blancos más grandes (balones sobre conos altos) y sin franja prohibida (propuesta).",
+  "dificil": "Solo se puede tirar tras 3 pases seguidos o al primer toque (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): 3 contra 3 en 16 × 12 m con 3 blancos. Benjamín (8–9): tal cual. Alevín (10–11): tiro solo con la pierna menos hábil en el último minuto (propuesta).",
+ "fuente": {
+  "autor": "@coachesviewsfootball (Instagram)",
+  "titulo_original": "El equipo defiende cuatro blancos que desaparecen",
+  "ref": "https://www.instagram.com/coachesviewsfootball/reel/DfaGNyfOeYS/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción pública del autor): cada equipo defiende cuatro balones sobre conos en su fondo de un rectángulo de 20 × 15 m; gana quien derriba todos los blancos rivales; con menos blancos, conservar o preparar el tiro hacia la zona libre. Franja de 2 m, retirar el blanco derribado, series, puntos al acabar el tiempo, variantes y adaptación son (propuesta); edad propuesta (U9 en la base).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -0.8,
+   "ymax": 16.2
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     2,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     18,
+     0,
+     20,
+     15
+    ]
+   }
+  ],
+  "discs": [
+   [
+    0.6,
+    2.5
+   ],
+   [
+    0.6,
+    6
+   ],
+   [
+    0.6,
+    9.5
+   ],
+   [
+    0.6,
+    13
+   ],
+   [
+    19.4,
+    2.5
+   ],
+   [
+    19.4,
+    6
+   ],
+   [
+    19.4,
+    9.5
+   ],
+   [
+    19.4,
+    13
+   ]
+  ],
+  "balls": [
+   [
+    0.6,
+    2.5
+   ],
+   [
+    0.6,
+    6
+   ],
+   [
+    0.6,
+    9.5
+   ],
+   [
+    0.6,
+    13
+   ],
+   [
+    19.4,
+    2.5
+   ],
+   [
+    19.4,
+    9.5
+   ],
+   [
+    19.4,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 13.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13.8,
+    "y": 7.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12.3,
+    "y": 12.3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15.4,
+    "y": 2.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 11.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     10.2,
+     4.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     10.5,
+     4
+    ],
+    "b": [
+     19.2,
+     5.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 6,
+    "side": -1,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    19,
+    15.9,
+    "BLANCO DERRIBADO, FUERA",
+    "end"
+   ]
+  ]
+ }
+}

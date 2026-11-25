@@ -1,0 +1,204 @@
+{
+ "id": "LU-P010",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 10v10 cambio de rol",
+ "formato": "10v10+1C",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "21 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "25 min",
+ "series": "3 partes de 7′ con 2′ de pausa; en cada pausa se corrige la presión tras pérdida y el comodín cambia (propuesta).",
+ "objetivo": "Cambio de rol inmediato: tras perder, presionar en la misma zona para robar rápido; tras robar, asegurar el balón sacándolo de la zona de presión. En ataque, ocupar amplitud y profundidad. Cómo explicarlo: «el que pierde y los dos más cercanos saltan al balón; los demás cierran por dentro». Errores típicos: lamentarse tras la pérdida, presionar uno solo, jugar tras el robo en la misma zona llena de rivales. Qué observar: segundos entre pérdida y robo, quién salta primero, primer pase tras el robo hacia fuera de la zona. Material: conos para 6 zonas, petos de 3 colores, 2 porterías.",
+ "montaje": "50 × 40 m en 6 zonas con conos. 10 contra 10 (9 + portero) en su sistema y un comodín que ataca con quien tiene el balón.",
+ "juego": "Partido sin límite de toques, abriendo el campo. Al perder, los más cercanos presionan para robar en esa misma zona. Quien roba debe sacar el balón de la zona.",
+ "punto": "Gol: 1. Robo en la zona de la pérdida: 1. Sacar el balón de ella: 1.",
+ "consigna": "¿La perdiste? Recupérala ahí mismo.",
+ "variantes": {
+  "facil": "Sin zonas: vale robar en los 6 s siguientes a la pérdida en cualquier sitio; comodín con toques libres (propuesta).",
+  "dificil": "El robo en zona solo puntúa si llega antes de 6 s, y el comodín juega a 2 toques (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 8 contra 8 + 1 en 45 × 35 m con 4 zonas. Cadete (14–15): tal cual. Juvenil: robo en zona solo antes de 5 s (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "PARTIDO CONDICIONADO 10vs10+1 - Cambios de rol",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 10"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 10 contra 10 más un comodín ofensivo, 21 jugadores, 40 × 50 m, puntos por gol, por recuperar en la zona de pérdida y por sacar el balón de la zona de recuperación; amplitud y profundidad, toques libres. Las 6 zonas con conos, porteros dentro de los 10, series, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 52,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     16.7,
+     0
+    ],
+    [
+     16.7,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     33.3,
+     0
+    ],
+    [
+     33.3,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     20
+    ],
+    [
+     50,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     16.7,
+     0,
+     33.3,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 25,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 33.5,
+    "y": 17.5,
+    "f": -140
+   },
+   {
+    "r": "B",
+    "x": 45,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 30,
+    "f": -60
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 38,
+    "y": 32,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     22.5,
+     8.6
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 12,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     33.5,
+     17.5
+    ],
+    "b": [
+     27.5,
+     12.2
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     10
+    ],
+    "b": [
+     44.4,
+     5.3
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    25,
+    23.2,
+    "ZONA DE LA PÉRDIDA",
+    "middle"
+   ]
+  ]
+ }
+}

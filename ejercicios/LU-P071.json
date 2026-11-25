@@ -1,0 +1,209 @@
+{
+ "id": "LU-P071",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "9v9+1 alturas de los medios",
+ "formato": "9v9+1C",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "19 jug.",
+ "espacio": "60 × 45 m",
+ "duracion": "24 min",
+ "series": "4 partes de 5′ con 1′ 30″ de pausa; el comodín cambia en cada parte (propuesta).",
+ "objetivo": "Que los dos medios centros y el comodín se escalonen a distintas alturas para ofrecer líneas de pase y que un intermedio descargue de cara al compañero que llega; superar líneas de presión hasta finalizar. Cómo explicarlo: «si tu compañero está a tu altura, cambia de franja». Errores típicos: medios en paralelo, recibir de espaldas sin poder girar, descargas hacia atrás sin compañero de cara. Qué observar: escalonamiento, perfil al recibir, pase vertical y descarga de cara. Material: conos para 3 franjas, 2 porterías, petos de 3 colores.",
+ "montaje": "60 × 45 m con porterías y porteros. El tercio central, en 3 franjas de 7 m. 9 contra 9 en 1-4-2-2 y un comodín con el que tiene el balón.",
+ "juego": "Se superan líneas con ayuda del comodín hasta el gol. Con balón, los dos medios centros nunca están en la misma franja. 3 toques; el comodín, 2. Tras pérdida, cambio de rol.",
+ "punto": "Gol: 1. Gol tras descarga de cara de un medio: 2 (propuesta).",
+ "consigna": "Escalónate: nunca a la altura de tu compañero.",
+ "variantes": {
+  "facil": "Toques libres para los medios y el comodín con 3 toques (propuesta).",
+  "dificil": "Medios y comodín a 2 toques y el gol solo vale si el balón pasa por las tres franjas (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 7 contra 7 + 1 en 1-3-2-1 y 50 × 40 m. Cadete (14–15): tal cual. Juvenil: medios a 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "PARTIDO CONDICIONADO - Trabajo alturas medios centros - Conectar con cercanos o intermedios",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 71"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos equipos de 9 en 1-4-2-2 más un comodín ofensivo, 19 jugadores, 45 × 60 m, tres carriles en mitad del campo para que medios y comodín se sitúen a distintas alturas y descarguen de cara, 3 contactos (comodín 2), los dos medios nunca en el mismo carril con balón, cambio de rol tras pérdida. Medida de las franjas (7 m), gol doble, series, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   60,
+   45
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 62,
+   "ymin": -1,
+   "ymax": 46
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 22.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     45
+    ],
+    "6 5"
+   ],
+   [
+    [
+     27,
+     0
+    ],
+    [
+     27,
+     45
+    ],
+    "6 5"
+   ],
+   [
+    [
+     33,
+     0
+    ],
+    [
+     33,
+     45
+    ],
+    "6 5"
+   ],
+   [
+    [
+     40,
+     0
+    ],
+    [
+     40,
+     45
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     27,
+     0,
+     33,
+     45
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 30,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 32,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     30
+    ],
+    "b": [
+     29.4,
+     29.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     30,
+     30
+    ],
+    "b": [
+     36.6,
+     14.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     37,
+     14
+    ],
+    "b": [
+     59,
+     21.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 6,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    30,
+    43.4,
+    "3 FRANJAS",
+    "middle"
+   ]
+  ]
+ }
+}

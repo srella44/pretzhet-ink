@@ -1,0 +1,151 @@
+{
+ "id": "IG-Db8c_vqh6AN",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Dos duelos y un 3 contra 2",
+ "formato": "1v1 + 3v2",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10–15 jug. + 1 P",
+ "espacio": "30 × 25 m",
+ "duracion": "18 min",
+ "series": "3 series de 5′ con 1′ de pausa; los atacantes pasan a defensores cada serie (propuesta).",
+ "objetivo": "Encadenar el 1 contra 1 con el juego en superioridad: atacar decidido en el duelo y, al llegar el tercer atacante, decidir entre pase, conducción o tiro; los defensores aprenden a temporizar y a contraatacar tras robo. Cómo explicarlo: «en el duelo, encara; en el 3 contra 2, fija y suelta». Errores típicos: atacantes que se quedan mirando tras su duelo, defensor que se lanza al suelo, contraataque lento. Qué observar: cambio de ritmo en el 1v1, ocupación del ancho en el 3v2, transición del defensor que roba. Material: 1 portería con portero, 2 miniporterías, conos, balones.",
+ "montaje": "30 × 25 m con portería y portero en un fondo y 2 miniporterías en el otro. Fila de atacantes en el centro y 2 defensores, uno por banda (propuesta).",
+ "juego": "1: un atacante juega 1v1 contra un defensor (8 s). 2: el segundo, contra el otro. 3: entra un tercero conduciendo y los cinco juegan 3 contra 2 hasta gol, robo o fuera.",
+ "punto": "Atacantes: gol 1. Defensores: gol en miniportería tras robo: 1.",
+ "consigna": "Encara en el duelo y fija en el 3 contra 2.",
+ "variantes": {
+  "facil": "En el 3 contra 2 un defensor solo puede tapar, no robar, durante los primeros 3 s (propuesta).",
+  "dificil": "Duelos de 5 s y en el 3 contra 2 hay que finalizar en menos de 8 s (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 25 × 20 m y miniporterías anchas. Alevín (10–11): tal cual. Infantil (12–13): un defensor más que vuelve desde el centro en el 3 contra 2 (propuesta).",
+ "fuente": {
+  "autor": "@edf.futebol (Instagram)",
+  "titulo_original": "Dos duelos desembocan en un ataque compartido",
+  "ref": "https://www.instagram.com/edf.futebol/reel/Db8c_vqh6AN/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción pública del autor): dos duelos sucesivos ante portería, después entra un tercer atacante con balón y los cinco resuelven un 3 contra 2; los defensores puntúan contraatacando a metas pequeñas en cualquier fase. Medidas, colocación de filas y defensores, tiempos de los duelos, series, variantes y adaptación son (propuesta); edad propuesta (U11 en la base).",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 32,
+   "ymin": -0.8,
+   "ymax": 25.8
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    20,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 8.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 14.3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 11.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     6
+    ],
+    "b": [
+     25.5,
+     3.6
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     17
+    ],
+    "b": [
+     25.5,
+     19.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 8,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     3.5,
+     11.5
+    ],
+    "b": [
+     14.5,
+     11.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 6,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    1,
+    24.4,
+    "SI ROBAN: A MINIPORTERÍA",
+    "start"
+   ]
+  ]
+ }
+}

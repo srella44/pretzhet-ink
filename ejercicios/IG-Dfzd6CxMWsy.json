@@ -1,0 +1,219 @@
+{
+ "id": "IG-Dfzd6CxMWsy",
+ "bloque": "Balón parado",
+ "titulo": "Córner raso: deja pasar",
+ "formato": "ABP ofensiva",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + 1 P",
+ "espacio": "Cuarto de campo",
+ "duracion": "15 min",
+ "series": "2 series de 8 córneres (alternando bandas) con 2′ de pausa; rotan los papeles (propuesta).",
+ "objetivo": "Engañar a la defensa con un primer receptor que sale al encuentro del envío raso y lo deja correr sin tocarlo, para que remate un segundo atacante que llega desde la frontal; compararlo con el córner corto, donde el primero sí toca. Cómo explicarlo: «tú haces como que la vas a tocar y abres las piernas; el de atrás llega lanzado». Errores típicos: el primero toca el balón, el segundo llega antes, envío flojo que no pasa. Qué observar: coordinación del engaño con la llegada (fuente), golpeo raso y tenso, remate de primeras. Material: 1 portería, 10 balones, petos.",
+ "montaje": "Cuarto de campo. Lanzador en el córner, un atacante en el penalti y otro en la frontal. Rival: 3 defensores y portero (propuesta). Por las dos bandas.",
+ "juego": "1: el del penalti sale al encuentro del envío. 2: el córner va raso y lo deja pasar sin tocarlo. 3: el de la frontal llega y remata.",
+ "punto": "Remate: 1. Gol: 3. Robo de la defensa y salida conduciendo: 1.",
+ "consigna": "Amaga el control y déjala pasar.",
+ "variantes": {
+  "facil": "Sin defensores; solo portero (propuesta).",
+  "dificil": "El primer receptor elige: dejar pasar o tocar en corto, según le siga o no su marcador (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): saque desde la esquina del área y portería de fútbol 7. Alevín (10–11): tal cual. Infantil (12–13): 5 defensores y portero (propuesta).",
+ "fuente": {
+  "autor": "@tareasfutbolbase (Instagram)",
+  "titulo_original": "Córner raso con receptor que deja pasar",
+  "ref": "https://www.instagram.com/tareasfutbolbase/reel/Dfzd6CxMWsy/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción pública del autor): el atacante cerca del punto de penalti sale al encuentro del envío raso y lo deja correr; un segundo atacante llega desde la frontal; comparar con el córner corto; coordinar el engaño con la llegada. Oposición, distancias, robo de la defensa, puntuación, series, variantes y adaptación son (propuesta); edad propuesta (U11 en la base).",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 10,
+    "f": 140
+   },
+   {
+    "r": "A",
+    "x": 39,
+    "y": 2.5,
+    "f": 120
+   },
+   {
+    "r": "D",
+    "x": 30.5,
+    "y": 13.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 11.5,
+    "f": 240
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 7,
+    "f": 330
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     34,
+     10
+    ],
+    "b": [
+     29.5,
+     11.4
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 6,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     38,
+     7.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "n": 2,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     39,
+     2.5
+    ],
+    "b": [
+     37.8,
+     6.5
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 6,
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     37.8,
+     7.2
+    ],
+    "b": [
+     35.5,
+     20.4
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 4,
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    21,
+    14.4,
+    "RASO",
+    "middle"
+   ]
+  ]
+ }
+}

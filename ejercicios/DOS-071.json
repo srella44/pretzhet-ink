@@ -1,0 +1,137 @@
+{
+ "id": "DOS-071",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido de cabeza",
+ "formato": "2v2+2P+2C",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. + 2 P",
+ "espacio": "12 × 10 m",
+ "duracion": "20 min",
+ "series": "4 partidos de 4′ con 1′ de pausa; cambian comodines y porteros en cada partido para que todos rematen (propuesta).",
+ "objetivo": "Juego de cabeza con marcaje, anticipación y segundas jugadas (fuente): atacar el balón en el punto más alto, cabecear con la frente y los ojos abiertos, y estar atento al rechace. Cómo explicarlo: «ve a buscar el balón, no esperes a que te caiga». Errores típicos: cerrar los ojos, cabecear con la coronilla, quedarse quieto tras el remate. Qué observar: impulso con una o dos piernas, uso de brazos sin empujar, posición del marcador entre el rival y su portería. Material: 2 porterías de 4 m (o miniporterías grandes), 4 conos, balones blandos para los más pequeños.",
+ "montaje": "12 × 10 m con una portería de 4 m en cada fondo (propuesta). 2 contra 2, un portero por equipo sin manos y un comodín en cada banda.",
+ "juego": "Solo se juega con la cabeza. El comodín se lanza el balón y lo pone en juego de cabeza. Si cae al suelo, saca el comodín más cercano (propuesta). Marca a tu par y gana el rechace.",
+ "punto": "Gol de cabeza: 1. Gol tras rechace: 2 (propuesta).",
+ "consigna": "Ojos abiertos y frente al balón.",
+ "variantes": {
+  "facil": "Se permite un bote entre cabezazos y el portero puede usar las manos (propuesta).",
+  "dificil": "Gol solo de remate directo del pase del comodín o tras una prolongación entre compañeros (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): balón blando de talla 4 y se permite un bote. Infantil (12–13): tal cual. Cadete (14–15): campo de 15 × 12 m y 3 contra 3 (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Partido de cabeza",
+  "ref": "Dosier de sesiones · pág. 22"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: 2v2 + 2 porteros sin manos + 2 comodines exteriores, solo se juega con la cabeza, los exteriores la ponen en juego de cabeza, 20 minutos, 12 × 10 m, gol de cabeza 1 punto. Medida de las porterías, saque cuando cae al suelo, gol doble en segunda jugada, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 13.5,
+   "ymin": -2.6,
+   "ymax": 12.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 5,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 12,
+    "y": 5,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 5,
+    "y": -1.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 11.6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.4,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8.8,
+    "y": 6.6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6.3,
+    "y": 8.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     -1.6
+    ],
+    "b": [
+     5.8,
+     2.6
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     3
+    ],
+    "b": [
+     11.2,
+     4.2
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 6,
+    "side": -1,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    12.8,
+    -1.7,
+    "SOLO CABEZA",
+    "end"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "id": "LU-P176",
+ "bloque": "Balón parado",
+ "titulo": "Peinada al 2.º palo",
+ "formato": "ABP ofensiva",
+ "edad": "12–16 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + 6",
+ "espacio": "Cuarto de campo",
+ "duracion": "15 min",
+ "series": "10 córneres por banda en 2 series con 2′ de pausa; primero sin rival, luego con 6 defensores y portero (propuesta).",
+ "objetivo": "Jugada de córner con prolongación en el 1.er palo hacia el 2.º, donde esperan dos rematadores; un bloqueo libera al que prolonga y otro atacante molesta al portero (fuente). Cómo explicarlo: «tú no rematas a portería: peinas el balón hacia atrás». Errores típicos: intentar rematar en lugar de prolongar, los del 2.º palo parados, envío alto que llega al portero. Qué observar: envío tenso a la altura de la cabeza, peinada con la parte alta de la frente, ataque del 2.º palo en carrera. Material: 1 portería, 10 balones, petos.",
+ "montaje": "Cuarto de campo. Lanzador, un atacante con el portero, el que prolonga en el penalti con un compañero que bloquea a su marcador y dos rematadores en el 2.º palo. Rival: 6 y portero.",
+ "juego": "A la señal, el señalado va al 1.er palo, libre por el bloqueo, y prolonga el envío hacia el 2.º palo, donde rematan los dos compañeros. El que está con el portero dificulta su salida.",
+ "punto": "Remate en el 2.º palo: 1. Gol: 3 (propuesta).",
+ "consigna": "Peina hacia atrás, no remates.",
+ "variantes": {
+  "facil": "Sin rival y envío con la mano desde la esquina del área (propuesta).",
+  "dificil": "Si su marcador se adelanta, el señalado arrastra y el envío va directo al 2.º palo (propuesta)."
+ },
+ "adaptacion": "Alevín (fútbol 7): prolongación sin bloqueo y un rematador. Infantil (12–13): tal cual. Cadete (14–15): con 8 defensores (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP OFENSIVA - SAQUE DE ESQUINA OFENSIVO 5",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 176"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: envío al 1.er palo; a la señal, el jugador señalado va al 1.er palo a prolongar hacia el 2.º palo, donde esperan dos compañeros para rematar; un compañero bloquea su marca y otro se sitúa con el portero para dificultar su salida; 11 jugadores. Colocación inicial, oposición, series, puntuación, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 39,
+    "y": 18.6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 11.5,
+    "f": 300
+   },
+   {
+    "r": "A",
+    "x": 25.5,
+    "y": 8.5,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 43,
+    "y": 12.5,
+    "f": 120
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 8.5,
+    "f": 120
+   },
+   {
+    "r": "D",
+    "x": 46.5,
+    "y": 9,
+    "f": 240
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     32,
+     9
+    ],
+    "b": [
+     29,
+     15.6
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 6,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     28.5,
+     16.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     29,
+     16.2
+    ],
+    "b": [
+     42.4,
+     13
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    24,
+    6,
+    "BLOQUEO",
+    "middle"
+   ]
+  ]
+ }
+}

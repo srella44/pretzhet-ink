@@ -1,0 +1,212 @@
+{
+ "id": "PIK-0022",
+ "bloque": "Balón parado",
+ "titulo": "Córner corto o ruptura",
+ "formato": "3v2+P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug. + 1 P",
+ "espacio": "Cuarto de campo",
+ "duracion": "15 min",
+ "series": "4 series de 5 córneres (alternando bandas) con 1′ de pausa; rotan sacador, apoyo, rematador y defensores (propuesta).",
+ "objetivo": "Que el sacador lea al defensor del apoyo y elija: si el defensor no sale, córner corto; si sale, el apoyo rompe al área y se busca la espalda o al tercer compañero. Cómo explicarlo: «¿la carrera del apoyo abre un pase real para él o para el tercero?» (fuente). Errores típicos: decidir antes de mirar, apoyo parado, rematador que llega antes que el balón. Qué observar: engaño del apoyo, rapidez de la decisión, pase atrás raso al rematador. Material: 1 portería, 10 balones, conos.",
+ "montaje": "Cuarto de campo. Sacador en el córner, un apoyo a 8 m de él y un rematador en el área, contra 2 defensores y portero. Repetir por ambas bandas.",
+ "juego": "El apoyo amenaza con recibir en corto y puede romper al área. El sacador elige: corto, balón a la ruptura o envío al rematador.",
+ "punto": "Gol: 2. Remate a puerta: 1. Despeje fuera del área: 1 para la defensa.",
+ "consigna": "Mira al defensor del apoyo y elige.",
+ "variantes": {
+  "facil": "Un solo defensor y el portero sin salir del área pequeña (propuesta).",
+  "dificil": "3 defensores y el córner corto obliga a centrar en 2 toques (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): saque con el pie desde la esquina del área y porterías de fútbol 7. Alevín (10–11): tal cual. Infantil (12–13): con un cuarto atacante en la frontal (propuesta).",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "Córner corto o ruptura al área",
+  "ref": "https://library.bcoach.app/tareas/abp-corner-da9881d43926/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: en un cuarto de campo, sacador, apoyo y rematador frente a dos defensores y portero; el apoyo amenaza con recibir en corto y puede romper al área; el sacador elige según el defensor; repetir por ambas bandas; consigna sobre la carrera del apoyo. Distancias, final de la jugada, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 140
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 11.5,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 32.5,
+    "y": 12.4,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     14
+    ],
+    "b": [
+     18,
+     17.5
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     17.6,
+     17.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     18,
+     17.5
+    ],
+    "b": [
+     29.4,
+     9.6
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 12,
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     7.5,
+     14.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    5,
+    10.4,
+    "CORTO",
+    "middle"
+   ]
+  ]
+ }
+}

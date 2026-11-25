@@ -1,0 +1,171 @@
+{
+ "id": "LEI-045",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "1 contra 1 a tres porterías",
+ "formato": "1v1 ×3",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "36 × 24 m",
+ "duracion": "15 min",
+ "series": "6 rondas de 1′ por grupo (12′ en total) con cambio inmediato; se cuentan los goles de cada equipo (propuesta).",
+ "objetivo": "Imponerse en el 1 contra 1 (fuente): en ataque, fintas, cambio de ritmo y atacar el espacio a la espalda del defensor; en defensa, salir rápido al atacante, perfilarse sin quedarse de frente y entrar al balón. Cómo explicarlo: «amaga hacia una portería y acelera hacia la otra». Errores típicos: conducir de espaldas, defensor plantado de frente, tirar desde muy lejos sin regatear. Qué observar: lectura de la portería libre, aceleración tras la finta, defensor que obliga a ir hacia atrás. Material: 6 miniporterías, 12 conos, 12 balones, petos de 2 colores.",
+ "montaje": "36 × 24 m con 3 miniporterías en cada fondo. Dos equipos de 6. Por turnos, 3 de cada equipo entran y forman 3 parejas con un balón cada una; los demás esperan.",
+ "juego": "Las 3 parejas juegan 1 contra 1 a la vez; se marca en cualquiera de las 3 porterías rivales. El entrenador da el balón; tras gol saca quien encaja. A 1 min como máximo, entran los otros 3.",
+ "punto": "Cada gol: 1 para su equipo. Gana el que más marca.",
+ "consigna": "Amaga a una portería y acelera a otra.",
+ "variantes": {
+  "facil": "Porterías más anchas y duelos de 40 s (propuesta).",
+  "dificil": "El primer balón llega alto y hay que controlarlo antes de encarar (variante de la fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): 30 × 20 m y 2 parejas a la vez. Alevín (10–11): tal cual. Infantil (12–13): gol solo tras un regate al defensor (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "1 against 1: Game to 3 Goals",
+  "ref": "LeicesterCity.pdf · p. 49"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: campo de 25 × 40 yardas, dos equipos de 6, por turnos 3 de cada equipo juegan 1 contra 1 a la vez a 3 porterías pequeñas, se marca en cualquiera de las 3 rivales, cambio a 1 minuto como máximo, gana el equipo con más goles; primer balón alto o raso. Medida en metros, saque tras gol, número de rondas, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   36,
+   24
+  ],
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 37.2,
+   "ymin": -0.8,
+   "ymax": 26.8
+  },
+  "goals": [
+   [
+    0,
+    4,
+    "L"
+   ],
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    0,
+    20,
+    "L"
+   ],
+   [
+    36,
+    4,
+    "R"
+   ],
+   [
+    36,
+    12,
+    "R"
+   ],
+   [
+    36,
+    20,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.5,
+    "y": 11.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 19.5,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 25.6,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 25.6,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     5
+    ],
+    "b": [
+     34.8,
+     4.3
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "n": 1,
+    "nt": 0.75
+   },
+   {
+    "a": [
+     21.5,
+     11.5
+    ],
+    "b": [
+     1.4,
+     11.8
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "n": 2,
+    "nt": 0.75
+   }
+  ],
+  "labels": [
+   [
+    18,
+    25.9,
+    "ESPERAN",
+    "middle"
+   ]
+  ]
+ }
+}

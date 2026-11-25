@@ -1,0 +1,185 @@
+{
+ "id": "DOS-075",
+ "bloque": "Balón parado",
+ "titulo": "Torneo de faltas",
+ "formato": "Tiro + portero",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug. + 1 P",
+ "espacio": "Frontal del área",
+ "duracion": "20 min",
+ "series": "Rondas sin pausa hasta que quede uno; 2 o 3 torneos cambiando la posición de la falta y la barrera (propuesta).",
+ "objetivo": "Tirar faltas bajo presión de competición (fuente): elegir superficie y trayectoria (por encima o por el lado de la barrera) y golpear con el empeine o el interior. Cómo explicarlo: «mira la portería, elige el lado y no cambies de idea». Errores típicos: golpear con la punta, cambiar de idea en la carrera, tirar siempre al lado del portero. Qué observar: carrera de 3–4 pasos, pie de apoyo junto al balón, cuerpo inclinado hacia delante para que no se eleve. Material: 1 portería, balones, 3 picas o jugadores para la barrera.",
+ "montaje": "Frontal con portero. Balones en 3 puntos a 18–22 m: centro, izquierda y derecha. Barrera de 2–3 jugadores o picas a 9 m (propuesta). Todos en fila.",
+ "juego": "En cada ronda tiran todos desde el mismo punto. Se elimina al último que marca de la ronda (o al único que falla). Cada ronda cambia el punto de tiro o la barrera.",
+ "punto": "Gana el último que queda.",
+ "consigna": "Elige el lado y golpea sin dudar.",
+ "variantes": {
+  "facil": "Sin barrera y falta a 14–16 m (propuesta).",
+  "dificil": "Barrera de 4 y el portero sabe a qué lado va la falta (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): falta a 12 m sin barrera. Alevín (10–11): 16 m con 2 picas. Infantil (12–13): 18–22 m con barrera de jugadores (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Torneo de faltas",
+  "ref": "Dosier de sesiones · sesiones J1.2, J2.2, S1.3, S2.3"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: torneo de faltas en la frontal con portero; en cada ronda tiran todos y se elimina al último en marcar; se varían posiciones, se pone barrera, etc.; gana el último que queda. Distancias, número de puntos de tiro, desempate, series, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "dashed": true,
+  "tag": "frontal del área",
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -1.8,
+   "ymax": 25.8
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     40,
+     16.5
+    ],
+    "none"
+   ],
+   [
+    [
+     10.85,
+     0
+    ],
+    [
+     10.85,
+     5.5
+    ],
+    "none"
+   ],
+   [
+    [
+     10.85,
+     5.5
+    ],
+    [
+     29.15,
+     5.5
+    ],
+    "none"
+   ],
+   [
+    [
+     29.15,
+     5.5
+    ],
+    [
+     29.15,
+     0
+    ],
+    "none"
+   ]
+  ],
+  "discs": [
+   [
+    11,
+    20
+   ],
+   [
+    29,
+    20
+   ]
+  ],
+  "balls": [
+   [
+    11,
+    20
+   ],
+   [
+    29,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 23,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 14.5,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 19.5,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 23.5,
+    "f": -150,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 36.5,
+    "y": 23.5,
+    "f": -150,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20.5,
+     22.5
+    ],
+    "b": [
+     24.8,
+     0.8
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 4,
+    "side": 1,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    17,
+    11.4,
+    "BARRERA",
+    "middle"
+   ],
+   [
+    34.8,
+    21,
+    "FILA",
+    "middle"
+   ]
+  ]
+ }
+}

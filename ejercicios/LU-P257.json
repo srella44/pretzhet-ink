@@ -1,0 +1,234 @@
+{
+ "id": "LU-P257",
+ "bloque": "Balón parado",
+ "titulo": "Córner raso con dejada",
+ "formato": "ABP ofensiva",
+ "edad": "12–16 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug. + 6",
+ "espacio": "Cuarto de campo",
+ "duracion": "15 min",
+ "series": "10 córneres por banda en 2 series con 2′ de pausa; primero sin rival, luego con 6 defensores y portero (propuesta).",
+ "objetivo": "Sorprender con un córner raso y rápido contra rivales fuertes por alto (fuente): una dejada al espacio que abre una ruptura al 2.º palo para que llegue un compañero con golpeo. Cómo explicarlo: «el pase raso tiene que ir fuerte; la dejada, al hueco que deja el 3». Errores típicos: pase raso lento, dejada hacia atrás sin espacio, el rematador llega antes de tiempo. Qué observar: ganar la posición al rival en la zona corta, dejada de primeras, bloqueo legal al marcador del 5. Material: 1 portería, 10 balones, petos.",
+ "montaje": "Cuarto de campo. Un lanzador, 2 en vigilancia en medio campo y 2 en el rechace. En el área: 1 en la zona corta, 3 cerca del penalti y 5 en la frontal. Rival: 6 y portero.",
+ "juego": "1 gana la posición a su rival en la zona corta. 2: pase raso y fuerte a 1. 3 rompe al 2.º palo y abre espacio. 4: 1 deja de primeras a ese espacio. 5 llega y remata.",
+ "punto": "Remate a puerta: 1. Gol: 3 (propuesta).",
+ "consigna": "Raso y fuerte; deja al hueco.",
+ "variantes": {
+  "facil": "Sin rival y la dejada se puede controlar antes (propuesta).",
+  "dificil": "La defensa conoce la jugada; si tapan la zona corta, envío al 2.º palo (propuesta)."
+ },
+ "adaptacion": "Alevín (fútbol 7): solo 1, 3 y 5. Infantil (12–13): tal cual. Cadete (14–15): con 8 defensores (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP OFENSIVA - Saque de esquina con 1 lanzador - Juanlu Toledo @JuanluAxel",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 257"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: un lanzador, 2 en vigilancia y 2 al rechace; 1 se pone por delante del contrario en la zona corta, pase raso fuerte, 3 rompe al 2.º palo para crear espacio, 1 deja al espacio creado, el que aparece finaliza con pegada y se bloquea al marcador del 5; útil contra equipos fuertes por alto. Colocación inicial, oposición, series, puntuación, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 13,
+    "f": 120
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 11.5,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 2.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 13.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 22.5,
+    "y": 6.5,
+    "f": 300
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     13
+    ],
+    "b": [
+     9.5,
+     15.8
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     9,
+     16
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     10
+    ],
+    "b": [
+     39,
+     16.2
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     9.5,
+     15.8
+    ],
+    "b": [
+     28,
+     10.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "n": 4,
+    "nt": 0.35
+   },
+   {
+    "a": [
+     26,
+     2.5
+    ],
+    "b": [
+     27.5,
+     9.5
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 6,
+    "side": 1,
+    "n": 5
+   }
+  ],
+  "labels": []
+ }
+}

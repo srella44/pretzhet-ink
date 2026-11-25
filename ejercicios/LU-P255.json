@@ -1,0 +1,238 @@
+{
+ "id": "LU-P255",
+ "bloque": "Balón parado",
+ "titulo": "Saque de banda junto al área",
+ "formato": "ABP ofensiva",
+ "edad": "12–16 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug. + 6",
+ "espacio": "Cuarto de campo",
+ "duracion": "15 min",
+ "series": "10 saques por banda en 2 series con 2′ de pausa; primero sin rival, luego con 6 defensores y portero (propuesta).",
+ "objetivo": "Crear y ocupar espacios en un saque de banda cerca del área (fuente) para llegar a la línea de fondo y servir atrás o al 2.º palo; útil contra rivales fuertes por alto que defienden mal los espacios. Cómo explicarlo: «el 1 engaña, el 2 arrastra y el 3 es el que recibe». Errores típicos: todos piden a la vez, el 3 sale antes que el 2, saque flojo o picado. Qué observar: teatralidad del 1, arrastre del marcador del 2, saque tenso a la carrera del 3, permuta de los rematadores. Material: 1 portería, 10 balones, petos.",
+ "montaje": "Cuarto de campo. Saca el lateral a la altura del área. Los atacantes 1, 2 y 3 en línea, paralelos al lado del área; 2 rematadores dentro. Rival: 6 y portero (propuesta).",
+ "juego": "1 pide el balón, protesta y se queda 2–3 s. 2 rompe hacia dentro del área y arrastra a su marca. 3 rompe al espacio junto a la línea de fondo: el saque va a él y sirve atrás o al 2.º palo.",
+ "punto": "Pase que llega a un rematador: 1. Gol: 3 (propuesta).",
+ "consigna": "El 2 arrastra y el 3 recibe.",
+ "variantes": {
+  "facil": "Sin rival y el 3 puede controlar antes de centrar (propuesta).",
+  "dificil": "La defensa sabe la jugada y el lateral puede elegir entre el 2 y el 3 (propuesta)."
+ },
+ "adaptacion": "Alevín (fútbol 7): solo 2 y 3, sin el engaño del 1. Infantil (12–13): tal cual. Cadete (14–15): con 8 defensores (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP OFENSIVA - Saque de banda cercano a área - Juanlu Toledo @JuanluAxel",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 255"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: saque de banda del lateral cerca del área, jugadores en paralelo al borde lateral del área para crear y ocupar espacios; 1 pide y protesta 2–3 s, 2 rompe por dentro del área para llevarse la marca, 3 rompe al espacio por la línea de fondo, donde va el balón para pase atrás o al 2.º palo; dos jugadores hacen permuta. Oposición, series, puntuación, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.6,
+    "y": 8.5,
+    "f": 360,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 13.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 8.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34.5,
+    "y": 11.5,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     10.5
+    ],
+    "b": [
+     22,
+     13.5
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     5.5
+    ],
+    "b": [
+     6,
+     18.4
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 8,
+    "side": -1,
+    "n": 2,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     -0.6,
+     8.5
+    ],
+    "b": [
+     5.7,
+     17.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     6,
+     18.4
+    ],
+    "b": [
+     30.5,
+     9.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    11,
+    19.4,
+    "1 PIDE",
+    "middle"
+   ]
+  ]
+ }
+}

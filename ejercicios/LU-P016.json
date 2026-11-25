@@ -1,0 +1,196 @@
+{
+ "id": "LU-P016",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "10v10 a una portería",
+ "formato": "10v10+P",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "20 jug. + 1 P",
+ "espacio": "60 × 50 m",
+ "duracion": "25 min",
+ "series": "3 series de 7′ con 2′ de pausa; en la 2.ª se cambian los papeles (propuesta).",
+ "objetivo": "Cambio de rol tras pérdida con dos comportamientos (fuente): los cercanos presionan al poseedor y a sus receptores; los alejados ocupan el campo con equilibrio. En ataque, progresar ante una defensa organizada con amplitud y profundidad; sin balón, equipo junto, estrecho y corto. Cómo explicarlo: «cerca del balón, a por él; lejos, cierra el centro». Errores típicos: todos al balón y nadie cubriendo, equipo largo sin balón, después del robo perderla en el mismo cuadrado. Qué observar: cierre del eje transversal y longitudinal, segundos hasta el robo, primer pase tras recuperar. Material: conos para 9 cuadrados, 1 portería, petos.",
+ "montaje": "60 × 50 m en 9 cuadrados (propuesta) y una portería con portero. A (10) ataca desde sus defensas; B (10) defiende con su portero.",
+ "juego": "A busca el gol. Si pierde, los cercanos presionan y los lejanos equilibran para robar en ese cuadrado. Si roba B, saca el balón de él.",
+ "punto": "A: gol 2; robo en el cuadrado de la pérdida 1. B: sacarlo del cuadrado 1.",
+ "consigna": "Cerca, a por él; lejos, cierra el centro.",
+ "variantes": {
+  "facil": "Robar en el cuadrado vale aunque tarde más; B puede sacar el balón con un pase largo (propuesta).",
+  "dificil": "El robo solo puntúa antes de 6 s y B necesita 3 pases fuera del cuadrado para puntuar (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 8 contra 8 en 50 × 40 m con 6 cuadrados. Cadete (14–15): tal cual. Juvenil: robo antes de 5 s (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "PARTIDO CONDICIONADO - Cambios de rol - Ocupación racional",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 16"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos equipos de 10, solo un portero en el equipo que empieza sin balón, el poseedor inicia desde sus defensas, presión inmediata de los cercanos y equilibrio de los alejados, se incentiva recuperar en el mismo cuadrado de la pérdida, el que recupera debe conservar y sacar el balón de esa zona; 20 jugadores, 50 × 60 m. Número de cuadrados, puntuación, series, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   60,
+   50
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 62.5,
+   "ymin": -1,
+   "ymax": 51
+  },
+  "porterias": [
+   {
+    "x": 60,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     40,
+     0
+    ],
+    [
+     40,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     16.7
+    ],
+    [
+     60,
+     16.7
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     33.3
+    ],
+    [
+     60,
+     33.3
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     40,
+     16.7,
+     60,
+     33.3
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 47,
+    "y": 24,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 15,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 53,
+    "y": 35,
+    "f": -150
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 41,
+    "f": -20
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8,
+    "f": 20
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     38,
+     15
+    ],
+    "b": [
+     44.5,
+     21.3
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 12,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     53,
+     35
+    ],
+    "b": [
+     49,
+     28
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     41
+    ],
+    "b": [
+     32,
+     34
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 12,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    53,
+    14.6,
+    "ROBA AQUÍ",
+    "middle"
+   ]
+  ]
+ }
+}

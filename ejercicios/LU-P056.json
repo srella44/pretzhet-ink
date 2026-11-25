@@ -1,0 +1,193 @@
+{
+ "id": "LU-P056",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "9v9+2 mover para atraer",
+ "formato": "9v9+2C",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "22 jug.",
+ "espacio": "75 × 40 m",
+ "duracion": "24 min",
+ "series": "4 partes de 5′ con 1′ 30″ de pausa; los comodines rotan con dos jugadores de campo en cada parte (propuesta).",
+ "objetivo": "Mover el balón rápido para atraer al rival a un lado y atacar el otro, aprovechando la superioridad de los dos comodines para generar ocasiones en amplitud y profundidad. Cómo explicarlo: «dos pases en un cuadrante y cambia; el rival se mueve y se abre el hueco». Errores típicos: pases horizontales lentos, comodines juntos, conducir sin necesidad. Qué observar: velocidad de circulación, jugadores que fijan con conducción, apoyos de los comodines a diferente altura. Material: conos para 6 cuadrantes, 2 porterías, petos de 3 colores.",
+ "montaje": "75 × 40 m en 6 cuadrantes (propuesta), con porterías y porteros. 9 + portero por equipo y 2 comodines con el que tiene el balón, nunca en el mismo cuadrante.",
+ "juego": "Máximo 2 pases seguidos en un cuadrante. 3 toques por jugador (más si conduce para fijar); comodines, 2. Tras robo, cambio de rol. Reinicio desde la portería del que tiene el balón.",
+ "punto": "Gol: 1. Gol tras pasar por 3 cuadrantes: 2 (propuesta).",
+ "consigna": "Atrae en un lado, ataca en el otro.",
+ "variantes": {
+  "facil": "Toques libres y los comodines pueden coincidir en el mismo cuadrante (fuente: variante de limitar pases, aquí suavizada).",
+  "dificil": "Solo 1 pase por cuadrante, o pasar por los tres carriles antes de finalizar (variante de la fuente)."
+ },
+ "adaptacion": "Infantil (12–13): 7 contra 7 + 2 en 60 × 40 m. Cadete (14–15): tal cual. Juvenil: un solo pase por cuadrante (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "PARTIDO CONDICIONADO - Mover para atraer - Velocidad de circulación - Amplitud / Profundidad",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 56"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos equipos de 9 y portero más dos comodines con el poseedor, 22 jugadores, 40 × 75 m, reinicios desde la portería del poseedor, máximo dos pases seguidos en el mismo cuadrante, comodines nunca en el mismo cuadrante y a dos contactos, máximo 3 contactos salvo para fijar; variantes de un pase por zona o pasar por todos los carriles. Número de cuadrantes (6), puntuación doble, series y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   75,
+   40
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 77.5,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 75,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     50,
+     0
+    ],
+    [
+     50,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     20
+    ],
+    [
+     75,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 58,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 43,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 62,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     9
+    ],
+    "b": [
+     31,
+     12.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     32,
+     13
+    ],
+    "b": [
+     39.4,
+     30.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     40,
+     31
+    ],
+    "b": [
+     57,
+     29.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    38.6,
+    "MÁX. 2 PASES POR CUADRANTE",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "id": "LU-P135",
+ "bloque": "Balón parado",
+ "titulo": "Córner defensivo en zona",
+ "formato": "ABP defensiva",
+ "edad": "12–16 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + 7",
+ "espacio": "Cuarto de campo",
+ "duracion": "15 min",
+ "series": "2 series de 8 córneres (4 por banda) con 2′ de pausa para corregir posiciones; tras el primer remate, el ataque sigue 8 s (propuesta).",
+ "objetivo": "Que cada jugador sepa su sitio y su tarea en el córner rival con defensa en zona (fuente) y que ataque el balón que entra en su zona. Cómo explicarlo: «tu zona es tuya: si el balón entra, vas tú y vas fuerte». Errores típicos: mirar solo al rival y no al balón, retroceder hacia la portería en lugar de atacar el balón, rechace sin nadie en la frontal. Qué observar: altura de cada línea, impulso hacia el balón, salida rápida tras el despeje. Material: 1 portería, 6 balones por serie, petos.",
+ "montaje": "Cuarto de campo. Portero; 3 en el borde del área pequeña; 3 entre esta y el penalti; 1 en el penalti; 1 a 9,15 m; 1 al rechace; 1 en medio campo. Ataque: 6 + lanzador.",
+ "juego": "Córneres por las dos bandas. Cada uno ataca el balón que entra en su zona; tras el despeje, sale el bloque.",
+ "punto": "Defensa: despeje 1, salida a medio campo 2. Ataque: remate 1, gol 3.",
+ "consigna": "Tu zona es tuya: ataca el balón.",
+ "variantes": {
+  "facil": "Saque con la mano desde la esquina del área y ataque con 4 (propuesta).",
+  "dificil": "Ataque con 8 y dos córneres seguidos sin pausa (propuesta)."
+ },
+ "adaptacion": "Alevín (fútbol 7): 2 + 2 en zona y 1 en el rechace. Infantil (12–13): tal cual. Cadete (14–15): con rival en la línea del portero (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ABP DEFENSIVA - POSICIONAMIENTO SAQUE DE ESQUINA RIVAL ZONA 1",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 135"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: distribución defensiva del córner rival con 11 en 20 × 20 m: portero, 3 marcaje zonal en el borde del área de meta, 3 entre área de meta y penalti, 1 en el punto de penalti, 1 a 9,15 m, 1 en rechace y 1 en medio campo. Forma de entrenarlo (ataque de 6 + lanzador), series, puntuación, variantes y adaptación son (propuesta); edad propuesta.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 15.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 15.2,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 15.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 43,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 37.5,
+    "y": 11.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 11.8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 32.5,
+    "y": 8.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 15.5,
+    "f": 210
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 2.2,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 47,
+    "y": 7.5,
+    "f": 120
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 8,
+    "f": 30
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     30.2,
+     13.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     34,
+     15.2
+    ],
+    "b": [
+     49,
+     1.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 6,
+    "side": 1,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    8.5,
+    11.4,
+    "A 9,15 M",
+    "middle"
+   ],
+   [
+    24,
+    1.2,
+    "RECHACE",
+    "end"
+   ]
+  ]
+ }
+}

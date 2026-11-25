@@ -1,0 +1,157 @@
+{
+ "id": "RONDO-BJ-F04",
+ "bloque": "Balón parado",
+ "titulo": "El penalti en carrera",
+ "formato": "Tiro + portero",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–10 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "15 min",
+ "series": "3 rondas de 4′ con 1′ de pausa para contar puntos (propuesta).",
+ "objetivo": "Tirar mucho y en movimiento, decidiendo desde dónde chutar, y que todos pasen por la portería: parar también suma. Cómo explicarlo: «conduce mirando al portero y apunta a una esquina». Errores típicos: pararse antes de tirar, chutar al centro, el portero de pie sin flexionar. Qué observar: último toque de conducción preparando el tiro, golpeo con el empeine, parada con manos y pies. Variantes «Hoy» de la fuente: un defensor sale desde el poste; se tira antes de la línea de 6 m. Material: 2 porterías pequeñas, conos, un balón por jugador.",
+ "montaje": "20 × 15 m con dos porterías cercanas, una en cada fondo, con portero. Grupos de 4–5 por portería, en fila en el centro, cada uno con balón.",
+ "juego": "Por turnos se sale conduciendo hacia la portería y se tira desde donde se quiera. Quien tira se queda de portero; el portero coge un balón y vuelve a la fila por el otro lado.",
+ "punto": "Gol: 1 para quien tira. Parada: 1 para el portero.",
+ "consigna": "Mira al portero y apunta a una esquina.",
+ "variantes": {
+  "facil": "Porterías grandes (fuente).",
+  "dificil": "El tiro con la pierna mala vale doble (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): porterías grandes y tiro desde una zona marcada. Benjamín (8–9): tal cual. Alevín (10–11): un defensor sale desde el poste (variante «Hoy» de la fuente).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El penalti en carrera",
+  "ref": "RONDO Vol. 2 · págs. 13, 33, 44, 57, 59, 61"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos porterías cercanas con dos porteros, por turnos se sale conduciendo y se tira desde donde se quiera, quien tira se pone de portero y el portero coge un balón y sale por el otro lado, grupos de 4–5 por portería, gol 1 y parada 1, más fácil porterías grandes, más difícil pierna mala doble, 20 × 15 m. Filas en el centro, rondas y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 21.6,
+   "ymin": -0.6,
+   "ymax": 15.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 7.5,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 20,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 3.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.3,
+    "y": 1.4,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 11.8,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.7,
+    "y": 13.6,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.5,
+     3.2
+    ],
+    "b": [
+     15,
+     6
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 6,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     6
+    ],
+    "b": [
+     19.6,
+     8.4
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 4,
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     18.8,
+     7.5
+    ],
+    "b": [
+     13,
+     1.2
+    ],
+    "k": "run",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     9.5,
+     11.8
+    ],
+    "b": [
+     5,
+     9
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 6,
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    10,
+    7.9,
+    "FILAS EN EL CENTRO",
+    "middle"
+   ]
+  ]
+ }
+}
