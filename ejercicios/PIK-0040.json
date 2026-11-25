@@ -1,0 +1,219 @@
+{
+  "id": "PIK-0040",
+  "bloque": "Posesiones y juego de posición",
+  "titulo": "Cuatro cuadrantes",
+  "formato": "9v4 (3v1)",
+  "edad": "11–16 años",
+  "nivel": "Alto",
+  "jugadores": "13 jug.",
+  "espacio": "25 × 25 m",
+  "duracion": "16 min",
+  "series": "4 series de 3,5 min con 1 min de pausa; rotar defensores (propuesta).",
+  "objetivo": "Conservar en 3v1 local, transferir a otro cuadrante y recorrer los cuatro sectores. Visión panorámica y circulación por los cuatro sectores. Errores típicos: repetir cuadrante; los poseedores no miran los otros sectores. Qué observar: si el tercer pase ya se orienta hacia el cuadrante destino.",
+  "montaje": "25 × 25 m dividido en cuatro cuadrantes de 12,5 × 12,5 m. Una miniportería en cada lado. Nueve poseedores amarillos (tres por cuadrante, uno vacío) y cuatro defensores azules (uno por sector).",
+  "juego": "3v1 local. Tras tres pases, transferir a otro cuadrante. Recorrer los cuatro para puntuar. Si un defensor roba, ataca cualquier mini. Si los poseedores recuperan de inmediato, juegan libre y puntúan con seis pases.",
+  "punto": "Recorrer 4 zonas: 1. 6 pases tras recuperación: 1. Gol en mini: 1.",
+  "consigna": "Tres pases, cambia; pierde y presiona.",
+  "variantes": {
+    "facil": "Transferencia a 5 pases (propuesta).",
+    "dificil": "Dos toques y no repetir cuadrante consecutivo."
+  },
+  "adaptacion": "Infantil (11–12): 28 × 28 m. Juvenil (16): 25 × 25 m a un toque en cuadrante (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Cuatro Cuadrantes y Miniporterías (9v4 · 3v1)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Posesión en cuadrantes con transferencia obligatoria: visión panorámica y circulación por los cuatro sectores.",
+  "probado": false,
+  "completado": "Series, adaptación, distribución de miniporterías y coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      25,
+      25
+    ],
+    "extent": {
+      "xmin": -2,
+      "xmax": 27,
+      "ymin": -2,
+      "ymax": 27
+    },
+    "lines": [
+      [
+        [
+          12.5,
+          0
+        ],
+        [
+          12.5,
+          25
+        ],
+        "6 5"
+      ],
+      [
+        [
+          0,
+          12.5
+        ],
+        [
+          25,
+          12.5
+        ],
+        "6 5"
+      ]
+    ],
+    "goals": [
+      [
+        0,
+        12.5,
+        "L"
+      ],
+      [
+        25,
+        12.5,
+        "R"
+      ],
+      [
+        12.5,
+        0,
+        "T"
+      ],
+      [
+        12.5,
+        25,
+        "B"
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 3,
+        "y": 3,
+        "f": 90,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 3,
+        "y": 9,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": 6,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 16,
+        "y": 3,
+        "f": 90
+      },
+      {
+        "r": "A",
+        "x": 22,
+        "y": 3,
+        "f": 180
+      },
+      {
+        "r": "A",
+        "x": 19,
+        "y": 9,
+        "f": -90
+      },
+      {
+        "r": "A",
+        "x": 3,
+        "y": 16,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": 19,
+        "f": -90
+      },
+      {
+        "r": "A",
+        "x": 3,
+        "y": 22,
+        "f": 0
+      },
+      {
+        "r": "D",
+        "x": 6,
+        "y": 5,
+        "f": [
+          3,
+          3
+        ]
+      },
+      {
+        "r": "D",
+        "x": 19,
+        "y": 5,
+        "f": [
+          16,
+          3
+        ]
+      },
+      {
+        "r": "D",
+        "x": 6,
+        "y": 19,
+        "f": [
+          3,
+          16
+        ]
+      },
+      {
+        "r": "D",
+        "x": 19,
+        "y": 19,
+        "f": 90
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          9,
+          6
+        ],
+        "b": [
+          16,
+          3
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        6,
+        -1.5,
+        "Q1",
+        "middle"
+      ],
+      [
+        19,
+        -1.5,
+        "Q2",
+        "middle"
+      ],
+      [
+        6,
+        26,
+        "Q3",
+        "middle"
+      ],
+      [
+        19,
+        26,
+        "Q4",
+        "middle"
+      ]
+    ]
+  }
+}

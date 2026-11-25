@@ -1,0 +1,168 @@
+{
+  "id": "PIK-0042",
+  "bloque": "Oleadas y transiciones",
+  "titulo": "Expansión tras recuperar",
+  "formato": "4v2 → 6v4",
+  "edad": "10–15 años",
+  "nivel": "Alto",
+  "jugadores": "10 jug.",
+  "espacio": "25 × 25 m (interior 10 × 10 m)",
+  "duracion": "15 min",
+  "series": "4 series de 3 min con 1 min de pausa; rotar defensores (propuesta).",
+  "objetivo": "Robar, expandir y reducir al recuperar. Transición instantánea de 4v2 a 6v4 que exige leer el cambio de rol. Errores típicos: los exteriores no se ofrecen tras robo; los cuatro que presionan no reducen espacio. Qué observar: velocidad de conexión del defensor que roba con el primer exterior.",
+  "montaje": "Cuadrado interior de 10 × 10 m dentro de uno exterior de 25 × 25 m. Cuatro poseedores amarillos y dos defensores azules dentro. Cuatro compañeros de los azules fuera.",
+  "juego": "4v2 interior: buscar ocho pases o dividir defensores. Si los azules roban, conectan con exteriores y pasan a 6v4. Los cuatro que perdieron presionan. Al recuperar, vuelven al interior con dos nuevos defensores.",
+  "punto": "8 pases o dividir en 4v2: 1. 5 pases en 6v4: 1.",
+  "consigna": "Roba y expande; pierde y reduce.",
+  "variantes": {
+    "facil": "6 pases en el 4v2 (propuesta).",
+    "dificil": "Dos toques y conexión inmediata al recuperar."
+  },
+  "adaptacion": "Alevín (10–11): 28 × 28 m e interior de 12 × 12 m. Cadete (14–15): 25 × 25 m a un toque (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Expansión tras Recuperar (4v2 → 6v4)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Transición instantánea de 4v2 a 6v4: leer la recuperación y expandir o comprimir según el rol.",
+  "probado": false,
+  "completado": "Series, adaptación y coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      25,
+      25
+    ],
+    "extent": {
+      "xmin": -2,
+      "xmax": 27,
+      "ymin": -2,
+      "ymax": 27
+    },
+    "zones": [
+      {
+        "t": "rect",
+        "r": [
+          7.5,
+          7.5,
+          17.5,
+          17.5
+        ]
+      }
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 9,
+        "y": 9,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 16,
+        "y": 9,
+        "f": 180
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": 16,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 16,
+        "y": 16,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 12,
+        "y": 11,
+        "f": [
+          9,
+          9
+        ]
+      },
+      {
+        "r": "D",
+        "x": 13,
+        "y": 14,
+        "f": [
+          16,
+          16
+        ]
+      },
+      {
+        "r": "D",
+        "x": 2,
+        "y": 2,
+        "f": 90,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 23,
+        "y": 2,
+        "f": 90,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 2,
+        "y": 23,
+        "f": -90,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 23,
+        "y": 23,
+        "f": -90,
+        "ghost": true
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          12,
+          11
+        ],
+        "b": [
+          2,
+          2
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          2,
+          2
+        ],
+        "b": [
+          23,
+          2
+        ],
+        "k": "pass",
+        "n": 2,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        12.5,
+        6.5,
+        "4v2 INTERIOR",
+        "middle"
+      ],
+      [
+        12.5,
+        -1.5,
+        "EXTERIOR",
+        "middle"
+      ]
+    ]
+  }
+}

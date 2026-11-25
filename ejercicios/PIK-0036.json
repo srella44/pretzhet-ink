@@ -1,0 +1,178 @@
+{
+  "id": "PIK-0036",
+  "bloque": "Rondos",
+  "titulo": "Rombo con porteros",
+  "formato": "4v2 + relevo",
+  "edad": "11–16 años",
+  "nivel": "Alto",
+  "jugadores": "9 + 2P jug.",
+  "espacio": "24 × 15 m",
+  "duracion": "16 min",
+  "series": "4 series de 3 min con 1 min de pausa; rotar defensores (propuesta).",
+  "objetivo": "Conservar en rombo, cambiar de lado y reaccionar al relevo defensivo. Integra conservación, cambio de sector y transición ofensiva-defensiva. Errores típicos: olvidar al portero como apoyo; los defensores del relevo entran tarde. Qué observar: velocidad de salida de los nuevos defensores y si los poseedores usan al portero para salir.",
+  "montaje": "24 × 15 m con dos mitades. Una portería con portero en cada fondo. Cinco poseedores amarillos (cuatro en rombo más uno en la otra mitad). Cuatro defensores azules: dos activos y dos en espera lateral.",
+  "juego": "4v2 en rombo con portero como apoyo. Tras cinco pases, cambio al otro sector: el central cambia de lado y activa el nuevo rombo. Los defensores de espera entran; si recuperan, combinan para atacar cualquier portería. Rotar tras gol o por tiempo.",
+  "punto": "Transferencia: 1. Gol tras recuperación (propuesta).",
+  "consigna": "Usa al portero, cambia y reacciona.",
+  "variantes": {
+    "facil": "Defensores de espera entran despacio (propuesta).",
+    "dificil": "Limitar a dos toques y exigir finalizar rápido tras robo."
+  },
+  "adaptacion": "Infantil (11–12): 26 × 16 m sin límite de toques. Juvenil (16): 22 × 14 m a dos toques (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Rombo con Porteros (4v2 + relevo)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Rondo 4v2 con porteros y relevo defensivo: conservación, cambio de sector y transición ofensiva-defensiva integrados.",
+  "probado": false,
+  "completado": "Series, adaptación y coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      24,
+      15
+    ],
+    "extent": {
+      "xmin": -3.5,
+      "xmax": 27.5,
+      "ymin": -1.5,
+      "ymax": 16.5
+    },
+    "lines": [
+      [
+        [
+          12,
+          0
+        ],
+        [
+          12,
+          15
+        ],
+        "6 5"
+      ]
+    ],
+    "porterias": [
+      {
+        "x": 0,
+        "y": 0,
+        "lado": "L",
+        "ancho": 5,
+        "portero": true
+      },
+      {
+        "x": 24,
+        "y": 0,
+        "lado": "R",
+        "ancho": 5,
+        "portero": true
+      }
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 3,
+        "y": 7.5,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 6,
+        "y": 3,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 6,
+        "y": 12,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": 7.5,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 18,
+        "y": 7.5,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 5,
+        "y": 6,
+        "f": [
+          3,
+          7.5
+        ]
+      },
+      {
+        "r": "D",
+        "x": 7,
+        "y": 9,
+        "f": [
+          6,
+          12
+        ]
+      },
+      {
+        "r": "D",
+        "x": 12,
+        "y": 2,
+        "f": 90,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 12,
+        "y": 13,
+        "f": -90,
+        "ghost": true
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          9,
+          7.5
+        ],
+        "b": [
+          18,
+          7.5
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          12,
+          2
+        ],
+        "b": [
+          16,
+          5
+        ],
+        "k": "run",
+        "n": 2,
+        "side": 1
+      }
+    ],
+    "labels": [
+      [
+        6,
+        -1,
+        "ROMBO",
+        "middle"
+      ],
+      [
+        18,
+        -1,
+        "NUEVO SECTOR",
+        "middle"
+      ]
+    ]
+  }
+}

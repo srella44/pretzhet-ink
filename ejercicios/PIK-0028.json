@@ -1,0 +1,212 @@
+{
+  "id": "PIK-0028",
+  "bloque": "Posesiones y juego de posición",
+  "titulo": "Atraer para cambiar",
+  "formato": "5v5+3",
+  "edad": "11–16 años",
+  "nivel": "Alto",
+  "jugadores": "13 jug.",
+  "espacio": "30 × 18 m",
+  "duracion": "16 min",
+  "series": "4 series de 3,5 min con 1 min de pausa; rotar comodines (propuesta).",
+  "objetivo": "Atraer la presión en un lado y encontrar al libre en el otro. Pregunta clave: ¿el equipo poseedor atrae presión antes de cambiar o transfiere en largo sin fijación? Errores típicos: cambiar al primer pase sin atraer; comodín central de espaldas. Qué observar: posición corporal del receptor al recibir la transferencia.",
+  "montaje": "30 × 18 m dividido en dos zonas de 12 × 18 m y un pasillo central de 6 m. Cinco contra cinco (3v2 en cada zona). Dos comodines blancos en los fondos y uno en el pasillo.",
+  "juego": "El equipo con balón conserva con los comodines, atrae la presión y conecta con la zona opuesta por pase directo o a través del comodín central. Tras robo, los comodines ayudan al nuevo poseedor; los defensores basculan.",
+  "punto": "Cambio de zona sin perder: 1. Cambio inmediato tras robo: 2.",
+  "consigna": "Atrae en un lado, encuentra al libre.",
+  "variantes": {
+    "facil": "Comodines a dos toques (propuesta).",
+    "dificil": "Comodines a un toque y cambio de sector en 5 s tras robo."
+  },
+  "adaptacion": "Infantil (12–13): 28 × 16 m con pasillo de 8 m. Cadete (14–15): 30 × 18 m a dos toques (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Atraer para Cambiar (5v5+3)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Juego de posición con cambio de zona obligatorio: decisión de cuándo atraer y cuándo filtrar al lado débil.",
+  "probado": false,
+  "completado": "Series, adaptación y puntos de coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      30,
+      18
+    ],
+    "extent": {
+      "xmin": -2,
+      "xmax": 32,
+      "ymin": -2,
+      "ymax": 20
+    },
+    "lines": [
+      [
+        [
+          12,
+          0
+        ],
+        [
+          12,
+          18
+        ],
+        "6 5"
+      ],
+      [
+        [
+          18,
+          0
+        ],
+        [
+          18,
+          18
+        ],
+        "6 5"
+      ]
+    ],
+    "zones": [
+      {
+        "t": "rect",
+        "r": [
+          12,
+          0,
+          18,
+          18
+        ]
+      }
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 3,
+        "y": 5,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 3,
+        "y": 13,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": 9,
+        "f": 0
+      },
+      {
+        "r": "D",
+        "x": 6,
+        "y": 7,
+        "f": [
+          3,
+          5
+        ]
+      },
+      {
+        "r": "D",
+        "x": 6,
+        "y": 11,
+        "f": [
+          3,
+          13
+        ]
+      },
+      {
+        "r": "A",
+        "x": 21,
+        "y": 5,
+        "f": 180
+      },
+      {
+        "r": "A",
+        "x": 21,
+        "y": 13,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 24,
+        "y": 7,
+        "f": [
+          21,
+          5
+        ]
+      },
+      {
+        "r": "D",
+        "x": 24,
+        "y": 11,
+        "f": [
+          21,
+          13
+        ]
+      },
+      {
+        "r": "D",
+        "x": 27,
+        "y": 9,
+        "f": 180
+      },
+      {
+        "r": "C",
+        "x": 15,
+        "y": 9,
+        "f": 0
+      },
+      {
+        "r": "C",
+        "x": 15,
+        "y": -1.2,
+        "f": 90
+      },
+      {
+        "r": "C",
+        "x": 15,
+        "y": 19.2,
+        "f": -90
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          9,
+          9
+        ],
+        "b": [
+          15,
+          9
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          15,
+          9
+        ],
+        "b": [
+          21,
+          5
+        ],
+        "k": "pass",
+        "n": 2,
+        "side": 1
+      }
+    ],
+    "labels": [
+      [
+        6,
+        -1.5,
+        "ZONA A",
+        "middle"
+      ],
+      [
+        24,
+        -1.5,
+        "ZONA B",
+        "middle"
+      ]
+    ]
+  }
+}

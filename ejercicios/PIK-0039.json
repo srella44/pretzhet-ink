@@ -1,0 +1,165 @@
+{
+  "id": "PIK-0039",
+  "bloque": "Finalización",
+  "titulo": "Tres fases de remate",
+  "formato": "3 estaciones",
+  "edad": "9–15 años",
+  "nivel": "Medio",
+  "jugadores": "6 + P jug.",
+  "espacio": "35 × 25 m",
+  "duracion": "15 min",
+  "series": "3 rondas de 4 min (cada jugador pasa por las tres estaciones); 1 min de pausa (propuesta).",
+  "objetivo": "Coordinar el último pase con la llegada al remate. Tres estaciones de finalización encadenadas que eliminan las esperas. Errores típicos: llegar antes de que salga el centro; tirar sin perfilarse; quedarse en la estación tras rematar. Qué observar: timing de la carrera para llegar al remate justo cuando el balón está ahí.",
+  "montaje": "35 × 25 m con una portería y portero. Tres estaciones con balones: 1) zona de conducción con un maniquí a 15 m, 2) zona de pared a 12 m, 3) zona de banda con un centrador.",
+  "juego": "1. Conducir al maniquí, cambiar de dirección y tirar. 2. Combinar en pared con un compañero y finalizar. 3. Conectar con el de banda, que centra para que los dos centrales rematen. Rotación continua.",
+  "punto": "Gol por estación: 1 (propuesta).",
+  "consigna": "Coordina pase y llegada al remate.",
+  "variantes": {
+    "facil": "Solo estaciones 1 y 2 (propuesta).",
+    "dificil": "Aumentar ritmo y usar pie menos hábil."
+  },
+  "adaptacion": "Benjamín (9): 25 × 20 m y sin maniquí. Cadete (14–15): 35 × 25 m con defensor pasivo en estación 3 (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Tres Fases de Remate (3 estaciones)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Tres estaciones de finalización encadenadas: conducción, pared y centro, con rotación continua y sin esperas.",
+  "probado": false,
+  "completado": "Series, adaptación, distancias de estaciones y coaching (propuesta). Mecánica y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      35,
+      25
+    ],
+    "extent": {
+      "xmin": -3.5,
+      "xmax": 36.5,
+      "ymin": -1.5,
+      "ymax": 26.5
+    },
+    "porterias": [
+      {
+        "x": 0,
+        "y": 0,
+        "lado": "L",
+        "ancho": 7,
+        "portero": true
+      }
+    ],
+    "cones": [
+      [
+        15,
+        6
+      ],
+      [
+        12,
+        12.5
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 25,
+        "y": 6,
+        "f": 180,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 20,
+        "y": 12.5,
+        "f": 180
+      },
+      {
+        "r": "A",
+        "x": 30,
+        "y": 22,
+        "f": 180
+      },
+      {
+        "r": "A",
+        "x": 15,
+        "y": 22,
+        "f": [
+          5,
+          15
+        ]
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          25,
+          6
+        ],
+        "b": [
+          15,
+          6
+        ],
+        "k": "cond",
+        "n": 1,
+        "side": -1
+      },
+      {
+        "a": [
+          15,
+          6
+        ],
+        "b": [
+          3,
+          10
+        ],
+        "k": "pass",
+        "n": 2,
+        "side": 1
+      },
+      {
+        "a": [
+          30,
+          22
+        ],
+        "b": [
+          15,
+          22
+        ],
+        "k": "pass",
+        "n": 3,
+        "side": -1
+      },
+      {
+        "a": [
+          15,
+          22
+        ],
+        "b": [
+          5,
+          15
+        ],
+        "k": "pass",
+        "n": 4,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        25,
+        4,
+        "EST. 1",
+        "middle"
+      ],
+      [
+        20,
+        10,
+        "EST. 2",
+        "middle"
+      ],
+      [
+        30,
+        24,
+        "EST. 3",
+        "middle"
+      ]
+    ]
+  }
+}

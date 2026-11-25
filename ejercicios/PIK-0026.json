@@ -1,0 +1,209 @@
+{
+  "id": "PIK-0026",
+  "bloque": "Rondos",
+  "titulo": "Rondos encadenados",
+  "formato": "3 × (3v1)",
+  "edad": "8–13 años",
+  "nivel": "Medio",
+  "jugadores": "12 jug.",
+  "espacio": "3 × (6 × 6 m)",
+  "duracion": "12 min",
+  "series": "4 series de 2,5 min con 1 min de pausa (propuesta).",
+  "objetivo": "Pase corto, movilidad y reacción tras pérdida. Tres rondos conectados con castigo migratorio. Errores típicos: el defensor espera en el centro sin salir al balón; el que pierde no reacciona. Qué observar: si el jugador que se mueve ocupa el lado libre antes de que llegue el balón.",
+  "montaje": "Tres cuadrados de 6 × 6 m separados 5 m entre sí, en línea. Cuatro jugadores por rondo: tres poseedores y un defensor. Un balón por zona.",
+  "juego": "Pase solo al compañero de la izquierda o derecha, nunca al de enfrente. Tras pasar, moverse al lado libre. Quien pierde va a otro rondo a defender; el liberado ocupa su plaza.",
+  "punto": "5 pases sin pérdida: 1 individual.",
+  "consigna": "Pasa al lado, muévete y reacciona.",
+  "variantes": {
+    "facil": "Sin restricción de dirección del pase (propuesta).",
+    "dificil": "Dos toques máximo y señalar la zona de destino antes de pasar."
+  },
+  "adaptacion": "Benjamín (8–9): 7 × 7 m sin límite de toques. Infantil (12–13): 5 × 5 m a dos toques (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Rondos Encadenados 3 × (3v1)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Tres rondos conectados con castigo migratorio: intensidad sin pausa y decisión lateral constante.",
+  "probado": false,
+  "completado": "Series, adaptación y observación (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      28,
+      6
+    ],
+    "extent": {
+      "xmin": -1.5,
+      "xmax": 29.5,
+      "ymin": -1.5,
+      "ymax": 7.5
+    },
+    "lines": [
+      [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          6
+        ],
+        "6 5"
+      ],
+      [
+        [
+          11,
+          0
+        ],
+        [
+          11,
+          6
+        ],
+        "6 5"
+      ],
+      [
+        [
+          17,
+          0
+        ],
+        [
+          17,
+          6
+        ],
+        "6 5"
+      ],
+      [
+        [
+          22,
+          0
+        ],
+        [
+          22,
+          6
+        ],
+        "6 5"
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 0.5,
+        "y": 3,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 3,
+        "y": 0.5,
+        "f": 90
+      },
+      {
+        "r": "A",
+        "x": 5.5,
+        "y": 3,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 3,
+        "y": 3,
+        "f": [
+          0.5,
+          3
+        ]
+      },
+      {
+        "r": "A",
+        "x": 11.5,
+        "y": 3,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 14,
+        "y": 0.5,
+        "f": 90
+      },
+      {
+        "r": "A",
+        "x": 16.5,
+        "y": 3,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 14,
+        "y": 3,
+        "f": [
+          11.5,
+          3
+        ]
+      },
+      {
+        "r": "A",
+        "x": 22.5,
+        "y": 3,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 25,
+        "y": 0.5,
+        "f": 90
+      },
+      {
+        "r": "A",
+        "x": 27.5,
+        "y": 3,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 25,
+        "y": 3,
+        "f": [
+          22.5,
+          3
+        ]
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          3,
+          3
+        ],
+        "b": [
+          11,
+          3
+        ],
+        "k": "run",
+        "n": 1,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        3,
+        -1.2,
+        "ZONA 1",
+        "middle"
+      ],
+      [
+        14,
+        -1.2,
+        "ZONA 2",
+        "middle"
+      ],
+      [
+        25,
+        -1.2,
+        "ZONA 3",
+        "middle"
+      ]
+    ]
+  }
+}

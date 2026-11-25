@@ -1,0 +1,216 @@
+{
+  "id": "PIK-0038",
+  "bloque": "Superioridades",
+  "titulo": "Rompe la línea defensiva",
+  "formato": "6v6",
+  "edad": "11–16 años",
+  "nivel": "Alto",
+  "jugadores": "12 jug.",
+  "espacio": "32 × 24 m",
+  "duracion": "16 min",
+  "series": "4 series de 3,5 min con 1 min de pausa; cambiar sentido del ataque (propuesta).",
+  "objetivo": "Circular, desplazar la línea rival y filtrar hacia los avanzados. 6v6 en franjas que obliga a encontrar el pase entre líneas. Errores típicos: los interiores se apilan en la misma franja; los avanzados no se desmarcan. Qué observar: si el balón circula por al menos dos jugadores antes de filtrar.",
+  "montaje": "32 × 24 m dividido en cuatro franjas de 8 m. Dos miniporterías en cada fondo. Cada equipo: cuatro jugadores en la franja interior (dos centrales) y dos avanzados detrás de la línea rival.",
+  "juego": "Circular por el suelo, desplazar la línea rival y filtrar hacia un avanzado. Al recibir, atacan las minis y los defensores superados pueden recuperar. Si se pierde el balón, cambio de sentido inmediato.",
+  "punto": "Gol en mini: 1 (propuesta).",
+  "consigna": "Mueve la línea y filtra al hueco.",
+  "variantes": {
+    "facil": "Avanzados libres de toques (propuesta).",
+    "dificil": "Restringir a dos toques y pase raso obligatorio."
+  },
+  "adaptacion": "Infantil (12–13): 30 × 22 m con franjas de 7,5 m. Juvenil (16): 32 × 24 m a un toque en las franjas centrales (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Romper la Línea Defensiva (6v6)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "6v6 en franjas con avanzados fijos: obliga a mover la defensa y encontrar el pase entre líneas.",
+  "probado": false,
+  "completado": "Series, adaptación, distribución de miniporterías y coaching (propuesta). Mecánica y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      32,
+      24
+    ],
+    "extent": {
+      "xmin": -1.5,
+      "xmax": 33.5,
+      "ymin": -2,
+      "ymax": 26
+    },
+    "lines": [
+      [
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          24
+        ],
+        "6 5"
+      ],
+      [
+        [
+          16,
+          0
+        ],
+        [
+          16,
+          24
+        ],
+        "6 5"
+      ],
+      [
+        [
+          24,
+          0
+        ],
+        [
+          24,
+          24
+        ],
+        "6 5"
+      ]
+    ],
+    "goals": [
+      [
+        0,
+        8,
+        "L"
+      ],
+      [
+        0,
+        16,
+        "L"
+      ],
+      [
+        32,
+        8,
+        "R"
+      ],
+      [
+        32,
+        16,
+        "R"
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 10,
+        "y": 8,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 10,
+        "y": 16,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 14,
+        "y": 10,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 14,
+        "y": 14,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 28,
+        "y": 9,
+        "f": 180
+      },
+      {
+        "r": "A",
+        "x": 28,
+        "y": 15,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 18,
+        "y": 8,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 18,
+        "y": 16,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 22,
+        "y": 10,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 22,
+        "y": 14,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 4,
+        "y": 9,
+        "f": 0
+      },
+      {
+        "r": "D",
+        "x": 4,
+        "y": 15,
+        "f": 0
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          14,
+          10
+        ],
+        "b": [
+          28,
+          9
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          28,
+          9
+        ],
+        "b": [
+          32,
+          8
+        ],
+        "k": "pass",
+        "n": 2,
+        "side": 1
+      }
+    ],
+    "labels": [
+      [
+        4,
+        -1.5,
+        "AVANZADOS AZ",
+        "middle"
+      ],
+      [
+        28,
+        -1.5,
+        "AVANZADOS AM",
+        "middle"
+      ]
+    ]
+  }
+}

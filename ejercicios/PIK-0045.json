@@ -1,0 +1,169 @@
+{
+  "id": "PIK-0045",
+  "bloque": "Posesiones y juego de posición",
+  "titulo": "Robo y transferencia 6v2",
+  "formato": "6v2",
+  "edad": "10–15 años",
+  "nivel": "Medio",
+  "jugadores": "12 jug.",
+  "espacio": "2 × (10 × 10 m)",
+  "duracion": "15 min",
+  "series": "4 series de 3 min con 1 min de pausa; rotar defensores (propuesta).",
+  "objetivo": "Recuperar y salir; pierde y evita la transferencia. 6v2 con transferencia instantánea tras robo y contrapresión real. Errores típicos: los dos defensores van al mismo jugador; los que pierden no contrapresionan. Qué observar: si los defensores se separan para abarcar líneas de pase y si la transferencia sale en un toque.",
+  "montaje": "Dos cuadrados contiguos de 10 × 10 m. Dos equipos de seis. Un equipo conserva en su cuadrado; dos del otro presionan. Los cuatro restantes esperan en la otra zona.",
+  "juego": "El equipo poseedor busca ocho pases consecutivos. Si los dos defensores roban, transfieren inmediatamente a su zona. Los que perdieron contrapresionan antes de que salga el balón. Al llegar, los seis del nuevo equipo conservan y entran dos rivales.",
+  "punto": "8 pases consecutivos: 1.",
+  "consigna": "Recupera y sal; pierde, contrapresiona.",
+  "variantes": {
+    "facil": "6 pases (propuesta).",
+    "dificil": "Dos toques y transferencia en 3 s."
+  },
+  "adaptacion": "Alevín (10–11): 12 × 12 m cada zona. Cadete (14–15): 10 × 10 m a un toque (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Robo y Transferencia 6v2",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "6v2 con transferencia instantánea tras robo: contrapresión real y velocidad de salida en la transición.",
+  "probado": false,
+  "completado": "Series, adaptación y coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      22,
+      10
+    ],
+    "extent": {
+      "xmin": -1.5,
+      "xmax": 23.5,
+      "ymin": -1.5,
+      "ymax": 11.5
+    },
+    "lines": [
+      [
+        [
+          11,
+          0
+        ],
+        [
+          11,
+          10
+        ],
+        "6 5"
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 1,
+        "y": 2,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 1,
+        "y": 8,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 5.5,
+        "y": 1,
+        "f": -90
+      },
+      {
+        "r": "A",
+        "x": 5.5,
+        "y": 9,
+        "f": 90
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": 3,
+        "f": 180
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": 7,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 4,
+        "y": 4,
+        "f": [
+          1,
+          2
+        ]
+      },
+      {
+        "r": "D",
+        "x": 7,
+        "y": 6,
+        "f": [
+          9,
+          7
+        ]
+      },
+      {
+        "r": "D",
+        "x": 14,
+        "y": 2,
+        "f": 90,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 14,
+        "y": 8,
+        "f": -90,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 18,
+        "y": 3,
+        "f": 180,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 18,
+        "y": 7,
+        "f": 180,
+        "ghost": true
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          7,
+          6
+        ],
+        "b": [
+          14,
+          2
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        5.5,
+        -1,
+        "ZONA A",
+        "middle"
+      ],
+      [
+        16.5,
+        -1,
+        "ZONA B",
+        "middle"
+      ]
+    ]
+  }
+}

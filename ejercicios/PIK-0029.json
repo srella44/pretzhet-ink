@@ -1,0 +1,140 @@
+{
+  "id": "PIK-0029",
+  "bloque": "Rondos",
+  "titulo": "Conecta con el pivote",
+  "formato": "5v2",
+  "edad": "10–14 años",
+  "nivel": "Medio",
+  "jugadores": "7 jug.",
+  "espacio": "15 × 15 m",
+  "duracion": "12 min",
+  "series": "4 series de 2,5 min con 1 min de pausa; rotar pivote y defensores (propuesta).",
+  "objetivo": "Ajustar posición para recibir fuera de sombra y conectar con el pivote. Errores típicos: el pivote espera de espaldas; los exteriores pasan sin mirar al centro. Qué observar: si el pivote ofrece el perfil antes de que salga el pase.",
+  "montaje": "Cuadrado de 15 × 15 m. Cuatro apoyos amarillos fuera (uno por lado). Un pivote amarillo en un cuadrado central de 5 × 5 m. Dos defensores azules libres dentro.",
+  "juego": "Los cuatro exteriores circulan. El pivote ajusta su posición para recibir fuera de la sombra defensiva y conecta con otro exterior. Tras robo, cambia el defensor con el responsable de la pérdida.",
+  "punto": "Transferencia a través del pivote: 1.",
+  "consigna": "Mira antes, recibe perfilado y conecta.",
+  "variantes": {
+    "facil": "Pivote libre de toques (propuesta).",
+    "dificil": "Pivote a dos toques máximo."
+  },
+  "adaptacion": "Alevín (10–11): 16 × 16 m y zona central de 6 × 6 m. Cadete (14): 14 × 14 m a un toque fuera (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Conecta con el Pivote (5v2)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Rondo con pivote interior que obliga a leer la sombra y perfilarse antes de recibir.",
+  "probado": false,
+  "completado": "Series, adaptación y observación (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      15,
+      15
+    ],
+    "extent": {
+      "xmin": -2.5,
+      "xmax": 17.5,
+      "ymin": -2.5,
+      "ymax": 17.5
+    },
+    "zones": [
+      {
+        "t": "rect",
+        "r": [
+          5,
+          5,
+          10,
+          10
+        ]
+      }
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": -1.5,
+        "y": 7.5,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 16.5,
+        "y": 7.5,
+        "f": 180
+      },
+      {
+        "r": "A",
+        "x": 7.5,
+        "y": -1.5,
+        "f": 90,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 7.5,
+        "y": 16.5,
+        "f": -90
+      },
+      {
+        "r": "A",
+        "x": 7.5,
+        "y": 7.5,
+        "f": 0
+      },
+      {
+        "r": "D",
+        "x": 6,
+        "y": 6,
+        "f": [
+          7.5,
+          7.5
+        ]
+      },
+      {
+        "r": "D",
+        "x": 9,
+        "y": 9,
+        "f": [
+          7.5,
+          7.5
+        ]
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          7.5,
+          -1.5
+        ],
+        "b": [
+          7.5,
+          7.5
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          7.5,
+          7.5
+        ],
+        "b": [
+          16.5,
+          7.5
+        ],
+        "k": "pass",
+        "n": 2,
+        "side": 1
+      }
+    ],
+    "labels": [
+      [
+        7.5,
+        4.3,
+        "ZONA PIVOTE",
+        "middle"
+      ]
+    ]
+  }
+}

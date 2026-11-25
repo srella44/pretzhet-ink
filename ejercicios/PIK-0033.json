@@ -1,0 +1,175 @@
+{
+  "id": "PIK-0033",
+  "bloque": "Posesiones y juego de posición",
+  "titulo": "Transferencia con interceptor",
+  "formato": "3v2+1",
+  "edad": "10–15 años",
+  "nivel": "Medio",
+  "jugadores": "9 jug.",
+  "espacio": "24 × 20 m",
+  "duracion": "15 min",
+  "series": "4 series de 3 min con 1 min de pausa; rotar equipos (propuesta).",
+  "objetivo": "Cinco pases, encontrar el hueco y cambiar de zona. Posesión con transferencia obligatoria y visión periférica. Errores típicos: transferir por arriba; el interceptor se queda quieto en el centro. Qué observar: si el poseedor mira al pasillo antes de dar el quinto pase.",
+  "montaje": "24 × 20 m dividido en tres sectores: dos zonas de 9 × 20 m y un pasillo central de 6 m. Tres equipos de tres; dos conservan en las zonas laterales y uno defiende (dos presionan y uno queda en el pasillo).",
+  "juego": "El trío exterior conserva en 3v2. Tras cinco pases, puede transferir al trío opuesto. Los dos defensores siguen el balón y el tercero intenta cortar desde el pasillo. Si roban, intercambian con el equipo que perdió.",
+  "punto": "Transferencia completada: 1 (propuesta).",
+  "consigna": "Cinco pases, busca el hueco y cambia.",
+  "variantes": {
+    "facil": "Transferencia libre sin contar pases (propuesta).",
+    "dificil": "Dos toques y pase de transferencia raso obligatorio."
+  },
+  "adaptacion": "Alevín (10–11): 26 × 22 m con pasillo de 8 m. Cadete (14–15): 22 × 18 m a un toque (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Transferencia con Interceptor (3v2+1)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Posesión con transferencia obligatoria tras cinco pases: visión periférica y timing del pase filtrado.",
+  "probado": false,
+  "completado": "Series, puntuación, adaptación y coaching (propuesta). Mecánica y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      24,
+      20
+    ],
+    "extent": {
+      "xmin": -1.5,
+      "xmax": 25.5,
+      "ymin": -1.5,
+      "ymax": 21.5
+    },
+    "lines": [
+      [
+        [
+          9,
+          0
+        ],
+        [
+          9,
+          20
+        ],
+        "6 5"
+      ],
+      [
+        [
+          15,
+          0
+        ],
+        [
+          15,
+          20
+        ],
+        "6 5"
+      ]
+    ],
+    "zones": [
+      {
+        "t": "rect",
+        "r": [
+          9,
+          0,
+          15,
+          20
+        ]
+      }
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 2,
+        "y": 5,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 2,
+        "y": 15,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 7,
+        "y": 10,
+        "f": 0
+      },
+      {
+        "r": "D",
+        "x": 5,
+        "y": 7,
+        "f": [
+          2,
+          5
+        ]
+      },
+      {
+        "r": "D",
+        "x": 5,
+        "y": 13,
+        "f": [
+          2,
+          15
+        ]
+      },
+      {
+        "r": "D",
+        "x": 12,
+        "y": 10,
+        "f": 0
+      },
+      {
+        "r": "B",
+        "x": 19,
+        "y": 5,
+        "f": 180
+      },
+      {
+        "r": "B",
+        "x": 19,
+        "y": 15,
+        "f": 180
+      },
+      {
+        "r": "B",
+        "x": 22,
+        "y": 10,
+        "f": 180
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          7,
+          10
+        ],
+        "b": [
+          19,
+          5
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      }
+    ],
+    "labels": [
+      [
+        4.5,
+        -1,
+        "ZONA A",
+        "middle"
+      ],
+      [
+        12,
+        -1,
+        "PASILLO",
+        "middle"
+      ],
+      [
+        19.5,
+        -1,
+        "ZONA B",
+        "middle"
+      ]
+    ]
+  }
+}

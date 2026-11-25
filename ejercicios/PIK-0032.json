@@ -1,0 +1,138 @@
+{
+  "id": "PIK-0032",
+  "bloque": "Técnica y duelos",
+  "titulo": "Carrera de regate y duelo",
+  "formato": "1vP + 1v1",
+  "edad": "8–13 años",
+  "nivel": "Medio",
+  "jugadores": "6 + 2P jug.",
+  "espacio": "25 × 20 m",
+  "duracion": "15 min",
+  "series": "2 rondas de 6 min con 2 min de pausa; cambiar el sentido del circuito en la segunda (propuesta).",
+  "objetivo": "Conducir rápido, finalizar y defender tras el tiro. Carrera competitiva que integra conducción, remate y transición atacante-defensor. Errores típicos: mirar los conos en vez de levantar la cabeza; no defender después de tirar. Qué observar: si el jugador que llega segundo ya mira al rival antes de entrar al 1v1.",
+  "montaje": "25 × 20 m con dos porterías y porteros en fondos opuestos. Dos circuitos de 5 conos en sentidos opuestos (uno por cada lado). Cada jugador sale con balón.",
+  "juego": "A la señal, sale uno de cada equipo conduciendo por su circuito. El primero en terminar finaliza ante el portero rival; el segundo conduce al centro y ataca al primero, que defiende. Sale la siguiente pareja al acabar.",
+  "punto": "Gana el equipo con más goles en dos rondas.",
+  "consigna": "Controla rápido; después del tiro, defiende.",
+  "variantes": {
+    "facil": "Circuito más corto con tres conos (propuesta).",
+    "dificil": "Conos más juntos y recorrido con pie menos hábil."
+  },
+  "adaptacion": "Benjamín (8–9): 20 × 16 m y conos anchos. Infantil (12–13): 25 × 20 m con límite de 8 s para el circuito (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Carrera de Regate y Duelo (1vP + 1v1)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Carrera competitiva con conducción, remate y duelo inmediato: ritmo, pie débil y transición atacante-defensor.",
+  "probado": false,
+  "completado": "Series, adaptación y coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      25,
+      20
+    ],
+    "extent": {
+      "xmin": -3.5,
+      "xmax": 28.5,
+      "ymin": -1.5,
+      "ymax": 21.5
+    },
+    "porterias": [
+      {
+        "x": 0,
+        "y": 0,
+        "lado": "L",
+        "ancho": 6,
+        "portero": true
+      },
+      {
+        "x": 25,
+        "y": 0,
+        "lado": "R",
+        "ancho": 6,
+        "portero": true
+      }
+    ],
+    "cones": [
+      [
+        8,
+        4
+      ],
+      [
+        10,
+        7
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        8,
+        16
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 12.5,
+        "y": 3,
+        "f": [
+          8,
+          4
+        ],
+        "ball": true
+      },
+      {
+        "r": "D",
+        "x": 12.5,
+        "y": 17,
+        "f": [
+          17,
+          16
+        ],
+        "ball": true
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          12.5,
+          3
+        ],
+        "b": [
+          8,
+          4
+        ],
+        "k": "cond",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          8,
+          16
+        ],
+        "b": [
+          3,
+          10
+        ],
+        "k": "cond",
+        "n": 2,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        12.5,
+        0.5,
+        "SALIDA",
+        "middle"
+      ]
+    ]
+  }
+}

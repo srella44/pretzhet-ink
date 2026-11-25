@@ -1,0 +1,148 @@
+{
+  "id": "PIK-0031",
+  "bloque": "Superioridades",
+  "titulo": "Superioridades progresivas",
+  "formato": "1vP → 3v3",
+  "edad": "9–15 años",
+  "nivel": "Medio",
+  "jugadores": "6 + P jug.",
+  "espacio": "25 × 20 m",
+  "duracion": "15 min",
+  "series": "3 rondas de secuencias completas con 2 min de pausa (propuesta).",
+  "objetivo": "Atacar la ventaja antes de que llegue ayuda. Cada entrada cambia el escenario y exige releer en tiempo real. Errores típicos: esperar al compañero en vez de atacar con ventaja; el defensor se lanza sin esperar a su pareja. Qué observar: si el atacante con balón decide rápido (finalizar o combinar).",
+  "montaje": "25 × 20 m con una portería grande y portero en un fondo. Dos miniporterías en el fondo opuesto. Dos filas de tres a los lados, una con petos amarillos y otra con azules.",
+  "juego": "Sale un amarillo: 1vP. Entra un azul: 2v1. Luego otro amarillo: 2v2. Después otro azul: 3v2 y finalmente otro amarillo: 3v3. Reiniciar al terminar la secuencia.",
+  "punto": "Gol: 1. Azules a portería grande; amarillos a minis (propuesta).",
+  "consigna": "Ataca la ventaja antes de que llegue ayuda.",
+  "variantes": {
+    "facil": "Solo llegar hasta el 2v1 y reiniciar (propuesta).",
+    "dificil": "Activar la siguiente entrada inmediatamente al concluir la acción."
+  },
+  "adaptacion": "Benjamín (9): 20 × 16 m y hasta 2v2. Cadete (14–15): 25 × 20 m completo con límite de 8 s por fase (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Superioridades Progresivas (1vP → 3v3)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Oleada progresiva de 1vP a 3v3: cada entrada cambia el escenario y exige releer en tiempo real.",
+  "probado": false,
+  "completado": "Series, adaptación, objetivo de cada mini y coaching (propuesta). Mecánica y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      25,
+      20
+    ],
+    "extent": {
+      "xmin": -3.5,
+      "xmax": 27,
+      "ymin": -1.5,
+      "ymax": 21.5
+    },
+    "porterias": [
+      {
+        "x": 0,
+        "y": 0,
+        "lado": "L",
+        "ancho": 6,
+        "portero": true
+      }
+    ],
+    "goals": [
+      [
+        25,
+        7,
+        "R"
+      ],
+      [
+        25,
+        13,
+        "R"
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 22,
+        "y": 3,
+        "f": 180,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 22,
+        "y": 7,
+        "f": 180,
+        "ghost": true
+      },
+      {
+        "r": "A",
+        "x": 22,
+        "y": 11,
+        "f": 180,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 22,
+        "y": 17,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 22,
+        "y": 13,
+        "f": 180,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 22,
+        "y": 20,
+        "f": 180,
+        "ghost": true
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          22,
+          3
+        ],
+        "b": [
+          5,
+          10
+        ],
+        "k": "cond",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          22,
+          17
+        ],
+        "b": [
+          12,
+          10
+        ],
+        "k": "run",
+        "n": 2,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        22,
+        1,
+        "AMARILLOS",
+        "end"
+      ],
+      [
+        22,
+        21,
+        "AZULES",
+        "end"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "PIK-0046",
+  "bloque": "Superioridades",
+  "titulo": "Rompe dos líneas",
+  "formato": "4v4 + relevos",
+  "edad": "10–14 años",
+  "nivel": "Medio",
+  "jugadores": "8 + relevos jug.",
+  "espacio": "24 × 16 m",
+  "duracion": "15 min",
+  "series": "4 series de 3 min con 1 min de pausa; los interiores pasan a exteriores y viceversa (propuesta).",
+  "objetivo": "Encontrar el hueco, pasar y correr por fuera. Combinación interior con desmarque de ruptura por los carriles exteriores. Errores típicos: los interiores no se perfilan para recibir entre líneas; los corredores exteriores no cronometran la carrera. Qué observar: si el pase entre líneas y la carrera exterior arrancan a la vez.",
+  "montaje": "24 × 16 m con carriles exteriores de 3 m a cada lado. Dos líneas de dos defensores (una a 8 m, otra a 16 m). Dos atacantes amarillos entre líneas. Pareja de inicio en el fondo con balón. Dos miniporterías al fondo opuesto.",
+  "juego": "La pareja inicial filtra un pase a los interiores y avanza por los carriles exteriores. Los interiores combinan y buscan a los corredores por detrás de la segunda línea. Finalizar en cualquier mini. Los corredores pasan al centro y los interiores salen por fuera.",
+  "punto": "Superar ambas líneas y gol: 1 (propuesta).",
+  "consigna": "Encuentra el hueco, pasa y corre.",
+  "variantes": {
+    "facil": "Defensores estáticos en su franja (propuesta).",
+    "dificil": "Defensores activos en su franja y limitar a dos toques (propuesta)."
+  },
+  "adaptacion": "Alevín (10–11): 22 × 14 m con carriles de 4 m. Infantil (12–13): 24 × 16 m con una línea activa (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Rompe Dos Líneas (4 atacantes + 4 defensores)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Ataque con dos líneas defensivas y carriles exteriores: combinación interior y desmarque de ruptura por fuera.",
+  "probado": false,
+  "completado": "Series, adaptación, actividad de los defensores y coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      24,
+      16
+    ],
+    "extent": {
+      "xmin": -1.5,
+      "xmax": 25.5,
+      "ymin": -1.5,
+      "ymax": 17.5
+    },
+    "lines": [
+      [
+        [
+          0,
+          3
+        ],
+        [
+          24,
+          3
+        ],
+        "6 5"
+      ],
+      [
+        [
+          0,
+          13
+        ],
+        [
+          24,
+          13
+        ],
+        "6 5"
+      ],
+      [
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          16
+        ],
+        "6 5"
+      ],
+      [
+        [
+          16,
+          0
+        ],
+        [
+          16,
+          16
+        ],
+        "6 5"
+      ]
+    ],
+    "goals": [
+      [
+        24,
+        5,
+        "R"
+      ],
+      [
+        24,
+        11,
+        "R"
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 2,
+        "y": 6,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 2,
+        "y": 10,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 12,
+        "y": 7,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 12,
+        "y": 9,
+        "f": 0
+      },
+      {
+        "r": "D",
+        "x": 8,
+        "y": 6,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 8,
+        "y": 10,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 16,
+        "y": 6,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 16,
+        "y": 10,
+        "f": 180
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          2,
+          6
+        ],
+        "b": [
+          12,
+          7
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": -1
+      },
+      {
+        "a": [
+          2,
+          6
+        ],
+        "b": [
+          4,
+          1.5
+        ],
+        "k": "run",
+        "n": 2,
+        "side": -1
+      },
+      {
+        "a": [
+          12,
+          7
+        ],
+        "b": [
+          20,
+          2
+        ],
+        "k": "pass",
+        "n": 3,
+        "side": -1
+      },
+      {
+        "a": [
+          4,
+          1.5
+        ],
+        "b": [
+          20,
+          2
+        ],
+        "k": "run",
+        "n": 4,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        4,
+        -1,
+        "INICIO",
+        "middle"
+      ],
+      [
+        12,
+        -1,
+        "INTERIORES",
+        "middle"
+      ],
+      [
+        20,
+        -1,
+        "MINIS",
+        "middle"
+      ]
+    ]
+  }
+}

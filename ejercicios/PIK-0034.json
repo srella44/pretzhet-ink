@@ -1,0 +1,203 @@
+{
+  "id": "PIK-0034",
+  "bloque": "Técnica y duelos",
+  "titulo": "Derriba los 4 balones",
+  "formato": "4v4",
+  "edad": "7–12 años",
+  "nivel": "Medio",
+  "jugadores": "8 jug.",
+  "espacio": "20 × 15 m",
+  "duracion": "12 min",
+  "series": "3 partidos de 3 min con 1 min de pausa; contar derribos acumulados (propuesta).",
+  "objetivo": "Conservar, combinar y generar una opción de tiro para derribar las dianas rivales. No forzar el disparo si la línea está cerrada. Errores típicos: tirar de lejos sin crear ángulo; abandonar la defensa para atacar todos. Qué observar: si el equipo mueve al rival antes de disparar.",
+  "montaje": "Rectángulo de 20 × 15 m. Cuatro balones apoyados sobre conos en cada línea de fondo (separados 3–4 m). Un balón de juego en el centro. Dos equipos de cuatro.",
+  "juego": "Conservar, combinar y generar un tiro para derribar un balón del fondo rival. Tras derribar uno se reanuda desde el centro. Juego libre hasta que un equipo elimine los cuatro.",
+  "punto": "Gana quien derriba los cuatro primero.",
+  "consigna": "Mueve al rival y apunta al objetivo libre.",
+  "variantes": {
+    "facil": "Distancia al fondo reducida a 15 × 12 m (propuesta).",
+    "dificil": "Ampliar distancia y limitar a tres toques."
+  },
+  "adaptacion": "Prebenjamín (7): 16 × 12 m con tres dianas. Alevín (10–11): 20 × 15 m a dos toques (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Derriba los Cuatro Balones (4v4)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "4v4 con diana múltiple: conservar, combinar y elegir el momento justo para disparar al cono descubierto.",
+  "probado": false,
+  "completado": "Series, adaptación, separación de dianas y coaching (propuesta). Mecánica y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      20,
+      15
+    ],
+    "extent": {
+      "xmin": -1.5,
+      "xmax": 21.5,
+      "ymin": -2,
+      "ymax": 17
+    },
+    "cones": [
+      [
+        4,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        16,
+        15
+      ]
+    ],
+    "balls": [
+      [
+        4,
+        -0.5
+      ],
+      [
+        8,
+        -0.5
+      ],
+      [
+        12,
+        -0.5
+      ],
+      [
+        16,
+        -0.5
+      ],
+      [
+        4,
+        15.5
+      ],
+      [
+        8,
+        15.5
+      ],
+      [
+        12,
+        15.5
+      ],
+      [
+        16,
+        15.5
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 5,
+        "y": 5,
+        "f": -90,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 10,
+        "y": 4,
+        "f": -90
+      },
+      {
+        "r": "A",
+        "x": 15,
+        "y": 6,
+        "f": -90
+      },
+      {
+        "r": "A",
+        "x": 7,
+        "y": 8,
+        "f": -90
+      },
+      {
+        "r": "D",
+        "x": 6,
+        "y": 10,
+        "f": 90
+      },
+      {
+        "r": "D",
+        "x": 11,
+        "y": 11,
+        "f": 90
+      },
+      {
+        "r": "D",
+        "x": 14,
+        "y": 9,
+        "f": 90
+      },
+      {
+        "r": "D",
+        "x": 9,
+        "y": 7,
+        "f": 90
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          5,
+          5
+        ],
+        "b": [
+          10,
+          4
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": -1
+      },
+      {
+        "a": [
+          10,
+          4
+        ],
+        "b": [
+          12,
+          0
+        ],
+        "k": "pass",
+        "n": 2,
+        "side": 1
+      }
+    ],
+    "labels": [
+      [
+        10,
+        16.5,
+        "DIANAS AMARILLAS",
+        "middle"
+      ],
+      [
+        10,
+        -1.5,
+        "DIANAS AZULES",
+        "middle"
+      ]
+    ]
+  }
+}

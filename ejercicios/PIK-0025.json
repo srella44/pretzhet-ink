@@ -1,0 +1,166 @@
+{
+  "id": "PIK-0025",
+  "bloque": "Rondos",
+  "titulo": "Inferioridad con apoyos",
+  "formato": "2v3+6",
+  "edad": "10–14 años",
+  "nivel": "Alto",
+  "jugadores": "11 jug.",
+  "espacio": "18 × 16 m",
+  "duracion": "15 min",
+  "series": "4 series de 3 min con 1 min de pausa; rotar defensores (propuesta).",
+  "objetivo": "Conservar con apoyos y moverse tras pasar en inferioridad. Pregunta clave: ¿el receptor del pase ya está perfilado antes de recibir? Errores típicos: quedarse quieto tras pasar; apoyos demasiado pegados al borde. Qué observar: si los atacantes cambian de apoyo cuando un lado está cerrado.",
+  "montaje": "Rectángulo de 18 × 16 m. Dos atacantes amarillos y tres defensores azules dentro. Seis apoyos amarillos fuera (dos por lado largo, uno por lado corto). Dos miniporterías en los lados cortos.",
+  "juego": "Los amarillos conservan con apoyos en 2v3. Si los azules roban, buscan cualquiera de las miniporterías. Los poseedores impiden el gol.",
+  "punto": "8 pases: 1. Gol tras robo: 2.",
+  "consigna": "Atrae por dentro, sal por fuera.",
+  "variantes": {
+    "facil": "Apoyos a dos toques (propuesta).",
+    "dificil": "Apoyos a un toque y finalizar en 5 s tras robo."
+  },
+  "adaptacion": "Alevín (10–11): 20 × 18 m y cuatro defensores. Cadete (14): 16 × 14 m a un toque (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Inferioridad con Apoyos (2v3+6)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Inferioridad real con apoyos que amplían el campo: cada pase exige recolocación inmediata.",
+  "probado": false,
+  "completado": "Series, adaptación y puntos de coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      18,
+      16
+    ],
+    "extent": {
+      "xmin": -2.5,
+      "xmax": 20.5,
+      "ymin": -2.5,
+      "ymax": 18.5
+    },
+    "goals": [
+      [
+        0,
+        7,
+        "L"
+      ],
+      [
+        18,
+        9,
+        "R"
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 7,
+        "y": 7,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 11,
+        "y": 9,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 6,
+        "y": 9,
+        "f": [
+          7,
+          7
+        ]
+      },
+      {
+        "r": "D",
+        "x": 10,
+        "y": 6,
+        "f": [
+          11,
+          9
+        ]
+      },
+      {
+        "r": "D",
+        "x": 9,
+        "y": 11,
+        "f": [
+          7,
+          7
+        ]
+      },
+      {
+        "r": "A",
+        "x": -1.5,
+        "y": 5,
+        "f": 0,
+        "ghost": true
+      },
+      {
+        "r": "A",
+        "x": -1.5,
+        "y": 11,
+        "f": 0,
+        "ghost": true
+      },
+      {
+        "r": "A",
+        "x": 19.5,
+        "y": 5,
+        "f": 180,
+        "ghost": true
+      },
+      {
+        "r": "A",
+        "x": 19.5,
+        "y": 11,
+        "f": 180,
+        "ghost": true
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": -1.5,
+        "f": 90,
+        "ghost": true
+      },
+      {
+        "r": "A",
+        "x": 9,
+        "y": 17.5,
+        "f": -90,
+        "ghost": true
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          7,
+          7
+        ],
+        "b": [
+          -1.5,
+          5
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          -1.5,
+          5
+        ],
+        "b": [
+          11,
+          9
+        ],
+        "k": "pass",
+        "n": 2,
+        "side": -1
+      }
+    ]
+  }
+}

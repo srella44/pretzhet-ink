@@ -1,0 +1,130 @@
+{
+  "id": "PIK-0024",
+  "bloque": "Rondos",
+  "titulo": "Rondo de expansión",
+  "formato": "2v1 → 5v2",
+  "edad": "9–13 años",
+  "nivel": "Medio",
+  "jugadores": "7 jug.",
+  "espacio": "10 × 10 m",
+  "duracion": "12 min",
+  "series": "4 series de 2,5 min con 1 min de pausa; rotar defensores cada serie (propuesta).",
+  "objetivo": "Conservar en inferioridad y expandir tras robo. El defensor del 2v1 debe leer cuándo presionar solo y cuándo activar a sus apoyos tras recuperar. Errores típicos: los apoyos se acercan antes del robo; los poseedores se esconden detrás del defensor. Qué observar: velocidad de conexión tras el robo y recolocación de los apoyos.",
+  "montaje": "Cuadrado de 10 × 10 m. Dos poseedores amarillos y un defensor azul dentro. Cuatro apoyos azules fuera, uno por lado.",
+  "juego": "2v1 dentro: los amarillos conservan. Si el azul roba, conecta con un apoyo y se activa el 5v2. La pareja amarilla defiende; si recupera, se reinicia el 2v1.",
+  "punto": "6 pases en 2v1: 1. 8 pases en 5v2: 1.",
+  "consigna": "Recupera y abre; pierde y cierra.",
+  "variantes": {
+    "facil": "Libre de toques en 2v1 (propuesta).",
+    "dificil": "Dos toques máximo y salida inmediata tras robo."
+  },
+  "adaptacion": "Benjamín (9): 12 × 12 m y sin límite de toques. Infantil (12–13): 10 × 10 m a dos toques (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Rondo de Expansión (2v1 → 5v2)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Dos fases con cambio de rol instantáneo: obliga a leer la transición y decidir si abrir o cerrar.",
+  "probado": false,
+  "completado": "Series, adaptación por edades y puntos de coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      10,
+      10
+    ],
+    "extent": {
+      "xmin": -2.5,
+      "xmax": 12.5,
+      "ymin": -2.5,
+      "ymax": 12.5
+    },
+    "players": [
+      {
+        "r": "A",
+        "x": 3,
+        "y": 5,
+        "f": 0,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 7,
+        "y": 5,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 5,
+        "y": 4,
+        "f": [
+          3,
+          5
+        ]
+      },
+      {
+        "r": "D",
+        "x": 5,
+        "y": -1.5,
+        "f": 90,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": -1.5,
+        "y": 5,
+        "f": 0,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 11.5,
+        "y": 5,
+        "f": 180,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 5,
+        "y": 11.5,
+        "f": -90,
+        "ghost": true
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          5,
+          4
+        ],
+        "b": [
+          5,
+          -1.5
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          5,
+          -1.5
+        ],
+        "b": [
+          11.5,
+          5
+        ],
+        "k": "pass",
+        "n": 2,
+        "side": 1
+      }
+    ],
+    "labels": [
+      [
+        5,
+        -2.2,
+        "APOYOS AZULES",
+        "middle"
+      ]
+    ]
+  }
+}

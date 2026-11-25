@@ -1,0 +1,144 @@
+{
+  "id": "PIK-0037",
+  "bloque": "Oleadas y transiciones",
+  "titulo": "Oleadas progresivas 1vP→2v2",
+  "formato": "1vP → 2v2",
+  "edad": "9–14 años",
+  "nivel": "Medio",
+  "jugadores": "12 + P jug.",
+  "espacio": "25 × 20 m",
+  "duracion": "15 min",
+  "series": "3 rondas completas con 2 min de pausa (propuesta).",
+  "objetivo": "Cambiar de rol al instante y ayudar al compañero. Oleadas progresivas con transición de roles inmediata. Errores típicos: el primero que entra no defiende tras su tiro; las filas no están atentas. Qué observar: si el que acaba de tirar transita a defensor sin esperar.",
+  "montaje": "25 × 20 m con una portería grande con portero en un fondo. Dos miniporterías laterales en el fondo opuesto. Cuatro filas detrás de una línea de conos a 15 m: dos de cada equipo.",
+  "juego": "El primer atacante finaliza solo (1vP). Entra un rival: 1v1. Se incorpora un compañero del primero: 2v1. Entra otro rival: 2v2. Tras la secuencia, salen los siguientes.",
+  "punto": "Gol en objetivo asignado: 1 (propuesta).",
+  "consigna": "Cambia de rol al instante y ayuda.",
+  "variantes": {
+    "facil": "Solo llegar hasta 1v1 y reiniciar (propuesta).",
+    "dificil": "Entradas inmediatas y límite de 6 s para finalizar."
+  },
+  "adaptacion": "Benjamín (9): 20 × 16 m y hasta 2v1. Infantil (12–14): 25 × 20 m completo (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Ataque y Defensa por Oleadas (1vP → 2v2)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Oleadas progresivas de 1vP a 2v2: transición de roles inmediata y lectura del momento de entrada.",
+  "probado": false,
+  "completado": "Series, adaptación, objetivo por miniporterías y coaching (propuesta). Mecánica y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      25,
+      20
+    ],
+    "extent": {
+      "xmin": -3.5,
+      "xmax": 27,
+      "ymin": -1.5,
+      "ymax": 21.5
+    },
+    "porterias": [
+      {
+        "x": 0,
+        "y": 0,
+        "lado": "L",
+        "ancho": 6,
+        "portero": true
+      }
+    ],
+    "goals": [
+      [
+        25,
+        5,
+        "R"
+      ],
+      [
+        25,
+        15,
+        "R"
+      ]
+    ],
+    "cones": [
+      [
+        15,
+        0
+      ],
+      [
+        15,
+        20
+      ]
+    ],
+    "players": [
+      {
+        "r": "A",
+        "x": 18,
+        "y": 4,
+        "f": 180,
+        "ball": true
+      },
+      {
+        "r": "A",
+        "x": 18,
+        "y": 8,
+        "f": 180,
+        "ghost": true
+      },
+      {
+        "r": "D",
+        "x": 18,
+        "y": 12,
+        "f": 180
+      },
+      {
+        "r": "D",
+        "x": 18,
+        "y": 16,
+        "f": 180,
+        "ghost": true
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          18,
+          4
+        ],
+        "b": [
+          5,
+          10
+        ],
+        "k": "cond",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          18,
+          12
+        ],
+        "b": [
+          10,
+          8
+        ],
+        "k": "run",
+        "n": 2,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        18,
+        2,
+        "AM",
+        "middle"
+      ],
+      [
+        18,
+        18,
+        "AZ",
+        "middle"
+      ]
+    ]
+  }
+}

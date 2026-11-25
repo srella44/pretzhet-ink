@@ -1,0 +1,157 @@
+{
+  "id": "PIK-0027",
+  "bloque": "Técnica y duelos",
+  "titulo": "Duelo explosivo",
+  "formato": "1v1 + 2P + C",
+  "edad": "9–15 años",
+  "nivel": "Medio",
+  "jugadores": "8 + 2P + C jug.",
+  "espacio": "25 × 16 m",
+  "duracion": "15 min",
+  "series": "4 series de 3 min con 1 min de pausa; rotar comodín cada serie (propuesta).",
+  "objetivo": "Ganar ventaja y finalizar antes de que se cierre el espacio. El comodín debe controlar, orientarse y decidir en un toque. Errores típicos: el comodín da la espalda a las dos porterías; los atacantes salen andando. Qué observar: si el primero que llega ya mira la portería antes de tocar el balón.",
+  "montaje": "Rectángulo de 25 × 16 m con una portería y portero en cada fondo. Cuatro filas (dos por equipo) a los lados del centro. Un comodín blanco en medio.",
+  "juego": "Cada portero saca por turnos al comodín. Sale uno de cada equipo; el primero que llega se lleva el balón y ataca la portería contraria. Si hay robo, contraataque.",
+  "punto": "Gol: 1. Si finaliza en 6 s: 1 extra.",
+  "consigna": "Gana ventaja y remata antes de que cierren.",
+  "variantes": {
+    "facil": "El portero saca raso al comodín (propuesta).",
+    "dificil": "El portero varía el saque (aéreo, raso, lateral)."
+  },
+  "adaptacion": "Benjamín (9): 20 × 14 m sin cronómetro. Cadete (14–15): 25 × 16 m y el comodín a un toque (propuesta).",
+  "fuente": {
+    "autor": "Rella",
+    "titulo_original": "Duelo Explosivo (1v1 + 2P + C)",
+    "ref": "Pretzhet_Ink_23_ejercicios.pdf"
+  },
+  "top": "Duelo 1v1 con salida competitiva al comodín: explosividad, decisión y finalización bajo presión de tiempo.",
+  "probado": false,
+  "completado": "Series, adaptación y puntos de coaching (propuesta). Mecánica, puntuación y variantes de la fuente.",
+  "diagrama": {
+    "field": [
+      25,
+      16
+    ],
+    "extent": {
+      "xmin": -3,
+      "xmax": 28,
+      "ymin": -1.5,
+      "ymax": 17.5
+    },
+    "porterias": [
+      {
+        "x": 0,
+        "y": 0,
+        "lado": "L",
+        "ancho": 6,
+        "portero": true
+      },
+      {
+        "x": 25,
+        "y": 0,
+        "lado": "R",
+        "ancho": 6,
+        "portero": true
+      }
+    ],
+    "players": [
+      {
+        "r": "C",
+        "x": 12.5,
+        "y": 8,
+        "f": 0
+      },
+      {
+        "r": "A",
+        "x": 10,
+        "y": 2,
+        "f": [
+          12.5,
+          8
+        ]
+      },
+      {
+        "r": "A",
+        "x": 10,
+        "y": 14,
+        "f": [
+          12.5,
+          8
+        ]
+      },
+      {
+        "r": "D",
+        "x": 15,
+        "y": 2,
+        "f": [
+          12.5,
+          8
+        ]
+      },
+      {
+        "r": "D",
+        "x": 15,
+        "y": 14,
+        "f": [
+          12.5,
+          8
+        ]
+      }
+    ],
+    "arrows": [
+      {
+        "a": [
+          1.5,
+          8
+        ],
+        "b": [
+          12.5,
+          8
+        ],
+        "k": "pass",
+        "n": 1,
+        "side": 1
+      },
+      {
+        "a": [
+          10,
+          2
+        ],
+        "b": [
+          12.5,
+          8
+        ],
+        "k": "run",
+        "n": 2,
+        "side": 1
+      },
+      {
+        "a": [
+          15,
+          2
+        ],
+        "b": [
+          12.5,
+          8
+        ],
+        "k": "run",
+        "n": 3,
+        "side": -1
+      }
+    ],
+    "labels": [
+      [
+        10,
+        -1,
+        "AMARILLOS",
+        "middle"
+      ],
+      [
+        15,
+        -1,
+        "AZULES",
+        "middle"
+      ]
+    ]
+  }
+}
