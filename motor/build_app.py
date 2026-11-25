@@ -78,7 +78,7 @@ def sections(text):
 
 def short_src(a):
     a = a or ''
-    for k in ['Tareas Fútbol Base', 'RONDO', 'Level Up Coach', 'FCStage', 'Leicester', 'Athletic', 'AFOPRO', 'Alex Ortiz', 'Javier López', 'FIFA']:
+    for k in ['Tareas Fútbol Base', 'RONDO', 'Level Up Coach', 'FCStage', 'Leicester', 'Athletic', 'AFOPRO', 'Alex Ortiz', 'Javier López', 'FIFA', 'Rella']:
         if k in a: return {'FCStage': 'FCStage Camps', 'Leicester': 'Leicester City Academy', 'Athletic': 'Athletic Club', 'Javier López': 'Javier López (1.380 juegos)'}.get(k, k)
     return 'Redes y webs' if a.startswith('@') or a in ('SoccerXpert', 'Bcoach', 'SoccerDrive') else (a or 'Otras')
 
@@ -131,6 +131,7 @@ def source_cocl(a):
     # Autores con nombre propio (no plataformas ni handles)
     if a.startswith('@') or a in ('SoccerXpert','Bcoach','SoccerDrive','Formation Football','Coach Corner Tactics'):
         return ('', '', 0)
+    if a == 'Rella': return ('', 'Rella', 0)
     if a.startswith(('Tareas Fútbol Base','100 ejercicios','Javier López','Level Up Coach','Alex Ortiz','Prime Group','Reel de Instagram')):
         return ('', '', 0)
     if 'FIFA' in a and '/' in a:
