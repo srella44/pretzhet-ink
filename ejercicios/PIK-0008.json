@@ -1,0 +1,145 @@
+{
+ "id": "PIK-0008",
+ "bloque": "Técnica y duelos",
+ "titulo": "La pérdida te fija en tu mitad",
+ "formato": "4v4",
+ "edad": "11–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "28 × 18 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; tras cada serie se invierten las porterías (propuesta).",
+ "objetivo": "Entender el equilibrio al perder el balón: defender solo en la mitad donde se estaba y proteger la espalda de quien se incorpora al ataque. Cómo explicarlo: «si tu compañero sube, tú quedas detrás». Errores típicos: todos suben a la vez, no ver quién cubre al rival más peligroso, perseguir al rival al otro lado. Qué observar: quién queda de cobertura, comunicación, distancia entre jugadores. Material: 2 miniporterías, 6 conos para la línea central, petos de 2 colores.",
+ "montaje": "Campo de 28 × 18 m, línea central de conos y miniportería en cada fondo. Dos equipos de 4, con 2 jugadores por mitad.",
+ "juego": "4v4. Al perder el balón, cada jugador solo defiende en la mitad donde estaba; al recuperar, cruza. Si hay bloqueo, repliegue al cruzar el rival la divisoria.",
+ "punto": "Gol: 1 punto. Gol tras robo con cambio de mitad en 6″: 2.",
+ "consigna": "Si subes, tu compañero te cubre la espalda.",
+ "variantes": {
+  "facil": "3 jugadores por equipo y 3 toques máximo (propuesta).",
+  "dificil": "Gol solo válido si ha tocado el balón el jugador de la otra mitad, y pérdida con repliegue limitado (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): tal cual. Alevín (11): campo 25 × 16 m, 3 toques. Cadete: 1 jugador sin restricción en cada equipo.",
+ "fuente": {
+  "autor": "England Football · Learn",
+  "titulo_original": "Pressing and covering – cover and recover",
+  "ref": "https://learn.englandfootball.com/sessions/resources/2026/Pressing-and-covering-session-cover-and-recover"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4 contra 4 en 28 × 18 m con línea central y dos miniporterías; al perder, cada jugador solo defiende en la mitad donde estaba, al recuperar vuelve a cruzar; consigna sobre quién protege la espalda; permitir el repliegue si hay bloqueo. Reparto 2+2 por mitad, puntos, series, variantes y adaptación son (propuesta); jugadores propuestos por la base.",
+ "diagrama": {
+  "field": [
+   28,
+   18
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 30.5,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     18
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    9,
+    "L"
+   ],
+   [
+    28,
+    9,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.7,
+     5.3
+    ],
+    "b": [
+     20,
+     5.2
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     6
+    ],
+    "b": [
+     20.4,
+     11
+    ],
+    "k": "run",
+    "s0": 6,
+    "s1": 6,
+    "n": 2,
+    "side": -1
+   }
+  ],
+  "labels": [
+   [
+    14,
+    -0.9,
+    "LÍNEA CENTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

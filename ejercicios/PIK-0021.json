@@ -1,0 +1,135 @@
+{
+ "id": "PIK-0021",
+ "bloque": "Técnica y duelos",
+ "titulo": "El defensor inicia el ataque",
+ "formato": "3v3 + portero",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "7 jug.",
+ "espacio": "22 × 18 m",
+ "duracion": "18 min",
+ "series": "3 series de 4′ con 1′ de pausa; cada 5 ataques cambia el defensor que inicia (propuesta).",
+ "objetivo": "Aprender a atacar en inferioridad de tiempo: controlar orientado para tirar y decidir en un segundo si tirar o apoyar, antes de que el bloque defensor cierre. Cómo explicarlo: «primer control hacia la portería, no hacia tu marcador». Errores típicos: control hacia atrás, pase al pie del defensor, tirar sin ángulo. Qué observar: primer toque, apoyo del compañero libre, repliegue de los defensores. Material: 1 portería de 5 m, balones de repuesto.",
+ "montaje": "Campo de 22 × 18 m con portería de 5 m y portero. 3 atacantes y 3 defensores. D1 espera fuera, a la derecha, con balones.",
+ "juego": "D1 pasa a un atacante y entra a defender con sus 2 compañeros. Los 3 atacantes buscan el remate antes de que el bloque cierre. Luego inicia otro defensor.",
+ "punto": "Gol: 1 punto. Robo y balón fuera: 1 al defensor.",
+ "consigna": "El primer control te lleva al tiro.",
+ "variantes": {
+  "facil": "4 atacantes contra 3 defensores y D1 entra con 2 s de retraso (propuesta).",
+  "dificil": "D1 entra solo cuando el atacante controla y solo 5 s de ataque para rematar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campo 24 × 18 m y portero opcional. Infantil (12–13): tal cual. Cadete: portería de 7 m y límite de 4 s.",
+ "fuente": {
+  "autor": "BCoach · biblioteca de tareas",
+  "titulo_original": "3 contra 3: ataque en el área",
+  "ref": "https://library.bcoach.app/tareas/3-contra-3-ataque-en-el-area-610019eb28a6/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 contra 3 y portero en 22 × 18 m; un defensor pasa a un rival y entra a defender con sus compañeros; los tres atacantes buscan remate antes de que el bloque cierre el espacio; se cambia el iniciador; consigna sobre el primer control. Medida de la portería, puntuación, series, variantes y adaptación son (propuesta); jugadores propuestos por la base.",
+ "diagrama": {
+  "field": [
+   22,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 24,
+   "ymin": -1.5,
+   "ymax": 20.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 9,
+    "lado": "L",
+    "ancho": 5
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.2,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     16
+    ],
+    "b": [
+     8.2,
+     10
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     7,
+     8.3
+    ],
+    "b": [
+     1.4,
+     6.9
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 10,
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    19.5,
+    19.1,
+    "D1 INICIA",
+    "middle"
+   ]
+  ]
+ }
+}

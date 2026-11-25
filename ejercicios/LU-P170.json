@@ -1,0 +1,154 @@
+{
+ "id": "LU-P170",
+ "bloque": "Técnica y duelos",
+ "titulo": "4v4+2 dos objetivos de finalización",
+ "formato": "4v4+2C",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "22 × 22 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de pausa; los comodines cambian de zona y de papel en cada serie (propuesta).",
+ "objetivo": "Encontrar superioridades con los comodines, cerrar líneas de pase, orientar la presión y finalizar desde el campo contrario. Cómo explicarlo: «cambia de zona para dejar al comodín libre y tira cuando el portero esté desprotegido». Errores típicos: zonas vacías, pases al pie del rival, tiro desde el campo propio. Qué observar: ocupación de las dos zonas, pared con el comodín, presión coordinada. Material: 4 miniporterías, 4 conos, petos de 3 colores.",
+ "montaje": "Campo de 22 × 22 m en 2 zonas con un comodín en cada una. 4v4. Cada equipo ataca 2 miniporterías del fondo rival y defiende 2. Ambas zonas siempre ocupadas.",
+ "juego": "Circulan con los comodines para crear superioridad y finalizar. Solo se tira desde el campo contrario. Tras robo o pérdida, cambia el balón.",
+ "punto": "Gol: 1 punto. Gol tras pared con el comodín: 2 puntos.",
+ "consigna": "Ocupa las dos zonas y busca al comodín libre.",
+ "variantes": {
+  "facil": "Los comodines a 3 toques y tiro libre desde cualquier zona (propuesta).",
+  "dificil": "Comodines a 1 toque y gol válido solo tras cambiar de zona (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 3v3+2 en 20 × 20 m. Infantil (12–13): tal cual. Cadete (14–15): comodines a 1 toque.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Juego posición 4vs4+2 – Dos objetivos de finalización",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 170"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 4 + 2 comodines ofensivos, uno en cada zona, ambas zonas siempre ocupadas, 2 porterías a atacar y 2 a defender por equipo, solo se tira desde el campo contrario, tras robo cambio de rol; 10 jugadores, 22 × 22 m. Colocación de las porterías, puntos, series, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   22,
+   22
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 24.5,
+   "ymin": -1.5,
+   "ymax": 23.5
+  },
+  "lines": [
+   [
+    [
+     11,
+     0
+    ],
+    [
+     11,
+     22
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    6,
+    "L"
+   ],
+   [
+    0,
+    16,
+    "L"
+   ],
+   [
+    22,
+    6,
+    "R"
+   ],
+   [
+    22,
+    16,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.7,
+     6.4
+    ],
+    "b": [
+     17,
+     8
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     17.4,
+     8.2
+    ],
+    "b": [
+     21,
+     6.6
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 2,
+    "side": -1
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "id": "ATH-100",
+ "bloque": "Técnica y duelos",
+ "titulo": "4v4 con portería en cruz",
+ "formato": "4v4 + cruz interior",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "32 × 26 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de pausa; cada serie, el equipo que defiende cambia de esquinas (propuesta).",
+ "objetivo": "Dar más riqueza táctica con una portería en cruz que se puede atacar por cuatro lados: jugar con los tiempos y los espacios, mover el balón para cambiar de frente y defender con ayudas, basculaciones, coberturas y presión. Cómo explicarlo: «la portería del medio no tiene espalda: vigila los cuatro lados». Errores típicos: defender solo un lado de la cruz, no cambiar de frente, presión sin cobertura. Qué observar: basculación y quién queda libre.",
+ "montaje": "Campo de 32 × 26 m con miniportería en cada esquina y una portería en cruz (+, 4 caras) en el centro. 4v4. Empieza A.",
+ "juego": "4v4 libre. Se marca en las esquinas rivales o por cualquier cara de la cruz; nadie pisa dentro de ella. Tras gol saca quien lo recibe; tras robo, ataque inmediato.",
+ "punto": "Gol en esquina: 1 punto. Gol por la cruz: 2 puntos.",
+ "consigna": "Cambia de frente y marca por la cara libre.",
+ "variantes": {
+  "facil": "Cruz con cara cerrada (solo 2 caras válidas) y 5v3 a favor (propuesta).",
+  "dificil": "Máximo 2 toques y gol por la cruz solo tras cambio de orientación (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4v4 sin puntos extra. Infantil (12–13): tal cual. Cadete (14–15): campo 40 × 30 m y 5v5.",
+ "fuente": {
+  "autor": "Athletic Club · Manual de ejercicios de fútbol",
+  "titulo_original": "P. 4 P.P. 1 P.P. interior cruz 5/5 4/4",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 144"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): variante con portería en cruz que da mayor riqueza al juego y permite jugar con tiempos y espacios; trabaja ayudas, basculaciones, coberturas, reducción de espacios y presión; versiones 5/5 y 4/4. Medidas, cómo se forma la cruz, puntos, series, variantes y adaptación son (propuesta); edad y jugadores propuestos por la base. Se distingue de ATH-018 por la cruz y el 4v4.",
+ "diagrama": {
+  "field": [
+   32,
+   26
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 34.5,
+   "ymin": -1.5,
+   "ymax": 27.5
+  },
+  "goals": [
+   [
+    0,
+    3,
+    "L"
+   ],
+   [
+    0,
+    23,
+    "L"
+   ],
+   [
+    32,
+    3,
+    "R"
+   ],
+   [
+    32,
+    23,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     14.5,
+     13
+    ],
+    [
+     17.5,
+     13
+    ]
+   ],
+   [
+    [
+     16,
+     11.5
+    ],
+    [
+     16,
+     14.5
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.7,
+     7.4
+    ],
+    "b": [
+     9.2,
+     17.8
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     9.8,
+     19.2
+    ],
+    "b": [
+     22,
+     14
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     23.2,
+     12.2
+    ],
+    "b": [
+     16.9,
+     12.4
+    ],
+    "k": "pass",
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    16,
+    10,
+    "CRUZ",
+    "middle"
+   ]
+  ]
+ }
+}

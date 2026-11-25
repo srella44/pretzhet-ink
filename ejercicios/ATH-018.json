@@ -1,0 +1,174 @@
+{
+ "id": "ATH-018",
+ "bloque": "Técnica y duelos",
+ "titulo": "5v5 y portería interior",
+ "formato": "5v5 + 5 porterías",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de pausa; en cada serie se invierten las esquinas que ataca cada equipo (propuesta).",
+ "objetivo": "Dar rigor táctico al juego reducido: con todas las zonas del campo definidas por una portería, trabajar ayudas, basculaciones, coberturas, reducción de espacios y presión. Cómo explicarlo: «si un compañero presiona, tú le cubres y cierras el pase interior». Errores típicos: presionar todos al balón, dejar libre la portería interior, perder el equilibrio al bascular. Qué observar: distancias entre defensores, quién cubre al presionante. Material: 5 miniporterías, petos de 2 colores, balones de repuesto. Versión 4v4 en 32 × 26 m.",
+ "montaje": "Campo de 40 × 30 m con miniportería en cada esquina y una interior. 5v5. Cada equipo defiende 2 esquinas y ataca las 2 contrarias. Empieza A.",
+ "juego": "5v5 libre. Se marca en las esquinas rivales o en la interior desde cualquier lado. Quien recibe gol saca desde su fondo; tras robo, ataque inmediato.",
+ "punto": "Gol en esquina: 1 punto. Gol en la interior: 2 puntos.",
+ "consigna": "Presiona junto, cubre y cierra el centro.",
+ "variantes": {
+  "facil": "Interior sin valor y 6v4 a favor del equipo con balón (propuesta).",
+  "dificil": "Interior de 3 m y gol de esquina solo tras 3 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4v4 en 32 × 26 m y sin portería interior. Infantil (12–13): tal cual. Cadete: máximo 2 toques en campo propio.",
+ "fuente": {
+  "autor": "Athletic Club · Manual de ejercicios de fútbol",
+  "titulo_original": "P. 4 P.P. 1 P.P. interior 5/5 4/4",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 29"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): variante con porterías pequeñas (4 en esquinas y 1 interior) que da rigor táctico al delimitar todas las zonas; trabaja ayudas, basculaciones, coberturas, reducción de espacios y presión; versiones 5/5 y 4/4. Medidas, qué esquinas defiende cada equipo, puntos, series, variantes y adaptación son (propuesta); edad y jugadores propuestos por la base.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "goals": [
+   [
+    0,
+    3,
+    "L"
+   ],
+   [
+    0,
+    27,
+    "L"
+   ],
+   [
+    40,
+    3,
+    "R"
+   ],
+   [
+    40,
+    27,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    19,
+    14
+   ],
+   [
+    21,
+    14
+   ],
+   [
+    19,
+    16
+   ],
+   [
+    21,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.7,
+     8.4
+    ],
+    "b": [
+     17,
+     15
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     16
+    ],
+    "b": [
+     30.4,
+     20.5
+    ],
+    "k": "cond",
+    "s0": 4,
+    "s1": 6,
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     16.4,
+     22.4
+    ],
+    "b": [
+     39.4,
+     26.6
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    20,
+    12.6,
+    "INTERIOR",
+    "middle"
+   ]
+  ]
+ }
+}

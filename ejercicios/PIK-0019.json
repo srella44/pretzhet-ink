@@ -1,0 +1,114 @@
+{
+ "id": "PIK-0019",
+ "bloque": "Técnica y duelos",
+ "titulo": "Proteger el cono del centro",
+ "formato": "4v2",
+ "edad": "9–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ con 30″ de pausa; rotan los 2 defensores en cada pausa (propuesta).",
+ "objetivo": "Circular para abrir un carril, conducir hasta el cono central con control y que los defensores aprendan a saltar y cubrirse. Cómo explicarlo: «mueve el balón hasta que se abra un hueco y entra con el balón pegado». Errores típicos: conducir sin que haya carril, mirar el balón, defensores que saltan los dos a la vez. Qué observar: pase para mover a los defensores, conducción con cabeza arriba, cobertura del segundo defensor. Material: 1 cono de color y 4 conos de esquina.",
+ "montaje": "Cuadrado de 12 × 12 m con un cono en el centro. 4 atacantes en los lados y 2 defensores dentro. Un balón.",
+ "juego": "Los 4 se pasan el balón para abrir un carril limpio y entran conduciendo hasta el cono. Los 2 defensores presionan y se cubren: si uno salta, el otro protege el cono.",
+ "punto": "Parar el balón junto al cono: 1 punto. Robo: 1 al defensor.",
+ "consigna": "Abre un carril y entra con el balón pegado.",
+ "variantes": {
+  "facil": "Conducir hasta tocar el cono y 5v2 con un comodín fuera (propuesta).",
+  "dificil": "Cono sustituido por una puerta de 1,5 m; solo vale entrar por una puerta libre (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 5v2 en 14 × 14 m. Alevín (10–11): tal cual. Infantil: 4v3 y puntuación doble por llegar a 2 toques.",
+ "fuente": {
+  "autor": "BCoach · biblioteca de tareas",
+  "titulo_original": "4x2: conducción y basculación",
+  "ref": "https://library.bcoach.app/tareas/4x2-conduccion-y-basculacion-477d3c277cc8/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4 contra 2 en 12 × 12 m con un cono en el centro; los cuatro circulan para abrir un carril y entrar conduciendo hasta el cono; los dos defensores presionan y se cubren; rotar por tiempo; consigna sobre el segundo defensor. Reparto, puntos, series, variantes y adaptación son (propuesta); jugadores propuestos por la base.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 13.5,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "cones": [
+   [
+    6,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 4.2,
+    "y": 4,
+    "f": 45
+   },
+   {
+    "r": "D",
+    "x": 7.8,
+    "y": 7.8,
+    "f": 225
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.7,
+     6.5
+    ],
+    "b": [
+     5.4,
+     10.6
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     6,
+     10.2
+    ],
+    "b": [
+     6.2,
+     6.9
+    ],
+    "k": "cond",
+    "s0": 4,
+    "s1": 6,
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "labels": []
+ }
+}

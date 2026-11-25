@@ -1,0 +1,179 @@
+{
+ "id": "ATH-019",
+ "bloque": "Técnica y duelos",
+ "titulo": "Ataque 8v4 a porterías de esquina",
+ "formato": "4+4C v 4",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; cada serie cambian los 4 defensores (propuesta).",
+ "objetivo": "Trabajar ritmo, velocidad e intensidad: circular rápido, conectar con un compañero antes de marcar y finalizar al primer toque. Cómo explicarlo: «pasa, mueve y remata de primeras». Errores típicos: tiro sin pase previo, comodines inmóviles, defensores que persiguen el balón en vez de cerrar líneas. Qué observar: velocidad de circulación, cuándo se elige la portería de esquina o la interior. Material: 4 miniporterías, 2 conos, 2 colores de petos.",
+ "montaje": "Cuadrado de 30 × 30 m: miniportería en cada esquina y una interior. 4 atacantes y 4 comodines (uno por lado) contra 4 defensores.",
+ "juego": "Los atacantes circulan y marcan de primeras en una esquina, o en la interior si el balón pasó antes por un compañero. Comodines a 2 toques.",
+ "punto": "Gol en esquina: 1. Gol en la interior tras pase: 2.",
+ "consigna": "Pasa y remata de primeras.",
+ "variantes": {
+  "facil": "2 defensores en lugar de 4 y 3 toques para atacantes (propuesta).",
+  "dificil": "Solo 3 atacantes + 4 comodines y se puntúa solo en las esquinas tras 4 pases mínimos (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 28 × 28 m, 4 defensores y 3 toques. Infantil (12–13): tal cual. Cadete: 2 defensores solo y 1 toque (propuesta).",
+ "fuente": {
+  "autor": "Athletic Club · Manual de ejercicios de fútbol",
+  "titulo_original": "P. 4 P.P. esquinas 1 P.P. interior 4/4 + 4C ext (8/4)",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 30"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): dos equipos, uno ataca y otro defiende; atacan con 2 goles a primer toque en porterías de esquina, o 1 en esquina y otro en la interior si el balón ha conectado con un compañero; fomenta ritmo, velocidad e intensidad. Medidas, número de jugadores (8v4 por «8/4»), rotación, puntos, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "goals": [
+   [
+    0,
+    3,
+    "L"
+   ],
+   [
+    0,
+    27,
+    "L"
+   ],
+   [
+    30,
+    3,
+    "R"
+   ],
+   [
+    30,
+    27,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    13.5,
+    15
+   ],
+   [
+    16.5,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": -1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 31.5,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.7,
+     9.2
+    ],
+    "b": [
+     14.4,
+     -0.6
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     15.6,
+     -0.2
+    ],
+    "b": [
+     21.3,
+     8.4
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     22.7,
+     8
+    ],
+    "b": [
+     29.6,
+     3.4
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    15,
+    17.4,
+    "PORTERÍA INTERIOR",
+    "middle"
+   ]
+  ]
+ }
+}

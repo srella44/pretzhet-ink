@@ -1,0 +1,185 @@
+{
+ "id": "LU-P232",
+ "bloque": "Técnica y duelos",
+ "titulo": "Posesión en hexágono",
+ "formato": "5v5 + 2 porteros",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "12 jug.",
+ "espacio": "26 × 24 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de pausa; en cada serie cambian los jugadores de dentro y de fuera (propuesta).",
+ "objetivo": "Mantener la posesión atrayendo con juego corto para después jugar largo con el compañero alejado, y finalizar tras una cadena de pases. Cómo explicarlo: «junta a los rivales con pases cortos y cambia de lado cuando se cierren». Errores típicos: jugar siempre dentro, jugadores de fuera sin escalonar, tiro sin los 6 pases. Qué observar: escalonamiento, cambios de orientación, paciencia. Material: hexágono de 6 conos, 2 porterías, petos.",
+ "montaje": "Hexágono de 26 × 24 m con portería y portero en cada fondo. Cada equipo (5): 3 dentro y 2 fuera, escalonados. Empieza A.",
+ "juego": "A circula con los 5, dentro y fuera, atrae en corto y juega largo al alejado. Tras 6 pases seguidos puede finalizar en cualquier portería. Si pierde, hace lo mismo el rival.",
+ "punto": "Gol tras 6 pases: 1 punto. Tras cambio de orientación: 2.",
+ "consigna": "Atrae en corto y cambia de lado.",
+ "variantes": {
+  "facil": "4 pases mínimos y los de fuera a 2 toques (propuesta).",
+  "dificil": "8 pases mínimos y finalizar solo tras jugar con los dos de fuera (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 4v4+2 con 5 pases. Cadete (14–15): tal cual. Alevín: hexágono de 20 × 18 m (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Juego de posesión en hexágono – Raymond Kroon",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 232"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: zona hexagonal, 2 equipos de 5 + 2 porteros, 3 dentro y 2 fuera escalonados por equipo, mantener la posesión con todos y tras 6 pases finalizar en cualquiera de las dos porterías; atraer con juego corto para jugar largo con el alejado; 12 jugadores, 26 × 24 m. Tamaño del hexágono, puntos, series, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   26,
+   24
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 28.5,
+   "ymin": -1.5,
+   "ymax": 25.5
+  },
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      5,
+      12
+     ],
+     [
+      9,
+      5
+     ],
+     [
+      17,
+      5
+     ],
+     [
+      21,
+      12
+     ],
+     [
+      17,
+      19
+     ],
+     [
+      9,
+      19
+     ]
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12,
+    "lado": "L",
+    "ancho": 5
+   },
+   {
+    "x": 26,
+    "y": 12,
+    "lado": "R",
+    "ancho": 5
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.2,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 24.8,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 2.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 21.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.6,
+     9.4
+    ],
+    "b": [
+     15.4,
+     13.4
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     16.2,
+     13.2
+    ],
+    "b": [
+     13.2,
+     3.6
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     13.2,
+     2.2
+    ],
+    "b": [
+     4,
+     3
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 0,
+    "n": 3,
+    "side": -1
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "AAT-004",
+ "bloque": "Técnica y duelos",
+ "titulo": "4v4+2: 10 pases = 1 punto",
+ "formato": "4v4+2C",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "16 min",
+ "series": "2 series de 7′ con 1′ de descanso, como en la fuente; cada serie empieza el otro equipo (propuesta).",
+ "objetivo": "Conservar el balón y reaccionar al perderlo, con apoyos en distintas líneas gracias a los dos comodines ofensivos. Cómo explicarlo: «cuenta los pases en voz alta y busca siempre al comodín libre». Errores típicos: pases al pie del marcador, dejar de contar al perder, defensores que no presionan juntos. Qué observar: aperturas, apoyos, presión tras pérdida.",
+ "montaje": "25 × 20 m. Dos equipos de 4 (amarillo y rojo) y 2 comodines que juegan con quien tenga el balón, a 2 toques. Empieza A.",
+ "juego": "El poseedor, con los comodines, intenta hacer 10 pases seguidos. El rival presiona; si recupera, empieza a contar sus pases.",
+ "punto": "10 pases seguidos: 1 punto y se reinicia la cuenta. Al perder el balón la cuenta vuelve a 0.",
+ "consigna": "Cuenta pases y busca al comodín libre.",
+ "variantes": {
+  "facil": "8 pases para sumar punto y comodines a 3 toques (propuesta).",
+  "dificil": "12 pases y puntuación doble si incluyen un pase al comodín del lado contrario (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): campo 25 × 20 m, 10 pases. Cadete (14–15): campo 30 × 22 m, 12 pases. Alevín: 3v3+2 en 20 × 16 m (propuesta).",
+ "fuente": {
+  "autor": "Atlético de Madrid · 10 ejercicios",
+  "titulo_original": "Tarea Atlético 4 — SITUACIÓN",
+  "ref": "10ejercicios_atleti.pdf · p. 8"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): 4x4+2c, 2×7′ (1′ descanso), 2 equipos de 4 con 2 comodines ofensivos, 10 pases = 1 punto. Medidas, toques de los comodines, qué pasa al recuperar, rotación, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.7,
+     5.5
+    ],
+    "b": [
+     8.4,
+     14.2
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     9.8,
+     15.2
+    ],
+    "b": [
+     18.2,
+     15.2
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     19.2,
+     14.2
+    ],
+    "b": [
+     21,
+     7
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 3,
+    "side": 1
+   }
+  ]
+ }
+}

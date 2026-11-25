@@ -1,0 +1,168 @@
+{
+ "id": "LU-P264",
+ "bloque": "Técnica y duelos",
+ "titulo": "Llegar al vértice contrario",
+ "formato": "6v6+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "18 min",
+ "series": "4 series de 4′ con 1′ de pausa; cambian los vértices y los comodines en cada serie (propuesta).",
+ "objetivo": "Progresar asociándose con los comodines laterales hasta conectar con el vértice contrario, atrayendo para mover y batiendo líneas. Cómo explicarlo: «pasa al lado, el comodín te da línea, y busca al vértice libre». Errores típicos: pase directo al vértice sin atraer, comodines parados, no fijar a un rival antes de soltar. Qué observar: perfil abierto, tercer hombre, tiempo del pase. Material: petos de 3 colores y 4 conos.",
+ "montaje": "Campo de 25 × 20 m. Equipos de 6 (A amarillo, B rojo), cada uno con un vértice en el centro de su fondo. Un comodín por banda.",
+ "juego": "A circula con los comodines (1 toque) y lleva el balón al vértice de B. Tras robo, B busca el vértice de A. Tras punto, inicia quien lo recibe.",
+ "punto": "Vértice contrario: 1 punto. Pasando antes por el propio: 2.",
+ "consigna": "Atrae por un lado y conecta por el otro.",
+ "variantes": {
+  "facil": "Comodines a 2 toques y 3 pases mínimos antes de buscar el vértice (propuesta).",
+  "dificil": "Defensores sin límite de contacto con el vértice y balón perdido = punto para el rival; vértice a 1 toque (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): campo 25 × 20 m y comodines a 2 toques. Cadete (14–15): tal cual. Alevín: 4v4+2 en 20 × 16 m (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Juego Posesión 6vs6+2 Búsqueda de Progresión",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 264"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 6 contra 6 + 2 comodines exteriores laterales, un vértice por equipo, 1 punto por conectar con el vértice contrario y 2 si se pasa antes por el vértice propio; 14 jugadores y 20 × 25 m. Reparto de jugadores, colores, toques de los comodines, series, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 21.6,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.2,
+     9.7
+    ],
+    "b": [
+     7.2,
+     5.6
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     8.5,
+     4.4
+    ],
+    "b": [
+     11.5,
+     -0.9
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     12.2,
+     -0.4
+    ],
+    "b": [
+     10.3,
+     14
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 3,
+    "side": -1
+   },
+   {
+    "a": [
+     10.8,
+     15.2
+    ],
+    "b": [
+     22.4,
+     10.4
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    12.6,
+    "VÉRTICE A",
+    "start"
+   ],
+   [
+    23.5,
+    12.6,
+    "VÉRTICE B",
+    "end"
+   ]
+  ]
+ }
+}

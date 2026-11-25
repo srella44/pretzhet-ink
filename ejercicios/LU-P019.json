@@ -1,0 +1,196 @@
+{
+ "id": "LU-P019",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rueda: hábitos defensivos",
+ "formato": "Rueda de pases",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "2 secuencias (A y B) de 6′ con 1′ de pausa; cada jugador hace 8–10 repeticiones y rota en orden alfabético (propuesta).",
+ "objetivo": "Automatizar controles, pase tenso, tercer hombre y juego en largo, y añadir hábitos defensivos de línea: temporizar tras pérdida y despejar orientado. Cómo explicarlo: «cada pase con intención; si pierdes, presiona y gana tiempo». Errores típicos: pase flojo entre las picas, control que obliga a parar, despeje sin orientar. Qué observar: calidad del pase, timing, reacción tras la pérdida simulada. Material: 4 picas (puerta), 1 portería de 3 m como obstáculo y balones.",
+ "montaje": "Campo de 40 × 30 m con puestos A–F, 2 picas entre C y D y una portería pequeña en el centro (los rivales). Empieza A.",
+ "juego": "A pasa a B, que juega con C. C conduce y pasa entre las picas a D. D juega con E y pasa a F. F levanta el balón sobre la portería a A y reinicia.",
+ "punto": "Sin puntos. Reto: 5 vueltas sin fallar.",
+ "consigna": "Pase tenso y control orientado.",
+ "variantes": {
+  "facil": "Sin pase en largo: F pasa a ras a A (propuesta).",
+  "dificil": "Secuencia B: tras pasar a D, C simula pérdida y presiona en la zona marcada; y A despeja a una de las dos zonas marcadas en vez de controlar (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): sin pase largo y puerta de 3 m. Infantil (12–13): tal cual. Cadete: a 2 toques.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Rueda de pase – Hábitos jugadores – Línea defensiva",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 19"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: secuencias A (pase a B, C conduce y pasa entre picas a D, D con E, F lanza por encima de la portería a A) y B (C simula pérdida y presiona; A despeja a una zona), varias repeticiones, 12 jugadores, 30 × 40 m. Colocación exacta, duración, rotación, reto, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "cones": [
+   [
+    22,
+    23.5
+   ],
+   [
+    22,
+    26.5
+   ],
+   [
+    20,
+    13.5
+   ],
+   [
+    20,
+    16.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.7,
+     24.6
+    ],
+    "b": [
+     9.4,
+     12.8
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     10.5,
+     12.9
+    ],
+    "b": [
+     15.6,
+     24.2
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     16.8,
+     25
+    ],
+    "b": [
+     28,
+     25
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     29.2,
+     24
+    ],
+    "b": [
+     24.7,
+     10.9
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   },
+   {
+    "a": [
+     29.6,
+     24
+    ],
+    "b": [
+     35.5,
+     6.9
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 5,
+    "side": 1
+   },
+   {
+    "a": [
+     35.2,
+     6.6
+    ],
+    "b": [
+     4.6,
+     24
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 10,
+    "n": 6,
+    "side": -1
+   }
+  ],
+  "labels": [
+   [
+    22,
+    28.7,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

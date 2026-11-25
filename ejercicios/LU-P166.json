@@ -1,0 +1,130 @@
+{
+ "id": "LU-P166",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rondo 2v1 en triángulo",
+ "formato": "2v1",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "3 jug. por triángulo",
+ "espacio": "5 × 5 m",
+ "duracion": "10 min",
+ "series": "6 series de 90″ con 30″ de pausa; cada vez que el defensor roba, se cambian los papeles (propuesta).",
+ "objetivo": "Conectar pases cruzando los lados de un triángulo, con control orientado, y aprender a cerrar líneas y filtrar el pase como defensor. Cómo explicarlo: «pasa por el lado donde el defensor no llega». Errores típicos: pases al pie del defensor, receptor quieto, defensor que solo persigue el balón. Qué observar: movimiento del receptor, ángulo de pase, cierre de líneas. Material: 3 conos por triángulo y 1 balón.",
+ "montaje": "Triángulo de 5 × 5 m con 3 conos. 2 atacantes fuera, en lados distintos, con 1 balón; el defensor, dentro. Grupos de 3.",
+ "juego": "Los atacantes se pasan el balón y cada pase debe cruzar un lado del triángulo. El defensor intenta interceptarlo; si lo toca, cambia de papel con quien pasó.",
+ "punto": "1 punto por pase que cruza un lado y llega. Gana quien falle menos.",
+ "consigna": "Pasa por el lado donde el defensor no llega.",
+ "variantes": {
+  "facil": "Defensor sin tocar el balón (solo marca) y 3 toques (propuesta).",
+  "dificil": "Un solo toque para los atacantes y 5 pases seguidos para 1 punto (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): triángulo de 6 × 6 m. Alevín (10–11): tal cual. Infantil: triángulo de 4 × 4 m y a 2 toques.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Rondo 2vs1 – Triángulo",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 166"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 3 jugadores en un triángulo de 5 × 5 m con conos; 2 atacantes y 1 defensor dentro; pases entre atacantes que deben traspasar algún lado del triángulo; tras robo, cambio de papeles. Colocación exacta, puntuación, series, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   5,
+   5
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -5,
+   "xmax": 10,
+   "ymin": -1.5,
+   "ymax": 6.5
+  },
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      0,
+      5
+     ],
+     [
+      5,
+      5
+     ],
+     [
+      2.5,
+      0
+     ]
+    ]
+   }
+  ],
+  "cones": [
+   [
+    0,
+    5
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    2.5,
+    0
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -2.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 2.5,
+    "y": 3.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.8,
+     2.6
+    ],
+    "b": [
+     6.8,
+     2.6
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     7.4,
+     3.8
+    ],
+    "b": [
+     -1.8,
+     3.8
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "id": "PIK-0013",
+ "bloque": "Técnica y duelos",
+ "titulo": "Abre el camino con un pase",
+ "formato": "5v5 + puertas",
+ "edad": "9–12 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "18 min",
+ "series": "4 series de 3′ con 1′ de pausa; en la pausa se cambia de lado a los equipos (propuesta).",
+ "objetivo": "Reconocer la puerta libre y encontrar a un compañero al otro lado antes de finalizar: combinar, pasar y recibir con el cuerpo orientado. Cómo explicarlo: «tapan la puerta cercana, busca la lejana». Errores típicos: tirar sin pasar por puerta, pase sin compañero libre al otro lado, mirar solo el balón. Qué observar: lectura de la puerta libre, perfil del receptor, velocidad tras el pase.",
+ "montaje": "Campo de 30 × 20 m con portería de 4 m en cada fondo y dos puertas de 2 m en la línea central. 5v5. Empieza A en su campo.",
+ "juego": "5v5. Para marcar hay que pasar por una puerta y encontrar a un compañero al otro lado en esa posesión. Si se pierde el balón, la exigencia vuelve a empezar.",
+ "punto": "Gol tras pasar por una puerta: 1 punto. Sin puerta: no vale.",
+ "consigna": "Pasa por la puerta y busca al compañero.",
+ "variantes": {
+  "facil": "Puertas de 3 m y 3 toques máximo (propuesta).",
+  "dificil": "Una sola puerta abierta cada vez (la señala el entrenador) y 2 toques máximo (propuesta)."
+ },
+ "adaptacion": "Alevín (9–11): campo 26 × 18 m. Infantil (12): tal cual con 2 toques. Benjamín (8–9): 4v4 y puertas de 3 m.",
+ "fuente": {
+  "autor": "FIFA Training Centre (grassroots)",
+  "titulo_original": "Give and go (8–12)",
+  "ref": "https://www.fifatrainingcentre.com/en/practice/grassroots/8-to-12/give-and-go.php"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 5 contra 5 en 30 × 20 m con dos porterías y dos puertas interiores; para marcar hay que pasar por una puerta y encontrar a un compañero durante esa posesión; tras robo vuelve a empezar el requisito; consigna sobre la puerta libre. Tamaño de porterías y puertas, puntuación, series, variantes y adaptación son (propuesta); jugadores propuestos por la base.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    30,
+    10,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    15,
+    3.5
+   ],
+   [
+    15,
+    5.5
+   ],
+   [
+    15,
+    14.5
+   ],
+   [
+    15,
+    16.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.7,
+     6.2
+    ],
+    "b": [
+     22,
+     4.8
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     21.2,
+     5.6
+    ],
+    "b": [
+     28,
+     9
+    ],
+    "k": "cond",
+    "s0": 6,
+    "s1": 6,
+    "n": 2,
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    15,
+    1.6,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    15,
+    18.9,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

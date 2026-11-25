@@ -1,0 +1,172 @@
+{
+ "id": "AMO-019",
+ "bloque": "Técnica y duelos",
+ "titulo": "5v5 pase a zona de puntuación",
+ "formato": "5v5+2C",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 24 m",
+ "duracion": "20 min",
+ "series": "4 series de 4′ con 1′ de pausa; los comodines cambian cada serie (propuesta).",
+ "objetivo": "Mejorar las líneas de pase: crear buenos ángulos de pase, elegir bien el momento y el pase, y corregir las líneas de pase del rival. Cómo explicarlo: «muévete para ofrecer una línea limpia y recibe en la zona». Errores típicos: pases con un rival delante, receptor que no se desmarca, comodines sin moverse. Qué observar: ángulos, timing del desmarque. Material: 8 conos, petos de 3 colores.",
+ "montaje": "Campo de 40 × 24 m: zona central de 28 m con 5v5 y zona de puntuación de 6 m en cada fondo. Un comodín por banda.",
+ "juego": "5v5. Solo se puntúa con un pase a la zona de puntuación rival que controle un atacante que entra a recibir. Los defensores no entran. Comodines a 2 toques.",
+ "punto": "Pase controlado en la zona: 1 punto. Tras pared con comodín: 2.",
+ "consigna": "Muévete para dar una línea de pase limpia.",
+ "variantes": {
+  "facil": "Sin zona prohibida para los defensores y 4 pases mínimos (propuesta).",
+  "dificil": "Control a 1 toque en la zona y zona de 4 m (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4v4+2 y zonas de 8 m. Infantil (12–13): tal cual. Cadete: control orientado y 2 toques máximo.",
+ "fuente": {
+  "autor": "La Biblia de José Mourinho (tarea atribuida)",
+  "titulo_original": "Tarea atribuida a Mourinho 19",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 21"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): 5v5 en zona principal con 2 comodines exteriores, solo se anota enviando un pase a la zona de puntuación controlado por un atacante; factores clave: líneas de pase y ángulos. Medidas, zonas de 6 m, comodines por banda, rotación, puntos, series, variantes y adaptación son (propuesta); edad y jugadores propuestos por la base.",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.5,
+   "ymin": -3,
+   "ymax": 27
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     6,
+     24
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     34,
+     0,
+     40,
+     24
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 25.6,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.7,
+     6.4
+    ],
+    "b": [
+     18.4,
+     12.6
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     19.7,
+     12.4
+    ],
+    "b": [
+     25.4,
+     7.4
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     27,
+     6.6
+    ],
+    "b": [
+     36.5,
+     9
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    3,
+    12,
+    "ZONA PUNTOS",
+    "middle"
+   ],
+   [
+    37,
+    12,
+    "ZONA PUNTOS",
+    "middle"
+   ]
+  ]
+ }
+}

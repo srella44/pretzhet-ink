@@ -1,0 +1,147 @@
+{
+ "id": "LU-P158",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rueda: finta y desmarque",
+ "formato": "Rueda de pases",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "28 × 15 m",
+ "duracion": "14 min",
+ "series": "2 series de 4′ en cada lado y 1′ de pausa; cada jugador rota en orden alfabético (A pasa a ocupar el puesto de B, etc.) (propuesta).",
+ "objetivo": "Practicar el tercer hombre con finta y desmarque de apoyo: B se aleja del defensor imaginario, vuelve a apoyar y recibe de cara. Cómo explicarlo: «finta primero, apoyo después, y el pase te llega de cara». Errores típicos: apoyo sin finta, no cambiar de dirección, descarga con 2 toques, pase largo sin velocidad. Qué observar: intensidad del desmarque, orientación del cuerpo, timing. Material: 8 conos, balones.",
+ "montaje": "Campo de 28 × 15 m con 6 puestos A–F: un trío a cada lado. A con balón, B de apoyo, C de frente; D, E y F esperan enfrente.",
+ "juego": "1: B finta y apoya. 2: A pasa a C. 3: B cambia de dirección y apoya a C. 4: C se la deja de cara. 5: B controla y pasa a D, que empieza por el otro lado.",
+ "punto": "Sin puntos. Reto: 8 secuencias seguidas sin error de timing.",
+ "consigna": "Finta, cambia de dirección y apoya.",
+ "variantes": {
+  "facil": "Sin finta previa y a velocidad media (propuesta).",
+  "dificil": "Defensor pasivo junto a B y a 2 toques en la descarga (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y sin pase final largo. Infantil (12–13): tal cual. Cadete: a 1 toque en la descarga.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Rueda de pase. Concepto de 3.er hombre – Finta y desmarque",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 158"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: secuencia de pases (A empieza; B finta y se desmarca en apoyo; A pasa a C; B cambia de dirección y apoya a C; C se la deja de cara; B controla y pasa a D, que reinicia por el otro lado con E y F; rotación en orden alfabético); 12 jugadores, 15 × 28 m. Colocación exacta, series, retos, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   28,
+   15
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 29.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     3.7
+    ],
+    "b": [
+     9.2,
+     6.5
+    ],
+    "k": "run",
+    "s0": 4,
+    "s1": 4,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     3.7,
+     9
+    ],
+    "b": [
+     13.2,
+     10
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 2,
+    "side": 1
+   },
+   {
+    "a": [
+     9.6,
+     6.6
+    ],
+    "b": [
+     12.4,
+     7.4
+    ],
+    "k": "run",
+    "s0": 4,
+    "s1": 4,
+    "n": 3,
+    "side": -1
+   },
+   {
+    "a": [
+     13.6,
+     9.2
+    ],
+    "b": [
+     10.2,
+     5.6
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 4,
+    "side": 1
+   },
+   {
+    "a": [
+     10.2,
+     5.2
+    ],
+    "b": [
+     23.3,
+     7.8
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 10,
+    "n": 5,
+    "side": -1
+   }
+  ],
+  "labels": []
+ }
+}

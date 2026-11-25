@@ -1,0 +1,196 @@
+{
+ "id": "LU-P172",
+ "bloque": "Técnica y duelos",
+ "titulo": "6v6+4 con porterías centrales",
+ "formato": "6v6+4C",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "16 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "24 min",
+ "series": "4 series de 5′ con 1′ de pausa; los comodines rotan cada serie (propuesta).",
+ "objetivo": "Aprovechar la superioridad que dan los comodines para circular y progresar, y al defender, evitar el juego interior y orientar la presión hacia las bandas. Cómo explicarlo: «usa a los comodines para ganar al rival; si el centro se cierra, vete a banda». Errores típicos: juego interior forzado, comodines estáticos, defensa sin basculación. Qué observar: basculación, presión al poseedor, circulación. Material: 2 porterías, 2 miniporterías centrales, petos de 3 colores.",
+ "montaje": "Campo de 50 × 40 m con portería en cada fondo y 2 miniporterías centrales. 6v6; 2 comodines laterales y 2 centrales con quien tenga el balón.",
+ "juego": "El equipo con balón y los comodines buscan superioridades para marcar en portería grande o en miniportería. Los defensores evitan el juego interior. Tras robo, cambio de rol.",
+ "punto": "Portería grande: 2 puntos. Miniportería central: 1 punto.",
+ "consigna": "Usa a los comodines y evita el centro cerrado.",
+ "variantes": {
+  "facil": "6v6+4 con comodines a 3 toques (propuesta).",
+  "dificil": "Comodines a 2 toques y miniportería válida solo tras 6 pases (propuesta)."
+ },
+ "adaptacion": "Cadete (14–15): campo de 45 × 35 m. Juvenil (16–18): tal cual. Infantil: 5v5+4 en 40 × 30 m (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Técnica (16 jug.): carriles, comodines",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 172"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 6 + 4 comodines (2 laterales y 2 centrales), un comodín central inicia, 2 miniporterías en el carril central a la altura del medio campo, gol en portería grande 2 puntos y en miniportería 1; tras robo cambio de rol; 16 jugadores, 50 × 40 m. Porteros, series, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -3.5,
+   "ymax": 43.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6
+   },
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6
+   }
+  ],
+  "lines": [
+   [
+    [
+     24,
+     17
+    ],
+    [
+     24,
+     23
+    ]
+   ],
+   [
+    [
+     26,
+     17
+    ],
+    [
+     26,
+     23
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.2,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 48.8,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 41.8,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.7,
+     12.4
+    ],
+    "b": [
+     13.4,
+     27.2
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     14.8,
+     28.6
+    ],
+    "b": [
+     24.3,
+     41
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 6,
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     25,
+     41
+    ],
+    "b": [
+     44,
+     21
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 12,
+    "n": 3,
+    "side": 1
+   }
+  ],
+  "labels": [
+   [
+    25,
+    15,
+    "MINIPORTERÍAS",
+    "middle"
+   ]
+  ]
+ }
+}

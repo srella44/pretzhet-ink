@@ -1,0 +1,158 @@
+{
+ "id": "LU-P144",
+ "bloque": "Técnica y duelos",
+ "titulo": "Mediocentro: control y tiro",
+ "formato": "1 + 4 servidores",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug.",
+ "espacio": "18 × 20 m",
+ "duracion": "12 min",
+ "series": "3 vueltas de 10 llamadas por jugador con 1′ de pausa; cada jugador del grupo rota al centro (propuesta).",
+ "objetivo": "Trabajar las acciones técnicas del mediocentro: control orientado de balones a distintas alturas, giro y finalización a la portería señalada. Cómo explicarlo: «pide el balón, mira la portería que te indican y controla ya hacia ella». Errores típicos: control hacia atrás, tirar sin mirar, perfil cerrado. Qué observar: orientación del cuerpo antes de recibir, calidad del primer control, golpeo con el interior o empeine. Material: 8 miniporterías de 2,5 m, balones en cada servidor.",
+ "montaje": "Rectángulo de 18 × 20 m. El mediocentro en el centro; en cada lado, 2 miniporterías y un servidor con balones entre ellas.",
+ "juego": "Un servidor llama y pasa (raso o a media altura). Otro señala la portería con un estímulo visual. El mediocentro controla orientado y chuta a ella.",
+ "punto": "Gol en la portería señalada: 1 punto. Reto: 7 de 10.",
+ "consigna": "Control orientado y mira la portería.",
+ "variantes": {
+  "facil": "Pase raso, servidores a 6 m y el estímulo se da antes del pase (propuesta).",
+  "dificil": "Estímulo cuando el balón ya viaja y obligar a controlar con el pie contrario (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): balones rasos y 2 porterías abiertas. Infantil (12–13): tal cual. Cadete (14–15): balones aéreos y 2 toques.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Trabajo individualizado mediocentro",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 144"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: mediocentro en el centro de 18 × 20 m, 2 miniporterías por lado con un compañero con balones entre cada par; pases en distintas condiciones (a ras, a media altura) que controla y lanza a la portería indicada con un estímulo visual. Ritmo, series, puntuación, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   18,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 20.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "porterias": [
+   {
+    "x": 4,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.5
+   },
+   {
+    "x": 14,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.5
+   },
+   {
+    "x": 4,
+    "y": 20,
+    "lado": "B",
+    "ancho": 2.5
+   },
+   {
+    "x": 14,
+    "y": 20,
+    "lado": "B",
+    "ancho": 2.5
+   },
+   {
+    "x": 0,
+    "y": 5,
+    "lado": "L",
+    "ancho": 2.5
+   },
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 2.5
+   },
+   {
+    "x": 18,
+    "y": 5,
+    "lado": "R",
+    "ancho": 2.5
+   },
+   {
+    "x": 18,
+    "y": 15,
+    "lado": "R",
+    "ancho": 2.5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": -1.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": 21.6,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19.8,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     -0.8
+    ],
+    "b": [
+     9,
+     8.8
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": 1
+   },
+   {
+    "a": [
+     9.6,
+     10.4
+    ],
+    "b": [
+     17.4,
+     14.6
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 8,
+    "n": 2,
+    "side": -1
+   }
+  ],
+  "labels": []
+ }
+}

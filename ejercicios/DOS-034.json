@@ -1,0 +1,166 @@
+{
+ "id": "DOS-034",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 conducción y regate",
+ "formato": "1v1 encadenado",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–16 jug.",
+ "espacio": "25 × 15 m",
+ "duracion": "20 min",
+ "series": "4 rondas de 4′ con 1′ de pausa; cada jugador ataca 3–4 veces por ronda (propuesta).",
+ "objetivo": "Conducir en velocidad, regatear con cambio de ritmo y defender un 1v1 sin perder el equilibrio. Cómo explicarlo: «regatea desde lejos, no cuando ya tienes al defensor encima». Errores típicos: dominar mal el balón en la conducción, regatear demasiado cerca del rival, defensor que se tira al suelo. Qué observar: cambio de ritmo, superficie de contacto, defensor que orienta hacia fuera. Material: 2 miniporterías, 8 conos, balones en cada fila.",
+ "montaje": "Campo de 25 × 15 m, miniportería y zona final de 4 m en cada fondo. Fila A en la esquina sup. izquierda, con balones; fila B en la inf. derecha.",
+ "juego": "A1 sale conduciendo contra B1, que sale a defender. A1 regatea y tira desde la zona final. Luego A1 defiende el ataque de B2.",
+ "punto": "Gol desde la zona final: 1 punto. Robo y balón fuera: 1 al defensor.",
+ "consigna": "Regatea desde lejos y cambia de ritmo.",
+ "variantes": {
+  "facil": "Portería más ancha (4 m) y defensor que empieza 2 m más atrás (propuesta).",
+  "dificil": "Defensor que sale a la vez que el atacante y portero en la portería; el tiro vale solo si entra al palo contrario al portero (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campo 20 × 12 m, sin portero y sin puntos por robo. Infantil (12–13): tal cual, con portero. Si hay 16 jugadores, dos campos paralelos.",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "Juego aplicación 1v1 conduc + regate",
+  "ref": "dosier.pdf · pág. 8"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: dos equipos en fila en las esquinas, zona de finalización en cada fondo, 25 × 15 m con 2 porterías, 1 punto por gol desde la zona final. El cambio de papeles tras cada jugada, la profundidad de 4 m, el punto por robo, las rondas y las variantes son (propuesta); edad y jugadores propuestos por la base.",
+ "diagrama": {
+  "field": [
+   25,
+   15
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 27.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     4,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     21,
+     0,
+     25,
+     15
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    25,
+    7.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 1.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 1.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23.5,
+    "y": 13.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 13.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.8,
+     5.2
+    ],
+    "b": [
+     14,
+     6.8
+    ],
+    "k": "cond",
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     14.8,
+     8.6
+    ],
+    "b": [
+     12.8,
+     8
+    ],
+    "k": "run",
+    "s0": 6,
+    "s1": 4,
+    "n": 2,
+    "side": -1
+   },
+   {
+    "a": [
+     14,
+     6.4
+    ],
+    "b": [
+     24.5,
+     7.5
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    1.5,
+    "ZONA FINAL",
+    "middle"
+   ]
+  ]
+ }
+}

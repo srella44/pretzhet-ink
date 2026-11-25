@@ -1,0 +1,86 @@
+{
+ "id": "LU-P168",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 en espacio reducido",
+ "formato": "1v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "2 jug. por campo",
+ "espacio": "12 × 6 m",
+ "duracion": "14 min",
+ "series": "Partidos a 5 goles (unos 3′); al terminar, el ganador sube de campo y el perdedor baja (propuesta).",
+ "objetivo": "Avanzar con el balón en un espacio muy reducido y finalizar; como defensor, no ser desbordado y orientar la presión hacia fuera para robar o sacar al rival del espacio. Cómo explicarlo: «ataca con velocidad, defiende de lado». Errores típicos: atacar sin cambio de ritmo, defensor que se lanza, perder el balón por salir del espacio. Qué observar: cambio de ritmo, perfil defensivo, finalización.",
+ "montaje": "Campo de 12 × 6 m con miniportería de 2 m en cada fondo. Dos jugadores, uno con balón y otro defendiendo. Varios campos en paralelo.",
+ "juego": "El del balón avanza y marca. El defensor evita el desborde y orienta la presión hacia fuera. Quien sale del espacio pierde la posesión. Tras gol, saca el que lo recibe.",
+ "punto": "Gol: 1 punto. Gana el primero que marque 5.",
+ "consigna": "Ataca rápido y defiende de lado.",
+ "variantes": {
+  "facil": "Defensor que empieza 2 m más atrás y portería de 3 m (propuesta).",
+  "dificil": "Gol solo válido tras superar al defensor con un regate y 4 goles para ganar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campo de 12 × 8 m y gana a 3 goles. Infantil (12–13): tal cual. Cadete: portería de 1,5 m.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Acciones individuales 1vs1 – Espacios reducidos",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 168"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos jugadores en un espacio rectangular, el de posesión profundiza y finaliza en la portería contraria, el defensor evita el desborde y orienta la presión hacia fuera; gana quien marque cinco goles; nadie sale del espacio; 12 × 6 m. Medida de las miniporterías, qué pasa al salir, rotación, variantes y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   12,
+   6
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -1.5,
+   "ymax": 7.5
+  },
+  "goals": [
+   [
+    0,
+    3,
+    "L"
+   ],
+   [
+    12,
+    3,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 3.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.2,
+     3
+    ],
+    "b": [
+     10.8,
+     2.2
+    ],
+    "k": "cond",
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   }
+  ],
+  "labels": []
+ }
+}

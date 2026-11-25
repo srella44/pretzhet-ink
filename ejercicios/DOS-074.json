@@ -1,0 +1,115 @@
+{
+ "id": "DOS-074",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 con dos comodines",
+ "formato": "1v1+2C",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4 jug. por grupo",
+ "espacio": "20 × 20 m",
+ "duracion": "20 min",
+ "series": "6 series de 90″ con 30″ de pausa; en cada serie cambian de papel atacante, defensor y comodines (propuesta).",
+ "objetivo": "Desmarcarse al pie o al espacio y usar a los comodines para volver a recibir en espacio libre, engañando al marcador con regates y fintas. Cómo explicarlo: «pide al pie si te marca de lejos; al espacio si lo tienes pegado». Errores típicos: pedir siempre al pie, no mirar dónde está el marcador, comodín que no devuelve a un toque. Qué observar: fintas, perfil del cuerpo, tiempo del desmarque.",
+ "montaje": "Cuadrado de 20 × 20 m. Un atacante con balón y un defensor dentro; dos comodines fuera, en bandas opuestas.",
+ "juego": "El atacante pasa a un comodín y se desmarca, al pie o al espacio, para volver a recibir. Si el defensor roba, se cambian los papeles. Comodines a 1–2 toques.",
+ "punto": "1 punto cada vez que vuelve a recibir del comodín en espacio libre. Gana quien más sume.",
+ "consigna": "Pide al pie o al espacio según tu marcador.",
+ "variantes": {
+  "facil": "Defensor pasivo durante la primera serie y comodines en la misma banda (propuesta).",
+  "dificil": "Defensor con oposición total y solo se puntúa si el atacante recibe orientado hacia el otro comodín (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cuadrado de 20 × 20 m y defensa pasiva al principio. Infantil (12–13): tal cual, con puntos por recibir orientado.",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "Juego aplicación 1v1+2C",
+  "ref": "dosier.pdf · pág. 8"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: espacio de 20 × 20 m con dos comodines exteriores, mantener la posesión con regates y engaños buscando el espacio para volver a recibir, 1 punto por recibir de nuevo del comodín en espacio libre. Rotación, series, variantes, colores y adaptación son (propuesta); edad propuesta por la base.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 23.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 12,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 8.5,
+    "f": 150
+   },
+   {
+    "r": "C",
+    "x": -1.8,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21.8,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.4,
+     11.5
+    ],
+    "b": [
+     -0.8,
+     5.6
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 8,
+    "n": 1,
+    "side": -1
+   },
+   {
+    "a": [
+     6.8,
+     13
+    ],
+    "b": [
+     4,
+     17.5
+    ],
+    "k": "run",
+    "s0": 6,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     -0.2,
+     6
+    ],
+    "b": [
+     4.2,
+     17
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "n": 3,
+    "side": -1
+   }
+  ]
+ }
+}
