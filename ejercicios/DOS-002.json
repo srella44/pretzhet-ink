@@ -1,0 +1,161 @@
+{
+ "id": "DOS-002",
+ "bloque": "Calentamiento",
+ "titulo": "Pilla-pilla balón",
+ "formato": "Equipo con balón vs robadores",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "6 series de 1′30″ con 30″ de pausa y cambio de papeles cada dos series (propuesta). En 16 jugadores, dos campos de 20 × 20 m a la vez.",
+ "objetivo": "Proteger el balón en conducción con visión periférica; robar y salir conduciendo (fuente). Cómo explicarlo: conduce con la cabeza levantada, cuerpo entre rival y balón y cambios de ritmo; el robador acecha el balón, no al jugador. Errores típicos: conducir mirando solo el balón, huir hacia la esquina, entrar a robar sin cerrar el ángulo. Qué observar: giros con la suela y exterior, atención al entorno y celebración del robo. Material (propuesta): 4 conos y petos.",
+ "montaje": "Zona de 20 × 20 m con 4 conos. Un equipo de 4 con balón cada uno dentro; el otro, de 4 con petos y sin balón, roba. Con 16, dos zonas.",
+ "juego": "Los del balón conducen evitando que se lo quiten. Los robadores lo sacan con el pie y, para que cuente, salen conduciendo de la zona. Quien pierde el balón se une a los robadores.",
+ "punto": "Gana el equipo que roba más balones en la serie (fuente).",
+ "consigna": "Mira mientras conduces y protege con el cuerpo.",
+ "variantes": {
+  "facil": "Zona de 25 × 25 m y un robador menos (propuesta).",
+  "dificil": "Zona de 15 × 15 m y los que roban solo pueden hacerlo con el pie derecho (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): como está. Infantil (12–13): zona de 18 × 18 m y robo obligatorio por la espalda del rival. Cadete (14–15): zona de 15 × 15 m y 2 toques máximo (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Pilla-pilla con balón por equipos",
+  "ref": "Dosier de sesiones · pág. 2, 15"
+ },
+ "probado": true,
+ "completado": "Fuente: un equipo con balones dentro de la zona y otro sin balón que roba; robar y salir conduciendo; series de 1–2′; gana quien más robos. Medidas, nº por equipo, rotación de papeles y variantes propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 9.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     2.5,
+     1.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     9.5,
+     8
+    ],
+    "b": [
+     6.5,
+     5.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     14,
+     10.5
+    ],
+    "b": [
+     15,
+     13.2
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ },
+ "top": ""
+}

@@ -1,0 +1,154 @@
+{
+ "id": "DOS-023",
+ "bloque": "Calentamiento",
+ "titulo": "Partido con manos y volea",
+ "formato": "4v4 con las manos",
+ "edad": "12–15 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "15 × 12 m",
+ "duracion": "10 min",
+ "series": "4 partidos de 2′ con 30″ de pausa, rotando 2 jugadores cada partido (propuesta). Con 8, se juega 4v4; con 12, 4v4 y 2 suplentes por equipo que entran cada 30″.",
+ "objetivo": "Ofrecerse sin balón y finalizar por el aire con volea o cabeza (fuente). Cómo explicarlo: pasa con la mano, mira al compañero y envía el balón al aire a la altura del remate; remata sin dejar caer el balón. Errores típicos: retener el balón más de 3 s, tirar flojo, rematar sin mirar. Qué observar: desmarques de apoyo, golpeo de volea y coordinación entre pase y remate. Material (propuesta): 4 conos, 2 miniporterías de 3 m y petos.",
+ "montaje": "15 × 12 m con miniportería de 3 m en cada fondo. Dos equipos de 4 con petos, sin portero.",
+ "juego": "Se juega con las manos, sin correr con el balón ni retenerlo más de 3 s. Solo vale el gol de volea o de cabeza tras pase de un compañero. Si cae al suelo o se retiene, pasa al rival.",
+ "punto": "Gol de volea o de cabeza: 1 punto (fuente). Gana quien más sume en 2′.",
+ "consigna": "Ofrécete: si no te mueves, no te la pasan.",
+ "variantes": {
+  "facil": "Se permite un bote antes del remate (propuesta).",
+  "dificil": "Máximo 2 pases antes de rematar y solo de cabeza en 1 de cada 2 goles (propuesta)."
+ },
+ "adaptacion": "Con 6 jugadores (3v3): 12 × 10 m, medida de la fuente. Infantil (12–13): como está, con balón blando si es necesario. Cadete (14–15): campo de 15 × 12 m y balón normal. Alevín (10–11): 3v3 y se permite un bote (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Partido con las manos y volea",
+  "ref": "Dosier de sesiones · pág. 6"
+ },
+ "probado": true,
+ "completado": "Fuente: dos equipos, dos porterías en campo pequeño, juego con las manos con máximo 3 s de retención, gol solo de volea o de cabeza tras pase de un compañero, punto por gol aéreo. Campo ampliado a 15 × 12 m para 4v4 (la fuente da 12 × 10 m) (propuesta). Nº por equipo, medidas de portería, rotación y series propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   12
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 17.5,
+   "ymin": -2.5,
+   "ymax": 14.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 6,
+    "lado": "L",
+    "ancho": 3
+   },
+   {
+    "x": 15,
+    "y": 6,
+    "lado": "R",
+    "ancho": 3
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.7,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5.4,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8.8,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8.8,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12.8,
+    "y": 9.8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     6
+    ],
+    "b": [
+     6.3,
+     2.9
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     6.5,
+     2.5
+    ],
+    "b": [
+     10.4,
+     5.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     10.7,
+     6
+    ],
+    "b": [
+     14.5,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 2
+   }
+  ]
+ },
+ "top": ""
+}

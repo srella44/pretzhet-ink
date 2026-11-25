@@ -1,0 +1,144 @@
+{
+ "id": "RONDO-AL-M02",
+ "bloque": "Calentamiento",
+ "titulo": "El laboratorio de salidas",
+ "formato": "1v1 de reacción",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 3′ con 1′ de pausa: cada pareja hace unas 6 salidas por ronda, variando la posición de salida (propuesta). Se juega por turnos y las demás parejas esperan detrás de la línea.",
+ "objetivo": "Reaccionar a una señal desde posiciones incómodas, acelerar en los primeros metros y resolver un 1 contra 1 corto (fuente). Cómo explicarlo: te levantas rápido, miras el balón y sales con 3 pasos explosivos; quien llega primero ataca y el otro corta el tiro. Errores típicos: salir antes de la señal, levantarse despacio, mirar al compañero y no al balón. Qué observar: rapidez en los 3 primeros pasos y decisión al tirar.",
+ "montaje": "Línea de salida a 8 m de un balón; miniportería de 3 m a 8 m más allá. Parejas en la línea: uno sentado y otro tumbado, o de espaldas, según diga el míster.",
+ "juego": "A la señal, ambos corren a por el balón. Quien lo coge ataca la miniportería y el otro defiende hasta gol, balón fuera o 6″. Después rotan las parejas y cambia la posición de salida.",
+ "punto": "1 punto a quien coge el balón y 1 a quien marca (fuente).",
+ "consigna": "Sal rápido y decide ya.",
+ "variantes": {
+  "facil": "Salida de pie (fuente).",
+  "dificil": "Señal visual (mano levantada) en lugar de la voz (fuente); salida boca abajo (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): salida de pie y balón a 5 m. Alevín (10–11): como está. Infantil (12–13): balón a 10 m y defensor que sale 1 s después (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El laboratorio de salidas (AL-M02)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 6"
+ },
+ "completado": "Fuente: parejas que salen sentadas, tumbadas o de espaldas a una señal, corren a un balón a 8 m y ataca el que lo coge; puntos por balón y gol; variantes fácil y difícil. Nº de jugadores, distancia a la portería, duración del duelo y rondas propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 18
+  },
+  "lines": [
+   [
+    [
+     1.5,
+     0
+    ],
+    [
+     1.5,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 20,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 3
+   }
+  ],
+  "balls": [
+   [
+    10,
+    7.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 10.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4.5
+    ],
+    "b": [
+     9.4,
+     7.1
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     3,
+     10.5
+    ],
+    "b": [
+     9.4,
+     8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     10.4,
+     7.5
+    ],
+    "b": [
+     19,
+     7.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    10.2,
+    "BALÓN A 8 M",
+    "middle"
+   ],
+   [
+    3,
+    -1.2,
+    "SALIDA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

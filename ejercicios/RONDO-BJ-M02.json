@@ -1,0 +1,170 @@
+{
+ "id": "RONDO-BJ-M02",
+ "bloque": "Calentamiento",
+ "titulo": "Policías y ladrones",
+ "formato": "Persecución con balón",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 90″ con 30″ de pausa (propuesta). En cada ronda, 2 policías; en la siguiente, otros 2 policías y los anteriores pasan a ladrones.",
+ "objetivo": "Conducir con la cabeza levantada, cambiar de dirección y proteger el balón mientras se escapa, y calentar con un juego de persecución (fuente). Cómo explicarlo: no corras en línea recta; mira dónde están los policías y esquívalos con la suela y el exterior. Errores típicos: mirar solo el balón, ir siempre a la esquina, empujar a los policías. Qué observar: balón pegado al pie en los giros y respeto de la cárcel. Material (propuesta): 4 conos de la cárcel y 6 balones.",
+ "montaje": "20 × 20 m con cárcel de 4 × 4 m en una esquina. 6 ladrones con balón y 2 policías sin balón.",
+ "juego": "Los ladrones conducen por todo el campo y los policías los tocan con la mano. Ladrón tocado: a la cárcel, hace 5 toques de suela y vuelve a entrar. Policías, lejos de la cárcel.",
+ "punto": "Los policías cuentan los tocados en 90″ y se cambia (fuente).",
+ "consigna": "Esquiva con giros y sal rápido de la cárcel.",
+ "variantes": {
+  "facil": "Campo más grande, de 25 × 25 m (fuente) y un solo policía (propuesta).",
+  "dificil": "Los policías corren por parejas (fuente); en la cárcel, 8 toques (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin balón en los ladrones. Benjamín (8–9): como está. Alevín (10–11): 3 policías y cárcel en una esquina diagonal (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Policías y ladrones (BJ-M02)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 6"
+ },
+ "completado": "Fuente: ladrones con balón, policías sin balón que tocan, cárcel con 5 toques de suela, puntos por ladrones tocados en 90″, variantes de campo y de policías por parejas. Nº de jugadores, medidas de la cárcel, rondas y rotación propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 23.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     16,
+     4,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 13.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     8
+    ],
+    "b": [
+     8.4,
+     5.6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     7,
+     5
+    ],
+    "b": [
+     3.5,
+     2
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     16,
+     10
+    ],
+    "b": [
+     18,
+     17
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    2,
+    22.2,
+    "CÁRCEL",
+    "start"
+   ],
+   [
+    4.8,
+    19.6,
+    "5 TOQUES",
+    "start"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

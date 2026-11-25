@@ -1,0 +1,223 @@
+{
+ "id": "RONDO-BJ-M01",
+ "bloque": "Calentamiento",
+ "titulo": "La selva",
+ "formato": "Circuito libre",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "3 pasadas de 2′: primero sin balón, luego con el balón en las manos y por último en el pie, con 30″ de pausa (propuesta). Los jugadores salen cada 5″ en fila.",
+ "objetivo": "Activar el cuerpo con saltos, reptación y marcha atrás y coordinar el balón con el movimiento, jugando a una selva (fuente). Cómo explicarlo: es una selva con obstáculos; hay que pasar todo el recorrido sin tocar nada. Errores típicos: pisar los aros, tirar las vallas, ir demasiado rápido y chocar entre compañeros. Qué observar: aterrizaje suave, coordinación y distancia entre jugadores. Material (propuesta): 4 vallas bajas, 6 aros y 8 conos.",
+ "montaje": "Circuito de 20 × 15 m: 3 vallas bajas, 6 aros a pies juntos, 6 m reptando y 4 conos en marcha atrás. Salen uno a uno cada 5″.",
+ "juego": "Se recorre en orden: saltar, reptar y correr hacia atrás. 1.ª pasada sin balón, 2.ª con el balón en las manos y 3.ª conduciéndolo con el pie. Se vuelve trotando.",
+ "punto": "Cada uno cuenta sus vueltas completas en 2′ sin tirar nada (fuente).",
+ "consigna": "Pasa la selva sin tocar nada.",
+ "variantes": {
+  "facil": "Solo dos pruebas: vallas y aros (fuente).",
+  "dificil": "Al final del circuito, tiro a una miniportería (fuente); contra reloj por parejas (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): obstáculos más bajos, sin balón en el pie. Benjamín (8–9): como está. Alevín (10–11): más obstáculos y tiro a portería al final (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La selva (BJ-M01)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 3"
+ },
+ "completado": "Fuente: circuito libre con vallas bajas, aros, conos; sin balón, con balón en las manos y en el pie; puntos por vueltas en 2′; variantes. Recorrido en 3 filas, material, series y salidas propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    4,
+    1.2
+   ],
+   [
+    4,
+    3.8
+   ],
+   [
+    7,
+    1.2
+   ],
+   [
+    7,
+    3.8
+   ],
+   [
+    10,
+    1.2
+   ],
+   [
+    10,
+    3.8
+   ],
+   [
+    13,
+    8.5
+   ],
+   [
+    15,
+    6.5
+   ],
+   [
+    17,
+    8.5
+   ],
+   [
+    13,
+    12.5
+   ],
+   [
+    15,
+    10.5
+   ],
+   [
+    17,
+    12.5
+   ]
+  ],
+  "discs": [
+   [
+    4,
+    7
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    8,
+    7
+   ],
+   [
+    10,
+    7
+   ],
+   [
+    4,
+    9
+   ],
+   [
+    6,
+    9
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     2,
+     11.5,
+     9,
+     14.5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 7,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     2.5
+    ],
+    "b": [
+     12.5,
+     2.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     4,
+     7.8
+    ],
+    "b": [
+     12,
+     7.8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     9,
+     13
+    ],
+    "b": [
+     2.4,
+     13
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    7,
+    -1.2,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    7,
+    16.1,
+    "REPTAR",
+    "middle"
+   ],
+   [
+    15,
+    16.1,
+    "MARCHA ATRÁS",
+    "middle"
+   ],
+   [
+    7,
+    10.2,
+    "AROS",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

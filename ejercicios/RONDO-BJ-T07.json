@@ -1,0 +1,151 @@
+{
+ "id": "RONDO-BJ-T07",
+ "bloque": "Calentamiento",
+ "titulo": "El tren de los vagones",
+ "formato": "Parejas guía y sombra",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 90″: cada 30″ suena el pitido y se cambia de locomotora; 30″ de pausa entre rondas (propuesta). Al final, 1 ronda con túneles.",
+ "objetivo": "Conducir con control, cambiar de dirección y de ritmo siguiendo a un compañero, mirando a la vez el balón y a la pareja (fuente). Cómo explicarlo: la locomotora hace curvas amplias y el vagón copia lo mismo, a dos metros. Errores típicos: la locomotora corre demasiado y pierde al vagón, el vagón mira solo su balón, choques entre trenes. Qué observar: cabeza levantada y balón pegado al pie en los giros. Material (propuesta): 6 balones, 6 conos para los túneles de la variante.",
+ "montaje": "20 × 20 m. 6 jugadores en 3 parejas, cada uno con balón: locomotora delante y vagón 2 m detrás. Los trenes se reparten por el campo.",
+ "juego": "La locomotora conduce con curvas y cambios de ritmo; el vagón repite sus curvas. Al pitido (cada 30″), el vagón pasa a locomotora. Los trenes evitan chocar entre sí.",
+ "punto": "1 punto a la pareja que no se separa más de 3 m (fuente).",
+ "consigna": "Sigue las curvas de tu locomotora.",
+ "variantes": {
+  "facil": "El vagón sigue sin balón (fuente).",
+  "dificil": "El tren pasa por túneles de dos conos (fuente); el vagón sigue a 1 m (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin balón. Benjamín (8–9): como está. Alevín (10–11): 3 vagones por tren y túneles obligatorios (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El tren de los vagones (BJ-T07)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 16"
+ },
+ "completado": "Fuente: parejas con balón, locomotora que guía y vagón que copia, cambio de papel al pitido, punto por no separarse, variantes. Distancia entre ellos, nº de parejas, rondas, duración y túneles propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    10,
+    9
+   ],
+   [
+    12.5,
+    9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 3.2,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     5
+    ],
+    "b": [
+     14,
+     3.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     16,
+     12
+    ],
+    "b": [
+     8,
+     13
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     5,
+     16
+    ],
+    "b": [
+     11,
+     18
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    11.3,
+    7.3,
+    "TÚNEL",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

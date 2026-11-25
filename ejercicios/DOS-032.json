@@ -1,0 +1,170 @@
+{
+ "id": "DOS-032",
+ "bloque": "Calentamiento",
+ "titulo": "El juego de la araña",
+ "formato": "Cruzar la línea de la araña",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 2′ con 30″ de pausa: cuando queda uno, ronda nueva con una araña elegida entre los atrapados (propuesta). Las arañas se reponen cada ronda.",
+ "objetivo": "Conducir y regatear para cruzar una línea defendida y convertirse en araña si te roban (fuente). Cómo explicarlo: no corras en línea recta; engaña a la araña con fintas y cambia de ritmo al llegar a la línea. Errores típicos: conducir mirando el balón, cruzar siempre por el mismo lado, perder la finta por prisa. Qué observar: tanteo del lado libre, regate con cambio de ritmo y reacciones tras ser atrapado. Material (propuesta): 4 conos y 1 balón por jugador.",
+ "montaje": "20 × 15 m con una línea central marcada con conos. Los atacantes, cada uno con balón, esperan en un fondo; la araña, sin balón, se coloca sobre la línea central.",
+ "juego": "Los atacantes cruzan al otro fondo conduciendo, sin que la araña los toque ni robe. Quien es atrapado se convierte en araña y se queda en la línea. Los que cruzan esperan y vuelven a salir.",
+ "punto": "Gana el último jugador que queda sin ser atrapado (fuente).",
+ "consigna": "Busca el lado libre de la araña.",
+ "variantes": {
+  "facil": "Línea más ancha: la araña no puede salir 2 m de ella (propuesta).",
+  "dificil": "Dos arañas desde el inicio y tandas más cortas (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): como está. Infantil (12–13): 25 × 15 m y cruzar solo con 2 toques. Cadete (14–15): conducir solo con el pie débil (propuesta).",
+ "fuente": {
+  "autor": "FCStage Camps",
+  "titulo_original": "Juego de la araña",
+  "ref": "Dosier de sesiones · pág. 8"
+ },
+ "probado": true,
+ "completado": "Fuente: atacantes con balón en un fondo, araña en una línea central; cruzar sin ser robado; el robado pasa a ser araña; gana el último que queda. Rondas, rotación de las arañas, cómo se espera tras cruzar y variantes propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    10,
+    0.4
+   ],
+   [
+    10,
+    14.6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.8,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.8,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.8,
+     4
+    ],
+    "b": [
+     15.5,
+     2.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     10.5,
+     7.5
+    ],
+    "b": [
+     12,
+     4.3
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     5.8,
+     11
+    ],
+    "b": [
+     17,
+     12
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    16.8,
+    "ARAÑA",
+    "middle"
+   ]
+  ]
+ },
+ "top": ""
+}

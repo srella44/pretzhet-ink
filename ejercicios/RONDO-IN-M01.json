@@ -1,0 +1,184 @@
+{
+ "id": "RONDO-IN-M01",
+ "bloque": "Calentamiento",
+ "titulo": "El circuito del cuerpo",
+ "formato": "4 puestos + 1v1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "2 vueltas completas: 4 puestos de 30″ con 30″ de descanso al cambiar (8 min) y 4 min de retos 1 contra 1 con 3 ó 4 duelos por pareja (propuesta).",
+ "objetivo": "Calentar el cuerpo con fuerza, equilibrio y coordinación antes de jugar, cuidando la calidad de cada repetición y no la prisa (fuente). Cómo explicarlo: cada uno cuenta sus repeticiones limpias; si pierdes la postura, no cuenta. Errores típicos: plancha con la cadera caída, zancadas con la rodilla hacia dentro, saltos laterales sin amortiguar, perder el equilibrio por mirar el balón. Qué observar: técnica en cada puesto y respeto del tiempo de descanso. Material (propuesta): 4 conos, una línea marcada y 2 balones.",
+ "montaje": "20 × 20 m, 4 puestos en las esquinas: plancha, zancadas, saltos laterales y pata coja con balón en las manos. 2 por puesto: uno trabaja, otro descansa.",
+ "juego": "Trabajo 30″, descanso 30″ y se rota. Tras 2 vueltas, reto 1v1: balón al centro; a la señal, corren y quien llega antes lo protege.",
+ "punto": "Repeticiones limpias de cada uno; reto 1v1: 1 punto (propuesta).",
+ "consigna": "Calidad, no prisa.",
+ "variantes": {
+  "facil": "20″ de trabajo en cada puesto (fuente).",
+  "dificil": "Plancha tocándose los hombros (fuente); reto 1 contra 1 con salida de espaldas (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): puestos de 20″ y sin retos. Alevín (10–11): 25″ de trabajo. Infantil (12–13): como está. Cadete (14–15): 40″ de trabajo y dos balones en el reto (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El circuito del cuerpo (IN-M01)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 3"
+ },
+ "top": "",
+ "completado": "Fuente: 4 puestos de 30″ con 30″ de descanso, 2 vueltas y reto 1 contra 1, puntos por repeticiones limpias, variantes fácil y difícil. Nº de jugadores, rotación, puntuación del reto y series propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 23.2,
+   "ymin": -3.2,
+   "ymax": 23.2
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     20
+    ],
+    "3 6"
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     20,
+     10
+    ],
+    "3 6"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": 0
+   }
+  ],
+  "balls": [
+   [
+    10,
+    10
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.5,
+     1.5
+    ],
+    "b": [
+     13.5,
+     1.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     18.5,
+     6.5
+    ],
+    "b": [
+     18.5,
+     13.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     13.5,
+     18.5
+    ],
+    "b": [
+     6.5,
+     18.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     1.5,
+     13.5
+    ],
+    "b": [
+     1.5,
+     6.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    0,
+    -1.2,
+    "PLANCHA",
+    "start"
+   ],
+   [
+    20,
+    -1.2,
+    "ZANCADAS",
+    "end"
+   ],
+   [
+    20,
+    21.5,
+    "SALTOS",
+    "end"
+   ],
+   [
+    0,
+    21.5,
+    "EQUILIBRIO",
+    "start"
+   ],
+   [
+    10,
+    12.6,
+    "RETO 1V1",
+    "middle"
+   ]
+  ]
+ },
+ "probado": false
+}

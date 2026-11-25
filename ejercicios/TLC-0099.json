@@ -1,0 +1,181 @@
+{
+ "id": "TLC-0099",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Carrera y duelo 3x3",
+ "formato": "Carrera + 3v3",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. + 2 PT",
+ "espacio": "36 × 30 m",
+ "duracion": "16 min",
+ "series": "8 rondas de 1 min de esfuerzo total (carrera + 3v3) con 1 min 30 s de pausa activa (propuesta). El que gana la carrera ataca; el otro equipo defiende y en la siguiente ronda inicia la carrera.",
+ "objetivo": "Tomar decisiones rápidas en 3 contra 3 estando ya fatigado, tras una carrera intensa (fuente). Cómo explicarlo: la carrera es a tope pero con cabeza; al volver, levanta la vista, habla y busca la portería. Errores típicos: llegar sin aire y pasar sin mirar, no comunicarse en la transición, regalar el balón en el primer pase. Qué observar: calidad de las decisiones en los primeros 15 segundos y control de pausas para no bajar la calidad táctica.",
+ "montaje": "36 × 30 m, portería de fútbol 7 con portero en cada fondo. Dos equipos de 3. Una calle de 2 m rodea el campo (≈140 m por vuelta). El entrenador, con balones.",
+ "juego": "Ambos equipos corren a la vez 2 vueltas. Quien llega primero recibe el balón y ataca; el otro defiende. Acaba en gol, robo o a los 45 s. Luego sale la siguiente carrera.",
+ "punto": "Gol: 1 punto; ganar la carrera: 1 extra (propuesta).",
+ "consigna": "Corre fuerte y decide rápido.",
+ "variantes": {
+  "facil": "1 vuelta al campo y comodín neutro en el 3v3 (fuente: comodines).",
+  "dificil": "Carrera en diagonal o con cambios de dirección, y 2 toques máximo (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): 1 vuelta, campo 30 × 25 m y pausas de 2 min. Infantil (12–13): como está. Cadete (14–15): 2 vueltas con campo de 40 × 33 m (medidas de la fuente) (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Unai Emery)",
+  "titulo_original": "EMERY,DUELOS 3×3",
+  "ref": "toplidercoach.com/emeryduelos-3x3/"
+ },
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: carrera a alta intensidad rodeando el campo y 3×3 posterior, con series de trabajo y recuperación. Distancias reducidas para 12–13, duración, puntuación y reglas de rotación propuestas (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 40,
+   "ymin": -4,
+   "ymax": 34
+  },
+  "lines": [
+   [
+    [
+     -2,
+     -2
+    ],
+    [
+     38,
+     -2
+    ],
+    "6 5"
+   ],
+   [
+    [
+     38,
+     -2
+    ],
+    [
+     38,
+     32
+    ],
+    "6 5"
+   ],
+   [
+    [
+     38,
+     32
+    ],
+    [
+     -2,
+     32
+    ],
+    "6 5"
+   ],
+   [
+    [
+     -2,
+     32
+    ],
+    [
+     -2,
+     -2
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 18,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 18,
+    "y": 30,
+    "lado": "B",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 20,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 24,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.5,
+     4
+    ],
+    "b": [
+     -1.5,
+     14
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     29,
+     20
+    ],
+    "b": [
+     19.6,
+     24.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    18,
+    -3.1,
+    "CARRERA POR FUERA · 2 VUELTAS",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

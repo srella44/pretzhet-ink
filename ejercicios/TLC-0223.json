@@ -1,0 +1,172 @@
+{
+ "id": "TLC-0223",
+ "bloque": "Defensa y presión",
+ "titulo": "Velocidad y corte",
+ "formato": "3 salidas + 3 miniporterías",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "7 jug.",
+ "espacio": "24 × 20 m",
+ "duracion": "12 min",
+ "series": "6 repeticiones por grupo con 40 s de pausa para volver y cambiar de papel; 2 series (propuesta). Se rota: atacante, pasador, defensor, esperando.",
+ "objetivo": "Mezclar velocidad de salida, pase, control orientado y tiro con una interceptación defensiva inmediata (fuente). Cómo explicarlo: sale a la señal, sin pensar; el atacante elige portería y momento, el defensor corre mirando el balón, no al rival. Errores típicos: salida lenta, control largo, defensor que llega por detrás. Qué observar: explosividad en los 3 primeros pasos y decisión al elegir portería. Las distancias han de igualar ataque y defensa.",
+ "montaje": "3 miniporterías de 2,5 m. A 12 m, atacante (izquierda) y pasador con balón (centro). Dos defensores parten a los lados, a 9 m.",
+ "juego": "A la señal salen todos. El pasador da raso al atacante en carrera, que controla y tira a la portería libre. Los defensores corren a cortar el tiro o robar. Luego, cambio.",
+ "punto": "Gol: 1 punto. Tiro bloqueado o balón robado: 1 punto a la defensa (propuesta).",
+ "consigna": "Sal a la señal y decide rápido.",
+ "variantes": {
+  "facil": "Un solo defensor y salida con el atacante ya a 5 m del balón (propuesta).",
+  "dificil": "Tres defensores, o portero en una portería (fuente); 3 s máximo para tirar (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): 2 miniporterías y dos defensores que salen un paso tarde. Infantil (12–13): como está. Cadete (14–15): ángulos escalonados y portero (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Francesco Farioli)",
+  "titulo_original": "FRANCESCO FARIOLI, VELOCIDAD E INTERCEPTACIÓN",
+  "ref": "toplidercoach.com/francesco-farioli-velocidad-e-interceptacion/"
+ },
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: tres posiciones de salida, pase a un atacante, finalización en una de tres miniporterías y dos defensores que salen de zonas laterales. Distancias, rotación, puntuación y series propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 27,
+   "ymin": -3,
+   "ymax": 22
+  },
+  "porterias": [
+   {
+    "x": 4,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.5
+   },
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.5
+   },
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 18,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 1.8,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22.2,
+    "y": 8.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     18
+    ],
+    "b": [
+     8.8,
+     11.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     6,
+     18
+    ],
+    "b": [
+     8.4,
+     11.8
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     1.8,
+     8.5
+    ],
+    "b": [
+     6.2,
+     6.3
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     22.2,
+     8.5
+    ],
+    "b": [
+     16.5,
+     6.3
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     8.6,
+     11.2
+    ],
+    "b": [
+     11.7,
+     0.9
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    12,
+    -1.3,
+    "3 MINIPORTERÍAS",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,153 @@
+{
+ "id": "RONDO-IN-T06",
+ "bloque": "Calentamiento",
+ "titulo": "Finta y fuera",
+ "formato": "Estaciones de finta",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "10 min",
+ "series": "5 bloques de 2′ con 30″ de pausa; cada 2′ el míster añade una finta nueva (propuesta). Cada jugador hace unas 12 repeticiones por bloque.",
+ "objetivo": "Practicar fintas y aceleraciones: engañar a un defensor con el cuerpo y salir con velocidad (fuente). Cómo explicarlo: carga el peso en un pie, vende la finta con el hombro y acelera con el otro lado en cuanto pasas el cono. Errores típicos: finta sin cambio de ritmo, ir demasiado lejos del cono, acelerar tarde. Qué observar: giros del cuerpo, aceleración a los 5 m y variedad de fintas. Fintas sugeridas (propuesta): amago, doble toque, bicicleta, tijera y cambio con suela.",
+ "montaje": "3 estaciones de 6 m, 2 jugadores con balón en cada una: cono-defensor a 5 m de la salida y meta 5 m tras él.",
+ "juego": "Cada uno conduce al cono-defensor, hace la finta que elija y acelera hasta la meta; vuelve por fuera y se pone el último. Cada 2′, finta nueva.",
+ "punto": "Cada uno cuenta las fintas distintas que ha probado (fuente).",
+ "consigna": "Vende la finta con el cuerpo y acelera.",
+ "variantes": {
+  "facil": "Finta casi en parado, sin velocidad (fuente).",
+  "dificil": "El defensor es un compañero semiactivo (fuente); dos conos seguidos (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): una sola finta y 4 m al cono. Infantil (12–13): como está. Cadete (14–15): defensor activo y finalización a miniportería (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Finta y fuera (IN-T06)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 9"
+ },
+ "completado": "Fuente: encarar un cono-defensor, hacer una finta elegida y acelerar 5 m, nueva finta cada 2′, puntos por fintas distintas y variantes. Estaciones, distancias, series, repeticiones y fintas sugeridas propuestas (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    8,
+    4
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    16
+   ]
+  ],
+  "lines": [
+   [
+    [
+     13,
+     0
+    ],
+    [
+     13,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     4
+    ],
+    "b": [
+     7.2,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     7.2,
+     4
+    ],
+    "b": [
+     12,
+     6.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     12,
+     6.2
+    ],
+    "b": [
+     20,
+     6.2
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 2,
+    "s1": 2
+   }
+  ],
+  "labels": [
+   [
+    13.4,
+    19,
+    "META 5 M",
+    "start"
+   ],
+   [
+    8,
+    1.6,
+    "CONO-DEFENSOR",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

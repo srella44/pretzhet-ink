@@ -1,0 +1,160 @@
+{
+ "id": "TLC-0124",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Porterías invertidas",
+ "formato": "5v5 en 2 campos",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "4 partidos de 3 min con 1 min de pausa (propuesta). Tras cada uno, se cambian las parejas de los equipos para que no se repitan rivales.",
+ "objetivo": "Progresar y defender en bloque: combinar con pases cortos, paredes y apoyos para avanzar todos juntos, y replegar rápido al perder (fuente). Cómo explicarlo: nadie se queda atrás; el último jugador manda el ritmo del equipo. Errores típicos: delantero esperando arriba, defensas que no suben, repliegue lento. Qué observar: perfil corporal al recibir y distancia entre jugadores durante el repliegue.",
+ "montaje": "40 × 30 m partido en 2 mitades. Dos miniporterías de 3 m en cada fondo, mirando hacia fuera (propuesta). Dos equipos de 5.",
+ "juego": "Se marca en cualquiera de las 4 porterías, pero el gol solo vale si los 5 del equipo están en la mitad de esa portería. Se combina para subir juntos. Al perder, repliegue rápido para cerrar y robar.",
+ "punto": "Gol válido: 1 punto; doble si el rival tenía un descolgado (fuente).",
+ "consigna": "Subimos y bajamos todos juntos.",
+ "variantes": {
+  "facil": "El gol vale si hay 4 de 5 en la mitad contraria (propuesta).",
+  "dificil": "Máximo 2 toques por jugador y gol doble si hay 3 pases antes (fuente: limitar toques)."
+ },
+ "adaptacion": "Alevín (10–11): 4v4 en 30 × 24 m. Infantil (12–13): como está. Cadete (14–15): 6v6 en 45 × 32 m (fuente permite 4, 5 o 6) (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Carlo Ancelotti)",
+  "titulo_original": "ANCELOTTI, PARTIDO PORTERÍAS INVERTIDAS",
+  "ref": "toplidercoach.com/partido-porterias-invertidas/"
+ },
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: campo partido en dos mitades, 4 miniporterías orientadas hacia fuera, gol válido solo si todo el equipo está en el mismo campo. Diagrama simplificado (3 por equipo). Medidas, nº de jugadores, colocación exacta de las porterías, series y puntuación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 32
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 9,
+    "lado": "L",
+    "ancho": 3
+   },
+   {
+    "x": 0,
+    "y": 21,
+    "lado": "L",
+    "ancho": 3
+   },
+   {
+    "x": 40,
+    "y": 9,
+    "lado": "R",
+    "ancho": 3
+   },
+   {
+    "x": 40,
+    "y": 21,
+    "lado": "R",
+    "ancho": 3
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 23,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22.5,
+     15
+    ],
+    "b": [
+     30.2,
+     7.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     31,
+     6
+    ],
+    "b": [
+     39,
+     8.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    30,
+    -1.3,
+    "TODOS EN LA MISMA MITAD",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

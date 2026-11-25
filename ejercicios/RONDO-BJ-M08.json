@@ -1,0 +1,180 @@
+{
+ "id": "RONDO-BJ-M08",
+ "bloque": "Calentamiento",
+ "titulo": "El relevo de los colores",
+ "formato": "Relevos con balón",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8 jug.",
+ "espacio": "25 × 15 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 3′ con 1′ de pausa (propuesta). Se canta un color nuevo en cada viaje; al acabar la ronda se cuentan los conos de cada equipo.",
+ "objetivo": "Conducir con curvas cerradas y velocidad, escuchar el color y pasar el balón mientras se espera: nadie queda parado (fuente). Cómo explicarlo: el que corre va con el balón pegado; los de fuera se pasan el balón y miran al corredor. Errores típicos: conducir sin mirar, volver sin el cono, quedarse parados a esperar. Qué observar: curvas con el exterior, atención al color y pase al primer toque. Material (propuesta): 6 conos de 3 colores, 2 balones de equipo y 2 balones para el relevo.",
+ "montaje": "Dos carriles de 25 × 5 m, uno por equipo de 4. Al fondo de cada carril, 3 conos de colores distintos. El corredor sale con balón; los otros 3, tras la salida, tienen otro balón.",
+ "juego": "El míster canta un color. El corredor conduce al cono de ese color, lo trae con el balón en el pie y lo deja en su salida. Mientras, los otros tres se pasan el balón sin parar. Sale el siguiente.",
+ "punto": "Gana el equipo que trae más conos en la ronda (fuente).",
+ "consigna": "Mira el color y vuelve rápido.",
+ "variantes": {
+  "facil": "Se corre sin balón (fuente).",
+  "dificil": "Ida conduciendo y vuelta hacia atrás (fuente); cantar dos colores seguidos (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin balón y conos a 10 m. Benjamín (8–9): como está. Alevín (10–11): ida y vuelta conduciendo y tres colores (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El relevo de los colores (BJ-M08)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 8"
+ },
+ "completado": "Fuente: dos equipos en relevo, cono del color cantado traído con el balón en el pie, resto del equipo pasándose el balón, punto por conos traídos; variantes. Nº de jugadores, medidas de los carriles, rondas y penalización propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 17.5
+  },
+  "cones": [
+   [
+    22.5,
+    1.7
+   ],
+   [
+    22.5,
+    3.5
+   ],
+   [
+    22.5,
+    5.3
+   ],
+   [
+    22.5,
+    9.7
+   ],
+   [
+    22.5,
+    11.5
+   ],
+   [
+    22.5,
+    13.3
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 0.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 0.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3.5,
+    "y": 11.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 1.5,
+    "y": 14.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 5.5,
+    "y": 14.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     3.5
+    ],
+    "b": [
+     21,
+     3.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     3.5,
+     11.5
+    ],
+    "b": [
+     21,
+     11.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     1.5,
+     0.8
+    ],
+    "b": [
+     5.1,
+     0.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     1.5,
+     14.2
+    ],
+    "b": [
+     5.1,
+     14.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    7.5,
+    "CONOS DE COLORES",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

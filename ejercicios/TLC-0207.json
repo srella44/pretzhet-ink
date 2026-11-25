@@ -1,0 +1,132 @@
+{
+ "id": "TLC-0207",
+ "bloque": "Defensa y presión",
+ "titulo": "Batalla de interceptación",
+ "formato": "1v1 a 2 miniporterías",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug.",
+ "espacio": "16 × 14 m",
+ "duracion": "12 min",
+ "series": "6 turnos por pareja y cambio de rol; 2 vueltas de 3 min con 1 min de pausa (propuesta). Mientras una pareja juega, las demás esperan detrás del pasador y recogen balones.",
+ "objetivo": "Duelo 1 contra 1 sin conducción larga: el atacante controla y decide a qué portería tira; el defensor lee la intención y cierra la línea de tiro (fuente). Cómo explicarlo: atacante, mira antes de recibir cuál es la portería más libre; defensor, ponte entre el balón y una portería y obliga a tirar a la otra. Errores típicos: control largo, tirar sin mirar, defensor que se tira al suelo pronto. Qué observar: perfil del cuerpo al controlar y primeros pasos del defensor. Cambiar de pierna en cada turno para trabajar ambos perfiles.",
+ "montaje": "2 miniporterías de 2,5 m separadas 7 m. Atacante a 9 m; pasador lateral a 7 m de él. El defensor sale 3 m por detrás.",
+ "juego": "El pasador sirve raso. El atacante controla y tira a la portería más libre antes de que llegue el defensor, que corta la línea o intercepta. Tras cada acción, cambio de papeles.",
+ "punto": "Gol raso: 2 puntos; por alto: 1. Bloqueo o intercepción: 1 al defensor (propuesta).",
+ "consigna": "Control y tiro rápido; cierra la línea.",
+ "variantes": {
+  "facil": "Defensor 5 m detrás del atacante y portería a 8 m (propuesta).",
+  "dificil": "Porterías separadas 10 m, y máximo 3 segundos desde el control hasta el tiro (fuente: limitar el tiempo)."
+ },
+ "adaptacion": "Alevín (10–11): distancia de 8 m y porterías más anchas. Infantil (12–13): como está. Cadete (14–15): pase más fuerte y defensor a 2 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Michael Carrick)",
+  "titulo_original": "MICHAEL CARRICK, BATALLA DE INTERCEPTACIÓN",
+  "ref": "toplidercoach.com/michael-carrick-batalla-de-interceptacion/"
+ },
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 1 contra 1 por turnos, pase lateral, control, elección entre dos miniporterías y defensor ligeramente retrasado. Medidas, puntuación, nº de turnos y series propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   16,
+   14
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 18.5,
+   "ymin": -2.5,
+   "ymax": 16
+  },
+  "porterias": [
+   {
+    "x": 4.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.5
+   },
+   {
+    "x": 11.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -0.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 12.6,
+    "f": -90
+   }
+  ],
+  "balls": [],
+  "arrows": [
+   {
+    "a": [
+     -0.5,
+     8
+    ],
+    "b": [
+     7.2,
+     9.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     7.5,
+     9.5
+    ],
+    "b": [
+     11,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     10.5,
+     12.6
+    ],
+    "b": [
+     9.6,
+     8.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    8,
+    -1.2,
+    "2 MINIPORTERÍAS",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

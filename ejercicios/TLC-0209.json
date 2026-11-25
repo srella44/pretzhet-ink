@@ -1,0 +1,153 @@
+{
+ "id": "TLC-0209",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 8v8 + comodín",
+ "formato": "8v8+1",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "17 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "4 partidos de 3 min con 1 min de pausa (propuesta); el comodín cambia cada partido. Entrenador y balones de reserva en las bandas para reponer rápido.",
+ "objetivo": "Jugar rápido en espacio reducido: circular con superioridad (9v8), decidir al primer vistazo y presionar en bloque al perder (fuente). Cómo explicarlo: el comodín es siempre del que tiene balón; el que defiende presiona junto, líneas cortas. Errores típicos: control orientado largo, presionar uno solo, línea defensiva partida. Qué observar: perfil corporal en el control, presión en cuanto el balón cambia de dueño y coordinación de líneas.",
+ "montaje": "40 × 30 m con miniportería de 4 m en cada fondo (propuesta). Dos equipos de 8 y un comodín de otro color que apoya siempre al que tiene el balón.",
+ "juego": "Partido continuo: con balón se juega 9 contra 8. Al perderlo, el equipo presiona en bloque para recuperar en menos de 5 s. Tras gol, saca quien lo ha recibido.",
+ "punto": "Gol: 1 punto; gol tras robo en 5 s: 2 (fuente).",
+ "consigna": "Rápido, junto y con presión tras pérdida.",
+ "variantes": {
+  "facil": "Campo de 45 × 32 m y toques libres (propuesta).",
+  "dificil": "Máximo 2 toques y comodín solo en el interior, o solo en banda (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): 6v6+1 en 35 × 25 m. Infantil (12–13): como está. Cadete (14–15): 30 × 25 m (medida de la fuente) con zonas de activación de presión (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Phil Neville)",
+  "titulo_original": "PHIL NEVILLE 8×8+1",
+  "ref": "toplidercoach.com/phil-neville-8x81/"
+ },
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 8 contra 8 con jugador neutral que siempre apoya al equipo con balón, en espacio de ≈30×25 m con presión intensa. Diagrama simplificado (4+1 contra 4). Porterías (miniporterías), puntuación, series y espacio ampliado para 12–13 años propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 34
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 4
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 22.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     11.4,
+     20.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     11,
+     22.5
+    ],
+    "b": [
+     6.5,
+     22.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    20,
+    32.6,
+    "COMODÍN BLANCO: APOYA AL QUE TIENE BALÓN",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

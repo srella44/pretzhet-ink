@@ -1,0 +1,153 @@
+{
+ "id": "RONDO-AL-M07",
+ "bloque": "Calentamiento",
+ "titulo": "La fuga del corral",
+ "formato": "4v4 con corral",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 60″ con 30″ de pausa para cambiar de papel (propuesta). En cada ronda cuenta cuántos salen; la pareja que más suma en las 4 rondas gana.",
+ "objetivo": "Conducir con la cabeza levantada y proteger el balón para escapar de una zona cerrada, y combinar con un compañero de fuera (fuente). Cómo explicarlo: busca la salida libre, acelera en cuanto el defensor se va a otro lado y pasa de vuelta para volver a entrar. Errores típicos: conducir mirando el balón, salir por el lado del defensor, pasar sin mirar. Qué observar: control del balón con la planta y el exterior y comunicación con el compañero de fuera.",
+ "montaje": "25 × 20 m con corral central de 10 × 8 m. Dentro, 4 atacantes con balón; 4 defensores sin balón, uno por lado.",
+ "juego": "Los atacantes salen conduciendo; los defensores, sin entrar al corral, intentan robar. Quien sale pasa a un compañero ya salido, recibe a la vuelta y vuelve a entrar.",
+ "punto": "1 punto por jugador que sale con balón en 60″; luego se cambia (fuente).",
+ "consigna": "Busca la salida libre y acelera.",
+ "variantes": {
+  "facil": "Corral más grande, de 12 × 10 m (fuente).",
+  "dificil": "Solo se sale por dos lados (fuente); defensores con balón en la mano para tocar (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): corral de 12 × 10 m y 3 defensores. Alevín (10–11): como está. Infantil (12–13): una sola salida y un solo toque en el pase de vuelta (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La fuga del corral (AL-M07)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 5"
+ },
+ "completado": "Fuente: corral central con un equipo dentro que sale conduciendo mientras el otro defiende los lados, pases con un compañero de fuera y puntuación por jugadores que salen en 60″. Nº por equipo, medidas del corral, rondas y reglas del defensor propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 27.5,
+   "ymin": -2.5,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     7.5,
+     6,
+     17.5,
+     14
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 8.3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 8.3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 11.7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 11.7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 2.8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 17.2,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 2,
+    "y": 2.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9.5,
+     8.3
+    ],
+    "b": [
+     5.5,
+     5.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   },
+   {
+    "a": [
+     5.5,
+     5.5
+    ],
+    "b": [
+     2.6,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 4,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    -1.2,
+    "CORRAL",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

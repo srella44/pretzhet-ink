@@ -1,0 +1,192 @@
+{
+ "id": "TLC-0281",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "3x3 con comodines y tiro",
+ "formato": "3v3 + 3 comodines",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "30 × 18 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa (propuesta); los trios rotan: el que defiende pasa a comodín, el comodín a atacar y el atacante a defender.",
+ "objetivo": "Mantener la posesión en superioridad (6 contra 3), crear el tercer hombre y finalizar desde el centro tras una devolución de cara del comodín (fuente). Cómo explicarlo: pasa al comodín, muévete al hueco y recíbela de cara para tirar; si pierdes el balón, presiona ya. Errores típicos: pase al comodín sin moverse después, recibir de espaldas, no presionar tras pérdida. Qué observar: perfil corporal al recibir y el momento de activar el tiro.",
+ "montaje": "30 × 18 m en 3 zonas: centro de 18 m y 2 bandas de 6 m. En el centro, 3 atacantes y 3 defensores; un comodín en cada banda y otro dentro. Miniportería de 3 m arriba (propuesta).",
+ "juego": "Los atacantes y los 3 comodines mantienen el balón y juegan a un comodín de banda para recibir su devolución de cara y tirar. Se puede tirar tras 4 pases y un comodín. Robo: cambio de papeles.",
+ "punto": "Gol: 2 puntos; 8 pases seguidos: 1 (propuesta).",
+ "consigna": "Pasa al comodín y recíbela de cara.",
+ "variantes": {
+  "facil": "Tiro tras 2 pases y defensores sin presionar al principio (propuesta).",
+  "dificil": "Tras pérdida, presión inmediata 5 s con cambio de rol, y 2 toques máximo (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): 3v1 en cada zona y tiro libre. Infantil (12–13): como está. Cadete (14–15): tiros desde fuera del área y comodines a un toque (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Martín Demichelis)",
+  "titulo_original": "DEMICHELIS, PARTIDILLOS 3X3",
+  "ref": "toplidercoach.com/demichelis-partidillos-3x3/"
+ },
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: espacio en 3 zonas, 3c3 central apoyado por un tercer trío de comodines y finalización desde el centro tras devolución. Medidas, portería, puntuación, series y rotación propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   30,
+   18
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -3,
+   "ymax": 20
+  },
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     18
+    ],
+    "6 5"
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     18
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 3
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 14.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19.5,
+    "y": 13.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 16.8,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 6.5,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 21.5,
+    "y": 8.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 3.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     14.5
+    ],
+    "b": [
+     3.4,
+     8.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     3.4,
+     8.4
+    ],
+    "b": [
+     19.2,
+     13.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     19.5,
+     13.5
+    ],
+    "b": [
+     17.6,
+     0.9
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    3,
+    -1.3,
+    "BANDA",
+    "middle"
+   ],
+   [
+    27,
+    -1.3,
+    "BANDA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

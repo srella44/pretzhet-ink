@@ -1,0 +1,130 @@
+{
+ "id": "RONDO-PB-T06",
+ "bloque": "Calentamiento",
+ "titulo": "El trenecito",
+ "formato": "Fila guiada por el míster",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "4 viajes de 2′ con 1′ de pausa: curvas, túneles y estación (propuesta). En cada viaje, otro niño es el último vagón.",
+ "objetivo": "Conducir el balón a ritmo tranquilo, cambiar de dirección y seguir a un guía, jugando a que somos un tren (fuente). Cómo explicarlo: con voz de cuento, «el tren sale despacio, hace curvas, pasa por el túnel y para en la estación». Errores típicos: adelantar al compañero, ir demasiado rápido y perder el balón, no esperar en la estación. Qué observar: toques cortos y cabeza levantada. Material (propuesta): 1 balón por niño, 2 conos para túneles y 4 para la estación.",
+ "montaje": "20 × 15 m. Todos en fila con balón detrás del míster, a 2 m del siguiente. Un túnel de 2 conos separados 2 m y una estación de 4 × 3 m en un lado.",
+ "juego": "El míster guía despacio, con curvas y por el túnel. Cada niño sigue al de delante sin adelantarlo. En la estación, todos paran el balón con la suela y dicen su nombre; luego arranca el tren.",
+ "punto": "1 punto si el tren llega a la estación sin romperse (fuente).",
+ "consigna": "Sigue al compañero sin adelantarlo.",
+ "variantes": {
+  "facil": "Sin balón (fuente).",
+  "dificil": "El maquinista es un jugador, no el míster (fuente); túneles más estrechos (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Benjamín (8–9): tren más rápido y paradas con cambio de pie. Alevín (10–11): dos trenes que se cruzan (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El trenecito (PB-T06)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · pág. 10"
+ },
+ "completado": "Fuente: fila detrás del míster con balones, curvas, túneles (miniporterías) y paradas en la estación, punto por tren sin romperse, variantes. Medidas, nº de túneles, series y rotación del último vagón propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "cones": [
+   [
+    6,
+    2.2
+   ],
+   [
+    8.5,
+    2.2
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15.5,
+     0.8,
+     19.5,
+     4
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 14.5,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.2,
+    "y": 12.7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 11.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14.5,
+     7
+    ],
+    "b": [
+     17.6,
+     4.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    7.25,
+    0.4,
+    "TÚNEL",
+    "middle"
+   ],
+   [
+    17.5,
+    5.5,
+    "ESTACIÓN",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

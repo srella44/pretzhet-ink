@@ -1,0 +1,202 @@
+{
+ "id": "TLC-0405",
+ "bloque": "Finalización",
+ "titulo": "Circuito físico y tiro",
+ "formato": "Circuito + tiro + PT",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug. + PT",
+ "espacio": "24 × 26 m",
+ "duracion": "12 min",
+ "series": "3 vueltas por jugador con 40 s de pausa entre vueltas (propuesta); salida cada 10 s. Con 6 jugadores, cada uno tira unas 3 veces; si hay tiempo, se repite el bloque cambiando de pierna de tiro.",
+ "objetivo": "Tirar a portería con calidad aun estando cansado, integrando fuerza, agilidad y aceleración en una acción de juego (fuente). Cómo explicarlo: el circuito es corto y se hace a tope; al terminar, hay que respirar, mirar al portero y colocar el tiro. Errores típicos: pegar el balón sin mirar, tiro flojo por prisa, no pedir el balón. Qué observar: que el esfuerzo no estropee la técnica y que la pausa permita repetir con calidad. Adaptar el circuito a la época de la temporada.",
+ "montaje": "Carril de 4 m: 2 vallas, escalera de 6 aros y esprint de 5 m. A 12 m de la portería con portero, el pasador con balones. Resto, en fila.",
+ "juego": "Vallas, escalera a pies juntos y esprint. Pide el balón: el pasador lo sirve raso y tira a un toque. Sale el siguiente al llegar el anterior a la escalera.",
+ "punto": "Gol: 1 punto; a un toque: 2 (propuesta). Gana quien más sume.",
+ "consigna": "Tira colocado aunque vayas cansado.",
+ "variantes": {
+  "facil": "Menos estaciones (solo vallas y esprint) y balón servido parado (propuesta).",
+  "dificil": "Tras el esprint, 1 contra 1 con defensor activo antes del tiro (fuente), o elegir el lado del tiro según el color que enseña el entrenador (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): vallas de 15 cm y esprint de 5 m. Infantil (12–13): como está. Cadete (14–15): vallas más altas, tiro desde 16 m y defensor activo (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Carlo Ancelotti)",
+  "titulo_original": "ANCELOTTI,FINALIZACIÓN CON TRABAJO FÍSICO",
+  "ref": "toplidercoach.com/finalizacion-con-trabajo-fisico/"
+ },
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: circuito físico (fuerza, agilidad, aceleración) y finalización con o sin portero. Medidas, nº de estaciones, rotación, puntuación y series propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   24,
+   26
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 27,
+   "ymin": -3,
+   "ymax": 28
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    6.5,
+    22.8
+   ],
+   [
+    10.5,
+    22.8
+   ],
+   [
+    6.5,
+    21.2
+   ],
+   [
+    10.5,
+    21.2
+   ],
+   [
+    6.5,
+    14.3
+   ],
+   [
+    10.5,
+    14.3
+   ]
+  ],
+  "discs": [
+   [
+    7.5,
+    19
+   ],
+   [
+    9.5,
+    19
+   ],
+   [
+    7.5,
+    17.5
+   ],
+   [
+    9.5,
+    17.5
+   ],
+   [
+    7.5,
+    16
+   ],
+   [
+    9.5,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 25.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 25.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 25.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 11.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 13.5,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.5,
+     24.2
+    ],
+    "b": [
+     8.5,
+     13
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 2
+   },
+   {
+    "a": [
+     19,
+     13.5
+    ],
+    "b": [
+     10.8,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 10
+   },
+   {
+    "a": [
+     9,
+     11
+    ],
+    "b": [
+     12.2,
+     1.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    5.3,
+    22,
+    "VALLAS",
+    "end"
+   ],
+   [
+    5.3,
+    17.5,
+    "ESCALERA",
+    "end"
+   ],
+   [
+    5.3,
+    14,
+    "ESPRINT",
+    "end"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

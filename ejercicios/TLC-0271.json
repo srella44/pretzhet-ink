@@ -1,0 +1,128 @@
+{
+ "id": "TLC-0271",
+ "bloque": "Defensa y presión",
+ "titulo": "Interceptar el tiro",
+ "formato": "Defensor + 3 miniporterías",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 18 m",
+ "duracion": "10 min",
+ "series": "Cada defensor aguanta 6 tiros y relevo; 2 rondas con 1 min de pausa (propuesta). Los tiradores salen por turnos y recogen sus balones.",
+ "objetivo": "Defensa individual en el área: leer el cuerpo del tirador, colocarse para tapar el mayor espacio y reaccionar rápido para interceptar, desviar o bloquear (fuente). Cómo explicarlo: pie de apoyo y cadera del tirador indican hacia dónde va el tiro; ponte de lado, brazos junto al cuerpo, no te tires antes de tiempo. Errores típicos: moverse tarde, defender de frente con las piernas abiertas, quedarse mirando. Qué observar: ajustes de colocación antes del golpeo.",
+ "montaje": "3 miniporterías de 2,5 m en abanico a 6 m del defensor, que ocupa el centro. Tiradores con balones, en fila a 8 m de él.",
+ "juego": "Sale un tirador y dispara raso a cualquiera de las 3 porterías. El defensor se ajusta a su cuerpo e intenta interceptar, desviar o bloquear, y despeja fuera. Tira el siguiente.",
+ "punto": "Gol: 1 punto. Bloqueo o intercepción: 1 al defensor. 6 tiros y relevo (propuesta).",
+ "consigna": "Lee el cuerpo del tirador y tapa el hueco.",
+ "variantes": {
+  "facil": "2 miniporterías y tiros solo desde el centro (propuesta).",
+  "dificil": "Finta antes de tirar y un pase previo a otro tirador (fuente); 4 porterías (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): tiros a 6 m y balón raso. Infantil (12–13): como está. Cadete (14–15): tiros de más potencia y tirador que elige tras fintar (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Entrenadores Top (Diego Simeone)",
+  "titulo_original": "SIMEONE INTERCEPTACIÓN",
+  "ref": "toplidercoach.com/simeone-interceptacion/"
+ },
+ "completado": "Texto de toplidercoach leído; vídeo y diagrama solo para suscriptores: diagrama redibujado desde el texto (propuesta). Fuente: 3 miniporterías en abanico frente al área, un defensor central y tiradores por turnos. Distancias, número de tiros, puntuación y series propuestos (propuesta). Edad adaptada de 13+ a 12–13.",
+ "diagrama": {
+  "field": [
+   20,
+   18
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -3,
+   "ymax": 20
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 2.5
+   },
+   {
+    "x": 0,
+    "y": 5,
+    "lado": "L",
+    "ancho": 2.5
+   },
+   {
+    "x": 20,
+    "y": 5,
+    "lado": "R",
+    "ancho": 2.5
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 10,
+    "y": 6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 14.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 16.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     14.5
+    ],
+    "b": [
+     1.3,
+     5.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     10,
+     6
+    ],
+    "b": [
+     6.6,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -1.3,
+    "3 MINIPORTERÍAS EN ABANICO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

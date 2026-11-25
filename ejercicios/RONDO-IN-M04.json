@@ -1,0 +1,320 @@
+{
+ "id": "RONDO-IN-M04",
+ "bloque": "Calentamiento",
+ "titulo": "Duelos de hombro",
+ "formato": "1v1 por parejas",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 2′ con 30″ de pausa y cambio de pareja (propuesta); unos 8 duelos por pareja y ronda, 1 por minuto. Las parejas se ponen según tamaño parecido.",
+ "objetivo": "Disputar el balón con el hombro de forma limpia, protegerlo con el cuerpo y decidir rápido en un duelo corto (fuente). Cómo explicarlo: hombro con hombro, sin brazos ni empujones por la espalda; el cuerpo entre rival y balón, rodillas flexionadas. Errores típicos: empujar con la mano, defender de frente, perder la postura y mirar al suelo. Qué observar: la técnica del hombro, el equilibrio y que se pare cada duelo a la señal. Material (propuesta): 1 balón por pareja y 4 conos por cuadrado.",
+ "montaje": "Cuadrado de 5 m por pareja (4 en 15 × 15 m). Balón parado en el centro; cada jugador, a un lado y de costado.",
+ "juego": "A la señal, ambos disputan el balón hombro con hombro, sin manos. Quien lo gana lo protege 5″ sin salir del cuadrado; el otro intenta recuperarlo limpio. Se repite.",
+ "punto": "1 punto a quien tiene el balón a los 5″ (fuente). Empujón con las manos: punto al rival (propuesta).",
+ "consigna": "Duelo limpio y decidido.",
+ "variantes": {
+  "facil": "Se sale ya en contacto, con los hombros pegados (fuente).",
+  "dificil": "El balón llega en movimiento, rodado por el míster (fuente); duelo a 3 s (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cuadrado de 6 m y 3 s de protección. Infantil (12–13): como está. Cadete (14–15): balón aéreo servido por el entrenador y protección 7 s (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Duelos de hombro (IN-M04)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 5"
+ },
+ "completado": "Fuente: parejas en cuadrado de 5 m, duelo de hombro por el balón parado a la señal y protección durante 5″; punto por tenerlo; variantes. Nº de parejas, distancia de salida, rondas y faltas propuestos (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "lines": [
+   [
+    [
+     1.5,
+     1.5
+    ],
+    [
+     6.5,
+     1.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     6.5,
+     1.5
+    ],
+    [
+     6.5,
+     6.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     6.5,
+     6.5
+    ],
+    [
+     1.5,
+     6.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     1.5,
+     6.5
+    ],
+    [
+     1.5,
+     1.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     8.5,
+     1.5
+    ],
+    [
+     13.5,
+     1.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     13.5,
+     1.5
+    ],
+    [
+     13.5,
+     6.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     13.5,
+     6.5
+    ],
+    [
+     8.5,
+     6.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     8.5,
+     6.5
+    ],
+    [
+     8.5,
+     1.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     1.5,
+     8.5
+    ],
+    [
+     6.5,
+     8.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     6.5,
+     8.5
+    ],
+    [
+     6.5,
+     13.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     6.5,
+     13.5
+    ],
+    [
+     1.5,
+     13.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     1.5,
+     13.5
+    ],
+    [
+     1.5,
+     8.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     8.5,
+     8.5
+    ],
+    [
+     13.5,
+     8.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     13.5,
+     8.5
+    ],
+    [
+     13.5,
+     13.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     13.5,
+     13.5
+    ],
+    [
+     8.5,
+     13.5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     8.5,
+     13.5
+    ],
+    [
+     8.5,
+     8.5
+    ],
+    "4 4"
+   ]
+  ],
+  "balls": [
+   [
+    4,
+    4
+   ],
+   [
+    11,
+    4
+   ],
+   [
+    4,
+    11
+   ],
+   [
+    11,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5.6,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.6,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.4,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5.6,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.4,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.6,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     4
+    ],
+    "b": [
+     3.5,
+     4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s0": 2,
+    "s1": 2
+   },
+   {
+    "a": [
+     5.6,
+     4
+    ],
+    "b": [
+     4.5,
+     4
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 1,
+    "s0": 2,
+    "s1": 2
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}
