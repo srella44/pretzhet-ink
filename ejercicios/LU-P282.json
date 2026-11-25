@@ -1,0 +1,177 @@
+{
+ "id": "LU-P282",
+ "bloque": "Defensa y presión",
+ "titulo": "Rondo, ataque 4v3 y contra",
+ "formato": "2v1 → 4v3 + P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–12 jug. + P",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "(propuesta) 4 series de 3′ con 1′ de pausa; a mitad se cambian los papeles de los equipos.",
+ "objetivo": "Trabajar la organización en las transiciones en fútbol 7 (fuente). Qué vigilar según la fuente: el azul que presiona en la posesión inicial para recuperar cuanto antes; el mediocentro amarillo que, al perder, vuelve a ayudar a su defensa; la basculación de la defensa amarilla cuando el balón llega a los atacantes azules; los movimientos del delantero amarillo para dar juego directo tras robo; y el comportamiento de los azules tras perder en el 4 contra 3. Errores típicos: el mediocentro amarillo se queda mirando, la defensa no bascula, los azules no presionan tras perder.",
+ "montaje": "40 × 30 m, portería y portero amarillo a la izquierda y dos miniporterías a la derecha. Cuadrado de 12 × 12 m: mediocentro y delantero amarillos contra 1 azul. Fuera, 2 defensas y 4 azules.",
+ "juego": "Posesión 2 contra 1: si el azul roba, pasa a sus atacantes; si no, tras 10 pases el entrenador les da balón. 4 azules contra 2 defensas y el mediocentro. Si roban, al delantero: gol en miniportería.",
+ "punto": "Gol azul: 1. Gol amarillo en miniportería: 1 (propuesta).",
+ "consigna": "Pierdes, vuelves; robas, sales.",
+ "variantes": {
+  "facil": "El mediocentro amarillo no vuelve: 4 contra 2 (propuesta).",
+  "dificil": "El delantero amarillo que perdió la posesión también defiende: 4 contra 4 (variante de la fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): 35 × 25 m y 3 contra 2 en el ataque. Alevín (10–11): como está. Infantil (12–13): 6″ para marcar en la miniportería tras robo (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "F7 - ATAQUE VS DEFENSA 1 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 282 (tarea 281)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tres situaciones (posesión inicial 2 amarillos contra 1 azul; si roba, pase al grupo 2 azul y, si no, el entrenador les da balón tras 10 pases; ataque azul contra la defensa amarilla con la ayuda del mediocentro; si roban los amarillos, juegan con portero o directo con el delantero, que marca en las porterías pequeñas laterales); 12 jugadores, 40 × 30. Número exacto de jugadores por grupo (4 atacantes, 2 defensas), tamaño del cuadrado, colocación de las miniporterías, puntuación, series y adaptación son (propuesta). La fuente numera los grupos (1, 2, 3); aquí se nombran por puesto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41.6,
+   "ymin": -1.2,
+   "ymax": 31.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    40,
+    4,
+    "R"
+   ],
+   [
+    40,
+    26,
+    "R"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     27,
+     9,
+     39,
+     21
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 29,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 28,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     29,
+     11
+    ],
+    "b": [
+     37,
+     19
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     33,
+     15
+    ],
+    "b": [
+     19,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 12
+   },
+   {
+    "a": [
+     19,
+     14
+    ],
+    "b": [
+     11,
+     15
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3,
+    "s0": 10,
+    "s1": 8
+   }
+  ]
+ }
+}

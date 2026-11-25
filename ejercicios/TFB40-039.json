@@ -1,0 +1,211 @@
+{
+ "id": "TFB40-039",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "6v5 y contra a 3 porterías",
+ "formato": "6v5 + P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12–14 jug. + P",
+ "espacio": "60 × 50 m",
+ "duracion": "24 min",
+ "series": "3 bloques de 6′ con 2′ de descanso, cambiando los papeles en cada bloque (fuente).",
+ "objetivo": "Atacar de forma organizada una portería defendida y, al perder, defender la transición; el equipo que defiende sale rápido a la contra (fuente). Consignas de la fuente: «Ataque con paciencia», «Pierdes y presionas», «Robas y sales», «Busca la miniportería libre». Errores típicos: atacar con prisa y perder en zona central, nadie presiona tras pérdida, el que roba conduce hacia la miniportería más tapada. Qué observar: los primeros 5″ tras cada robo.",
+ "montaje": "Medio campo: portería grande y portero al fondo y 3 miniporterías en la línea media. 6 azules atacan contra 5 rojos y el portero. El entrenador, con balones, en el medio campo.",
+ "juego": "Cada ataque empieza con pase del entrenador. Si roban, los rojos tienen 10″ para marcar en una miniportería; los azules las defienden tras perder. Cambio de papeles cada 6′.",
+ "punto": "Gol azul: 2. Gol rojo: 1; en menos de 5″: 2 (fuente).",
+ "consigna": "Pierdes y presionas.",
+ "variantes": {
+  "facil": "Dos miniporterías y sin tiempo límite para la contra (fuente).",
+  "dificil": "25″ para el ataque azul, máximo tres toques, la miniportería del lado contrario al robo o 5″ para recuperar tras perder (fuente)."
+ },
+ "adaptacion": "Infantil: sin límite de tiempo para el ataque azul. Cadete: 25″. Juvenil: máximo tres toques en ataque (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Ataque contra defensa 6 contra 6 con contraataque a miniporterías",
+  "ref": "40 tareas de transiciones y oleadas · pág. 51"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (6 azules contra 5 rojos más portero: 6 contra 6 contando al portero). Diagrama girado en horizontal.",
+ "diagrama": {
+  "field": [
+   60,
+   50
+  ],
+  "extent": {
+   "xmin": -9,
+   "xmax": 61.4,
+   "ymin": -1.2,
+   "ymax": 51.2
+  },
+  "porterias": [
+   {
+    "x": 60,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    25,
+    "L"
+   ],
+   [
+    0,
+    42,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -5,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 46,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 46,
+    "y": 42,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 53,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 44,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 44,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 39,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    -6.5,
+    20
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     -5,
+     16.5
+    ],
+    "b": [
+     18,
+     25
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     25
+    ],
+    "b": [
+     36,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     36,
+     39
+    ],
+    "b": [
+     4,
+     42.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     26,
+     34
+    ],
+    "b": [
+     20,
+     38.5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    -5,
+    12.5,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ]
+ }
+}

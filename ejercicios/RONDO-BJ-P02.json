@@ -1,0 +1,168 @@
+{
+ "id": "RONDO-BJ-P02",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 4 contra 4",
+ "formato": "4v4 sin portero",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "15 min",
+ "series": "Tiempos de 4′ con cambio de rival (fuente); 3 rondas con 1′ para cambiar de campo (propuesta).",
+ "objetivo": "Jugar mucho y tocar mucho balón: en un 4 contra 4 todos atacan y todos defienden (fuente). Cómo explicarlo: «cuando tenemos el balón, nos abrimos; cuando lo pierde el compañero, todos a recuperarlo». Errores típicos: todos detrás del balón, nadie vuelve a defender, el más hábil la quiere siempre. Qué observar: que los cuatro toquen balón en cada ataque y que nadie se quede parado. Frase de la fuente: «Todos atacan y todos defienden: ¡así!».",
+ "montaje": "Dos campos de 25 × 20 m, uno al lado del otro, con una miniportería de 2 m en cada fondo y sin portero fijo. Cuatro equipos de 4: un partido en cada campo (fuente).",
+ "juego": "Partidos de 4′. Nadie se queda en la portería: se defiende con todos. Fuera, saque con el pie; tras gol, saca quien lo recibe. A los 4′, los ganadores cambian de campo: rival nuevo (propuesta).",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Todos atacan y todos defienden.",
+ "variantes": {
+  "facil": "Miniporterías anchas (fuente).",
+  "dificil": "El gol solo vale si se marca pasado el medio campo (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): 3 contra 3 en 20 × 15 m. Benjamín (8–9): como está. Alevín (10–11): 5 contra 5 en 30 × 25 m (propuesta). Si sois impares, un comodín que juega con quien ataca.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido 4 contra 4 (BJ-P02)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 8"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos campos de 4 contra 4 sin portero fijo, con miniporterías; tiempos de 4′ y cambio de rival; gol 1 punto; 25 × 20 m, 15′. Número de miniporterías, saques, cómo se cambia de rival y adaptación son (propuesta). Diagrama: uno de los dos campos. Más difícil (fuente): el gol solo vale pasado el medio campo.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 26.4,
+   "ymin": -1.2,
+   "ymax": 21.2
+  },
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    25,
+    10,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     12.5,
+     0
+    ],
+    [
+     12.5,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 9.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     14
+    ],
+    "b": [
+     15,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     5
+    ],
+    "b": [
+     22,
+     4.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     4.5
+    ],
+    "b": [
+     24.2,
+     9.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    20.8,
+    "MEDIO CAMPO",
+    "middle"
+   ]
+  ]
+ }
+}

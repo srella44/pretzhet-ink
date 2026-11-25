@@ -1,0 +1,189 @@
+{
+ "id": "RONDO-IN-P01",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 6 contra 6",
+ "formato": "6v6 (5 + P)",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12–16 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "Quien sobra juega un minipartido 2 contra 2 y se cambia cada 4′ (fuente): 3 tiempos de 4′.",
+ "objetivo": "Partido final de la sesión para aplicar lo trabajado en un juego real (fuente). Cómo explicarlo: «jugamos como el sábado; quien sobra hace un 2 contra 2 al lado y entra a los 4′». Errores típicos: corrillos alrededor del balón, nadie da amplitud, el portero juega siempre en largo. Qué observar: lo trabajado en la sesión (dilo antes de empezar) y que todos entren a jugar. Frase de la fuente: «Buena jugada de equipo». Si tenéis el espacio, 8 contra 8 en medio campo de fútbol 11 (fuente).",
+ "montaje": "40 × 30 m, portería de fútbol 7 y portero en cada fondo: 5 de campo más portero por equipo (propuesta). Al lado, un campito de 15 × 10 m para el 2 contra 2 de quien sobra (fuente).",
+ "juego": "Partido de 12′ con reglas normales: saques de banda, de esquina y de portería (propuesta). Quien sobra juega un 2 contra 2 al lado y cada 4′ cambia con jugadores del partido (fuente).",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Buena jugada de equipo.",
+ "variantes": {
+  "facil": "5 contra 5 (fuente).",
+  "dificil": "Saques y salidas como en partido; empieza 0–0 (fuente)."
+ },
+ "adaptacion": "Alevín (10–11): 35 × 25 m y 5 contra 5. Infantil (12–13): como está. Cadete (14–15): 8 contra 8 en medio campo de fútbol 11 (fuente) (propuesta para la edad).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido 6 contra 6 (IN-P01)",
+  "ref": "RONDO Vol. 4 · Infantil · pág. 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 6 contra 6 en 40 × 30 m (u 8 contra 8 en medio campo de fútbol 11); quien sobra juega un minipartido 2 contra 2 y se cambia cada 4′; gol 1 punto; 12′. Porteros, reglas de saque y tamaño del campito del 2 contra 2 son (propuesta). Más difícil (fuente): saques y salidas como en partido; empieza 0–0.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 41.4,
+   "ymin": -1.2,
+   "ymax": 31.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     15
+    ],
+    "b": [
+     26,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     7
+    ],
+    "b": [
+     34,
+     6
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     34,
+     6
+    ],
+    "b": [
+     29,
+     21.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     29,
+     22
+    ],
+    "b": [
+     39.2,
+     16.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4
+   }
+  ]
+ }
+}

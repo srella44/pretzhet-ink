@@ -1,0 +1,180 @@
+{
+ "id": "TFB40-031",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "4v3 con desdoblamiento",
+ "formato": "4v3 + P",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12–16 jug. + P",
+ "espacio": "40 × 50 m",
+ "duracion": "18 min",
+ "series": "3 series de 4 oleadas por grupo, alternando la banda del desdoblamiento (fuente). Rotación por grupos de cuatro: los atacantes pasan a defender (tres defienden y uno espera), los defensores descansan y el grupo que descansaba ataca (fuente). Cada ataque, 15″ como máximo (fuente).",
+ "objetivo": "Crear superioridad por banda con el desdoblamiento del lateral y terminar con un pase atrás al jugador que llega desde la segunda línea (fuente). Versión de fútbol 11 de las oleadas 2 contra 2 con desdoblamientos. Consignas de la fuente: «Fija hacia dentro», «Por detrás y por fuera», «Delantero, primer palo», «Llega, no estés», «Mira antes de centrar». Errores típicos: el extremo conduce hacia fuera y no fija, el lateral pasa por delante, el mediocentro llega antes de tiempo al área.",
+ "montaje": "40 m de largo por el ancho de medio campo, portería y portero. Atacan 4 (lateral, extremo, mediocentro, delantero) contra 3 (lateral y dos centrales). Miniportería en el medio campo para la salida.",
+ "juego": "El mediocentro abre al extremo, que conduce hacia dentro y fija; el lateral desdobla por fuera y llega a línea de fondo. El delantero ataca el primer palo y el mediocentro llega al pase atrás.",
+ "punto": "Gol: 1. Tras desdoblamiento: 2. Robo y salida: 1 (fuente).",
+ "consigna": "Por detrás y por fuera.",
+ "variantes": {
+  "facil": "4 contra 2, sin un central (fuente).",
+  "dificil": "4 contra 4 con un mediocentro defensivo que se incorpora desde atrás (fuente)."
+ },
+ "adaptacion": "Infantil: 4 contra 2 en las primeras oleadas. Cadete: 4 contra 3. Juvenil: 4 contra 4 con mediocentro defensivo que se incorpora (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Oleadas 4 contra 3 con desdoblamiento del lateral",
+  "ref": "40 tareas de transiciones y oleadas · pág. 43"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente (si roban: miniportería o pasar una línea de conos en el medio campo; se dibuja la miniportería). Diagrama girado en horizontal.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 51.4,
+   "ymin": -2.0,
+   "ymax": 41.6
+  },
+  "porterias": [
+   {
+    "x": 25,
+    "y": 40,
+    "lado": "B",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 0,
+    "lado": "T",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 4,
+    "y": 5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 16,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 8,
+    "f": 160,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 20,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 28,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 33,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 31,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     21,
+     8
+    ],
+    "b": [
+     9,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     16
+    ],
+    "b": [
+     17,
+     21
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     3,
+     33
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     17,
+     21
+    ],
+    "b": [
+     4,
+     32
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     4,
+     35
+    ],
+    "b": [
+     20,
+     31
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 5,
+    "nt": 0.6
+   }
+  ],
+  "labels": [
+   [
+    30,
+    -1.0,
+    "MINIPORTERÍA DE SALIDA",
+    "start"
+   ]
+  ]
+ }
+}

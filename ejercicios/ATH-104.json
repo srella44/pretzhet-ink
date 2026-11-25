@@ -1,0 +1,164 @@
+{
+ "id": "ATH-104",
+ "bloque": "Defensa y presión",
+ "titulo": "3v2 con contra en 3v3",
+ "formato": "3v2 → 3v3 + 2 P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug. + 2 P",
+ "espacio": "40 × 32 m",
+ "duracion": "16 min",
+ "series": "(propuesta) 4 series de 3′ con 1′ de pausa; tras cada serie se cambian los papeles.",
+ "objetivo": "Atacar un 3 contra 2 con prisa (8–10″): fijar al rival, apoyarse y buscar la superioridad; terminar con un centro que atraiga a los defensores para dejar libre al compañero. Para los defensores: defender en inferioridad y, si roban, salir con la ayuda de un tercero (fuente). Errores típicos: los tres atacantes juntos, centro sin mirar, los defensores se abren y dejan el centro. Qué observar: si el centro llega atrás al tercer atacante y la velocidad de la contra.",
+ "montaje": "40 × 32 m, portería y portero en cada fondo. 3 amarillos con balón atacan la derecha contra 2 azules. Un tercer azul espera fuera, junto a la portería izquierda.",
+ "juego": "3 contra 2 con 8–10″ para tirar: fija, abre a banda y centra atrás. Si los azules roban, entra el de banda y atacan la portería izquierda: 3 contra 3. Rotan: los atacantes pasan a defender.",
+ "punto": "3v2: gol, 1; tras centro, 2. Contra azul: 2 (propuesta).",
+ "consigna": "Fija, abre y centra atrás.",
+ "variantes": {
+  "facil": "12″ para el ataque y el defensor de banda sale 2″ después del robo (propuesta).",
+  "dificil": "8″ y solo vale el gol tras centro o pase atrás (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 30 × 24 m y 2 contra 1 con vuelta 2 contra 2. Alevín (10–11): como está. Infantil (12–13): 8″ (propuesta).",
+ "fuente": {
+  "autor": "Athletic Club · Lezama 2005",
+  "titulo_original": "ACCIONES ESPECÍFICO DEFENSA-ATAQUE 3",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 148"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: situaciones de 3/2; en caso de robo, contraataque con la incorporación de un jugador del equipo que defiende (3/3); ataque con límite de 8–10″; fijar, soportarse y buscar la superioridad; buscar el centro atrayendo a los defensas para habilitar la superioridad. El PDF no está en el repositorio: medidas, colocación, puntuación, series, variantes y adaptación son (propuesta). Puntuación: gol en el 3v2, 1; tras centro, 2; gol de la contra azul, 2 (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   32
+  ],
+  "extent": {
+   "xmin": -12,
+   "xmax": 41.6,
+   "ymin": -1.2,
+   "ymax": 33.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 16,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": -6,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     16
+    ],
+    "b": [
+     21,
+     16
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     21,
+     16
+    ],
+    "b": [
+     26,
+     4.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s1": 12
+   },
+   {
+    "a": [
+     14,
+     28
+    ],
+    "b": [
+     33,
+     25
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     26,
+     3.5
+    ],
+    "b": [
+     33,
+     24
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "nt": 0.6
+   }
+  ],
+  "labels": [
+   [
+    -6,
+    8.4,
+    "ENTRA SI ROBAN",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "id": "RONDO-AL-P03",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Cuatro porterías",
+ "formato": "5v5 a 4 miniporterías",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "10–16 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "15 min",
+ "series": "(propuesta) 2 partes de 7′ con 1′ de pausa para cambiar de campo. Si sois más de 12, dos partidos a la vez o entra quien espera cada 3′.",
+ "objetivo": "Atacar donde está el espacio: si el rival cierra una portería, mover el balón y cambiar de lado para atacar la otra (fuente). Cómo explicarlo: «tenéis dos porterías para marcar: mirad cuál está libre antes de recibir». Errores típicos: todos se van al lado del balón, conducir hacia la portería tapada, no defender la portería lejana. Qué observar: cambios de lado con dos o tres pases y la ocupación de las dos bandas. Frase de la fuente: «Has cambiado de lado rapidísimo».",
+ "montaje": "35 × 25 m. En cada fondo, dos miniporterías de 2 m, a 3 m de cada banda. Dos equipos de 5 a 8 sin portero: cada uno defiende las dos de su fondo y ataca las del rival.",
+ "juego": "Partido libre de 15′. Si el rival tapa una portería, cambia de lado con pases y ataca la otra. Fuera: saque con el pie; tras gol, saca el que lo recibe desde su fondo.",
+ "punto": "Gol: 1 punto (fuente).",
+ "consigna": "Si está cerrado, cambia de lado.",
+ "variantes": {
+  "facil": "Miniporterías anchas (fuente).",
+  "dificil": "El gol vale doble si llega tras un cambio de lado (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): 30 × 20 m y 4 contra 4. Alevín (10–11): como está. Infantil (12–13): 40 × 30 m y 6 contra 6 con miniporterías más estrechas (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El partido de las cuatro porterías (AL-P03)",
+  "ref": "RONDO Vol. 3 · Alevín · pág. 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cada equipo defiende dos miniporterías y ataca las otras dos; hay que cambiar de lado a menudo; gol 1 punto; 35 × 25 m, 15′. Número de jugadores, posición de las miniporterías, saques, series y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 36.4,
+   "ymin": -1.4,
+   "ymax": 26.2
+  },
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    20,
+    "L"
+   ],
+   [
+    35,
+    5,
+    "R"
+   ],
+   [
+    35,
+    20,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 21,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 19.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     21
+    ],
+    "b": [
+     12,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     4
+    ],
+    "b": [
+     24,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     4
+    ],
+    "b": [
+     33.6,
+     5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    35,
+    -0.6,
+    "PORTERÍA LIBRE",
+    "end"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "id": "LU-P229",
+ "bloque": "Defensa y presión",
+ "titulo": "Pérdida y cobertura del central",
+ "formato": "7v6 + 1 + P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug. (con P)",
+ "espacio": "50 × 40 m",
+ "duracion": "18 min",
+ "series": "(propuesta) 4 series de 3′ con 1′ de pausa; tras cada serie, el jugador que espera fuera cambia de banda.",
+ "objetivo": "Defender la transición tras pérdida con el lateral incorporado: el central cubre su espacio y temporiza al conductor para dar tiempo al repliegue del resto (fuente). Cómo explicarlo: «central: no salgas a la desesperada; cierra por dentro, perfílalo hacia fuera y aguanta; los demás, carrera hacia la portería». Errores típicos: el central sale a robar y le superan, nadie corre hacia atrás, el lateral se queda lamentando la pérdida. Qué observar: segundos hasta que llegan los primeros apoyos.",
+ "montaje": "50 × 40 m, portería y portero azul a la izquierda. 7 azules en sus puestos contra 6 rojos. Fuera, en la banda del lateral azul adelantado, un rojo con balón.",
+ "juego": "Los azules mantienen la posesión. Cuando pierden, el rojo de fuera conduce hacia la portería: el central cubre al lateral y temporiza mientras el resto repliega. Acaba con gol, robo o 10″ (propuesta).",
+ "punto": "8 pases: 1 azul; jugada abortada: 2. Gol rojo: 2 (propuesta).",
+ "consigna": "Central: cubre y temporiza.",
+ "variantes": {
+  "facil": "El rojo de fuera sale 2″ después de la pérdida (propuesta).",
+  "dificil": "Sale también un segundo rojo por la otra banda (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11), fútbol 7: 40 × 30 m y 5 contra 4. Infantil (12–13): como está. Cadete (14–15): el rojo sale en cuanto hay pérdida y la jugada dura 8″ (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA - 15+1p - Pere Riera @Pere36287525",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 229 (tarea 228)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: posesión 7x6 en posiciones reales; en la pérdida, un jugador con balón que espera en un lateral inicia conducción hacia la portería; el central cubre al lateral incorporado temporizando para que el resto se repliegue; 16 jugadores, 40 × 50. Puestos exactos, señal de pérdida, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 51.2,
+   "ymin": -3.6,
+   "ymax": 41.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 9,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 43,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": -1.8,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     26,
+     -1.8
+    ],
+    "b": [
+     11,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     13
+    ],
+    "b": [
+     10.5,
+     6.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     20,
+     20
+    ],
+    "b": [
+     12,
+     17
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     32,
+     4
+    ],
+    "b": [
+     24,
+     4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    33,
+    -1.8,
+    "SALE AL PERDER",
+    "start"
+   ]
+  ]
+ }
+}

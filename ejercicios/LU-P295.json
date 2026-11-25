@@ -1,0 +1,212 @@
+{
+ "id": "LU-P295",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Salida, progresión y contra",
+ "formato": "8v8 + 2 P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug. (con 2 P)",
+ "espacio": "65 × 50 m",
+ "duracion": "20 min",
+ "series": "(propuesta) 4 bloques de 4′ con 1′ de pausa; a partir del tercero, se cambian los papeles.",
+ "objetivo": "Iniciar el juego desde el portero de forma combinada (centrales, mediocentro e interiores, buscando al tercer hombre) y progresar contra una presión alta hasta la zona de finalización; el rival trabaja la presión y la transición ofensiva tras robo (fuente). Adapta el dibujo a tu sistema: aquí 1-4-3-1, sin extremos. Errores típicos: centrales demasiado juntos, mediocentro de espaldas sin perfilarse, pase lateral sin fijar a nadie, tras perder nadie presiona. Qué observar: por dónde se supera la primera línea y cuántos pases necesitan para llegar a la zona.",
+ "montaje": "65 × 50 m, portería y portero en cada fondo; zona de finalización en los últimos 15 m. Azules en 1-4-3-1 (portero, 4 defensas, 3 medios, delantero) contra 8 rojos que presionan.",
+ "juego": "El portero azul saca en corto y su equipo combina (centrales, mediocentro, interiores) hasta entrar en la zona y tirar. Si roban, los rojos atacan la portería azul en 10″ (propuesta).",
+ "punto": "Gol azul: 2; entrar en la zona: 1. Gol rojo: 1 (propuesta).",
+ "consigna": "Fija, busca al tercero y progresa.",
+ "variantes": {
+  "facil": "Solo presionan 5 rojos arriba (propuesta).",
+  "dificil": "Máximo 2 toques en campo propio y 8″ para la contra roja (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11), en fútbol 7: 50 × 40 m, 1-2-3-1 contra 6. Infantil (12–13): como está. Cadete (14–15): presión libre de los 8 rojos y contra en 8″ (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE vs DEFENSA - INICIO DE JUEGO - PROGRESIÓN - TRANSICIÓN",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 295 (tarea 294)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: equipo azul en 1-4-3-1 que inicia combinado (centrales, mediocentro o interiores) y progresa hacia la zona amarilla para finalizar; el naranja (aquí rojo) presiona arriba y tras robo busca la finalización; 18 jugadores, 50 × 65. Tamaño de la zona, tiempo de la contra, puntuación, series, variantes y adaptación son (propuesta). Sin el gráfico original: colocación propuesta.",
+ "diagrama": {
+  "field": [
+   65,
+   50
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 66.4,
+   "ymin": -1.2,
+   "ymax": 51.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 25,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 65,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     50,
+     0,
+     65,
+     50
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 9,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 46,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 38,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 53,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 38,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 41,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 59,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     25
+    ],
+    "b": [
+     9,
+     36
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 10
+   },
+   {
+    "a": [
+     9,
+     36
+    ],
+    "b": [
+     26,
+     25
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     26,
+     25
+    ],
+    "b": [
+     36,
+     38
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     36,
+     38
+    ],
+    "b": [
+     52,
+     41
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    57.5,
+    47.5,
+    "ZONA",
+    "middle"
+   ]
+  ]
+ }
+}

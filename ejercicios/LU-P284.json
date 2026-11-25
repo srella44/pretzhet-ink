@@ -1,0 +1,211 @@
+{
+ "id": "LU-P284",
+ "bloque": "Defensa y presión",
+ "titulo": "Tres acciones seguidas",
+ "formato": "1v1 → 3v2 → 2v1 + 2 P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (con 2 P)",
+ "espacio": "50 × 45 m",
+ "duracion": "18 min",
+ "series": "(propuesta) 2 bloques de 7′ con 2′ de pausa; a mitad de la tarea los equipos cambian de campo (fuente) y se rota siguiendo los números.",
+ "objetivo": "Encadenar tres acciones de ataque y defensa en fútbol 7: velocidad de reacción, 1 contra 1, ataque 3 contra 2 y repliegue tras finalizar (fuente). Cómo explicarlo: «cada acción empieza cuando acaba la anterior: quien termina, se da la vuelta». Errores típicos: salir antes de la orden, conducir sin levantar la cabeza en el 3 contra 2, los amarillos celebran y no repliegan para el 2 contra 1. Qué observar: reacción a la orden del entrenador y repliegue de los tres amarillos.",
+ "montaje": "50 × 45 m, portería y portero en cada fondo. En el centro, 2 azules de espaldas y un balón a cada lado sobre una seta. Un amarillo defiende una línea de conos; esperan 3 amarillos y 2 azules.",
+ "juego": "1) A la orden «izquierda» o «derecha», los 2 azules van a ese balón: 1 contra 1 ante el amarillo o el portero. 2) Luego, 3 amarillos atacan 3 contra 2. 3) Después, 2 azules contra 1 y los 3 repliegan.",
+ "punto": "Cada gol o línea cruzada: 1 para su equipo (propuesta).",
+ "consigna": "Termina la acción y vuelve.",
+ "variantes": {
+  "facil": "Sin la acción 3: se reinicia tras el 3 contra 2 (propuesta).",
+  "dificil": "Si los azules recuperan tras la acción 3, se juega 4 contra 4 con porteros (variante de la fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): 40 × 35 m y solo las acciones 1 y 2. Alevín (10–11): como está. Infantil (12–13): 8″ por acción (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "F7 - ATAQUE VS DEFENSA 3 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 284 (tarea 283)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: acción 1, azules 1 y 2 de espaldas salen al aviso del entrenador (izquierda o derecha) al balón de las setas y hacen 1 contra portero o 1x1 contra el amarillo 1 cruzando la línea entre conos; acción 2, amarillos 1-2-3 atacan 3x2 la portería azul; acción 3, 2x1 de azules 3-4 contra el amarillo 4 en la portería amarilla con repliegue de los amarillos; si recuperan los azules en la acción 2, ellos dan el pase de la acción 3 y, si no, el entrenador; cambio de zona a mitad; 10 jugadores, 50 × 45. Distancias, tiempos, puntuación y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   45
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 51.6,
+   "ymin": -2.8,
+   "ymax": 46.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 22.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    39,
+    14
+   ],
+   [
+    39,
+    31
+   ]
+  ],
+  "lines": [
+   [
+    [
+     39,
+     14
+    ],
+    [
+     39,
+     31
+    ],
+    "4 4"
+   ]
+  ],
+  "discs": [
+   [
+    33,
+    10
+   ],
+   [
+    33,
+    35
+   ]
+  ],
+  "balls": [
+   [
+    33,
+    10
+   ],
+   [
+    33,
+    35
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 24,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 43,
+    "y": 22.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 42.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 36,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     17
+    ],
+    "b": [
+     32.4,
+     10.6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 1,
+    "s1": 10
+   },
+   {
+    "a": [
+     33,
+     10
+    ],
+    "b": [
+     41,
+     16
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2,
+    "s0": 8
+   },
+   {
+    "a": [
+     30,
+     42.5
+    ],
+    "b": [
+     14,
+     33
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     24,
+     28
+    ],
+    "b": [
+     14,
+     25
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    25,
+    -1.5,
+    "ENTRENADOR: «IZQUIERDA / DERECHA»",
+    "middle"
+   ]
+  ]
+ }
+}

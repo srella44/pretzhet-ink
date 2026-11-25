@@ -1,0 +1,181 @@
+{
+ "id": "AF20-014",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Tiro con presión y 3v2",
+ "formato": "1v1 → 3v2 + 2 P",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + 2 P",
+ "espacio": "36 × 28 m",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 4′ con 1′ de pausa; rotan los puestos en el sentido de las agujas del reloj tras cada jugada.",
+ "objetivo": "Finalizar rápido con un defensor que llega por detrás y, tras el tiro, defender un 3 contra 2 (fuente). Cómo explicarlo: «tienes hasta la línea para tirar; después del tiro, vuelve: te atacan tres». Errores típicos: conducir mirando el balón y llegar a la línea sin tirar, el defensor entra en carrera y se deja regatear, el que tira se queda mirando el remate. Qué observar: segundos hasta el tiro, perfil del defensor y si el tirador corre hacia su portería por dentro.",
+ "montaje": "36 × 28 m, portería y portero en cada fondo; conos a 7 m de la derecha. Azul con balón en el centro y un amarillo 5 m detrás. Dos amarillos en los postes derechos y un azul en la banda.",
+ "juego": "El azul conduce y tira antes de los conos; el amarillo sale cuando arranca. Tras el tiro, los 2 de los postes y el defensor atacan la izquierda: 3 contra 2 contra el tirador y el azul de banda.",
+ "punto": "Gol del tirador: 1 azul. Gol en el 3v2: 1 amarillo (propuesta).",
+ "consigna": "Tira pronto y vuelve.",
+ "variantes": {
+  "facil": "Línea de tiro a 10 m y el defensor sale 1 m más atrás (propuesta).",
+  "dificil": "El 3 contra 2 debe acabar en 8″ y el gol de primeras vale doble (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 30 × 22 m, defensor pasivo hasta la línea y vuelta 2 contra 2. Alevín (10–11): como está. Infantil (12–13): defensor en línea con el atacante (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de transiciones en espacio reducido",
+  "titulo_original": "EJERCICIO 14 – FINALIZACIÓN INDIVIDUAL Y TRANSICIÓN 3x2",
+  "ref": "20-ejercicios-de-contraataque-en-espacio-reducido.pdf · p. 16"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el atacante finaliza antes de la línea de conos con un defensor que sale cuando inicia la conducción; desde esa portería salen 2 jugadores del equipo defensor que atacan con él (3x2) contra el que tiró y otro defensor que sale desde la banda izquierda. Medidas, distancias, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   36,
+   28
+  ],
+  "extent": {
+   "xmin": -9,
+   "xmax": 45,
+   "ymin": -1.8,
+   "ymax": 29.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 14,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 36,
+    "y": 14,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    29,
+    1
+   ],
+   [
+    29,
+    27
+   ]
+  ],
+  "lines": [
+   [
+    [
+     29,
+     0
+    ],
+    [
+     29,
+     28
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 19,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 26.6,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     19,
+     11
+    ],
+    "b": [
+     26,
+     10
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     15
+    ],
+    "b": [
+     21,
+     14.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     26,
+     10
+    ],
+    "b": [
+     35.2,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 8
+   },
+   {
+    "a": [
+     34,
+     23
+    ],
+    "b": [
+     21,
+     24
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    29,
+    -0.9,
+    "LÍNEA DE TIRO",
+    "middle"
+   ]
+  ]
+ }
+}

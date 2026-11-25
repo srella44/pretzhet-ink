@@ -1,0 +1,166 @@
+{
+ "id": "ATH-087",
+ "bloque": "Defensa y presión",
+ "titulo": "1v1 y 2v1 con contra",
+ "formato": "1v1 / 2v1 + P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug. + P",
+ "espacio": "30 × 20 m",
+ "duracion": "15 min",
+ "series": "(propuesta) 2 series de 1 contra 1 y 2 de 2 contra 1, de 3′ cada una, con 1′ de pausa; los defensores cambian cada serie.",
+ "objetivo": "Defender situaciones de 1 contra 1 y de 2 contra 1 cerca de la portería y, si se roba, salir al contraataque (serie «Acciones específico defensa-ataque» del manual). Cómo explicarlo: «defensor: perfilado, a un brazo, llévalo fuera y no te lances; en el 2 contra 1, tapa el pase y espera al portero». Errores típicos: entrar a robar de frente, quedarse plantado sin orientar, en el 2 contra 1 ir al poseedor y dejar libre al otro, robar y no salir. Qué observar: distancia y perfil del defensor y velocidad de la salida tras robo.",
+ "montaje": "30 × 20 m, portería y portero a la derecha y dos miniporterías en el fondo izquierdo. El entrenador, con balones, en el fondo izquierdo; a su lado, la fila de atacantes.",
+ "juego": "El entrenador pasa al atacante y sale el defensor: 1 contra 1 a la portería, 8″. Si el defensor roba, marca en una miniportería. Luego, 2 contra 1 igual. Rotan: atacante a defensor.",
+ "punto": "Gol: 1. Robo y gol en miniportería: 2 (propuesta).",
+ "consigna": "Perfilado, sin lanzarte.",
+ "variantes": {
+  "facil": "El atacante sale de 10 m más lejos para dar tiempo al defensor (propuesta).",
+  "dificil": "En el 2 contra 1, 6″ para tirar y el defensor que roba solo tiene 5″ para marcar (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 25 × 18 m y solo 1 contra 1. Alevín (10–11): como está. Infantil (12–13): añadir el 2 contra 2 con un comodín en cada banda (propuesta).",
+ "fuente": {
+  "autor": "Athletic Club · Lezama 2005",
+  "titulo_original": "ACCIONES ESPECÍFICO DEFENSA-ATAQUE 1",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 129"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La página 129 solo trae el gráfico (rótulos «inicio», jugadores 1 y 2 y «entrenador», dos montajes); el texto de la serie (p. 130) dice: acciones 1/1 con posibilidad de contraataque en caso de robo y acciones 2/1 igual. El PDF no está en el repositorio: medidas, miniporterías, tiempos, puntuación, series, variantes y adaptación son (propuesta). Revisar con el gráfico original. Puede solaparse con ATH-088 (misma serie, situaciones 1/1, 2/1 y 2/2).",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -9,
+   "xmax": 31.6,
+   "ymin": -1.2,
+   "ymax": 21.2
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    3,
+    "L"
+   ],
+   [
+    0,
+    17,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -4,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 3.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "balls": [
+   [
+    -5.5,
+    13
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     -4,
+     10
+    ],
+    "b": [
+     7,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12
+   },
+   {
+    "a": [
+     7,
+     10
+    ],
+    "b": [
+     15,
+     5.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     5.5
+    ],
+    "b": [
+     29.2,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     19,
+     10
+    ],
+    "b": [
+     3,
+     16.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 4,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    -4,
+    6.6,
+    "ENTRENADOR",
+    "middle"
+   ],
+   [
+    14,
+    19.6,
+    "SI ROBA → MINIPORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

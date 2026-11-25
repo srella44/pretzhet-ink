@@ -1,0 +1,225 @@
+{
+ "id": "LU-P286",
+ "bloque": "Defensa y presión",
+ "titulo": "Posesión y dos ataques",
+ "formato": "2v2+3 → 4v3 / 4v2 + 2 P",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "14 jug. (con 2 P)",
+ "espacio": "50 × 50 m",
+ "duracion": "18 min",
+ "series": "(propuesta) 4 series de 3′ con 1′ de pausa; tras cada serie rotan las parejas con los defensores.",
+ "objetivo": "Transiciones en fútbol 7: defender organizados en el área tras un ataque, ayudas y coberturas, y salir rápido tras robo hacia el segundo bloque ofensivo (fuente). Según la fuente, vigila la presión tras pérdida del bloque que ataca en el campo 1 (uno al poseedor, dos a los pases cercanos y uno atrás por si hay envío largo), la ayuda del tercer defensor a la pareja defensiva y la colocación del segundo bloque para recibir. Errores típicos: atacar el campo 1 sin pausa, la pareja defensiva sale los dos a la vez, el que roba conduce en vez de pasar rápido.",
+ "montaje": "Tres campos en 50 × 50 m: campo 1, centro y campo 2, con portería y portero en los fondos. Centro: 2 amarillos contra 2 azules + 3 comodines. Campo 1: 3 rojos; campo 2: 2 rojos.",
+ "juego": "Con 6 pases, la pareja ataca el campo 1 con 2 comodines: 4 contra 2 + 1. Al acabar, la otra pareja ataca el campo 2 con dos apoyos: 4 contra 2. Tras robo, quien roba juega rápido al campo 2.",
+ "punto": "Gol: 1. Robo y pase al campo 2 en 5″: 1 rojo (propuesta).",
+ "consigna": "Roba y juega rápido.",
+ "variantes": {
+  "facil": "4 pases para atacar y comodines con toques libres (propuesta).",
+  "dificil": "Toques limitados en la posesión o un comodín menos (fuente); finalización condicionada (gol solo de primeras o tras centro) (fuente)."
+ },
+ "adaptacion": "Benjamín (8–9): 40 × 40 m, sin presión tras pérdida y 4 pases. Alevín (10–11): como está. Infantil (12–13): máximo 2 toques en la posesión (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "F7 - ATAQUE VS DEFENSA 5 - Víctor Olmeda @Vite_Olmeda",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 286 (tarea 285)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: posesión 2x2+3 comodines (dos rojos y un naranja) en zona central; con «x» pases, ataque en el campo 1 de 4vs2+1 (pareja + comodines rojos contra los grises más el naranja 2); al acabar, la pareja que perdió la posesión ataca el campo 2 (4vs2 con los naranjas); si se finaliza, saca el portero del campo 1 y, si se recupera, el que roba juega rápido con el segundo bloque, con presión tras pérdida del primero; 14 jugadores, 50 × 50. Colores cambiados (comodines blancos, defensores rojos), número de pases, quiénes son los dos apoyos del campo 2, puntuación, series y adaptación son (propuesta). Si hay gol en el campo 1, inicia su portero (fuente).",
+ "diagrama": {
+  "field": [
+   50,
+   50
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 51.6,
+   "ymin": -1.2,
+   "ymax": 51.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 25,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     35,
+     0
+    ],
+    [
+     35,
+     50
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 36,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 46,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 35,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 45,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 45,
+    "y": 34,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     32,
+     36
+    ],
+    "b": [
+     25,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     25
+    ],
+    "b": [
+     18,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     18,
+     14
+    ],
+    "b": [
+     9,
+     7
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     25,
+     4
+    ],
+    "b": [
+     13,
+     2.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    48.8,
+    "CAMPO 1",
+    "middle"
+   ],
+   [
+    42.5,
+    48.8,
+    "CAMPO 2",
+    "middle"
+   ]
+  ]
+ }
+}

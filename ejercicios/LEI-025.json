@@ -1,0 +1,140 @@
+{
+ "id": "LEI-025",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "1v1 de ida y vuelta",
+ "formato": "1v1 + 1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "3 jug. por grupo",
+ "espacio": "10 × 5 m",
+ "duracion": "10 min",
+ "series": "(propuesta) 4 series de 2′ con 30″ de pausa; tras cada serie se cambian los papeles (B → A → X → B).",
+ "objetivo": "Ganar el 1 contra 1 conduciendo con el balón pegado y reaccionar al momento cuando cambia la posesión (fuente). Cómo explicarlo: «si robas, ataca la otra puerta; si marcas, date la vuelta: te espera otro». Puntos de la fuente: con balón, no dar la espalda al defensor; atraer al defensor lejos de la puerta para dejar espacio; el defensor no se lanza, espera el momento de entrar. Errores típicos: conducir sin cambio de ritmo, celebrar el gol, el defensor llega en carrera y se deja superar. Qué observar: fintas, balance del cuerpo y velocidad de reacción tras el robo o el gol.",
+ "montaje": "10 × 5 m con línea central y una puerta de 2 m (2 conos altos) en cada fondo. Grupos de 3: B con balón en el centro, A defiende la puerta derecha y X espera en la izquierda.",
+ "juego": "B regatea a A y cruza la puerta derecha. Si marca, se gira y ataca la izquierda contra X. Si A roba, ataca la izquierda y X solo le entra cuando pasa la línea central. Máximo 10″ (propuesta).",
+ "punto": "Cada puerta cruzada conduciendo: 1 punto (propuesta).",
+ "consigna": "Finta, acelera y no des la espalda.",
+ "variantes": {
+  "facil": "Puertas de 3 m y el defensor solo puede tapar, no robar, en la primera acción (propuesta).",
+  "dificil": "Puertas de 1,5 m y solo vale cruzar con la pierna menos hábil en la segunda acción (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 12 × 6 m y puertas de 3 m. Alevín (10–11): como está. Infantil (12–13): 10 × 5 m y 8″ por jugada (propuesta). Varios grupos a la vez en paralelo.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "1v1 Ball Transition",
+  "ref": "LeicesterCity.pdf · p. 29"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: B intenta regatear a A y cruzar la puerta conduciendo; si A intercepta, ataca la puerta contraria y X puede robar cuando A pasa la línea central; si B marca, se gira y ataca la puerta lejana defendida por X. Área 5 × 10 m, 10 min, grupos de 3, 12 balones. Dónde empieza cada uno, tiempo por jugada, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   10,
+   5
+  ],
+  "extent": {
+   "xmin": -0.9,
+   "xmax": 10.9,
+   "ymin": -1.0,
+   "ymax": 6.0
+  },
+  "cones": [
+   [
+    0,
+    1.5
+   ],
+   [
+    0,
+    3.5
+   ],
+   [
+    10,
+    1.5
+   ],
+   [
+    10,
+    3.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     5
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.2,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 1.2,
+    "y": 2.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.2,
+     2.5
+    ],
+    "b": [
+     7.4,
+     0.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s1": 6
+   },
+   {
+    "a": [
+     7.4,
+     0.8
+    ],
+    "b": [
+     10.6,
+     2.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    5.6,
+    "PUERTA DE A",
+    "end"
+   ],
+   [
+    0,
+    5.6,
+    "PUERTA DE X",
+    "start"
+   ]
+  ],
+  "tag": "10 × 5 m"
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "id": "ACO-001",
+ "bloque": "Defensa y presión",
+ "titulo": "Salida para pasar de zona",
+ "formato": "4v2 → 2v2 + 2 P",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "10–12 jug. + 2 P",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "(propuesta) 4 bloques de 3′ con 1′ de pausa; en el tercero se cambian los papeles.",
+ "objetivo": "Superar la primera línea de presión, crear un 2 contra 1 en la salida y fijar a un rival para liberar al compañero de la línea siguiente (fuente). Cómo explicarlo: «no se cruza la línea de cualquier forma: o fijas y das, o pared, o pase entre líneas de cara». Para los rojos es una tarea de presión: orientar la salida hacia la banda y robar en la zona 1. Errores típicos: conducir sin ir hacia el rival, pase al compañero que tiene encima al presionador, delanteros quietos sin línea de pase. Qué observar: qué situación usan para pasar y cuántos robos hace la presión.",
+ "montaje": "40 × 30 m, portería y portero en cada fondo; línea a 15 m de la portería azul. Zona 1: portero y 3 azules contra 2 rojos que presionan. Zona 2: 2 azules contra 2 rojos.",
+ "juego": "El portero azul saca en corto. Solo se pasa a la zona 2 tras fijar y pasar, pared o pase entre líneas de cara (propuesta). Entonces entra otro azul: 3 contra 2. Si los rojos roban, tiran ya.",
+ "punto": "Pasar de zona: 1. Gol azul: 2. Robo y gol rojo: 2 (propuesta).",
+ "consigna": "Fija, suelta y pasa la línea.",
+ "variantes": {
+  "facil": "Tres presionadores pasivos (solo tapan) en la zona 1 (propuesta).",
+  "dificil": "3 contra 3 en la zona 1 con el portero como único apoyo libre (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 35 × 25 m, 3 contra 1 en la zona 1 y cualquier pase vale. Alevín (10–11): como está. Infantil (12–13): las tres situaciones a 2 toques (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de juego combinativo",
+  "titulo_original": "PARTIDO CONDICIONADO (ATAQUE/DEFENSA) – SALIDA DE BALÓN",
+  "ref": "mejoradelataquecombinativo.pdf · p. 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto incompleto en la base; el PDF no está en el repositorio ni en el proyecto): objetivos superar la primera línea de presión, crear 2x1 en salida y fijar para liberar al compañero de línea posterior; inicia el equipo atacante en la zona 1 y para pasar a la zona 2 debe realizar una de varias situaciones (no se conservan). Las tres situaciones, medidas, número de jugadores, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41.6,
+   "ymin": -2.4,
+   "ymax": 31.0
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 5,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 19.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     15
+    ],
+    "b": [
+     5,
+     24
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 10,
+    "s1": 12
+   },
+   {
+    "a": [
+     5,
+     24
+    ],
+    "b": [
+     11,
+     27
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 2,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     11,
+     27
+    ],
+    "b": [
+     8,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     13
+    ],
+    "b": [
+     19,
+     13.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 4,
+    "s0": 10
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    -1.3,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    27.5,
+    -1.3,
+    "ZONA 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "id": "AF20-009",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Transiciones múltiples 5v3",
+ "formato": "5v3 (3 + 2 C) + 2 P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug. + 2 P",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "(propuesta) 4 series de 3′ con 1′ de pausa. Los comodines cambian en cada serie para que todos ataquen y defiendan.",
+ "objetivo": "Atacar rápido en clara superioridad (5 contra 3 con dos comodines de banda) y terminar con pocos pases; al acabar, pasar en el acto a defender a los tres que salen del otro fondo (fuente). Cómo explicarlo: «tres atacan, tres defienden y los blancos juegan siempre con el balón; quien acaba la jugada se da la vuelta y defiende». Errores típicos: pasar al comodín por costumbre cuando hay pase vertical, atacar los tres por el centro sin abrir, celebrar el gol y tardar en defender, los que salen esperan parados en vez de arrancar ya. Qué observar: pases por jugada, segundos hasta el tiro y reacción tras finalizar. Material: 2 porterías de fútbol 7, conos, petos de tres colores y balones junto a cada portero (propuesta).",
+ "montaje": "40 × 30 m, portería y portero en cada fondo. 3 amarillos contra 3 azules y 2 comodines en las bandas. Tras cada portería espera un trío: azules a la derecha, amarillos a la izquierda.",
+ "juego": "El portero izquierdo saca a un amarillo: 5 contra 3 hacia la derecha. Al acabar, salen los 3 azules de esa portería y atacan con los comodines a los 3 que atacaban; los que defendían, a la fila.",
+ "punto": "Gol: 1; con 3 pases o menos: 2 (propuesta).",
+ "consigna": "Pocos pases y a defender ya.",
+ "variantes": {
+  "facil": "Comodines con toques libres y 15″ para atacar (propuesta).",
+  "dificil": "Comodines a 1 toque y máximo 10″ por ataque; si el trío que sale tarda más de 3″, la jugada vale doble para el rival (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 35 × 25 m y 4 contra 2 con un solo trío esperando. Infantil (12–13): como está. Cadete (14–15): comodines a 1 toque y 10″ por ataque (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de transiciones en espacio reducido",
+  "titulo_original": "EJERCICIO 9 – TRANSICIONES MÚLTIPLES 5x3",
+  "ref": "20-ejercicios-de-contraataque-en-espacio-reducido.pdf · p. 11"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: ambos equipos se colocan en la zona donde saca el portero; el equipo atacante hace 5x3 con los comodines y finaliza con el menor número de pases; en la portería donde se finaliza salen 3 jugadores nuevos y el equipo que atacaba defiende. Medidas, tiempos, puntuación, series, variantes y adaptación son (propuesta). Diagrama basado en el gráfico del PDF (girado en horizontal).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -10,
+   "xmax": 50,
+   "ymin": -1.4,
+   "ymax": 31.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 2,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 28,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 45.5,
+    "y": 9,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 45.5,
+    "y": 15,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 45.5,
+    "y": 21,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -5.5,
+    "y": 9,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -5.5,
+    "y": 15,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": -5.5,
+    "y": 21,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     15
+    ],
+    "b": [
+     11,
+     20
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 10
+   },
+   {
+    "a": [
+     11,
+     20
+    ],
+    "b": [
+     20,
+     28
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     16
+    ],
+    "b": [
+     27.5,
+     15
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s1": 6
+   },
+   {
+    "a": [
+     20,
+     28
+    ],
+    "b": [
+     28,
+     15.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    45.5,
+    26,
+    "SALEN 3",
+    "middle"
+   ],
+   [
+    -5.5,
+    26,
+    "ESPERAN 3",
+    "middle"
+   ]
+  ]
+ }
+}

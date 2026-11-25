@@ -1,0 +1,242 @@
+{
+ "id": "LU-P029",
+ "bloque": "Defensa y presión",
+ "titulo": "7v5 con contra a dos porterías",
+ "formato": "7v5 + P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "13 jug. (con P)",
+ "espacio": "55 × 45 m",
+ "duracion": "20 min",
+ "series": "(propuesta) 4 bloques de 4′ con 1′ de pausa; cambio de papeles a mitad.",
+ "objetivo": "Atacar en superioridad superando la primera línea de presión (pase, tercer hombre, conducción tras atraer o asimetría) y conectar con delanteros o extremos en los costados del área para centrar y finalizar; para el equipo en inferioridad, cerrar líneas de pase, despejar orientado y salir tras robo (fuente). Errores típicos: circular sin atraer a nadie, extremos metidos dentro, centros sin llegada; tras perder, nadie presiona en la zona de la pérdida. Qué observar: cómo se supera la primera línea y la presión tras pérdida (5″).",
+ "montaje": "55 × 45 m en 3 zonas orientativas; portería y portero a la derecha y dos miniporterías a la izquierda. 6 azules contra 5 rojos; el comodín M, fuera, junto a las miniporterías, juega con los azules.",
+ "juego": "M inicia y los azules superan la primera presión para conectar con delantero o extremos junto al área y finalizar. Si roban los rojos, atacan una de las dos miniporterías y los azules presionan.",
+ "punto": "Gol azul: 1; tras centro: 2. Gol rojo tras robo: 1 (propuesta).",
+ "consigna": "Atrae, supera la línea y centra.",
+ "variantes": {
+  "facil": "Los rojos solo pueden presionar con 2 en la zona 1 (propuesta).",
+  "dificil": "Máximo 2 toques en la zona 1 y 6″ para la contra roja (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11), fútbol 7: 45 × 35 m, 5 + M contra 4. Infantil (12–13): como está. Cadete (14–15): M a un toque (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA (7vs5+P) - Batir líneas - Aatraer para mover - Finalizaciones",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 29 (tarea 28)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el comodín M (fuera del espacio, siempre con el equipo en posesión) inicia con el equipo en superioridad, que supera la primera línea y conecta con delanteros o extremos en los costados del área; zonas solo orientativas; tras robo, el azul recupera en zona de pérdida y el naranja (aquí rojo) finaliza en cualquiera de las dos porterías; 13 jugadores, 45 × 55. Colocación de las dos porterías del equipo que roba (miniporterías), puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   55,
+   45
+  ],
+  "extent": {
+   "xmin": -6,
+   "xmax": 56.4,
+   "ymin": -2.6,
+   "ymax": 46.2
+  },
+  "porterias": [
+   {
+    "x": 55,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    37,
+    "L"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     45
+    ],
+    "6 5"
+   ],
+   [
+    [
+     37,
+     0
+    ],
+    [
+     37,
+     45
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": -2.6,
+    "y": 22.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 40,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 49,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 41,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 43,
+    "y": 31,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -2.6,
+     22.5
+    ],
+    "b": [
+     10,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     12
+    ],
+    "b": [
+     27,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     22
+    ],
+    "b": [
+     37,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     37,
+     5
+    ],
+    "b": [
+     49,
+     24
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    9,
+    -1.4,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    27.5,
+    -1.4,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    46,
+    -1.4,
+    "ZONA 3",
+    "middle"
+   ],
+   [
+    -2.6,
+    27.5,
+    "M",
+    "middle"
+   ]
+  ]
+ }
+}

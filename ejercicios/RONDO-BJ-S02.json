@@ -1,0 +1,137 @@
+{
+ "id": "RONDO-BJ-S02",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "El partidillo del patio",
+ "formato": "2v2 autónomo",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "Partidos de 3′ y cambio de rival (fuente); 4 rondas (propuesta).",
+ "objetivo": "Fútbol de calle: los niños se organizan solos, hacen los equipos y juegan 2 contra 2 como en el patio (fuente). El entrenador observa y no interviene durante el juego. Cómo explicarlo: «haced las parejas, poned las porterías y a jugar; cada 3′ cambiamos de rival». Errores típicos: parejas siempre iguales, discutir cada gol, uno que no pasa nunca. Qué observar: ayudas al compañero y quién toma decisiones. Frase de la fuente: «Muy bien, has ayudado a tu compañero».",
+ "montaje": "Campitos de 20 × 20 m, uno por cada dos parejas, con una portería de 3 m de mochilas o conos en cada fondo y sin portero. Las parejas las hacen ellos (fuente).",
+ "juego": "2 contra 2 libre: ellos sacan, cuentan los goles y resuelven los fueras. Cada 3′, cada pareja cambia de campito y de rival: los ganadores suben un campo y los que pierden bajan (propuesta).",
+ "punto": "Gol: 1 punto (fuente). Cada pareja cuenta sus goles.",
+ "consigna": "Ayuda a tu compañero.",
+ "variantes": {
+  "facil": "Porterías anchas (fuente).",
+  "dificil": "El gol solo vale pasada una línea (fuente)."
+ },
+ "adaptacion": "Prebenjamín (6–7): 15 × 15 m y porterías de 4 m. Benjamín (8–9): como está. Alevín (10–11): 3 contra 3 en 25 × 20 m (propuesta). Ideal mientras llegan los jugadores o como cierre de sesión.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El partidillo del patio (BJ-S02)",
+  "ref": "RONDO Vol. 2 · Benjamín · pág. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 contra 2 en campitos con porterías hechas con mochilas o conos; los equipos los hacen los jugadores; cada 3′ se cambia de rival; gol 1 punto; 20 × 20 m, 15′, tarea autónoma. Ancho de las porterías, forma de rotar y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 21.4,
+   "ymin": -1.2,
+   "ymax": 21.2
+  },
+  "cones": [
+   [
+    0,
+    8.5
+   ],
+   [
+    0,
+    11.5
+   ],
+   [
+    20,
+    8.5
+   ],
+   [
+    20,
+    11.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     9,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     4
+    ],
+    "b": [
+     16,
+     6
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     6
+    ],
+    "b": [
+     19.6,
+     9.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -0.5,
+    "PORTERÍA DE CONOS",
+    "end"
+   ]
+  ]
+ }
+}

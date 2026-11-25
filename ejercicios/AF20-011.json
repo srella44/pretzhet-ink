@@ -1,0 +1,161 @@
+{
+ "id": "AF20-011",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "2v1 y vuelta en 3v2",
+ "formato": "2v1 → 3v2 + 2 P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug. + 2 P",
+ "espacio": "36 × 28 m",
+ "duracion": "15 min",
+ "series": "(propuesta) 3 series de 4′ con 1′ de pausa; cada pareja hace 2 o 3 oleadas por serie.",
+ "objetivo": "Encadenar un ataque en superioridad (2 contra 1) con una defensa en inferioridad (2 contra 3) sin pausa (fuente). Cómo explicarlo: «marcáis y, sin mirar al árbitro, a defender: vienen tres». Errores típicos: el poseedor no fija al defensor y pasa demasiado pronto, los dos atacantes se quedan mirando el gol, en el 3 contra 2 los dos defensores salen a la vez a por el balón y dejan solo al tercero. Qué observar: si el 2 contra 1 se resuelve con un pase en el momento justo y cuánto tardan los atacantes en cambiar de chip.",
+ "montaje": "36 × 28 m, portería y portero en cada fondo. Parejas azules con balón a la izquierda; un amarillo defiende en el centro. Dos amarillos esperan fuera, uno en cada banda.",
+ "juego": "La pareja ataca 2 contra 1 la portería derecha (12″). Al acabar, el defensor y los 2 de banda atacan la izquierda: 3 contra 2 contra la pareja. Luego, nueva pareja y nuevos amarillos.",
+ "punto": "2v1: gol, 1 azul. 3v2: gol, 1 amarillo; robo, 1 azul (propuesta).",
+ "consigna": "Fija, pasa y a defender.",
+ "variantes": {
+  "facil": "Los de banda salen 2″ después de la finalización (propuesta).",
+  "dificil": "Los de banda salen en cuanto el azul tira y el 3 contra 2 debe acabar en 8″ (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 30 × 22 m y 2 contra 2 en la vuelta (un solo jugador de banda). Alevín (10–11): como está. Infantil (12–13): menos tiempo por acción (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de transiciones en espacio reducido",
+  "titulo_original": "EJERCICIO 11 – ATAQUE 2x1 Y TRANSICIÓN 3x2",
+  "ref": "20-ejercicios-de-contraataque-en-espacio-reducido.pdf · p. 13"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: empieza con un 2x1; al marcar, los dos atacantes defienden porque dos jugadores de banda ayudan al que defendía a finalizar en la otra portería (3x2). Medidas, tiempos, puntuación, series, variantes y adaptación son (propuesta). Diagrama basado en el gráfico del PDF (girado).",
+ "diagrama": {
+  "field": [
+   36,
+   28
+  ],
+  "extent": {
+   "xmin": -9,
+   "xmax": 45,
+   "ymin": -1.4,
+   "ymax": 29.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 14,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 36,
+    "y": 14,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 6,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 1.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 26.6,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": -4.5,
+    "y": 7,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": -4.5,
+    "y": 21,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     9
+    ],
+    "b": [
+     14,
+     10
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     14,
+     10
+    ],
+    "b": [
+     22,
+     21
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     21
+    ],
+    "b": [
+     35.2,
+     15.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     14,
+     26.6
+    ],
+    "b": [
+     6,
+     23
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 4
+   }
+  ]
+ }
+}

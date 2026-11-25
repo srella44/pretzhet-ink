@@ -1,0 +1,178 @@
+{
+ "id": "TFB40-029",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "3v2 que se vuelve 3v3",
+ "formato": "3v2 → 3v3 + 2 P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10–16 jug. + 2 P",
+ "espacio": "50 × 45 m",
+ "duracion": "20 min",
+ "series": "3 series de 4 oleadas por trío con 1′ de descanso (fuente).",
+ "objetivo": "Atacar rápido en superioridad antes de que llegue el defensor que se incorpora, y defender en inferioridad ganando tiempo (fuente). Consignas de la fuente: «Abríos y atacad rápido», «Fija y suelta», «Defensores, ganad tiempo», «Robas y sales». Errores típicos: los tres atacantes en el mismo carril, el poseedor suelta el balón sin fijar, los dos defensores saltan a la vez. Qué observar: si los azules tiran antes de que llegue el tercer rojo.",
+ "montaje": "50 × 45 m, portería y portero en cada fondo. Tríos azules con balón en el medio campo; dos rojos defienden la derecha. El tercer rojo espera en la línea de fondo, junto a un cono a 10 m.",
+ "juego": "A la señal, los 3 azules salen conduciendo: 3 contra 2. El tercer rojo rodea su cono y se incorpora: si no han terminado, 3 contra 3. Si roban, los rojos contraatacan a la otra portería.",
+ "punto": "Gol en 3v2: 2. Gol en 3v3: 1. Gol de contra roja: 2 (fuente).",
+ "consigna": "Abríos y atacad rápido.",
+ "variantes": {
+  "facil": "El tercer rojo sale desde más lejos (fuente).",
+  "dificil": "8″ para tirar, máximo dos toques por azul, el tercer rojo sale más cerca o el gol de primeras vale doble (fuente)."
+ },
+ "adaptacion": "Alevín: el tercer rojo sale desde más lejos. Infantil y cadete: desde la línea de fondo. Juvenil: desde más cerca y con 8″ para tirar (fuente).",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Ataque 3 contra 2 que se convierte en 3 contra 3",
+  "ref": "40 tareas de transiciones y oleadas · pág. 40"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Ficha completa en la fuente. Diagrama girado en horizontal: salida del trío y del tercer rojo.",
+ "diagrama": {
+  "field": [
+   50,
+   45
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 51.6,
+   "ymin": -1.2,
+   "ymax": 46.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 22.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    40,
+    42.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     45
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 22,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 22.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 49,
+    "y": 42.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     22.5
+    ],
+    "b": [
+     30,
+     22.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     30,
+     22.5
+    ],
+    "b": [
+     35,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     49,
+     42.5
+    ],
+    "b": [
+     41,
+     35
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3
+   },
+   {
+    "a": [
+     35,
+     7
+    ],
+    "b": [
+     49.2,
+     19.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    40,
+    39.2,
+    "CONO 10 M",
+    "middle"
+   ]
+  ]
+ }
+}
