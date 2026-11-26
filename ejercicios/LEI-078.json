@@ -1,0 +1,138 @@
+{
+ "id": "LEI-078",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Robo y salida a banda",
+ "formato": "1c1 + extremo + portería",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–9 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 5 min con 1 min de pausa; se rota por turnos entre atacante, defensor y extremo (propuesta).",
+ "objetivo": "Conducir hasta la zona entre puertas, enviar el pase al extremo que espera y, si el defensor roba, liberar rápido al extremo para atacar la portería. Cómo explicarlo: «Conduce, pasa al extremo y, si robas, suéltalo ya». Errores típicos: pase débil o sin mirar, defensor que se lanza a robar, extremo que se acerca al balón. Qué observar: calidad del pase entre conos y salida del extremo (propuesta).",
+ "montaje": "Campo de 40 × 30 m con portería y portero. Dos puertas de 2 m (conos) a 12 m del inicio. A (amarillo) con balón en el fondo, B (azul) entre las puertas y el extremo amarillo en la banda.",
+ "juego": "A conduce a la zona de puertas y pasa cruzado al extremo. B intenta robar el balón con el pie (sin entrada deslizante) y, si lo logra, lo pasa al extremo, que ataca la portería.",
+ "punto": "Gol: 2. Pase por la puerta: 1. Robo de B: 1. Roles rotan cada 5 jugadas.",
+ "consigna": "Conduce, pasa por la puerta y suelta al extremo.",
+ "variantes": {
+  "facil": "Sin defensor activo: B solo se coloca y A pasa libre.",
+  "dificil": "Dos defensores azules y el extremo debe controlar antes de atacar."
+ },
+ "adaptacion": "Alevín (10–11): campo de 30 × 24 m y puertas de 3 m. Infantil (12–13): como en la ficha. Con 9 jugadores, dos extremos (uno en cada banda).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Tackling and setting up counter attack.2",
+  "ref": "LeicesterCity.pdf · p. 87"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el jugador A empieza con balón e intenta correr con él hasta la zona entre puertas y pasar cruzado entre los conos al extremo que espera; el jugador B intenta recuperar el balón con una entrada deslizante y liberar al extremo, que ataca la portería; el final del texto está cortado en la base. (propuesta): edad, medidas, portería con portero, sustituir la entrada deslizante por robo de pie por la edad, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 44,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "cones": [
+   [
+    12,
+    11
+   ],
+   [
+    12,
+    13
+   ],
+   [
+    12,
+    17
+   ],
+   [
+    12,
+    19
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     15
+    ],
+    "b": [
+     11,
+     12
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     12
+    ],
+    "b": [
+     24,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     4
+    ],
+    "b": [
+     38,
+     13
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "tag": "40 × 30 m"
+ }
+}

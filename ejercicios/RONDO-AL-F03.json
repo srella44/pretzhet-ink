@@ -1,0 +1,127 @@
+{
+ "id": "RONDO-AL-F03",
+ "bloque": "Finalización",
+ "titulo": "El goleador del día",
+ "formato": "2c1 con portería",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug.",
+ "espacio": "15 × 12 m",
+ "duracion": "12 min",
+ "series": "Partido de 3 min contado por goleadores; 4 turnos de 3 min con 30 s de pausa (propuesta).",
+ "objetivo": "Conducir, pasar y tirar en un 2c1 con portero y alternar el ataque entre las dos porterías. Cómo explicarlo: «Atrae al defensor, pasa y tira». Errores típicos: tirar sin pasar, no abrir ángulo, portero fuera de la línea. Qué observar: pase en el momento justo y puntería (propuesta).",
+ "montaje": "Dos porterías de 4 m enfrentadas a 15 m, con un portero en cada una. En cada turno, 2 atacantes con balón (amarillos) contra 1 defensor (azul) atacan una portería; los demás esperan fuera.",
+ "juego": "Se conduce, se pasa y se tira. Después ataca la otra pareja a la portería contraria. Quien marca se queda; quien falla pasa a portero, el portero a defensor y este a la fila.",
+ "punto": "1 punto por gol. El goleador del día es quien más marque en 3 min.",
+ "consigna": "Atrae al defensor, pasa y tira.",
+ "variantes": {
+  "facil": "Porterías más anchas (5 m) y defensor pasivo.",
+  "dificil": "Gol con la pierna mala o de volea vale doble."
+ },
+ "adaptacion": "Alevín (10–11): como en la ficha. Benjamín (8–9): porterías de 5 m. Con más de 8 jugadores, dos campos paralelos.",
+ "fuente": {
+  "autor": "RONDO · Vol. 3 · Alevín (10–11 años)",
+  "titulo_original": "El goleador del día",
+  "ref": "RONDO Vol3 · págs. 3, 5, 7, 10, 12, 14"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos porterías enfrentadas a 15 m; por turnos, parejas de atacantes contra un defensor: se conduce, se pasa y se tira; quien marca se queda, quien falla va a la portería; 1 punto por gol, el goleador es quien más marque en 3 min; más fácil porterías más anchas; más difícil gol con la pierna mala o de volea doble. (propuesta): jugadores, anchos, rotación del portero, series y adaptación.",
+ "diagrama": {
+  "field": [
+   15,
+   12
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 18,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 6,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 15,
+    "y": 6,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     3.5
+    ],
+    "b": [
+     8.5,
+     2.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     2.5
+    ],
+    "b": [
+     10,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     3.5,
+     8.5
+    ],
+    "b": [
+     10,
+     9
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "tag": "15 × 12 m"
+ }
+}

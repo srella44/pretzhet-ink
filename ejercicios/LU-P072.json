@@ -1,0 +1,200 @@
+{
+ "id": "LU-P072",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Rondo y centro lateral",
+ "formato": "Rondo 4c2 + ataque",
+ "edad": "14–16 años",
+ "nivel": "Alto",
+ "jugadores": "14 jug.",
+ "espacio": "75 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series de 5 min con 1 min de pausa; cada serie cambian de papel el equipo del rondo y el del ataque (propuesta).",
+ "objetivo": "Tras ganar el balón en un rondo, jugar rápido a la banda, ocupar a tiempo las zonas de remate (primer palo, punto de penalti, segundo palo) y las de rechace, y rematar el centro. Cómo explicarlo: «Roba, abre a la banda y llena el área». Errores típicos: salir tarde, llegar todos al mismo palo, no cubrir el rechace. Qué observar: tiempos de llegada y balance defensivo tras el centro.",
+ "montaje": "Campo de 75 × 40 m con portería y portero. En el centro, rondo de 12 × 10 m: 4 rojos fuera y 2 amarillos dentro. Lateral rojo pasivo en banda; punta amarillo en el área y 2 extremos junto al rondo.",
+ "juego": "Rojos a 2 toques. Si los amarillos roban, pasan a la banda; el lateral rojo sale tras el pase. Punta, 2 medios y extremo contrario ocupan remate y rechace; defienden 3 rojos y 1 del rondo.",
+ "punto": "Gol de primeras: 2. Otro gol: 1. Rojos que despejan o roban: 1.",
+ "consigna": "Roba, abre a la banda y llena el área.",
+ "variantes": {
+  "facil": "El lateral rojo no defiende y los rojos del área son pasivos.",
+  "dificil": "Roba con la pareja en 8 s o pierde el turno; defensores del área activos."
+ },
+ "adaptacion": "Cadete y juvenil: como en la ficha. Infantil (12–13): campo de 60 × 36 m y rondo de 12 × 12 m. Con menos jugadores, quitar un extremo y un defensor.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ACCIONES COMBINADAS CON BALÓN - Transiciones ofensivas - Jugar en amplitud tras robo – Centros laterales - Ocupación zonas remate",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 72"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: rondo 4c2 en 12 × 10 m en el centro; cuando la pareja defensiva roba juega a una banda (el lateral rival espera pasivo a que el balón salga de la zona); el punta, los dos medios y el extremo contrario ocupan zonas de remate y de rechace; defienden tres de la línea y uno del rondo; rondo a 2 contactos máximo; 14 jugadores, 40 × 75 m. (propuesta): edad, portería con portero, puntuación, series, variantes y adaptación; el diagrama muestra solo parte de los jugadores.",
+ "diagrama": {
+  "field": [
+   75,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 79,
+   "ymin": -2,
+   "ymax": 42
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     30,
+     15,
+     42,
+     25
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 75,
+    "y": 20,
+    "lado": "R",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 30,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34.5,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 56,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 48,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 64,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 64,
+    "y": 30,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     34.5,
+     20
+    ],
+    "b": [
+     36,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     36,
+     6
+    ],
+    "b": [
+     62,
+     5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     56,
+     20
+    ],
+    "b": [
+     67,
+     17
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     62,
+     5
+    ],
+    "b": [
+     68,
+     17
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 4
+   }
+  ],
+  "tag": "75 × 40 m · rondo 12 × 10"
+ }
+}

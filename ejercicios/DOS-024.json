@@ -1,0 +1,150 @@
+{
+ "id": "DOS-024",
+ "bloque": "Finalización",
+ "titulo": "Rápido de voleas",
+ "formato": "Voleas con portero",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + portero",
+ "espacio": "30 × 24 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 30 s de pausa; los entrenadores cambian de lado en cada serie (propuesta).",
+ "objetivo": "Rematar por el aire con distintas superficies (empeine, interior, pierna lejana, cabeza): mirar el balón hasta el golpeo y elegir el remate según el servicio. Cómo explicarlo: «Mira el balón hasta el golpeo». Errores típicos: cerrar los ojos, llegar tarde, golpear con el cuerpo hacia atrás. Qué observar: sincronización de la carrera con el servicio (propuesta).",
+ "montaje": "Portería abierta con portero. A 12 m, dos filas de jugadores, de 4 a 6 cada una (amarillos a la izquierda, azules a la derecha). Dos entrenadores con balones junto a la portería, uno por lado.",
+ "juego": "El entrenador sirve por el aire (2–3 m de altura) a un jugador, que remata de primeras a portería con volea o semivolea. Los entrenadores alternan lados. Cada jugador remata y vuelve a su fila.",
+ "punto": "Gol: pasa a la otra fila. Fallo: cambia con el portero.",
+ "consigna": "Mira el balón hasta el golpeo.",
+ "variantes": {
+  "facil": "Servicio al pie o con bote y sin portero.",
+  "dificil": "Servicio desde más lejos, remate solo de primeras y con la pierna menos hábil."
+ },
+ "adaptacion": "Infantil (12–13): servicio con bote. Cadete (14–15) y juvenil: servicio por el aire a media altura y remate de cabeza en la serie 4. Con 8 jugadores, una sola fila.",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "Rápido de voleas",
+  "ref": "dosier.pdf · pág. 6"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: portería abierta y, enfrente, dos filas de jugadores a cada lado; los entrenadores junto a la portería con balones; el entrenador sirve por el aire y el jugador remata; si marca pasa a la otra fila, si falla cambia con el portero; objetivo remate por el aire con distintas superficies; consigna mira el balón hasta el golpeo. (propuesta): distancias, altura del servicio, series, variantes y adaptación; el texto «J1.5» de la fuente sitúa la ficha en la sesión 1.5.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 9,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 16,
+    "f": -70
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 19,
+    "f": -70
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": -70
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 16,
+    "f": -110
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 19,
+    "f": -110
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 22,
+    "f": -110
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     3
+    ],
+    "b": [
+     10.5,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     16
+    ],
+    "b": [
+     10.5,
+     11.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     10.5,
+     11
+    ],
+    "b": [
+     14,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "tag": "30 × 24 m"
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "id": "RONDO-PB-F05",
+ "bloque": "Finalización",
+ "titulo": "La carrera al gol",
+ "formato": "Carrera y tiro 1c1",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–8 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "10 min",
+ "series": "6 turnos por jugador; sin pausa, cambiando de pareja (propuesta).",
+ "objetivo": "Reaccionar a la señal, correr con intención hacia el balón y tirar con seguridad; el que llega segundo practica la persecución. Cómo explicarlo: «Rodea el cono, corre al balón y tira». Errores típicos: no rodear el cono, frenar antes del balón, tirar fuera. Qué observar: arranque y puntería.",
+ "montaje": "Campo de 20 × 14 m con portería de 6 m. Un balón en el centro, a 8 m de la portería, y 2 conos a 3 m de los postes. Salen dos jugadores, uno de cada lado.",
+ "juego": "A la señal, salen los dos, rodean su cono y corren al balón. Quien llega primero tira a portería; el otro puede taparle el tiro. Los demás esperan en fila.",
+ "punto": "Gol: 1 punto. Gana quien más sume tras 6 turnos.",
+ "consigna": "Rodea el cono, corre al balón y tira.",
+ "variantes": {
+  "facil": "Un balón para cada jugador a la misma distancia.",
+  "dificil": "El segundo jugador puede defender e intentar robar."
+ },
+ "adaptacion": "Prebenjamín (6–7): como en la ficha. Benjamín (8–9): balón a 12 m y portero. Con 4 jugadores, dos parejas se alternan.",
+ "fuente": {
+  "autor": "RONDO · Vol. 1 · Prebenjamín (6–7 años)",
+  "titulo_original": "La carrera al gol",
+  "ref": "RONDO Vol1 · págs. 8, 12, 16, 31, 35, 39"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos jugadores salen de los lados de la portería, rodean un cono y corren hacia el balón del centro; quien llega primero tira a la portería grande; gol 1 punto; más fácil un balón cada uno; más difícil el segundo puede defender. (propuesta): medidas, distancias, número de jugadores y turnos, adaptación.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 15.5
+  },
+  "cones": [
+   [
+    6,
+    5
+   ],
+   [
+    14,
+    5
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 1.8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 1.8,
+    "f": 90
+   }
+  ],
+  "balls": [
+   [
+    10,
+    8
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     1.8
+    ],
+    "b": [
+     9.2,
+     7.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     1.8
+    ],
+    "b": [
+     10.8,
+     7.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     8
+    ],
+    "b": [
+     10,
+     1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "tag": "20 × 14 m"
+ }
+}

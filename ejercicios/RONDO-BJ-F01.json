@@ -1,0 +1,152 @@
+{
+ "id": "RONDO-BJ-F01",
+ "bloque": "Finalización",
+ "titulo": "Quien llega primero tira",
+ "formato": "Carrera al balón y tiro",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–9 jug.",
+ "espacio": "22 × 18 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min con 30 s de pausa; cada ronda cambia el portero (propuesta).",
+ "objetivo": "Reaccionar rápido a la señal, ganar la carrera al balón y tirar bien orientado; el segundo trabaja la persecución y el cierre del tiro. Cómo explicarlo: «Sal ya, llega primero y tira». Errores típicos: salir tarde, tirar sin mirar el hueco, el perseguidor se queda parado. Qué observar: arranque y perfil del cuerpo al llegar al balón.",
+ "montaje": "Campo de 22 × 18 m con portería de 6 m y portero. Junto al míster, dos filas de 4 jugadores (amarillos y azules). El míster tiene los balones.",
+ "juego": "El míster hace rodar un balón hacia la portería. Salen a la vez los primeros de cada fila: quien llega primero tira y el otro intenta pararlo. Vuelven por el lado contrario y sale la siguiente pareja.",
+ "punto": "Gol: 1 punto. Parada o robo del perseguidor: 1 para él. Gana la fila con más puntos.",
+ "consigna": "Sal ya, llega primero y tira.",
+ "variantes": {
+  "facil": "El segundo sale un paso más tarde.",
+  "dificil": "Se sale desde sentados o tumbados y el tiro solo vale de primeras."
+ },
+ "adaptacion": "Benjamín (8–9): como en la ficha. Prebenjamín (6–7): portería de 8 m y sin perseguidor. Con más de 8, dos porterías y dos grupos.",
+ "fuente": {
+  "autor": "RONDO · Vol. 2 · Benjamín (8–9 años)",
+  "titulo_original": "Quien llega primero tira",
+  "ref": "RONDO Vol2 · págs. 3, 14, 28, 30, 32, 34"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos filas junto al míster; el míster hace rodar el balón hacia la portería, salen dos, quien llega primero tira y el otro intenta pararlo; se vuelve por el lado contrario; con más de 8, dos porterías y dos grupos; gol 1 punto; más fácil: el segundo sale un paso más tarde; más difícil: se sale desde sentados. (propuesta): portero fijo, medidas, rondas, tiempos, puntos del perseguidor, variante y adaptación.",
+ "diagrama": {
+  "field": [
+   22,
+   18
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 25,
+   "ymin": -1.5,
+   "ymax": 19.5
+  },
+  "porterias": [
+   {
+    "x": 22,
+    "y": 9,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 2.5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3.5,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3.5,
+    "y": 16,
+    "f": 0
+   }
+  ],
+  "balls": [
+   [
+    5.5,
+    9
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.5,
+     9
+    ],
+    "b": [
+     12,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     3.5,
+     5
+    ],
+    "b": [
+     11.5,
+     8.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     3.5,
+     13
+    ],
+    "b": [
+     11.5,
+     9.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     9
+    ],
+    "b": [
+     21,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "tag": "22 × 18 m"
+ }
+}

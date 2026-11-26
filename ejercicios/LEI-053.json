@@ -1,0 +1,136 @@
+{
+ "id": "LEI-053",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Servicio largo y 1c2",
+ "formato": "2c1 y contraataque",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "40 × 24 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa; las parejas cambian de lado cada serie (propuesta).",
+ "objetivo": "Atacar rápido tras recibir un balón largo, jugar el 1c2 desde la posición defensiva y, al robar, contraatacar sin pausa. Cómo explicarlo: «Recibe y ataca; defiende y, si robas, contraataca». Errores típicos: el defensor se lanza al primer balón y no espera; el 2c1 no abre ángulo. Qué observar: distancia de defensa y apoyo del segundo atacante (propuesta).",
+ "montaje": "Campo de 40 × 24 m con miniportería de 3 m en cada fondo. Parejas: azules con los balones en el fondo derecho, rojos en el izquierdo.",
+ "juego": "Un azul saca largo a los rojos. Salen 2 rojos a recibir y atacar la portería azul; sale 1 azul a defender (1c2). Si el azul roba, él y su pareja contraatacan a la portería roja.",
+ "punto": "Gol rojo: 1. Robo azul y gol: 2. Tras 5 servicios se cambian los papeles.",
+ "consigna": "Recibe y ataca; si robas, contraataca.",
+ "variantes": {
+  "facil": "El azul que defiende espera sin entrar al balón hasta el control del rojo.",
+  "dificil": "Solo 8 s para finalizar y el azul debe robar sin hacer falta."
+ },
+ "adaptacion": "Alevín (10–11): campo de 35 × 22 m. Infantil (12–13): como en la ficha. Con pocos jugadores, se juega con una sola pareja en cada lado.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Attacking and counter attacking",
+  "ref": "LeicesterCity.pdf · p. 59"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: los jugadores de cada equipo trabajan en parejas; todos los balones los tienen los azules; empieza cuando los azules sirven adelante a los rojos, que mandan dos jugadores a recibir y atacar la portería; los azules mandan 1 jugador (1c2); el objetivo rojo es llevar el balón a la zona final azul y tirar; si el azul gana el balón, otro jugador sale a atacar (texto cortado en la base). (propuesta): edad, medidas, miniporterías, rotación, puntuación, series, variantes y adaptación; texto en inglés, traducido.",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    40,
+    12,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 36,
+    "y": 7,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 17,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     36,
+     7
+    ],
+    "b": [
+     8,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     36,
+     17
+    ],
+    "b": [
+     24,
+     14
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     30,
+     12
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "tag": "40 × 24 m"
+ }
+}

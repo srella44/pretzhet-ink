@@ -1,0 +1,147 @@
+{
+ "id": "RONDO-PLANB-18",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Oleadas continuas",
+ "formato": "3c2 continuo con 2 porterías",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–10 jug.",
+ "espacio": "40 × 28 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa; sin parar entre jugadas. Cada serie, los porteros cambian (propuesta).",
+ "objetivo": "Jugar muchas oleadas seguidas sin pausas, para entrar en calor con frío o campo pesado: atacar rápido en 3c2, defender en inferioridad y reaccionar al terminar la jugada. Cómo explicarlo: «Acaba la jugada y ya sale la siguiente». Errores típicos: esperar al compañero, defender sin cerrar el pase. Qué observar: ritmo de las salidas y colocación del tercer atacante.",
+ "montaje": "Campo de 40 × 28 m con portería de 6 m y portero en cada fondo. 3 amarillos y 3 rojos. Los amarillos atacan a la derecha contra 2 rojos; el tercer rojo espera con balón en la banda.",
+ "juego": "Los 3 amarillos atacan contra 2 rojos y el portero. Al acabar la jugada, el rojo que esperaba sale con balón nuevo y los 2 rojos se suman: 3c2 al otro lado contra 2 amarillos; el tercer amarillo espera.",
+ "punto": "Gol: 1 punto. Parada o robo: 1 para la defensa.",
+ "consigna": "Acaba la jugada y sal enseguida por el otro lado.",
+ "variantes": {
+  "facil": "Defensores sin poder robar con el pie hasta el segundo pase.",
+  "dificil": "Cada oleada se limita a 8 s y el tercer atacante entra en carrera sin balón."
+ },
+ "adaptacion": "Alevín (10–11): campo de 35 × 24 m. Infantil (12–13): como en la ficha. Con 6 jugadores, 2c1 y un portero fijo. Con 12, dos campos.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partidos en oleadas",
+  "ref": "RONDO Bonus 3 · Plan B"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: contexto frío o campo pesado; 3c2 continuo: al acabar una jugada sale enseguida la siguiente por el otro lado, sin pausas ni nadie parado. (propuesta): edad, jugadores, medidas, porterías con portero, reparto de equipos, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   28
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 30
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 14,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 26.5,
+    "f": 180,
+    "ball": true,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     14
+    ],
+    "b": [
+     13,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     22
+    ],
+    "b": [
+     27,
+     22
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     6
+    ],
+    "b": [
+     27,
+     21
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "tag": "40 × 28 m"
+ }
+}

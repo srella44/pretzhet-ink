@@ -1,0 +1,173 @@
+{
+ "id": "LU-P235",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "5c5 con dos zonas",
+ "formato": "5c5 en dos zonas",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "24 × 15 m",
+ "duracion": "18 min",
+ "series": "4 series de 4 min con 1 min de pausa; cambia el equipo que empieza con balón en cada serie (propuesta).",
+ "objetivo": "Mantener la posesión en una zona y, al recuperar, atacar rápido la zona libre con superioridad. Para el que defiende: cerrar líneas de pase y atraer para mover. Cómo explicarlo: «Posesión larga; robo, pase de seguridad y a la otra zona». Errores típicos: salir sin el pase de seguridad, no mover al rival. Qué observar: distancia entre líneas y velocidad de la transición.",
+ "montaje": "Rectángulo de 24 × 15 m en dos zonas de 12 × 15 m. Zona 1: 5 amarillos con balón contra 4 rojos. El quinto rojo espera libre en la zona 2 como pase de seguridad. Miniportería en el fondo de la zona 2.",
+ "juego": "Amarillos mantienen el balón en la zona 1. Si los rojos roban, pasan al libre y atacan la zona 2; solo 3 amarillos pueden seguirles y los otros 2 esperan.",
+ "punto": "10 s de posesión: 1 punto. Gol rojo tras robo: 2. Amarillos que recuperan: 1.",
+ "consigna": "Posesión larga; al robar, a la zona libre.",
+ "variantes": {
+  "facil": "Los rojos defienden en pasivo hasta el cuarto pase.",
+  "dificil": "Solo 3 toques por jugador en la zona 1 y 8 s para llegar a portería."
+ },
+ "adaptacion": "Infantil (12–13): campo de 24 × 15 m. Cadete (14–15): 30 × 18 m. Con 8 jugadores, 4c3 en la zona 1 y 3 contra 2 en la zona 2.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSESIÓN 5vs5 CON TRANSICIONES - Raymond Kroon - @RaymondKroon",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 235"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: rectángulo con dos subespacios; un equipo mantiene la posesión el mayor tiempo posible en su zona; el que defiende lo hace con un jugador menos, que guarda el pase de seguridad; al recuperar se transiciona hacia la zona liberada con superioridad del que tiene el balón; 10 jugadores, 24 × 15 m. (propuesta): edad, miniportería, tiempos, puntuación, series, variantes y adaptación; el seguimiento de 3 amarillos es propuesta.",
+ "diagrama": {
+  "field": [
+   24,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    24,
+    7.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 4.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 10.2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 6.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 9.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 7.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6.6
+    ],
+    "b": [
+     16,
+     7.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     9.8
+    ],
+    "b": [
+     18,
+     12.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     7.5
+    ],
+    "b": [
+     19.5,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "tag": "24 × 15 m"
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "id": "RONDO-AL-F04",
+ "bloque": "Finalización",
+ "titulo": "Asalto al castillo",
+ "formato": "Tiro raso con castillo",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2 min con 30 s de pausa; en cada ronda cambia el rey y los defensores (propuesta).",
+ "objetivo": "Tirar raso y con precisión desde cualquier ángulo: mirar el hueco, golpear con el interior o empeine y a ras de suelo, y moverse para buscar el pase del compañero. Para el rey: portero que se coloca y para. Cómo explicarlo: «Mueve la defensa y dispara raso». Errores típicos: tirar alto, quedarse parados. Qué observar: ángulo de tiro y rapidez de pase.",
+ "montaje": "Campo de 20 × 14 m. En el centro, el castillo: zona de 10 × 5 m con un portero-rey dentro. 4 atacantes con balón y 2 defensores que protegen el castillo desde fuera.",
+ "juego": "Los atacantes se pasan el balón alrededor, mueven a los defensores y tiran raso al castillo desde cualquier lado. Los defensores se interponen con cuerpo y piernas; el rey no puede salir.",
+ "punto": "Balón que cruza el castillo por debajo de la rodilla del rey: 1 punto. Balón alto: no cuenta.",
+ "consigna": "Mueve la defensa y dispara raso.",
+ "variantes": {
+  "facil": "Sin defensores, solo el rey.",
+  "dificil": "El rey puede salir del castillo para cortar el balón y se limita a 3 toques por atacante."
+ },
+ "adaptacion": "Alevín (10–11): como en la ficha. Benjamín (8–9): castillo de 12 × 6 m y 1 defensor. Con 4 jugadores, 3 atacantes y 1 rey sin defensores.",
+ "fuente": {
+  "autor": "RONDO · Vol. 3 · Alevín (10–11 años)",
+  "titulo_original": "Asalto al castillo",
+  "ref": "RONDO Vol3 · págs. 52, 54, 56, 57, 59, 61"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: en el centro una zona de 10 × 5 es el castillo con un portero-rey dentro; los atacantes dan vueltas alrededor y tiran al castillo desde cualquier lado; los defensores lo protegen; balón que cruza el castillo por debajo de la rodilla del rey: 1 punto; más fácil sin defensores solo el rey; más difícil el rey puede salir. (propuesta): jugadores, campo de 20 × 14 m, rondas, tiempos, número de defensores, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     5,
+     4.5,
+     15,
+     9.5
+    ]
+   }
+  ],
+  "cones": [
+   [
+    5,
+    4.5
+   ],
+   [
+    15,
+    4.5
+   ],
+   [
+    5,
+    9.5
+   ],
+   [
+    15,
+    9.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 10,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 4,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     7
+    ],
+    "b": [
+     10,
+     1.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     17.5,
+     7
+    ],
+    "b": [
+     11.5,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "tag": "castillo 10 × 5 m"
+ }
+}

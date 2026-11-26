@@ -1,0 +1,141 @@
+{
+ "id": "RONDO-PB-F07",
+ "bloque": "Finalización",
+ "titulo": "Los dos castillos",
+ "formato": "Tiro a conos por equipos",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–8 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min con 30 s de pausa, volviendo a montar los castillos cada minuto (propuesta).",
+ "objetivo": "Tirar con intención a un objetivo y defender el propio: golpear raso con el interior y colocarse delante del castillo sin usar las manos. Cómo explicarlo: «Tira a los conos y cuida los tuyos». Errores típicos: tirar sin apuntar, quedarse todos en el mismo sitio. Qué observar: puntería y reparto de funciones.",
+ "montaje": "Campo de 20 × 14 m. En cada fondo, un castillo de 3 conos en fila (1 m entre ellos). Dos equipos de 3, cada uno con su castillo y un balón por jugador.",
+ "juego": "A la señal, cada equipo tira para derribar los conos del contrario y defiende los suyos con cuerpo y pies, nunca con las manos. Cada minuto se reponen los conos.",
+ "punto": "1 punto por cono derribado. Gana quien más puntos sume en 4 rondas.",
+ "consigna": "Tira a los conos y cuida los tuyos.",
+ "variantes": {
+  "facil": "Castillos más cerca (10 m).",
+  "dificil": "Solo se tira desde detrás de una línea a 8 m."
+ },
+ "adaptacion": "Prebenjamín (6–7): como en la ficha. Benjamín (8–9): conos pequeños y línea a 10 m. Con 4 jugadores, 2 contra 2 en 15 × 10 m.",
+ "fuente": {
+  "autor": "RONDO · Vol. 1 · Prebenjamín (6–7 años)",
+  "titulo_original": "Los dos castillos",
+  "ref": "RONDO Vol1 · págs. 7, 11, 15, 26, 30, 34"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos equipos, cada uno con su castillo de conos; se tira para tirar los conos del castillo del otro; quien quiere defiende el suyo; 1 punto por cono tirado; cada minuto se vuelven a poner; más fácil castillos cerca; más difícil solo se tira desde detrás de una línea. (propuesta): medidas, número de conos y de jugadores, rondas y adaptación.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "cones": [
+   [
+    1.5,
+    5.5
+   ],
+   [
+    1.5,
+    7
+   ],
+   [
+    1.5,
+    8.5
+   ],
+   [
+    18.5,
+    5.5
+   ],
+   [
+    18.5,
+    7
+   ],
+   [
+    18.5,
+    8.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 10.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     3.5
+    ],
+    "b": [
+     17.4,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     10.5
+    ],
+    "b": [
+     2.6,
+     8.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "tag": "20 × 14 m"
+ }
+}

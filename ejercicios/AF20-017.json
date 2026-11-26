@@ -1,0 +1,146 @@
+{
+ "id": "AF20-017",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "1c1 con engaño tras pase",
+ "formato": "1c1 con dos porterías",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "2–8 jug.",
+ "espacio": "24 × 14 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 4 min (5 jugadas por jugador y rol) con 1 min de pausa; las parejas rotan al terminar su turno (propuesta).",
+ "objetivo": "Trabajar la transición inmediata de defensa a ataque en 1c1: el que recibe decide a qué portería va y engaña al rival con amagos; el que ha pasado pasa a defender sin pausa. Cómo explicarlo: «Pasa y defiende; recibe, amaga y elige». Errores típicos: ir siempre a la misma portería, no amagar, defender mirando el balón y no al rival. Qué observar: orientación del cuerpo al recibir y rapidez del defensor al reaccionar (propuesta).",
+ "montaje": "Campo de 24 × 14 m con una miniportería de 3 m en cada fondo y una zona central de 6 m entre conos. A (azul) con balón y B (rojo), a 4 m uno del otro. Las demás parejas esperan fuera.",
+ "juego": "A pasa a B y sale a defenderle. B elige portería izquierda o derecha y puede amagar o ir a una y girarse a la otra. Jugada de 8 s como máximo.",
+ "punto": "Gol de B: 1 punto. Robo de A o balón fuera: 1 para A. Tras 5 jugadas se cambian los roles.",
+ "consigna": "Pasa, defiende y no pierdas de vista a tu rival.",
+ "variantes": {
+  "facil": "Una sola portería de 5 m y el defensor sale 1 s después del pase.",
+  "dificil": "Defensor y atacante parten a 2 m y se juega con tiempo máximo de 6 s; el defensor puede interceptar el pase."
+ },
+ "adaptacion": "Benjamín (8–9): portería ancha de 5 m y 12 × 10 m. Alevín (10–11): como en la ficha. Infantil (12–13): campo de 30 × 16 m y 6 s por jugada. Con muchas parejas, usar dos campos paralelos.",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de contraataque",
+  "titulo_original": "TRANSICIÓN 1x1 CON ENGAÑO DE ATACANTE",
+  "ref": "20-ejercicios-de-contraataque-en-espacio-reducido.pdf · p. 19"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: en la zona centro, el jugador del lado derecho pasa a su rival, que decide a qué portería acude a finalizar y es defendido por quien le ha dado el pase; se pueden hacer amagos o ir a una portería y volver a la otra. (propuesta): edad, jugadores, medidas, miniporterías de 3 m, tiempo de 8 s, puntuación, series, variantes y adaptación; el texto de la fuente en la base está cortado.",
+ "diagrama": {
+  "field": [
+   24,
+   14
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "cones": [
+   [
+    9,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    9,
+    14
+   ],
+   [
+    15,
+    14
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     9,
+     0,
+     15,
+     14
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    24,
+    7,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 10,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     7
+    ],
+    "b": [
+     14,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     7
+    ],
+    "b": [
+     22.5,
+     4.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     7
+    ],
+    "b": [
+     20,
+     8.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "tag": "zona central 6 m"
+ }
+}

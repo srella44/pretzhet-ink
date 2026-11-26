@@ -1,0 +1,132 @@
+{
+ "id": "RONDO-BJ-F07",
+ "bloque": "Finalización",
+ "titulo": "El guardián del puente",
+ "formato": "Conducir, cruzar y tirar",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "5–8 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min con 30 s de pausa; en cada ronda empiezan guardianes distintos (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada, esquivar a un rival que defiende una línea y tirar bien a portería. Cómo explicarlo: «Mira al guardián, engáñalo y tira». Errores típicos: ir en línea recta al guardián, perder el balón al cruzar, tirar sin levantar la cabeza. Qué observar: cambio de dirección y el último toque antes del tiro (propuesta).",
+ "montaje": "Campo de 25 × 20 m con portería de 6 m y portero. A 10 m de la fila, el puente: línea de 10 m con un guardián azul encima. Los demás, en fila a 5 m del puente, con un balón cada uno.",
+ "juego": "Salen uno tras otro sin esperar: conducen, cruzan el puente sin que el guardián les quite el balón y tiran. El guardián solo se mueve a lo largo de la línea y juega con el pie.",
+ "punto": "1 punto por puente cruzado y 1 más por gol. A quien le paran se queda de guardián con él.",
+ "consigna": "Mira al guardián, engáñalo y tira.",
+ "variantes": {
+  "facil": "Puente de 15 m de ancho.",
+  "dificil": "Dos guardianes desde el principio."
+ },
+ "adaptacion": "Benjamín (8–9): como en la ficha. Prebenjamín (6–7): puente de 15 m y un guardián pasivo. Con 8 jugadores, se hacen dos filas.",
+ "fuente": {
+  "autor": "RONDO · Vol. 2 · Benjamín (8–9 años)",
+  "titulo_original": "El guardián del puente",
+  "ref": "RONDO Vol2 · págs. 12, 15, 17, 19, 26, 43"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: un guardián está sobre una línea (el puente); los demás, uno detrás de otro y sin esperar, intentan cruzar conduciendo y luego tiran a portería; a quien paran se queda de guardián con él; 1 punto por cada puente cruzado; más fácil puente de 15 m de ancho; más difícil dos guardianes desde el principio. (propuesta): medidas, portero, puntos del gol, tiempos y adaptación.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 28,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "lines": [
+   [
+    [
+     10,
+     5
+    ],
+    [
+     10,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 10.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     10
+    ],
+    "b": [
+     14,
+     4.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     4.5
+    ],
+    "b": [
+     24,
+     8.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    3.5,
+    "PUENTE",
+    "middle"
+   ]
+  ],
+  "tag": "puente 10 m"
+ }
+}

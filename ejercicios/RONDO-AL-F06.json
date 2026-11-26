@@ -1,0 +1,178 @@
+{
+ "id": "RONDO-AL-F06",
+ "bloque": "Finalización",
+ "titulo": "El pasillo del ensayo",
+ "formato": "4c4 con pasillos de ensayo",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "14 min",
+ "series": "4 partes de 3 min con 1 min de pausa; los equipos cambian de pasillo al medio tiempo (propuesta).",
+ "objetivo": "Progresar con el balón y finalizar entrando en el pasillo del fondo con el balón controlado: pasar desde la zona libre, desmarcarse y entrar con control. Cómo explicarlo: «Pasa en la zona libre y entra al pasillo con control». Errores típicos: entrar sin control, no usar al libre. Qué observar: desmarque tras el pase (propuesta).",
+ "montaje": "Campo de 30 × 20 m. En cada fondo, un pasillo de 2 m (zona de ensayo); en el medio, una zona libre de 8 m. 4 amarillos contra 4 rojos; un amarillo empieza con balón.",
+ "juego": "Cada equipo ataca el pasillo contrario: se marca entrando en él conduciendo con el balón controlado. En la zona libre no se puede robar. Si roban, cambia el ataque.",
+ "punto": "Ensayo: 1 punto. Ensayo tras un pase desde la zona libre: 2.",
+ "consigna": "Pasa en la zona libre y entra con control.",
+ "variantes": {
+  "facil": "Pasillo más profundo (4 m).",
+  "dificil": "El ensayo solo vale tras 6 s de posesión."
+ },
+ "adaptacion": "Alevín (10–11): como en la ficha. Benjamín (8–9): zona libre de 10 m. Con 6 jugadores, 3c3 en 24 × 16 m.",
+ "fuente": {
+  "autor": "RONDO · Vol. 3 · Alevín (10–11 años)",
+  "titulo_original": "El pasillo del ensayo",
+  "ref": "RONDO Vol3 · págs. 34, 36, 38, 39, 41, 43"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: en los dos extremos hay un pasillo de 2 m; se marca entrando en el pasillo con el balón controlado; en el medio hay una zona libre donde no se entra a robar; ensayo 1 punto, ensayo tras un pase desde la zona libre 2; más fácil pasillo más profundo; más difícil el ensayo solo vale tras 6 s de posesión. (propuesta): jugadores, medidas del campo y de la zona libre, tiempos, partes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     2,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     28,
+     0,
+     30,
+     20
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     11,
+     0
+    ],
+    [
+     11,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26.5,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     10
+    ],
+    "b": [
+     22,
+     17
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     17
+    ],
+    "b": [
+     29,
+     17
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    15,
+    2.2,
+    "ZONA LIBRE",
+    "middle"
+   ]
+  ],
+  "tag": "30 × 20 m"
+ }
+}

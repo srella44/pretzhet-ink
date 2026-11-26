@@ -1,0 +1,154 @@
+{
+ "id": "TFB100-053",
+ "bloque": "Finalización",
+ "titulo": "Rueda de pases y tiro",
+ "formato": "Rueda de pases + tiro",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–12 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "12 min",
+ "series": "2 series de 6 min con 1 min de descanso; el portero cambia en el descanso (propuesta).",
+ "objetivo": "Combinar a un solo contacto y tirar rápido con las dos piernas: pared, devolución al espacio y tiro a un toque. Cómo explicarlo: «Un toque, al espacio y arranca tras el pase». Errores típicos: controlar antes de tirar, devolver atrasado, tirar con la pierna fácil. Qué observar: perfil del cuerpo y arranque tras el pase.",
+ "montaje": "Portería grande con portero. A cada lado de la frontal, una rueda: el finalizador con balón y un apoyo a 5 m; el resto de la fila detrás. Campo de 25 × 25 m.",
+ "juego": "El finalizador pasa al apoyo, que devuelve de primeras al espacio; arranca y tira a un toque. Lados alternos: derecha en uno, izquierda en el otro. Finalizador a apoyo y apoyo a la fila.",
+ "punto": "Gol: 1 punto. Se cuentan los goles por ronda para batir la marca.",
+ "consigna": "Un toque, usa las dos piernas y arranca.",
+ "variantes": {
+  "facil": "Control antes del tiro y devolución más lenta.",
+  "dificil": "Pasar y devolver más rápido o con un defensor pasivo; el finalizador tira desde fuera del área."
+ },
+ "adaptacion": "Prebenjamín (6–7): control antes del tiro. Benjamín (8–9): tiro a un toque y competición entre lados. Con 6 jugadores, una sola rueda y portero.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Rueda de pases con finalización rápida por los dos perfiles",
+  "ref": "100-tareas-de-futbol-base.pdf · pág. 69"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: portería grande con portero y una rueda de pases a cada lado de la frontal; el primero de la fila pasa al apoyo, que le devuelve de primeras al espacio, y el jugador finaliza a un toque; se alternan los lados con pierna derecha en uno e izquierda en otro; rotación finalizador a apoyo y apoyo a fila; puntuación por goles de ronda; 25 × 25 m, 12 min, 2 series de 6 min con 1 min de descanso. (propuesta): edad, nº de jugadores por fila y distancias.",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2.5,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 20,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 23.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 20,
+    "f": -120,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 23.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 16,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     20
+    ],
+    "b": [
+     11,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     20
+    ],
+    "b": [
+     8,
+     11
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     16
+    ],
+    "b": [
+     8.4,
+     11.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   },
+   {
+    "a": [
+     8,
+     11
+    ],
+    "b": [
+     10.5,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "tag": "25 × 25 m"
+ }
+}

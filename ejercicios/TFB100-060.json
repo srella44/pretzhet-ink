@@ -1,0 +1,171 @@
+{
+ "id": "TFB100-060",
+ "bloque": "Finalización",
+ "titulo": "Desdoble y centro atrás",
+ "formato": "Ataque por banda 6c3",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "10–14 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "18 min",
+ "series": "3 series de 4 ataques por banda (8 en total por serie) con 1 min y medio de descanso (propuesta: se alternan los lados).",
+ "objetivo": "Atacar por banda con el desdoble del lateral por fuera, el extremo que conduce hacia dentro y llegadas al área en tres zonas: primer palo, segundo palo y punto de penalti. Cómo explicarlo: «Arrastra por dentro, desdobla por fuera y centra atrás». Errores típicos: salir antes de tiempo, centro alto, llegar todos al primer palo. Qué observar: timing del lateral y llegadas escalonadas.",
+ "montaje": "Medio campo de 50 × 40 m con portería y portero. Defienden 2 centrales y 1 lateral rojos. Atacan 6 azules: mediocentro con balón, extremo, lateral, delantero, otro extremo y mediapunta.",
+ "juego": "El mediocentro abre al extremo, que conduce hacia dentro y arrastra al lateral rojo. El lateral azul sale por fuera, recibe a la espalda y centra atrás. Delantero al primer palo, extremo al segundo, mediapunta al penalti.",
+ "punto": "Gol de primeras: 2. Gol tras control: 1.",
+ "consigna": "Arrastra, desdobla y centra atrás.",
+ "variantes": {
+  "facil": "Sin defensas rojos: solo portero, para trabajar los movimientos.",
+  "dificil": "Cuarto defensa rojo y un pivote que puede bajar a defender el punto de penalti; 12 s para finalizar."
+ },
+ "adaptacion": "Infantil (12–13): defensores pasivos. Cadete (14–15): semiactivos. Juvenil: activos y 12 s para finalizar.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Desdoblamiento del lateral y centro atrás con tres llegadas al área",
+  "ref": "100-tareas-de-futbol-base.pdf · pág. 76"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: medio campo con portería de fútbol 11 y portero; defienden dos centrales y un lateral rojos; el mediocentro azul abre al extremo, que conduce hacia dentro para arrastrar al lateral rojo, mientras el lateral azul desdobla por fuera y centra atrás; el delantero ataca el primer palo, el extremo del otro lado el segundo y el mediapunta el penalti; reglas: el lateral sale cuando el extremo conduce hacia dentro, centro raso o a media altura, los rematadores no entran antes de que el lateral reciba; gol de primeras 2 puntos y tras control 1; 3 series de 4 ataques por banda. (propuesta): edad y posiciones exactas.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 54,
+   "ymin": -2,
+   "ymax": 42
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 37,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 43,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 43,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     22
+    ],
+    "b": [
+     28,
+     31
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     28,
+     31
+    ],
+    "b": [
+     33,
+     26
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     21,
+     37
+    ],
+    "b": [
+     46,
+     36
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     46,
+     36
+    ],
+    "b": [
+     38,
+     21
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 4
+   }
+  ],
+  "tag": "50 × 40 m"
+ }
+}

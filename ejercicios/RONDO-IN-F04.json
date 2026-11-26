@@ -1,0 +1,188 @@
+{
+ "id": "RONDO-IN-F04",
+ "bloque": "Finalización",
+ "titulo": "El gol de centro",
+ "formato": "4c4 con pasillos laterales",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–10 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "16 min",
+ "series": "4 partes de 3 min con 1 min de pausa; cada parte cambia el jugador que ocupa el pasillo (propuesta).",
+ "objetivo": "Buscar el centro desde la banda y atacar bien el área: llegar a segundo palo o a la frontal, con lectura de la trayectoria del centro atrás. Cómo explicarlo: «Abre a la banda, centra atrás y llega». Errores típicos: centro sin mirar, todos al primer palo. Qué observar: tiempos de llegada y toma de decisión del centrador.",
+ "montaje": "Campo de 30 × 25 m con una miniportería de 3 m por fondo y 2 pasillos laterales de 3 m. 4 amarillos contra 4 rojos. Un jugador de cada equipo puede ocupar un pasillo.",
+ "juego": "Se juega 4c4. Un jugador del equipo con balón entra en el pasillo, donde no se le puede robar ni entrar, y centra atrás para que lleguen sus compañeros. Tras gol o robo ataca el otro equipo.",
+ "punto": "Gol: 1 punto. Gol de centro: 3.",
+ "consigna": "Abre a la banda, centra atrás y llega.",
+ "variantes": {
+  "facil": "Pasillos más anchos (4 m).",
+  "dificil": "Un defensor puede entrar en el pasillo a los 3 s."
+ },
+ "adaptacion": "Infantil (12–13): como en la ficha. Cadete (14–15): 35 × 28 m y defensor que entra en el pasillo. Con 6 jugadores, 3c3.",
+ "fuente": {
+  "autor": "RONDO · Vol. 4 · Infantil (12–13 años)",
+  "titulo_original": "El gol de centro",
+  "ref": "RONDO Vol4 · págs. 4, 13, 15, 24, 33, 35"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4 contra 4 con dos pasillos laterales libres; un jugador por equipo entra sin que le puedan entrar y centra; gol 1 punto, gol de centro 3; más fácil pasillos anchos; más difícil un defensor puede entrar en el pasillo a los 3 s; 30 × 25 m. (propuesta): miniporterías, ancho de los pasillos, rotaciones, series y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     30,
+     3
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     22,
+     30,
+     25
+    ]
+   }
+  ],
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    30,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     17,
+     1.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     1.5
+    ],
+    "b": [
+     24,
+     1.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     1.5
+    ],
+    "b": [
+     21,
+     11.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   },
+   {
+    "a": [
+     19,
+     12
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 3,
+    "n": 4
+   }
+  ],
+  "tag": "30 × 25 m"
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "PIK-0014",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Oleadas crecientes",
+ "formato": "2c1 · 3c2 · 4c3 con portería",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug.",
+ "espacio": "30 × 22 m",
+ "duracion": "15 min",
+ "series": "3 series de 5 min: 2 min de 2c1, 2 min de 3c2 y 1 min de 4c3, con 1 min de pausa; los roles rotan en cada serie (propuesta).",
+ "objetivo": "Que los atacantes que llegan en cada oleada ocupen espacios distintos a los de sus compañeros, mantengan amplitud y profundidad, y decidan rápido entre pasar, conducir o tirar. Cómo explicarlo: «El que llega ocupa un hueco nuevo». Errores típicos: amontonarse en la zona del balón, llegar tarde, no usar al portero rival como referencia. Qué observar: distancia entre atacantes y movimientos de los recién llegados (propuesta).",
+ "montaje": "Campo de 30 × 22 m con portería de 6 m y portero. Empiezan 2 amarillos con balón contra 1 defensor azul. Los jugadores nuevos esperan tras su fondo con balones.",
+ "juego": "Juegan 2c1 hasta gol, parada, robo o fuera. Entra entonces 1 atacante y 1 defensor con balón nuevo (3c2) y después otro más (4c3). Cada jugada, 15 s máximo.",
+ "punto": "Gol: 1 punto. Robo o parada: 1 para la defensa. Gana el grupo con más puntos tras 3 series.",
+ "consigna": "Llega a un hueco distinto del de tu compañero.",
+ "variantes": {
+  "facil": "Defensores sin poder robar el balón con el pie en el 2c1 hasta el primer pase.",
+  "dificil": "Los defensores salen un paso por detrás y se limita cada jugada a 10 s."
+ },
+ "adaptacion": "Alevín (10–11): campo de 25 × 18 m. Infantil (12–13): como en la ficha. Con 6 jugadores se juega solo hasta 3c2. Con 12, dos campos en paralelo.",
+ "fuente": {
+  "autor": "FIFA / England FA / Bcoach / FFF",
+  "titulo_original": "2vs1 / 3vs2 / 4vs3",
+  "ref": "https://library.bcoach.app/tareas/2vs1-3vs2-4vs3-f8f82aaa73c0/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: en 30 × 22 m con portería y portero, 2 atacantes contra 1 defensor; después se añade un jugador a cada equipo para el 3c2 y el 4c3, con balón nuevo; los roles rotan por serie; consigna sobre los espacios que ocupan los recién llegados. (propuesta): jugadores, tiempos, puntuación, variantes, adaptación y posiciones del diagrama.",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 34,
+   "ymin": -1.5,
+   "ymax": 23.5
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 11,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     11
+    ],
+    "b": [
+     11,
+     4.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     17.5
+    ],
+    "b": [
+     25,
+     17.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     4.5
+    ],
+    "b": [
+     25,
+     17
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "tag": "30 × 22 m"
+ }
+}

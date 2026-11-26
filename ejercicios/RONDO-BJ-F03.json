@@ -1,0 +1,136 @@
+{
+ "id": "RONDO-BJ-F03",
+ "bloque": "Finalización",
+ "titulo": "El ladrón de balones",
+ "formato": "Conducción con 2 ladrones",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–10 jug.",
+ "espacio": "20 × 16 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 90 s con 30 s de pausa; en cada ronda empiezan 2 ladrones distintos (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada, proteger el balón con el cuerpo y buscar la miniportería como refugio. Cómo explicarlo: «Cabeza arriba, cuerpo entre el balón y el ladrón». Errores típicos: mirar solo el balón, ir a las esquinas, regalar el balón. Qué observar: protección del balón y cambios de dirección (propuesta).",
+ "montaje": "Campo de 20 × 16 m con una miniportería de 2 m en cada banda lateral. Todos con balón dentro del campo, menos 2 ladrones con peto azul y sin balón.",
+ "juego": "Los jugadores conducen por todo el campo; los ladrones intentan sacar el balón con el pie. Quien pierde el balón es ladrón y el ladrón coge ese balón. Pasar conduciendo por una miniportería da 3 s a salvo.",
+ "punto": "1 punto a quien no pierde el balón en los 90 s.",
+ "consigna": "Cabeza arriba y protege el balón.",
+ "variantes": {
+  "facil": "Un solo ladrón.",
+  "dificil": "Cuatro ladrones y las miniporterías solo sirven una vez por ronda."
+ },
+ "adaptacion": "Benjamín (8–9): como en la ficha. Prebenjamín (6–7): un solo ladrón y sin puntos. Con 10 jugadores, 3 ladrones en 25 × 20 m.",
+ "fuente": {
+  "autor": "RONDO · Vol. 2 · Benjamín (8–9 años)",
+  "titulo_original": "El ladrón de balones",
+  "ref": "RONDO Vol2 · págs. 5, 22, 36, 39, 51, 53"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: todos tienen balón menos dos ladrones; quien pierde el balón pasa a ser ladrón; a los lados hay dos miniporterías: quien pasa por ellas conduciendo está a salvo 3 s; 1 punto a quien no ha perdido nunca el balón en 90 s; más fácil un ladrón; más difícil cuatro. (propuesta): medidas, jugadores, rondas, descansos y adaptación. En la base figura en Finalización pero es un juego de conducción.",
+ "diagrama": {
+  "field": [
+   20,
+   16
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -1.5,
+   "ymax": 17.5
+  },
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    20,
+    8,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     12
+    ],
+    "b": [
+     1.2,
+     8.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     6
+    ],
+    "b": [
+     5.2,
+     10.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "tag": "20 × 16 m"
+ }
+}

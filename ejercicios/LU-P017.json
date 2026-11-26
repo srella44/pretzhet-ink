@@ -1,0 +1,199 @@
+{
+ "id": "LU-P017",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "5c5+4 con cambio de rol",
+ "formato": "5c5 + 4 comodines",
+ "edad": "14–16 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "28 × 22 m",
+ "duracion": "20 min",
+ "series": "4 bloques de 4 min con 1 min de pausa; los comodines rotan con un equipo cada bloque (propuesta).",
+ "objetivo": "Circular con amplitud y líneas de pase, y reaccionar al instante cuando se pierde o se roba el balón: cambiar de rol, mantener la posesión o finalizar. Cómo explicarlo: «Amplitud con balón; al robar, decide: circula o dispara». Errores típicos: juntarse, jugar sin comodines, quedarse parado tras perder. Qué observar: ocupación de bandas y velocidad del cambio de rol.",
+ "montaje": "Campo de 28 × 22 m con 2 miniporterías en cada fondo. Dos equipos de 5 repartidos por el campo y 4 comodines fuera, 2 por banda. Un comodín tiene el balón.",
+ "juego": "El comodín se asocia a un equipo (5+4 contra 5). Con 18 pases seguidos se puede tirar a cualquier miniportería. Si el rival roba, circula como nuevo equipo con balón o tira. Comodines a 2 toques.",
+ "punto": "Gol tras 18 pases: 2 puntos. Gol tras robo: 1 y se sigue con balón; si falla, se sigue robando.",
+ "consigna": "Amplitud, 18 pases y cambia de rol al instante.",
+ "variantes": {
+  "facil": "Bajar a 12 pases para poder finalizar y comodines a toques libres.",
+  "dificil": "Subir a 20 pases, equipo con balón a 2 toques y el recién robado debe tirar en 8 s."
+ },
+ "adaptacion": "Cadete (14–15): como en la ficha. Infantil (12–13): campo de 32 × 24 m y 12 pases. Con 12 jugadores, 4 contra 4 con 4 comodines.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "JUEGO DE POSICIÓN (5vs5+4) - Transiciones - Cambios de rol",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 17"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos equipos de cinco más cuatro comodines ofensivos; un comodín empieza con el balón y se asocia a un equipo; con 18 pases pueden finalizar en cualquier miniportería; si el rival roba, mantiene la posesión y cambia de rol o finaliza (si marca, sigue en posesión; si falla, sigue robando); comodines a dos contactos; 14 jugadores, 22 × 28 m. (propuesta): edad, puntuación, series, variantes, adaptación y reparto de comodines.",
+ "diagrama": {
+  "field": [
+   28,
+   22
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 32,
+   "ymin": -3.5,
+   "ymax": 25.5
+  },
+  "goals": [
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    0,
+    14.5,
+    "L"
+   ],
+   [
+    28,
+    7.5,
+    "R"
+   ],
+   [
+    28,
+    14.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 7,
+    "y": -1.7,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": -1.7,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 23.7,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 23.7,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     -1.7
+    ],
+    "b": [
+     4,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     6
+    ],
+    "b": [
+     10,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     11
+    ],
+    "b": [
+     15,
+     17
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "tag": "28 × 22 m"
+ }
+}

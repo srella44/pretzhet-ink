@@ -1,0 +1,233 @@
+{
+ "id": "LU-P276",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Transición: 3 salidas",
+ "formato": "8c8 + comodín",
+ "edad": "14–16 años",
+ "nivel": "Alto",
+ "jugadores": "17 jug.",
+ "espacio": "55 × 50 m",
+ "duracion": "20 min",
+ "series": "4 series de 5 min con 1 min de pausa; se cambian los papeles de los equipos y la salida del lado (propuesta).",
+ "objetivo": "Decidir bien la salida tras recuperar: banda para un 2c1, comodín para disputar la 2.ª jugada o pase directo a los puntas con tercer hombre. Cómo explicarlo: «Roba y elige: banda, comodín o punta». Errores típicos: salir siempre por el mismo lado, no sumarse a la 2.ª jugada. Qué observar: lectura del robo y apoyo al balón.",
+ "montaje": "Campo de 55 × 50 m con portería. Zona de 20 × 20 m: 3 rojos contra 2 grises y 1 comodín. Fuera: 2 grises en los carriles, 2 puntas y 2 de apoyo; 4 rojos defienden con portero.",
+ "juego": "Los rojos mantienen el balón. Al robar, los grises eligen: banda y 2c1; comodín que lanza a un punta; o pase directo a los puntas con tercer hombre. Los 2 grises de la zona se suman a la 2.ª jugada.",
+ "punto": "Gol: 2. Salida con éxito: 1. Rojos que despejan: 1.",
+ "consigna": "Roba y elige: banda, comodín o punta.",
+ "variantes": {
+  "facil": "Los rojos defienden en pasivo y los grises eligen la salida.",
+  "dificil": "Solo 6 s para llegar a portería y un defensor rojo sale de la línea."
+ },
+ "adaptacion": "Infantil (12–13): 7c7 en 50 × 40 m. Cadete y juvenil: como en la ficha. Con 12 jugadores, 5c5 + comodín y 2 puntas.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "Ataque - Defensa: Situaciones de transiciones",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 276"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: comienza en el espacio acotado (3c2 + 1 comodín); al recuperar los grises pueden jugar a los carriles laterales (2c1 en banda), al comodín para disputar un punta con 2.ª jugada o directos a los puntas con tercer hombre; 17 jugadores, 55 × 50 m. (propuesta): edad, reparto exacto de jugadores, portería, puntuación, series, variantes y adaptación; el diagrama muestra solo parte de los jugadores.",
+ "diagrama": {
+  "field": [
+   55,
+   50
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 59,
+   "ymin": -2,
+   "ymax": 52
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     4,
+     15,
+     24,
+     35
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     9
+    ],
+    [
+     55,
+     9
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     41
+    ],
+    [
+     55,
+     41
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 55,
+    "y": 25,
+    "lado": "R",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 8,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 32,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 41,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 35,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 40,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     32
+    ],
+    "b": [
+     28,
+     41
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     28,
+     41
+    ],
+    "b": [
+     42,
+     41
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     42,
+     41
+    ],
+    "b": [
+     40,
+     35
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "tag": "55 × 50 m"
+ }
+}

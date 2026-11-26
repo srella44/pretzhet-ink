@@ -1,0 +1,161 @@
+{
+ "id": "TFB100-057",
+ "bloque": "Finalización",
+ "titulo": "Tres postas de remate",
+ "formato": "3 estaciones por equipos",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12–18 jug.",
+ "espacio": "45 × 50 m",
+ "duracion": "20 min",
+ "series": "3 rondas de 5 min, una por estación para cada equipo, con 1 min entre estaciones (propuesta).",
+ "objetivo": "Repetir tres finalizaciones distintas —centro desde la izquierda, pared por el centro y centro desde la derecha— compitiendo por equipos con ritmo alto. Cómo explicarlo: «Ataca el balón, pared tensa, mira y centra». Errores típicos: centro sin mirar, rematar sin atacar el balón, no rotar de posición. Qué observar: llegada al segundo palo y calidad del último pase.",
+ "montaje": "Medio campo de 45 × 50 m con portería y portero. 3 equipos de 4 a 6, uno por estación: izquierda (conducir, centrar y rematar), centro (pared y tiro) y derecha (lateral que sube y centra).",
+ "juego": "Las estaciones salen seguidas: izquierda, centro y derecha, cada una al acabar la anterior. Tras cada ronda cambian de estación; en cada acción se rota de posición.",
+ "punto": "Gol: 1 punto; gol de primeras: 2. Gana quien más sume tras las 3 estaciones.",
+ "consigna": "Ritmo alto, pared tensa, mira y centra.",
+ "variantes": {
+  "facil": "Sin portero en la estación central y sin defensor.",
+  "dificil": "Un defensor pasivo en cada estación, remate siempre de primeras y 5 s por acción."
+ },
+ "adaptacion": "Alevín (10–11): sin defensa. Infantil (12–13): defensor pasivo. Cadete y juvenil: defensor activo en la estación de centro.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Tres postas de finalización en competición por equipos",
+  "ref": "100-tareas-de-futbol-base.pdf · pág. 73"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: medio campo con portería grande y portero, tres equipos y tres estaciones que se juegan seguidas (izquierda: conducción, centro y remate; centro: pared con apoyo en la frontal y tiro; derecha: pase al lateral que sube, centro y remate); gol 1 punto, de primeras 2; 3 rondas de 5 min; 45 × 50 m, 20 min. (propuesta): edad y nº de jugadores por equipo.",
+ "diagrama": {
+  "field": [
+   45,
+   50
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 47,
+   "ymin": -2.5,
+   "ymax": 52
+  },
+  "porterias": [
+   {
+    "x": 22.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 36,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 36,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 25,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 36,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 20,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     36
+    ],
+    "b": [
+     4,
+     14
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     14
+    ],
+    "b": [
+     14,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     22.5,
+     36
+    ],
+    "b": [
+     25,
+     25
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   },
+   {
+    "a": [
+     41,
+     36
+    ],
+    "b": [
+     41,
+     18
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 4
+   }
+  ],
+  "tag": "45 × 50 m"
+ }
+}
