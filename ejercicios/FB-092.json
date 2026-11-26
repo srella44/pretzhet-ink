@@ -1,0 +1,209 @@
+{
+ "id": "FB-092",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "8 contra 4 y transición",
+ "formato": "8v4 + transición",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "33 × 25 m",
+ "duracion": "18 min",
+ "series": "6 rondas de 2′ con 45″ de pausa; cada equipo pasa al menos 2 rondas en el centro (propuesta).",
+ "objetivo": "Mantener el balón en superioridad (8 contra 4) y, sobre todo, reaccionar al robo: el que roba sale rápido hacia una miniportería y el que pierde el balón defiende enseguida (propuesta). Cómo explicarlo: «si robas, en 8 segundos tienes que marcar; si pierdes, eres tú quien tiene que frenarlo». Errores típicos: el que roba se queda conduciendo en el sitio; el equipo que pierde el balón protesta en vez de defender; poseedores muy juntos que facilitan el robo. Qué observar: primer pase tras el robo (hacia fuera y hacia delante), reacción inmediata del que pierde, amplitud de los 8. Material: 2 miniporterías, 8 conos, petos de tres colores, 6 balones junto al entrenador.",
+ "montaje": "Cuadrado de 25 × 25 m y una miniportería a 4 m de dos lados opuestos. Tres equipos de 4: amarillos y rojos (8) contra 4 azules en el centro (propuesta).",
+ "juego": "Los 8 juegan a 2 toques (1). Si un azul roba (2), tiene 8″ para marcar en una miniportería (3) y defiende solo el equipo que perdió el balón. Ese equipo pasa al centro.",
+ "punto": "10 pases: 1. Robo: 1; robo y gol: 3 (propuesta).",
+ "consigna": "Al robar, ¡fuera rápido!",
+ "variantes": {
+  "facil": "Poseedores a toques libres y 10″ para marcar tras el robo (propuesta).",
+  "dificil": "Poseedores a 1 toque en la zona central marcada (10 × 10 m) y la transición acaba en una sola miniportería, la que diga el entrenador al robar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 28 × 28 m y 10″ para marcar. Infantil (12–13): 25 × 25 m y 8″. Cadete (14–15): 22 × 22 m, 2 toques y 6″ (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "8X4+ TRANSICIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/8x4-transicion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. El «+» del título se interpreta como la transición tras el robo hacia dos miniporterías; el equipo que pierde el balón es el que defiende y entra al centro.",
+ "diagrama": {
+  "field": [
+   33,
+   25
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 34.6,
+   "ymin": -1,
+   "ymax": 27.4
+  },
+  "tag": "25 × 25 m",
+  "lines": [
+   [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     25
+    ],
+    "6 5"
+   ],
+   [
+    [
+     29,
+     0
+    ],
+    [
+     29,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    33,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 14.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 22.6,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 26.6,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 7.6,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 10.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 11.4,
+    "y": 18,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16.5,
+     2
+    ],
+    "b": [
+     25.6,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     7
+    ],
+    "b": [
+     20.6,
+     10.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     10.6
+    ],
+    "b": [
+     32,
+     12.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    16.5,
+    26.6,
+    "ROBO → GOL EN 8″",
+    "middle"
+   ]
+  ]
+ }
+}

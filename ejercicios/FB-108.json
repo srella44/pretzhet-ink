@@ -1,0 +1,209 @@
+{
+ "id": "FB-108",
+ "bloque": "Finalización",
+ "titulo": "Coordinación y tres tiros",
+ "formato": "3 filas + portero",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "24 × 25 m",
+ "duracion": "15 min",
+ "series": "3 × 4′ con 1′ de pausa; cada jugador pasa por las tres filas en cada serie (propuesta).",
+ "objetivo": "Hacer una tarea coordinativa distinta y, sin pausa, terminar con un tiro preciso cuyo sitio depende de la fila: palo largo, raso o palo corto (propuesta). Cómo explicarlo: «termina la coordinación, levanta la vista y decide dónde va el tiro antes de que llegue el pase». Errores típicos: mirar al suelo al salir de la coordinación; tirar siempre al centro; controlar parado. Qué observar: transición rápida entre coordinación y balón, control orientado, colocación del tiro. Material: portería de fútbol 7 u 8, 4 vallas bajas, 4 aros, 4 picas o conos, 12 balones.",
+ "montaje": "24 × 25 m con portero. Tres recorridos de 5 m a 24 m: vallas bajas, aros y picas en zigzag. Entrenador con balones a 13 m de la portería (propuesta).",
+ "juego": "Sale uno por fila (1). Pase del entrenador (2) y tiro en 2 toques (3): desde la izquierda, al palo largo; del centro, raso; de la derecha, al corto.",
+ "punto": "Gol: 1; en el sitio pedido: 2 (propuesta).",
+ "consigna": "Decide el tiro antes del pase.",
+ "variantes": {
+  "facil": "Tiro libre a cualquier sitio y pase del entrenador con la mano (propuesta).",
+  "dificil": "El entrenador canta el sitio del tiro cuando el jugador sale de la coordinación (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): vallas de 15 cm y tiro desde 12 m. Infantil (12–13): tiro desde 14 m a 2 toques. Cadete (14–15): pases más fuertes y tiro a 1 toque en la última serie (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COORDINACIÓN VARIADA + FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/coordinacion-variada-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   25,
+   24
+  ],
+  "extent": {
+   "xmin": -1.6000000000000014,
+   "xmax": 26.6,
+   "ymin": -1,
+   "ymax": 25
+  },
+  "tag": "24 × 25 m",
+  "porterias": [
+   {
+    "x": 25,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    "0"
+   ],
+   [
+    [
+     4.4,
+     4
+    ],
+    [
+     4.4,
+     6
+    ],
+    "0"
+   ],
+   [
+    [
+     5.8,
+     4
+    ],
+    [
+     5.8,
+     6
+    ],
+    "0"
+   ]
+  ],
+  "discs": [
+   [
+    3,
+    12
+   ],
+   [
+    4.2,
+    12
+   ],
+   [
+    5.4,
+    12
+   ]
+  ],
+  "cones": [
+   [
+    3,
+    18.4
+   ],
+   [
+    4.4,
+    19.6
+   ],
+   [
+    5.8,
+    18.4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0.6,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     19
+    ],
+    "b": [
+     7,
+     19
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     9,
+     17.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     9.4,
+     18
+    ],
+    "b": [
+     24.2,
+     14.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    4.6,
+    3.2,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    4.6,
+    10.2,
+    "AROS",
+    "middle"
+   ],
+   [
+    4.6,
+    21.6,
+    "PICAS",
+    "middle"
+   ]
+  ]
+ }
+}

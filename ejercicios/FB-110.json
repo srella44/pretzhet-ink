@@ -1,0 +1,162 @@
+{
+ "id": "FB-110",
+ "bloque": "Técnica y duelos",
+ "titulo": "Círculo técnico guiado",
+ "formato": "Individual con balón",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "Círculo de 16 m",
+ "duracion": "10 min",
+ "series": "5 bloques de 45″ con 20″ de pausa; en cada bloque cambia la acción y hay 3 «¡cono!» (propuesta).",
+ "objetivo": "Que cada niño toque el balón muchas veces con todas las superficies (planta, interior, exterior) siguiendo las órdenes del entrenador, y que reaccione rápido a una consigna sin perder el balón (propuesta). Cómo explicarlo: «haz lo que yo diga sin dejar de mover el balón; cuando diga cono, sal y vuelve». Errores típicos: toques largos que chocan con otros; mirar solo el balón; pararse al cambiar de acción. Qué observar: muchos toques cortos, cabeza arriba, uso de los dos pies. Material: 10 conos, 1 balón por jugador.",
+ "montaje": "Círculo de 16 m marcado con 10 conos. Cada jugador con balón dentro; el entrenador, en el centro (propuesta).",
+ "juego": "Conducen libres. El entrenador nombra la acción: suela, interior, exterior, parar o giro. Al grito de «¡cono!», salen a un cono libre (1), lo rodean y vuelven al centro (2). Bloques de 45″.",
+ "punto": "En cada «¡cono!», los 3 primeros en volver suman 1 punto (propuesta).",
+ "consigna": "Toques pequeños y cabeza arriba.",
+ "variantes": {
+  "facil": "Solo dos acciones (suela e interior) y círculo de 20 m (propuesta).",
+  "dificil": "Con el «¡cono!» hay que volver con el pie menos hábil y el entrenador quita 2 conos para que haya que buscar uno libre (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): acciones sencillas y sin puntos, como un «Simón dice». Benjamín (8–9): puntos en el «¡cono!». Alevín (10–11): acciones encadenadas (suela + giro) y pie menos hábil (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TRABAJO TÉCNICO INDIVIDUAL EN CÍRCULO",
+  "ref": "https://toplidercoach.com/futbol-base/trabajo-tecnico-individual-en-circulo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Para diferenciarlo de FB-042 (círculo con regate a un defensor), aquí es técnica individual dirigida por el entrenador, sin rival.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1,
+   "ymax": 17
+  },
+  "tag": "círculo de 16 m",
+  "cones": [
+   [
+    8.0,
+    0.0
+   ],
+   [
+    12.702282018339785,
+    1.5278640450004204
+   ],
+   [
+    15.60845213036123,
+    5.52786404500042
+   ],
+   [
+    15.60845213036123,
+    10.47213595499958
+   ],
+   [
+    12.702282018339785,
+    14.47213595499958
+   ],
+   [
+    8.0,
+    16.0
+   ],
+   [
+    3.297717981660216,
+    14.47213595499958
+   ],
+   [
+    0.39154786963877175,
+    10.47213595499958
+   ],
+   [
+    0.39154786963877086,
+    5.527864045000422
+   ],
+   [
+    3.297717981660214,
+    1.5278640450004213
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 8,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 4.6,
+    "y": 6,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.6,
+    "y": 4,
+    "f": 150,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.4,
+    "y": 11,
+    "f": -150,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 12.4,
+    "f": -30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.4,
+    "y": 2.8,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.6,
+     6
+    ],
+    "b": [
+     1.2,
+     5.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     1.6,
+     6.8
+    ],
+    "b": [
+     5.6,
+     9.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 12,
+    "n": 2,
+    "nt": 0.6
+   }
+  ]
+ }
+}

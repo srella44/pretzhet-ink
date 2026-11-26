@@ -1,0 +1,215 @@
+{
+ "id": "FB-094",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Bloque medio y transición",
+ "formato": "4+P contra 4",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "9–10 jug.",
+ "espacio": "30 × 36 m",
+ "duracion": "20 min",
+ "series": "5 bloques de 3′ con 1′ de pausa; cada 2 bloques se cambian los papeles de amarillos y azules (propuesta).",
+ "objetivo": "Defender en bloque medio —esperar juntos en la franja media y saltar a presionar solo cuando hay una señal clara— y, tras robar, atacar rápido la portería (propuesta). Cómo explicarlo: «no corremos detrás del balón; esperamos juntos y saltamos todos a la vez cuando hay un pase lateral o alguien recibe de espaldas». Errores típicos: un azul salta solo y deja un hueco a su espalda; saltar a la zona de salida antes de tiempo; tras robar, conducir hacia atrás. Qué observar: distancia entre los 4 azules (10–12 m), salto coordinado, cobertura del que no presiona, primer pase vertical tras el robo. Material: portería de fútbol 7 o 8, 2 miniporterías, 12 conos, petos, 10 balones.",
+ "montaje": "30 × 36 m: franja de salida (10 m, con portería grande), media (16 m) y final (10 m, 2 miniporterías). Portero, 2 centrales y 2 medios amarillos; 4 azules (propuesta).",
+ "juego": "Amarillos salen desde el portero hacia una miniportería. Azules esperan juntos en la franja media y saltan a presionar tras un pase entre centrales (1)(2)(3). Si roban, atacan la portería en 8″ (4).",
+ "punto": "Gol en miniportería: 1. Robo: 1; robo y gol: 3 (propuesta).",
+ "consigna": "Saltamos juntos o nadie.",
+ "variantes": {
+  "facil": "Señal fija: solo se presiona tras el pase lateral entre centrales; amarillos a 3 toques (propuesta).",
+  "dificil": "Los azules pueden entrar en la franja de salida si el balón vuelve al portero; los amarillos añaden un tercer medio (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 28 × 32 m y 10″ para la transición. Cadete (14–15): 30 × 36 m, 8″ y dos señales de presión (pase lateral y recepción de espaldas) (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TÁCTICO, PRESIÓN EN BLOQUE MEDIO Y TRANSICIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/tactico-presion-en-bloque-medio-y-transicion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se monta el bloque medio con 4 azules en la franja central y la transición hacia la portería grande que defiende el portero amarillo; el número de jugadores (9–10) sigue la base.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -1.6000000000000014,
+   "xmax": 37.6,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "tag": "30 × 36 m",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 36,
+    "y": 8,
+    "lado": "R",
+    "ancho": 2.4
+   },
+   {
+    "x": 36,
+    "y": 22,
+    "lado": "R",
+    "ancho": 2.4
+   }
+  ],
+  "lines": [
+   [
+    [
+     26,
+     0
+    ],
+    [
+     26,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 9,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 21,
+    "f": 270
+   },
+   {
+    "r": "A",
+    "x": 21.4,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 21.4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 12.4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14.4,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 25,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     9
+    ],
+    "b": [
+     6,
+     20.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     25
+    ],
+    "b": [
+     7.8,
+     21.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     14.4,
+     18
+    ],
+    "b": [
+     20,
+     20.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     7.4,
+     20.4
+    ],
+    "b": [
+     2.4,
+     16.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    5,
+    29.2,
+    "SALIDA",
+    "middle"
+   ],
+   [
+    18,
+    29.2,
+    "BLOQUE MEDIO",
+    "middle"
+   ]
+  ]
+ }
+}

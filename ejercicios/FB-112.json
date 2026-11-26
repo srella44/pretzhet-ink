@@ -1,0 +1,191 @@
+{
+ "id": "FB-112",
+ "bloque": "Finalización",
+ "titulo": "Centro lateral y 2 contra 1",
+ "formato": "2v1 + portero",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug.",
+ "espacio": "36 × 30 m",
+ "duracion": "16 min",
+ "series": "4 × 3′ con 1′ de pausa; series 1 y 2 por la derecha y 3 y 4 por la izquierda (propuesta).",
+ "objetivo": "Terminar en el área un centro raso o hacia atrás con dos delanteros contra un defensor: separarse, atacar espacios distintos y rematar de primeras (propuesta). Cómo explicarlo: «los dos delanteros nunca van al mismo sitio: uno al primer palo y otro al punto de penalti». Errores típicos: el extremo centra sin mirar; los delanteros se juntan y el defensor cubre a los dos; centros altos que la edad no permite rematar. Qué observar: centro raso y tenso, separación de los delanteros, remate a un toque. Material: portería de fútbol 7, 10 conos, 12 balones, petos.",
+ "montaje": "36 × 30 m con portero. Pasador a 26 m; extremos en la banda derecha; 2 delanteros contra 1 defensor en la frontal (propuesta).",
+ "juego": "El pasador abre al espacio (1) y el extremo ataca el balón (2). Centra raso al penalti o atrás en 3 toques (3). Un delantero va al primer palo (4) y otro al penalti. Acción de 12″.",
+ "punto": "Gol: 1; de primeras: 2; robo: 1 al defensor (propuesta).",
+ "consigna": "Levanta la cabeza antes de centrar.",
+ "variantes": {
+  "facil": "Sin defensor y con centro desde parado (propuesta).",
+  "dificil": "Un segundo defensor sale desde el medio campo cuando el extremo controla: 2 contra 2 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 25 m y solo centro raso. Infantil (12–13): 36 × 30 m con centro raso o atrás. Cadete (14–15): medio campo de F11 y vale el centro alto (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CENTRO LATERAL + FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/centro-lateral-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Para diferenciarlo de FB-090 (dos rematadores sin rival), aquí hay un defensor y el centro es raso o hacia atrás.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 37,
+   "ymin": -2.4,
+   "ymax": 31
+  },
+  "tag": "36 × 30 m",
+  "porterias": [
+   {
+    "x": 18,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     6,
+     12
+    ],
+    [
+     30,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     12
+    ],
+    [
+     30,
+     0
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 26,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 23,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 16,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 16.4,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 11,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     26
+    ],
+    "b": [
+     31.4,
+     13.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     32,
+     23
+    ],
+    "b": [
+     32.2,
+     14.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     32,
+     12.8
+    ],
+    "b": [
+     18.4,
+     8.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     21,
+     16.4
+    ],
+    "b": [
+     21.6,
+     4.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 4,
+    "nt": 0.4
+   }
+  ],
+  "labels": [
+   [
+    17,
+    29.2,
+    "PASADOR",
+    "end"
+   ]
+  ]
+ }
+}

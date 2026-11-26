@@ -1,0 +1,146 @@
+{
+ "id": "FB-118",
+ "bloque": "Finalización",
+ "titulo": "Conducción y tiro cruzado",
+ "formato": "3 filas + portero",
+ "edad": "10–15 años",
+ "nivel": "Fácil",
+ "jugadores": "4–10 jug.",
+ "espacio": "20 × 25 m",
+ "duracion": "12 min",
+ "series": "3 × 3′ con 1′ de pausa; en la 2.ª serie se tira con el pie menos hábil y en la 3.ª con un defensor que sale tarde (propuesta).",
+ "objetivo": "Mejorar el tiro tras conducción: último toque preparado, mirada al portero y tiro cruzado y raso desde los lados (propuesta). Cómo explicarlo: «desde la banda, el tiro va al palo largo y raso; si fallas, puede haber rechace». Errores típicos: conducir con toques largos y llegar desequilibrado; tirar al centro; golpear con la puntera. Qué observar: último toque hacia delante y un poco hacia fuera, pie de apoyo al lado del balón, tobillo firme. Material: portería de fútbol 7 u 8, 6 discos, 2 petos, 12 balones.",
+ "montaje": "20 × 25 m con portero. Tres filas con balones a 23 m (izquierda, centro y derecha). Línea de discos a 12 m. Un peto en cada esquina baja de la portería (propuesta).",
+ "juego": "Sale uno de cada fila por turnos, conduce rápido (1) y tira antes de la línea (2): desde los lados, cruzado al palo largo; desde el centro, al lado libre. Cambia de fila.",
+ "punto": "Gol: 1; raso junto a un peto: 2 (propuesta).",
+ "consigna": "Último toque adelante, tobillo firme.",
+ "variantes": {
+  "facil": "Línea de tiro a 9 m y sin regla de palo largo (propuesta).",
+  "dificil": "Un defensor sale desde el lado de la portería cuando el atacante cruza los 18 m (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): tiro desde 10–12 m. Infantil (12–13): desde 12–14 m. Cadete (14–15): desde 16 m, con defensor en la 3.ª serie (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "MEJORA FINALIZACIÓN INDIVIDUAL 1",
+  "ref": "https://toplidercoach.com/futbol-base/mejora-finalizacion-individual-1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -0.6000000000000014,
+   "xmax": 26.6,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "tag": "20 × 25 m",
+  "porterias": [
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13,
+     0
+    ],
+    [
+     13,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "discs": [
+   [
+    13,
+    0.5
+   ],
+   [
+    13,
+    6
+   ],
+   [
+    13,
+    14
+   ],
+   [
+    13,
+    19.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.6,
+     16
+    ],
+    "b": [
+     12,
+     14.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     12.4,
+     14.6
+    ],
+    "b": [
+     24.2,
+     7.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    12.6,
+    19.4,
+    "LÍNEA DE TIRO",
+    "end"
+   ]
+  ]
+ }
+}

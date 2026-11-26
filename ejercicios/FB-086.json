@@ -1,0 +1,139 @@
+{
+ "id": "FB-086",
+ "bloque": "Técnica y duelos",
+ "titulo": "Conducción en X",
+ "formato": "Relevos en X",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2′ con 45″ de pausa; ronda 1 con el pie hábil, 2 con el otro, 3 solo con exterior y 4 libre y a máxima velocidad (propuesta).",
+ "objetivo": "Conducir rápido y con la cabeza levantada en un cruce con tráfico, ajustando la velocidad para no chocar (propuesta). Cómo explicarlo: «en el centro todos se cruzan: levanta la cabeza, frena o acelera y busca el hueco». Errores típicos: mirar solo el balón y chocar en el centro; toques largos que se escapan en el cruce; entregar el balón lanzado en vez de dejarlo parado. Qué observar: cabeza arriba al entrar en el círculo, toques cortos en el cruce y largos en las rectas, entrega con la suela. Material: 4 conos, 8 discos, 4 balones, petos de dos colores.",
+ "montaje": "15 × 15 m y un círculo de 3,5 m en el centro. Una fila de 2–4 en cada esquina; los primeros, con balón. Cada diagonal, un equipo (propuesta).",
+ "juego": "A la señal, los cuatro conducen en diagonal a la esquina opuesta (1)(2), cruzando el círculo sin chocar, y dejan el balón al primero de esa fila, que sale.",
+ "punto": "Llegada sin choque: 1 punto (propuesta).",
+ "consigna": "Cabeza arriba en el cruce.",
+ "variantes": {
+  "facil": "Solo salen dos filas a la vez (una de cada equipo) y el cuadrado es de 18 × 18 m (propuesta).",
+  "dificil": "En el círculo central hay que hacer un gesto que canta el entrenador (giro, finta, suela) antes de seguir (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 12 × 12 m y sin puntos la primera ronda. Alevín (10–11): 15 × 15 m, puntos y gesto obligatorio en el centro en la última ronda (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN EN X",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-en-x/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Las cuatro filas se cruzan en el centro, de ahí la «X».",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 17.4,
+   "ymin": -2.4,
+   "ymax": 17.4
+  },
+  "tag": "15 × 15 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    0,
+    15
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 7.5,
+    "y": 7.5,
+    "r": 1.75
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1,
+    "y": -1,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 16,
+    "f": -135
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": -1,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": -1,
+    "y": 16,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1,
+     -1
+    ],
+    "b": [
+     14.6,
+     14.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 16,
+    "n": 1,
+    "nt": 0.25
+   },
+   {
+    "a": [
+     16,
+     -1
+    ],
+    "b": [
+     0.4,
+     14.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 16,
+    "n": 2,
+    "nt": 0.25
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    10.6,
+    "CRUCE",
+    "middle"
+   ]
+  ]
+ }
+}

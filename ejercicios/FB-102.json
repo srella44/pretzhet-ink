@@ -1,0 +1,153 @@
+{
+ "id": "FB-102",
+ "bloque": "Rondos",
+ "titulo": "Rondo con cambio de defensor",
+ "formato": "5v2",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "7–8 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "15 min",
+ "series": "4 × 3′ con 1′ de pausa; en la serie 3 los atacantes juegan a 1 toque (propuesta).",
+ "objetivo": "Rondo 5 contra 2 en el que el cambio de defensor premia al que presiona: sale el defensor que más tiempo lleva dentro, no el que roba, y nadie defiende más de 90″ (propuesta). Cómo explicarlo: «si robas, te quedas como premio; sale tu compañero si llevaba más tiempo». Errores típicos: atacantes que reciben de frente y sin perfil; pases por el medio de los dos defensores sin hueco; defensores que van los dos al balón. Qué observar: perfil abierto de los atacantes, apoyos a los lados del poseedor, defensor que aprieta y defensor que tapa la línea de pase. Material: 4 conos, petos, 4 balones.",
+ "montaje": "Cuadrado de 12 × 12 m. 5 atacantes por fuera (uno por lado y otro en el lado del balón) y 2 defensores dentro. Con 8, 6 contra 2 (propuesta).",
+ "juego": "Atacantes a 2 toques (1)(2); defensores en pareja (3). Si roban o sale el balón, entra el que falló y sale el defensor que lleva más tiempo, no el que robó. Máximo 90″ dentro.",
+ "punto": "10 pases: 1. Robo: 1 para el que roba (propuesta).",
+ "consigna": "Uno aprieta, el otro tapa.",
+ "variantes": {
+  "facil": "6 contra 2 a toques libres y cuadrado de 14 × 14 m (propuesta).",
+  "dificil": "5 contra 2 a 1 toque en 10 × 10 m; el pase entre los dos defensores vale 2 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 6 contra 2 a 2 toques en 14 × 14 m. Infantil (12–13): 5 contra 2 en 12 × 12 m. Cadete (14–15): 5 contra 2 a 1 toque en 10 × 10 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RONDO INTERCAMBIO DE DEFENSORES",
+  "ref": "https://toplidercoach.com/futbol-base/rondo-intercambio-de-defensores/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. El «intercambio de defensores» se interpreta como una regla de cambio: sale el defensor que más tiempo lleva dentro, no el que roba.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 13.6,
+   "ymin": -1.6,
+   "ymax": 13.6
+  },
+  "tag": "12 × 12 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": -0.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.4,
+    "y": -0.6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12.6,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12.6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.6,
+    "y": 6.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 4.6,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 7.6,
+    "y": 7.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     -0.6
+    ],
+    "b": [
+     12.2,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     12.6,
+     7
+    ],
+    "b": [
+     6.4,
+     12.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     7.6,
+     7.4
+    ],
+    "b": [
+     9,
+     10
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

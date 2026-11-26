@@ -1,0 +1,199 @@
+{
+ "id": "FB-114",
+ "bloque": "Calentamiento",
+ "titulo": "Recoger conos",
+ "formato": "Dos equipos con balón",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "8–14 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de unos 90″ (hasta vaciar el centro) con 45″ de pausa para contar y volver a repartir los conos (propuesta).",
+ "objetivo": "Que los más pequeños conduzcan mucho, con la cabeza levantada y cambiando de dirección, en un juego por equipos fácil de entender (propuesta). Cómo explicarlo: «coge un cono con la mano, pero el balón no se puede escapar de tu pie». Errores típicos: soltar el balón para correr a por el cono; coger dos conos; chocar por mirar solo el balón. Qué observar: balón cerca al agacharse, mirada para buscar conos, ayuda entre compañeros. Material: 20 conos de colores, 1 balón por niño, 8 conos para las casas, petos.",
+ "montaje": "20 × 20 m. Una «casa» de 3 × 8 m en cada lado y 20 conos en el centro. Dos equipos de 4–7, cada uno con balón en su casa (propuesta).",
+ "juego": "A la señal, salen conduciendo (1), cogen un solo cono con la mano sin perder el balón y lo dejan en su casa (2), hasta vaciar el centro.",
+ "punto": "Gana el equipo con más conos en casa (propuesta).",
+ "consigna": "Balón pegado al pie.",
+ "variantes": {
+  "facil": "Se puede ir sin balón en la primera ronda y después con balón (propuesta).",
+  "dificil": "Solo vale coger el cono del color que diga el entrenador y volver conduciendo con el pie menos hábil (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): conos grandes y sin quitar conos al rival. Benjamín (8–9): colores y ronda de quitar conos (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RECOGER CONOS",
+  "ref": "https://toplidercoach.com/futbol-base/recoger-conos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "tag": "20 × 20 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     6,
+     3,
+     14
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     17,
+     6,
+     20,
+     14
+    ]
+   }
+  ],
+  "cones": [
+   [
+    7,
+    3
+   ],
+   [
+    10,
+    2.4
+   ],
+   [
+    13,
+    4
+   ],
+   [
+    6.4,
+    8.6
+   ],
+   [
+    11,
+    7.4
+   ],
+   [
+    14,
+    9
+   ],
+   [
+    8,
+    12.6
+   ],
+   [
+    12.6,
+    13
+   ],
+   [
+    9.4,
+    17
+   ],
+   [
+    13.6,
+    17.4
+   ],
+   [
+    6.4,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 7.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 12.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.4,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 7.6,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 12.4,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15.4,
+    "y": 15,
+    "f": -45,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     7.6
+    ],
+    "b": [
+     6,
+     8.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     9.4,
+     10
+    ],
+    "b": [
+     3.6,
+     11.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    5.2,
+    "CASA",
+    "middle"
+   ],
+   [
+    18.5,
+    5.2,
+    "CASA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "id": "FB-088",
+ "bloque": "Calentamiento",
+ "titulo": "Control orientado y puertas",
+ "formato": "Parejas",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 bloques de 60″ por papel (2 de pasador y 2 de receptor) con 20″ de pausa; luego 2′ de reto por récord (propuesta).",
+ "objetivo": "Calentar con balón combinando el control orientado y el desmarque: el receptor orienta el primer toque a través de una puerta y el pasador se mueve a otra puerta libre después de pasar (propuesta). Cómo explicarlo: «antes de recibir mira la puerta; con el primer toque, crúzala». Errores típicos: controlar parado y cruzar la puerta en el segundo toque; el pasador se queda quieto después del pase; ir siempre a la misma puerta. Qué observar: perfil abierto antes de recibir, primer toque hacia delante, movilidad continua del pasador. Material: 12 discos (6 puertas de 2 m), 1 balón por pareja.",
+ "montaje": "20 × 20 m con 6 puertas de 2 m (dos discos) orientadas de formas distintas. Parejas con un balón: pasador y receptor junto a una puerta (propuesta).",
+ "juego": "Pase raso (1). El receptor cruza la puerta con el primer toque (2) y conduce 5 m. El pasador va a otra puerta (3). Cambio a los 60″.",
+ "punto": "Puerta cruzada al primer toque: 1 punto; batir el récord (propuesta).",
+ "consigna": "Mira la puerta antes de recibir.",
+ "variantes": {
+  "facil": "Puertas de 3 m y control libre: se puede cruzar con el segundo toque (propuesta).",
+  "dificil": "Puertas de 1,5 m y pase a un toque desde la conducción; además, dos parejas no pueden usar la misma puerta a la vez (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): puertas de 3 m y sin récord la primera ronda. Alevín (10–11): puertas de 2 m, control con el pie lejano obligatorio y récord (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONTROL ORIENTADO Y MOVILIDAD",
+  "ref": "https://toplidercoach.com/futbol-base/control-orientado-y-movilidad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. La «movilidad» se entiende como el desmarque del pasador hacia otra puerta tras cada pase.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "tag": "20 × 20 m",
+  "discs": [
+   [
+    3,
+    3
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    14,
+    2
+   ],
+   [
+    16,
+    3.4
+   ],
+   [
+    10,
+    8
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    3,
+    13
+   ],
+   [
+    3,
+    15
+   ],
+   [
+    15.6,
+    15
+   ],
+   [
+    17.6,
+    15
+   ],
+   [
+    8,
+    17.4
+   ],
+   [
+    10,
+    17.4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.4,
+    "y": 9,
+    "f": [
+     3,
+     16
+    ]
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 11,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     16
+    ],
+    "b": [
+     7.2,
+     9.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     7.8,
+     9
+    ],
+    "b": [
+     15.6,
+     9
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     4.6,
+     16.4
+    ],
+    "b": [
+     8.6,
+     16.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10.8,
+    6.8,
+    "PUERTA 2 m",
+    "start"
+   ]
+  ]
+ }
+}

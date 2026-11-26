@@ -1,0 +1,124 @@
+{
+ "id": "FB-106",
+ "bloque": "Calentamiento",
+ "titulo": "Zigzag con devolución",
+ "formato": "Parejas",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "10 min",
+ "series": "4 recorridos por jugador y cambio de papel; 3 rondas con 45″ de pausa (ronda 1 pie hábil, 2 pie menos hábil, 3 alternando) (propuesta).",
+ "objetivo": "Activar el cuerpo con desplazamientos laterales cortos y llegar equilibrado a cada pase para devolver de primeras con el interior (propuesta). Cómo explicarlo: «llega al cono antes que el balón, con los pies abiertos y de cara al compañero». Errores típicos: cruzar los pies en el desplazamiento lateral; llegar tarde y devolver en carrera; devolución con la punta del pie. Qué observar: pasos laterales sin cruzar, pie de apoyo apuntando al compañero, tobillo firme en el golpeo. Material: 4 conos y 1 balón por pareja.",
+ "montaje": "Parejas. 4 conos en zigzag en 8 m (2,5 m entre ellos, 3 m arriba y abajo). B, con balón, a 8 m (propuesta).",
+ "juego": "A va de cono en cono con desplazamiento lateral. En cada uno, B pasa raso (1) y A devuelve de primeras con el interior (2); sigue al próximo (3). 4 recorridos y cambian.",
+ "punto": "Gana la pareja más rápida; fallo: +3″ (propuesta).",
+ "consigna": "Llega parado y con los pies abiertos.",
+ "variantes": {
+  "facil": "Conos más juntos (2 m) y B pasa con la mano para que A devuelva con el pie (propuesta).",
+  "dificil": "B pasa a bote y A devuelve de volea o de cabeza según la altura; recorrido de ida y vuelta (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 3 conos y sin cronómetro. Alevín (10–11): 4 conos, competición y pie menos hábil en la 2.ª ronda (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD Y PASE DE DEVOLUCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/agilidad-y-pase-de-devolucion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 13,
+   "ymin": -4.4,
+   "ymax": 11
+  },
+  "tag": "12 × 10 m",
+  "cones": [
+   [
+    2,
+    7
+   ],
+   [
+    4.5,
+    4
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    9.5,
+    4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 5.8,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": -2.6,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.4,
+     -2.4
+    ],
+    "b": [
+     2.2,
+     5.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     2.8,
+     5.4
+    ],
+    "b": [
+     6.8,
+     -1.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     2.4,
+     6
+    ],
+    "b": [
+     4.2,
+     3.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3,
+    "nt": 0.6
+   }
+  ]
+ }
+}

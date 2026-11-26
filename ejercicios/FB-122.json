@@ -1,0 +1,143 @@
+{
+ "id": "FB-122",
+ "bloque": "Técnica y duelos",
+ "titulo": "Control orientado y salida",
+ "formato": "Tríos",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "3–9 jug.",
+ "espacio": "12 × 15 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 3′ (5 acciones por papel) con 1′ de pausa (propuesta).",
+ "objetivo": "Orientar el control lejos de un defensor que llega por detrás y salir conduciendo rápido por una puerta lateral (propuesta). Cómo explicarlo: «mira por encima del hombro: si el defensor viene por la derecha, tu primer toque va a la izquierda». Errores típicos: controlar sin mirar al defensor; control demasiado corto que deja al defensor llegar; salir conduciendo despacio. Qué observar: mirada previa, control con el pie lejano, primer toque largo hacia la puerta, aceleración en los 3 primeros pasos. Material: 6 conos, 1 balón por trío y reservas.",
+ "montaje": "Tríos en 12 × 15 m: pasador; receptor a 7 m; defensor 4 m detrás. Una puerta de 2 m a cada lado del receptor (propuesta).",
+ "juego": "Pase raso (1). El receptor controla hacia la puerta del lado contrario al defensor y sale conduciendo (2). El defensor sale con el pase (3). 5 y rotan.",
+ "punto": "Sale por la puerta: 1; si no, 1 al defensor (propuesta).",
+ "consigna": "Primer toque lejos del defensor.",
+ "variantes": {
+  "facil": "El defensor sale 1″ después del pase (el entrenador da la salida) (propuesta).",
+  "dificil": "El pasador canta «¡derecha!» o «¡izquierda!» justo antes del pase y hay que salir por esa puerta (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): puertas de 3 m y defensor pasivo. Alevín (10–11): defensor activo. Infantil (12–13): defensor a 3 m y pase más fuerte (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONTROL ORIENTADO Y SALIDA",
+  "ref": "https://toplidercoach.com/futbol-base/control-orientado-y-salida/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Para diferenciarlo de FB-036 (control orientado y pase en rueda), aquí hay un defensor que obliga a orientar el control.",
+ "diagrama": {
+  "field": [
+   15,
+   12
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 16,
+   "ymin": -1,
+   "ymax": 13
+  },
+  "tag": "12 × 15 m",
+  "cones": [
+   [
+    6.4,
+    0
+   ],
+   [
+    4.4,
+    0
+   ],
+   [
+    6.4,
+    12
+   ],
+   [
+    4.4,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 6,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 2.8,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     6
+    ],
+    "b": [
+     7.8,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     6.6,
+     6.6
+    ],
+    "b": [
+     5.4,
+     11.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     2.8,
+     6
+    ],
+    "b": [
+     4,
+     9.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    3.8,
+    1.0,
+    "PUERTA",
+    "end"
+   ],
+   [
+    3.8,
+    11.0,
+    "PUERTA",
+    "end"
+   ]
+  ]
+ }
+}

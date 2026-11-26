@@ -1,0 +1,192 @@
+{
+ "id": "FB-120",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Circuito pase-conducción",
+ "formato": "Dos cuadrados",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "26 × 12 m",
+ "duracion": "12 min",
+ "series": "4 × 2′ con 45″ de pausa; a mitad de cada serie se cambia el sentido (propuesta).",
+ "objetivo": "Alternar pase y conducción a buen ritmo en un circuito por equipos: pase firme al pie, conducción rápida y entrega limpia (propuesta). Cómo explicarlo: «un lado del cuadrado es pase, el siguiente es conducción; no te quedes parado al pasar». Errores típicos: pases flojos o al cuerpo; conducciones con toques largos que se pasan del cono; olvidarse de seguir el pase. Qué observar: pase con el interior y tobillo firme, conducción con el exterior, comunicación al recibir. Material: 8 conos, 2 balones (y 2 de reserva).",
+ "montaje": "Dos cuadrados de 10 × 10 m separados 4 m, uno por equipo de 4–6. Un jugador por cono; los que sobran, en el cono 1 con el balón (propuesta).",
+ "juego": "Del cono 1 al 2, pase (1); el 2 conduce al 3 (2); el 3 pasa al 4 (3); el 4 conduce al 1 (4). Quien pasa sigue su pase; quien conduce se queda.",
+ "punto": "Vuelta: 1 punto; pase fuera: −1 (propuesta).",
+ "consigna": "Pase firme y conduce con el exterior.",
+ "variantes": {
+  "facil": "Sin competición: solo contar vueltas, con cuadrados de 8 × 8 m (propuesta).",
+  "dificil": "Los pases, a un toque, y las conducciones, con un giro obligatorio a mitad de lado (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): cuadrados de 8 × 8 m y sin −1. Alevín (10–11): 10 × 10 m y puntos. Infantil (12–13): pases a un toque y 12 × 12 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO DE PASE Y CONDUCCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-de-pase-y-conduccion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Para diferenciarlo de FB-076 y FB-078 (ruedas con pared y con pivote), aquí es una competición entre dos cuadrados que alterna lados de pase y de conducción.",
+ "diagrama": {
+  "field": [
+   26,
+   12
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 27.6,
+   "ymin": -1.6,
+   "ymax": 13.6
+  },
+  "tag": "2 × (10 × 10 m)",
+  "nofield": true,
+  "cones": [
+   [
+    1,
+    1
+   ],
+   [
+    11,
+    1
+   ],
+   [
+    11,
+    11
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    15,
+    1
+   ],
+   [
+    25,
+    1
+   ],
+   [
+    25,
+    11
+   ],
+   [
+    15,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.2,
+    "y": 0.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.8,
+    "y": 0.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11.8,
+    "y": 11.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 0.2,
+    "y": 11.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14.2,
+    "y": 0.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 25.8,
+    "y": 0.2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25.8,
+    "y": 11.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14.2,
+    "y": 11.8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     0.2
+    ],
+    "b": [
+     11.2,
+     0.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     11.8,
+     0.8
+    ],
+    "b": [
+     11.8,
+     11.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     11.2,
+     11.8
+    ],
+    "b": [
+     0.8,
+     11.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     0.2,
+     11.2
+    ],
+    "b": [
+     0.2,
+     0.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 4
+   }
+  ]
+ }
+}

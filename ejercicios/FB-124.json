@@ -1,0 +1,131 @@
+{
+ "id": "FB-124",
+ "bloque": "Superioridades",
+ "titulo": "1 contra 1 de espaldas",
+ "formato": "1v1",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "14 min",
+ "series": "3 rondas de 4′ con 1′ de pausa; cada jugador hace 4–5 acciones de 10″ por ronda (propuesta).",
+ "objetivo": "Reaccionar rápido a una señal, recibir de espaldas con un defensor encima, proteger con el cuerpo, girar y ganar el 1 contra 1 hacia dos miniporterías (propuesta). Cómo explicarlo: «tú llegas antes al balón; pon el cuerpo entre el defensor y el balón y gira hacia donde él no está». Errores típicos: recibir de frente al defensor; girar hacia el lado del defensor; pegarse a él sin usar el brazo. Qué observar: reacción a la palmada, perfil y brazo de protección, giro con el exterior o la planta, aceleración tras el giro. Defensor: no entrar de golpe por detrás. Material: 2 miniporterías, 4 conos, 10 balones.",
+ "montaje": "20 × 15 m, 2 miniporterías al fondo, a 6 m. Entrenador con balones enfrente. Atacante a 6 m de él, de espaldas a las porterías; defensor 2 m detrás. Sentados (propuesta).",
+ "juego": "A la palmada se levantan y el entrenador pasa (1). El atacante protege, gira hacia el lado libre y ataca una miniportería (2); el defensor intenta robar (3). 10″. Rotan.",
+ "punto": "Gol: 1; robo o balón fuera: 1 al defensor (propuesta).",
+ "consigna": "Siente al defensor y gira al otro lado.",
+ "variantes": {
+  "facil": "Los dos empiezan de pie y el defensor solo puede tapar, no robar, hasta que el atacante gire (propuesta).",
+  "dificil": "Empiezan tumbados boca abajo y, si el defensor roba, puede marcar en una miniportería que hay junto al entrenador (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): defensor a 3 m y 12″. Infantil (12–13): 2 m y 10″. Cadete (14–15): defensor pegado y contraataque si roba (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD DE REACCIÓN Y 1X1 RECEPCIÓN DE ESPALDAS",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-de-reaccion-y-1x1-recepcion-de-espaldas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Para diferenciarlo de FB-046 (carrera de dos jugadores a un balón lanzado), aquí el atacante recibe de espaldas con el defensor detrás.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21.6,
+   "ymin": -1,
+   "ymax": 16
+  },
+  "tag": "20 × 15 m",
+  "goals": [
+   [
+    20,
+    4.5,
+    "R"
+   ],
+   [
+    20,
+    10.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 1,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9.2,
+    "y": 6.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     7.5
+    ],
+    "b": [
+     6.4,
+     7.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     7.4,
+     8.2
+    ],
+    "b": [
+     19,
+     10.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     9.2,
+     6.4
+    ],
+    "b": [
+     14.6,
+     8.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    1,
+    5.4,
+    "ENTRENADOR",
+    "start"
+   ]
+  ]
+ }
+}

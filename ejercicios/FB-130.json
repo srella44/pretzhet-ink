@@ -1,0 +1,109 @@
+{
+ "id": "FB-130",
+ "bloque": "Calentamiento",
+ "titulo": "Persecución conduciendo",
+ "formato": "Parejas",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 10 m",
+ "duracion": "10 min",
+ "series": "4 carreras de 40″ por pareja con 80″ de descanso (mientras corren las otras parejas); en la 3.ª y 4.ª se cambia el sentido (propuesta).",
+ "objetivo": "Conducir a máxima velocidad en un circuito con curvas, ajustando la longitud del toque: largo en las rectas y corto al girar en los conos (propuesta). Cómo explicarlo: «es una persecución: en la recta empuja el balón lejos y corre; en el cono, toques cortos y giro pegado». Errores típicos: toques cortos en la recta (lento); toques largos en la curva (el balón se va); mirar solo el balón y no al rival. Qué observar: cambio de longitud del toque, giro con el exterior del pie de fuera, cabeza arriba en la recta. Material: 4 conos por circuito, 1 balón por jugador.",
+ "montaje": "Rectángulo de 12 × 6 m con un cono en cada esquina. Parejas, cada uno con balón: uno sale del centro del lado de arriba y otro del de abajo (propuesta).",
+ "juego": "A la señal conducen en el mismo sentido, por fuera de los conos (1)(2), para alcanzar al otro: tocar su espalda con la mano. Máximo 40″; no se corta por dentro.",
+ "punto": "Alcanzar: 2. A los 40″, 1 al que haya recortado (propuesta).",
+ "consigna": "Largo en la recta, corto en el cono.",
+ "variantes": {
+  "facil": "Sin persecución: cada uno corre contra el reloj una vuelta (propuesta).",
+  "dificil": "Rectángulo de 14 × 8 m y, a mitad de la carrera, el entrenador grita «¡cambio!» y se invierte el sentido (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30″ y rectángulo de 10 × 6 m. Infantil y cadete (12–15): 40″, 12 × 6 m y cambio de sentido (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN Y PERSECUCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-y-persecucion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se interpreta como una persecución en circuito, como en ciclismo en pista, para diferenciarla de FB-020 («¡Atrápame!», pilla-pilla libre).",
+ "diagrama": {
+  "field": [
+   16,
+   10
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1,
+   "ymax": 11
+  },
+  "tag": "16 × 10 m",
+  "cones": [
+   [
+    2,
+    2
+   ],
+   [
+    14,
+    2
+   ],
+   [
+    14,
+    8
+   ],
+   [
+    2,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 1.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 8.8,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.4,
+     1.2
+    ],
+    "b": [
+     13.6,
+     1.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     7.6,
+     8.8
+    ],
+    "b": [
+     2.4,
+     8.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

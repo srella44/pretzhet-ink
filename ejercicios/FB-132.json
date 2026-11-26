@@ -1,0 +1,151 @@
+{
+ "id": "FB-132",
+ "bloque": "Calentamiento",
+ "titulo": "Carrera contra el balón",
+ "formato": "Círculo",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "Círculo de 12 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 3′ con 45″ de pausa; en la 2.ª ronda el balón va en sentido antihorario y en la 3.ª se cantan dos números a la vez (propuesta).",
+ "objetivo": "Reaccionar rápido a una señal auditiva y acelerar, mientras el resto del grupo pasa a un toque con precisión: velocidad de reacción y técnica a la vez (propuesta). Cómo explicarlo: «cuando oigas tu número, sal sin esperar; los demás, pases rápidos y al pie». Errores típicos: mirar al entrenador antes de salir; corredor que se abre demasiado; pases flojos o al aire que frenan el balón. Qué observar: tiempo de reacción, primeros pasos cortos y rápidos, pase con el interior a un toque. Material: 8 conos o discos por círculo, 1 balón.",
+ "montaje": "Círculo de 12 m: 8 jugadores numerados del 1 al 8 en el borde y un balón. Con 12, dos círculos (propuesta).",
+ "juego": "Pases a un toque en sentido horario (1). El entrenador canta un número: ese da una vuelta por fuera (2) hasta su sitio mientras el balón sigue (su hueco se salta).",
+ "punto": "Vuelve antes de 8 pases: 1 punto para él; si no, para el círculo (propuesta).",
+ "consigna": "Sal al oír tu número.",
+ "variantes": {
+  "facil": "6 pases en vez de 8 y pases con control (dos toques) (propuesta).",
+  "dificil": "Se cantan dos números a la vez y corren en sentidos contrarios; el balón tiene que dar 10 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 8 pases a dos toques. Infantil (12–13): 8 pases a un toque y dos números en la última ronda (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD DE REACCIÓN EN CÍRCULO",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-de-reaccion-en-circulo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se interpreta como una carrera del jugador alrededor del círculo contra el balón que circula, para diferenciarlo de FB-044 (reacción a colores) y FB-046 (1 contra 1 de reacción).",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 15.6,
+   "ymin": -1.6,
+   "ymax": 15.6
+  },
+  "tag": "círculo de 12 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 7.0,
+    "y": 1.0,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 11.24,
+    "y": 2.76,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 13.0,
+    "y": 7.0,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 11.24,
+    "y": 11.24,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 7.0,
+    "y": 13.0,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.76,
+    "y": 11.24,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1.0,
+    "y": 7.0,
+    "f": [
+     7,
+     7
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.76,
+    "y": 2.76,
+    "f": [
+     7,
+     7
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     7
+    ],
+    "b": [
+     2.76,
+     2.76
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     7.4,
+     0.6
+    ],
+    "b": [
+     13.2,
+     1.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

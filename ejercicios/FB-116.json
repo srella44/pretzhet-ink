@@ -1,0 +1,141 @@
+{
+ "id": "FB-116",
+ "bloque": "Finalización",
+ "titulo": "Recibir de espaldas y tirar",
+ "formato": "Tríos + portero",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–10 jug.",
+ "espacio": "20 × 25 m",
+ "duracion": "15 min",
+ "series": "2 bloques (parte III y parte IV) de 6′ con 1′ de pausa; cada jugador hace 6 tiros por parte (propuesta).",
+ "objetivo": "Mejorar la finalización individual recibiendo de espaldas: control orientado lejos del defensor, giro y tiro rápido; primero con un defensor que solo acompaña (III) y luego con uno que puede robar (IV) (propuesta). Cómo explicarlo: «antes de que llegue el balón, mira por encima del hombro: si el defensor está a un lado, gira por el otro». Errores típicos: recibir sin mirar atrás; controlar hacia el defensor; girar con el balón pegado a él; tirar desequilibrado. Qué observar: mirada previa, apoyo del brazo para sentir al defensor, control con el pie lejano, tiro en 2–3 toques. Material: portería de fútbol 7 u 8, 6 conos, 12 balones, petos.",
+ "montaje": "20 × 25 m con portero. Delantero de espaldas, a 15 m; un defensor 2 m detrás. Servidor con balones a 8 m, con la fila al lado (propuesta).",
+ "juego": "Pase (1); el delantero controla hacia el lado contrario del defensor, gira (2) y tira en 3 toques (3). Parte III: el defensor solo acompaña. IV: puede robar. 6 tiros y rotan.",
+ "punto": "Gol: 2; tiro parado: 1; robo en la IV: 1 al defensor (propuesta).",
+ "consigna": "Mira por encima del hombro.",
+ "variantes": {
+  "facil": "El servidor pasa con la mano y el defensor se queda quieto como un maniquí (propuesta).",
+  "dificil": "El servidor pasa a bote o fuerte, y el defensor está activo desde el principio en la parte IV (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): defensor pasivo en todo el ejercicio y tiro desde 12 m. Infantil (12–13): partes III y IV como se describen; con 13 años, a 2 toques (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "MEJORA FINALIZACIÓN INDIVIDUAL III -IV",
+  "ref": "https://toplidercoach.com/futbol-base/mejora-finalizacion-individual-iii-iv/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. La web solo numera las partes III y IV de una serie; se interpretan como dos progresiones de la recepción de espaldas: defensor pasivo (III) y defensor activo (IV).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 26.6,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "tag": "20 × 25 m",
+  "porterias": [
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12.8,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.4,
+    "y": 12.4,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     10
+    ],
+    "b": [
+     9.2,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     10.4,
+     9.6
+    ],
+    "b": [
+     14,
+     6.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     14.4,
+     6.6
+    ],
+    "b": [
+     24.2,
+     11.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12.8,
+    12.6,
+    "DEFENSOR",
+    "middle"
+   ],
+   [
+    2,
+    7.6,
+    "SERVIDOR",
+    "middle"
+   ]
+  ]
+ }
+}

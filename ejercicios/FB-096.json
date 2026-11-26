@@ -1,0 +1,180 @@
+{
+ "id": "FB-096",
+ "bloque": "Finalización",
+ "titulo": "Circuito técnico con tiro",
+ "formato": "Circuito + portero",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug.",
+ "espacio": "25 × 30 m",
+ "duracion": "15 min",
+ "series": "3 × 4′ con 1′ de pausa; en cada serie cambia el slalom (solo interior, solo exterior, libre) (propuesta).",
+ "objetivo": "Encadenar conducción en slalom, pared y tiro a velocidad de partido, con el último toque de cada acción preparando la siguiente (propuesta). Cómo explicarlo: «cuando sales del último cono ya tienes que estar mirando al apoyo; cuando recibes la pared ya tienes que estar mirando la portería». Errores típicos: slalom lento por toques demasiado largos; pase al apoyo sin fuerza; desmarque en línea recta que no deja ver la portería; tiro de puntera. Qué observar: toques cortos en el slalom, velocidad del desmarque, control orientado hacia la portería, golpeo con el empeine o el interior. Material: portería de 7 × 2 m, 7 conos, 10 balones.",
+ "montaje": "25 × 30 m con portero. Fila con balones a 29 m; slalom de 5 conos a 1,5 m. Apoyo fijo 9 m a la derecha del último cono (propuesta).",
+ "juego": "Slalom (1), pase al apoyo (2), desmarque en diagonal (3) y pared al hueco (4). Control orientado y tiro en 2 toques desde unos 14 m (5). El que tira pasa a apoyo.",
+ "punto": "Gol: 2; a puerta parado: 1; cono derribado: −1 (propuesta).",
+ "consigna": "Sal del slalom mirando al apoyo.",
+ "variantes": {
+  "facil": "Slalom de 4 conos a 2 m y el apoyo para el balón para que tire con 3 toques (propuesta).",
+  "dificil": "Un defensor sale desde el palo cuando el apoyo devuelve y se juega un 1 contra 1 hasta el tiro (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): portería de fútbol 7 o 8 y tiro desde 12 m. Cadete (14–15): portería de 7 × 2 m, tiro a 2 toques desde 16 m y defensor en la última serie (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO DE TÉCNICA Y FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-de-tecnica-y-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Circuito propuesto: slalom, pared con un apoyo y tiro.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -1.6000000000000014,
+   "xmax": 31.6,
+   "ymin": -1,
+   "ymax": 26
+  },
+  "tag": "25 × 30 m",
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    3,
+    4.4
+   ],
+   [
+    4.5,
+    4.4
+   ],
+   [
+    6,
+    4.4
+   ],
+   [
+    7.5,
+    4.4
+   ],
+   [
+    9,
+    4.4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 10.6,
+    "y": 14,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     5.4
+    ],
+    "b": [
+     9.8,
+     5.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     10.2,
+     5.4
+    ],
+    "b": [
+     10.6,
+     13.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     10.6,
+     5.6
+    ],
+    "b": [
+     16.4,
+     9.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     10.6,
+     14
+    ],
+    "b": [
+     16.4,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 4
+   },
+   {
+    "a": [
+     17,
+     9.6
+    ],
+    "b": [
+     29.2,
+     14.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 5
+   }
+  ],
+  "labels": [
+   [
+    6,
+    2.4,
+    "SLALOM",
+    "middle"
+   ],
+   [
+    10.6,
+    16.4,
+    "APOYO",
+    "middle"
+   ]
+  ]
+ }
+}

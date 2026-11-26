@@ -1,0 +1,150 @@
+{
+ "id": "FB-126",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda en Y: perfiles",
+ "formato": "Rueda en Y",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "14 min",
+ "series": "4 × 3′ con 45″ de pausa; serie 1 control con el interior del pie lejano, 2 con el exterior, 3 con la planta y giro, 4 libre (propuesta).",
+ "objetivo": "Recibir perfilado, con el cuerpo abierto y con el pie lejano, para ver los dos lados antes de pasar, y decidir el pase en el último momento (propuesta). Cómo explicarlo: «recibe como si fueras a mirar una puerta: el balón cruza por delante de tu cuerpo y lo tocas con el pie más lejano». Errores típicos: recibir de frente con el pie cercano; mirar al balón y no a los cuatro conos; pase sin fuerza. Qué observar: posición de la cadera antes de recibir, superficie de control, tiempo entre control y pase. Material: 4 conos, 6 balones.",
+ "montaje": "Rueda en Y: base con fila y balones; pivote a 8 m; dos conos a 8 m del pivote, separados 12 m (propuesta).",
+ "juego": "La base pasa al pivote (1), que recibe perfilado con el pie lejano y pasa en 2 toques al cono que cante el entrenador (2). Ese controla y vuelve conduciendo (3). Base → pivote → arriba.",
+ "punto": "Control con el pie lejano y pase en 2 toques: 1 punto (propuesta).",
+ "consigna": "Abre la cadera antes de recibir.",
+ "variantes": {
+  "facil": "El pivote decide a quién pasa y tiene 3 toques (propuesta).",
+  "dificil": "Un defensor pasivo detrás del pivote: el pase va al lado contrario de donde está (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): distancias de 8 m y 2 toques. Cadete (14–15): 10 m, pase a un toque desde el pivote en la 4.ª serie (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASES, PERFILES DE CONTROL",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pases-perfiles-de-control/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se elige una rueda en Y con pivote para trabajar los perfiles de control; distinta del rombo (FB-014) y del cuadrado con pivote (FB-078) en que la decisión del pase llega en el último momento.",
+ "diagrama": {
+  "field": [
+   22,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 23,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "tag": "22 × 20 m",
+  "cones": [
+   [
+    2,
+    10
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    18,
+    4
+   ],
+   [
+    18,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 10,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 10.8,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18.8,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18.8,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     10
+    ],
+    "b": [
+     10.2,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     10.8,
+     10.4
+    ],
+    "b": [
+     18.2,
+     15.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     18.8,
+     16
+    ],
+    "b": [
+     2.4,
+     11.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10.8,
+    7.6,
+    "PIVOTE",
+    "middle"
+   ]
+  ]
+ }
+}
