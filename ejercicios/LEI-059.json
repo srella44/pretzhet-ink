@@ -1,0 +1,151 @@
+{
+ "id": "LEI-059",
+ "bloque": "Superioridades",
+ "titulo": "3v0 por puertas de conos",
+ "formato": "3v0 + portería",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "3–9 jug.",
+ "espacio": "50 × 20 m",
+ "duracion": "12 min",
+ "series": "3 grupos de 3 jugadores; cada grupo hace 6 carreras seguidas y descansa mientras salen los otros (propuesta).",
+ "objetivo": "Avanzar rápido en grupo de tres con pases precisos, todos tocando el balón y moviéndose entre las puertas, y rematar con calma después de varios pases. Cómo explicarlo: «Pasa y muévete, no esperes mirando». Errores típicos: pases largos sin mirar, pararse tras pasar, que uno no toque el balón. Qué observar: velocidad del conjunto y calidad del último pase.",
+ "montaje": "Campo de 50 × 20 m con 2 puertas de conos de 4 m (a 15 y 32 m) y portería con portero al fondo. 3 atacantes en el otro fondo, uno con balón.",
+ "juego": "Avanzan rápido y los tres tocan el balón. Cada puerta se cruza con un pase. No se tira antes de 10 pases; una pared por la misma puerta cuenta como uno (propuesta).",
+ "punto": "Gol tras 10 pases: 2. Tiro antes: no vale (propuesta).",
+ "consigna": "Pasa y muévete.",
+ "variantes": {
+  "facil": "Solo hace falta completar 6 pases.",
+  "dificil": "Hay que dar 10 pases con 2 toques y en solo 20″."
+ },
+ "adaptacion": "Alevín (10–11): 6 pases. Infantil (12–13): como en la ficha. Cadete (14–15): 12 pases y un defensor que sale desde la segunda puerta. Con 6 jugadores: dos grupos que se alternan.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Attacking 3v0 without the defender and through the pairs.",
+  "ref": "LeicesterCity.pdf · p. 65"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): 3 grupos de 6 carreras, los 3 delanteros salen de un fondo y los tres deben tocar el balón, sin tirar hasta completar diez pases; una pared por el mismo juego de conos solo cuenta… (propuesta): medidas, puertas, tiempo por carrera, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 52,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    15,
+    8
+   ],
+   [
+    15,
+    12
+   ],
+   [
+    32,
+    8
+   ],
+   [
+    32,
+    12
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 50,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     5
+    ],
+    "b": [
+     14,
+     12
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     3,
+     15
+    ],
+    "b": [
+     24,
+     7
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     14,
+     12
+    ],
+    "b": [
+     26,
+     6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     26,
+     6
+    ],
+    "b": [
+     48,
+     10
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

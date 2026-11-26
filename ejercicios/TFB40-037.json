@@ -1,0 +1,178 @@
+{
+ "id": "TFB40-037",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Presión tras pérdida 5v4",
+ "formato": "5v4 + 1v2",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "13–16 jug.",
+ "espacio": "60 × 50 m",
+ "duracion": "20 min",
+ "series": "3 series de 6′ con 2′ de descanso; cambia el central amarillo en cada serie.",
+ "objetivo": "Organizar la reacción tras perder el balón: los dos más cercanos presionan a quien ha robado y los demás repliegan para cortar el pase largo a los delanteros. Cómo explicarlo: «Perdemos: dos al balón y tres atrás». Errores típicos: presionar los cinco, replegar mirando solo al balón, central que sale solo. Qué observar: rapidez de la reacción en 5″ y cierre del pase hacia delante.",
+ "montaje": "Campo de 60 × 50 m partido en dos. Arriba, portería con portero: 5 amarillos contra 4 rojos. Abajo, 2 miniporterías: 1 central amarillo contra 2 delanteros rojos.",
+ "juego": "Ataque iniciado por el míster. Si roban los rojos, juegan con sus delanteros a las miniporterías: 2 amarillos presionan y 3 corren atrás. Recuperar en 5″: vuelven a atacar.",
+ "punto": "Gol: 1. Recuperar en 5″: 1. Gol rojo en miniportería: 2.",
+ "consigna": "¡Perdemos: dos al balón y tres atrás!",
+ "variantes": {
+  "facil": "Un solo delantero rojo abajo o ataque de 6v4.",
+  "dificil": "3 delanteros rojos abajo contra 2 amarillos, o solo 2 pueden replegar."
+ },
+ "adaptacion": "Infantil (12–13): 1 delantero rojo y 6v4. Cadete (14–15): 2 delanteros y 5v4. Juvenil (16–18): 2 delanteros y 4″ para recuperar con premio.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Presión tras pérdida y repliegue: 5 contra 4 con dos delanteros que esperan",
+  "ref": "40 tareas de transiciones y oleadas · pág. 49"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: título, objetivo, montaje, reglas, puntuación, consignas, variantes, series y adaptación por edades de la tarea. (propuesta): edad y nivel, rotaciones concretas, número de intentos y cualquier ajuste de texto para que quepa en la ficha.",
+ "diagrama": {
+  "field": [
+   60,
+   50
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 63,
+   "ymin": 4,
+   "ymax": 46
+  },
+  "lines": [
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     50
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 60,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    17,
+    "L"
+   ],
+   [
+    0,
+    33,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 40,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 38,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 54,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 54,
+    "y": 36,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 50,
+    "y": 25,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 36,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     50,
+     25
+    ],
+    "b": [
+     22,
+     36
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     44,
+     24
+    ],
+    "b": [
+     48,
+     25
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6
+   },
+   {
+    "a": [
+     40,
+     38
+    ],
+    "b": [
+     32,
+     38
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 9
+   }
+  ]
+ }
+}

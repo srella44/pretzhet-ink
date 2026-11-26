@@ -1,0 +1,132 @@
+{
+ "id": "IG-Df8SCiZpo7J",
+ "bloque": "Superioridades",
+ "titulo": "Conducir hasta que salte",
+ "formato": "2v1 + meta",
+ "edad": "8–9 años",
+ "nivel": "Medio",
+ "jugadores": "6–9 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2′ con 30″ de pausa; cada pareja hace 6 intentos y rota (propuesta).",
+ "objetivo": "Que el portador conduzca de frente hasta fijar al defensor, que el compañero lateral reciba con espacio para finalizar y que el primero continúe para una segunda acción. Cómo explicarlo: «Conduce hasta que se tire a por ti». Errores típicos: pasar antes de fijar, apoyo demasiado cerca o por detrás. Qué observar: momento del pase y llegada del primer atacante al rechace.",
+ "montaje": "Cuadrado de 15 × 15 m con portería de 3 m arriba, en el centro. A1 con balón abajo y A2 a su derecha, a 7 m. D defiende a 6 m de la portería.",
+ "juego": "A1 conduce de frente hacia D hasta que sale a por él; pasa a A2, que finaliza. A1 sigue para el rechace. Si D roba, sale por la línea de abajo. 8 intentos por pareja.",
+ "punto": "Gol de A2: 2. Gol de A1 en el rechace: +1 (propuesta).",
+ "consigna": "Conduce hasta que salte.",
+ "variantes": {
+  "facil": "D no puede salir a por el portador hasta que cruce la mitad del campo.",
+  "dificil": "El gol solo vale a un toque y se añade un segundo defensor a 3 m de la portería."
+ },
+ "adaptacion": "Prebenjamín (6–7): campo de 12 × 12 m y defensor lento. Alevín (10–11): como en la ficha con un portero. Con 5 jugadores: dos parejas y un defensor que rota.",
+ "fuente": {
+  "autor": "@klube.ai",
+  "titulo_original": "Conducir hasta que salte el defensor",
+  "ref": "https://www.instagram.com/klube.ai/reel/Df8SCiZpo7J/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción del reel): 15 × 15 m con una meta pequeña; el portador encara hasta atraer al rival, el apoyo lateral recibe con espacio para finalizar y el primer atacante continúa para la segunda acción. (propuesta): colocación, intentos, reglas de rechace, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "porterias": [
+   {
+    "x": 7.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 13,
+    "f": -70,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 10,
+    "f": -110
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 5.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     13
+    ],
+    "b": [
+     6,
+     9.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     6,
+     9.5
+    ],
+    "b": [
+     12.5,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 9
+   },
+   {
+    "a": [
+     12.5,
+     10
+    ],
+    "b": [
+     9,
+     0
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 4
+   },
+   {
+    "a": [
+     6,
+     9.5
+    ],
+    "b": [
+     3.5,
+     3
+    ],
+    "k": "run",
+    "n": 4,
+    "side": -1,
+    "s0": 6
+   }
+  ]
+ }
+}

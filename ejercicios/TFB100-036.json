@@ -1,0 +1,144 @@
+{
+ "id": "TFB100-036",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Defender 2v3 y temporizar",
+ "formato": "2v3 + 1 que llega",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–15 jug.",
+ "espacio": "35 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 ataques por grupo con 1′ de descanso (propuesta: rotar atacantes y defensores).",
+ "objetivo": "Defender en inferioridad numérica: cerrarse por dentro, retroceder de cara sin lanzarse y ganar tiempo hasta que llega el compañero. Cómo explicarlo: «Ganad tiempo; el que llega avisa: ¡llego!». Errores típicos: salir los dos al balón, quedarse a la misma altura, no hablar. Qué observar: escalonamiento y cierre del pase interior.",
+ "montaje": "Zona de 30 × 35 m con portería y portero. 3 atacantes con balón abajo. 2 defensores a 20 m de la portería; un tercero sale de una esquina de abajo cuando el atacante cruza los conos.",
+ "juego": "Los 2 defensores cierran el centro, retroceden de cara y salen solo si el balón va a la banda. 10″ para tirar. Si roban, conducen hasta la línea de abajo.",
+ "punto": "Gol: 1 (2 antes del tercero). Robo: 1; robo y línea: 2.",
+ "consigna": "Cerrad el centro, atrás de cara.",
+ "variantes": {
+  "facil": "El tercer defensor sale a la vez que los atacantes.",
+  "dificil": "Son 4 atacantes contra 2 + 1, o el tercero sale con 1″ de retraso."
+ },
+ "adaptacion": "Alevín (10–11): el tercer defensor sale enseguida. Infantil (12–13): cuando el primer atacante cruza el centro. Cadete (14–15): más tarde y con 10″ para atacar.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Defender en inferioridad 2 contra 3: temporizar hasta que llega la ayuda",
+  "ref": "100 tareas de fútbol base · pág. 50"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: título, objetivo, montaje, reglas, puntuación, consignas, variantes, series y adaptación por edades de la tarea. (propuesta): edad y nivel, rotaciones concretas, número de intentos y cualquier ajuste de texto para que quepa en la ficha.",
+ "diagrama": {
+  "field": [
+   35,
+   30
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 37,
+   "ymin": 2,
+   "ymax": 29
+  },
+  "porterias": [
+   {
+    "x": 35,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 0.5,
+    "y": 28,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     15
+    ],
+    "b": [
+     9,
+     15
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     0.5,
+     28
+    ],
+    "b": [
+     12,
+     23
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 9
+   },
+   {
+    "a": [
+     1.5,
+     8
+    ],
+    "b": [
+     14,
+     6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 9
+   }
+  ]
+ }
+}

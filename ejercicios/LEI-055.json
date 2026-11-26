@@ -1,0 +1,152 @@
+{
+ "id": "LEI-055",
+ "bloque": "Superioridades",
+ "titulo": "Ataque rápido 2v1+1",
+ "formato": "2v2 salida",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "5–7 jug.",
+ "espacio": "35 × 30 m",
+ "duracion": "14 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cada pareja hace 6 salidas y se rota (propuesta).",
+ "objetivo": "Atacar en pocos segundos con dos jugadores separados: uno conduce, el otro abre el pase y llega por el lado contrario al defensor. Cómo explicarlo: «Abre, atrae y suelta; no esperes a que te pillen». Errores típicos: juntarse los dos, pasar tarde cuando el defensor ya está encima, tirar sin mirar al portero. Qué observar: separación de 10 m al salir, ritmo de la conducción y si deciden antes de que llegue el segundo defensor.",
+ "montaje": "Medio campo de 35 × 30 m con portería y portero. 2 atacantes en la línea del centro, a 10 m, uno con balón. Un defensor 5 m detrás de ellos y otro en el círculo.",
+ "juego": "A la señal salen los tres. Los atacantes tienen 6″ para tirar; el defensor de atrás persigue y el del círculo sale al balón. Si roban o sale, termina.",
+ "punto": "Gol: 1. Gol en menos de 6″: 2 (propuesta).",
+ "consigna": "Abre, atrae y suelta.",
+ "variantes": {
+  "facil": "El defensor de atrás sale 7 m detrás y los atacantes tienen 8 segundos.",
+  "dificil": "El defensor de atrás sale 3 m detrás y luego 1 m (como en la fuente); los atacantes tienen 5 segundos."
+ },
+ "adaptacion": "Benjamín (8–9): campo de 25 × 20 m y defensor de atrás a 7 m. Infantil (12–13): como en la ficha. Cadete (14–15): defensor a 1 m y 5 segundos. Con 4 jugadores: un solo defensor de atrás y sin portero.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Fast attack 2v1 + 1 from the centre line.",
+  "ref": "LeicesterCity.pdf · p. 61"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): dos atacantes a 10 m salen de la línea del centro, deben avanzar y marcar en menos de 6 segundos; un defensor sale 5 m detrás (luego 3 m y 1 m) y otro sale a su encuentro. (propuesta): campo de 35 × 30 m, portero, reparto de jugadores, rotación, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   35,
+   30
+  ],
+  "extent": {
+   "xmin": -8,
+   "xmax": 37,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 35,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": -4.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     10
+    ],
+    "b": [
+     22,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 10
+   },
+   {
+    "a": [
+     1.5,
+     20
+    ],
+    "b": [
+     24,
+     22
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 10
+   },
+   {
+    "a": [
+     22,
+     10
+    ],
+    "b": [
+     24,
+     22
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     24,
+     22
+    ],
+    "b": [
+     35,
+     15
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     -4.5,
+     15
+    ],
+    "b": [
+     10,
+     15
+    ],
+    "k": "run",
+    "n": 5,
+    "side": 1,
+    "s0": 10
+   }
+  ]
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "id": "TFB40-009",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Transiciones 3v2 continuas",
+ "formato": "3v2 continuo",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10–12 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "15 min",
+ "series": "3 series de 5′ con 1′ 30″ de descanso.",
+ "objetivo": "Atacar en superioridad 3v2 y pasar a defender en inferioridad justo después, en oleadas continuas entre dos porterías. Cómo explicarlo: «Busca al libre; termina y defiende; temporiza en inferioridad». Errores típicos: no encontrar al tercer hombre, perder tiempo tras el tiro, defender los dos al balón. Qué observar: ritmo de las oleadas y colocación de los dos defensores.",
+ "montaje": "Campo de 35 × 25 m con portería y portero en cada fondo. 3 amarillos con balón contra 2 rojos en un lado; otros 3 rojos esperan tras la otra portería.",
+ "juego": "3v2 hacia la portería. Al acabar, 2 de los 3 amarillos defienden y el que tocó el último balón va a la fila. Del otro fondo salen 3 y atacan la otra portería (12″ por acción).",
+ "punto": "Cada gol: 1 punto para su equipo.",
+ "consigna": "Termina y defiende, rápido.",
+ "variantes": {
+  "facil": "Más tiempo por acción y los defensores no entran al área.",
+  "dificil": "Menos tiempo por acción o 3v3 si el ataque tarda en finalizar."
+ },
+ "adaptacion": "Prebenjamín (6–7): 2v1 continuo. Benjamín (8–9): 3v2 y 10″ por acción. Alevín (10–11): 3v2 y 12″. Infantil (12–13): como en la ficha.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Transiciones 3 contra 2 continuas",
+  "ref": "40 tareas de transiciones y oleadas · pág. 18"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: título, objetivo, montaje, reglas, puntuación, consignas, variantes, series y adaptación por edades de la tarea. (propuesta): edad y nivel, rotaciones concretas, número de intentos y cualquier ajuste de texto para que quepa en la ficha.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 35,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 24,
+    "y": 12.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 8,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 12.5,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 17,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     12.5
+    ],
+    "b": [
+     18,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     18,
+     20
+    ],
+    "b": [
+     8,
+     22
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     18,
+     5
+    ],
+    "b": [
+     8,
+     5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ],
+  "labels": [
+   [
+    43,
+    5,
+    "SIGUEN",
+    "end"
+   ]
+  ]
+ }
+}

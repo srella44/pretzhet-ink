@@ -1,0 +1,142 @@
+{
+ "id": "DOS-009",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Oleadas 1v1 y 2v2",
+ "formato": "1v1 y 2v2 + contraataque",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–16 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "20 min",
+ "series": "2 bloques de 4′ de 1v1 y 2 de 2v2 con 1′ de pausa; los equipos cambian de esquina en cada bloque (propuesta).",
+ "objetivo": "Regatear y desmarcarse al pie o al espacio, con contraataque si se roba. Cómo explicarlo: «Regatea en velocidad y desde lejos; pide al pie o al espacio». Errores típicos: pasarla si tu compañero no está mejor que tú, regatear pegado al defensor, no contraatacar al robar. Qué observar: distancia del regate al defensor y desmarques en el 2v2.",
+ "montaje": "Campo de 30 × 20 m con portería sin portero en cada fondo. 2 equipos de 4–8 esperan en las esquinas del fondo izquierdo; el equipo A tiene los balones.",
+ "juego": "Un B pasa el balón a un A y sale a defender: 1v1 hacia la portería. Si el defensor roba, contraataca a la otra portería. Al acabar salen los siguientes. Luego se juega igual en 2v2.",
+ "punto": "Gol: 1 punto. Gol de contraataque: 2 puntos (propuesta).",
+ "consigna": "Regatea en velocidad y pide al pie o al espacio.",
+ "variantes": {
+  "facil": "El defensor sale con 1″ de retraso y no puede robar dentro del área de portería.",
+  "dificil": "Cada jugada dura 8″ y en el 2v2 hay que tocar los dos antes de tirar."
+ },
+ "adaptacion": "Prebenjamín (6–7): 1v1 con portería ancha. Benjamín (8–9): 1v1 y 2v2 en 25 × 18 m. Alevín (10–11): como en la ficha. Infantil (12–13): 2v2 con 8″ por jugada.",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "OLEADAS 1v1, 2v2 POR EQUIPOS",
+  "ref": "dosier.pdf · pág. 3, 15"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: objetivo, formato (el defensor pasa al atacante y sale a defender; si roba, contraataca; luego 2v2), consignas, «evitar» y espacio 30 × 20 m con 2 porterías; marcada como probada. (propuesta): valor del gol de contraataque, series, retrasos, tiempos por jugada, porterías sin portero, reparto de esquinas y adaptación por edades.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 4,
+    "portero": false
+   },
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 4,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 18,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     12
+    ],
+    "b": [
+     11,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     4,
+     12
+    ],
+    "b": [
+     16,
+     13
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 9
+   },
+   {
+    "a": [
+     11,
+     10
+    ],
+    "b": [
+     24,
+     9
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 9
+   }
+  ]
+ }
+}

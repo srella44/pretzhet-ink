@@ -1,0 +1,174 @@
+{
+ "id": "TFB100-038",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Rondo 7v3 con presión",
+ "formato": "7v3 en dos zonas",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "14–16 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "18 min",
+ "series": "3 series de 5′ con 2′ de descanso.",
+ "objetivo": "Conservar el balón en superioridad con un interior y, tras perderlo, presionar en bloque de tres en el otro cuadrado. Cómo explicarlo: «Busca dentro; robo y fuera; presionamos los tres juntos». Errores típicos: no usar al interior, presionar uno a uno, no ir al otro cuadrado al perderlo. Qué observar: perfil del interior y coordinación de los tres que presionan.",
+ "montaje": "Dos cuadrados de 20 × 20 m contiguos. En uno, 7v3: 6 amarillos por fuera, 1 dentro y 3 rojos. Otros 4 rojos esperan en el otro cuadrado.",
+ "juego": "Si los rojos roban, el primer pase va al otro cuadrado y se unen a sus compañeros. El amarillo que perdió, el que dio el pase y el interior presionan allí: otro 7v3 invertido.",
+ "punto": "8 pases: 1 punto. Pase al interior que se gira: +1.",
+ "consigna": "Busca dentro y presionad los tres juntos.",
+ "variantes": {
+  "facil": "Toques libres y cuadrados de 22 × 22 m.",
+  "dificil": "2 toques por jugador y 1 toque para el interior."
+ },
+ "adaptacion": "Infantil (12–13): 7v2 en el primer cuadrado. Cadete (14–15): 7v3. Juvenil (16–18): 6v3 y la presión tras pérdida dura solo 5″. Con 16 jugadores, un comodín dentro en cada cuadrado.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Rondo 7 contra 3 con presión tras pérdida en dos zonas",
+  "ref": "100 tareas de fútbol base · pág. 52"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: título, objetivo, montaje, reglas, puntuación, consignas, variantes, series y adaptación por edades de la tarea. (propuesta): edad y nivel, rotaciones concretas, número de intentos y cualquier ajuste de texto para que quepa en la ficha.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     17
+    ],
+    "b": [
+     13,
+     8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     13,
+     8
+    ],
+    "b": [
+     10,
+     2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

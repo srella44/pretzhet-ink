@@ -1,0 +1,226 @@
+{
+ "id": "LEI-076",
+ "bloque": "Superioridades",
+ "titulo": "3v2 con 2 mediocentros",
+ "formato": "9v6 en 3 zonas",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "15 jug.",
+ "espacio": "60 × 20 m",
+ "duracion": "16 min",
+ "series": "3 rondas de 5′ con 1′ de pausa; cambian los defensores en cada ronda (propuesta).",
+ "objetivo": "Defender en bloque y bascular juntos hacia el balón; en ataque, superar la línea de fondo del campo conduciendo o dar el pase al grupo del campo siguiente. Cómo explicarlo: «Defensa: todos al lado del balón. Ataque: busca al libre». Errores típicos: defensas parados en su sitio, atacantes que pasan sin intentar el regate. Qué observar: distancia entre defensores y cobertura del mediocentro.",
+ "montaje": "Tres campos seguidos de 20 × 20 m, con 3 amarillos en cada uno. 4 azules y 2 mediocentros rojos defienden todo el ancho, juntos. Balón en un amarillo del campo 1.",
+ "juego": "Los 3 amarillos con balón intentan cruzar con él su línea de fondo; si no, pasan al grupo del campo siguiente. Los 6 defensores basculan cerrando dentro. Si roban, tiran fuera.",
+ "punto": "Línea cruzada con balón: 1. Robo defensivo: 1 (propuesta).",
+ "consigna": "Defiende en bloque, ataca al libre.",
+ "variantes": {
+  "facil": "Los mediocentros solo defienden en el campo del balón y la defensa son 3 azules.",
+  "dificil": "Se juega a 2 toques y los defensores pueden pasar al campo siguiente con el balón."
+ },
+ "adaptacion": "Benjamín (8–9): 3 campos de 15 × 15 m y 3v1. Infantil (12–13): 3v2 + 1 mediocentro. Cadete (14–15): como en la ficha. Con pocos jugadores: 2 campos de 20 × 20 m.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "3v2 + 2 Midfielders",
+  "ref": "LeicesterCity.pdf · p. 84"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): 3 campos de 20 × 20 m con 3 atacantes cada uno; defienden 4 defensas y 2 mediocentros repartidos por toda la anchura; los atacantes intentan conducir hasta la línea de fondo o pasan a los del campo siguiente. (propuesta): puntuación, qué hacen los defensores al robar, series, variantes, adaptación y edad.",
+ "diagrama": {
+  "field": [
+   60,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 62,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     40,
+     0
+    ],
+    [
+     40,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 43,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 46,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 54,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     6,
+     16
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     6,
+     16
+    ],
+    "b": [
+     13,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     13,
+     10
+    ],
+    "b": [
+     23,
+     4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ],
+  "labels": [
+   [
+    10,
+    21.5,
+    "CAMPO 1",
+    "middle"
+   ],
+   [
+    30,
+    21.5,
+    "CAMPO 2",
+    "middle"
+   ],
+   [
+    50,
+    21.5,
+    "CAMPO 3",
+    "middle"
+   ]
+  ]
+ }
+}

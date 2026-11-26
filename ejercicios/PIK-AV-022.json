@@ -1,0 +1,155 @@
+{
+ "id": "PIK-AV-022",
+ "bloque": "Superioridades",
+ "titulo": "1v1, 2v2 y 3v2 con repliegue",
+ "formato": "1v1 → 2v2 → 3v2",
+ "edad": "11–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–9 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "4 series de 3′ con 1′ de pausa; en cada serie rotan los papeles A1, A2, A3 y D1, D2 (propuesta).",
+ "objetivo": "Defender el eje (cerrar el centro), dar coberturas en el 2v2 y saber defender en inferioridad 3v2 ganando tiempo; en ataque, aprovechar la superioridad que llega. Cómo explicarlo: «Cierra dentro y bascula con tu compañero». Errores típicos: lanzarse a por el balón, quedarse a la misma altura, dejar el pase interior abierto. Qué observar: distancia entre los dos defensores y comunicación.",
+ "montaje": "Campo de 40 × 30 m con portería y portero. En el centro, A1 con balón contra D1; A2 y D2 esperan 8 m detrás de ellos; A3, en la banda.",
+ "juego": "Fase 1: 1v1. A los 5″ (señal) entran A2 y D2: 2v2 hacia la portería, defensores cerrando el centro y basculando. A la 2.ª señal entra A3: 3v2 contra D1 y D2, que repliegan.",
+ "punto": "Gol: 1. Defensa que roba y cruza el centro: 2 (propuesta).",
+ "consigna": "Cierra el centro y bascula.",
+ "variantes": {
+  "facil": "A3 entra desde el principio y el 2v2 se juega a 12″ para tirar.",
+  "dificil": "Solo 8″ en total para la jugada y los atacantes empiezan con 3 toques máximo."
+ },
+ "adaptacion": "Alevín (10–11): 1v1 y 2v2 en 30 × 25 m, sin 3v2. Infantil (12–13): como en la ficha. Con pocos jugadores: A3 es el entrenador y entra con un pase.",
+ "fuente": {
+  "autor": "Pelota Academy · Pro Footballer Skills",
+  "titulo_original": "Del 1v1 al 2v2 de repliegue y superioridad 3v2",
+  "ref": "https://www.youtube.com/watch?v=1qd_zw2fedQ"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (solo descripción y capítulos, sin visionado): 1v1 que desencadena un 2v2 con defensores en repliegue y después 3v2; se insiste en cerrar el centro y bascular juntos. (propuesta): medidas, colocación, señales del entrenador, puntuación, series, variantes y adaptación; el 2v2 y el 3v2 se unen en una sola tarea continua.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     15
+    ],
+    "b": [
+     23,
+     10
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     10,
+     8
+    ],
+    "b": [
+     25,
+     5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 9
+   },
+   {
+    "a": [
+     18,
+     3
+    ],
+    "b": [
+     30,
+     5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     26,
+     15
+    ],
+    "b": [
+     31,
+     18
+    ],
+    "k": "run",
+    "n": 4,
+    "side": 1,
+    "s0": 8
+   }
+  ]
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "id": "LEI-116",
+ "bloque": "Superioridades",
+ "titulo": "5 líneas 11v7",
+ "formato": "11v7 + porteros",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "18–20 jug.",
+ "espacio": "80 × 50 m",
+ "duracion": "20 min",
+ "series": "3 bloques de 6′ con 2′ de pausa; después se cambian los equipos (propuesta).",
+ "objetivo": "Construir desde atrás y progresar por líneas en superioridad 11v7, buscando al jugador libre entre líneas. Cómo explicarlo: «Cada línea da una opción al compañero». Errores típicos: pasar saltándose líneas sin necesidad, no dar apoyo corto, perder la forma 2-3-2-3. Qué observar: distancias entre líneas, perfil del cuerpo y salida con el portero.",
+ "montaje": "Campo de 80 × 50 m con 4 líneas de conos (5 franjas) y portería. 11 amarillos en 2-3-2-3 más portero con balón; 7 rojos en 3-2-1 más portero.",
+ "juego": "Sale el portero y construyen por franjas hasta rematar. Cada línea se queda en su franja; solo uno por línea sube a la siguiente. Si roban, los rojos tienen 8″ para marcar.",
+ "punto": "Gol: 2. Gol rojo: 3. Cruzar 5 franjas: 1 (propuesta).",
+ "consigna": "Cada línea da una opción.",
+ "variantes": {
+  "facil": "Los rojos son 5 (3-2) y los amarillos juegan a toques libres.",
+  "dificil": "Los rojos son 8 (3-3-2) y los amarillos tienen 2 toques como máximo."
+ },
+ "adaptacion": "Infantil (12–13): fútbol 7, campo de 60 × 40 m, 7v5 con franjas de 12 m. Cadete (14–15): como en la ficha con 9v7. Juvenil: como en la ficha.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Playing with the 5 Lines 11v7.",
+  "ref": "LeicesterCity.pdf · p. 132"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): campo grande con 4 líneas y los jugadores en 2-3-2-3 (más portero) contra 7 rojos en 3-2-1; empieza el portero, los 11 construyen jugando por líneas y atacan la portería. (propuesta): medidas, reglas de las franjas, qué pasa tras robo, puntuación, series, variantes y adaptación a fútbol 7.",
+ "diagrama": {
+  "field": [
+   80,
+   50
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 84,
+   "ymin": -2,
+   "ymax": 52
+  },
+  "lines": [
+   [
+    [
+     16,
+     0
+    ],
+    [
+     16,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     32,
+     0
+    ],
+    [
+     32,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     48,
+     0
+    ],
+    [
+     48,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     64,
+     0
+    ],
+    [
+     64,
+     50
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 80,
+    "y": 25,
+    "lado": "R",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 38,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 42,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 50,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 50,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 50,
+    "y": 40,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 59,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 66,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 66,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 72,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 72,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 72,
+    "y": 40,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     25
+    ],
+    "b": [
+     9,
+     12
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     9,
+     12
+    ],
+    "b": [
+     23,
+     25
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     23,
+     25
+    ],
+    "b": [
+     38,
+     34
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     38,
+     34
+    ],
+    "b": [
+     50,
+     40
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

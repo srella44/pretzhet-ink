@@ -1,0 +1,133 @@
+{
+ "id": "IG-Dfy4THOKOL1",
+ "bloque": "Superioridades",
+ "titulo": "El pase de vuelta",
+ "formato": "2v1 + miniportería",
+ "edad": "8–9 años",
+ "nivel": "Medio",
+ "jugadores": "6–9 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2′ con 30″ de pausa; cada pareja ataca 6 veces y se rota (propuesta).",
+ "objetivo": "Aprender a atraer al rival conduciendo, soltar el pase y atacar su espalda para recibir la devolución. Cómo explicarlo: «Llévatelo, pasa y corre detrás». Errores típicos: pasar demasiado pronto, no correr tras el pase, devolver sin mirar dónde está el compañero. Qué observar: distancia del apoyo (5–6 m) y si el pase de vuelta va al espacio, no a los pies.",
+ "montaje": "Cuadrado de 12 × 12 m con miniportería de 3 m arriba, en el centro. A1 con balón y A2 (a 6 m de él) empiezan abajo. D espera delante de la portería.",
+ "juego": "A1 conduce hacia D hasta atraerlo, pasa a A2 y corre a su espalda. Solo vale gol si A2 le devuelve el pase en carrera y A1 remata. D roba o cierra la portería. Cada intento dura 10″.",
+ "punto": "Gol tras pase de vuelta: 2. Robo de D: 1 (propuesta).",
+ "consigna": "Atrae, pasa y corre a su espalda.",
+ "variantes": {
+  "facil": "El defensor empieza a 8 m de la portería y no puede entrar al área de 3 m.",
+  "dificil": "El gol vale solo a un toque y D empieza a 4 m de A1."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin defensor activo, solo un cono que superar. Benjamín (8–9): como en la ficha. Alevín (10–11): campo de 15 × 15 m y a un toque. Con 5 jugadores: 2 parejas y un defensor que rota.",
+ "fuente": {
+  "autor": "@klube.ai",
+  "titulo_original": "El pase de vuelta debe encontrar la carrera",
+  "ref": "https://www.instagram.com/klube.ai/reel/Dfy4THOKOL1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción del reel): 2 atacantes contra 1 defensor en 12 × 12 m; quien conduce atrae al rival, pasa y ataca su espalda; el gol en la minipuerta exige recibir el pase de vuelta. (propuesta): medidas de la portería, intentos, rotación, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 13.5,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "porterias": [
+   {
+    "x": 6,
+    "y": 0,
+    "lado": "T",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 9,
+    "f": -150
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 7,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     11
+    ],
+    "b": [
+     6.8,
+     9
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     6.8,
+     9
+    ],
+    "b": [
+     11,
+     9
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 9
+   },
+   {
+    "a": [
+     6.8,
+     9
+    ],
+    "b": [
+     2.5,
+     4.5
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 6
+   },
+   {
+    "a": [
+     11,
+     9
+    ],
+    "b": [
+     3,
+     3.8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "nt": 0.5
+   }
+  ]
+ }
+}

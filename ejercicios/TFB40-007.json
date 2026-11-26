@@ -1,0 +1,176 @@
+{
+ "id": "TFB40-007",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Del 2v2 a dos 1v1",
+ "formato": "2v2 → 1v1 + 1v1",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–12 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "15 min",
+ "series": "4 series de 3′ con 1′ de descanso; cambian de pasillo en cada serie.",
+ "objetivo": "Atacar en 2v2 y, al terminar, defender en 1v1 cuando los rivales reciben balón del entrenador. Cómo explicarlo: «Combina con tu compañero; terminas y defiendes de lado». Errores típicos: quedarse mirando el tiro, defender de frente, no correr hacia la propia portería. Qué observar: rapidez del cambio de ataque a defensa y perfil del defensor.",
+ "montaje": "Campo de 25 × 25 m con miniportería arriba y otra en cada esquina de abajo, al final de dos pasillos laterales. 2 entrenadores con balones arriba.",
+ "juego": "La pareja amarilla ataca 2v2 la miniportería de arriba. Al acabar, los entrenadores dan balón a los 2 rojos: dos 1v1 a la vez, cada uno a su miniportería de esquina. Luego cambian los papeles.",
+ "punto": "Cada gol: 1 punto para su equipo.",
+ "consigna": "Terminas y defiendes.",
+ "variantes": {
+  "facil": "Los entrenadores esperan 2″ antes de dar el balón.",
+  "dificil": "Los entrenadores dan balón en cuanto se dispara, aunque la acción no haya terminado."
+ },
+ "adaptacion": "Prebenjamín (6–7): los entrenadores esperan a que termine la jugada. Benjamín (8–9): dan balón en cuanto se dispara. Alevín (10–11): como en la ficha.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Del 2 contra 2 a dos 1 contra 1 en miniporterías",
+  "ref": "40 tareas de transiciones y oleadas · pág. 16"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: título, objetivo, montaje, reglas, puntuación, consignas, variantes, series y adaptación por edades de la tarea. (propuesta): edad y nivel, rotaciones concretas, número de intentos y cualquier ajuste de texto para que quepa en la ficha.",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "lines": [
+   [
+    [
+     7,
+     12
+    ],
+    [
+     7,
+     25
+    ],
+    "6 5"
+   ],
+   [
+    [
+     18,
+     12
+    ],
+    [
+     18,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 4,
+    "portero": false
+   },
+   {
+    "x": 3,
+    "y": 25,
+    "lado": "B",
+    "ancho": 3,
+    "portero": false
+   },
+   {
+    "x": 22,
+    "y": 25,
+    "lado": "B",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 18,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 2,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 23,
+    "y": 3,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     18
+    ],
+    "b": [
+     10,
+     13
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     10,
+     13
+    ],
+    "b": [
+     16,
+     14
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 9
+   },
+   {
+    "a": [
+     16,
+     14
+    ],
+    "b": [
+     12.5,
+     0
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 4
+   }
+  ]
+ }
+}

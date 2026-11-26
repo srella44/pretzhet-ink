@@ -1,0 +1,176 @@
+{
+ "id": "ATH-015",
+ "bloque": "Superioridades",
+ "titulo": "Área 4v4 + comodín exterior",
+ "formato": "4v4 + 1",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "9–10 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "15 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cambia el comodín exterior en cada ronda (propuesta).",
+ "objetivo": "Decidir bien en la zona de máximo riesgo (el área): tirar, pasar al comodín o conservar, según la dificultad. Cuidar la pérdida: si pierden, los atacantes deben impedir al instante que el rival marque en las tres miniporterías del borde del área. Cómo explicarlo: «Antes de pasar o tirar, piensa qué pasa si la pierdo». Errores típicos: tirar forzado, olvidar la cobertura. Qué observar: presión tras pérdida y uso del comodín.",
+ "montaje": "Zona de 30 × 25 m: portería con portero arriba y 3 miniporterías abajo (borde del área). 4 amarillos con balón y 1 comodín blanco fuera contra 4 azules.",
+ "juego": "Los amarillos juegan con el comodín exterior y buscan el tiro. Si pierden el balón, impiden que los azules marquen en las 3 miniporterías.",
+ "punto": "Gol: 2. Gol azul a miniportería: 1 (propuesta).",
+ "consigna": "Perder y presionar ya.",
+ "variantes": {
+  "facil": "Los azules son 3 y el comodín puede jugar dentro.",
+  "dificil": "El comodín solo toca a un toque y los azules son 5 con una sola miniportería libre."
+ },
+ "adaptacion": "Benjamín (8–9): 3v3 + comodín en 20 × 20 m. Infantil (12–13): como en la ficha. Cadete (14–15): 5v4 y comodín a un toque. Con 8 jugadores: 4v3 y comodín.",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "P.G. + 3 P.P. ÁREA DE META 4/4 + C EXT (SUPERIORIDAD)",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 25"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): ejercicio de superioridad con portería grande y 3 porterías pequeñas en el borde del área para obligar a los atacantes a impedir el tiro rival tras pérdida; formato 4/4 + comodín exterior. (propuesta): medidas, colocación, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 34,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 5,
+    "y": 25,
+    "lado": "B",
+    "ancho": 3,
+    "portero": false
+   },
+   {
+    "x": 15,
+    "y": 25,
+    "lado": "B",
+    "ancho": 3,
+    "portero": false
+   },
+   {
+    "x": 25,
+    "y": 25,
+    "lado": "B",
+    "ancho": 3,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 15,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 7,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 7,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 11,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 11,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 19,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 19,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     15
+    ],
+    "b": [
+     10,
+     7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     10,
+     7
+    ],
+    "b": [
+     32,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     32,
+     10
+    ],
+    "b": [
+     20,
+     7
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

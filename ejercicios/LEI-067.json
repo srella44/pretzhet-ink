@@ -1,0 +1,157 @@
+{
+ "id": "LEI-067",
+ "bloque": "Superioridades",
+ "titulo": "Posesión 3v1 y ataque",
+ "formato": "3v1 + portería",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–9 jug.",
+ "espacio": "30 × 15 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cada ronda empieza otro azul de defensor (propuesta).",
+ "objetivo": "Conservar el balón en superioridad 3v1 con pases sencillos y, después, atacar la portería con velocidad y buena decisión. Cómo explicarlo: «Primero mover el balón, luego atacar». Errores típicos: pasar en cuanto reciben sin mirar, juntarse, tirar sin esperar los 5 pases. Qué observar: pase al lado libre, apoyos en triángulo y si el defensor se cansa (cambio cada vez que lo pida).",
+ "montaje": "Dos cuadrados de 15 × 15 m seguidos y portería con portero tras el segundo. 3 amarillos con balón contra 1 azul en el primero; 2 azules esperan al lado.",
+ "juego": "Los amarillos dan 5 pases sin que la toque el azul; luego cruzan el centro y atacan la portería. Si el azul roba, pasa a sus 2 compañeros y se une: nuevo 3v1.",
+ "punto": "Gol: 2. Robo del azul: 1 (propuesta).",
+ "consigna": "Primero mueve el balón, luego ataca.",
+ "variantes": {
+  "facil": "Defiende un azul y tocan 2 veces; con 3 pases basta para atacar.",
+  "dificil": "Hay que dar 8 pases y el azul puede salir también al segundo cuadrado."
+ },
+ "adaptacion": "Benjamín (8–9): 3v1 en 12 × 12 m y 3 pases. Infantil (12–13): 5 pases a dos toques. Si el defensor se cansa, lo sustituye otro (como en la fuente). Con 6 jugadores: un solo grupo y sin azules de espera.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "3v1 Possession Game.",
+  "ref": "LeicesterCity.pdf · p. 74"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado): 3 atacantes conservan el balón al menos 5 pases antes de pasar la línea del centro y atacar la portería; si el defensor roba, juega a sus compañeros del cuadrado contiguo y se une a ellos para otro 3v1; el defensor cansado puede relevarse. (propuesta): medidas, portero, número de compañeros que esperan, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 30,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 18,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 18,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     12,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     12,
+     4
+    ],
+    "b": [
+     5,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     5,
+     12
+    ],
+    "b": [
+     21,
+     9
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 9
+   }
+  ],
+  "labels": [
+   [
+    11,
+    18.5,
+    "CUADRADO CONTIGUO: 2 AZULES",
+    "start"
+   ]
+  ]
+ }
+}

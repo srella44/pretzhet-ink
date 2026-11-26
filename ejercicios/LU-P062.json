@@ -1,0 +1,212 @@
+{
+ "id": "LU-P062",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Juego directo y 2.ª jugada",
+ "formato": "11v10 en 2 zonas",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "15–21 jug.",
+ "espacio": "70 × 45 m",
+ "duracion": "20 min",
+ "series": "3 bloques de 5′ con 2′ de pausa; en cada bloque cambia el portero que inicia (propuesta).",
+ "objetivo": "Salir jugando y, cuando haya un receptor libre y perfilado, lanzar el juego directo a una zona de 2.ª jugada; sumarse a tiempo para ganar el segundo balón y, si se pierde, cambiar de rol y recuperar. Cómo explicarlo: «Busca al libre, juega largo y llega al rechace». Errores típicos: balón largo sin receptor, no sumarse a la 2.ª jugada. Qué observar: perfil del receptor y llegada de los 3 jugadores que se suman.",
+ "montaje": "Campo de 70 × 45 m. Zona 1 (30 m): 7 amarillos (con portero) contra 5 rojos. Zona 2: portería con portero y 4 amarillos contra 4 rojos. El portero amarillo tiene el balón.",
+ "juego": "El portero inicia; zona 1 a 2 toques. Con un amarillo libre y perfilado, balón largo a zona 2: se suman 2 amarillos y 1 rojo (6v6) y se juega libre. Si roban en zona 1, los rojos finalizan.",
+ "punto": "Gol: 2. Ganar la 2.ª jugada: 1. Rojo que finaliza: 2.",
+ "consigna": "Busca al libre, juega largo y llega al rechace.",
+ "variantes": {
+  "facil": "Zona 1 a toques libres y el balón largo va a un amarillo sin oposición en zona 2.",
+  "dificil": "Zona 1 a 1 toque y se suma solo 1 amarillo a la zona 2."
+ },
+ "adaptacion": "Infantil (12–13): 7v6 en 55 × 40 m. Cadete (14–15): como en la ficha. Con 14 jugadores: 6 amarillos (con portero) contra 4 rojos en zona 1 y 3v3 en zona 2.",
+ "fuente": {
+  "autor": "Level Up Coach · 300 ejercicios",
+  "titulo_original": "ATAQUE VS DEFENSA - Juego directo - Segunda jugada - Segunda oleada",
+  "ref": "300-Ejercicios-base-de-datos-Level-Up-Coach.pdf · p. 62"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 11v10 con rondo posicional a 2 toques y zona de juego directo (5 defensores + portero contra 4 atacantes) a la que se suman 2 atacantes y 1 defensor; si roban los defensores finalizan; 21 jugadores, 45 × 90 m. (propuesta): edad (la fuente es de categorías mayores), campo de 70 × 45 m, reparto exacto por zonas, puntuación, series, variantes y adaptación; el diagrama muestra solo parte de los jugadores.",
+ "diagrama": {
+  "field": [
+   70,
+   45
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 73,
+   "ymin": -2,
+   "ymax": 47
+  },
+  "lines": [
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     45
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 70,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 8,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2,
+    "y": 22.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 37,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 22.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 35,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 52,
+    "y": 22.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 56,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 56,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 64,
+    "y": 22.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     22.5
+    ],
+    "b": [
+     9,
+     8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     9,
+     8
+    ],
+    "b": [
+     17,
+     22.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     17,
+     22.5
+    ],
+    "b": [
+     42,
+     10
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     9,
+     37
+    ],
+    "b": [
+     35,
+     35
+    ],
+    "k": "run",
+    "n": 4,
+    "side": 1,
+    "s0": 9
+   }
+  ]
+ }
+}

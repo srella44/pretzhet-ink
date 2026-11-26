@@ -1,0 +1,172 @@
+{
+ "id": "TFB40-024",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "2v1 en medio y 4v2 en área",
+ "formato": "2v1 → 4v2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10–14 jug.",
+ "espacio": "50 × 50 m",
+ "duracion": "18 min",
+ "series": "3 series de 5′ con 1′ 30″ de descanso.",
+ "objetivo": "Superar una primera línea en 2v1 y atacar el área en 4v2 con dos jugadores que se incorporan. Cómo explicarlo: «Fija y suelta; incorpórate a tiempo; ocupa primer palo, segundo palo y frontal». Errores típicos: llegar tarde, amontonarse en el primer palo, tirar sin mirar. Qué observar: tiempos de llegada de las bandas y ocupación de los tres espacios del área.",
+ "montaje": "Medio campo de 50 × 50 m: portería con portero y 3 miniporterías en el centro. 2 amarillos con balón contra 1 rojo (zona media); 2 amarillos en las bandas; 2 rojos en el área.",
+ "juego": "Fase 1: 2v1 en la zona media. Al entrar en la de ataque, se incorporan los 2 amarillos de las bandas: 4v2 hasta finalizar. Si los rojos roban, marcan en las miniporterías.",
+ "punto": "Gol: 1 punto. Gol rojo en miniportería: 1.",
+ "consigna": "Fija y suelta; incorpórate a tiempo.",
+ "variantes": {
+  "facil": "4v1 en la segunda fase.",
+  "dificil": "Solo se incorpora un jugador (3v2), o el gol solo vale tras centro desde la banda, o 12″ para todo el ataque."
+ },
+ "adaptacion": "Alevín (10–11): se incorpora un solo jugador (3v2). Infantil y cadete: los dos. Juvenil (16–18): el defensor de la primera fase puede volver.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "2 contra 1 en el medio y 4 contra 2 en el área",
+  "ref": "40 tareas de transiciones y oleadas · pág. 35"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: título, objetivo, montaje, reglas, puntuación, consignas, variantes, series y adaptación por edades de la tarea. (propuesta): edad y nivel, rotaciones concretas, número de intentos y cualquier ajuste de texto para que quepa en la ficha.",
+ "diagrama": {
+  "field": [
+   50,
+   50
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -1,
+   "ymax": 51
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    0,
+    25,
+    "L"
+   ],
+   [
+    0,
+    40,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 28,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 46,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 45,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 45,
+    "y": 36,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     28,
+     17
+    ],
+    "b": [
+     32,
+     20
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     24,
+     4
+    ],
+    "b": [
+     40,
+     10
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     24,
+     46
+    ],
+    "b": [
+     40,
+     40
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 9
+   },
+   {
+    "a": [
+     32,
+     20
+    ],
+    "b": [
+     42,
+     14
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ]
+ }
+}

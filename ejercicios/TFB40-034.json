@@ -1,0 +1,134 @@
+{
+ "id": "TFB40-034",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Defender 1v3 y aguantar",
+ "formato": "1v3 + 2 que vuelven",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9–15 jug.",
+ "espacio": "45 × 40 m",
+ "duracion": "18 min",
+ "series": "3 series de 5 oleadas con 1′ de descanso; cada jugador pasa al menos 2 veces por el papel de último defensor.",
+ "objetivo": "Defender en inferioridad cuando el rival contraataca con más jugadores: el último defensor retrasa y orienta; los que vuelven corren hacia la portería, no hacia el balón. Cómo explicarlo: «Aguanta, no entres; ganar tiempo es defender». Errores típicos: lanzarse al balón, dejar el pase al centro abierto, volver mirando al balón. Qué observar: distancia del último defensor y llegada en escalera de los dos azules.",
+ "montaje": "Medio campo de 45 × 40 m con portería y portero. 3 rojos con balón en el centro contra 1 azul a 30 m de la portería; 2 azules salen a la vez, 5 m detrás.",
+ "juego": "El azul no se lanza: retrasa, lleva el balón a la banda y tapa el pase al centro hasta que llegan los otros dos (corren a la portería). Los rojos tienen 8″ para tirar. Si roban, los azules cruzan el centro.",
+ "punto": "Gol rojo: 1. Robo y cruzar el centro: 1. Aguantar: +1.",
+ "consigna": "¡Aguanta, no entres!",
+ "variantes": {
+  "facil": "Los 2 azules salen a la altura de los rojos o los rojos tienen 6″.",
+  "dificil": "Vuelve un solo azul o los rojos tienen 10″."
+ },
+ "adaptacion": "Infantil (12–13): los azules salen a la altura de los rojos. Cadete (14–15): 5 m por detrás. Juvenil (16–18): vuelve un solo azul y 10″ para los rojos.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Defender en inferioridad: 1 contra 3 aguantando hasta que vuelven los compañeros",
+  "ref": "40 tareas de transiciones y oleadas · pág. 46"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: título, objetivo, montaje, reglas, puntuación, consignas, variantes, series y adaptación por edades de la tarea. (propuesta): edad y nivel, rotaciones concretas, número de intentos y cualquier ajuste de texto para que quepa en la ficha.",
+ "diagrama": {
+  "field": [
+   45,
+   40
+  ],
+  "extent": {
+   "xmin": -8,
+   "xmax": 47,
+   "ymin": 8,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 45,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 15,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": -5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": -5,
+    "y": 26,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     20
+    ],
+    "b": [
+     9,
+     20
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     -5,
+     14
+    ],
+    "b": [
+     7,
+     14
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 9
+   },
+   {
+    "a": [
+     -5,
+     26
+    ],
+    "b": [
+     7,
+     26
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 9
+   }
+  ]
+ }
+}

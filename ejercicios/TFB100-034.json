@@ -1,0 +1,170 @@
+{
+ "id": "TFB100-034",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Posesión 5v3 + finalización",
+ "formato": "5v3 + porterías",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "13–14 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "15 min",
+ "series": "3 bloques de 3′ (30″ por trío) con 1′ de descanso; después se cambian los equipos.",
+ "objetivo": "Mantener el balón en superioridad sumando pases y, en defensa, presionar en bloques de 30″ para robar y finalizar. Cómo explicarlo: «Abre el campo y ofrécete entre líneas; presión fuerte 30 segundos». Errores típicos: no ocupar las 4 esquinas, pases al rival, presionar sin tapar el pase interior. Qué observar: amplitud y entrada del trío descansado.",
+ "montaje": "Cuadrado de 25 × 25 m con una portería con portero en cada fondo. 5 amarillos (4 abiertos y 1 dentro) contra un trío rojo que presiona dentro; otro trío rojo espera fuera, junto a una portería.",
+ "juego": "Los cinco suman pases. Cada 30″ el trío de dentro sale y entra el que esperaba. Si un trío roba, puede marcar en cualquiera de las dos porterías. Si el balón sale, el entrenador da otro a los cinco.",
+ "punto": "Amarillos: 1 punto por pase. Gol rojo tras robo: 5 puntos.",
+ "consigna": "Abre el campo y ofrécete entre líneas.",
+ "variantes": {
+  "facil": "Toques libres y presiones de 20″.",
+  "dificil": "2 toques máximo o solo 4 jugadores en posesión."
+ },
+ "adaptacion": "Benjamín (8–9): los cinco con toques libres. Alevín (10–11): 2 toques y 5″ para marcar tras robo. Cadete y juvenil: como en la ficha.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base",
+  "titulo_original": "Posesión 5 contra 3 con finalización tras robo",
+  "ref": "100 tareas de fútbol base · pág. 48"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: título, objetivo, montaje, reglas, puntuación, consignas, variantes, series y adaptación por edades de la tarea. (propuesta): edad y nivel, rotaciones concretas, número de intentos y cualquier ajuste de texto para que quepa en la ficha.",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -8,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 12.5,
+    "y": 25,
+    "lado": "B",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -3,
+    "y": 21,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": -3,
+    "y": 24.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "B",
+    "x": -6.5,
+    "y": 22.7,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     19
+    ],
+    "b": [
+     12.5,
+     13
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 9,
+    "s1": 9
+   },
+   {
+    "a": [
+     12.5,
+     13
+    ],
+    "b": [
+     22,
+     8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 9,
+    "s1": 9
+   }
+  ],
+  "labels": [
+   [
+    -7,
+    19,
+    "ESPERAN",
+    "start"
+   ]
+  ]
+ }
+}
