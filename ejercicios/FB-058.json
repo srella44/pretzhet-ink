@@ -1,0 +1,153 @@
+{
+ "id": "FB-058",
+ "bloque": "Técnica y duelos",
+ "titulo": "Técnica individual básica",
+ "formato": "4 filas con balón",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ (una por superficie: interior, exterior, suela, pierna menos hábil) con 30″ de pausa (propuesta).",
+ "objetivo": "Dominar la conducción y los giros básicos con todas las superficies del pie, con el balón cerca y la cabeza levantada para no chocar en el cruce central (propuesta). Cómo explicarlo: «toques pequeños, el balón nunca a más de un paso; en el cono central gira con la superficie que toca». Errores típicos: tocar largo; mirar solo el balón y chocar en el centro; usar siempre la pierna buena. Qué observar: número de toques, superficie usada, mirada al llegar al centro. Material: 8 conos, 1 balón por jugador.",
+ "montaje": "16 × 16 m con una fila de 2–4 en cada esquina, todos con balón. En el centro, un cuadrado de 3 × 3 m con un cono por fila.",
+ "juego": "El primero de cada fila conduce a su cono central (1), lo rodea con la superficie de la serie (2) y sigue a la fila siguiente, en el sentido del reloj (3).",
+ "punto": "Fila que antes hace 2 vueltas sin tocar conos: 1 punto (propuesta).",
+ "consigna": "Toques cortos y cabeza arriba.",
+ "variantes": {
+  "facil": "Sin cuadrado central: conducir de esquina a esquina por el lado (propuesta).",
+  "dificil": "Al rodear el cono, una finta (bicicleta, amago) y cambio de ritmo; dos jugadores por fila salen a la vez (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 14 × 14 m y superficies interior y exterior. Infantil (12–13): todas las superficies y fintas. Si hay muchos niños, dos cuadrados iguales (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TÉCNICA INDIVIDUAL. NIVEL BÁSICO",
+  "ref": "https://toplidercoach.com/futbol-base/tecnica-individual-nivel-basico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se elige un ejercicio de conducción con giros en cruce central como «técnica individual de nivel básico».",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 17.6,
+   "ymin": -1.6,
+   "ymax": 17.6
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    16,
+    0
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    6.5,
+    6.5
+   ],
+   [
+    9.5,
+    6.5
+   ],
+   [
+    9.5,
+    9.5
+   ],
+   [
+    6.5,
+    9.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 1,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 15,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 15,
+    "f": -45,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     1
+    ],
+    "b": [
+     5.6,
+     5.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     5.8,
+     7.2
+    ],
+    "b": [
+     7,
+     11
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 4,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     7.6,
+     11.4
+    ],
+    "b": [
+     14.2,
+     14.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 4,
+    "s1": 12,
+    "n": 3
+   }
+  ]
+ }
+}

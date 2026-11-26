@@ -1,0 +1,171 @@
+{
+ "id": "FB-066",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Pase bajo valla en triángulo",
+ "formato": "Triángulo 3 filas",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "12 min",
+ "series": "4 × 2′ con 45″ de pausa; cambio de sentido en cada serie (propuesta).",
+ "objetivo": "Tercer paso de pase y control con valla: precisión del pase raso (por debajo de la valla), control orientado y coordinación al seguir el pase saltando una valla (propuesta). Cómo explicarlo: «el pase raso pasa por debajo de la valla; luego sigue tu pase y salta la valla sin pisarla». Errores típicos: pase alto que golpea la valla; control parado; frenar antes de saltar. Qué observar: tobillo firme en el pase, primer toque hacia el siguiente compañero, salto a pies juntos o con un apoyo. Material: 3 conos, 6 vallas bajas (20–30 cm), 2 balones.",
+ "montaje": "Triángulo de 10 m con una fila por cono. En el centro de cada lado, valla de 30 cm (el pase va raso por debajo) y, al lado, otra de 15 cm para saltar (propuesta).",
+ "juego": "A pasa raso bajo la valla a B (1) y sigue su pase saltando la valla baja (2). B controla orientado y pasa a C bajo la valla siguiente (3). Cada uno, a la fila a la que pasó.",
+ "punto": "Pases bajo la valla sin tocarla en 2′ (propuesta).",
+ "consigna": "Pase raso, sigue tu pase y salta.",
+ "variantes": {
+  "facil": "Sin salto (se rodea la valla) y lado de 8 m (propuesta).",
+  "dificil": "Control y pase a dos toques máximo y dos balones desde el inicio (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 8 m, un balón, control libre. Alevín (10–11): 10 m, dos balones y control orientado obligatorio (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASE Y CONTROL CON VALLA (3)",
+  "ref": "https://toplidercoach.com/futbol-base/pase-y-control-con-valla-3/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se interpreta «(3)» como la progresión más completa (triángulo con salto); FB-068 es el paso (1) en parejas. «Valla» = valla baja de entrenamiento; se propone que el pase vaya raso por debajo. El paso (2) es FB-067, carril B.",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 11.8,
+   "ymin": -1.6,
+   "ymax": 11.6
+  },
+  "tag": "triángulo 10 m",
+  "cones": [
+   [
+    0,
+    10
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    5,
+    1.34
+   ]
+  ],
+  "lines": [
+   [
+    [
+     4.2,
+     10
+    ],
+    [
+     5.8,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     7.1,
+     5.0
+    ],
+    [
+     7.9,
+     6.4
+    ],
+    "1 0"
+   ],
+   [
+    [
+     2.9,
+     5.0
+    ],
+    [
+     2.1,
+     6.4
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 10.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.8,
+    "y": 10.6,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 0.2,
+    "f": 120
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.8,
+     10.6
+    ],
+    "b": [
+     10.2,
+     10.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1,
+    "nt": 0.7
+   },
+   {
+    "a": [
+     0.2,
+     9.2
+    ],
+    "b": [
+     8,
+     8.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     10.8,
+     10.6
+    ],
+    "b": [
+     5.4,
+     1.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    11.4,
+    "VALLA",
+    "middle"
+   ]
+  ]
+ }
+}

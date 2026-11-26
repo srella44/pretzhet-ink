@@ -1,0 +1,195 @@
+{
+ "id": "FB-042",
+ "bloque": "Técnica y duelos",
+ "titulo": "Círculo: conduce y regatea",
+ "formato": "Conducción + 1v1",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug.",
+ "espacio": "Círculo 16 m",
+ "duracion": "12 min",
+ "series": "4 × 2′ con 45″ de pausa; un defensor nuevo en cada serie y cambio de sentido de la conducción cada 30″ (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada en un espacio curvo y, cuando toca, atreverse a cruzar regateando a un rival (propuesta). Cómo explicarlo: «conduces mirando al entrenador; cuando dice tu nombre, entras, engañas al defensor con el cuerpo y sales rápido por el otro lado». Errores típicos: mirar solo el balón en el anillo; entrar despacio y sin finta; tocar el balón demasiado largo delante del defensor. Qué observar: conducción con el pie de fuera, finta antes del cambio de ritmo, aceleración al salir. Material: 12 conos, 6 discos, 1 balón por jugador, petos azules.",
+ "montaje": "Círculo de 16 m (12 conos) y otro de 6 m dentro (discos). Todos con balón en el anillo. Un defensor de azul en el círculo pequeño.",
+ "juego": "Todos conducen por el anillo en el mismo sentido (1). El entrenador dice un nombre: ese entra (2), regatea al defensor y sale por el lado opuesto (3). El defensor no sale.",
+ "punto": "Cruce con balón: 1 punto. Si roba, cambian papeles y suma 1 (propuesta).",
+ "consigna": "Cabeza arriba; engaña y acelera.",
+ "variantes": {
+  "facil": "Defensor que solo puede tocar con la mano en la espalda (sin robar); círculo pequeño de 8 m (propuesta).",
+  "dificil": "Se llaman dos jugadores a la vez y hay dos defensores; el que cruza debe hacerlo con la pierna menos hábil (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): círculo pequeño de 8 m y defensor pasivo las dos primeras series. Alevín (10–11): 6 m y defensor real. Infantil (12–13): dos defensores y salida obligatoria en menos de 4″ (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN EN CÍRCULO Y REGATE",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-en-circulo-y-regate/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se combina conducción en anillo con un 1 contra 1 en el círculo central.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1.2,
+   "xmax": 17.2,
+   "ymin": -1.2,
+   "ymax": 17.2
+  },
+  "tag": "círculo 16 m",
+  "zones": [
+   {
+    "t": "circle",
+    "x": 8,
+    "y": 8,
+    "r": 3
+   }
+  ],
+  "cones": [
+   [
+    16,
+    8
+   ],
+   [
+    14.93,
+    12
+   ],
+   [
+    12,
+    14.93
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    4,
+    14.93
+   ],
+   [
+    1.07,
+    12
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    1.07,
+    4
+   ],
+   [
+    4,
+    1.07
+   ],
+   [
+    8,
+    0
+   ],
+   [
+    12,
+    1.07
+   ],
+   [
+    14.93,
+    4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.4,
+    "y": 3.4,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.6,
+    "y": 3.4,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 9.5,
+    "f": 100,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 170,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 10.5,
+    "f": -100,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8.6,
+    "y": 8.6,
+    "f": [
+     3.6,
+     9.5
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.4,
+     3.4
+    ],
+    "b": [
+     7.8,
+     1.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     2.2,
+     10.5
+    ],
+    "b": [
+     5.6,
+     9.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 5,
+    "n": 2
+   },
+   {
+    "a": [
+     6.6,
+     8.2
+    ],
+    "b": [
+     12.8,
+     6.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,268 @@
+{
+ "id": "FB-080",
+ "bloque": "Calentamiento",
+ "titulo": "Agilidad, coordinación, salida",
+ "formato": "Circuito 1+1",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "25 × 10 m",
+ "duracion": "12 min",
+ "series": "3 series de 3 recorridos por jugador, con 1′ de pausa y un apoyo distinto en la escalera cada serie (propuesta).",
+ "objetivo": "Calentar la coordinación de pies (escalera), la agilidad (zigzag entre picas) y la aceleración (sprint de 8 m), terminando con balón (propuesta). Cómo explicarlo: «en la escalera pies rápidos y cortos; en el zigzag bajo y pegado a la pica; al salir, empuja fuerte los primeros pasos». Errores típicos: pisar los aros; zigzag amplio; acelerar erguido. Qué observar: frecuencia y ritmo en la escalera, brazos en la aceleración, control del pase final. Material: 2 escaleras o 16 discos, 8 picas o conos, balones junto al entrenador, 2 miniporterías. Detalle: salen dos a la vez, uno por recorrido; la miniportería está a 6 m del final del sprint.",
+ "montaje": "Dos recorridos a 4 m: escalera de 8 casillas, 4 picas en zigzag a 1,5 m y sprint de 8 m. Al final, entrenador con balones y miniportería.",
+ "juego": "Escalera con el apoyo de la serie (1), zigzag (2) y sprint (3). El entrenador le pasa y tira a la miniportería en 2 toques (4).",
+ "punto": "Primero en marcar: 1 punto. Aro pisado o pica saltada: 0 (propuesta).",
+ "consigna": "Pies rápidos; acelera fuerte.",
+ "variantes": {
+  "facil": "Sin carrera por parejas; apoyos sencillos (un pie en cada casilla) (propuesta).",
+  "dificil": "Salida a la señal visual del entrenador y tiro a un toque (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): apoyos sencillos y sin competir la 1.ª serie. Alevín e infantil (10–13): apoyos laterales y combinados, carrera por parejas y tiro a un toque (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD+COORDINACIÓN+ACELERACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/agilidadcoordinacionaceleracion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se ordenan las tres partes del título (agilidad, coordinación, aceleración) en un circuito con final de tiro; se diferencia de FB-064 (T de agilidad) y FB-056 (circuito técnico).",
+ "diagrama": {
+  "field": [
+   28,
+   12
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1,
+   "xmax": 29,
+   "ymin": -0.6,
+   "ymax": 12.6
+  },
+  "tag": "circuito 25 m",
+  "discs": [
+   [
+    1,
+    2.5
+   ],
+   [
+    1.5,
+    2.5
+   ],
+   [
+    2,
+    2.5
+   ],
+   [
+    2.5,
+    2.5
+   ],
+   [
+    3,
+    2.5
+   ],
+   [
+    3.5,
+    2.5
+   ],
+   [
+    4,
+    2.5
+   ],
+   [
+    4.5,
+    2.5
+   ],
+   [
+    1,
+    8.5
+   ],
+   [
+    1.5,
+    8.5
+   ],
+   [
+    2,
+    8.5
+   ],
+   [
+    2.5,
+    8.5
+   ],
+   [
+    3,
+    8.5
+   ],
+   [
+    3.5,
+    8.5
+   ],
+   [
+    4,
+    8.5
+   ],
+   [
+    4.5,
+    8.5
+   ]
+  ],
+  "cones": [
+   [
+    7,
+    1.8
+   ],
+   [
+    8.5,
+    3.2
+   ],
+   [
+    10,
+    1.8
+   ],
+   [
+    11.5,
+    3.2
+   ],
+   [
+    7,
+    7.8
+   ],
+   [
+    8.5,
+    9.2
+   ],
+   [
+    10,
+    7.8
+   ],
+   [
+    11.5,
+    9.2
+   ]
+  ],
+  "goals": [
+   [
+    28,
+    5.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21.5,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0,
+     4.2
+    ],
+    "b": [
+     5,
+     4.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     2.6
+    ],
+    "b": [
+     12.4,
+     2.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     2.6
+    ],
+    "b": [
+     20.5,
+     2.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     21.5,
+     11
+    ],
+    "b": [
+     21.4,
+     3.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     21.8,
+     2.8
+    ],
+    "b": [
+     27.2,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    2.8,
+    0.6,
+    "ESCALERA",
+    "middle"
+   ],
+   [
+    9.3,
+    0.6,
+    "ZIGZAG",
+    "middle"
+   ],
+   [
+    16.8,
+    0.6,
+    "SPRINT",
+    "middle"
+   ]
+  ]
+ }
+}

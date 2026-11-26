@@ -1,0 +1,188 @@
+{
+ "id": "FB-034",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 7 contra 7 + 2",
+ "formato": "7v7+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "20 min",
+ "series": "4 × 4′ con 1′ de pausa; cambio de comodines tras cada serie (propuesta).",
+ "objetivo": "Mantener el balón con muchos jugadores: dar amplitud y profundidad, ofrecer líneas de pase y usar a los comodines de los fondos para cambiar el juego (propuesta). Cómo explicarlo: «si está cerrado por un lado, apóyate en el comodín y sal por el otro». Errores típicos: todos se acercan al balón; pases horizontales sin progresar; se olvida el comodín del fondo contrario; tras perder, nadie presiona. Qué observar: distancia entre compañeros (8–12 m), perfil al recibir, reacción en los 5″ tras pérdida. Material: petos de dos colores y blancos, 10 balones repartidos por el perímetro. Detalle: el comodín solo recibe y devuelve a un jugador de campo; balones de repuesto en las bandas para reiniciar rápido.",
+ "montaje": "40 × 30 m. Dos equipos de 7 dentro y un comodín en cada fondo, por fuera, con el que tiene el balón, a 2 toques (propuesta).",
+ "juego": "Pases a 3 toques; los comodines no se la pasan entre ellos. Si roban, el rival ataca al momento. Balón fuera: saca el entrenador al otro equipo.",
+ "punto": "8 pases seguidos: 1 punto. De un comodín al otro: 2 (propuesta).",
+ "consigna": "Abre el campo y usa el comodín para cambiar.",
+ "variantes": {
+  "facil": "Comodines también dentro (7 contra 7 + 4) y toques libres (propuesta).",
+  "dificil": "2 toques para todos y el punto de 8 pases solo vale si ha tocado uno de los comodines (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 45 × 35 m y 3 toques. Cadete (14–15): 35 × 30 m, 2 toques y tras robo el equipo debe presionar 5″ para recuperar (punto extra si recupera). Con 12 jugadores, 5 contra 5 + 2 en 32 × 25 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "POSESIÓN 7X7+2",
+  "ref": "https://toplidercoach.com/futbol-base/posesion-7x72/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se dibujan los 16 jugadores; los comodines en los fondos.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 41.5,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     8
+    ],
+    "b": [
+     13.4,
+     14.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     25.4,
+     20.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 2
+   },
+   {
+    "a": [
+     26,
+     21
+    ],
+    "b": [
+     40.6,
+     15.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 3
+   }
+  ]
+ }
+}

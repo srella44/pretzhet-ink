@@ -1,0 +1,170 @@
+{
+ "id": "FB-068",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Control y pase con valla",
+ "formato": "Parejas",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "8 × 4 m por pareja",
+ "duracion": "10 min",
+ "series": "4 × 1′30″ con 30″ de pausa; series 1–2 pierna buena, 3–4 pierna menos hábil (propuesta).",
+ "objetivo": "Primer paso: pase raso y preciso con el interior y control para dejar el balón listo, usando una valla como «portería» por la que debe pasar el balón (propuesta). Cómo explicarlo: «pie de apoyo al lado del balón y apuntando a la valla; golpea con el interior por el centro del balón para que vaya raso». Errores típicos: golpear con la punta; balón que bota y toca la valla; control con la planta que se escapa. Qué observar: pie de apoyo, tobillo bloqueado, control hacia el pie que va a pasar. Material: 1 valla de 30 cm y 4 discos por pareja, 1 balón por pareja.",
+ "montaje": "Parejas a 8 m con un balón. En medio, una valla de 30 cm: el balón pasa por debajo. Cada uno entre 2 discos a 1 m. Parejas en línea a 4 m.",
+ "juego": "A pasa raso bajo la valla (1). B controla entre sus discos (2) y devuelve por debajo (3). Si sale bien, control hacia un lado y pase con la otra pierna.",
+ "punto": "Pase bajo la valla sin tocarla: 1 punto, en 1′30″ (propuesta).",
+ "consigna": "Apoyo al lado; golpea con el interior.",
+ "variantes": {
+  "facil": "Valla más alta o un arco de dos conos en vez de valla; distancia de 6 m (propuesta).",
+  "dificil": "Un toque, o control obligatorio orientado fuera de los discos y pase con la pierna contraria (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 6 m y control libre. Alevín (10–11): 8–10 m, control orientado y pierna menos hábil en la mitad de las series (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONTROL Y PASE, CON VALLA (1)",
+  "ref": "https://toplidercoach.com/futbol-base/control-y-pase-con-valla-1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se interpreta «(1)» como el paso inicial, en parejas; FB-066 es el (3) en triángulo con salto; el (2), FB-067, es del carril B.",
+ "diagrama": {
+  "field": [
+   8,
+   8
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -2,
+   "xmax": 10,
+   "ymin": -0.6,
+   "ymax": 8.6
+  },
+  "tag": "8 m entre jugadores",
+  "lines": [
+   [
+    [
+     4,
+     0.8
+    ],
+    [
+     4,
+     2.6
+    ],
+    "1 0"
+   ],
+   [
+    [
+     4,
+     4.8
+    ],
+    [
+     4,
+     6.6
+    ],
+    "1 0"
+   ]
+  ],
+  "discs": [
+   [
+    0,
+    1.2
+   ],
+   [
+    0,
+    2.2
+   ],
+   [
+    8,
+    1.2
+   ],
+   [
+    8,
+    2.2
+   ],
+   [
+    0,
+    5.2
+   ],
+   [
+    0,
+    6.2
+   ],
+   [
+    8,
+    5.2
+   ],
+   [
+    8,
+    6.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.6,
+    "y": 1.7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8.6,
+    "y": 1.7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -0.6,
+    "y": 5.7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.6,
+    "y": 5.7,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.6,
+     1.7
+    ],
+    "b": [
+     8.4,
+     1.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     8.6,
+     5.7
+    ],
+    "b": [
+     -0.4,
+     5.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    4,
+    3.7,
+    "VALLA",
+    "middle"
+   ]
+  ]
+ }
+}

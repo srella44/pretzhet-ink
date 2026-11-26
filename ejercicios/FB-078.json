@@ -1,0 +1,155 @@
+{
+ "id": "FB-078",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Cuadrado de pases",
+ "formato": "Cuadrado + pivote",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "14 min",
+ "series": "4 × 3′ con 45″ de pausa; el pivote central cambia cada serie (propuesta).",
+ "objetivo": "Circular rápido con pases de distinta distancia en un cuadrado con un pivote central, buscando siempre el perfil para jugar a un toque y la velocidad del pase (propuesta). Cómo explicarlo: «mira antes, recibe abierto y pasa fuerte al pie de fuera». Errores típicos: recibir de frente y tener que girar; pase flojo; el pivote recibe de espaldas. Qué observar: perfil abierto del pivote, pase largo tenso por el suelo, ritmo continuo. Material: 5 conos, 2 balones. Detalle: el pivote recibe y gira (si recibe de espaldas, el contador vuelve a 0); las filas 1 y 3 salen a la vez.",
+ "montaje": "Cuadrado de 16 × 16 m con una fila de 2–3 en cada esquina y un pivote en el centro. Las filas 1 y 3 (opuestas) tienen balón (propuesta).",
+ "juego": "1 pasa al pivote (1), que gira y pasa a 2 (2). 2 pasa largo a 3 (3), que conduce y vuelve a empezar por el pivote. Cada uno va a la fila a la que pasó. Dos balones.",
+ "punto": "Pases buenos en 3′; balón parado: vuelta a 0 (propuesta).",
+ "consigna": "Perfil abierto, pase fuerte.",
+ "variantes": {
+  "facil": "Sin pivote: rueda por los lados del cuadrado, un balón (propuesta).",
+  "dificil": "Todo a un toque; un defensor pasivo marca al pivote y obliga a dejar de cara (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 14 × 14 m, un balón, controles libres. Infantil (12–13): 16 m, dos balones. Cadete (14–15): 18 m, un toque y defensor sobre el pivote (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CUADRADO DE PASES",
+  "ref": "https://toplidercoach.com/futbol-base/cuadrado-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se elige un cuadrado con pivote central para diferenciarlo de las ruedas de pases del banco (FB-076).",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 17.8,
+   "ymin": -1.8,
+   "ymax": 17.8
+  },
+  "tag": "16 × 16 m",
+  "cones": [
+   [
+    0,
+    16
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    16,
+    0
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 16.8,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16.8,
+    "y": 16.8,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 16.8,
+    "y": -0.8,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": -0.8,
+    "f": 45
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.8,
+     16.8
+    ],
+    "b": [
+     7.6,
+     9.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     8.4,
+     9.4
+    ],
+    "b": [
+     16.4,
+     16.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 2
+   },
+   {
+    "a": [
+     16.8,
+     16.2
+    ],
+    "b": [
+     17,
+     0.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    9.4,
+    7.0,
+    "PIVOTE",
+    "start"
+   ]
+  ],
+  "dashed": true
+ }
+}

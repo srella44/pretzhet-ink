@@ -1,0 +1,177 @@
+{
+ "id": "FB-036",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Control orientado y pase",
+ "formato": "Cuadrado 4 filas",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "12 min",
+ "series": "4 × 2′ con 45″ de pausa; cambio de sentido en cada serie (derecha, izquierda) (propuesta).",
+ "objetivo": "Aprender a recibir orientando el primer toque hacia donde va el siguiente pase, con la pierna más alejada y el cuerpo abierto (propuesta). Cómo explicarlo: «antes de que llegue, mira a quién vas a pasar; el primer toque ya va hacia allí». Errores típicos: control parado debajo del cuerpo; recibir con la pierna cercana y quedar de espaldas; mirar solo el balón. Qué observar: perfil abierto antes de recibir, primer toque que pasa por la puerta, pase en el segundo toque. Material: 4 conos, 8 discos, 2 balones.",
+ "montaje": "10 × 10 m. Junto a cada cono, una puerta de 1 m (2 discos) girada hacia el cono siguiente. Una fila de 2–3 por cono; la 1, con balón.",
+ "juego": "1 pasa a 2 (1). 2 controla y su primer toque cruza la puerta (2); con el segundo pasa a 3 (3). Quien pasa va a la fila a la que pasó. Luego, dos balones.",
+ "punto": "Pases seguidos en 2′; si el control no cruza la puerta, vuelta a 0 (propuesta).",
+ "consigna": "Mira antes y orienta el primer toque.",
+ "variantes": {
+  "facil": "Sin puertas y con dos toques libres para controlar; cuadrado de 8 × 8 m (propuesta).",
+  "dificil": "Control obligatorio con el exterior en un sentido; un jugador en el centro presiona al que recibe sin robar (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): 8 × 8 m, un balón, control con la planta y pase con el interior, sin puertas. Benjamín (8–9): puertas y un balón. Alevín (10–11): dos balones y sentido cambiado cada minuto (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONTROL ORIENTADO + PASE",
+  "ref": "https://toplidercoach.com/futbol-base/control-orientado-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se elige el cuadrado con puertas de control orientado como versión típica para estas edades.",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 12.4,
+   "ymin": -2.4,
+   "ymax": 12.4
+  },
+  "tag": "10 × 10 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    0,
+    10
+   ]
+  ],
+  "discs": [
+   [
+    1.6,
+    9.6
+   ],
+   [
+    1.6,
+    8.2
+   ],
+   [
+    8.4,
+    9.6
+   ],
+   [
+    9.8,
+    8.2
+   ],
+   [
+    8.4,
+    0.4
+   ],
+   [
+    8.4,
+    1.8
+   ],
+   [
+    1.6,
+    0.4
+   ],
+   [
+    0.2,
+    1.8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 10.4,
+    "f": -20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.2,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11.2,
+    "y": -1,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": -1,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": -2.0,
+    "y": 11.9,
+    "f": -20
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.2,
+     10.4
+    ],
+    "b": [
+     10.6,
+     10.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     10.8,
+     10.4
+    ],
+    "b": [
+     9.2,
+     7.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 9,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     9.3,
+     6.6
+    ],
+    "b": [
+     11.0,
+     -0.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 4,
+    "s1": 11,
+    "n": 3
+   }
+  ],
+  "labels": [],
+  "dashed": true
+ }
+}

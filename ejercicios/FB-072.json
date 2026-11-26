@@ -1,0 +1,173 @@
+{
+ "id": "FB-072",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tercer hombre y desdoble",
+ "formato": "Circuito 4 puestos",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "15 min",
+ "series": "4 × 3′ con 1′ de pausa; series 3 y 4 por la banda izquierda (propuesta).",
+ "objetivo": "Combinar dos recursos: el tercer hombre para salir de cara y el desdoblamiento del lateral para ganar la espalda por fuera y terminar (propuesta). Cómo explicarlo: «el lateral da el pase y no se para: corre por fuera; el pivote deja de cara al interior y este busca al que desdobla». Errores típicos: el lateral espera a ver el pase; el pivote se gira; el pase al desdoble llega tarde o a los pies. Qué observar: arranque del lateral al soltar el balón, perfil del interior, pase por delante. Material: 6 conos, 1 miniportería o portería con portero, 10 balones.",
+ "montaje": "30 × 20 m. Lateral A con balones en la banda; pivote B a 10 m, por dentro y de espaldas; interior C a 6 m de B; miniportería al fondo.",
+ "juego": "A pasa a B (1) y arranca por la banda (2). B deja de cara a C a un toque (3). C pasa por delante de A (4), que conduce y tira. Rotación: A→B→C→fila A.",
+ "punto": "Gol tras la secuencia: 2. Si falla un paso: 1 (propuesta).",
+ "consigna": "Pasa y corre; pase al espacio.",
+ "variantes": {
+  "facil": "B puede controlar y pasar (2 toques) y A sale cuando ve el pase de B (propuesta).",
+  "dificil": "Un defensor pasivo junto a B y otro que sale tras el pase 3 para defender a A (2 contra 1 final) (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 25 × 18 m, 2 toques y sin defensa. Infantil (12–13): un toque en B. Cadete (14–15): defensores en la variante y final contra portero (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASES, DESDOBLAMIENTO Y TERCER HOMBRE",
+  "ref": "https://toplidercoach.com/futbol-base/pases-desdoblamiento-y-tercer-hombre/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se combina el tercer hombre (B deja de cara a C) con el desdoblamiento del que inició la jugada; se diferencia de FB-032 por el desdoble y la finalización.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31.6,
+   "ymin": -1,
+   "ymax": 22
+  },
+  "tag": "30 × 20 m",
+  "goals": [
+   [
+    30,
+    9,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 19.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     17
+    ],
+    "b": [
+     13.4,
+     12.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     17.8
+    ],
+    "b": [
+     23,
+     18
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     14,
+     12
+    ],
+    "b": [
+     8.8,
+     5.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     8.8,
+     5.4
+    ],
+    "b": [
+     22.6,
+     17.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     23.4,
+     17.4
+    ],
+    "b": [
+     29.2,
+     9.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    4,
+    21.2,
+    "LATERAL",
+    "middle"
+   ],
+   [
+    14,
+    14.8,
+    "PIVOTE",
+    "middle"
+   ],
+   [
+    8,
+    2.2,
+    "INTERIOR",
+    "middle"
+   ]
+  ]
+ }
+}

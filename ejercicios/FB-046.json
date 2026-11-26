@@ -1,0 +1,148 @@
+{
+ "id": "FB-046",
+ "bloque": "Superioridades",
+ "titulo": "1 contra 1 de reacción",
+ "formato": "1v1",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "12 min",
+ "series": "2 rondas de 4′ con 1′ de pausa; cada pareja juega 4–5 duelos por ronda, de 10″ máximo (propuesta).",
+ "objetivo": "Reaccionar antes que el rival a un balón que aparece y resolver el 1 contra 1 que sale de esa carrera: atacar rápido la portería si lo ganas, cerrar y frenar si lo pierdes (propuesta). Cómo explicarlo: «sentados no se ve el balón hasta que lo suelto; quien llega primero ataca, el otro defiende al momento». Errores típicos: el que pierde la carrera se rinde; el que gana conduce hacia el rival en vez de hacia la portería; defensa que se lanza al suelo. Qué observar: primer paso al levantarse, protección del balón con el cuerpo, perfil del defensor. Material: 2 miniporterías, 10 balones junto al entrenador, petos de dos colores. Detalle: los amarillos atacan la portería derecha y los azules la izquierda; si el defensor roba, ataca su portería; tras el duelo, cada uno vuelve a su fila.",
+ "montaje": "20 × 14 m con una miniportería en cada fondo. Dos filas (amarillos y azules) sentadas en el centro de una banda; el entrenador con balones en la otra (propuesta).",
+ "juego": "Salen uno de cada fila, de espaldas al campo. El entrenador lanza un balón al centro (1): se levantan y corren (2). Quien lo toca ataca su portería (3); el otro defiende. 10″ máx.",
+ "punto": "Gol: 1 punto. Gol tras robar: 2 (propuesta).",
+ "consigna": "Si la ganas, ataca; si no, cierra.",
+ "variantes": {
+  "facil": "Salida de pie, mirando al campo, y portería grande de 3 m (propuesta).",
+  "dificil": "Salida tumbados boca abajo y el entrenador lanza dos balones: cada uno puede ir a por cualquiera (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): salida de pie y portería de 3 m con conos. Alevín (10–11): salida sentados, miniporterías. Infantil (12–13): salida tumbados y 15 × 12 m para menos tiempo de decisión (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "1X1 VELOCIDAD DE REACCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/1x1-velocidad-de-reaccion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se interpreta como carrera de reacción a un balón lanzado que acaba en 1 contra 1 a miniporterías.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 21.4,
+   "ymin": -2,
+   "ymax": 16.4
+  },
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    20,
+    7,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8.6,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 11.4,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 7.2,
+    "y": 15.4,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 12.8,
+    "y": 15.4,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": -1.2,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "balls": [
+   [
+    10,
+    6
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     -1.2
+    ],
+    "b": [
+     10,
+     5.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8.6,
+     13
+    ],
+    "b": [
+     9.6,
+     7.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     10.6,
+     6.4
+    ],
+    "b": [
+     19,
+     7
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10,
+    2.2,
+    "ENTRENADOR LANZA",
+    "middle"
+   ]
+  ]
+ }
+}

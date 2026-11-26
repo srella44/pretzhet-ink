@@ -1,0 +1,158 @@
+{
+ "id": "FB-048",
+ "bloque": "Calentamiento",
+ "titulo": "Velocidad con giros",
+ "formato": "Carrera 1+1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "30 × 12 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 carreras por jugador, con 1′ de pausa entre series y vuelta al paso entre carreras (propuesta).",
+ "objetivo": "Acelerar, frenar, girar y volver a acelerar con buena técnica: bajar el centro de gravedad en el giro, apoyos cortos y salida explosiva (propuesta). Cómo explicarlo: «antes del cono, pasos cortos y cuerpo bajo; giras pegado al cono y sales empujando con la pierna de fuera». Errores típicos: frenar con la espalda recta y los pies lejos; girar abierto, lejos del cono; salir del giro de pie, sin inclinarse. Qué observar: frenada en 2–3 apoyos cortos, giro cerca del cono, primeros 3 pasos tras el giro. Material: 10 conos, 2 picas para la meta.",
+ "montaje": "Dos calles de 30 m a 6 m. En cada una, conos a 5, 10, 15 y 20 m y meta a 28 m. Una fila en cada salida; salen de dos en dos.",
+ "juego": "Sprint al cono 1 y giro de 360° (1); sprint al 2 y giro al revés; igual en el 3 y el 4, y sprint a la meta (2). Vuelven al paso por fuera; otra pareja cada 20″.",
+ "punto": "Primero en la meta: 1 punto. Cono sin rodear: punto al rival (propuesta).",
+ "consigna": "Pasos cortos, giro pegado y sal fuerte.",
+ "variantes": {
+  "facil": "Giros de 180° (ida y vuelta al cono) en lugar de 360°, y solo 2 conos (propuesta).",
+  "dificil": "Con balón: conducción y giro con el balón en cada cono (interior, exterior, suela, Cruyff) (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): conos a 5 m y descanso completo. Cadete (14–15): conos a 6 m, salida tras estímulo visual y versión con balón. No usar más de 12 carreras por jugador en calentamiento (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD CON GIROS",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-con-giros/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   30,
+   12
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 31,
+   "ymin": -0.6,
+   "ymax": 12.6
+  },
+  "tag": "2 calles de 30 m",
+  "cones": [
+   [
+    5,
+    3
+   ],
+   [
+    10,
+    3
+   ],
+   [
+    15,
+    3
+   ],
+   [
+    20,
+    3
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    10,
+    9
+   ],
+   [
+    15,
+    9
+   ],
+   [
+    20,
+    9
+   ],
+   [
+    28,
+    1
+   ],
+   [
+    28,
+    11
+   ]
+  ],
+  "lines": [
+   [
+    [
+     28,
+     1
+    ],
+    [
+     28,
+     11
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 1,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 4.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.6,
+     3.4
+    ],
+    "b": [
+     8.8,
+     4.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     4.2
+    ],
+    "b": [
+     27,
+     3.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    28.6,
+    6,
+    "META",
+    "start"
+   ]
+  ]
+ }
+}

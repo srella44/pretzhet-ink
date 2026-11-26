@@ -1,0 +1,149 @@
+{
+ "id": "FB-070",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cabeza y pie a un toque",
+ "formato": "Tríos",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "10 × 5 m por trío",
+ "duracion": "12 min",
+ "series": "3 rondas de 10 lanzamientos por jugador (5 de cabeza, 5 de pie, alternos); cambio de papeles en cada ronda (propuesta).",
+ "objetivo": "Devolver de primeras con la cabeza y con el pie un balón lanzado con la mano, con precisión a las manos del lanzador (propuesta). Cómo explicarlo: «de cabeza: ojos abiertos, golpe con la frente y el cuello firme; de pie: interior o empeine, tobillo bloqueado y el balón a las manos». Errores típicos: cerrar los ojos; golpear con la coronilla; esperar el balón quieto en vez de atacarlo. Qué observar: frente de golpeo, brazos para equilibrio, pie de apoyo. Material: 1 balón por trío (blando o n.º 4 para los pequeños), 4 conos. Detalle: se alternan 5 lanzamientos a la cabeza y 5 al pie; el lanzador cambia en cada ronda.",
+ "montaje": "Tríos: lanzador con el balón en las manos, otro a 5 m y el tercero detrás, en un cono a 3 m. Tríos en línea a 4 m (propuesta).",
+ "juego": "El lanzador tira a la cabeza (1); se devuelve a sus manos (2) y se retrocede al cono (3); entra el tercero. El siguiente va al pie (volea con el interior). Se alterna.",
+ "punto": "Balón que coge sin moverse: 2 puntos; moviéndose: 1 (propuesta).",
+ "consigna": "Ataca el balón: frente o tobillo firme.",
+ "variantes": {
+  "facil": "El balón bota antes de devolverlo de pie y se lanza de cabeza desde 3 m (propuesta).",
+  "dificil": "El lanzador dice «cabeza» o «pie» en el momento de lanzar y el balón llega a media altura (muslo y pecho también) (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): balón blando, 3 m y cabeza solo a lanzamientos suaves (pocas repeticiones). Alevín (10–11): balón n.º 4, 5 m. Infantil (12–13): balón n.º 5 y variante con aviso al lanzar (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DEVOLUCIÓN CABEZA Y PIE A UN CONTACTO",
+  "ref": "https://toplidercoach.com/futbol-base/devolucion-cabeza-y-pie-a-un-contacto/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1,
+   "xmax": 13,
+   "ymin": -0.6,
+   "ymax": 10.6
+  },
+  "tag": "5 m",
+  "cones": [
+   [
+    9.4,
+    2
+   ],
+   [
+    9.4,
+    7
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 1,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 1,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10.6,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     2
+    ],
+    "b": [
+     6,
+     2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     2.6
+    ],
+    "b": [
+     1.4,
+     2.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 2
+   },
+   {
+    "a": [
+     6.4,
+     1.4
+    ],
+    "b": [
+     9.2,
+     1.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    1,
+    4.4,
+    "LANZADOR",
+    "middle"
+   ]
+  ]
+ }
+}

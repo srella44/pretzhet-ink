@@ -1,0 +1,162 @@
+{
+ "id": "FB-038",
+ "bloque": "Finalización",
+ "titulo": "Pase, desdoble y tiro",
+ "formato": "2 filas + portero",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "5–9 jug.",
+ "espacio": "25 × 22 m",
+ "duracion": "14 min",
+ "series": "3 × 4′ con 1′ de pausa; en la 3.ª serie se hace por la banda izquierda (propuesta).",
+ "objetivo": "Aprender el desdoblamiento: después de pasar, correr por fuera del compañero para recibir de nuevo con espacio y terminar en gol (propuesta). Cómo explicarlo: «das el pase y le rodeas por la espalda hacia la banda; él conduce hacia dentro para dejarte sitio». Errores típicos: el que pasa se queda mirando; desdobla por dentro y choca con el compañero; el pase al desdoble va al pie parado en vez de al espacio; tiro sin mirar al portero. Qué observar: arranque inmediato tras pasar, conducción hacia dentro de B, pase por delante del corredor. Material: portería de fútbol 7 o 8, 5 conos, 10 balones. Detalle: la fila B está en la banda derecha; sale una pareja cada 15″; A pasa a la fila B y B a la fila A.",
+ "montaje": "25 × 22 m con portero. Fila A con balones en el centro, a 20 m de la portería; fila B en la banda, 6 m por delante. Cono de tiro a 10 m.",
+ "juego": "A pasa a B (1) y le rodea por la espalda hacia la banda (2). B conduce 2 m hacia dentro y pasa por delante de A (3). A tira antes del cono (4). Cambian de fila.",
+ "punto": "Gol: 1. A un toque: 2. Balón blocado: 1 al portero (propuesta).",
+ "consigna": "Pasa y rodea por fuera.",
+ "variantes": {
+  "facil": "Sin portero o con portería más grande; B puede pasar desde parado (propuesta).",
+  "dificil": "Un defensor sale desde el poste cuando A pasa a B y se juega un 2 contra 1 hasta el final (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): portería de fútbol 7, tiro sin límite de toques y distancias de 15 m. Alevín (10–11): 20 m, tiro máximo a dos toques y defensor pasivo en la variante (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASE, DESDOBLAMIENTO Y TIRO",
+  "ref": "https://toplidercoach.com/futbol-base/pase-desdoblamiento-y-tiro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se elige el desdoblamiento exterior por la banda derecha con finalización del que desdobla.",
+ "diagrama": {
+  "field": [
+   28,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 29.6,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "tag": "25 × 22 m",
+  "porterias": [
+   {
+    "x": 28,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    19,
+    12.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 6,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 4,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 15,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 17.4,
+    "f": -30
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     6
+    ],
+    "b": [
+     12.4,
+     14.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     4.8,
+     6.4
+    ],
+    "b": [
+     21,
+     18.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2,
+    "nt": 0.62
+   },
+   {
+    "a": [
+     13,
+     15
+    ],
+    "b": [
+     20.4,
+     17.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     21.4,
+     17
+    ],
+    "b": [
+     27,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    3,
+    1.4,
+    "FILA A",
+    "middle"
+   ],
+   [
+    13,
+    11.8,
+    "FILA B",
+    "middle"
+   ]
+  ]
+ }
+}

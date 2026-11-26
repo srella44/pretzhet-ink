@@ -1,0 +1,175 @@
+{
+ "id": "FB-032",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tercer hombre sin rival",
+ "formato": "Circuito 4 puestos",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "24 × 16 m",
+ "duracion": "12 min",
+ "series": "4 × 2′30″ con 45″ de pausa; en las series 3 y 4 la rueda va por la derecha (propuesta).",
+ "objetivo": "Primer paso del tercer hombre: entender que, si el compañero que recibe está de espaldas, lo mejor es que deje de primeras a un tercero que llega de cara (propuesta). Cómo explicarlo: «quien recibe de espaldas no se gira: apoya y suelta; quien llega, arranca cuando sale el pase, no antes». Errores típicos: B controla y se gira; C arranca tarde o se queda parado esperando; pase de A flojo o a la pierna equivocada. Qué observar: perfil de C (de cara al juego), dejada de B al pie de C, pase final de C sin control. Material: 6 conos por estación, 6–8 balones. Detalle: sale una secuencia cada 8″; con dos estaciones, cada una con 5–6 jugadores. D vuelve conduciendo a la fila A.",
+ "montaje": "24 × 16 m. Fila A con balones; pivote B a 10 m, de espaldas; fila C 6 m detrás y al lado de B; receptor D a 10 m de B. Con 10–12, dos estaciones.",
+ "juego": "A pasa a B (1). C arranca al salir el pase (2) y B le deja de cara a un toque (3). C pasa a D sin controlar (4). Todos al puesto siguiente.",
+ "punto": "Secuencias limpias en 2′30″; si B o C controlan, no cuenta (propuesta).",
+ "consigna": "De espaldas no gires: deja de cara.",
+ "variantes": {
+  "facil": "B puede dar dos toques y C sale desde parado; distancias de 8 m (propuesta).",
+  "dificil": "Un defensor pasivo detrás de B obliga a dejar de primeras; C debe pasar a D a un toque y D finaliza en miniportería (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): distancias de 8–10 m y pase de C con control permitido al principio. Cadete (14–15): 12 m, todo a un toque y defensor semiactivo detrás de B. Con pocos jugadores, una sola estación con dos jugadores en la fila A (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASES TERCER HOMBRE (1)",
+  "ref": "https://toplidercoach.com/futbol-base/pases-tercer-hombre-1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se interpreta «(1)» como el primer paso, sin oposición; FB-030 añade un defensor y FB-028 lo lleva a un 4 contra 4 + 1.",
+ "diagrama": {
+  "field": [
+   24,
+   16
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 25,
+   "ymin": -1,
+   "ymax": 17
+  },
+  "cones": [
+   [
+    1,
+    9
+   ],
+   [
+    12,
+    9
+   ],
+   [
+    5,
+    14
+   ],
+   [
+    23,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 7.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 13,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 21.5,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     9
+    ],
+    "b": [
+     12,
+     7.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     6,
+     13
+    ],
+    "b": [
+     13.8,
+     11.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     7.6
+    ],
+    "b": [
+     14,
+     10.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 11,
+    "s1": 9,
+    "n": 3
+   },
+   {
+    "a": [
+     14.4,
+     11
+    ],
+    "b": [
+     21.5,
+     6.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 11,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    2.5,
+    3.5,
+    "FILA A",
+    "middle"
+   ],
+   [
+    12,
+    4.4,
+    "PIVOTE B",
+    "middle"
+   ],
+   [
+    5,
+    15.6,
+    "FILA C",
+    "middle"
+   ],
+   [
+    21.5,
+    2.6,
+    "D",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "id": "FB-082",
+ "bloque": "Calentamiento",
+ "titulo": "Pacman con balón",
+ "formato": "Pilla-pilla",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–16 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2′ con 45″ de pausa; Pacman nuevos en cada ronda (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada y cambiar de dirección rápido, moviéndose solo por las líneas de una cuadrícula, como en el videojuego (propuesta). Cómo explicarlo: «solo puedes ir por las líneas; mira dónde están los Pacman antes de cada cruce». Errores típicos: mirar solo el balón y quedar atrapado; salirse de la línea; frenar en el cruce sin cambiar de dirección. Qué observar: mirada en los cruces, toques cortos, giros con interior y exterior. Material: 25 conos o discos (cuadrícula de 5 × 5 m), 1 balón por jugador, petos. Detalle: salirse de la línea o perder el balón cuenta como pillado; gana quien más puntos sume en las 4 rondas.",
+ "montaje": "Cuadrado de 20 × 20 m con líneas cada 5 m (conos o discos). Todos con balón sobre las líneas; dos Pacman con peto, también con balón (propuesta).",
+ "juego": "Todos conducen solo por las líneas (1). Los Pacman pillan tocando con la mano (2). El pillado deja su balón en un cruce (bloquea la línea) y es Pacman a los 10″.",
+ "punto": "Sin ser pillado: 1 punto. Pacman: 1 por pillado (propuesta).",
+ "consigna": "Mira antes del cruce.",
+ "variantes": {
+  "facil": "Los Pacman van sin balón y la cuadrícula es de 6 × 6 m (propuesta).",
+  "dificil": "Tres Pacman y solo se puede conducir con la pierna menos hábil en la última ronda (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 2 Pacman sin balón la primera ronda. Infantil (12–13): Pacman con balón y cuadrícula de 4 × 4 m (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PACMAN FÍSICO TÉCNICO",
+  "ref": "https://toplidercoach.com/futbol-base/pacman-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. Edad propuesta en la base (10–13). Montaje, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se parte del juego popular «Pacman» (moverse solo por las líneas) y se hace con balón para la parte técnica.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 27,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "lines": [
+   [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     20
+    ],
+    "2 3"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     20
+    ],
+    "2 3"
+   ],
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     20
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     5
+    ],
+    [
+     20,
+     5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     20,
+     10
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     20,
+     15
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 2.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 10.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 8.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     3
+    ],
+    "b": [
+     5,
+     9
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     10.5
+    ],
+    "b": [
+     10,
+     16.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    16.8,
+    8.5,
+    "PACMAN",
+    "start"
+   ]
+  ]
+ }
+}

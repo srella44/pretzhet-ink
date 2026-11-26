@@ -1,0 +1,161 @@
+{
+ "id": "FB-074",
+ "bloque": "Técnica y duelos",
+ "titulo": "Conduce, regatea y gira",
+ "formato": "Recorrido 1+1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "24 × 12 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 recorridos por jugador, una finta y un giro distintos por ronda (propuesta).",
+ "objetivo": "Unir en un mismo recorrido conducción rápida, una finta para superar a un rival (pica o defensor pasivo) y un giro de 180° para cambiar de dirección (propuesta). Cómo explicarlo: «conduce rápido, frena antes de la pica, engaña con el cuerpo y sal por el otro lado; en el cono, gira sin que el balón se aleje». Errores típicos: llegar a la pica sin frenar; finta sin cambio de ritmo; giro amplio que pierde tiempo. Qué observar: distancia de inicio de la finta (1,5 m), salida en 2 toques, giro con la superficie pedida. Material: 6 conos, 2 picas, 4 discos, 1 balón por jugador.",
+ "montaje": "Dos calles de 24 m a 6 m. En cada una: pica o defensor pasivo a 8 m, cono de giro a 16 m y puerta de 2 m junto a la salida.",
+ "juego": "Conduce a la pica (1) y la supera con la finta de la ronda; en el cono gira 180° con el gesto de la ronda (2). Vuelve por fuera de la pica y cruza la puerta (3). Uno por calle.",
+ "punto": "Primero en la puerta: 1 punto. Pica o cono tocados: nada (propuesta).",
+ "consigna": "Frena, engaña y acelera.",
+ "variantes": {
+  "facil": "Sin carrera (cada uno a su ritmo) y giro libre (propuesta).",
+  "dificil": "Defensor real que sale de la pica cuando el atacante está a 3 m y puede robar hasta el cono (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): fintas sencillas (amago, cambio de dirección) y giro con interior y exterior. Infantil (12–13): bicicleta, elástica, Cruyff y defensor en la variante (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN, REGATE Y GIROS",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-regate-y-giros/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   24,
+   12
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 25.4,
+   "ymin": -0.6,
+   "ymax": 13
+  },
+  "tag": "2 calles de 24 m",
+  "cones": [
+   [
+    16,
+    3
+   ],
+   [
+    16,
+    9
+   ]
+  ],
+  "discs": [
+   [
+    0,
+    4.6
+   ],
+   [
+    0,
+    6.6
+   ],
+   [
+    0,
+    10.6
+   ],
+   [
+    0,
+    12.6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     3
+    ],
+    "b": [
+     6.6,
+     2.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8.6,
+     2.2
+    ],
+    "b": [
+     15.8,
+     2.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 4,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     16.6,
+     3.6
+    ],
+    "b": [
+     1,
+     5.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    8,
+    0.6,
+    "RIVAL",
+    "middle"
+   ],
+   [
+    16,
+    0.6,
+    "GIRO",
+    "middle"
+   ]
+  ]
+ }
+}

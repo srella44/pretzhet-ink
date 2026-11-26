@@ -1,0 +1,273 @@
+{
+ "id": "FB-044",
+ "bloque": "Calentamiento",
+ "titulo": "Reacción a colores",
+ "formato": "Duelo 1+1",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "2 cuadrados 6 × 6 m",
+ "duracion": "10 min",
+ "series": "3 series de 8 estímulos (uno cada 15–20″), con 1′ de pausa; la última serie, conduciendo un balón hasta el cono (propuesta).",
+ "objetivo": "Mejorar la velocidad de reacción a un estímulo visual y los primeros pasos rápidos en cualquier dirección (propuesta). Cómo explicarlo: «pies activos en el centro, mirada al entrenador; no adivines, reacciona». Errores típicos: salir antes de ver el color; estar con los pies parados y el peso atrás; frenar en seco sin bajar el centro de gravedad. Qué observar: posición de espera (rodillas flexionadas, apoyo en antepiés), primer paso hacia el cono correcto, cambio de dirección al tocar. Material: 4 conos de 4 colores por cuadrado (rojo, azul, amarillo, blanco), petos de los mismos colores para el entrenador.",
+ "montaje": "Dos cuadrados de 6 × 6 m a 3 m, con conos rojo, azul, amarillo y blanco en las esquinas. Un jugador en cada centro; el entrenador delante con 4 petos.",
+ "juego": "Trotan en el sitio. El entrenador alza un peto: corren a tocar ese cono (1) y vuelven al centro (2). 3 estímulos por pareja.",
+ "punto": "Primero en volver: 1 punto. Cono equivocado: punto al rival (propuesta).",
+ "consigna": "Pies vivos; sal en el primer paso.",
+ "variantes": {
+  "facil": "Estímulo de voz (el entrenador dice el color) y conos a 4 m del centro (propuesta).",
+  "dificil": "Estímulo doble: dos colores seguidos; o color «trampa»: el peto verde significa ir al cono opuesto (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): estímulo de voz y luego visual; sin balón. Infantil (12–13): estímulo visual y doble color; segunda parte conduciendo con el balón. Usar como calentamiento: máximo 8 estímulos por serie para no fatigar (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD DE REACCIÓN COLORES",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-de-reaccion-colores/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Los colores se indican con etiquetas en el diagrama.",
+ "diagrama": {
+  "field": [
+   15,
+   6
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -4.6,
+   "xmax": 19.6,
+   "ymin": -1.8,
+   "ymax": 10.2
+  },
+  "tag": "6 × 6 m",
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    "4 4"
+   ],
+   [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     6
+    ],
+    "4 4"
+   ],
+   [
+    [
+     6,
+     6
+    ],
+    [
+     0,
+     6
+    ],
+    "4 4"
+   ],
+   [
+    [
+     0,
+     6
+    ],
+    [
+     0,
+     0
+    ],
+    "4 4"
+   ],
+   [
+    [
+     9,
+     0
+    ],
+    [
+     15,
+     0
+    ],
+    "4 4"
+   ],
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     6
+    ],
+    "4 4"
+   ],
+   [
+    [
+     15,
+     6
+    ],
+    [
+     9,
+     6
+    ],
+    "4 4"
+   ],
+   [
+    [
+     9,
+     6
+    ],
+    [
+     9,
+     0
+    ],
+    "4 4"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    6,
+    0
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    9,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    6
+   ],
+   [
+    9,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3.4,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 3.4,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8.8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 8.8,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": -0.6,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3.4
+    ],
+    "b": [
+     5.6,
+     0.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     3.4
+    ],
+    "b": [
+     14.6,
+     0.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     5.4,
+     0.9
+    ],
+    "b": [
+     3.6,
+     3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 4,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    -0.8,
+    0,
+    "ROJO",
+    "end"
+   ],
+   [
+    -0.8,
+    6,
+    "BLANCO",
+    "end"
+   ],
+   [
+    15.8,
+    0,
+    "AZUL",
+    "start"
+   ],
+   [
+    15.8,
+    6,
+    "AMARILLO",
+    "start"
+   ]
+  ]
+ }
+}

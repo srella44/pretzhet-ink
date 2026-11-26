@@ -1,0 +1,157 @@
+{
+ "id": "FB-076",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda: conduce y pared",
+ "formato": "Rueda 4 conos",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "12 min",
+ "series": "4 × 2′30″ con 45″ de pausa; series 3 y 4 en sentido contrario (propuesta).",
+ "objetivo": "Encadenar pase, conducción y pared en una rueda continua, con pases firmes, conducción hacia el compañero y desmarque tras la pared (propuesta). Cómo explicarlo: «recibes, conduces hacia el siguiente para atraerle, le das y te la devuelve por delante». Errores típicos: conducción lenta mirando al balón; pared hacia atrás en vez de por delante; quedarse parado tras pasar. Qué observar: ritmo de conducción, pase en el momento en que el compañero está a 4–5 m, devolución al espacio. Material: 4 conos, 2–3 balones. Detalle: sentido 1→2→3→4; sale un balón nuevo cada 10″.",
+ "montaje": "Cuadrado de 14 × 14 m. Fila con balones en el cono 1 y un jugador en los conos 2, 3 y 4 (con 10–12, dos) (propuesta).",
+ "juego": "1 pasa a 2 (1). 2 conduce hacia 3 (2), le pasa a 5 m y 3 devuelve de primeras por delante (3). 2 pasa a 4 (4), que conduce al cono 1. Todos al cono siguiente.",
+ "punto": "Ruedas completas en 2′30″ sin que el balón se pare (propuesta).",
+ "consigna": "Conduce hacia él y pide la pared.",
+ "variantes": {
+  "facil": "Sin pared: 2 conduce y pasa a 3 (propuesta).",
+  "dificil": "Pared y pase a 4 a un toque; dos balones a la vez desde conos opuestos (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 12 × 12 m, un balón cada vez, controles libres. Alevín (10–11): 14 m y nuevo balón cada 10″. Infantil (12–13): 16 m y variante difícil (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASES, CONDUCCIÓN Y PARED",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pases-conduccion-y-pared/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 15.8,
+   "ymin": -1.8,
+   "ymax": 15.8
+  },
+  "tag": "14 × 14 m",
+  "cones": [
+   [
+    0,
+    14
+   ],
+   [
+    14,
+    14
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 14.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.8,
+    "y": 14.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 14.8,
+    "y": -0.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": -0.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 15.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -0.8,
+     14.8
+    ],
+    "b": [
+     14.2,
+     14.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 11,
+    "s1": 11,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     14.2
+    ],
+    "b": [
+     13.2,
+     6.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12.8,
+     6
+    ],
+    "b": [
+     14,
+     0
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 11,
+    "n": 3
+   },
+   {
+    "a": [
+     13.2,
+     6
+    ],
+    "b": [
+     -0.2,
+     -0.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 11,
+    "n": 4
+   }
+  ],
+  "dashed": true
+ }
+}

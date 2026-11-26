@@ -1,0 +1,169 @@
+{
+ "id": "FB-060",
+ "bloque": "Técnica y duelos",
+ "titulo": "Conduce y frena: carrera",
+ "formato": "Relevos",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "22 × 15 m",
+ "duracion": "12 min",
+ "series": "5 carreras de relevos por equipo con 45″ de pausa entre carreras (propuesta).",
+ "objetivo": "Conducir rápido y frenar el balón con la suela justo donde se pide, sin que se escape, para cambiar de dirección (propuesta). Cómo explicarlo: «toques largos cuando hay espacio, cortos al llegar; la suela encima del balón para pararlo en la zona». Errores típicos: llegar con el balón lejos y pasarse de la zona; frenar con el cuerpo antes que con el balón; parar con el interior y que siga rodando. Qué observar: último toque antes de la zona, pie de apoyo, giro después de frenar. Material: 9 conos, 12 discos, 1 balón por equipo.",
+ "montaje": "Tres calles de 22 m a 5 m. En cada calle, un equipo de 2–4 en fila y, a 15 m, una zona de 2 × 2 m con 4 discos (propuesta).",
+ "juego": "El primero de cada equipo conduce a la zona (1), frena el balón con la suela dentro, gira y vuelve conduciendo (2) a chocar la mano del siguiente, que sale.",
+ "punto": "Balón frenado en la zona: 1 punto. Equipo que acaba primero: 2 más. Si se sale, se frena otra vez (propuesta).",
+ "consigna": "Toques cortos y suela encima.",
+ "variantes": {
+  "facil": "Zona de 3 × 3 m y a 10 m; se puede frenar con cualquier superficie (propuesta).",
+  "dificil": "Zona de 1 × 1 m; frenar con la pierna menos hábil y salir hacia atrás con un giro de suela (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): zona de 3 × 3 m a 12 m. Alevín (10–11): 2 × 2 m a 15 m y dos zonas por calle (frenar en la primera y en la segunda) (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN Y FRENAR EL BALÓN, COMPETICIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-y-frenar-el-balon-competicion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se interpreta como relevos de conducción con frenada en zona.",
+ "diagrama": {
+  "field": [
+   22,
+   15
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 23,
+   "ymin": -0.8,
+   "ymax": 15.8
+  },
+  "tag": "3 calles de 22 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     1.5,
+     16,
+     3.5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     14,
+     6.5,
+     16,
+     8.5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     14,
+     11.5,
+     16,
+     13.5
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     5
+    ],
+    [
+     22,
+     5
+    ]
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     22,
+     10
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.4,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.6,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 0.4,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -1,
+    "y": 14,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.4,
+     2.5
+    ],
+    "b": [
+     13.6,
+     2.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     14.6,
+     8
+    ],
+    "b": [
+     1.6,
+     8.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    15,
+    -0.2,
+    "ZONA DE FRENADA",
+    "middle"
+   ]
+  ]
+ }
+}

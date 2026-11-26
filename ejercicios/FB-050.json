@@ -1,0 +1,157 @@
+{
+ "id": "FB-050",
+ "bloque": "Finalización",
+ "titulo": "Finalización 4 posiciones",
+ "formato": "4 puestos + portero",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug.",
+ "espacio": "30 × 22 m",
+ "duracion": "16 min",
+ "series": "4 × 3′ con 1′ de pausa; en la serie 3 el servidor cambia el orden (de derecha a izquierda) (propuesta).",
+ "objetivo": "Finalizar desde los cuatro sitios típicos del área: frontal izquierda y derecha y llegadas por las dos bandas, ajustando el golpeo a cada ángulo (propuesta). Cómo explicarlo: «controla hacia la portería, mira al portero y elige: fuerte al palo cercano o colocada al lejano». Errores típicos: controlar hacia fuera y perder el ángulo; tirar siempre al centro; en los puestos de banda, tirar sin ángulo en vez de buscar el palo largo. Qué observar: control orientado al tiro, apoyo del pie junto al balón, superficie de golpeo según el puesto. Material: portería grande, portero, 5 conos, 12 balones. Detalle: ronda de 4 tiros cada 25″; el servidor espera a que el portero esté colocado antes de cada pase.",
+ "montaje": "30 × 22 m con portero. Conos de tiro: bandas a 12 m de la portería y frontal izquierda y derecha a 16 m, con un jugador en cada uno. Servidor con balones a 20 m (propuesta).",
+ "juego": "El servidor pasa al puesto 1 (1), que tira en 2 toques (2). Con el portero colocado, pasa al 2 (3), y así hasta el 4. Quien tira va al puesto siguiente; el del 4, a servir.",
+ "punto": "Gol: 1. A un toque: 2. Parada: 1 al portero (propuesta).",
+ "consigna": "Control hacia portería y elige palo.",
+ "variantes": {
+  "facil": "Tiro sin límite de toques y servidor más cerca (15 m) (propuesta).",
+  "dificil": "Un defensor sale del poste cuando el servidor pasa y el tirador tiene 3″ para tirar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de fútbol 7 y puestos a 10–12 m. Infantil (12–13): puestos a 14–16 m y control obligatorio. Cadete (14–15): un toque en los puestos frontales y defensor en la variante (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FINALIZACIÓN 4 POSICIONES",
+  "ref": "https://toplidercoach.com/futbol-base/finalizacion-4-posiciones/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Se eligen como 4 posiciones las dos bandas y los dos lados de la frontal.",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1.6,
+   "ymax": 23.4
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    3,
+    12
+   ],
+   [
+    9,
+    16
+   ],
+   [
+    21,
+    16
+   ],
+   [
+    27,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10.4,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14.4,
+    "f": -70
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 14.4,
+    "f": -110
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 10.4,
+    "f": -120
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 21,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     21
+    ],
+    "b": [
+     4,
+     11.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     3.6,
+     9.6
+    ],
+    "b": [
+     12.6,
+     1.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     21
+    ],
+    "b": [
+     9.6,
+     15.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    17.4,
+    21.4,
+    "SERVIDOR",
+    "start"
+   ]
+  ]
+ }
+}
