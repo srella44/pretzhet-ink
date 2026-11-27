@@ -1,0 +1,162 @@
+{
+ "id": "AMO-015",
+ "bloque": "Técnica y duelos",
+ "titulo": "Salida y diagonal larga",
+ "formato": "5+1 vs 3",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de descanso; los presionadores rotan en cada serie (propuesta).",
+ "objetivo": "Trabajar la salida de balón: movimientos de la línea defensiva y del pivote, y cambiar de ritmo con un pase largo en diagonal tras la circulación (fuente). Factores clave: opciones cercanas de pase, velocidad y precisión del pase y velocidad de movimientos. Cómo explicarlo: «tranquilos en corto y rápidos en largo». Errores típicos: pase largo sin preparar, línea de 4 plana, pivote tapado. Qué observar: ofrecerse a distintas alturas.",
+ "montaje": "Campo de 40 × 30 m con portería grande a la izquierda. Portero, 4 defensas y 1 pivote (amarillos) y 3 presionadores azules. Un delantero amarillo espera a la derecha.",
+ "juego": "El equipo amarillo sale desde el portero con pases cortos. Tras 5 pases seguidos, pase largo en diagonal al delantero del lado contrario, que controla. Los azules presionan y roban si pueden.",
+ "punto": "1 punto por salida con 5 pases y diagonal controlada. Si roba el azul, 1 punto para él.",
+ "consigna": "Cinco pases cortos y diagonal al lado libre.",
+ "variantes": {
+  "facil": "Solo 2 presionadores y el pase largo puede ser raso (propuesta).",
+  "dificil": "Un toque en el pivote y la diagonal solo vale si los defensas cambian de lado antes (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 40 × 30 m, presión de 2 y pase largo al pie. Cadete: presión de 3 y diagonal al espacio. Con fútbol 7, 3 defensas y un pivote en 30 × 25 m.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 15",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 17"
+ },
+ "completado": "Fuente: salida de balón, movimientos de línea defensiva y pivote, golpeo largo diagonal tras 5 pases. Presionadores, medidas, puntos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 42.4,
+   "ymin": -2.4,
+   "ymax": 32.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     15
+    ],
+    "b": [
+     11,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     12
+    ],
+    "b": [
+     20,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     35,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    20,
+    32.6,
+    "5 PASES Y DIAGONAL LARGA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

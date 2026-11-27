@@ -1,0 +1,145 @@
+{
+ "id": "AAT-005",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rondo 7v3 triángulo",
+ "formato": "7v3",
+ "edad": "11–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "9 min",
+ "series": "3 × 3 min con 1 min de descanso (propuesta); la fuente da 9′ en total.",
+ "objetivo": "Defender en triángulo: el primero acosa al poseedor, el segundo vigila el salto al rival cercano y el tercero marca al interior (fuente). Cómo explicarlo: «orienta al poseedor a la banda y cierra el pase interior». Errores típicos: los tres corren al balón, el acosador llega de frente en vez de por el lado, nadie vigila al interior. Qué observar: cobertura en diagonal y salto solo cuando el exterior recibe.",
+ "montaje": "Cuadrado de 16 × 16 m: 6 amarillos por fuera (máximo 2 toques), 1 amarillo dentro y 3 azules defensores dentro. Un balón.",
+ "juego": "Los amarillos buscan al interior con pases. Los azules forman un triángulo: uno acosa al poseedor, otro vigila el salto al rival cercano y el tercero marca al interior. Orientan a banda.",
+ "punto": "Amarillos: 1 punto por pase al interior. Con robo, cambia el que roba con quien perdió; con pérdida sin presión, el defensor que más lleva.",
+ "consigna": "Acosa, cubre y marca al interior.",
+ "variantes": {
+  "facil": "Los exteriores juegan a 3 toques y el cuadrado es de 18 × 18 m (propuesta).",
+  "dificil": "Un toque en el exterior y cuadrado de 14 × 14 m (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 18 × 18 m y 3 toques. Infantil (12–13): medidas completas y 2 toques. Cadete: 14 × 14 m y un toque. Si hay 9 jugadores, jugar 6v3 con 5 exteriores.",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios Atlético",
+  "titulo_original": "Tarea Atlético 5 — Triángulo defensivo",
+  "ref": "10ejercicios_atleti.pdf · p. 10"
+ },
+ "completado": "Fuente completa: 7v3 (6 fuera + 1 dentro), 9 min, 2 toques y reglas de cambio de rol. Medidas, series, puntos por pase interior y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": -0.4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": -0.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 16.4,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 16.4,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 16.4,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.4,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 12.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     0
+    ],
+    "b": [
+     13,
+     0
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     0
+    ],
+    "b": [
+     8,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    8,
+    18.4,
+    "TRIÁNGULO DEFENSIVO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,162 @@
+{
+ "id": "RONDO-PLANB-22",
+ "bloque": "Calentamiento",
+ "titulo": "Pasa y corre",
+ "formato": "tríos",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug. (tríos)",
+ "espacio": "20 × 14 m",
+ "duracion": "10 min",
+ "series": "5 series de 1 min con 30″ de pausa; el trío cambia de dirección de giro cada serie (propuesta).",
+ "objetivo": "Calentar en frío con pases y desmarques continuos: pasar y moverse enseguida a ocupar el puesto del compañero que ha recibido (fuente: «el balón no se para nunca»). Cómo explicarlo: «pasa y corre: nunca te quedes mirando tu pase». Errores típicos: parar el balón antes de pasar, pasar flojo, correr hacia el sitio equivocado. Qué observar: pases al pie y a un toque, ritmo constante.",
+ "montaje": "Tríos en triángulo de 7–8 m con 3 conos y un balón por trío, separados 5 m en un campo de 20 × 14 m. Un jugador de cada trío empieza con balón.",
+ "juego": "El del balón pasa al siguiente compañero (siempre en el mismo sentido) y corre a ocupar su sitio. El que recibe pasa al tercero y corre a su sitio, sin parar. Se juega a un toque.",
+ "punto": "Cada trío cuenta sus pases seguidos en 1 min: 1 punto por cada 10 y se intenta batir el récord anterior.",
+ "consigna": "Pasa y corre al sitio de quien recibe.",
+ "variantes": {
+  "facil": "Triángulo de 5 m y control con dos toques (propuesta).",
+  "dificil": "Triángulo de 10 m, un toque y cambio de sentido de giro cada vez que el míster grita (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): triángulo de 5–6 m y dos toques. Alevín (10–11): 8 m y un toque. Con suelo pesado o frío, pases más cortos y más ritmo en las carreras; cuando se entra en calor, alargar el triángulo.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Pasa y corre",
+  "ref": "RONDO Bonus 3 · Plan B · «Frío o campo pesado»"
+ },
+ "completado": "Medidas del triángulo, toques, puntuación por pases, series y variantes (propuesta). Jugadores y edad propuestos.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    3,
+    3
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    13,
+    3
+   ],
+   [
+    19,
+    3
+   ],
+   [
+    16,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 10,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     9,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     3.3,
+     3.8
+    ],
+    "b": [
+     8.7,
+     3.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     9,
+     3
+    ],
+    "b": [
+     6,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6,
+    13,
+    "PASA Y OCUPA EL SITIO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

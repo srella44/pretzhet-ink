@@ -1,0 +1,225 @@
+{
+ "id": "AAT-002",
+ "bloque": "Técnica y duelos",
+ "titulo": "6v6 a cuatro zonas",
+ "formato": "6v6",
+ "edad": "11–13 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 24 m",
+ "duracion": "12 min",
+ "series": "3 × 4 min con 1 min de descanso; los jugadores del fondo y los del centro intercambian puesto cada serie (propuesta).",
+ "objetivo": "Mover al rival de lado a lado para abrir el pase al fondo y, en defensa, bascular en bloque para impedirlo (fuente: marcaje en zona y salto a la marca solo cuando recibe el jugador de delante). Cómo explicarlo: «atacar: abre al rival y busca al fondo; defender: nadie salta solo, todos cierran detrás». Errores típicos: saltar antes de que reciba, defensores en línea sin cobertura, pases al centro sin ángulo. Qué observar: distancias entre defensores y basculación al ritmo del balón.",
+ "montaje": "Campo de 40 × 24 m en 4 zonas (8 + 12 + 12 + 8 m). En cada fondo, 2 jugadores de un color y una miniportería. En el centro, 4 amarillos contra 4 rojos en línea.",
+ "juego": "El equipo con balón lo mueve de lado a lado en el centro y filtra el pase a sus 2 compañeros del fondo, que tiran. Los defensores marcan en zona y solo saltan a quien recibe delante; los demás cierran.",
+ "punto": "Gol: 1 punto. Tras gol o pérdida, saca el otro. 3 × 4 min.",
+ "consigna": "Abre al rival y busca el pase al fondo.",
+ "variantes": {
+  "facil": "Defensores solo mueven el cuerpo, sin quitar el balón, durante el primer minuto (propuesta).",
+  "dificil": "Los del fondo juegan a un toque y el pase al fondo solo vale si se ha pasado antes por los 4 jugadores del centro (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 20 m y los del fondo pueden controlar. Infantil (12–13): medidas completas y un toque en el fondo. Si hay 14 jugadores, 2 hacen de comodín en el centro con el equipo que tiene el balón.",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios Atlético",
+  "titulo_original": "Tarea Atlético 2 — Evitar los pases interiores del rival (orientar a banda)",
+  "ref": "10ejercicios_atleti.pdf · p. 4"
+ },
+ "completado": "Fuente completa: 6v6, 12 min, 4 zonas, 2 jugadores por equipo en el fondo, gol y pérdida reinician. Medidas, tamaño de las zonas, miniportería, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 42.2,
+   "ymin": -2.2,
+   "ymax": 26.2
+  },
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     24
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     24
+    ],
+    "6 5"
+   ],
+   [
+    [
+     32,
+     0
+    ],
+    [
+     32,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    40,
+    12,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 3,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 18,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     4
+    ],
+    "b": [
+     14,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     10
+    ],
+    "b": [
+     17,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     16
+    ],
+    "b": [
+     37,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    4,
+    -0.8,
+    "FONDO",
+    "middle"
+   ],
+   [
+    36,
+    -0.8,
+    "FONDO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

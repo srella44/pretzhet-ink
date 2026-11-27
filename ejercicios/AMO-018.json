@@ -1,0 +1,214 @@
+{
+ "id": "AMO-018",
+ "bloque": "Técnica y duelos",
+ "titulo": "Pasa fuera de tu línea",
+ "formato": "5v5",
+ "edad": "11–13 años",
+ "nivel": "Alto",
+ "jugadores": "10 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Mejorar la elección del pase y los ángulos de apoyo: obligar a jugar entre líneas distintas de la cuadrícula (fuente: no pasar a un compañero de la misma línea horizontal o vertical; el diagrama marca en naranja el pase bueno y en azul el malo). Cómo explicarlo: «cada pase cambia de fila y de columna». Errores típicos: pasar al más cercano en línea, agruparse en una fila, no moverse tras pasar. Qué observar: movimientos para crear nuevos ángulos.",
+ "montaje": "Cuadrícula de 20 × 20 m con 4 filas y 4 columnas de 5 m (conos). 5 amarillos contra 5 rojos repartidos por ella. Un balón.",
+ "juego": "Se juega 5v5. No se puede pasar a un compañero de la misma fila ni de la misma columna: un pase ilegal es pérdida. Los defensores presionan y roban con normalidad.",
+ "punto": "1 punto por cada 5 pases legales seguidos. Gana el equipo con más puntos.",
+ "consigna": "Cada pase, a otra fila y a otra columna.",
+ "variantes": {
+  "facil": "Solo se prohíbe la misma fila y 6 conos de cuadrícula más grande (propuesta).",
+  "dificil": "A 2 toques y 8 pases para el punto, sin poder devolver al que te pasó (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4 × 4 casillas de 6 m y solo se prohíbe la misma fila. Infantil (12–13): cuadrícula completa. Cadete: 8v8 como en la fuente (cuadrícula de 6 × 6).",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 18",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 20"
+ },
+ "completado": "Fuente: 8v8 en área cuadriculada sin pasar a compañeros de la misma línea. Adaptado a 5v5, medidas, casillas, puntuación, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 22.4,
+   "ymin": -2.4,
+   "ymax": 22.4
+  },
+  "dashed": true,
+  "lines": [
+   [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     20
+    ],
+    "4 4"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     20
+    ],
+    "4 4"
+   ],
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     20
+    ],
+    "4 4"
+   ],
+   [
+    [
+     0,
+     5
+    ],
+    [
+     20,
+     5
+    ],
+    "4 4"
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    [
+     20,
+     10
+    ],
+    "4 4"
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     20,
+     15
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 17.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     2.5
+    ],
+    "b": [
+     12.5,
+     7.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     12.5,
+     7.5
+    ],
+    "b": [
+     7.5,
+     17.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "OTRA FILA Y OTRA COLUMNA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

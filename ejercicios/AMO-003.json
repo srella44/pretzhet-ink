@@ -1,0 +1,158 @@
+{
+ "id": "AMO-003",
+ "bloque": "Técnica y duelos",
+ "titulo": "Triángulo de pases",
+ "formato": "circuito 3 puestos",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "9–12 jug.",
+ "espacio": "30 × 16 m",
+ "duracion": "10 min",
+ "series": "3 × 3 min con 1 min de descanso; se cambia de puesto con la rotación indicada (propuesta).",
+ "objetivo": "Automatizar la relación de pases de un 1-4-3-3: de la zaga al medio y del medio al extremo (fuente). Factores clave: velocidad de pase, jugar de cara y mejora del primer toque. Cómo explicarlo: «pase raso, control orientado y pase al siguiente sin parar». Errores típicos: control hacia atrás, pases flojos, quedarse mirando el pase. Qué observar: primer toque orientado y velocidad del balón.",
+ "montaje": "3 puestos en triángulo abierto: x1 (fila de 3–4 jugadores con balones) a la izquierda, x2 (mediocentro) a 12 m y x3 (extremo) a 12 m de x2, en la banda derecha. Conos en cada puesto.",
+ "juego": "x1 pasa a x2. x2 controla orientado y pasa a x3 de primeras. x3 recibe, conduce y vuelve hasta la fila de x1. Rotación: x1 ocupa el puesto de x2, x2 el de x3 y x3 se une a la fila de x1.",
+ "punto": "Sin oposición: 1 punto por cada serie de 5 pases seguidos sin fallo. Se intenta batir el récord del grupo.",
+ "consigna": "Control orientado y pase rápido al siguiente.",
+ "variantes": {
+  "facil": "Distancias de 8 m y control con dos toques (propuesta).",
+  "dificil": "Todo a un toque y un defensor pasivo en medio que interrumpe el pase si es lento (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 8–10 m y dos toques. Infantil (12–13): 12 m y un toque. Con menos de 9, un solo grupo de 3 y se repite en ambos lados.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 3",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 5"
+ },
+ "completado": "Fuente: relación de pases dentro del 1-4-3-3, x1 pasa a x2 y luego a x3, x3 regresa al inicio. Distancias, rotación, puntuación, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   16
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 32.2,
+   "ymin": -2.2,
+   "ymax": 18.2
+  },
+  "cones": [
+   [
+    4,
+    8
+   ],
+   [
+    14,
+    8
+   ],
+   [
+    25,
+    3
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 5.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 3,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     8
+    ],
+    "b": [
+     14,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     8
+    ],
+    "b": [
+     25,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     3
+    ],
+    "b": [
+     6,
+     13
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    4,
+    12.2,
+    "X1",
+    "middle"
+   ],
+   [
+    14,
+    11.6,
+    "X2",
+    "middle"
+   ],
+   [
+    25,
+    0.4,
+    "X3",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

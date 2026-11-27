@@ -1,0 +1,165 @@
+{
+ "id": "RONDO-PB-T02",
+ "bloque": "Calentamiento",
+ "titulo": "Los cochecitos",
+ "formato": "individual",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "4 viajes de 2 min con 30″ de pausa; el míster levanta el cono rojo 5–6 veces en cada viaje (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada y parar el balón a la orden. Juego simbólico: el balón es un cochecito y los conos son las casas (fuente). Cómo explicarlo: «tu cochecito no puede chocar con las casas ni con otros coches». Errores típicos: golpear el balón y correr detrás, mirar solo al balón, parar tarde o con la punta del pie. Qué observar: toques suaves y seguidos y parada con la suela encima del balón.",
+ "montaje": "Rectángulo de 20 × 15 m con 8–10 conos sueltos (las casas) y un balón por jugador. El míster, en el borde, con un cono verde y otro rojo.",
+ "juego": "Con el verde en alto, todos conducen sin chocar con las casas. Con el rojo, stop: balón parado con la suela encima. Vuelve el verde y se sigue.",
+ "punto": "1 punto a quien para antes de contar hasta 2. Cada uno cuenta los suyos en voz alta.",
+ "consigna": "Verde, avanza; rojo, pie encima del balón.",
+ "variantes": {
+  "facil": "Campo grande (25 × 20 m) y solo 4–5 casas: hay más sitio y nadie choca (fuente).",
+  "dificil": "Con el cono amarillo hay que rodear una casa en curva antes de seguir (fuente). Con el rojo, parar con el pie menos hábil (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): tal cual, sin eliminar a nadie. Benjamín (8–9): balón más pequeño de control y se añade una señal más (por ejemplo, azul = girar). Variante de la fuente en la sesión «Hoy»: un grito de claxon al cruzarse con un amigo. Frase de la fuente: «¡Stop perfecto!».",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Los cochecitos (PB-T02)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · págs. 4, 6, 8, 9, 11, 13"
+ },
+ "completado": "Número de conos, series, límite de 2 segundos para parar y consigna corta (propuesta). Jugadores propuestos.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 22.2,
+   "ymin": -2.2,
+   "ymax": 17.2
+  },
+  "cones": [
+   [
+    3,
+    7
+   ],
+   [
+    8,
+    3
+   ],
+   [
+    13,
+    2.5
+   ],
+   [
+    17,
+    6
+   ],
+   [
+    10,
+    8
+   ],
+   [
+    5,
+    12.5
+   ],
+   [
+    15,
+    12.5
+   ],
+   [
+    18,
+    10.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3.5,
+    "f": 20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 9.5,
+    "f": -20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 5.5,
+    "f": 200,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 9,
+    "f": 150,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3,
+    "f": 160,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 20.8,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3.5
+    ],
+    "b": [
+     6,
+     5.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 5,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     9
+    ],
+    "b": [
+     12,
+     10.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 5
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.4,
+    "VERDE: AVANZA · ROJO: STOP",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

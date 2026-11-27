@@ -1,0 +1,156 @@
+{
+ "id": "RONDO-PLANB-19",
+ "bloque": "Calentamiento",
+ "titulo": "La caza del tesoro",
+ "formato": "parejas",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "8 números cantados por partida; entre números, 20″ de pausa en el centro (propuesta).",
+ "objetivo": "Calentar en frío o con campo pesado conduciendo con la cabeza levantada y buscando un objetivo, con un juego de equipo en parejas (fuente). Cómo explicarlo: «el tesoro es un número: hay que encontrarlo antes que los demás». Errores típicos: conducir sin mirar a los conos, correr y dejar el balón atrás, levantar siempre el mismo cono. Qué observar: reparto de conos entre parejas y cambio de conductor.",
+ "montaje": "Cuadrado de 20 × 20 m con 8 conos y un número del 1 al 8 bajo cada uno. 3–6 parejas con 1 balón, en el centro. Míster con la lista.",
+ "juego": "El míster canta un número. Cada pareja va a un cono: uno conduce y el otro lo levanta. Si no es, lo deja y busca otro (cambian de conductor). Quien lo halla grita «¡tesoro!» y vuelve al centro.",
+ "punto": "1 punto a la primera pareja que vuelve al centro con balón. 8 números por partida.",
+ "consigna": "Uno conduce, el otro busca: cambiad en cada cono.",
+ "variantes": {
+  "facil": "Los números se ven (un papel visible sobre cada cono) y se busca el cono más cercano (propuesta).",
+  "dificil": "El míster canta dos números seguidos y hay que traerlos en orden, o se conduce solo con la pierna menos hábil (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 6 conos con números del 1 al 6 y sin conducir al volver. Alevín (10–11): 8–10 conos y dos números a la vez. Con campo pesado, reducir el cuadrado a 16 × 16 m.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La caza del tesoro",
+  "ref": "RONDO Bonus 3 · Plan B · «Frío o campo pesado»"
+ },
+ "completado": "Medidas, número de conos y números, reglas de cambio de conductor, puntos y series (propuesta). Jugadores y edad propuestos.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    3,
+    3
+   ],
+   [
+    10,
+    2
+   ],
+   [
+    17,
+    4
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    18,
+    12
+   ],
+   [
+    5,
+    17
+   ],
+   [
+    12,
+    18
+   ],
+   [
+    16,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 6.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 16.5,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 15.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 17.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     3.8,
+     4.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     16.5,
+     9
+    ],
+    "b": [
+     17.2,
+     5.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.8,
+    "BAJO CADA CONO, UN NÚMERO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

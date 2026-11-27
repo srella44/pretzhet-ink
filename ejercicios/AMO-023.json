@@ -1,0 +1,157 @@
+{
+ "id": "AMO-023",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tres equipos de cuatro",
+ "formato": "8v4",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "12 jug.",
+ "espacio": "30 × 25 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Mejorar el pase y la posesión aprovechando la superioridad numérica (8v4) y reaccionar rápido al cambiar de rol (fuente). Cómo explicarlo: «cuando perdéis, os convertís en defensores: reaccionad ya». Errores típicos: pensar solo en conservar, no presionar tras pérdida, los dos equipos atacantes no se mezclan. Qué observar: ocupación de espacios y presión tras pérdida.",
+ "montaje": "Rectángulo de 30 × 25 m. 3 equipos de 4 con petos amarillo, rojo y azul. Amarillos y rojos conservan juntos (8) y los azules defienden (4). Un balón.",
+ "juego": "Los 8 mantienen el balón contra los 4 azules. Si los azules roban, atacan con el equipo que no perdió. El equipo que perdió el balón (amarillo o rojo) pasa a ser el nuevo equipo defensor.",
+ "punto": "1 punto por cada 8 pases seguidos de los atacantes. El equipo que más puntos tenga al final de los 4 bloques gana.",
+ "consigna": "Pierdes, defiendes: reacción inmediata.",
+ "variantes": {
+  "facil": "Defensores en 1 toque de presión y el espacio de 35 × 30 m (propuesta).",
+  "dificil": "Dos toques para los atacantes y 10 pases para el punto (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): 35 × 25 m y dos toques. Cadete (14–15): medidas completas y un toque obligatorio en la zona central. Con 9 jugadores, 3 equipos de 3 (6v3).",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 23",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 25"
+ },
+ "completado": "Fuente: 3 equipos de 4, 8v4, rol de defensor para quien pierde. Medidas, puntos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   25
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 32.2,
+   "ymin": -2.2,
+   "ymax": 27.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     14,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     4
+    ],
+    "b": [
+     26,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    15,
+    -0.9,
+    "8 CONTRA 4",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,141 @@
+{
+ "id": "AMO-021",
+ "bloque": "Técnica y duelos",
+ "titulo": "3v3+1 el que falla sale",
+ "formato": "3v3+1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 1 min de descanso; el que espera entra cuando alguien falla (propuesta).",
+ "objetivo": "Mejorar la toma de decisiones manteniendo la posesión con los factores clave de la fuente: jugar a un toque, proteger el balón y no forzar el juego (evitar quitarse el balón de encima con un pase malo). Cómo explicarlo: «si no tienes una buena opción, protege; el pase de apuro es un fallo». Errores típicos: pase forzado, más de 2 toques, mirar solo el balón. Qué observar: decisiones antes de recibir.",
+ "montaje": "Cuadrado de 20 × 20 m. 3 amarillos contra 3 rojos y 1 comodín blanco que va con quien tiene el balón. 2 jugadores esperan fuera con peto de otro color.",
+ "juego": "Se mantiene la posesión a un toque, protegiendo el balón y sin forzar pases. Quien falla (más de 2 toques, pase forzado o pérdida) sale y entra uno de los que esperan.",
+ "punto": "El equipo con balón suma 1 punto por cada 6 pases seguidos; al fallar, la cuenta vuelve a cero.",
+ "consigna": "A un toque y sin forzar: protege o pasa limpio.",
+ "variantes": {
+  "facil": "Dos toques y el comodín intocable (propuesta).",
+  "dificil": "Un toque obligatorio para todos y 8 pases por punto (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 22 m y dos toques. Infantil (12–13): 20 × 20 m y un toque. Cadete: 18 × 18 m con presión inmediata tras pérdida.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 21",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 23"
+ },
+ "completado": "Fuente: 3v3 en 20×20 m con comodín y cambio del que falla. Nº de toques, tipos de fallo, puntos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22.5,
+    "y": 6,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 22.5,
+    "y": 14,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     10,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     9
+    ],
+    "b": [
+     6,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    3.6,
+    "ESPERAN",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

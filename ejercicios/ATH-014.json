@@ -1,0 +1,161 @@
+{
+ "id": "ATH-014",
+ "bloque": "Técnica y duelos",
+ "titulo": "Área de meta 6v4",
+ "formato": "6v4+2P",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de descanso; los dos grupos intercambian rol cada bloque (propuesta).",
+ "objetivo": "Jugar en superioridad en espacio reducido: repartirse bien por el terreno y mantener las posiciones para generar ventaja; defender en inferioridad cerrando espacios y sopesando las dificultades (fuente, texto cortado). Cómo explicarlo: «los 6 ocupan el ancho y el largo; los 4 se mueven juntos». Errores típicos: amontonarse, no fijar al defensor antes de pasar, defensores muy abiertos. Qué observar: ocupación y coberturas.",
+ "montaje": "Zona de 35 × 25 m con 2 porterías grandes y portero en cada una. 6 amarillos atacan contra 4 azules. Balones junto a las porterías.",
+ "juego": "Los 6 amarillos atacan y buscan ventaja con pases y movimientos. Los 4 azules defienden juntos. Si recuperan, contraatacan a la portería contraria con 4v0 y portero.",
+ "punto": "Gol amarillo: 1 punto. Gol del contraataque azul: 2. Gana quien más puntos tenga tras 4 bloques.",
+ "consigna": "Reparte posiciones y busca al libre.",
+ "variantes": {
+  "facil": "Defensores azules a 3 y contraataque solo para marcar a mini portería (propuesta).",
+  "dificil": "Atacantes a dos toques y defensores 5 (5v5) con un comodín (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 22 m y portería de fútbol 7. Infantil (12–13): medidas completas. Cadete: 6v5 y un toque en el último pase.",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "ÁREA DE META 2 P.G. 6/4 DENTRO",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 24"
+ },
+ "completado": "Fuente (texto cortado, sin PDF): superioridad 6/4 en espacio reducido con 2 porterías grandes. Medidas, contraataque, puntos, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 37.4,
+   "ymin": -2.4,
+   "ymax": 27.4
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 35,
+    "y": 12.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 12.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     6
+    ],
+    "b": [
+     17,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     5
+    ],
+    "b": [
+     17,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    -0.9,
+    "6 CONTRA 4",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

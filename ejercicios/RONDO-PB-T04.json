@@ -1,0 +1,170 @@
+{
+ "id": "RONDO-PB-T04",
+ "bloque": "Calentamiento",
+ "titulo": "Chuta a la luna",
+ "formato": "individual",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "25 × 12 m",
+ "duracion": "10 min",
+ "series": "5 tandas de 1 min con 30″ de pausa; 4–5 chutes por niño en cada tanda (propuesta).",
+ "objetivo": "Chutar con fuerza con el empeine y recuperar el balón corriendo, para acabar conduciéndolo de vuelta con los pies. Juego simbólico: la línea de conos es la luna (fuente). Cómo explicarlo: «chuta tu cohete lo más lejos que puedas». Errores típicos: chutar con la punta, no mirar el balón al chutar, volver con el balón en las manos. Qué observar: pie de apoyo al lado del balón y toques cortos en el regreso.",
+ "montaje": "Línea de salida de 12 m con 6–12 balones a su altura y una línea de conos a 15 m (la luna). El resto, libre para correr y volver sin cruzarse.",
+ "juego": "A la señal, cada niño chuta su balón hacia la luna, corre a por él y lo trae conduciendo hasta la salida. Repite 4–5 veces. Todos chutan a la vez y en el mismo sentido.",
+ "punto": "1 punto si el balón cruza la línea de conos. Cada niño cuenta los suyos en la tanda.",
+ "consigna": "Chuta fuerte, corre y vuelve conduciendo.",
+ "variantes": {
+  "facil": "Línea de conos más cerca (8–10 m) (fuente).",
+  "dificil": "Chutar con el otro pie (fuente) o conducir el balón de vuelta rodeando un cono (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): línea a 8–10 m y sin competir entre ellos; se celebra cada cohete. Benjamín: línea a 15–18 m y con la pierna menos hábil. En terreno pesado, acercar la línea.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Chuta a la luna (PB-T04)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · págs. 21, 23, 25, 35, 44, 46"
+ },
+ "completado": "Medidas (25 × 12 m, luna a 15 m), tandas, número de chutes y regla de salida a la vez (propuesta). Jugadores propuestos.",
+ "diagrama": {
+  "field": [
+   25,
+   12
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 27.2,
+   "ymin": -2.2,
+   "ymax": 14.2
+  },
+  "cones": [
+   [
+    17,
+    0.5
+   ],
+   [
+    17,
+    3.5
+   ],
+   [
+    17,
+    6
+   ],
+   [
+    17,
+    8.5
+   ],
+   [
+    17,
+    11.5
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     17,
+     0,
+     25,
+     12
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 1.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 9.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 1,
+    "y": 12.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     4.2
+    ],
+    "b": [
+     20,
+     4.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     4.2
+    ],
+    "b": [
+     4,
+     6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    21,
+    6,
+    "LUNA",
+    "middle"
+   ],
+   [
+    3,
+    -0.5,
+    "SALIDA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

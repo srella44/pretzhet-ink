@@ -1,0 +1,197 @@
+{
+ "id": "RONDO-PLANB-14",
+ "bloque": "Calentamiento",
+ "titulo": "Policías y ladrones",
+ "formato": "8+2",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "10–12 jug.",
+ "espacio": "Pabellón, 24 × 12 m",
+ "duracion": "12 min",
+ "series": "6 rondas de 2 min con 30″ de pausa; en cada ronda cambian los 2 policías (propuesta).",
+ "objetivo": "Conducir con control en un espacio muy limitado y proteger el balón con el cuerpo de un rival que solo puede ir por las mismas líneas. Cómo explicarlo: «los ladrones llevan el botín (el balón) y los policías solo pueden tocar el botín, nunca a la persona». Errores típicos: salirse de la línea, dar la espalda al policía, chutar el balón lejos. Qué observar: cuerpo entre policía y balón, giros con suela y cabeza levantada.",
+ "montaje": "Pabellón de 24 × 12 m con las líneas del suelo como calles. 8 ladrones con balón repartidos por las líneas y 2 policías con peto y sin balón.",
+ "juego": "Todos se mueven solo por las líneas. Los ladrones conducen; los policías intentan tocar el balón con el pie, nunca al jugador. Quien pierde el balón o pisa fuera cambia de rol con el policía.",
+ "punto": "Ladrón: 1 punto por cada 30″ sin ser tocado. Policía: 1 por balón tocado. 6 rondas de 2 min.",
+ "consigna": "Cuerpo entre el policía y el balón.",
+ "variantes": {
+  "facil": "1 solo policía y los ladrones pueden pisar un metro fuera de la línea (propuesta).",
+  "dificil": "3 policías, o los ladrones solo conducen con la pierna menos hábil (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 1 policía por cada 6 ladrones y balón del n.º 3. Alevín (10–11): 2–3 policías y puntos solo si se mantiene el balón con la pierna menos hábil. Con menos jugadores, reducir el pabellón a 20 × 10 m.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Policías y ladrones en las líneas",
+  "ref": "RONDO Bonus 3 · Plan B · «Pabellón o espacio pequeño»"
+ },
+ "completado": "Nº de policías, cambios de rol, puntuación, series y variantes (propuesta). Jugadores y edad propuestos.",
+ "diagrama": {
+  "field": [
+   24,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "dashed": true,
+  "lines": [
+   [
+    [
+     0,
+     3
+    ],
+    [
+     24,
+     3
+    ]
+   ],
+   [
+    [
+     0,
+     6
+    ],
+    [
+     24,
+     6
+    ]
+   ],
+   [
+    [
+     0,
+     9
+    ],
+    [
+     24,
+     9
+    ]
+   ],
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     12
+    ]
+   ],
+   [
+    [
+     16,
+     0
+    ],
+    [
+     16,
+     12
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     7,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     3
+    ],
+    "b": [
+     7.5,
+     3
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    12,
+    -0.7,
+    "SOLO POR LAS LÍNEAS",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

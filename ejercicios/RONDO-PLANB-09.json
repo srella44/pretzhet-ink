@@ -1,0 +1,182 @@
+{
+ "id": "RONDO-PLANB-09",
+ "bloque": "Calentamiento",
+ "titulo": "La ciudad en miniatura",
+ "formato": "individual",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "Pabellón, 24 × 12 m",
+ "duracion": "12 min",
+ "series": "4 viajes de 2 min con 30″ de pausa; el míster cambia de señal cada 20–30″ (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada y reaccionar a señales (semáforo, aparcamiento, rotonda) en un espacio pequeño y de suelo duro (fuente: balones de fútbol sala). Cómo explicarlo: «sois coches en una ciudad: respetad las normas». Errores típicos: mirar solo al balón, pasar con el semáforo en rojo, chocar en la rotonda. Qué observar: toques cortos, giro con suela y cabeza levantada.",
+ "montaje": "Pabellón con las líneas como calles y un balón de fútbol sala por jugador. Cuadrado de 2 × 2 m (aparcamiento) y círculo de 3 m (rotonda). Míster con pañuelo verde y rojo.",
+ "juego": "Se conduce solo por las líneas. Verde: se avanza; rojo: parada con la suela. «¡Aparcamiento!»: balón parado en el cuadrado. «¡Rotonda!»: se rodea el círculo y se sigue.",
+ "punto": "1 punto por parada, aparcamiento o rotonda bien hechos; −1 por chocar o salirse de la línea.",
+ "consigna": "Solo por las calles y atento al semáforo.",
+ "variantes": {
+  "facil": "Sin aparcamiento ni rotonda: solo semáforo y conducir por las líneas (propuesta).",
+  "dificil": "Calles de un solo sentido marcadas con flechas y cambio de pie en cada señal (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): balón de talla 3 y una sola señal cada vez. Alevín (10–11): las tres señales mezcladas y un segundo semáforo (azul = girar 180°). Con menos de 6 jugadores, quitar la rotonda.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La ciudad en miniatura",
+  "ref": "RONDO Bonus 3 · Plan B · «Pabellón o espacio pequeño»"
+ },
+ "completado": "Medidas, tamaño del aparcamiento y la rotonda, órdenes del míster, puntos, series y variantes (propuesta). Jugadores y edad propuestos.",
+ "diagrama": {
+  "field": [
+   24,
+   12
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 26.2,
+   "ymin": -2.2,
+   "ymax": 14.2
+  },
+  "dashed": true,
+  "lines": [
+   [
+    [
+     0,
+     4
+    ],
+    [
+     24,
+     4
+    ]
+   ],
+   [
+    [
+     0,
+     8
+    ],
+    [
+     24,
+     8
+    ]
+   ],
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     12
+    ]
+   ],
+   [
+    [
+     16,
+     0
+    ],
+    [
+     16,
+     12
+    ]
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     20.5,
+     8.5,
+     23.5,
+     11.5
+    ]
+   },
+   {
+    "t": "circle",
+    "x": 12,
+    "y": 6,
+    "r": 1.8
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 4,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 1.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 24.2,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "lights": [
+   [
+    22,
+    2
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     7,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    22,
+    12.9,
+    "APARCAMIENTO",
+    "middle"
+   ],
+   [
+    12,
+    3.1,
+    "ROTONDA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

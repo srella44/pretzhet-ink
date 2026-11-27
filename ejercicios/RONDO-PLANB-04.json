@@ -1,0 +1,170 @@
+{
+ "id": "RONDO-PLANB-04",
+ "bloque": "Calentamiento",
+ "titulo": "Relevo contra el reloj",
+ "formato": "2+2",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "4 jug. (2 parejas)",
+ "espacio": "20 × 8 m",
+ "duracion": "10 min",
+ "series": "4 relevos por pareja con 1 min de descanso entre relevos; se anota el mejor tiempo (propuesta).",
+ "objetivo": "Conducir rápido sin perder el control y competir contra uno mismo, no contra la otra pareja (fuente). Cómo explicarlo: «tu rival es tu propio reloj: bate tu récord». Errores típicos: salir demasiado rápido y perder el balón, tirar un cono, no entregar el relevo con el balón controlado. Qué observar: toques cortos en el eslalon y cabeza levantada en la recta.",
+ "montaje": "Dos calles de 20 × 3 m con 5 conos en fila (a 3 m) y una línea de salida. Un balón por pareja: uno sale y el otro espera. Míster con cronómetro.",
+ "juego": "A la señal, el primero conduce en eslalon entre los conos, rodea el último y vuelve en recta; entrega el balón al compañero, que repite. Cada uno hace 2 vueltas.",
+ "punto": "Se apunta el tiempo de cada pareja; 1 punto cada vez que baja su mejor marca. Cono derribado: 3 s más.",
+ "consigna": "Controla primero y corre después.",
+ "variantes": {
+  "facil": "3 conos en cada calle y a 4 m (propuesta).",
+  "dificil": "Ida con la pierna buena y vuelta con la mala, o regreso con giro de suela en el último cono (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 3–4 conos y tiempo de referencia más largo. Alevín (10–11): 5–6 conos y penalización por balón fuera de la calle. Si vienen más de 4, hacer varias calles en paralelo y todas las parejas compiten contra su propio tiempo.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Relevo contra el reloj",
+  "ref": "RONDO Bonus 3 · Plan B · «Vienen 4»"
+ },
+ "completado": "Medidas (20 × 3 m por calle), número de conos, vueltas, penalizaciones, puntos y series (propuesta). Edad y jugadores propuestos.",
+ "diagrama": {
+  "field": [
+   20,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    4,
+    1.5
+   ],
+   [
+    7,
+    2.5
+   ],
+   [
+    10,
+    1.5
+   ],
+   [
+    13,
+    2.5
+   ],
+   [
+    16,
+    1.5
+   ],
+   [
+    4,
+    5.5
+   ],
+   [
+    7,
+    6.5
+   ],
+   [
+    10,
+    5.5
+   ],
+   [
+    13,
+    6.5
+   ],
+   [
+    16,
+    5.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     8
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.2,
+    "y": 3.3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 1.2,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 0.2,
+    "y": 7.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     2
+    ],
+    "b": [
+     17.5,
+     2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     1.2,
+     6
+    ],
+    "b": [
+     17.5,
+     6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    1,
+    -0.6,
+    "SALIDA Y RELEVO",
+    "start"
+   ],
+   [
+    17.5,
+    4,
+    "RODEA Y VUELVE",
+    "start"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

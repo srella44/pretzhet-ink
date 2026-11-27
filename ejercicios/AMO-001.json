@@ -1,0 +1,160 @@
+{
+ "id": "AMO-001",
+ "bloque": "Técnica y duelos",
+ "titulo": "3v3 pared con exterior",
+ "formato": "3v3+4",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug.",
+ "espacio": "24 × 18 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de descanso; los exteriores entran a jugar en la serie siguiente (propuesta).",
+ "objetivo": "Hacer paredes con un jugador de fuera y cambiar de dirección para jugar con el exterior del lado contrario (fuente). Factores clave de la fuente: pase en profundidad, cercanía entre jugadores y movilidad entre atacantes. Cómo explicarlo: «pasa fuera, ofrécete para la pared y gira el juego». Errores típicos: pasar al exterior sin moverse después, repetir siempre el mismo lado, alejarse del poseedor. Qué observar: apoyo cercano y desmarque tras el pase.",
+ "montaje": "Cuadrado de 24 × 18 m: 3 amarillos contra 3 rojos dentro y, en cada lado corto, 1 exterior amarillo y 1 rojo (2 toques, sin pasarse entre ellos). Un balón.",
+ "juego": "El equipo con balón busca una pared con su exterior (pasa fuera y recibe). Después cambia de dirección y busca la pared con su exterior del lado opuesto. El rival intenta robar y hacer lo mismo.",
+ "punto": "1 punto por pared; la siguiente solo vale en el lado contrario. Si pierde el balón, cambia la posesión.",
+ "consigna": "Pared con el exterior y gira al otro lado.",
+ "variantes": {
+  "facil": "El rival solo presiona al poseedor y no corta la línea de pase al exterior (propuesta).",
+  "dificil": "Los exteriores devuelven a un toque y la pared debe hacerse en menos de 5 segundos (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 20 × 16 m y exteriores a 2 toques. Infantil (12–13): medidas completas y exteriores a un toque. Con 8 jugadores, 2 contra 2 y un exterior por lado.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 1",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 3"
+ },
+ "completado": "Fuente: 3v3 con 2 jugadores por equipo en el exterior, pared y cambio de dirección. Medidas, lados de los exteriores, puntos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 26.4,
+   "ymin": -2.4,
+   "ymax": 20.4
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -1.2,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25.2,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25.2,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     4
+    ],
+    "b": [
+     -1.2,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     -1.2,
+     4
+    ],
+    "b": [
+     11,
+     12.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     12.5
+    ],
+    "b": [
+     25.2,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12,
+    -0.9,
+    "PARED Y CAMBIO DE LADO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,209 @@
+{
+ "id": "ATH-023",
+ "bloque": "Técnica y duelos",
+ "titulo": "Duelos 1v1 en parcelas",
+ "formato": "5v5+1",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug.",
+ "espacio": "40 × 20 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de descanso; el comodín cambia cada bloque (propuesta).",
+ "objetivo": "Trabajar las acciones 1v1 en cada zona, tanto en defensa como en ataque, con la libertad de intercambiar posiciones sin que coincidan dos jugadores del mismo equipo en una parcela (fuente, texto cortado). Cómo explicarlo: «cada parcela es un duelo: gana el tuyo y busca el siguiente». Errores típicos: dos compañeros en la misma parcela, duelos sin ayuda, no aprovechar el comodín. Qué observar: 1v1 con cuerpo orientado y cambios de parcela.",
+ "montaje": "Campo de 40 × 20 m en 5 parcelas de 8 × 20 m. En cada una, 1 amarillo contra 1 rojo. Un comodín blanco con el equipo con balón. 2 miniporterías de 3 m en los fondos.",
+ "juego": "Cada jugador defiende y ataca su 1v1. Se puede cambiar de parcela, pero nunca habrá dos del mismo equipo en la misma. Los pases progresan entre parcelas; el comodín apoya al equipo con balón.",
+ "punto": "Gol: 1 punto; tras ganar un 1v1, 2 (propuesta). Tras gol, saca el rival.",
+ "consigna": "Gana tu duelo y busca el hueco en la siguiente.",
+ "variantes": {
+  "facil": "Se puede ayudar con un segundo jugador del mismo equipo en la parcela de al lado (propuesta).",
+  "dificil": "Sin comodín y un solo toque para pasar entre parcelas (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): parcelas de 6 × 18 m y 4v4+1. Infantil (12–13): medidas completas. Cadete: 5v5 con tiro a portería grande.",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "JUEGO CORTO PARCELADO 5/5 + COMODÍN",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 35"
+ },
+ "completado": "Fuente (texto cortado, sin PDF): 5v5 + comodín en parcelas con 1v1 y sin dos compañeros en una parcela. Medidas, número de parcelas, miniporterías, puntos, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 42.4,
+   "ymin": -2.4,
+   "ymax": 22.4
+  },
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     16,
+     0
+    ],
+    [
+     16,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     32,
+     0
+    ],
+    [
+     32,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    40,
+    10,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 18,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     6
+    ],
+    "b": [
+     11,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     14
+    ],
+    "b": [
+     19,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -0.9,
+    "UN DUELO POR PARCELA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

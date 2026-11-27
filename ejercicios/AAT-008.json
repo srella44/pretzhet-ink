@@ -1,0 +1,159 @@
+{
+ "id": "AAT-008",
+ "bloque": "Técnica y duelos",
+ "titulo": "Regate y 2v1 temporizar",
+ "formato": "1v1 y 2v1",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug.",
+ "espacio": "36 × 28 m",
+ "duracion": "15 min",
+ "series": "Cada defensor hace 4 acciones seguidas y rota; 15 min en total con la fuente (propuesta: 4 acciones por turno).",
+ "objetivo": "Para el atacante: regatear al defensor y finalizar. Para el defensor: colocarse de lado y orientar al rival hacia fuera (a su pierna menos hábil), temporizar y entrar solo cuando pierde el control (fuente). Cómo explicarlo: «el defensor no se tira: acompaña, espera y roba cuando el balón se aleja del pie». Errores típicos: lanzarse a por el balón, defender de frente, mirar solo el balón. Qué observar: distancia al atacante y posición del cuerpo.",
+ "montaje": "Campo de 36 × 28 m con línea central. Portería grande con portero a la derecha y 2 miniporterías a la izquierda. Un defensor con balón a la izquierda; los atacantes, en filas.",
+ "juego": "El defensor pasa al atacante más profundo (derecha) y sale a defenderle. Este regatea y tira. Sin pausa, el atacante de banda entra en 2v1 con él, y el defensor debe temporizar sin ser superado.",
+ "punto": "Gol en portería grande: 1 punto (también en el 2v1). Si el defensor roba, marca en una miniportería y suma 1. Se rota.",
+ "consigna": "Lateral al atacante: espera y roba cuando falle.",
+ "variantes": {
+  "facil": "Sin portero en la portería grande y 2v1 con un segundo defensor que ayuda desde atrás (propuesta).",
+  "dificil": "El defensor solo puede tocar una vez para frenar y se juega sin pausa entre la fase 1 y el 2v1 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 24 m y portería de fútbol 7. Infantil (12–13): medidas completas con portero. Cadete: 40 × 30 m y el 2v1 empieza al mismo ritmo que el 1v1.",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios Atlético",
+  "titulo_original": "Tarea Atlético 8 — Evitar ser desbordado / temporización",
+  "ref": "10ejercicios_atleti.pdf · p. 16"
+ },
+ "completado": "Fuente: 2 zonas, hasta 10 jugadores, 15 min, defensor por delante de la línea y 2v1 posterior, robo = gol en miniportería. Medidas, posición exacta de cada jugador, rotación y puntos son (propuesta).",
+ "diagrama": {
+  "field": [
+   36,
+   28
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 38.2,
+   "ymin": -2.2,
+   "ymax": 30.2
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     28
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 36,
+    "y": 14,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    20,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 15,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 25,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     14
+    ],
+    "b": [
+     27,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     15
+    ],
+    "b": [
+     33,
+     14
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 5,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     3
+    ],
+    "b": [
+     22,
+     10
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    18,
+    -0.8,
+    "LÍNEA CENTRAL",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

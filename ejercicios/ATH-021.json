@@ -1,0 +1,157 @@
+{
+ "id": "ATH-021",
+ "bloque": "Técnica y duelos",
+ "titulo": "4v4 con cuatro comodines",
+ "formato": "4v4+4",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "24 × 24 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de descanso; los comodines rotan cada bloque (propuesta).",
+ "objetivo": "Fomentar los duelos 1v1 dentro y la superioridad por fuera: el equipo con balón juega con los 4 comodines exteriores dinámicos (fuente, texto cortado). Todas las acciones de ataque y defensa se resuelven en los duelos del interior. Cómo explicarlo: «gana el duelo o dásela al comodín libre». Errores típicos: no usar a los comodines, perder el duelo por ir al suelo, comodines estáticos. Qué observar: orientación del cuerpo en el 1v1 y comodines moviéndose.",
+ "montaje": "Cuadrado de 24 × 24 m. 4 amarillos contra 4 rojos dentro y 4 comodines blancos, uno por lado, que se mueven a lo largo de su lado a 2 toques. Un balón.",
+ "juego": "Se juega 4v4 dentro y el equipo con balón también juega con los 4 comodines. Los duelos 1v1 del interior deciden. Si el rival roba, los comodines pasan a jugar con él.",
+ "punto": "1 punto por cada 6 pases seguidos con al menos 2 a comodines. Tras un robo, la cuenta empieza de cero.",
+ "consigna": "Gana tu duelo o busca al comodín libre.",
+ "variantes": {
+  "facil": "Los comodines pueden jugar a 3 toques y son intocables (propuesta).",
+  "dificil": "Un toque en los comodines y se exige un pase a comodín cada 3 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 20 × 20 m y 2 toques para todos. Infantil (12–13): medidas completas. Cadete: 28 × 28 m y los comodines no pueden devolver al que les pasó.",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "JUEGO CORTO 4/4 + 4 COMODINES EXTERIORES DINÁMICOS",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 33"
+ },
+ "completado": "Fuente (texto cortado, sin PDF): 4v4 + 4 comodines exteriores dinámicos, duelos 1v1 dentro. Medidas, movimiento de comodines, puntos, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   24
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 27,
+   "ymin": -3,
+   "ymax": 27
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 25.4,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 25.4,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     5
+    ],
+    "b": [
+     -1.4,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     -1.4,
+     12
+    ],
+    "b": [
+     5,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    12,
+    -3.6,
+    "COMODINES POR FUERA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

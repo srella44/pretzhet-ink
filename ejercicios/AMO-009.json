@@ -1,0 +1,154 @@
+{
+ "id": "AMO-009",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cuatro cuartos 1v1 y 3v1",
+ "formato": "1v1 + 2 comodines",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 1 min de descanso; se cambian los comodines cada serie (propuesta).",
+ "objetivo": "Proteger el balón en 1v1, crear líneas de pase cuando llegan los comodines y orientar el cambio de zona al espacio libre (fuente). Cómo explicarlo: «protege hasta que lleguen los comodines y entonces juega rápido». Errores típicos: lanzar el pase al cambio demasiado pronto, llegar los comodines tarde, perder el balón de espaldas. Qué observar: cuerpo entre rival y balón, y calidad del cambio.",
+ "montaje": "Cuadrado de 30 × 30 m en 4 cuartos de 15 m, con 1 atacante amarillo contra 1 defensor azul en cada uno. 2 comodines blancos y un balón.",
+ "juego": "El atacante protege el balón hasta que llegan los 2 comodines (3v1). Tras 5 pases seguidos, pasan a otro cuarto, donde el atacante protege hasta que llegan corriendo.",
+ "punto": "1 punto por transferencia tras 5 pases. Si el defensor roba, cambia el rol con el atacante.",
+ "consigna": "Protege hasta que lleguen: luego, 5 pases.",
+ "variantes": {
+  "facil": "El defensor solo acompaña, sin robar, en el primer minuto (propuesta).",
+  "dificil": "Los comodines tienen solo 8 segundos para llegar y 6 pases en el 3v1 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cuartos de 12 m y un balón menos exigente en la transferencia (pase raso). Infantil (12–13): medidas completas y pase en el aire permitido. Con menos jugadores, 3 cuartos y un comodín.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 9",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 11"
+ },
+ "completado": "Fuente: 4 cuartos con 1v1, 2 comodines que forman 3v1, 5 pases y transferencia. Medidas, puntuación, cambio de roles, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     15
+    ],
+    [
+     30,
+     15
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 20.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 20.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 12.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     26,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    15,
+    -0.9,
+    "5 PASES Y CAMBIO DE CUARTO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,162 @@
+{
+ "id": "AMO-005",
+ "bloque": "Técnica y duelos",
+ "titulo": "5v2 que crece a 5v5",
+ "formato": "5v2→5v5",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 1 min de descanso; cada serie empieza otra vez en 5v2 (propuesta).",
+ "objetivo": "Subir o bajar el ritmo del pase según la oposición, crear líneas de pase y proteger el balón cuando el espacio se llena (fuente). Cómo explicarlo: «con 2 defensores, pasa rápido; con 5, protege y espera ángulos». Errores típicos: pasar sin mirar, agruparse en un lado, perder el balón por prisa. Qué observar: apoyos a distancia correcta y cambios de ritmo.",
+ "montaje": "Cuadrado de 20 × 20 m. 5 amarillos con 1 balón y 2 azules dentro; los otros 3 azules esperan fuera en una esquina. El míster cuenta el tiempo.",
+ "juego": "Empieza el 5v2. Cada 30″ entra un defensor nuevo hasta jugar 5v5 a los 90″, y sigue hasta el final de la serie. Si los amarillos pierden el balón, el defensor que roba cambia con quien perdió.",
+ "punto": "Amarillos: 1 punto por cada 8 pases seguidos. Tras un robo, la cuenta empieza de cero.",
+ "consigna": "Más defensores: protege y mueve el balón.",
+ "variantes": {
+  "facil": "Los amarillos juegan a 3 toques y el cuadrado es de 22 × 22 m (propuesta).",
+  "dificil": "Dos toques y 6 pases por punto, o el nuevo defensor entra cada 20″ (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cuadrado de 22 m y 3 toques. Infantil (12–13): medidas completas y dos toques. Cadete: 18 × 18 m y un toque.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 5",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 7"
+ },
+ "completado": "Fuente: 5×2 que pasa a 5×5 con un defensor nuevo cada 30 segundos. Medidas, intervalo de 90″, puntuación por pases, cambio de rol, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 26,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23.5,
+    "y": 3,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 23.5,
+    "y": 10,
+    "f": 180,
+    "ghost": true
+   },
+   {
+    "r": "D",
+    "x": 23.5,
+    "y": 17,
+    "f": 180,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     17,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     3
+    ],
+    "b": [
+     18,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     23.5,
+     10
+    ],
+    "b": [
+     14.5,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 14
+   }
+  ],
+  "labels": [
+   [
+    23.5,
+    -1.2,
+    "ENTRAN CADA 30″",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

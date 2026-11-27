@@ -1,0 +1,189 @@
+{
+ "id": "AMO-007",
+ "bloque": "Técnica y duelos",
+ "titulo": "5v5 con comodines de banda",
+ "formato": "5v5+2",
+ "edad": "12–13 años",
+ "nivel": "Alto",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de descanso; los comodines cambian cada serie (propuesta).",
+ "objetivo": "Crear superioridades en las bandas con los comodines, equilibrar el ataque entre ambos lados y decidir por dónde finalizar (fuente: 8v8 con 3 porterías; adaptado a 5v5 para fútbol base). Cómo explicarlo: «sin pasar por un comodín no hay gol: abre al lado libre». Errores típicos: forzar por el centro, olvidar al comodín, no cambiar de banda. Qué observar: amplitud y elección del lado con ventaja.",
+ "montaje": "Campo de 40 × 30 m. 5 amarillos contra 5 rojos y 1 comodín en cada banda larga (a 2 toques, intocables). Cada equipo defiende 3 miniporterías de 2 m en su fondo. Un balón.",
+ "juego": "Se juega 5v5 con los comodines siempre del equipo con balón. Antes de marcar, el equipo debe pasar al menos una vez por un comodín. Se puede tirar a cualquiera de las 3 miniporterías rivales.",
+ "punto": "Gol: 1 punto. Si el gol llega por un comodín en ataque de banda, 2 puntos (propuesta). Tras gol, saca el rival.",
+ "consigna": "Busca primero la banda con ventaja.",
+ "variantes": {
+  "facil": "Los comodines pueden tirar a gol y no hace falta pasar por ellos (propuesta).",
+  "dificil": "Un toque en los comodines y gol solo tras cambio de banda (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4v4+2 en 30 × 24 m y una sola portería de 3 m. Infantil (12–13): 5v5+2 con las 3 miniporterías. Cadete: 6v6+2 en 50 × 34 m y los comodines a un toque.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 7",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 9"
+ },
+ "completado": "Fuente: 8v8, 1 comodín por lado, 3 porterías, obligatorio pasar por un comodín. Se adapta a 5v5 para fútbol base; medidas, miniporterías por equipo, puntos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 42.4,
+   "ymin": -2.4,
+   "ymax": 32.4
+  },
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    0,
+    22,
+    "L"
+   ],
+   [
+    40,
+    8,
+    "R"
+   ],
+   [
+    40,
+    15,
+    "R"
+   ],
+   [
+    40,
+    22,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": -1.2,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 31.2,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     8
+    ],
+    "b": [
+     20,
+     -1.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     -1.2
+    ],
+    "b": [
+     25,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    20,
+    33.6,
+    "COMODINES DE BANDA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

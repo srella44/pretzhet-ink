@@ -1,0 +1,166 @@
+{
+ "id": "RONDO-PLANB-11",
+ "bloque": "Calentamiento",
+ "titulo": "Las cuatro esquinas",
+ "formato": "4 grupos",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "Pabellón, 16 × 16 m",
+ "duracion": "10 min",
+ "series": "6 rondas de 1 min con 30″ de pausa; en cada ronda la señal se da 5–6 veces (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada y esquivar a los compañeros cuando todos cruzan a la vez por el centro (fuente: «sin tocarse»). Cómo explicarlo: «mirad antes de cruzar: el centro es una rotonda llena». Errores típicos: cruzar mirando solo el balón, acelerar sin control, ir en línea recta sin mirar. Qué observar: cambios de ritmo y de dirección para evitar choques.",
+ "montaje": "Cuadrado de 16 × 16 m con un cono por esquina. En cada esquina, 2–3 jugadores con balón y petos de un color. Círculo de 3 m en el centro. Míster con silbato.",
+ "juego": "A la señal, los 4 grupos conducen a la vez a la esquina opuesta pasando por el centro, sin tocar a nadie ni su balón. Al llegar, balón parado con la suela hasta la siguiente señal.",
+ "punto": "1 punto por grupo que llega entero y sin choques; si hay toque, repite. Gana el grupo con más puntos tras 6 rondas.",
+ "consigna": "Cabeza arriba al cruzar el centro.",
+ "variantes": {
+  "facil": "Cruzar de uno en uno, por turnos, dentro de cada grupo (propuesta).",
+  "dificil": "Conducir con la pierna menos hábil o con un pase al compañero de otro grupo en el centro (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 2 jugadores por esquina y cuadrado de 18 m. Alevín (10–11): 3 por esquina y solo el pie menos hábil en el centro. Si el suelo es pesado, reducir el cuadrado a 14 m.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Las cuatro esquinas",
+  "ref": "RONDO Bonus 3 · Plan B · «Pabellón o espacio pequeño»"
+ },
+ "completado": "Medidas, nº de jugadores por esquina, puntos, series y variantes (propuesta). Jugadores y edad propuestos.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    16,
+    0
+   ],
+   [
+    0,
+    16
+   ],
+   [
+    16,
+    16
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 8,
+    "y": 8,
+    "r": 1.7
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 1.2,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 3.4,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14.4,
+    "y": 1.2,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 13.8,
+    "y": 3.4,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 1.6,
+    "y": 14.8,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 2.2,
+    "y": 12.6,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 14.4,
+    "y": 14.8,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 13.8,
+    "y": 12.6,
+    "f": -135,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.6,
+     2.2
+    ],
+    "b": [
+     13.4,
+     13.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   },
+   {
+    "a": [
+     13.4,
+     2.2
+    ],
+    "b": [
+     2.6,
+     13.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 14,
+    "s1": 14,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    8,
+    3.6,
+    "CENTRO LIBRE",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}
