@@ -1,0 +1,163 @@
+{
+ "id": "FB-109",
+ "bloque": "Finalización",
+ "titulo": "Conducción, pared y remate",
+ "formato": "Pared + tiro",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "25 × 18 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 min; 5 intentos por jugador y rotación del comodín.",
+ "objetivo": "Enlazar una conducción corta con una pared y rematar sin parar. Cómo explicarlo: «da la pared y vuelve a la carrera». Errores típicos: pasar sin ángulo, devolver tarde y tirar con el balón atrás. Qué observar: cambio de ritmo tras el pase, perfil del comodín y remate con empeine. Material: portería de 5 m, 3 conos, 6 balones.",
+ "montaje": "Zona de 25 × 18 m con portería de 5 m y portero. Delanteros en fila a 15 m de portería con balón; cono a 11 m y comodín C a 8 m, a un lado del pasillo central.",
+ "juego": "El primero conduce hasta el cono (1) y pasa a C (2). Corre hacia portería, recibe la pared (3) y chuta de primeras (4). Tras 5 intentos de la fila, C cambia con el último.",
+ "punto": "Gol = 2 puntos; tiro a puerta parado = 1; pared mal dada o fuera = 0.",
+ "consigna": "Pared a un toque y remata en carrera.",
+ "variantes": {
+  "facil": "C devuelve al pie y sin portero (propuesta).",
+  "dificil": "C devuelve al espacio y con defensor pasivo."
+ },
+ "adaptacion": "Alevín (10–11): sin defensor. Infantil (12–13): pared de primeras y portero.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN, PARED + FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-pared-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   25,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2.5,
+   "ymax": 20.5
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    12.5,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 15,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 17.2,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 6.5,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.5,
+     15
+    ],
+    "b": [
+     12.5,
+     11.8
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12.5,
+     10.7
+    ],
+    "b": [
+     6.8,
+     7.3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12.5,
+     10.5
+    ],
+    "b": [
+     14.5,
+     7.4
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6.8,
+     7
+    ],
+    "b": [
+     13.8,
+     6.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     14.5,
+     6.5
+    ],
+    "b": [
+     13.5,
+     1
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

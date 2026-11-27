@@ -1,0 +1,133 @@
+{
+ "id": "FB-087",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cruz de control orientado",
+ "formato": "Cruz de pase",
+ "edad": "6–11 años",
+ "nivel": "Normal",
+ "jugadores": "4–6 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30″ de pausa; cambio de pie de control en cada serie.",
+ "objetivo": "Controlar el balón orientándolo hacia el compañero siguiente con un solo toque. Cómo explicarlo: «controla hacia donde vas a pasar». Errores típicos: parar el balón antes de orientar, control con la punta y pase con dos toques. Qué observar: perfil del cuerpo abierto, control con el interior y balón a la altura del siguiente. Material: 5 conos, 1 balón, un peto para el central.",
+ "montaje": "Cruz de 12 × 12 m: un jugador en cada punta y uno en el centro, el «central», con peto. Un balón; empieza el del norte.",
+ "juego": "El norte pasa al central (1). Este controla de primeras hacia la punta que señala el entrenador (2) y pasa raso a ella (3). Luego el central va a la punta de donde vino el balón y el pasador al centro.",
+ "punto": "Control orientado y pase limpio = 1 punto. Gana quien más sume en 2 min.",
+ "consigna": "Controla donde vas a pasar.",
+ "variantes": {
+  "facil": "Sin indicar lado: el central elige libremente (propuesta).",
+  "dificil": "Control y pase en un solo toque, o controlar con la pierna no dominante."
+ },
+ "adaptacion": "Prebenjamín (6–7): 2 toques. Benjamín (8–9): control orientado de primeras. Alevín (10–11): con presión de un defensor pasivo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CRUZ DE CONTROL ORIENTADO",
+  "ref": "https://toplidercoach.com/futbol-base/cruz-de-control-orientado/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 15,
+   "ymin": -3,
+   "ymax": 15
+  },
+  "cones": [
+   [
+    6,
+    0.5
+   ],
+   [
+    6,
+    11.5
+   ],
+   [
+    0.5,
+    6
+   ],
+   [
+    11.5,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 1.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     1.5
+    ],
+    "b": [
+     6,
+     5.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     6,
+     6
+    ],
+    "b": [
+     10.5,
+     6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    6,
+    8.4,
+    "CENTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

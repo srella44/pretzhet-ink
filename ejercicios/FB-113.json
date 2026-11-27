@@ -1,0 +1,191 @@
+{
+ "id": "FB-113",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Tres calles de pase",
+ "formato": "Pase y sigue",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "24 × 12 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30″ de pausa; cada serie cambian de calle.",
+ "objetivo": "Pase y control a ritmo con sincronía entre tres grupos, atentos al propio balón y a los demás. Cómo explicarlo: «pasa, sigue tu pase y controla a un toque». Errores típicos: no seguir el pase, controlar mal y chocar con otra calle. Qué observar: perfil del cuerpo, pase raso con interior y orden de las filas. Material: 6 conos, 3 balones.",
+ "montaje": "Campo de 24 × 12 m con 3 calles de 4 m. En cada calle, 4 jugadores: 2 en cada extremo, a 12 m, con 1 balón por calle.",
+ "juego": "A la voz «¡ya!», el primero de cada calle pasa al extremo contrario (1) y corre a esa fila (2). El receptor controla y pasa de vuelta a 2 toques (3). Los 3 balones salen a la vez.",
+ "punto": "Cada calle suma 1 punto por 10 pases sin error; si chocan dos balones, 0. Gana la calle con más puntos.",
+ "consigna": "Pasa, sigue tu pase y mira.",
+ "variantes": {
+  "facil": "Pasillo de 3 m, 3 toques y sin voz (propuesta).",
+  "dificil": "1 toque, cambio de calle tras cada pase o pierna no dominante."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques. Infantil–cadete (12–15): de primeras y cambio de calle tras cada pase.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "3 FILAS DE PASE SIMULTANEAS",
+  "ref": "https://toplidercoach.com/futbol-base/3-filas-de-pase-simultaneas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. Los jugadores de calles distintas se dibujan en el mismo color: el diagrama muestra solo el primer pase. ",
+ "diagrama": {
+  "field": [
+   24,
+   12
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 27.5,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "lines": [
+   [
+    [
+     0,
+     4
+    ],
+    [
+     24,
+     4
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     8
+    ],
+    [
+     24,
+     8
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25.4,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25.4,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25.4,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     2
+    ],
+    "b": [
+     23,
+     2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     1,
+     6
+    ],
+    "b": [
+     23,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     1,
+     10
+    ],
+    "b": [
+     23,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "id": "FB-095",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Laterales invertidos",
+ "formato": "Combinación 4v2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug.",
+ "espacio": "30 × 28 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con rotación de puestos; 6 acciones por jugador.",
+ "objetivo": "Combinar con un lateral que entra al interior (invertido) para crear superioridad en el centro y dejar libre la banda. Cómo explicarlo: «el lateral se mete, da pared y filtra al extremo». Errores típicos: entrar sin recibir, pared sin ángulo y pase filtrado tarde. Qué observar: recorrido hacia dentro, apoyo del mediocentro y desmarque del extremo. Material: portería de 6 m, conos, petos.",
+ "montaje": "Medio campo de 30 × 28 m con portería de 6 m y portero. A1 central con balón, A2 lateral derecho, A4 mediocentro y A3 extremo en banda. 2 defensores D.",
+ "juego": "A1 pasa a A2 (1), que se mete al interior (2) y da pared con A4 (3). A2 filtra a A3 (4), que desborda y centra; A2 y A4 rematan. 6 repeticiones y rotan puestos.",
+ "punto": "Gol con el lateral entrando antes de la pared = 2 puntos; sin ese movimiento = 1.",
+ "consigna": "El lateral se mete, pared y al extremo.",
+ "variantes": {
+  "facil": "Un solo defensor y el extremo sin marca (propuesta).",
+  "dificil": "3 defensores y 10 s para acabar la jugada."
+ },
+ "adaptacion": "Infantil (12–13): 1 defensor y sin límite de tiempo. Cadete (14–15): 2–3 defensores y límite de 10 s.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TÁCTICO COMBINACIONES LATERALES INVERTIDOS",
+  "ref": "https://toplidercoach.com/futbol-base/tactico-combinaciones-laterales-invertidos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   30,
+   28
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 30
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 13,
+    "y": 24,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 18,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     24
+    ],
+    "b": [
+     23,
+     22
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     24,
+     22
+    ],
+    "b": [
+     20,
+     17
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     19.5,
+     17
+    ],
+    "b": [
+     15,
+     15.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     14.8,
+     15
+    ],
+    "b": [
+     26.5,
+     8.8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

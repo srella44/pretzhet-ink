@@ -1,0 +1,126 @@
+{
+ "id": "FB-107",
+ "bloque": "Calentamiento",
+ "titulo": "Carreras por parejas",
+ "formato": "Competición",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 7 m",
+ "duracion": "8 min",
+ "series": "4 rondas (de pie, de espaldas, sentados, tumbados) con 6 carreras por jugador.",
+ "objetivo": "Activar la velocidad de reacción y la arrancada con salidas distintas, compitiendo de forma divertida. Cómo explicarlo: «reacciona a la palmada y no frenes antes de la meta». Errores típicos: salida en falso, frenar antes de la línea y no mirar al carril. Qué observar: primera zancada, apoyo corto y carrera sin salirse. Material: 4 conos.",
+ "montaje": "Dos calles de 15 m, a 3 m entre sí, con cono de salida y meta. Parejas de velocidad parecida, una persona por calle; entrenador en la meta con la mano alzada.",
+ "juego": "Salida según la ronda: de pie, de espaldas, sentados o tumbados. A la palmada, sprint a meta (1). El que pierde vuelve trotando y sale otra pareja. Falsa salida: repite.",
+ "punto": "Ganar la carrera = 1 punto. Gana quien más sume en 6 carreras; empate, carrera final.",
+ "consigna": "Reacciona a la palmada y no frenes.",
+ "variantes": {
+  "facil": "Carreras de 8 m y solo de pie (propuesta).",
+  "dificil": "Salidas con giro de 180° o con un salto antes de correr."
+ },
+ "adaptacion": "Benjamín (8–9): 8 m y salidas sencillas. Alevín–infantil (10–13): 15 m y todas las salidas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COMPETICIÓN VELOCIDAD POR PAREJAS",
+  "ref": "https://toplidercoach.com/futbol-base/competicion-velocidad-por-parejas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   15,
+   7
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 9
+  },
+  "cones": [
+   [
+    0.6,
+    1
+   ],
+   [
+    0.6,
+    6
+   ],
+   [
+    12.6,
+    1
+   ],
+   [
+    12.6,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 2,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 14.3,
+    "y": 3.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     2
+    ],
+    "b": [
+     12.5,
+     2
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     2.5,
+     5
+    ],
+    "b": [
+     12.5,
+     5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    -1.1,
+    "CALLE 1",
+    "middle"
+   ],
+   [
+    7.5,
+    8.2,
+    "CALLE 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "FB-083",
+ "bloque": "Calentamiento",
+ "titulo": "Coordinación y pase",
+ "formato": "Parejas",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 9 m",
+ "duracion": "8 min",
+ "series": "4 series de 90″ por pareja; cambio de roles en cada serie.",
+ "objetivo": "Combinar un salto coordinativo con un pase al pie en movimiento. Cómo explicarlo: «salta, mira y devuelve de primeras». Errores típicos: tirar las vallas, pasar cuando aún no ha caído el salto y devolver con dos toques. Qué observar: pies juntos en el salto, ritmo y control orientado. Material: 3 vallas bajas (picas sobre conos) por pasillo, 1 balón por pareja.",
+ "montaje": "Campo de 16 × 9 m. Parejas a 14 m con 1 balón, cada una en un pasillo de 3 m. En el centro, 3 vallas bajas (picas sobre conos) a 1,5 m entre sí.",
+ "juego": "A pasa a B (1) y salta las 3 vallas con pies juntos (2). B le pasa raso a la carrera (3) y A devuelve de primeras. Cambian cada 6 repeticiones; si tira una valla, repite.",
+ "punto": "Salto limpio y devolución de primeras = 1 punto. Gana la pareja con más puntos en 4 min.",
+ "consigna": "Salta rápido y devuelve de primeras.",
+ "variantes": {
+  "facil": "Vallas de 15 cm y devolución con 2 toques (propuesta).",
+  "dificil": "Vallas de 30 cm, salto a un pie o pase con la pierna menos hábil."
+ },
+ "adaptacion": "Benjamín (8–9): vallas bajas y 2 toques. Alevín–infantil (10–13): salto alterno y de primeras.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COORDINACIÓN Y PASE",
+  "ref": "https://toplidercoach.com/futbol-base/coordinacion-y-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   16,
+   9
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 11
+  },
+  "cones": [
+   [
+    6.5,
+    3.7
+   ],
+   [
+    6.5,
+    5.3
+   ],
+   [
+    8,
+    3.7
+   ],
+   [
+    8,
+    5.3
+   ],
+   [
+    9.5,
+    3.7
+   ],
+   [
+    9.5,
+    5.3
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11.3,
+    "y": 4.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     4.5
+    ],
+    "b": [
+     15,
+     2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     2,
+     4.5
+    ],
+    "b": [
+     5.5,
+     4.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15,
+     2
+    ],
+    "b": [
+     11.5,
+     4.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    8,
+    7.3,
+    "VALLAS",
+    "middle"
+   ]
+  ]
+ }
+}

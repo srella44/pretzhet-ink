@@ -1,0 +1,138 @@
+{
+ "id": "FB-121",
+ "bloque": "Superioridades",
+ "titulo": "Color, reacción y 1v1",
+ "formato": "Reacción + 1v1",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "2 jug. (por pareja)",
+ "espacio": "20 × 19 m",
+ "duracion": "12 min",
+ "series": "6 duelos por pareja con 30″ de pausa; cambio de rol a los 3.",
+ "objetivo": "Reaccionar a una señal y decidir en un 1 contra 1 hacia portería. Cómo explicarlo: «toca el color y sal rápido al pase». Errores típicos: tocar el cono equivocado, salir sin esperar el pase y atacar sin perfil. Qué observar: reacción a la voz, volver al centro y decisión en el 1v1. Material: 4 conos de colores, portería de 5 m, balones.",
+ "montaje": "Zona de 20 × 19 m con portería de 5 m y portero. 4 conos de colores en cuadro de 4 × 4 m a 12 m de portería. A en el centro; D a 4 m detrás; entrenador con balones al lado.",
+ "juego": "El entrenador dice un color: A toca ese cono con la mano y vuelve al centro (1). Recibe el pase (2) y juega 1v1 contra D hacia la portería (3), en 8 s como máximo.",
+ "punto": "Gol = 2 puntos; a puerta parado = 1; si D roba o saca fuera, 1 para D.",
+ "consigna": "Reacciona al color y decide rápido.",
+ "variantes": {
+  "facil": "Un solo cono a tocar y sin portero (propuesta).",
+  "dificil": "Dos colores seguidos y tiro de primeras."
+ },
+ "adaptacion": "Alevín (10–11): 4 s para tocar y pase al pie. Infantil–cadete (12–15): colores seguidos y 8 s.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TOCAR COLORES Y 1X1 FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/tocar-colores-y-1x1-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   20,
+   19
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2.5,
+   "ymax": 21.5
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    8,
+    10
+   ],
+   [
+    12,
+    10
+   ],
+   [
+    8,
+    14
+   ],
+   [
+    12,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 17,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     12
+    ],
+    "b": [
+     8.5,
+     10.6
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17,
+     13
+    ],
+    "b": [
+     10.9,
+     12.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10,
+     11.3
+    ],
+    "b": [
+     10,
+     5
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

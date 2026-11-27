@@ -1,0 +1,201 @@
+{
+ "id": "FB-099",
+ "bloque": "Calentamiento",
+ "titulo": "Conducción y coordinación",
+ "formato": "Circuito en calles",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "24 × 10 m",
+ "duracion": "8 min",
+ "series": "3 vueltas por jugador con 20″ de pausa; filas de 3–6 jugadores.",
+ "objetivo": "Activar pies y cabeza juntando coordinación sin balón y conducción con cambios de dirección. Cómo explicarlo: «aros rápidos y balón pegado en el slalom». Errores típicos: pisar aros, tocar conos y alejar el balón. Qué observar: punta del pie en los aros, conducción con ambos pies y entrega ordenada. Material: 6 aros, 10 conos, 1 balón por calle.",
+ "montaje": "Dos calles de 24 × 4 m: 3 aros al inicio, 4 conos de slalom a 3 m y un cono de giro al final. Filas de 3–6 jugadores en la salida; el primero con balón.",
+ "juego": "Apoyos rápidos en los aros con el balón a un lado (1); recoge el balón y conduce en slalom entre los 4 conos (2); rodea el último y vuelve recto (3). Entrega al siguiente con un toque.",
+ "punto": "Sin pisar aro ni tirar cono = 1 punto. Gana la fila con más puntos tras 3 vueltas.",
+ "consigna": "Pies rápidos y balón cerca.",
+ "variantes": {
+  "facil": "Slalom de 3 conos y conos a 4 m (propuesta).",
+  "dificil": "Conducción solo con el exterior o la pierna no dominante."
+ },
+ "adaptacion": "Benjamín (8–9): 3 conos. Alevín (10–11): 4 conos, cambio de pie y relevo contrarreloj.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN + COORDINACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-coordinacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. Solo se dibujan las flechas de la calle de arriba. ",
+ "diagrama": {
+  "field": [
+   24,
+   10
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 26.5,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "discs": [
+   [
+    5.5,
+    3
+   ],
+   [
+    6.9,
+    3
+   ],
+   [
+    8.3,
+    3
+   ],
+   [
+    5.5,
+    7
+   ],
+   [
+    6.9,
+    7
+   ],
+   [
+    8.3,
+    7
+   ]
+  ],
+  "cones": [
+   [
+    12,
+    3
+   ],
+   [
+    15,
+    3
+   ],
+   [
+    18,
+    3
+   ],
+   [
+    21,
+    3
+   ],
+   [
+    23.2,
+    4.8
+   ],
+   [
+    12,
+    7
+   ],
+   [
+    15,
+    7
+   ],
+   [
+    18,
+    7
+   ],
+   [
+    21,
+    7
+   ],
+   [
+    23.2,
+    8.8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 0.5,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     3
+    ],
+    "b": [
+     10,
+     3
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     3
+    ],
+    "b": [
+     22,
+     3
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 12
+   },
+   {
+    "a": [
+     22.5,
+     4.2
+    ],
+    "b": [
+     5,
+     4.2
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    6.9,
+    0.8,
+    "AROS",
+    "middle"
+   ],
+   [
+    16.5,
+    0.8,
+    "SLALOM",
+    "middle"
+   ]
+  ]
+ }
+}

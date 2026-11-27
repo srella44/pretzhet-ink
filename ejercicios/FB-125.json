@@ -1,0 +1,160 @@
+{
+ "id": "FB-125",
+ "bloque": "Calentamiento",
+ "titulo": "T de agilidad con balón",
+ "formato": "Circuito en T",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "2 vueltas sin balón y 2 con balón, 30″ de pausa; salidas cada 5 s.",
+ "objetivo": "Activar con sprint y desplazamientos laterales, y después hacerlo con balón. Cómo explicarlo: «lateral sin cruzar los pies y gira bajo». Errores típicos: cruzar los pies, no tocar el cono y girar abierto. Qué observar: cadera baja, apoyos cortos y balón pegado en la vuelta con balón. Material: 4 conos, 1 balón por jugador.",
+ "montaje": "Conos en T: salida A, cono B a 10 m y conos C y D a 5 m a cada lado de B. Jugadores en fila en A; salen de uno en uno cada 5 s.",
+ "juego": "Sprint de A a B (1), lateral a C (2), lateral a D (3) y vuelta a A corriendo (4). Vueltas 1–2 sin balón; 3–4 conduciendo y tocando cada cono con el pie.",
+ "punto": "Vuelta limpia (toca los 3 conos, sin cruzar pies) = 1 punto. Gana quien más sume en 4 vueltas.",
+ "consigna": "Lateral sin cruzar y gira bajo.",
+ "variantes": {
+  "facil": "Conos a 6 m y sin balón (propuesta).",
+  "dificil": "Con balón en todas las vueltas y salidas cada 3 s."
+ },
+ "adaptacion": "Alevín (10–11): sprint y lateral de 4 m. Infantil–cadete (12–15): 5 m con balón.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD, VELOCIDAD + TÉCNICA INDIVIDUAL",
+  "ref": "https://toplidercoach.com/futbol-base/agilidad-velocidad-tecnica-individual/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    6,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    11,
+    1
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 11.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 11.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     10.2
+    ],
+    "b": [
+     6,
+     2
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     5.2,
+     1
+    ],
+    "b": [
+     1.8,
+     1
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     1.8,
+     2.4
+    ],
+    "b": [
+     10.2,
+     2.4
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     2
+    ],
+    "b": [
+     6.8,
+     10.2
+    ],
+    "k": "run",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.8,
+    "B",
+    "middle"
+   ],
+   [
+    1,
+    -0.8,
+    "C",
+    "middle"
+   ],
+   [
+    11,
+    -0.8,
+    "D",
+    "middle"
+   ]
+  ]
+ }
+}

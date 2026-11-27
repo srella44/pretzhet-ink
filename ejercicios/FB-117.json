@@ -1,0 +1,137 @@
+{
+ "id": "FB-117",
+ "bloque": "Finalización",
+ "titulo": "Regate al cono y tiro",
+ "formato": "Servicio, regate y tiro",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "4–12 jug.",
+ "espacio": "26 × 20 m",
+ "duracion": "14 min",
+ "series": "3 series de 4 min; 6 tiros por jugador alternando fila.",
+ "objetivo": "Tras recibir, cambiar de ritmo ante un obstáculo y finalizar al palo contrario. Cómo explicarlo: «frena, acelera en el cono y tira lejos del portero». Errores típicos: pasar el cono sin cambio de ritmo, tirar al centro y tocar el cono. Qué observar: primer toque orientado, cambio de ritmo y pie de apoyo junto al balón. Material: portería de 6 m, 2 conos, 8 balones.",
+ "montaje": "Zona de 26 × 20 m con portería de 6 m y portero. Servidor centrado a 16 m. Dos filas de delanteros a 18 m, una por lado, con un cono a 8 m de portería ante cada fila.",
+ "juego": "El servidor pasa al primero de la fila izquierda (1). Controla, conduce al cono (2), lo regatea con cambio de ritmo y chuta al palo contrario (3). Luego la fila derecha.",
+ "punto": "Gol = 2 puntos; a puerta = 1; cono tocado = −1. Gana quien más sume en 6 tiros.",
+ "consigna": "Cambia de ritmo y tira al palo contrario.",
+ "variantes": {
+  "facil": "Cono más lejos y sin portero (propuesta).",
+  "dificil": "Defensor pasivo en vez del cono y tiro de primeras."
+ },
+ "adaptacion": "Infantil (12–13): cono fijo. Cadete (14–15): defensor pasivo y pierna no dominante.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "MEJORA FINALIZACIÓN INDIVIDUAL II",
+  "ref": "https://toplidercoach.com/futbol-base/mejora-finalizacion-individual-ii/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   26,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 28,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "porterias": [
+   {
+    "x": 13,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    7,
+    8
+   ],
+   [
+    19,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 13,
+    "y": 15,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 17,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 5.5,
+    "f": -45,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     15
+    ],
+    "b": [
+     5,
+     16.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     4,
+     17
+    ],
+    "b": [
+     6.8,
+     9.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9,
+     5.5
+    ],
+    "b": [
+     15.5,
+     0.9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

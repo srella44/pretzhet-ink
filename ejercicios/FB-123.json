@@ -1,0 +1,148 @@
+{
+ "id": "FB-123",
+ "bloque": "Calentamiento",
+ "titulo": "Huir de los lobos",
+ "formato": "Juego de persecución",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "5 rondas de 1 min con 20″ de pausa y cambio de lobos.",
+ "objetivo": "Activar con conducción, cambios de dirección y mirada alta bajo presión divertida. Cómo explicarlo: «ovejas, huid con el balón pegado y la cabeza arriba». Errores típicos: mirar solo el balón, huir en línea recta y chocar entre ovejas. Qué observar: cambios de ritmo, protección del balón y uso de la casa. Material: 4 conos, 1 balón por oveja, 2 petos.",
+ "montaje": "Cuadrado de 20 × 20 m. Las ovejas conducen balón; 2 lobos con peto y sin balón. En una esquina, una «casa» de 4 × 4 m donde la oveja está a salvo 3 s.",
+ "juego": "A la señal, las ovejas conducen esquivando a los lobos (1). El lobo que toca a una oveja le da su peto (2). En la casa no entran lobos. Balón fuera = la oveja pasa a lobo.",
+ "punto": "Oveja que acaba la ronda de 1 min sin ser lobo = 1 punto; 5 rondas. Gana quien más sume.",
+ "consigna": "Cabeza arriba, cambia de dirección.",
+ "variantes": {
+  "facil": "Un solo lobo y casa de 6 × 6 m (propuesta).",
+  "dificil": "3 lobos, sin casa y balón con la pierna no dominante."
+ },
+ "adaptacion": "Benjamín (8–9): 1 lobo y con la mano. Alevín–infantil (10–13): 2–3 lobos, tocar con el pie.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "HUIR DE LOS \"LOBOS",
+  "ref": "https://toplidercoach.com/futbol-base/huir-de-los-lobos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     16,
+     16,
+     20,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 6,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": [
+     4,
+     14
+    ]
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 10,
+    "f": [
+     17,
+     6
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     6.5,
+     4.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     5.5,
+     11.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 14
+   }
+  ],
+  "labels": [
+   [
+    18,
+    14.2,
+    "CASA",
+    "middle"
+   ]
+  ]
+ }
+}

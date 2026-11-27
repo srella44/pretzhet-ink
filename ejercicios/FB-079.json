@@ -1,0 +1,172 @@
+{
+ "id": "FB-079",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Dejar de cara y precisión",
+ "formato": "Trío con pivote",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 16 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min por trío, con 30″ de pausa; rotación cada 3 intentos.",
+ "objetivo": "Trabajar el pase de dejada del pivote (jugar de cara al compañero que llega de frente) y la precisión del pase siguiente. Cómo explicarlo: «el pivote no controla, la deja de un toque para el que viene». Errores típicos: dejarla blanda, mal perfilado del pivote (de espaldas al compañero) y pase final sin mirar la puerta. Qué observar: perfil del cuerpo, un solo toque y pase raso con el interior. Material: 4 conos, 1 balón por trío.",
+ "montaje": "Campo de 30 × 16 m. Trío: A1 con balón en un fondo, A2 pivote a 8 m mirándole, A3 a 5 m de A2. Puerta de 2 conos (1,5 m) a 12 m de A2.",
+ "juego": "A1 pasa al pie de A2 (1). A3 se desmarca (2) y A2 se la deja de cara de un toque (3). A3 pasa raso por la puerta (4). Rotan A1→A2→A3 cada 3 intentos.",
+ "punto": "Pase por la puerta = 1 punto. Gana el trío con más puntos en 6 min.",
+ "consigna": "Déjala de cara y pasa a la puerta.",
+ "variantes": {
+  "facil": "Puerta de 3 m y A3 parte parado (propuesta).",
+  "dificil": "Un defensor pasivo que presiona a A3 tras la dejada, y puerta de 1 m."
+ },
+ "adaptacion": "Alevín (10–11): sin defensor y puerta de 3 m. Infantil (12–13): con defensor pasivo y 2 toques máximo para A3.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DEJAR DE CARA Y PRECISIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/dejar-de-cara-y-precision/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   30,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    28,
+    7.25
+   ],
+   [
+    28,
+    8.75
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    16
+   ],
+   [
+    0,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 4.5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     8
+    ],
+    "b": [
+     11,
+     8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9,
+     2.5
+    ],
+    "b": [
+     19,
+     4.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     8
+    ],
+    "b": [
+     19,
+     4.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     19,
+     4.5
+    ],
+    "b": [
+     28,
+     8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    28,
+    10.4,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    11,
+    10.6,
+    "PIVOTE",
+    "middle"
+   ]
+  ]
+ }
+}

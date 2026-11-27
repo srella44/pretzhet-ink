@@ -1,0 +1,115 @@
+{
+ "id": "FB-119",
+ "bloque": "Superioridades",
+ "titulo": "Duelos 1v1 con contra",
+ "formato": "Duelo 1v1",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "2 jug. (por pareja)",
+ "espacio": "15 × 10 m",
+ "duracion": "10 min",
+ "series": "6 duelos por pareja de 20″ con 20″ de pausa; parejas en cola.",
+ "objetivo": "Atacar y defender un 1 contra 1 con salida al contraataque si se roba. Cómo explicarlo: «mira al rival, cambia de ritmo y si robas, a su portería». Errores típicos: lanzarse al suelo, atacar sin cambio de ritmo y no salir tras robar. Qué observar: cuerpo de lado, distancia al rival y primer toque hacia la portería. Material: 2 miniporterías de 2 m, conos, balones.",
+ "montaje": "Campo de 15 × 10 m con miniportería de 2 m en cada fondo. A y D defienden una portería cada uno; A empieza con balón en su fondo. Las demás parejas esperan fuera.",
+ "juego": "A conduce y ataca la portería de D (1). D intenta robar y, si lo logra, sale a la portería contraria (2). Jugada de 20 s o hasta gol o balón fuera. En cada duelo cambia el atacante.",
+ "punto": "Gol = 1 punto; robo y gol = 2; fuera o sin gol en 20 s = 0. Gana quien más sume en 6 duelos.",
+ "consigna": "Mira a tu rival y cambia de ritmo.",
+ "variantes": {
+  "facil": "Campo de 12 × 8 m y portería de 3 m (propuesta).",
+  "dificil": "Campo de 20 × 12 m, 15 s y portería de 1,5 m."
+ },
+ "adaptacion": "Benjamín (8–9): portería ancha. Alevín (10–11): 15 s y contraataque obligatorio.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DUELOS 1X1",
+  "ref": "https://toplidercoach.com/futbol-base/duelos-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   15,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -3,
+   "ymax": 13
+  },
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    15,
+    5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": -1.8,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": -1.8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     5
+    ],
+    "b": [
+     9,
+     5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11.5,
+     5
+    ],
+    "b": [
+     10,
+     6.8
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

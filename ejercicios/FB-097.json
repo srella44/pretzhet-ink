@@ -1,0 +1,163 @@
+{
+ "id": "FB-097",
+ "bloque": "Superioridades",
+ "titulo": "1v1 con agilidad",
+ "formato": "Duelo 1v1",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "2 jug. (por pareja)",
+ "espacio": "20 × 10 m",
+ "duracion": "10 min",
+ "series": "8 duelos por pareja con 30″ de descanso; cambio de lado cada 4.",
+ "objetivo": "Combinar agilidad de pies con un 1 contra 1 decidido tras una carrera. Cómo explicarlo: «sal fino de los aros y llega primero al balón». Errores típicos: pisar los aros, frenar al llegar al balón y atacar sin mirar al defensor. Qué observar: apoyos cortos, primer toque hacia delante y orientación del cuerpo. Material: 8 aros o discos, 2 miniporterías de 2 m, 1 balón.",
+ "montaje": "Campo de 20 × 10 m con miniportería de 2 m en cada fondo. Cada jugador junto a su portería con 4 aros en línea (1,5 m). Balón en el centro, a 10 m de ambos.",
+ "juego": "A la señal, ambos hacen pies rápidos por los aros (1) y sprintan al balón (2). Quien llega primero ataca la portería rival (3); el otro defiende. Gol o balón fuera acaba el duelo.",
+ "punto": "Gol = 1 punto; robo y gol = 2. Gana quien más sume en 8 duelos.",
+ "consigna": "Pies rápidos, llega primero y decide.",
+ "variantes": {
+  "facil": "Sin aros: sprint directo y balón más cerca de quien salga peor (propuesta).",
+  "dificil": "Aros con pierna cruzada y duelo limitado a 6 s."
+ },
+ "adaptacion": "Infantil (12–13): sin límite de tiempo. Cadete (14–15): límite de 6 s y orden de aros variable.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "1 vs 1 AGILIDAD",
+  "ref": "https://toplidercoach.com/futbol-base/1-vs-1-agilidad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   20,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -3,
+   "ymax": 13
+  },
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    20,
+    5,
+    "R"
+   ]
+  ],
+  "discs": [
+   [
+    3.4,
+    3.5
+   ],
+   [
+    4.9,
+    3.5
+   ],
+   [
+    6.4,
+    3.5
+   ],
+   [
+    7.9,
+    3.5
+   ],
+   [
+    16.6,
+    6.5
+   ],
+   [
+    15.1,
+    6.5
+   ],
+   [
+    13.6,
+    6.5
+   ],
+   [
+    12.1,
+    6.5
+   ]
+  ],
+  "balls": [
+   [
+    10,
+    5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18.2,
+    "y": 6.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     3.5
+    ],
+    "b": [
+     9,
+     3.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17.5,
+     6.5
+    ],
+    "b": [
+     11,
+     6.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10,
+     5
+    ],
+    "b": [
+     18.5,
+     5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    10,
+    1.3,
+    "BALÓN",
+    "middle"
+   ]
+  ]
+ }
+}

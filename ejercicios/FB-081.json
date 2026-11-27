@@ -1,0 +1,209 @@
+{
+ "id": "FB-081",
+ "bloque": "Calentamiento",
+ "titulo": "Agilidad y precisión en pase",
+ "formato": "Parejas",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 10 m",
+ "duracion": "8 min",
+ "series": "3 series de 2 min con 30″ de pausa.",
+ "objetivo": "Activar con pies rápidos y pasar con precisión justo después de un esfuerzo de coordinación. Cómo explicarlo: «apoyos rápidos y, al salir, cabeza arriba para el pase». Errores típicos: pisar el aro, pasar sin mirar la puerta y golpear el balón fuerte. Qué observar: apoyos de la punta, pase con el interior y balón raso. Material: 8 aros o discos por calle, 2 conos de puerta, 1 balón por pareja.",
+ "montaje": "Campo de 16 × 10 m. Parejas a 14 m; cada uno con 4 aros en línea (1,4 m entre ellos). En medio, puerta de 2 conos a 1 m. A empieza con balón.",
+ "juego": "A hace pies rápidos en los aros (1) y pasa raso por la puerta a B (2). B hace sus aros y devuelve (3). 8 pases cada uno; quien pisa un aro o falla la puerta repite.",
+ "punto": "Pase por la puerta sin pisar aro = 1 punto. Gana la pareja con más puntos en 2 min.",
+ "consigna": "Pisa rápido y pasa a la puerta.",
+ "variantes": {
+  "facil": "Puerta de 2 m y 3 aros (propuesta).",
+  "dificil": "Pase de primeras y sin pausa entre aros, o puerta de 0,6 m."
+ },
+ "adaptacion": "Benjamín (8–9): 3 aros y puerta ancha. Alevín (10–11): 4 aros, puerta estrecha y pie no dominante.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD+PRECISIÓN EN EL PASE",
+  "ref": "https://toplidercoach.com/futbol-base/agilidadprecision-en-el-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. B hace sus aros: se dibuja solo la primera secuencia. ",
+ "diagrama": {
+  "field": [
+   16,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "discs": [
+   [
+    3.4,
+    3
+   ],
+   [
+    4.8,
+    3
+   ],
+   [
+    6.2,
+    3
+   ],
+   [
+    7.6,
+    3
+   ],
+   [
+    12.4,
+    3
+   ],
+   [
+    11,
+    3
+   ],
+   [
+    9.6,
+    3
+   ],
+   [
+    8.2,
+    3
+   ],
+   [
+    3.4,
+    8
+   ],
+   [
+    4.8,
+    8
+   ],
+   [
+    6.2,
+    8
+   ],
+   [
+    7.6,
+    8
+   ],
+   [
+    12.4,
+    8
+   ],
+   [
+    11,
+    8
+   ],
+   [
+    9.6,
+    8
+   ],
+   [
+    8.2,
+    8
+   ]
+  ],
+  "cones": [
+   [
+    8,
+    2.5
+   ],
+   [
+    8,
+    3.5
+   ],
+   [
+    8,
+    7.5
+   ],
+   [
+    8,
+    8.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     3
+    ],
+    "b": [
+     7.8,
+     3
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 12
+   },
+   {
+    "a": [
+     8.4,
+     3
+    ],
+    "b": [
+     14.5,
+     3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15,
+     3
+    ],
+    "b": [
+     9,
+     3
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    8,
+    5.6,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

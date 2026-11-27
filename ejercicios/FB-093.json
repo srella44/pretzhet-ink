@@ -1,0 +1,147 @@
+{
+ "id": "FB-093",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Movimientos de apoyo 4v2",
+ "formato": "Posesión 4v2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 2 min por grupo de 6, con 1 min de pausa; el otro grupo descansa y cambia.",
+ "objetivo": "Aprender a moverse después de pasar para ofrecer un apoyo en ángulo y mantener la posesión. Cómo explicarlo: «pasa y muévete a un ángulo libre, no te quedes en línea con el defensor». Errores típicos: quedarse parado tras el pase, apoyos en línea recta y pases largos sin mirar. Qué observar: perfil abierto, distancia de apoyo y comunicación. Material: 4 conos, petos de 2 colores.",
+ "montaje": "Cuadrado de 20 × 20 m. 4 atacantes (A) con 1 balón, uno en cada esquina, contra 2 defensores (D) en el centro. El grupo de 6 descansa 1 min entre rondas.",
+ "juego": "Los A se pasan el balón con 2 toques máximo (1). Tras pasar, el pasador se mueve a un ángulo libre, en diagonal al balón y fuera de línea con los D (2). Si D roba o sale, cambian roles.",
+ "punto": "6 pases seguidos = 1 punto; 10 = 2 puntos. 3 rondas de 2 min; gana el grupo con más puntos.",
+ "consigna": "Pasa y muévete a un ángulo libre.",
+ "variantes": {
+  "facil": "Cuadrado de 25 × 25 m y 3 toques (propuesta).",
+  "dificil": "Cuadrado de 15 × 15 m, 1 toque y un tercer defensor."
+ },
+ "adaptacion": "Infantil (12–13): 2 toques y sin límite de pases. Cadete (14–15): 1 toque y consigna de apoyo en diagonal obligatoria.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TÁCTICO POSESIÓN MOVIMIENTOS DE APOYO",
+  "ref": "https://toplidercoach.com/futbol-base/tactico-posesion-movimientos-de-apoyo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 17,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 11,
+    "f": 45
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 8,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     17,
+     4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     5.5,
+     8
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     17,
+     4
+    ],
+    "b": [
+     16,
+     16
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

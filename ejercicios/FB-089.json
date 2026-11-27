@@ -1,0 +1,127 @@
+{
+ "id": "FB-089",
+ "bloque": "Finalización",
+ "titulo": "Recibir en carrera y tiro",
+ "formato": "Servicio y remate",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 16 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 min; 5 tiros por jugador en cada serie.",
+ "objetivo": "Recibir en movimiento, controlar hacia la portería sin parar y rematar rápido. Cómo explicarlo: «arranca antes del pase y no frenes». Errores típicos: esperar parado el balón, controlar hacia atrás y chutar con el balón lejos del pie. Qué observar: carrera en curva hacia el balón, control orientado y tiro con empeine. Material: portería de 5 m, 6 balones, 2 conos.",
+ "montaje": "Zona de 20 × 16 m con portería de 5 m y portero. Servidor con balones a 12 m de portería, a la izquierda. Delanteros en fila a 14 m.",
+ "juego": "El servidor pasa raso al espacio (1). El primero arranca (2), recibe en carrera con control hacia delante y chuta (3). 5 tiros cada uno y rota: delantero → servidor.",
+ "punto": "Gol = 2 puntos; a puerta parado = 1; fuera o control que obliga a parar = 0.",
+ "consigna": "Arranca antes del pase.",
+ "variantes": {
+  "facil": "Pase al pie y sin portero (propuesta).",
+  "dificil": "Pase largo al espacio, con un defensor pasivo a 3 m."
+ },
+ "adaptacion": "Benjamín (8–9): pase al pie y portería de 6 m. Alevín (10–11): al espacio, portero y pierna no dominante.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RECIBIR EN CARRERA Y TIRO",
+  "ref": "https://toplidercoach.com/futbol-base/recibir-en-carrera-y-tiro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   20,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 14,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 15.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 8.2,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     12
+    ],
+    "b": [
+     8.6,
+     8.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     14
+    ],
+    "b": [
+     10.2,
+     9
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10,
+     8
+    ],
+    "b": [
+     10,
+     1
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

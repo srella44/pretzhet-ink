@@ -1,0 +1,144 @@
+{
+ "id": "FB-111",
+ "bloque": "Finalización",
+ "titulo": "Control en puerta y tiro",
+ "formato": "Servicio y tiro",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "22 × 16 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 min; 5 tiros por jugador, alternando lado del servicio.",
+ "objetivo": "Controlar en movimiento orientando el balón hacia la portería y rematar rápido. Cómo explicarlo: «controla dentro de la puerta y chuta al segundo toque». Errores típicos: controlar fuera de la puerta, parar el balón y tiro sin perfilarse. Qué observar: primer toque hacia delante, cuerpo abierto y tiro con empeine. Material: portería de 5 m, 2 conos de puerta, 6 balones.",
+ "montaje": "Zona de 22 × 16 m con portería de 5 m y portero. Puerta de control de 1,5 m a 8 m de portería. Servidor a la derecha; delanteros en fila a 14 m, a la izquierda.",
+ "juego": "El delantero sale en diagonal a la puerta (1). El servidor le pasa raso por delante (2). Controla dentro de la puerta orientando a portería y chuta al segundo toque (3). 5 tiros y rota.",
+ "punto": "Gol = 2 puntos; a puerta = 1; control fuera de la puerta = 0.",
+ "consigna": "Controla en la puerta y chuta al segundo toque.",
+ "variantes": {
+  "facil": "Puerta de 3 m y 3 toques máximo (propuesta).",
+  "dificil": "Pase fuerte, puerta de 1 m y tiro de primeras tras el control."
+ },
+ "adaptacion": "Benjamín (8–9): puerta ancha. Alevín–infantil (10–13): puerta estrecha y con defensor pasivo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONTROL EN MOVIMIENTO Y FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/control-en-movimiento-y-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   22,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 24,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 11,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    9.8,
+    8
+   ],
+   [
+    12.2,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 19,
+    "y": 11,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 14,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 15.5,
+    "f": -60
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 7.3,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     14
+    ],
+    "b": [
+     10,
+     8.7
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     19,
+     11
+    ],
+    "b": [
+     11.8,
+     8.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     7.2
+    ],
+    "b": [
+     12,
+     0.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    11,
+    9.8,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

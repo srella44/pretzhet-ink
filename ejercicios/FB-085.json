@@ -1,0 +1,163 @@
+{
+ "id": "FB-085",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Conducción y pase en puerta",
+ "formato": "Parejas",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "18 × 18 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min; cada ronda cambian de puerta (sentido horario).",
+ "objetivo": "Conducir con la cabeza alta y pasar con precisión por una puerta estrecha, con varias parejas a la vez. Cómo explicarlo: «mira la puerta, pasa raso y entra tú». Errores típicos: pasar fuerte, no mirar a otras parejas y salir sin esperar el control. Qué observar: toque de conducción suave, pase con interior y control orientado. Material: 8 conos, 1 balón por pareja.",
+ "montaje": "Cuadrado de 18 × 18 m con una puerta de 2 m en cada lado. 4 parejas: A con balón dentro, B fuera pegado a su puerta; cada pareja usa una puerta distinta.",
+ "juego": "A conduce hasta su puerta (1) y pasa raso por ella a B (2). B controla y entra conduciendo (3) mientras A sale y ocupa su sitio. Cada 2 min cambian de puerta.",
+ "punto": "Pase por la puerta y control en 2 toques = 1 punto. Si choca con otra pareja o el balón sale, 0.",
+ "consigna": "Cabeza arriba, pase raso por la puerta.",
+ "variantes": {
+  "facil": "Puerta de 3 m y sin cuenta de toques (propuesta).",
+  "dificil": "Puerta de 1,5 m y pase de primeras sin parar la conducción."
+ },
+ "adaptacion": "Prebenjamín (6–7): puerta ancha y sin puntos. Benjamín (8–9): puntos. Alevín (10–11): solo pierna no dominante.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN Y PASE",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-y-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. Solo se dibuja la secuencia de la pareja de arriba; las demás hacen lo mismo en su puerta. ",
+ "diagrama": {
+  "field": [
+   18,
+   18
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 21.5,
+   "ymin": -3.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    8,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    8,
+    18
+   ],
+   [
+    10,
+    18
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    18,
+    8
+   ],
+   [
+    18,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": -2.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 13,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -2.2,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20.2,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     5
+    ],
+    "b": [
+     9,
+     1.2
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9,
+     1.4
+    ],
+    "b": [
+     9,
+     -1.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 2,
+    "s1": 4
+   }
+  ],
+  "labels": []
+ }
+}

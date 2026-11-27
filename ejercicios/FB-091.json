@@ -1,0 +1,160 @@
+{
+ "id": "FB-091",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Llegada por el lado débil",
+ "formato": "Combinación 4v2",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con rotación de puestos; 8 acciones por serie.",
+ "objetivo": "Atraer a la defensa a un lado y cambiar de orientación para llegar solo por el lado contrario. Cómo explicarlo: «llama a los defensores y cambia al que llega libre». Errores típicos: cambiar tarde, pase largo flojo y que el llegador salga antes de tiempo. Qué observar: pase de cambio al espacio, llegada desde atrás y remate rápido. Material: portería de 5 m, conos, petos.",
+ "montaje": "Medio campo de 30 × 24 m con portería de 5 m y portero. A1 con balón en banda izquierda, A2 centro, A3 delantero y A4 en banda derecha. 2 defensores D.",
+ "juego": "A1 pasa a A2 (1) y los D se escoran. A2 cambia de lado con pase largo (2) a A4, que llega desde atrás (3). A4 chuta o centra (4); A3 y A2 rematan. 8 acciones y rotan.",
+ "punto": "Gol tras cambio de lado = 2 puntos; gol sin cambio = 1. Si D roba y pasa a la salida, 1 para ellos.",
+ "consigna": "Atrae al balón, cambia de lado y llega por detrás.",
+ "variantes": {
+  "facil": "Sin defensores: solo mover y finalizar (propuesta).",
+  "dificil": "3 defensores y el cambio de lado en un máximo de 3 pases."
+ },
+ "adaptacion": "Alevín (10–11): sin defensores. Infantil (12–13): 2 defensores. Cadete (14–15): 3 defensores y 8 s para finalizar.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ACCIÓN COMBINATIVA LLEGADA LADO DEBIL",
+  "ref": "https://toplidercoach.com/futbol-base/accion-combinativa-llegada-lado-debil/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 24.5,
+    "y": 11,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     19
+    ],
+    "b": [
+     13,
+     15
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13,
+     15
+    ],
+    "b": [
+     23.8,
+     11.3
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     27,
+     17
+    ],
+    "b": [
+     24.8,
+     12
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     24.5,
+     11
+    ],
+    "b": [
+     16.8,
+     1
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": []
+ }
+}

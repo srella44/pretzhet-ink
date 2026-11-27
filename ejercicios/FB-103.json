@@ -1,0 +1,131 @@
+{
+ "id": "FB-103",
+ "bloque": "Superioridades",
+ "titulo": "Sprints repetidos y 1v1",
+ "formato": "Esfuerzo + 1v1",
+ "edad": "10–13 años",
+ "nivel": "Alto",
+ "jugadores": "2 jug. (por pareja)",
+ "espacio": "25 × 10 m",
+ "duracion": "12 min",
+ "series": "6 duelos por pareja con 40″ de descanso; cambio de roles a los 3.",
+ "objetivo": "Mantener la calidad del 1 contra 1 cuando el jugador llega cansado tras repetir sprints. Cómo explicarlo: «llega fuerte al cono y decide el 1 contra 1». Errores típicos: tocar el balón largo por fatiga, atacar sin mirar y defender sin cerrar el ángulo. Qué observar: zancada, respiración y toma de decisión. Material: 3 conos, 1 miniportería de 3 m, balones.",
+ "montaje": "Pasillo de 25 × 10 m: cono de salida y otro a 8 m; miniportería de 3 m a 25 m. A (ataca) y D (defiende) salen juntos. Entrenador a 12 m con balones.",
+ "juego": "Ambos hacen 2 sprints de ida y vuelta al cono de 8 m sin balón (1). Al volver, el entrenador pasa a A (2) y juegan 1v1 contra la miniportería (3) en 8 s máximo.",
+ "punto": "Gol = 1 punto para A; si D roba o saca fuera, 1 para D. 6 duelos y cambian.",
+ "consigna": "Llega fuerte al cono y decide.",
+ "variantes": {
+  "facil": "Un solo sprint y 10 s de duelo (propuesta).",
+  "dificil": "3 sprints y duelo en 6 s."
+ },
+ "adaptacion": "Alevín (10–11): 1 sprint y descanso de 60″. Infantil (12–13): 2 sprints y 40″.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RESISTENCIA A LA VELOCIDAD Y 1X1",
+  "ref": "https://toplidercoach.com/futbol-base/resistencia-a-la-velocidad-y-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web no disponible en la ejecución programada: título interpretado por su nombre. ",
+ "diagrama": {
+  "field": [
+   25,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -3,
+   "ymax": 13
+  },
+  "goals": [
+   [
+    25,
+    5,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    9,
+    5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 2,
+    "y": 6.4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 9,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     4
+    ],
+    "b": [
+     8.5,
+     4
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     15,
+     9
+    ],
+    "b": [
+     11,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     10,
+     4.5
+    ],
+    "b": [
+     24,
+     5
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    9,
+    7.2,
+    "CONO 8 M",
+    "middle"
+   ]
+  ]
+ }
+}
