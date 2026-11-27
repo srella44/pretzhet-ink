@@ -1,0 +1,140 @@
+{
+ "id": "ATH-080",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "LLEGADAS CORTAS ALTERNATIVAS",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 117"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Llegadas cortas alternativas",
+ "formato": "5v0 + P",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug. + portero",
+ "espacio": "35 × 40 m",
+ "duracion": "14 min",
+ "series": "2 rondas de 5 centros por jugador, alternando banda (propuesta).",
+ "objetivo": "Dos acciones de ataque corto sin oposición: 1) el jugador de dentro decide el pase, tras el movimiento del delantero centro o en diagonal a quien entra de fuera; 2) entrada clásica desde banda con los delanteros cruzándose y el de banda llegando a la pasada. Variar los centros: corridos, tras control o con pase atrás (fuente). Cómo explicarlo: «cruzáos y llega al segundo palo». Errores típicos: salir juntos, centrar sin mirar. Qué observar: tiempos de la entrada.",
+ "montaje": "Medio campo de 35 × 40 m con portería y portero. Mediocentro con balón a 25 m de la portería, un extremo por banda a 20 m del fondo y 2 delanteros en el área.",
+ "juego": "El mediocentro pasa a la banda o en diagonal al que entra. Los delanteros se cruzan, uno al primer palo y otro al segundo; el extremo centra.",
+ "punto": "Gol = 2 puntos; remate fuera = 0; el portero atrapa = 1 para él.",
+ "consigna": "Cruzaos: un palo cada uno.",
+ "adaptacion": "Alevín (10–11): 4 jugadores y portería de 5 m. Infantil (12–13): lo propuesto. Cadete: oposición con 2 defensores.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): dos entradas (el de dentro decide el pase y entrada clásica desde banda con delanteros que se cruzan) y diferentes tipos de centro. Número de jugadores, medidas, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   35
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 17.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 17.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     17.5
+    ],
+    "b": [
+     24,
+     3
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     3
+    ],
+    "b": [
+     35,
+     23
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     32,
+     12
+    ],
+    "b": [
+     37,
+     23
+    ],
+    "k": "run",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 3
+   }
+  ],
+  "cones": [],
+  "lines": [],
+  "labels": []
+ },
+ "variantes": {
+  "facil": "Pase raso y a media altura, y un solo delantero (propuesta).",
+  "dificil": "Defensa pasiva con balones en los pies y remate a un toque (propuesta)."
+ }
+}

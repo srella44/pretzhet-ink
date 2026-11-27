@@ -1,0 +1,267 @@
+{
+ "id": "ATH-048",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "P.4 P.P. 2 P.P. LATERALES",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 67"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Puertas por los lados",
+ "formato": "6v6",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Aplicación táctica con respeto a las posiciones, el orden y las distancias entre líneas: amplitud (porterías laterales), juego interior para romper líneas y profundidad hacia las porterías de fondo (fuente). Cómo explicarlo: «ancho para estirar, dentro para romper». Errores típicos: líneas desordenadas, atacar solo por un carril. Qué observar: distancias entre líneas y cambios de orientación.",
+ "montaje": "Campo de 50 × 36 m sin portería grande. En cada fondo, 2 puertas de 3 m a 8 y 25 m de la banda (4 en total), y una puerta de 3 m en el centro de cada banda (2). 6v6.",
+ "juego": "Se marca en las 2 puertas del fondo contrario o en las 2 laterales, pasando o conduciendo por ellas desde dentro. Tras el punto, saca el rival desde su fondo en menos de 5 s.",
+ "punto": "Puerta de fondo = 2 puntos; lateral = 1. Gana quien más sume tras 4 series.",
+ "consigna": "Abre el campo y rompe líneas por dentro.",
+ "adaptacion": "Alevín (10–11): 5v5 en 40 × 30 m. Infantil (12–13): lo propuesto. Cadete: 7v7 en 60 × 40 m con puertas de 4 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): 4 porterías pequeñas de fondo y 2 laterales para amplitud, juego interior y profundidad. Distribución de las puertas, medidas, 6v6, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -4,
+   "ymax": 40
+  },
+  "cones": [
+   [
+    0,
+    8
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    0,
+    25
+   ],
+   [
+    0,
+    28
+   ],
+   [
+    50,
+    8
+   ],
+   [
+    50,
+    11
+   ],
+   [
+    50,
+    25
+   ],
+   [
+    50,
+    28
+   ],
+   [
+    22,
+    0
+   ],
+   [
+    25,
+    0
+   ],
+   [
+    22,
+    36
+   ],
+   [
+    25,
+    36
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     11
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     25
+    ],
+    [
+     0,
+     28
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     8
+    ],
+    [
+     50,
+     11
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     25
+    ],
+    [
+     50,
+     28
+    ],
+    "2 3"
+   ],
+   [
+    [
+     22,
+     0
+    ],
+    [
+     25,
+     0
+    ],
+    "2 3"
+   ],
+   [
+    [
+     22,
+     36
+    ],
+    [
+     25,
+     36
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     22.5,
+     0
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     18
+    ],
+    "b": [
+     50,
+     25
+    ],
+    "k": "cond",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Las laterales valen 2 y las de fondo 1 (propuesta).",
+  "dificil": "Tras marcar en lateral hay que dar 5 pases antes de marcar en el fondo (propuesta)."
+ }
+}

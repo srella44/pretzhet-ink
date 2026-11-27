@@ -1,0 +1,213 @@
+{
+ "id": "ATH-058",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "LÍNEA IMAGINARIA CON 2 P.P INT.   8/ 8",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 79"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Controlar tras la línea",
+ "formato": "6v6",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Buscar la profundidad: el gol es rebasar la línea de fondo con el balón controlado, dejándolo en cualquier punto de ella. Además, el equipo no debe meterse atrás y las líneas no deben superponerse unas con otras (fuente). Cómo explicarlo: «el gol es llevar el balón controlado más allá de la línea». Errores típicos: pases largos sin control, equipo encerrado. Qué observar: ritmo de subida de líneas y distancia entre ellas.",
+ "montaje": "Campo de 50 × 36 m sin porterías: las líneas de fondo, con conos, son las líneas de gol. Dos puertas interiores de 3 m a 12 m de cada fondo, centradas. 6v6.",
+ "juego": "Se puntúa cruzando la línea de fondo rival con el balón controlado y parándolo allí, en cualquier punto. Los pases por las puertas interiores sirven para avanzar. Tras el punto, saca el rival.",
+ "punto": "Balón parado tras la línea = 2 puntos; pase por puerta interior = 1.",
+ "consigna": "Sube las líneas y para el balón detrás de la línea.",
+ "adaptacion": "Alevín (10–11): 5v5 en 40 × 30 m. Infantil (12–13): lo propuesto. Cadete: 7v7 en 60 × 40 m con puertas de 4 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): gol por rebasar la línea de fondo con el balón controlado, 2 porterías interiores y 8v8 (reducido a 6v6 por edad). Medidas, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -4,
+   "ymax": 40
+  },
+  "cones": [
+   [
+    12,
+    16.5
+   ],
+   [
+    15,
+    16.5
+   ],
+   [
+    35,
+    16.5
+   ],
+   [
+    38,
+    16.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     36
+    ],
+    "4 4"
+   ],
+   [
+    [
+     50,
+     0
+    ],
+    [
+     50,
+     36
+    ],
+    "4 4"
+   ],
+   [
+    [
+     12,
+     16.5
+    ],
+    [
+     15,
+     16.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     35,
+     16.5
+    ],
+    [
+     38,
+     16.5
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     12.5,
+     18
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     18
+    ],
+    "b": [
+     50,
+     12
+    ],
+    "k": "cond",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Se permite controlar con cualquier parte del cuerpo y sin presión en los últimos 5 m (propuesta).",
+  "dificil": "Solo valen los goles tras 5 pases (propuesta)."
+ }
+}

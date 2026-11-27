@@ -1,0 +1,140 @@
+{
+ "id": "ATH-085",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "LLEGADA POSICIONAL CON OPOSICIÓN 1",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 126"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Defender el centro del extremo",
+ "formato": "3v3+P",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "7 jug. + P",
+ "espacio": "35 × 40 m",
+ "duracion": "14 min",
+ "series": "6 intentos por extremo; después se cambian los papeles (propuesta).",
+ "objetivo": "Defender la llegada de un extremo: el lateral sale en desventaja y debe volver para evitar el centro; los centrales no van al balón y quedan en tierra de nadie, sino que interceptan el centro y fijan a los atacantes en el área (fuente). Cómo explicarlo: «el lateral aprieta y vuelve; los centrales cuidan al delantero y al hueco». Errores típicos: centrales saliendo al balón, el lateral parado, no hablar. Qué observar: retorno del lateral y cobertura.",
+ "montaje": "Medio campo de 35 × 40 m con portería y portero. Extremo amarillo con balón en la banda, a 25 m del fondo; lateral azul a 3 m, en desventaja. En el área, 2 delanteros amarillos y 2 centrales azules.",
+ "juego": "El extremo conduce hacia el fondo para centrar y el lateral vuelve para impedirlo. Los centrales se quedan con sus delanteros y cierran el pase, sin ir al balón. Si hay centro, los delanteros rematan.",
+ "punto": "Gol = 2 puntos; centro cortado = 1 para la defensa.",
+ "consigna": "Lateral, vuelve; centrales, cerrad.",
+ "adaptacion": "Alevín (10–11): 2v2 en el área y portería de 5 m. Infantil (12–13): lo propuesto. Cadete: 4v4 con un lateral por banda.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): lateral que sale en desventaja y vuelve para evitar el centro; centrales que no van al balón y fijan a los hombres en el área. Medidas, reparto de jugadores, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   35
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 17.5,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29.5,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 34.5,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 23,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18,
+     4
+    ],
+    "b": [
+     30,
+     4
+    ],
+    "k": "cond",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     17.5,
+     6.5
+    ],
+    "b": [
+     26,
+     6
+    ],
+    "k": "run",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     4
+    ],
+    "b": [
+     29.5,
+     24
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 3
+   }
+  ],
+  "cones": [],
+  "lines": [],
+  "labels": []
+ },
+ "variantes": {
+  "facil": "El extremo empieza a 20 m y el lateral sale con solo 1 m de desventaja (propuesta).",
+  "dificil": "Se añade un mediapunta atacante en el pico del área (propuesta)."
+ }
+}

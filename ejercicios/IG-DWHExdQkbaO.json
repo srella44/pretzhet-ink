@@ -1,0 +1,192 @@
+{
+ "id": "IG-DWHExdQkbaO",
+ "fuente": {
+  "autor": "@edf.futebol",
+  "titulo_original": "El apoyo central rompe el duelo exterior",
+  "ref": "Instagram · reel DWHExdQkbaO"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Apoyo central y 3v2 final",
+ "formato": "1v1+1 y 3v2",
+ "edad": "10–11 años (propuesta)",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 44 m",
+ "duracion": "14 min",
+ "series": "6 × 2 min con 1 min de descanso; cambian roles cada ronda (propuesta).",
+ "objetivo": "Aprender que, en un duelo exterior 1v1, un apoyo móvil por el carril central rompe al defensor (descarga, pared o desmarque), y reaccionar tras acabar la jugada para atacar en 3v2 la portería grande (fuente: descripción del reel; resto propuesta). Cómo explicarlo: «si no puedes ganar el 1v1, mira el carril central». Errores típicos: apoyo quieto, apoyo muy cerca del balón, 1v1 forzado. Qué observar: movimiento del apoyo y lectura del defensor.",
+ "montaje": "Campo de 30 × 44 m; la mitad inferior en 3 carriles. En el izquierdo, 1 atacante con balón y 1 defensor; en el central, 1 apoyo. 2 minipuertas en la línea media. Arriba, portería con portero.",
+ "juego": "El atacante intenta marcar en las minipuertas ante el defensor; el apoyo se ofrece por el centro. Al acabar, los 2 rojos entran y atacan 3v2 la portería con el defensor.",
+ "punto": "Minipuerta = 1 punto; gol en 3v2 = 2; parada o robo = 1 para los defensores.",
+ "consigna": "Si el 1v1 está cerrado, busca el centro.",
+ "adaptacion": "Prebenjamín–benjamín: 20 × 30 m y sin 3v2. Alevín (10–11): lo propuesto. Infantil (12–13): campo de 35 × 50 m y 3v2 con un defensor más.",
+ "completado": "Desarrollado a partir de la descripción del reel (1v1 en carril lateral hacia minipuertas, apoyo móvil central, 3v2 final); no hay fotogramas. Medidas, jugadores, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   44,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 47,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "lines": [
+   [
+    [
+     22,
+     10
+    ],
+    [
+     0,
+     10
+    ],
+    "6 5"
+   ],
+   [
+    [
+     22,
+     20
+    ],
+    [
+     0,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     22,
+     0
+    ],
+    [
+     22,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    22,
+    1
+   ],
+   [
+    22,
+    4
+   ],
+   [
+    22,
+    6
+   ],
+   [
+    22,
+    9
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 44,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 27,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     3
+    ],
+    "b": [
+     20,
+     3
+    ],
+    "k": "cond",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     15
+    ],
+    "b": [
+     18,
+     12
+    ],
+    "k": "run",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     24
+    ],
+    "b": [
+     32,
+     20
+    ],
+    "k": "run",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    24.5,
+    4,
+    "MINIPUERTAS",
+    "middle"
+   ]
+  ]
+ },
+ "variantes": {
+  "facil": "Defensor pasivo en el 1v1 y 2 minutos sin 3v2 (propuesta).",
+  "dificil": "El apoyo solo puede tocar 2 veces y el 3v2 se juega en 8 s (propuesta)."
+ }
+}

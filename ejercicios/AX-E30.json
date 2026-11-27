@@ -1,0 +1,186 @@
+{
+ "id": "AX-E30",
+ "fuente": {
+  "autor": "Alex Ortiz (base de datos de ejercicios)",
+  "titulo_original": "Rueda Pase Orientación Dejar Cara",
+  "ref": "BASE-DATOS-EJERCICIOS @ALEXORTIZ1987 · hoja BASE DE DATOS, fila 35"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda: dejar cara",
+ "formato": "Rueda 8+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de descanso; se invierte el sentido cada serie (propuesta).",
+ "objetivo": "Orientación corporal: recibir con el cuerpo abierto y dejar cara al compañero que sigue, con el primer toque dirigido (fuente: orientación corporal, dejar cara, fase de ataque). Cómo explicarlo: «control hacia el lado donde está el siguiente, nunca hacia mí». Errores típicos: control hacia el pie equivocado, cuerpo de espaldas, pase sin esperar al compañero. Qué observar: primer toque, perfil y ritmo del pase.",
+ "montaje": "Cuadrado de 30 × 30 m con un cono en cada esquina y 2 amarillos en cada una. En el centro, 2 comodines blancos separados 4 m. 2 balones, en esquinas opuestas.",
+ "juego": "El de la esquina pasa al comodín central, que controla orientado y deja el balón de cara a la esquina siguiente (sentido horario). El pasador corre a esa fila y el que recibe repite.",
+ "punto": "Vuelta completa sin parar el balón = 1 punto. Control mal orientado: -1.",
+ "consigna": "Abre el cuerpo y deja cara al compañero.",
+ "adaptacion": "Infantil (12–13): 25 × 25 m y control libre. Cadete (14–15): lo propuesto. Juvenil: dos balones y un defensor pasivo en el centro.",
+ "completado": "La fuente solo da título, objetivo (orientación corporal / dejar cara), espacio original (30 × 30 m) y 10 jugadores. Reparto en esquinas y centro, secuencia de pases, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 34,
+   "ymin": -4,
+   "ymax": 34
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 0.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 29.5,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 27,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25.5,
+    "y": 29.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 24,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3
+    ],
+    "b": [
+     12,
+     15
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     15
+    ],
+    "b": [
+     28,
+     3
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     28,
+     27
+    ],
+    "b": [
+     18,
+     15
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 3
+   },
+   {
+    "a": [
+     18,
+     15
+    ],
+    "b": [
+     2,
+     27
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 4
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Un solo balón y sin presión de tiempo (propuesta).",
+  "dificil": "Balón a un toque en el centro y 3 balones a la vez (propuesta)."
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "id": "ATH-074",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "REFLEXIVA 4",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 102"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Reflexiva: doblar o soportar",
+ "formato": "3v2",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Medio",
+ "jugadores": "5–8 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "6 repeticiones por jugador; se rota después de cada repetición (propuesta).",
+ "objetivo": "Reconocer dos situaciones: 1) doblada por dentro o soporte si el defensa sigue al delantero: decidir si se dobla o se apoya; 2) pared con el compañero y juego con el que se desmarca, al que sigue el contrario, otro 2v1 donde se busca superioridad o espacio (fuente). Cómo explicarlo: «si tu compañero lleva marca, o doblas o das soporte». Errores típicos: doblar sin que haya espacio, apoyo muy cerca. Qué observar: lectura del defensa y velocidad de la doblada.",
+ "montaje": "Campo de 25 × 20 m con portería de 5 m y portero. Pasador amarillo a 12 m del fondo, extremo en la banda y delantero en el pico del área. 2 defensores: uno al delantero y otro a la banda.",
+ "juego": "El pasador da al delantero. Si lo sigue su marcador, el extremo dobla por dentro o el pasador apoya. Después, pared del delantero con el pasador y desmarque: otro 2v1. Se acaba con tiro en 8 s.",
+ "punto": "Gol = 2 puntos. Robo o balón fuera: 1 para los azules.",
+ "consigna": "Si lleva marca, o doblo o soporto: decide rápido.",
+ "adaptacion": "Alevín (10–11): 3v1 sin segundo defensor. Infantil (12–13): lo propuesto. Cadete: 4v3 con un lateral más.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): dos situaciones (doblada por dentro o soporte, y pared con desmarque con el defensa siguiendo) en 2v1. Reparto de jugadores, medidas, tiempos, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 16,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 6.2,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 9,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     16
+    ],
+    "b": [
+     9,
+     8
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     10
+    ],
+    "b": [
+     14,
+     5
+    ],
+    "k": "run",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Defensores pasivos las primeras 3 repeticiones (propuesta).",
+  "dificil": "Tiro a una portería de 3 m con portero, en 6 s (propuesta)."
+ }
+}

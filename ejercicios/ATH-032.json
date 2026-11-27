@@ -1,0 +1,189 @@
+{
+ "id": "ATH-032",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "P. 2 P.G. CUADRANTE",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 48"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Circular por cuadrantes",
+ "formato": "6v6+P",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + porteros",
+ "espacio": "48 × 32 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Circular con equilibrio entre líneas y bascular al defender, con ayudas de los extremos y del media punta (fuente). La regla de pases máximos obliga a progresar sin quedarse atrás. Cómo explicarlo: «el balón no vive en una zona: cuando llegues al límite, juégalo hacia delante». Errores típicos: sobrar pases atrás, líneas separadas más de 15 m, extremos pegados al medio. Qué observar: distancia entre líneas, basculación al lado del balón y salidas por fuera.",
+ "montaje": "Campo de 48 × 32 m con portería de 5 m y portero en cada fondo, dividido en 4 cuadrantes de 24 × 16 m con conos. Cada equipo: 2 centrales, 2 medios y 2 extremos.",
+ "juego": "Partido a 2 porterías. Cada equipo da como máximo 5 pases en una mitad del campo y 3 en un mismo cuadrante; después debe pasar a otra zona o rematar. Si se pasa del límite, saca el rival.",
+ "punto": "Gol = 1 punto. Si la jugada pasa por los 4 cuadrantes, vale 2.",
+ "consigna": "Pasa, cambia de zona y mantén las líneas juntas.",
+ "adaptacion": "Alevín (10–11): 5v5+P en 40 × 28 m. Infantil (12–13): lo propuesto. Cadete: 7v7+P en 55 × 36 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): 2 porterías grandes, circulación y basculación defensiva, respeto de líneas, ayudas de extremos y media punta, y límites de pases por zona (5) y por cuadrante (3). Medidas, número de jugadores, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   48,
+   32
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 52,
+   "ymin": -4,
+   "ymax": 36
+  },
+  "lines": [
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     32
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     16
+    ],
+    [
+     48,
+     16
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 48,
+    "y": 16,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 24,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 40,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 40,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     24
+    ],
+    "b": [
+     24.5,
+     5
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     24.5,
+     5
+    ],
+    "b": [
+     30,
+     14
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Máximo 7 pases por mitad y 4 por cuadrante (propuesta).",
+  "dificil": "3 pases por mitad y 2 por cuadrante; el gol de contraataque rápido (5 s) vale doble (propuesta)."
+ }
+}

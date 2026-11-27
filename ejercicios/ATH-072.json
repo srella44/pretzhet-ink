@@ -1,0 +1,164 @@
+{
+ "id": "ATH-072",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "REFLEXIVA 2",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 100"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Reflexiva: soporte o giro",
+ "formato": "4v2",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "12 min",
+ "series": "6 repeticiones por jugador en el centro; cambio cada 6 jugadas (propuesta).",
+ "objetivo": "Decidir según lo que haga el defensa: si el delantero llega con un contrario, hace falta soporte y se juega un 2v1; si llega solo, se gira y juega con la banda adelantada por dentro o por fuera, según el rival (fuente). Cómo explicarlo: «mira al defensa antes de recibir: ¿soporte o giro?». Errores típicos: girar con el defensa pegado, soporte demasiado cerca. Qué observar: lectura del defensa y primer toque.",
+ "montaje": "Campo de 30 × 24 m con miniporterías. Pasador amarillo con balón a la izquierda, delantero a 10 m y dos extremos a 20 m. 2 defensores azules: uno al delantero y otro a las bandas.",
+ "juego": "El pasador da al delantero. Si el defensor lo sigue pegado, el pasador da soporte y se juega 2v1. Si llega libre, se gira y pasa a la banda, que ataca por dentro o por fuera.",
+ "punto": "Gol = 2 puntos; robo del defensor = 1 para los azules.",
+ "consigna": "Lee al defensa: soporte o giro.",
+ "adaptacion": "Alevín (10–11): 3v1, sin segundo defensor. Infantil (12–13): lo propuesto. Cadete: 4v3 con un defensor más.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): situaciones según lo que haga el defensa: soporte y 2v1 o giro y banda por dentro o por fuera (el texto se corta y pone 2:1 ante contrario negro). Medidas, número de jugadores, miniporterías, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -3,
+   "ymax": 27
+  },
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    30,
+    12,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     24
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     12
+    ],
+    "b": [
+     12,
+     12
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     24,
+     3
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     3
+    ],
+    "b": [
+     29,
+     8
+    ],
+    "k": "cond",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 3
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "El defensor marca al delantero con un metro de distancia y solo se mueve a media velocidad (propuesta).",
+  "dificil": "Los 2 defensores actúan sin orden y el pasador también debe escoger entre soporte o banda en 3 s (propuesta)."
+ }
+}

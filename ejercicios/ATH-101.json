@@ -1,0 +1,116 @@
+{
+ "id": "ATH-101",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "ACCIONES ESPECÍFICAS CABEZA  1/ 1  2/ 2",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 145"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Duelos de cabeza 1v1 y 2v2",
+ "formato": "2v2 + P",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "5–8 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min con 1 min de descanso; rota cada 4 intentos (propuesta).",
+ "objetivo": "Trabajo de agresividad y compromiso con marcajes y disputas aéreas, rechaces, caídas y segundas jugadas; decisiones rápidas con buenas orientaciones respecto al balón (fuente). Cuidado: balón ligero y pocas repeticiones (propuesta). Cómo explicarlo: «golpea con la frente, cuello firme, ojos abiertos». Errores típicos: no mirar el balón, saltar sin marcar. Qué observar: posición del cuerpo y reacción tras rechace.",
+ "montaje": "Zona de 20 × 15 m con portería y portero. Servidor con balones a 10 m, por el lateral. En el área, 1 atacante y 1 defensor (1v1) o 2 y 2 (2v2).",
+ "juego": "El servidor lanza el balón a mano con parábola al área. Se disputa de cabeza: remata el atacante y despeja el defensor. Se juega hasta que sale o atrapa el portero.",
+ "punto": "Gol de cabeza = 2 puntos; despeje fuera de la zona = 1 para los defensores.",
+ "consigna": "Mira el balón y cabecea con la frente.",
+ "adaptacion": "Alevín (10–11): balón ligero y cabeceos a poca altura, sin 2v2. Infantil (12–13): lo propuesto. Cadete: 3v3 y centros desde banda.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): acciones específicas de cabeza en 1v1 y 2v2: marcajes, ataque-defensa-ataque, rechaces, caídas y segundas jugadas. Medidas, servidor, puntuación, series, variantes y precauciones (balón ligero) son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -3,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 8,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 11,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     11
+    ],
+    "b": [
+     10,
+     6
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     6
+    ],
+    "b": [
+     10,
+     0
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Lanzamiento flojo y bajo, 1v1 sin salto (propuesta).",
+  "dificil": "2v2 con segunda jugada libre y 1 balón cada 6 s (propuesta)."
+ }
+}

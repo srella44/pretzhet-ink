@@ -1,0 +1,167 @@
+{
+ "id": "ATH-027",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "JUEGO CABEZA-CORTO 4/ 4+4 C EXTERIORES",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 40"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Cabeza 4v4 y 4 comodines",
+ "formato": "4v4+4",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "14 min",
+ "series": "4 × 2 min con 1 min de descanso; se cambian los comodines cada serie (propuesta).",
+ "objetivo": "Acostumbrar al jugador al contacto y a las disputas aéreas: marcarse, ganar la posición y cabecear con decisión, sin evitar el duelo (fuente). Balón ligero o de talla menor y pocas repeticiones seguidas para cuidar el cuello (propuesta). Cómo explicarlo: «mira el balón, cuello firme y golpea con la frente». Errores típicos: cerrar los ojos, cabecear con el cuello flojo, saltar sin mirar al rival. Qué observar: colocación del cuerpo entre rival y balón y salto con un pie por delante.",
+ "montaje": "Cuadrado de 16 × 16 m. Dentro, 4 amarillos contra 4 rojos. Fuera, un comodín blanco en cada lado con un balón en las manos.",
+ "juego": "El comodín lanza el balón a mano hacia dentro. Solo se juega de cabeza: se disputa y se pasa de cabeza a un compañero o a un comodín. Si cae al suelo, pasa al otro equipo.",
+ "punto": "3 cabezazos seguidos del mismo equipo = 1 punto. Cabezazo que un comodín atrapa = 1 punto extra.",
+ "consigna": "Mira el balón y cabecea con la frente.",
+ "adaptacion": "Alevín (10–11): balón de talla 4 o ligero y 3v3+4. Infantil (12–13): lo propuesto. Cadete: se permite jugar un toque con el pie tras la disputa.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): juego solo de cabeza, disputas aéreas y marcajes, 4 contra 4 con comodines por fuera. Medidas, lanzamientos, puntos, series, variantes y la precaución del balón ligero son (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 20,
+   "ymin": -4,
+   "ymax": 20
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    16,
+    0
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    0,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": -1.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 17.6,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 17.6,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     -1.6
+    ],
+    "b": [
+     7,
+     7
+    ],
+    "k": "pass",
+    "s0": 11,
+    "s1": 11,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     7
+    ],
+    "b": [
+     17.6,
+     8
+    ],
+    "k": "pass",
+    "s0": 11,
+    "s1": 11,
+    "side": -1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Sin oposición real: cada jugador solo se coloca delante del rival sin saltar y el balón se lanza a media altura (propuesta).",
+  "dificil": "3 cabezazos de equipo antes de pasar a un comodín y un solo comodín fijo por lado (propuesta)."
+ }
+}

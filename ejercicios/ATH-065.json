@@ -1,0 +1,121 @@
+{
+ "id": "ATH-065",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "CONDUCCION",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 90"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Conducción corto-largo-soporte",
+ "formato": "3 + balón",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "40 × 12 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de descanso; se rota el orden del trío cada serie (propuesta).",
+ "objetivo": "Conducción colectiva con distintos golpeos y apoyos: pase corto, pase largo, soporte y parada. Cuidar la ejecución del pase y dar importancia al balón cuando se tiene y cuando no, para conectar con la siguiente acción (fuente). Cómo explicarlo: «cada señal tiene su gesto; antes de pasar, mira». Errores típicos: apoyo mal colocado, pase sin mirar, parar tarde. Qué observar: pie de apoyo, perfil abierto y comunicación.",
+ "montaje": "Carril de 40 × 12 m por trío, con conos cada 10 m. A con balón al inicio, B a 10 m y C a 25 m. Hasta 4 tríos, cada uno en su carril.",
+ "juego": "A conduce hasta B. Según la voz: «corto» pase al pie de B; «largo» pase raso a C; «soporte» B baja a apoyar; «pare» todos paran el balón con la planta. Quien pasa va al puesto del que recibe.",
+ "punto": "1 punto por pase al pie controlado dentro del carril; con 10 seguidos, el carril sube a 50 m.",
+ "consigna": "Mira, pasa fuerte y muévete al soporte.",
+ "adaptacion": "Alevín (10–11): carril de 30 × 10 m y pases cortos. Infantil (12–13): lo propuesto. Cadete: carril de 50 m con un defensor activo.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): conducción colectiva con pase corto, largo, soporte y parada (el texto se corta). Número de jugadores, medidas, voces, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   12
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -4,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    10,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    10,
+    12
+   ],
+   [
+    20,
+    12
+   ],
+   [
+    30,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     6
+    ],
+    "b": [
+     13,
+     6
+    ],
+    "k": "cond",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     6
+    ],
+    "b": [
+     29,
+     6
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Pases cortos solo, con voz del entrenador cada 5 s (propuesta).",
+  "dificil": "Sin voz: el trío decide cuándo pasar corto, largo o dar soporte; un defensor pasivo en el carril (propuesta)."
+ }
+}

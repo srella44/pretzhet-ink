@@ -1,0 +1,140 @@
+{
+ "id": "ATH-083",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "LLEGADAS CORTAS CON OPOSICIÓN 1.",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 123"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Llegadas cortas con oposición",
+ "formato": "5v1 + P",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Medio",
+ "jugadores": "7–9 jug. + P",
+ "espacio": "35 × 40 m",
+ "duracion": "14 min",
+ "series": "3 rondas de 6 intentos por equipo; se rota después de cada intento (propuesta).",
+ "objetivo": "Entradas específicas de extremos y delanteros a pases desde zonas centradas, con la oposición de un defensa (fuente, texto muy corto). Cómo explicarlo: «recibe de cara, mira al defensa y elige: pase, regate o centro». Errores típicos: llegar al mismo tiempo, no fijar al defensa, centrar con presión sin mirar. Qué observar: tiempo de llegada y elección del pase.",
+ "montaje": "Medio campo de 35 × 40 m con portería y portero. Pasador amarillo en el centro, a 25 m; 2 extremos, uno por banda, y 2 delanteros en el área. Un defensor azul en la zona del pase.",
+ "juego": "El pasador da a un extremo o a un delantero y se mueven: los delanteros se cruzan y el extremo entra a la pasada. El defensor intenta cortar. Quien recibe elige pase, regate o remate.",
+ "punto": "Gol = 2 puntos; tiro parado = 1; robo del defensor = 1 para él.",
+ "consigna": "Fija al defensa y cruza el movimiento.",
+ "adaptacion": "Alevín (10–11): 3v1 en 30 × 30 m. Infantil (12–13): lo propuesto. Cadete: 5v2 más portero.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): entradas de extremos y delanteros a pases desde zonas centradas con la oposición de un defensa (el texto es muy corto). Reparto de jugadores, medidas, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   35
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 17.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 17.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     17.5
+    ],
+    "b": [
+     23,
+     4
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     31,
+     12
+    ],
+    "b": [
+     36,
+     21
+    ],
+    "k": "run",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     23,
+     4
+    ],
+    "b": [
+     34,
+     14
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 3
+   }
+  ],
+  "cones": [],
+  "lines": [],
+  "labels": []
+ },
+ "variantes": {
+  "facil": "Defensor pasivo con la mano atrás (propuesta).",
+  "dificil": "2 defensores y remate a un toque (propuesta)."
+ }
+}

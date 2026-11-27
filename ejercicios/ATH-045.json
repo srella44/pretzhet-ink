@@ -1,0 +1,305 @@
+{
+ "id": "ATH-045",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "6 P.P. 2 P.P. INTERIORES.",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 63"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Ocho puertas de 3 metros",
+ "formato": "6v6",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Mantener la búsqueda de progresión y añadir un aspecto táctico: las puertas interiores equilibran las líneas e impiden que la defensa se meta atrás, comprometiendo a las líneas entre sí (fuente). Cómo explicarlo: «las puertas del medio te obligan a defender arriba». Errores típicos: bloque bajo, líneas separadas, atacar siempre por fuera. Qué observar: compromiso entre líneas y paso del balón a los espacios libres.",
+ "montaje": "Campo de 50 × 36 m. En cada fondo, 3 puertas de 3 m (6 en total); a 12 m de cada fondo, centrada, una puerta interior de 3 m (2). 6v6.",
+ "juego": "Cada equipo defiende las 3 puertas de su fondo y la interior que tiene delante. Se marca pasando o conduciendo por una puerta. Saca el que encaja.",
+ "punto": "Puerta de fondo = 2 puntos; interior = 1. Gana quien más sume.",
+ "consigna": "Defiende arriba y busca la puerta libre.",
+ "adaptacion": "Alevín (10–11): 5v5 en 40 × 30 m. Infantil (12–13): lo propuesto. Cadete: 8v8 en 60 × 40 m con puertas de 4 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): 6 porterías pequeñas y 2 interiores, sin porterías grandes. La distribución de las puertas (3 por fondo, interiores a 12 m), el 6v6, puntos, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -4,
+   "ymax": 40
+  },
+  "cones": [
+   [
+    0,
+    4.5
+   ],
+   [
+    0,
+    7.5
+   ],
+   [
+    0,
+    16.5
+   ],
+   [
+    0,
+    19.5
+   ],
+   [
+    0,
+    28.5
+   ],
+   [
+    0,
+    31.5
+   ],
+   [
+    50,
+    4.5
+   ],
+   [
+    50,
+    7.5
+   ],
+   [
+    50,
+    16.5
+   ],
+   [
+    50,
+    19.5
+   ],
+   [
+    50,
+    28.5
+   ],
+   [
+    50,
+    31.5
+   ],
+   [
+    12,
+    16.5
+   ],
+   [
+    15,
+    16.5
+   ],
+   [
+    35,
+    16.5
+   ],
+   [
+    38,
+    16.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     4.5
+    ],
+    [
+     0,
+     7.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     16.5
+    ],
+    [
+     0,
+     19.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     28.5
+    ],
+    [
+     0,
+     31.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     4.5
+    ],
+    [
+     50,
+     7.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     16.5
+    ],
+    [
+     50,
+     19.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     28.5
+    ],
+    [
+     50,
+     31.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     12,
+     16.5
+    ],
+    [
+     15,
+     16.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     35,
+     16.5
+    ],
+    [
+     38,
+     16.5
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     13.5,
+     18
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     18
+    ],
+    "b": [
+     50,
+     18
+    ],
+    "k": "cond",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "La puerta interior vale 2 y se puede marcar desde cualquier lado (propuesta).",
+  "dificil": "Antes de marcar en el fondo hay que pasar por una interior (propuesta)."
+ }
+}

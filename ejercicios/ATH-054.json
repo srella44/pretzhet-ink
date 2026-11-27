@@ -1,0 +1,293 @@
+{
+ "id": "ATH-054",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "4 P.P. 2 P.P. LATERALES 1 P.P. INTERIOR PARCELADA",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 73"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Puertas y zonas con premio",
+ "formato": "6v6",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Variante de la posesión parcelada: el equipo con balón puntúa por dominar las zonas, además de las situaciones de amplitud, juego interior y profundidad que crean las puertas laterales, central y de fondo (fuente). Cómo explicarlo: «cada zona dominada cuenta: no te quedes en la primera». Errores típicos: jugar siempre en la misma parcela, no progresar. Qué observar: superioridad por zonas y velocidad de circulación.",
+ "montaje": "Campo de 50 × 36 m en 3 parcelas de 16,7 m. 2 puertas de 3 m en cada fondo (4), 2 laterales de 3 m en la parcela central y 1 puerta central de 3 m. 6v6.",
+ "juego": "Cuando el equipo con balón da 4 pases seguidos en una parcela y pasa a la siguiente con el balón controlado, suma un punto de zona. Si pierde el balón, el contador vuelve a cero. También se marca por cualquier puerta.",
+ "punto": "Zona dominada = 1 punto; lateral o central = 2; fondo = 3.",
+ "consigna": "Domina la zona y pasa a la siguiente con el balón.",
+ "adaptacion": "Alevín (10–11): 5v5 en 40 × 30 m. Infantil (12–13): lo propuesto. Cadete: 7v7 en 60 × 40 m con puertas de 4 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): 4 porterías pequeñas de fondo, 2 laterales y 1 interior en una posesión parcelada, con puntos por dominar zonas. Parcelas, distribución, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -4,
+   "ymax": 40
+  },
+  "cones": [
+   [
+    0,
+    8
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    0,
+    25
+   ],
+   [
+    0,
+    28
+   ],
+   [
+    50,
+    8
+   ],
+   [
+    50,
+    11
+   ],
+   [
+    50,
+    25
+   ],
+   [
+    50,
+    28
+   ],
+   [
+    22,
+    0
+   ],
+   [
+    25,
+    0
+   ],
+   [
+    22,
+    36
+   ],
+   [
+    25,
+    36
+   ],
+   [
+    23.5,
+    18
+   ],
+   [
+    26.5,
+    18
+   ]
+  ],
+  "lines": [
+   [
+    [
+     16.7,
+     0
+    ],
+    [
+     16.7,
+     36
+    ],
+    "6 5"
+   ],
+   [
+    [
+     33.3,
+     0
+    ],
+    [
+     33.3,
+     36
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     8
+    ],
+    [
+     0,
+     11
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     25
+    ],
+    [
+     0,
+     28
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     8
+    ],
+    [
+     50,
+     11
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     25
+    ],
+    [
+     50,
+     28
+    ],
+    "2 3"
+   ],
+   [
+    [
+     22,
+     0
+    ],
+    [
+     25,
+     0
+    ],
+    "2 3"
+   ],
+   [
+    [
+     22,
+     36
+    ],
+    [
+     25,
+     36
+    ],
+    "2 3"
+   ],
+   [
+    [
+     23.5,
+     18
+    ],
+    [
+     26.5,
+     18
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     23,
+     18
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "3 pases por zona y el rival defiende a un toque de contención (propuesta).",
+  "dificil": "Solo 3 s en cada zona (propuesta)."
+ }
+}

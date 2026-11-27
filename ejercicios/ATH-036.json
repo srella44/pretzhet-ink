@@ -1,0 +1,226 @@
+{
+ "id": "ATH-036",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "P. 2 P.G. + 2 P.P. LATERALES + 1 P.P. INTERIOR CRUZ",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 53"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Amplitud, centro y fondo",
+ "formato": "6v6+P",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + porteros",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Reunir tres fundamentos ofensivos: amplitud (porterías laterales), juego interior (portería central) y profundidad (portería grande del fondo). Las porterías del medio obligan a no encerrarse atrás y llevan la batalla a la zona central (fuente). Cómo explicarlo: «tienes tres formas de marcar: abre, entra o ve al fondo». Errores típicos: defender todos pegados a la portería grande, atacar siempre por el mismo carril. Qué observar: distancia entre líneas y cambios de orientación.",
+ "montaje": "Campo de 50 × 36 m con portería grande y portero en cada fondo, una puerta de 3 m en el centro de cada banda y otra de 3 m en el centro del campo. 6v6 más porteros.",
+ "juego": "Se marca en la portería grande o pasando o conduciendo entre los conos de las puertas laterales o la central. Tras cada punto, saca desde su portero el equipo que ha encajado.",
+ "punto": "Portería grande = 3 puntos; central = 2; lateral = 1. Gana quien más sume en 4 series.",
+ "consigna": "Abre el campo, entra por dentro y llega al fondo.",
+ "adaptacion": "Alevín (10–11): 5v5+P en 40 × 30 m. Infantil (12–13): lo propuesto. Cadete: 7v7+P en 60 × 40 m con puertas de 4 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): portería grande en cada fondo, 2 porterías pequeñas laterales y 1 interior en cruz, con amplitud, juego interior y profundidad. Medidas, número de jugadores, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -4,
+   "ymax": 40
+  },
+  "cones": [
+   [
+    22,
+    0
+   ],
+   [
+    25,
+    0
+   ],
+   [
+    22,
+    36
+   ],
+   [
+    25,
+    36
+   ],
+   [
+    23.5,
+    18
+   ],
+   [
+    26.5,
+    18
+   ]
+  ],
+  "lines": [
+   [
+    [
+     22,
+     0
+    ],
+    [
+     25,
+     0
+    ],
+    "2 3"
+   ],
+   [
+    [
+     22,
+     36
+    ],
+    [
+     25,
+     36
+    ],
+    "2 3"
+   ],
+   [
+    [
+     23.5,
+     18
+    ],
+    [
+     26.5,
+     18
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     24,
+     18
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     8
+    ],
+    "b": [
+     23.5,
+     0
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 18,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 18,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Las puertas pequeñas valen 1 y la grande 2, con menos premio por el juego exterior (propuesta).",
+  "dificil": "Solo vale el gol en la grande si antes se ha usado una puerta pequeña (propuesta)."
+ }
+}

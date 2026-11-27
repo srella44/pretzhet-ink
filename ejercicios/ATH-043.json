@@ -1,0 +1,175 @@
+{
+ "id": "ATH-043",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "P. 2 P.G. LÍNEAS-ZONAS 8/ 8",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 60"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Líneas y zonas",
+ "formato": "6v6+P",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + porteros",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Trabajar las funciones de cada línea (defensa, medios, delanteros) con límites de zona: ayudas defensivas por dentro y por fuera, y acciones ofensivas propias de cada puesto (fuente). Cómo explicarlo: «tu zona es tu línea; ayuda al de al lado sin salirte». Errores típicos: cruzar la línea de zona, no dar cobertura, delanteros sin desmarcar. Qué observar: ayudas entre zonas y tiempos de salto.",
+ "montaje": "Campo de 50 × 36 m con portería y portero en cada fondo y 3 franjas de 16,7 m. Cada equipo: 2 defensas, 2 medios y 2 delanteros, cada pareja en su franja.",
+ "juego": "Las defensas de un equipo y los delanteros del otro comparten franja (2 contra 2). Solo se sale para recibir o ayudar. Cambian parejas cada 3 min.",
+ "punto": "Gol = 1 punto.",
+ "consigna": "Quédate en tu zona y ayuda al de al lado.",
+ "adaptacion": "Alevín (10–11): 5v5+P en 40 × 30 m. Infantil (12–13): lo propuesto. Cadete: 8v8+P con 3 líneas de 3.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): límites por líneas (defensa-medios-delanteros) y por zonas para trabajo propio de cada puesto, con ayudas por dentro y por fuera. Medidas, número de jugadores (original 8v8, reducido a 6v6+P), norma de salidas de zona, puntos, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -4,
+   "ymax": 40
+  },
+  "cones": [],
+  "lines": [
+   [
+    [
+     16.7,
+     0
+    ],
+    [
+     16.7,
+     36
+    ],
+    "6 5"
+   ],
+   [
+    [
+     33.3,
+     0
+    ],
+    [
+     33.3,
+     36
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 44,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 44,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 27,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     12
+    ],
+    "b": [
+     40,
+     10
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 18,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 18,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Un jugador por equipo puede salir de su zona (propuesta).",
+  "dificil": "Los medios solo pueden defender 3 s sin ayuda de un compañero (propuesta)."
+ }
+}

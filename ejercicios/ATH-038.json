@@ -1,0 +1,245 @@
+{
+ "id": "ATH-038",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "P. 2 P.G 4 P.P LATERALES",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 55"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Cuatro puertas laterales",
+ "formato": "6v6+P",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + porteros",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Abrir el campo con las porterías pequeñas, que a su vez provocan juego interior y búsqueda de profundidad hacia la portería grande; las puertas obligan a la línea defensiva a adelantarse para que el rival no marque en los laterales (fuente). Cómo explicarlo: «defiende alto o te marcan por los lados». Errores típicos: línea defensiva muy atrás, extremos sin amplitud. Qué observar: altura de la línea y basculación tras el cambio de orientación.",
+ "montaje": "Campo de 50 × 36 m con portería grande y portero en cada fondo. En cada banda, 2 puertas de 3 m a 12 y 35 m del fondo izquierdo (4 en total). 6v6 más porteros.",
+ "juego": "Se marca en la portería grande o pasando o conduciendo entre los conos de una puerta de banda, desde dentro del campo. Tras cada punto, saca desde su portero el equipo que ha encajado.",
+ "punto": "Portería grande = 2 puntos; puerta de banda = 1. Gana quien más sume en 4 series.",
+ "consigna": "Abre por fuera y ataca el espacio a la espalda.",
+ "adaptacion": "Alevín (10–11): 5v5+P en 40 × 30 m. Infantil (12–13): lo propuesto. Cadete: 7v7+P en 60 × 40 m con puertas de 4 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): portería grande en cada fondo y 4 porterías pequeñas laterales para buscar amplitud, juego interior y profundidad. Medidas, posición de las pequeñas, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -4,
+   "ymax": 40
+  },
+  "cones": [
+   [
+    12,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    38,
+    0
+   ],
+   [
+    12,
+    36
+   ],
+   [
+    15,
+    36
+   ],
+   [
+    35,
+    36
+   ],
+   [
+    38,
+    36
+   ]
+  ],
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     15,
+     0
+    ],
+    "2 3"
+   ],
+   [
+    [
+     35,
+     0
+    ],
+    [
+     38,
+     0
+    ],
+    "2 3"
+   ],
+   [
+    [
+     12,
+     36
+    ],
+    [
+     15,
+     36
+    ],
+    "2 3"
+   ],
+   [
+    [
+     35,
+     36
+    ],
+    [
+     38,
+     36
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     8
+    ],
+    "b": [
+     13.5,
+     0
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     28
+    ],
+    "b": [
+     36.5,
+     36
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 2
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 18,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 18,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Las puertas de banda valen 2 y se puede entrar desde cualquier lado (propuesta).",
+  "dificil": "Tras marcar en una puerta de banda hay que dar 3 pases antes de poder marcar de nuevo (propuesta)."
+ }
+}

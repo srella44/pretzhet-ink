@@ -1,0 +1,190 @@
+{
+ "id": "AX-E9",
+ "fuente": {
+  "autor": "Alex Ortiz (base de datos de ejercicios)",
+  "titulo_original": "Rueda Pase Tercer Hombre II",
+  "ref": "BASE-DATOS-EJERCICIOS @ALEXORTIZ1987 · hoja BASE DE DATOS, fila 14"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda: tercer hombre",
+ "formato": "Rueda 12",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "28 × 15 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de descanso; se rotan las líneas cada serie (propuesta).",
+ "objetivo": "Tercer hombre y salto de líneas: el primer jugador pasa al segundo, que descarga a un tercero que llega libre y salta una línea (fuente: tercer hombre, saltar líneas, fase de ataque). Cómo explicarlo: «el pase al apoyo es para el tercero que llega». Errores típicos: el tercero llega tarde, el apoyo no descarga a un toque, pases flojos. Qué observar: sincronía entre pase, descarga y salida del tercero.",
+ "montaje": "Rectángulo de 28 × 15 m con conos. Cuatro jugadores en cada línea: fondo izquierdo, centro y fondo derecho. Dos balones, en la línea izquierda.",
+ "juego": "El de la línea izquierda pasa al apoyo del centro, que descarga a un toque al tercer hombre llegando del extremo derecho. Este controla y repite al revés. Cada uno sigue su pase.",
+ "punto": "Cada triple bien hecho = 1 punto. Gana el grupo que llegue a 15.",
+ "consigna": "Pasa al apoyo, descarga y sal a recibir.",
+ "adaptacion": "Infantil (12–13): 24 × 12 m y a dos toques. Cadete (14–15): lo propuesto. Juvenil: añadir un defensor pasivo en el centro.",
+ "completado": "La fuente solo da título, objetivo (tercer hombre / saltar líneas), espacio original (28 × 15 m) y 12 jugadores. Reparto en 3 líneas de 4, secuencia, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   28,
+   15
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 32,
+   "ymin": -4,
+   "ymax": 19
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    28,
+    0
+   ],
+   [
+    28,
+    15
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    14,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     14,
+     4
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     4
+    ],
+    "b": [
+     26,
+     6
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     26,
+     6
+    ],
+    "b": [
+     14,
+     11
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 3
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "El apoyo puede controlar y pasar a dos toques (propuesta).",
+  "dificil": "Todo a un toque y 2 balones circulando a la vez (propuesta)."
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "id": "ATH-029",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "JUEGO CORTO CABEZA   5/ 5  4/ 4",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 42"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Saque de banda y remate",
+ "formato": "4v4",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "8 jug. + porteros",
+ "espacio": "32 × 20 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de descanso; cambian los saques cada serie (propuesta).",
+ "objetivo": "Disputar el primer balón tras un saque lateral, marcar al rival y rematar rápido a una de las dos porterías según quién gane la disputa (fuente). Cómo explicarlo: «el saque es una jugada: elige tu rival antes de que salga». Errores típicos: no marcar, esperar el balón parado, rematar sin portería. Qué observar: marcajes antes del saque, ataque al balón y rechace o segunda jugada.",
+ "montaje": "Campo de 32 × 20 m con portería de 5 m y portero en cada fondo. 4v4. Saca a mano un jugador desde la banda, a la altura del centro.",
+ "juego": "Saca a mano un amarillo hacia el centro y los dos equipos se disputan el balón. Quien lo gana remata a cualquier portería. Sigue hasta gol o balón fuera; saca el otro.",
+ "punto": "Gol de cabeza = 2 puntos; con el pie = 1. Gana quien más sume.",
+ "consigna": "Marca antes del saque y ataca el balón.",
+ "adaptacion": "Alevín (10–11): balón ligero y saque raso o a pie. Infantil (12–13): lo propuesto. Cadete: 5v5 en 40 × 25 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): inicio a balón parado desde los laterales, remate a una u otra portería según quién gane la disputa y juego hasta gol o balón fuera. Medidas, jugadores, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   32,
+   20
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 36,
+   "ymin": -4,
+   "ymax": 24
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 32,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": -1.8,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     -1.8
+    ],
+    "b": [
+     16,
+     9
+    ],
+    "k": "pass",
+    "s0": 11,
+    "s1": 11,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     9
+    ],
+    "b": [
+     32,
+     10
+    ],
+    "k": "pass",
+    "s0": 11,
+    "s1": 11,
+    "side": -1,
+    "n": 2
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Sin portero y con el saque a media altura, 3v3 (propuesta).",
+  "dificil": "Solo vale el gol si hay un remate a la primera, sin controlar (propuesta)."
+ }
+}

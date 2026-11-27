@@ -1,0 +1,134 @@
+{
+ "id": "ATH-068",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "COLECTIVA TRIANGULACIONES",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 93"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Triangulaciones orientadas",
+ "formato": "3v1",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "4 jug. por grupo",
+ "espacio": "15 × 15 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de descanso; rota el defensor cada serie (propuesta).",
+ "objetivo": "Orientaciones en función del balón, del compañero y del contrario (frontales, laterales o por dentro), controles orientados y pase correcto (fuente). Cómo explicarlo: «antes de recibir, decide hacia dónde; controla ya mirando al siguiente». Errores típicos: control hacia el rival, cuerpo cerrado, pase sin ángulo. Qué observar: primer toque orientado y apoyo de los tres vértices.",
+ "montaje": "Cuadrado de 15 × 15 m. 3 amarillos en triángulo de 8–10 m con 1 balón y un defensor azul dentro. Hasta 3 grupos a la vez.",
+ "juego": "Los tres se pasan el balón con control orientado y se mueven tras cada pase para abrir ángulo. 2 minutos con el defensor pasivo; después, presión real. Si roba, cambia de puesto con quien perdió.",
+ "punto": "5 pases seguidos con control orientado = 1 punto. Si el defensor roba, el trío pierde 1.",
+ "consigna": "Controla de cara al siguiente y busca el ángulo.",
+ "adaptacion": "Alevín (10–11): sin defensor y control libre. Infantil (12–13): lo propuesto. Cadete: 4v2 en 20 × 20 m con control orientado.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): objetivos de orientaciones según el balón, el compañero y el contrario, controles orientados y pase correcto. Número de jugadores, medidas, progresión del defensor, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 18,
+   "ymin": -3,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    0,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     12
+    ],
+    "b": [
+     12,
+     12
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     7.5,
+     3
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 2
+   },
+   {
+    "a": [
+     7.5,
+     3
+    ],
+    "b": [
+     3,
+     12
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 3
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Defensor pasivo todo el tiempo y cuadrado de 18 × 18 m (propuesta).",
+  "dificil": "Control y pase a dos toques máximo, con defensor activo y cuadrado de 12 × 12 m (propuesta)."
+ }
+}

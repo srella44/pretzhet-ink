@@ -1,0 +1,325 @@
+{
+ "id": "ATH-056",
+ "fuente": {
+  "autor": "Athletic Club · Lezama",
+  "titulo_original": "P. 8 P.P. ZONAS - CONTROL, JUEGO, PROFUNDIDAD -",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 76"
+ },
+ "top": "",
+ "probado": false,
+ "bloque": "Técnica y duelos",
+ "titulo": "Zonas de sorpresa",
+ "formato": "6v6",
+ "edad": "11–13 años (propuesta)",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "50 × 36 m",
+ "duracion": "16 min",
+ "series": "4 × 3 min con 1 min de descanso (propuesta).",
+ "objetivo": "Limitar el campo con dos zonas sombreadas en las que solo se entra en ataque, y valorar las alternativas de juego: velocidad, habilidad, regate al espacio, desmarque de segunda línea y búsqueda de la espalda de la defensa (fuente). Cómo explicarlo: «la zona sombreada es un premio: entra solo cuando sorprendas». Errores típicos: entrar demasiado pronto o sin balón, no atacar la espalda. Qué observar: elección entre control, juego o profundidad.",
+ "montaje": "Campo de 50 × 36 m con 4 puertas de 3 m en cada fondo (8). Dos zonas sombreadas de 14 × 8 m, en las bandas, donde solo entra el equipo que ataca. 6v6.",
+ "juego": "Se marca pasando o conduciendo por una puerta del fondo contrario. Los defensores no pueden entrar en las zonas sombreadas; los atacantes solo con balón o para recibirlo y salen en 5 s.",
+ "punto": "Gol = 1 punto; si pasa por una zona sombreada, 2.",
+ "consigna": "Elige: control, juego o profundidad.",
+ "adaptacion": "Alevín (10–11): 5v5 en 40 × 30 m. Infantil (12–13): lo propuesto. Cadete: 7v7 en 60 × 40 m con puertas de 4 m.",
+ "completado": "Fuente (texto cortado, sin PDF, la ficha original no se ha podido consultar): dos zonas sombreadas donde solo se entra en ataque y 8 porterías pequeñas; trabajo de velocidad, habilidad, regate al espacio, desmarque de segunda línea y espalda de la defensa. Medidas, distribución, tiempos, 6v6, puntuación, series y variantes son (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -4,
+   "ymax": 40
+  },
+  "cones": [
+   [
+    0,
+    4.5
+   ],
+   [
+    0,
+    7.5
+   ],
+   [
+    0,
+    12.5
+   ],
+   [
+    0,
+    15.5
+   ],
+   [
+    0,
+    20.5
+   ],
+   [
+    0,
+    23.5
+   ],
+   [
+    0,
+    28.5
+   ],
+   [
+    0,
+    31.5
+   ],
+   [
+    50,
+    4.5
+   ],
+   [
+    50,
+    7.5
+   ],
+   [
+    50,
+    12.5
+   ],
+   [
+    50,
+    15.5
+   ],
+   [
+    50,
+    20.5
+   ],
+   [
+    50,
+    23.5
+   ],
+   [
+    50,
+    28.5
+   ],
+   [
+    50,
+    31.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     4.5
+    ],
+    [
+     0,
+     7.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     12.5
+    ],
+    [
+     0,
+     15.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     20.5
+    ],
+    [
+     0,
+     23.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     0,
+     28.5
+    ],
+    [
+     0,
+     31.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     4.5
+    ],
+    [
+     50,
+     7.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     12.5
+    ],
+    [
+     50,
+     15.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     20.5
+    ],
+    [
+     50,
+     23.5
+    ],
+    "2 3"
+   ],
+   [
+    [
+     50,
+     28.5
+    ],
+    [
+     50,
+     31.5
+    ],
+    "2 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     24,
+     5
+    ],
+    "k": "pass",
+    "s0": 9,
+    "s1": 9,
+    "side": 1,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     5
+    ],
+    "b": [
+     50,
+     12.5
+    ],
+    "k": "cond",
+    "s0": 9,
+    "s1": 9,
+    "side": -1,
+    "n": 2
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     18,
+     0,
+     32,
+     8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     18,
+     28,
+     32,
+     36
+    ]
+   }
+  ]
+ },
+ "variantes": {
+  "facil": "Los atacantes pueden estar 8 s en la zona (propuesta).",
+  "dificil": "Defensores sin límite: solo 1 jugador puede salir de la parcela a ayudar (propuesta)."
+ }
+}
