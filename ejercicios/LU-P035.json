@@ -1,0 +1,207 @@
+{
+ "id": "LU-P035",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Ruptura al espacio 11v10",
+ "formato": "11v10 + 2 com.",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "23 jug. (propuesta)",
+ "espacio": "100 × 50 m",
+ "duracion": "20 min",
+ "series": "3 tiempos de 6 min con 1 min de pausa; al acabar cada tiempo los dos equipos cambian de zona de puntuación (propuesta).",
+ "objetivo": "Que el equipo con balón circule con paciencia, atraiga la presión y encuentre el momento de lanzar un desmarque de ruptura a la espalda de la defensa. Cómo explicarlo: «Mover el balón para abrir el hueco y lanzar al que corre». Errores típicos: pase al espacio sin que nadie arranque a la vez, delanteros que se quedan parados, defensas que se descuelgan. Qué observar: quién da la señal de ruptura y si el que lanza mira antes. Material: conos, petos de 3 colores, 2 porterías.",
+ "montaje": "Campo de 100 × 50 m: zona de pase y, al fondo, zona de punto de 12 m. 11 amarillos (1-4-3-3), 10 azules y 2 comodines blancos.",
+ "juego": "Los amarillos circulan y progresan; los azules no salen de su zona. Con hueco, pase de la zona de pase a la de punto. Comodines: ayudan, no puntúan. Si roban los azules, atacan libres.",
+ "punto": "Punto: recibir en la zona de punto un pase desde la de pase.",
+ "consigna": "Muévela y lanza cuando miren el balón.",
+ "variantes": {
+  "facil": "Zona de punto de 18 m y defensores con una línea menos (propuesta).",
+  "dificil": "Un solo toque en la zona de pase y zona de punto de 8 m (propuesta)."
+ },
+ "adaptacion": "Con 14–15 años se juega a un 9v8+2 en 80 × 45 m. Con 16–18 años, el campo reglamentario y 11v11 sin comodines (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO CONDICIONADO (11vs10+2) - Desmarques de ruptura - Batir líneas",
+  "ref": "300 ejercicios Level Up Coach · pág. 35"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Level Up Coach, texto completo en lu.txt): 11 atacantes 1-4-3-3 contra 10 defensores y 2 comodines ofensivos; zonas 1 (punto), 2 (pase) y 4 (no válida); los defensores no salen de su zona; el punto solo se consigue recibiendo en la zona de punto un balón enviado desde la zona de pase; tras recuperar, la defensa ataca sin condicionantes; 23 jug., 50 × 100 m. (propuesta): medidas de las zonas, series, rotación, variantes, adaptación y los colores. Se dibuja el último tercio y solo parte de los jugadores; no se ha visto el gráfico original.",
+ "diagrama": {
+  "field": [
+   60,
+   50
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 61,
+   "ymin": -1,
+   "ymax": 51
+  },
+  "dashed": true,
+  "tag": "último tercio",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     48,
+     0,
+     60,
+     50
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     50
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 41,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 47,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 37,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     25
+    ],
+    "b": [
+     15,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     9
+    ],
+    "b": [
+     26,
+     24
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     36,
+     16
+    ],
+    "b": [
+     53,
+     14
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     27,
+     25
+    ],
+    "b": [
+     52,
+     14
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    54,
+    -1.5,
+    "PUNTO",
+    "middle"
+   ],
+   [
+    39,
+    -1.5,
+    "PASE",
+    "middle"
+   ]
+  ]
+ }
+}

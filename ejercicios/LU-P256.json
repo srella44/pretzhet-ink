@@ -1,0 +1,288 @@
+{
+ "id": "LU-P256",
+ "bloque": "Balón parado",
+ "titulo": "Córner con dos lanzadores",
+ "formato": "6v4 + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug. (propuesta)",
+ "espacio": "30 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 5 córners (3 por un lado y 2 por otro) con 1 min de pausa; los dos lanzadores rotan cada serie (propuesta).",
+ "objetivo": "Sorprender al rival con un córner de cambio de orientación: fijar defensas con un saque corto y centrar desde el otro lado. Cómo explicarlo: «Fijo, paso al apoyo, cambio de lado y centro con gente llegando». Errores típicos: cambio de orientación lento, nadie ocupa el borde del área, centro sin segunda línea. Qué observar: que 3 jugadores se queden en vigilancia. Material: 1 portería, conos, petos.",
+ "montaje": "Medio campo reducido con portería y portero. 2 lanzadores (1 y 2) en el córner, 3 de vigilancia atrás y 3 rematadores en el área. 4 defensas.",
+ "juego": "1 saca corto a 2, que fija a dos defensas. 2 pasa al apoyo 3, que viene al borde del área, y este cambia de orientación a 4, que ocupa el otro lado y centra buscando la entrada de la segunda línea.",
+ "punto": "Gol: 2. Remate entre palos: 1. Despeje defensivo: 1 (propuesta).",
+ "consigna": "Fija, cambia de lado y centra a segunda línea.",
+ "variantes": {
+  "facil": "Defensas pasivas y 3 pases cortos (propuesta).",
+  "dificil": "Defensas activos y el centro con el pie contrario (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 4 atacantes y córner reducido. En 12–13, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ABP OFENSIVA - Saque de esquina con 2 lanzadores - Juanlu Toledo @JuanluAxel",
+  "ref": "300 ejercicios Level Up Coach · pág. 256"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: saque de dos jugadores y 3 en vigilancia; 1 saca corto para fijar a dos defensores; 2 pasa a 3 que viene en apoyo; cambio de orientación a 4, que ocupa el espacio y centra buscando la entrada desde la segunda línea; 11 jug., 90 × 50 m. (propuesta): medidas, rematadores, defensas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 17.2,
+    "f": 160
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 12,
+    "f": 200
+   },
+   {
+    "r": "A",
+    "x": 49,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 36.5,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 2.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 51,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 3.2,
+    "y": 13,
+    "f": 340
+   },
+   {
+    "r": "D",
+    "x": 12.8,
+    "y": 20.2,
+    "f": 160
+   },
+   {
+    "r": "D",
+    "x": 29.5,
+    "y": 12.8,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 36.5,
+    "y": 14,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 43.5,
+    "y": 10.5,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     8,
+     17.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     17.2
+    ],
+    "b": [
+     16.5,
+     12.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     12
+    ],
+    "b": [
+     48.2,
+     13.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     49,
+     13.5
+    ],
+    "b": [
+     37.5,
+     10.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 4
+   },
+   {
+    "a": [
+     25,
+     2.8
+    ],
+    "b": [
+     28,
+     5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    22,
+    0.4,
+    "VIGILANCIA",
+    "middle"
+   ]
+  ]
+ }
+}

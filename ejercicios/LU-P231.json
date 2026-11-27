@@ -1,0 +1,162 @@
+{
+ "id": "LU-P231",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4v4 con marca individual",
+ "formato": "4v4 + 4 com. + 2 PT",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "15 × 15 m",
+ "duracion": "18 min",
+ "series": "4 series de 4 min con 1 min de pausa; cada serie se cambian las marcas y los comodines (propuesta).",
+ "objetivo": "Defender al hombre sin precipitarse: contactar con la marca, no entrar de golpe y, sobre todo, no dejarse superar. Cómo explicarlo: «No tengas prisa por robar: que no te superen». Errores típicos: entrar a la carrera, perder la marca al primer pase, defender de espaldas. Qué observar: distancia a la marca (un brazo) y ayuda al compañero cuando el balón cambia. Material: conos, petos de 3 colores, 2 porterías.",
+ "montaje": "Zona de 15 × 15 m con 4 atacantes y 4 defensores, cada uno con su marca. 4 comodines del atacante fuera, 2 a cada lado. Miniportería de 3 m en cada extremo.",
+ "juego": "Los amarillos buscan rematar; solo marcan los 4 de dentro. Los comodines (blancos) juegan a 2 toques y ayudan a mantener. Cada azul marca a su atacante sin entrar a la carrera y espera su momento para robar.",
+ "punto": "Gol: 1. Robo y salida de la zona con balón: 1 (propuesta).",
+ "consigna": "Contacta con la marca y no entres de golpe.",
+ "variantes": {
+  "facil": "Comodines a 3 toques y defensor que ayuda (propuesta).",
+  "dificil": "Comodines a 1 toque y un solo defensor puede robar a la vez (propuesta)."
+ },
+ "adaptacion": "En 12–13 años, 3v3+3 en 12 × 12 m. En 14–15, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO CONDICIONADO  16+2P - 15+1p - Pere Riera @Pere36287525",
+  "ref": "300 ejercicios Level Up Coach · pág. 231"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 4x4 dentro de la zona con una marca individual por defensor; solo marcan los de dentro; 4 comodines del atacante en su mitad a dos toques máximo; ideas: contactar con las marcas, no entrar de golpe, no tener prisa por robar; 18 jug. (el título habla de un partido de 16+2P contra 15+1P), 15 × 15 m. (propuesta): colocación de comodines, series, puntos, variantes y adaptación; el partido completo no se dibuja.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 19,
+   "ymin": -4,
+   "ymax": 19
+  },
+  "tag": "zona 15 × 15 m",
+  "goals": [
+   [
+    0,
+    7.5,
+    "L"
+   ],
+   [
+    15,
+    7.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6.2,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6.2,
+    "y": 10.8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 6.8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 4.5,
+    "y": -2.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 10.5,
+    "y": -2.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 4.5,
+    "y": 17.4,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 10.5,
+    "y": 17.4,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3.5
+    ],
+    "b": [
+     3,
+     10.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     3
+    ],
+    "b": [
+     10.5,
+     -1.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

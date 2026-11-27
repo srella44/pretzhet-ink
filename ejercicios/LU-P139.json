@@ -1,0 +1,155 @@
+{
+ "id": "LU-P139",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 7v7 con foco",
+ "formato": "7v7 + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug. (propuesta)",
+ "espacio": "40 × 35 m",
+ "duracion": "24 min",
+ "series": "2 partes de 10 min con 2 min de pausa; el entrenador cambia el foco en cada parte y rota el sistema (propuesta).",
+ "objetivo": "Jugar un partido de fútbol 7 con un sistema claro (el que decida el entrenador) y un foco de la semana. Cómo explicarlo: «Hoy jugamos el partido con una sola idea». Errores típicos: amontonarse en el balón, olvidar la posición, dar el balón atrás sin buscar. Qué observar: ocupación de zonas y distancias entre líneas. Material: 2 porterías de 6 m, petos, balones.",
+ "montaje": "Campo de 40 × 35 m, 2 porterías de 6 m con portero. 2 equipos de 7 (6 + portero) con el sistema que fija el entrenador, p. ej. 2-3-1 (propuesta).",
+ "juego": "Partido normal. Antes de cada parte, el entrenador dice el foco: salir jugando, presionar tras pérdida o jugar rápido a la espalda. Tras gol, saca quien lo encaja, con pase corto.",
+ "punto": "Gol: 1. Gol que cumple el foco del tiempo: 2 (propuesta).",
+ "consigna": "Un solo foco por parte y jugar en equipo.",
+ "variantes": {
+  "facil": "Foco único y 3 balones de repuesto para reanudar rápido (propuesta).",
+  "dificil": "Dos focos a la vez y 2 toques en la mitad propia (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 6v6 en 35 × 30 m y balón n.º 4. En 12–13, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO 7 vs 7",
+  "ref": "300 ejercicios Level Up Coach · pág. 139"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos equipos de siete jugadores, cada uno con el sistema que determine el entrenador; los objetivos ofensivos y defensivos dependen de las características de los jugadores y del modelo; 14 jug., 40 × 35 m. La fuente es muy escueta: (propuesta) sistema 2-3-1, tiempos, focos, puntuación, variantes y adaptación; edad 10–13 (la base proponía 14–18 pero F7 es de base).",
+ "diagrama": {
+  "field": [
+   40,
+   35
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -1,
+   "ymax": 36
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 17.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 17.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     17.5
+    ],
+    "b": [
+     23.4,
+     10.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     24,
+     10
+    ],
+    "b": [
+     36,
+     14
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -0.2,
+    "7v7",
+    "middle"
+   ]
+  ]
+ }
+}

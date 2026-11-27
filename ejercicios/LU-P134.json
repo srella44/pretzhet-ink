@@ -1,0 +1,228 @@
+{
+ "id": "LU-P134",
+ "bloque": "Balón parado",
+ "titulo": "Defender el córner (mixto 2)",
+ "formato": "5v8 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. (propuesta)",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 5 córners (2 por cada lado) con 1 min de pausa; tras cada serie se cambian las marcas (propuesta).",
+ "objetivo": "Defender el córner con más marcas al hombre (5) y solo 2 en zona en el primer palo. Cómo explicarlo: «Cinco con su hombre, dos cortando el primer palo». Errores típicos: soltar la marca al ver el balón, los dos del primer palo en el mismo sitio, el de rechace demasiado atrás. Qué observar: que los 5 marquen a la vez y salgan juntos tras el despeje. Material: 1 portería, 10 balones, conos, petos.",
+ "montaje": "Medio campo reducido con portería y portero. 2 en zona al primer palo, 5 al hombre, 2 al rechace y 1 en medio campo. 5 atacantes y 1 lanzador.",
+ "juego": "El lanzador saca el córner; los atacantes se mueven para rematar, los 5 de marca los siguen y los 2 del primer palo cortan el centro. Si se recupera, el de medio campo conduce a la línea central.",
+ "punto": "Despeje o robo: 1. Salir al medio campo: 2. Ataque: remate 1; gol 2 (propuesta).",
+ "consigna": "Cinco con su hombre y dos en el primer palo.",
+ "variantes": {
+  "facil": "Solo 3 atacantes y sin balón rápido (propuesta).",
+  "dificil": "Atacantes con bloqueos y lanzador que cambia entre palos (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 3 al hombre y 2 en zona. En 12–13, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ABP DEFENSIVA - POSICIONAMIENTO SAQUE DE ESQUINA RIVAL MIXTO 2",
+  "ref": "300 ejercicios Level Up Coach · pág. 134"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: reparto defensivo en córner rival: portero, 1 en zona por delante del primer palo, 1 en zona a la altura del primer palo, 5 marcando al hombre, 2 en zona de rechace o segunda jugada y 1 en medio campo; 11 jug., 20 × 20 m. (propuesta): atacantes y lanzador, puntos, series, variantes y adaptación. Es la versión con más marcas de LU-P133.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 6.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 9.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 13,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 30.5,
+    "y": 13.2,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 29.5,
+    "y": 18.4,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 26.5,
+    "y": 10.8,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 33.5,
+    "y": 9.6,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 41.5,
+    "y": 10,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 48.5,
+    "y": 12.3,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 36.3,
+    "y": 16.3,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 3.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 42.5,
+    "y": 2.8,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 51.5,
+    "y": 3,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     34,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1,
+    "nt": 0.55
+   }
+  ],
+  "labels": []
+ }
+}

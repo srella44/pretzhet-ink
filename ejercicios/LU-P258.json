@@ -1,0 +1,271 @@
+{
+ "id": "LU-P258",
+ "bloque": "Balón parado",
+ "titulo": "Falta lateral con dos",
+ "formato": "5v4 + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug. (propuesta)",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 5 faltas (cambiando de lado) con 1 min de pausa; los dos que sacan rotan cada serie (propuesta).",
+ "objetivo": "Resolver una falta lateral sacándola entre dos jugadores: romper por banda, apoyar de cara y buscar un pase atrás de remate. Cómo explicarlo: «Amago de pase, apoyo, balón al espacio y pase atrás». Errores típicos: sacar sin que nadie se mueva, apoyo sin ángulo, pase atrás sin llegada. Qué observar: el engaño del jugador que rompe. Material: 1 portería, conos, petos.",
+ "montaje": "Medio campo reducido con portería y portero. Falta lateral a 25 m de la portería. 2 jugadores sacan (1 y 2), 3 de vigilancia atrás y 3 rematadores. 4 defensas y portero.",
+ "juego": "1 rompe por la banda pidiendo el balón y se queda ahí. 2, desde la frontal, apoya para recibir y deja de cara al 3 (vigilancia). 3 lanza al espacio de 1, que pasa atrás a los rematadores que llegan.",
+ "punto": "Gol: 2. Remate entre palos: 1. Despeje: 1 (propuesta).",
+ "consigna": "Pide el balón, rompe y pasa atrás.",
+ "variantes": {
+  "facil": "Defensas pasivos y sin vigilancia (propuesta).",
+  "dificil": "Defensas activos y 2 faltas seguidas (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, falta a 20 m. En 12–13, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ABP OFENSIVA - Falta lateral con 2 jugadores - Juanlu Toledo @JuanluAxel",
+  "ref": "300 ejercicios Level Up Coach · pág. 258"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: sacan 2 jugadores y quedan 3 en vigilancia; 1 rompe por banda alertando el pase y creando una disputa («¿por qué no me das el balón?»), buscando el 1×1 al espacio; otro jugador de la frontal apoya y deja de cara al 3 en vigilancia; el 3 lanza al espacio que ocupa 1, que mete un pase lateral a los que llegan al remate; 11 jug., 90 × 50 m. (propuesta): medidas, rematadores, defensas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11.5,
+    "f": 200,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 16.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 12.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 12.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 16.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 29.5,
+    "y": 13.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 15,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.5,
+     16.2
+    ],
+    "b": [
+     12.5,
+     19.3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     10,
+     11.5
+    ],
+    "b": [
+     21.5,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     7.5
+    ],
+    "b": [
+     30,
+     3.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     30.5,
+     3
+    ],
+    "b": [
+     13.5,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     13.5,
+     19.8
+    ],
+    "b": [
+     33,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 4,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    10,
+    8.4,
+    "FALTA",
+    "middle"
+   ],
+   [
+    30.5,
+    0.2,
+    "VIGILANCIA",
+    "middle"
+   ]
+  ]
+ }
+}

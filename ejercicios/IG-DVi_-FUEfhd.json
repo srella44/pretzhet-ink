@@ -1,0 +1,146 @@
+{
+ "id": "IG-DVi_-FUEfhd",
+ "bloque": "Balón parado",
+ "titulo": "Saque que cambia de carril",
+ "formato": "3v1 + PT",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug. (propuesta)",
+ "espacio": "40 × 28 m",
+ "duracion": "15 min",
+ "series": "4 series de 5 saques por banda con 1 min de pausa; el lateral y los receptores rotan cada serie (propuesta).",
+ "objetivo": "Orientar la recepción del saque hacia dentro y cambiar la jugada al carril opuesto para generar un 2v1. Cómo explicarlo: «Recibo dentro, miro y cambio de lado: allí hay un 2v1». Errores típicos: recibir de espaldas, cambio de juego flojo, el receptor del cambio no decide a tiempo. Qué observar: orientación del cuerpo al recibir y decisión entre conducir o pasar. Material: 1 portería, conos, petos, balones.",
+ "montaje": "Campo de 40 × 28 m con portería y portero. El lateral saca en la banda inferior; receptor interior a 6 m. En el carril superior, un atacante con un apoyo y un defensor.",
+ "juego": "El lateral saca al receptor, que recibe orientado hacia dentro y cambia el juego al carril contrario. Ahí hay un 2v1: conducir y tirar o dar al apoyo. El defensor intenta robar.",
+ "punto": "Gol: 2. Remate: 1. Robo del defensor y pase al portero: 1 (propuesta).",
+ "consigna": "Recibo dentro, miro y cambio de carril.",
+ "variantes": {
+  "facil": "Defensor pasivo y cambio de juego por el suelo (propuesta).",
+  "dificil": "Un segundo defensor al cambio y 6 s para acabar (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, como está. Para 8–9, 2v1 en 30 × 20 m.",
+ "fuente": {
+  "autor": "@edf.futebol · Instagram",
+  "titulo_original": "Saque de banda que libera el otro carril",
+  "ref": "https://www.instagram.com/edf.futebol/reel/DVi_-FUEfhd/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción pública del reel; no hay fotogramas en el repositorio): orientar la recepción del saque hacia dentro y cambiar la jugada al compañero del carril opuesto; el cambio activa un 2v1 y el receptor decide si conduce o aprovecha el apoyo; U11 (propuesta). (propuesta): medidas, número de jugadores, portería y portero, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   28
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 44,
+   "ymin": -1,
+   "ymax": 31
+  },
+  "dashed": true,
+  "porterias": [
+   {
+    "x": 40,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 29.2,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     29.2
+    ],
+    "b": [
+     13.4,
+     22.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     14,
+     22
+    ],
+    "b": [
+     26.4,
+     6.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     34,
+     10
+    ],
+    "b": [
+     38,
+     12
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    22,
+    26,
+    "CARRIL DEL SAQUE",
+    "middle"
+   ],
+   [
+    24,
+    2,
+    "CARRIL OPUESTO",
+    "middle"
+   ]
+  ]
+ }
+}

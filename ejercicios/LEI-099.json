@@ -1,0 +1,171 @@
+{
+ "id": "LEI-099",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Juego del líbero 4v4",
+ "formato": "4v4 sin porteros",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. (propuesta)",
+ "espacio": "30 × 24 m",
+ "duracion": "16 min",
+ "series": "4 partidos de 3 min con 1 min de pausa; cada partido, nuevo líbero en cada equipo (propuesta).",
+ "objetivo": "Defender sin portero con un compañero protegido (el líbero) y atacar teniendo en cuenta que el rival tiene una zona inmune. Cómo explicarlo: «El líbero es intocable en su zona: úsalo». Errores típicos: entrar a quitar al líbero (falta), no usar al líbero para salir, olvidar cubrir. Qué observar: cuándo sale el líbero y el apoyo de sus compañeros. Material: 2 miniporterías, conos, petos.",
+ "montaje": "Campo de 30 × 24 m con una miniportería de 3 m por lado (propuesta) y, delante, una zona de 8 m marcada con conos. Cada equipo de 4 designa un líbero. No hay porteros.",
+ "juego": "Partido 4v4. El líbero no puede ser robado dentro de su zona de 8 m, pero sí fuera. Todos pueden entrar en la zona, pero no tocar al líbero (sí a sus compañeros). Tras gol, saca el equipo que lo encaja.",
+ "punto": "Gol: 1. Robo al líbero fuera de su zona: gol vale 2 (propuesta).",
+ "consigna": "Líbero seguro dentro: salimos desde él.",
+ "variantes": {
+  "facil": "Líbero intocable en todo el campo (propuesta).",
+  "dificil": "Zona de 5 m y líbero máximo 2 toques (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 3v3 con líbero en 25 × 20 m. En 12–13, como está.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Sweeper Game",
+  "ref": "LeicesterCity.pdf · pág. 112"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Leicester City Academy, texto en inglés cortado en la base; no está el PDF para ver el diagrama): mejor como 4v4 sin porteros; cada equipo tiene un líbero al que no pueden robar en la zona de 8 m delante de su portería; puede jugar fuera pero ahí sí se le roba; todos pueden entrar en su zona pero no robarle, aunque sí a sus compañeros. (propuesta): medidas, porterías, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -1,
+   "ymax": 25
+  },
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    30,
+    12,
+    "R"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     5,
+     8,
+     19
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     22,
+     5,
+     30,
+     19
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     18
+    ],
+    "b": [
+     18.4,
+     12.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     19,
+     12
+    ],
+    "b": [
+     29.4,
+     12
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    4,
+    3.8,
+    "LÍBERO",
+    "middle"
+   ],
+   [
+    26,
+    3.8,
+    "LÍBERO",
+    "middle"
+   ]
+  ]
+ }
+}

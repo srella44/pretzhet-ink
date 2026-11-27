@@ -1,0 +1,217 @@
+{
+ "id": "LU-P210",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Apoyo y ruptura 6v6",
+ "formato": "6v6 + PT",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "13 jug. (propuesta)",
+ "espacio": "50 × 40 m",
+ "duracion": "20 min",
+ "series": "4 series por equipo atacante con 2 min de pausa; cada equipo hace una serie y cambia de rol; el portero cambia cada 3 repeticiones.",
+ "objetivo": "Practicar la secuencia de desmarque de apoyo (acercarse a recibir) y desmarque de ruptura (correr a la espalda) con el timing correcto. Cómo explicarlo: «Apoyo para sacar al marcador y ruptura cuando el balón sale». Errores típicos: ruptura antes del pase, apoyo sin ángulo, pase al pie del que corre. Qué observar: el momento exacto de arrancar y el cambio de orientación. Material: 1 portería, conos, petos, balones.",
+ "montaje": "Campo de 50 × 40 m, portería y portero. Atacan 2 medios, 1 mediapunta, 2 extremos y 1 delantero; defienden 4 defensas y 2 medios.",
+ "juego": "Medio pasa al extremo derecho, que baja a recibir marcado (apoyo); este toca al mediapunta, que devuelve al otro medio, y pase al extremo izquierdo, que corre a portería (ruptura) y finaliza. Si roban, salen conduciendo.",
+ "punto": "Gol: 2. Remate a puerta: 1. Robo y salida: 1.",
+ "consigna": "Baja a recibir; sal a su espalda.",
+ "variantes": {
+  "facil": "Defensa pasiva en las primeras repeticiones (propuesta).",
+  "dificil": "Los jugadores deciden los desmarques según cómo defienda el rival."
+ },
+ "adaptacion": "En 14–15 años, 5v5 en 40 × 35 m. En 16–18, como está y sin conos de referencia (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIONES COMBINADAS CON BALÓN - DESMARQUES 6VS6 + 1P - Hugo Álvarez @HugoAlvrz",
+  "ref": "300 ejercicios Level Up Coach · pág. 210"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: equipo atacante de 2 MC, 1 MP, 2 extremos y delantero contra 4 defensas y 2 MC; secuencia de apoyo, cambio de orientación y ruptura; rotación: 1 serie cada equipo y porteros cada 3 repeticiones; variante de juego real y robo con conducción por la línea de MC; 13 jug., 40 × 50 m. (propuesta): posiciones, series, puntuación, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 53,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 28,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     16
+    ],
+    "b": [
+     15,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     4
+    ],
+    "b": [
+     21,
+     19
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     20
+    ],
+    "b": [
+     5,
+     27
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     4,
+     28
+    ],
+    "b": [
+     17,
+     35
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     16,
+     36
+    ],
+    "b": [
+     40,
+     34
+    ],
+    "k": "run",
+    "n": 5,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.2,
+    "APOYO",
+    "middle"
+   ],
+   [
+    30,
+    38.8,
+    "RUPTURA",
+    "middle"
+   ]
+  ]
+ }
+}

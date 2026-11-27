@@ -1,0 +1,264 @@
+{
+ "id": "LU-P175",
+ "bloque": "Balón parado",
+ "titulo": "Córner corto al segundo palo",
+ "formato": "7v5 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. (propuesta)",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 6 córners (3 por lado) con 1 min de pausa; los dos de segunda línea rotan cada serie (propuesta).",
+ "objetivo": "Ensayar un córner corto con envío al segundo palo: un jugador arrastra una marca y un zurdo cuelga el balón de primeras. Cómo explicarlo: «Corto, uno penetra y el otro cuelga». Errores típicos: penetración sin fijar marca, centro sin primer toque, rematadores quietos. Qué observar: la señal y que el zurdo llegue lanzado. Material: 1 portería, conos, petos, 10 balones.",
+ "montaje": "Medio campo con portería y portero. Lanzador y compañero en el córner. 2 jugadores de segunda línea al borde del área (el zurdo, lejos del córner). 3 rematadores en el área. 4 defensas.",
+ "juego": "Con la señal, el lanzador toca corto. El de segunda línea más cercano penetra en el área para arrastrar a un marcador y el zurdo ocupa su sitio, recibe y centra de primeras al segundo palo, donde llegan los 3 rematadores.",
+ "punto": "Gol: 2. Remate entre palos: 1. Despeje: 1 (propuesta).",
+ "consigna": "Corto, penetra y cuelga de primeras.",
+ "variantes": {
+  "facil": "Defensas pasivos y el zurdo con 2 toques (propuesta).",
+  "dificil": "Defensas al hombre y 5 s máximo desde el saque (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 4 rematadores menos. En 12–13, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ABP OFENSIVA - SAQUE DE ESQUINA OFENSIVO 4",
+  "ref": "300 ejercicios Level Up Coach · pág. 175"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: córner con zona de envío al 2.º palo y señal predefinida; el lanzador pasa al compañero que lo acompaña y los dos jugadores de la zona de rechace empiezan sus movimientos: el más cercano al córner penetra en el área para arrastrar una marca y el segundo (preferiblemente zurdo) ocupa su posición y cuelga el balón al primer toque al segundo palo; los de dentro hacen diferentes movimientos; 11 jug., 20 × 20 m. (propuesta): colocación, defensas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 17.4,
+    "f": 160
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 42.5,
+    "y": 13.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 6.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 12.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 35.5,
+    "y": 14.8,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 39,
+    "y": 10.8,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 47.5,
+    "y": 10.2,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     6.6,
+     17.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     9.5
+    ],
+    "b": [
+     30,
+     9
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     3
+    ],
+    "b": [
+     20.2,
+     8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     7,
+     17.4
+    ],
+    "b": [
+     18.2,
+     10.1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     19.5,
+     9
+    ],
+    "b": [
+     41,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 4,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    19,
+    12.6,
+    "ZURDO",
+    "middle"
+   ]
+  ]
+ }
+}

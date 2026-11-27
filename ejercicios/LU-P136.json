@@ -1,0 +1,278 @@
+{
+ "id": "LU-P136",
+ "bloque": "Balón parado",
+ "titulo": "Córner al primer palo",
+ "formato": "7v5 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. (propuesta)",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 6 córners (3 por lado) con 1 min de pausa; los rematadores rotan de puesto cada serie (propuesta).",
+ "objetivo": "Ensayar un córner con señal: crear un hueco al primer palo y atacarlo con dos rematadores mientras otros cubren el largo y el rechace. Cómo explicarlo: «Señal, aparto la marca y entran dos al hueco». Errores típicos: arrancar antes de la señal, todos al mismo sitio, nadie al rechace. Qué observar: la señal del lanzador y los tiempos. Material: 1 portería, conos, petos, 10 balones.",
+ "montaje": "Medio campo con portería y portero. Lanzador en el córner. 1 jugador en el primer palo, 4 en el segundo palo y 1 en zona de rechace. 4 defensas y portero.",
+ "juego": "Con la señal, el del primer palo se acerca al lanzador (2v1) y abre hueco. 2 del segundo palo corren a ese hueco para rematar, 1 se queda por si el balón va largo y el cuarto sale al rechace; el de rechace entra al punto de penalti.",
+ "punto": "Gol: 2. Remate entre palos: 1. Despeje: 1 (propuesta).",
+ "consigna": "Señal, abro hueco y entran dos.",
+ "variantes": {
+  "facil": "Defensas pasivos y balón al primer palo fijo (propuesta).",
+  "dificil": "Lanzador cambia la señal y defensas al hombre (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 4 atacantes en el área. En 12–13, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ABP OFENSIVA - SAQUE DE ESQUINA OFENSIVO 1",
+  "ref": "300 ejercicios Level Up Coach · pág. 136"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: córner con zona de envío al 1.er palo y señal predefinida; el jugador del primer palo genera espacio acercándose al lanzador (posible 2v1); dos jugadores del segundo palo entran al espacio creado para rematar; otro se mueve al segundo por si el balón va largo; el restante del grupo de cuatro sale a zona de rechace para que el jugador de esa zona se desmarque al punto de penal; 11 jug., 20 × 20 m. (propuesta): defensas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 10.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 7.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 43,
+    "y": 13,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 3.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 13.2,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 15,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 38.5,
+    "y": 12.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 33.5,
+    "y": 8.5,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     31,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1,
+    "nt": 0.6
+   },
+   {
+    "a": [
+     27.5,
+     16.5
+    ],
+    "b": [
+     9.5,
+     18
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     36,
+     10.5
+    ],
+    "b": [
+     31,
+     16.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     40,
+     7.5
+    ],
+    "b": [
+     33.5,
+     13
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     41,
+     3.8
+    ],
+    "b": [
+     31,
+     3
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     19,
+     8.5
+    ],
+    "b": [
+     32.5,
+     9.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    22,
+    23,
+    "SEÑAL DEL LANZADOR",
+    "middle"
+   ]
+  ]
+ }
+}

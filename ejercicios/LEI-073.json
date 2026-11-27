@@ -1,0 +1,175 @@
+{
+ "id": "LEI-073",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 con cinco dianas",
+ "formato": "5v5",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (propuesta)",
+ "espacio": "30 × 15 m",
+ "duracion": "15 min",
+ "series": "3 partidos de 4 min con 1 min de pausa; se cambian los equipos entre partidos (propuesta).",
+ "objetivo": "Presionar en equipo, mantener al equipo junto y buscar la finalización con precisión. Cómo explicarlo: «Presionamos juntos y golpeamos la diana». Errores típicos: presionar de uno en uno, equipo largo, tirar a ciegas. Qué observar: distancia entre jugadores al perder y calidad del pase al cono. Material: 7 conos, petos, balones.",
+ "montaje": "Campo de 30 × 15 m. 2 conos en cada línea de fondo y 3 en la línea de medio campo (a 4 m entre sí). 2 equipos de 5.",
+ "juego": "Partido de 5v5. Se puntúa golpeando con un pase raso uno de los conos del fondo contrario o uno de los 3 del centro. Tras punto, saca el que lo encaja desde su fondo.",
+ "punto": "Cono golpeado: 1. Cono de fondo con la defensa superada: 2 (propuesta). Gana quien más sume.",
+ "consigna": "Presiona junto y golpea la diana.",
+ "variantes": {
+  "facil": "Conos más grandes (picas bajas) y pase con la mano libre (propuesta).",
+  "dificil": "Solo vale el pase de primeras o tras 3 pases seguidos (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 4v4 en 25 × 15 m. En 12–13, como está y 3 toques máximos (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "5v5 with 5 goals",
+  "ref": "LeicesterCity.pdf · pág. 81"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Leicester City Academy, texto en inglés cortado en la base; no está el PDF para ver el diagrama): 10 jugadores en dos equipos de 5, campo pequeño de unos 30 × 15 m, 2 conos en cada línea de fondo y 3 en la media; para marcar hay que golpear uno de los conos del fondo contrario o uno de los 3 del centro; pensar en la presión y mantener al equipo junto. (propuesta): separación de conos, puntos, series, variantes y adaptación; edad 10–13 (la base proponía 12–15).",
+ "diagrama": {
+  "field": [
+   30,
+   15
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -1,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    30,
+    5
+   ],
+   [
+    30,
+    10
+   ],
+   [
+    15,
+    2.5
+   ],
+   [
+    15,
+    7.5
+   ],
+   [
+    15,
+    12.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     7.5
+    ],
+    "b": [
+     18.3,
+     3.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     19,
+     3
+    ],
+    "b": [
+     29.4,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    15,
+    -0.2,
+    "3 CONOS",
+    "middle"
+   ]
+  ]
+ }
+}

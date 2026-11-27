@@ -1,0 +1,202 @@
+{
+ "id": "LEI-075",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Juego de las seis porterías",
+ "formato": "6v6 + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "45 × 36 m",
+ "duracion": "18 min",
+ "series": "3 partidos de 5 min con 1 min de pausa; se cambia de zona de defensa entre partidos (propuesta).",
+ "objetivo": "Defender tres porterías a la vez (amplitud y basculación) y atacar cambiando el lado de juego. Cómo explicarlo: «Si cierras un lado, abres el otro: bascula». Errores típicos: todos al balón, no ocupar la banda contraria, cambio de juego lento. Qué observar: basculación y cambio de orientación del ataque. Material: 2 porterías, 4 miniporterías de 2 m, conos planos, petos.",
+ "montaje": "Medio campo de 45 × 36 m en 3 franjas de 12 m (conos planos). En cada fondo: portería con portero y una miniportería de 2 m por banda. 2 equipos de 6.",
+ "juego": "Cada equipo defiende sus 3 porterías y ataca las 3 contrarias. Gol en cualquiera de ellas. Si algún defensa sigue en la banda contraria cuando el atacante recibe en la suya, ese gol vale doble (propuesta).",
+ "punto": "Gol en portería central: 1. En miniportería: 2.",
+ "consigna": "Cambia el lado: donde defienden menos.",
+ "variantes": {
+  "facil": "Miniporterías de 3 m y 5v5 (propuesta).",
+  "dificil": "Solo vale doble el gol tras cambio de orientación de 2 o menos pases (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 5v5 en 40 × 30 m. En 12–13, como está.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Six - Goal Game.",
+  "ref": "LeicesterCity.pdf · pág. 83"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Leicester City Academy, texto en inglés cortado en la base; no está el PDF para ver el diagrama): portería con portero y 2 miniporterías de 2 m en cada fondo de medio campo; conos planos dividen el campo en 3 zonas iguales; 6v6, cada equipo defiende las 3 porterías de su fondo y ataca las otras 3; hay una regla sobre defensas que siguen en la banda contraria cuando el atacante (texto cortado). (propuesta): medidas, puntuación, series, regla de gol doble, variantes y adaptación. Se dibujan 4 jugadores por equipo.",
+ "diagrama": {
+  "field": [
+   45,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 49,
+   "ymin": -1,
+   "ymax": 37
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 18,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 45,
+    "y": 18,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    31,
+    "L"
+   ],
+   [
+    45,
+    5,
+    "R"
+   ],
+   [
+    45,
+    31,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     12
+    ],
+    [
+     45,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     24
+    ],
+    [
+     45,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 30,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     18
+    ],
+    "b": [
+     21.4,
+     18
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     22,
+     18
+    ],
+    "b": [
+     36,
+     32
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     30,
+     6
+    ],
+    "b": [
+     36,
+     10
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 4
+   }
+  ]
+ }
+}

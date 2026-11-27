@@ -1,0 +1,224 @@
+{
+ "id": "LU-P007",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido por zonas 8v8+3",
+ "formato": "8v8 + 3 com.",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "19 jug. (propuesta)",
+ "espacio": "68 × 40 m",
+ "duracion": "20 min",
+ "series": "3 tiempos de 6 min con 1 min de pausa; en cada tiempo se rotan las zonas de los jugadores (propuesta).",
+ "objetivo": "Crear superioridades encontrando al hombre libre y conectar zonas con pase; presionar fuerte al poseedor y cerrar el interior. Cómo explicarlo: «Busca al libre, juega al tercero y cambia de zona con el balón». Errores típicos: pases a la zona sin ángulo, presión sin cobertura, comodines olvidados. Qué observar: pases al tercer hombre y salidas de la defensa a las bandas. Material: conos, petos de 3 colores, 2 porterías.",
+ "montaje": "Campo de 68 × 40 m en 3 zonas de 22 m. Cada equipo pone 3, 3 y 2 jugadores por zona (propuesta). 2 comodines exteriores (uno por banda) y 1 en la zona central.",
+ "juego": "Cada jugador solo juega en su zona; el balón pasa libre entre zonas. Los amarillos buscan al libre y conectan zonas; los azules presionan al poseedor y cierran el interior. Los comodines exteriores juegan en todas las zonas.",
+ "punto": "Gol: 1. Gol tras pasar por las 3 zonas: 2 (propuesta).",
+ "consigna": "Busca al libre y conecta zonas.",
+ "variantes": {
+  "facil": "Un comodín más por equipo y presión sin robo en la banda (propuesta).",
+  "dificil": "Comodines a 1 toque y gol válido solo tras pase al tercer hombre (propuesta)."
+ },
+ "adaptacion": "En 14–15 años, 7v7+3 en 55 × 36 m. En 16–18, 8v8+3 como está y 2 toques en zona 3.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO CONDICIONADO 8vs8+3",
+  "ref": "300 ejercicios Level Up Coach · pág. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 8 y 3 comodines (2 exteriores y 1 en zona 2); jugadores solo en su zona, balón libre; comodines exteriores en todas las zonas; presión al poseedor; 19 jug., 40 × 68 m. (propuesta): reparto de jugadores por zona, series, rotación, puntuación, variantes y adaptación. Se dibuja solo una parte de los jugadores.",
+ "diagrama": {
+  "field": [
+   68,
+   40
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 69,
+   "ymin": -3,
+   "ymax": 43
+  },
+  "dashed": true,
+  "lines": [
+   [
+    [
+     22.7,
+     0
+    ],
+    [
+     22.7,
+     40
+    ],
+    "6 5"
+   ],
+   [
+    [
+     45.3,
+     0
+    ],
+    [
+     45.3,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 32,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 54,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 54,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 62,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 62,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 34,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 34,
+    "y": 38,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 34,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     32
+    ],
+    "b": [
+     30,
+     29
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     30,
+     28
+    ],
+    "b": [
+     54,
+     13
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    11,
+    -1.2,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    34,
+    -1.2,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    57,
+    -1.2,
+    "ZONA 3",
+    "middle"
+   ]
+  ]
+ }
+}

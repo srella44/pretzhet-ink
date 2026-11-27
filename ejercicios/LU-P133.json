@@ -1,0 +1,222 @@
+{
+ "id": "LU-P133",
+ "bloque": "Balón parado",
+ "titulo": "Defender el córner (mixto 1)",
+ "formato": "5v7 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. (propuesta)",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 5 córners (2 por cada lado) con 1 min de pausa; tras cada serie los defensas cambian de puesto (propuesta).",
+ "objetivo": "Colocarse bien al defender un córner rival con marca mixta: 4 en zona, 3 al hombre, 2 al rechace y 1 en medio campo. Cómo explicarlo: «Cada uno sabe su sitio antes de que el balón salga». Errores típicos: saltar a destiempo, dejar al rematador sin marca, el de rechace demasiado atrás. Qué observar: que los de zona ataquen el balón y los de marca no pierdan a su hombre. Material: 1 portería, 10 balones, conos, petos de 3 colores.",
+ "montaje": "Medio campo reducido con portería y portero. 3 en zona al borde del área, 1 en el penalti, 3 al hombre, 2 al rechace y 1 en medio campo. 4 atacantes y 1 lanzador.",
+ "juego": "El lanzador saca el córner; los atacantes se mueven para rematar y los defensas despejan o ganan el balón, cada uno en su rol. Si se recupera, el de medio campo conduce a la línea central.",
+ "punto": "Despeje o robo: 1. Salir al medio campo: 2. Ataque: remate 1; gol 2 (propuesta).",
+ "consigna": "Tu zona o tu hombre: decídelo antes.",
+ "variantes": {
+  "facil": "Solo 2 atacantes y sin marca individual al principio (propuesta).",
+  "dificil": "El lanzador cambia de lado y juega el córner corto de sorpresa (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 3 zonas + 2 al hombre en F8 y balón n.º 4. En 12–13, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ABP DEFENSIVA - POSICIONAMIENTO SAQUE DE ESQUINA RIVAL MIXTO 1",
+  "ref": "300 ejercicios Level Up Coach · pág. 133"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: reparto defensivo en córner rival: portero, 3 en zona en el borde del área de meta, 1 en zona en el punto de penalti, 3 marcando al hombre, 2 en zona de rechace o segunda jugada y 1 en medio campo; 11 jug., 20 × 20 m. (propuesta): atacantes y lanzador, reglas de puntos, series, variantes y adaptación; edad 10–13 (la base daba 6–10 jugadores, que no encaja con 11 puestos).",
+ "diagrama": {
+  "field": [
+   54,
+   21
+  ],
+  "dashed": true,
+  "tag": "cuarto de campo",
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55,
+   "ymin": -0.8,
+   "ymax": 22.8
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 21,
+    "lado": "B",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.85,
+     21
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     54,
+     4.5
+    ],
+    [
+     13.85,
+     4.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     21
+    ],
+    [
+     43.15,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     43.15,
+     15.5
+    ],
+    [
+     24.85,
+     15.5
+    ],
+    "none"
+   ],
+   [
+    [
+     24.85,
+     15.5
+    ],
+    [
+     24.85,
+     21
+    ],
+    "none"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 20.1,
+    "f": 340,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 7.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 41,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 46.5,
+    "y": 13,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 27.5,
+    "y": 13.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 14.3,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 40.5,
+    "y": 13.5,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 8.8,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 30.3,
+    "y": 10.8,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 44.5,
+    "y": 9.3,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 50.2,
+    "y": 16,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 4,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 2.6,
+    "f": 270
+   },
+   {
+    "r": "D",
+    "x": 51.5,
+    "y": 3,
+    "f": 270
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     20.1
+    ],
+    "b": [
+     35,
+     11.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 1,
+    "nt": 0.55
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "id": "LU-P277",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido con reinicios varios",
+ "formato": "9v9 + 2 PT",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "18 jug. + 2 PT (propuesta)",
+ "espacio": "75 × 50 m",
+ "duracion": "24 min",
+ "series": "4 bloques de 6 min (un tipo de reinicio por bloque, 4 reinicios por bloque) con 1 min de pausa (propuesta).",
+ "objetivo": "Que el equipo reaccione al instante tras cada forma de empezar la jugada: mantener el balón, presionar a media altura y llegar a finalizar con verticalidad. Cómo explicarlo: «Cada jugada empieza distinta, juega ya y busca el segundo balón». Errores típicos: dormirse tras el silbato, no presionar la segunda jugada, jugar en horizontal. Qué observar: segundas jugadas, rapidez de la transición y orden del equipo al perder. Material: 2 porterías, petos, balones de reserva.",
+ "montaje": "Campo de 75 × 50 m, portería y portero por lado. 2 equipos de 9 (propuesta). El entrenador dice el reinicio antes de cada jugada.",
+ "juego": "Reinicios: balón suelto al centro, saque de un defensa con el pie o lateral con las manos. Quien gana el balón lo mantiene y busca finalizar; si lo pierde, ataca el rival.",
+ "punto": "Gol: 1. Gol en 8 s tras ganar la segunda jugada: 2 (propuesta).",
+ "consigna": "Juega ya: el balón es de los dos.",
+ "variantes": {
+  "facil": "Un solo tipo de reinicio por bloque y más tiempo para pensar (propuesta).",
+  "dificil": "Presión alta obligatoria de un equipo y defensa zonal en el otro, como propone la fuente."
+ },
+ "adaptacion": "En 12–13 años, 7v7 en 60 × 40 m. En 14–15, 9v9 completo y 3 toques máximo en la salida (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Partido condicionado - Diferentes reinicios de juego - Observación",
+  "ref": "300 ejercicios Level Up Coach · pág. 277"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: situaciones de inicio variables (desde dentro del espacio o con balón controlado por un defensa); luego mantener el balón y crear finalizaciones; variantes de sistema y de defensa zonal presionante; 18 jug., 75 × 50 m. (propuesta): tipos concretos de reinicio, número de jugadores por equipo, tiempos, puntos, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   75,
+   50
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 77.5,
+   "ymin": -2,
+   "ymax": 52
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 25,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 75,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 40,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 50,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     25
+    ],
+    "b": [
+     25,
+     11
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     26,
+     10
+    ],
+    "b": [
+     39,
+     24
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     40,
+     25
+    ],
+    "b": [
+     60,
+     24
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    14,
+    32,
+    "REINICIO",
+    "middle"
+   ]
+  ]
+ }
+}

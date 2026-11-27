@@ -1,0 +1,169 @@
+{
+ "id": "LU-P252",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4v4 sectorial por fuera",
+ "formato": "4v4 + PT + 2 minis",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug. (propuesta)",
+ "espacio": "50 × 40 m",
+ "duracion": "16 min",
+ "series": "4 series de 3 min con 1 min de pausa; al acabar cada serie se cambian los jugadores y la estructura atacante.",
+ "objetivo": "Ajustar la línea de cuatro defensas, obligar al atacante a jugar por fuera y robar para salir rápido a marcar en una de las dos miniporterías. Cómo explicarlo: «Cierra por dentro, empuja afuera y en el robo sal». Errores típicos: línea descolgada, defensa del lado contrario sin cerrar, salida tarde tras robar. Qué observar: distancia entre defensas y orden tras robo. Material: 1 portería, 2 miniporterías, petos, conos.",
+ "montaje": "Campo de 50 × 40 m. 4 defensas y portero defienden la portería grande; 4 atacantes parten de medio campo. En el fondo contrario, 2 miniporterías de 3 m separadas 10 m.",
+ "juego": "Inician siempre los atacantes, toques libres. Los defensas los obligan a jugar por fuera. Si recuperan, contraatacan a cualquiera de las dos miniporterías.",
+ "punto": "Gol del ataque: 1. Gol en miniportería tras robo: 2.",
+ "consigna": "Cierra por dentro; al robar, sal.",
+ "variantes": {
+  "facil": "Atacantes limitados a 2 toques y defensa sin portero (propuesta).",
+  "dificil": "Defensa con 4 y portero contra 5 atacantes (variante 4v5), como la ficha LU-P250."
+ },
+ "adaptacion": "En 10–11 años, 3v3 en 40 × 30 m. En 12–13, como está y 2 toques en ataque (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO CONDICIONADO SECTORIAL DEFENSIVO 4C4+1P - Benjamín FA @Bfafiera - Zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · pág. 252"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Benjamín FA @Bfafiera): objetivo de ajustar la línea de 4 defensas y la transición defensa-ataque; 4c4 en 3/4 de campo forzando a jugar por fuera; tras robo, marcar en cualquiera de las dos miniporterías; inician siempre los atacantes; libre de toques; cambiar jugadores y estructura; 9 jug., 40 × 50 m. (propuesta): series, puntos, medidas de miniporterías, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "goals": [
+   [
+    0,
+    13,
+    "L"
+   ],
+   [
+    0,
+    27,
+    "L"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 35,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 33,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     14
+    ],
+    "b": [
+     15.5,
+     5.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     36,
+     8
+    ],
+    "b": [
+     33,
+     6
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 4
+   },
+   {
+    "a": [
+     16,
+     6
+    ],
+    "b": [
+     36,
+     19
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    1,
+    6,
+    "MINIS",
+    "start"
+   ]
+  ]
+ }
+}

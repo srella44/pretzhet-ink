@@ -1,0 +1,190 @@
+{
+ "id": "LU-P044",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido de movilidad 8v8+1",
+ "formato": "8v8 + 1 com.",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "17 jug. (propuesta)",
+ "espacio": "36 × 24 m",
+ "duracion": "18 min",
+ "series": "3 tiempos de 5 min con 1 min de pausa; en cada gol el defensor que no frenó a su marca cambia de puesto con un comodín.",
+ "objetivo": "Moverse sin balón (fintas, desmarques de apoyo y ruptura) con buena orientación corporal y usar a los comodines de pared o de segundo hombre. Cómo explicarlo: «Engaña, desmárcate y devuélvela de pared». Errores típicos: quedarse mirando el balón, pared a destiempo, marcar sin cerrar al rival. Qué observar: orientación del cuerpo al recibir y movimientos de apoyo y ruptura. Material: 2 porterías, petos, conos.",
+ "montaje": "Campo de 36 × 24 m, una portería por lado. 2 equipos de 8. A cada lado de cada portería, un comodín (4) y otro comodín dentro del campo.",
+ "juego": "Un equipo mantiene el balón y busca finalizar. Se combina con los comodines de la portería (1 toque) en pared. El interior juega a 2 toques y no marca. Tras gol, el defensor que no frenó a su marca cambia con un comodín.",
+ "punto": "Gol: 1. Gol tras pared con comodín: 2 (propuesta).",
+ "consigna": "Finta, desmarca y pared al comodín.",
+ "variantes": {
+  "facil": "Comodines con 2 toques y sin cambio de puestos (propuesta).",
+  "dificil": "Todos a 2 toques y comodines a 1; cada gol obliga a cambiar de zona al atacante que lo marcó (propuesta)."
+ },
+ "adaptacion": "En 14–15 años, 6v6+1 en 30 × 20 m. En 16–18, 8v8 como está y sin marca individual en la mitad contraria.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO REDUCIDO (2 equipos de 8 + 1)",
+  "ref": "300 ejercicios Level Up Coach · pág. 44"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 8 y un comodín interior; todos se mueven con fintas y desmarques de apoyo y ruptura; los comodines de los lados de la portería juegan a 1 toque (el interior a 2, sin marcar); cada gol hace que el defensor que no evitó el gol cambie con un comodín; 17 jug., 24 × 36 m. (propuesta): tiempos, puntos, variantes y adaptación. Se dibujan solo 4 jugadores por equipo.",
+ "diagrama": {
+  "field": [
+   36,
+   24
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 40,
+   "ymin": -3,
+   "ymax": 27
+  },
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    36,
+    12,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -2.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": -2.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 38.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 38.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     12
+    ],
+    "b": [
+     13.2,
+     6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     14,
+     5
+    ],
+    "b": [
+     21,
+     11
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 6
+   },
+   {
+    "a": [
+     22,
+     12
+    ],
+    "b": [
+     35,
+     12
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    18,
+    26,
+    "COMODINES A 1 TOQUE",
+    "middle"
+   ]
+  ]
+ }
+}

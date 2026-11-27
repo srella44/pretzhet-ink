@@ -1,0 +1,179 @@
+{
+ "id": "LEI-062",
+ "bloque": "Balón parado",
+ "titulo": "Contraataque tras córner",
+ "formato": "4v2 + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug. (propuesta)",
+ "espacio": "60 × 40 m",
+ "duracion": "15 min",
+ "series": "4 series de 4 contraataques por lado con 1 min de pausa; los roles rotan en cada serie (propuesta).",
+ "objetivo": "Convertir un balón parado defendido en contraataque rápido: salida del portero, conducción al centro, apoyo exterior en carrera y pase en profundidad. Cómo explicarlo: «Portero rápido, el balón al centro y el compañero doblando». Errores típicos: salir tarde, pase a destiempo, nadie llega al área. Qué observar: el timing del pase al lateral. Material: 2 porterías, conos, petos.",
+ "montaje": "Campo de 60 × 40 m, 2 porterías con portero. Los rojos acaban de lanzar un saque largo al portero azul. A y B salen; C y D llegan al área. 2 rojos defienden.",
+ "juego": "El portero lanza de inmediato a A (1). A conduce al centro (2). B corre en diagonal y dobla. A pasa en profundidad a B (3), que tira o pasa al centro para C y D (4).",
+ "punto": "Gol: 2. Remate a portería: 1. Los rojos que recuperan y tiran: 1.",
+ "consigna": "Portero rápido, centro y que B doble.",
+ "variantes": {
+  "facil": "Sin defensas rojos y en cámara lenta (propuesta).",
+  "dificil": "Defensa activa con 3 rojos y 6 s para acabar (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 3v1 en 40 × 30 m. En 12–13, como está.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Counter-Attack from a Set-Piece",
+  "ref": "LeicesterCity.pdf · pág. 68"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Leicester City Academy, texto en inglés cortado en la base; no está el PDF): los rojos lanzan un balón largo al portero (1), que lanza enseguida a A (2); A conduce al centro (3); B corre en cuadrado y dobla a A; en el momento justo A pasa en profundidad a B (4); B decide entre tirar o pasar al centro; C y D se mueven (texto cortado). (propuesta): medidas, defensas, finalización de C y D, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 64,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "dashed": true,
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 26,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    5,
+    20
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     20
+    ],
+    "b": [
+     7.5,
+     27
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     8,
+     28
+    ],
+    "b": [
+     30,
+     22
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     12,
+     8
+    ],
+    "b": [
+     36,
+     6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   },
+   {
+    "a": [
+     30,
+     22
+    ],
+    "b": [
+     50,
+     8
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    8,
+    31.5,
+    "A",
+    "middle"
+   ],
+   [
+    12,
+    5,
+    "B",
+    "middle"
+   ]
+  ]
+ }
+}

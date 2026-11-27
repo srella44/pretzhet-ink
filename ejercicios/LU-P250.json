@@ -1,0 +1,175 @@
+{
+ "id": "LU-P250",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4v5 sectorial defensivo",
+ "formato": "4v5 + PT + 2 minis",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (propuesta)",
+ "espacio": "50 × 40 m",
+ "duracion": "16 min",
+ "series": "4 series de 3 min con 1 min de pausa; rotan los atacantes cada serie y un defensa pasa a atacante (propuesta).",
+ "objetivo": "Defender en inferioridad (4 más portero contra 5): ajustar la línea, ayudarse y salir rápido tras robar. Cómo explicarlo: «Somos menos, cerramos juntos y cuando robamos salimos». Errores típicos: defensas que saltan solos, línea rota, balón largo sin salida. Qué observar: comunicación entre los 4 y reacción al perder el atacante. Material: 1 portería, 2 miniporterías, petos, conos.",
+ "montaje": "Campo de 50 × 40 m. 4 defensas y portero defienden la portería grande; 5 atacantes enfrente. En el fondo contrario, 2 miniporterías de 3 m separadas 10 m.",
+ "juego": "Inician los atacantes, toques libres. Los defensas los empujan a jugar por fuera. Si recuperan, contraatacan a cualquiera de las dos miniporterías.",
+ "punto": "Gol del ataque: 1. Gol en miniportería tras robo: 2.",
+ "consigna": "Menos pero juntos: cierra y sal.",
+ "variantes": {
+  "facil": "Un atacante a 2 toques y un defensa más en el área (propuesta).",
+  "dificil": "Los 5 atacantes a 2 toques y el gol vale 2 si es de primeras (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, 3v4 en 40 × 30 m. En 12–13, como está.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Partido Condicionado Sectorial Defensivo 4c5+1p - Benjamín FA @Bfafiera - Zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · pág. 250"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Benjamín FA @Bfafiera): ajustes sectoriales de los 4 defensas y transición defensa-ataque; 4c5 en 3/4 de campo para obligar a jugar por fuera; marcar tras robo en cualquiera de las dos miniporterías; inician los atacantes; libre de toques; cambiar jugadores y estructura; 10 jug., 40 × 50 m. (propuesta): series, puntos, rotación, variantes y adaptación. Se parece a LU-P252 (mismo juego con un atacante más).",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -1,
+   "ymax": 41
+  },
+  "goals": [
+   [
+    0,
+    13,
+    "L"
+   ],
+   [
+    0,
+    27,
+    "L"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 33,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     13
+    ],
+    "b": [
+     14,
+     21.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     14,
+     20
+    ],
+    "b": [
+     14,
+     34
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     36,
+     33
+    ],
+    "b": [
+     33,
+     36
+    ],
+    "k": "run",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    1,
+    6,
+    "MINIS",
+    "start"
+   ]
+  ]
+ }
+}

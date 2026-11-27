@@ -1,0 +1,182 @@
+{
+ "id": "DOS-007",
+ "bloque": "Balón parado",
+ "titulo": "Saque de banda y 1v1",
+ "formato": "Parejas + 1v1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "Parejas",
+ "espacio": "Media banda",
+ "duracion": "15 min",
+ "series": "3 fases de 5 min: saque estático, saque en movimiento y saque + 1v1; en la fase 3 quien saca defiende y se cambian los papeles cada intento (propuesta).",
+ "objetivo": "Sacar de banda con técnica correcta (pies, posición del cuerpo, brazos) y continuar con un 1v1. Cómo explicarlo: «Balón detrás de la cabeza y los dos pies en el suelo». Errores típicos: levantar un pie, lanzar con una mano, balón por delante de la cabeza. Qué observar: pies en el suelo y que el balón no salga con efecto raro. Material: 1 balón por pareja, conos, 1 miniportería o línea.",
+ "montaje": "Parejas junto a la banda con un balón. Para la fase 3, línea de gol o miniportería a 12 m (propuesta). Un cono marca el punto del saque.",
+ "juego": "1) Saque por parejas parados. 2) Saque con el compañero en movimiento, que controla el balón aéreo. 3) Quien saca entra a defender y el compañero hace un 1v1 hasta cruzar la línea.",
+ "punto": "En el 1v1, 1 punto por cruzar la línea con balón controlado (propuesta).",
+ "consigna": "Pies en el suelo y balón detrás de la cabeza.",
+ "variantes": {
+  "facil": "Saque con balón pequeño, sin 1v1 y con 5 m entre la pareja (propuesta).",
+  "dificil": "Defensor con 2 s de ventaja y control de primeras (propuesta)."
+ },
+ "adaptacion": "En 10–11 años, saque a 3 m y 1v1 a 8 m. En 12–13, como está y 15 m al 1v1.",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "Saques de banda | saque banda + 1v1",
+  "ref": "dosier.pdf · pág. 3, 20"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: dosier FCStage (págs. 3 y 20; probado): enseñar el saque (posición, pies, gesto de brazos); primero por parejas en estático y en movimiento con control de balón aéreo; después saque, recepción y 1v1 contra quien ha sacado hasta línea o miniportería; consignas: pies en el suelo, balón por detrás de la cabeza y con las dos manos; evitar levantar un pie o lanzar con una mano; media banda. Objetivo y punto del 1v1 ya eran (propuesta); distancias, series, variantes y adaptación también.",
+ "diagrama": {
+  "field": [
+   30,
+   16
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -4,
+   "ymax": 18
+  },
+  "dashed": true,
+  "cones": [
+   [
+    6,
+    -1.5
+   ],
+   [
+    20,
+    -1.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     13.5
+    ],
+    [
+     30,
+     13.5
+    ],
+    "3 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": -2.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 4,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 19.5,
+    "y": -2.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 20.5,
+    "y": 2,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.5,
+     -2.6
+    ],
+    "b": [
+     6.5,
+     3.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     19.5,
+     -2.6
+    ],
+    "b": [
+     22.7,
+     3.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     20.5,
+     2
+    ],
+    "b": [
+     23,
+     3.6
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     23,
+     4
+    ],
+    "b": [
+     25,
+     13
+    ],
+    "k": "cond",
+    "n": 4,
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    6.5,
+    8.5,
+    "SAQUE ESTÁTICO",
+    "middle"
+   ],
+   [
+    24,
+    8,
+    "1v1",
+    "middle"
+   ],
+   [
+    15,
+    15.4,
+    "LÍNEA DE GOL",
+    "middle"
+   ]
+  ]
+ }
+}
