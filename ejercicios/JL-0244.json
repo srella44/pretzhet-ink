@@ -1,0 +1,247 @@
+{
+ "id": "JL-0244",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "6v6 cuatro puertas y portero",
+ "formato": "6v6",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "8 min",
+ "series": "2 series de 4 min con 1 min de pausa. Se cambia de portero en cada serie.",
+ "objetivo": "Superar a un portero que guarda dos puertas, eligiendo la libre con conducción o pase de cambio. Cómo explicarlo: el portero no puede cubrir las dos; mueve el balón para obligarlo a elegir. Errores típicos: conducir hacia el portero sin cambio de ritmo, pasar tarde. Observar: el cambio de ritmo antes de cruzar.",
+ "montaje": "Campo de 40 × 30 m con 4 puertas de 5 m, 2 en cada fondo. Un portero por equipo guarda sus 2 puertas (solo pies). 5 jugadores de campo más portero.",
+ "juego": "6 contra 6 sin límite de toques. Se puntúa cruzando conduciendo una puerta rival. Si se roba o sale, cambia la posesión.",
+ "punto": "1 punto por cada cruce de una puerta del rival; sigue con balón. Gana quien más sume en 8 min; portero distinto en cada serie.",
+ "consigna": "Mueve al portero y entra por la puerta libre.",
+ "variantes": {
+  "facil": "Puertas de 6 m y portero que solo se mueve a un lado.",
+  "dificil": "Puertas de 4 m y portero con manos (propuesta)."
+ },
+ "adaptacion": "Benjamín: puertas de 7 m. Cadete: el portero puede salir 3 m para presionar.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 | entrada 244",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 59"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 6:6, 4 porterías de 5 m en el campo de 40 × 30 m, cada equipo ataca y defiende 2 porterías defendidas por un portero, 8 min, 1 punto cada vez que un jugador atraviesa conduciendo una portería defendida por el adversario y siguen con la posesión. (propuesta): el portero es uno de los 6 de cada equipo y solo juega con los pies, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -1.8,
+   "ymax": 31.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    30
+   ],
+   [
+    0,
+    30
+   ],
+   [
+    3.5,
+    5.5
+   ],
+   [
+    3.5,
+    10.5
+   ],
+   [
+    3.5,
+    19.5
+   ],
+   [
+    3.5,
+    24.5
+   ],
+   [
+    36.5,
+    5.5
+   ],
+   [
+    36.5,
+    10.5
+   ],
+   [
+    36.5,
+    19.5
+   ],
+   [
+    36.5,
+    24.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     3.5,
+     5.5
+    ],
+    [
+     3.5,
+     10.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     3.5,
+     19.5
+    ],
+    [
+     3.5,
+     24.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     36.5,
+     5.5
+    ],
+    [
+     36.5,
+     10.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     36.5,
+     19.5
+    ],
+    [
+     36.5,
+     24.5
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12.0,
+    "y": 6.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19.2,
+    "y": 14.4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22.62,
+    "y": 23.48,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27.21,
+    "y": 8.38,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15.13,
+    "y": 20.83,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17.79,
+    "y": 9.25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24.0,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29.1,
+    "y": 22.45,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.15,
+    "y": 27.14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32.38,
+    "y": 12.45,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.6,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 37.41,
+    "y": 16.68,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     6.6
+    ],
+    "b": [
+     19.2,
+     14.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     20.5,
+     15.4
+    ],
+    "b": [
+     34.5,
+     8.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

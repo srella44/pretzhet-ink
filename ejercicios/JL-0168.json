@@ -1,0 +1,192 @@
+{
+ "id": "JL-0168",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "6v6+2 zona central",
+ "formato": "6v6 + 2",
+ "edad": "14–16 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug.",
+ "espacio": "50 × 40 m",
+ "duracion": "14 min",
+ "series": "7 series de 2 min con 30 s de pausa. Al acabar cada serie se cambian los 2 comodines.",
+ "objetivo": "Jugar con un compañero en el centro como referencia y obligar al rival a protegerlo. Cómo explicarlo: el balón llega al centro, el jugador de zona controla y devuelve al exterior para seguir. Errores típicos: pasar al centro sin ángulo, jugador de zona de espaldas sin mirar. Observar: quién se ofrece antes de recibir.",
+ "montaje": "Campo de 50 × 40 m con una zona central de 15 × 15 m, con 2 amarillos y 2 rojos (no salen). Fuera, 4 amarillos y 4 rojos, y 2 comodines con los defensores.",
+ "juego": "A 2–3 toques (control y pase). Si se roba o sale el balón, cambia la posesión y los comodines pasan al que defiende.",
+ "punto": "1 punto cada vez que un jugador de la zona central controla el balón; sigue con balón. Gana quien más sume en 7 series.",
+ "consigna": "Mira al centro y juega con él.",
+ "variantes": {
+  "facil": "Zona central de 18 × 18 m y 3 toques libres.",
+  "dificil": "Zona de 12 × 12 m y 2 toques; no puntuar dos veces seguidas con el mismo jugador."
+ },
+ "adaptacion": "Infantil: 4 jugadores en total en la zona. Juvenil: máximo 2 toques también en la zona.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 + 2 | entrada 168",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 44"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 6:6 + 2 comodines que van con el equipo que defiende, campo de 50 × 40 m con una zona central de 15 × 15 m en la que cada equipo sitúa a 2 jugadores, 7 × 2 min, 1 punto cada vez que un jugador de la zona central controla el balón, 2–3 toques. (propuesta): que los de zona no salgan, pausas, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 51.8,
+   "ymin": -1.8,
+   "ymax": 41.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    50,
+    0
+   ],
+   [
+    50,
+    40
+   ],
+   [
+    0,
+    40
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     17.5,
+     12.5,
+     32.5,
+     27.5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29.5,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.5,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 29.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 31.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 41.51,
+    "y": 32.84,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.79,
+    "y": 16.58,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 34,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 40,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 33.49,
+    "y": 30.16,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 11.13,
+    "y": 24.6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     10
+    ],
+    "b": [
+     20.5,
+     16
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     20.5,
+     16
+    ],
+    "b": [
+     11,
+     31.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

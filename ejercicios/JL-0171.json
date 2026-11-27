@@ -1,0 +1,241 @@
+{
+ "id": "JL-0171",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 portero y 4 puertas",
+ "formato": "4v4 + 2 + P",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "10 min",
+ "series": "5 series de 2 min con 30 s de pausa. Al acabar cada serie se cambian los 2 comodines; el portero neutral rota cada 2 series.",
+ "objetivo": "Pasar por una portería vigilada y llegar al compañero que espera al otro lado. Cómo explicarlo: el portero se coloca donde quiere interceptar, así que primero hay que moverlo con pases al otro lado. Errores típicos: forzar la portería con el portero delante, pase flojo, receptor sin ángulo. Observar: el cambio de orientación para abrir la portería libre.",
+ "montaje": "Campo de 40 × 40 m con 4 puertas de 3 m, una en cada lado. Un portero neutral (verde) solo con los pies. 4 amarillos, 4 rojos y 2 comodines con los defensores.",
+ "juego": "4 contra 4 a 2–3 toques. Si se roba o sale el balón, cambia la posesión y los comodines pasan al equipo que defiende.",
+ "punto": "1 punto cada vez que un jugador controla un pase que ha atravesado una puerta; sigue con balón. Gana quien más sume.",
+ "consigna": "Mueve al portero y pasa por la puerta libre.",
+ "variantes": {
+  "facil": "Porterías de 4 m y el portero solo se mueve por una línea.",
+  "dificil": "Porterías de 2 m y 2 toques."
+ },
+ "adaptacion": "Benjamín: sin comodines y 3 toques. Cadete: el portero puede salir 3 m de su zona.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 + portero | entrada 171",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 45"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 4:4 + 2 comodines defensivos que van con el equipo que defiende, 4 porterías pequeñas defendidas por un portero neutral en el campo de 40 × 40 m, 5 × 2 min, 1 punto por controlar un pase realizado a través de alguna portería hasta la posición del portero, 2–3 toques (11 jugadores). El texto de la fuente es confuso en esta frase. (propuesta): porterías de 3 m, una por lado, el portero juega solo con los pies, rotación, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -1.8,
+   "ymax": 41.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ],
+   [
+    18.25,
+    9
+   ],
+   [
+    21.75,
+    9
+   ],
+   [
+    18.25,
+    31
+   ],
+   [
+    21.75,
+    31
+   ],
+   [
+    9,
+    18.25
+   ],
+   [
+    9,
+    21.75
+   ],
+   [
+    31,
+    18.25
+   ],
+   [
+    31,
+    21.75
+   ]
+  ],
+  "lines": [
+   [
+    [
+     18.25,
+     9
+    ],
+    [
+     21.75,
+     9
+    ],
+    "1 0"
+   ],
+   [
+    [
+     18.25,
+     31
+    ],
+    [
+     21.75,
+     31
+    ],
+    "1 0"
+   ],
+   [
+    [
+     9,
+     18.25
+    ],
+    [
+     9,
+     21.75
+    ],
+    "1 0"
+   ],
+   [
+    [
+     31,
+     18.25
+    ],
+    [
+     31,
+     21.75
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 19,
+    "f": -75,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20.5,
+    "y": 3.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31.02,
+    "y": 34.1,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 28.98,
+    "y": 25.9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7.54,
+    "y": 30.78,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20.92,
+    "y": 34.32,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 11.89,
+    "y": 23.54,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 34,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "G",
+    "x": 24.5,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16.5,
+     19
+    ],
+    "b": [
+     20.5,
+     3.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     20.5,
+     3.4
+    ],
+    "b": [
+     32,
+     14
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "id": "JL-0144",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 cada control, 1 punto",
+ "formato": "5v5 + 2",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "5 series de 2 min con 30 s de pausa. Al acabar cada serie se cambian los 2 comodines.",
+ "objetivo": "Conservar el balón a 2–3 toques y puntuar con cada control. Cómo explicarlo: el pase tiene que llegar a un compañero que se ha movido antes para recibir con perfil. Errores típicos: pase sin mirar, apoyo parado, control largo. Observar: el movimiento de ofrecerse antes de que llegue el pase.",
+ "montaje": "Cuadrado de 35 × 35 m. 5 amarillos y 5 rojos repartidos y 2 comodines blancos dentro, siempre con el equipo que defiende.",
+ "juego": "5 contra 5 a 2–3 toques. Si se roba o sale el balón, cambia la posesión y los comodines pasan al equipo que defiende.",
+ "punto": "1 punto por cada control (pase recibido y controlado) del equipo con balón. Gana quien más sume en 5 series.",
+ "consigna": "Recibe de lado y juega rápido.",
+ "variantes": {
+  "facil": "Un solo comodín defensivo y 3 toques libres.",
+  "dificil": "Campo de 30 × 30 m, comodines que puedan robar y 2 toques."
+ },
+ "adaptacion": "Benjamín: campo de 40 × 40 m y 3 toques. Cadete: 1 punto cada 2 controles seguidos.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 144",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 40"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5:5 + 2 comodines que van con el equipo que defiende, dentro del cuadrado de 35 × 35 m, 5 × 2 min, 1 punto por cada control, 2–3 toques. La referencia daba 10 jugadores pero el formato es 5:5 + 2 = 12 jugadores. (propuesta): pausas, reglas al perder el balón, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 36.8,
+   "ymin": -1.8,
+   "ymax": 36.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.93,
+    "y": 4.96,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.15,
+    "y": 1.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30.2,
+    "y": 7.48,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30.99,
+    "y": 21.83,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6.29,
+    "y": 28.01,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10.47,
+    "y": 13.29,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20.78,
+    "y": 9.34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24.86,
+    "y": 17.49,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.79,
+    "y": 23.58,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10.47,
+    "y": 21.77,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 17.45,
+    "y": 16.06,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 3.95,
+    "y": 18.06,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.55,
+     7.7
+    ],
+    "b": [
+     16.1,
+     4.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     16.1,
+     4.2
+    ],
+    "b": [
+     30.1,
+     10.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

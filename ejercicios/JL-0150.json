@@ -1,0 +1,237 @@
+{
+ "id": "JL-0150",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 controla en el cuadrado",
+ "formato": "4v4 + 2",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "5 series de 2 min con 30 s de pausa. Al acabar cada serie se cambian los 2 comodines.",
+ "objetivo": "Pasar al espacio y recibir en un punto concreto del campo, con control orientado para seguir jugando. Cómo explicarlo: el cuadrado es una portería muy pequeña; pasa cuando el compañero llegue en movimiento. Errores típicos: pase al pie parado, pase largo sin ángulo, controlar y detenerse. Observar: el pase tenso y raso hacia el cuadrado.",
+ "montaje": "Cuadrado de 35 × 35 m con 5 cuadrados de 2 × 2 m (cuatro cerca de las esquinas y uno en el centro). 4 amarillos, 4 rojos y 2 comodines con los defensores.",
+ "juego": "4 contra 4 a 2–3 toques. Si se roba o sale el balón, cambia la posesión y los comodines pasan al equipo que defiende.",
+ "punto": "1 punto cada vez que un jugador controla el balón dentro de un cuadrado; sigue con balón. Gana quien más sume en 5 series.",
+ "consigna": "Llega al cuadrado y controla.",
+ "variantes": {
+  "facil": "Cuadrados de 3 × 3 m y 3 toques libres.",
+  "dificil": "Cuadrados de 1,5 × 1,5 m y que no se puntúe dos veces seguidas en el mismo cuadrado."
+ },
+ "adaptacion": "Benjamín: cuadrados de 3 × 3 m y sin comodines. Cadete: control y salida en un toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 150",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 41"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 4:4 + 2 comodines que van con el equipo que defiende, 5 cuadrados de 2 × 2 m en el campo de 35 × 35 m, 5 × 2 min, 1 punto por control dentro de un cuadrado, 2–3 toques. (propuesta): reparto de los cuadrados, si los defensores pueden entrar, pausas, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 36.8,
+   "ymin": -1.8,
+   "ymax": 36.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ],
+   [
+    3.5,
+    3.5
+   ],
+   [
+    5.5,
+    3.5
+   ],
+   [
+    5.5,
+    5.5
+   ],
+   [
+    3.5,
+    5.5
+   ],
+   [
+    29.5,
+    3.5
+   ],
+   [
+    31.5,
+    3.5
+   ],
+   [
+    31.5,
+    5.5
+   ],
+   [
+    29.5,
+    5.5
+   ],
+   [
+    16.5,
+    16.5
+   ],
+   [
+    18.5,
+    16.5
+   ],
+   [
+    18.5,
+    18.5
+   ],
+   [
+    16.5,
+    18.5
+   ],
+   [
+    3.5,
+    29.5
+   ],
+   [
+    5.5,
+    29.5
+   ],
+   [
+    5.5,
+    31.5
+   ],
+   [
+    3.5,
+    31.5
+   ],
+   [
+    29.5,
+    29.5
+   ],
+   [
+    31.5,
+    29.5
+   ],
+   [
+    31.5,
+    31.5
+   ],
+   [
+    29.5,
+    31.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 7.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21.7,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30.8,
+    "y": 15.75,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8.75,
+    "y": 26.25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14.7,
+    "y": 11.55,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25.2,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27.5,
+    "y": 25.35,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15.75,
+    "y": 29.75,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 21.5,
+    "y": 20.85,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 4.2,
+    "y": 15.75,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.5,
+     7.0
+    ],
+    "b": [
+     21.7,
+     3.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     21.7,
+     3.5
+    ],
+    "b": [
+     30.5,
+     4.7
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

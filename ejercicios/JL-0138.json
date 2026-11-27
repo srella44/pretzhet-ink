@@ -1,0 +1,184 @@
+{
+ "id": "JL-0138",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "3v3+3 en triángulo",
+ "formato": "3v3 + 3",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "triángulo 20 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 min con 1 min de pausa. En cada pausa se intercambian los 3 comodines con 3 jugadores.",
+ "objetivo": "Conservar el balón en inferioridad (3 contra 6 cuando defienden con comodines) con control y pase a 2–3 toques. El triángulo obliga a mirar los dos lados antes de pasar. Cómo explicarlo: el balón nunca va al vértice donde espera un comodín. Errores típicos: pasar al vértice cubierto, quedarse en línea, controlar sin perfil abierto. Observar: el apoyo que se ofrece con ángulo.",
+ "montaje": "Triángulo de 20 m de lado con 3 conos. 3 amarillos y 3 rojos dentro. Un comodín blanco en cada esquina, siempre con el equipo que defiende, entra hasta 4 m.",
+ "juego": "3 contra 3 a 2–3 toques (control y pase). Si se roba o sale el balón, ataca el otro equipo y los comodines pasan a defender con él.",
+ "punto": "(propuesta) 1 punto por 6 pases seguidos; si los toca un defensor o comodín, se corta. Gana quien más sume en 3 series.",
+ "consigna": "Pasa lejos de los comodines.",
+ "variantes": {
+  "facil": "Comodines que solo pueden entrar 2 m y 3 toques libres.",
+  "dificil": "Comodines que entran 5 m y juego a 2 toques."
+ },
+ "adaptacion": "Benjamín: 4 pases por punto y triángulo de 22 m. Cadete: 8 pases por punto.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 3:3 + 3 | entrada 138",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 39"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 3v3 + 3 comodines que van con el equipo que defiende, en las esquinas del triángulo de 20 m de lado, entrando máx. 4 m, 3 × 4 min, 2–3 toques. (propuesta): puntuación, qué pasa al robar, series con pausa, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   17.3
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.8,
+   "ymax": 19.1
+  },
+  "nofield": true,
+  "cones": [
+   [
+    10,
+    0
+   ],
+   [
+    20,
+    17.3
+   ],
+   [
+    0,
+    17.3
+   ]
+  ],
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     20,
+     17.3
+    ],
+    "1 0"
+   ],
+   [
+    [
+     20,
+     17.3
+    ],
+    [
+     0,
+     17.3
+    ],
+    "1 0"
+   ],
+   [
+    [
+     0,
+     17.3
+    ],
+    [
+     10,
+     0
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 6.4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.2,
+    "y": 13.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.8,
+    "y": 13.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8.6,
+    "y": 9.8,
+    "f": 60
+   },
+   {
+    "r": "B",
+    "x": 12.6,
+    "y": 9.6,
+    "f": 120
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 15.6,
+    "f": 270
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 1.6,
+    "y": 16.2,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 18.4,
+    "y": 16.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     6.4
+    ],
+    "b": [
+     14.8,
+     13.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     14.8,
+     13.4
+    ],
+    "b": [
+     5.2,
+     13.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "triángulo 20 m"
+ }
+}

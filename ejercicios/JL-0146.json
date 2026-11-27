@@ -1,0 +1,157 @@
+{
+ "id": "JL-0146",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 todos tocan el balón",
+ "formato": "4v4 + 2",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "5 series de 2 min con 30 s de pausa. Al acabar cada serie se cambian los 2 comodines.",
+ "objetivo": "Que todo el equipo participe en cada jugada: el balón circula por los cuatro, sin pases de ida y vuelta entre dos. Cómo explicarlo: antes de pasar, busca a quien aún no ha tocado el balón. Errores típicos: jugar siempre con el mismo compañero, un jugador fijo cerca del balón, apoyos a la misma altura. Observar: quién se ofrece libre.",
+ "montaje": "Cuadrado de 35 × 35 m. 4 amarillos y 4 rojos repartidos y 2 comodines blancos dentro, siempre con el equipo que defiende.",
+ "juego": "4 contra 4 a 2–3 toques. Si se roba o sale el balón, cambia la posesión y los comodines pasan al equipo que defiende.",
+ "punto": "1 punto cuando, en una misma jugada, controlan el balón los 4 del equipo; sigue con balón. Gana quien más sume en 5 series.",
+ "consigna": "Que nadie se quede sin tocarla.",
+ "variantes": {
+  "facil": "Dar el punto con 3 de los 4 jugadores y 3 toques libres.",
+  "dificil": "Campo de 30 × 30 m, 2 toques y los comodines pueden robar."
+ },
+ "adaptacion": "Benjamín: 3 jugadores por punto. Cadete: orden obligatorio (el último en tocar debe ser un jugador nombrado antes).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 146",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 41"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 4:4 + 2 comodines que van con el equipo que defiende, 5 × 2 min, 1 punto cada vez que en una misma jugada el balón es controlado por todos sus jugadores, 2–3 toques. El campo es de 35 × 35 m (el texto de la fuente repite una «zona de 10 × 10» de la ficha anterior, que aquí no se usa). (propuesta): pausas, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 36.8,
+   "ymin": -1.8,
+   "ymax": 36.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.55,
+    "y": 7.7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16.1,
+    "y": 4.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30.1,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.7,
+    "y": 28.0,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10.5,
+    "y": 14.0,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22.2,
+    "y": 10.13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24.5,
+    "y": 25.2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16.08,
+    "y": 23.83,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 19.47,
+    "y": 17.14,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 3.5,
+    "y": 18.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.55,
+     7.7
+    ],
+    "b": [
+     16.1,
+     4.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     16.1,
+     4.2
+    ],
+    "b": [
+     30.1,
+     10.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

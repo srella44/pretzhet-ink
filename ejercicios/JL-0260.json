@@ -1,0 +1,201 @@
+{
+ "id": "JL-0260",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "6v6 dos cuadrados laterales",
+ "formato": "6v6",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "8 min",
+ "series": "2 series de 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Dar al jugador del cuadrado lateral y relevarlo, con salida conduciendo hacia el centro. Cómo explicarlo: pasa al cuadrado y corre a ocuparlo; quien recibe sale ya conduciendo. Errores típicos: pasar y quedarse, controlar mirando al balón, no salir con ritmo. Observar: el cambio de puestos tras el pase.",
+ "montaje": "Campo de 35 × 35 m con un cuadrado de 7,5 × 7,5 m en el centro de cada banda, con 1 amarillo y 1 rojo en cada uno. En el centro, 4 amarillos y 4 rojos.",
+ "juego": "Se pasa al jugador del cuadrado, que controla y sale conduciendo; quien pasó ocupa su puesto. Si se roba, cambia.",
+ "punto": "1 punto cada vez que el jugador de un cuadrado recibe y sale conduciendo. Gana quien más sume en 8 min.",
+ "consigna": "Pasa al cuadrado y toma su puesto.",
+ "variantes": {
+  "facil": "Cuadrados de 9 × 9 m y se puede puntuar saliendo con pase.",
+  "dificil": "Cuadrados de 6 × 6 m y relevo en un toque."
+ },
+ "adaptacion": "Benjamín: cuadrados de 9 × 9 m. Cadete: el jugador del cuadrado debe salir en un toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 | entrada 260",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 61"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 6:6, 2 cuadrados de 7,5 × 7,5 m en el campo de 35 × 35 m en los que cada equipo sitúa a un jugador, 8 min, 1 punto cada vez que recibe el balón el jugador del cuadrado y sale conduciendo, ocupando el cuadrado el jugador que le envió el balón. (propuesta): un jugador de cada equipo en cada cuadrado, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 36.8,
+   "ymin": -1.8,
+   "ymax": 36.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ],
+   [
+    0,
+    13.75
+   ],
+   [
+    7.5,
+    13.75
+   ],
+   [
+    7.5,
+    21.25
+   ],
+   [
+    0,
+    21.25
+   ],
+   [
+    27.5,
+    13.75
+   ],
+   [
+    35,
+    13.75
+   ],
+   [
+    35,
+    21.25
+   ],
+   [
+    27.5,
+    21.25
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.6,
+    "y": 15.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 4.8,
+    "y": 19.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30.4,
+    "y": 15.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32.2,
+    "y": 19.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 5.25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19.82,
+    "y": 14.45,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.25,
+    "y": 27.3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26.25,
+    "y": 29.75,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.81,
+    "y": 9.96,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21.7,
+    "y": 6.99,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18.99,
+    "y": 22.9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25.61,
+    "y": 19.22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.5,
+     5.25
+    ],
+    "b": [
+     2.8,
+     14.9
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2.8,
+     17.3
+    ],
+    "b": [
+     14,
+     20
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

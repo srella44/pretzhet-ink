@@ -1,0 +1,158 @@
+{
+ "id": "JL-0223",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 numerados, 4 toques",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "20 × 30 m",
+ "duracion": "8 min",
+ "series": "2 series de 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Conducir con dominio y pasar en orden, mirando dónde está el compañero con el número siguiente. Cómo explicarlo: antes de pasar, localiza al 2, al 3… y conduce hacia el espacio libre. Errores típicos: dar los toques sin avanzar, pasar al número equivocado, no ofrecerse. Observar: la cabeza levantada mientras se conduce.",
+ "montaje": "Campo de 20 × 30 m. 5 amarillos y 5 rojos, numerados del 1 al 5 con petos. Un balón en juego.",
+ "juego": "5 contra 5. Quien tiene el balón da 4 toques de conducción y solo puede pasar al compañero con el número siguiente (tras el 5, el 1). Si lo roba el rival, empieza su ciclo.",
+ "punto": "(propuesta) 1 punto por ciclo 1-2-3-4-5 sin perder el balón; un pase antes de 4 toques o al número erróneo lo pierde.",
+ "consigna": "Cuatro toques, mira y pasa al siguiente número.",
+ "variantes": {
+  "facil": "3 toques de conducción y sin orden numérico.",
+  "dificil": "4 toques y los rivales pueden robar sin límite; ciclo en sentido contrario."
+ },
+ "adaptacion": "Benjamín: 2 toques de conducción. Cadete: pasar al número siguiente en un toque tras recibir.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 223",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 56"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5:5, jugadores numerados del 1 al 5, el que tiene el balón da cuatro toques (conducción) antes de pasar al compañero con el número siguiente, 20 × 30 m, 8 min. La fuente no da puntuación. (propuesta): ciclo completo como punto, pausa, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.8,
+   "ymax": 31.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.84,
+    "y": 4.0,
+    "f": 20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.57,
+    "y": 21.84,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16.15,
+    "y": 24.98,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8.03,
+    "y": 17.02,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7.84,
+    "y": 9.96,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.9,
+    "y": 14.03,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9.59,
+    "y": 24.56,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18.4,
+    "y": 18.82,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2.26,
+    "y": 13.88,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.7,
+     5.6
+    ],
+    "b": [
+     7.4,
+     4.0
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7.8,
+     4.2
+    ],
+    "b": [
+     14,
+     9
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": []
+ }
+}

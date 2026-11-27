@@ -1,0 +1,273 @@
+{
+ "id": "JL-0246",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 seis puertas neutrales",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "8 min",
+ "series": "2 series de 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Elegir la puerta mejor situada y cambiar de objetivo con rapidez, porque todas valen para los dos equipos. Cómo explicarlo: tras cruzar una puerta, mira otra distinta; si el rival se cierra, cambia. Errores típicos: atacar siempre la misma puerta, chocar con el compañero. Observar: la visión periférica antes de decidir.",
+ "montaje": "Campo de 30 × 30 m con 6 puertas de 3 m: una en cada esquina y una en el centro de los lados izquierdo y derecho. Valen para los dos equipos. 5 amarillos y 5 rojos.",
+ "juego": "5 contra 5 sin límite de toques. Si se roba o sale el balón, cambia la posesión. No se repite puerta dos veces seguidas.",
+ "punto": "1 punto cada vez que un jugador cruza conduciendo cualquier puerta; sigue con balón. Gana quien más sume en 8 min.",
+ "consigna": "Cambia de puerta cuando te cierren.",
+ "variantes": {
+  "facil": "Puertas de 4 m y 3 contra 3 en una mitad.",
+  "dificil": "Puertas de 2 m y no repetir ninguna de las dos últimas puertas."
+ },
+ "adaptacion": "Benjamín: 4 contra 4. Cadete: pase previo obligatorio antes de cruzar.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 246",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 59"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5:5, 6 porterías neutrales en las esquinas del campo de 30 × 30 m, 8 min, 1 punto cada vez que un jugador atraviesa conduciendo cualquiera de las porterías y siguen con la posesión. La fuente dice «4 porterías de 3 m» en las dimensiones y «6 neutrales» en la descripción: se dibujan 6 (propuesta). (propuesta): su reparto, no repetir puerta, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 31.8,
+   "ymin": -1.8,
+   "ymax": 31.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    0,
+    30
+   ],
+   [
+    1.0,
+    2.5
+   ],
+   [
+    4.0,
+    2.5
+   ],
+   [
+    26.0,
+    2.5
+   ],
+   [
+    29.0,
+    2.5
+   ],
+   [
+    1.0,
+    27.5
+   ],
+   [
+    4.0,
+    27.5
+   ],
+   [
+    26.0,
+    27.5
+   ],
+   [
+    29.0,
+    27.5
+   ],
+   [
+    2.2,
+    13.5
+   ],
+   [
+    2.2,
+    16.5
+   ],
+   [
+    27.8,
+    13.5
+   ],
+   [
+    27.8,
+    16.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     1.0,
+     2.5
+    ],
+    [
+     4.0,
+     2.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     26.0,
+     2.5
+    ],
+    [
+     29.0,
+     2.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     1.0,
+     27.5
+    ],
+    [
+     4.0,
+     27.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     26.0,
+     27.5
+    ],
+    [
+     29.0,
+     27.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     2.2,
+     13.5
+    ],
+    [
+     2.2,
+     16.5
+    ],
+    "1 0"
+   ],
+   [
+    [
+     27.8,
+     13.5
+    ],
+    [
+     27.8,
+     16.5
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9.0,
+    "y": 6.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.6,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21.06,
+    "y": 24.98,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8.18,
+    "y": 21.28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24.69,
+    "y": 11.73,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13.77,
+    "y": 8.23,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.21,
+    "y": 6.93,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.24,
+    "y": 18.46,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11.07,
+    "y": 14.22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 4.79,
+    "y": 12.31,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     6.6
+    ],
+    "b": [
+     15.6,
+     16.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     13.6,
+     17.5
+    ],
+    "b": [
+     3.5,
+     14.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "id": "JL-0165",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "6v6+2 zonas laterales",
+ "formato": "6v6 + 2",
+ "edad": "14–16 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug.",
+ "espacio": "50 × 30 m",
+ "duracion": "14 min",
+ "series": "7 series de 2 min con 30 s de pausa. Al acabar cada serie se cambian los 2 comodines.",
+ "objetivo": "Usar a los jugadores de los fondos como apoyo para dar continuidad: jugar hacia fuera y volver a entrar con ventaja. Cómo explicarlo: el balón va al fondo, el compañero lo controla y vuelve al juego. Errores típicos: pase a la zona sin que haya espacio de vuelta, jugador de zona sin perfil. Observar: el control orientado del jugador de zona.",
+ "montaje": "Campo de 50 × 30 m con una zona de 5 × 30 m en cada fondo, con 1 amarillo y 1 rojo en cada una (no salen). En el centro, 4 amarillos, 4 rojos y 2 comodines con los defensores.",
+ "juego": "4 contra 4 en el centro a 2–3 toques. Si se roba o sale, cambia la posesión y los comodines pasan al que defiende.",
+ "punto": "1 punto cada vez que un jugador de zona controla un pase de su equipo; sigue con balón. Gana quien más sume en 7 series.",
+ "consigna": "Juega al fondo y entra de nuevo.",
+ "variantes": {
+  "facil": "Comodines que defienden solo 1 min por serie y 3 toques libres.",
+  "dificil": "Zonas de 3 m de ancho y los jugadores de zona a 1 toque."
+ },
+ "adaptacion": "Infantil: campo de 45 × 30 m. Juvenil: 2 toques en el centro.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 + 2 | entrada 165",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 44"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 6:6 + 2 comodines que van con el equipo que defiende, campo de 50 × 30 m con 2 zonas laterales de 5 × 30 m en las que cada equipo sitúa a un jugador, 7 × 2 min, 1 punto cada vez que control un jugador de las zonas laterales, 2–3 toques. La referencia indicaba 14 jugadores y 14–18 años (propuesta de Claude): se deja en 14–16. (propuesta): que en cada zona haya un jugador de cada equipo y que no salgan de ella, pausas, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   50,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 51.8,
+   "ymin": -1.8,
+   "ymax": 31.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    50,
+    0
+   ],
+   [
+    50,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     45,
+     0,
+     50,
+     30
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     45,
+     0
+    ],
+    [
+     45,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.0,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2.4,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 47,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 47.6,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14.0,
+    "y": 6.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22.0,
+    "y": 19.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32.03,
+    "y": 8.36,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 39.0,
+    "y": 21.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17.03,
+    "y": 12.45,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25.92,
+    "y": 5.97,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29.42,
+    "y": 15.81,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36.05,
+    "y": 13.57,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 23.59,
+    "y": 12.75,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 14.97,
+    "y": 18.69,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     6
+    ],
+    "b": [
+     3.0,
+     9
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     3.0,
+     9
+    ],
+    "b": [
+     22,
+     19.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

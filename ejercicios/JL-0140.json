@@ -1,0 +1,250 @@
+{
+ "id": "JL-0140",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+5 en pentágono",
+ "formato": "5v5 + 5",
+ "edad": "14–16 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug.",
+ "espacio": "pentágono 12 m",
+ "duracion": "12 min",
+ "series": "3 series de 4 min con 1 min de pausa. En cada pausa se intercambian los 5 comodines con 5 jugadores.",
+ "objetivo": "Mantener la posesión con 5 contra 10 en defensa, buscando el lado libre del pentágono con cambios de orientación. Cómo explicarlo: antes de recibir, mira dónde está el comodín y ofrece el apoyo por el lado contrario. Errores típicos: juntarse en un mismo lado, pase sin mirar, control orientado hacia el comodín. Observar: la distancia entre apoyos.",
+ "montaje": "Pentágono de 12 m de lado con 5 conos. 5 amarillos y 5 rojos dentro. Un comodín blanco en cada esquina, siempre con el equipo que defiende, entra hasta 3 m.",
+ "juego": "5 contra 5 a 2–3 toques (control y pase). Si se roba o sale el balón, ataca el otro equipo y los comodines pasan a defender con él.",
+ "punto": "(propuesta) 1 punto por 8 pases con un cambio de lado; si los toca un rival, se corta. Gana quien más sume en 3 series.",
+ "consigna": "Cambia de lado antes de que cierren.",
+ "variantes": {
+  "facil": "Comodines que entran solo 2 m y 3 toques libres.",
+  "dificil": "Comodines que entran 4 m y 2 toques."
+ },
+ "adaptacion": "Infantil: 6 pases por punto y pentágono de 14 m. Juvenil: 10 pases por punto.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 5 | entrada 140",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 40"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5 + 5 comodines que van con el equipo que defiende, en las esquinas del pentágono de 12 m de lado, entrando máx. 3 m, 3 × 4 min, 2–3 toques. La referencia indica 14–18 años (propuesta de Claude): se queda en 14–16. (propuesta): puntuación, cambio de comodines, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   19.42,
+   18.47
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 21.92,
+   "ymin": -2.5,
+   "ymax": 20.97
+  },
+  "nofield": true,
+  "cones": [
+   [
+    9.70820393249937,
+    0.0
+   ],
+   [
+    19.41640786499874,
+    7.053423027509677
+   ],
+   [
+    15.70820393249937,
+    18.466101223051517
+   ],
+   [
+    3.708203932499371,
+    18.466101223051517
+   ],
+   [
+    0.0,
+    7.0534230275096785
+   ]
+  ],
+  "lines": [
+   [
+    [
+     9.70820393249937,
+     0.0
+    ],
+    [
+     19.41640786499874,
+     7.053423027509677
+    ],
+    "1 0"
+   ],
+   [
+    [
+     19.41640786499874,
+     7.053423027509677
+    ],
+    [
+     15.70820393249937,
+     18.466101223051517
+    ],
+    "1 0"
+   ],
+   [
+    [
+     15.70820393249937,
+     18.466101223051517
+    ],
+    [
+     3.708203932499371,
+     18.466101223051517
+    ],
+    "1 0"
+   ],
+   [
+    [
+     3.708203932499371,
+     18.466101223051517
+    ],
+    [
+     0.0,
+     7.0534230275096785
+    ],
+    "1 0"
+   ],
+   [
+    [
+     0.0,
+     7.0534230275096785
+    ],
+    [
+     9.70820393249937,
+     0.0
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 13.41,
+    "y": 5.11,
+    "f": 126.0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.7,
+    "y": 12.15,
+    "f": 198.0
+   },
+   {
+    "r": "A",
+    "x": 9.71,
+    "y": 16.51,
+    "f": 270.0
+   },
+   {
+    "r": "A",
+    "x": 3.72,
+    "y": 12.15,
+    "f": 342.0
+   },
+   {
+    "r": "A",
+    "x": 6.01,
+    "y": 5.11,
+    "f": 414.0
+   },
+   {
+    "r": "B",
+    "x": 9.71,
+    "y": 7.21,
+    "f": -90.0
+   },
+   {
+    "r": "B",
+    "x": 12.56,
+    "y": 9.28,
+    "f": -18.0
+   },
+   {
+    "r": "B",
+    "x": 11.47,
+    "y": 12.63,
+    "f": 54.0
+   },
+   {
+    "r": "B",
+    "x": 7.94,
+    "y": 12.63,
+    "f": 126.0
+   },
+   {
+    "r": "B",
+    "x": 6.86,
+    "y": 9.28,
+    "f": 198.0
+   },
+   {
+    "r": "C",
+    "x": 9.71,
+    "y": 1.61,
+    "f": 90.0
+   },
+   {
+    "r": "C",
+    "x": 17.89,
+    "y": 7.55,
+    "f": 162.0
+   },
+   {
+    "r": "C",
+    "x": 14.76,
+    "y": 17.17,
+    "f": 234.0
+   },
+   {
+    "r": "C",
+    "x": 4.65,
+    "y": 17.17,
+    "f": 306.0
+   },
+   {
+    "r": "C",
+    "x": 1.53,
+    "y": 7.55,
+    "f": 378.0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13.41,
+     5.11
+    ],
+    "b": [
+     15.7,
+     12.15
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     15.7,
+     12.15
+    ],
+    "b": [
+     9.71,
+     16.51
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "pentágono 12 m"
+ }
+}
