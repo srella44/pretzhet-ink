@@ -1,0 +1,185 @@
+{
+ "id": "JL-0024",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+4 comodines en bandas",
+ "formato": "4v4 + 4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "30 × 22 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4 min. Cada 4 min cambian los comodines con otros 4 jugadores. Descanso 1 min.",
+ "objetivo": "Aprovechar la amplitud: los comodines de banda dan apoyo exterior para progresar y cambiar de lado. Errores típicos: comodines juntos en el mismo punto, pases de banda a banda sin sentido, defensas estiradas. Qué observar: pase a la banda y devolución al interior para atacar el hueco.",
+ "montaje": "Campo de 30 × 22 m. 4 amarillos contra 4 rojos dentro. Dos comodines (blancos) en cada banda larga, fuera del campo, que juegan con el equipo con balón.",
+ "juego": "El equipo con balón juega 8 contra 4. Los comodines se desplazan por su banda, máximo 2 toques, y no entran al campo. Si los defensores recuperan, atacan ellos.",
+ "punto": "1 punto por cada 8 pases seguidos con al menos 1 pase de banda a banda. Si se pierde o sale, de cero.",
+ "consigna": "Abre el campo y busca el hueco por dentro.",
+ "variantes": {
+  "facil": "Comodines con toques libres y campo de 34 × 24 m.",
+  "dificil": "Comodines a 1 toque y el equipo en defensa recupera con 3 jugadores solo en el interior."
+ },
+ "adaptacion": "Infantil: 30 × 22 m. Cadete: 30 × 24 m a 2 toques. Con 3v3 + 4: 26 × 20 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4+4 | entrada 24",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 21"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 32.6,
+   "ymin": -3.8,
+   "ymax": 25.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    22
+   ],
+   [
+    0,
+    22
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.8,
+    "y": 5.9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.6,
+    "y": 16.1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.8,
+    "y": 5.9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 19.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9.9,
+    "y": 8.45,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 16.7,
+    "y": 14.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16.7,
+    "y": 5.9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2.2,
+    "y": 14.4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 23.8,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 23.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.8,
+     5.9
+    ],
+    "b": [
+     8.4,
+     -0.9
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     -1.8
+    ],
+    "b": [
+     21.4,
+     -0.9
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     -1.8
+    ],
+    "b": [
+     22.14,
+     4.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

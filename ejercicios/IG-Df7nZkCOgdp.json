@@ -1,0 +1,153 @@
+{
+ "id": "IG-Df7nZkCOgdp",
+ "bloque": "Técnica y duelos",
+ "titulo": "Carrera, remate y vuelta",
+ "formato": "1v0 + 1v1",
+ "edad": "10–12 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. (2 + 2 porteros)",
+ "espacio": "50 × 24 m",
+ "duracion": "12 min",
+ "series": "5 salidas por pareja; luego cambia el reparto de carriles. 1 min de descanso (propuesta). Con más jugadores, relevo en fila.",
+ "objetivo": "Conducir a máxima velocidad, decidir el tiro y recuperar la posición para defender. Errores típicos: no levantar la cabeza al conducir, disparar sin ángulo, no volver tras el tiro. Qué observar: la velocidad del esfuerzo de regreso y la colocación del defensor.",
+ "montaje": "Campo de 50 × 24 m con portería y portero en cada fondo y línea de salida en el centro. Dos jugadores (amarillos) con balón, uno en cada carril, listos para la señal.",
+ "juego": "A la señal, los dos conducen. El primero que llega a 20 m de la portería derecha dispara. El segundo gira y ataca la izquierda por el centro; el primero, tras tirar, corre de vuelta y defiende 1 contra 1.",
+ "punto": "1 punto por gol en la carrera y 1 por gol en el 1 contra 1; el defensor suma 1 si recupera sin gol.",
+ "consigna": "Gana la carrera, remata y vuelve a defender.",
+ "variantes": {
+  "facil": "Carrera de 15 m y el defensor sale con 3 m de ventaja.",
+  "dificil": "Carrera de 30 m y el defensor solo tiene 5 s para impedir el tiro."
+ },
+ "adaptacion": "Alevín (10–11): 40 × 20 m. Infantil (12–13): 50 × 24 m. Si falta un portero, el entrenador hace de portero.",
+ "fuente": {
+  "autor": "@coachesviewsfootball · Instagram (reel)",
+  "titulo_original": "Quien gana la carrera remata y regresa a defender",
+  "ref": "https://www.instagram.com/coachesviewsfootball/reel/Df7nZkCOgdp/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción pública del reel, sin fotogramas): tipo de ejercicio y mecánica básica. (propuesta): medidas, colocación, número de jugadores y porteros, reglas de pérdida, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   24
+  ],
+  "extent": {
+   "xmin": -9,
+   "xmax": 59,
+   "ymin": -1.8,
+   "ymax": 25.8
+  },
+  "lines": [
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 12,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 27,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     27,
+     5
+    ],
+    "b": [
+     40,
+     6
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     40,
+     6
+    ],
+    "b": [
+     49.4,
+     10.5
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 6,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     19
+    ],
+    "b": [
+     18,
+     14
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     44,
+     9
+    ],
+    "b": [
+     32,
+     17
+    ],
+    "k": "run",
+    "s0": 8,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 4
+   }
+  ]
+ }
+}

@@ -1,0 +1,287 @@
+{
+ "id": "JL-0048",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "6v6+6 comodín por lado",
+ "formato": "6v6 + 6",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug.",
+ "espacio": "Hexágono de 18 m de lado",
+ "duracion": "20 min",
+ "series": "4 rondas de 5 min. Cada 5 min cambian los 6 comodines con otros 6 jugadores. Descanso 1 min (propuesta).",
+ "objetivo": "Jugar 12 contra 6 usando apoyos en todos los lados para cambiar de orientación y encontrar al libre. Errores típicos: sobreusar los apoyos cercanos, comodines estáticos, equipo partido en dos mitades. Qué observar: circulación rápida al lado contrario y ocupación de los espacios libres.",
+ "montaje": "Hexágono de 18 m de lado con un cono en cada vértice. 6 amarillos contra 6 rojos dentro. Un comodín (blanco) fuera de cada lado, con quien tiene el balón.",
+ "juego": "El equipo con balón juega 12 contra 6. Los comodines se mueven por su lado, máximo 2 toques, y no entran. Si los defensores roban, atacan ellos. Fuente: «uno por cada lado» = 6 lados.",
+ "punto": "1 punto por cada 10 pases seguidos con al menos 3 comodines distintos. Se gana con 3 puntos.",
+ "consigna": "Cambia de lado y encuentra al libre.",
+ "variantes": {
+  "facil": "Comodines con toques libres y hexágono de 22 m de lado.",
+  "dificil": "Comodines a 1 toque y hexágono de 14 m de lado."
+ },
+ "adaptacion": "Cadete (14–15): lado de 14 m. Juvenil (16–18): 18 m. Dibujo parcial (7 de los 12 jugadores del interior).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 + 6 | entrada 48",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 24"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto. Forma hexagonal propuesta (6 comodines, uno por lado).",
+ "diagrama": {
+  "field": [
+   40,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 44,
+   "ymin": -5,
+   "ymax": 41
+  },
+  "nofield": true,
+  "tag": "hexágono 18 m",
+  "cones": [
+   [
+    29.0,
+    2.4
+   ],
+   [
+    38.0,
+    18.0
+   ],
+   [
+    29.0,
+    33.6
+   ],
+   [
+    11.0,
+    33.6
+   ],
+   [
+    2.0,
+    18.0
+   ],
+   [
+    11.0,
+    2.4
+   ]
+  ],
+  "lines": [
+   [
+    [
+     29.0,
+     2.4
+    ],
+    [
+     38.0,
+     18.0
+    ],
+    "6 5"
+   ],
+   [
+    [
+     38.0,
+     18.0
+    ],
+    [
+     29.0,
+     33.6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     29.0,
+     33.6
+    ],
+    [
+     11.0,
+     33.6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     11.0,
+     33.6
+    ],
+    [
+     2.0,
+     18.0
+    ],
+    "6 5"
+   ],
+   [
+    [
+     2.0,
+     18.0
+    ],
+    [
+     11.0,
+     2.4
+    ],
+    "6 5"
+   ],
+   [
+    [
+     11.0,
+     2.4
+    ],
+    [
+     29.0,
+     2.4
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8.6,
+    "y": 12.3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 23.8,
+    "y": 25.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33.02,
+    "y": 10.56,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14.3,
+    "y": 16.1,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 27.6,
+    "y": 18.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20.0,
+    "y": 4.7,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 7.79,
+    "y": 26.72,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 35.6,
+    "y": 9.0,
+    "f": [
+     20,
+     18
+    ]
+   },
+   {
+    "r": "C",
+    "x": 35.6,
+    "y": 27.0,
+    "f": [
+     20,
+     18
+    ]
+   },
+   {
+    "r": "C",
+    "x": 20.0,
+    "y": 36.0,
+    "f": [
+     20,
+     18
+    ]
+   },
+   {
+    "r": "C",
+    "x": 4.4,
+    "y": 27.0,
+    "f": [
+     20,
+     18
+    ]
+   },
+   {
+    "r": "C",
+    "x": 4.4,
+    "y": 9.0,
+    "f": [
+     20,
+     18
+    ]
+   },
+   {
+    "r": "C",
+    "x": 20.0,
+    "y": 0.0,
+    "f": [
+     20,
+     18
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.6,
+     12.3
+    ],
+    "b": [
+     5.300000000000001,
+     26.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     4.4,
+     27.0
+    ],
+    "b": [
+     31.4,
+     11.92
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     33.02,
+     10.56
+    ],
+    "b": [
+     34.800000000000004,
+     9.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

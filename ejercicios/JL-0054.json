@@ -1,0 +1,223 @@
+{
+ "id": "JL-0054",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+4 cuatro cuadrados",
+ "formato": "4v4 + 4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "36 × 24 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4 min. Cada ronda cambian los 4 comodines con otros 4 jugadores. Descanso 1 min (propuesta).",
+ "objetivo": "Jugar con apoyos fijos en cuatro puntos del campo: pasar, desplazar y encontrar al comodín libre con el pase adecuado. Errores típicos: ir siempre al mismo cuadrado, pases flojos que se cortan, comodines que se salen. Qué observar: el pase rápido y tenso al comodín del lado contrario.",
+ "montaje": "Campo de 36 × 24 m con 4 cuadrados de 4 × 4 m cerca de las esquinas. 4 amarillos contra 4 rojos fuera de ellos. Un comodín (blanco) dentro de cada cuadrado, con quien tiene el balón.",
+ "juego": "Se juega 8 contra 4. Los comodines no salen de su cuadrado, tocan máximo 2 veces y no se les roba. Los jugadores no entran en los cuadrados. Si se roba, atacan los defensores.",
+ "punto": "1 punto por cada 6 pases seguidos con al menos 2 comodines. Se gana con 4 puntos.",
+ "consigna": "Busca al comodín libre con un pase tenso.",
+ "variantes": {
+  "facil": "Comodines con toques libres y cuadrados de 5 × 5 m.",
+  "dificil": "Comodines a 1 toque y cuadrados de 3 × 3 m."
+ },
+ "adaptacion": "Alevín: 30 × 20 m. Infantil: 36 × 24 m. Cadete: 36 × 24 m a 2 toques.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 4 | entrada 54",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 25"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto. Posición de los cuadrados propuesta.",
+ "diagrama": {
+  "field": [
+   36,
+   24
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 37.5,
+   "ymin": -1.5,
+   "ymax": 25.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    36,
+    0
+   ],
+   [
+    36,
+    24
+   ],
+   [
+    0,
+    24
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     3,
+     3,
+     7,
+     7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     29,
+     3,
+     33,
+     7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     3,
+     17,
+     7,
+     21
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     29,
+     17,
+     33,
+     21
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 11,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 31,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 5,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 31,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     9
+    ],
+    "b": [
+     5.8,
+     5.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     17.4,
+     15.4
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     18,
+     16
+    ],
+    "b": [
+     30.4,
+     18.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

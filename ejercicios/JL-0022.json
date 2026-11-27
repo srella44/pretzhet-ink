@@ -1,0 +1,185 @@
+{
+ "id": "JL-0022",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+4 comodín por lado",
+ "formato": "4v4 + 4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "24 × 24 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4 min. En cada una cambian los 4 comodines con los 4 jugadores que menos puntos hayan hecho. Descanso 1 min (propuesta).",
+ "objetivo": "Jugar 8 contra 4 aprovechando los apoyos laterales: pasar, apoyar y cambiar de lado para encontrar al libre. Errores típicos: comodines que no se mueven, pases al comodín marcado, jugar solo por dentro. Qué observar: el desplazamiento del comodín por su lado para dar ángulo.",
+ "montaje": "Cuadrado de 24 × 24 m. 4 amarillos contra 4 rojos dentro. Un comodín (blanco) en el exterior de cada lado, que juega con el equipo que tiene el balón.",
+ "juego": "El equipo con balón juega 8 contra 4. Cada comodín puede moverse a lo largo de su lado, máximo 2 toques, y no entra al campo. Si los defensores roban, atacan ellos y los comodines cambian de equipo.",
+ "punto": "1 punto por cada 8 pases seguidos con al menos 3 comodines distintos. Se gana con 3 puntos.",
+ "consigna": "Mueve el balón y cambia de lado.",
+ "variantes": {
+  "facil": "Comodines con toques libres y cuadrado de 28 × 28 m.",
+  "dificil": "Comodines a 1 toque y el punto exige pasar por los 4 lados."
+ },
+ "adaptacion": "Infantil (12–13): 24 × 24 m. Cadete (14–15): 24 × 24 m con comodines a 1 toque. Con 3v3 + 4: 20 × 20 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4+4 | entrada 22",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 21"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   24,
+   24
+  ],
+  "extent": {
+   "xmin": -3.4,
+   "xmax": 27.4,
+   "ymin": -3.4,
+   "ymax": 27.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    24,
+    0
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    0,
+    24
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.1,
+    "y": 15.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.5,
+    "y": 5.35,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.4,
+    "y": 21.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8.2,
+    "y": 7.82,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 15.8,
+    "y": 12.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.7,
+    "y": 21.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2.2,
+    "y": 15.8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 25.6,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 25.6,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 12,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     4.4
+    ],
+    "b": [
+     11.4,
+     -0.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     -1.6
+    ],
+    "b": [
+     9.34,
+     13.9
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     10.1,
+     15.8
+    ],
+    "b": [
+     24.8,
+     12.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

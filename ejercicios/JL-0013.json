@@ -1,0 +1,220 @@
+{
+ "id": "JL-0013",
+ "bloque": "Técnica y duelos",
+ "titulo": "3v3+3 triángulo",
+ "formato": "3v3 + 3",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "Triángulo de 24 m de lado",
+ "duracion": "16 min",
+ "series": "4 rondas de 4 min. Cada 4 min los 3 comodines cambian con el equipo que menos puntos tiene. Descanso 1 min.",
+ "objetivo": "Jugar 6 contra 3 cuando se tiene el balón: usar a los comodines de las esquinas como apoyo y cambiar de lado rápido para romper la presión. Errores típicos: pases largos sin ángulo, olvidar al comodín libre, defensas descoordinadas. Qué observar: el pase al comodín que está solo en una esquina.",
+ "montaje": "Triángulo de 24 m con un cono en cada vértice. 3 amarillos y 3 rojos dentro; un comodín (blanco) en cada esquina, que juega con quien tenga el balón.",
+ "juego": "El equipo con balón juega 6 contra 3. Los comodines se quedan en su esquina (pueden moverse 2 m por cada lado), máximo 2 toques. Si los defensores roban, atacan ellos.",
+ "punto": "1 punto por cada pase entre comodines sin que lo toque el rival, tras 3 pases previos. Se gana con 5 puntos.",
+ "consigna": "Cambia de esquina para encontrar al libre.",
+ "variantes": {
+  "facil": "Comodines con toques libres y 4 toques en el campo.",
+  "dificil": "Todos a 2 toques y el punto vale solo si pasa por 2 comodines."
+ },
+ "adaptacion": "Infantil (12–13): triángulo de 20 m. Cadete (14–15): 24 m. Con pocos jugadores: 2v2 + 3.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico ejercicio global | entrada 13",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 19"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   24,
+   24
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 27,
+   "ymin": -3.5,
+   "ymax": 26
+  },
+  "dashed": true,
+  "tag": "triángulo 24 m",
+  "cones": [
+   [
+    12,
+    0.2
+   ],
+   [
+    0.4,
+    22.6
+   ],
+   [
+    23.6,
+    22.6
+   ]
+  ],
+  "lines": [
+   [
+    [
+     12,
+     0.2
+    ],
+    [
+     0.4,
+     22.6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0.4,
+     22.6
+    ],
+    [
+     23.6,
+     22.6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     23.6,
+     22.6
+    ],
+    [
+     12,
+     0.2
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 19.6,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 10.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": -1.4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": -1.4,
+    "y": 23.6,
+    "f": -45
+   },
+   {
+    "r": "C",
+    "x": 25.4,
+    "y": 23.6,
+    "f": -135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     16
+    ],
+    "b": [
+     11.6,
+     0.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     -1.4
+    ],
+    "b": [
+     14.6,
+     12.2
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     13
+    ],
+    "b": [
+     12.4,
+     18.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    15.4,
+    -1.4,
+    "COMODÍN",
+    "start"
+   ],
+   [
+    -2.6,
+    20.8,
+    "COMODÍN",
+    "start"
+   ],
+   [
+    27,
+    20.8,
+    "COMODÍN",
+    "end"
+   ]
+  ]
+ }
+}

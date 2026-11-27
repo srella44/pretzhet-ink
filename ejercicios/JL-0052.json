@@ -1,0 +1,206 @@
+{
+ "id": "JL-0052",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+4 en dos zonas",
+ "formato": "4v4 + 4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 20 m (dos zonas de 20 × 20)",
+ "duracion": "16 min",
+ "series": "4 rondas de 4 min. Cada ronda cambian los comodines con otros 4 jugadores. Descanso 1 min (propuesta).",
+ "objetivo": "Jugar por zonas: mover el balón de una zona a otra con un pase y usar a los comodines para dar continuidad. Errores típicos: pasar entre zonas sin ángulo, jugar todos en una zona, comodines parados. Qué observar: el pase de zona a zona con el compañero ya orientado.",
+ "montaje": "Campo de 40 × 20 m dividido en 2 zonas de 20 × 20. En cada zona, 2 amarillos contra 2 rojos. 4 comodines (blancos) fuera, 2 por zona, en las bandas largas.",
+ "juego": "Los jugadores no pueden salir de su zona: hay que pasar el balón de una zona a la otra y los comodines apoyan, máximo 2 toques. Si se roba, el otro equipo tiene el balón en esa zona.",
+ "punto": "1 punto por cada pase entre zonas que se recibe sin que lo toque el rival, tras 3 pases en la misma zona.",
+ "consigna": "Pasa de zona y apóyate en el comodín.",
+ "variantes": {
+  "facil": "Comodines con toques libres y pueden entrar 1 m al campo.",
+  "dificil": "Comodines a 1 toque y el pase entre zonas debe ir raso."
+ },
+ "adaptacion": "Alevín: 30 × 16 m. Infantil: 40 × 20 m. Cadete: 40 × 20 m a 2 toques.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 4 | entrada 52",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 25"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto. Reglas de zona y puntuación propuestas.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.5,
+   "ymin": -3.4,
+   "ymax": 23.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    20
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 8,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 21.8,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": 21.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     6
+    ],
+    "b": [
+     8,
+     -1
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     -1.8
+    ],
+    "b": [
+     12.6,
+     13.4
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     14
+    ],
+    "b": [
+     27.4,
+     6.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

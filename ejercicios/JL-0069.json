@@ -1,0 +1,193 @@
+{
+ "id": "JL-0069",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 comodines en zonas",
+ "formato": "4v4 + 2",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 22 m",
+ "duracion": "14 min",
+ "series": "4 rondas de 3 min. Cada ronda cambian los comodines con otros 2 jugadores. Descanso 30 s (propuesta).",
+ "objetivo": "Combinar posesión y apoyo en zonas concretas: el comodín dentro de su zona da seguridad y el equipo debe mover el balón a la zona libre. Errores típicos: pasar al comodín que no está libre, no usar la otra zona, juego lento. Qué observar: el cambio de zona con un pase tenso.",
+ "montaje": "Campo de 30 × 22 m con 2 zonas de 4 × 6 m marcadas con conos, a los lados del campo. 4 amarillos contra 4 rojos fuera de las zonas y un comodín (blanco) dentro de cada zona.",
+ "juego": "Se juega 6 contra 4. Los comodines no salen de su zona, tocan máximo 2 veces y no se les roba. Los jugadores no entran en las zonas. Si se roba, atacan los defensores.",
+ "punto": "1 punto por cada 6 pases seguidos con al menos 1 pase a cada zona. Se gana con 4 puntos.",
+ "consigna": "Cambia de zona con un pase tenso.",
+ "variantes": {
+  "facil": "Zonas de 5 × 8 m y comodines con toques libres.",
+  "dificil": "Zonas de 3 × 5 m y comodines a 1 toque."
+ },
+ "adaptacion": "Infantil: 30 × 22 m. Cadete: 30 × 22 m a 2 toques.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4+ 2 | entrada 69",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 28"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto. La fuente corta en «se colocan en el campo 2 zonas marc…»: forma y función de las zonas son propuesta.",
+ "diagrama": {
+  "field": [
+   30,
+   22
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -1.5,
+   "ymax": 23.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    22
+   ],
+   [
+    0,
+    22
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     5,
+     8,
+     9,
+     14
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     21,
+     8,
+     25,
+     14
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 8,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 14.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 23,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     5
+    ],
+    "b": [
+     6.6,
+     10
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     11
+    ],
+    "b": [
+     14.4,
+     15.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     16
+    ],
+    "b": [
+     22.8,
+     12
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

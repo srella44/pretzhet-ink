@@ -1,0 +1,173 @@
+{
+ "id": "JL-0028",
+ "bloque": "Técnica y duelos",
+ "titulo": "4v4+2 técnica a 2 toques",
+ "formato": "4v4 + 2",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "24 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min. Cada 2 min cambian los comodines (propuesta). Descanso 30 s.",
+ "objetivo": "Trabajar el control y el pase con presión usando 2 apoyos libres dentro del campo. Errores típicos: control largo, pase sin mirar, comodines pegados al defensor. Qué observar: control orientado que deja el balón listo para el siguiente pase.",
+ "montaje": "Campo de 24 × 20 m con conos. 4 amarillos contra 4 rojos y 2 comodines (blancos) repartidos por dentro. Un balón.",
+ "juego": "Quien tiene el balón juega 6 contra 4. Los comodines juegan siempre con el equipo con balón, máximo 2 toques, y no se les roba. Todos controlan y pasan a 2 toques. Si se roba, cambia la posesión.",
+ "punto": "1 punto por cada 6 pases seguidos con al menos 2 pases a los comodines. Se gana con 3 puntos.",
+ "consigna": "Controla orientado y pasa al pie libre.",
+ "variantes": {
+  "facil": "Comodines con toques libres y defensores a 3 m de distancia.",
+  "dificil": "A 1 toque para los comodines y 2 toques para todos, con campo de 20 × 18 m."
+ },
+ "adaptacion": "Infantil (12–13): 24 × 20 m. Cadete (14–15): 20 × 18 m. Con 3v3 + 2: 20 × 16 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico ejercicio global | entrada 28",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 21"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto. Se diferencia de JL-0060 (posesión) en el límite de 2 toques para todos.",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -1.5,
+   "ymax": 21.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    24,
+    0
+   ],
+   [
+    24,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.6,
+    "y": 4.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 15.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19.0,
+    "y": 5.1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 17.0,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7.8,
+    "y": 7.2,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 13.4,
+    "y": 10.7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19.0,
+    "y": 16.3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6.4,
+    "y": 13.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15.5,
+    "y": 2.2,
+    "f": 135
+   },
+   {
+    "r": "C",
+    "x": 2.2,
+    "y": 9.3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.6,
+     4.4
+    ],
+    "b": [
+     14.24,
+     2.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     15.5,
+     2.2
+    ],
+    "b": [
+     18.44,
+     3.84
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     19.0,
+     5.1
+    ],
+    "b": [
+     11.44,
+     14.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

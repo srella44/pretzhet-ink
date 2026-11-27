@@ -1,0 +1,168 @@
+{
+ "id": "IG-DfZLPpjsI8h",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cruza la media y al punta",
+ "formato": "1v1 + 2 apoyos",
+ "edad": "10–12 años",
+ "nivel": "Medio",
+ "jugadores": "4–6 jug.",
+ "espacio": "36 × 20 m",
+ "duracion": "12 min",
+ "series": "6 ataques por jugador y luego se cambian los papeles. 1 min de descanso. Con 6 jugadores, 2 parejas alternas (propuesta).",
+ "objetivo": "Progresar con balón hasta el campo rival y usar al compañero de fondo para finalizar de primeras. Errores típicos: pasar al apoyo antes de cruzar la media, devolución sin ritmo, tirar sin atacar el espacio. Qué observar: atacar la devolución a ritmo y a un toque.",
+ "montaje": "Campo de 36 × 20 m con línea central y portería pequeña en cada fondo. Atacante con balón (amarillo) y defensor (azul) en una mitad; un apoyo (blanco) en el fondo de cada mitad.",
+ "juego": "El atacante conduce hasta cruzar la línea central; solo entonces puede pasar al apoyo del fondo. El apoyo devuelve y dispara de primeras. Si el defensor roba, cambia el sentido y busca su apoyo.",
+ "punto": "1 punto por gol de primeras; 2 si el pase al apoyo es a un toque. 6 ataques.",
+ "consigna": "Cruza la media y ataca la devolución.",
+ "variantes": {
+  "facil": "El defensor pasivo hasta que el atacante cruza la media.",
+  "dificil": "El apoyo devuelve a 1 toque y el tiro tiene 5 s."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 18 m. Infantil (12–13): 36 × 20 m. Con 3 jugadores, un apoyo solo.",
+ "fuente": {
+  "autor": "@labofsoms · Instagram (reel)",
+  "titulo_original": "Cruzar la media y buscar al punta",
+  "ref": "https://www.instagram.com/labofsoms/reel/DfZLPpjsI8h/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción pública del reel, sin fotogramas): tipo de ejercicio y mecánica básica. (propuesta): medidas, colocación, número de jugadores y porteros, reglas de pérdida, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   36,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 38,
+   "ymin": -2.4,
+   "ymax": 22.4
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    36,
+    10,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 11.6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 34,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 2,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     10
+    ],
+    "b": [
+     22,
+     9
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     9
+    ],
+    "b": [
+     33.4,
+     5.6
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     34,
+     5
+    ],
+    "b": [
+     25.6,
+     9
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     25,
+     9.6
+    ],
+    "b": [
+     35.4,
+     12
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 4,
+    "side": 1,
+    "nt": 0.5,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    18,
+    -0.8,
+    "LÍNEA CENTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

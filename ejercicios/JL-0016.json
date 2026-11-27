@@ -1,0 +1,162 @@
+{
+ "id": "JL-0016",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "2v2+4 comodines en esquinas",
+ "formato": "2v2 + 4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "15 min",
+ "series": "3 rondas de 5 min. Cada 5 min, los 4 comodines entran a jugar y 4 jugadores salen a las esquinas. Descanso 1 min.",
+ "objetivo": "Aprender a mover el balón con 6 contra 2 y a elegir entre pase corto y pase largo a la esquina contraria. Errores típicos: pasar siempre al mismo comodín, comodines que no cambian de esquina, defensores separados. Qué observar: cambio de orientación hacia el comodín más libre.",
+ "montaje": "Cuadrado de 16 × 16 m. 2 amarillos contra 2 rojos dentro. Un comodín (blanco) en cada esquina, fuera del cuadrado, que juega con quien tiene el balón.",
+ "juego": "El equipo con balón juega 6 contra 2. Los comodines no entran al campo; pueden moverse 2 m por cada lado de su esquina y tocan máximo 2 veces. Si los defensores roban, atacan ellos.",
+ "punto": "1 punto por cada 8 pases seguidos con al menos 2 comodines distintos. Al perderlo, se cuenta desde cero.",
+ "consigna": "Busca la esquina libre y cambia de lado.",
+ "variantes": {
+  "facil": "Cuadrado de 18 × 18 m y comodines con toques libres.",
+  "dificil": "Cuadrado de 14 × 14 m y comodines a 1 toque."
+ },
+ "adaptacion": "Alevín (10–11): 14 × 14 m. Infantil (12–13): 16 × 16 m. Cadete (14–15): 16 × 16 m a 2 toques.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 2:2+4 | entrada 16",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 20"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -3.4,
+   "xmax": 19.4,
+   "ymin": -3,
+   "ymax": 19.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    16,
+    0
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    0,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 5.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.0,
+    "y": 11.75,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8.0,
+    "y": 7.25,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 13.25,
+    "y": 5.0,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": -1.6,
+    "f": 45
+   },
+   {
+    "r": "C",
+    "x": 17.6,
+    "y": -1.6,
+    "f": 135
+   },
+   {
+    "r": "C",
+    "x": 17.6,
+    "y": 17.6,
+    "f": -135
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 17.6,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     5.0
+    ],
+    "b": [
+     -0.8,
+     -0.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     -1.6,
+     -1.6
+    ],
+    "b": [
+     10.1,
+     11.0
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     11.0,
+     11.75
+    ],
+    "b": [
+     16.8,
+     16.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "id": "JL-0045",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "8v8 con apoyos exteriores",
+ "formato": "8v8 (4+4)",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "20 min",
+ "series": "4 rondas de 5 min. Cada 5 min, los 4 exteriores de cada equipo entran y los interiores salen (propuesta). Descanso 1 min.",
+ "objetivo": "Combinar interior y exterior: usar a los compañeros de fuera para salir de la presión y volver a entrar con ventaja. Errores típicos: pases largos al exterior sin ángulo, exteriores quietos, interiores sin apoyos cercanos. Qué observar: pase al exterior y devolución al interior con ventaja.",
+ "montaje": "Campo de 40 × 30 m. Cada equipo pone 4 jugadores dentro y 4 fuera, repartidos por los lados. Los exteriores amarillos solo juegan con amarillos, y los rojos con rojos. Un balón.",
+ "juego": "Se juega 4 contra 4 dentro y los exteriores de cada equipo apoyan. Los exteriores tocan máximo 2 veces, no entran al campo y no se les roba. Si un equipo pierde el balón, el otro ataca.",
+ "punto": "1 punto por cada 6 pases seguidos con 2 pases a exteriores. Se gana con 4 puntos.",
+ "consigna": "Sal a los lados y vuelve a entrar con ventaja.",
+ "variantes": {
+  "facil": "Exteriores con toques libres y campo de 44 × 34 m.",
+  "dificil": "Exteriores a 1 toque y campo de 36 × 28 m."
+ },
+ "adaptacion": "Cadete (14–15): 36 × 28 m. Juvenil (16–18): 40 × 30 m. Con 6v6: 36 × 26 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 8:8 | entrada 45",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 24"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto. Reparto de exteriores por los cuatro lados propuesto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3.4,
+   "xmax": 43.4,
+   "ymin": -3.4,
+   "ymax": 33.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8.0,
+    "y": 6.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 19.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30.5,
+    "y": 6.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11.0,
+    "y": 27.0,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 9.0,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 21.5,
+    "y": 15.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29.0,
+    "y": 24.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3.5,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 31.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.8,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 41.8,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 31.8,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": -1.8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 41.8,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.0,
+     6.0
+    ],
+    "b": [
+     8.6,
+     -1.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     -1.8
+    ],
+    "b": [
+     14.6,
+     18.0
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     15.5,
+     19.5
+    ],
+    "b": [
+     41,
+     7.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

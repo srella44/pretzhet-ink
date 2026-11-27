@@ -1,0 +1,185 @@
+{
+ "id": "JL-0058",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "6v6 apoyos en esquinas",
+ "formato": "6v6 (4+2)",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4 min. Cada ronda, los jugadores de las esquinas cambian por los del interior. Descanso 1 min (propuesta).",
+ "objetivo": "Jugar en espacio reducido combinando juego interior y apoyo de esquina. Errores típicos: pasar siempre a la misma esquina, esquinas que no se ofrecen, interiores sin movilidad. Qué observar: pase a la esquina y vuelta al interior con ventaja.",
+ "montaje": "Cuadrado de 30 × 30 m. 4 amarillos y 4 rojos dentro. Cada equipo pone 2 jugadores en esquinas opuestas, fuera del campo, que solo juegan con su equipo (amarillos en una diagonal, rojos en la otra).",
+ "juego": "Se juega 4 contra 4 dentro y los de las esquinas apoyan a su equipo. Las esquinas tocan máximo 2 veces, no entran al campo y no se les roba. Si se pierde el balón, el otro equipo ataca.",
+ "punto": "1 punto por cada 6 pases seguidos con al menos 1 pase a una esquina. Se gana con 4 puntos.",
+ "consigna": "Apóyate en la esquina y vuelve al interior.",
+ "variantes": {
+  "facil": "Esquinas con toques libres y campo de 34 × 34 m.",
+  "dificil": "Esquinas a 1 toque y campo de 26 × 26 m."
+ },
+ "adaptacion": "Infantil: 26 × 26 m. Cadete: 30 × 30 m a 2 toques. Con 5v5 (3 + 2): 26 × 26 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 | entrada 58",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 26"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -3.4,
+   "xmax": 33.4,
+   "ymin": -3.4,
+   "ymax": 33.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.0,
+    "y": 4.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20.4,
+    "y": 22.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.8,
+    "y": 6.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.2,
+    "y": 27.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13.2,
+    "y": 7.8,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 18.6,
+    "y": 15.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27.6,
+    "y": 25.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9.6,
+    "y": 20.4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -1.7,
+    "y": -1.7,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 31.7,
+    "y": 31.7,
+    "f": -135
+   },
+   {
+    "r": "B",
+    "x": 31.7,
+    "y": -1.7,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": -1.7,
+    "y": 31.7,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.0,
+     4.2
+    ],
+    "b": [
+     -0.6,
+     -0.6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     -1.7,
+     -1.7
+    ],
+    "b": [
+     19.32,
+     21.48
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     20.4,
+     22.2
+    ],
+    "b": [
+     31,
+     31
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

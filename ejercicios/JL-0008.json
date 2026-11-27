@@ -1,0 +1,163 @@
+{
+ "id": "JL-0008",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "2v2+2 comodines laterales",
+ "formato": "2v2 + 2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 3 min. Al acabar cada una, la pareja con menos puntos pasa a comodín y los comodines entran a jugar (propuesta).",
+ "objetivo": "Jugar con superioridad (4 contra 2) usando a los comodines para mover al rival y encontrar al libre. Errores típicos: pasar siempre al comodín sin progresar, comodines que no se ofrecen, defensores que persiguen en vez de cerrar líneas. Qué observar: pase al comodín y devolución rápida al tercer hombre.",
+ "montaje": "Cuadrado de 14 × 14 m. 2 amarillos contra 2 rojos dentro. Un comodín (blanco) fuera, en cada lado largo (izquierdo y derecho), que va siempre con quien tiene el balón.",
+ "juego": "Quien tiene el balón juega 4 contra 2. Los comodines solo se mueven a lo largo de su lado, máximo 2 toques, y los defensores no pueden entrar a su lado. Si los defensores roban, pasan a atacar.",
+ "punto": "1 punto por cada 5 pases seguidos con al menos 1 pase a un comodín. Si se roba o sale, se cuenta desde cero.",
+ "consigna": "Pasa al comodín y busca al libre.",
+ "variantes": {
+  "facil": "Comodines con toques libres y defensores que no roban en la primera vuelta.",
+  "dificil": "Comodines a 1 toque y los defensores pueden entrar a su lado."
+ },
+ "adaptacion": "Benjamín (8–9): campo de 12 × 12 m. Alevín (10–11): 14 × 14 m. Infantil (12–13): 16 × 16 m a 1 toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 2:2 + 2 | entrada 8",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 19"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 16.6,
+   "ymin": -2.6,
+   "ymax": 16.6
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    14,
+    14
+   ],
+   [
+    0,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 6,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.6,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15.6,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     4.5
+    ],
+    "b": [
+     -0.8,
+     6.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     -1.6,
+     7
+    ],
+    "b": [
+     8.6,
+     9.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     9,
+     9.5
+    ],
+    "b": [
+     15,
+     7.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    -2.2,
+    10.2,
+    "COMODÍN",
+    "start"
+   ],
+   [
+    16.2,
+    4.2,
+    "COMODÍN",
+    "end"
+   ]
+  ]
+ }
+}

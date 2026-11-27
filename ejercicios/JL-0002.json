@@ -1,0 +1,170 @@
+{
+ "id": "JL-0002",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Triángulo 3v1",
+ "formato": "3v1",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4 jug.",
+ "espacio": "Triángulo de 12 m de lado",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min; cada ronda cambia el defensor. Descanso 30 s (propuesta).",
+ "objetivo": "Que los tres atacantes se ofrezcan siempre a buena distancia, con el cuerpo orientado y sin quedarse quietos. Errores típicos: pasar sin mirar, juntarse dos en el mismo lado, apoyo quieto. Qué observar: el pase al pie libre que hace correr en vano al defensor.",
+ "montaje": "Triángulo de 12 m con 3 conos. Un atacante (amarillo) en cada lado, con un balón en uno. El defensor (azul) dentro, en el centro.",
+ "juego": "Los atacantes se pasan el balón a 1 o 2 toques y pueden deslizarse por su lado, sin salir de él. El defensor intenta robar o desviar. Si toca el balón, cambia con el atacante que falló.",
+ "punto": "1 punto por cada 6 pases seguidos. Gana quien más puntos junte tras las 4 rondas.",
+ "consigna": "Ofrécete por tu lado y juega al pie libre.",
+ "variantes": {
+  "facil": "Dos defensores pasivos que solo se mueven, sin robar, y toques libres.",
+  "dificil": "Máximo 1 toque y el defensor puede presionar desde el primer pase."
+ },
+ "adaptacion": "Benjamín (8–9): lados de 8 m. Alevín (10–11): 10 m. Infantil (12–13): 12 m a 1 toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 3:1 | entrada 2",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 18"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto muy cortado en la base, sin el PDF en el repositorio): solo da el tipo de juego, el reparto de comodines y el tiempo de cambio. (propuesta): medidas, colocación exacta, reglas de toques y de pérdida, puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 14.6,
+   "ymin": -2.6,
+   "ymax": 14.6
+  },
+  "dashed": true,
+  "tag": "triángulo 12 m",
+  "cones": [
+   [
+    6,
+    0.6
+   ],
+   [
+    0.8,
+    11.2
+   ],
+   [
+    11.2,
+    11.2
+   ]
+  ],
+  "lines": [
+   [
+    [
+     6,
+     0.6
+    ],
+    [
+     0.8,
+     11.2
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0.8,
+     11.2
+    ],
+    [
+     11.2,
+     11.2
+    ],
+    "6 5"
+   ],
+   [
+    [
+     11.2,
+     11.2
+    ],
+    [
+     6,
+     0.6
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.4,
+    "y": 5.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8.6,
+    "y": 5.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11.2,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 7.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     11.2
+    ],
+    "b": [
+     3.8,
+     6.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     3.4,
+     5.8
+    ],
+    "b": [
+     8.6,
+     5.8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     8.6,
+     5.8
+    ],
+    "b": [
+     6.2,
+     10.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}
