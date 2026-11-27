@@ -1,0 +1,136 @@
+{
+ "id": "FB-009",
+ "bloque": "Técnica y duelos",
+ "titulo": "Control, pase y 1 contra 1",
+ "formato": "Parejas 1v1",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–8 jug. (parejas)",
+ "espacio": "15 × 8 m",
+ "duracion": "12 min",
+ "series": "5 duelos por jugador; se cambia de papel y de pareja cada 5 duelos (propuesta).",
+ "objetivo": "Controlar orientado un pase y atacar el 1 contra 1 con decisión; el que pasa defiende. Cómo explicarlo: «controla hacia el lado libre y arranca». Errores típicos: control hacia el defensor, esperar el balón, defender sin cerrar el pase. Qué observar: primer toque orientado y decisión de regate o disparo. Material: 4 conos, 2 balones.",
+ "montaje": "Calle de 15 × 8 m con una puerta de 3 m en cada fondo. Defensor D en un fondo con balón; atacante A a 8 m, de frente.",
+ "juego": "D pasa raso a A (1). A controla orientado (2) y D sale a defender. A intenta pasar la puerta de D conduciendo (3); si D roba, sale hacia la otra puerta.",
+ "punto": "Cruzar la puerta conduciendo: 1 punto. Robar y cruzar la contraria: 1 punto. Gana quien más tenga en 5 duelos.",
+ "consigna": "Control hacia donde no está el defensor.",
+ "variantes": {
+  "facil": "Defensor que solo acompaña, sin robar (propuesta).",
+  "dificil": "Defensor con pase corto de 2 s y puerta de 2 m (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): puerta de 4 m. Alevín (10–11): 3 m. Infantil (12–13): 2 m y a un toque.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONTROL PASE Y 1X1",
+  "ref": "https://toplidercoach.com/futbol-base/control-pase-y-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Duelo en calle con puerta (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    0,
+    2.5
+   ],
+   [
+    0,
+    5.5
+   ],
+   [
+    15,
+    2.5
+   ],
+   [
+    15,
+    5.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 2,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     4
+    ],
+    "b": [
+     9.4,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     4
+    ],
+    "b": [
+     8,
+     2.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     2.5
+    ],
+    "b": [
+     14.4,
+     3.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    0,
+    7.8,
+    "PUERTA D",
+    "start"
+   ],
+   [
+    15,
+    7.8,
+    "PUERTA A",
+    "end"
+   ]
+  ]
+ }
+}

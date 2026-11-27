@@ -1,0 +1,246 @@
+{
+ "id": "LU-P080",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda: pared y gira",
+ "formato": "Rueda 7 postas",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa; sentido contrario cada serie (propuesta).",
+ "objetivo": "Dejar de cara, presentar otra línea de pase, girar y hacer pared. Se juega con comunicación directa: «De cara», «Gira» (fuente). Cómo explicarlo: «habla antes de recibir». Errores típicos: esperar parado, no avisar, girar sin mirar. Qué observar: voz del jugador, perfil del cuerpo y que se mueva hacia la zona marcada antes del pase. Material: 8 conos y 4 discos para la zona, 1 balón.",
+ "montaje": "Cuadrado de 25 × 25 m con 6 postas (A, B, C, E, F, G) y una zona de 4 discos en el centro (D). 10 jugadores, 1–2 por posta.",
+ "juego": "A pasa a B (1); B deja de cara a C y corre a la zona (2). C devuelve a B, que dice «Gira» (3). B recibe, gira y juega con E (4). E pasa a F (5), que hace pared con G y juega con A (6).",
+ "punto": "Rueda sin fallos y con las voces dichas: 1 punto. Sin voz o pase perdido: se reinicia.",
+ "consigna": "Habla, gira y no esperes parado.",
+ "variantes": {
+  "facil": "Sin zona marcada: B recibe donde quiera (propuesta).",
+  "dificil": "A un toque en C y G, y con balón extra desde E (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 20 × 20 m y control libre. Infantil (12–13): 25 × 25 m. La rotación sigue el alfabeto (A pasa a B).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE - Conceptos técnicos - Interacciones",
+  "ref": "300 ejercicios Level Up Coach · tarea 79 (pág. 80)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente da la secuencia de 7 pases, las voces «De cara» y «Gira», 10 jugadores y 25 × 25 m; sin dibujo disponible, la posición de las postas, la puntuación, series, variantes y adaptación son (propuesta). Diagrama parcial.",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -3,
+   "ymax": 28
+  },
+  "discs": [
+   [
+    11,
+    11
+   ],
+   [
+    13,
+    11
+   ],
+   [
+    11,
+    13
+   ],
+   [
+    13,
+    13
+   ]
+  ],
+  "cones": [
+   [
+    3,
+    3
+   ],
+   [
+    12,
+    2
+   ],
+   [
+    22,
+    6
+   ],
+   [
+    22,
+    19
+   ],
+   [
+    12,
+    23
+   ],
+   [
+    3,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 21.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     5
+    ],
+    "b": [
+     11.2,
+     4.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     4.5
+    ],
+    "b": [
+     12,
+     10.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     3.8
+    ],
+    "b": [
+     21.4,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     22,
+     7.5
+    ],
+    "b": [
+     13,
+     11.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 4
+   },
+   {
+    "a": [
+     12.2,
+     12.4
+    ],
+    "b": [
+     21.4,
+     17.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 5
+   }
+  ],
+  "labels": [
+   [
+    1.8,
+    3.6,
+    "A",
+    "end"
+   ],
+   [
+    12,
+    1.2,
+    "B",
+    "middle"
+   ],
+   [
+    23.4,
+    6.8,
+    "C",
+    "start"
+   ],
+   [
+    12,
+    14.9,
+    "ZONA D",
+    "middle"
+   ],
+   [
+    23.4,
+    18.5,
+    "E",
+    "start"
+   ],
+   [
+    12,
+    25,
+    "F",
+    "middle"
+   ],
+   [
+    1.8,
+    16.8,
+    "G",
+    "end"
+   ]
+  ]
+ }
+}

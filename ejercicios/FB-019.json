@@ -1,0 +1,133 @@
+{
+ "id": "FB-019",
+ "bloque": "Calentamiento",
+ "titulo": "¿Quién es el jefe?",
+ "formato": "Juego en círculo",
+ "edad": "12–15 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 1′30″; se cambia de adivinador en cada una (propuesta).",
+ "objetivo": "Atención y conducción con regates: copiar al líder sin mirarlo fijamente y esconder quién manda. Cómo explicarlo: «mira a todos y copia sin delatar al jefe». Errores típicos: mirar siempre al jefe, copiar tarde, regates sin balón controlado. Qué observar: periferia visual, variedad de regates y control. Material: 1 balón por jugador, 4 conos.",
+ "montaje": "Cuadrado de 14 × 14 m. Cada jugador con balón, en círculo de 8 m. Un adivinador de espaldas; el entrenador señala al jefe sin que lo vea.",
+ "juego": "El jefe cambia de movimiento cada 8″ (suela, croqueta, giro) (1) y todos lo copian conduciendo en el sitio (2). El adivinador vuelve y observa (3); tiene 3 intentos para señalar al jefe.",
+ "punto": "Si acierta: el jefe pasa a adivinador y suma 1 punto. Si falla 3 veces: el jefe gana 2 puntos.",
+ "consigna": "Copia sin mirar y esconde al jefe.",
+ "variantes": {
+  "facil": "Movimientos sencillos y sin tiempo límite (propuesta).",
+  "dificil": "Dos jefes a la vez y el adivinador solo 2 intentos (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): movimientos sencillos. Cadete (14–15): ritmo de cambio de 5″ y regates más técnicos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "¿Quién es el jefe?",
+  "ref": "https://toplidercoach.com/futbol-base/quien-es-el-jefe/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Juego de imitar al líder con balón (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1,
+   "ymax": 17
+  },
+  "tag": "círculo 11 m",
+  "zones": [
+   {
+    "t": "circle",
+    "x": 8,
+    "y": 8,
+    "r": 5.6
+   }
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 8,
+    "y": 2.4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.85,
+    "y": 5.2,
+    "f": -30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.85,
+    "y": 10.8,
+    "f": 30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.0,
+    "y": 13.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.15,
+    "y": 10.8,
+    "f": 150,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.15,
+    "y": 5.2,
+    "f": 210,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     3.2
+    ],
+    "b": [
+     8,
+     5.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    8,
+    16.2,
+    "JEFE (ROJO) CAMBIA EL MOVIMIENTO",
+    "middle"
+   ],
+   [
+    8,
+    6.4,
+    "ADIVINADOR",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,196 @@
+{
+ "id": "LU-P208",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de cuatro y cambios",
+ "formato": "Rueda 4 postas",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug.",
+ "espacio": "25 × 10 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 45″ de pausa; sentido contrario en la 3.ª (propuesta).",
+ "objetivo": "Rueda de pases con cuatro postas para trabajar paredes, cambios de lugar y pases en diagonal con desmarque (fuente: pase doble, pared, diagonal y pared posterior al cambio). Cómo explicarlo: «pasa y cambia de sitio». Errores típicos: pasar y quedarse parado, pared sin ángulo, diagonal sin esperar al compañero. Qué observar: ritmo de los pases cortos y el cambio de posta. Material: 8 conos, 1 balón (2 si hay 8 jugadores).",
+ "montaje": "Rectángulo de 25 × 10 m con 4 postas: A y B a 6 m (izquierda), C y D a 6 m (a 12 m de A y B). Un jugador por posta. Balón en A. (Lectura propuesta.)",
+ "juego": "A pasa a B y B devuelve (1–2). B corre a C y hace pared (3), y juega en diagonal a D (4). D y C se dan pase y devolución a 6 m y cambian de sitio (5). Todos rotan a la posta siguiente.",
+ "punto": "Secuencia completa sin fallo: 1 punto. 5 seguidas: 3 extra. Balón caído: vuelve a 0.",
+ "consigna": "Pasa, cambia y ofrece la pared.",
+ "variantes": {
+  "facil": "Sin cambio de sitio ni diagonal: solo pared y pase doble (propuesta).",
+  "dificil": "Todo a un toque, con 2 balones desfasados 2 pases (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 20 × 10 m y control libre. Infantil (12–13): 25 × 10 m y a un toque. Con 8 jugadores, dos rondas a la vez.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE - DESMARQUES - Hugo Álvarez @HugoAlvrz",
+  "ref": "300 ejercicios Level Up Coach · tarea 207 (pág. 208)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente describe de forma vaga cuatro postas, 25 × 10 m y 4 jugadores. La colocación de las postas, el orden exacto de los pases (lectura propia del texto), puntuación, series, variantes y adaptación son (propuesta). Diagrama parcial (pases 1–5).",
+ "diagrama": {
+  "field": [
+   25,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    15,
+    9
+   ],
+   [
+    15,
+    1
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 2.2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 7.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 2.2,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     2.2
+    ],
+    "b": [
+     3.5,
+     7.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     2.5,
+     7.2
+    ],
+    "b": [
+     2.5,
+     2.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     8
+    ],
+    "b": [
+     12,
+     8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     4,
+     7.4
+    ],
+    "b": [
+     14.4,
+     2.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     15,
+     3
+    ],
+    "b": [
+     15,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 5
+   }
+  ],
+  "labels": [
+   [
+    1.6,
+    1.2,
+    "A",
+    "end"
+   ],
+   [
+    1.6,
+    9.4,
+    "B",
+    "end"
+   ],
+   [
+    16.4,
+    9.4,
+    "C",
+    "start"
+   ],
+   [
+    16.4,
+    1.2,
+    "D",
+    "start"
+   ],
+   [
+    22,
+    5.4,
+    "ESPACIO LIBRE",
+    "middle"
+   ]
+  ]
+ }
+}

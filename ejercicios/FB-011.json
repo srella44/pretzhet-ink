@@ -1,0 +1,169 @@
+{
+ "id": "FB-011",
+ "bloque": "Finalización",
+ "titulo": "Circuito centro y tiro",
+ "formato": "Circuito 1+2+3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug. + PT",
+ "espacio": "30 × 28 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min; cada serie, el circuito va por una banda (propuesta).",
+ "objetivo": "Centro lateral con carrera de los rematadores a primer y segundo palo y remate de primera. Cómo explicarlo: «el de la banda mira y los de dentro cruzan». Errores típicos: centro sin mirar, rematadores que llegan juntos, remate sin colocar. Qué observar: puntería, timing de la carrera y el portero que sale. Material: portería con portero, 8 balones, 4 conos.",
+ "montaje": "Medio campo de 30 × 28 m con portería y portero. Mediocentro M con balón en el centro, lateral L en la banda derecha, 2 delanteros en el borde del área.",
+ "juego": "M pasa a L (1). L conduce por la banda (2) y centra al área (3). Los delanteros arrancan a la vez, uno al primer palo y otro al segundo (4), y rematan de primera.",
+ "punto": "Gol: 2. Tiro entre palos: 1. Centro que supera a ambos: 0. Rotan: M a L, L a delantero, delanteros a M.",
+ "consigna": "Mira, centra y llega por el palo contrario.",
+ "variantes": {
+  "facil": "Centro raso desde 8 m del área y sin portero (propuesta).",
+  "dificil": "Un defensor pasivo en el área y centro con rebote posible (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): centro raso y 24 × 24 m. Infantil (12–13): centro aéreo y 30 × 28 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO CENTRO LATERAL Y TIRO",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-centro-lateral-y-tiro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Circuito de centro con dos rematadores (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   28
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -2.5,
+   "ymax": 30
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 13,
+    "y": 25,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 19,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 12,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 13,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     25
+    ],
+    "b": [
+     24.2,
+     19.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     18
+    ],
+    "b": [
+     27,
+     8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     26.5,
+     8
+    ],
+    "b": [
+     15.5,
+     3.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     7,
+     12
+    ],
+    "b": [
+     10.5,
+     5.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     21,
+     13
+    ],
+    "b": [
+     20.5,
+     5.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    11.4,
+    26.2,
+    "M",
+    "end"
+   ],
+   [
+    26.6,
+    19.6,
+    "L",
+    "start"
+   ]
+  ]
+ }
+}

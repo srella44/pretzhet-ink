@@ -1,0 +1,239 @@
+{
+ "id": "LU-P014",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda: tercer hombre",
+ "formato": "Rueda 7 postas",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "13 jug.",
+ "espacio": "18 × 30 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa; se cambia el sentido de la rueda cada serie para trabajar los dos perfiles (fuente: cambiar el sentido cada varias repeticiones).",
+ "objetivo": "Dejar de cara y tercer hombre: recibir de primera, dejar el balón orientado al compañero que viene en apoyo y pasar a un tercero. Cómo explicarlo: «déjala de cara y vete a la siguiente posta». Errores típicos: dejada hacia el propio pie, esperar parado al pase, pase flojo. Qué observar: perfil del cuerpo, primer toque y que el siguiente jugador ya esté en movimiento. Material: 8 conos, 2 balones, petos.",
+ "montaje": "7 postas (A–G) en zigzag en 18 × 30 m, con un cono en cada una. Unos 13 jugadores: 1–2 por posta. El balón sale de A.",
+ "juego": "A pasa a B (1); B deja de cara a C (2); C juega de primera con D, que llega en apoyo (3), y D deja de cara a B (4). B pasa a E (5). Cada uno corre a la posta siguiente (orden alfabético). Sigue hasta G.",
+ "punto": "Vuelta completa sin que se pare el balón: 1 punto. Pase perdido: se reinicia en A y la rueda vuelve a 0.",
+ "consigna": "Déjala de cara y sigue tu pase.",
+ "variantes": {
+  "facil": "Primera vuelta con control libre y 2 toques (propuesta).",
+  "dificil": "Todo a un toque, con 2 balones a la vez desde A y desde E (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques en B y D. Infantil (12–13): de primera. Sentido contrario cada serie. La fuente es de entrenamiento profesional: edad y puntuación son propuesta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE - Conceptos básicos - Técnica individual",
+  "ref": "300 ejercicios Level Up Coach · tarea 13 (pág. 14)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente da la secuencia completa de 11 pases con 7 postas A–G, 13 jugadores y 18 × 30 m; el dibujo no estaba disponible: la colocación de las postas y los 4–5 primeros pases dibujados, puntuación, series, variantes y adaptación son (propuesta). Diagrama parcial (pases 1–5).",
+ "diagrama": {
+  "field": [
+   18,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 21,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "cones": [
+   [
+    9,
+    1.2
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    15,
+    10
+   ],
+   [
+    9,
+    15
+   ],
+   [
+    3,
+    21
+   ],
+   [
+    15,
+    23
+   ],
+   [
+    9,
+    28.8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 16.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 22.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 24.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 27,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     3
+    ],
+    "b": [
+     3.6,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     9.5
+    ],
+    "b": [
+     14.4,
+     11.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     11.5
+    ],
+    "b": [
+     9.7,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     9,
+     16.5
+    ],
+    "b": [
+     3.5,
+     10.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     3,
+     9.5
+    ],
+    "b": [
+     3,
+     21.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 5,
+    "nt": 0.55
+   }
+  ],
+  "labels": [
+   [
+    10.4,
+    2.2,
+    "A",
+    "start"
+   ],
+   [
+    1.2,
+    8.2,
+    "B",
+    "end"
+   ],
+   [
+    16.4,
+    10.8,
+    "C",
+    "start"
+   ],
+   [
+    10.4,
+    15.4,
+    "D",
+    "start"
+   ],
+   [
+    1.2,
+    21.2,
+    "E",
+    "end"
+   ],
+   [
+    16.4,
+    23.8,
+    "F",
+    "start"
+   ],
+   [
+    10.4,
+    28,
+    "G",
+    "start"
+   ]
+  ]
+ }
+}

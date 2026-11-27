@@ -1,0 +1,148 @@
+{
+ "id": "RONDO-PLANB-06",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Fútbol-tenis 2v2",
+ "formato": "2v2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4 jug.",
+ "espacio": "12 × 8 m",
+ "duracion": "12 min",
+ "series": "Sets a 7 puntos; 3 sets cambiando de pareja para jugar con cada compañero (propuesta).",
+ "objetivo": "Controlar y pasar con el balón en el aire y con un bote, y colocar la pelota donde el rival no llega (fuente: juego con red de conos y un bote). Cómo explicarlo: «controla, pasa al compañero y devuelve por encima de la red». Errores típicos: golpear fuerte sin mirar, dejar botar dos veces, no hablar con el compañero. Qué observar: control con el interior, colocación en la mitad propia y comunicación. Con los pequeños, cogerlo con las manos (fuente). Material: 5 conos, 1 balón.",
+ "montaje": "Campo de 12 × 8 m partido por 5 conos en fila (la red). Dos parejas, una en cada mitad. Saca la pareja A desde el fondo.",
+ "juego": "El saque bota y se juega con el pie por encima de la red (1). Cada pareja da hasta 3 toques con 1 bote por mitad (2) y devuelve por encima de la red (3).",
+ "punto": "Punto para quien deja botar 2 veces, falla la red o saca fuera. Set a 7. Saca quien gana el punto.",
+ "consigna": "Un bote, tres toques y por encima de la red.",
+ "variantes": {
+  "facil": "Con las manos para coger y lanzar, o con 2 botes (fuente; propuesta).",
+  "dificil": "Sin bote: volea o control en el aire, o saque desde 3 m más atrás (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): con manos y 2 botes. Alevín/infantil (10–13): con los pies y 1 bote. Si hay más de 4, dos campos y el equipo perdedor sube de campo (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Fútbol-tenis",
+  "ref": "RONDO Bonus 3 · Plan B · «Vienen 4»"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Medidas, número de toques, puntuación a 7, saque, sets y rotación de parejas son (propuesta). Fuente: red de conos, se permite un bote y con pequeños se puede coger con las manos.",
+ "diagrama": {
+  "field": [
+   12,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    6,
+    0.2
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7.8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 6.2,
+    "f": 180
+   }
+  ],
+  "balls": [],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     2
+    ],
+    "b": [
+     9,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 12,
+    "n": 1,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     9.5,
+     2.5
+    ],
+    "b": [
+     4,
+     5.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     3.5,
+     6
+    ],
+    "b": [
+     8.8,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.9,
+    "RED DE CONOS",
+    "middle"
+   ]
+  ]
+ }
+}

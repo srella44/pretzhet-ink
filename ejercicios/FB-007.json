@@ -1,0 +1,206 @@
+{
+ "id": "FB-007",
+ "bloque": "Técnica y duelos",
+ "titulo": "Técnica individual Ajax",
+ "formato": "Circuito 4 postas",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "4–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "14 min",
+ "series": "4 postas de 2′ con 20″ de cambio; 2 vueltas completas (propuesta).",
+ "objetivo": "Muchos toques con ambos pies en pocos minutos, como en las escuelas de formación: control, conducción, giro y pase a pared. Cómo explicarlo: «un balón por cabeza y no te pares». Errores típicos: golpear fuerte, mirar siempre el balón, usar solo la pierna buena. Qué observar: toques con las dos piernas y rapidez en el cambio de posta. Material: 4 balones, 12 conos, 1 pared o rebotador.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 postas en las esquinas: (1) toques y suelas, (2) zigzag de 4 conos, (3) giros en un aro, (4) pase a pared. 1–3 jugadores por posta, cada uno con balón.",
+ "juego": "A la señal cada uno hace su ejercicio durante 2′ (1). Al silbato, todos giran a la derecha a la posta siguiente con el balón controlado (2).",
+ "punto": "Cada toque correcto en la pared: 1 punto. Mejor marca personal: 3 extra. Balón perdido: 0 esa vuelta.",
+ "consigna": "Dos pies, cabeza arriba, no te pares.",
+ "variantes": {
+  "facil": "Un ejercicio por posta, con 1 min por posta (propuesta).",
+  "dificil": "Con la pierna mala en postas 1 y 3 y a un toque en la pared (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): postas de 1′ y solo toques. Benjamín (8–9): 2′. Alevín (10–11): las 4 postas con pierna mala.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "Técnica individual Ajax",
+  "ref": "https://toplidercoach.com/futbol-base/tecnica-individual-ajax/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Idea: circuito de 4 postas técnicas (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    2.5,
+    2.5
+   ],
+   [
+    4.5,
+    2.5
+   ],
+   [
+    3.5,
+    4.5
+   ],
+   [
+    17,
+    2
+   ],
+   [
+    17,
+    4.5
+   ],
+   [
+    17,
+    7
+   ],
+   [
+    17,
+    9.5
+   ],
+   [
+    3,
+    17
+   ],
+   [
+    5.5,
+    17.5
+   ],
+   [
+    16,
+    16
+   ],
+   [
+    18.5,
+    16.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 5.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     3.5
+    ],
+    "b": [
+     3.5,
+     9.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     17.5,
+     3
+    ],
+    "b": [
+     17.5,
+     10
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     17
+    ],
+    "b": [
+     8,
+     12
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     17,
+     18
+    ],
+    "b": [
+     12.5,
+     18
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    3.5,
+    0.6,
+    "TOQUES",
+    "middle"
+   ],
+   [
+    17,
+    0.6,
+    "ZIGZAG",
+    "middle"
+   ],
+   [
+    4,
+    20.6,
+    "GIROS",
+    "middle"
+   ],
+   [
+    17,
+    20.6,
+    "PARED",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "FB-017",
+ "bloque": "Finalización",
+ "titulo": "Agilidad, velocidad y tiro",
+ "formato": "Circuito 1+1+PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug. + PT",
+ "espacio": "30 × 24 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa; 2 vueltas por jugador y serie (propuesta).",
+ "objetivo": "Acabar un circuito corto de agilidad y velocidad con un tiro a puerta con cansancio ligero y decisión rápida. Cómo explicarlo: «pies rápidos, sprint y dispara sin pararte». Errores típicos: llegar al balón sin orientar el cuerpo, tirar al centro, pisar los conos. Qué observar: la velocidad en el último metro y el golpeo. Material: portería con portero, 8 conos, 6 balones.",
+ "montaje": "Medio campo de 30 × 24 m con portería y portero. Zigzag de 4 conos a 2 m al pie del campo. Un pasador S con balones en el borde del área. Fila de jugadores en la salida.",
+ "juego": "El jugador esquiva los 4 conos (1), esprinta al borde del área (2), recibe un pase raso de S (3) y chuta de primera (4). Vuelve a la fila y sale el siguiente.",
+ "punto": "Gol: 2. Tiro entre palos: 1. Cono derribado: -1.",
+ "consigna": "Esquiva, esprinta y dispara de primera.",
+ "variantes": {
+  "facil": "Con 2 conos y balón parado en el borde (propuesta).",
+  "dificil": "Pase del pasador a un toque y 1 defensor pasivo en el área (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): zigzag de 3 conos. Infantil (12–13): 4 conos y chut de primera. Con 8 jugadores, 2 filas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD+VELOCIDAD+TIRO",
+  "ref": "https://toplidercoach.com/futbol-base/agilidadvelocidadtiro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Circuito de zigzag, sprint y tiro (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -2.5,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    4,
+    21.5
+   ],
+   [
+    6.5,
+    19.5
+   ],
+   [
+    9,
+    21.5
+   ],
+   [
+    11.5,
+    19.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 22.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 16,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     22
+    ],
+    "b": [
+     12,
+     20.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     12.5,
+     19.5
+    ],
+    "b": [
+     16,
+     13
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     23,
+     16
+    ],
+    "b": [
+     17.5,
+     13.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     15.5,
+     13
+    ],
+    "b": [
+     15.5,
+     1.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    25.6,
+    15,
+    "S",
+    "start"
+   ]
+  ]
+ }
+}

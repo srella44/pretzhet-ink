@@ -1,0 +1,170 @@
+{
+ "id": "LU-P299",
+ "bloque": "Finalización",
+ "titulo": "Acciones grupales de remate",
+ "formato": "Circuito 3 zonas",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–11 jug. + PT",
+ "espacio": "45 × 50 m",
+ "duracion": "15 min",
+ "series": "2 bloques de 6 min (uno por variante) con 1 min de pausa; 2 jugadores por posición para no esperar (fuente).",
+ "objetivo": "Repetir acciones cortas de grupo: pared interior–delantero y pase al espacio, y la variante con extremo que se mueve a línea de pase central. Cómo explicarlo: «pared, pase al espacio y llega de segunda línea». Errores típicos: pared sin ángulo, pase al pie del extremo en vez de al espacio, no llegar de segunda línea. Qué observar: tiempos de salida y control orientado. Material: portería con portero, 10 balones, conos, petos.",
+ "montaje": "45 × 50 m con portería y portero. Dos jugadores por posición: interior (I) a la izquierda, delantero centro (DC) en el centro y extremo (E) a la derecha. I con balón.",
+ "juego": "Variante 1: I pasa a DC (1) y se desmarca; DC devuelve de primera (2) e I pasa al espacio a E (3), que conduce (4) y centra o chuta (5). Variante 2: I–E–DC y I llega de segunda línea.",
+ "punto": "Gol: 2. Tiro entre palos: 1. Pared fallada: 0. Rotan: I a DC, DC a E, E al final.",
+ "consigna": "Pared, espacio y llega de segunda línea.",
+ "variantes": {
+  "facil": "Sin portero ni segunda línea: solo la pared y el pase al extremo (propuesta).",
+  "dificil": "Un defensor pasivo ante el DC y todo a un toque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 30 × 40 m y sin portero. Infantil (12–13): 45 × 50 m. En fútbol 7: I, DC y E con 1 jugador por posición.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIONES GRUPALES COMBINADAS DE FINALIZACIÓN",
+  "ref": "300 ejercicios Level Up Coach · tarea 298 (pág. 299)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente describe dos variantes de acción grupal (11 jugadores, 45 × 50 m, dos por posición). Colocación en el campo, puntuación, series, variantes y adaptación son (propuesta). Diagrama de la variante 1.",
+ "diagrama": {
+  "field": [
+   45,
+   50
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 46,
+   "ymin": -3,
+   "ymax": 51
+  },
+  "porterias": [
+   {
+    "x": 22.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 40,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 28,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 38,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     40
+    ],
+    "b": [
+     21,
+     29
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     28
+    ],
+    "b": [
+     9,
+     39
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     41
+    ],
+    "b": [
+     37,
+     38.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3,
+    "nt": 0.45
+   },
+   {
+    "a": [
+     38,
+     36
+    ],
+    "b": [
+     35,
+     16
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 4
+   },
+   {
+    "a": [
+     34,
+     15
+    ],
+    "b": [
+     24,
+     2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 5
+   }
+  ],
+  "labels": [
+   [
+    6,
+    41.5,
+    "I",
+    "end"
+   ],
+   [
+    24.8,
+    27,
+    "DC",
+    "start"
+   ],
+   [
+    40,
+    39.5,
+    "E",
+    "start"
+   ]
+  ]
+ }
+}

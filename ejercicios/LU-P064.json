@@ -1,0 +1,209 @@
+{
+ "id": "LU-P064",
+ "bloque": "Finalización",
+ "titulo": "3.er hombre y centro",
+ "formato": "Circuito 6+",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug. + PT",
+ "espacio": "40 × 36 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa; la banda derecha y la izquierda alternan por serie (propuesta).",
+ "objetivo": "Coordinar el tercer hombre, el desdoblamiento del lateral y el centro con remate (fuente). Cómo explicarlo: «pasa, deja de cara y el lateral sube por fuera». Errores típicos: dejada al lado equivocado, lateral que no sube hasta que el balón llega, rematadores que se quedan parados. Qué observar: el momento del desdoblamiento y las carreras al primer y segundo palo. Material: portería con portero, 8 balones, 6 conos, petos.",
+ "montaje": "Medio campo de 40 × 36 m con portería y portero. A con balón al centro; B de apoyo a su derecha; C a 12 m delante; D lateral en banda; 2 rematadores en el área.",
+ "juego": "A pasa al apoyo de B (1). B deja de cara a C (2) mientras D se desdobla por fuera de B (3). C pasa en profundidad a D (4), que centra (5); los 2 rematadores atacan primer y segundo palo.",
+ "punto": "Gol: 2. Tiro entre palos: 1. Centro o pase perdido: 0. Rotan: A a B, B a C, C a D, D a rematador.",
+ "consigna": "Pasa, deja y sube por fuera.",
+ "variantes": {
+  "facil": "Sin portero y sin centro: finaliza C desde dentro (propuesta).",
+  "dificil": "Un defensor pasivo en la zona del centro y salida a un toque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 35 × 30 m y centro raso. Infantil (12–13): 40 × 36 m y centro aéreo. En fútbol 7: 2 rematadores. La fuente combina acciones centrales y de banda a la vez.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIONES COMBINADAS CON BALÓN - 3º Hombre - Centro lateral - Desmarques - Remates",
+  "ref": "300 ejercicios Level Up Coach · tarea 63 (pág. 64)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente describe la secuencia de pases del tercer hombre + centro lateral y la acción central con ruptura (22 jugadores en dos estaciones a la vez). Aquí se dibuja y desarrolla la primera acción en una sola banda; medidas, puntuación, series, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   36
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -2.5,
+   "ymax": 38
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 16,
+    "y": 33,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 25,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 9,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     33
+    ],
+    "b": [
+     26,
+     28
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     27
+    ],
+    "b": [
+     19,
+     20.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     37,
+     24
+    ],
+    "b": [
+     37,
+     13
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     18,
+     20
+    ],
+    "b": [
+     35,
+     16.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 4,
+    "nt": 0.45
+   },
+   {
+    "a": [
+     36,
+     15
+    ],
+    "b": [
+     24,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 5
+   },
+   {
+    "a": [
+     13,
+     9
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 6
+   }
+  ],
+  "labels": [
+   [
+    14.4,
+    34.4,
+    "A",
+    "end"
+   ],
+   [
+    28.6,
+    26.6,
+    "B",
+    "start"
+   ],
+   [
+    16.4,
+    19.6,
+    "C",
+    "end"
+   ],
+   [
+    38.4,
+    25.5,
+    "D",
+    "start"
+   ]
+  ]
+ }
+}

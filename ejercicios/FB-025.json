@@ -1,0 +1,129 @@
+{
+ "id": "FB-025",
+ "bloque": "Calentamiento",
+ "titulo": "101 dálmatas",
+ "formato": "Pillar 2v6",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 1′30″ con 30″ de pausa; cambian los «Cruella» cada ronda.",
+ "objetivo": "Conducir con el balón pegado al pie mientras se evita al perseguidor, y ayudar al compañero. Cómo explicarlo: «los dálmatas se salvan entre todos». Errores típicos: mirar solo el balón, no avisar al compañero, correr sin controlar. Qué observar: cabeza levantada, apoyo al compañero y reglas de congelado. Material: 12 balones, petos.",
+ "montaje": "Cuadrado de 14 × 14 m. Dálmatas con balón dentro; 2 «Cruella» con peto, sin balón. Nadie sale del cuadrado.",
+ "juego": "Los dálmatas conducen y las Cruella intentan tocarlos (1). El tocado se queda quieto con las piernas abiertas y el balón parado. Un compañero lo libera pasándole el balón entre las piernas (2).",
+ "punto": "Si las Cruella congelan a todos antes de acabar el tiempo: 1 punto. Si no, ganan los dálmatas.",
+ "consigna": "Conduce, evita y libera al compañero.",
+ "variantes": {
+  "facil": "Solo 1 Cruella y 8 m de cuadrado (propuesta).",
+  "dificil": "3 Cruella y balón liberador a un toque (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): 1 Cruella y libera pasando cerca. Benjamín (8–9): 2 Cruella y por debajo de las piernas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "101 DALMATAS",
+  "ref": "https://toplidercoach.com/futbol-base/101-dalmatas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Pillar con liberación pasando el balón (propuesta).",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 15.5,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 3,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 9.5,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     10.5
+    ],
+    "b": [
+     10.5,
+     11.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    13.8,
+    13,
+    "CONGELADO",
+    "end"
+   ],
+   [
+    10.4,
+    5.2,
+    "CRUELLA",
+    "start"
+   ]
+  ]
+ }
+}

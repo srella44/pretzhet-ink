@@ -1,0 +1,165 @@
+{
+ "id": "FB-001",
+ "bloque": "Calentamiento",
+ "titulo": "Guardar la casa",
+ "formato": "Juego 4v4",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2′ con 30″ de pausa; se cambian los guardianes cada ronda.",
+ "objetivo": "Conducir y regatear con el balón pegado al pie mientras se defiende una zona: atacar y defender en el mismo juego. Cómo explicarlo: «llévate un balón de la casa del otro y guarda el tuyo». Errores típicos: todos atacan y nadie guarda, mirar el balón y no el espacio, usar las manos. Qué observar: cabeza levantada, protección del balón y reacción de los guardianes. Material: 4 aros o conos de zona, 12 balones, petos.",
+ "montaje": "Campo de 20 × 14 m. Dos casas de 3 × 3 m, una en cada fondo, con 5 balones cada una. Dos equipos de 3–4: 1 guardián por casa y el resto atacantes.",
+ "juego": "A la señal, los atacantes cogen con el pie un balón de la casa rival y lo llevan conduciendo a la suya (1). El guardián defiende solo dentro de su casa y a 2 m, sin manos.",
+ "punto": "Balón en casa propia: 1 punto. Balón robado fuera de la casa: sigue en juego. Gana quien tenga más tras 2′.",
+ "consigna": "Roba uno, protege y guarda el tuyo.",
+ "variantes": {
+  "facil": "Sin guardianes y solo robar balones (propuesta).",
+  "dificil": "Un guardián por equipo con libertad total y balones distintos (propuesta)."
+ },
+ "adaptacion": "Prebenjamín (6–7): 3 contra 3 y 3 balones. Benjamín (8–9): 4 contra 4. Alevín (10–11): guardián con tiempo limitado de 20″.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "GUARDAR LA CASA",
+  "ref": "https://toplidercoach.com/futbol-base/11786/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Idea: dos casas con balones y un guardián (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -3,
+   "ymax": 17
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     5.5,
+     3,
+     8.5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     17,
+     5.5,
+     20,
+     8.5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18.5,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "balls": [
+   [
+    0.7,
+    6.2
+   ],
+   [
+    2.3,
+    7.8
+   ],
+   [
+    18,
+    6.3
+   ],
+   [
+    19,
+    7.7
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     7
+    ],
+    "b": [
+     18,
+     7
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     3.5
+    ],
+    "b": [
+     3.8,
+     6.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    4.6,
+    "CASA",
+    "middle"
+   ],
+   [
+    18.5,
+    4.6,
+    "CASA",
+    "middle"
+   ]
+  ]
+ }
+}

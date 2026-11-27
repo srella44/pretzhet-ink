@@ -1,0 +1,205 @@
+{
+ "id": "RONDO-PLANB-15",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Bolos por equipos",
+ "formato": "6–14 jug.",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–14 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "14 min",
+ "series": "3 rondas de 4 min con 1 min de pausa; se cambia de carril entre rondas (propuesta).",
+ "objetivo": "Tirar raso con precisión mientras el resto mantiene el pase y el control; nadie espera (fuente). Cómo explicarlo: «cuando no tiras, pasas». Errores típicos: golpear con la punta, tirar sin mirar los bolos, pasar sin moverse. Qué observar: golpeo con el interior y el empeine, pase de primera y comunicación de la pareja. Material: 8 conos altos o botellas (los bolos), 4 balones, 4 conos de línea.",
+ "montaje": "Dos carriles de 20 × 6 m, uno por equipo. Al fondo, 4 bolos; línea de tiro a 12 m. Equipos de 3 a 7. 1 balón de tiro y 1 por pareja.",
+ "juego": "Un tirador por equipo golpea raso desde la línea (1); un compañero recoge y se lo devuelve. El resto, en parejas, se pasa el balón a 5 m (2). Tras el tiro, el tirador pasa a pareja y sale otro.",
+ "punto": "Bolo derribado: 1 punto. 10 pases seguidos de una pareja: 1 punto. Si caen los 4, se recolocan.",
+ "consigna": "Tira raso y pasa de primera.",
+ "variantes": {
+  "facil": "Línea de tiro a 8 m y bolos más grandes (propuesta).",
+  "dificil": "Línea a 15 m, tirar solo con la pierna mala o pasar a un toque (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 8 m y sin contar pases. Alevín (10–11): 12 m. Infantil (12–13): 15 m y a un toque. Con 14 jugadores, 2 tiradores por carril (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Bolos por equipos",
+  "ref": "RONDO Bonus 3 · Plan B · «Vienen 6»"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tiros rasos por turnos a unos bolos al fondo del pabellón mientras los demás se pasan el balón por parejas. Dos carriles, 4 bolos, distancias, rotaciones y puntuación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "lines": [
+   [
+    [
+     0,
+     6
+    ],
+    [
+     20,
+     6
+    ],
+    "6 5"
+   ],
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     12
+    ],
+    "4 4"
+   ]
+  ],
+  "cones": [
+   [
+    19,
+    1.5
+   ],
+   [
+    19,
+    2.5
+   ],
+   [
+    19,
+    3.5
+   ],
+   [
+    19,
+    4.5
+   ],
+   [
+    19,
+    7.5
+   ],
+   [
+    19,
+    8.5
+   ],
+   [
+    19,
+    9.5
+   ],
+   [
+    19,
+    10.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8.6,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 1.2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8.6,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 10.8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.6,
+     3
+    ],
+    "b": [
+     18.2,
+     3.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     1.2
+    ],
+    "b": [
+     3,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2,
+    "nt": 0.4
+   },
+   {
+    "a": [
+     3,
+     7
+    ],
+    "b": [
+     3,
+     10.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2,
+    "nt": 0.4
+   }
+  ],
+  "labels": [
+   [
+    19,
+    -0.8,
+    "BOLOS",
+    "middle"
+   ],
+   [
+    8,
+    13,
+    "LÍNEA DE TIRO",
+    "middle"
+   ]
+  ]
+ }
+}

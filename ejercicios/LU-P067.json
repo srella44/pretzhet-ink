@@ -1,0 +1,214 @@
+{
+ "id": "LU-P067",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda: cara y ritmo",
+ "formato": "Rueda 6 postas",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa; se invierte el sentido y se empieza desde el otro perfil cada serie (propuesta).",
+ "objetivo": "Dejar de cara con la línea de pase abierta y, en las postas con cono, simular que se separa del rival y conducir con cambio de ritmo (fuente). Cómo explicarlo: «finta, recibe y arranca». Errores típicos: no dar línea de pase antes del pase, conducir sin cambio de ritmo, pasar al pie equivocado. Qué observar: perfil del cuerpo, un toque en B y E y velocidad tras el cono. Material: 8 conos, 2 balones.",
+ "montaje": "Hexágono de 30 × 30 m con 6 postas (A–F); en C y F un cono al lado como rival. 10 jugadores, 1–2 por posta. 2 balones: en A y en D.",
+ "juego": "A pasa a B (1); B deja de cara a A de primera (2). A pasa a C (3), que finta ante el cono, conduce con cambio de ritmo (4) y pasa a D (5). D repite desde el otro perfil. Todos van a la posta siguiente.",
+ "punto": "Rueda sin perder el balón: 1 punto. 5 seguidas con los 2 balones: 3 extra. Pérdida: se reinicia.",
+ "consigna": "Da línea de pase, finta y arranca.",
+ "variantes": {
+  "facil": "Un solo balón y sin cambio de ritmo obligatorio (propuesta).",
+  "dificil": "Postas B y E a un toque y los dos balones a la vez, con 15 s de límite por vuelta (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 25 × 25 m y control libre en C y F. Infantil (12–13): 30 × 30 m como está. Con 6 jugadores, 1 por posta.",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE - Orientación Corporal - Dejar de Cara - Líneas de Pase",
+  "ref": "300 ejercicios Level Up Coach · tarea 66 (pág. 67)"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente da la secuencia, los dos balones, la regla de un toque en B y E y de línea de pase previa en C y F, 10 jugadores y 30 × 30 m. Posición de las postas, puntuación, series, variantes y adaptación son (propuesta). Diagrama del primer balón.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 33,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "cones": [
+   [
+    22,
+    11
+   ],
+   [
+    8,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8,
+    "f": -20,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 22,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 26.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 22,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     8
+    ],
+    "b": [
+     14.2,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     3.5
+    ],
+    "b": [
+     6,
+     7.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     8.8
+    ],
+    "b": [
+     24.2,
+     8.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     25,
+     8.5
+    ],
+    "b": [
+     25,
+     17.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     25,
+     17.5
+    ],
+    "b": [
+     25,
+     21
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "n": 5,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    3.5,
+    6.6,
+    "A",
+    "end"
+   ],
+   [
+    15,
+    1.6,
+    "B",
+    "middle"
+   ],
+   [
+    26.6,
+    7.2,
+    "C",
+    "start"
+   ],
+   [
+    26.6,
+    23,
+    "D",
+    "start"
+   ],
+   [
+    15,
+    29,
+    "E",
+    "middle"
+   ],
+   [
+    3.4,
+    23.5,
+    "F",
+    "end"
+   ],
+   [
+    22,
+    9.6,
+    "CONO",
+    "middle"
+   ]
+  ]
+ }
+}

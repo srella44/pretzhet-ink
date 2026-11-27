@@ -1,0 +1,179 @@
+{
+ "id": "AX-E13",
+ "bloque": "Defensa y presión",
+ "titulo": "Amplitud, banda y 2.ª línea",
+ "formato": "10v10+PT",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "21 jug.",
+ "espacio": "3/4 de campo",
+ "duracion": "24 min",
+ "series": "3 series de 7 min con 1′30″ de pausa; cada serie, se intercambian los equipos (propuesta).",
+ "objetivo": "Posesión y finalización: abrir el campo a la banda, centrar o dejar atrás y que llegue un jugador de segunda línea (fuente: amplitud, banda, 2.ª línea). Para el equipo sin balón: cerrar el centro y cubrir a los que llegan. Cómo explicarlo: «amplitud, centro atrás y llega el segundo». Errores típicos: ataque sin amplitud, centro al sitio donde no llega nadie, defensa pegada al balón. Qué observar: carrera de segunda línea y cobertura del lado débil. Material: portería con portero, 2 miniporterías, petos, 8 balones.",
+ "montaje": "3/4 de campo, portería con portero y 2 miniporterías al fondo. 10 atacantes (2 extremos en banda) contra 10 defensores. Sale el balón de defensa.",
+ "juego": "Abren a un extremo (1), que conduce por la banda (2) y centra o deja atrás (3); llega un jugador de segunda línea y remata (4). Los defensores cierran el centro; si roban, marcan en miniportería.",
+ "punto": "Gol: 1. Gol tras llegar de segunda línea desde la banda: 3. Gol de contra en miniportería: 2.",
+ "consigna": "Abre, centra atrás y que llegue el segundo.",
+ "variantes": {
+  "facil": "Fuera de juego solo desde la línea del área y 8 contra 8 (propuesta).",
+  "dificil": "Máximo 2 toques en el área y el gol de banda vale solo si lo remata un jugador de segunda línea (propuesta)."
+ },
+ "adaptacion": "Cadete (14–15): 8 contra 8 en 3/4 de campo reducido. Juvenil (16–18): como está. La fuente es solo una ficha de datos (21 jugadores, 3/4 de campo, objetivos posesión/finalización).",
+ "fuente": {
+  "autor": "Alex Ortiz (base de datos de ejercicios)",
+  "titulo_original": "A-D Amplitud - Banda - 2º Línea",
+  "ref": "BASE-DATOS-EJERCICIOS @ALEXORTIZ1987 · hoja BASE DE DATOS, fila 18"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente solo da el título (A-D = ataque–defensa; amplitud, banda, 2.ª línea), 21 jugadores, espacio 3/4 de campo y objetivos posesión y finalización; no trae el dibujo ni las reglas. Reparto 10+10+portero, juego, puntuación, series, variantes y adaptación son (propuesta). Diagrama simplificado (no salen todos los jugadores). Revisar en la revisión final.",
+ "diagrama": {
+  "field": [
+   70,
+   50
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 72,
+   "ymin": -3,
+   "ymax": 52
+  },
+  "tag": "3/4 de campo",
+  "porterias": [
+   {
+    "x": 35,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.3,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 35,
+    "y": 45,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 64,
+    "y": 30,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 30,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 46,
+    "y": 26,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 9,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 52,
+    "y": 14,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 60,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 22,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     35,
+     44
+    ],
+    "b": [
+     63,
+     31
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     64,
+     29
+    ],
+    "b": [
+     62,
+     10
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     61,
+     9
+    ],
+    "b": [
+     42,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     28,
+     30
+    ],
+    "b": [
+     36,
+     6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    66,
+    31,
+    "BANDA",
+    "start"
+   ]
+  ]
+ }
+}

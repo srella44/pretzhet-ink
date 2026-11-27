@@ -1,0 +1,232 @@
+{
+ "id": "FB-003",
+ "bloque": "Técnica y duelos",
+ "titulo": "Competición conducción 4",
+ "formato": "Relevos 3v3",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. (2 equipos)",
+ "espacio": "22 × 10 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 4 min; se repite el circuito con la pierna mala en la última.",
+ "objetivo": "Conducir rápido en circuito con cambios de dirección, puerta de pase y parada de suela, competiendo por equipos. Cómo explicarlo: «control primero, velocidad después». Errores típicos: salir demasiado rápido y perder el balón, tirar conos, entregar el relevo sin controlar. Qué observar: toques cortos, cabeza levantada y frenada con la suela. Material: 14 conos, 2 balones, cronómetro.",
+ "montaje": "Dos calles de 22 × 5 m, una por equipo. En cada una: 4 conos en zigzag a 3 m, una puerta de 1 m a 16 m y un cuadrado de 2 × 2 m al final. 1 balón por equipo.",
+ "juego": "El primero de cada equipo conduce en zigzag (1), pasa el balón por la puerta y lo recoge (2), frena el balón con la suela en el cuadrado (3), vuelve en recta y entrega al siguiente.",
+ "punto": "El equipo que acaba antes: 3 puntos; el segundo: 1. Cono tirado o puerta saltada: 2 s más.",
+ "consigna": "Controla, frena con la suela y entrega.",
+ "variantes": {
+  "facil": "Con 3 conos y puerta de 2 m (propuesta).",
+  "dificil": "Ida con la pierna buena, vuelta con la mala, sin entregar hasta parar el balón (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 3 conos, 18 m. Infantil (12–13): 4 conos, 22 m y pierna mala. Con 8 jugadores, 4 por equipo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COMPETICION CONDUCCION 4",
+  "ref": "https://toplidercoach.com/futbol-base/competicion-conduccion-4/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Circuito de relevos de conducción con puerta y parada (propuesta).",
+ "diagrama": {
+  "field": [
+   22,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 24,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    4,
+    1.5
+   ],
+   [
+    7,
+    3.5
+   ],
+   [
+    10,
+    1.5
+   ],
+   [
+    13,
+    3.5
+   ],
+   [
+    4,
+    6.5
+   ],
+   [
+    7,
+    8.5
+   ],
+   [
+    10,
+    6.5
+   ],
+   [
+    13,
+    8.5
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     19,
+     1.5,
+     21,
+     3.5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     19,
+     6.5,
+     21,
+     8.5
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     1.5,
+     0
+    ],
+    [
+     1.5,
+     10
+    ]
+   ],
+   [
+    [
+     16,
+     1
+    ],
+    [
+     16,
+     4
+    ]
+   ],
+   [
+    [
+     16,
+     6
+    ],
+    [
+     16,
+     9
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.2,
+    "y": 3.9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 0.2,
+    "y": 8.9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     2.5
+    ],
+    "b": [
+     14,
+     2.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     2.5
+    ],
+    "b": [
+     19.6,
+     2.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     19.6,
+     2.5
+    ],
+    "b": [
+     17,
+     3.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     1,
+     7.5
+    ],
+    "b": [
+     14,
+     7.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    16,
+    0.2,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    20,
+    0.7,
+    "CUADRADO",
+    "middle"
+   ]
+  ]
+ }
+}

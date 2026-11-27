@@ -1,0 +1,215 @@
+{
+ "id": "FB-013",
+ "bloque": "Calentamiento",
+ "titulo": "Agilidad y relevos",
+ "formato": "Relevos 3v3",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "24 × 10 m",
+ "duracion": "10 min",
+ "series": "4 relevos por equipo con 45″ de pausa; el último con balón (propuesta).",
+ "objetivo": "Pies rápidos, aceleración y relevo con balón en un juego de equipos. Cómo explicarlo: «pies rápidos, 10 metros, y entrega». Errores típicos: pisar los conos, salir antes del relevo, no frenar al final. Qué observar: coordinación, aceleración y respeto del turno. Material: 12 aros o discos, 6 conos, 2 balones.",
+ "montaje": "Dos calles de 24 × 4 m, una por equipo. En cada una: 4 aros a 1 m, un cono de giro a 16 m y línea de relevo. Equipos de 3–6.",
+ "juego": "A la señal, el primero pasa con pies rápidos por los aros (1), esprinta al cono (2), lo rodea y vuelve conduciendo un balón (3) hasta tocar la mano del siguiente.",
+ "punto": "El equipo que acaba antes: 3 puntos; el segundo: 1. Pisar un aro o saltar el relevo: 2 s más.",
+ "consigna": "Pies rápidos, sprint y relevo limpio.",
+ "variantes": {
+  "facil": "Sin balón y con solo 2 aros (propuesta).",
+  "dificil": "Aros con salto a un pie y sprint a 20 m (propuesta)."
+ },
+ "adaptacion": "Benjamín (8–9): 12 m de sprint. Alevín (10–11): 16 m y balón en la vuelta. Mejor de 3 relevos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD, VELOCIDAD, RELEVOS",
+  "ref": "https://toplidercoach.com/futbol-base/agilidad-velocidad-relevos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Relevos con aros, sprint y vuelta con balón (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    18,
+    2
+   ],
+   [
+    18,
+    8
+   ]
+  ],
+  "discs": [
+   [
+    3,
+    2
+   ],
+   [
+    4.2,
+    2
+   ],
+   [
+    5.4,
+    2
+   ],
+   [
+    6.6,
+    2
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    4.2,
+    8
+   ],
+   [
+    5.4,
+    8
+   ],
+   [
+    6.6,
+    8
+   ]
+  ],
+  "lines": [
+   [
+    [
+     1.5,
+     0
+    ],
+    [
+     1.5,
+     10
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 3.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 0,
+    "y": 6.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     7.5,
+     2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     7.8,
+     2
+    ],
+    "b": [
+     17.5,
+     2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     17.5,
+     3
+    ],
+    "b": [
+     2,
+     3
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     2,
+     8
+    ],
+    "b": [
+     7.5,
+     8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     7.8,
+     8
+    ],
+    "b": [
+     17.5,
+     8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    -0.7,
+    "SALIDA",
+    "middle"
+   ],
+   [
+    18,
+    -0.6,
+    "CONO",
+    "middle"
+   ]
+  ]
+ }
+}

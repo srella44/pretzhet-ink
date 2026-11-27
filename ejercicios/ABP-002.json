@@ -1,0 +1,173 @@
+{
+ "id": "ABP-002",
+ "bloque": "Balón parado",
+ "titulo": "Falta lejana con pase corto",
+ "formato": "5v4+P",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–10 jug.",
+ "espacio": "Medio campo",
+ "duracion": "15 min",
+ "series": "3 series de 6 lanzamientos (3 por cada lado) con 1′30″ de pausa; tras cada serie, 2 atacantes y 2 defensores intercambian sitio (propuesta).",
+ "objetivo": "Jugada ensayada de falta a unos 28 m: un pase corto que descoloca la barrera y un remate desde segunda línea. Cómo explicarlo: primero andando y sin barrera, con conos que marquen dónde acaba cada carrera; después a ritmo real. Errores típicos: el pase corto sale lento y la barrera sale a taparlo, el rematador llega parado, los dos que arrastran van al mismo sitio, nadie sigue el rechace. Qué observar: que el pase de B a C salga raso y tenso, y que C llegue en carrera. Material: portería con portero, 10 balones, 6 conos, petos de 2 colores.",
+ "montaje": "Falta a 28 m, centrada. Lanzador A y B (a 4 m). C a 8 m a la derecha, D y E en el área. Barrera de 3 a 9 m y 1 defensor en el área.",
+ "juego": "A toca corto a B (1). B juega raso a C (2), que sale de detrás de la barrera y chuta (3). D y E arrastran marcas hacia el primer palo (4) y atacan el rechace.",
+ "punto": "Gol: 2. Tiro entre palos: 1. Balón despejado por la barrera: 1 para defensa. Rechace: vale 1 toque más.",
+ "consigna": "Toca corto, juega raso y llega lanzado.",
+ "variantes": {
+  "facil": "Sin barrera ni defensor y C ya colocado en su sitio (propuesta).",
+  "dificil": "Barrera de 4 y un defensor que sale al pase corto; C elige tiro o pared con D (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): falta a 22–25 m y balón nº 4. Infantil (12–13): 28–30 m. En fútbol 7: barrera de 2 y 3 atacantes (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 25 acciones a balón parado",
+  "titulo_original": "FALTA ALEJADA 2",
+  "ref": "25-jugadas-ensayadas.pdf · p. 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente es solo un esquema gráfico sin texto y su página no estaba en el repositorio: colocación, pase corto, rematador de segunda línea, puntuación, series, variantes y adaptación son (propuesta) a partir del nombre. Revisar con el dibujo de AFOPRO.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "tag": "medio campo",
+  "extent": {
+   "xmin": -1,
+   "xmax": 31,
+   "ymin": -2.5,
+   "ymax": 31
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 27,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 27.5,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 21,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 22,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 17,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 17,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 17,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 9,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.8,
+     27
+    ],
+    "b": [
+     17,
+     27.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     27
+    ],
+    "b": [
+     24.4,
+     21.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     20.5
+    ],
+    "b": [
+     17,
+     1.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     5,
+     22
+    ],
+    "b": [
+     7,
+     10.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    11.5,
+    15,
+    "BARRERA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "id": "FB-021",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "3 contra 1 y transición",
+ "formato": "3v1 + salida",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "12 min",
+ "series": "4 bloques de 2′ con 30″ de pausa; el defensor cambia cada vez que roba o cada minuto (propuesta).",
+ "objetivo": "Mantener la posesión en inferioridad y reaccionar al perder o ganar el balón: salir rápido tras robar. Cómo explicarlo: «si robas, sal; si pierdes, presiona». Errores típicos: no abrir ángulos, perseguir al balón sin cerrar el pase, no salir tras el robo. Qué observar: tiempo de reacción en la transición y apoyos. Material: 8 conos, 2 balones.",
+ "montaje": "Cuadrado de 10 × 10 m con 3 atacantes y 1 defensor. Dos puertas de 2 m en lados opuestos. Un 4.º jugador de reserva a un lado con otro balón.",
+ "juego": "Los 3 hacen circular el balón y el defensor presiona. Si roba, sale por una puerta conduciendo (1). Quien perdió el balón pasa a defensor y entra el reserva con el balón extra (2).",
+ "punto": "8 pases seguidos: 1 punto. El defensor que roba y sale por la puerta: 2 puntos.",
+ "consigna": "Si robas, sal; si pierdes, presiona.",
+ "variantes": {
+  "facil": "2 defensores pasivos hasta recuperar y puerta de 3 m (propuesta).",
+  "dificil": "Puerta de 1,5 m y 2 toques máximos para los atacantes (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 10 × 10 m. Infantil (12–13): 8 × 8 m. Cadete (14–15): 8 × 8 m y 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "3 vs 1 + TRANSICIONES",
+  "ref": "https://toplidercoach.com/futbol-base/3-vs-1-transiciones/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Rondo 3 contra 1 con salida tras robo (propuesta).",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 13,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    0,
+    3.5
+   ],
+   [
+    0,
+    6.5
+   ],
+   [
+    10,
+    3.5
+   ],
+   [
+    10,
+    6.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2.5,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 4.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": 9.5,
+    "f": 0,
+    "ball": true,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     7.4,
+     2.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     2.5
+    ],
+    "b": [
+     5.4,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     4.5
+    ],
+    "b": [
+     9.4,
+     5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10.2,
+    3,
+    "PUERTA",
+    "start"
+   ],
+   [
+    -0.2,
+    10.8,
+    "RESERVA",
+    "start"
+   ]
+  ]
+ }
+}

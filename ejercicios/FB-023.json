@@ -1,0 +1,154 @@
+{
+ "id": "FB-023",
+ "bloque": "Finalización",
+ "titulo": "Finalización con intercambio",
+ "formato": "Circuito 2+2+PT",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug. + PT",
+ "espacio": "28 × 25 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min; versión I las dos primeras y II las dos últimas (propuesta).",
+ "objetivo": "Intercambiar posiciones tras un pase para finalizar en carrera. I: pase y pared con cruce; II: con apoyo de un tercer jugador. Cómo explicarlo: «pasa, cruza y recibe de primera». Errores típicos: cruzar por delante del pasador, pase flojo, chutar parado. Qué observar: sincronía del cruce y calidad de la devolución. Material: portería con portero, 8 balones, 4 conos.",
+ "montaje": "Medio campo de 28 × 25 m con portería y portero. Delanteros: A con balón a 20 m de la portería y B a su derecha a 6 m. Un servidor C en banda para la versión II.",
+ "juego": "A pasa a B (1) y cruza por detrás hacia el lado contrario (2). B devuelve de primera a la carrera de A (3), que chuta (4). En II, B juega con C y C pasa al espacio a A.",
+ "punto": "Gol: 2. Tiro entre palos: 1. Pase mal dado: 0. Rotan: A a B y B a la fila de A.",
+ "consigna": "Pasa, cruza y chuta de primera.",
+ "variantes": {
+  "facil": "Sin cruce: pared normal con 2 toques (propuesta).",
+  "dificil": "Un defensor pasivo y devolución de primera obligatoria (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 22 × 22 m. Infantil (12–13): 28 × 25 m. Cadete (14–15): con defensor activo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FINALIZACIÓN INTERCAMBIO (I y II)",
+  "ref": "https://toplidercoach.com/futbol-base/finalizacion-intercambio-i-y-ii/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Dos versiones: intercambio con pared y con tercer hombre (propuesta).",
+ "diagrama": {
+  "field": [
+   28,
+   25
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 29,
+   "ymin": -2.5,
+   "ymax": 27
+  },
+  "porterias": [
+   {
+    "x": 14,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 21,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 19,
+    "f": -120
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 9,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.6,
+     20.6
+    ],
+    "b": [
+     18.2,
+     19.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     20
+    ],
+    "b": [
+     13.4,
+     13.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     18.4
+    ],
+    "b": [
+     14.5,
+     13.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     14,
+     13
+    ],
+    "b": [
+     14,
+     1.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    6.4,
+    22.4,
+    "A",
+    "end"
+   ],
+   [
+    20.4,
+    19.6,
+    "B",
+    "start"
+   ],
+   [
+    26.4,
+    9,
+    "C",
+    "start"
+   ]
+  ]
+ }
+}

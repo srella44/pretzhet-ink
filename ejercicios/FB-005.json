@@ -1,0 +1,167 @@
+{
+ "id": "FB-005",
+ "bloque": "Técnica y duelos",
+ "titulo": "Competición conducción 2",
+ "formato": "Duelo 1v1",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "2–6 jug.",
+ "espacio": "20 × 8 m",
+ "duracion": "10 min",
+ "series": "Mejor de 5 duelos por pareja; luego se cambia de rival (propuesta).",
+ "objetivo": "Conducir en slalom con cambio de ritmo y duelo directo con el compañero. Cómo explicarlo: «los conos no se tocan, la meta sí». Errores típicos: golpear el balón largo en la recta, tirar conos, salir antes de la señal. Qué observar: toques cortos en los conos y aceleración al salir. Material: 14 conos, 2 balones.",
+ "montaje": "Dos calles de 20 × 3 m con 6 conos a 3 m en cada una y una meta. Dos jugadores en la salida, cada uno con balón, uno por calle.",
+ "juego": "A la señal, los dos conducen en slalom (1), rodean el último cono (2) y regresan en recta (3) hasta la salida. Gana el duelo quien cruza primero con el balón controlado.",
+ "punto": "Ganar el duelo: 1 punto. Cono tirado: 1 s más. Mejor de 5 duelos.",
+ "consigna": "Slalom corto y recta rápida.",
+ "variantes": {
+  "facil": "4 conos y 4 m entre ellos (propuesta).",
+  "dificil": "Recta con un giro de suela en el último cono y salida a un toque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 4 conos. Infantil (12–13): 6 conos y pierna mala. Con 6 jugadores, 3 calles.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COMPETICIÓN CONDUCCIÓN 2",
+  "ref": "https://toplidercoach.com/futbol-base/competicion-conduccion-2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Duelo de conducción paralela (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    4,
+    1.5
+   ],
+   [
+    7,
+    2.5
+   ],
+   [
+    10,
+    1.5
+   ],
+   [
+    13,
+    2.5
+   ],
+   [
+    16,
+    1.5
+   ],
+   [
+    4,
+    5.5
+   ],
+   [
+    7,
+    6.5
+   ],
+   [
+    10,
+    5.5
+   ],
+   [
+    13,
+    6.5
+   ],
+   [
+    16,
+    5.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     8
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 1.2,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     2
+    ],
+    "b": [
+     17.5,
+     2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     1.2,
+     6
+    ],
+    "b": [
+     17.5,
+     6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     2
+    ],
+    "b": [
+     18,
+     3.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    1,
+    -0.6,
+    "SALIDA Y META",
+    "start"
+   ]
+  ]
+ }
+}
