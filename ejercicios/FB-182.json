@@ -1,0 +1,172 @@
+{
+ "id": "FB-182",
+ "bloque": "Calentamiento",
+ "titulo": "Zigzag veloz",
+ "formato": "Relevos de conducción",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 8 m",
+ "duracion": "8 min",
+ "series": "3 rondas de 2′ con 30″ de pausa; cambia el orden de las filas en cada ronda (propuesta).",
+ "objetivo": "Calentar piernas y tobillos con conducciones rápidas y cambios de dirección, sin perder el control del balón. Cómo explicarlo: «cono a cono, balón pegado y velocidad al volver». Errores típicos: tocar el balón muy largo, mirar solo al suelo, salir sin esperar la mano del compañero. Qué observar: uso de ambos pies y cuerpo girado en cada cono. Material: 10 conos y 2 balones.",
+ "montaje": "Dos calles de 20 m con 5 conos en línea cada 3 m. Dos equipos de 3–6 jugadores en fila tras la salida, un balón por equipo.",
+ "juego": "A la señal sale el primero de cada fila: conduce en zigzag sin tocar conos, rodea el último y vuelve a toda velocidad por fuera. Choca la mano al siguiente. Gana la vuelta quien llegue antes.",
+ "punto": "Vuelta ganada: 1 punto. Cono derribado: repite ese cono. Gana quien llegue a 5.",
+ "consigna": "Cono a cono, balón pegado; vuelve a todo gas.",
+ "variantes": {
+  "facil": "Conos a 4 m y solo con el pie hábil. Sin puntos por conos derribados.",
+  "dificil": "Solo con el pie débil en la ida y cambio de pie en cada cono. Conos a 2 m."
+ },
+ "adaptacion": "Benjamín (8–9): 6 conos a 4 m, sin tiempo. Alevín (10–11): conos a 3 m. Infantil (12–13): conos a 2 m y pie débil. Con 6 jugadores, 3 por equipo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ZIG ZAG VELOZ",
+  "ref": "https://toplidercoach.com/futbol-base/zig-zag-veloz/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   20,
+   8
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 22,
+   "ymin": -1.5,
+   "ymax": 9.5
+  },
+  "cones": [
+   [
+    4,
+    2.5
+   ],
+   [
+    7,
+    2.5
+   ],
+   [
+    10,
+    2.5
+   ],
+   [
+    13,
+    2.5
+   ],
+   [
+    16,
+    2.5
+   ],
+   [
+    4,
+    5.5
+   ],
+   [
+    7,
+    5.5
+   ],
+   [
+    10,
+    5.5
+   ],
+   [
+    13,
+    5.5
+   ],
+   [
+    16,
+    5.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 0.8,
+    "y": 5.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": -1.4,
+    "y": 5.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.6,
+     2.5
+    ],
+    "b": [
+     17.6,
+     2.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     17.8,
+     1.2
+    ],
+    "b": [
+     1,
+     1.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     1.6,
+     5.5
+    ],
+    "b": [
+     17.6,
+     5.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     17.8,
+     6.8
+    ],
+    "b": [
+     1,
+     6.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ }
+}

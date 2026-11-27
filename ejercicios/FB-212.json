@@ -1,0 +1,155 @@
+{
+ "id": "FB-212",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Paredes en serie",
+ "formato": "Conducción y paredes en serie",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 12 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 45″ de pausa; los paredes rotan cada ronda (propuesta).",
+ "objetivo": "Combinar conducción y pared de primeras varias veces seguidas, midiendo bien velocidad y distancia. Cómo explicarlo: «conduce, pared, sigue y repite». Errores típicos: pared que devuelve a los pies y no al espacio, conductor que frena tras la pared, pases fuertes. Qué observar: ritmo constante y orientación del cuerpo. Material: 6 conos, 3 balones.",
+ "montaje": "Pasillo de 30 m con 3 paredes (C): C1 a 8 m por la derecha, C2 a 16 m por la izquierda y C3 a 24 m por la derecha, cada uno a 3 m de la línea. El conductor (A) sale con balón; el resto en fila.",
+ "juego": "A conduce 4 m, pasa a C1 y corre a recibir su devolución al espacio de primera, y así hasta C3. Termina con tiro a una minipuerta.",
+ "punto": "Cada pared bien hecha: 1 punto; tiro final entre conos: 2 más. Gana quien sume más tras 4 rondas.",
+ "consigna": "Pared al espacio y sigue sin parar.",
+ "variantes": {
+  "facil": "Paredes con 2 toques y 6 m entre paredes.",
+  "dificil": "Paredes de primeras y conducción con la pierna débil."
+ },
+ "adaptacion": "Infantil (12–13): paredes con 2 toques. Cadete (14–15): de primeras. Con 8 jugadores, 3 paredes y 5 en fila; con 12, dos filas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONDUCCIÓN Y PAREDES CONTINUAS",
+  "ref": "https://toplidercoach.com/futbol-base/conduccion-y-paredes-continuas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   30,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    3,
+    6
+   ],
+   [
+    8,
+    6
+   ],
+   [
+    16,
+    6
+   ],
+   [
+    24,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 9.5,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 2.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 9.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.2,
+     6
+    ],
+    "b": [
+     6.5,
+     6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     6.8,
+     6
+    ],
+    "b": [
+     8,
+     8.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     9
+    ],
+    "b": [
+     11,
+     6.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     17.2,
+     3.4
+    ],
+    "b": [
+     14.5,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

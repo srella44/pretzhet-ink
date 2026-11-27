@@ -1,0 +1,160 @@
+{
+ "id": "FB-186",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Pasar el puente",
+ "formato": "Juego de posición 6v2",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "24 × 14 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 45″ de pausa; cambian los 2 defensores en cada ronda (propuesta).",
+ "objetivo": "Pasar entre líneas por la zona central ocupada y buscar el pase correcto a través del «puente». Cómo explicarlo: «fija a los dos de dentro y mueve el balón al otro lado». Errores típicos: pase muy flojo, dos compañeros en la misma línea, mirar el balón y no al defensor. Qué observar: perfil del pasador y apoyos abiertos. Material: 6 conos, petos, 1–2 balones.",
+ "montaje": "Campo de 24 × 14 m en tres zonas: lados de 9 m y puente central de 6 m. 3 jugadores por lado (A) y 2 defensores (D) que solo juegan dentro del puente.",
+ "juego": "Los lados se pasan el balón cruzando el puente, con máximo 2 toques. Los defensores no salen del puente e intentan interceptar. Si interceptan, cambian con quien pasó.",
+ "punto": "Pase que cruza el puente y llega a un compañero: 1 punto. 5 cruces seguidos: 2 extra.",
+ "consigna": "Pasa raso, fija al defensor y cambia de lado.",
+ "variantes": {
+  "facil": "Puente de 4 m y 3 toques por jugador.",
+  "dificil": "Un solo toque y un tercer defensor que puede salir del puente a presionar."
+ },
+ "adaptacion": "Infantil (12–13): puente de 5 m y 3 toques. Cadete (14–15): a un toque. Con 8 jugadores, 3 por lado y 2 defensores; con 12, dos juegos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASAR EL PUENTE",
+  "ref": "https://toplidercoach.com/futbol-base/pasr-el-puente/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   24,
+   14
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -1.5,
+   "ymax": 15.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     9,
+     0,
+     15,
+     14
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     9,
+     0
+    ],
+    [
+     9,
+     14
+    ],
+    "6 5"
+   ],
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     14
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.5,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 10,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.2,
+     7
+    ],
+    "b": [
+     16.8,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     4.8
+    ],
+    "b": [
+     12,
+     6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   }
+  ]
+ }
+}

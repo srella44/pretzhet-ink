@@ -1,0 +1,162 @@
+{
+ "id": "FB-188",
+ "bloque": "Calentamiento",
+ "titulo": "La noria",
+ "formato": "Rueda de pase y relevo",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "Círculo de 12 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 2′ con 30″ de pausa; cambio de sentido en las rondas 3 y 4 (propuesta).",
+ "objetivo": "Activar el cuerpo con pase, carrera y orientación en movimiento, manteniendo el ritmo del grupo. Cómo explicarlo: «pasa y sigue tu pase, como una noria que no para». Errores típicos: pase fuerte a los pies, correr por dentro y cruzarse, parar tras pasar. Qué observar: pase a la altura del pie del receptor y ritmo constante. Material: 8 conos, 2 balones.",
+ "montaje": "Círculo de 12 m con 8 puestos de conos y un jugador (A) en cada uno (6–12 en total). 2 balones en puestos opuestos.",
+ "juego": "Pasa al compañero de tu derecha y corre por fuera a su puesto. El receptor controla, pasa al siguiente y hace lo mismo. Los 2 balones giran a la vez.",
+ "punto": "Ronda completa de los 2 balones sin caída ni cruce: 1 punto. Pase fallado: ese balón vuelve a 0.",
+ "consigna": "Pasa, sigue tu pase y ocupa el sitio del compañero.",
+ "variantes": {
+  "facil": "Un solo balón y control antes de pasar.",
+  "dificil": "Tres balones a la vez y a un toque."
+ },
+ "adaptacion": "Benjamín (8–9): 1 balón y círculo de 10 m. Alevín (10–11): 2 balones. Infantil (12–13): 3 balones y a un toque. Con 6 jugadores, 6 puestos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "LA NORIA",
+  "ref": "https://toplidercoach.com/futbol-base/la-noria/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "nofield": true,
+  "tag": "círculo de 12 m",
+  "cones": [
+   [
+    10.5,
+    8.5
+   ],
+   [
+    8.5,
+    10.5
+   ],
+   [
+    5.5,
+    10.5
+   ],
+   [
+    3.5,
+    8.5
+   ],
+   [
+    3.5,
+    5.5
+   ],
+   [
+    5.5,
+    3.5
+   ],
+   [
+    8.5,
+    3.5
+   ],
+   [
+    10.5,
+    5.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 7.0,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.9,
+    "y": 10.9,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 7.0,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3.1,
+    "y": 10.9,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 7.0,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.1,
+    "y": 3.1,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 7.0,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.9,
+    "y": 3.1,
+    "f": 45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.5,
+     7.0
+    ],
+    "b": [
+     10.9,
+     10.9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     13.4,
+     6.4
+    ],
+    "b": [
+     12,
+     12
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

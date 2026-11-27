@@ -1,0 +1,144 @@
+{
+ "id": "FB-214",
+ "bloque": "Calentamiento",
+ "titulo": "La rana mareada",
+ "formato": "Juego de conducción y saltos",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 1′30″ con 20″ de pausa y cambio de señal (propuesta).",
+ "objetivo": "Conducir con balón y reaccionar a una señal mientras se juega y se coordina. Cómo explicarlo: «conduce y, al oír la señal, salta como una rana y gira». Errores típicos: soltar el balón al saltar, empezar tarde, salir del cuadrado. Qué observar: control del balón tras el giro. Material: 4 conos, un balón por niño, silbato.",
+ "montaje": "Cuadrado de 12 × 12 m con 4 conos. Todos los jugadores (A) con un balón dentro; uno de ellos hace de entrenador-rana.",
+ "juego": "Todos conducen por el cuadrado. Al silbato, paran con la suela, hacen 3 saltos de rana alrededor del balón, giran 2 vueltas y retoman la conducción. El último en reanudar pierde 1 punto.",
+ "punto": "Empiezas con 3 puntos: pierdes 1 por llegar último y 1 por perder el balón. Gana quien conserve más.",
+ "consigna": "Para el balón, salta, gira y sigue.",
+ "variantes": {
+  "facil": "Un salto de rana y un giro solamente.",
+  "dificil": "Saltos alrededor del balón y cambio de pie al reanudar."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin puntos, solo ranas. Benjamín (8–9): saltos y giros con puntos. Con 6 niños, 10 × 10 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "LA RANA MAREADA",
+  "ref": "https://toplidercoach.com/futbol-base/la-rana-mareada/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    12,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 2.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 9,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 9.5,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.6,
+     3.6
+    ],
+    "b": [
+     5.2,
+     5.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     3.3
+    ],
+    "b": [
+     8.5,
+     5.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     9,
+     9.3
+    ],
+    "b": [
+     7.2,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

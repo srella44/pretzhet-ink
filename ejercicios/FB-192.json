@@ -1,0 +1,175 @@
+{
+ "id": "FB-192",
+ "bloque": "Calentamiento",
+ "titulo": "La bandera",
+ "formato": "Juego de conducción por equipos",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "24 × 16 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2′30″ con 30″ de pausa; cambian de lado y de bandera (propuesta).",
+ "objetivo": "Conducir con cabeza alta bajo presión, proteger el balón y decidir cuándo arriesgar. Cómo explicarlo: «ataca por el hueco, protege con el cuerpo y vuelve con la bandera». Errores típicos: ir en línea recta sin mirar, regalar el balón al volver, olvidar defender la propia bandera. Qué observar: giros y cuerpo entre balón y rival. Material: 2 petos-bandera, 6 conos, un balón por jugador.",
+ "montaje": "Campo de 24 × 16 m con línea central y zona de 3 m en cada fondo. Cada equipo (3–6), con un balón por jugador, tiene un peto-bandera en un cono.",
+ "juego": "Se conduce a la mitad rival, se coge la bandera con la mano y se vuelve sin perder el balón. En campo rival, si te tocan con la mano, 5 s congelado.",
+ "punto": "Bandera llevada a la propia mitad con balón: 1 punto. Gana quien llegue a 3.",
+ "consigna": "Mira antes de entrar y protege el balón al volver.",
+ "variantes": {
+  "facil": "Sin congelar: el tocado solo cede un balón.",
+  "dificil": "Dos banderas por equipo y toques solo con la pierna menos hábil."
+ },
+ "adaptacion": "Alevín (10–11): sin congelación y zona de 4 m. Infantil (12–13): congelación 5 s. Cadete (14–15): 2 banderas. Con 6 jugadores, 3 por equipo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "SOSTENER LA BANDERA",
+  "ref": "https://toplidercoach.com/futbol-base/sostener-la-bandera/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   24,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     16
+    ],
+    "6 5"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     3,
+     16
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     21,
+     0,
+     24,
+     16
+    ]
+   }
+  ],
+  "cones": [
+   [
+    1.5,
+    8
+   ],
+   [
+    22.5,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 3.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 12.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 8,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9.7,
+     8
+    ],
+    "b": [
+     20.8,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     21.2,
+     9.2
+    ],
+    "b": [
+     11,
+     10.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    -0.9,
+    "BANDERA A",
+    "middle"
+   ],
+   [
+    22.5,
+    -0.9,
+    "BANDERA B",
+    "middle"
+   ]
+  ]
+ }
+}

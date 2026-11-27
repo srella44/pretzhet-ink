@@ -1,0 +1,115 @@
+{
+ "id": "FB-226",
+ "bloque": "Técnica y duelos",
+ "titulo": "Control orientado",
+ "formato": "Control orientado por puertas",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "5 series de 6 balones con 30″ de pausa; se cambia de pie y de servidor (propuesta).",
+ "objetivo": "Controlar el balón con un toque orientado hacia el espacio elegido antes de recibir. Cómo explicarlo: «mira la puerta antes de que llegue, orienta y sal». Errores típicos: control muy largo, decidir la puerta tarde, parar el balón. Qué observar: perfil del cuerpo y superficie de contacto. Material: 6 conos, 3 balones.",
+ "montaje": "Cuadrado de 12 × 12 m con 3 puertas de 2 m: izquierda, derecha y enfrente. El jugador (A) en el centro; el servidor (C), con balones, a 5 m.",
+ "juego": "C pasa raso a A y grita una puerta. A controla orientado hacia ella, la cruza conduciendo y vuelve al centro.",
+ "punto": "Control y salida por la puerta correcta: 1 punto. Control largo o puerta equivocada: 0. Gana quien sume más en 5 series.",
+ "consigna": "Mira la puerta, orienta y sal.",
+ "variantes": {
+  "facil": "Puertas de 3 m y servicio flojo.",
+  "dificil": "Servicio fuerte, puertas de 1,5 m y controles solo con la pierna débil."
+ },
+ "adaptacion": "Benjamín (8–9): puertas de 3 m y servicio suave. Alevín (10–11): 2 m. Infantil (12–13): 1,5 m y servicio con efecto. Con 2 jugadores, uno sirve y otro controla.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PUERTAS DE CONTROL ORIENTADO",
+  "ref": "https://toplidercoach.com/futbol-base/puertas-de-control-orientado/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    1,
+    4.5
+   ],
+   [
+    1,
+    7.5
+   ],
+   [
+    11,
+    4.5
+   ],
+   [
+    11,
+    7.5
+   ],
+   [
+    4.5,
+    1
+   ],
+   [
+    7.5,
+    1
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 11.4,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     10.6
+    ],
+    "b": [
+     6,
+     6.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     5.3,
+     5.5
+    ],
+    "b": [
+     1.8,
+     5.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

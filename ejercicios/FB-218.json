@@ -1,0 +1,158 @@
+{
+ "id": "FB-218",
+ "bloque": "Rondos",
+ "titulo": "Rondo de 8 jugadores",
+ "formato": "Rondo 5v3",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "5–8 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2′ con 30″ de pausa; rotan los 3 de dentro (propuesta).",
+ "objetivo": "Circular el balón con rapidez, fijar a los defensores y elegir el pase libre. Cómo explicarlo: «cada pase sale a un toque, con perfil abierto hacia el hueco». Errores típicos: pasar al mismo lado de la presión, recibir parados, tocar dos veces sin necesidad. Qué observar: orientación del cuerpo y distancia entre apoyos. Material: 4 conos, petos, 1 balón.",
+ "montaje": "Cuadrado de 14 × 14 m. 5 jugadores (A) repartidos por los lados y 3 defensores (D) dentro. Un balón en un A. Total: 8 jugadores.",
+ "juego": "Los 5 A se pasan el balón con máximo 2 toques para que los 3 D no lo roben. Si un D toca o roba, o el balón sale, el último A en tocar pasa al centro y el D sale.",
+ "punto": "8 pases seguidos de los A: 1 punto. Pase entre dos defensores: 2 puntos. Gana el que más puntos sume tras 4 rondas.",
+ "consigna": "Perfil abierto y pasa al hueco libre.",
+ "variantes": {
+  "facil": "Rondo 6v2 y 3 toques.",
+  "dificil": "Todo a un toque y 4 defensores con espacio de 12 × 12 m."
+ },
+ "adaptacion": "Infantil (12–13): 2 toques y 14 m. Cadete (14–15): un toque y 12 m. Con 5 jugadores, 4 + 1 comodín dentro.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RONDOS 8 JUGADORES",
+  "ref": "https://toplidercoach.com/futbol-base/rondos-8-jugadores/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    14,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 0.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 13.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 13.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 9.2,
+    "y": 6,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 6.8,
+    "y": 9.4,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.4,
+     1
+    ],
+    "b": [
+     13,
+     4.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     13.2,
+     5.8
+    ],
+    "b": [
+     11,
+     12.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     13
+    ],
+    "b": [
+     0.9,
+     6.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

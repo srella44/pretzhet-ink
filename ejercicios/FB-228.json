@@ -1,0 +1,156 @@
+{
+ "id": "FB-228",
+ "bloque": "Finalización",
+ "titulo": "Circuito de precisión",
+ "formato": "Circuito con remate",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "12 min",
+ "series": "4 vueltas por jugador con 30″ de pausa; cambio de pie de tiro en la 3.ª (propuesta).",
+ "objetivo": "Encadenar conducción, pase en pared y tiro colocado a una zona concreta. Cómo explicarlo: «conduce, pared y tira al palo largo». Errores típicos: tiro a la altura del portero, pared sin espacio, no dar el último toque hacia la portería. Qué observar: pie de apoyo y zona de impacto. Material: 8 conos, portería, 4 balones.",
+ "montaje": "Portería de 6 m con portero. Salida a 20 m: slalom de 3 conos a 3 m, un jugador C como pared por el lado y 2 conos como dianas en los palos. Resto en fila.",
+ "juego": "A conduce el slalom, pasa a C, recibe su devolución al espacio y dispara a las dianas. El siguiente sale al terminar A el slalom.",
+ "punto": "Diana derribada: 3 puntos. Gol: 2. Tiro al centro o fuera: 0. Gana quien sume más en 4 vueltas.",
+ "consigna": "Pared al espacio y tira a las dianas.",
+ "variantes": {
+  "facil": "Sin portero y dianas más grandes (2 m).",
+  "dificil": "Tiro de un toque, portero activo y pared de un toque."
+ },
+ "adaptacion": "Benjamín (8–9): sin pared y 15 m. Alevín (10–11): pared y 20 m. Infantil (12–13): pared de un toque y 25 m. Con 4 jugadores, uno hace de pared y otro de portero.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO PRECISIÓN FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-precision-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 32,
+   "ymin": -3,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    5,
+    20
+   ],
+   [
+    8,
+    20
+   ],
+   [
+    11,
+    20
+   ],
+   [
+    12.2,
+    1
+   ],
+   [
+    17.8,
+    1
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     20
+    ],
+    "b": [
+     12,
+     20
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     12.5,
+     19.2
+    ],
+    "b": [
+     20,
+     13.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     12.6
+    ],
+    "b": [
+     15.5,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     15,
+     6.6
+    ],
+    "b": [
+     13,
+     2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 4
+   }
+  ]
+ }
+}

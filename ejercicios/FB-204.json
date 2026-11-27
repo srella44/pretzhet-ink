@@ -1,0 +1,158 @@
+{
+ "id": "FB-204",
+ "bloque": "Calentamiento",
+ "titulo": "Técnica cognitiva",
+ "formato": "Conducción con señales",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "5 bloques de 1′ con 20″ de pausa; el entrenador cambia las señales (propuesta).",
+ "objetivo": "Unir la toma de decisiones con la técnica: mirar la señal, elegir la acción y ejecutarla sin dejar de conducir. Cómo explicarlo: «cabeza arriba, mira mis tarjetas y haz lo que dicen». Errores típicos: mirar solo el balón, olvidar la consigna, chocar con otros. Qué observar: rapidez de reacción y calidad del gesto. Material: 4 tarjetas de colores, un balón por jugador.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 conos. Todos (A) conducen con balón. El entrenador (C) está fuera con 4 tarjetas de colores.",
+ "juego": "Al levantar una tarjeta, cada jugador hace una acción: roja, para con la suela; azul, cambia de dirección; verde, giro de 360°; amarilla, cambia de pie y acelera. Después, vuelven a conducir.",
+ "punto": "Acción correcta en 3 s: 1 punto. Error o balón perdido: 0. Gana quien más puntos tenga tras 15 tarjetas.",
+ "consigna": "Cabeza arriba, mira la tarjeta y actúa.",
+ "variantes": {
+  "facil": "Dos tarjetas distintas y un jugador por bloque.",
+  "dificil": "Dos tarjetas a la vez y combinación de acciones en 3 s."
+ },
+ "adaptacion": "Benjamín (8–9): 2 tarjetas y sin puntos. Alevín (10–11): 4 tarjetas con puntos. Con 6 jugadores, cuadrado de 15 × 15 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TÉCNICA COGNITIVA",
+  "ref": "https://toplidercoach.com/futbol-base/tecnica-cognitiva/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 25
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 16,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 23,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.6,
+     5.6
+    ],
+    "b": [
+     8.5,
+     8.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     4.8
+    ],
+    "b": [
+     14,
+     8.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     15.4,
+     16
+    ],
+    "b": [
+     11.5,
+     16
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12.2,
+    23.4,
+    "ENTRENADOR (C)",
+    "start"
+   ]
+  ]
+ }
+}

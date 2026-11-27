@@ -1,0 +1,149 @@
+{
+ "id": "FB-198",
+ "bloque": "Calentamiento",
+ "titulo": "Carrera con retroceso",
+ "formato": "Relevos con balón",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 8 m",
+ "duracion": "8 min",
+ "series": "3 rondas de 2′ con 30″ de pausa; cambia la pierna de retroceso (propuesta).",
+ "objetivo": "Cambiar de ritmo y sentido con el balón controlado: acelerar, frenar, retroceder y volver a acelerar. Cómo explicarlo: «acelera, frena con la suela, arrastra atrás y arranca». Errores típicos: dejar escapar el balón al frenar, retroceder demasiado rápido, olvidar el giro. Qué observar: apoyo de la suela y primer paso al arrancar. Material: 4 conos, 2 balones.",
+ "montaje": "Dos calles de 20 m con una salida y un cono a 10 m. Dos equipos de 3–6 en fila en la salida; el primero de cada fila con balón.",
+ "juego": "Sale el primero: conduce rápido al cono de los 10 m, frena con la suela, arrastra el balón 5 m hacia atrás de lado, gira y conduce a toda velocidad hasta la meta a 20 m. Entrega al siguiente.",
+ "punto": "La fila que termine antes: 1 punto. Balón que se escapa más de 2 m: repite. Gana quien llegue a 4.",
+ "consigna": "Frena con la suela, arrastra atrás y arranca.",
+ "variantes": {
+  "facil": "Retroceso de 3 m sin giro final y a ritmo suave.",
+  "dificil": "Cambia de pie en el arrastre y añade un cono final para regatear antes de la meta."
+ },
+ "adaptacion": "Benjamín (8–9): retroceso de 3 m. Alevín (10–11): 5 m. Infantil (12–13): arrastre y giro con el pie débil. Con 6 jugadores, 3 por equipo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CARRERA CON RETROCESO",
+  "ref": "https://toplidercoach.com/futbol-base/carrera-con-retroceso/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   20,
+   8
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 22,
+   "ymin": -1.5,
+   "ymax": 9.5
+  },
+  "cones": [
+   [
+    10,
+    2
+   ],
+   [
+    10,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 2.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": 2.6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 0.8,
+    "y": 5.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": -1.4,
+    "y": 5.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.6,
+     2.6
+    ],
+    "b": [
+     9.4,
+     2.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     3.5
+    ],
+    "b": [
+     5,
+     3.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     5.4,
+     1.5
+    ],
+    "b": [
+     19.5,
+     1.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     1.6,
+     5.4
+    ],
+    "b": [
+     9.4,
+     5.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    19.5,
+    4,
+    "META",
+    "middle"
+   ]
+  ]
+ }
+}

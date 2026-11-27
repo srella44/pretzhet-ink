@@ -1,0 +1,138 @@
+{
+ "id": "FB-184",
+ "bloque": "Finalización",
+ "titulo": "Velocidad y tiro",
+ "formato": "Duelo de velocidad y remate",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "2 rondas de 5′ (cada jugador sale 3–4 veces) con 1′ de pausa (propuesta).",
+ "objetivo": "Ganar la carrera al balón, controlar en carrera y rematar con rapidez bajo presión. Cómo explicarlo: «el primero que llega, dispara; el segundo, defiende». Errores típicos: frenar antes de tocar, mirar solo el balón y no la portería, tiro sin colocar. Qué observar: primer toque hacia delante, tiro a ras y reacción del defensor al perder. Material: portería, 1 balón por salida, conos.",
+ "montaje": "Portería de 6 m con portero. Balón a 11 m de la portería. Dos filas (A y B) de 2–4 jugadores a 10 m del balón, una a cada lado.",
+ "juego": "Al «ya» salen los primeros de cada fila hacia el balón. Quien llega antes lo controla y dispara en menos de 5 s; el otro defiende y bloquea. Después cambian de fila.",
+ "punto": "Gol: 2 puntos al tirador. Bloqueo o robo: 1 punto al defensor. Gana la fila con más puntos tras 8 salidas.",
+ "consigna": "Primer toque hacia delante y dispara pronto.",
+ "variantes": {
+  "facil": "Defensor que sale 1 s más tarde y tiro libre de pie.",
+  "dificil": "El defensor sale 2 pasos por detrás y tiro de un toque."
+ },
+ "adaptacion": "Benjamín (8–9): portería de 5 m y balón a 9 m, sin defensor activo. Alevín (10–11): defensor activo. Infantil (12–13): balón a 13 m y tiro de primera. Con 4 jugadores, una fila por equipo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COMPETICIÓN VELOCIDAD Y TIRO",
+  "ref": "https://toplidercoach.com/futbol-base/competicion-velocidad-y-tiro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27,
+   "ymin": -3,
+   "ymax": 22
+  },
+  "porterias": [
+   {
+    "x": 12.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "balls": [
+   [
+    12.5,
+    9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16.5,
+    "f": -60
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 16.5,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 19.5,
+    "f": -60
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 19.5,
+    "f": -120
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.5,
+     15.9
+    ],
+    "b": [
+     11.5,
+     9.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     18.5,
+     15.9
+    ],
+    "b": [
+     13.5,
+     9.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     12.5,
+     8.4
+    ],
+    "b": [
+     12.5,
+     1.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    12,
+    "BALÓN",
+    "middle"
+   ]
+  ]
+ }
+}

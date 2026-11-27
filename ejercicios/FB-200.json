@@ -1,0 +1,174 @@
+{
+ "id": "FB-200",
+ "bloque": "Calentamiento",
+ "titulo": "Toques en corto",
+ "formato": "Pase corto por parejas",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "12 × 8 m",
+ "duracion": "8 min",
+ "series": "4 bloques de 1′30″ con 30″ de pausa; cada bloque cambia la consigna (propuesta).",
+ "objetivo": "Afinar el toque corto y el control orientado con ambos pies en movimiento. Cómo explicarlo: «toca fino, a los pies y vuelve a ponerte a 3 m». Errores típicos: pase con la punta, receptor sin ofrecer la pierna, pasar sin mirar. Qué observar: superficie de contacto y colocación del pie de apoyo. Material: 1 balón por pareja y 8 conos.",
+ "montaje": "Parejas enfrentadas a 3 m, una frente a otra, en una cuadrícula de 12 × 8 m (hasta 4 parejas). Un balón por pareja.",
+ "juego": "Se pasan el balón de un toque con el interior, alternando pies. Cada 20 s el entrenador cambia el toque: interior, exterior, de primeras o control y pase. Cada 20 pases seguidos, el receptor da 1 paso atrás.",
+ "punto": "20 pases seguidos sin fallo: 1 punto y 1 m más lejos. Balón que se escapa: vuelta a 0 y a 3 m. Gana la pareja con más puntos.",
+ "consigna": "Toca fino, a los pies y ofrece la pierna.",
+ "variantes": {
+  "facil": "A 2 m, con dos toques y sin cambio de consigna.",
+  "dificil": "A 5 m, todo a un toque y alternando pies; rondas de 30″."
+ },
+ "adaptacion": "Benjamín (8–9): 2 toques y 2–3 m. Alevín (10–11): un toque y 3 m. Infantil (12–13): 5 m y a un toque alternando pies. Con 6 jugadores, 3 parejas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TOQUES EN CORTO",
+  "ref": "https://toplidercoach.com/futbol-base/toques-en-corto/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   12,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    1.5,
+    0.5
+   ],
+   [
+    10.5,
+    0.5
+   ],
+   [
+    1.5,
+    7.5
+   ],
+   [
+    10.5,
+    7.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.2,
+     2
+    ],
+    "b": [
+     3.8,
+     2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     3.8,
+     2.8
+    ],
+    "b": [
+     2.2,
+     2.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     8.2,
+     6
+    ],
+    "b": [
+     9.8,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     9.8,
+     6.8
+    ],
+    "b": [
+     8.2,
+     6.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ }
+}

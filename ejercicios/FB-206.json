@@ -1,0 +1,135 @@
+{
+ "id": "FB-206",
+ "bloque": "Técnica y duelos",
+ "titulo": "Arrastro y paso",
+ "formato": "Parejas con arrastre y pase",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "15 × 8 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′ con 30″ de pausa; se cambia de pie de arrastre en cada serie (propuesta).",
+ "objetivo": "Cambiar la dirección del balón con arrastre de suela y pasar raso con precisión después del cambio. Cómo explicarlo: «arrastra, mira, pasa». Errores típicos: arrastrar muy lejos del cono, no mirar antes del pase, pase sin fuerza. Qué observar: apoyo de la suela, giro de cadera y pase al pie del compañero. Material: 4 conos, 2 balones.",
+ "montaje": "Dos calles de 15 m con 2 conos a 4 m de cada extremo. En cada calle, A con balón en un extremo y B (sin balón) en el otro.",
+ "juego": "A conduce 3 m hasta el cono, arrastra el balón con la suela hacia un lado, orienta el cuerpo y pasa raso a B. B controla, hace lo mismo y pasa a A. Cada uno sigue su pase.",
+ "punto": "Arrastre limpio y pase al pie: 1 punto. Balón que se escapa más de 1 m: -1. Gana la pareja con más puntos.",
+ "consigna": "Arrastra, mira y pasa raso.",
+ "variantes": {
+  "facil": "Sin cono: arrastre libre y pase suave.",
+  "dificil": "Con el pie débil y pase a un toque tras el arrastre."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y 10 m. Infantil (12–13): 15 m y arrastre alternando pies. Cadete (14–15): a un toque. Con 2 jugadores, una calle.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ARRASTRO Y PASO",
+  "ref": "https://toplidercoach.com/futbol-base/arrastro-y-paso/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   15,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    4,
+    2.5
+   ],
+   [
+    11,
+    2.5
+   ],
+   [
+    4,
+    5.5
+   ],
+   [
+    11,
+    5.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 5.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 5.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.7,
+     2.5
+    ],
+    "b": [
+     3.4,
+     2.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     4.4,
+     3
+    ],
+    "b": [
+     5,
+     3.9
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     5.6,
+     3.8
+    ],
+    "b": [
+     13.2,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

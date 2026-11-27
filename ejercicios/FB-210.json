@@ -1,0 +1,140 @@
+{
+ "id": "FB-210",
+ "bloque": "Técnica y duelos",
+ "titulo": "Slalom y regate",
+ "formato": "Circuito con defensor pasivo",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "2–6 jug.",
+ "espacio": "24 × 10 m",
+ "duracion": "10 min",
+ "series": "4 vueltas por jugador con 30″ de pausa entre salidas (propuesta).",
+ "objetivo": "Conducir con ambos pies y regatear a un rival pasivo con cambio de ritmo. Cómo explicarlo: «frena, finta con el cuerpo y acelera por el lado». Errores típicos: regatear demasiado pronto, tocar el cono, no cambiar de ritmo tras la finta. Qué observar: pie de apoyo, cambio de velocidad y salida del balón. Material: 8 conos, 1 muñeco o jugador pasivo.",
+ "montaje": "Salida en un extremo. 3 conos en línea cada 3 m; a 5 m un defensor pasivo D (muñeco o compañero quieto); a 6 m una puerta de 2 m como meta. Resto en fila.",
+ "juego": "Conduce el slalom, se acerca al defensor, finta con el cuerpo y lo supera por un lado. Acelera y cruza la puerta conduciendo.",
+ "punto": "Slalom limpio: 1 punto. Regate sin tocar al defensor: 1. Cruzar la puerta: 1. Máximo 3 por vuelta.",
+ "consigna": "Frena, finta y sal rápido por el lado.",
+ "variantes": {
+  "facil": "Defensor sin moverse y puerta de 3 m.",
+  "dificil": "Defensor con pasos laterales y regate con pierna débil."
+ },
+ "adaptacion": "Benjamín (8–9): puerta de 3 m y finta libre. Alevín (10–11): puerta de 2 m y 2 tipos de finta. Con 2 jugadores, sin fila.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO DE CONDUCCIÓN Y REGATE",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-de-conduccion-y-regate/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   24,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    4,
+    5
+   ],
+   [
+    7,
+    5
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    22,
+    3.8
+   ],
+   [
+    22,
+    6.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15.5,
+    "y": 5.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.2,
+     5
+    ],
+    "b": [
+     11,
+     5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     13.5,
+     4.2
+    ],
+    "b": [
+     18,
+     2.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     18.5,
+     3.2
+    ],
+    "b": [
+     21.2,
+     4.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    15.5,
+    8,
+    "DEFENSOR PASIVO",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "id": "FB-220",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Dejar de cara y lateral",
+ "formato": "Trío con pared y apoyo",
+ "edad": "8–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2′30″ con 30″ de pausa; el trío rota los puestos tras cada ronda (propuesta).",
+ "objetivo": "Dejar de cara al compañero con un toque y moverse lateralmente para ofrecer una línea de pase. Cómo explicarlo: «deja de cara, desplázate un paso al lado y vuelve a recibir». Errores típicos: pase con efecto, receptor parado, moverse hacia atrás y no al lado. Qué observar: distancia entre los tres y perfil del cuerpo. Material: 6 conos y 2 balones.",
+ "montaje": "Dos calles de 20 × 6 m. En cada una, un trío: A en un extremo con balón, B (pivote) a 8 m de A y C (de cara) a 8 m de B. Resto del grupo al lado esperando.",
+ "juego": "A pasa a B, B deja de primera a C y A se mueve 3 m al lado para recibir la devolución de C. Tras 6 pases rotan: A a B, B a C, C a A.",
+ "punto": "Secuencia sin fallo: 1 punto. 6 pases seguidos: 2 extra. Pase mal orientado: -1. Gana el trío con más puntos.",
+ "consigna": "Deja de cara y muévete al lado.",
+ "variantes": {
+  "facil": "Distancias de 6 m y control antes de pasar.",
+  "dificil": "A un toque y con un defensor pasivo entre B y C."
+ },
+ "adaptacion": "Benjamín (8–9): 6 m y 2 toques. Alevín (10–11): 8 m y un toque. Infantil-cadete (12–15): 10 m y defensor pasivo. Con 8 jugadores, 2 tríos y 2 de apoyo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DEJAR DE CARA Y MOVIMIENTO LATERAL",
+  "ref": "https://toplidercoach.com/futbol-base/dejar-de-cara-y-movimiento-lateral/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "lines": [
+   [
+    [
+     0,
+     6
+    ],
+    [
+     20,
+     6
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     3
+    ],
+    "b": [
+     9.2,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10.6,
+     3.4
+    ],
+    "b": [
+     17.2,
+     4.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     2,
+     3.8
+    ],
+    "b": [
+     2,
+     5.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     17.4,
+     5
+    ],
+    "b": [
+     3,
+     5.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

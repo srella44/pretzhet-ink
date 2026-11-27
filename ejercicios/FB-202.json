@@ -1,0 +1,114 @@
+{
+ "id": "FB-202",
+ "bloque": "Técnica y duelos",
+ "titulo": "Intercambio técnico",
+ "formato": "Parejas con dos balones",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "10 × 6 m",
+ "duracion": "10 min",
+ "series": "4 series de 1′30″ con 30″ de pausa; en cada serie se invierten los roles (propuesta).",
+ "objetivo": "Coordinar el pase raso y el control de balones lanzados con la mano, cambiando de técnica sin parar. Cómo explicarlo: «tú pasas raso y yo te lanzo alto; los dos controlamos». Errores típicos: lanzar sin mirar, recibir sin orientar, perder el ritmo del intercambio. Qué observar: control con muslo, pecho o interior y cuerpo bien colocado. Material: 2 balones por pareja y 2 conos.",
+ "montaje": "Pareja enfrentada a 8 m, con 1 cono detrás de cada jugador. A tiene un balón en los pies y B otro en las manos.",
+ "juego": "A pasa raso a B con el interior y B lanza su balón con las manos al pecho de A. Cada uno controla (A de pecho o muslo; B con el pie) y devuelve igual. Cada 30″ se cambian los balones.",
+ "punto": "Intercambio sin fallo (2 controles bien): 1 punto. Meta: 10 seguidos; si falla uno, vuelve a 0.",
+ "consigna": "Pasa raso, lanza suave y controla orientado.",
+ "variantes": {
+  "facil": "A 5 m de distancia y balón de manos a media altura.",
+  "dificil": "A 10 m, control de primeras y alternando pie de pase."
+ },
+ "adaptacion": "Alevín (10–11): 6 m y control con 2 toques. Infantil (12–13): 8 m y un toque. Con 2 jugadores, una sola pareja; con 6, 3 parejas en paralelo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "INTERCAMBIO TÉCNICO",
+  "ref": "https://toplidercoach.com/futbol-base/intercambio-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   10,
+   6
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 12,
+   "ymin": -2,
+   "ymax": 8
+  },
+  "nofield": true,
+  "cones": [
+   [
+    0.5,
+    3
+   ],
+   [
+    9.5,
+    3
+   ]
+  ],
+  "tag": "10 × 6 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     2.2
+    ],
+    "b": [
+     7.7,
+     2.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     7.7,
+     1.2
+    ],
+    "b": [
+     2.3,
+     1.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "balls": []
+ }
+}

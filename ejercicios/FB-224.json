@@ -1,0 +1,164 @@
+{
+ "id": "FB-224",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Precisión pase interior",
+ "formato": "Pases por puertas",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "8 min",
+ "series": "4 series de 1′30″ con 30″ de pausa; cada serie cambia de pie (propuesta).",
+ "objetivo": "Pasar con la cara interna del pie con dirección y fuerza justas por una puerta pequeña. Cómo explicarlo: «pie de apoyo al lado del balón, tobillo firme, golpea el centro». Errores típicos: pie de apoyo lejos, tobillo flojo, mirar el balón y no la puerta. Qué observar: contacto en el centro del balón y seguimiento del pie. Material: 8 conos, 4 balones.",
+ "montaje": "Cuatro calles de 12 m separadas 3 m. En cada una, dos jugadores (A) frente a frente a 5 m de una puerta de 1 m. Un balón por calle.",
+ "juego": "Cada pareja se pasa el balón raso por la puerta con el interior, controlando antes de devolver. Cada 10 pases, 1 m más lejos.",
+ "punto": "Pase que cruza la puerta: 1 punto. 10 seguidos sin fallo: 3 puntos. Gana la pareja con más puntos tras 4 series.",
+ "consigna": "Pie al lado, tobillo firme y golpea el centro.",
+ "variantes": {
+  "facil": "Puerta de 2 m y a 4 m de distancia.",
+  "dificil": "Puerta de 0,6 m, a 8 m y a un toque."
+ },
+ "adaptacion": "Benjamín (8–9): puerta de 2 m a 4 m. Alevín (10–11): 1 m a 5 m. Infantil (12–13): 0,6 m a 8 m. Con 8 jugadores, 4 parejas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PRECISIÓN PASE DE INTERIOR",
+  "ref": "https://toplidercoach.com/futbol-base/precision-pase-de-interior/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "nofield": true,
+  "cones": [
+   [
+    6,
+    0.6
+   ],
+   [
+    6,
+    1.6
+   ],
+   [
+    6,
+    3.6
+   ],
+   [
+    6,
+    4.6
+   ],
+   [
+    6,
+    6.6
+   ],
+   [
+    6,
+    7.6
+   ],
+   [
+    6,
+    9.6
+   ],
+   [
+    6,
+    10.6
+   ]
+  ],
+  "tag": "4 calles de 12 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1.1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 1.1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 4.1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 4.1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7.1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 7.1,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 10.1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10.1,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     1.1
+    ],
+    "b": [
+     10.2,
+     1.1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10.2,
+     4.1
+    ],
+    "b": [
+     1.8,
+     4.1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

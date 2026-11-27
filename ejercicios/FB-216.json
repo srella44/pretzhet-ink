@@ -1,0 +1,158 @@
+{
+ "id": "FB-216",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de pases",
+ "formato": "Rueda en cuadrado",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2′30″ con 30″ de pausa; cambio de sentido en la 3.ª (propuesta).",
+ "objetivo": "Pasar y desmarcarse sin perder el ritmo, mejorando la orientación del cuerpo y el pase a un toque. Cómo explicarlo: «pasa al puesto de tu derecha y sigue tu pase hasta ocupar su sitio». Errores típicos: pase sin avisar, parar tras pasar, que dos balones se crucen. Qué observar: pase al lado del pie lejano y perfil abierto. Material: 4 conos y 2 balones.",
+ "montaje": "Cuadrado de 20 × 20 m con un puesto de conos en cada esquina y 2–3 jugadores (A) por puesto. 2 balones: en la esquina superior izquierda y en la inferior derecha.",
+ "juego": "El jugador con balón pasa a la esquina de su derecha y corre a ese puesto. El receptor controla y repite. Los dos balones giran a la vez.",
+ "punto": "Vuelta completa de los 2 balones sin fallo: 1 punto. Fallo: vuelta a 0.",
+ "consigna": "Pasa, sigue tu pase y ocupa su puesto.",
+ "variantes": {
+  "facil": "Un balón y control antes de pasar.",
+  "dificil": "Tres balones y todo a un toque; cambio de sentido a la señal."
+ },
+ "adaptacion": "Alevín (10–11): 1 balón y 15 m. Infantil (12–13): 2 balones y 20 m. Cadete (14–15): 3 balones y a un toque. Con 8 jugadores, 2 por esquina.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASES",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pases/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 0.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18.2,
+    "y": 1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 20.8,
+    "y": 3.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 18.2,
+    "y": 18.2,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 19.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 18.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 16.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.6,
+     1.8
+    ],
+    "b": [
+     17.4,
+     1.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     3.2
+    ],
+    "b": [
+     1.8,
+     17
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     17.4,
+     18.2
+    ],
+    "b": [
+     2.6,
+     18.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 10
+   }
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "id": "FB-222",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "De cara y tercer hombre",
+ "formato": "Combinación de tres",
+ "edad": "8–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "24 × 16 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 30″ de pausa; rotan A, B y C (propuesta).",
+ "objetivo": "Combinar con un tercer hombre: pase a un compañero, dejada de cara y llegada desde atrás. Cómo explicarlo: «el tercero llega por atrás y recibe de cara». Errores típicos: salida demasiado temprana, pase fuerte, tercero que se queda detrás del balón. Qué observar: timing de la llegada y perfil del pivote. Material: 6 conos, 2 balones.",
+ "montaje": "A (balón) en un lado del campo; B (pivote) a 8 m con un defensor pasivo D detrás; C a 4 m por detrás de A en otra línea; E (finalizador) a 8 m al otro lado.",
+ "juego": "A pasa a B, B deja de primera a C que sale en carrera. C controla, lleva el balón 3 m y pasa a E, que dispara a la minipuerta. Rotan los puestos.",
+ "punto": "Secuencia sin fallo y tiro entre conos: 2 puntos. Sin tiro entre conos: 1.",
+ "consigna": "El tercero llega tarde y de cara.",
+ "variantes": {
+  "facil": "Sin defensor y pase con control.",
+  "dificil": "Defensor activo y todo a un toque."
+ },
+ "adaptacion": "Benjamín (8–9): sin defensor y 3 toques. Alevín (10–11): 2 toques. Infantil-cadete (12–15): un toque y defensor activo. Con 8 jugadores, 4 en secuencia y 4 en fila.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DEJAR DE CARA Y TERCER HOMBRE",
+  "ref": "https://toplidercoach.com/futbol-base/dejar-de-cara-y-tercer-hombre/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   24,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    22.5,
+    6.5
+   ],
+   [
+    22.5,
+    9.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 13.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     8
+    ],
+    "b": [
+     10.2,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     5,
+     13.5
+    ],
+    "b": [
+     14,
+     13.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     11.4,
+     8.8
+    ],
+    "b": [
+     14.4,
+     12.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     14.8,
+     12.4
+    ],
+    "b": [
+     17.2,
+     3.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    14,
+    10.7,
+    "DEF. PASIVO",
+    "middle"
+   ]
+  ]
+ }
+}

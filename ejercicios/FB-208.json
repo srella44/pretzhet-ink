@@ -1,0 +1,147 @@
+{
+ "id": "FB-208",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito técnico",
+ "formato": "Circuito de 3 estaciones",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "24 × 10 m",
+ "duracion": "12 min",
+ "series": "4 vueltas por jugador con 30″ de pausa entre salidas; cada vuelta cambia el pie de tiro (propuesta).",
+ "objetivo": "Encadenar conducción, pase en pared y remate con calidad técnica y ritmo. Cómo explicarlo: «conduce, pared y tira sin parar». Errores típicos: salir sin esperar el pase de pared, tiro sin mirar la portería, conducir con balón lejos. Qué observar: último toque antes del tiro y cuerpo orientado. Material: 8 conos, minipuerta, 3 balones.",
+ "montaje": "Salida en un extremo. Slalom de 3 conos a 3 m; un jugador C como pared; minipuerta (2 conos a 1,5 m) a 8 m. Resto en fila.",
+ "juego": "A conduce el slalom, pasa a la pared C, controla su devolución y dispara a la minipuerta. El siguiente sale cuando A pasa el segundo cono.",
+ "punto": "Slalom limpio: 1 punto. Gol en la minipuerta: 2 más. Gana quien sume más tras 4 vueltas.",
+ "consigna": "Conduce corto, pared rápida y tira a puerta.",
+ "variantes": {
+  "facil": "Pared de primeras y puerta de 2 m.",
+  "dificil": "Puerta de 1 m, pared de un toque y solo pierna débil."
+ },
+ "adaptacion": "Alevín (10–11): 3 conos a 4 m y tiro libre. Infantil (12–13): 3 m. Cadete (14–15): puerta de 1 m y pierna débil. Con 2 jugadores, el otro hace de pared.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO TÉCNICO",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   24,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    4,
+    5
+   ],
+   [
+    7,
+    5
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    22,
+    3.8
+   ],
+   [
+    22,
+    6.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 2,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.2,
+     5
+    ],
+    "b": [
+     11,
+     5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     4.5
+    ],
+    "b": [
+     13.6,
+     2.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     14.4,
+     2.7
+    ],
+    "b": [
+     17,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     17.5,
+     5
+    ],
+    "b": [
+     21.2,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "n": 4
+   }
+  ]
+ }
+}

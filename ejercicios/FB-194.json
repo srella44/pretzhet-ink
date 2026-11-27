@@ -1,0 +1,152 @@
+{
+ "id": "FB-194",
+ "bloque": "Calentamiento",
+ "titulo": "Aguanto la bola",
+ "formato": "Duelo 1v1 de protección",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "3 cuadrados de 6 × 6 m",
+ "duracion": "8 min",
+ "series": "6 duelos de 20″ por pareja, 15″ de pausa; luego cambio de rol (propuesta).",
+ "objetivo": "Proteger el balón con cuerpo y brazos, cambiar de dirección y mantener la cabeza alta ante un rival. Cómo explicarlo: «cuerpo entre rival y balón, apoyos abiertos». Errores típicos: dar la espalda sin ver, sacar el balón del cuadrado, usar las manos del rival. Qué observar: uso del brazo de apoyo sin agarrar y giros con suela. Material: 12 conos, 1 balón por pareja.",
+ "montaje": "Tres cuadrados de 6 × 6 m con conos. En cada cuadrado, una pareja: A con balón y B sin balón, cara a cara a 2 m del centro.",
+ "juego": "A conduce y protege el balón en el cuadrado 20 s; B presiona e intenta tocarlo sin empujar ni agarrar. Si B roba o A sale del cuadrado, se invierten los papeles.",
+ "punto": "20 s con balón: 1 punto para A. Si B roba: 1 punto para B. Gana quien tenga más tras 6 duelos.",
+ "consigna": "Cuerpo entre rival y balón; levanta la cabeza.",
+ "variantes": {
+  "facil": "Cuadrado de 8 × 8 m y B presiona al 50 % de velocidad.",
+  "dificil": "Cuadrado de 5 × 5 m y balón solo con la pierna menos hábil."
+ },
+ "adaptacion": "Alevín (10–11): cuadrado de 8 m y 15″. Infantil (12–13): 6 m y 20″. Con 6 jugadores, 3 parejas; con 12, 3 cuadrados de 4.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGUANTO LA BOLA",
+  "ref": "https://toplidercoach.com/futbol-base/aguanto-la-bola/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción.",
+ "diagrama": {
+  "field": [
+   20,
+   6
+  ],
+  "nofield": true,
+  "tag": "3 cuadrados de 6 × 6 m",
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -1.8,
+   "ymax": 7.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    6,
+    0
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    7,
+    0
+   ],
+   [
+    13,
+    0
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    13,
+    6
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    14,
+    6
+   ],
+   [
+    20,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 3.8,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 10.8,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17.8,
+    "y": 3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.2,
+     2.2
+    ],
+    "b": [
+     4.8,
+     1.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   }
+  ]
+ }
+}
