@@ -1,0 +1,174 @@
+{
+ "id": "JL-0430",
+ "bloque": "Finalización",
+ "titulo": "3v3 zona central y 2 com.",
+ "formato": "3v3 + 2 com. + PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. (3+3+2 com.) + PT",
+ "espacio": "34 × 30 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min con 1 min de pausa; los comodines cambian cada 2 min (fuente). Gana quien sume más puntos en las 4 rondas (propuesta).",
+ "objetivo": "Terminar la jugada tras pasar por una zona central: ganar el duelo 3v3 dentro de la zona, abrir al comodín y llegar a rematar. Cómo explicarlo: «La zona es el campo de batalla, el comodín es la salida». Errores típicos: salirse de la zona sin necesidad, tirar de lejos, comodín que no avisa. Qué observar: cuándo se decide entre tirar y abrir (propuesta).",
+ "montaje": "Medio campo de 34 × 30 m con portería y portero. Zona central de 14 × 18 m con conos. 3 amarillos contra 3 azules dentro de la zona; 2 comodines fuera, uno a cada lado.",
+ "juego": "Juegan 3v3 en la zona; los 2 comodines van con quien tiene el balón y tocan una vez. Se tira desde la zona o tras pase de comodín. Si los azules roban, atacan. Cada 2 min rotan los comodines.",
+ "punto": "Gol: 2; tiro: 1; robo: 1.",
+ "consigna": "Gana el duelo en la zona y abre.",
+ "variantes": {
+  "facil": "Los comodines pueden tocar 2 veces y los defensores no pueden salir de la zona hasta el primer pase (propuesta).",
+  "dificil": "Solo vale el gol tras un pase de comodín y cada ataque dura como mucho 10 s (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): zona de 16 × 18 m. Cadete (14–15): zona de 14 × 18 m y portería de 7,32 m. Con 6 jugadores, 2v2 y un comodín (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Finalización 3v3+2: zona central, comodines con la posesión, relevo cada 2 min · nº 430",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 100"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado en la base): juego 3:3 + 2 comodines que van con el equipo en posesión, cambio de comodines cada 2 min, zona central marcada. (propuesta): medidas (zona de 14 × 18 m) y uso de la zona, toques, reglas de tiro y robo, puntuación, series, variantes y adaptación. No tengo el PDF para ver el gráfico.",
+ "diagrama": {
+  "field": [
+   34,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     6,
+     28,
+     24
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 17,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 28.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     17,
+     15
+    ],
+    "b": [
+     20.4,
+     2.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     21,
+     2
+    ],
+    "b": [
+     17.8,
+     8.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     21
+    ],
+    "b": [
+     22,
+     26
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    23,
+    2.9,
+    "COMODÍN",
+    "start"
+   ],
+   [
+    23,
+    28.1,
+    "COMODÍN",
+    "start"
+   ]
+  ]
+ }
+}

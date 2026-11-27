@@ -1,0 +1,174 @@
+{
+ "id": "LU-P200",
+ "bloque": "Defensa y presión",
+ "titulo": "Balón largo desde el lateral",
+ "formato": "7v5 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "13 jug. (7+5) + PT",
+ "espacio": "50 × 40 m",
+ "duracion": "15 min",
+ "series": "4 series de 4 min con 1 min de pausa; cambian los equipos y los lanzadores cada serie (propuesta).",
+ "objetivo": "Defender el juego directo: despejar el balón lanzado al área y enviarlo a la zona intermedia, y salir rápido tras el despeje; atacando, disputar el primer balón y la segunda jugada. Cómo explicarlo: «Despeja largo y sal». Errores típicos: despeje corto, línea baja. Qué observar: coordinación del 4-1 al salir.",
+ "montaje": "Campo de 50 × 40 m con portería y portero. 7 amarillos (2 laterales con balones en los carriles) contra 5 azules en 4-1. Zona intermedia de despeje de 6 m de ancho marcada con 2 líneas.",
+ "juego": "Un lateral amarillo lanza el balón al área. Los amarillos disputan y finalizan, o ganan la posesión y atacan. Los azules despejan a la zona intermedia y salen juntos.",
+ "punto": "Gol: 1. Despeje azul a la zona intermedia: 1.",
+ "consigna": "Despeja largo a la zona y sal juntos.",
+ "variantes": {
+  "facil": "Lanzamientos con la mano y los azules no pierden el puesto en el área.",
+  "dificil": "Los lanzamientos son de pie y el ataque dura como mucho 12 s."
+ },
+ "adaptacion": "Edad 10–11: 6v4 en 40 × 35 m. Cadete: 7v6. Con menos jugadores, un solo lateral lanzador (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA - JUEGO DIRECTO - LANZAMIENTOS DESDE CARRILES LATERALES - DISPUTAS",
+  "ref": "300 ejercicios Level Up Coach · pág. 200"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: atacante azul de 7 jugadores distribuidos como en el gráfico; defensor de 5 (4-1) y portero; empieza con el lanzamiento del balón al área de uno de los laterales; el atacante finaliza o gana la posesión para atacar en posicional; el defensor despeja a la zona intermedia marcada con dos líneas amarillas; 13 jug., 40 × 50 m. (propuesta): reparto exacto, medidas, puntuación, series y adaptación. Sin PDF original en el repositorio.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 53.4,
+   "ymin": -0.5,
+   "ymax": 40.5
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     14,
+     0,
+     20,
+     40
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 24,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 43,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 43,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 43,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 43,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     24,
+     3
+    ],
+    "b": [
+     34.4,
+     12.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     31,
+     28
+    ],
+    "b": [
+     38.5,
+     27
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     35,
+     13
+    ],
+    "b": [
+     49.4,
+     19
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    17,
+    -1.2,
+    "ZONA DE DESPEJE",
+    "middle"
+   ]
+  ]
+ }
+}

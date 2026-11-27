@@ -1,0 +1,188 @@
+{
+ "id": "LU-P055",
+ "bloque": "Defensa y presión",
+ "titulo": "Basculación y ejes de tiro",
+ "formato": "6v6 + 2 com.",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug. (6+6+2 com.)",
+ "espacio": "32 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de pausa; se rotan líneas y delanteros cada serie (propuesta).",
+ "objetivo": "Obligar al rival a bascular moviendo el balón en amplitud hasta abrir una línea de pase o un eje de tiro; y, defendiendo, desplazarse juntos e interceptar. Cómo explicarlo: «Muévelo ancho y espera el hueco». Errores típicos: línea que no se junta, defensa que sale de su zona. Qué observar: quién pierde la distancia.",
+ "montaje": "Campo de 32 × 30 m con portería y portero por lado. Cada equipo: 4 en línea en su mitad y 2 delanteros en la mitad rival. 2 comodines, uno por banda, con quien tiene el balón.",
+ "juego": "Se mueve el balón en amplitud, con los comodines, hasta abrir una línea de pase o un eje de tiro. Los defensas solo interceptan o roban cuando recibe un delantero. Solo los delanteros salen de su zona.",
+ "punto": "Gol de línea o comodín: 1; de delantero: 2.",
+ "consigna": "Muévelo ancho y busca el hueco.",
+ "variantes": {
+  "facil": "Los defensas solo se desplazan sin intentar robar hasta el tercer pase.",
+  "dificil": "El gol solo vale si los 4 de la línea tocan el balón antes del pase al delantero."
+ },
+ "adaptacion": "Infantil: 5v5 en 30 × 28 m. Con menos jugadores, líneas de 3. Cadete: pases a 2 toques (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA - Basculaciones - Líneas de Pase + Ejes de Finalización",
+  "ref": "300 ejercicios Level Up Coach · pág. 55"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 6, 4 en línea y 2 delanteros en el campo contrario; mover en amplitud y conectar con los comodines para obligar a bascular; defensas solo interceptan o roban cuando recibe un delantero; gol de comodín o línea 1, de delantero 2; los comodines se mueven por todo el lateral; 14 jug., 32 × 30 m. (propuesta): colocación exacta, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   32,
+   30
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 34.2,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 5,
+    "portero": true
+   },
+   {
+    "x": 32,
+    "y": 15,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 28.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     19
+    ],
+    "b": [
+     14,
+     27.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     28.5
+    ],
+    "b": [
+     26.4,
+     19.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     19
+    ],
+    "b": [
+     31.4,
+     15.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -1.2,
+    "LÍNEA",
+    "middle"
+   ]
+  ]
+ }
+}

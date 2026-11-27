@@ -1,0 +1,106 @@
+{
+ "id": "JL-1046",
+ "bloque": "Defensa y presión",
+ "titulo": "1v1 hacia portería neutral",
+ "formato": "1v1 por parejas",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. (3 parejas)",
+ "espacio": "20 × 25 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 3 duelos de 1 min por pareja, con 1 min de pausa. Cada jugador anota sus puntos (propuesta).",
+ "objetivo": "Aprender a defender el 1v1 con la portería como referencia: frenar, ponerse entre el balón y la portería, orientar al atacante a un lado y robar cuando se descubre el balón. Cómo explicarlo: «Entre balón y portería». Errores típicos: lanzarse a entrar, defender de frente. Qué observar: el perfil del cuerpo y la velocidad de frenada.",
+ "montaje": "Campo de 20 × 25 m con una portería neutral de 4 m, sin portero (propuesta). 3 parejas: una juega el 1v1 y las otras esperan con balones tras la línea de fondo.",
+ "juego": "Atacante y defensor juegan 1 min hacia la portería neutral. Si el defensor recupera, gana 1 punto y pasa a atacar. Tras gol o balón fuera, saca la pareja que espera. Luego rota la pareja.",
+ "punto": "Defensor: 1 por robo. Atacante: 1 por gol.",
+ "consigna": "Entre el balón y la portería, frena y espera.",
+ "variantes": {
+  "facil": "El atacante conduce al 70 % de velocidad y el defensor puede salir 2 m adelantado.",
+  "dificil": "El atacante tiene 6 s para tirar y el defensor empieza de espaldas."
+ },
+ "adaptacion": "Alevín: portería de 5 m y 1 min por duelo. Infantil: 4 m. Con 4 jugadores, 2 parejas sin espera (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Defensa 1v1: una portería · nº 1046",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 225"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado en la base): juego 1:1 con 3 parejas; se coloca en el campo una portería abierta neutral; el jugador que defiende consigue 1 punto cada vez que recupera el balón. (propuesta): medidas, duración, paso a atacar, puntuación del atacante, series, variantes y adaptación. No tengo el PDF para ver el gráfico.",
+ "diagrama": {
+  "field": [
+   20,
+   25
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -2,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 4,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 22,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 10,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     22
+    ],
+    "b": [
+     4.5,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     10
+    ],
+    "b": [
+     8,
+     16
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    27.3,
+    "EL RESTO DE PAREJAS ESPERA",
+    "middle"
+   ]
+  ]
+ }
+}

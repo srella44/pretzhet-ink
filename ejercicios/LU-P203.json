@@ -1,0 +1,181 @@
+{
+ "id": "LU-P203",
+ "bloque": "Defensa y presión",
+ "titulo": "Posicional 7v7 + 2 comodines",
+ "formato": "7v7 + 2 com.",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug. (7+7+2 com.)",
+ "espacio": "40 × 50 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa; se cambian los comodines cada serie (propuesta).",
+ "objetivo": "Atacar de forma posicional creando líneas de pase y filtrando el pase entre líneas; tras robar, los que defendían salen rápido por banda. Cómo explicarlo: «Un comodín siempre te da una opción». Errores típicos: no ofrecerse entre líneas, pase al pie sin espacio. Qué observar: la decisión de filtrar o abrir.",
+ "montaje": "Campo de 40 × 50 m con portería y portero. 7 amarillos contra 7 azules y 2 comodines que juegan siempre con quien tiene el balón. Miniportería en cada esquina de salida azul.",
+ "juego": "Los amarillos atacan en posicional, filtran pase y finalizan. Si los azules recuperan, salen por banda y marcan en una miniportería en 10 s. El comodín crea superioridad en todas las zonas.",
+ "punto": "Gol amarillo: 1; gol azul en mini: 2.",
+ "consigna": "Ofrécete entre líneas y filtra.",
+ "variantes": {
+  "facil": "Tres comodines y los azules solo pueden presionar en medio campo.",
+  "dificil": "Sin comodín y los jugadores pueden cambiar de zona para crear superioridad."
+ },
+ "adaptacion": "Edad 12–13: 6v6 en 40 × 45 m. Con 12 jugadores, 5v5 + 2 comodines (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA 7vs7+2C - Álvaro Tato @AlvaroTato - Zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · pág. 203"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: espacio acotado; ataque posicional favoreciendo líneas de pase y filtrar pase, más finalización; tras recuperar, el defensor sale por banda para marcar en miniportería; el comodín crea superioridad para ambos equipos; variantes: más comodines y poder cambiar de zona; 16 jug., 40 × 50 m. (propuesta): tiempos, puntuación, ubicación de las minis, series y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 53.2,
+   "ymin": -0.5,
+   "ymax": 40.5
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    35,
+    "L"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 28,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     28
+    ],
+    "b": [
+     25,
+     21
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     20
+    ],
+    "b": [
+     35.4,
+     12.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     36,
+     12
+    ],
+    "b": [
+     49.4,
+     19
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    24,
+    38.8,
+    "COMODÍN",
+    "middle"
+   ],
+   [
+    24,
+    1.4,
+    "COMODÍN",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,245 @@
+{
+ "id": "TFB100-061",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido en tres zonas",
+ "formato": "5v5 + PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. (5+5 + 2 PT)",
+ "espacio": "45 × 30 m",
+ "duracion": "20 min",
+ "series": "3 partes de 5 min con 1 min de descanso; los jugadores rotan de zona en cada parte (fuente).",
+ "objetivo": "Generar duelos individuales en cada zona del campo y dar libertad al jugador para decidir cuándo regatear. Cómo explicarlo: «Atrévete y gana tu duelo». Errores típicos: pasar sin intentar el regate, defender de frente, salirse de la zona. Qué observar: la decisión entre regatear y pasar, y el cierre defensivo de lado.",
+ "montaje": "Campo de 45 × 30 m con 2 porterías y portero, dividido en 3 zonas de 15 m con conos. 5v5 en 2-1-2: en cada zona de extremo juegan 2v2 y en el centro 1v1. Cada jugador se queda en su zona.",
+ "juego": "Partido normal. Nadie sale de su zona, así que se forman duelos individuales. Quien recibe decide si regatea, pasa o tira. Al final de cada parte los jugadores rotan de zona.",
+ "punto": "Gol: 1 punto; gol tras regate: 2.",
+ "consigna": "Atrévete, encara y gana tu duelo.",
+ "variantes": {
+  "facil": "Un jugador por equipo puede cambiar de zona.",
+  "dificil": "Máximo de toques en la zona propia para obligar a decidir rápido."
+ },
+ "adaptacion": "Prebenjamín: 1v1 en todas las zonas y campo más corto. Benjamín: 2-1-2 y el gol tras regate vale doble.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Partido en tres zonas para fomentar los duelos individuales",
+  "ref": "100 tareas de fútbol base · pág. 78"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente completa en el PDF (pág. 78): también puede jugarse en 1-3-1. (propuesta): edad 10–13, posición exacta de cada jugador en el dibujo y rotación de zona.",
+ "diagrama": {
+  "field": [
+   45,
+   30
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 47.2,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 45,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    30
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 21,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 40,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 40,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     21
+    ],
+    "b": [
+     21.4,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     13
+    ],
+    "b": [
+     28.5,
+     9.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     28.5,
+     9.5
+    ],
+    "b": [
+     33.4,
+     21
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     34,
+     22
+    ],
+    "b": [
+     44.4,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    -1.2,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    22.5,
+    -1.2,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    37.5,
+    -1.2,
+    "ZONA 3",
+    "middle"
+   ]
+  ]
+ }
+}

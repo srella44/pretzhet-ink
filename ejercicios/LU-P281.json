@@ -1,0 +1,188 @@
+{
+ "id": "LU-P281",
+ "bloque": "Defensa y presión",
+ "titulo": "Presión baja entre líneas",
+ "formato": "9v8 + PT",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "18 jug. (9+8) + PT",
+ "espacio": "55 × 50 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa; cambian los equipos cada serie (propuesta).",
+ "objetivo": "Defender en bloque bajo: mantener poca distancia entre líneas, evitar pases interiores y defender el área (marcajes y centros). Atacando, abrir el campo y encontrar al mediapunta entre líneas. Cómo explicarlo: «Línea a línea y juntos». Errores típicos: líneas separadas, marcajes que se pierden. Qué observar: la distancia entre las dos líneas.",
+ "montaje": "Campo de 55 × 50 m con portería y portero. 9 amarillos (2 mediapuntas entre líneas) contra 8 rojos en 2 líneas de 4. Línea de salida con conos a la izquierda.",
+ "juego": "Los amarillos circulan abiertos y buscan centros, pases fuera-dentro o tiros lejanos. Los rojos cierran entre líneas y defienden el área. Tras robar, 2 o 3 pases y sacan el balón de la zona.",
+ "punto": "Gol: 1; de centro: 2. Rojos: salida: 2.",
+ "consigna": "Línea a línea, juntos y cerca.",
+ "variantes": {
+  "facil": "Los rojos sin presionar y los mediapuntas con total libertad.",
+  "dificil": "Los amarillos tienen 20 s para tirar y los rojos juegan a 2 toques al robar."
+ },
+ "adaptacion": "Infantil: 7v6 en 45 × 40 m. Cadete: 8v7. Con 12 jugadores, 6v5 en 45 × 40 m (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "Situaciones de Presión Baja - Jugar entre líneas y Amplitud (9vs8+p)",
+  "ref": "300 ejercicios Level Up Coach · pág. 281"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: azul con la posesión y máxima amplitud para crear situaciones de finalización (centros, fuera/dentro, disparos de media distancia); mediapuntas entre líneas; el rojo trabaja distancia entre líneas, evitar pases interiores y defensa de área; tras robo, 2-3 pases y sacar de zona; 18 jug., 55 × 50 m. (propuesta): colocación, ubicación de la línea de salida, puntuación, series, variantes y adaptación. Sin PDF original; se dibuja una parte.",
+ "diagrama": {
+  "field": [
+   55,
+   50
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 58.4,
+   "ymin": -0.5,
+   "ymax": 50.5
+  },
+  "porterias": [
+   {
+    "x": 55,
+    "y": 25,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     50
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 44,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 42,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     44
+    ],
+    "b": [
+     32.4,
+     35
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     33,
+     34
+    ],
+    "b": [
+     33,
+     17.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     33,
+     16
+    ],
+    "b": [
+     47,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    33,
+    47.4,
+    "ENTRE LÍNEAS: 2 MEDIAPUNTAS",
+    "middle"
+   ]
+  ]
+ }
+}

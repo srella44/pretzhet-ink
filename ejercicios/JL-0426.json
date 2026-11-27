@@ -1,0 +1,201 @@
+{
+ "id": "JL-0426",
+ "bloque": "Finalización",
+ "titulo": "3v3 y 3 comodines",
+ "formato": "3v3 + 3 com. + PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (3+3+3 com.) + PT",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min con 1 min de pausa; los comodines rotan cada 2 min con los jugadores de campo (propuesta). Gana quien sume más puntos al final de las 4 rondas (propuesta).",
+ "objetivo": "Practicar la finalización con superioridad y amplitud: usar bien las bandas y la frontal para generar un tiro limpio ante tres defensores y portero. Cómo explicarlo: «Abre, atrae y remata». Errores típicos: comodines que se quedan quietos, atacantes que tiran sin ángulo, no cambiar de banda cuando está cerrada. Qué observar: el timing del desmarque tras pasar al comodín (propuesta).",
+ "montaje": "Medio campo de 40 × 30 m con portería y portero. 3 amarillos contra 3 azules delante del área. 3 comodines: uno en cada banda y otro en la frontal, con el equipo que tiene el balón.",
+ "juego": "Juegan 3v3 + 3 comodines. Los comodines tocan 2 veces y no tiran. Si los azules roban, pasan a un comodín y atacan. Cada 2 min rotan los comodines.",
+ "punto": "Gol: 2; tiro: 1; robo y pase: 1.",
+ "consigna": "Abre a la banda, entra y remata.",
+ "variantes": {
+  "facil": "Comodines de banda libres de toques y defensores que no pueden salir del área hasta el primer pase (propuesta).",
+  "dificil": "Los comodines solo tocan una vez y los atacantes tienen 8 s para rematar desde que reciben el primer pase (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): portería de 6 m y 4 contra 3 con un comodín menos. Cadete (14–15): portería de 7,32 m. Con 8 jugadores, 2 atacantes, 2 defensores y 3 comodines (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Finalización 3v3+3: comodines en bandas · nº 426",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 99"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado en la base): juego 3:3 + 3 comodines que van con el equipo en posesión; dos apoyan por las bandas y el otro por la frontal del área. (propuesta): medidas, número de toques, reglas de robo, puntuación, series, rotación, variantes y adaptación. No tengo el PDF para ver el gráfico.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 41.6,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     28,
+     9,
+     40,
+     21
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 28.5,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 31,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     15
+    ],
+    "b": [
+     20,
+     3.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     20.3,
+     2.2
+    ],
+    "b": [
+     30,
+     13.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     25
+    ],
+    "b": [
+     27.5,
+     26
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     31,
+     16.5
+    ],
+    "b": [
+     28,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    22.5,
+    2.9,
+    "COMODÍN",
+    "start"
+   ],
+   [
+    22.5,
+    28.1,
+    "COMODÍN",
+    "start"
+   ],
+   [
+    34,
+    25,
+    "FRONTAL",
+    "middle"
+   ]
+  ]
+ }
+}

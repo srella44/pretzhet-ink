@@ -1,0 +1,181 @@
+{
+ "id": "LU-P109",
+ "bloque": "Defensa y presión",
+ "titulo": "Cambio de rol y desmarque",
+ "formato": "5+2 com. v 6 + 2 PT",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug. (5+2+6+2 PT)",
+ "espacio": "55 × 45 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa; los equipos cambian el rol de ataque/defensa cada serie (propuesta).",
+ "objetivo": "Crear ocasiones con superioridad y amplitud (comodines) y, tras robar, atacar con una condición: marcar solo tras un desmarque al espacio. Cómo explicarlo: «Roba, fija y sal al hueco». Errores típicos: pase al pie sin desmarque, defensa que no cierra el centro. Qué observar: el momento del desmarque.",
+ "montaje": "Campo de 55 × 45 m con portería y portero por lado. 5 amarillos y 2 comodines contra 6 azules. Zona de desmarque de 14 × 25 m delante de la portería amarilla.",
+ "juego": "Los amarillos aprovechan a los comodines y tiran libremente. Si los azules recuperan, solo puntúan si marcan tras un desmarque al espacio dentro de la zona. Los comodines no tiran ni se les roba.",
+ "punto": "Gol amarillo: 1. Gol azul tras desmarque: 2.",
+ "consigna": "Roba, fija y desmárcate al hueco.",
+ "variantes": {
+  "facil": "La zona de desmarque es de 20 × 30 m y los comodines pueden entrar.",
+  "dificil": "Sin comodines y 12 s para marcar tras robar."
+ },
+ "adaptacion": "Edad 12–13: 5v6 en 50 × 40 m. Con 11 jugadores, 4+2 com. contra 5 (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA (6vs7+2) - CREAR SITUACIONES DE FINALIZACIÓN - CAMBIO ROL",
+  "ref": "300 ejercicios Level Up Coach · pág. 109"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: equipo inicial de 5 + portero y equipo defensor de 6 + portero, con 2 comodines para el equipo en posesión; libertad para finalizar; el defensor, al recuperar, solo puede marcar tras un desmarque al espacio en la zona de desmarque; comodines sin gol ni robo; 15 jug., 45 × 55 m. (propuesta): colores, medidas de la zona, puntuación, series y adaptación.",
+ "diagrama": {
+  "field": [
+   55,
+   45
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 57.2,
+   "ymin": -0.5,
+   "ymax": 45.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 22.5,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 55,
+    "y": 22.5,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     10,
+     14,
+     35
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 42,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 46,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     22
+    ],
+    "b": [
+     28.5,
+     11.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     29,
+     10
+    ],
+    "b": [
+     36.4,
+     21
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     37,
+     22
+    ],
+    "b": [
+     54.4,
+     22.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    7,
+    8.2,
+    "ZONA DE DESMARQUE",
+    "middle"
+   ]
+  ]
+ }
+}

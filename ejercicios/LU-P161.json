@@ -1,0 +1,180 @@
+{
+ "id": "LU-P161",
+ "bloque": "Defensa y presión",
+ "titulo": "Juego directo y 2.ª jugada",
+ "formato": "6v6 + 1 com. + PT",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "13 jug. (6+6+1 com.)",
+ "espacio": "47 × 40 m",
+ "duracion": "15 min",
+ "series": "4 series de 4 min con 1 min de pausa; cambian el equipo que saca y el comodín cada serie (propuesta).",
+ "objetivo": "Disputar el juego directo y la segunda jugada: ganar el balón largo o llegar el primero al rechace; si se pierde, evitar que el rival progrese. Cómo explicarlo: «Disputa, rodea y llega a la segunda». Errores típicos: delantero sin apoyo cerca, línea defensiva baja, nadie ataca el rechace. Qué observar: el timing de salida al rechace.",
+ "montaje": "Campo de 47 × 40 m con portería y portero por lado. 6 amarillos (con portero) contra 6 azules y 1 comodín con quien ataca. Círculo de disputa (7 m) y zona de 2.ª jugada (16 × 32 m).",
+ "juego": "El portero amarillo saca largo al círculo; su delantero disputa y los demás suben a la 2.ª jugada. Si la ganan, finalizan; si no, los azules evitan que progresen.",
+ "punto": "Gol tras segunda jugada: 2; otro gol: 1.",
+ "consigna": "Disputa y llega a la segunda jugada.",
+ "variantes": {
+  "facil": "El delantero disputa sin oposición en el círculo y el saque es con la mano.",
+  "dificil": "Dos comodines y 8 s para finalizar tras ganar la segunda jugada."
+ },
+ "adaptacion": "Edad 12–13: campo de 40 × 35 m y 5v5. Con 10 jugadores, 5v5 con un comodín (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA - JUEGO DIRECTO - SEGUNDA JUGADA",
+  "ref": "300 ejercicios Level Up Coach · pág. 161"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 equipos de 6 + comodín ofensivo; empieza el portero, que envía a las zonas marcadas (círculo y rectángulo) para disputar o provocar segunda jugada; si el atacante gana la segunda jugada finaliza; 13 jug., 47 × 40 m. (propuesta): medidas de las zonas, puntuación, series, rotación, variantes y adaptación. Sin PDF original en el repositorio.",
+ "diagrama": {
+  "field": [
+   47,
+   40
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 50.2,
+   "ymin": -0.5,
+   "ymax": 40.5
+  },
+  "porterias": [
+   {
+    "x": 47,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 32,
+    "y": 20,
+    "r": 3.5
+   },
+   {
+    "t": "rect",
+    "r": [
+     26,
+     4,
+     42,
+     36
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 21,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 33,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     20
+    ],
+    "b": [
+     29.5,
+     19.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     8
+    ],
+    "b": [
+     27,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     10
+    ],
+    "b": [
+     46,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    29.5,
+    14.6,
+    "DISPUTA",
+    "end"
+   ],
+   [
+    34,
+    2.6,
+    "SEGUNDA JUGADA",
+    "middle"
+   ]
+  ]
+ }
+}

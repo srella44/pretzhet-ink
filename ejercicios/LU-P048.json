@@ -1,0 +1,201 @@
+{
+ "id": "LU-P048",
+ "bloque": "Defensa y presión",
+ "titulo": "Despejes tras centro y salir",
+ "formato": "8v7 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug. (8+7+PT)",
+ "espacio": "50 × 40 m",
+ "duracion": "15 min",
+ "series": "4 series de 4 min con 1 min de pausa; cambian los equipos y los centradores cada serie (propuesta).",
+ "objetivo": "Defender los centros laterales de forma organizada: despejar a las zonas marcadas, salir rápido para evitar la segunda jugada y, tras robar, jugar largo a las miniporterías. Cómo explicarlo: «Despeja a la zona y sal». Errores típicos: despejar al centro, no salir tras el despeje. Qué observar: la línea que sube a la vez.",
+ "montaje": "Campo de 40 × 50 m con portería y portero. 8 amarillos (2 mediocentros con balón) contra 7 azules. Dos zonas de despeje en cada banda y 2 miniporterías en medio campo.",
+ "juego": "Los amarillos juegan a 3 toques y buscan tiro o un 2v1 en banda para centrar. Ante el centro, los azules despejan a las zonas y salen. Si roban, lanzan a una miniportería.",
+ "punto": "Gol: 1. Despeje a zona: 1. Mini tras robo: 2.",
+ "consigna": "Despeja a la zona y sal rápido.",
+ "variantes": {
+  "facil": "Sin límite de toques y los centros salen desde un lateral sin oposición.",
+  "dificil": "Los amarillos tienen 2 toques y 15 s para centrar."
+ },
+ "adaptacion": "Edad 10–11: 6v5 en 40 × 40 m. Cadete: sin límite de zonas de despeje. Con 12 jugadores, 6v5 (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA. Defensa Organizada - Despejes orientados tras centros laterales + Robar y salir",
+  "ref": "300 ejercicios Level Up Coach · pág. 48"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: equipo en superioridad que empieza con el balón en sus mediocentros; 3 contactos como máximo; finaliza por dentro o con 2vs1 en banda para centros; el defensor despeja a zonas prefijadas y sale para evitar segunda jugada; tras robo lanza el balón entre las porterías de medio campo; 16 jug., 40 × 50 m. (propuesta): reparto 8v7 + portero, medidas, puntuación, series y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 53.4,
+   "ymin": -0.5,
+   "ymax": 40.5
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     34,
+     0,
+     42,
+     7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     34,
+     33,
+     42,
+     40
+    ]
+   }
+  ],
+  "cones": [
+   [
+    25,
+    12
+   ],
+   [
+    25,
+    15
+   ],
+   [
+    25,
+    25
+   ],
+   [
+    25,
+    28
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 25,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 29,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     25
+    ],
+    "b": [
+     19.4,
+     35.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     36
+    ],
+    "b": [
+     29,
+     35.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     29,
+     35
+    ],
+    "b": [
+     40,
+     22
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    38,
+    5.2,
+    "DESPEJE",
+    "middle"
+   ],
+   [
+    38,
+    38.2,
+    "DESPEJE",
+    "middle"
+   ],
+   [
+    25,
+    10,
+    "MINIPORTERÍAS",
+    "middle"
+   ]
+  ]
+ }
+}

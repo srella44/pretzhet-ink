@@ -1,0 +1,188 @@
+{
+ "id": "LU-P112",
+ "bloque": "Defensa y presión",
+ "titulo": "Salida 6v5 y comodín",
+ "formato": "6v5 + 1 com.",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. (6+5+1 com.)",
+ "espacio": "45 × 38 m",
+ "duracion": "15 min",
+ "series": "4 series de 4 min con 1 min de pausa; cambian los equipos y el comodín cada serie (propuesta).",
+ "objetivo": "Trabajar el inicio de juego con el portero como un jugador más y defender esa salida: anticipar, cerrar líneas de pase y ocupar bien los espacios. Cómo explicarlo: «El portero es el sexto jugador». Errores típicos: pase al pie del defensor, no buscar al hombre libre. Qué observar: la ocupación de los carriles.",
+ "montaje": "Campo de 45 × 38 m con línea de medio campo y 2 porterías de conos de 2 m en campo contrario. 6 amarillos (portero incluido) contra 5 azules; 1 comodín con los amarillos.",
+ "juego": "Los amarillos salen desde el portero y finalizan en las porterías de conos. Si pierden, los azules atacan la portería grande y usan al comodín como vértice, que puede salir del espacio.",
+ "punto": "Gol en conos: 1. Gol azul: 2.",
+ "consigna": "El portero es un jugador más: sal jugando.",
+ "variantes": {
+  "facil": "El comodín juega con los amarillos siempre y los azules no presionan al portero.",
+  "dificil": "Los azules presionan desde el inicio y los amarillos tienen 20 s para finalizar."
+ },
+ "adaptacion": "Infantil: 5v4 en 40 × 35 m. Cadete: 7v6. Con menos jugadores, sin comodín (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA (6vs5+1) - INICIO JUEGO - PROGRESIÓN (F7)",
+  "ref": "300 ejercicios Level Up Coach · pág. 112"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 6 contra 5 más un comodín ofensivo detrás de la línea negra (con el azul en posesión) o dentro del espacio (cuando el naranja recupera); el azul aprovecha la superioridad (portero y comodín) para progresar y finalizar en las porterías de conos tras la línea de medio campo; tras robo el verde ataca la portería y usa al comodín como vértice; 12 jug., 38 × 45 m. (propuesta): colores, medidas, puntuación, series y adaptación.",
+ "diagrama": {
+  "field": [
+   45,
+   38
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 48.2,
+   "ymin": -0.5,
+   "ymax": 38.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 19,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     22.5,
+     0
+    ],
+    [
+     22.5,
+     38
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    36,
+    25
+   ],
+   [
+    36,
+    28
+   ],
+   [
+    36,
+    10
+   ],
+   [
+    36,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 29,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 29,
+    "y": 19,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     19
+    ],
+    "b": [
+     28.2,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     33
+    ],
+    "b": [
+     31,
+     31
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     29,
+     19.5
+    ],
+    "b": [
+     31,
+     30
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    36,
+    7.8,
+    "PORTERÍAS DE CONOS",
+    "middle"
+   ]
+  ]
+ }
+}

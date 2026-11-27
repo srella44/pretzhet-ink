@@ -1,0 +1,218 @@
+{
+ "id": "LU-P028",
+ "bloque": "Defensa y presión",
+ "titulo": "6v5 en bloque y basculación",
+ "formato": "6v5 + 3 porterías",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. (6+5)",
+ "espacio": "36 × 30 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de pausa; cambian los equipos cada serie (propuesta).",
+ "objetivo": "Que los 5 defensas se muevan juntos en bloque, cerrando espacios y basculando según el balón, ante un equipo con un jugador más. Cómo explicarlo: «Si el balón va a un lado, todos con él». Errores típicos: bloque largo, defensa que sale solo, no cerrar el carril del tiro. Qué observar: distancia entre líneas.",
+ "montaje": "Campo de 36 × 30 m con 3 porterías de conos (carriles) a un lado y, delante, un espacio de 5 × 18 m donde no se tira. 6 amarillos atacan; 5 azules defienden. Dos zonas de salida azul.",
+ "juego": "Los amarillos circulan y finalizan en cualquier portería. Si los azules roban, llevan o lanzan el balón a una zona de salida y empiezan otro ataque.",
+ "punto": "Gol: 1 en carril lateral, 2 en el central. Azul: 2 por salida.",
+ "consigna": "Juntos, cerramos y bascula con el balón.",
+ "variantes": {
+  "facil": "Los amarillos juegan a 3 toques y los azules no tienen que salir.",
+  "dificil": "Amarillos a 2 toques y las 3 porterías de 2,5 m."
+ },
+ "adaptacion": "Edad 12–13: campo de 36 × 36 m. Cadete: libre. Con menos jugadores, 5v4 (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA (6vs5) - Línea de 3 - Cierre de espacios - Basculaciones",
+  "ref": "300 ejercicios Level Up Coach · pág. 28"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 6 contra 5; el equipo en superioridad circula e intenta finalizar en cualquiera de las porterías ubicadas en los carriles; tras robo, el defensor lleva o lanza el balón a zonas de salida (2 puntos); el azul no puede finalizar dentro del espacio marcado delante de las porterías; 11 jug., 30 × 36 m. (propuesta): medidas de porterías y zonas, puntuación por carril, series y adaptación.",
+ "diagrama": {
+  "field": [
+   36,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 38,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     30,
+     6,
+     36,
+     24
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     6
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     24,
+     5,
+     30
+    ]
+   }
+  ],
+  "goals": [
+   [
+    36,
+    6,
+    "R"
+   ],
+   [
+    36,
+    15,
+    "R"
+   ],
+   [
+    36,
+    24,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 22,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 27,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     22
+    ],
+    "b": [
+     13.2,
+     15.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     21.4,
+     5.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     5
+    ],
+    "b": [
+     29.6,
+     14.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    33,
+    4.2,
+    "NO TIRAR",
+    "middle"
+   ],
+   [
+    2.5,
+    4,
+    "SALIDA",
+    "middle"
+   ],
+   [
+    2.5,
+    28,
+    "SALIDA",
+    "middle"
+   ]
+  ]
+ }
+}

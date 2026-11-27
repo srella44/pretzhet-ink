@@ -1,0 +1,189 @@
+{
+ "id": "RONDO-IN-S01",
+ "bloque": "Defensa y presión",
+ "titulo": "Presión alta",
+ "formato": "5v5 + 2 PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–12 jug. (ideal 10 + 2 PT)",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "3 tiempos de 4 min con 1 min de pausa para explicar y cambiar de equipo (propuesta). Gana el equipo con más puntos.",
+ "objetivo": "Presionar juntos arriba para recuperar cerca de la portería rival y finalizar rápido. Cómo explicarlo: «Si uno aprieta, todos aprietan». Errores típicos: presionar solo uno, dejar libre al portero, no cerrar el pase al central. Qué observar: distancia entre presionadores y reacción en los 10 s siguientes. «Hoy»: el portero siempre juega en corto; tras el gol, saca el equipo que lo ha encajado.",
+ "montaje": "Campo de 40 × 30 m con portería y portero por lado. 2 equipos de 5 (amarillos y rojos), cada uno en su mitad. Saca el rojo desde su portero, siempre en corto.",
+ "juego": "Partido normal. Quien recupera el balón en campo rival tiene 10 s para finalizar y su gol vale doble. Tras gol, saca el equipo que lo encaja desde su portero. Pasados los 10 s, vale 1.",
+ "punto": "Gol: 1; gol en 10 s tras recuperar arriba: 2.",
+ "consigna": "Si uno aprieta, aprietan todos.",
+ "variantes": {
+  "facil": "El tiempo para finalizar sube a 15 s y el portero rival no puede salir del área.",
+  "dificil": "Solo vale doble si presionan al menos tres jugadores y el gol es al primer toque: 3 puntos."
+ },
+ "adaptacion": "Infantil (12–13): 5v5. Con menos jugadores, 3v3 en 30 × 20 m. Cadete: 6v6 en 45 × 35 m (propuesta).",
+ "fuente": {
+  "autor": "RONDO · Vol. 4 · Infantil (12–13 años)",
+  "titulo_original": "Presión alta",
+  "ref": "RONDO Vol4 · págs. 3, 14, 37, 39, 41, 43"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: partido 40×30; recuperar en campo rival da 10″ para finalizar con gol doble; gol 1, gol en 10″ 2; más fácil 15″; más difícil al menos tres presionan y gol al primer toque: 3; «Hoy»: el portero siempre juega en corto. (propuesta): número de jugadores (5v5 + 2 PT), porterías, series, rotación y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 42.2,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 33,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     15
+    ],
+    "b": [
+     31,
+     15
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     6
+    ],
+    "b": [
+     27.5,
+     7
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     24
+    ],
+    "b": [
+     27.5,
+     24
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -1.2,
+    "MEDIO CAMPO",
+    "middle"
+   ]
+  ]
+ }
+}

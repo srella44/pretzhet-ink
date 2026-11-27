@@ -1,0 +1,174 @@
+{
+ "id": "LU-P079",
+ "bloque": "Defensa y presión",
+ "titulo": "Centros y defensa en 3v2",
+ "formato": "2 DC + 2 DEL + apoyos",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. + PT",
+ "espacio": "50 × 40 m",
+ "duracion": "15 min",
+ "series": "4 vueltas completas (5 acciones) por grupo, con 1 min de pausa; los pares de centrales y delanteros se turnan (propuesta).",
+ "objetivo": "Entrenar a los dos centrales en las situaciones reales del área: defender centros laterales, despejar orientado, disputar y defender en inferioridad (3v2) tras un balón largo. Cómo explicarlo: «Mira balón y hombre, despeja a zona». Errores típicos: perder al delantero, despejar al centro. Qué observar: la comunicación entre centrales.",
+ "montaje": "Medio campo de 50 × 40 m con portería y portero. 2 centrales azules y 2 delanteros amarillos en el área. Mediocentro con balones en el centro; lateral y extremo en las bandas.",
+ "juego": "1.º Mediocentro a lateral, que centra: disputa. 2.º El extremo centra. 3.º Los delanteros se colocan en las zonas amarillas y el mediocentro conduce: 3v2. Se repite por el otro lado.",
+ "punto": "Despeje a zona: 1 centrales. Remate: 1 delanteros.",
+ "consigna": "Mira balón y hombre; despeja a zona.",
+ "variantes": {
+  "facil": "Sin portero y los delanteros solo atacan el primer palo en los centros.",
+  "dificil": "Todo a 1 toque, y el 3v2 con 8 s para finalizar."
+ },
+ "adaptacion": "Infantil: centros desde un solo lado. Cadete: ritmo de partido. Con 8 jugadores, un solo apoyo (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ACCIONES COMBINADAS CON BALÓN - Trabajo Individualizado Defensas Centrales – Centros laterales + Defensa en inferioridad",
+  "ref": "300 ejercicios Level Up Coach · pág. 79"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: 2 centrales y 2 delanteros que defienden y atacan 5 acciones iniciadas por compañeros: 1) mediocentro a lateral, centro y disputa; 2) centro del extremo; 3) 3v2 con conducción del mediocentro; 4) y 5) igual por el otro sector; 10 jug., 40 × 50 m. (propuesta): colocación exacta, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   40
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 53.4,
+   "ymin": -1.5,
+   "ymax": 41.6
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     39,
+     8,
+     50,
+     32
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 42,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 26,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 37,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     26
+    ],
+    "b": [
+     26.4,
+     36
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     37
+    ],
+    "b": [
+     35,
+     36
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     35,
+     36
+    ],
+    "b": [
+     40,
+     24
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    13.5,
+    22.5,
+    "MEDIOCENTRO",
+    "end"
+   ],
+   [
+    29.5,
+    38.6,
+    "LATERAL",
+    "start"
+   ],
+   [
+    27,
+    -0.8,
+    "EXTREMO",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "id": "TFB100-044",
+ "bloque": "Defensa y presión",
+ "titulo": "Bloque medio en F7",
+ "formato": "6v6 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "12–14 jug. + PT",
+ "espacio": "45 × 40 m",
+ "duracion": "20 min",
+ "series": "3 bloques de 6 min con 2 min de descanso para corregir (fuente). Se cambia de rol entre bloques.",
+ "objetivo": "Que un equipo de fútbol 7 defienda junto en su campo: sin correr todos tras el balón, cerrando el centro y apretando cuando el rival juega por la banda. Cómo explicarlo: «Esperamos juntos, apretamos a la señal». Errores típicos: correr todos tras el balón, dejar libre al pivote, separarse entre líneas. Qué observar: distancias cortas y quién activa la presión. Reglas: los azules no pasan de la línea de conos hasta que el balón llega a un lateral amarillo; fuera de juego como en el partido.",
+ "montaje": "Campo de F7 de 45 × 40 m con portería. Azules: 3 defensas, 2 medios y delantero tras una línea de conos. Amarillos: 2 centrales, pivote, 2 laterales y delantero.",
+ "juego": "Amarillos: 25 s para tirar. El delantero azul vigila al pivote; nadie presiona a los centrales. Balón a un lateral: aprietan su medio, su defensa y el delantero. Tras robar, 8 s para cruzar el fondo.",
+ "punto": "Gol: 2. Robo: 1; robo y fondo en 8 s: 3.",
+ "consigna": "Juntos y apretamos en banda.",
+ "variantes": {
+  "facil": "Los amarillos sin delantero, para que el bloque azul solo piense en la señal de presión.",
+  "dificil": "Los amarillos con un comodín que juega siempre con ellos, o los azules solo pueden robar en la banda."
+ },
+ "adaptacion": "Pensada para alevín. En benjamín, solo dos alturas (defensas y delantero). En infantil, se juega en medio campo de fútbol 11.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Bloque medio en fútbol 7: esperar en el centro del campo y robar cuando el rival entra por banda",
+  "ref": "100 tareas de fútbol base · pág. 59"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente completa en el PDF (pág. 59). Los equipos se dibujan en amarillo (ataca) y azul (defiende) en vez de azul/rojo. (propuesta): edad 10–13 (la fuente dice alevín), el rol de cada bloque y el cambio de equipos.",
+ "diagrama": {
+  "field": [
+   45,
+   40
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 48.4,
+   "ymin": -0.5,
+   "ymax": 40.5
+  },
+  "porterias": [
+   {
+    "x": 45,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     40
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    19,
+    0
+   ],
+   [
+    19,
+    10
+   ],
+   [
+    19,
+    20
+   ],
+   [
+    19,
+    30
+   ],
+   [
+    19,
+    40
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 37,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 27,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 36.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     27
+    ],
+    "b": [
+     9,
+     35.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     28,
+     27
+    ],
+    "b": [
+     15.5,
+     32
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     23,
+     20
+    ],
+    "b": [
+     14.5,
+     22.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    19,
+    -1.2,
+    "LÍNEA DE CONOS",
+    "middle"
+   ]
+  ]
+ }
+}

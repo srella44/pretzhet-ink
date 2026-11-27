@@ -1,0 +1,178 @@
+{
+ "id": "TFB100-049",
+ "bloque": "Defensa y presión",
+ "titulo": "Basculación línea de 4",
+ "formato": "4 def. + 4 pasadores",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9–13 jug. + PT",
+ "espacio": "50 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 3 min con 1,5 min de descanso (fuente). Primero sin oposición; después, con pase al espacio.",
+ "objetivo": "Moverse juntos como línea según dónde esté el balón: bascular a la banda, subir cuando el balón va atrás y mantener distancias cortas entre los cuatro. Cómo explicarlo: «Nos movemos con el balón». Errores típicos: líneas rotas, laterales que no se juntan, central que no avisa. Qué observar: que el central manda en voz alta. Reglas: los pasadores no pasan más de 2 veces seguidas al de al lado; ningún defensa a más de 10–12 m del vecino; el central avisa cada movimiento.",
+ "montaje": "Zona de 50 × 30 m ante portería. 4 azules en línea a 10 m; 4 amarillos pasadores a 25 m, 2 fuera y 2 dentro.",
+ "juego": "Los pasadores se pasan el balón y la línea se mueve: balón a banda, sale el lateral y el resto se junta; balón atrás, sube; de cara, retrocede. 2.ª parte: pase al espacio y tiro.",
+ "punto": "Tiro tras pase al espacio: 1; pase cortado: 1 defensa.",
+ "consigna": "Nos movemos con el balón.",
+ "variantes": {
+  "facil": "Pases con la mano en lugar de con el pie, para que la línea tenga tiempo de moverse.",
+  "dificil": "Seis pasadores y un delantero que se mueve entre los defensas, o pases a un toque."
+ },
+ "adaptacion": "Infantil: pases lentos y con aviso. Cadete: ritmo normal. Juvenil: los pasadores pueden filtrar un pase si la línea no bascula a tiempo.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Basculación de la línea de cuatro con cuatro pasadores",
+  "ref": "100 tareas de fútbol base · pág. 64"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente completa en el PDF (pág. 64). (propuesta): colocación exacta de los pasadores, medidas de la línea (10 m a portería) y la norma de los 10 pases.",
+ "diagrama": {
+  "field": [
+   50,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 53.4,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 38,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 19.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 26.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 27,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     20
+    ],
+    "b": [
+     14.2,
+     26.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     38,
+     26.5
+    ],
+    "b": [
+     31,
+     27.5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     38,
+     19.5
+    ],
+    "b": [
+     34.5,
+     24
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     38,
+     10.5
+    ],
+    "b": [
+     35,
+     17
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    38,
+    -1.2,
+    "LÍNEA DE 4",
+    "middle"
+   ],
+   [
+    13.5,
+    -1.2,
+    "PASADORES",
+    "middle"
+   ]
+  ]
+ }
+}

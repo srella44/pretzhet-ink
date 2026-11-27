@@ -1,0 +1,114 @@
+{
+ "id": "JL-1052",
+ "bloque": "Defensa y presión",
+ "titulo": "1v1 hacia zona neutral",
+ "formato": "1v1 por parejas",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. (3 parejas)",
+ "espacio": "20 × 25 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 3 duelos de 1 min por pareja, con 1 min de pausa (propuesta).",
+ "objetivo": "Defender el 1v1 sin portería: orientar al atacante y evitar que pare el balón en la zona, robando sin falta. Cómo explicarlo: «Cierra el camino a la zona». Errores típicos: defender de frente, entrar con los dos pies. Qué observar: cuándo el defensor se aleja para dar tiempo al atacante.",
+ "montaje": "Campo de 20 × 25 m con una zona neutral de 5 × 5 m en el extremo contrario a la salida (propuesta). 3 parejas: una juega y las otras esperan con balones tras la línea de salida.",
+ "juego": "El atacante conduce desde la salida y puntúa si para el balón en la zona. El defensor sale a la vez y, si recupera, gana 1 punto y pasa a atacar. Si el balón sale, saca la pareja que espera.",
+ "punto": "Atacante: 1 por parar en la zona. Defensor: 1 por robo.",
+ "consigna": "Cierra el camino a la zona sin lanzarte.",
+ "variantes": {
+  "facil": "La zona es de 7 × 7 m y el defensor sale 2 m adelantado.",
+  "dificil": "La zona es de 3 × 3 m y el atacante tiene 6 s para llegar."
+ },
+ "adaptacion": "Alevín: zona más grande y sin tiempo límite. Infantil: libre. Con 4 jugadores, 2 parejas (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Defensa 1v1 · nº 1052",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 226"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado en la base): juego 1:1 con 3 parejas; se delimita en el campo una zona marcada neutral; el jugador que defiende consigue 1 punto cada vez que recupera el balón. (propuesta): medidas, cómo puntúa el atacante en la zona, duración, series, variantes y adaptación. No tengo el PDF para ver el gráfico.",
+ "diagrama": {
+  "field": [
+   20,
+   25
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 21,
+   "ymin": -2,
+   "ymax": 28.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     7.5,
+     0,
+     12.5,
+     5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 22,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 11,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     22
+    ],
+    "b": [
+     8,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     11
+    ],
+    "b": [
+     8.5,
+     16
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "ZONA NEUTRAL",
+    "middle"
+   ],
+   [
+    10,
+    27.3,
+    "EL RESTO DE PAREJAS ESPERA",
+    "middle"
+   ]
+  ]
+ }
+}

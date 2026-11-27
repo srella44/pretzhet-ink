@@ -1,0 +1,174 @@
+{
+ "id": "LU-P298",
+ "bloque": "Defensa y presión",
+ "titulo": "Construir con amplitud 8v8",
+ "formato": "8v8 + PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug. (8+8) + PT",
+ "espacio": "50 × 55 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa; cada serie se cambia el equipo que construye (propuesta).",
+ "objetivo": "Crear ocasiones con amplitud y superioridad sin perder el equilibrio defensivo: abrir el campo, buscar al tercer hombre y tener ya colocados a los que defienden la contra. Cómo explicarlo: «Ataca abierto, pero deja dos atrás». Errores típicos: laterales sin amplitud, todos delante del balón. Qué observar: quién cubre la pérdida. Posiciones propuestas: 2 centrales, 2 laterales, 2 medios y 2 extremos amarillos.",
+ "montaje": "Campo de 50 × 55 m con portería y portero. 8 amarillos contra 8 rojos. Zona de puntuación de 8 m de fondo detrás de la salida amarilla.",
+ "juego": "Los amarillos circulan abiertos para rematar. Si pierden, los rojos intentan entrar con el balón controlado en la zona de puntuación; los amarillos deben cerrarla. Tras gol o tiro, saca el portero amarillo.",
+ "punto": "Gol amarillo: 2. Rojos con balón en la zona: 1.",
+ "consigna": "Abre, cambia de lado y cuida la espalda.",
+ "variantes": {
+  "facil": "Los rojos necesitan 8 s para llegar a la zona y los amarillos tienen un comodín más.",
+  "dificil": "Los rojos puntúan 2 y los amarillos deben marcar en menos de 25 s."
+ },
+ "adaptacion": "Edad 12–13: 7v7 en 45 × 50 m. Cadete: 8v8 completo. Con 12 jugadores, 6v6 (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE vs DEFENSA - CONSTRUCCIÓN SITUACIONES FINALIZACIÓN 4-3-3",
+  "ref": "300 ejercicios Level Up Coach · pág. 298"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: equipo azul de 8 jugadores que mantiene la posesión y circula para crear finalización aprovechando amplitud y superioridad, cuidando el equilibrio defensivo; tras pérdida el naranja intenta llegar a la zona de puntuación con el balón controlado; 16 jug., 50 × 55 m. (propuesta): reparto de posiciones, tamaño de la zona, puntuación, series, variantes y adaptación. Se dibuja solo una parte de cada equipo.",
+ "diagrama": {
+  "field": [
+   55,
+   50
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 58.2,
+   "ymin": -0.5,
+   "ymax": 50.5
+  },
+  "porterias": [
+   {
+    "x": 55,
+    "y": 25,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     10,
+     8,
+     40
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 31,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 46,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 25,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     31
+    ],
+    "b": [
+     24,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     25
+    ],
+    "b": [
+     24.4,
+     5.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     4
+    ],
+    "b": [
+     35,
+     6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    4,
+    8.3,
+    "ZONA DE PUNTUACIÓN",
+    "middle"
+   ]
+  ]
+ }
+}

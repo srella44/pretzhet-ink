@@ -1,0 +1,217 @@
+{
+ "id": "LU-P202",
+ "bloque": "Defensa y presión",
+ "titulo": "Filtrar, banda y centro",
+ "formato": "4v6 + 2 com.",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. (4+6+2 com.) + PT",
+ "espacio": "40 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 1 min de pausa; se rotan zonas y comodines cada serie (propuesta).",
+ "objetivo": "Filtrar un pase al mediocentro, abrir a banda, centrar y llegar al área con tres hombres; y defender ese ataque en inferioridad, saliendo al contragolpe si se roba. Cómo explicarlo: «Filtra, abre y llega». Errores típicos: pasar sin orientar el cuerpo, llegar tarde al centro. Qué observar: cuándo llega el 3.er hombre.",
+ "montaje": "Campo de 40 × 20 m en 3 zonas (creación, centro, final con portería). Creación: 2 amarillos y 1 azul. Centro: 1 amarillo (medio) y 2 azules. Final: 1 delantero amarillo y 3 azules. 2 comodines en bandas.",
+ "juego": "Los 2 de creación filtran pase al medio, que descarga al comodín de banda; este centra y llegan medio, delantero y el otro comodín. Si roban los azules, contraatacan.",
+ "punto": "Gol: 2; remate: 1; robo y gol: 3.",
+ "consigna": "Filtra, abre a banda y llega al centro.",
+ "variantes": {
+  "facil": "Sin presión azul en la zona de creación y los comodines con 3 toques.",
+  "dificil": "Se añaden zonas o el ataque puede terminar sin centro, y 10 s para finalizar."
+ },
+ "adaptacion": "Infantil: 3v5 con un solo comodín. Cadete: ritmo normal. Con 8 jugadores, 3+1 contra 4 (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "ATAQUE VS DEFENSA 4vs6 + 2C - Álvaro Tato @AlvaroTato - Zonadefutbol.es",
+  "ref": "300 ejercicios Level Up Coach · pág. 202"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: espacio acotado; empieza en zona de creación con superioridad, se intenta filtrar pase al medio centro de la zona central, que descarga a banda a los comodines para el centro y la llegada del medio centro, delantero y comodín contrario; si hay robo, contra y finalización; variantes: más zonas y no acabar siempre en centro; 12 jug., 20 × 40 m. (propuesta): reparto por zonas, puntuación, series, variantes y adaptación. Sin PDF original.",
+ "diagrama": {
+  "field": [
+   40,
+   20
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 43.4,
+   "ymin": -1,
+   "ymax": 21
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 10,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     13.3,
+     0
+    ],
+    [
+     13.3,
+     20
+    ],
+    "6 5"
+   ],
+   [
+    [
+     26.6,
+     0
+    ],
+    [
+     26.6,
+     20
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 18.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     15
+    ],
+    "b": [
+     19.2,
+     10.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     10
+    ],
+    "b": [
+     29.4,
+     2.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     1.5
+    ],
+    "b": [
+     32.4,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6.6,
+    19.6,
+    "CREACIÓN",
+    "middle"
+   ],
+   [
+    20,
+    19.6,
+    "CENTRO",
+    "middle"
+   ],
+   [
+    33,
+    19.6,
+    "FINAL",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "id": "TFB100-047",
+ "bloque": "Defensa y presión",
+ "titulo": "Duelo 1v1 con portero",
+ "formato": "1v1 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "5–14 jug. + PT",
+ "espacio": "40 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 duelos por jugador con 1 min de descanso; se alterna el lado de las filas cada 5 min (fuente).",
+ "objetivo": "Defender un 1v1 que nace de un pase: llegar rápido, frenar a tiempo y cerrar el camino al centro de la portería para que el atacante tire sin ángulo o pierda el balón. Cómo explicarlo: «Carrera en curva, frena a 2 m, cierra el centro». Errores típicos: lanzarse al suelo, girar de espaldas, no escuchar al portero. Qué observar: la velocidad de frenada. Reglas: el defensor sale al golpe del entrenador, no antes; si roba, la jugada sigue hasta el pase al entrenador; el portero puede hablar al defensor.",
+ "montaje": "Medio campo de 40 × 30 m con portería y portero. Atacantes en fila a 25 m de la portería, en un lateral; defensores junto a un poste. El entrenador, en el centro y lejos, con los balones.",
+ "juego": "El entrenador pasa al primer atacante y, al golpear, sale el defensor. El atacante tiene 6 s para tirar. Si el defensor roba, pasa al entrenador. Se alterna el lado cada 5 min.",
+ "punto": "Gol: 1 atacante. Robo: 1; robo y pase al entrenador: 2.",
+ "consigna": "Carrera en curva, frena y cierra el centro.",
+ "variantes": {
+  "facil": "El defensor sale desde más cerca, para llegar con tiempo y aprender a frenar.",
+  "dificil": "El defensor sale con un segundo de retraso o desde más lejos, para frenar a la vez que corre."
+ },
+ "adaptacion": "Alevín: el atacante conduce despacio al principio. Infantil: libre. Cadete: el atacante sale antes y el defensor persigue.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Duelo defensivo 1 contra 1 con portero: salir rápido, frenar y cerrar el centro",
+  "ref": "100 tareas de fútbol base · pág. 62"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente completa en el PDF (pág. 62). (propuesta): posición exacta de las filas y del entrenador en el dibujo, y edad 10–13.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 43.4,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 5,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 26,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     15
+    ],
+    "b": [
+     14.2,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     36,
+     21
+    ],
+    "b": [
+     23,
+     9.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     6
+    ],
+    "b": [
+     27,
+     12
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     27,
+     12
+    ],
+    "b": [
+     39.4,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    5,
+    19.2,
+    "ENTRENADOR",
+    "middle"
+   ],
+   [
+    10.5,
+    1.8,
+    "FILA DE ATACANTES",
+    "middle"
+   ],
+   [
+    36,
+    29.2,
+    "DEFENSORES",
+    "middle"
+   ]
+  ]
+ }
+}

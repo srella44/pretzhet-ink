@@ -1,0 +1,151 @@
+{
+ "id": "IG-Df0SE4dqQva",
+ "bloque": "Defensa y presión",
+ "titulo": "Cerrar el intervalo lejano",
+ "formato": "3v4 + PT",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "7 jug. de campo + PT",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 1 min de pausa; rotan atacantes y defensores cada serie (propuesta).",
+ "objetivo": "Que la línea de cuatro se desplace por completo cuando el balón cambia de banda: el lateral cercano salta, el lejano se junta con su central y se cierra el intervalo. Cómo explicarlo: «Salta uno, se cierran todos». Errores típicos: lateral lejano que se queda abierto, central que no cubre. Qué observar: la distancia entre el lateral lejano y su central.",
+ "montaje": "Medio campo de 40 × 30 m con portería y portero. 4 defensores azules en línea ante el área. 3 atacantes amarillos a 18 m: dos en las bandas y uno en el centro, con 1 balón.",
+ "juego": "Los atacantes cambian el balón de banda. El lateral del lado del balón salta a presionar y el lateral lejano se junta con su central. Si los azules recuperan, salen con su portero.",
+ "punto": "Azules: robo y salida con el portero: 2. Amarillos: gol: 1.",
+ "consigna": "Salta uno y se cierran los demás.",
+ "variantes": {
+  "facil": "Los amarillos juegan a 3 toques y avisan cada cambio de banda.",
+  "dificil": "Los amarillos juegan a 1 toque y un cuarto atacante aparece por la espalda."
+ },
+ "adaptacion": "Infantil (12–13): 3 contra 4 a ritmo medio. Cadete: 4 contra 4 y cambios rápidos. Con 5 jugadores, línea de 3 y 2 atacantes (propuesta).",
+ "fuente": {
+  "autor": "@klube.ai · Instagram",
+  "titulo_original": "Cerrar el intervalo del lateral alejado",
+  "ref": "https://www.instagram.com/klube.ai/reel/Df0SE4dqQva/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (descripción pública del reel; no hay fotogramas en el repositorio): 3 atacantes cambian el balón de banda ante una línea de cuatro y portero; el lateral cercano salta y el lejano se junta con su central; la defensa puntúa si recupera y sale con su portero. (propuesta): medidas, distancias, puntuación, series, variantes y adaptación; U13 y dificultad ya venían como propuesta.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 43.4,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 33,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 26.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 25,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     15
+    ],
+    "b": [
+     15.4,
+     24
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     33,
+     26.5
+    ],
+    "b": [
+     26,
+     25
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     33,
+     3.5
+    ],
+    "b": [
+     32,
+     7.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    33,
+    -1.2,
+    "LÍNEA DE 4",
+    "middle"
+   ]
+  ]
+ }
+}

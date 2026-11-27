@@ -1,0 +1,144 @@
+{
+ "id": "JL-1121",
+ "bloque": "Defensa y presión",
+ "titulo": "4v4 anticipar y atacar",
+ "formato": "4v4",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min con 1 min de pausa; cada jugador cuenta sus anticipaciones (propuesta).",
+ "objetivo": "Anticiparse a los pases del rival: leer la mirada y el cuerpo del pasador, salir antes de que llegue el balón y cambiar a atacar en cuanto se roba. Cómo explicarlo: «Sal antes que el balón». Errores típicos: esperar el pase, salir tarde, no cubrir al compañero. Qué observar: el primer paso hacia el pase.",
+ "montaje": "Cuadrado de 20 × 20 m con conos. 4 amarillos repartidos por los bordes (uno por lado) con 1 balón; 4 azules dentro del cuadrado.",
+ "juego": "Los amarillos se pasan el balón (máx. 2 toques) sin que los azules lo toquen. Los azules defienden dentro y se anticipan a los pases. Al anticiparse, los azules ganan 1 punto y pasan a atacar desde los bordes; los amarillos entran a defender.",
+ "punto": "Azul: 1 por anticipación. Amarillos: 1 por 8 pases seguidos.",
+ "consigna": "Sal antes de que llegue el balón.",
+ "variantes": {
+  "facil": "Los amarillos juegan a 3 toques y el cuadrado es de 25 × 25 m.",
+  "dificil": "Los amarillos juegan a 1 toque y los azules tienen que sacar el balón fuera."
+ },
+ "adaptacion": "Infantil: 20 × 20 m y 2 toques. Cadete: 18 × 18 m y 1 toque. Con 6 jugadores, 3v3 en 15 × 15 m (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Defensa 4v4 · nº 1121",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 243"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado en la base): juego 4:4; los jugadores que defienden por dentro del campo consiguen 1 punto por cada anticipación que realizan, tras lo cual pasan a atacar. (propuesta): forma del campo (cuadrado con atacantes en los bordes), medidas, toques, puntuación de los atacantes, series, variantes y adaptación. No tengo el PDF para ver el gráfico.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": -1.2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21.2,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     -1.2
+    ],
+    "b": [
+     20.6,
+     9.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     8
+    ],
+    "b": [
+     15.5,
+     5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": []
+ }
+}
