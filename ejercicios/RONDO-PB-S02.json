@@ -1,0 +1,98 @@
+{
+ "id": "RONDO-PB-S02",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Todos a portería",
+ "formato": "1 portero + 5–8",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–9 jug. (propuesta)",
+ "espacio": "16 × 12 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 2 min; a cada gol cambia el portero (propuesta).",
+ "objetivo": "Disfrutar del tiro a portería y perder el miedo al balón, tanto chutando como parando. Cómo explicarlo: «Mira la portería y chuta con fuerza, pero con cabeza». Errores típicos: chutar sin mirar a portería, el portero de espaldas, colisiones. Qué observar: golpeo con el empeine y el pie de apoyo junto al balón.",
+ "montaje": "Portería grande de 6 m con un portero por turnos (peto verde). Los demás, cada uno con su balón, a 6–8 m de la portería detrás de una línea.",
+ "juego": "Los tiradores chutan cuando quieren, uno a uno. El portero para con manos y piernas. Quien marca gol se pone de portero y el portero pasa a tirador. Los balones se recogen al final.",
+ "punto": "Gol: 1 punto. Parada del portero: 1 punto (propuesta).",
+ "consigna": "¡Mira, chuta fuerte y a la portería!",
+ "variantes": {
+  "facil": "Portería grandísima (8 m) y tiro desde 4 m.",
+  "dificil": "Se tira desde detrás de una línea a 8 m."
+ },
+ "adaptacion": "En benjamín, dos porteros a la vez. En alevín, solo se tira de primeras tras un pase del compañero.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Todos a portería",
+  "ref": "RONDO Vol1 · págs. 8, 10, 19, 30, 41, 50"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 1) da la portería con portero por turnos, tiro libre y el puesto por gol. (propuesta): distancias, rondas, punto del portero y dibujo.",
+ "diagrama": {
+  "field": [
+   16,
+   12
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 18.2,
+   "ymin": -3,
+   "ymax": 13.5
+  },
+  "porterias": [
+   {
+    "x": 8,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 8,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5.5,
+    "y": 6,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     9.5
+    ],
+    "b": [
+     7,
+     1.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 2,
+    "n": 1
+   }
+  ]
+ }
+}

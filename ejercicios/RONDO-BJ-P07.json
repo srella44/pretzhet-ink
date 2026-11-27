@@ -1,0 +1,184 @@
+{
+ "id": "RONDO-BJ-P07",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Torneo de los colores",
+ "formato": "3v3 (4 equipos)",
+ "edad": "8–9 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. (4 equipos de 3)",
+ "espacio": "32 × 16 m",
+ "duracion": "16 min",
+ "series": "3 rondas de 3 min con 1 min para cambiar de campo (todos contra todos).",
+ "objetivo": "Competir en partidos cortos y aprender a ganar y perder con respeto. Cómo explicarlo: «Quien gana sube, quien pierde baja y nadie se va». Errores típicos: discutir los goles, jugar solo con el amigo, no pasar. Qué observar: pases al compañero libre y comportamiento al cambiar de campo.",
+ "montaje": "Dos campos de 16 × 16 m (campo 1 a la izquierda y campo 2 a la derecha) con miniportería de 3 m en cada fondo. 4 equipos de 3 con petos.",
+ "juego": "Partidos de 3 min, todos contra todos. Quien gana sube al campo 1 y quien pierde baja al 2; si hay empate, un penalti por equipo. Nadie queda eliminado; 3 rondas.",
+ "punto": "Gol: 1 punto. Gana el torneo quien más rondas gane.",
+ "consigna": "Gana o pierde, ¡siempre a jugar!",
+ "variantes": {
+  "facil": "Porterías grandes de 4 m.",
+  "dificil": "El gol después de un pase vale doble."
+ },
+ "adaptacion": "En prebenjamín, 2v2. En alevín, 4v4 con porterías pequeñas y gol tras 3 pases doble.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El torneo de los colores",
+  "ref": "RONDO Vol2 · págs. 12, 14, 15, 26, 29, 33"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 2) da 4 equipos de 3, dos campos, partidos de 3′ y sube-baja, y las variantes. (propuesta): medidas, desempate, número de rondas y dibujo.",
+ "diagrama": {
+  "field": [
+   32,
+   16
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 34.6,
+   "ymin": -2,
+   "ymax": 17.5
+  },
+  "lines": [
+   [
+    [
+     16,
+     0
+    ],
+    [
+     16,
+     16
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    16,
+    5,
+    "R"
+   ],
+   [
+    16,
+    11,
+    "L"
+   ],
+   [
+    32,
+    8,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 23,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     11
+    ],
+    "b": [
+     7.4,
+     8.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    8,
+    -1,
+    "CAMPO 1",
+    "middle"
+   ],
+   [
+    24,
+    -1,
+    "CAMPO 2",
+    "middle"
+   ]
+  ]
+ }
+}

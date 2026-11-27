@@ -1,0 +1,180 @@
+{
+ "id": "DOS-052",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 4v4 y 4 comodines",
+ "formato": "4v4 + 4 comodines",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. + 2 PT",
+ "espacio": "25 × 20 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de descanso; entre series se cambian los comodines (propuesta).",
+ "objetivo": "Jugar a pocos toques y buscar paredes con los comodines exteriores. Cómo explicarlo: «Dala y sal». Errores típicos: estar tapado, dar el pase y quedarse quieto, tocar demasiado dentro. Qué observar: alternar el primer y el segundo toque y el movimiento tras el pase.",
+ "montaje": "Campo de 25 × 20 m con 2 porterías y portero. 4v4 y 4 comodines (peto blanco), 2 por banda larga, fuera del campo y con el equipo que tiene el balón. 3 toques dentro y 1 fuera.",
+ "juego": "Partido 4v4. Se da la pared a un comodín y se recibe de vuelta de primeras; quien pasa sale al espacio. Tras cada gol, los comodines entran y 4 jugadores salen (propuesta).",
+ "punto": "Gol: 1 punto. Gol tras pared con comodín: 2.",
+ "consigna": "Dala y sal; alterna primer y segundo toque.",
+ "variantes": {
+  "facil": "Comodines a 2 toques y sin límite de toques dentro.",
+  "dificil": "Los comodines juegan a un toque y los jugadores dentro a 2 toques."
+ },
+ "adaptacion": "En infantil, 3 toques dentro. En cadete, 2 toques y gol tras pared doble. En juvenil, 1 toque en zona de ataque.",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "Partido 4v4 con 4 comodines",
+  "ref": "dosier.pdf · pág. 14, 19"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: dosier FCStage (págs. 14 y 19; probado). Objetivo, reglas de toques, puntos y consignas de la fuente. (propuesta): rotación tras gol, posición de los comodines y dibujo.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 27.2,
+   "ymin": -3.2,
+   "ymax": 23.2
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 4,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 4,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 21.8,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 21.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     10
+    ],
+    "b": [
+     7.6,
+     -0.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8.4,
+     -1.8
+    ],
+    "b": [
+     11.4,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     5
+    ],
+    "b": [
+     25,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ]
+ }
+}

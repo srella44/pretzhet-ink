@@ -1,0 +1,143 @@
+{
+ "id": "RONDO-PB-P06",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "El torneo de los amigos",
+ "formato": "2v2 / 3v3",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug. (4 equipos)",
+ "espacio": "28 × 12 m",
+ "duracion": "15 min",
+ "series": "3 partidos de 3 min con 1–2 min para cambiar de campo; luego se mezclan los equipos (fuente).",
+ "objetivo": "Jugar con ganas, respetar al rival y entender sin presión que se sube y se baja de campo. Cómo explicarlo: «Muy bien todos». Errores típicos: llorar al perder, no pasar el balón, jugar todos detrás del balón. Qué observar: disfrute y si cada niño toca el balón.",
+ "montaje": "Dos campitos de 14 × 12 m con miniportería de 2 m en cada fondo: campo del sol y de la luna. 4 equipos de 2 o 3 niños con petos.",
+ "juego": "Partidos de 3 min. Quien gana sube al campo del sol y quien pierde baja al de la luna; si hay empate, se queda. Tras 3 partidos se mezclan los equipos. Nadie sale.",
+ "punto": "Gol: 1 punto. No hay clasificación: todos celebran al final.",
+ "consigna": "¡Muy bien todos, juega y disfruta!",
+ "variantes": {
+  "facil": "Porterías anchas de 3 m.",
+  "dificil": "Equipos nuevos en cada ronda."
+ },
+ "adaptacion": "En prebenjamín, 2v2 sin portero. En benjamín, 3v3 y tiempos de 4 min.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El torneo de los amigos",
+  "ref": "RONDO Vol1 · págs. 4, 14, 19, 23, 26, 27"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 1) da 4 equipos de 2–3, 2 campitos, partidos de 3′ y sol/luna. (propuesta): tamaño de campitos, reglas de empate y dibujo.",
+ "diagrama": {
+  "field": [
+   28,
+   12
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 30.6,
+   "ymin": -2,
+   "ymax": 13.5
+  },
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    6,
+    "L"
+   ],
+   [
+    14,
+    4,
+    "R"
+   ],
+   [
+    14,
+    8,
+    "L"
+   ],
+   [
+    28,
+    6,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "labels": [
+   [
+    7,
+    -1,
+    "SOL",
+    "middle"
+   ],
+   [
+    21,
+    -1,
+    "LUNA",
+    "middle"
+   ]
+  ]
+ }
+}

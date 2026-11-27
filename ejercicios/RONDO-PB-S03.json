@@ -1,0 +1,160 @@
+{
+ "id": "RONDO-PB-S03",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Balón prisionero con pies",
+ "formato": "3v3 a 5v5",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–10 jug. (propuesta)",
+ "espacio": "16 × 12 m",
+ "duracion": "10 min",
+ "series": "4 partidas de 2 min con 1 min de descanso; después se cambian los equipos (propuesta).",
+ "objetivo": "Chutar con precisión y controlar la fuerza del golpeo para derribar un balón sin dar a nadie. Cómo explicarlo: «Despacio y a los balones, no a las piernas». Errores típicos: chutar fuerte, golpear con la punta, tirar a los compañeros. Qué observar: golpeo con el interior o el empeine y el cuerpo orientado al blanco.",
+ "montaje": "Campo de 16 × 12 m con línea central de conos. Cada equipo, 3 balones blandos sobre 3 conos en su fondo (a 2 m de la línea de fondo). Cada jugador, un balón para chutar.",
+ "juego": "A la señal, todos chutan despacio y rasos para tirar los balones del otro equipo. Prohibido chutar a los jugadores. Se defiende poniéndose delante de los conos, sin cruzar la línea central.",
+ "punto": "1 punto por balón tirado; si se da a un jugador, no cuenta.",
+ "consigna": "¡Defiende tu balón, chuta despacio!",
+ "variantes": {
+  "facil": "Conos más cerca de la línea central (6 m).",
+  "dificil": "Se chuta con el otro pie."
+ },
+ "adaptacion": "En benjamín, 5 balones y chutar solo con la pierna menos hábil. En alevín, conos a 10 m y balones normales.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Balón prisionero con los pies",
+  "ref": "RONDO Vol1 · págs. 6, 17, 28, 37, 39, 48"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 1) da el juego, el punto y las variantes. (propuesta): medidas del campo, número de balones por equipo, series y dibujo.",
+ "diagrama": {
+  "field": [
+   16,
+   12
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 18.2,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    2,
+    3
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    14,
+    3
+   ],
+   [
+    14,
+    6
+   ],
+   [
+    14,
+    9
+   ]
+  ],
+  "balls": [
+   [
+    2,
+    3
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    9
+   ],
+   [
+    14,
+    3
+   ],
+   [
+    14,
+    6
+   ],
+   [
+    14,
+    9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 3.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 8.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     9
+    ],
+    "b": [
+     13.2,
+     6.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    8,
+    -1,
+    "LÍNEA CENTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

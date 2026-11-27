@@ -1,0 +1,152 @@
+{
+ "id": "RONDO-PB-P04",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido de tiempos cortos",
+ "formato": "3v3 + habilidad",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug. (propuesta)",
+ "espacio": "20 × 14 m",
+ "duracion": "18 min",
+ "series": "3 partidos de 3 min alternados con 2 juegos de bolos de 3 min; equipos distintos cada vez (fuente).",
+ "objetivo": "Mantener la atención de los pequeños alternando juego de partido y juego de habilidad, y que jueguen con todos. Cómo explicarlo: «Como en las concentraciones: unos minutos de partido y otros de bolos». Errores típicos: tiempos largos que cansan, equipos fijos. Qué observar: participación de todos y control del balón en los bolos.",
+ "montaje": "Campito de 20 × 14 m con 2 miniporterías de 3 m para un 3v3 (propuesta). Al lado, 5 conos como bolos a 4 m de una línea de tiro. Petos.",
+ "juego": "Se alternan 3 min de partido y 3 min de bolos (tirar los conos chutando rasos), 3 veces. Los equipos cambian siempre y cada tiempo empieza de cero.",
+ "punto": "Gol: 1 punto; bolo tirado: 1 punto. Sin clasificación final.",
+ "consigna": "Cada tiempo es nuevo: ¡a jugar!",
+ "variantes": {
+  "facil": "Tiempos de 2 min.",
+  "dificil": "Un tiempo sin hablar, solo con gestos."
+ },
+ "adaptacion": "En benjamín, 4v4 y tiempos de 4 min. En alevín, bolos con balón en movimiento y de primeras.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido de tiempos cortos",
+  "ref": "RONDO Vol1 · págs. 5, 9, 20, 24, 28, 43"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 1) da tiempos de 3′ alternados con un juego de habilidad (Los bolos) y equipos siempre distintos. (propuesta): campito 3v3, número de conos, secuencia, puntos y dibujo.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 30,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    20,
+    7,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    24,
+    3
+   ],
+   [
+    26,
+    3
+   ],
+   [
+    28,
+    3
+   ],
+   [
+    25,
+    5.5
+   ],
+   [
+    27,
+    5.5
+   ]
+  ],
+  "balls": [
+   [
+    26,
+    11
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     26,
+     11
+    ],
+    "b": [
+     26,
+     6.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -1,
+    "PARTIDO 3 MIN",
+    "middle"
+   ],
+   [
+    26,
+    0.8,
+    "BOLOS",
+    "middle"
+   ]
+  ]
+ }
+}

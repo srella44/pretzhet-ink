@@ -1,0 +1,172 @@
+{
+ "id": "RONDO-AL-P01",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 5 contra 5",
+ "formato": "5v5",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (hasta 14–16)",
+ "espacio": "35 × 25 m",
+ "duracion": "16 min",
+ "series": "4 partes de 4 min con 1 min de descanso; el grupo sobrante rota cada 4 min (fuente).",
+ "objetivo": "Competir en un partido sencillo y fijarse en las jugadas de 3 pases seguidos. Cómo explicarlo: «Jugamos y contamos nuestras jugadas buenas». Errores típicos: chutar de lejos sin combinar, nadie ofrece apoyo, balón siempre al mismo jugador. Qué observar: cuántas veces se enlazan 3 pases y quién ofrece el primer apoyo.",
+ "montaje": "Campo de 35 × 25 m con portería de 4 m por fondo. 5v5 con petos. Si sois más, el resto juega un 2v2 al lado y se cambia cada 4 min. Con 14–16, 7v7 si hay campo.",
+ "juego": "Partido normal sin portero. El entrenador cuenta en silencio las jugadas de 3 pases seguidos y las comenta al final de cada parte.",
+ "punto": "Gol: 1 punto. Las jugadas de 3 pases no puntúan, se comentan.",
+ "consigna": "Juega, mira y pasa al libre.",
+ "variantes": {
+  "facil": "Porterías más grandes.",
+  "dificil": "Saque de banda con los pies."
+ },
+ "adaptacion": "En benjamín, 4v4 en 30 × 20 m. En infantil, 7v7 y se cuenta cuando se combinan 3 pases y se rompe una línea rival.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido 5 contra 5",
+  "ref": "RONDO Vol3 · págs. 3, 17, 31, 48, 51, 65"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 3) da el partido 5v5 en 35×25 con porterías de 4 m y la variante de 7v7 u 8v8. (propuesta): series, reglas de saque, dibujo y el detalle de cómo se comentan las jugadas.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 38.2,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    35,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     18
+    ],
+    "b": [
+     18,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     12
+    ],
+    "b": [
+     25,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     19
+    ],
+    "b": [
+     35,
+     12.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    -1.2,
+    "3 PASES SEGUIDOS: SE COMENTA AL FINAL",
+    "middle"
+   ]
+  ]
+ }
+}

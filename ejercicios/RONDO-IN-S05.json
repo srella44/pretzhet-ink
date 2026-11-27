@@ -1,0 +1,181 @@
+{
+ "id": "RONDO-IN-S05",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "El tercer hombre",
+ "formato": "5v5",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "4 partes de 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Aprender la combinación de tres: el 1.º pasa al 2.º, este descarga al 3.º, que llega lanzado al espacio. Cómo explicarlo: «Pasa y ofrece al tercero». Errores típicos: el tercero sale tarde, el 2.º devuelve al mismo jugador, pase fuerte o a los pies. Qué observar: el momento de salida del tercer hombre y el pase al espacio.",
+ "montaje": "Campo de 40 × 30 m con una portería de 4 m en cada fondo. Dos equipos de 5 con petos. El entrenador explica y demuestra la combinación en parado con 3 jugadores antes de empezar.",
+ "juego": "Partido normal. Si el gol llega tras una combinación A–B–C (A pasa a B, B descarga de primeras a C y C va al espacio) vale doble. B juega a un toque; C arranca justo cuando A toca el balón.",
+ "punto": "Gol normal: 1 punto. Gol con tercer hombre: 2 puntos.",
+ "consigna": "Pasa, descarga y el tercero ataca el espacio.",
+ "variantes": {
+  "facil": "El entrenador canta «¡tercero!» cuando ve la jugada preparada.",
+  "dificil": "La combinación debe superar una línea rival."
+ },
+ "adaptacion": "En alevín, combinación de dos (pared) con gol doble. En cadete, el tercero llega desde atrás y el gol doble exige un toque.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El tercer hombre",
+  "ref": "RONDO Vol4 · págs. 8, 12, 22, 24, 26, 27"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 4) da el gol doble tras combinación de tres y las variantes. (propuesta): campo, reglas de la combinación, series y dibujo.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 43.2,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    40,
+    15,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     15
+    ],
+    "b": [
+     19,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     25
+    ],
+    "b": [
+     25,
+     23
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     25,
+     22
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     25,
+     23
+    ],
+    "b": [
+     40,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -1.2,
+    "A → B → C AL ESPACIO",
+    "middle"
+   ]
+  ]
+ }
+}

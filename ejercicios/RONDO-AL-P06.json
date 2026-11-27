@@ -1,0 +1,172 @@
+{
+ "id": "RONDO-AL-P06",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido con puntos especiales",
+ "formato": "5v5",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "16 min",
+ "series": "4 partes de 4 min con 1 min de descanso; cada parte, un tema distinto (propuesta).",
+ "objetivo": "Practicar en un partido real el tema de la semana (una pared, un regate, una recuperación bien colocada) y que los jugadores lo busquen a propósito. Cómo explicarlo: «Además del gol, hoy vale el tema». Errores típicos: forzar el tema sin ocasión, olvidarlo al marcar gol. Qué observar: cuántas veces lo buscan y si lo hacen en el momento justo.",
+ "montaje": "Campo de 35 × 25 m con portería de 4 m en cada fondo. 5v5 con petos. Antes de empezar, el entrenador demuestra el tema con 3 jugadores (por ejemplo, la pared).",
+ "juego": "Partido normal. Además del gol, vale punto cada tema bien hecho: pared completa, regate que supera a un rival o recuperación bien colocada. El entrenador lo señala en voz alta.",
+ "punto": "Gol: 1 punto. Tema de la semana bien hecho: 1 punto.",
+ "consigna": "Busca el tema: pared, regate o robo bien colocado.",
+ "variantes": {
+  "facil": "El entrenador canta el tema en voz alta cuando ve la ocasión.",
+  "dificil": "El tema lo elige el equipo rival."
+ },
+ "adaptacion": "En benjamín, 4v4 y tema único (la pared). En infantil, 2 temas a la vez y el segundo vale doble.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido con puntos especiales",
+  "ref": "RONDO Vol3 · págs. 4, 18, 21, 32, 35, 49"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 3) da el partido con punto extra por el tema de la semana (pared, regate, recuperación bien colocada) y las variantes. (propuesta): campo, series, reglas de puntuación del tema y dibujo.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 38.2,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    35,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     17
+    ],
+    "b": [
+     17,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     17
+    ],
+    "b": [
+     21,
+     19
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     8
+    ],
+    "b": [
+     24,
+     18.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    -1.2,
+    "TEMA: LA PARED",
+    "middle"
+   ]
+  ]
+ }
+}

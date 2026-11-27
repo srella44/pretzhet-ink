@@ -1,0 +1,183 @@
+{
+ "id": "DOS-016",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido 6v6 por posiciones",
+ "formato": "6v6 + 2 PT",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12–14 jug. + 2 PT",
+ "espacio": "60 × 40 m",
+ "duracion": "20 min",
+ "series": "3 partes de 6 min con 1 min de descanso; en cada parte los jugadores mantienen su posición (propuesta).",
+ "objetivo": "Ocupar el espacio desde la posición y dar siempre una opción de pase. Cómo explicarlo: «Desde tu posición, ofrece siempre un pase». Errores típicos: amontonarse en el balón, jugar sin sentido, dejar huecos. Qué observar: distancia y ángulo de los apoyos y cómo se incorporan los defensas.",
+ "montaje": "Campo de F7 de 60 × 40 m con 2 porterías y portero. Equipos de 6 en 2-2-2 (propuesta), cada jugador con su posición fija de defensa, medio o delantero.",
+ "juego": "Partido normal. Cada jugador ocupa su posición con criterio: amplitud, profundidad y ayudas al balón. Si se incorpora un jugador desde atrás, el gol vale doble.",
+ "punto": "Gol: 1 punto; gol con incorporación desde atrás: 2.",
+ "consigna": "Desde tu posición, ofrece siempre un pase.",
+ "variantes": {
+  "facil": "Dos jugadores pueden cambiar de posición con el balón controlado.",
+  "dificil": "Gol doble solo si la incorporación llega a menos de 3 s tras la salida del balón."
+ },
+ "adaptacion": "En infantil, posiciones fijas y toques libres. En cadete, 2 toques y la incorporación vale doble. En juvenil, 1 toque en zona de ataque.",
+ "fuente": {
+  "autor": "FCStage Camps · dosier de sesiones",
+  "titulo_original": "Partido 6v6 por posiciones",
+  "ref": "dosier.pdf · pág. 4, 9, 13, 16, 18"
+ },
+ "top": "",
+ "probado": true,
+ "completado": "Fuente: dosier FCStage (págs. 4, 9, 13, 16, 18; probado). Objetivo y consignas de la fuente; el dosier sugiere «gol doble si se incorpora un jugador de atrás» para senior. (propuesta): campo 60 × 40, formación 2-2-2, series y dibujo.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 63,
+   "ymin": -1.5,
+   "ymax": 41.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 28,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     28
+    ],
+    "b": [
+     25,
+     30
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     30
+    ],
+    "b": [
+     37.4,
+     26.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     12
+    ],
+    "b": [
+     44,
+     5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     38,
+     14
+    ],
+    "b": [
+     44,
+     6.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

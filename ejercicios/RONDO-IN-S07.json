@@ -1,0 +1,183 @@
+{
+ "id": "RONDO-IN-S07",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "El fuera de juego",
+ "formato": "5v5",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (propuesta: 10–16)",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "3 partes de 4 min con 1 min de descanso para dar la consigna de cada parte (propuesta).",
+ "objetivo": "Entender el fuera de juego en situación real: la defensa sube junta y el ataque se desmarca en el momento justo. Cómo explicarlo: «Línea alta y junta». Errores típicos: defensas que suben a distinto ritmo, delantero que sale antes de que el compañero mire, no levantar la cabeza para ver la línea. Qué observar: comunicación del grupo defensivo y el tiempo del desmarque.",
+ "montaje": "Campo de 40 × 30 m con miniporterías de 3 m. 5v5 con petos. Fuera de juego activo: lo marca el penúltimo defensor.",
+ "juego": "Partido normal. Los defensas suben juntos para dejar al delantero en fuera de juego; los atacantes salen al espacio cuando el compañero toca el balón. Fuera de juego: golpe franco indirecto.",
+ "punto": "Gol: 1; tras desmarque al espacio: 2; fuera de juego provocado: 1 (propuesta).",
+ "consigna": "Línea alta y junta.",
+ "variantes": {
+  "facil": "Línea del fuera de juego marcada con conos.",
+  "dificil": "Los atacantes solo pueden salir desde detrás de la línea del balón."
+ },
+ "adaptacion": "En benjamín, sin fuera de juego, solo la línea de conos como guía. En infantil, fuera de juego completo con árbitro entre los jugadores.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El fuera de juego",
+  "ref": "RONDO Vol4 · págs. 7, 11, 34, 58, 60, 62"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 4) da solo una frase: partido con fuera de juego activo, gol 1 y gol tras desmarque 2. (propuesta): campo, formato 5v5, series y puntos por fuera de juego provocado; dibujo y posiciones.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 43.2,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    40,
+    15,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     24,
+     0
+    ],
+    [
+     24,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    24,
+    0
+   ],
+   [
+    24,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 26,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     9
+    ],
+    "b": [
+     31,
+     9
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     30,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     31,
+     9
+    ],
+    "b": [
+     40,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    24,
+    -1.2,
+    "LÍNEA DEL FUERA DE JUEGO",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "id": "TFB100-066",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Gol doble tras tres pases",
+ "formato": "7v7 + PT",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug. (6+6 + 2 PT)",
+ "espacio": "60 × 40 m",
+ "duracion": "20 min",
+ "series": "2 partes de 10 min con 2 min de descanso; entre partes se cambian los equipos de lado (fuente: 2 × 10 min).",
+ "objetivo": "Jugar un partido de fútbol 7 buscando combinar antes de finalizar, sin renunciar a atacar rápido si hay ocasión. Cómo explicarlo: «Si hay contraataque, ve; si no, juntos y con tres pases». Errores típicos: pases de más sin avanzar, no ofrecerse al apoyo, perder la cuenta. Qué observar: distancia de los apoyos (3–8 m), quién es el tercer pase y si el equipo decide entre combinar o contraatacar.",
+ "montaje": "Campo de 60 × 40 m con 2 porterías y portero. Dos equipos de 6 de campo en 2-3-1 (propuesta), con petos.",
+ "juego": "Partido de fútbol 7. Se cuentan en voz alta los pases seguidos; si el rival toca el balón, la cuenta vuelve a cero. El saque de portero a un compañero es el 1.er pase.",
+ "punto": "Gol normal: 1; gol tras 3 pases o más: 2; contraataque sin pases: 1.",
+ "consigna": "Apoyo cerca, el tercero al espacio, ¡contamos!",
+ "variantes": {
+  "facil": "Dos pases para el gol doble; el entrenador sigue contando en voz alta.",
+  "dificil": "Cinco pases para el gol doble, o que el último pase venga de banda."
+ },
+ "adaptacion": "Pensada para alevín. En benjamín, el gol doble tras dos pases y campo de 50 × 35 m. En infantil (fútbol 8 u 11), tras cinco pases.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Partido de fútbol 7 alevín: el gol tras tres pases seguidos vale doble",
+  "ref": "100-tareas-de-futbol-base.pdf · pág. 83"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente completa en el PDF (pág. 83). La ficha original da edad «alevín»: se corrige la etiqueta propuesta 14–18 por 10–11. (propuesta): equipos de 6 en 2-3-1, posición exacta de cada jugador en el dibujo y cambio de equipos entre partes.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 63,
+   "ymin": -1.5,
+   "ymax": 41.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 30,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 46,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 44,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 50,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     30
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     22,
+     12
+    ],
+    "b": [
+     30,
+     28
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     28
+    ],
+    "b": [
+     40,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     40,
+     14
+    ],
+    "b": [
+     60,
+     20
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    30,
+    -1.2,
+    "3 PASES SEGUIDOS = GOL DOBLE",
+    "middle"
+   ]
+  ]
+ }
+}

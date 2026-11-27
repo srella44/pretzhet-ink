@@ -1,0 +1,165 @@
+{
+ "id": "RONDO-AL-S01",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Ayuda a quien tiene el balón",
+ "formato": "5v5",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "16 min",
+ "series": "4 partes de 4 min con 1 min de descanso (propuesta).",
+ "objetivo": "Acostumbrarse a ofrecer siempre una ayuda cerca de quien lleva el balón. Cómo explicarlo: «Si no tienes el balón, ayuda; a menos de 5 m». Errores típicos: mirar la jugada de lejos, quedarse en línea con el balón, todos juntos. Qué observar: tiempo que tarda el apoyo en aparecer y ángulo del apoyo (en diagonal, no en línea).",
+ "montaje": "Campo de 35 × 25 m con portería de 4 m en cada fondo. 5v5 con petos. Un ayudante en la banda juzga la distancia de apoyo (5 m ≈ 6 pasos grandes).",
+ "juego": "Partido normal. Al marcar, se mira si en el último pase decisivo había un compañero a menos de 5 m de quien llevaba el balón (apoyo). Si lo había, el gol vale doble.",
+ "punto": "Gol con apoyo cerca: 2 puntos. Gol sin apoyo: 1 punto.",
+ "consigna": "Quien no tiene el balón, ayuda cerca.",
+ "variantes": {
+  "facil": "El entrenador dice en voz alta quién tiene que apoyar en cada jugada.",
+  "dificil": "El apoyo tiene que llegar en menos de 3 s tras recibir el balón."
+ },
+ "adaptacion": "En benjamín, 4v4 y distancia de 3 m. En infantil, el apoyo debe venir en diagonal y a una altura distinta del balón.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Ayuda a quien tiene el balón",
+  "ref": "RONDO Vol3 · págs. 4, 6, 8, 16, 18, 20"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 3) da la condición del gol doble con apoyo a menos de 5 m y las variantes. (propuesta): campo, series y dibujo.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 38.2,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    35,
+    12.5,
+    "R"
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 16,
+    "y": 13,
+    "r": 5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 16,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19.5,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     13
+    ],
+    "b": [
+     24,
+     6.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     6
+    ],
+    "b": [
+     35,
+     12.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    16,
+    19.6,
+    "APOYO A MENOS DE 5 m",
+    "middle"
+   ]
+  ]
+ }
+}

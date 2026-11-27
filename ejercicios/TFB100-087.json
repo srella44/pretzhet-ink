@@ -1,0 +1,164 @@
+{
+ "id": "TFB100-087",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Reducido 5v5 con minis",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "16 min",
+ "series": "4 bloques de 4 min con 1 min de descanso; se cuentan los goles de los cuatro bloques (fuente).",
+ "objetivo": "Competir en espacio reducido con igualdad numérica, trabajando circulación, apoyo y finalización. Cómo explicarlo: «Amplitud y profundidad; si pierdes, presiona». Errores típicos: amontonarse en el balón, recibir sin mirar antes, no presionar tras pérdida. Qué observar: ocupación de espacios, apoyos a distinta altura y rapidez de reanudación con balones de reserva.",
+ "montaje": "Campo de 40 × 30 m con portería de 3 m en cada fondo, sin portero (nadie entra en el metro de delante). 5v5 con petos y balones de reserva.",
+ "juego": "Partido 5v5; el gol vale desde cualquier zona. Saques con el pie desde la línea. Tras gol o salida por el fondo, saca quien defendía.",
+ "punto": "Cada gol vale 1 punto; gana quien más sume en los 4 bloques.",
+ "consigna": "Amplitud, apoyo y presión.",
+ "variantes": {
+  "facil": "Campo más pequeño (30 × 20 m) y toques libres.",
+  "dificil": "El gol solo vale si han tocado el balón al menos 3 jugadores del equipo, o juego a dos toques."
+ },
+ "adaptacion": "En alevín, sin límite de toques. En infantil, tres toques. En cadete, dos, y el gol tras pase de un compañero que acaba de recibir vale doble.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Reducido 5 contra 5 con porterías pequeñas",
+  "ref": "100-tareas-de-futbol-base.pdf · pág. 106"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente completa en el PDF (pág. 106). Edad según la ficha: infantil y cadete (12–15). (propuesta): colocación inicial y flechas del dibujo.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 43.2,
+   "ymin": -1.5,
+   "ymax": 31.5
+  },
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    40,
+    15,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     22
+    ],
+    "b": [
+     20,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     15
+    ],
+    "b": [
+     28,
+     24
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     28,
+     24
+    ],
+    "b": [
+     40,
+     15
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ]
+ }
+}

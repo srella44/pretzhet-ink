@@ -1,0 +1,202 @@
+{
+ "id": "TFB100-068",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Pasillos de banda y centro",
+ "formato": "9v9 + PT",
+ "edad": "12–18 años",
+ "nivel": "Medio",
+ "jugadores": "18–20 jug.",
+ "espacio": "80 × 60 m",
+ "duracion": "25 min",
+ "series": "3 partes de 7 min con 2 min de descanso; se cambian los equipos de lado entre partes (fuente).",
+ "objetivo": "Atacar por las bandas, ganar el 1 contra 1 en el pasillo y terminar con centros al área. Cómo explicarlo: «En la banda siempre hay un duelo: gánalo, levanta la cabeza y centra». Errores típicos: centrar sin mirar, no llenar el área, quedarse dos jugadores en el pasillo. Qué observar: llegada de tres atacantes al área (primer palo, segundo palo y punto de penalti) y la ayuda del lateral.",
+ "montaje": "Campo de 80 × 60 m con 2 porterías y portero. Dos pasillos de banda de 9 m (conos), con 1 jugador de cada equipo como máximo en cada uno. 8 jugadores de campo por equipo.",
+ "juego": "Partido normal. En cada pasillo hay un 1v1: el atacante encara, deborda y centra; el resto llena el área. Si entra un 2.º jugador en el pasillo, saca el rival.",
+ "punto": "Gol normal: 1 punto; gol tras centro desde un pasillo: 2.",
+ "consigna": "Busca la banda, gana el duelo y llena el área.",
+ "variantes": {
+  "facil": "Pasillos sin defensores: el extremo recibe libre y solo tiene que centrar.",
+  "dificil": "El gol tras centro solo vale doble si el remate es de primeras."
+ },
+ "adaptacion": "En infantil, pasillos de 10 m. En cadete, de 9 m. En juvenil, de 8 m y el gol tras centro solo vale doble si es a un toque.",
+ "fuente": {
+  "autor": "Tareas Fútbol Base · 100 tareas de fútbol base",
+  "titulo_original": "Partido 9 contra 9 con pasillos de banda: el gol tras centro vale doble",
+  "ref": "100-tareas-de-futbol-base.pdf · pág. 85"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente completa en el PDF (pág. 85). Edad corregida por la ficha: infantil a juvenil (12–18). (propuesta): lo que pasa si hay 2 jugadores en el pasillo (falta), posiciones y flechas del dibujo; se dibujan solo 4 atacantes y 4 defensores para que se vea.",
+ "diagrama": {
+  "field": [
+   80,
+   60
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 83,
+   "ymin": -1.5,
+   "ymax": 62
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 30,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 80,
+    "y": 30,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     80,
+     9
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     51,
+     80,
+     60
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 36,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 43,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 70,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 56,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 48,
+    "y": 40,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 64,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 68,
+    "y": 36,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 58,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     36,
+     3.5
+    ],
+    "b": [
+     60,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     60,
+     3
+    ],
+    "b": [
+     70,
+     25
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     70,
+     26
+    ],
+    "b": [
+     80,
+     30
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    40,
+    -1.4,
+    "PASILLO DE BANDA (9 m)",
+    "middle"
+   ],
+   [
+    40,
+    62.2,
+    "PASILLO DE BANDA (9 m)",
+    "middle"
+   ]
+  ]
+ }
+}

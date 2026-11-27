@@ -1,0 +1,159 @@
+{
+ "id": "RONDO-BJ-P08",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partido con dos balones",
+ "formato": "5v5",
+ "edad": "8–9 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "16 min",
+ "series": "4 partes de 4 min: 2 min con dos balones y 2 min con uno; 1 min de descanso entre partes (fuente: 2′ + 2′).",
+ "objetivo": "Obligar a todos a mirar alrededor y decidir rápido, porque hay dos jugadas a la vez. Cómo explicarlo: «Mira alrededor antes de recibir». Errores típicos: mirar solo su balón, perder el hilo del otro balón, no pedir ayuda. Qué observar: frecuencia con que levantan la cabeza y reacción al segundo balón.",
+ "montaje": "Campo de 35 × 25 m con portería de 4 m en cada fondo. 5v5 con petos. Dos balones de colores distintos y balones de reserva junto a las porterías.",
+ "juego": "Durante 2 min, partido con dos balones a la vez (uno por equipo, desde el centro); luego se retira uno y se sigue 2 min con uno. Si un balón sale, se repone desde la banda.",
+ "punto": "Gol: 1 punto; en la variante, gol con el balón amarillo: 2.",
+ "consigna": "¡Todos activos! Mira a tu alrededor.",
+ "variantes": {
+  "facil": "Balones de colores distintos para reconocerlos.",
+  "dificil": "El balón amarillo vale doble."
+ },
+ "adaptacion": "En prebenjamín, 3v3 con dos balones. En alevín, un balón por equipo y dos goles de oro en los últimos 30 s.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Partido con dos balones",
+  "ref": "RONDO Vol2 · págs. 6, 9, 20, 23, 37, 40"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 2) da 5v5 con dos balones 2′ y luego uno, y las variantes. (propuesta): campo, reglas de reposición, series y dibujo.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 38.2,
+   "ymin": -1.5,
+   "ymax": 26.5
+  },
+  "goals": [
+   [
+    0,
+    12.5,
+    "L"
+   ],
+   [
+    35,
+    12.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 17,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "balls": [],
+  "arrows": [
+   {
+    "a": [
+     10,
+     18
+    ],
+    "b": [
+     18,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     30,
+     17
+    ],
+    "b": [
+     26,
+     9.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    -1.2,
+    "2 BALONES A LA VEZ",
+    "middle"
+   ]
+  ]
+ }
+}

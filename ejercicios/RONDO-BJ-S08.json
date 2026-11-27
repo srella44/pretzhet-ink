@@ -1,0 +1,115 @@
+{
+ "id": "RONDO-BJ-S08",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "¡Caño!",
+ "formato": "10–16 jug.",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "10–16 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min (propuesta); a cada ronda cambian los 3 puentes.",
+ "objetivo": "Divertirse con el balón, mirar al compañero y pasar con precisión entre sus piernas. Cómo explicarlo: «Pasa raso y recupera tú el balón». Errores típicos: pase demasiado fuerte, chocar con los puentes, olvidar que el balón se recupera. Qué observar: pase raso con interior y orientación hacia el hueco entre las piernas.",
+ "montaje": "Cuadrado de 15 × 15 m. Todos con balón menos 3 puentes (peto blanco), quietos con las piernas abiertas y a unos 4 m entre sí.",
+ "juego": "Cada jugador conduce y busca un puente: pasa el balón raso entre sus piernas, lo rodea y lo recupera (caño). El puente coge el balón del que se lo ha hecho y este pasa a ser puente.",
+ "punto": "1 punto por cada caño.",
+ "consigna": "¡Mira, pasa raso y recupera!",
+ "variantes": {
+  "facil": "Los puentes están quietos y con las piernas muy abiertas.",
+  "dificil": "Los puentes pueden cerrar las piernas una vez por turno."
+ },
+ "adaptacion": "En prebenjamín, pasar de cerca (1–2 m). En alevín, pasar con el pie menos hábil y de primeras.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "¡Caño!",
+  "ref": "RONDO Vol2 · págs. 8, 13, 18, 33, 51, 53"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "La fuente (RONDO Vol. 2) da la regla del caño, el punto y las variantes. (propuesta): espacio 15 × 15, 3 puentes, rondas y dibujo.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -1.5,
+   "ymax": 17.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 2.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 5.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 5.5,
+    "y": 9.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     14,
+     6.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    8,
+    3.2,
+    "PUENTE",
+    "middle"
+   ]
+  ]
+ }
+}
