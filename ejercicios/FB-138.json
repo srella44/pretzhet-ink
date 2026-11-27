@@ -1,0 +1,115 @@
+{
+ "id": "FB-138",
+ "bloque": "Calentamiento",
+ "titulo": "El espejo",
+ "formato": "Parejas",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "10 × 6 m por pareja",
+ "duracion": "8 min",
+ "series": "3 bloques de 4 turnos de 15″; descanso de 20″ y cambio de roles cada turno (propuesta).",
+ "objetivo": "Trabajar la anticipación y los cambios de dirección en distancias cortas, con pasos laterales rápidos y cuerpo bajo. Cómo explicarlo: «tu pareja es tu sombra: no la dejes escapar». Errores típicos: cruzar los pies al desplazarse, incorporarse al cambiar de dirección, mirar los pies en vez del pecho del compañero. Qué observar: apoyos cortos, cadera baja y mirada en el torso. Material: 4 conos por pareja.",
+ "montaje": "Pasillo de 10 × 6 m por pareja (4 conos). Frente a frente a 2 m: el líder (amarillo) y el espejo (rojo).",
+ "juego": "El líder se mueve libre: pasos laterales, adelante, atrás y paradas (1). El espejo copia y mantiene los 2 m (2). Cada 15″ cambian los roles.",
+ "punto": "Turno sin perder los 2 m: 1 punto para el espejo; si el líder logra separarse, 1 para él.",
+ "consigna": "Pecho con pecho, mira su cadera.",
+ "variantes": {
+  "facil": "Pasillo de 10 × 8 m y el líder solo se mueve de lado a lado, sin ir adelante ni atrás.",
+  "dificil": "El líder lleva un balón conducido a 1 toque por paso y el espejo copia sin balón; el entrenador avisa del cambio de roles."
+ },
+ "adaptacion": "Infantil (12–13): turnos de 12″ y pasillo ancho. Cadete (14–15): turnos de 15″ con la variante del balón.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "EL ESPEJO",
+  "ref": "https://toplidercoach.com/futbol-base/el-espejo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   10,
+   6
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 11.5,
+   "ymin": -1.8,
+   "ymax": 7.8
+  },
+  "tag": "10 × 6 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    6
+   ],
+   [
+    0,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     2.2
+    ],
+    "b": [
+     3.5,
+     1.0
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     6.5,
+     3.8
+    ],
+    "b": [
+     6.5,
+     5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    5,
+    -0.6,
+    "LÍDER  ·  ESPEJO",
+    "middle"
+   ]
+  ]
+ }
+}

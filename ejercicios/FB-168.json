@@ -1,0 +1,151 @@
+{
+ "id": "FB-168",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Círculo de paredes",
+ "formato": "Rueda de pase",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "Círculo de 14 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2′30″ con 30″ de pausa y cambio de sentido en la 3.ª (propuesta).",
+ "objetivo": "Hacer paredes continuas: pase fuerte, carrera hacia el hueco y devolución al pie para seguir. Cómo explicarlo: «pasa y ve hacia donde irá la devolución». Errores típicos: pasar al pie parado, correr en línea recta, devolver tarde. Qué observar: velocidad de salida, pase al espacio y comunicación visual. Material: 8 conos o discos, 1 balón (2 en la variante difícil).",
+ "montaje": "Círculo de 14 m de diámetro con 8 jugadores numerados en el borde, a 5 m uno de otro. Un balón en el jugador 1.",
+ "juego": "El jugador con balón pasa al compañero de enfrente (1) y corre a su hueco (2). Este devuelve de primera (3). El primero pasa al vecino libre (4) y ambos intercambian sitio.",
+ "punto": "Cada pared a un toque: 1 punto para el círculo. Si el balón se para o sale, el contador vuelve a 0. Meta: 20 puntos.",
+ "consigna": "Pasa y vete a por la devolución.",
+ "variantes": {
+  "facil": "Dos toques y círculo de 12 m.",
+  "dificil": "Dos balones a la vez, salidas desde 1 y 5."
+ },
+ "adaptacion": "Alevín (10–11): dos toques en las paredes. Infantil (12–13): a un toque. Con 12 jugadores, dos círculos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CÍRCULO DE PAREDES",
+  "ref": "https://toplidercoach.com/futbol-base/circulo-de-paredes/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 15.6,
+   "ymin": -1.6,
+   "ymax": 15.6
+  },
+  "tag": "círculo de 14 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 1,
+    "f": [
+     7,
+     7
+    ],
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.95,
+    "y": 3.05,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 7,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 11.95,
+    "y": 10.95,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 13,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.05,
+    "y": 10.95,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7,
+    "f": [
+     7,
+     7
+    ]
+   },
+   {
+    "r": "A",
+    "x": 2.05,
+    "y": 3.05,
+    "f": [
+     7,
+     7
+    ]
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     1.5
+    ],
+    "b": [
+     7,
+     12.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8.2,
+     12.5
+    ],
+    "b": [
+     8.2,
+     2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ]
+ }
+}

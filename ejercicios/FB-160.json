@@ -1,0 +1,137 @@
+{
+ "id": "FB-160",
+ "bloque": "Calentamiento",
+ "titulo": "¡Que te pillo!",
+ "formato": "Juego de pillar",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 2′ con 30″ de pausa y cambio de pillos en cada ronda (propuesta).",
+ "objetivo": "Calentar jugando: conducir con cabeza alta, cambiar de dirección y proteger el balón mientras alguien te persigue. Cómo explicarlo: «si te pillan, congela tu balón; si un amigo te toca, vuelves al juego». Errores típicos: mirar solo el balón, correr en línea recta, pegarle muy fuerte para escapar. Qué observar: giros pequeños, ayuda a los pillados y respeto de los límites. Material: 4 conos, un balón por jugador, 2 petos.",
+ "montaje": "Cuadrado de 15 m con 4 conos. Todos dentro, conduciendo su balón. Dos con peto son los pillos, también con balón.",
+ "juego": "Los pillos conducen (1) y tocan con la mano a otros sin perder su balón. El tocado se queda con la suela sobre el balón (2) hasta que un libre le toca la mano (3).",
+ "punto": "A los 2′, si quedan 3 libres, ganan los libres; si no, los pillos. 4 rondas.",
+ "consigna": "Cabeza arriba y gira rápido.",
+ "variantes": {
+  "facil": "Un solo pillo, sin balón, y cuadrado de 18 × 18 m.",
+  "dificil": "Tres pillos, cuadrado de 12 × 12 m y los pillados solo se liberan con un pase por debajo de las piernas."
+ },
+ "adaptacion": "Prebenjamín (6–7): un pillo, 18 m y sin puntos. Benjamín (8–9): dos pillos. Alevín (10–11): tres pillos y liberar con un pase.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "! QUE TE PILLO !",
+  "ref": "https://toplidercoach.com/futbol-base/que-te-pillo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 16.5,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "tag": "15 × 15 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    0,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": -30,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 7.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9.6,
+    "y": 12.4,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.4,
+     4.4
+    ],
+    "b": [
+     6.2,
+     5.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8.0,
+     8.0
+    ],
+    "b": [
+     10.5,
+     5.0
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ]
+ }
+}

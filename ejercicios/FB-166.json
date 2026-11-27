@@ -1,0 +1,173 @@
+{
+ "id": "FB-166",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Pase en el carril central",
+ "formato": "Pasillo",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 10 m",
+ "duracion": "14 min",
+ "series": "4 rondas de 3′ con 45″ de pausa y rotación de puestos entre rondas (propuesta).",
+ "objetivo": "Mover al pivote para recibir de cara entre líneas y jugar con el apoyo exterior: desmarque, orientación del cuerpo y pase adelante. Cómo explicarlo: «finta atrás, salgo de cara y toco al lado». Errores típicos: recibir de espaldas, estar parado, pasar sin ver el siguiente pase. Qué observar: movimiento antes del pase y cuerpo abierto. Material: 6 conos, petos de 3 colores, 3 balones.",
+ "montaje": "Carril de 30 × 10 m con tres zonas de 10 m. En cada zona un jugador (A, B, C) y un defensor pasivo (azul). Un balón en la zona 1.",
+ "juego": "A pasa a B (1), que antes ha hecho una finta atrás y sale de cara. B toca a C en la zona 3 (2); C gira y conduce 5 m (3). Cada uno sube a la zona siguiente.",
+ "punto": "Pase entre líneas correcto: 1 punto; si un defensor lo corta, 1 para el equipo defensor. 4 rondas.",
+ "consigna": "Finta atrás, recibe de cara.",
+ "variantes": {
+  "facil": "Los defensores sin moverse y 12 m de zona.",
+  "dificil": "Defensores activos (solo en su zona) y pase de primera de B."
+ },
+ "adaptacion": "Infantil (12–13): defensores pasivos. Cadete (14–15): defensores activos y a un toque. Con 8 jugadores, quitar una zona.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "MOVILIDAD Y PASE EN CARRIL CENTRAL",
+  "ref": "https://toplidercoach.com/futbol-base/movilidad-y-pase-en-carril-central/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   30,
+   10
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -1.5,
+   "ymax": 11.5
+  },
+  "tag": "30 × 10 m",
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     10
+    ],
+    "6 4"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     10
+    ],
+    "6 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 7,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 2.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     5
+    ],
+    "b": [
+     12.4,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     13.6,
+     4.8
+    ],
+    "b": [
+     23.4,
+     4.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     24.4,
+     5.2
+    ],
+    "b": [
+     29,
+     5.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    0.4,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    15,
+    0.4,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    25,
+    0.4,
+    "ZONA 3",
+    "middle"
+   ]
+  ]
+ }
+}

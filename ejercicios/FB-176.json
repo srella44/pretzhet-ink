@@ -1,0 +1,230 @@
+{
+ "id": "FB-176",
+ "bloque": "Calentamiento",
+ "titulo": "Pies rápidos en cuadrado",
+ "formato": "Individual",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "4 × 4 m por jugador",
+ "duracion": "8 min",
+ "series": "4 bloques de 20″ de trabajo y 20″ de pausa, con 1′ entre bloques (propuesta).",
+ "objetivo": "Mejorar la frecuencia de apoyos en espacios cortos: pisadas rápidas, cambios de dirección y control del balón con la suela. Cómo explicarlo: «pies como un tambor: ligeros y rápidos, balón pegado». Errores típicos: apoyar los talones, perder el equilibrio, dar toques fuertes. Qué observar: apoyos cortos y buen ritmo. Material: 4 conos y 1 balón por jugador.",
+ "montaje": "Cada jugador en un cuadrado de 4 × 4 m con 4 conos y balón en el centro. El entrenador, fuera, con cronómetro.",
+ "juego": "Bloque 1: toques de suela alternos sin mover el balón (1). Bloque 2: arrastres laterales entre conos (2). Bloque 3: conducir girando en cada cono (3). Bloque 4: libre, a máxima velocidad.",
+ "punto": "Cuenta tus toques correctos en 20″; el mejor de cada pareja suma 1 punto por bloque.",
+ "consigna": "Pies rápidos y balón pegado.",
+ "variantes": {
+  "facil": "Cuadrado de 5 × 5 m y 15″ de trabajo con 25″ de pausa.",
+  "dificil": "30″ de trabajo, con la pierna menos hábil en el bloque 3."
+ },
+ "adaptacion": "Infantil (12–13): bloques de 15″. Cadete (14–15): 20″ y sin ayuda visual al balón. Con pocos jugadores, trabajan por turnos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD DE PIES-ESPACIOS REDUCIDOS",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-de-pies-espacios-reducidos/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   14,
+   5
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 15.5,
+   "ymin": -1.8,
+   "ymax": 7
+  },
+  "tag": "cuadrado de 4 × 4 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    4,
+    0
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     4
+    ],
+    "0"
+   ],
+   [
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     4
+    ],
+    "0"
+   ],
+   [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     14,
+     0
+    ],
+    "0"
+   ],
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     4
+    ],
+    "0"
+   ],
+   [
+    [
+     14,
+     4
+    ],
+    [
+     10,
+     4
+    ],
+    "0"
+   ],
+   [
+    [
+     10,
+     4
+    ],
+    [
+     10,
+     0
+    ],
+    "0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.6,
+     1.5
+    ],
+    "b": [
+     3.4,
+     0.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11.6,
+     2.8
+    ],
+    "b": [
+     10.6,
+     3.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    2,
+    5.2,
+    "BLOQUE 1",
+    "middle"
+   ],
+   [
+    12,
+    5.2,
+    "BLOQUE 2",
+    "middle"
+   ]
+  ]
+ }
+}

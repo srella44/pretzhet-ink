@@ -1,0 +1,244 @@
+{
+ "id": "FB-158",
+ "bloque": "Calentamiento",
+ "titulo": "Circuito físico de 5 estaciones",
+ "formato": "Circuito",
+ "edad": "14–15 años",
+ "nivel": "Medio",
+ "jugadores": "6–12 jug.",
+ "espacio": "25 × 8 m",
+ "duracion": "12 min",
+ "series": "3 vueltas de 5 estaciones: 30″ de trabajo y 30″ de pausa, con 1′30″ de recuperación entre vueltas (propuesta).",
+ "objetivo": "Activar la musculatura con saltos, desplazamientos y arrancadas controlados, sin cansar de más antes del entrenamiento. Cómo explicarlo: «calidad antes que velocidad: aterriza suave y estable». Errores típicos: aterrizar con las rodillas hacia dentro, perder el tronco recto, sprint sin calentar. Qué observar: rodillas estables, apoyos suaves y respiración. Material: 6 vallas, 6 conos, 1 escalera de coordinación o 10 conos, balones.",
+ "montaje": "Cinco estaciones en línea de 25 × 8 m, a 5 m: 1 vallas, 2 escalera, 3 saltos laterales, 4 sprint de 8 m, 5 slalom de 5 conos. Un jugador por estación.",
+ "juego": "Cada jugador trabaja 30″ (1), descansa 30″ (2) y rota al silbato (3). Son 3 vueltas. Cuentan las repeticiones limpias, no la velocidad.",
+ "punto": "Repetición sin tocar valla ni cono: 1 punto; fallo: −1. Gana quien sume más.",
+ "consigna": "Aterriza suave y recto.",
+ "variantes": {
+  "facil": "Estaciones de 20″ con 40″ de pausa, saltos sin vallas.",
+  "dificil": "40″ de trabajo y 20″ de pausa, saltos a una pierna y sprint de 12 m."
+ },
+ "adaptacion": "Para cadete (14–15). Con pocos jugadores, se salta una estación o dos jugadores comparten. No usar con 12–13 años (propuesta).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO FÍSICO",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-fisico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (14–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   25,
+   8
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26.5,
+   "ymin": -1.5,
+   "ymax": 9.6
+  },
+  "tag": "25 × 8 m",
+  "lines": [
+   [
+    [
+     1.4,
+     2.5
+    ],
+    [
+     1.4,
+     5.5
+    ],
+    "0"
+   ],
+   [
+    [
+     2.4,
+     2.5
+    ],
+    [
+     2.4,
+     5.5
+    ],
+    "0"
+   ],
+   [
+    [
+     3.4,
+     2.5
+    ],
+    [
+     3.4,
+     5.5
+    ],
+    "0"
+   ],
+   [
+    [
+     6.5,
+     2.8
+    ],
+    [
+     9.5,
+     2.8
+    ],
+    "0"
+   ],
+   [
+    [
+     6.5,
+     5.2
+    ],
+    [
+     9.5,
+     5.2
+    ],
+    "0"
+   ],
+   [
+    [
+     13.5,
+     1.5
+    ],
+    [
+     13.5,
+     6.5
+    ],
+    "6 4"
+   ]
+  ],
+  "cones": [
+   [
+    17,
+    2
+   ],
+   [
+    19,
+    6
+   ],
+   [
+    21,
+    2
+   ],
+   [
+    23,
+    6
+   ],
+   [
+    24.6,
+    2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     4
+    ],
+    "b": [
+     4.4,
+     4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8.4,
+     4
+    ],
+    "b": [
+     11.5,
+     4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     14,
+     4
+    ],
+    "b": [
+     16,
+     4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    2.4,
+    1.2,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    8,
+    1.2,
+    "ESCALERA",
+    "middle"
+   ],
+   [
+    13.5,
+    0.3,
+    "LATERAL",
+    "middle"
+   ],
+   [
+    17,
+    0.3,
+    "SPRINT",
+    "middle"
+   ],
+   [
+    22.5,
+    0.3,
+    "SLALOM",
+    "middle"
+   ]
+  ]
+ }
+}

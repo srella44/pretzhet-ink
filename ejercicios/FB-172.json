@@ -1,0 +1,135 @@
+{
+ "id": "FB-172",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Ruedas de paredes rápidas",
+ "formato": "Rueda de pase",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "24 × 8 m",
+ "duracion": "12 min",
+ "series": "5 vueltas por jugador con 30″ de pausa y cambio de lado de salida en la 4.ª (propuesta).",
+ "objetivo": "Hacer paredes rápidas con apoyos en línea: pase fuerte, devolución a un toque y carrera hacia la siguiente pared. Cómo explicarlo: «tres paredes y a la fila». Errores típicos: pasar flojo, quedarse mirando el pase, no esperar al compañero que viene. Qué observar: ritmo constante, apoyos de cara y devolución al pie. Material: 6 conos, 3 balones, petos.",
+ "montaje": "Pasillo de 24 × 8 m con 3 puestos en fila: A (inicio), B (a 8 m) y C (a 16 m). 3 jugadores por puesto. El balón sale de A.",
+ "juego": "A pasa a B y corre (1). B devuelve de primera (2). A pasa a C y corre (3). C devuelve de primera (4). A conduce 4 m y toma el puesto de B; B pasa a C; C a la fila de A. Siguiente salida.",
+ "punto": "Cada devolución a un toque en el pie suma 1 punto. 4 puntos por vuelta. Si el balón se para, la vuelta no puntúa. Meta: 20 puntos.",
+ "consigna": "Pasa y corre a la siguiente pared.",
+ "variantes": {
+  "facil": "Paredes con control y puestos a 6 m.",
+  "dificil": "Todo a un toque y 2 balones, el segundo sale cuando A pasa a C."
+ },
+ "adaptacion": "Infantil (12–13): a un toque con apoyos a 8 m. Para cadete, añadir defensor pasivo. Con 8 jugadores, 2 jugadores por puesto.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDAS DE PASES -PAREDES RÁPIDAS",
+  "ref": "https://toplidercoach.com/futbol-base/ruedas-de-pases-paredes-rapidas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   24,
+   8
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -1.5,
+   "ymax": 9.5
+  },
+  "tag": "24 × 8 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    24,
+    0
+   ],
+   [
+    24,
+    8
+   ],
+   [
+    0,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 6.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 6.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3.8
+    ],
+    "b": [
+     8.4,
+     2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     8.6,
+     2.4
+    ],
+    "b": [
+     3,
+     3.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     16.4,
+     6.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

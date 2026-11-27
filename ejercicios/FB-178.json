@@ -1,0 +1,156 @@
+{
+ "id": "FB-178",
+ "bloque": "Finalización",
+ "titulo": "Dos paredes y tiro",
+ "formato": "Pared y remate",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "34 × 16 m",
+ "duracion": "12 min",
+ "series": "6 tiros por jugador en cada puesto, con rotación tras cada serie y 1′ de pausa (propuesta).",
+ "objetivo": "Encadenar dos paredes seguidas con apoyos y rematar de primera: pase fuerte, carrera al espacio y definición rápida. Cómo explicarlo: «dos paredes y tiro sin preparar». Errores típicos: pasar flojo, tirar con el pie de apoyo lejos, ángulo cerrado. Qué observar: ritmo, carrera en diagonal y pie de apoyo. Material: portería con portero, 4 conos, balones.",
+ "montaje": "Portería con portero. Delantero A (amarillo) con balón a 26 m; apoyos (blancos) a 6 y 14 m, en lados opuestos. Fila tras A.",
+ "juego": "A pasa al apoyo 1 y corre (1); devolución de primera (2). Pasa al apoyo 2 y corre (3); devolución (4). Tira de primera (5). Rotan: A a apoyo 1 y este a la fila.",
+ "punto": "Gol: 1 punto; de primera: 2. Gana el grupo con más puntos.",
+ "consigna": "Dos paredes y tira de primera.",
+ "variantes": {
+  "facil": "Apoyos a 4 m y se permite un toque de control antes de tirar.",
+  "dificil": "Un defensor pasivo y 8″ para tirar; la segunda pared a un toque."
+ },
+ "adaptacion": "Alevín (10–11): apoyos a 4 m y control antes del tiro. Infantil (12–13): a un toque. Cadete (14–15): defensor activo y 8″.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PAREDES Y FINALIZACION",
+  "ref": "https://toplidercoach.com/futbol-base/paredes-y-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   34,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 35.8,
+   "ymin": -1.5,
+   "ymax": 17.5
+  },
+  "tag": "34 × 16 m",
+  "porterias": [
+   {
+    "x": 34,
+    "y": 8,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 12.8,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 9.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.4,
+     8.4
+    ],
+    "b": [
+     12.6,
+     12.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     13.4,
+     12.2
+    ],
+    "b": [
+     15.5,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     15.8,
+     8.6
+    ],
+    "b": [
+     19.4,
+     4.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     20.4,
+     4.2
+    ],
+    "b": [
+     24,
+     6.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   },
+   {
+    "a": [
+     24.6,
+     6.8
+    ],
+    "b": [
+     33.4,
+     8.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 5
+   }
+  ]
+ }
+}

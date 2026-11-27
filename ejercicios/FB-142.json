@@ -1,0 +1,144 @@
+{
+ "id": "FB-142",
+ "bloque": "Calentamiento",
+ "titulo": "Color y puntería",
+ "formato": "Salidas con balón",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 12 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 5 salidas por jugador, con 45″ de pausa (propuesta).",
+ "objetivo": "Reaccionar a una señal visual, acelerar hacia el balón y pasar con precisión a una puerta concreta. Cómo explicarlo: «oye el color, ve al balón y pasa raso por la puerta de ese color». Errores típicos: salir antes de la señal, elegir la puerta equivocada, pasar con la punta. Qué observar: reacción, pie de apoyo y pase raso. Material: 8 conos (4 rojos y 4 azules), 1 balón por pareja.",
+ "montaje": "Línea de salida y, a 2 m, un balón parado por pareja. A 14 m, dos puertas de 2 m: roja (arriba) y azul (abajo). Parejas en la línea, de pie.",
+ "juego": "El entrenador grita «rojo» o «azul». Salen los dos (1); el primero en llegar al balón pasa raso por la puerta de ese color (2).",
+ "punto": "Puerta correcta: 2 puntos; equivocada: 0; llegar el primero al balón: 1 punto.",
+ "consigna": "Oye, reacciona y pasa raso.",
+ "variantes": {
+  "facil": "Puertas de 3 m y el entrenador dice el color antes de la salida (cuenta atrás de 3).",
+  "dificil": "Las puertas a 18 m y dos colores seguidos («rojo, azul»): primero una puerta y luego la otra."
+ },
+ "adaptacion": "Alevín (10–11): una puerta de 3 m y balón a 1 m. Infantil (12–13): puertas de 2 m. Cadete (14–15): señal falsa y cambio de color en 1 de cada 3 salidas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "REACCIÓN + PRECISIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/reaccion-precision/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   16,
+   12
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 17.5,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "tag": "16 × 12 m",
+  "cones": [
+   [
+    14,
+    2
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    14,
+    8
+   ],
+   [
+    14,
+    10
+   ]
+  ],
+  "lines": [
+   [
+    [
+     0.4,
+     0
+    ],
+    [
+     0.4,
+     12
+    ],
+    "6 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 0.9,
+    "y": 8,
+    "f": 0
+   }
+  ],
+  "balls": [
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    8
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     4
+    ],
+    "b": [
+     2.6,
+     4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     3.4,
+     4.1
+    ],
+    "b": [
+     13.6,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    15,
+    3,
+    "ROJA",
+    "start"
+   ],
+   [
+    15,
+    9,
+    "AZUL",
+    "start"
+   ]
+  ]
+ }
+}

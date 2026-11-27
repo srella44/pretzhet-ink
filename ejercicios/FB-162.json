@@ -1,0 +1,206 @@
+{
+ "id": "FB-162",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito técnico de 5 acciones",
+ "formato": "Circuito",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "30 × 8 m",
+ "duracion": "12 min",
+ "series": "4 vueltas por jugador, con 45″ de recuperación; sale uno cada 10″ (propuesta).",
+ "objetivo": "Encadenar cinco acciones técnicas seguidas con un solo balón: conducir, regatear, pasar, controlar y finalizar. Cómo explicarlo: «cada tramo cambia el contacto: suela, exterior, interior». Errores típicos: pasar el balón demasiado largo, mirar solo al balón, tirar con prisa. Qué observar: cabeza arriba, control orientado y limpieza. Material: 12 conos, 1 miniportería, 1 pared de rebote o compañero, balones.",
+ "montaje": "Línea de 30 × 8 m con 5 tramos de 5 m: 1 slalom de 4 conos; 2 giro en puerta; 3 pared de rebote; 4 control entre dos conos; 5 tiro a miniportería.",
+ "juego": "Sale un jugador con balón: slalom (1), giro (2), pase a la pared y recibe (3), control (4) y tiro (5). Vuelve a la fila.",
+ "punto": "Cada tramo limpio: 1 punto. Gol: +2. Cono tocado: −1. Gana el que más sume en 4 vueltas.",
+ "consigna": "Cabeza arriba en cada tramo.",
+ "variantes": {
+  "facil": "Tramos de 4 m, sin tiempo y la pared a 2 m.",
+  "dificil": "Tiempo máximo de 25″ por vuelta, solo con el pie menos hábil en 2 tramos."
+ },
+ "adaptacion": "Alevín (10–11): tramos de 4 m y sin tiempo. Infantil (12–13): tiempo de 30″. Cadete (14–15): 25″ y cambio de pie en tramos alternos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO TÉCNICO 5 ACCIONES",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-tecnico-5-acciones/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   30,
+   8
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.8,
+   "ymin": -1.5,
+   "ymax": 9.5
+  },
+  "tag": "30 × 8 m",
+  "cones": [
+   [
+    2,
+    3
+   ],
+   [
+    3.5,
+    5
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    6.5,
+    5
+   ],
+   [
+    10,
+    2.5
+   ],
+   [
+    10,
+    5.5
+   ],
+   [
+    22,
+    3.5
+   ],
+   [
+    22,
+    6
+   ]
+  ],
+  "goals": [
+   [
+    30,
+    4,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     15,
+     7
+    ],
+    [
+     18,
+     7
+    ],
+    "0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 16.5,
+    "y": 6.6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.3,
+    "y": 6.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.9,
+     4
+    ],
+    "b": [
+     7.6,
+     4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     4
+    ],
+    "b": [
+     15.5,
+     5.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     16.5,
+     6
+    ],
+    "b": [
+     21,
+     4.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     23,
+     4.6
+    ],
+    "b": [
+     29.6,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    16.5,
+    7.9,
+    "PARED",
+    "middle"
+   ],
+   [
+    3.5,
+    1,
+    "SLALOM",
+    "middle"
+   ],
+   [
+    10,
+    1.4,
+    "GIRO",
+    "middle"
+   ],
+   [
+    22,
+    1.5,
+    "CONTROL",
+    "middle"
+   ]
+  ]
+ }
+}

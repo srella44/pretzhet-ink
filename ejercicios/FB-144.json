@@ -1,0 +1,220 @@
+{
+ "id": "FB-144",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito de 4 estaciones",
+ "formato": "Circuito",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "4–12 jug.",
+ "espacio": "24 × 8 m",
+ "duracion": "12 min",
+ "series": "4 estaciones de 90″ con 15″ para cambiar; se dan 2 vueltas (propuesta).",
+ "objetivo": "Que cada niño toque muchos balones con ambos pies en tareas sencillas: conducir, parar, golpear y detenerse con la suela. Cómo explicarlo: «cada estación es un juego; cuando suene el silbato, cambias de estación». Errores típicos: mirar solo el balón, golpearlo muy fuerte, usar siempre el mismo pie. Qué observar: contacto frecuente, uso de las dos piernas, alegría. Material: 12 conos, 4 aros, 4 balones, 1 miniportería.",
+ "montaje": "Cuatro estaciones de 5 m, a 1 m una de otra: 1 slalom de 4 conos; 2 aros; 3 cuadrado de 3 m para parar; 4 pase a portería de 2 m. Un niño con balón en cada una.",
+ "juego": "Cada niño trabaja 90″: conduce entre conos (1), suela en el aro (2), para en el cuadrado (3) y pasa a la puerta (4). Al silbato rota.",
+ "punto": "Cada tarea completada: 1 estrella. A las 8, reto extra. Nadie queda eliminado.",
+ "consigna": "Mira arriba, toca con los dos pies.",
+ "variantes": {
+  "facil": "Un solo balón por niño y estaciones de 3 m, sin límite de tiempo.",
+  "dificil": "Cada niño cuenta sus toques: reto de superar su marca con el pie menos hábil."
+ },
+ "adaptacion": "Prebenjamín (6–7): estaciones de 3 m y 60″ cada una. Con pocos niños, 2 estaciones por cada grupo. Si hay 12, 3 niños por estación.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TÉCNICA INDIVIDUAL",
+  "ref": "https://toplidercoach.com/futbol-base/tecnica-individual/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–7 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   24,
+   8
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -1.5,
+   "ymax": 9.6
+  },
+  "tag": "24 × 8 m",
+  "cones": [
+   [
+    1,
+    2.5
+   ],
+   [
+    2.6,
+    5.5
+   ],
+   [
+    4.2,
+    2.5
+   ],
+   [
+    5.8,
+    5.5
+   ]
+  ],
+  "discs": [
+   [
+    9,
+    2.5
+   ],
+   [
+    9,
+    5.5
+   ],
+   [
+    10.8,
+    2.5
+   ],
+   [
+    10.8,
+    5.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     13.5,
+     2
+    ],
+    [
+     16.5,
+     2
+    ],
+    "0"
+   ],
+   [
+    [
+     13.5,
+     6
+    ],
+    [
+     16.5,
+     6
+    ],
+    "0"
+   ],
+   [
+    [
+     13.5,
+     2
+    ],
+    [
+     13.5,
+     6
+    ],
+    "0"
+   ],
+   [
+    [
+     16.5,
+     2
+    ],
+    [
+     16.5,
+     6
+    ],
+    "0"
+   ]
+  ],
+  "goals": [
+   [
+    24,
+    4,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.2,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.6,
+     4
+    ],
+    "b": [
+     6.4,
+     4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     20.5,
+     4
+    ],
+    "b": [
+     23.6,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    3.4,
+    0.3,
+    "1 SLALOM",
+    "middle"
+   ],
+   [
+    10,
+    0.3,
+    "2 SUELA",
+    "middle"
+   ],
+   [
+    15,
+    0.3,
+    "3 PARAR",
+    "middle"
+   ],
+   [
+    21,
+    0.3,
+    "4 PASE",
+    "middle"
+   ]
+  ]
+ }
+}

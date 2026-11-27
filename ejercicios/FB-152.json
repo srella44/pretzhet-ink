@@ -1,0 +1,141 @@
+{
+ "id": "FB-152",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Pared 1-2-3",
+ "formato": "Paredes",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "24 × 8 m",
+ "duracion": "12 min",
+ "series": "5 vueltas por jugador con 30″ de pausa; luego cambio de lado de salida (propuesta).",
+ "objetivo": "Encadenar tres paredes seguidas con un ritmo constante: pase fuerte, desmarque inmediato y control hacia delante. Cómo explicarlo: «pasa y vuela hacia el hueco». Errores típicos: pasar flojo, esperar el rebote parado, devolver el pase sin mirar. Qué observar: velocidad de salida tras el pase, devolución al espacio y control orientado. Material: 4 conos, 3 pivotes o jugadores, balones.",
+ "montaje": "Pasillo de 24 × 8 m con 3 apoyos (blancos) a 6, 12 y 18 m, alternando lados. El del balón sale de la línea inicial; los demás, en fila.",
+ "juego": "Pasa a un toque al apoyo 1 y corre al hueco (1); recibe la pared (2), sigue al apoyo 2 y repite (3), y luego al 3. Conduce 5 m y vuelve a la fila.",
+ "punto": "Cada pared a un toque: 1 punto (3 por vuelta). Si el balón sale o se para, la vuelta vale 0.",
+ "consigna": "Pasa fuerte y sal al espacio.",
+ "variantes": {
+  "facil": "Un toque de control en cada pared y apoyos a 4 m.",
+  "dificil": "Apoyos con pasivo de defensa y pared a un toque de cada lado, el primer pase con el pie contrario."
+ },
+ "adaptacion": "Alevín (10–11): pasillo de 10 m de ancho y control. Infantil (12–13): a un toque. Cadete (14–15): añadir un defensor pasivo y temporizador de 12″.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PARED 1-2-3",
+  "ref": "https://toplidercoach.com/futbol-base/pared-1-2-3/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   24,
+   8
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 25.5,
+   "ymin": -1.5,
+   "ymax": 9.5
+  },
+  "tag": "24 × 8 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    24,
+    0
+   ],
+   [
+    24,
+    8
+   ],
+   [
+    0,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 1.2,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 6.8,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 18,
+    "y": 1.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": -0.2,
+    "y": 6.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     3.8
+    ],
+    "b": [
+     5.6,
+     1.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     5.7,
+     2.2
+    ],
+    "b": [
+     9,
+     3.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     11.6,
+     6.3
+    ],
+    "b": [
+     14,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "id": "FB-150",
+ "bloque": "Calentamiento",
+ "titulo": "Circuito físico y técnico",
+ "formato": "Circuito",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "30 × 10 m",
+ "duracion": "12 min",
+ "series": "2 vueltas al circuito; salidas cada 6″; 1′30″ de pausa entre vueltas (propuesta).",
+ "objetivo": "Combinar coordinación, salto y técnica en un calentamiento con muchos balones tocados: vallas, slalom, pase y tiro. Cómo explicarlo: «mira el balón con el rabillo del ojo; la cabeza arriba». Errores típicos: saltar con los pies abiertos, conducir sin cabeza arriba, tirar sin colocar el pie de apoyo. Qué observar: aterrizaje suave, control en el slalom, orden en la fila. Material: 4 vallas bajas, 6 conos, 1 aro, 6 balones, miniportería.",
+ "montaje": "Circuito de 30 × 10 m: 4 vallas bajas a 1 m; slalom de 5 conos a 1,5 m; un aro y, a 6 m, miniportería de 3 m. Fila en la salida.",
+ "juego": "Salta las vallas con los pies juntos (1), conduce el slalom (2), para con la suela en el aro y tira a la miniportería (3). Sale el siguiente a los 6″.",
+ "punto": "Gol: 1 punto. Cono tocado: −1. Gana quien más puntos acumule en 2 vueltas.",
+ "consigna": "Salta, conduce y tira.",
+ "variantes": {
+  "facil": "Vallas muy bajas, slalom de 3 conos y sin tiro (basta con parar en el aro).",
+  "dificil": "Vallas con un pie, slalom con la pierna menos hábil y el tiro de primera."
+ },
+ "adaptacion": "Benjamín (8–9): vallas de 15 cm y slalom amplio. Alevín–Infantil (10–13): vallas de 30 cm y tiro. Con 12 jugadores, 2 circuitos paralelos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO FÍSICO TÉCNICO",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-fisico-tecnico/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   30,
+   10
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.8,
+   "ymin": -1.5,
+   "ymax": 11.5
+  },
+  "tag": "30 × 10 m",
+  "lines": [
+   [
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ],
+    "0"
+   ],
+   [
+    [
+     3,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    "0"
+   ],
+   [
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     5
+    ],
+    "0"
+   ],
+   [
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     5
+    ],
+    "0"
+   ]
+  ],
+  "cones": [
+   [
+    8,
+    5
+   ],
+   [
+    9.5,
+    3
+   ],
+   [
+    11,
+    5
+   ],
+   [
+    12.5,
+    3
+   ],
+   [
+    14,
+    5
+   ]
+  ],
+  "discs": [
+   [
+    17,
+    4
+   ]
+  ],
+  "goals": [
+   [
+    30,
+    4,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -0.4,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1,
+     4
+    ],
+    "b": [
+     5.8,
+     4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     4
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     17.5,
+     4
+    ],
+    "b": [
+     29.6,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    3.5,
+    1.8,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    11,
+    0.3,
+    "SLALOM",
+    "middle"
+   ],
+   [
+    17,
+    6.2,
+    "AROS",
+    "middle"
+   ]
+  ]
+ }
+}

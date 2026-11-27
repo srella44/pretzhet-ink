@@ -1,0 +1,150 @@
+{
+ "id": "FB-174",
+ "bloque": "Oleadas y transiciones",
+ "titulo": "Rueda y contraataque",
+ "formato": "Rueda + 3v1",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug.",
+ "espacio": "40 × 24 m",
+ "duracion": "14 min",
+ "series": "6 contraataques por jugador con rotación de roles; 1′ de pausa cada 3 (propuesta).",
+ "objetivo": "Pasar de una rueda de pases de calentamiento a un contraataque rápido: atacar con 3 jugadores, ocupar espacios y definir en menos de 8″. Cómo explicarlo: «cuando suene la señal, todos atacan y el balón va al más libre». Errores típicos: salir sin mirar, conducir demasiado, no abrir el campo. Qué observar: carrera en tres carriles y velocidad de la decisión. Material: 4 conos, portería con portero, balones.",
+ "montaje": "Rueda de 4 jugadores en un cuadrado de 10 × 10 m. A 25 m, un defensor (azul) y portería con portero.",
+ "juego": "Pasan en la rueda hasta que el entrenador grita «ya». El del balón avanza (1) y dos se abren (2): 3 contra 1 hasta tirar (3). El cuarto de la rueda es el defensor.",
+ "punto": "Gol: 2 puntos. Recuperación del defensor: 1 punto. 6 ataques.",
+ "consigna": "Mira y ataca en tres carriles.",
+ "variantes": {
+  "facil": "Defensor pasivo y atacar sin tiempo.",
+  "dificil": "Defensor activo, 8″ para tirar y un segundo defensor que sale a los 3″."
+ },
+ "adaptacion": "Alevín (10–11): defensor pasivo y 10″. Infantil (12–13): defensor activo y 8″. Cadete (14–15): un segundo defensor a los 3″.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDAS DE PASE CONTRAATAQUE",
+  "ref": "https://toplidercoach.com/futbol-base/ruedas-de-pase-contraataque/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.8,
+   "ymin": -1.5,
+   "ymax": 25.5
+  },
+  "tag": "40 × 24 m",
+  "porterias": [
+   {
+    "x": 40,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    17
+   ],
+   [
+    12,
+    7
+   ],
+   [
+    12,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 17.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.8,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.2,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.4,
+     12
+    ],
+    "b": [
+     16,
+     9
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     11.6,
+     12.8
+    ],
+    "b": [
+     26,
+     19
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     9.4
+    ],
+    "b": [
+     39.4,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

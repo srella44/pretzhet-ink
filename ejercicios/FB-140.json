@@ -1,0 +1,97 @@
+{
+ "id": "FB-140",
+ "bloque": "Finalización",
+ "titulo": "Cabezazos por parejas",
+ "formato": "Parejas",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "2–8 jug.",
+ "espacio": "14 × 6 m por pareja",
+ "duracion": "10 min",
+ "series": "2 turnos de 6 remates por jugador, con 1′ de pausa al cambiar de roles (propuesta).",
+ "objetivo": "Aprender el remate de cabeza sin miedo: ojos abiertos, cuello firme, golpe con la frente y movimiento de todo el cuerpo hacia el balón. Cómo explicarlo: «sal a buscar el balón con la frente». Errores típicos: cerrar los ojos, echar la cabeza hacia atrás, golpear con la coronilla. Qué observar: salto con dos pies, frente al balón, mirada a la portería. Material: balón ligero o de espuma (propuesta), 1 miniportería de 3 m por pareja.",
+ "montaje": "Por pareja: miniportería de 3 m y, a 4 m, el rematador (amarillo). El lanzador (rojo), a 3 m de él, con el balón en las manos.",
+ "juego": "El lanzador echa el balón suave, a la altura de la frente (1). El rematador cabecea hacia la portería (2). Tras 6 lanzamientos cambian los roles.",
+ "punto": "Gol: 1 punto. Cabezazo con salto y a portería, aunque no sea gol: +1.",
+ "consigna": "Frente al balón y ojos abiertos.",
+ "variantes": {
+  "facil": "Lanzador a 2 m y el rematador no salta: cabecea de pie, con el balón botado.",
+  "dificil": "Rematador a 6 m de la portería, lanzamiento más alto y 1 punto extra si el cabezazo entra en la mitad que dice el lanzador."
+ },
+ "adaptacion": "Benjamín (8–9): balón de espuma y sin salto. Alevín (10–11): balón de reglamento ligero, con salto y portería a 5 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "REMATE DE CABEZA POR PAREJAS",
+  "ref": "https://toplidercoach.com/futbol-base/remate-de-cabeza-por-parejas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   14,
+   6
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 15.8,
+   "ymin": -1.5,
+   "ymax": 7.5
+  },
+  "tag": "14 × 6 m",
+  "goals": [
+   [
+    14,
+    3,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 7.2,
+    "y": 1.2,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.6,
+     1.6
+    ],
+    "b": [
+     9.5,
+     2.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     10.6,
+     3
+    ],
+    "b": [
+     13.6,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "id": "FB-146",
+ "bloque": "Superioridades",
+ "titulo": "1x1 saliendo por detrás",
+ "formato": "1 contra 1",
+ "edad": "8–11 años",
+ "nivel": "Medio",
+ "jugadores": "2–8 jug.",
+ "espacio": "18 × 8 m",
+ "duracion": "10 min",
+ "series": "Cada pareja hace 6 duelos y cambia de roles; descanso de 30″ entre duelos (propuesta).",
+ "objetivo": "Defender un 1x1 partiendo en desventaja: el defensor sale por detrás del atacante, recupera la posición con carrera lateral y frena al rival antes de la portería. Cómo explicarlo: «ponte entre él y la portería». Errores típicos: perseguir por detrás sin tapar la portería, lanzarse al suelo, parar los pies. Qué observar: carrera de recuperación, cuerpo de lado y no tirarse. Material: 4 conos, 1 miniportería de 3 m, balones.",
+ "montaje": "Pasillo de 18 × 8 m con miniportería de 3 m. Atacante (amarillo) con balón a 12 m de ella; defensor (azul) 3 m detrás, en diagonal.",
+ "juego": "El atacante conduce a portería (1). El defensor corre por fuera hasta su altura (2) y lo empuja al lateral. El atacante tiene 6″ para tirar.",
+ "punto": "Gol: 1 punto para el atacante; robo o balón fuera: 1 para el defensor.",
+ "consigna": "Corre de lado y ponte delante.",
+ "variantes": {
+  "facil": "Defensor a 1 m del atacante y portería de 4 m.",
+  "dificil": "Atacante a 10 m de la portería y defensor a 3 m; el atacante tiene 4″."
+ },
+ "adaptacion": "Benjamín (8–9): pasillo de 12 m y 8″. Alevín (10–11): 16 m y 6″. Si hay muchos niños, dos pasillos y fila de espera detrás del defensor.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "1 X 1 DEFENSIVO EN DESVENTAJA ESPACIAL",
+  "ref": "https://toplidercoach.com/futbol-base/1-x-1-defensivo-en-desventaja-espacial/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   18,
+   8
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 19.8,
+   "ymin": -1.5,
+   "ymax": 9.5
+  },
+  "tag": "18 × 8 m",
+  "goals": [
+   [
+    18,
+    4,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 2.8,
+    "y": 2.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.5,
+     5
+    ],
+    "b": [
+     13,
+     5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     3.5,
+     2.2
+    ],
+    "b": [
+     12,
+     2.4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   }
+  ]
+ }
+}
