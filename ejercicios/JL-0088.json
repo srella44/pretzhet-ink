@@ -1,0 +1,173 @@
+{
+ "id": "JL-0088",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 diez controles seguidos",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "3 min",
+ "series": "3 partidos de 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Conservar el balón en espacio reducido a 2 toques, con controles orientados y apoyos constantes. Errores típicos: controlar de frente al rival, pases largos sin necesidad, no ofrecerse. Qué observar: los apoyos se mueven antes del pase y el control ya prepara el siguiente pase.",
+ "montaje": "Cuadrado de 30 × 30 m con 4 conos. 5 amarillos contra 5 rojos repartidos.",
+ "juego": "5 contra 5 a 2 toques (control y pase). El equipo con balón encadena controles sin que el rival lo toque. Si lo pierde, el rival empieza a contar de cero.",
+ "punto": "1 punto cada 10 controles seguidos; sigue con el balón. Gana quien puntúe más a los 3 min.",
+ "consigna": "Controla y pasa, sin dar nunca un tercer toque.",
+ "variantes": {
+  "facil": "Campo de 35 × 35 m y 8 controles por punto.",
+  "dificil": "Campo de 25 × 25 m y 12 controles por punto."
+ },
+ "adaptacion": "Benjamín: 6 controles por punto y 3 toques. Cadete: 14 controles por punto.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 88",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 31"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5, 30 × 30 m, 3 min, 2 toques y 1 punto por cada 10 controles seguidos. (propuesta): series, qué pasa al perder, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     6
+    ],
+    "b": [
+     14,
+     13
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     13
+    ],
+    "b": [
+     8,
+     22
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     8,
+     22
+    ],
+    "b": [
+     23,
+     24
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.55,
+    "n": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "id": "JL-0100",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 ocho pases y a la zona",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m (zonas de 5 × 30 m)",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Mantener la posesión a 2 toques y acabar la jugada con un pase largo a una zona, con control orientado del receptor. Errores típicos: contar mal los pases, pase largo sin ver al receptor, receptor que no se anticipa. Qué observar: el jugador de zona se ofrece antes de que salga el pase.",
+ "montaje": "Campo de 40 × 30 m con una zona de 5 × 30 m en cada fondo (propuesta). 5 amarillos contra 5 rojos repartidos.",
+ "juego": "5 contra 5 a 2 toques. El equipo con balón da 8 pases seguidos y manda un pase a una zona, donde un compañero entra y lo controla. Si el rival corta, vuelve a contar.",
+ "punto": "1 punto por serie de 8 pases + pase controlado en zona; sigue con el balón. Gana quien puntúe más a los 8 min.",
+ "consigna": "Cuenta los pases y, al octavo, busca la zona.",
+ "variantes": {
+  "facil": "6 pases y zonas de 8 m.",
+  "dificil": "10 pases y zona de 4 m."
+ },
+ "adaptacion": "Benjamín: 5 pases y 3 toques. Cadete: el pase a la zona debe ser raso y con un solo toque del receptor.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 100",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 33"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5, 40 × 30 m, 2 zonas de 5 × 30 m, 8 pases seguidos y después un pase a una zona controlado, 2 toques y 8 min. (propuesta): colocación de las zonas (en los fondos), series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    30
+   ],
+   [
+    0,
+    30
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    30
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    30
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     35,
+     0,
+     40,
+     30
+    ]
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -1.2,
+    "8 PASES + PASE A LA ZONA",
+    "middle"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37.5,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 27,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     15,
+     20
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     20
+    ],
+    "b": [
+     22,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     8
+    ],
+    "b": [
+     28,
+     24
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     28,
+     24
+    ],
+    "b": [
+     37.5,
+     13
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 4
+   }
+  ]
+ }
+}

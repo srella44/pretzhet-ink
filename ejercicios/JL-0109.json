@@ -1,0 +1,165 @@
+{
+ "id": "JL-0109",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 con capitán",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa; se cambia de capitán en cada ronda (propuesta).",
+ "objetivo": "Que todos busquen al compañero concreto (el capitán) y lo hagan con un pase y un control de calidad, leyendo dónde está el rival. Errores típicos: no saber dónde está el capitán, pase forzado y sin ángulo, el capitán queda tapado. Qué observar: el equipo se coloca para que el capitán reciba con espacio.",
+ "montaje": "Cuadrado de 35 × 35 m. 5 amarillos contra 5 rojos. Cada equipo elige un capitán, con peto de otro color.",
+ "juego": "5 contra 5 a 2 toques. El equipo con balón busca que su capitán controle el balón; el capitán se mueve libre y el rival puede marcarle.",
+ "punto": "1 punto cada vez que el capitán controla el balón; sigue con la posesión. Capitán nuevo a los 4 min. Gana quien puntúe más.",
+ "consigna": "Busca siempre a tu capitán con un pase al pie.",
+ "variantes": {
+  "facil": "Sin marca individual sobre el capitán y 3 toques.",
+  "dificil": "Dos capitanes por equipo y solo 1 toque para el capitán."
+ },
+ "adaptacion": "Benjamín: capitán sin marca. Cadete: el capitán solo puntúa si controla de espaldas a la portería (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 109",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 35"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5, 35 × 35 m, 8 min, 2 toques, un capitán por equipo y 1 punto cada vez que el capitán controla el balón. (propuesta): peto, libertad de movimiento del capitán, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 37.5,
+   "ymin": -2.5,
+   "ymax": 37.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "labels": [
+   [
+    28,
+    8,
+    "CAPITÁN",
+    "start"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     15,
+     20
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     20
+    ],
+    "b": [
+     26,
+     12
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

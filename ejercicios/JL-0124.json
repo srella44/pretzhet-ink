@@ -1,0 +1,295 @@
+{
+ "id": "JL-0124",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "8v8 con cuatro franjas",
+ "formato": "8v8",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "50 × 30 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min; a los 5 min los de las franjas y los del campo cambian de puesto.",
+ "objetivo": "Alternar pases cortos con cambios de orientación hacia las franjas, con 2 toques y controles orientados. Errores típicos: pasar siempre a la franja cercana, pases flojos que se cortan, jugadores de franja inmóviles. Qué observar: los jugadores de franja se ofrecen con el cuerpo abierto y el equipo cambia de lado.",
+ "montaje": "Campo de 50 × 30 m con 4 franjas de 5 × 30 m a 0, 15, 30 y 45 m (propuesta), con 1 jugador de cada equipo (fijos). Los otros 4 de cada equipo juegan entre franjas.",
+ "juego": "8 contra 8 a 2 toques. Se puede pasar a los compañeros de las franjas. A los 5 min, rotación de puestos.",
+ "punto": "1 punto cada vez que un jugador de franja controla el balón; sigue con la posesión. Gana quien puntúe más en 2 × 5 min.",
+ "consigna": "Cambia de franja con el pase y controla orientado.",
+ "variantes": {
+  "facil": "Franjas de 6 m y 3 toques.",
+  "dificil": "Franjas de 4 m y no repetir franja en 2 puntos seguidos."
+ },
+ "adaptacion": "Infantil: 3 toques y campo de 45 × 28 m. Con 6v6: 3 franjas.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 8:8 | entrada 124",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 37"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 8v8, 50 × 30 m, 4 franjas de 5 × 30 m con 1 jugador de cada equipo, 4 dentro, 1 punto por control de un jugador de franja, 2 × 5 min con cambio de puestos y 2 toques. (propuesta): colocación de las franjas en el campo, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   50,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 52.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    50,
+    0
+   ],
+   [
+    50,
+    30
+   ],
+   [
+    0,
+    30
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    30
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    30
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    30
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    30
+   ],
+   [
+    45,
+    0
+   ],
+   [
+    45,
+    30
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     15,
+     0,
+     20,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     35,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     45,
+     0,
+     50,
+     30
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32.5,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 47.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 47.5,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 41,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     10
+    ],
+    "b": [
+     2.5,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     20
+    ],
+    "b": [
+     17.5,
+     24
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     8
+    ],
+    "b": [
+     32.5,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

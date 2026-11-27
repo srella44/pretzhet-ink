@@ -1,0 +1,189 @@
+{
+ "id": "JL-0082",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 tres cortos y un largo",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Alternar el juego corto de apoyo con el pase largo de cambio de orientación, con un control limpio a 2 toques. Errores típicos: el largo sale flojo y sin dirección, pases cortos que no se cuentan, quedarse mirando. Qué observar: los jugadores se abren para recibir el largo y se ofrecen tras el corto.",
+ "montaje": "Cuadrado de 35 × 35 m con 4 conos. 5 amarillos contra 5 rojos repartidos. Largo: más de 18 m (propuesta).",
+ "juego": "5 contra 5 a 2 toques. El equipo con balón hace en orden 3 pases cortos y 1 largo, y repite. Si falla o el rival corta, cambia la posesión.",
+ "punto": "1 punto por cada secuencia 3 cortos + 1 largo completada; sigue con el balón. Gana quien puntúe más a los 8 min.",
+ "consigna": "Tres cortos para fijar y el cuarto largo y al pie.",
+ "variantes": {
+  "facil": "Secuencia de 2 cortos + 1 largo y campo de 30 × 30 m.",
+  "dificil": "4 cortos + 1 largo y el largo, por alto."
+ },
+ "adaptacion": "Benjamín: no vale el largo por alto. Cadete: el largo debe ser a la otra banda.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 82",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 31"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5, 35 × 35 m, 8 min, 2 toques y secuencia de 3 pases cortos + 1 largo con 1 punto por secuencia. (propuesta): qué se considera largo, series, pérdida de balón, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 37.5,
+   "ymin": -2.5,
+   "ymax": 37.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     8
+    ],
+    "b": [
+     12,
+     16
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     16
+    ],
+    "b": [
+     7,
+     25
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     7,
+     25
+    ],
+    "b": [
+     16,
+     30
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     16,
+     30
+    ],
+    "b": [
+     29,
+     22
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 4
+   }
+  ]
+ }
+}

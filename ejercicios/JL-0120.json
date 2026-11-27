@@ -1,0 +1,230 @@
+{
+ "id": "JL-0120",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "6v6 triángulo, tres esquinas",
+ "formato": "6v6",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "Triángulo de 25 m de lado",
+ "duracion": "8 min",
+ "series": "2 × 4 min; a los 4 min cambian los jugadores de las esquinas (dato de la fuente).",
+ "objetivo": "Jugar con apoyos fijos en las esquinas y relevo de posiciones, mirando siempre el pase siguiente. Errores típicos: pasar a la esquina sin orientar el cuerpo, entrar al juego sin moverse, olvidar ocupar el hueco. Qué observar: el que entra lo hace con velocidad y se ofrece al pase.",
+ "montaje": "Triángulo de 25 m de lado con una zona de 5 × 5 m en cada esquina, con 1 jugador de cada equipo (fijos). Otros 3 por equipo dentro.",
+ "juego": "6 contra 6 a 2 toques. Si un interior pasa a su compañero de una esquina, este entra y el pasador ocupa su puesto.",
+ "punto": "(propuesta) 1 punto por 3 relevos seguidos sin perder el balón. Gana quien puntúe más en 2 × 4 min.",
+ "consigna": "Pasa a la esquina, entra tú y ofrécete.",
+ "variantes": {
+  "facil": "Zonas de 6 × 6 m y 3 toques.",
+  "dificil": "Zonas de 4 × 4 m y 4 relevos por punto."
+ },
+ "adaptacion": "Benjamín: triángulo de 20 m y 3 toques. Cadete: 2 toques y 4 relevos por punto.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 | entrada 120",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 37"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 6v6, triángulo de 25 m de lado, 3 zonas de 5 m en las esquinas con 1 jugador de cada equipo en cada una, 3 dentro, relevo al pasar a una zona, 2 × 4 min y 2 toques. (propuesta): puntuación, tamaño exacto de las zonas, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   25,
+   22
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -3,
+   "ymax": 25
+  },
+  "nofield": true,
+  "lines": [
+   [
+    [
+     12.5,
+     0
+    ],
+    [
+     0,
+     22
+    ],
+    "1 0"
+   ],
+   [
+    [
+     0,
+     22
+    ],
+    [
+     25,
+     22
+    ],
+    "1 0"
+   ],
+   [
+    [
+     25,
+     22
+    ],
+    [
+     12.5,
+     0
+    ],
+    "1 0"
+   ]
+  ],
+  "cones": [
+   [
+    12.5,
+    0
+   ],
+   [
+    0,
+    22
+   ],
+   [
+    25,
+    22
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     10,
+     0,
+     15,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     17,
+     5,
+     22
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     20,
+     17,
+     25,
+     22
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11.4,
+    "y": 1.4,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 13.8,
+    "y": 3.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 1.3,
+    "y": 18.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3.8,
+    "y": 20.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21.3,
+    "y": 18.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23.8,
+    "y": 20.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 15.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 18,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     15.5
+    ],
+    "b": [
+     2,
+     19
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     19
+    ],
+    "b": [
+     6,
+     12.5
+    ],
+    "k": "run",
+    "s0": 12,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "id": "JL-0111",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 con portero neutral",
+ "formato": "5v5 + portero",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "11 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa; se cambia de portero en cada ronda (propuesta).",
+ "objetivo": "Pasar con intención a través de una puerta y controlar al otro lado, con un rival neutral que molesta el pase. Errores típicos: pase flojo que el portero corta, mirar solo la puerta y no al receptor, receptor parado. Qué observar: el pasador finta o espera a que el portero se abra.",
+ "montaje": "Cuadrado de 40 × 40 m con 4 puertas de 3 m (una por lado, a 4 m del borde) y un círculo central de 8 m (propuesta) para el portero neutral. 5 contra 5.",
+ "juego": "5 contra 5 a 2 toques. El portero neutral intenta cortar los pases que cruzan una puerta.",
+ "punto": "1 punto por control de un pase que cruza la puerta sin tocarlo el portero; sigue con el balón. Gana quien puntúe más a los 8 min.",
+ "consigna": "Pasa por la puerta cuando el portero se abra.",
+ "variantes": {
+  "facil": "Portero sin poder usar las manos y puertas de 4 m.",
+  "dificil": "Dos porteros neutrales y puertas de 2 m."
+ },
+ "adaptacion": "Benjamín: portero solo con los pies y puertas de 4 m. Cadete: portero con manos y 1 toque del receptor.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 111",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 35"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5 + portero neutral, 40 × 40 m, 4 puertas de 3 m defendidas por un portero neutral, 1 punto por control de un pase que atraviesa la puerta, 2 toques y 8 min. (propuesta): colocación de las puertas, círculo del portero y su manera de defender, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 42.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ],
+   [
+    18.5,
+    4
+   ],
+   [
+    21.5,
+    4
+   ],
+   [
+    18.5,
+    36
+   ],
+   [
+    21.5,
+    36
+   ],
+   [
+    4,
+    18.5
+   ],
+   [
+    4,
+    21.5
+   ],
+   [
+    36,
+    18.5
+   ],
+   [
+    36,
+    21.5
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 20,
+    "y": 20,
+    "r": 4
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 20,
+    "y": 20,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 24,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 26,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     24
+    ],
+    "b": [
+     1.8,
+     20
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   }
+  ]
+ }
+}

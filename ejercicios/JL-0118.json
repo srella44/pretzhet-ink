@@ -1,0 +1,193 @@
+{
+ "id": "JL-0118",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 línea de fondo rival",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Progresar con el balón hasta la línea de fondo rival y finalizar con un pase al espacio, con control orientado, atacando en equipo. Errores típicos: pase al fondo sin que el compañero se anticipe, pase largo sin control, defensores que no cubren el fondo. Qué observar: el delantero ataca el espacio por detrás del rival.",
+ "montaje": "Campo de 40 × 30 m con una zona de fondo de 3 m en cada extremo (propuesta). Cada equipo ataca una línea de fondo y defiende la otra. 5 contra 5.",
+ "juego": "5 contra 5 a 2 toques. Se puntúa al recibir y controlar un balón en la zona de fondo rival. Los defensores pueden entrar en su zona.",
+ "punto": "1 punto por control en la zona de fondo rival; saca el otro equipo desde su fondo. Gana quien puntúe más a los 8 min.",
+ "consigna": "Ataca el fondo rival y recibe por detrás de la defensa.",
+ "variantes": {
+  "facil": "Zona de fondo de 5 m y 3 toques.",
+  "dificil": "Zona de 2 m y solo controles de un toque."
+ },
+ "adaptacion": "Benjamín: zona de fondo de 5 m. Cadete: con fuera de juego en la zona (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 118",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 36"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5, 40 × 30 m, 8 min, 2 toques, cada equipo ataca y defiende una línea de fondo entera (la frase que explica cómo se puntúa está cortada en la fuente: «el equipo en posesión por detrás de la línea de fondo del adversario»). (propuesta): zona de fondo de 3 m, puntuación por control en la zona, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    30
+   ],
+   [
+    0,
+    30
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    3,
+    30
+   ],
+   [
+    37,
+    0
+   ],
+   [
+    37,
+    30
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     3,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     37,
+     0,
+     40,
+     30
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38.5,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     10
+    ],
+    "b": [
+     26,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     8
+    ],
+    "b": [
+     38.5,
+     20
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

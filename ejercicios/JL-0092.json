@@ -1,0 +1,200 @@
+{
+ "id": "JL-0092",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 con zona prohibida",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Mover el balón por fuera de un obstáculo central, abriendo el campo y circulando por los lados con 2 toques. Errores típicos: pasar por encima de la zona, jugar siempre en el mismo lado, quedarse pegado a la zona. Qué observar: los jugadores se reparten alrededor de la zona y el cambio de lado es rápido.",
+ "montaje": "Cuadrado de 40 × 40 m con zona central de 10 × 10 m (propuesta) donde no se juega el balón. 5 amarillos contra 5 rojos por fuera.",
+ "juego": "5 contra 5 a 2 toques. Nadie pisa la zona ni pasa por ella. Si el balón entra, pasa al rival, que saca desde ese punto.",
+ "punto": "(propuesta) 1 punto por 6 pases seguidos sin pisar la zona. Gana quien puntúe más a los 8 min.",
+ "consigna": "Rodea la zona y cambia de lado con un pase tenso.",
+ "variantes": {
+  "facil": "Zona de 6 × 6 m y 3 toques.",
+  "dificil": "Zona de 14 × 14 m y 8 pases por punto."
+ },
+ "adaptacion": "Benjamín: 30 × 30 m y zona de 6 × 6 m. Cadete: 8 pases por punto y obligar a un cambio de lado.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 92",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 32"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5, 40 × 40 m, 8 min, 2 toques y zona central en la que no se puede jugar el balón. La base cita además «3 porterías pequeñas de 2 m», que no se usan por no quedar claro su papel. (propuesta): medida de la zona, puntuación, sanción por pisar la zona, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 42.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    25,
+    15
+   ],
+   [
+    25,
+    25
+   ],
+   [
+    15,
+    25
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15,
+     15,
+     25,
+     25
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     18
+    ],
+    "b": [
+     18,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     6
+    ],
+    "b": [
+     34,
+     22
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     34,
+     22
+    ],
+    "b": [
+     22,
+     34
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

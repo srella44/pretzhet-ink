@@ -1,0 +1,245 @@
+{
+ "id": "JL-0079",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "8v8 zona central y bandas",
+ "formato": "8v8",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "8 min",
+ "series": "2 partidos de 4 min, 1 min de pausa; al cambiar de ronda, los de banda pasan al centro (propuesta).",
+ "objetivo": "Mantener la posesión a 2 toques alternando juego interior y juego por las bandas, con el control orientado. Errores típicos: pasar siempre por el centro, controlar sin mirar, quedarse parados en la banda. Qué observar: los de banda se ofrecen en diagonal y el pase llega al pie bueno.",
+ "montaje": "Campo de 40 × 30 m: bandas de 10 × 30 m y centro de 20 × 30 m. Cada equipo pone 4 jugadores en el centro y 2 en cada banda (fijos).",
+ "juego": "8 contra 8 a 2 toques (control y pase). Se enlaza centro y bandas. Si el rival roba, pasa a tener la posesión.",
+ "punto": "1 punto por 8 controles seguidos; se sigue con el balón. Gana quien puntúe más a los 8 min.",
+ "consigna": "Dos toques: control y pase, sin mirar el balón dos veces.",
+ "variantes": {
+  "facil": "Controles libres a 3 toques y 6 controles por punto.",
+  "dificil": "10 controles por punto y los de banda a 1 toque."
+ },
+ "adaptacion": "Infantil: 6 controles por punto. Con 6v6: 4 en el centro y 1 por banda, campo de 35 × 25 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 8:8 | entrada 79",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 30"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): medidas (40 × 30 m; bandas de 10 m y centro de 20 m), 4 en el centro y 2 por banda, 1 punto por 8 controles seguidos, 2 toques y 8 min. (propuesta): series, colocación exacta, cambio de roles, variantes, adaptación y edad. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    30
+   ],
+   [
+    0,
+    30
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    30
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     10,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     40,
+     30
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 37,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     7
+    ],
+    "b": [
+     3,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     6
+    ],
+    "b": [
+     25,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     25,
+     8
+    ],
+    "b": [
+     37,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

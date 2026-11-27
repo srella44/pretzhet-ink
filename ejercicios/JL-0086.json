@@ -1,0 +1,205 @@
+{
+ "id": "JL-0086",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "6v6 relevo con bandas",
+ "formato": "6v6",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 25 m (bandas de 5 m)",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Jugar con apoyo en las bandas y relevo de posiciones: el pase a la banda mueve al compañero hacia el centro y renueva el juego. Errores típicos: pasar a la banda sin necesidad, quedarse parado cuando se entra al centro, no abrir el ángulo desde la banda. Qué observar: el cambio de posición es inmediato y con el balón controlado.",
+ "montaje": "Campo de 35 × 25 m con 2 bandas de 5 × 25 m. En cada banda, 1 jugador de cada equipo (fijo). Los otros 4 de cada equipo juegan en el centro.",
+ "juego": "6 contra 6 a 2 toques. Si un jugador del centro pasa a su compañero de banda, este entra y el pasador ocupa la banda.",
+ "punto": "(propuesta) 1 punto cuando el balón pasa por las dos bandas con relevo sin perderse. Gana quien puntúe más a los 8 min.",
+ "consigna": "Pasa a la banda, entra tú y juega al toque.",
+ "variantes": {
+  "facil": "Bandas de 7 m y 3 toques.",
+  "dificil": "Bandas de 4 m y solo 1 toque en la banda."
+ },
+ "adaptacion": "Benjamín: 5v5 con 3 en el centro. Cadete: campo de 40 × 25 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 | entrada 86",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 31"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 6v6, 35 × 25 m, bandas de 5 × 25 m con 1 jugador de cada equipo que no sale, relevo al pasar a la banda, 2 toques y 8 min. (propuesta): puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 37.5,
+   "ymin": -2.5,
+   "ymax": 27.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    25
+   ],
+   [
+    0,
+    25
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    25
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    25
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     25
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     35,
+     25
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32.5,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 17,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15,
+     17
+    ],
+    "b": [
+     2.5,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2.5,
+     6
+    ],
+    "b": [
+     10,
+     11
+    ],
+    "k": "run",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

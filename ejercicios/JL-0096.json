@@ -1,0 +1,280 @@
+{
+ "id": "JL-0096",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "8v8 con cuatro cuadrados",
+ "formato": "8v8",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min; a los 5 min los de los cuadrados y los del campo cambian de puesto.",
+ "objetivo": "Buscar con el pase al compañero situado en las esquinas y controlarle bien, alternando juego interior y juego exterior a 2 toques. Errores típicos: pasar siempre al mismo cuadrado, pase débil que el rival corta, quedarse en una esquina. Qué observar: el pasador levanta la cabeza antes de pasar y el cuadrado se ofrece al pie.",
+ "montaje": "Campo de 40 × 40 m con 4 cuadrados de 5 × 5 m en las esquinas, 1 jugador de cada equipo en cada uno (fijos). Los otros 4 de cada equipo juegan dentro.",
+ "juego": "8 contra 8 a 2 toques. El equipo con balón puede pasar a sus compañeros de los cuadrados. A los 5 min, rotación.",
+ "punto": "1 punto cada vez que un jugador de cuadrado controla el balón; sigue con la posesión. Gana quien puntúe más en 2 × 5 min.",
+ "consigna": "Pasa al cuadrado con el pie bueno del compañero.",
+ "variantes": {
+  "facil": "Cuadrados de 6 × 6 m y 3 toques.",
+  "dificil": "Cuadrados de 4 × 4 m y solo 1 punto por cuadrado distinto."
+ },
+ "adaptacion": "Infantil: 3 toques y campo de 36 × 36 m. Con 6v6: 3 cuadrados por equipo.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 8:8 | entrada 96",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 33"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 8v8, 40 × 40 m, 4 cuadrados de 5 × 5 m, 4 de cada equipo en los cuadrados y 4 en el campo, 1 punto por control de un jugador del cuadrado, 2 × 5 min con cambio de puestos y 2 toques. (propuesta): reparto exacto en cada cuadrado (1 de cada equipo), variantes, adaptación y edad. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 42.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    5
+   ],
+   [
+    40,
+    5
+   ],
+   [
+    35,
+    40
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    40,
+    35
+   ],
+   [
+    0,
+    35
+   ],
+   [
+    5,
+    35
+   ],
+   [
+    5,
+    40
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     35,
+     0,
+     40,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     35,
+     35,
+     40,
+     40
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     35,
+     5,
+     40
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.0,
+    "y": 1.0,
+    "f": 45,
+    "ball": false
+   },
+   {
+    "r": "B",
+    "x": 4.0,
+    "y": 4.0,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 36.0,
+    "y": 1.0,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 39.0,
+    "y": 4.0,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 36.0,
+    "y": 36.0,
+    "f": -135
+   },
+   {
+    "r": "B",
+    "x": 39.0,
+    "y": 39.0,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 1.0,
+    "y": 36.0,
+    "f": -45
+   },
+   {
+    "r": "B",
+    "x": 4.0,
+    "y": 39.0,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 34,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     10
+    ],
+    "b": [
+     1.0,
+     1.0
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     14
+    ],
+    "b": [
+     36.0,
+     1.0
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

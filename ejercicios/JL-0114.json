@@ -1,0 +1,227 @@
+{
+ "id": "JL-0114",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 tres zonas y cambio",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "60 × 40 m",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Mantener la posesión en una zona y cambiar de zona con el balón controlado, atacando el espacio libre y no solo siguiendo al balón. Errores típicos: cambiar antes de tiempo, perder el balón en el cambio, no mover al equipo hacia la nueva zona. Qué observar: el cambio de zona es rápido y el receptor se ofrece antes.",
+ "montaje": "Campo de 60 × 40 m con 3 zonas de 20 × 40 m (conos). 5 amarillos contra 5 rojos.",
+ "juego": "5 contra 5 a 2 toques. Se dan 4 pases en la zona y luego se manda el balón a otra zona, donde se repite. Si el rival corta, ataca desde esa zona.",
+ "punto": "1 punto por cada cambio de zona tras los 4 pases. Gana quien puntúe más a los 8 min.",
+ "consigna": "Cuatro pases y cambia de zona con un pase tenso.",
+ "variantes": {
+  "facil": "3 pases por zona y 3 toques.",
+  "dificil": "5 pases por zona y solo se puede pasar a la zona más lejana."
+ },
+ "adaptacion": "Benjamín: 3 pases y campo de 45 × 30 m. Cadete: 5 pases y cambio por alto permitido.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 114",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 36"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5, 60 × 40 m, 3 zonas de 20 × 40 m, 4 pases en la zona y cambio a otra, 1 punto por cada cambio de zona, 2 toques y 8 min. (propuesta): pérdida de balón, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 62.5,
+   "ymin": -2.5,
+   "ymax": 42.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    60,
+    0
+   ],
+   [
+    60,
+    40
+   ],
+   [
+    0,
+    40
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    40
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ]
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     40
+    ]
+   ],
+   [
+    [
+     40,
+     0
+    ],
+    [
+     40,
+     40
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 46,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     6
+    ],
+    "b": [
+     14,
+     16
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     16
+    ],
+    "b": [
+     5,
+     32
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     5,
+     32
+    ],
+    "b": [
+     16,
+     30
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     16,
+     30
+    ],
+    "b": [
+     30,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 4
+   }
+  ]
+ }
+}

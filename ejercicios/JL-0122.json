@@ -1,0 +1,177 @@
+{
+ "id": "JL-0122",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 dos zonas con esquineros",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 20 m (2 zonas de 15 m)",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Mantener la posesión en una zona y, al recuperar, cambiar rápido de zona con el balón, con relevo de las esquinas. Errores típicos: cambiar de zona sin aviso, esquineros pasivos, defensores que no sacan el balón enseguida. Qué observar: tras robar se juega con rapidez al lado del esquinero libre.",
+ "montaje": "Campo de 30 × 20 m en 2 zonas de 15 m. Cada equipo pone 2 jugadores en las esquinas de SU zona (amarillos izda., rojos dcha.) y 3 en juego.",
+ "juego": "5 contra 5 a 2 toques. Cada equipo conserva el balón en su zona. Si un interior pasa a un esquinero, este entra y el pasador ocupa la esquina.",
+ "punto": "(propuesta) 1 punto por 6 pases seguidos en la propia zona. Gana quien puntúe más a los 8 min.",
+ "consigna": "Mantén la posesión en tu zona y entra con relevo.",
+ "variantes": {
+  "facil": "Esquineros sin presión y 3 toques.",
+  "dificil": "Un solo esquinero por equipo y 8 pases por punto."
+ },
+ "adaptacion": "Benjamín: 4v4 con 1 esquinero. Cadete: 8 pases y a 1 toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 122",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 37"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 5v5, 30 × 20 m, 2 zonas de 15 m, 2 esquineros por equipo en su zona, relevo al pasar al esquinero, tras robar se envía el balón rápido a la propia zona, 2 toques y 8 min. (propuesta): puntuación, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 32.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    20
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    20
+   ]
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     20
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 19,
+    "f": -45
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 1,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 19,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     14
+    ],
+    "b": [
+     1,
+     19
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     1,
+     19
+    ],
+    "b": [
+     6,
+     16
+    ],
+    "k": "run",
+    "s0": 12,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

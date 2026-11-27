@@ -1,0 +1,144 @@
+{
+ "id": "JL-0129",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "2v2+4 comodines en esquinas",
+ "formato": "2v2 + 4",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "6 rondas de 2 min; en cada ronda cambian los 4 comodines (dato de la fuente).",
+ "objetivo": "Conservar el balón en inferioridad con 2–3 toques, leyendo las ayudas defensivas desde las 4 esquinas. Errores típicos: pasar hacia el comodín que presiona, perder el balón al recibir de espaldas, quedarse en una zona. Qué observar: el atacante usa el cuerpo para proteger y cambia rápido de lado.",
+ "montaje": "Cuadrado de 12 × 12 m. 2 jugadores de cada equipo dentro. 4 comodines (blancos), uno en cada esquina fuera, con el equipo que defiende.",
+ "juego": "2 contra 2 a 2–3 toques. Comodines: máximo 2 m dentro. Si roba, ataca; los comodines pasan al otro equipo.",
+ "punto": "(propuesta) 1 punto por 5 pases seguidos del equipo con balón. Gana quien puntúe más en 6 rondas.",
+ "consigna": "Mira las esquinas antes de recibir.",
+ "variantes": {
+  "facil": "Dos comodines sin entrar al campo y 3 toques.",
+  "dificil": "Comodines que entran 3 m y 2 toques."
+ },
+ "adaptacion": "Benjamín: 14 × 14 m y 3 toques. Cadete: 2 toques y 8 pases por punto.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 2:2 + 4 | entrada 129",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 38"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto completo leído en el PDF del proyecto): 2v2 + 4 comodines que van con el equipo que defiende, uno en cada esquina, sin entrar más de 2 m, 12 × 12 m, 6 × 2 min, 2–3 toques. (propuesta): puntuación, qué pasa al robar, variantes y adaptación. La base dice «2 equipos de 3 jugadores + 2 comodines» (8 jugadores): se toma 2v2 + 4 por el título. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 15.5,
+   "ymin": -3.5,
+   "ymax": 15.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5.5,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.8,
+    "y": -1.8,
+    "f": 45
+   },
+   {
+    "r": "C",
+    "x": 13.8,
+    "y": -1.8,
+    "f": 135
+   },
+   {
+    "r": "C",
+    "x": 13.8,
+    "y": 13.8,
+    "f": -135
+   },
+   {
+    "r": "C",
+    "x": -1.8,
+    "y": 13.8,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     5
+    ],
+    "b": [
+     8.5,
+     7
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     -1.8,
+     -1.8
+    ],
+    "b": [
+     0.8,
+     0.8
+    ],
+    "k": "run",
+    "s0": 12,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5
+   }
+  ]
+ }
+}
