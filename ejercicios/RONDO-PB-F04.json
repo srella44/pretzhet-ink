@@ -1,0 +1,136 @@
+{
+ "id": "RONDO-PB-F04",
+ "bloque": "Finalización",
+ "titulo": "Roba el tesoro",
+ "formato": "1 contra 1 en cuadradito",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug.",
+ "espacio": "Cuadrados de 6 × 6 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 1 min por parejas, 30 s de descanso; se cambian las parejas en cada ronda (propuesta).",
+ "objetivo": "Proteger el balón con el cuerpo y el regate en poco espacio, y perder el miedo al contacto. Cómo explicarlo: «El balón es un tesoro: escóndelo con tu cuerpo». Errores típicos: mirar solo el balón, quedarse quieto, patearlo lejos. Qué observar: si pone el cuerpo entre el rival y el balón y si cambia de dirección (propuesta).",
+ "montaje": "Cuadrados de 6 × 6 m, uno por pareja (hasta 4). En cada uno, un niño con balón, el «tesoro», y su pareja a 2 m, sin balón.",
+ "juego": "El del tesoro lo conduce sin salir. Su pareja intenta tocar el balón: si lo toca, cambian los papeles. Todos cuentan en voz alta hasta 10; quien tenga el tesoro en el 10 da un salto.",
+ "punto": "Cada 10 con el tesoro: 1 punto. Si el balón sale, no cuenta. Gana la pareja con más puntos en 4 rondas de 1 min.",
+ "consigna": "Esconde el tesoro con tu cuerpo.",
+ "variantes": {
+  "facil": "Cuadrado de 8 × 8 m (más espacio para escapar) y el que persigue solo puede tocar el balón con el pie, sin empujar (fuente: cuadradito grande).",
+  "dificil": "Cuadrado de 5 × 5 m y solo cambian los papeles si el perseguidor consigue quedarse con el balón controlado (fuente)."
+ },
+ "adaptacion": "Con 6–7 años, explicar con un cuento (pirata y tesoro) y no eliminar a nadie. Si algún niño no se atreve, que empiece de perseguidor. Con 5 jugadores, un trío rota cada ronda (propuesta).",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Roba el tesoro",
+  "ref": "RONDO Vol1 · págs. 5, 9, 20, 24, 28, 43"
+ },
+ "completado": "Fuente: parejas en un cuadradito, uno con el tesoro (el balón) y el otro intenta tocarlo; tocarlo cambia los papeles; se cuenta hasta 10 y quien tenga el tesoro en el 10 da un salto; variantes cuadradito grande y cambio solo al coger el balón. (propuesta): medidas, número de parejas, series, puntuación y adaptación. Está en Finalización por la selección del libro.",
+ "diagrama": {
+  "field": [
+   14,
+   6
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 15,
+   "ymin": -1.5,
+   "ymax": 7.5
+  },
+  "nofield": false,
+  "lines": [
+   [
+    [
+     6.5,
+     0
+    ],
+    [
+     6.5,
+     6
+    ],
+    "0"
+   ],
+   [
+    [
+     7.5,
+     0
+    ],
+    [
+     7.5,
+     6
+    ],
+    "0"
+   ]
+  ],
+  "tag": "2 cuadrados de 6 × 6 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 4.7,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9.4,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3
+    ],
+    "b": [
+     1.6,
+     1.0
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     4.7,
+     3
+    ],
+    "b": [
+     3.2,
+     4.8
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10.5,
+    0.9,
+    "TESORO = BALÓN",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,170 @@
+{
+ "id": "IG-DcbWoFkhoNI",
+ "bloque": "Finalización",
+ "titulo": "Cuatro pases para tirar",
+ "formato": "4v2 + PT",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug. + PT",
+ "espacio": "32 × 24 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa; el equipo que concede el punto de robo cambia de rol (propuesta). Puntuación completa: Gol tras 4 pases: 2 puntos. Robo y paso por la puerta: 1 para los defensores. (propuesta)",
+ "objetivo": "Paciencia y velocidad: circular el balón 4 veces sin perderlo para tirar con ventaja y, tras robar, salir rápido. Cómo explicarlo: «Cuatro pases y tiro». Errores típicos: tirar con 2 o 3 pases, pases sin movimiento, defensores que no salen en conducción. Qué observar: la apertura de los atacantes y la salida del defensor tras el robo (propuesta).",
+ "montaje": "Campo de 32 × 24 m con portería y portero a la derecha. 4 atacantes y 2 defensores dentro. A la izquierda, una puerta de estacas de 3 m.",
+ "juego": "Los 4 atacantes enlazan 4 pases antes de tirar. Si los defensores roban, salen conduciendo por la puerta de estacas. Quien lo concede cambia de rol.",
+ "punto": "Gol tras 4 pases: 2. Robo y paso por la puerta: 1.",
+ "consigna": "Cuatro pases, luego tira.",
+ "variantes": {
+  "facil": "Solo 3 pases para tirar y la puerta de estacas de 5 m (propuesta).",
+  "dificil": "5 pases y los defensores roban en 2 contra 4 con un tercero en la puerta (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 3 pases y campo de 28 × 22 m. Infantil (12–13): 4 pases y campo de 36 × 26 m. Con 7 jugadores, uno hace de portero rotativo (propuesta).",
+ "fuente": {
+  "autor": "@edf.futebol · Instagram",
+  "titulo_original": "Cuatro pases para tirar, robo para conducir",
+  "ref": "https://www.instagram.com/edf.futebol/reel/DcbWoFkhoNI/"
+ },
+ "completado": "Fuente: 4 atacantes deben enlazar 4 pases antes de tirar; los 2 defensores que recuperan pueden puntuar conduciendo entre estacas; el equipo que concede ese punto cambia de rol. (propuesta): medidas, ubicación de la puerta, valores de puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   32,
+   24
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 33.6,
+   "ymin": -0.5,
+   "ymax": 24.5
+  },
+  "porterias": [
+   {
+    "x": 32,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    0,
+    10.5
+   ],
+   [
+    0,
+    13.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     4
+    ],
+    "b": [
+     9,
+     19
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9,
+     20
+    ],
+    "b": [
+     21,
+     20
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     22,
+     20
+    ],
+    "b": [
+     22,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     22,
+     4
+    ],
+    "b": [
+     31,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    2,
+    17,
+    "ESTACAS",
+    "start"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

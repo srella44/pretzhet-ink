@@ -1,0 +1,178 @@
+{
+ "id": "AFIN-002",
+ "bloque": "Finalización",
+ "titulo": "Pared, extremo y centro",
+ "formato": "2v2 + centro",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug. + PT",
+ "espacio": "34 × 28 m",
+ "duracion": "14 min",
+ "series": "3 series de 4 min con 1 min de pausa; se cambia de lado y se rota cada puesto (propuesta). Puntuación completa: Gol: 1 punto; de primeras: 2. Si defienden bien: 1 para los defensores. (propuesta)",
+ "objetivo": "Combinar con una pared, abrir al extremo y llegar a rematar el centro con los dos atacantes frente a 2 defensores. Cómo explicarlo: «Pared, profundidad y llega al remate». Errores típicos: pared lenta, llegar antes del centro, extremo que centra sin levantar la cabeza. Qué observar: el timing de la llegada del mediapunta y del delantero (fuente + propuesta).",
+ "montaje": "Medio campo con portería y portero. Pivote y mediapunta (con balón) a 25 m de la portería; extremo en banda; delantero en la frontal; 2 defensores en el área.",
+ "juego": "Pared entre mediapunta y pivote, pase en profundidad al extremo y centro. Mediapunta y delantero rematan frente a los 2 defensores. Después defienden el centro del otro lado.",
+ "punto": "Gol: 1; de primeras: 2. Defensa eficaz: 1.",
+ "consigna": "Pared, profundidad y llega.",
+ "variantes": {
+  "facil": "Sin defensores (propuesta).",
+  "dificil": "Un solo toque en la pared y solo 8 s hasta el remate (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de 6 m y distancias reducidas un tercio. Infantil (12–13): como está. Con menos jugadores, el pivote y el extremo son el mismo (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de técnica de finalización con oposición",
+  "titulo_original": "Finalización con oposición 2",
+  "ref": "10 ejercicios de técnica de finalización con oposición · pág. 4"
+ },
+ "completado": "Fuente (texto cortado en la base): pared entre pivote y mediapunta, pase en profundidad al extremo, que busca el centro para el mediapunta que inició y el delantero; estos 2 pasan a defender el centro del automatismo del lado derecho. (propuesta): distancias, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     22,
+     7,
+     34,
+     21
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     8.6,
+     18.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     8,
+     19
+    ],
+    "b": [
+     14.5,
+     14.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     19.6,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     20,
+     3
+    ],
+    "b": [
+     27.5,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     26,
+     14
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 5,
+    "s0": 12,
+    "s1": 8
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

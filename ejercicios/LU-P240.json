@@ -1,0 +1,193 @@
+{
+ "id": "LU-P240",
+ "bloque": "Finalización",
+ "titulo": "Circuito técnico y tiro",
+ "formato": "Circuito con balón y físico",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "12–14 jug.",
+ "espacio": "40 × 50 m",
+ "duracion": "16 min",
+ "series": "6 rondas: cada grupo hace 3 acciones con balón y 3 sin balón; 1 min de pausa a mitad (propuesta).",
+ "objetivo": "Pase, control orientado y tiro en un circuito por turnos, mezclado con trabajo físico sin balón. Cómo explicarlo: «Controla hacia donde vas a tirar». Errores típicos: control hacia atrás, tirar sin orientar el cuerpo, saltarse la rotación numérica. Qué observar: la calidad del control orientado cuando el compañero llega con prisa (fuente + propuesta).",
+ "montaje": "Campo de 40 × 50 m con portería en cada mitad. Dos grupos (amarillo y azul) de 6–7 jugadores. Con balón: 1 conduce, 2 apoya, 3 se mueve al interior. Sin balón: escalera y carreras de 20 m.",
+ "juego": "Amarillos: 1 pasa a 2, que controla orientado y abre a 3; 3 controla hacia la zona de tiro y remata. Luego lo hacen los azules en la otra mitad. Quien espera hace el circuito físico. Se rota por números.",
+ "punto": "Gol: 1 punto; tiro sin gol: medio punto.",
+ "consigna": "Controla hacia el tiro.",
+ "variantes": {
+  "facil": "Control libre y tiro desde 12 m; carrera física a ritmo suave (propuesta).",
+  "dificil": "Control y tiro en 2 toques, con un pasivo detrás del 3 y carrera de 30 m (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): escalera sencilla y carrera de 15 m. Infantil (12–13): la carga que se indica (la fuente deja el porcentaje de esfuerzo a criterio del entrenador).",
+ "fuente": {
+  "autor": "Level Up Coach · Juanlu Toledo @JuanluAxel",
+  "titulo_original": "Circuito Físico - Técnico con Finalizaciones - Juanlu Toledo @JuanluAxel",
+  "ref": "300 ejercicios Level Up Coach · pág. 240"
+ },
+ "completado": "Fuente: con balón 1 conduce y pasa a 2 (apoyo), este controla orientado y busca a 3 (hacia el interior) que controla hacia la zona de tiro; mismo trabajo en la otra mitad; sin balón escalera, carrera a posta 2, carrera al campo contrario, ida al centro y vuelta a esquina; rotación por números; 14 jugadores, 40 × 50 m. (propuesta): series, puntuación, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   50
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 41,
+   "ymin": -2.5,
+   "ymax": 51
+  },
+  "porterias": [
+   {
+    "x": 20,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": false
+   },
+   {
+    "x": 20,
+    "y": 50,
+    "lado": "B",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     25
+    ],
+    [
+     40,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    6,
+    34
+   ],
+   [
+    12,
+    34
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 21,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 36,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 40,
+    "f": 90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 44,
+    "f": 90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     21
+    ],
+    "b": [
+     8,
+     17
+    ],
+    "k": "cond",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     8,
+     17
+    ],
+    "b": [
+     13.3,
+     15.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     27.2,
+     10.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     28,
+     10
+    ],
+    "b": [
+     21,
+     1.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    20,
+    27.4,
+    "OTRO GRUPO, SU MITAD",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

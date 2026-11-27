@@ -1,0 +1,140 @@
+{
+ "id": "AF20-003",
+ "bloque": "Finalización",
+ "titulo": "Cambio de juego y 2v2",
+ "formato": "2v2 + PT",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug. + PT",
+ "espacio": "30 × 24 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 45 s de pausa; se alternan lado de inicio y roles (propuesta). Puntuación completa: Gol: 1 punto. Cambio cortado o robo en el 2v2: 1 para los defensores. (propuesta)",
+ "objetivo": "Cambiar de lado con un pase tenso para escapar de la presión y acabar el 2v2 con remate. Cómo explicarlo: «Cambia y encara». Errores típicos: pase flojo que el defensor corta, receptor que no se ofrece, tardar en recibir de cara. Qué observar: el momento del cambio y la distancia entre receptor y su defensor (fuente + propuesta).",
+ "montaje": "Campo de 30 × 24 m con portería y portero a la derecha. Izquierda: atacante A1 con balón y defensor D1 a 2 m. Derecha, a 15 m: atacante A2 y su defensor D2 pegado.",
+ "juego": "A1 cambia el juego con un pase largo a A2, que recibe con D2 encima; D1 intenta cortarlo. Si llega, se juega 2 contra 2: A1 se une y D1 defiende.",
+ "punto": "Gol: 1. Cambio cortado o robo: 1 para defensores.",
+ "consigna": "Cambia de lado y encara.",
+ "variantes": {
+  "facil": "D1 empieza a 4 m, sin poder cortar el cambio (propuesta).",
+  "dificil": "El 2v2 con solo 8 s para rematar y los defensores salen a la vez (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cambio a 12 m y portería de 6 m. Infantil (12–13): cambio a 18 m. Con 4 jugadores, solo un par rota (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 20 ejercicios de contraataque en espacio reducido",
+  "titulo_original": "CAMBIO DE ORIENTACIÓN Y FINALIZACIÓN 2x2",
+  "ref": "20 ejercicios de contraataque en espacio reducido · pág. 5"
+ },
+ "completado": "Fuente (texto cortado en la base): cambio de orientación desde el atacante de la izquierda; el de la derecha acude a recibir con la presión del defensor que salió con él; el defensor de la izquierda intenta evitar el cambio. (propuesta): distancias, qué pasa después del cambio (2 contra 2), puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 31.6,
+   "ymin": -0.5,
+   "ymax": 24.5
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 17.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     6
+    ],
+    "b": [
+     8.5,
+     18.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     5,
+     6
+    ],
+    "b": [
+     18,
+     8
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     9,
+     19
+    ],
+    "b": [
+     20,
+     16
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     20,
+     16
+    ],
+    "b": [
+     29.4,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 4,
+    "s1": 4
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

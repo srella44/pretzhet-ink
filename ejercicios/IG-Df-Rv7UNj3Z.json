@@ -1,0 +1,157 @@
+{
+ "id": "IG-Df-Rv7UNj3Z",
+ "bloque": "Finalización",
+ "titulo": "Pase atrás: llega tarde",
+ "formato": "3v2 + PT",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug. + PT",
+ "espacio": "32 × 28 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 45 s de pausa; rotan extremo, punta, mediapunta y defensas (propuesta). Puntuación completa: Gol: 2 puntos; remate sin gol: 1; si los defensas lo evitan: 1 para ellos. (propuesta)",
+ "objetivo": "Escalonar las llegadas para que el pase atrás encuentre un rematador libre: el punta atrae a la defensa y el mediapunta llega tarde. Errores típicos: llegar todos juntos, pase atrás flojo o alto, tirar antes de pisar el área. Qué observar: cómo se escalonan las llegadas para que el pase atrás encuentre un rematador (fuente + propuesta).",
+ "montaje": "Medio campo con portería y portero. Extremo con balones en banda a 20 m del fondo, punta en la frontal y mediapunta en el borde del círculo central. 2 defensas en el área.",
+ "juego": "El extremo conduce hasta el fondo. El punta arrastra a los defensas al primer palo y el mediapunta entra tarde al pase atrás raso y remata. El extremo no tira.",
+ "punto": "Gol: 2; remate sin gol: 1; defensa que evita: 1.",
+ "consigna": "Arrastra, espera y llega tarde.",
+ "variantes": {
+  "facil": "Sin defensas y con el balón parado en el fondo (propuesta).",
+  "dificil": "El extremo tiene solo 5 s desde su salida y los defensas pueden salir al pase atrás (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de 6 m y campo de 28 × 24 m. Infantil (12–13): como está. Con 4 jugadores, un solo delantero (propuesta).",
+ "fuente": {
+  "autor": "@klube.ai · Instagram",
+  "titulo_original": "Llegada tardía al pase atrás",
+  "ref": "https://www.instagram.com/klube.ai/reel/Df-Rv7UNj3Z/"
+ },
+ "completado": "Fuente: en 3 contra 2 con portero, el extremo alcanza la línea de fondo; el punta arrastra hacia el primer palo y el mediapunta espera para entrar al pase atrás raso; escalonar las llegadas. (propuesta): distancias, reglas de tiro del extremo, puntuación, series, variantes y adaptación; no se indica quién defiende ni cuántos balones.",
+ "diagrama": {
+  "field": [
+   32,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 33.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 32,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     22,
+     7,
+     32,
+     21
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     3
+    ],
+    "b": [
+     30,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     19,
+     12
+    ],
+    "b": [
+     27.8,
+     10.6
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     13,
+     21
+    ],
+    "b": [
+     23.5,
+     15.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     30,
+     3
+    ],
+    "b": [
+     25,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 4,
+    "s1": 8
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,183 @@
+{
+ "id": "LU-P020",
+ "bloque": "Finalización",
+ "titulo": "8v8: asimetría en banda",
+ "formato": "Partido 8v8 + PT",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug. + PT",
+ "espacio": "45 × 55 m",
+ "duracion": "20 min",
+ "series": "4 series de 4 min con 1 min de pausa; cambian los equipos de posesión y defensa (propuesta). Puntuación completa: Gol: 1 punto. Si los azules cruzan el medio campo con balón: 1 punto para ellos. (propuesta)",
+ "objetivo": "Resolver ataques por banda con superioridad y acabar en gol: el mediocentro de vértice cambia el juego de banda a banda y se llega al área con centro o pase atrás. Defensa: acosar al portador, marcar a los rivales y despejar orientado. Errores típicos: atacar siempre por el mismo lado, centros sin nadie en el área, defensores que dejan su zona antes de tiempo. Qué observar: cuándo se decide cambiar de banda (fuente + propuesta).",
+ "montaje": "Campo de 45 × 55 m con portería y 3 carriles (14, 17 y 14 m). Amarillos (8) en 1-4-3-3 con M de vértice; azules (8 y portero) defienden cada uno su zona.",
+ "juego": "M inicia y cambia de banda. Si el balón entra en un carril, el delantero y el mediocentro azules de ese lado pueden entrar a defender. Tras robo se quitan las líneas.",
+ "punto": "Gol: 1 punto. Azules cruzan medio campo con balón: 1.",
+ "consigna": "Cambia de banda y acaba en el área.",
+ "variantes": {
+  "facil": "Los azules solo defienden en su carril (sin entrar con el delantero y el mediocentro) y el equipo amarillo tiene tiempo libre (propuesta).",
+  "dificil": "Máximo 8 s por ataque y obligación de tocar en la banda contraria antes de rematar (propuesta)."
+ },
+ "adaptacion": "Para cadete (14–15): campo de 40 × 50 m. Juvenil: como está. Si hay menos jugadores, 6v6 con 3 carriles de 12 m (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "PARTIDO CONDICIONADO - Situaciones asimetría en banda - Finalizaciones",
+  "ref": "300 ejercicios Level Up Coach · pág. 20"
+ },
+ "completado": "Fuente: dos equipos de 8 y portero para el defensor, sistema 1-4-3-3, el M inicia y se ubica de vértice para cambiar de banda, los de la banda contraria permanecen en la zona, tras robo se quitan las delimitaciones; 45 × 55 m, 19 jugadores. (propuesta): ancho de carriles, puntuación, series, variantes, adaptación y reducción de jugadores dibujados.",
+ "diagrama": {
+  "field": [
+   45,
+   55
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 46,
+   "ymin": -2.5,
+   "ymax": 56.5
+  },
+  "porterias": [
+   {
+    "x": 22.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     55
+    ],
+    "6 5"
+   ],
+   [
+    [
+     31,
+     0
+    ],
+    [
+     31,
+     55
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22.5,
+    "y": 48,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 39,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 31,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 18,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 24,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22.5,
+     48
+    ],
+    "b": [
+     6.4,
+     40
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     5,
+     39
+    ],
+    "b": [
+     5,
+     21.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     5,
+     20
+    ],
+    "b": [
+     23.5,
+     11.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     25,
+     11
+    ],
+    "b": [
+     22.8,
+     1.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "tag": "carriles de 14 + 17 + 14 m"
+ },
+ "top": "",
+ "probado": false
+}

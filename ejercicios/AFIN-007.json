@@ -1,0 +1,190 @@
+{
+ "id": "AFIN-007",
+ "bloque": "Finalización",
+ "titulo": "Pared y defender centro",
+ "formato": "Pared + centro",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–10 jug. + PT",
+ "espacio": "34 × 28 m",
+ "duracion": "14 min",
+ "series": "3 series de 4 min con 1 min de pausa; se cambia el lado de salida y se rota el puesto cada pase por la fila (propuesta).",
+ "objetivo": "Dos tareas seguidas: rematar tras una pared con un defensor encima y, sin descansar, pasar a defender un centro del otro lado. Principios: pase tenso, pared a un toque, golpear antes de que llegue el defensor y reaccionar al cambio de rol. Errores típicos: pared lenta, tirar sin mirar al portero, no volver a defender. Qué observar: la velocidad del cambio de ataque a defensa (propuesta).",
+ "montaje": "Portería con portero. Izquierda: atacante con balón, un apoyo y un defensor. En el área, 2 centrales. Derecha: extremo con balones y 2 atacantes en la frontal.",
+ "juego": "Pared con el apoyo y tiro ante el defensor. Tras tirar, corre al área y se une a los 2 centrales a defender el centro del extremo.",
+ "punto": "Gol de la pared: 1 punto. Gol del centro: 1 para los atacantes; si los 3 defensas lo evitan, 1 para ellos.",
+ "consigna": "Remata rápido y vuelve a defender.",
+ "variantes": {
+  "facil": "La pared sin defensor y el centro sin 3.º defensor (2 defensas en el área) (propuesta).",
+  "dificil": "Remate de la pared a dos toques como máximo y el centro sale a la vez que se tira, sin esperar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de fútbol 7 (6 m) y área más pequeña. Infantil (12–13): como está. Con menos jugadores, el apoyo y el extremo son el mismo que rota (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de técnica de finalización con oposición",
+  "titulo_original": "Finalización con oposición 7",
+  "ref": "10 ejercicios de técnica de finalización con oposición · pág. 9"
+ },
+ "completado": "Fuente (texto cortado en la base): pared por la izquierda ante un defensor; el atacante que inicia se suma a los otros 2 centrales del área para evitar que el centro desde la derecha sea gol. (propuesta): medidas, número de jugadores, puntuación, series, variantes y adaptación; no tengo el PDF original para ver el diagrama.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     24,
+     8,
+     34,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 25.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 29,
+    "y": 26.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     7
+    ],
+    "b": [
+     12.7,
+     12.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     13
+    ],
+    "b": [
+     18,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     18,
+     7
+    ],
+    "b": [
+     33,
+     13.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     29,
+     26.5
+    ],
+    "b": [
+     25,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    22,
+    4.5,
+    "PARED + TIRO",
+    "middle"
+   ],
+   [
+    13,
+    27,
+    "CENTRO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,170 @@
+{
+ "id": "AFIN-006",
+ "bloque": "Finalización",
+ "titulo": "Arrastre de los 2 puntas",
+ "formato": "2v2 + cambio",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–10 jug. + PT",
+ "espacio": "34 × 28 m",
+ "duracion": "14 min",
+ "series": "3 series de 4 min con 1 min de pausa; se rota por los puestos y se cambia de banda (propuesta). Puntuación completa: Gol: 1 punto; de primeras: 2. Si los defensas evitan el remate: 1 para ellos. (propuesta)",
+ "objetivo": "Los 2 delanteros arrastran a sus marcas hacia fuera y se giran para entrar al remate a la espalda de los defensores, que tienen que correr hacia atrás. Errores típicos: arrastrar poco, girar antes del cambio, entrar los dos al mismo palo. Qué observar: la distancia entre delantero y defensor al arrancar y el sitio donde cae el centro (fuente + propuesta).",
+ "montaje": "Medio campo con portería y portero. Interior con balón, extremo en la banda contraria. 2 delanteros en la frontal con 2 defensas a 1 m y 2 conos para marcar el arrastre.",
+ "juego": "El interior cambia el juego al extremo. Los 2 delanteros arrastran a sus defensas hacia fuera y entran en velocidad a rematar el centro, uno a cada palo.",
+ "punto": "Gol: 1; de primeras: 2. Defensa eficaz: 1.",
+ "consigna": "Arrastra fuera y entra en velocidad.",
+ "variantes": {
+  "facil": "Sin defensas (propuesta).",
+  "dificil": "Los defensas marcan a 0,5 m y el extremo centra a un toque (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de 6 m y distancias menores. Infantil (12–13): como está. Con 6 jugadores, un solo delantero (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de técnica de finalización con oposición",
+  "titulo_original": "Finalización con oposición 6",
+  "ref": "10 ejercicios de técnica de finalización con oposición · pág. 8"
+ },
+ "completado": "Fuente (texto cortado en la base): arrastre de los 2 puntas, que atraen a los 2 defensores para entrar a rematar en velocidad haciendo que su oposición corra hacia atrás; inicia el interior/lateral con el cambio al extremo. (propuesta): distancias, puntuación, series, variantes y adaptación; no tengo el PDF original.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    18.5,
+    8
+   ],
+   [
+    18.5,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 18,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     22
+    ],
+    "b": [
+     17.4,
+     4.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     22,
+     11
+    ],
+    "b": [
+     19.4,
+     8.4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     22,
+     18
+    ],
+    "b": [
+     19.4,
+     20.6
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     18,
+     3
+    ],
+    "b": [
+     29,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    18.5,
+    23.5,
+    "ARRASTRE",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

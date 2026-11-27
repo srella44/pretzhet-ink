@@ -1,0 +1,152 @@
+{
+ "id": "JL-0420",
+ "bloque": "Finalización",
+ "titulo": "2v2 y 4 comodines",
+ "formato": "2v2 + 4 com. + 2 PT",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–10 jug.",
+ "espacio": "24 × 24 m",
+ "duracion": "12 min",
+ "series": "8 relevos de 1 min (8 min de juego) y 1 min de pausa; se repite con otras parejas (propuesta). Puntuación completa: Gol: 1 punto; tras 2 comodines distintos: 2. Gana quien sume más en 8 relevos. (propuesta)",
+ "objetivo": "Usar las esquinas para sacar al defensor de su sitio y rematar: el equipo con balón tiene 6 apoyos contra 2. Errores típicos: pasar siempre al mismo comodín, tardar en elegir el tiro, comodines que se acercan al centro. Qué observar: cómo se aprovecha la amplitud para abrir el centro (fuente + propuesta).",
+ "montaje": "Campo de 24 × 24 m con una portería pequeña a izquierda y otra a derecha. 2 amarillos contra 2 rojos en el centro y un comodín en cada esquina, sin entrar al centro.",
+ "juego": "Los 4 comodines juegan con el equipo con balón (6 contra 2), a 2 toques y sin tirar. Cada minuto se cambian comodines y parejas. Tras gol saca el que lo recibe.",
+ "punto": "Gol: 1; tras 2 comodines distintos: 2.",
+ "consigna": "Abre al comodín y busca el hueco.",
+ "variantes": {
+  "facil": "Comodines libres de toques y 1 solo punto por gol (propuesta).",
+  "dificil": "Los comodines solo juegan de primeras y el gol vale solo tras 4 pases (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): campo de 22 × 22 m. Cadete (14–15): campo de 26 × 26 m. Con 8 jugadores, 2 contra 2 y 3 comodines que rotan (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Finalización 2v2+4: comodines en esquinas, relevo cada 1 min",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 98"
+ },
+ "completado": "Fuente (texto cortado en la base): juego 2:2 + 4 comodines que van con el equipo con posesión y apoyan uno en cada esquina del campo; cada minuto se cambia a los comodines. (propuesta): medidas, ubicación de las porterías, límites de toques, saques, puntuación, series, variantes y adaptación. No tengo el PDF para ver el gráfico.",
+ "diagrama": {
+  "field": [
+   24,
+   24
+  ],
+  "extent": {
+   "xmin": -1.4,
+   "xmax": 25.4,
+   "ymin": -0.5,
+   "ymax": 24.5
+  },
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    24,
+    12,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 45
+   },
+   {
+    "r": "C",
+    "x": 21.5,
+    "y": 2.5,
+    "f": 135
+   },
+   {
+    "r": "C",
+    "x": 2.5,
+    "y": 21.5,
+    "f": -45
+   },
+   {
+    "r": "C",
+    "x": 21.5,
+    "y": 21.5,
+    "f": -135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     9
+    ],
+    "b": [
+     3.4,
+     3.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 10
+   },
+   {
+    "a": [
+     2.5,
+     2.5
+    ],
+    "b": [
+     9.6,
+     15.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 10,
+    "s1": 8
+   },
+   {
+    "a": [
+     10,
+     16
+    ],
+    "b": [
+     23.4,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 4
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

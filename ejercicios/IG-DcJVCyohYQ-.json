@@ -1,0 +1,172 @@
+{
+ "id": "IG-DcJVCyohYQ-",
+ "bloque": "Finalización",
+ "titulo": "Desdobla y centra",
+ "formato": "Trío + 1 defensor",
+ "edad": "10–11 años",
+ "nivel": "Medio",
+ "jugadores": "6–9 jug. + PT",
+ "espacio": "34 × 28 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa; el trío rota los puestos y se cambia de banda (propuesta).",
+ "objetivo": "Ganar la posición al defensor para rematar un centro tras un desdoblamiento. Errores típicos: desdoblar sin que el pase llegue, llegar al área antes del centro, rematar sin ganar la espalda. Qué observar: ajustar la llegada al centro y la fuerza para ganar posición ante el defensor que llega del lado opuesto (fuente + propuesta).",
+ "montaje": "Campo de 34 × 28 m con portería y portero. Trío: I con balón en el centro a 26 m de portería, H abierto en banda a 10 m y un cono a 14 m de la portería. Un defensor D en el cuadrante contrario.",
+ "juego": "I pasa a H y desdobla por fuera; H le devuelve y I centra al área. H rodea el cono y ataca el centro. D entra a defender el remate en duelo.",
+ "punto": "Gol: 2 puntos; remate sin gol: 1. Si D despeja o roba: 1 para él.",
+ "consigna": "Desdobla, centra y gana la espalda.",
+ "variantes": {
+  "facil": "Sin defensor y centro raso al punto de penalti (propuesta).",
+  "dificil": "El defensor sale con el primer pase y el remate debe ser de primeras (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de 6 m y centro raso. Infantil (12–13): centro por alto y defensor activo desde el inicio. Con 6 jugadores, dos tríos alternan (propuesta).",
+ "fuente": {
+  "autor": "@edf.futebol · Instagram",
+  "titulo_original": "El pasador del balón profundo llega al centro",
+  "ref": "https://www.instagram.com/edf.futebol/reel/DcJVCyohYQ-/"
+ },
+ "completado": "Fuente: en tríos, el iniciador pasa a un costado y desdobla para centrar; quien le habilitó rodea un cono y ataca el área; el jugador del cuadrante contrario entra a defender el remate en duelo. (propuesta): distancias, forma del centro, puntuación, series, variantes y adaptación; rol exacto de cada jugador por no verse el vídeo.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    20,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     13.2,
+     14.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     20,
+     26
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 8,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     19.6,
+     25
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 8,
+    "nt": 0.65
+   },
+   {
+    "a": [
+     14,
+     15
+    ],
+    "b": [
+     20,
+     13.4
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     20,
+     13
+    ],
+    "b": [
+     27,
+     12
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 4,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     21,
+     26
+    ],
+    "b": [
+     27.4,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 5,
+    "s0": 8,
+    "s1": 6
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

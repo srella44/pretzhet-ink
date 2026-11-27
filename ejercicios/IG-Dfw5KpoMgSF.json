@@ -1,0 +1,159 @@
+{
+ "id": "IG-Dfw5KpoMgSF",
+ "bloque": "Finalización",
+ "titulo": "Pase atrás con valor",
+ "formato": "3 contra 1 + PT",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug. + PT",
+ "espacio": "28 × 26 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 45 s de pausa; cada jugador pasa por extremo, delantero y defensa (propuesta). Puntuación completa: Gol fuera del área: 1 punto; dentro: 2; de primeras: 3. Defensa que evita: 1. (propuesta)",
+ "objetivo": "Decidir bien el remate tras un pase atrás: elegir el remate a un toque si la llegada es limpia o controlar si no. Cómo explicarlo: «Mira antes de llegar». Errores típicos: llegar todos al mismo punto, tirar sin llegada limpia, extremo que centra sin levantar la cabeza. Qué observar: el escalonamiento de las llegadas (fuente + propuesta).",
+ "montaje": "Media pista de 28 × 26 m con portería y portero. Extremo con balones en banda, 2 delanteros en la frontal separados 6 m y un defensor en el área.",
+ "juego": "El extremo llega al fondo y retrasa a los delanteros, que llegan escalonados: uno atrae al defensor y el otro entra libre. Rematan a un toque o controlando.",
+ "punto": "Gol fuera del área: 1; dentro: 2; de primeras: 3.",
+ "consigna": "Llega libre y elige el remate.",
+ "variantes": {
+  "facil": "Sin defensor y el pase atrás se hace parado (propuesta).",
+  "dificil": "Segundo defensor y solo 6 s desde que arranca el extremo (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de fútbol 7 (6 m), conducción corta. Infantil (12–13): campo de 32 × 30 m y portería de 7,32 m. Con 4 jugadores, un delantero y el defensor (propuesta).",
+ "fuente": {
+  "autor": "@tareasfutbolbase · Instagram",
+  "titulo_original": "Pase atrás con valor según la ocasión",
+  "ref": "https://www.instagram.com/tareasfutbolbase/reel/Dfw5KpoMgSF/"
+ },
+ "completado": "Fuente: extremo llega al fondo y retrasa para los delanteros ante oposición; gol exterior 1, en el área 2, de primeras 3; observar si el rematador dispone de una llegada limpia antes de elegir golpear a un toque. (propuesta): medidas, rotación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   28,
+   26
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 29.6,
+   "ymin": -0.5,
+   "ymax": 26.5
+  },
+  "porterias": [
+   {
+    "x": 28,
+    "y": 13,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     20,
+     6,
+     28,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     3
+    ],
+    "b": [
+     26,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 4
+   },
+   {
+    "a": [
+     26,
+     3
+    ],
+    "b": [
+     20.5,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 2,
+    "s0": 4,
+    "s1": 10
+   },
+   {
+    "a": [
+     14,
+     20
+    ],
+    "b": [
+     19.5,
+     16.5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     20,
+     16
+    ],
+    "b": [
+     27.4,
+     13.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    24,
+    24,
+    "ÁREA = 2 PUNTOS",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

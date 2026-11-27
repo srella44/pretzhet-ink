@@ -1,0 +1,168 @@
+{
+ "id": "AFIN-004",
+ "bloque": "Finalización",
+ "titulo": "Arrastre y centro lateral",
+ "formato": "2v2 en el área",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–10 jug. + PT",
+ "espacio": "34 × 28 m",
+ "duracion": "14 min",
+ "series": "3 series de 4 min con 1 min de pausa; se rota por todos los puestos y se cambia de banda (propuesta). Puntuación completa: Gol: 1; de primeras: 2. Si defienden bien el centro: 1 para ellos. (propuesta)",
+ "objetivo": "Que el extremo arrastre a su marca hacia dentro para dejar el pasillo al lateral, que sube y centra de primeras para dos delanteros que llegan marcados. Errores típicos: arrastrar muy pronto, lateral que se para a controlar, delanteros que llegan juntos. Qué observar: la arrancada del lateral a espalda del extremo y el timing de los delanteros (fuente + propuesta).",
+ "montaje": "Medio campo con portería y portero. Central con balón a 28 m, extremo en banda, lateral tras él. En la frontal, 2 conos, 2 delanteros y 2 defensores que los marcan.",
+ "juego": "El central pasa al extremo, que arrastra hacia dentro; el lateral sube, juega de primeras y centra. Los 2 delanteros rodean antes los conos con sus marcas y rematan.",
+ "punto": "Gol: 1; de primeras: 2. Defensa eficaz: 1.",
+ "consigna": "Arrastra dentro y sube por fuera.",
+ "variantes": {
+  "facil": "Sin defensores y sin conos (propuesta).",
+  "dificil": "El lateral centra a un toque y los defensores salen con el pase del central (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): distancias reducidas un tercio y portería de 6 m. Infantil (12–13): como está. Con 6 jugadores, un solo delantero rota (propuesta).",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios de técnica de finalización con oposición",
+  "titulo_original": "Finalización con oposición 4",
+  "ref": "10 ejercicios de técnica de finalización con oposición · pág. 6"
+ },
+ "completado": "Fuente (texto cortado en la base): central pasa al extremo, que simula arrastrar para dejar el espacio al lateral, con quien juega de primeras; el lateral centra a los 2 compañeros de ataque, que habían rodeado los conos junto a los 2 defensores que los marcan. (propuesta): distancias, qué ocurre tras el remate, puntuación, series, variantes y adaptación; no tengo el PDF original.",
+ "diagrama": {
+  "field": [
+   34,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    18,
+    8
+   ],
+   [
+    18,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 19.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 18,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     14
+    ],
+    "b": [
+     12.4,
+     20.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     21
+    ],
+    "b": [
+     16,
+     17
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     21
+    ],
+    "b": [
+     20.4,
+     25.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     21,
+     26
+    ],
+    "b": [
+     27,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 4,
+    "s0": 12,
+    "s1": 6
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,162 @@
+{
+ "id": "IG-DfURTX0Mjth",
+ "bloque": "Finalización",
+ "titulo": "Cruzar antes de finalizar",
+ "formato": "3v3 + PT",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–8 jug. + PT",
+ "espacio": "40 × 28 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa; se intercambian equipos y portero (propuesta). Puntuación completa: Gol a portería: 2 puntos; en minipuerta: 1. Gana quien más sume en 4 series. (propuesta)",
+ "objetivo": "Obligar a progresar con el balón antes de tirar y, al cambiar de rol, salir rápido a atacar al otro lado. Errores típicos: tirar sin pasar la línea, defensores que se quedan atrás tras el robo, conducciones sin mirar. Qué observar: cómo aprovechan los atacantes el espacio tras la línea (propuesta).",
+ "montaje": "Campo de 40 × 28 m con línea central. Portería con portero a la derecha; a la izquierda, 2 minipuertas de 2 m. Equipo A (3) con balón a la izquierda; equipo D (3) junto a la portería.",
+ "juego": "A debe cruzar la línea central, en pase o conducción, antes de tirar. Si D roba, también debe cruzarla con el balón y atacar las 2 minipuertas, que defiende A.",
+ "punto": "Gol a portería: 2; en minipuerta: 1.",
+ "consigna": "Cruza la línea y mira antes de tirar.",
+ "variantes": {
+  "facil": "Sin obligación de cruzar la línea en el primer ataque (propuesta).",
+  "dificil": "Máximo 8 s por ataque y minipuertas más estrechas, de 1,5 m (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campo de 36 × 26 m. Infantil (12–13): 40 × 28 m con portería de 7,32 m. Con 6 jugadores, 3 contra 3 sin portero fijo (propuesta).",
+ "fuente": {
+  "autor": "@labofsoms · Instagram",
+  "titulo_original": "Cruzar antes de finalizar",
+  "ref": "https://www.instagram.com/labofsoms/reel/DfURTX0Mjth/"
+ },
+ "completado": "Fuente: 3 atacan una portería con portero frente a 3 defensores; deben superar el medio campo para chutar; tras recuperar, los defensores también deben cruzar la línea en pase o conducción para atacar las dos minipuertas contrarias. (propuesta): medidas, ubicación de las minipuertas, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   28
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 41.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "goals": [
+   [
+    0,
+    9,
+    "L"
+   ],
+   [
+    0,
+    19,
+    "L"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     28
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     8.6,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     9,
+     14
+    ],
+    "b": [
+     23,
+     13
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     23,
+     13
+    ],
+    "b": [
+     39,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 4,
+    "s1": 4
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

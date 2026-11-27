@@ -1,0 +1,138 @@
+{
+ "id": "JL-0418",
+ "bloque": "Finalización",
+ "titulo": "2v2 + comodín",
+ "formato": "2v2 + 1 com. + 2 PT",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "5–7 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "10 min",
+ "series": "6 relevos de 1 min (6 min de juego) y 1 min de pausa; se repite con otro comodín (propuesta). Puntuación completa: Gol: 1 punto; en 3 pases o menos: 2. Gana la pareja con más puntos en 6 relevos. (propuesta)",
+ "objetivo": "Buscar la ocasión de gol con una pequeña superioridad (3 contra 2) y elegir entre las dos porterías. Errores típicos: tirar siempre a la misma portería, comodín sin movimiento, defensas que se quedan pegadas. Qué observar: el cambio de orientación entre las dos porterías y la ayuda del comodín (fuente + propuesta).",
+ "montaje": "Campo de 20 × 14 m con una portería de 4 m en cada banda larga, sin portero. 2 amarillos contra 2 rojos y 1 comodín, que juega con el equipo con balón.",
+ "juego": "Se juega 2 contra 2 + 1 comodín (3 contra 2 con balón). El comodín toca 2 veces como máximo y no tira. Cada minuto entra uno nuevo. Saca el rival con el pie.",
+ "punto": "Gol: 1; en 3 pases o menos: 2.",
+ "consigna": "Mira las dos porterías antes de tirar.",
+ "variantes": {
+  "facil": "Comodín libre de toques y portería de 5 m (propuesta).",
+  "dificil": "Portería de 3 m y gol válido solo si el comodín participó (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campo de 18 × 12 m. Infantil (12–13): campo de 22 × 15 m. Con 5 jugadores, el comodín rota después de cada gol (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Finalización 2v2+1: 2 porterías, comodines con la posesión",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 97"
+ },
+ "completado": "Fuente (texto muy cortado en la base): juego 2:2 + 1 comodín que va con el equipo con posesión (cambiar al comodín cada minuto); dos porterías laterales. (propuesta): medidas, reglas del comodín, saques, puntuación, series, variantes y adaptación. No tengo el PDF para ver el gráfico.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 20.5,
+   "ymin": -1.6,
+   "ymax": 15.6
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 4,
+    "portero": false
+   },
+   {
+    "x": 10,
+    "y": 14,
+    "lado": "B",
+    "ancho": 4,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     8,
+     9.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     8,
+     10
+    ],
+    "b": [
+     14.6,
+     7.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     15,
+     7.5
+    ],
+    "b": [
+     10,
+     13.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 3,
+    "s0": 8,
+    "s1": 4
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,170 @@
+{
+ "id": "IG-De_hEBjtGy6",
+ "bloque": "Finalización",
+ "titulo": "Rodea el cono y remata",
+ "formato": "Trío + remate",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–9 jug. + PT",
+ "espacio": "34 × 26 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 45 s de pausa; los 3 jugadores del trío rotan los puestos en cada ronda (propuesta).",
+ "objetivo": "Combinar en tríos y llegar al remate desde atrás: el que pasa primero rodea el cono y ataca el espacio para recibir el pase profundo. Errores típicos: arrancar antes de la descarga, radio de carrera demasiado cerrado, pase profundo sin peso. Qué observar: ajustar el radio y el momento de la carrera al ritmo de la descarga (fuente + propuesta).",
+ "montaje": "Campo de 34 × 26 m con portería y portero a la derecha. S con balón en el centro a 25 m de portería. Estaciones X (arriba) e Y (abajo) a 10 m de S a cada lado. Un cono a 8 m a la derecha de S.",
+ "juego": "S pasa a X. X descarga a Y mientras S rodea el cono y ataca el espacio. Y le da un pase profundo y S remata. Luego S pasa a ser X, X a ser Y e Y a ser S.",
+ "punto": "Gol: 2 puntos; tiro sin gol: 1.",
+ "consigna": "Rodea el cono y llega tarde.",
+ "variantes": {
+  "facil": "Pase profundo al pie y remate tras control (propuesta).",
+  "dificil": "Un defensor en la frontal que sale con la descarga (revisar espera y oposición en la fuente) (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): distancias reducidas un tercio y portería de 6 m. Infantil (12–13): campo completo y remate de primeras. Con 6 jugadores, un solo trío y los demás rotan (propuesta).",
+ "fuente": {
+  "autor": "@labofsoms · Instagram",
+  "titulo_original": "El primer pasador rodea y llega al remate",
+  "ref": "https://www.instagram.com/labofsoms/reel/De_hEBjtGy6/"
+ },
+ "completado": "Fuente: un pase desde el centro inicia la secuencia; el receptor descarga hacia la otra estación mientras el pasador rodea el cono derecho y ataca el espacio para el envío profundo; revisar espera y oposición. (propuesta): distancias, rotación, puntuación, series, variantes y adaptación; la fuente no dice si hay portero ni oposición.",
+ "diagrama": {
+  "field": [
+   34,
+   26
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 35.6,
+   "ymin": -0.5,
+   "ymax": 26.5
+  },
+  "porterias": [
+   {
+    "x": 34,
+    "y": 13,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    10,
+    17
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 23,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     13
+    ],
+    "b": [
+     14.4,
+     3.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     15,
+     3
+    ],
+    "b": [
+     15,
+     22.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     6,
+     13
+    ],
+    "b": [
+     15,
+     18
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     15,
+     18
+    ],
+    "b": [
+     24,
+     13
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 3,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     15,
+     23
+    ],
+    "b": [
+     24,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     24,
+     13
+    ],
+    "b": [
+     33.4,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 5,
+    "s0": 6,
+    "s1": 4
+   }
+  ]
+ },
+ "top": "",
+ "probado": false
+}

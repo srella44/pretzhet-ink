@@ -1,0 +1,156 @@
+{
+ "id": "LEI-043",
+ "bloque": "Finalización",
+ "titulo": "1v1 corriendo al balón",
+ "formato": "1v1 + PT",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–10 jug. + PT",
+ "espacio": "36 × 28 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 1 min de pausa; cada jugador hace 6–8 carreras por serie (propuesta). Puntuación completa: Gol: 1 para B. Si A roba o tapa: 1 para A. Gana quien más sume en 6 carreras. (propuesta)",
+ "objetivo": "Primer toque hacia el espacio y remate rápido desde el primer momento en que hay distancia de tiro. Cómo explicarlo: «Primer toque al espacio y tira». Errores típicos: controlar sin avanzar, no mirar al portero, esperar al defensor. Qué observar: la dirección del primer toque y la decisión de tirar (fuente + propuesta).",
+ "montaje": "Campo de 36 × 28 m con portería y portero a la derecha. Dos filas a 24 m de la portería: A arriba y B abajo, separadas 12 m. Los balones, en la fila de A.",
+ "juego": "A conduce al centro y deja el balón a B, que corre a él con el primer toque al espacio y tira al estar a 16–18 m. A sale a defender. B recoge el balón y pasa a defensor.",
+ "punto": "Gol: 1 para B. Si A roba o tapa: 1 para A.",
+ "consigna": "Primer toque al espacio y tira.",
+ "variantes": {
+  "facil": "A no defiende (solo hace de pasador) (propuesta).",
+  "dificil": "Solo 5 s para tirar y la portería a 20 m (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): distancia de 18 m y portería de 6 m. Infantil (12–13): como está. Con 4 jugadores, sin filas, con 2 parejas que alternan (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "1v1 Running on to the ball finishing with a shot.",
+  "ref": "LeicesterCity.pdf · pág. 47"
+ },
+ "completado": "Fuente (texto en inglés cortado en la base): A conduce el balón al centro del campo, B corre hacia el balón con el primer toque al espacio, A corre a defender, B debe tirar en cuanto esté a distancia de tiro; al acabar B recoge el balón y se une a la fila de defensores. (propuesta): distancias, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   36,
+   28
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 37.6,
+   "ymin": -0.5,
+   "ymax": 28.5
+  },
+  "porterias": [
+   {
+    "x": 36,
+    "y": 14,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 21,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     17,
+     13
+    ],
+    "k": "cond",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     10,
+     21
+    ],
+    "b": [
+     19,
+     14
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     17,
+     12
+    ],
+    "b": [
+     11,
+     17
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 3,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     19,
+     14
+    ],
+    "b": [
+     35.4,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 8,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    3,
+    5.6,
+    "FILA A",
+    "middle"
+   ],
+   [
+    3,
+    24.4,
+    "FILA B",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

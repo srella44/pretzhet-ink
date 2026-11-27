@@ -1,0 +1,189 @@
+{
+ "id": "LU-P107",
+ "bloque": "Finalización",
+ "titulo": "Rueda de pase con centro",
+ "formato": "Rueda + centro",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–18 jug.",
+ "espacio": "45 × 50 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de pausa, alternando el lado de inicio; cada jugador pasa por todos los puestos (propuesta). Puntuación completa: Centro rematado: 1 punto; gol: 2. Si falla un pase, se repite desde A. (propuesta)",
+ "objetivo": "Combinar pases con orientación del cuerpo, apoyo y desdoblamiento para centrar y rematar. Cómo explicarlo: «Pasa y muévete a la banda». Errores típicos: recibir de espaldas, pases blandos, desdoblar demasiado pronto o tarde. Qué observar: el timing entre el pase de E y la carrera del que centra, y que el rematador llegue desde atrás (fuente + propuesta).",
+ "montaje": "Campo de 45 × 50 m con portería. Por banda: A con balón abajo, B, C y D escalonados hacia arriba, E dentro y 2 rematadores en la frontal.",
+ "juego": "A pasa a B, que conecta con C; C de primera con D mientras B desdobla; D pasa a E, que abre a B para el centro. Los 2 rematadores entran. Se alternan los lados.",
+ "punto": "Centro rematado: 1; gol: 2. Pase fallado: repetir.",
+ "consigna": "Pasa, apoya y desdobla.",
+ "variantes": {
+  "facil": "Sin rematadores: solo la secuencia de pases y el centro a un mini-objetivo (propuesta).",
+  "dificil": "Un defensor en el área y toques limitados a 2 por jugador (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): secuencia de 4 pases con campo de 35 × 40 m. Infantil (12–13): completa. Si hay 9 jugadores, una sola secuencia en un lado (propuesta).",
+ "fuente": {
+  "autor": "Level Up Coach",
+  "titulo_original": "RUEDA DE PASE - TÉCNICA INDIVIDUAL - TIMING - FINALIZACIONES",
+  "ref": "300 ejercicios Level Up Coach · pág. 107"
+ },
+ "completado": "Fuente (texto de la página 107): secuencias 1 y 2 de pases con apoyos, desdoblamiento del que da el primer pase y centro al área, alternando lados; 18 jugadores, 45 × 50 m. (propuesta): posiciones exactas, número de jugadores mínimo, series, puntuación, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   45,
+   50
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 46,
+   "ymin": -2.5,
+   "ymax": 51
+  },
+  "porterias": [
+   {
+    "x": 22.5,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": 45,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 38,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 28,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 21,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 13,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     45
+    ],
+    "b": [
+     10.2,
+     38.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     9,
+     38
+    ],
+    "b": [
+     12.6,
+     29.5
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     13,
+     28
+    ],
+    "b": [
+     20.2,
+     22.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     21,
+     21
+    ],
+    "b": [
+     12.3,
+     14.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 4,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     9,
+     38
+    ],
+    "b": [
+     3,
+     16
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 5,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     3,
+     15
+    ],
+    "b": [
+     16,
+     6.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 6,
+    "s0": 4,
+    "s1": 8
+   }
+  ],
+  "tag": "igual por el otro lado · 45 × 50 m"
+ },
+ "top": "",
+ "probado": false
+}

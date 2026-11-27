@@ -1,0 +1,153 @@
+{
+ "id": "LEI-094",
+ "bloque": "Finalización",
+ "titulo": "Pase y sprint al tiro",
+ "formato": "Carrera 1v1 + PT",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug. + PT",
+ "espacio": "9 × 9 m + 14 m",
+ "duracion": "12 min",
+ "series": "3 series de 6 carreras (5–8 en la fuente) con pausa de 1 min; cada pareja corre 2 veces por serie (propuesta). Puntuación completa: Gol: 1 punto; defensa que evita el tiro: 1. Gana quien más sume en 6 carreras. (propuesta)",
+ "objetivo": "Aceleración y remate con el balón en carrera. Cómo explicarlo: «Pase rasante y explota». Errores típicos: pase blando, arrancar antes del pase, tirar con el cuerpo hacia atrás. Qué observar: pase rasante a la zona de carrera (fuente: pase con peso a ras de suelo) y la velocidad de salida (fuente + propuesta).",
+ "montaje": "Cuadrado de 9 × 9 m con 4 conos; A y B en las esquinas de abajo, balón en A. A 14 m, portería con portero. Un entrenador con balones al lado.",
+ "juego": "A pasa a ras de suelo a B. Al salir el pase, ambos corren en sentidos contrarios hacia el balón que el entrenador deja rodar al centro. Quien llega antes tira; el otro defiende.",
+ "punto": "Gol: 1 punto. Defensa que evita el tiro: 1.",
+ "consigna": "Pase rasante y sal a toda velocidad.",
+ "variantes": {
+  "facil": "Sin defensor y balón rodando despacio (propuesta).",
+  "dificil": "El balón rueda a más velocidad y se tira de primeras o en un solo control (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cuadrado de 8 × 8 m y portería de 6 m. Infantil (12–13): como está. Con 4 jugadores, 2 parejas se alternan (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Pass and Shot at Goal",
+  "ref": "LeicesterCity.pdf · pág. 106"
+ },
+ "completado": "Fuente (texto en inglés cortado en la base): contenido aceleración de velocidad y tiro; 2–3 series de 5–8 sprints; cuadrado de 10 × 10 yardas; tiro desde 15 yardas; A y B pasan cuadrado y corren en sentidos opuestos para llegar al balón y finalizar; coaching pase con peso a ras de suelo. (propuesta): entrenador que deja rodar el balón, defensor, puntuación, variantes y adaptación; no tengo el PDF para ver el diagrama.",
+ "diagrama": {
+  "field": [
+   25,
+   18
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 26.6,
+   "ymin": -1,
+   "ymax": 19
+  },
+  "dashed": true,
+  "porterias": [
+   {
+    "x": 25,
+    "y": 9,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    2,
+    4
+   ],
+   [
+    11,
+    4
+   ],
+   [
+    2,
+    13
+   ],
+   [
+    11,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6.5,
+    "y": 2,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     13
+    ],
+    "b": [
+     10.4,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "n": 1,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     2,
+     13
+    ],
+    "b": [
+     4,
+     5
+    ],
+    "k": "run",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   },
+   {
+    "a": [
+     11,
+     13
+    ],
+    "b": [
+     9,
+     5
+    ],
+    "k": "run",
+    "side": 1,
+    "n": 2,
+    "s0": 12,
+    "s1": 6
+   }
+  ],
+  "balls": [
+   [
+    6.5,
+    8.5
+   ]
+  ],
+  "tag": "cuadrado de 9 m + 14 m a portería",
+  "labels": [
+   [
+    6.5,
+    16.8,
+    "PASE CUADRADO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

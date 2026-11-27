@@ -1,0 +1,214 @@
+{
+ "id": "LEI-096",
+ "bloque": "Finalización",
+ "titulo": "7v7 con dos balones",
+ "formato": "2v2 en 3 zonas + porteros",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug. + 2 PT",
+ "espacio": "54 × 30 m",
+ "duracion": "16 min",
+ "series": "4 series de 4 min con 1 min de pausa; los equipos cambian de portería en cada serie (propuesta).",
+ "objetivo": "Crear y aprovechar muchas ocasiones de tiro con dos balones en juego a la vez, manteniendo la concentración del 2v2 en cada zona. Errores típicos: olvidar el segundo balón, zonas que dejan de ayudar, tirar sin ocasión. Qué observar: la rapidez para pasar de un balón al otro y la presión del defensor en cada zona (fuente + propuesta).",
+ "montaje": "Campo de 54 × 30 m con portería y portero en cada fondo y 3 zonas de 18 m. En cada zona, 2 amarillos contra 2 rojos, sin salir de ella. Cada portero tiene un balón.",
+ "juego": "Los dos balones salen de los porteros a la vez. Cada equipo pasa el suyo de zona en zona hasta rematar. Se juega 2 contra 2 en cada zona. Tras robo, se contraataca; balón fuera: repone el portero.",
+ "punto": "Gol: 1 punto; con el segundo balón en juego: 2.",
+ "consigna": "Dos balones: no pierdas ninguno.",
+ "variantes": {
+  "facil": "Un solo balón y 3 contra 3 en 2 zonas (propuesta).",
+  "dificil": "Máximo 3 toques por jugador y gol de primeras vale doble (propuesta)."
+ },
+ "adaptacion": "Cadete (14–15): campo de 48 × 28 m. Juvenil (16–18): como está. Con 10 jugadores, 2 zonas de 20 m con 2v2 y un solo portero por equipo (propuesta).",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "7v7 2 ball shooting game.",
+  "ref": "LeicesterCity.pdf · pág. 108"
+ },
+ "completado": "Fuente (texto muy breve): 2v2 en las tres zonas; se juega con dos balones para crear muchas oportunidades de tiro. (propuesta): tamaño del campo, 7 jugadores por equipo con portero, qué pasa tras robo y balón fuera, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   54,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 55.5,
+   "ymin": -0.5,
+   "ymax": 30.5
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 54,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     30
+    ],
+    "6 5"
+   ],
+   [
+    [
+     36,
+     0
+    ],
+    [
+     36,
+     30
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 47,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 43,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     9
+    ],
+    "b": [
+     26.4,
+     8.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 1,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     27,
+     8
+    ],
+    "b": [
+     44.4,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 2,
+    "s0": 12,
+    "s1": 8
+   },
+   {
+    "a": [
+     45,
+     9
+    ],
+    "b": [
+     53,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "n": 3,
+    "s0": 12,
+    "s1": 4
+   }
+  ],
+  "balls": [
+   [
+    2.2,
+    19
+   ],
+   [
+    51.8,
+    11
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}
