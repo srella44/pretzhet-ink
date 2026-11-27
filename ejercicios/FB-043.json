@@ -1,0 +1,203 @@
+{
+ "id": "FB-043",
+ "bloque": "Finalización",
+ "titulo": "Circuito vallas y tiro",
+ "formato": "Circuito + tiro",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "30 × 16 m",
+ "duracion": "12 min",
+ "series": "4 vueltas por jugador con 40″ de descanso (el siguiente sale cuando el anterior pasa las vallas).",
+ "objetivo": "Unir coordinación, conducción y remate: saltar vallas, controlar el balón en velocidad y tirar sin perder ritmo. Cómo explicarlo: «cada estación se hace de una vez, sin parar». Errores típicos: tocar las vallas, levantar la vista tarde y tirar sin pie de apoyo. Qué observar: frecuencia de pasos, conducción pegada y tiro raso. Material: 6 balones, 4 vallas bajas (o conos), 3 conos, 1 portería.",
+ "montaje": "Campo de 30 × 16 m, portería de 6 m con portero. Estación 1: 4 vallas bajas a 2,5 m. Estación 2: balón y slalom de 3 conos. Línea de tiro a 6 m de la portería.",
+ "juego": "Salta las 4 vallas a pies juntos (1), coge el balón y hace el slalom (2). Al pasar el último cono chuta (3). Recoge el rechace y vuelve trotando; sale el siguiente al terminar las vallas.",
+ "punto": "Gol = 1 punto; valla tocada = −1. Gana quien más sume en 4 vueltas.",
+ "consigna": "Salta, conduce y tira sin parar.",
+ "variantes": {
+  "facil": "Vallas más bajas (15 cm), slalom de 2 conos y tiro libre (propuesta).",
+  "dificil": "Vallas a un pie y salto con un pie; el tiro cuenta solo con la pierna mala."
+ },
+ "adaptacion": "Alevín (10–11): vallas a 15 cm, 2 conos y portería de 8 m. Infantil (12–13): 25 cm. Cadete (14–15): saltos a un pie y portería de 6 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FÍSICO TÉCNICO FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/fisico-tecnico-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   30,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 8,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    4,
+    6.5
+   ],
+   [
+    4,
+    9.5
+   ],
+   [
+    6.5,
+    6.5
+   ],
+   [
+    6.5,
+    9.5
+   ],
+   [
+    9,
+    6.5
+   ],
+   [
+    9,
+    9.5
+   ],
+   [
+    11.5,
+    6.5
+   ],
+   [
+    11.5,
+    9.5
+   ],
+   [
+    17,
+    6
+   ],
+   [
+    20,
+    10
+   ],
+   [
+    23,
+    6
+   ]
+  ],
+  "lines": [
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     16
+    ],
+    "4 3"
+   ]
+  ],
+  "balls": [
+   [
+    14,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     8
+    ],
+    "b": [
+     13,
+     8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     8
+    ],
+    "b": [
+     24,
+     8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     25.5,
+     8
+    ],
+    "b": [
+     29.5,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    8,
+    4.2,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    20,
+    3.6,
+    "SLALOM",
+    "middle"
+   ],
+   [
+    25,
+    17.2,
+    "LÍNEA DE TIRO",
+    "middle"
+   ]
+  ]
+ }
+}

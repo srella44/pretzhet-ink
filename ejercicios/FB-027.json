@@ -1,0 +1,172 @@
+{
+ "id": "FB-027",
+ "bloque": "Calentamiento",
+ "titulo": "Luz roja, luz verde",
+ "formato": "Conducción",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "8 min",
+ "series": "5 carreras de 1′ con 30″ de pausa para volver a la salida.",
+ "objetivo": "Conducir con el balón pegado al pie y frenarlo de golpe con la suela al oír la señal, con la cabeza levantada para mirar al entrenador. Cómo explicarlo: «luz verde, el balón corre; luz roja, la suela encima». Errores típicos: mirar solo el balón, frenar tarde o patear el balón lejos. Qué observar: toques cortos, frenada con la suela y quien se mueve tras «roja». Material: 1 balón por niño, 4 conos.",
+ "montaje": "Rectángulo de 20 × 12 m. Salida y meta a 15 m (conos). Niños con balón en la salida, a 2 m entre sí. El entrenador, en la meta, de espaldas.",
+ "juego": "Con «luz verde» (1) todos conducen hacia la meta. Con «luz roja» (2) paran el balón con la suela y se quedan quietos. El entrenador se gira: quien se mueve o pierde el balón vuelve a la salida.",
+ "punto": "Gana 1 punto quien cruza primero la meta; 5 carreras, gana quien más sume.",
+ "consigna": "Verde, el balón corre; roja, suela encima.",
+ "variantes": {
+  "facil": "Sin puntos y con la meta a 10 m; el entrenador avisa «¡cuidado, roja!» un segundo antes (propuesta).",
+  "dificil": "Cambiar la orden: «luz azul» = conducir con la pierna mala y «luz amarilla» = giro de 180° con el balón. Meta a 20 m."
+ },
+ "adaptacion": "Prebenjamín (6–7): meta a 10 m, sin puntos y sin eliminación; solo se repite el tramo. Benjamín (8–9): meta a 15 m, puntos y órdenes extra (azul, amarilla).",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "LUZ ROJA, LUZ VERDE",
+  "ref": "https://toplidercoach.com/futbol-base/luz-roja-luz-verde/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    3,
+    0
+   ],
+   [
+    3,
+    12
+   ],
+   [
+    17,
+    0
+   ],
+   [
+    17,
+    12
+   ]
+  ],
+  "lines": [
+   [
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     12
+    ],
+    "4 3"
+   ],
+   [
+    [
+     17,
+     0
+    ],
+    [
+     17,
+     12
+    ],
+    "4 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 1.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 19.5,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     4.5
+    ],
+    "b": [
+     12,
+     4.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     1.5,
+     10.5
+    ],
+    "b": [
+     7,
+     10.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    3,
+    -0.8,
+    "SALIDA",
+    "middle"
+   ],
+   [
+    17,
+    -0.8,
+    "META",
+    "middle"
+   ],
+   [
+    19.5,
+    8,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ]
+ }
+}

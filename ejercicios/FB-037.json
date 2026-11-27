@@ -1,0 +1,171 @@
+{
+ "id": "FB-037",
+ "bloque": "Finalización",
+ "titulo": "Finalizar a 2 porterías",
+ "formato": "Tiro",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "40 × 22 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3′ con 1′ de pausa; cambian los porteros y las filas.",
+ "objetivo": "Ganar ritmo con una conducción corta y finalizar en uno o dos toques, atacando alternativamente las dos porterías sin pausas. Cómo explicarlo: «si tu equipo tira, el portero te cede el balón y tu fila ataca al otro lado». Errores típicos: dejar el balón muy largo, no cruzarse sin chocar y no seguir el rechace. Qué observar: último toque, ritmo del relevo y el cruce. Material: 8 balones, 2 porterías, 4 conos.",
+ "montaje": "Campo de 40 × 22 m con portería de 6 m y portero en cada fondo. Dos filas de 2–4 tiradores en el centro, separadas 6 m: la amarilla ataca la derecha; la roja, la izquierda. Línea de tiro a 10 m.",
+ "juego": "Sale el primero amarillo: conduce (1) y chuta en la línea de tiro (2). Al tirar, sale el primer rojo hacia la otra portería. Cada uno recoge su rechace y se pone en la fila contraria.",
+ "punto": "Gol = 1 punto para su equipo; parada = 1 para el portero. Gana quien más puntos tenga en 4 rondas.",
+ "consigna": "Tira y sigue el rechace; ya sale el otro.",
+ "variantes": {
+  "facil": "Línea de tiro a 7 m y sin cruce: cada fila vuelve a la suya (propuesta).",
+  "dificil": "Solo 2 toques en total y tiro tras un pase del entrenador desde el lateral."
+ },
+ "adaptacion": "Alevín (10–11): línea a 10 m y rebote libre. Infantil (12–13): un toque de control y tiro. Cadete (14–15): línea a 16 m y presión de un defensor pasivo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FINALIZACIÓN 2 PORTERÍAS",
+  "ref": "https://toplidercoach.com/futbol-base/finalizacion-2-porterias/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   40,
+   22
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 24
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 11,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 11,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     30,
+     0
+    ],
+    [
+     30,
+     22
+    ],
+    "4 3"
+   ],
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     22
+    ],
+    "4 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 16,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16,
+     6
+    ],
+    "b": [
+     29,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     30.5,
+     8
+    ],
+    "b": [
+     39,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     16
+    ],
+    "b": [
+     11,
+     14
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    30,
+    23.2,
+    "LÍNEA DE TIRO",
+    "middle"
+   ],
+   [
+    10,
+    23.2,
+    "LÍNEA DE TIRO",
+    "middle"
+   ]
+  ]
+ }
+}

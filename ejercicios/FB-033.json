@@ -1,0 +1,158 @@
+{
+ "id": "FB-033",
+ "bloque": "Finalización",
+ "titulo": "Tiro lúdico 2: bolos",
+ "formato": "Tiro",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug.",
+ "espacio": "22 × 16 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 3′ con 1′ de pausa; se reponen los bolos cada ronda.",
+ "objetivo": "Conducir sorteando conos y disparar raso y colocado para derribar un bolo, buscando precisión antes que fuerza. Cómo explicarlo: «tirar bolos con el pie». Errores típicos: tirar fuerte y alto, no mirar el objetivo y detener la conducción antes del tiro. Qué observar: pie de apoyo junto al balón, golpeo con interior o empeine y balón raso. Material: 8 balones, 12 conos o botellas.",
+ "montaje": "Campo de 22 × 16 m. En el fondo, 5 bolos (conos) a 2 m entre sí. Línea de tiro a 15 m. Entre salida y línea, 3 conos de slalom. Jugadores en fila, con balón.",
+ "juego": "El primero conduce el slalom (1) y, al pasar la línea de tiro, golpea raso contra los bolos (2). Recoge su balón y vuelve a la fila; el siguiente repone los bolos caídos y sale.",
+ "punto": "Cada bolo derribado = 1 punto; el central = 2. Gana quien más puntos sume en la ronda.",
+ "consigna": "Conduce, mira el bolo y tira raso.",
+ "variantes": {
+  "facil": "Bolos más anchos (2,5 m entre ellos) y línea de tiro a 10 m (propuesta).",
+  "dificil": "Solo 3 bolos, línea de tiro a 18 m y tiro a un toque tras un pase del entrenador."
+ },
+ "adaptacion": "Benjamín (8–9): línea a 10 m y balón botando permitido. Alevín (10–11): 15 m. Infantil (12–13): 18 m y bolos más estrechos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TIRO A PORTERÍA LÚDICO 2",
+  "ref": "https://toplidercoach.com/futbol-base/tiro-a-porteria-ludico-2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   22,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 24,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    22,
+    4
+   ],
+   [
+    22,
+    6
+   ],
+   [
+    22,
+    8
+   ],
+   [
+    22,
+    10
+   ],
+   [
+    22,
+    12
+   ],
+   [
+    6,
+    6.2
+   ],
+   [
+    9,
+    9.8
+   ],
+   [
+    12,
+    6.2
+   ]
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     16
+    ],
+    "4 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 5.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     8
+    ],
+    "b": [
+     13.5,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     15.5,
+     8
+    ],
+    "b": [
+     21,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    15,
+    17.2,
+    "LÍNEA DE TIRO",
+    "middle"
+   ],
+   [
+    21,
+    2.2,
+    "BOLOS",
+    "end"
+   ]
+  ]
+ }
+}

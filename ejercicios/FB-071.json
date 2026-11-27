@@ -1,0 +1,141 @@
+{
+ "id": "FB-071",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cada color, un regate",
+ "formato": "Regates",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "2–6 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 1′30″ con 30″ de pausa; el entrenador cambia el regate de cada color.",
+ "objetivo": "Aprender cuatro regates sencillos y asociarlos a un color para decidir rápido. Cómo explicarlo: «cada color es un truco; llegas, lo haces y sales». Errores típicos: confundir colores, hacer el truco muy lejos del cono y soltar el balón. Qué observar: suela, exterior y giro; balón pegado al pie. Material: 1 balón por niño, 4 conos de colores (o petos).",
+ "montaje": "Cuadrado de 12 × 12 m. En cada esquina un cono de color: rojo = suela atrás, amarillo = cambio con el exterior, azul = parada y arrancar, verde = giro de 360°. Cada niño con balón en el centro.",
+ "juego": "El entrenador dice un color. Cada niño conduce al cono (1), hace el regate de ese color a menos de 1 m del cono (2) y vuelve al centro. Después, el entrenador dice otro.",
+ "punto": "Un regate bien hecho = 1 estrella. Gana quien tenga más estrellas en 4 rondas; si dudan, el entrenador repite el color.",
+ "consigna": "Llega, regatea y vuelve con el balón.",
+ "variantes": {
+  "facil": "Solo 2 colores y regates a 2 m del cono (propuesta).",
+  "dificil": "Cambio de regate cada 5 s y orden doble: dos colores seguidos."
+ },
+ "adaptacion": "Prebenjamín (6–7): 2 colores y sin puntos. Benjamín (8–9): 4 colores y estrellas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CADA COLOR UN REGATE",
+  "ref": "https://toplidercoach.com/futbol-base/cada-color-un-regate/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Regates asociados a cada color (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 8.5,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     6
+    ],
+    "b": [
+     1.5,
+     1.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     5
+    ],
+    "b": [
+     10.8,
+     1.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    0,
+    -0.9,
+    "ROJO",
+    "middle"
+   ],
+   [
+    12,
+    -0.9,
+    "AMARILLO",
+    "middle"
+   ],
+   [
+    12,
+    13.4,
+    "AZUL",
+    "middle"
+   ],
+   [
+    0,
+    13.4,
+    "VERDE",
+    "middle"
+   ]
+  ]
+ }
+}

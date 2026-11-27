@@ -1,0 +1,162 @@
+{
+ "id": "FB-045",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "Partidillo en área 5×5",
+ "formato": "Partidillo 5v5",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "36 × 24 m",
+ "duracion": "15 min",
+ "series": "5 rondas de 3′ con 1′ de pausa; los equipos cambian de portero cada ronda.",
+ "objetivo": "Jugar un partido reducido con ritmo de área: tirar a puerta rápido, cerrar al rival y apoyar al portero con pase. Cómo explicarlo: «cada equipo son 5, portero incluido». Errores típicos: no tirar cuando se puede, dejar solo al portero y juntarse todos en el balón. Qué observar: ocupación del campo y tiros en 3 toques. Material: 2 porterías, petos, 4 balones de repuesto.",
+ "montaje": "Campo de 36 × 24 m con portería de 6 m y portero en cada fondo. Dos equipos de 5 (4 de campo + portero), cada uno ataca la portería contraria. Balones de repuesto junto a las porterías.",
+ "juego": "Partido 5v5. Tras gol o balón fuera, saca el portero con la mano a un compañero libre (1). Máximo 3 toques en campo propio. Los porteros no salen del área de 3 m.",
+ "punto": "Gol = 1 punto; gol en ≤3 pases = 2. Gana quien más puntos tenga en 5 rondas.",
+ "consigna": "Tira rápido y ayuda al portero.",
+ "variantes": {
+  "facil": "4v4 + portero con campo de 28 × 20 m y sin límite de toques (propuesta).",
+  "dificil": "Máximo 2 toques en campo propio y portería de 8 m; el tiro debe llegar desde fuera del área."
+ },
+ "adaptacion": "Alevín (10–11): 3 toques y portería de 8 m. Infantil (12–13): 2 toques. Cadete (14–15): campo de 40 × 25 m y portero que juega con los pies.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PARTIDILLO EN ÁREA 5X5X5",
+  "ref": "https://toplidercoach.com/futbol-base/partidillo-en-area-5x5x5/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Interpretación: «5×5×5» = 5 contra 5, portero incluido, 5 rondas (propuesta).",
+ "diagrama": {
+  "field": [
+   36,
+   24
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 38,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 12,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 36,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     9,
+     3,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     33,
+     9,
+     36,
+     15
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     5
+    ],
+    "b": [
+     15.4,
+     11.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     12.8
+    ],
+    "b": [
+     20.6,
+     17.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": []
+ }
+}

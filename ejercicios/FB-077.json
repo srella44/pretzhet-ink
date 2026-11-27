@@ -1,0 +1,206 @@
+{
+ "id": "FB-077",
+ "bloque": "Calentamiento",
+ "titulo": "Circuito de agilidad",
+ "formato": "Circuito",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "40 × 12 m",
+ "duracion": "10 min",
+ "series": "3 vueltas por jugador con 30″ de recuperación; cada vuelta, otro orden de tramos.",
+ "objetivo": "Activar con un circuito de agilidad: coordinación de pies, cambios de dirección y sprint, con técnica de carrera correcta. Cómo explicarlo: «cada tramo se hace a tope y sin tocar los obstáculos». Errores típicos: pisar los aros, cruzar los pies en el slalom y frenar antes de la meta. Qué observar: rodillas altas, apoyos y recuperación. Material: 4 aros, 6 conos, 6 picas.",
+ "montaje": "Pasillo de 40 × 12 m. Tramo A: 4 aros. B: 3 vallas de picas a 2 m. C: slalom de 3 conos. D: sprint de 8 m. Jugadores en fila en la salida; salen cada 3 s.",
+ "juego": "Apoyos rápidos en los aros (1), salto de vallas (2), slalom (3) y sprint (4) hasta la meta. Vuelve trotando. Quien pisa un aro o tira un cono repite el tramo.",
+ "punto": "Vuelta limpia = 1 punto; 3 vueltas. Mejor tiempo medio, 1 punto extra.",
+ "consigna": "Pies rápidos y mira al frente.",
+ "variantes": {
+  "facil": "Sin vallas y sprint de 5 m (propuesta).",
+  "dificil": "Con balón en los pies en el slalom y en el sprint, y tiempo por equipos."
+ },
+ "adaptacion": "Infantil (12–13): sin balón y 3 tramos. Cadete (14–15): 4 tramos, balón en el slalom y por equipos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO AGILIDAD",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-agilidad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   40,
+   12
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 42,
+   "ymin": -1.5,
+   "ymax": 14
+  },
+  "discs": [
+   [
+    3,
+    6
+   ],
+   [
+    4.8,
+    6
+   ],
+   [
+    6.6,
+    6
+   ],
+   [
+    8.4,
+    6
+   ]
+  ],
+  "cones": [
+   [
+    13,
+    3.5
+   ],
+   [
+    13,
+    8.5
+   ],
+   [
+    16,
+    3.5
+   ],
+   [
+    16,
+    8.5
+   ],
+   [
+    19,
+    3.5
+   ],
+   [
+    19,
+    8.5
+   ],
+   [
+    23,
+    3.5
+   ],
+   [
+    26,
+    8.5
+   ],
+   [
+    29,
+    3.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 9.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     6
+    ],
+    "b": [
+     9.5,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     6
+    ],
+    "b": [
+     20.5,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     6
+    ],
+    "b": [
+     30,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     31.5,
+     6
+    ],
+    "b": [
+     39.5,
+     6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    6,
+    3.2,
+    "AROS",
+    "middle"
+   ],
+   [
+    16,
+    1.2,
+    "VALLAS",
+    "middle"
+   ],
+   [
+    26,
+    1.2,
+    "SLALOM",
+    "middle"
+   ],
+   [
+    35.5,
+    3.2,
+    "SPRINT",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "FB-069",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Control lateral y pase",
+ "formato": "Control + pase",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′ con 30″ de pausa; 2 por cada lado y cambio de pie.",
+ "objetivo": "Recibir con una orientación hacia un lado y pasar al siguiente en un toque, sin parar. Cómo explicarlo: «el primer toque ya te sitúa para el siguiente pase». Errores típicos: controlar de frente, parar el balón y mirar abajo. Qué observar: superficie de control, giro del cuerpo y pase raso. Material: 3 balones, 4 conos.",
+ "montaje": "Cuadrado de 14 × 14 m. El pasador A con balón en una esquina; B, en el centro, de cara a A; una puerta lateral de 2 m (conos) a la derecha de B; C recibe al otro lado. Una fila de 3–4 detrás de A.",
+ "juego": "A pasa raso a B (1). B controla orientado hacia la puerta lateral (2) y pasa a C (3). B ocupa el sitio de C; C, el de A; A va a la fila. Después de 8 pases, se invierte (control a la izquierda).",
+ "punto": "Control dentro de la puerta + pase limpio = 1 punto. Gana la fila que consiga 10 puntos antes.",
+ "consigna": "Primer toque al lado; pase al segundo.",
+ "variantes": {
+  "facil": "Puerta de 3 m y pases a 5 m (propuesta).",
+  "dificil": "Puerta de 1,5 m, control a un toque y pase al primer toque."
+ },
+ "adaptacion": "Benjamín (8–9): puerta de 3 m y control libre. Alevín (10–11): puerta de 2 m. Infantil (12–13): a un toque y pie contrario.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONTROL ORIENTADO LATERAL Y PASE",
+  "ref": "https://toplidercoach.com/futbol-base/control-orientado-lateral-y-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 16,
+   "ymin": -1.5,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    10,
+    5.5
+   ],
+   [
+    10,
+    8.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.5,
+    "y": 13.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 8.5,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 2,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     12
+    ],
+    "b": [
+     5.6,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     6.6,
+     8.2
+    ],
+    "b": [
+     9.8,
+     7
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     10.5,
+     6.4
+    ],
+    "b": [
+     12.6,
+     2.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10,
+    10.3,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

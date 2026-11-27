@@ -1,0 +1,174 @@
+{
+ "id": "FB-073",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de pases, 4 picas",
+ "formato": "Rueda de pases",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′30″ con 30″ de pausa; 2 en cada sentido.",
+ "objetivo": "Pasar y rodear la pica antes de ocupar el puesto, con ritmo y control orientado. Cómo explicarlo: «pasa, rodea la pica y ocupa el sitio del compañero». Errores típicos: pasar al pie con prisa, cortar sin rodear y quedarse parado tras pasar. Qué observar: pase raso, giro alrededor de la pica y ritmo. Material: 2 balones, 4 picas o conos altos.",
+ "montaje": "Cuadrado de 16 × 16 m con una pica en cada esquina. En cada pica, 2 jugadores (uno delante y uno detrás). Un balón en la pica 1.",
+ "juego": "El primero de la pica 1 pasa raso a la pica 2 (1), rodea su pica (2) y ocupa el sitio del delantero de la pica 2. El delantero de la 2 controla, pasa a la 3 (3), rodea su pica y sigue. Ritmo continuo.",
+ "punto": "Cada vuelta de balón sin fallo = 1 punto. Si el pase pasa de la pica o se cae el balón, se reinicia. Meta: 8 vueltas en 2′30″.",
+ "consigna": "Pasa, rodea la pica y ocupa el sitio.",
+ "variantes": {
+  "facil": "Un balón y picas a 10 m (propuesta).",
+  "dificil": "Dos balones a la vez y pase a un toque."
+ },
+ "adaptacion": "Alevín (10–11): 1 balón y 2 toques. Infantil (12–13): 2 balones y 2 toques. Cadete (14–15): a un toque y cambio de sentido.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASES, 4 PICAS",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pases-4-picas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 19,
+   "ymin": -3,
+   "ymax": 19
+  },
+  "cones": [
+   [
+    1,
+    15
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    15,
+    1
+   ],
+   [
+    15,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 13,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": 16.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0.8,
+    "y": -0.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15.4,
+    "y": -0.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15.4,
+    "y": 16.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     12
+    ],
+    "b": [
+     3,
+     4.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     4.2,
+     3
+    ],
+    "b": [
+     11.8,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     4.2
+    ],
+    "b": [
+     13,
+     11.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     11.8,
+     13
+    ],
+    "b": [
+     4.2,
+     13
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

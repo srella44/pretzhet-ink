@@ -1,0 +1,149 @@
+{
+ "id": "FB-041",
+ "bloque": "Finalización",
+ "titulo": "Sprint al balón y remate",
+ "formato": "Duelo + tiro",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "10 min",
+ "series": "6 duelos por pareja con 45″ de descanso; cambia el portero cada 3 duelos.",
+ "objetivo": "Reaccionar a una señal, ganar un sprint de 14 m y rematar con el rival pegado. Cómo explicarlo: «llega primero, controla hacia la portería y tira». Errores típicos: salir antes de la señal, controlar el balón hacia atrás y dudar al tirar. Qué observar: arranque, primer toque orientado y el defensor presionando sin faltas. Material: 6 balones, 2 conos, 1 portería.",
+ "montaje": "Campo de 30 × 24 m, portería de 6 m con portero. Parejas en la línea de salida, de espaldas a la portería, a 2 m entre sí. El entrenador lanza el balón a 16 m de la salida.",
+ "juego": "A la señal, los dos se giran y corren al balón (1). El que llega primero controla y chuta (2); el otro defiende e intenta cerrarle o rematar el rechace. Tras el duelo, la pareja vuelve al final de la fila.",
+ "punto": "Gol = 1 punto; si defiende bien (tapa o roba) = 1 punto para el defensor. Gana quien más puntos tenga en 6 duelos.",
+ "consigna": "Arranca a la señal y remata sin dudar.",
+ "variantes": {
+  "facil": "Balón a 10 m y el segundo corredor sale 1 s más tarde (propuesta).",
+  "dificil": "Salida desde el suelo (tumbado boca abajo) y balón a 20 m."
+ },
+ "adaptacion": "Alevín (10–11): balón a 10 m y rival que sale 1 s tarde. Infantil (12–13): igualados. Cadete (14–15): salida desde el suelo y 20 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FÍSICO TÉCNICO VELOCIDAD FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/fisico-tecnico-velocidad-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 32,
+   "ymin": -2,
+   "ymax": 26
+  },
+  "porterias": [
+   {
+    "x": 30,
+    "y": 12,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    18
+   ]
+  ],
+  "balls": [
+   [
+    17,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 2,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     9
+    ],
+    "b": [
+     15,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     15
+    ],
+    "b": [
+     15,
+     14
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     12
+    ],
+    "b": [
+     29,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    2,
+    21.6,
+    "SALIDA DE ESPALDAS",
+    "start"
+   ],
+   [
+    9,
+    5.6,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ]
+ }
+}

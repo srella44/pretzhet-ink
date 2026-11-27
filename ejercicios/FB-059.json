@@ -1,0 +1,160 @@
+{
+ "id": "FB-059",
+ "bloque": "Calentamiento",
+ "titulo": "Agilidad y golpeo",
+ "formato": "Agilidad + golpeo",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "10 min",
+ "series": "4 vueltas por jugador con 30″ de descanso (cambia el lado del golpeo).",
+ "objetivo": "Mover los pies rápido y golpear el balón con técnica y precisión justo después del cambio de ritmo. Cómo explicarlo: «los pies rápidos en los aros y el golpeo, reposado». Errores típicos: pisar los aros, golpear con la punta y no mirar la portería señalada. Qué observar: frecuencia de pasos, cuerpo sobre el balón y pierna de golpeo. Material: 4 aros, 3 conos, 6 balones, 2 miniporterías.",
+ "montaje": "Campo de 20 × 14 m: 4 aros en línea, un cono a 12 m con un compañero con balón y, al fondo, 2 miniporterías separadas 2 m. Jugadores en fila en la salida.",
+ "juego": "Pies rápidos en los aros (1) y sprint al cono, donde recibe un pase raso (2). Golpea a la miniportería que indique el entrenador (3). Se pone de pasador y sale el siguiente.",
+ "punto": "Gol en la indicada = 1 punto; en la otra = 0,5. Aro pisado = −1. Gana quien más sume en 4 vueltas.",
+ "consigna": "Pies rápidos, golpeo reposado.",
+ "variantes": {
+  "facil": "Pase al pie sin sprint y una sola miniportería de 2 m (propuesta).",
+  "dificil": "Golpeo de volea tras pase bombeado y miniporterías a 14 m."
+ },
+ "adaptacion": "Benjamín (8–9): aros a pies juntos y portería grande. Alevín (10–11): aros alternos y miniporterías. Infantil (12–13): sprint de 15 m y volea.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD Y TÉCNICA DE GOLPEO",
+  "ref": "https://toplidercoach.com/futbol-base/agilidad-y-tecnica-de-golpeo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "discs": [
+   [
+    3,
+    7
+   ],
+   [
+    4.8,
+    7
+   ],
+   [
+    6.6,
+    7
+   ],
+   [
+    8.4,
+    7
+   ]
+  ],
+  "cones": [
+   [
+    14,
+    7
+   ]
+  ],
+  "goals": [
+   [
+    20,
+    3.5,
+    "R"
+   ],
+   [
+    20,
+    10.5,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 11.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     7
+    ],
+    "b": [
+     10,
+     7
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     10.5
+    ],
+    "b": [
+     14,
+     8.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     14.8,
+     6.6
+    ],
+    "b": [
+     19.5,
+     3.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6,
+    5,
+    "AROS",
+    "middle"
+   ]
+  ]
+ }
+}

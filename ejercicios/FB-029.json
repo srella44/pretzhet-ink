@@ -1,0 +1,154 @@
+{
+ "id": "FB-029",
+ "bloque": "Calentamiento",
+ "titulo": "Etiqueta al dinosaurio",
+ "formato": "Pillar",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 1′30″ con 30″ de pausa; empieza otro dinosaurio cada ronda.",
+ "objetivo": "Conducir con el balón cerca del pie, cambiar de dirección y proteger el balón del perseguidor mientras se cruza el campo. Cómo explicarlo: «sois exploradores que cruzan la selva y el dinosaurio quiere pillaros». Errores típicos: correr sin balón controlado, no mirar al dinosaurio y esperar en la casa. Qué observar: cabeza levantada y cambios de ritmo. Material: 1 balón por explorador, 4 conos, 1 peto.",
+ "montaje": "Cuadrado de 16 × 16 m con una «casa» de 3 m en cada extremo. Exploradores con balón en una casa; el dinosaurio (peto, sin balón) en el centro.",
+ "juego": "Los exploradores cruzan a la otra casa conduciendo (1). El dinosaurio, solo andando con pasos largos, intenta tocarlos (2). El tocado deja el balón y se hace dinosaurio. En casa se descansa 3″.",
+ "punto": "Gana el último explorador libre: 1 punto. Si en 1′30″ no cae nadie, ganan todos.",
+ "consigna": "Cabeza arriba, balón pegado al pie.",
+ "variantes": {
+  "facil": "Un solo dinosaurio que solo camina; los tocados no cambian de papel, hacen 5 toques y siguen (propuesta).",
+  "dificil": "Los dinosaurios corren, la casa mide 2 m y solo se puede conducir con la pierna mala en el último cruce."
+ },
+ "adaptacion": "Prebenjamín (6–7): dinosaurio camino rápido, sin puntos y casas de 4 m. Benjamín (8–9): dinosaurios que corren y puntos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ETIQUETA AL DINOSAURIO",
+  "ref": "https://toplidercoach.com/futbol-base/etiqueta-al-dinosaurio/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 17.5,
+   "ymin": -2,
+   "ymax": 17.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     3,
+     16
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     13,
+     0,
+     16,
+     16
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 8,
+    "f": [
+     2,
+     8
+    ]
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2.5,
+    "f": 0,
+    "ball": true,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     13
+    ],
+    "b": [
+     12,
+     13
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     10.5,
+     11
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    -0.8,
+    "CASA",
+    "middle"
+   ],
+   [
+    14.5,
+    -0.8,
+    "CASA",
+    "middle"
+   ],
+   [
+    8,
+    10.4,
+    "DINOSAURIO",
+    "middle"
+   ]
+  ]
+ }
+}

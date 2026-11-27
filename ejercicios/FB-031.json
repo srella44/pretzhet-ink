@@ -1,0 +1,157 @@
+{
+ "id": "FB-031",
+ "bloque": "Finalización",
+ "titulo": "Tiro lúdico 3: relevos",
+ "formato": "Tiro",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4–8 jug.",
+ "espacio": "24 × 16 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 3′ con 1′ de pausa; cambia el portero cada ronda.",
+ "objetivo": "Conducir a velocidad y golpear a puerta en el primer intento, con la cabeza levantada para elegir el lado del portero. Cómo explicarlo: «se corre en relevos y el tiro cuenta para el equipo». Errores típicos: tirar sin levantar la vista, golpear con la punta y no ir a por el rechace. Qué observar: último toque largo hacia delante y pie de apoyo junto al balón. Material: 6 balones, 4 conos, 1 portería.",
+ "montaje": "Campo de 24 × 16 m, portería de 6 m con portero. Línea de tiro a 10 m de la portería. Dos equipos de 2–4 en fila a 12 m de esa línea, un balón cada uno.",
+ "juego": "El primero de cada fila conduce hasta la línea de tiro (1) y chuta (2). Recoge su balón, lo lleva corriendo y toca al siguiente. Salen uno tras otro; el portero para a ambos.",
+ "punto": "Gol = 1 punto; gol a la escuadra = 2. Gana el equipo con más puntos en 3′.",
+ "consigna": "Conduce rápido, mira al portero y tira.",
+ "variantes": {
+  "facil": "Línea de tiro a 7 m y portería de 8 m (propuesta).",
+  "dificil": "Tiro de volea tras bote o solo con la pierna mala; línea de tiro a 14 m."
+ },
+ "adaptacion": "Benjamín (8–9): tiro a 7 m, portería de 8 m y sin puntos extra. Alevín (10–11): 10 m y puntos extra. Infantil (12–13): 14 m y con pierna mala.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TIRO A PORTERÍA LÚDICO 3",
+  "ref": "https://toplidercoach.com/futbol-base/tiro-a-porteria-ludico-3/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   24,
+   16
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 24,
+    "y": 8,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     16
+    ],
+    "4 3"
+   ]
+  ],
+  "cones": [
+   [
+    3,
+    0
+   ],
+   [
+    3,
+    16
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 0.5,
+    "y": 11,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     5
+    ],
+    "b": [
+     13,
+     6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     6.5
+    ],
+    "b": [
+     23,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     3,
+     11
+    ],
+    "b": [
+     13,
+     10
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    14,
+    17.2,
+    "LÍNEA DE TIRO",
+    "middle"
+   ]
+  ]
+ }
+}

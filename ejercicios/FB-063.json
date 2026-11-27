@@ -1,0 +1,147 @@
+{
+ "id": "FB-063",
+ "bloque": "Calentamiento",
+ "titulo": "Pases y activación",
+ "formato": "Parejas",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "5 bloques de 1′ con 20″ de pausa; el entrenador cambia la consigna cada bloque.",
+ "objetivo": "Calentar pasando y activando el cuerpo: pase y control con ambos pies mientras se suben las pulsaciones. Cómo explicarlo: «pasa raso, controla y haz la acción pedida». Errores típicos: pasar flojo, no moverse tras el pase y hacer la acción sin controlar el balón. Qué observar: pie de apoyo, control orientado y ritmo. Material: 1 balón por pareja, conos.",
+ "montaje": "Cuadrado de 20 × 20 m. Parejas con un balón, a 6 m entre sí, repartidas por el campo. El entrenador, en el centro, dice la consigna de cada bloque.",
+ "juego": "Se pasan el balón raso (1)(2). Al oír «¡cambio!», quien pasó hace la acción (sentadilla, salto o carrera de 4 m a un cono) y vuelve. Bloques: dos toques, un toque, pierna mala, pase largo y libre.",
+ "punto": "Cada 10 pases seguidos = 1 punto. Gana la pareja con más puntos en 5 bloques.",
+ "consigna": "Pasa, controla y activa el cuerpo.",
+ "variantes": {
+  "facil": "Distancia de 4 m y balón de pase libre (propuesta).",
+  "dificil": "Distancia de 10 m y bloques a un toque."
+ },
+ "adaptacion": "Alevín (10–11): 6 m, dos toques y puntos cada 8 pases. Infantil (12–13): 8 m, un toque y puntos cada 10.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASES Y ACTIVACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/pases-y-activacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 9.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3
+    ],
+    "b": [
+     9,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     10
+    ],
+    "b": [
+     9,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    15,
+    11.4,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "id": "FB-047",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 8×4 + 4",
+ "formato": "Posesión 8v4+4",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "14 min",
+ "series": "4 bloques de 3′ con 1′ de pausa; cambian los 4 defensores cada bloque.",
+ "objetivo": "Mantener la posesión en superioridad numérica, usando a los comodines de las bandas para cambiar el lado y dar tiempo al compañero. Cómo explicarlo: «los de fuera dan amplitud y siempre juegan con quien tiene el balón». Errores típicos: pasar al pie del defensor, mirar solo el balón y jugar siempre corto. Qué observar: cambios de orientación, pase tras mirar y apoyo en ángulo. Material: 2 balones, petos de 3 colores, 4 conos.",
+ "montaje": "Rectángulo de 40 × 30 m. 8 amarillos dentro, 4 azules defensores en el centro y 4 comodines blancos en los lados, que juegan con quien tiene el balón. Un balón en juego.",
+ "juego": "Los 8 amarillos y los comodines pasan (1) sin que roben los azules. Comodines: 2 toques y sin pasarse entre sí. Quien pierde o saca el balón cambia el peto con el defensor.",
+ "punto": "Cada 8 pases seguidos = 1 punto; cambio de lado con comodín = 1 extra.",
+ "consigna": "Pasa y muévete; cambia el lado.",
+ "variantes": {
+  "facil": "6 atacantes + 4 comodines contra 3 defensores (propuesta).",
+  "dificil": "Defensa 5 y 3 toques máximo para los atacantes; el comodín solo puede jugar a un toque."
+ },
+ "adaptacion": "Infantil (12–13): 3 toques y 4 defensores. Cadete (14–15): 2 toques, sin comodines en una esquina y defensa de 5.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "POSESIÓN 8X4+4",
+  "ref": "https://toplidercoach.com/futbol-base/posesion-8x44/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 42.5,
+   "ymin": -2.5,
+   "ymax": 32.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 0,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 20,
+    "y": 30,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 0,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 40,
+    "y": 15,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     19,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     7
+    ],
+    "b": [
+     32,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     32,
+     6
+    ],
+    "b": [
+     39,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   }
+  ],
+  "labels": []
+ }
+}

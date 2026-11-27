@@ -1,0 +1,129 @@
+{
+ "id": "FB-051",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de pases, 3 filas",
+ "formato": "Rueda de pases",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "14 × 12 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′ con 30″ de pausa; 2 en cada sentido de giro.",
+ "objetivo": "Pasar con precisión y moverse tras el pase, con dos balones circulando a la vez en un triángulo. Cómo explicarlo: «un balón va delante del otro; si uno se acerca mucho, esperamos». Errores típicos: pasar al pie con prisa, quedarse mirando el pase y llegar tarde a la fila. Qué observar: control orientado, ritmo igual de ambos balones. Material: 2 balones, 3 conos.",
+ "montaje": "Triángulo de 12 m (conos) con una fila de 2–4 jugadores en cada vértice. Dos balones salen a la vez de los vértices 1 y 2. Giro: 1 → 3 → 2 → 1.",
+ "juego": "El primero con balón pasa raso al siguiente vértice (1) y corre al final de esa fila. Quien recibe controla y pasa al siguiente. Los dos balones nunca coinciden en un vértice.",
+ "punto": "Cada vuelta de ambos balones sin fallo = 1 punto; si uno se pierde, se reinicia. Meta: 6 en 2′.",
+ "consigna": "Pasa raso, corre y ponte a la fila.",
+ "variantes": {
+  "facil": "Un solo balón y vértices a 8 m (propuesta).",
+  "dificil": "A un toque, 3 balones y cambio de sentido con la señal del entrenador."
+ },
+ "adaptacion": "Benjamín (8–9): 1 balón y 8 m. Alevín (10–11): 2 balones, 12 m y a 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASES 3 FILAS CON 2 BALONES",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pases-3-filas-con-2-balones/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   14,
+   12
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 17,
+   "ymin": -3,
+   "ymax": 15
+  },
+  "cones": [
+   [
+    2,
+    10
+   ],
+   [
+    12,
+    10
+   ],
+   [
+    7,
+    2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 11.2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 9.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.8,
+    "y": 11.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": -0.3,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     9.5
+    ],
+    "b": [
+     6.5,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     10.5,
+     9.5
+    ],
+    "b": [
+     3.8,
+     9.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   }
+  ],
+  "labels": []
+ }
+}

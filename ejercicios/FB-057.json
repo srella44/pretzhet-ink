@@ -1,0 +1,147 @@
+{
+ "id": "FB-057",
+ "bloque": "Calentamiento",
+ "titulo": "Reacción y técnica",
+ "formato": "Reacción",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "8 min",
+ "series": "4 series de 1′ con 30″ de pausa; cada serie tiene una consigna técnica distinta.",
+ "objetivo": "Reaccionar a una señal y ejecutar una acción técnica de inmediato, con balón controlado. Cómo explicarlo: «escucha el color y sal ya». Errores típicos: salir hacia el color equivocado, perder el balón al arrancar y no mirar al entrenador. Qué observar: primer paso, giro con balón y vuelta a la posición inicial. Material: 1 balón por jugador, 4 conos de colores o petos.",
+ "montaje": "Cuadrado de 16 × 16 m con un cono de color en cada lado (rojo, azul, amarillo, verde). Jugadores con balón en el centro, a 3 m. El entrenador, fuera, nombra colores.",
+ "juego": "Al oír un color, todos conducen rápido a ese cono (1), giran y vuelven al centro (2). Con «todos» cambian de color en marcha. Máximo 6 s por tramo.",
+ "punto": "Llegar primero y volver con balón = 1 punto. Si lo pierden, 0. Gana quien más sume en 4 series.",
+ "consigna": "Escucha, sal y vuelve con el balón.",
+ "variantes": {
+  "facil": "Los colores se señalan con el brazo en vez de nombrarlos (propuesta).",
+  "dificil": "Colores contrarios: se va al color opuesto al que se dice, y giros solo con la pierna mala."
+ },
+ "adaptacion": "Alevín (10–11): colores señalados y giro libre. Infantil (12–13): colores nombrados, giro obligatorio y pierna mala.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD DE REACCIÓN + TÉCNICA",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-de-reaccion-tecnica/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "cones": [
+   [
+    8,
+    0
+   ],
+   [
+    16,
+    8
+   ],
+   [
+    8,
+    16
+   ],
+   [
+    0,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 14.5,
+    "y": 14.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     7
+    ],
+    "b": [
+     8,
+     1.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     9
+    ],
+    "b": [
+     14.8,
+     8.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    8,
+    -1,
+    "ROJO",
+    "middle"
+   ],
+   [
+    17,
+    8,
+    "AZUL",
+    "start"
+   ],
+   [
+    8,
+    17.4,
+    "AMARILLO",
+    "middle"
+   ],
+   [
+    -1,
+    8,
+    "VERDE",
+    "end"
+   ]
+  ]
+ }
+}

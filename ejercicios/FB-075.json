@@ -1,0 +1,136 @@
+{
+ "id": "FB-075",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Fila de paredes",
+ "formato": "Paredes",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "30 × 10 m",
+ "duracion": "10 min",
+ "series": "4 series de 2′ con 30″ de pausa; el corredor cambia cada vuelta y las paredes también.",
+ "objetivo": "Hacer paredes (pase y devolución) con cada compañero de la fila, dando el pase al pie y desmarcándose rápido. Cómo explicarlo: «pasa, corre al espacio y recibe». Errores típicos: pared a ras del compañero, no moverse tras pasar y pase fuerte. Qué observar: ángulo, ritmo y control. Material: 2 balones, conos.",
+ "montaje": "Pasillo de 30 × 10 m. Cuatro compañeros (paredes), alternos a los lados y a 6 m entre sí. El corredor con balón en el extremo; el resto, en fila detrás.",
+ "juego": "Pasa a la pared 1 (1), corre al cono (2) y recibe la devolución (3). Pasa a la pared 2 (4) y sigue hasta la última, que cierra con pase al entrenador. Sale otro cuando llega a la pared 2.",
+ "punto": "Cada pared con control = 1 punto (máx. 4). Gana quien más puntos tenga en 4 vueltas.",
+ "consigna": "Pasa y corre al espacio.",
+ "variantes": {
+  "facil": "Solo 2 paredes y el corredor a media velocidad (propuesta).",
+  "dificil": "Pared a un toque, 6 paredes y en la última, tiro a puerta."
+ },
+ "adaptacion": "Alevín (10–11): 3 paredes. Infantil (12–13): 4 paredes y a un toque.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FILA DE PAREDES",
+  "ref": "https://toplidercoach.com/futbol-base/fila-de-paredes/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. ",
+ "diagrama": {
+  "field": [
+   30,
+   10
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 32,
+   "ymin": -1.5,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    10,
+    5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 8.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 5,
+    "f": 0,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     7.6,
+     2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     8.4,
+     2.2
+    ],
+    "b": [
+     10.4,
+     4.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     11.4,
+     5.4
+    ],
+    "b": [
+     13.6,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}

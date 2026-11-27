@@ -1,0 +1,153 @@
+{
+ "id": "FB-061",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Desdoblamiento y pase",
+ "formato": "Ataque 4v1",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "14 min",
+ "series": "4 series de 3′ con 1′ de pausa; rotan los puestos y el lado de ataque.",
+ "objetivo": "Que el interior pase al lateral y se desdoble por fuera para recibir y dar un pase de ataque. Cómo explicarlo: «pasa y rodea al compañero por fuera». Errores típicos: salir tarde, ir por dentro y pasar sin que el lateral levante la vista. Qué observar: timing del desdoble, ángulo del pase y centro posterior. Material: 6 balones, petos, 1 portería.",
+ "montaje": "Medio campo de 40 × 30 m con portería de 6 m y portero. Un central con balón, un interior, un lateral en banda, un delantero y un defensor pasivo. El resto, en fila detrás del central.",
+ "juego": "El central pasa al interior (1). El interior pasa al lateral (2) y se desdobla por fuera (3). El lateral le devuelve el balón (4) y este centra al delantero, que remata. El defensor solo se mueve en el carril.",
+ "punto": "Gol tras el desdoble = 2 puntos; gol sin desdoble = 1. Rotan puestos cada serie.",
+ "consigna": "Pasa y sal por fuera.",
+ "variantes": {
+  "facil": "Sin defensor y delantero libre (propuesta).",
+  "dificil": "Defensor activo y delantero con un solo toque."
+ },
+ "adaptacion": "Infantil (12–13): sin defensor. Cadete (14–15): defensor activo y centro en un toque.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DESDOBLAMIENTO Y PASE",
+  "ref": "https://toplidercoach.com/futbol-base/desdoblamiento-y-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web del título sin descripción. Interpretación: desdoblamiento = el interior pasa al lateral y rodea por fuera (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 32
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     17
+    ],
+    "b": [
+     11,
+     10.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     10
+    ],
+    "b": [
+     19.5,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     9
+    ],
+    "b": [
+     27,
+     2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 12,
+    "s1": 12,
+    "n": 3
+   },
+   {
+    "a": [
+     21,
+     9.5
+    ],
+    "b": [
+     27.5,
+     3.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 12,
+    "s1": 12,
+    "n": 4
+   }
+  ],
+  "labels": []
+ }
+}
