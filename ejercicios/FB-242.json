@@ -1,0 +1,132 @@
+{
+ "id": "FB-242",
+ "bloque": "Técnica y duelos",
+ "titulo": "Fútbol dance",
+ "formato": "Coordinación con balón",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "2–6 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "8 min",
+ "series": "5 coreografías de 40″ con 20″ de pausa; cada una añade un movimiento (propuesta).",
+ "objetivo": "Mejorar el ritmo y la coordinación de pies con el balón, pasándolo bien y sin presión. Cómo explicarlo: «copiad al míster y seguid el ritmo». Errores típicos: mirar los pies, ir más rápido que el ritmo, perder el balón al cambiar de pie. Qué observar: contacto suave y cabeza levantada.",
+ "montaje": "Cada jugador (A) con un balón, en 2 filas con 2 m de separación y de cara al entrenador (C), a 3 m. Palmas a ritmo.",
+ "juego": "El entrenador marca una secuencia de 8 tiempos: 4 toques de suela alternos, 2 toques de interior de un pie a otro y media vuelta con la suela. Todos la repiten.",
+ "punto": "1 punto por secuencia repetida sin perder balón ni ritmo. Gana quien más sume.",
+ "consigna": "Sigue el ritmo y mira al frente.",
+ "variantes": {
+  "facil": "Secuencia de 4 tiempos y ritmo lento. Un compañero se coloca delante de cada jugador como espejo.",
+  "dificil": "Cambio de secuencia sin avisar a la señal y ritmo más rápido; se baila en parejas siguiendo al compañero."
+ },
+ "adaptacion": "Prebenjamín (6–7): secuencia de 4 tiempos y sin puntos. Benjamín (8–9): 8 tiempos. Alevín (10–11): secuencias inventadas por ellos y ritmo rápido.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "4- FÚTBOL DANCE",
+  "ref": "https://toplidercoach.com/futbol-base/4-futbol-dance/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 12.5,
+   "ymin": -2.5,
+   "ymax": 12.5
+  },
+  "labels": [
+   [
+    5,
+    -1.0,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 5,
+    "y": 0.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 8,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 8,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.1,
+     4
+    ],
+    "b": [
+     3.9,
+     4
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 2,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     6.6,
+     8
+    ],
+    "b": [
+     7.4,
+     8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   }
+  ]
+ }
+}

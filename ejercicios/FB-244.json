@@ -1,0 +1,150 @@
+{
+ "id": "FB-244",
+ "bloque": "Técnica y duelos",
+ "titulo": "Toques de suela",
+ "formato": "Técnica individual",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "2–6 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "8 min",
+ "series": "4 vueltas de 3 pruebas (quieto, con avance y con giro); 20″ de pausa (propuesta).",
+ "objetivo": "Controlar el balón con la suela: frenarlo, rodarlo y cambiarlo de pie con seguridad. Cómo explicarlo: «toca con la suela y mantén el balón pegado al cuerpo». Errores típicos: pisar el balón sin moverlo, apoyar el talón, mirar solo los pies. Qué observar: apoyo suave, tobillo relajado y pie contrario cerca del balón.",
+ "montaje": "Calle de 12 m con 4 conos cada 3 m. Cada jugador (A) con balón en su calle; calles separadas 3 m. Los demás esperan.",
+ "juego": "En cada cono, 4 toques de suela alternos sin avanzar; entre conos, toque de suela hacia atrás y adelante a cada paso. Vuelta conduciendo libre.",
+ "punto": "1 punto por cada cono con los 4 toques seguidos. Gana quien más sume en 4 vueltas (máx. 16).",
+ "consigna": "Toca suave con la suela y pie cerca del balón.",
+ "variantes": {
+  "facil": "Conos cada 4 m y solo pierna preferida; 2 toques por cono.",
+  "dificil": "Se hace con los ojos levantados (el compañero muestra un número con los dedos que hay que decir) y sin parar entre conos."
+ },
+ "adaptacion": "Prebenjamín (6–7): solo quietos, sin puntos. Benjamín (8–9): calles 1 y 2. Alevín (10–11): las tres calles y más velocidad.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "2-TOQUES DE SUELA",
+  "ref": "https://toplidercoach.com/futbol-base/2-toques-de-suela/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    3,
+    1.8
+   ],
+   [
+    6,
+    1.8
+   ],
+   [
+    9,
+    1.8
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    3,
+    8.2
+   ],
+   [
+    6,
+    8.2
+   ],
+   [
+    9,
+    8.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 8.2,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     1.8
+    ],
+    "b": [
+     2.4,
+     1.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     3.6,
+     5
+    ],
+    "b": [
+     5.4,
+     5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     6.6,
+     8.2
+    ],
+    "b": [
+     8.4,
+     8.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 3
+   }
+  ]
+ }
+}

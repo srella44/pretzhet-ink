@@ -1,0 +1,167 @@
+{
+ "id": "RONDO-AL-T08",
+ "bloque": "Calentamiento",
+ "titulo": "La vuelta al mundo",
+ "formato": "Conducción con consigna",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 1′30″ con 30″ de pausa; el toque de conducción cambia en cada ronda (propuesta).",
+ "objetivo": "Conducir con distintas superficies y reaccionar a una consigna sin perder el balón. Cómo explicarlo: «cuando cante un país, conducid hasta él con el toque que diga el míster». Errores típicos: no mirar al entrenador, conducir con la misma superficie, chocar. Qué observar: el cambio de superficie y la mirada.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 «países» de 5 × 5 m en las esquinas. En el centro, 6–12 jugadores (A) con balón. El entrenador, fuera.",
+ "juego": "El míster canta un país y un toque (interior, exterior, suela o pierna mala). Todos conducen hasta ese país con ese toque.",
+ "punto": "El equipo que entra entero primero: 1 punto. Toque equivocado: 0. 5 rondas.",
+ "consigna": "Escucha el país, el toque y entra con el balón.",
+ "variantes": {
+  "facil": "El míster enseña el toque antes y los países son de 7 × 7 m (fuente).",
+  "dificil": "El país se canta al final, durante la conducción (fuente), y el toque solo con la pierna mala."
+ },
+ "adaptacion": "Alevín (10–11): como está. Benjamín (8–9): dos toques posibles. Infantil (12–13): consignas dobles (país y toque) con 4 s de reacción.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La vuelta al mundo",
+  "ref": "RONDO Vol3 · págs. 8, 13, 18, 23, 28, 33"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuatro países de 5 × 5 m en las esquinas; el míster canta un país y todos llegan conduciendo con un toque distinto; 1 punto al equipo que entra entero primero; más fácil enseñar el toque antes, más difícil cantar el país al final. Series y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     15,
+     0,
+     5,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     15,
+     5,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     15,
+     15,
+     5,
+     5
+    ]
+   }
+  ],
+  "labels": [
+   [
+    2.5,
+    -1.0,
+    "PAÍS 1",
+    "middle"
+   ],
+   [
+    17.5,
+    -1.0,
+    "PAÍS 2",
+    "middle"
+   ],
+   [
+    2.5,
+    21.4,
+    "PAÍS 3",
+    "middle"
+   ],
+   [
+    17.5,
+    21.4,
+    "PAÍS 4",
+    "middle"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 10.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 14,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 14,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 4.5,
+    "f": 90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.8,
+     6.4
+    ],
+    "b": [
+     14.2,
+     3.0
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "id": "RONDO-PB-M05",
+ "bloque": "Calentamiento",
+ "titulo": "Las estatuas musicales",
+ "formato": "Juego de reacción",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "5 rondas de 1 min con 20″ de pausa; el entrenador cambia el tipo de estatua (propuesta).",
+ "objetivo": "Controlar el cuerpo al correr y frenar, manteniendo el equilibrio en una postura. Cómo explicarlo: «correr al ritmo de las palmas y quedarte quieto como una estatua». Errores típicos: frenar tarde, perder el equilibrio, moverse tras la señal. Qué observar: frenada con rodillas flexionadas y equilibrio.",
+ "montaje": "Cuadrado de 15 × 15 m con 4 conos. Los jugadores (A) repartidos por el campo, sin balón. El entrenador (C), fuera, da palmas.",
+ "juego": "Mientras suenan las palmas, todos corren y saltan. Al parar: ¡estatua! sobre un pie, con los brazos abiertos o en cuclillas, la que cante el míster. Aguantan 3 s y siguen.",
+ "punto": "1 punto por estatua bien hecha y aguantada 3 s. Nadie queda eliminado. 5 rondas.",
+ "consigna": "Corre con las palmas y para como una estatua.",
+ "variantes": {
+  "facil": "Estatua libre (fuente) y sin tiempo mínimo.",
+  "dificil": "Estatua con el balón bajo el pie (fuente) y 5 s de duración; correr con balón en los pies."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Con 4–5 años: estatua libre y sin puntos. Benjamín (8–9): con balón y el equilibrio sobre la pierna débil.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Las estatuas musicales",
+  "ref": "RONDO Vol1 · págs. 11, 20, 22, 33, 42, 53"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: se corre y se salta mientras el míster da palmas; al parar, estatua sobre un pie, con brazos abiertos o en cuclillas; 1 punto por estatua; más fácil estatua libre, más difícil con el balón bajo el pie. Medidas, series, tiempo de estatua y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 17.5,
+   "ymin": -2.5,
+   "ymax": 17.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    0,
+    15
+   ]
+  ],
+  "labels": [
+   [
+    7.5,
+    -1.0,
+    "PALMAS = CORRER",
+    "middle"
+   ]
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 16.6,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 3.5,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10.5,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.4,
+     4.1
+    ],
+    "b": [
+     7,
+     3.9
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11.6,
+     7.5
+    ],
+    "b": [
+     9.5,
+     9
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "id": "RONDO-BJ-T01",
+ "bloque": "Calentamiento",
+ "titulo": "Los piratas y las islas",
+ "formato": "Conducción y reacción",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "5 rondas de 1 min con 30″ de pausa; en cada ronda se quita una isla (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada y frenar el balón con la suela al llegar a la isla. Cómo explicarlo: «navegad por el mar; al grito de tormenta, a una isla». Errores típicos: pasarse de la isla, chocar con otros, mirar solo el balón. Qué observar: quién busca la isla antes del grito y con qué suela frena.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 islas: círculos de 3 m con conos. 6 piratas (A), cada uno con balón. Hay 2 islas menos que piratas.",
+ "juego": "Todos navegan conduciendo. Al grito de «¡tormenta!», cada uno lleva el balón a una isla libre y lo para con la suela. Cabe 1 por isla.",
+ "punto": "1 punto por isla ganada. Sin isla: 0. Gana quien más sume en 5 rondas.",
+ "consigna": "Cabeza arriba, busca una isla y para con la suela.",
+ "variantes": {
+  "facil": "Más islas que piratas (fuente): una isla extra y en cada isla caben 2 piratas.",
+  "dificil": "A la isla solo se entra con la pierna mala (fuente) y se quita una isla por ronda."
+ },
+ "adaptacion": "Benjamín (8–9): como está. Prebenjamín (6–7): balón en las manos y sin puntos. Alevín (10–11): entrar con la pierna mala y salir a un toque.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Los piratas y las islas",
+  "ref": "RONDO Vol2 · págs. 3, 5, 7, 31, 41, 46"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cada uno con balón-tesoro navega; al grito de «¡tormenta!» lleva el tesoro a una isla (círculo de conos) y para con la suela; 1 punto por isla; más fácil más islas, más difícil entrar con la pierna mala. Medidas, series, reglas de las islas y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "circle",
+    "x": 4,
+    "y": 4,
+    "r": 1.8
+   },
+   {
+    "t": "circle",
+    "x": 16,
+    "y": 4,
+    "r": 1.8
+   },
+   {
+    "t": "circle",
+    "x": 4,
+    "y": 16,
+    "r": 1.8
+   },
+   {
+    "t": "circle",
+    "x": 16,
+    "y": 16,
+    "r": 1.8
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 17.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 12.5,
+    "f": -45,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     9.2
+    ],
+    "b": [
+     3.6,
+     5.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10.8,
+     3.8
+    ],
+    "b": [
+     14.6,
+     4.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12.4,
+     13.6
+    ],
+    "b": [
+     15,
+     15.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

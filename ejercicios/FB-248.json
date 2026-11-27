@@ -1,0 +1,163 @@
+{
+ "id": "FB-248",
+ "bloque": "Finalización",
+ "titulo": "Doble pase y finalización",
+ "formato": "Pared doble + tiro",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 16 m",
+ "duracion": "12 min",
+ "series": "4 series de 6 tiros por jugador con 30″ de pausa; se cambia de lado y de rol (propuesta).",
+ "objetivo": "Combinar con dos apoyos para llegar al área en ventaja y rematar sin perder el ritmo. Cómo explicarlo: «pasa, muévete al hueco y recibe de cara a la portería». Errores típicos: pase al pie lento, no moverse tras pasar, rematar con el balón muy largo. Qué observar: pase con buena velocidad, desmarque tras el pase y disparo al palo.",
+ "montaje": "Portería de 6 m con portero (G). Atacante (A) con balón a 14 m, en el centro; 2 apoyos (C) a 5 m a cada lado. Los demás en fila tras el atacante.",
+ "juego": "A pasa a C1 y recibe pared; pasa a C2 y se desmarca al área. C2 devuelve al espacio y A remata con un toque.",
+ "punto": "Gol: 2 puntos. Tiro a puerta sin gol: 1. Pase malo o tiro fuera: 0.",
+ "consigna": "Pasa, desmárcate y remata de cara.",
+ "variantes": {
+  "facil": "Los apoyos devuelven parado y el tiro se hace con un toque de control.",
+  "dificil": "Se añade un defensor pasivo y un tiempo máximo de 6″ desde el primer pase hasta el tiro."
+ },
+ "adaptacion": "Benjamín (8–9): portería de 4 m y una sola pared. Alevín (10–11): doble pase completo. Infantil (12–13): primer toque y defensor semiactivo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DOBLE PASE Y FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/doble-pase-y-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   20,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -3.5,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 14,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 11.5,
+    "f": -90,
+    "ghost": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 6.5,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9.4,
+     13.5
+    ],
+    "b": [
+     3.8,
+     10.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     3.8,
+     9.6
+    ],
+    "b": [
+     6.7,
+     10.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     8.4,
+     11.2
+    ],
+    "b": [
+     16.2,
+     10.1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     16.3,
+     9.2
+    ],
+    "b": [
+     13.8,
+     7.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   },
+   {
+    "a": [
+     12.8,
+     5.7
+    ],
+    "b": [
+     10.3,
+     1.0
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 5
+   }
+  ]
+ }
+}

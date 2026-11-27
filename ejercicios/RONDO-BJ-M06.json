@@ -1,0 +1,166 @@
+{
+ "id": "RONDO-BJ-M06",
+ "bloque": "Calentamiento",
+ "titulo": "El tesoro del dragón",
+ "formato": "Conducción y pillar",
+ "edad": "8–9 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min con 30″ de pausa; el dragón cambia en cada ronda (propuesta).",
+ "objetivo": "Entrar con el balón controlado, esquivar a un rival y volver a «casa» sin perderlo. Cómo explicarlo: «cogéis un tesoro, lo lleváis a casa y esquiváis al dragón». Errores típicos: salir sin mirar, correr y soltar el balón, volver por el mismo camino. Qué observar: cuándo salen y cómo protegen el balón.",
+ "montaje": "Cuadrado de 20 × 20 m. Casa: banda de 4 m con los jugadores (A). Centro: círculo con 5 tesoros y el dragón (D).",
+ "juego": "Los jugadores entran, cogen un tesoro con el pie y lo llevan conduciendo a casa. El dragón toca a quien lleve balón, que lo devuelve y sale.",
+ "punto": "El equipo suma 1 punto por cada tesoro llevado a casa en 2 min.",
+ "consigna": "Mira al dragón y lleva el tesoro a casa.",
+ "variantes": {
+  "facil": "El dragón camina (fuente) y se permite pasar el balón a un compañero antes de entrar a casa.",
+  "dificil": "Dos dragones (fuente) y hay que entrar a casa conduciendo con la pierna menos hábil."
+ },
+ "adaptacion": "Benjamín (8–9): como está. Prebenjamín (6–7): dragón que camina y balón en las manos. Alevín (10–11): dos dragones y 5 tesoros.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El tesoro del dragón",
+  "ref": "RONDO Vol2 · págs. 20, 25, 30, 35, 40, 45"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el dragón vigila los balones-tesoro en el centro; los demás cogen un balón y lo llevan a casa; el dragón toca a quien lleva balón y este lo devuelve; el equipo cuenta los tesoros en 2′; más fácil dragón camina, más difícil dos dragones. Medidas, series, reglas del dragón y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     16,
+     20,
+     4
+    ]
+   },
+   {
+    "t": "circle",
+    "x": 10,
+    "y": 7,
+    "r": 2.6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    21.4,
+    "CASA",
+    "middle"
+   ],
+   [
+    10,
+    2.6,
+    "TESOROS",
+    "middle"
+   ]
+  ],
+  "balls": [
+   [
+    8.8,
+    6.2
+   ],
+   [
+    11.2,
+    6.2
+   ],
+   [
+    8.8,
+    8
+   ],
+   [
+    11.2,
+    8
+   ],
+   [
+    10,
+    5.4
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 10,
+    "y": 7,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 18,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 11.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.4,
+     12.3
+    ],
+    "b": [
+     4.6,
+     15.7
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     17.3
+    ],
+    "b": [
+     10.8,
+     9.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

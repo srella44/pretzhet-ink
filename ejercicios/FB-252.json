@@ -1,0 +1,146 @@
+{
+ "id": "FB-252",
+ "bloque": "Finalización",
+ "titulo": "Agilidad, coordinación, tiro",
+ "formato": "Circuito + tiro",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 16 m",
+ "duracion": "12 min",
+ "series": "5 series de 4 turnos por jugador con 45″ de pausa; sale el siguiente al terminar el anterior (propuesta).",
+ "objetivo": "Enlazar agilidad de pies con un tiro rápido y preciso, simulando el esfuerzo del partido. Cómo explicarlo: «pies rápidos, cabeza arriba y chuta al palo». Errores típicos: pisar los aros, mirar el suelo hasta el último, tirar sin colocarse. Qué observar: apoyo corto en los aros, recepción orientada y precisión del tiro.",
+ "montaje": "Portería de 6 m con portero (G). Escalera de 6 aros a 14 m. Servidor (C) a 7 m a la derecha con balones. Jugadores (A) en fila.",
+ "juego": "A pasa los aros con un apoyo por aro y sale con 2 apoyos laterales hacia C. C pasa raso al espacio y A chuta de primeras al palo largo.",
+ "punto": "Gol: 2 puntos. Tiro a puerta sin gol: 1.",
+ "consigna": "Pies rápidos y cabeza arriba para el tiro.",
+ "variantes": {
+  "facil": "4 aros y servicio parado. Sin límite de tiempo.",
+  "dificil": "Alterna pierna en cada aro y el tiro es a un toque con portero activo y defensor que sale desde un lado."
+ },
+ "adaptacion": "Alevín (10–11): 4 aros y tiro libre. Infantil (12–13): 6 aros y primer toque. Con pocos jugadores, el que espera sirve.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD, COORDINACIÓN Y TIRO",
+  "ref": "https://toplidercoach.com/futbol-base/agilidad-coordinacion-y-tiro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   20,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -3.5,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "discs": [
+   [
+    3,
+    14.0
+   ],
+   [
+    3,
+    12.8
+   ],
+   [
+    3,
+    11.6
+   ],
+   [
+    3,
+    10.4
+   ],
+   [
+    3,
+    9.2
+   ],
+   [
+    3,
+    8.0
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 15.5,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8.5,
+    "f": -90,
+    "ghost": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     14.8
+    ],
+    "b": [
+     3,
+     7.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     15.2,
+     10
+    ],
+    "b": [
+     9.8,
+     8.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     9,
+     7.8
+    ],
+    "b": [
+     10.2,
+     1.0
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

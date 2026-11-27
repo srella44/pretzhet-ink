@@ -1,0 +1,165 @@
+{
+ "id": "FB-230",
+ "bloque": "Superioridades",
+ "titulo": "2 contra 1 en dos zonas",
+ "formato": "2v1 + 1v1",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "24 × 14 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min; cada pareja ataca 5 veces y rota con el defensor (propuesta).",
+ "objetivo": "Que la pareja de ataque supere a un defensor en la primera zona y llegue a la segunda con ventaja. Cómo explicarlo: «atrae al defensor, pasa antes de que te toque y entra a la zona 2 con los dos». Errores típicos: conducir demasiado y perder la superioridad, atacantes en la misma línea, pasar tarde. Qué observar: apertura del segundo atacante y decisión de pasar o conducir. Material: 4 conos, 1 miniportería, 4 balones.",
+ "montaje": "Campo de 24 × 14 m, 2 zonas de 12 m. Zona 1: 2 atacantes (A) y 1 defensor (D). Zona 2: otro defensor (D) y miniportería de 3 m.",
+ "juego": "Los atacantes superan al primer defensor y cruzan la línea central con los dos dentro. En la zona 2 juegan 2 contra 1 y buscan el gol.",
+ "punto": "Gol: 2 puntos. Cruzar la línea con los dos: 1. Balón robado o fuera: 0.",
+ "consigna": "Atrae al defensor y pasa antes de que llegue.",
+ "variantes": {
+  "facil": "Defensor 1 solo puede quedarse a 2 m de línea central y los atacantes parten a 3 m de ventaja. Portería de 4 m.",
+  "dificil": "Defensor 2 sale desde la línea central cuando los atacantes cruzan, y el gol solo vale con un máximo de 3 toques en zona 2."
+ },
+ "adaptacion": "Infantil–cadete (12–15): como está. Alevín (10–11): zonas de 10 m y portería de 4 m. Con 3 jugadores solo, el que defiende pasa a ser atacante y el defensor 2 rota solo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "2x1 EN DOS ZONAS",
+  "ref": "https://toplidercoach.com/futbol-base/2x1-en-dos-zonas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   24,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2.4,
+   "ymax": 16
+  },
+  "lines": [
+   [
+    [
+     12,
+     0
+    ],
+    [
+     12,
+     14
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    24,
+    7,
+    "R"
+   ]
+  ],
+  "labels": [
+   [
+    6,
+    -1.0,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    18,
+    -1.0,
+    "ZONA 2",
+    "middle"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 17,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.8,
+     4
+    ],
+    "b": [
+     11,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     3.8,
+     10
+    ],
+    "b": [
+     11,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     12,
+     4.6
+    ],
+    "b": [
+     12.4,
+     9.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     13,
+     10
+    ],
+    "b": [
+     22.6,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

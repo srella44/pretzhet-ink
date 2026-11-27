@@ -1,0 +1,177 @@
+{
+ "id": "FB-246",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Pase y recepción en rombo",
+ "formato": "Pase y movimiento",
+ "edad": "6–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min por rombo (2 sentidos), 30″ de pausa; después se rota de rombo (propuesta).",
+ "objetivo": "Pasar y recibir con el cuerpo de lado, controlar con intención y moverse después de pasar. Cómo explicarlo: «pasa y sigue tu balón al puesto del receptor». Errores típicos: pase flojo, control quieto, quedarse parado tras pasar. Qué observar: perfil abierto, pase al pie contrario del receptor y pase seguido de carrera.",
+ "montaje": "Dos rombos de 8 m de lado con 4 conos. 4 jugadores (A) por rombo, uno en cada vértice, de cara al centro; 1 balón por rombo.",
+ "juego": "El jugador con balón pasa raso al vértice de su derecha y corre a ocupar su puesto. El receptor controla orientado y pasa al siguiente. A los 2 min cambia el sentido.",
+ "punto": "1 punto por vuelta completa (4 pases) sin error. Pase fuera: se reinicia y no suma. Gana el rombo con más vueltas.",
+ "consigna": "Pasa y sigue; recibe de lado.",
+ "variantes": {
+  "facil": "Rombo de 6 m y balón parado antes del pase.",
+  "dificil": "Rombo de 10 m, control a 1 toque y 2 balones a la vez, desfasados."
+ },
+ "adaptacion": "Prebenjamín (6–7): rombo de 5 m y sin puntos. Benjamín (8–9): rombo de 6 m. Alevín (10–11): rombo de 8 m y 2 balones.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASE Y RECEPCIÓN EN ROMBO",
+  "ref": "https://toplidercoach.com/futbol-base/pase-y-recepcion-en-rombo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "lines": [
+   [
+    [
+     6,
+     1.5
+    ],
+    [
+     10.5,
+     6
+    ],
+    "3 3"
+   ],
+   [
+    [
+     10.5,
+     6
+    ],
+    [
+     6,
+     10.5
+    ],
+    "3 3"
+   ],
+   [
+    [
+     6,
+     10.5
+    ],
+    [
+     1.5,
+     6
+    ],
+    "3 3"
+   ],
+   [
+    [
+     1.5,
+     6
+    ],
+    [
+     6,
+     1.5
+    ],
+    "3 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 1.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.7,
+     2.1
+    ],
+    "b": [
+     9.8,
+     5.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     9.9,
+     6.8
+    ],
+    "b": [
+     6.8,
+     9.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     5.3,
+     9.9
+    ],
+    "b": [
+     2.2,
+     6.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     2.1,
+     5.3
+    ],
+    "b": [
+     5.3,
+     2.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "id": "FB-232",
+ "bloque": "Calentamiento",
+ "titulo": "La cola del pato",
+ "formato": "Pillar",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 1′30″ con 30″ de pausa; en cada ronda cambian los zorros (propuesta).",
+ "objetivo": "Activar el cuerpo con carreras, cambios de dirección y esquivas jugando, sin balón. Cómo explicarlo: «sois patos con cola; los zorros quieren coger colas». Errores típicos: agarrar al compañero en vez de la cola, correr sin mirar. Qué observar: quién mira alrededor antes de cambiar de dirección y quién se esconde tras los demás.",
+ "montaje": "Cuadrado de 15 × 15 m. Cada pato (A) lleva un peto metido por detrás del pantalón como cola. Dos zorros (D), con peto azul y sin cola, esperan en el centro.",
+ "juego": "A la señal, los patos corren sin salir del cuadrado y los zorros tiran de las colas. El pato sin cola hace una sentadilla de 3 s y vuelve.",
+ "punto": "Cada cola quitada: 1 punto al zorro. Cada pato que acaba la ronda con cola: 1 punto.",
+ "consigna": "Mira alrededor y cambia de dirección.",
+ "variantes": {
+  "facil": "Un solo zorro y cuadrado de 20 × 20 m. Los zorros solo caminan rápido.",
+  "dificil": "Tres zorros y cuadrado de 12 × 12 m. Los patos se mueven botando como una rana, sin correr."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin puntos, solo el juego. Benjamín (8–9): puntos y dos zorros. Con 6 jugadores, un zorro y campo de 12 × 12 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "LA COLA DEL PATO",
+  "ref": "https://toplidercoach.com/futbol-base/la-cola-del-pato/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–7 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    0,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 13.5,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 6.5,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 9.5,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.3,
+     6.1
+    ],
+    "b": [
+     9.6,
+     3.9
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10.5,
+     3.6
+    ],
+    "b": [
+     6.5,
+     2.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     11.2,
+     10.2
+    ],
+    "b": [
+     12.4,
+     11.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

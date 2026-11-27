@@ -1,0 +1,142 @@
+{
+ "id": "RONDO-IN-T07",
+ "bloque": "Calentamiento",
+ "titulo": "El cuadrado que gira",
+ "formato": "Pase y rotación",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "5–10 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30″ de pausa; se cambia de sentido en cada serie (propuesta).",
+ "objetivo": "Pasar, descargar y moverse con ritmo, orientando el cuerpo antes de recibir. Cómo explicarlo: «pasa al centro, sigue tu balón y ocupa su sitio». Errores típicos: control largo, descarga sin mirar, quedarse parado tras pasar. Qué observar: perfil del cuerpo y comunicación entre los dos balones. Material: 4 conos y 2 balones.",
+ "montaje": "Cuadrado de 10 × 10 m con 4 conos. Un jugador (A) en cada vértice y uno (C) en el centro. 2 balones en vértices opuestos.",
+ "juego": "El del vértice con balón pasa al centro y corre a ocupar el centro. El del centro descarga a un toque al vértice siguiente (sentido horario) y ocupa el vértice libre.",
+ "punto": "1 punto por vuelta completa (4 pases) sin error. Pase fuera: no cuenta. Gana el grupo que supere su marca en 2 min.",
+ "consigna": "Pasa, sigue tu balón y ocupa su sitio.",
+ "variantes": {
+  "facil": "Un solo balón (fuente) y el cuadrado de 12 × 12 m.",
+  "dificil": "Todo al primer toque (fuente) y el centro cambia a la pierna menos hábil."
+ },
+ "adaptacion": "Infantil (12–13): como está. Alevín (10–11): un balón y toques libres. Cadete (14–15): cuadrado de 8 × 8 m y tres balones.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El cuadrado que gira",
+  "ref": "RONDO Vol4 · págs. 16, 25, 27, 36, 47, 56"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuatro jugadores en los vértices de un cuadrado de 10 m y uno en el centro; pase al centro, descarga y quien ha pasado sigue al balón; dos balones; el grupo cuenta las vueltas sin errores; más fácil un balón, más difícil primer toque. Rotación, series y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 12.5,
+   "ymin": -2.5,
+   "ymax": 12.5
+  },
+  "tag": "cuadrado 10 m",
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    0,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 1,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 9,
+    "f": -45
+   },
+   {
+    "r": "C",
+    "x": 5,
+    "y": 5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.9,
+     1.5
+    ],
+    "b": [
+     4.2,
+     4.1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     5.8,
+     4.1
+    ],
+    "b": [
+     8.2,
+     1.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     1.5,
+     2.2
+    ],
+    "b": [
+     4.1,
+     4.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

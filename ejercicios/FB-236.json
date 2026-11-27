@@ -1,0 +1,150 @@
+{
+ "id": "FB-236",
+ "bloque": "Técnica y duelos",
+ "titulo": "La V de interior",
+ "formato": "Técnica individual",
+ "edad": "6–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "8 min",
+ "series": "4 vueltas por pierna (ida y vuelta), 20″ de pausa entre vueltas; después se repite con ritmo de partido (propuesta).",
+ "objetivo": "Dominar el cambio de dirección con el interior: sacar el balón hacia un lado con un pie y devolverlo con el otro, dibujando una V. Cómo explicarlo: «un toque fuera, otro dentro: haz la V y avanza». Errores típicos: golpear en vez de acompañar, mirar el balón siempre, apoyar el pie muy lejos. Qué observar: contacto con el interior, apoyo cerca del balón y cabeza que se levanta.",
+ "montaje": "Calle de 12 m con 4 conos cada 3 m. Cada jugador (A) con balón en su calle; calles separadas 3 m. Los demás esperan.",
+ "juego": "En cada cono, V de interior: toque del interior derecho hacia fuera y vuelta con el interior izquierdo. Se alterna el pie en cada cono hasta el final y se vuelve conduciendo rápido.",
+ "punto": "1 punto por cada V limpia con balón a un paso. Gana quien más sume en 4 vueltas.",
+ "consigna": "Fuera, dentro: dibuja la V y levanta la cabeza.",
+ "variantes": {
+  "facil": "Conos cada 4 m y solo V con el pie preferido. Los toques se hacen quietos antes de avanzar.",
+  "dificil": "Conos cada 2 m y V a máxima velocidad con un defensor pasivo que camina junto a la calle."
+ },
+ "adaptacion": "Prebenjamín (6–7): V quieta junto al cono, sin puntos. Benjamín (8–9): calle de 8 m. Alevín (10–11) e infantil (12–13): velocidad y pierna menos hábil.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "10- LA \"V\" DE INTERIOR",
+  "ref": "https://toplidercoach.com/futbol-base/10-la-v-de-interior/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    3,
+    1.8
+   ],
+   [
+    6,
+    1.8
+   ],
+   [
+    9,
+    1.8
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    3,
+    8.2
+   ],
+   [
+    6,
+    8.2
+   ],
+   [
+    9,
+    8.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 8.2,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     1.8
+    ],
+    "b": [
+     2.4,
+     1.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     3.6,
+     2.4
+    ],
+    "b": [
+     5.4,
+     1.2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     6.6,
+     1.2
+    ],
+    "b": [
+     8.4,
+     2.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 3
+   }
+  ]
+ }
+}

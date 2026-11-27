@@ -1,0 +1,156 @@
+{
+ "id": "RONDO-AL-M04",
+ "bloque": "Calentamiento",
+ "titulo": "El gato y los ratones",
+ "formato": "Pillar con balón",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min con 30″ de pausa; (propuesta) los gatos empiezan siendo los dos jugadores más cercanos al entrenador.",
+ "objetivo": "Conducir con la cabeza levantada, proteger el balón y cambiar de ritmo para escapar. Cómo explicarlo: «ratones, escapad; gatos, sin balón, cazad». Errores típicos: conducir solo en línea recta, mirar solo el balón, esconderse en una esquina. Qué observar: cuerpo entre el gato y el balón y cambios de dirección. Material: 4 conos, 1 balón por ratón.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 conos. De 4 a 10 ratones (A) con balón. Dos gatos (D), con peto azul y sin balón, en el centro.",
+ "juego": "Los ratones conducen sin salir. Los gatos intentan tocar con la mano al ratón o su balón. El ratón tocado pasa a ser gato y su balón se lo queda el gato que lo tocó.",
+ "punto": "Gana la ronda el ratón no tocado en 2 min: 1 punto. 4 rondas; gana quien más sume.",
+ "consigna": "Cabeza arriba y el cuerpo entre el gato y el balón.",
+ "variantes": {
+  "facil": "Los gatos caminan (fuente) y el cuadrado mide 25 × 25 m.",
+  "dificil": "Tres gatos (fuente) y cuadrado de 15 × 15 m; solo conducen con la pierna menos hábil."
+ },
+ "adaptacion": "Alevín (10–11): como está. Benjamín (8–9): un gato por cada 5 jugadores. Infantil (12–13): tres gatos y conducción con la pierna mala.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El gato y los ratones",
+  "ref": "RONDO Vol3 · págs. 4, 9, 32, 37, 42, 47"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: ratones conducen, gatos sin balón, el ratón tocado pasa a gato y el gato coge el balón; gana quien no es tocado en 2′; más fácil gatos caminan; más difícil tres gatos. Medidas, series, puntos por ronda, balón fuera, variantes y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3.5,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 3.5,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 14,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 15.5,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 12.5,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.8,
+     5.4
+    ],
+    "b": [
+     13.5,
+     4.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     15.6,
+     4.3
+    ],
+    "b": [
+     17,
+     8.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     10.8,
+     12.6
+    ],
+    "b": [
+     14.6,
+     14.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

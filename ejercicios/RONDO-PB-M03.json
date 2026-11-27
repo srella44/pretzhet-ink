@@ -1,0 +1,172 @@
+{
+ "id": "RONDO-PB-M03",
+ "bloque": "Calentamiento",
+ "titulo": "Tú la llevas de colores",
+ "formato": "Juego de reacción",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "3 fases de 2 min (corriendo, balón en las manos, balón en el pie) con 30″ de pausa (propuesta).",
+ "objetivo": "Reaccionar rápido a una señal de color y moverse con el balón en manos y en pies. Cómo explicarlo: «cuando cante un color, corre y toca un cono de ese color». Errores típicos: no esperar la señal, chocar, olvidar el color. Qué observar: quién mira antes de salir y quién llega primero. Material: 8 conos de 4 colores (2 de cada).",
+ "montaje": "Cuadrado de 15 × 15 m con 8 conos de 4 colores (2 de cada). Los jugadores (A) en el centro. El entrenador, fuera.",
+ "juego": "El entrenador canta un color y todos corren a tocar un cono de ese color. Fase 2: con el balón en las manos. Fase 3: con el balón en el pie, tocando con la suela. Vuelven al centro.",
+ "punto": "1 punto a quien toca un cono del color correcto. Sin eliminados. Gana quien más sume en 6 colores.",
+ "consigna": "Escucha el color y toca el cono.",
+ "variantes": {
+  "facil": "Dos colores (fuente), conos más cerca y sin balón.",
+  "dificil": "Se toca con la parte del cuerpo que cante el míster (rodilla, codo) (fuente) y con balón en el pie."
+ },
+ "adaptacion": "Prebenjamín (6–7): como está. Benjamín (8–9): tres colores y balón en el pie. Con 4–5 años: sin puntos y con 2 colores.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Tú la llevas de colores",
+  "ref": "RONDO Vol1 · págs. 6, 17, 26, 37, 39, 48"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: el míster canta un color y todos corren a tocar un cono de ese color; luego con balón en las manos y en el pie; 1 punto a quien toca el color correcto; más fácil dos colores, más difícil con la parte del cuerpo cantada. Medidas, series y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "cones": [
+   [
+    2,
+    2
+   ],
+   [
+    13,
+    2
+   ],
+   [
+    2,
+    13
+   ],
+   [
+    13,
+    13
+   ],
+   [
+    7.5,
+    1
+   ],
+   [
+    7.5,
+    14
+   ],
+   [
+    1,
+    7.5
+   ],
+   [
+    14,
+    7.5
+   ]
+  ],
+  "labels": [
+   [
+    2,
+    0.6,
+    "ROJO",
+    "middle"
+   ],
+   [
+    13,
+    0.6,
+    "AZUL",
+    "middle"
+   ],
+   [
+    2,
+    14.8,
+    "AMARILLO",
+    "middle"
+   ],
+   [
+    13,
+    14.8,
+    "VERDE",
+    "middle"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 9.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9.5,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.5,
+     6
+    ],
+    "b": [
+     2.8,
+     2.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     6
+    ],
+    "b": [
+     12.2,
+     2.8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

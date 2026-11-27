@@ -1,0 +1,148 @@
+{
+ "id": "RONDO-AL-T03",
+ "bloque": "Calentamiento",
+ "titulo": "Pases en el tráfico",
+ "formato": "Pase en movimiento",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min con 30″ de pausa; después se cambia de pareja (propuesta).",
+ "objetivo": "Pasar y recibir en movimiento entre compañeros que corren, mirando antes de pasar. Cómo explicarlo: «pasa cuando el camino esté libre, no cuando te lo pidan». Errores típicos: pasar sin mirar, parar para recibir, no moverse tras pasar. Qué observar: cabeza levantada antes del pase y desmarque tras pasar.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 conos. 3 parejas (amarilla, roja y blanca) con 1 balón por pareja, repartidas por el campo.",
+ "juego": "Las parejas se mueven por todo el campo y se pasan el balón a ras de suelo entre las demás. El pase vale si llega sin tocar otro balón ni otro jugador.",
+ "punto": "1 punto cada 5 pases buenos seguidos.",
+ "consigna": "Mira, pasa y muévete tras pasar.",
+ "variantes": {
+  "facil": "Se puede parar el balón antes de pasar (fuente) y la distancia entre parejas es mayor (25 × 25 m).",
+  "dificil": "Punto doble por pase al primer toque (fuente) y las parejas no pueden pasar a menos de 5 m."
+ },
+ "adaptacion": "Alevín (10–11): como está. Benjamín (8–9): campo de 25 m y balón parado. Infantil (12–13): a un toque y 3 balones menos que parejas.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Pases en el tráfico",
+  "ref": "RONDO Vol3 · págs. 14, 19, 24, 29, 34, 39"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: parejas se pasan el balón entre los compañeros que corren; el pase vale si llega sin tocar otros balones ni jugadores; 1 punto cada 5 pases; más fácil parar antes de pasar; más difícil doble al primer toque. Medidas, series y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": 4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 4,
+    "y": 15,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.8,
+     5.1
+    ],
+    "b": [
+     9.2,
+     5.9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     13.2,
+     13.4
+    ],
+    "b": [
+     8.8,
+     14.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     4.8
+    ],
+    "b": [
+     5,
+     14.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   }
+  ]
+ }
+}

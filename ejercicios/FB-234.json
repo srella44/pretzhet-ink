@@ -1,0 +1,144 @@
+{
+ "id": "FB-234",
+ "bloque": "Calentamiento",
+ "titulo": "Visita las islas",
+ "formato": "Conducción",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "8 min",
+ "series": "5 rondas de 1 min con 30″ de pausa; el entrenador cambia la forma de entrar (propuesta).",
+ "objetivo": "Conducir con la cabeza levantada, frenar el balón y esquivar a los demás. Cómo explicarlo: «sois barcos que navegan; cuando digo isla, buscad una libre». Errores típicos: mirar solo el balón, chocar con otros, llegar a la isla corriendo y pasarse. Qué observar: quién busca la isla con la mirada antes de la señal.",
+ "montaje": "Cuadrado de 16 × 16 m con 4 islas: círculos de 3 m con conos. Cada jugador (A) con balón. Siempre hay 1 isla por cada 2 jugadores.",
+ "juego": "Todos conducen libres sin pisar las islas. A la señal «isla», cada uno lleva el balón a una isla y lo para. Caben 2 por isla. Sin sitio: 5 toques de suela.",
+ "punto": "1 punto por cada isla visitada con balón parado. Sin isla: 0.",
+ "consigna": "Cabeza arriba, busca isla y para con la suela.",
+ "variantes": {
+  "facil": "Islas de 4 m, para que entren 3 jugadores.",
+  "dificil": "Islas de 2 m y un jugador solo por isla; el barco que llega tarde espera fuera hasta la siguiente señal."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin puntos y con más islas que jugadores. Benjamín (8–9): una sola isla por jugador y entrar con la pierna mala. Con 6 jugadores, 3 islas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VISITA LAS ISLAS",
+  "ref": "https://toplidercoach.com/futbol-base/visita-las-islas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–7 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "zones": [
+   {
+    "t": "circle",
+    "x": 3.5,
+    "y": 3.5,
+    "r": 1.6
+   },
+   {
+    "t": "circle",
+    "x": 12.5,
+    "y": 3.5,
+    "r": 1.6
+   },
+   {
+    "t": "circle",
+    "x": 3.5,
+    "y": 12.5,
+    "r": 1.6
+   },
+   {
+    "t": "circle",
+    "x": 12.5,
+    "y": 12.5,
+    "r": 1.6
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 2.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 8,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 8,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 10.5,
+    "f": -45,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     8.4
+    ],
+    "b": [
+     4.4,
+     11.3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8.4,
+     3.4
+    ],
+    "b": [
+     11.6,
+     4.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ]
+ }
+}

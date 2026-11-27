@@ -1,0 +1,219 @@
+{
+ "id": "RONDO-IN-M05",
+ "bloque": "Calentamiento",
+ "titulo": "Salta y cae",
+ "formato": "Coordinación y saltos",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "12 min",
+ "series": "4 estaciones de 2′30″ con cambio rotatorio y 30″ de pausa; 10 min en total (propuesta).",
+ "objetivo": "Ejecutar saltos con caída estable y atrapar un balón alto para prevenir lesiones. Cómo explicarlo: «salta, cae suave con las rodillas flexionadas y aguanta». Errores típicos: caer con piernas rígidas, rodillas hacia dentro, perder el equilibrio. Qué observar: alineación de rodilla, cadera y pie. Material: 2 conos, 4 balones, cinta o cuerda.",
+ "montaje": "Campo de 20 × 15 m con 4 estaciones de 5 m. Una pareja por estación: saltador (A) y compañero (C). Saltos: longitud, pata coja, medio giro y batida.",
+ "juego": "Se rota cada 2′30″. El saltador cae suave con las rodillas flexionadas y aguanta 2 s; C cuenta. En la 4, C lanza el balón alto y A salta y lo atrapa.",
+ "punto": "1 punto por caída aguantada 2 s. Balón atrapado en el aire: 1.",
+ "consigna": "Salta, cae suave y aguanta 2 segundos.",
+ "variantes": {
+  "facil": "Solo con dos pies en las caídas (fuente) y el balón se lanza a media altura.",
+  "dificil": "Caída sobre un solo pie (fuente) y los saltos se hacen con un balón en las manos."
+ },
+ "adaptacion": "Infantil (12–13): como está. Alevín (10–11): saltos con dos pies y balón rodando. Cadete (14–15): saltos con carrera y balón en el aire.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Salta y cae",
+  "ref": "RONDO Vol4 · págs. 8, 12, 16, 31, 35, 39"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: tres pruebas por parejas (salto de longitud con caída estable, pata coja aguantando 2″, salto con medio giro) y después batida y atrapada del balón que lanza el compañero; 1 punto por caída aguantada 2″; más fácil con dos pies, más difícil sobre un pie; espacio 20 × 15 m. Reparto en estaciones, series y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 22.5,
+   "ymin": -2.5,
+   "ymax": 17.5
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     5,
+     0,
+     5,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     10,
+     0,
+     5,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     15,
+     0,
+     5,
+     15
+    ]
+   }
+  ],
+  "labels": [
+   [
+    2.5,
+    -1.0,
+    "1",
+    "middle"
+   ],
+   [
+    7.5,
+    -1.0,
+    "2",
+    "middle"
+   ],
+   [
+    12.5,
+    -1.0,
+    "3",
+    "middle"
+   ],
+   [
+    17.5,
+    -1.0,
+    "4",
+    "middle"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 2.5,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 12.5,
+    "y": 11,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": 11.5,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.5,
+     5
+    ],
+    "b": [
+     2.5,
+     7.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     7.5,
+     5
+    ],
+    "b": [
+     7.5,
+     7.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     12.5,
+     5
+    ],
+    "b": [
+     12.5,
+     7.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     17.5,
+     10.6
+    ],
+    "b": [
+     17.5,
+     6.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ]
+ }
+}

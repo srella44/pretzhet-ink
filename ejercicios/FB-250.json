@@ -1,0 +1,119 @@
+{
+ "id": "FB-250",
+ "bloque": "Finalización",
+ "titulo": "Giro y finalización",
+ "formato": "Control + giro + tiro",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 16 m",
+ "duracion": "12 min",
+ "series": "4 series de 5 tiros por jugador con 30″ de pausa; cada serie con el pie contrario (propuesta).",
+ "objetivo": "Recibir de espaldas, girarse con el primer toque y rematar rápido. Cómo explicarlo: «mira la portería antes de recibir, gira con el primer toque y chuta». Errores típicos: parar el balón, girarse mal, no abrir el cuerpo, chutar sin fuerza. Qué observar: perfil del cuerpo, primer toque con giro y disparo al palo.",
+ "montaje": "Portería de 6 m con portero (G). Atacante (A) de espaldas a la portería, a 10 m. Servidor (C) a 5 m detrás de él con balones. Defensor (D) pasivo a 3 m.",
+ "juego": "C pasa raso a A, que recibe, gira con el primer toque hacia el lado libre y chuta sin parar el balón. D solo presiona al primer toque.",
+ "punto": "Gol: 2 puntos. Tiro a puerta sin gol: 1. Control malo, giro fallido o tiro fuera: 0.",
+ "consigna": "Mira la portería, gira con el primer toque y chuta.",
+ "variantes": {
+  "facil": "Sin defensor y con el servidor pasando fuerte al pie. Se puede parar el balón antes del giro.",
+  "dificil": "El defensor es activo y el servidor pasa sin avisar; tiro de primeras tras el giro en máximo 2 toques."
+ },
+ "adaptacion": "Benjamín (8–9): sin defensor y portería de 4 m. Alevín (10–11): defensor pasivo. Infantil (12–13): defensor activo y balón por el aire.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "GIRO Y FINALIZACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/giro-y-finalizacion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   20,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -3.5,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 10,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 9.5,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 9,
+    "y": 15.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 12.8,
+    "y": 12,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     14.7
+    ],
+    "b": [
+     9,
+     10.4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     8.4,
+     8.9
+    ],
+    "b": [
+     6.5,
+     6.5
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     6.5,
+     6.0
+    ],
+    "b": [
+     9.5,
+     1.0
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ]
+ }
+}

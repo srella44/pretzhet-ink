@@ -1,0 +1,116 @@
+{
+ "id": "FB-238",
+ "bloque": "Técnica y duelos",
+ "titulo": "Arrastre suela y exterior",
+ "formato": "Técnica individual",
+ "edad": "6–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "14 × 9 m",
+ "duracion": "8 min",
+ "series": "4 vueltas de ida y vuelta por jugador, 20″ de pausa; en las 2 últimas, con pierna izquierda (propuesta).",
+ "objetivo": "Arrastrar el balón con la suela del pie derecho hacia un lado para esquivar y salir con el exterior del mismo pie. Cómo explicarlo: «pisa, arrastra, sal». Errores típicos: pisar el balón sin moverlo, arrastrar sin girar los hombros, salir con toque largo. Qué observar: giro de hombros, apoyo de la pierna izquierda y primer toque de salida al espacio.",
+ "montaje": "Calle de 14 m con 3 conos cada 4 m. Cada jugador (A) con balón en su calle; calles separadas 3 m. Los demás esperan.",
+ "juego": "Conduce hasta 1 m del cono, arrastra el balón con la suela derecha hacia el lado y sale con el exterior derecho rodeando el cono. Repite en los 3 conos y vuelve conduciendo.",
+ "punto": "1 punto por cono superado con arrastre limpio. Gana quien más sume en 4 vueltas.",
+ "consigna": "Pisa, arrastra y sal con el exterior.",
+ "variantes": {
+  "facil": "Cono más separado (5 m), sin velocidad; se repite el gesto quieto 3 veces antes de la calle.",
+  "dificil": "Un compañero hace de defensor y camina junto al cono; la salida sigue al primer paso del defensor."
+ },
+ "adaptacion": "Prebenjamín (6–7): gesto quieto con balón junto al cono. Benjamín (8–9): calle completa y defensor pasivo. Alevín e infantil: defensor activo y mayor velocidad.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "8-ARRASTRE SUELA DERECHA, EXTERIOR DERECHA",
+  "ref": "https://toplidercoach.com/futbol-base/8-arrastre-suela-derecha-exterior-derecha/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Búsqueda web rápida del título sin descripción útil.",
+ "diagrama": {
+  "field": [
+   14,
+   9
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 11
+  },
+  "cones": [
+   [
+    4,
+    1.8
+   ],
+   [
+    8,
+    1.8
+   ],
+   [
+    12,
+    1.8
+   ],
+   [
+    4,
+    6.6
+   ],
+   [
+    8,
+    6.6
+   ],
+   [
+    12,
+    6.6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 6.6,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     1.8
+    ],
+    "b": [
+     3.2,
+     1.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     4.6,
+     1.2
+    ],
+    "b": [
+     7.2,
+     2.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   }
+  ]
+ }
+}

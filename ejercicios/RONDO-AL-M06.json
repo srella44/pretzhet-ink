@@ -1,0 +1,159 @@
+{
+ "id": "RONDO-AL-M06",
+ "bloque": "Calentamiento",
+ "titulo": "Estatuas que corren",
+ "formato": "Conducción y equilibrio",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 1′30″ con 30″ de pausa; el entrenador pita entre 3 y 5 veces por ronda (propuesta).",
+ "objetivo": "Conducir con control y frenar de golpe, manteniendo el equilibrio sobre una pierna. Cómo explicarlo: «cuando pite, balón bajo la suela y brazos en cruz». Errores típicos: pisar el balón con el talón, perder el equilibrio, frenar tarde. Qué observar: pie de apoyo estable y mirada al frente. Material: 4 conos, 1 balón por jugador.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 conos. Cada jugador (A) con balón, repartidos por el campo. El entrenador, fuera, con un silbato.",
+ "juego": "Todos conducen libres. Al pitido, cada uno pone la suela sobre el balón, levanta el otro pie y abre los brazos. Quien aguanta 5 s en equilibrio suma; quien apoya el pie, no.",
+ "punto": "1 punto por estatua aguantada 5 s con el balón parado. Gana quien más sume en 5 rondas.",
+ "consigna": "Frena con la suela y aguanta 5 segundos.",
+ "variantes": {
+  "facil": "Se permiten los dos pies en el suelo (fuente) y se aguantan 3 s.",
+  "dificil": "Estatua con los ojos cerrados 3 s (fuente) y se cambia la pierna de apoyo en cada pitido."
+ },
+ "adaptacion": "Alevín (10–11): como está. Benjamín (8–9): dos pies en el suelo y 3 s. Infantil (12–13): ojos cerrados y estatua sobre el pie débil.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Estatuas que corren",
+  "ref": "RONDO Vol3 · págs. 20, 25, 30, 35, 40, 45"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: conducción, estatuas con balón bajo un pie y brazos abiertos 5″; 1 punto por estatua; más fácil dos pies, más difícil ojos cerrados 3″. Medidas, series, desempate y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4.5,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 11.5,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.9,
+     4.8
+    ],
+    "b": [
+     7.6,
+     7.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10.6,
+     4.6
+    ],
+    "b": [
+     13,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   },
+   {
+    "a": [
+     15.2,
+     15
+    ],
+    "b": [
+     12.6,
+     16.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "PITIDO = ESTATUA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "id": "RONDO-BJ-T06",
+ "bloque": "Calentamiento",
+ "titulo": "Dale al cono",
+ "formato": "Pase y puntería",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 2 min con 30″ de pausa; después se cambia de pareja (propuesta).",
+ "objetivo": "Pasar y chutar con precisión usando el interior del pie, apuntando a un objetivo. Cómo explicarlo: «apunta, perfila el cuerpo y toca con el interior». Errores típicos: golpear con la punta, mirar al compañero y no al cono, chutar demasiado fuerte. Qué observar: pie de apoyo junto al balón y cuerpo de lado.",
+ "montaje": "Zona de 12 × 12 m. Parejas frente a frente a 4 m, con un cono en medio y 1 balón por pareja. Separación de 3 m entre parejas.",
+ "juego": "Se turnan: uno chuta al cono con el interior del pie y el otro recoge y chuta. Quien le da, da un paso atrás y el reto se alarga. Si nadie acierta en 1 min, se acercan un paso.",
+ "punto": "1 punto por cada cono tocado. Gana la pareja con más puntos en 2 min.",
+ "consigna": "Apunta y toca con el interior.",
+ "variantes": {
+  "facil": "Distancia de 3 m (fuente) y balón más grande.",
+  "dificil": "Se chuta con la pierna mala (fuente) y la pareja se coloca a 6 m desde el principio."
+ },
+ "adaptacion": "Benjamín (8–9): como está. Prebenjamín (6–7): 3 m y sin puntos. Alevín (10–11): 8 m y primer toque.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Dale al cono",
+  "ref": "RONDO Vol2 · págs. 21, 23, 25, 30, 40, 45"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: parejas frente a frente con un cono en medio; se chuta para darle; quien acierta da un paso atrás; 1 punto por cono; más fácil a 3 m, más difícil con la pierna mala. Medidas, turnos, series y adaptación (propuesta). Diagrama dibujado a partir del texto (no se ha comparado con la página del PDF).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    6,
+    3
+   ],
+   [
+    6,
+    9
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3.5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.3,
+     3.1
+    ],
+    "b": [
+     5.5,
+     3.1
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 2,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     7.7,
+     9.1
+    ],
+    "b": [
+     6.5,
+     9.1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   }
+  ]
+ }
+}
