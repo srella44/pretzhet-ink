@@ -1,0 +1,200 @@
+{
+ "id": "ATH-022",
+ "bloque": "Técnica y duelos",
+ "titulo": "Juego corto parcelado 6v6",
+ "formato": "6v6",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 24 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso; rotad de zona cada serie (propuesta).",
+ "objetivo": "Provocar duelos 1 contra 1 en cada zona, tanto en defensa como en ataque, y exigir compromiso para no eludir ninguna situación de presión. Cómo explicarlo: «tu zona es tu duelo». Errores típicos: abandonar la zona para ayudar, regalar el balón por miedo al duelo, defender sin cerrar el pase. Qué observar: valentía en el uno contra uno y paso al siguiente sector.",
+ "montaje": "Campo de 40 × 24 m con conos en 3 zonas de 13 m. En cada zona, 2 amarillos contra 2 azules. En cada fondo, 1 portería pequeña.",
+ "juego": "Cada jugador se queda en su zona y busca el 1v1 con su par. Para avanzar pasa a la zona siguiente. Si se pierde, se defiende en la zona.",
+ "punto": "Gol: 2 puntos. Pase controlado en la zona siguiente: 1.",
+ "consigna": "Tu zona es tu duelo: no huyas, encara y decide.",
+ "variantes": {
+  "facil": "Zonas más anchas (16 m) y permitir que un compañero ayude en la zona contigua (propuesta).",
+  "dificil": "Prohibir que nadie salga de su zona y limitar a 3 toques por jugador (propuesta)."
+ },
+ "adaptacion": "Alevín: 36 × 22 m y 2v2 por zona. Infantil: medidas de la ficha. Cadete: añade portero y porterías grandes.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "JUEGO CORTO PARCELADO 5/5 - 6/6",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 34"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): zonas delimitadas para propiciar acciones 1 contra 1 en defensa y ataque, con compromiso del jugador ante la presión; sirve para 5/5 y 6/6. (propuesta): reparto 2v2 por zona, medidas, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   40,
+   24
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 44,
+   "ymin": -2.8,
+   "ymax": 26.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     7
+    ],
+    "b": [
+     17,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     6
+    ],
+    "b": [
+     30,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     8
+    ],
+    "b": [
+     40,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    40,
+    12,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     13.3,
+     0
+    ],
+    [
+     13.3,
+     24
+    ],
+    "6 5"
+   ],
+   [
+    [
+     26.7,
+     0
+    ],
+    [
+     26.7,
+     24
+    ],
+    "6 5"
+   ]
+  ]
+ }
+}

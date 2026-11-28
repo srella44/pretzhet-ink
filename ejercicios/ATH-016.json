@@ -1,0 +1,174 @@
+{
+ "id": "ATH-016",
+ "bloque": "Técnica y duelos",
+ "titulo": "Juego corto 5v5, 4 porterías",
+ "formato": "5v5",
+ "edad": "10–12 años",
+ "nivel": "Fácil",
+ "jugadores": "10 jug.",
+ "espacio": "36 × 24 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso; cambio de campo y de equipos entre series (propuesta).",
+ "objetivo": "Iniciar la táctica: aplicar en un juego real todos los fundamentos ofensivos y defensivos (apoyos, desmarques, basculación, cobertura). Cómo explicarlo: «cuando perdemos, todos defendemos». Errores típicos: atacar sin apoyos, defensores a la misma altura, no cerrar la portería de enfrente. Qué observar: distancia entre líneas y orden al perder el balón.",
+ "montaje": "Campo de 36 × 24 m. En cada fondo, 2 porterías pequeñas separadas 8 m. 5 amarillos contra 5 azules, sin porteros.",
+ "juego": "Partido 5v5: cada equipo defiende sus 2 porterías y ataca las 2 contrarias.",
+ "punto": "Gol: 1 punto; si llega tras 5 pases seguidos, 2. Gana quien más puntos sume tras 3 series.",
+ "consigna": "Defiende las dos porterías: cierra el pase interior.",
+ "variantes": {
+  "facil": "Reduce a 4v4 con 3 porterías en total y sin límite de pases (propuesta).",
+  "dificil": "Máximo 2 toques y gol solo tras 3 pases seguidos; 5v5 con un comodín atacante (propuesta)."
+ },
+ "adaptacion": "Alevín: 30 × 20 m. Infantil: 36 × 24 m. Cadete: 40 × 28 m y porterías de 3 m. Variante 4v4: quitar un jugador por equipo.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "JUEGO CORTO 4 P.P. SIMPLE 5/5 4/4",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 27"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): ejercicio de iniciación de la táctica con 4 porterías pequeñas (5/5 y 4/4) que aplica los fundamentos ofensivos y defensivos al juego real. (propuesta): medidas, reparto de porterías, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   36,
+   24
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 40,
+   "ymin": -2.8,
+   "ymax": 26.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 29,
+    "y": 3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     12
+    ],
+    "b": [
+     12,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     5
+    ],
+    "b": [
+     19,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     19,
+     9
+    ],
+    "b": [
+     36,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "goals": [
+   [
+    0,
+    8,
+    "L"
+   ],
+   [
+    0,
+    16,
+    "L"
+   ],
+   [
+    36,
+    8,
+    "R"
+   ],
+   [
+    36,
+    16,
+    "R"
+   ]
+  ]
+ }
+}

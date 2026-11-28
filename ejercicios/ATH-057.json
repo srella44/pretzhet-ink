@@ -1,0 +1,226 @@
+{
+ "id": "ATH-057",
+ "bloque": "Técnica y duelos",
+ "titulo": "Línea imaginaria 8v8",
+ "formato": "8v8",
+ "edad": "12–14 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "50 × 36 m",
+ "duracion": "20 min",
+ "series": "3 × 6 min con 1 min de descanso; los equipos cambian de lado entre series (propuesta).",
+ "objetivo": "Buscar la profundidad: el gol se logra rebasando la línea imaginaria del fondo con el balón controlado, ataque y contraataque pero con opción de controlar el juego. Cómo explicarlo: «no basta con acercarse: hay que pasar la línea con el balón». Errores típicos: pases largos sin control, no reaccionar al perder. Qué observar: diferenciar ataque organizado y contraataque.",
+ "montaje": "Campo de 50 × 36 m con una línea imaginaria marcada con conos a 4 m de cada fondo. 8v8, sin porteros ni porterías.",
+ "juego": "Se anota entrando con el balón controlado y detenido tras la línea imaginaria rival, en cualquier punto. No vale pase largo sin control.",
+ "punto": "Balón detenido tras la línea: 1 punto; tras contraataque en menos de 8 segundos: 2. Gana quien más sume.",
+ "consigna": "Pasa la línea con el balón dominado y mira al contraataque.",
+ "variantes": {
+  "facil": "Línea imaginaria a 6 m del fondo y 10 segundos para contraatacar (propuesta).",
+  "dificil": "Línea de 3 m y contacto de balón solo con la planta del pie para detenerlo (propuesta)."
+ },
+ "adaptacion": "Infantil: medidas de la ficha. Cadete: 55 × 40 m. Alevín: 6v6 en 40 × 28 m.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "LÍNEA IMAGINARIA 8/8",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 78"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): el gol se obtiene rebasando con el balón controlado la línea imaginaria del fondo; ejercicio de ataque-contraataque con posibilidad de control del juego; diferencia entre ataque organizado y contraataque. (propuesta): medidas de la línea, tiempos, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -2.8,
+   "ymax": 38.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 46,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 28,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 31,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     18
+    ],
+    "b": [
+     14,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     8
+    ],
+    "b": [
+     30,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     8
+    ],
+    "b": [
+     47,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "lines": [
+   [
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     36
+    ],
+    "6 5"
+   ],
+   [
+    [
+     46,
+     0
+    ],
+    [
+     46,
+     36
+    ],
+    "6 5"
+   ]
+  ],
+  "labels": [
+   [
+    46,
+    -0.9,
+    "LÍNEA",
+    "middle"
+   ],
+   [
+    4,
+    -0.9,
+    "LÍNEA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "ATH-007",
+ "bloque": "Técnica y duelos",
+ "titulo": "Posicional 6v2 con comodines",
+ "formato": "4+2v2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "13 × 9 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 2 min con 1 min de descanso; al final de cada ronda cambian los dos azules (propuesta).",
+ "objetivo": "Mantener la posesión con apoyos y movimiento constante, y valorar el esfuerzo de recuperar el balón. Cómo explicarlo: «quien pasa se mueve; quien recibe ya sabe a quién pasa». Errores típicos: quedarse parado tras pasar, pases al pie del defensor, comodines que juegan solo entre ellos. Qué observar: ángulos de apoyo y velocidad del primer toque.",
+ "montaje": "Campo de 13 × 9 m. 4 amarillos dentro, uno por esquina; 2 comodines (C) fuera, uno en cada lado largo. 2 azules defienden.",
+ "juego": "Los 6 amarillos juegan a 1–2 toques. Los comodines no juegan entre sí ni dan más de 2 pases seguidos. Si roba el azul, el que perdió el balón pasa a azul.",
+ "punto": "1 punto cada 8 pases seguidos; si lo pierden, vuelven a cero. 4 rondas de 2 min.",
+ "consigna": "Apóyate, ofrece línea de pase y muévete tras pasar.",
+ "variantes": {
+  "facil": "Dos toques libres y los comodines pueden jugar entre sí una vez (propuesta).",
+  "dificil": "Un toque obligatorio para los comodines y 10 pases por punto; añadir un tercer azul (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campo 15 × 11 m. Infantil (12–13): medidas de la fuente y un toque a los comodines. Cadete: añade un tercer defensor.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "STANDARD POSICIONAL 2- 6/2 + C",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 12"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): campo de 13 × 9 m, 1–2 toques, comodines laterales que no pueden jugar entre sí ni dar más de dos pases seguidos entre comodines exteriores; objetivo de valorar el esfuerzo de recuperar. (propuesta): 4 amarillos + 2 comodines contra 2 azules, puntuación, rotaciones, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   13,
+   9
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 16.2,
+   "ymin": -3.2,
+   "ymax": 12.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6.5,
+    "y": -1.3,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 6.5,
+    "y": 10.3,
+    "f": -90
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 4.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     11,
+     2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     2
+    ],
+    "b": [
+     11,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     11,
+     7
+    ],
+    "b": [
+     6.5,
+     10.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "tag": "13 × 9 m"
+ }
+}

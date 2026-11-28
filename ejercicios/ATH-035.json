@@ -1,0 +1,204 @@
+{
+ "id": "ATH-035",
+ "bloque": "Técnica y duelos",
+ "titulo": "Partido libre 8v8",
+ "formato": "8v8+2P",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "16 jug. + 2 porteros",
+ "espacio": "60 × 40 m",
+ "duracion": "20 min",
+ "series": "2 × 8 min con 2 min de descanso en el que los capitanes comentan (propuesta).",
+ "objetivo": "Aplicar todo lo trabajado en ataque y defensa sin objetivos marcados: los jugadores hablan, se corrigen y demuestran que entienden el juego. Cómo explicarlo: «nadie os dice nada: decidid vosotros». Errores típicos: rompe-líneas sin apoyo, defensas muy separadas, no hablar. Qué observar: comunicación, líneas y reacción al perder el balón.",
+ "montaje": "Campo de 60 × 40 m, portería grande y portero en cada fondo. Dos equipos de 8 con su sistema habitual.",
+ "juego": "Partido libre sin consignas del entrenador. Saque de banda con el pie. El entrenador solo para el juego para preguntar a los capitanes qué ven y qué cambiarían.",
+ "punto": "Gol: 1 punto. Gana quien más goles tenga tras 2 partes; en la pausa cada capitán propone un ajuste.",
+ "consigna": "Hablad, corregíos y mantened las líneas juntas.",
+ "variantes": {
+  "facil": "Partido 6v6 en 50 × 35 m con consignas del entrenador (propuesta).",
+  "dificil": "Un solo ajuste táctico por parte y límite de 3 toques en campo propio (propuesta)."
+ },
+ "adaptacion": "Infantil: 8v8 en 60 × 40 m. Cadete: 9v9 en 70 × 45 m. Alevín: 6v6 en 45 × 30 m.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P. 2 P.G. SIMPLE",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 52"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): aplicación con dos porterías grandes sin objetivos específicos, para que se plasme todo lo que se pretende de los equipos y sean los jugadores quienes hablen y corrijan. (propuesta): 8v8, medidas, formato por partes, puntuación, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 64,
+   "ymin": -2.6,
+   "ymax": 42.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 39,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 39,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     20
+    ],
+    "b": [
+     16,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     8
+    ],
+    "b": [
+     30,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     10
+    ],
+    "b": [
+     36,
+     20
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ]
+ }
+}

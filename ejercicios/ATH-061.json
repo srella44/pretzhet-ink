@@ -1,0 +1,174 @@
+{
+ "id": "ATH-061",
+ "bloque": "Técnica y duelos",
+ "titulo": "Controles orientados 4v4",
+ "formato": "4v4 + 4 puertas",
+ "edad": "10–12 años",
+ "nivel": "Normal",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "14 min",
+ "series": "4 × 3 min con 1 min de descanso; cada serie, una superficie de control obligatoria (propuesta).",
+ "objetivo": "Orientar el control hacia el espacio dejando el balón listo para jugarse, desde pases con diferentes trayectorias y con distintas superficies. Cómo explicarlo: «controla hacia donde vas a jugar». Errores típicos: controlar de frente, el balón queda pegado al pie, controlar hacia el defensor. Qué observar: primer toque hacia el espacio libre.",
+ "montaje": "Campo de 30 × 24 m con 4 puertas de conos de 2 m dentro. 4 amarillos contra 4 azules.",
+ "juego": "Juego libre 4v4. Se puntúa pasando por una puerta a un compañero que controla al otro lado con la superficie indicada (interior, exterior, planta, muslo), orientado al espacio.",
+ "punto": "Pase por puerta + control orientado: 1 punto. Control y salida por otra puerta con pase: 2.",
+ "consigna": "Controla hacia el espacio, no hacia el rival.",
+ "variantes": {
+  "facil": "Defensores pasivos hasta el primer control y puertas de 3 m (propuesta).",
+  "dificil": "Un solo toque de control más pase y cambio de superficie cada minuto (propuesta)."
+ },
+ "adaptacion": "Alevín: medidas de la ficha. Infantil: 5v5 en 36 × 28 m. Benjamín (8–9): 3v3 en 20 × 16 m con 3 puertas.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "COLECTIVA CONTROLES ORIENTADOS",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 86"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): colectiva que, con diferentes trayectorias y superficies, obliga a orientar el control al espacio dejando el balón en disposición de ser jugado; se añaden porterías por las que hay que pasar o evitar que pase el balón. (propuesta): puertas de conos, nº de jugadores, superficie obligada, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 32.6,
+   "ymin": -2.6,
+   "ymax": 26.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 18,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     12
+    ],
+    "b": [
+     14,
+     5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     5
+    ],
+    "b": [
+     14,
+     19
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     14,
+     19
+    ],
+    "b": [
+     27,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "cones": [
+   [
+    8,
+    5.0
+   ],
+   [
+    8,
+    7.0
+   ],
+   [
+    22,
+    5.0
+   ],
+   [
+    22,
+    7.0
+   ],
+   [
+    8,
+    17.0
+   ],
+   [
+    8,
+    19.0
+   ],
+   [
+    22,
+    17.0
+   ],
+   [
+    22,
+    19.0
+   ]
+  ]
+ }
+}

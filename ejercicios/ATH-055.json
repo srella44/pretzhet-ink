@@ -1,0 +1,230 @@
+{
+ "id": "ATH-055",
+ "bloque": "Técnica y duelos",
+ "titulo": "Ocho porterías pequeñas 8v8",
+ "formato": "8v8",
+ "edad": "12–14 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "50 × 38 m",
+ "duracion": "20 min",
+ "series": "3 × 6 min con 1 min de descanso; cambiad de lado entre series (propuesta).",
+ "objetivo": "Valorar las opciones de llegada: por banda o por dentro en velocidad, diagonales por dentro o a banda, desde la línea delantera, la segunda línea o los laterales. Cómo explicarlo: «cuatro porterías: ¿cuál está libre?». Errores típicos: llegar siempre por el mismo carril, no atacar el segundo palo. Qué observar: variedad de llegadas.",
+ "montaje": "Campo de 50 × 38 m. En cada fondo, 4 porterías pequeñas: 2 exteriores (a 5 y 33 m de la banda) y 2 interiores (a 15 y 23 m). 8v8, sin porteros.",
+ "juego": "Partido 8v8. En las porterías interiores se marca con los toques que se quiera; en las exteriores, solo al primer toque.",
+ "punto": "Gol interior: 1 punto. Gol exterior al primer toque: 2. Gana quien más sume tras 3 series.",
+ "consigna": "Busca la llegada libre y finaliza sin pensar.",
+ "variantes": {
+  "facil": "Sin límite de toques en las porterías exteriores (propuesta).",
+  "dificil": "Interiores solo tras 3 pases y exteriores tras centro desde banda (propuesta)."
+ },
+ "adaptacion": "Infantil: medidas de la ficha. Cadete: 55 × 40 m. Alevín: 6v6 en 40 × 30 m.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P. 8 P.P. SIMPLE",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 75"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): 4 porterías pequeñas por lado para valorar opciones de llegada (banda o dentro, diagonales, desde la línea delantera, la segunda línea o los laterales); goles libres de toque en las de dentro y al primer toque en las de fuera. (propuesta): medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   38
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -2.8,
+   "ymax": 40.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 19,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 33,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 46,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 33,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     19
+    ],
+    "b": [
+     14,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     8
+    ],
+    "b": [
+     30,
+     8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     8
+    ],
+    "b": [
+     50,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "goals": [
+   [
+    0,
+    5,
+    "L"
+   ],
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    0,
+    23,
+    "L"
+   ],
+   [
+    0,
+    33,
+    "L"
+   ],
+   [
+    50,
+    5,
+    "R"
+   ],
+   [
+    50,
+    15,
+    "R"
+   ],
+   [
+    50,
+    23,
+    "R"
+   ],
+   [
+    50,
+    33,
+    "R"
+   ]
+  ]
+ }
+}

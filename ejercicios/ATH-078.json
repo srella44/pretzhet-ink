@@ -1,0 +1,143 @@
+{
+ "id": "ATH-078",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Llegadas por pase interior",
+ "formato": "4+1v3+P",
+ "edad": "12–14 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "45 × 40 m",
+ "duracion": "15 min",
+ "series": "4 × 3 min con 1 min de descanso; rotad delanteros y defensores (propuesta).",
+ "objetivo": "Movimiento de los delanteros ante una oposición pasiva que se activa al recibir: 1) desmarque a la espalda y balón por arriba, con control y tiro; 2) desmarque por delante del central, aprovechando los pasillos interiores y orientándose bien. Cómo explicarlo: «espalda o pie, según lo que haga el central». Errores típicos: desmarque tarde, control sin orientar.",
+ "montaje": "Medio campo de 45 × 40 m, portería grande y portero. Pasador (A) con balón, 2 delanteros, 1 apoyo y 3 defensores (D) pasivos hasta que el delantero recibe.",
+ "juego": "1ª: un delantero se desmarca a la espalda, recibe por arriba, controla y tira. 2ª: el otro se desmarca por delante del central, por el pasillo interior, y tira.",
+ "punto": "Gol en la 1ª opción: 2 puntos. En la 2ª: 3.",
+ "consigna": "Mira al central: si se queda, a la espalda; si baja, por delante.",
+ "variantes": {
+  "facil": "Defensores totalmente pasivos y un pasillo libre de 3 m (propuesta).",
+  "dificil": "Defensores activos desde el pase y 2 toques para el delantero (propuesta)."
+ },
+ "adaptacion": "Infantil: medidas de la ficha. Cadete: 50 × 40 m y 4 delanteros. Alevín: no recomendado.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "LLEGADAS CORTAS CON PASES INTERIORES 1",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 114"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): movimiento de los delanteros con dos opciones ante una oposición pasiva que se activa al recibir: desmarque a la espalda con balón por arriba (control y tiro) o por delante del central por los pasillos interiores. (propuesta): nº de jugadores, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   45,
+   40
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 49,
+   "ymin": -2.6,
+   "ymax": 42.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 29,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     20
+    ],
+    "b": [
+     25,
+     11
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     25,
+     11
+    ],
+    "b": [
+     40,
+     10
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     4,
+     20
+    ],
+    "b": [
+     25,
+     29
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "porterias": [
+   {
+    "x": 45,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ]
+ }
+}

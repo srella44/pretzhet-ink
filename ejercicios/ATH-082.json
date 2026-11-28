@@ -1,0 +1,179 @@
+{
+ "id": "ATH-082",
+ "bloque": "Técnica y duelos",
+ "titulo": "Colectiva posicional: banda",
+ "formato": "7v4+2P",
+ "edad": "13–14 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + 2 porteros",
+ "espacio": "55 × 40 m",
+ "duracion": "18 min",
+ "series": "4 × 4 min con 1 min de descanso; rotad lateral, extremo y delantero (propuesta).",
+ "objetivo": "Salir desde portería, circular y buscar banda; tras el movimiento del extremo se crea espacio, recibe, se apoya en el lateral y busca el espacio en banda, para que llegue el balón dentro tras el movimiento del delantero y de la media punta. Insistir en el centro final. Errores típicos: extremo estático, centro sin delantero ni media punta en el área.",
+ "montaje": "Medio campo de 55 × 40 m, portería grande y portero. 7 amarillos (2 centrales, lateral, extremo, 2 interiores, delantero) contra 4 azules.",
+ "juego": "Sale el portero; circulan hacia banda. El extremo abre espacio, recibe, apoya en el lateral y busca la banda. Con delantero y media punta en el área, llega el centro.",
+ "punto": "Remate tras centro: 1 punto. Gol: 3.",
+ "consigna": "Abre espacio con el movimiento y centra con delantero en el área.",
+ "variantes": {
+  "facil": "Defensores azules en 3 y sin presión hasta el centro (propuesta).",
+  "dificil": "5 defensores y límite de 4 pases hasta el centro (propuesta)."
+ },
+ "adaptacion": "Infantil: 55 × 40 m. Cadete: medidas de la ficha. Alevín: no recomendado.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "COLECTIVA POSICIONAL 2",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 120"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): salida desde portería, circulación y banda; el movimiento del extremo crea espacio, recibe, se apoya en el lateral y busca el espacio en banda; el balón llega dentro tras el movimiento del delantero y la media punta; centro final. (propuesta): reparto de jugadores, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   55,
+   40
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 59,
+   "ymin": -2.6,
+   "ymax": 42.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 34,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     12
+    ],
+    "b": [
+     18,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     6
+    ],
+    "b": [
+     28,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     28,
+     12
+    ],
+    "b": [
+     34,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 55,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "balls": [
+   [
+    2.5,
+    22
+   ]
+  ]
+ }
+}

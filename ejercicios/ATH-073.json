@@ -1,0 +1,135 @@
+{
+ "id": "ATH-073",
+ "bloque": "Técnica y duelos",
+ "titulo": "Reflexiva: apoyo y pared",
+ "formato": "3v1 por turnos",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–9 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "15 min",
+ "series": "Cada jugador repite 3 veces cada opción; relevo en posta cada acción (propuesta).",
+ "objetivo": "Tomar decisiones según lo que haga el defensor: apoyo lateral evitando el pase horizontal, desmarque de ruptura si me siguen o pared si se quedan. El defensor tiene dos opciones, seguir o quedarse. Cómo explicarlo: «mira al contrario antes de recibir». Errores típicos: pase horizontal, bajar sin mirar, pared sin atraer.",
+ "montaje": "Zona de 30 × 20 m con portería pequeña al fondo. Pasador (A) con balón, delantero (A) a 12 m, apoyo (A) en banda y defensor (D) pegado al delantero.",
+ "juego": "El delantero baja a recibir. Si el defensor le sigue, se marcha a su espalda y recibe en profundidad. Si se queda, hace pared con el apoyo y tira.",
+ "punto": "Tiro: 1 punto; gol: 2. Si el defensor roba, 1 para él.",
+ "consigna": "Mira al defensor: si te sigue, rompe; si se queda, pared.",
+ "variantes": {
+  "facil": "Defensor pasivo y 2 apoyos disponibles (propuesta).",
+  "dificil": "Defensor activo desde el primer pase y 2 toques máximo (propuesta)."
+ },
+ "adaptacion": "Alevín: medidas de la ficha. Infantil: 25 × 18 m y dos defensores. Benjamín: no recomendado.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "REFLEXIVA 3",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 101"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): tres opciones de juego: 1) apoyo lateral evitando pase horizontal, 2) bajo a recibir, si me sigue me marcho y pase en profundidad, 3) bajo a recibir, si se queda juego pared con el apoyo; defensa con dos opciones (se queda o sigue); posta. (propuesta): nº de jugadores, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 34,
+   "ymin": -2.6,
+   "ymax": 22.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     12
+    ],
+    "b": [
+     16,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     12
+    ],
+    "b": [
+     13,
+     4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     13,
+     4
+    ],
+    "b": [
+     16,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "goals": [
+   [
+    30,
+    10,
+    "R"
+   ]
+  ]
+ }
+}

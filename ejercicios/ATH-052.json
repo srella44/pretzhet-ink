@@ -1,0 +1,196 @@
+{
+ "id": "ATH-052",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tres porterías interiores 6v6",
+ "formato": "6v6",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug.",
+ "espacio": "44 × 32 m",
+ "duracion": "18 min",
+ "series": "3 × 5 min con 1 min de descanso; cambio de equipos entre series (propuesta).",
+ "objetivo": "Lo trabajado antes sirve aquí, pero con las porterías laterales más hacia dentro: el equipo que defiende debe adelantar la línea de atrás y presionar en medio campo, donde el rival puede hacer más daño. Cómo explicarlo: «la portería está en el centro; el centro es de todos». Errores típicos: línea baja, dejar espacio entre medios y defensas.",
+ "montaje": "Campo de 44 × 32 m. En cada fondo, 3 porterías pequeñas juntas en el centro (a 10, 16 y 22 m de la banda). 6v6, sin porteros.",
+ "juego": "Partido 6v6. Con las porterías en el centro, el que defiende adelanta la línea y cierra los pasillos interiores. Se marca en cualquiera de las 3.",
+ "punto": "Gol central: 1 punto. En las otras: 2. Gol tras robo en campo rival: 3. Gana quien más sume.",
+ "consigna": "Adelanta la línea y presiona dentro.",
+ "variantes": {
+  "facil": "Defensores sin presión en el primer minuto de cada serie (propuesta).",
+  "dificil": "Prohibir pase atrás al propio portero imaginario y gol al primer toque (propuesta)."
+ },
+ "adaptacion": "Alevín: 5v5 en 36 × 26 m. Infantil: medidas de la ficha. Cadete: 7v7 en 50 × 36 m.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P.4 P.P. 3 P.P. INTERIORES",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 71"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): todo lo dicho en los ejercicios anteriores es aplicable; las porterías laterales se meten más dentro para que el equipo defensor adelante la línea y presione en medio campo. (propuesta): 3 porterías centrales por fondo, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   44,
+   32
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 48,
+   "ymin": -2.8,
+   "ymax": 34.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     16
+    ],
+    "b": [
+     14,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     7
+    ],
+    "b": [
+     22,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     12
+    ],
+    "b": [
+     44,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    0,
+    16,
+    "L"
+   ],
+   [
+    0,
+    22,
+    "L"
+   ],
+   [
+    44,
+    10,
+    "R"
+   ],
+   [
+    44,
+    16,
+    "R"
+   ],
+   [
+    44,
+    22,
+    "R"
+   ]
+  ]
+ }
+}

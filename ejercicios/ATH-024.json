@@ -1,0 +1,212 @@
+{
+ "id": "ATH-024",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tres estilos de juego 6v6",
+ "formato": "6v6",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 6",
+ "espacio": "50 × 36 m",
+ "duracion": "20 min",
+ "series": "Rotación de 3 equipos: juegan 2 equipos 6 min y el tercero espera; el perdedor cede su sitio. 3 turnos cada uno (propuesta).",
+ "objetivo": "Comparar formas de jugar: cada equipo tiene sus posiciones y objetivos al atacar y al defender, y se ve qué alternativas ofrecen. Cómo explicarlo: «tu equipo juega así y el rival, de otra manera». Errores típicos: olvidar la consigna de estilo, centrar sin llegada al área. Qué observar: coordinación de bandas, interiores y delanteros.",
+ "montaje": "Campo de 50 × 36 m, portería grande y portero en cada fondo. Tres equipos de 6: amarillo (por banda), azul (por dentro) y uno que espera. Pasillos de banda de 7 m.",
+ "juego": "Juegan 2 equipos 6v6: amarillo debe centrar desde banda y azul finalizar tras pase interior. Cada 6 min entra el que esperaba.",
+ "punto": "Gol con el estilo propio: 2 puntos; de otra forma: 1.",
+ "consigna": "Juega a tu estilo y reconoce el del rival.",
+ "variantes": {
+  "facil": "Dejar los estilos libres y puntuar el gol por igual (propuesta).",
+  "dificil": "Cambiar los estilos al intercambiar de lado cada 3 min y limitar a 3 toques (propuesta)."
+ },
+ "adaptacion": "Infantil: 50 × 36 m. Cadete: 60 × 40 m y 8v8. Alevín: no recomendado.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "JUEGO CORTO 6/6 ESTILO DE JUEGO",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 36"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): tres equipos con formas de juego distintas, posiciones y objetivos concretos al atacar y defender, con finalizaciones por banda y hacia dentro. (propuesta): estilos asignados, medidas, rotación, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -2.6,
+   "ymax": 38.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 18,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     18
+    ],
+    "b": [
+     14,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     6
+    ],
+    "b": [
+     34,
+     5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     34,
+     5
+    ],
+    "b": [
+     30,
+     18
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 18,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 18,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     0,
+     7
+    ],
+    [
+     50,
+     7
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     29
+    ],
+    [
+     50,
+     29
+    ],
+    "6 5"
+   ]
+  ],
+  "labels": [
+   [
+    25,
+    -0.9,
+    "PASILLO DE BANDA",
+    "middle"
+   ]
+  ]
+ }
+}

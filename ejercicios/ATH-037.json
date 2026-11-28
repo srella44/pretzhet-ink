@@ -1,0 +1,214 @@
+{
+ "id": "ATH-037",
+ "bloque": "Técnica y duelos",
+ "titulo": "Tres puertas interiores 6v6",
+ "formato": "6v6+2P",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 porteros",
+ "espacio": "60 × 40 m",
+ "duracion": "18 min",
+ "series": "3 × 5 min con 1 min de descanso; cambia el equipo que defiende (propuesta).",
+ "objetivo": "Obligar al equipo que defiende a adelantar la línea de atrás y presionar en medio campo, donde el rival hace más daño; trabajar reparto de zonas, ayudas y equilibrio entre líneas. Cómo explicarlo: «subid juntos, la línea no se queda atrás». Errores típicos: línea defensiva baja, huecos entre líneas. Qué observar: coordinación de las ayudas.",
+ "montaje": "Campo de 60 × 40 m, portería grande y portero en cada fondo. En medio campo, 3 puertas de conos de 2 m. 6v6.",
+ "juego": "Para tirar a portería, un equipo debe pasar el balón por una puerta a un compañero que lo controle al otro lado. Quien defiende presiona en medio campo.",
+ "punto": "Pase por puerta controlado: 1 punto. Gol después: 2 más. Sin puerta, no vale.",
+ "consigna": "Sube la línea y cierra las puertas con ayudas.",
+ "variantes": {
+  "facil": "Una puerta menos y gol válido sin pasar por puerta (propuesta).",
+  "dificil": "Puertas de 1,5 m y 3 toques máximo en campo rival (propuesta)."
+ },
+ "adaptacion": "Infantil: medidas de la ficha. Cadete: 7v7 y 65 × 42 m. Alevín: 5v5 en 45 × 30 m con 2 puertas.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P. 2 P.G. 3 P.P. INTERIORES",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 54"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): dos porterías grandes y tres porterías interiores para obligar al defensor a adelantar la línea y presionar en medio campo; objetivo: reparto de zonas, ayudas y equilibrio entre líneas. (propuesta): puertas de conos, regla de paso, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 64,
+   "ymin": -2.6,
+   "ymax": 42.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 36,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     20
+    ],
+    "b": [
+     15,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     22,
+     14
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     26,
+     20
+    ],
+    "b": [
+     33,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "cones": [
+   [
+    30,
+    7.0
+   ],
+   [
+    30,
+    9.0
+   ],
+   [
+    30,
+    19.0
+   ],
+   [
+    30,
+    21.0
+   ],
+   [
+    30,
+    31.0
+   ],
+   [
+    30,
+    33.0
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "labels": [
+   [
+    30,
+    -0.9,
+    "3 PUERTAS",
+    "middle"
+   ]
+  ]
+ }
+}

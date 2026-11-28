@@ -1,0 +1,222 @@
+{
+ "id": "ATH-039",
+ "bloque": "Técnica y duelos",
+ "titulo": "Puertas laterales y central",
+ "formato": "6v6+2P",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "12 jug. + 2 porteros",
+ "espacio": "60 × 40 m",
+ "duracion": "18 min",
+ "series": "3 × 5 min con 1 min de descanso; se cambian los defensores interiores entre series (propuesta).",
+ "objetivo": "Equilibrar el equipo y compensar con rigor por dentro: los de dentro ya no ayudan libremente, deben fortalecer el centro para que el rival no haga daño. Cómo explicarlo: «cerrad el centro, ayudad al lado». Errores típicos: defensores interiores que salen y dejan la puerta central, laterales sin cobertura. Qué observar: compensaciones y comunicación.",
+ "montaje": "Campo de 60 × 40 m, portería grande y portero en cada fondo. 4 puertas de conos (2 m) junto a las bandas, a 18 y 42 m del fondo, y 1 puerta central en medio campo. 6v6.",
+ "juego": "Se pasa por las puertas a un compañero que controle al otro lado. Los defensores interiores cubren la puerta central antes de ayudar a los laterales.",
+ "punto": "Puerta lateral: 1 punto. Puerta central: 3. Gol: 5.",
+ "consigna": "Cierra el centro y compensa al compañero que sale.",
+ "variantes": {
+  "facil": "Quitar la puerta central y dejar que los interiores ayuden libremente (propuesta).",
+  "dificil": "Puertas de 1,5 m y prohibir dos pases seguidos por la misma puerta (propuesta)."
+ },
+ "adaptacion": "Infantil: medidas de la ficha. Cadete: 7v7 y 65 × 42 m. Alevín: 5v5 en 45 × 30 m con 2 puertas laterales y 1 central.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P. 2 P.G. 4 P.P. LATERALES + 1 P.P. INTERIOR",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 56"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): igual que el ejercicio anterior pero los hombres de dentro ya no ayudan libremente: deben equilibrar y compensar por dentro; 4 porterías laterales y 1 interior. (propuesta): puertas de conos, valor de cada una, medidas, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 64,
+   "ymin": -2.6,
+   "ymax": 42.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 20,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 44,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 38,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 34,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     20
+    ],
+    "b": [
+     16,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     12
+    ],
+    "b": [
+     18,
+     7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     24,
+     20
+    ],
+    "b": [
+     33,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "cones": [
+   [
+    18,
+    6.0
+   ],
+   [
+    18,
+    8.0
+   ],
+   [
+    42,
+    6.0
+   ],
+   [
+    42,
+    8.0
+   ],
+   [
+    18,
+    32.0
+   ],
+   [
+    18,
+    34.0
+   ],
+   [
+    42,
+    32.0
+   ],
+   [
+    42,
+    34.0
+   ],
+   [
+    30,
+    19.0
+   ],
+   [
+    30,
+    21.0
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20.0,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20.0,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ]
+ }
+}

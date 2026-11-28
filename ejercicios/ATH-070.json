@@ -1,0 +1,179 @@
+{
+ "id": "ATH-070",
+ "bloque": "Técnica y duelos",
+ "titulo": "Colectiva posicional: salida",
+ "formato": "6v5+2P",
+ "edad": "13–14 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug. + 2 porteros",
+ "espacio": "55 × 40 m",
+ "duracion": "18 min",
+ "series": "4 × 4 min con 1 min de descanso; rotad los puestos entre series (propuesta).",
+ "objetivo": "Trabajar las acciones propias de cada posición: salida de balón por dentro de los centrales, orientaciones, controles, pases y decisiones de los de dentro, movimientos del delantero en profundidad, circulación desde la defensa y juego interior hacia el desmarque de apoyo del delantero. Errores típicos: salir por fuera sin necesidad, pase al pie del rival, no ofrecer apoyo. Qué observar: soporte de los medios.",
+ "montaje": "Campo de 55 × 40 m, portería grande y portero en cada fondo. 6 amarillos (2 centrales, pivote, 2 interiores, delantero) contra 5 azules.",
+ "juego": "Sale el portero a un central; sacan por dentro, el pivote apoya, los interiores reciben orientados y el delantero se desmarca en profundidad. Los azules presionan.",
+ "punto": "Pase interior al delantero y tiro: 1 punto. Gol: 3.",
+ "consigna": "Sal por dentro y busca el pase al delantero en profundidad.",
+ "variantes": {
+  "facil": "Presión rival pasiva hasta el segundo pase (propuesta).",
+  "dificil": "Un azul más y límite de 3 toques para todos (propuesta)."
+ },
+ "adaptacion": "Infantil: 55 × 40 m. Cadete: medidas de la ficha. Alevín: no recomendado.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "COLECTIVA POSICIONAL 2",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 96"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): acciones propias de cada posición: salida por dentro de los centrales, orientaciones, controles, pases y decisiones de los de dentro, desmarque de profundidad del delantero, circulación desde defensa y juego interior al apoyo del delantero. (propuesta): reparto de jugadores, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   55,
+   40
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 59,
+   "ymin": -2.6,
+   "ymax": 42.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     20
+    ],
+    "b": [
+     10,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     13
+    ],
+    "b": [
+     22,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     22,
+     20
+    ],
+    "b": [
+     38,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 55,
+    "y": 20,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "balls": [
+   [
+    2.5,
+    22
+   ]
+  ]
+ }
+}

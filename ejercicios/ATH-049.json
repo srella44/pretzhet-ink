@@ -1,0 +1,222 @@
+{
+ "id": "ATH-049",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cuadrantes con 4 porterías",
+ "formato": "7v7",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug.",
+ "espacio": "44 × 32 m",
+ "duracion": "18 min",
+ "series": "3 × 5 min con 1 min de descanso; cambiad las parejas de porterías entre series (propuesta).",
+ "objetivo": "Unir posesión y finalización con porterías pequeñas: más control del juego, circulación y basculación defensiva. Cómo explicarlo: «reparte jugadores por los cuatro cuadrantes». Errores típicos: amontonarse en un cuadrante, defensas sin bascular, tiros forzados. Qué observar: ocupación equilibrada y velocidad al cambiar de lado.",
+ "montaje": "Campo de 44 × 32 m en 4 cuadrantes de 22 × 16 m con conos. En cada fondo, 2 porterías pequeñas. 7v7, sin porteros.",
+ "juego": "Partido 7v7. Cada equipo puede tener como máximo 3 jugadores en el mismo cuadrante; si hay 4, pierde el balón. Así reparten y basculan.",
+ "punto": "Gol: 1 punto. Gol tras pasar el balón por los 4 cuadrantes: 2.",
+ "consigna": "Reparte por cuadrantes y basculad juntos.",
+ "variantes": {
+  "facil": "Máximo 4 jugadores por cuadrante y sin la regla de los 4 cuadrantes (propuesta).",
+  "dificil": "Máximo 2 por cuadrante y 2 toques (propuesta)."
+ },
+ "adaptacion": "Alevín: 6v6 en 36 × 26 m. Infantil: medidas de la ficha. Cadete: 8v8 en 52 × 36 m.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P. 4 P.P. CUADRANTE (7/7 - 8/8 - 9/9)",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 68"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): cuadrante con 4 porterías pequeñas que reúne posesión y finalización, da mayor control del juego y trabaja circulación y basculación defensiva (7/7, 8/8 y 9/9). (propuesta): regla de máximo por cuadrante, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   44,
+   32
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 48,
+   "ymin": -2.8,
+   "ymax": 34.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 41,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 41,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 33,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 16,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     10
+    ],
+    "b": [
+     16,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     6
+    ],
+    "b": [
+     30,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     22
+    ],
+    "b": [
+     44,
+     22
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "goals": [
+   [
+    0,
+    10,
+    "L"
+   ],
+   [
+    0,
+    22,
+    "L"
+   ],
+   [
+    44,
+    10,
+    "R"
+   ],
+   [
+    44,
+    22,
+    "R"
+   ]
+  ],
+  "lines": [
+   [
+    [
+     22,
+     0
+    ],
+    [
+     22,
+     32
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     16
+    ],
+    [
+     44,
+     16
+    ],
+    "6 5"
+   ]
+  ]
+ }
+}

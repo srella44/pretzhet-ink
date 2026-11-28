@@ -1,0 +1,152 @@
+{
+ "id": "ATH-067",
+ "bloque": "Técnica y duelos",
+ "titulo": "Dominio del espacio 4v4+2",
+ "formato": "4v4+2",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso; cambia el equipo que ataca primero (propuesta).",
+ "objetivo": "Dominar el espacio y la situación respecto al balón y al compañero: circular rápido, apoyar y hacer pared, conducir atrayendo al contrario y jugar al espacio; trabajar el pase corto, medio y largo, siempre con ventaja para el compañero. Errores típicos: pase al pie con el rival encima, conducir sin atraer. Qué observar: pase que da ventaja.",
+ "montaje": "Campo de 35 × 25 m. 4 amarillos contra 4 azules. 2 comodines (C) neutrales, uno por fondo, fuera.",
+ "juego": "Cada equipo lleva el balón al comodín de su fondo, que devuelve. Se puntúa con pared, conducción que atrae al rival y pase al espacio, o cambio largo de más de 20 m.",
+ "punto": "Pared que supera a un rival: 1 punto. Conducción y pase al espacio: 2. Cambio largo al libre: 3.",
+ "consigna": "Atrae al rival y juega al espacio con ventaja para el compañero.",
+ "variantes": {
+  "facil": "Sin comodines y defensores a 1 m de distancia hasta que el atacante recibe (propuesta).",
+  "dificil": "Un toque tras cada pase y el cambio largo obligatorio en cada ataque (propuesta)."
+ },
+ "adaptacion": "Alevín: 30 × 22 m. Infantil: medidas de la ficha. Cadete: 5v5 en 40 × 28 m.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "COLECTIVA DOMINIO DEL ESPACIO",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 92"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): colectiva para dominar el espacio y la situación respecto al balón y al compañero: circulación rápida, apoyo y pared con búsqueda del espacio, conducción atrayendo al contrario y pase corto, medio y largo con ventaja para el compañero. (propuesta): comodines de fondo, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -4.4,
+   "xmax": 39.4,
+   "ymin": -2.6,
+   "ymax": 27.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 26,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -1.8,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 36.8,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     9
+    ],
+    "b": [
+     10,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     22
+    ],
+    "b": [
+     17,
+     7
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     7
+    ],
+    "b": [
+     36.8,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ]
+ }
+}

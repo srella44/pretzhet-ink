@@ -1,0 +1,212 @@
+{
+ "id": "ATH-030",
+ "bloque": "Técnica y duelos",
+ "titulo": "Zonas de banda 7v7",
+ "formato": "7v7+2P",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug. + 2 porteros",
+ "espacio": "50 × 32 m",
+ "duracion": "18 min",
+ "series": "3 × 5 min con 1 min de descanso; se intercambian las zonas de banda entre series (propuesta).",
+ "objetivo": "Valorar alternativas de juego según el rival esté organizado o no, usando el espacio como objetivo: control, juego y profundidad. Cómo explicarlo: «si está desorganizado, voy; si está organizado, circulo». Errores típicos: entrar a la zona sin superar al par, no cambiar de lado. Qué observar: lectura de la organización rival.",
+ "montaje": "Campo de 50 × 32 m, portería grande y portero en cada fondo. 7v7. Dos zonas sombreadas de 12 × 8 m: una en la esquina superior derecha (amarillos) y otra en la inferior izquierda (azules).",
+ "juego": "Cada equipo solo entra en su zona con balón dominado y en ataque, superando a su par; los defensores no pueden entrar.",
+ "punto": "Gol normal: 1 punto. Gol tras pasar por la zona: 2.",
+ "consigna": "Si el rival está organizado, circula; si no, entra rápido.",
+ "variantes": {
+  "facil": "Zonas más grandes (14 × 10 m) y defensores sin presión dentro de ellas (propuesta).",
+  "dificil": "Prohibir pasar atrás desde la zona y limitar a 2 toques fuera de ella (propuesta)."
+ },
+ "adaptacion": "Infantil: medidas de la ficha. Cadete: 60 × 40 m y 8v8. Alevín: 6v6 en 40 × 28 m.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P. 2 P.G. ZONAS 1- CONTROL, JUEGO, PROFUNDIDAD",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 46"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): campo con dos zonas sombreadas en las que solo se puede entrar en ataque, sorprendiendo con velocidad, habilidad o regate al espacio; se valoran las alternativas según el rival esté organizado o no. (propuesta): posición y medida de las zonas, nº de jugadores, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   32
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -2.6,
+   "ymax": 34.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 20,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 40,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 26,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     16
+    ],
+    "b": [
+     14,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     6
+    ],
+    "b": [
+     44,
+     4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     44,
+     4
+    ],
+    "b": [
+     36,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 16,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 50,
+    "y": 16,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     38,
+     0,
+     50,
+     8
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     24,
+     12,
+     32
+    ]
+   }
+  ]
+ }
+}

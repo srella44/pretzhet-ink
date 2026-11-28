@@ -1,0 +1,197 @@
+{
+ "id": "ATH-042",
+ "bloque": "Técnica y duelos",
+ "titulo": "Trabajo por líneas 7v7",
+ "formato": "7v7+2P",
+ "edad": "12–14 años",
+ "nivel": "Medio",
+ "jugadores": "14 jug. + 2 porteros",
+ "espacio": "60 × 40 m",
+ "duracion": "20 min",
+ "series": "4 × 4 min con 1 min de descanso; el portero inicia siempre sacando arriba (propuesta).",
+ "objetivo": "Repartir tareas por líneas con inicio sacando arriba: centrales (disputa y coberturas), laterales (coberturas, caídas y salida), medios (disputas, caídas y distribución con sentido sin perder). Cómo explicarlo: «cada línea tiene su trabajo». Errores típicos: líneas partidas, centrales sin cobertura. Qué observar: distancias entre líneas.",
+ "montaje": "Campo de 60 × 40 m, portería grande y portero en cada fondo. 7v7 (2 centrales, 2 laterales, 2 medios, 1 delantero). El portero amarillo tiene el balón.",
+ "juego": "Saca el portero arriba a un central o lateral. Centrales disputan y cubren; laterales cubren, caen o salen; medios disputan y distribuyen sin perder.",
+ "punto": "Gol: 2 puntos. Robo y pase a otra línea: 1. 4 bloques.",
+ "consigna": "Cada línea hace su trabajo y las líneas, juntas.",
+ "variantes": {
+  "facil": "Sin delantero rival en la primera mitad de la serie, para facilitar la salida (propuesta).",
+  "dificil": "Presión alta de los delanteros rivales y límite de 3 toques para los medios (propuesta)."
+ },
+ "adaptacion": "Infantil: 7v7 en 55 × 38 m. Cadete: 60 × 40 m y 8v8. Alevín: no recomendado.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P. 2 P.G. LÍNEAS",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 59"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): trabajo por líneas con inicio de juego sacando arriba; reparto de tareas de centrales, laterales y medios centros. (propuesta): formación 2-2-2-1, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   60,
+   40
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 64,
+   "ymin": -2.6,
+   "ymax": 42.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 13,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 36,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 47,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 47,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 45,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 45,
+    "y": 36,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.5,
+     20
+    ],
+    "b": [
+     13,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     13
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     25,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 20.0,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 60,
+    "y": 20.0,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "balls": [
+   [
+    2.5,
+    22
+   ]
+  ]
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "id": "ATH-084",
+ "bloque": "Técnica y duelos",
+ "titulo": "Llegadas cortas con oposición",
+ "formato": "2v1 + portero",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "5–6 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "12 min",
+ "series": "4 rondas de 3 min con 1 min de descanso; rotar los puestos (propuesta).",
+ "objetivo": "Resolver el 2 contra 1 o la ventaja del delantero: opción directa de tiro en ventaja, o elegir entre tiro y pase al acompañante, con atención al fuera de juego del compañero. Cómo explicarlo: «si el defensor viene a ti, pasa; si se queda, tira». Errores típicos: pasar tarde, fuera de juego, tiro sin mirar al portero.",
+ "montaje": "Zona de 30 × 30 m, portería grande y portero. Mediocentro (A) con balón, delantero (A) a 13 m, acompañante (A) a 6 m y defensor (D) 4 m detrás del delantero.",
+ "juego": "Pase al delantero, que gira y tira. Si el defensor sale, pasa al acompañante (sin fuera de juego). Al acabar, rotan.",
+ "punto": "Gol en ventaja: 1 punto. Tras pase: 2. Parada o robo: 1 defensa.",
+ "consigna": "Si te cierran, pasa; si no, tira rápido y colocado.",
+ "variantes": {
+  "facil": "Defensor a 6 m detrás del delantero y sin límite de toques (propuesta).",
+  "dificil": "Defensor a 2 m y fuera de juego estricto con línea marcada (propuesta)."
+ },
+ "adaptacion": "Alevín: 25 × 25 m. Infantil: medidas de la ficha. Cadete: 3v2 con portero.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "LLEGADAS CORTAS CON OPOSICIÓN 2",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 124"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): siempre se parte con la ventaja del delantero o con opciones de 2/1: 1) opción más directa de tiro en ventaja, 2) opciones de tiro o de pase; cuidado con el fuera de juego del jugador que acompaña. (propuesta): distancias, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 34,
+   "ymin": -2.6,
+   "ymax": 32.6
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 24,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     22
+    ],
+    "b": [
+     16,
+     22
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     22
+    ],
+    "b": [
+     14,
+     10
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     14,
+     10
+    ],
+    "b": [
+     30,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "porterias": [
+   {
+    "x": 30,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ]
+ }
+}

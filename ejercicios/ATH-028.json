@@ -1,0 +1,188 @@
+{
+ "id": "ATH-028",
+ "bloque": "Técnica y duelos",
+ "titulo": "Cabeza 4v4 con comodines",
+ "formato": "4v4+6",
+ "edad": "11–13 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug.",
+ "espacio": "36 × 28 m",
+ "duracion": "15 min",
+ "series": "3 × 4 min con 1 min de descanso; cambio de comodines entre series (propuesta).",
+ "objetivo": "Buscar superioridad desde los laterales y variar las llegadas, manteniendo los duelos y marcajes individuales por dentro. Cómo explicarlo: «dentro, uno contra uno; fuera, superioridad». Errores típicos: soltar al par para ayudar, no abrir al comodín lateral. Qué observar: marcaje pegado al par y velocidad del cambio de lado.",
+ "montaje": "Campo de 36 × 28 m. 4v4 con marcaje individual. 4 comodines fuera (2 por banda larga) y 2 comodines (C), uno por fondo.",
+ "juego": "El equipo con balón usa los comodines laterales (2 toques, no entran) y busca el pase al comodín del fondo contrario, que controla y devuelve.",
+ "punto": "Pase al comodín de fondo controlado: 1 punto. Gol posterior: 2.",
+ "consigna": "Marca a tu par y busca el lateral libre.",
+ "variantes": {
+  "facil": "Marcaje por zonas y comodines laterales a 3 toques (propuesta).",
+  "dificil": "Solo 1 comodín por banda y gol obligatorio tras un pase interior (propuesta)."
+ },
+ "adaptacion": "Alevín: 4v4 en 30 × 24 m. Infantil: medidas de la ficha. Cadete: añade un quinto jugador por equipo.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "JUEGO CABEZA 4/4 + 4 COMODINES EXT. + 2 COMODINES",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 41"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): variante del juego de cabeza con 4 comodines exteriores laterales y 2 comodines, para buscar superioridad desde el lateral y distintas llegadas, manteniendo duelos y marcajes individuales por dentro. (propuesta): papel exacto de los comodines de cabeza, medidas, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   36,
+   28
+  ],
+  "extent": {
+   "xmin": -3.4,
+   "xmax": 39.4,
+   "ymin": -3.4,
+   "ymax": 31.4
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 23,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": -1.6,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 29.6,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 27,
+    "y": 29.6,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 1.5,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 34.5,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     11
+    ],
+    "b": [
+     11,
+     -1.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     -1.6
+    ],
+    "b": [
+     17,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     16
+    ],
+    "b": [
+     34.5,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "goals": [
+   [
+    0,
+    14,
+    "L"
+   ],
+   [
+    36,
+    14,
+    "R"
+   ]
+  ]
+ }
+}

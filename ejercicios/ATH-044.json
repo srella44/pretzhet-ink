@@ -1,0 +1,208 @@
+{
+ "id": "ATH-044",
+ "bloque": "Técnica y duelos",
+ "titulo": "Seis porterías pequeñas 7v7",
+ "formato": "7v7",
+ "edad": "12–13 años",
+ "nivel": "Normal",
+ "jugadores": "14 jug.",
+ "espacio": "50 × 36 m",
+ "duracion": "18 min",
+ "series": "3 × 5 min con 1 min de descanso; cambiad los equipos entre series (propuesta).",
+ "objetivo": "Plantear aplicación táctica con varias opciones de profundidad gracias a las tres porterías, para sorprender al contrario; el defensor debe prever esas alternativas y buscar soluciones. Cómo explicarlo: «miro las tres porterías y elijo la más libre». Errores típicos: atacar siempre a la misma portería, defensas fijas.",
+ "montaje": "Campo de 50 × 36 m. En cada fondo, 3 porterías pequeñas (a 7, 18 y 29 m de la banda), sin porteros. 7 amarillos contra 7 azules.",
+ "juego": "Partido 7v7: cada equipo defiende 3 porterías y ataca las 3 contrarias, eligiendo la más libre.",
+ "punto": "Gol en portería central: 1 punto. En lateral: 2. Gana quien más sume tras 3 series.",
+ "consigna": "Mira las tres porterías y ataca la desprotegida.",
+ "variantes": {
+  "facil": "Dos porterías por fondo y sin límite de toques (propuesta).",
+  "dificil": "Gol solo al primer toque y 4 porterías por fondo (propuesta)."
+ },
+ "adaptacion": "Alevín: 6v6 en 40 × 30 m. Infantil: medidas de la ficha. Cadete: 8v8 en 60 × 40 m.",
+ "fuente": {
+  "autor": "Athletic Club Lezama 2005",
+  "titulo_original": "P. 6 P.P. SIMPLE",
+  "ref": "Manual-de-ejercicios-athleticclub-futbol.pdf · p. 62"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (texto cortado, sin PDF): aplicación táctica con tres porterías pequeñas por equipo, para que el atacante valore la mejor alternativa y el defensor busque soluciones. (propuesta): nº de jugadores, posición de las porterías, puntos, series, variantes y adaptación.",
+ "diagrama": {
+  "field": [
+   50,
+   36
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 54,
+   "ymin": -2.8,
+   "ymax": 38.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 42,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 37,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 31,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 32,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     18
+    ],
+    "b": [
+     15,
+     8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     30,
+     6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 9,
+    "s1": 9,
+    "n": 2
+   },
+   {
+    "a": [
+     30,
+     6
+    ],
+    "b": [
+     50,
+     29
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 9,
+    "s1": 9,
+    "n": 3
+   }
+  ],
+  "goals": [
+   [
+    0,
+    7,
+    "L"
+   ],
+   [
+    0,
+    18,
+    "L"
+   ],
+   [
+    0,
+    29,
+    "L"
+   ],
+   [
+    50,
+    7,
+    "R"
+   ],
+   [
+    50,
+    18,
+    "R"
+   ],
+   [
+    50,
+    29,
+    "R"
+   ]
+  ]
+ }
+}
