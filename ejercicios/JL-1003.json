@@ -1,0 +1,137 @@
+{
+ "id": "JL-1003",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v1 tiro y rechace",
+ "formato": "4v1",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa y cambio de portero (propuesta).",
+ "objetivo": "Que el portero practique el rechace: sacar el balón de la zona de peligro con las manos o los puños cuando no puede blocarlo. Puntos de coaching: posición base, golpear con la palma o el puño firme hacia los lados, recuperar y colocarse. Errores típicos: rechazar al centro, quedarse en el suelo. Atacantes: tiro raso y duro tras 3 pases.",
+ "montaje": "Cuadrado de 20 × 20 m con portería de 7 m. Cuatro atacantes con balón: dos en las esquinas del fondo opuesto y dos en los lados. Portero en la portería.",
+ "juego": "Los atacantes se pasan el balón y tiran antes del 4.º pase. El portero debe evitar el gol con un rechace; si rechaza, pueden volver a tirar.",
+ "punto": "Gol = 1 punto para los atacantes; rechace correcto = 1 punto para el portero. El portero rota cada 2 min.",
+ "consigna": "Rechaza lejos y recoloca.",
+ "variantes": {
+  "facil": "Portería de 8 m y primer tiro sin presión de tiempo (propuesta).",
+  "dificil": "Tirar antes del 3.er pase y balones de rebote que se juegan a un toque."
+ },
+ "adaptacion": "Alevín: 15 × 15 m, portería de 5 m. Cadete: 25 × 20 m con tiro desde 15 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:1 | entrada 1003",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 214 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el rechace', PDF del proyecto): 4:1, 20 × 20 m, una portería de 7 m, los atacantes situados dos en las esquinas del cuadrado se pasan el balón y tiran antes del 4.º pase, el portero evita el gol mediante un rechace, 5 × 2 min. (propuesta): ubicación de los otros dos atacantes, puntos, rotación, desarrollo técnico, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.4,
+   "ymax": 21.4
+  },
+  "tag": "20 × 20 m",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 1.8,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 18.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 17.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     18.2,
+     2.4
+    ],
+    "b": [
+     10.8,
+     3.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     10,
+     3.4
+    ],
+    "b": [
+     10,
+     16.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     10.7,
+     16.9
+    ],
+    "b": [
+     1.6,
+     11.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    18.5,
+    20.9,
+    "ESQUINAS",
+    "middle"
+   ]
+  ]
+ }
+}

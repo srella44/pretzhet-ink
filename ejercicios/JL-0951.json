@@ -1,0 +1,214 @@
+{
+ "id": "JL-0951",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 relevo en puertas",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que el relevo sea un recurso de juego y no solo un adorno. Relevo: un jugador entra conduciendo y deja el balón a un compañero que lo recoge en carrera. Cómo explicarlo: el punto está en dar y recibir justo en la puerta. Errores típicos: relevar fuera de la puerta, no mirar dónde está el rival, quedarse parado esperando el balón. Observar: tiempos de llegada del segundo jugador.",
+ "montaje": "Campo de 40 × 25 m con 6 puertas de 2 m con conos, repartidas (propuesta). Dos equipos de 5; empieza A con balón.",
+ "juego": "Para puntuar, un jugador entra conduciendo en una puerta y deja allí el balón a un compañero que lo toma en carrera. Tras cada punto, saca el rival.",
+ "punto": "Relevo en una puerta = 1 punto; no se repite la misma puerta seguida (propuesta). Gana quien más puntos tenga.",
+ "consigna": "Entra en la puerta y déjasela.",
+ "variantes": {
+  "facil": "Puertas de 3 m (propuesta) y el relevo vale aunque lo reciba el compañero parado.",
+  "dificil": "Puertas de 1,5 m y solo cuenta el relevo si el segundo jugador llega en carrera."
+ },
+ "adaptacion": "Infantil: 4v4 en 30 × 20 m con 4 puertas.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 951",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 201 | bloque 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, PDF del proyecto): 5:5, 40 × 25 m, 6 porterías pequeñas de 2 m, 1 punto por cada relevo en una puerta, 10 min. (propuesta): reparto de las puertas, regla de no repetir, saque, series, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -2.6,
+   "ymax": 26.8
+  },
+  "tag": "40 × 25 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 25.5,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     10
+    ],
+    "b": [
+     9.3,
+     6.4
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     15,
+     12
+    ],
+    "b": [
+     11,
+     7.3
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     10.6,
+     6.2
+    ],
+    "b": [
+     20.2,
+     8.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "nt": 0.5
+   }
+  ],
+  "cones": [
+   [
+    10,
+    5.0
+   ],
+   [
+    10,
+    7.0
+   ],
+   [
+    10,
+    18.0
+   ],
+   [
+    10,
+    20.0
+   ],
+   [
+    20,
+    3.5
+   ],
+   [
+    20,
+    5.5
+   ],
+   [
+    20,
+    19.5
+   ],
+   [
+    20,
+    21.5
+   ],
+   [
+    30,
+    5.0
+   ],
+   [
+    30,
+    7.0
+   ],
+   [
+    30,
+    18.0
+   ],
+   [
+    30,
+    20.0
+   ]
+  ],
+  "labels": [
+   [
+    10,
+    3.4,
+    "RELEVO EN LA PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "id": "JL-0988",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 con fondistas y desvío",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que el portero trabaje el desvío de tiros sin blocar: manos firmes, cambiar la trayectoria hacia el córner o el poste. Puntos de coaching: tomar la posición base, desviar con la mano del lado, mantener la mirada en el balón y recuperarse rápido. Errores típicos: intentar blocar y soltar el balón, desviar al centro. Los fondistas aprenden a sacar ventaja del pase desde la línea de fondo.",
+ "montaje": "Campo de 25 × 20 m con portería de 6 m en cada fondo. Cada equipo: portero, 2 jugadores de campo y 2 «fondistas» tras la línea de fondo que ataca.",
+ "juego": "Solo se tira a gol tras un pase de un fondista a un compañero de campo. El portero no puede blocar: tiene que desviar.",
+ "punto": "Gol = 1 punto; desvío fuera = 1 punto para el portero (propuesta). Rotan los puestos cada 3 min.",
+ "consigna": "Pasa al fondista y tira.",
+ "variantes": {
+  "facil": "Se permite al portero blocar si el balón llega por el aire (propuesta).",
+  "dificil": "Tirar a un toque y limitar los toques de los de campo a dos."
+ },
+ "adaptacion": "Infantil: porterías de 5 m, 4v4 con un solo fondista por equipo (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 988",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 210 | bloque 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el desvío', PDF del proyecto): 5:5, 25 × 20 m, una portería normal por equipo, 2 jugadores detrás de la línea de fondo del contrario y 2 en el campo, solo se finaliza tras pase desde la línea de fondo, el portero lo evita con un desvío y no puede blocar, 4 × 3 min. (propuesta): el portero cuenta como uno de los 5, medida de 6 m, puntos del portero, rotaciones, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -4.5,
+   "xmax": 29.5,
+   "ymin": -2.6,
+   "ymax": 22.2
+  },
+  "tag": "25 × 20 m",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 13.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 27.2,
+    "y": 15.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27.2,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": -2.2,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": -2.2,
+    "y": 15.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     26.4,
+     15.2
+    ],
+    "b": [
+     19.8,
+     13.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 5,
+    "s1": 5,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     19.5,
+     13
+    ],
+    "b": [
+     24.3,
+     10.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 5,
+    "s1": 6,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    27.2,
+    1.9,
+    "FONDISTAS A",
+    "middle"
+   ],
+   [
+    -2.2,
+    1.9,
+    "FONDISTAS B",
+    "middle"
+   ]
+  ]
+ }
+}

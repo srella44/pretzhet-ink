@@ -1,0 +1,145 @@
+{
+ "id": "LEI-023",
+ "bloque": "Técnica y duelos",
+ "titulo": "Conducir ante 2 defensores",
+ "formato": "3 + 2 defensores",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "11 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "15 min",
+ "series": "5 series de 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Dar sentido a la conducción: atravesar un espacio con 2 defensores y pasar al compañero situado fuera. Cómo explicarlo: conduce con la cabeza arriba, protege el balón y pasa cuando salgas. Errores típicos: pasar antes de entrar, conducir sin mirar. Observar: triángulos de apoyo y velocidad de los relevos.",
+ "montaje": "Cuadrado de 25 × 25 m con otro interior de 10 × 10 m (propuesta) con 2 defensores. Grupos de 3: A y C fuera, en lados opuestos, y B entre ambos cuadrados.",
+ "juego": "A pasa a B, que conduce por el cuadrado interior y pasa a C. B sale y A entra a recibir de C. Los defensores intentan robar y salir con el balón.",
+ "punto": "Cruzar el cuadrado y pasar a C = 1 punto; robo y salida del defensor = 2 puntos (propuesta). Los defensores rotan cada 3 min.",
+ "consigna": "Conduce, protege y pasa.",
+ "variantes": {
+  "facil": "Un solo defensor (propuesta).",
+  "dificil": "Los defensores pueden salir del cuadrado interior y el pase final debe ser a un toque."
+ },
+ "adaptacion": "Alevín: 20 × 20 m con 1 defensor. Cadete: 30 × 30 m con 3 defensores.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Dribbling & Running with the ball.",
+  "ref": "LeicesterCity.pdf · p. 26"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Leicester City Academy, p. 26): grupos de tres con dos defensores en el cuadrado central; A pasa a B, que conduce por el cuadrado interior y pasa a C; B sale y A entra; todos los grupos a la vez para superar a los dos defensores; los defensores intentan robar y salir conduciendo del cuadrado grande; sistema de puntuación a elegir; 25 × 25 m, 20 min. (propuesta): medida del cuadrado interior, rotaciones, puntos, edad y variantes. Dibujo propio, no copiado.",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -5,
+   "xmax": 30,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "tag": "25 × 25 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     7.5,
+     7.5,
+     17.5,
+     17.5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -3.2,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28.2,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 11.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 14,
+    "y": 15.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -2.5,
+     12.5
+    ],
+    "b": [
+     2.3,
+     12.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     3.6,
+     12.5
+    ],
+    "b": [
+     7.2,
+     12.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     17.8,
+     12.5
+    ],
+    "b": [
+     27.4,
+     12.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 4,
+    "s1": 8,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    19.4,
+    "INTERIOR 10 × 10",
+    "middle"
+   ]
+  ]
+ }
+}

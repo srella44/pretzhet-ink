@@ -1,0 +1,170 @@
+{
+ "id": "LEI-011",
+ "bloque": "Técnica y duelos",
+ "titulo": "Gesto, pared y tiro lejano",
+ "formato": "Circuito",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "45 × 35 m",
+ "duracion": "15 min",
+ "series": "Rotación continua durante 15 min (propuesta).",
+ "objetivo": "Unir el control del balón con el pase y el tiro: gesto técnico en el cono, pase al apoyo, carrera y disparo de primera. Cómo explicarlo: no pares tras el pase, sigue la carrera. Errores típicos: pase flojo, tiro sin mirar. Observar: el ritmo del circuito y la técnica del golpeo.",
+ "montaje": "Campo de 45 × 35 m con portería y portero. Dos filas de jugadores con balón a 20 m, un cono por fila a 6 m y un apoyo en el centro.",
+ "juego": "El jugador conduce al cono, hace un gesto y pasa al apoyo, y sigue corriendo. El apoyo se la devuelve de primera y dispara de primera. El apoyo gira y puede seguir el rechace.",
+ "punto": "Gol = 2 puntos; el tiro a la primera vale 1 punto extra (propuesta). Rotan los puestos tras cada ronda.",
+ "consigna": "Pasa, corre y dispara de primera.",
+ "variantes": {
+  "facil": "Tiro tras un toque de control y distancia de 15 m (propuesta).",
+  "dificil": "Tiro de primera obligatorio y un defensor que presiona al apoyo."
+ },
+ "adaptacion": "Alevín: distancia de 12 m al tiro y balón del 4. Cadete: tiro desde 22 m con portero.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Ball mastery with shots from long range.",
+  "ref": "LeicesterCity.pdf · p. 14"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Leicester City Academy, p. 14): los jugadores conducen hasta el cono, hacen un gesto y pasan; tras pasar continúan la carrera; el receptor devuelve y el atacante dispara de primera con fuerza; el jugador de la pared gira y puede seguir el tiro; 2 porterías, 20 balones, 45 × 35 m, 20 min. (propuesta): disposición de las filas, puntos, series, edad y variantes. Dibujo propio, no copiado.",
+ "diagrama": {
+  "field": [
+   45,
+   35
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 46.5,
+   "ymin": -2.4,
+   "ymax": 36.4
+  },
+  "tag": "45 × 35 m",
+  "porterias": [
+   {
+    "x": 45,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    11,
+    8
+   ],
+   [
+    11,
+    27
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 27,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 26,
+    "y": 17.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.7,
+     8
+    ],
+    "b": [
+     10.3,
+     8
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     11.7,
+     8.4
+    ],
+    "b": [
+     25,
+     16.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 7,
+    "s1": 8,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     26.7,
+     18.5
+    ],
+    "b": [
+     33,
+     22
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     33.6,
+     22
+    ],
+    "b": [
+     44,
+     18
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    11,
+    5,
+    "GESTO",
+    "middle"
+   ],
+   [
+    26,
+    14.5,
+    "APOYO",
+    "middle"
+   ],
+   [
+    33.5,
+    24.6,
+    "TIRO",
+    "middle"
+   ]
+  ]
+ }
+}

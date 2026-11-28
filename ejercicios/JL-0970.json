@@ -1,0 +1,210 @@
+{
+ "id": "JL-0970",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 tiro a puerta pequeña",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta).",
+ "objetivo": "Tirar con precisión tras un relevo contra una defensa reforzada (5 contra 7). Relevo: un jugador conduce y deja el balón a un compañero que lo recoge en carrera. Cómo explicarlo: puertas pequeñas = hay que acercarse y afinar. Errores típicos: tirar de lejos, olvidar el relevo. Observar: calidad del último pase y del tiro.",
+ "montaje": "Campo de 40 × 25 m con 4 porterías neutrales de 2 m con conos, dos por mitad (propuesta). Dos equipos de 5 y 2 comodines con el que defiende.",
+ "juego": "Cualquier equipo tira a cualquiera de las 4 porterías, pero antes tiene que hacer un relevo (conducir y dejarla a un compañero en carrera).",
+ "punto": "Gol tras relevo = 1 punto. Sin relevo no vale y saca el rival. Gana quien más puntos tenga.",
+ "consigna": "Relevo y tiro a puerta pequeña.",
+ "variantes": {
+  "facil": "Porterías de 3 m (propuesta) y comodines con quien ataca.",
+  "dificil": "Porterías de 1,5 m, o tiro obligado a un toque."
+ },
+ "adaptacion": "Infantil: 4v4+2 en 30 × 20 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 970",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 204 | bloque 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, PDF del proyecto): 5:5 + 2 comodines que van con el equipo que defiende, 40 × 25 m, 4 porterías neutrales pequeñas de 2 m, relevo previo para tirar, 10 min. (propuesta): colocación de las porterías, series, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -2.6,
+   "ymax": 26.8
+  },
+  "tag": "40 × 25 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 20.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26.5,
+    "y": 18.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 23,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     12.5
+    ],
+    "b": [
+     15.5,
+     10.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     19,
+     20.5
+    ],
+    "b": [
+     17.2,
+     14
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     17.5,
+     12.8
+    ],
+    "b": [
+     27.2,
+     6.3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   }
+  ],
+  "cones": [
+   [
+    12,
+    5.0
+   ],
+   [
+    12,
+    7.0
+   ],
+   [
+    12,
+    18.0
+   ],
+   [
+    12,
+    20.0
+   ],
+   [
+    28,
+    5.0
+   ],
+   [
+    28,
+    7.0
+   ],
+   [
+    28,
+    18.0
+   ],
+   [
+    28,
+    20.0
+   ]
+  ],
+  "labels": [
+   [
+    20,
+    -0.9,
+    "4 PORTERÍAS NEUTRALES DE 2 m",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "id": "JL-0947",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 con 4 puertas neutrales",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que los jugadores preparen la finalización con un relevo antes de entrar en una portería. Relevo: un jugador conduce y deja el balón a un compañero que lo recoge en carrera (frontal, diagonal o por detrás). Cómo explicarlo: nadie cruza una puerta sin haber hecho antes un relevo. Errores típicos: cruzar la puerta en solitario, relevar parados y pegados al rival. Observar: relevos en carrera y la vuelta al repliegue al perder.",
+ "montaje": "Campo de 40 × 25 m con 4 puertas neutrales de 6 m (propuesta), una en el centro de cada lado. Dos equipos de 5.",
+ "juego": "Se puntúa en cualquier puerta, pero antes hay que hacer un relevo (conducir y dejar el balón a un compañero en carrera). Al perder, el rival ataca ya.",
+ "punto": "Cruzar una puerta conduciendo tras relevo = 1 punto. Sin relevo no vale. Gana quien más puntos tenga.",
+ "consigna": "Primero relevo, luego puerta.",
+ "variantes": {
+  "facil": "Puertas de 8 m (propuesta) y relevo válido también con un solo toque de pase.",
+  "dificil": "Puertas de 4 m, o prohibido cruzar la misma puerta dos veces seguidas."
+ },
+ "adaptacion": "Infantil: 4v4 en 30 × 20 m. Cadete: relevo obligatorio también en la salida desde el propio campo.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 947",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 201 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5, 40 × 25 m, 4 porterías anchas neutrales, relevo previo para finalizar atravesando conduciendo, 10 min. (propuesta): anchura de 6 m (el texto no es legible), colocación de las puertas, series, definición de relevo, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -2.6,
+   "ymax": 26.8
+  },
+  "tag": "40 × 25 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 20.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     12.5
+    ],
+    "b": [
+     16.5,
+     11
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     19,
+     20.5
+    ],
+    "b": [
+     17.5,
+     14.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     18,
+     13
+    ],
+    "b": [
+     26.5,
+     9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 7,
+    "s1": 7,
+    "nt": 0.5
+   }
+  ],
+  "cones": [
+   [
+    0,
+    9.5
+   ],
+   [
+    0,
+    15.5
+   ],
+   [
+    40,
+    9.5
+   ],
+   [
+    40,
+    15.5
+   ],
+   [
+    17.0,
+    0
+   ],
+   [
+    23.0,
+    0
+   ],
+   [
+    17.0,
+    25
+   ],
+   [
+    23.0,
+    25
+   ]
+  ],
+  "labels": [
+   [
+    20,
+    -0.9,
+    "PORTERÍA NEUTRAL",
+    "middle"
+   ],
+   [
+    20,
+    25.9,
+    "PORTERÍA NEUTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

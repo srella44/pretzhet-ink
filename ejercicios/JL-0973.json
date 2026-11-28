@@ -1,0 +1,116 @@
+{
+ "id": "JL-0973",
+ "bloque": "Técnica y duelos",
+ "titulo": "Portero a portero: saque raso",
+ "formato": "1v1",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "2 porteros",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa y cambio de lado (propuesta).",
+ "objetivo": "Trabajar el blocaje de balón raso con una buena posición base. Puntos de coaching: pies a la anchura de los hombros, rodillas flexionadas y peso en la parte delantera de los pies; manos delante, palmas hacia el balón; cuerpo detrás del balón y, si el tiro va al lado, cerrar la pierna para que no se cuele. Errores típicos: agacharse solo con la espalda, no cerrar las piernas, soltar el balón. Cada portero va alternando sacar y blocar.",
+ "montaje": "Dos porterías de 7 m separadas 15 m, un portero en cada una. Un balón por portero y varios de reserva tras cada línea de gol.",
+ "juego": "Cada portero saca con la mano a ras de suelo buscando el gol; el rival bloca y devuelve rodando. Se alternan los saques sin parar.",
+ "punto": "Blocaje limpio = 1 punto para quien bloca; gol = 1 punto para quien saca. Gana quien más tenga en 2 × 4 min.",
+ "consigna": "Cuerpo detrás del balón.",
+ "variantes": {
+  "facil": "Distancia de 10 m y saque lento, solo al centro de la portería (propuesta).",
+  "dificil": "Distancia de 20 m y saque con efecto o a un lado, o con bote antes de llegar."
+ },
+ "adaptacion": "Benjamín–alevín: distancia de 8–10 m y balón del número 4. Infantil–cadete: 18–20 m, balón del 5 y saque con salida rápida del segundo portero.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1:1 | entrada 973",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 207 | bloque 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el blocaje', PDF del proyecto): 1:1 entre porteros, 15 × 15 m, dos porterías normales, saques con la mano a ras de suelo, 2 × 4 min, gana quien más blocajes hace. (propuesta): punto por gol, series, reanudación, desarrollo técnico del blocaje, edad y variantes. Gráfico original no visto. Se deja en el bloque indicado por la cola (Técnica y duelos).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2.3,
+   "xmax": 17.3,
+   "ymin": -1.4,
+   "ymax": 17.2
+  },
+  "tag": "15 × 15 m",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 7.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": false
+   },
+   {
+    "x": 15,
+    "y": 7.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.8,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 13.2,
+    "y": 9.6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     7.5
+    ],
+    "b": [
+     14,
+     9.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 14,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     13.2,
+     9.6
+    ],
+    "b": [
+     13.6,
+     11.2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 4,
+    "s1": 2,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    16.4,
+    "SAQUE RASO CON LA MANO",
+    "middle"
+   ]
+  ]
+ }
+}

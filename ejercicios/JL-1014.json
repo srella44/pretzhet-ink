@@ -1,0 +1,179 @@
+{
+ "id": "JL-1014",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "3v3 zona central y 1v1",
+ "formato": "3v3",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug. + 2 porteros",
+ "espacio": "35 × 20 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que el portero trabaje el 1 contra 1 en solitario tras un pase largo: salida, tapar el ángulo y mantenerse en pie. Puntos de coaching: no precipitarse, esperar el gesto del rival, usar el pie y la mano más cercana. Errores típicos: tirarse al suelo antes del tiro. Atacantes: pase largo, control orientado y definición.",
+ "montaje": "Campo de 35 × 20 m con zona central de 15 × 20 m y portería de 6 m con portero (propuesta). Tres jugadores por equipo.",
+ "juego": "Solo se defiende en la zona central. Para atacar hay que enviar el balón a un compañero fuera de ella, que desborda al portero y tira sin ser molestado.",
+ "punto": "Gol = 1 punto; si el portero para el 1 contra 1, 1 punto para él (propuesta). Gana quien más puntos tenga en 5 × 2 min.",
+ "consigna": "Pasa a la banda y mide la salida.",
+ "variantes": {
+  "facil": "Zona central de 12 m y el atacante exterior parte desde más cerca de la portería (propuesta).",
+  "dificil": "Atacante con 3 toques máximo y portero que puede salir hasta la zona central."
+ },
+ "adaptacion": "Alevín: 28 × 16 m. Cadete: 45 × 25 m con zona central de 20 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 3:3 | entrada 1014",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 216 | bloque 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para entradas (salidas)', PDF del proyecto): 3:3, 35 × 20 m, zona central de 15 × 20 m fuera de la cual no se puede defender, una portería normal por equipo, enviar el balón a un jugador fuera de la zona que desborda al portero y tira, el portero lo evita con una entrada-salida, 5 × 2 min. (propuesta): porteros añadidos a los 6 jugadores, puntos del portero, rotaciones, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   20
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 36.8,
+   "ymin": -1.4,
+   "ymax": 21.4
+  },
+  "tag": "35 × 20 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     10,
+     0,
+     25,
+     20
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 35,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30.5,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 10.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 15,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13.2,
+     9.5
+    ],
+    "b": [
+     16.8,
+     5.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     18.2,
+     4.5
+    ],
+    "b": [
+     29.6,
+     5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     31,
+     5.8
+    ],
+    "b": [
+     33.7,
+     9
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 5,
+    "s1": 5,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    20.9,
+    "ZONA CENTRAL 15 × 20",
+    "middle"
+   ]
+  ]
+ }
+}

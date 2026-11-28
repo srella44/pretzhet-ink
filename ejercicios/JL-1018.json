@@ -1,0 +1,168 @@
+{
+ "id": "JL-1018",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 pase de mano y cabeza",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "30 × 20 m",
+ "duracion": "8 min",
+ "series": "4 × 2 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que el portero trabaje las salidas a balones altos y aprenda a leer centros con oposición. Puntos de coaching: ver el balón y los rivales, salir con decisión, blocar con las dos manos y proteger el balón. Errores típicos: quedarse en la línea, soltar el balón. Atacantes: pases rápidos con la mano, desmarque y remate de cabeza.",
+ "montaje": "Campo de 30 × 20 m con portería de 6 m y portero en cada fondo. Dos equipos de 5, uno de ellos portero.",
+ "juego": "Los de campo se pasan el balón con las manos (máx. 3 pasos, propuesta). Solo se marca de cabeza tras pase de mano. El portero sale y bloca los balones altos.",
+ "punto": "Gol de cabeza = 1 punto. Si el portero bloca, saca con la mano y ataca el otro equipo. Gana quien más puntos tenga en 4 × 2 min.",
+ "consigna": "Pasa con la mano, remata de cabeza.",
+ "variantes": {
+  "facil": "Goles de cabeza valen 1 y de pie 0 pero se permiten (propuesta).",
+  "dificil": "Un solo toque de cabeza y máximo 3 pases antes del remate."
+ },
+ "adaptacion": "Infantil: 4v4 en 25 × 15 m. Cadete: 6v6 en 35 × 25 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 1018",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 218 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para entradas (salidas)', PDF del proyecto): 5:5, 30 × 20 m, dos porterías normales, los jugadores se pasan el balón con las manos e intentan rematar de cabeza, el portero lo evita con una entrada-salida, 8 min. (propuesta): reglas de pasos y de gol, el portero es uno de los 5, series, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   20
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 31.8,
+   "ymin": -2.6,
+   "ymax": 21.6
+  },
+  "tag": "30 × 20 m",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 6,
+    "portero": true
+   },
+   {
+    "x": 30,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15.5,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 15.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11.7,
+     9.5
+    ],
+    "b": [
+     17.3,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     18.8,
+     4.8
+    ],
+    "b": [
+     25.4,
+     8.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     26.4,
+     9.3
+    ],
+    "b": [
+     29,
+     10
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 5,
+    "s1": 4,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    15,
+    -0.9,
+    "PASE CON LA MANO, GOL DE CABEZA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "id": "JL-0965",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 puertas neutrales",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta).",
+ "objetivo": "Relevar y orientar el ataque contra una defensa reforzada (5 contra 7). Relevo: un jugador conduce y deja el balón a un compañero que lo recoge en carrera. Cómo explicarlo: hay 4 puertas posibles, así que la defensa no puede cerrarlas todas; el relevo decide cuál se abre. Errores típicos: atacar siempre la misma puerta. Observar: cambios de lado y elección de puerta.",
+ "montaje": "Campo de 40 × 25 m con 4 puertas neutrales de 8 m (propuesta), una en cada lado. Dos equipos de 5 y 2 comodines con el que defiende. Empieza A.",
+ "juego": "Se puntúa en cualquier puerta, pero antes hay que hacer un relevo y después cruzarla conduciendo. Los comodines defienden con el equipo sin balón.",
+ "punto": "Cruzar una puerta tras relevo = 1 punto. Sin relevo no vale. Gana quien más puntos tenga.",
+ "consigna": "Relevo y busca la puerta libre.",
+ "variantes": {
+  "facil": "Puertas de 10 m y los comodines van con quien ataca (propuesta).",
+  "dificil": "Puertas de 5 m, y la misma puerta no puede atacarse dos veces seguidas."
+ },
+ "adaptacion": "Infantil: 4v4+2 en 30 × 20 m con puertas de 6 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 965",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 204 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, PDF del proyecto): 5:5 + 2 comodines que van con el equipo que defiende, 40 × 25 m, 4 porterías anchas neutrales, relevo previo y finalizar atravesando conduciendo, 10 min. (propuesta): anchura de 8 m (el texto no es legible), colocación, series, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -2.6,
+   "ymax": 26.8
+  },
+  "tag": "40 × 25 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 20.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 15.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 25,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 31,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     12.5
+    ],
+    "b": [
+     16.5,
+     11
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     19,
+     20.5
+    ],
+    "b": [
+     17.5,
+     14.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     18,
+     13
+    ],
+    "b": [
+     26.5,
+     9
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 7,
+    "s1": 7,
+    "nt": 0.5
+   }
+  ],
+  "cones": [
+   [
+    0,
+    8.5
+   ],
+   [
+    0,
+    16.5
+   ],
+   [
+    40,
+    8.5
+   ],
+   [
+    40,
+    16.5
+   ],
+   [
+    16.0,
+    0
+   ],
+   [
+    24.0,
+    0
+   ],
+   [
+    16.0,
+    25
+   ],
+   [
+    24.0,
+    25
+   ]
+  ],
+  "labels": [
+   [
+    20,
+    -0.9,
+    "PORTERÍA NEUTRAL",
+    "middle"
+   ],
+   [
+    20,
+    25.9,
+    "PORTERÍA NEUTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

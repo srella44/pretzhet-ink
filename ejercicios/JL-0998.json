@@ -1,0 +1,204 @@
+{
+ "id": "JL-0998",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "3v3+2 centro y cabezazo",
+ "formato": "3v3+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. + 2 porteros",
+ "espacio": "40 × 30 m",
+ "duracion": "12 min",
+ "series": "6 × 2 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que el portero trabaje salidas a centros y el despeje con los puños bajo presión, y que el equipo combine para centrar. Puntos de coaching: ver balón y rivales, voz de «mía», golpeo firme. Errores típicos: salir sin decidir, no coordinarse con la defensa. Atacantes: llegar al área desde segunda línea. Los defensores no pueden entrar en las áreas.",
+ "montaje": "Campo de 40 × 30 m con portería de 7 m y portero (propuesta) y un área de 10 × 10 m delante de cada una. Dos equipos de 3 y 2 comodines en las bandas con el que tiene balón.",
+ "juego": "Cada equipo ataca una portería. Solo se tira con un remate de cabeza tras centro de un comodín. Los defensores no pueden entrar en el área.",
+ "punto": "Gol de cabeza = 2 puntos (propuesta); despeje o blocaje del portero = 1 punto. Gana quien más puntos tenga en 6 × 2 min.",
+ "consigna": "Centra, llega y cabecea.",
+ "variantes": {
+  "facil": "El remate puede ser con el pie y sin comodín cuando se rompa (propuesta).",
+  "dificil": "Solo vale el remate de cabeza a un toque y los comodines no pueden pisar el área."
+ },
+ "adaptacion": "Infantil: 3v3 en 30 × 25 m. Cadete: 4v4 con comodines y áreas de 8 × 8 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 3:3 + 2 | entrada 998",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 212 | bloque 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el despeje', PDF del proyecto): 3:3 + 2 comodines que van con el equipo en posesión (uno por banda), 40 × 30 m, dos áreas de 10 × 10 m desde las que hay que rematar de cabeza tras un centro, los defensores no pueden entrar al área, 6 × 2 min. (propuesta): portero en cada portería, puntos, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -4.2,
+   "ymax": 34.2
+  },
+  "tag": "40 × 30 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     10,
+     10,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     10,
+     40,
+     20
+    ]
+   }
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 15,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 31,
+    "y": -1.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 31.8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     15.6,
+     14.4
+    ],
+    "b": [
+     23.3,
+     7.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     24.6,
+     6.4
+    ],
+    "b": [
+     30.5,
+     -0.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     31.3,
+     -0.4
+    ],
+    "b": [
+     35,
+     12
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     25.4,
+     23
+    ],
+    "b": [
+     33,
+     18
+    ],
+    "k": "run",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -0.9,
+    "ÁREAS DE 10 × 10 DELANTE DE CADA PORTERÍA",
+    "middle"
+   ]
+  ]
+ }
+}

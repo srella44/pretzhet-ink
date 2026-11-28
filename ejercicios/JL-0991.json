@@ -1,0 +1,174 @@
+{
+ "id": "JL-0991",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 con esquinas y desvío",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "12 min",
+ "series": "4 × 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Trabajar el desvío de tiros potentes con el portero cerrando el ángulo, y fomentar que el equipo ataque rápido por las esquinas. Puntos de coaching: posición base, cerrar el ángulo, desviar sin blocar con la mano más alejada del poste. Errores típicos: abrir las piernas y dejar pasar el balón, desviar al centro. Observar: la rapidez de los 4 pases.",
+ "montaje": "Campo de 25 × 20 m con portería de 7 m en cada fondo. Cada equipo: portero, 2 jugadores de campo y 2 en las esquinas del campo hacia el que ataca.",
+ "juego": "Hay que tirar antes del 4.º pase, apoyándose en los de las esquinas. El portero no puede blocar: tiene que desviar.",
+ "punto": "Gol = 1 punto; desvío fuera = 1 punto para el portero (propuesta). Rotan los puestos cada 3 min.",
+ "consigna": "Cuatro pases y tiro.",
+ "variantes": {
+  "facil": "Tirar antes del 6.º pase y los de esquina pueden entrar en el campo (propuesta).",
+  "dificil": "Tirar antes del 3.er pase y el portero debe desviar a córner."
+ },
+ "adaptacion": "Infantil: porterías de 5 m. Cadete: campo de 30 × 22 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 991",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 210 | bloque 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el desvío', PDF del proyecto): 5:5, 25 × 20 m, dos porterías laterales de 7 m, cada equipo con 2 jugadores en las esquinas del campo hacia el que ataca y 2 en el interior, finalizar antes del 4.º pase, el portero desvía y no puede blocar, 4 × 3 min. (propuesta): el portero es uno de los 5, puntos del portero, rotaciones, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 26.8,
+   "ymin": -2.6,
+   "ymax": 21.6
+  },
+  "tag": "25 × 20 m",
+  "porterias": [
+   {
+    "x": 0,
+    "y": 10,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 25,
+    "y": 10,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18.5,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 23.3,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 23.3,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 1.7,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 1.7,
+    "y": 18,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.7,
+     9.5
+    ],
+    "b": [
+     22.5,
+     2.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     23.2,
+     3.2
+    ],
+    "b": [
+     19.3,
+     12.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     19.4,
+     13.2
+    ],
+    "b": [
+     24.4,
+     10.8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 5,
+    "s1": 7,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    23.3,
+    -0.9,
+    "ESQUINAS A",
+    "middle"
+   ],
+   [
+    1.7,
+    -0.9,
+    "ESQUINAS B",
+    "middle"
+   ]
+  ]
+ }
+}

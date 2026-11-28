@@ -1,0 +1,187 @@
+{
+ "id": "JL-0955",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 relevo en zona central",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta).",
+ "objetivo": "Elegir el momento de relevar contra una defensa que juega con superioridad (5 contra 7). Relevo: un jugador entra conduciendo y deja el balón a un compañero que lo recoge en carrera. Cómo explicarlo: hay que mover la defensa antes de entrar a la zona. Errores típicos: entrar sin apoyo, esperar el relevo parado, no cambiar de lado. Observar: paciencia y cambios de orientación.",
+ "montaje": "Cuadrado de 35 × 35 m con zona central de 5 × 5 m. Dos equipos de 5 y 2 comodines con el que defiende.",
+ "juego": "Se busca un relevo dentro de la zona central: uno entra conduciendo y deja el balón a un compañero en carrera. Defienden 7 contra 5.",
+ "punto": "Relevo dentro de la zona = 1 punto. Al perder el balón, los comodines cambian de equipo. Gana quien más puntos tenga en 5 × 2 min.",
+ "consigna": "Mueve a la defensa y relevo.",
+ "variantes": {
+  "facil": "Los comodines van con el equipo que ataca (superioridad 7 contra 5, propuesta).",
+  "dificil": "Zona central de 3 × 3 m, o solo cuentan los relevos hechos a un toque."
+ },
+ "adaptacion": "Infantil: 4v4+2 en 30 × 30 m con zona de 6 × 6 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 955",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 202 | bloque 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, PDF del proyecto): 5:5 + 2 comodines que van con el equipo que defiende, cuadrado de 35 × 35 m con zona central de 5 × 5 m, 1 punto por relevo en la zona, 10 min. (propuesta): cambio de comodines tras la pérdida, reanudación, series, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 36.5,
+   "ymin": -2.6,
+   "ymax": 37.6
+  },
+  "tag": "35 × 35 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15,
+     15,
+     20,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 17.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 29,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16.5,
+    "y": 25.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 30,
+    "y": 18,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     17.5
+    ],
+    "b": [
+     12.5,
+     17.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     10,
+     29
+    ],
+    "b": [
+     14.5,
+     21
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     15.5,
+     18.5
+    ],
+    "b": [
+     23.5,
+     17.5
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 5,
+    "s1": 7,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    22.2,
+    "ZONA CENTRAL 5 × 5",
+    "middle"
+   ]
+  ]
+ }
+}

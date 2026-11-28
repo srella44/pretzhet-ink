@@ -1,0 +1,153 @@
+{
+ "id": "JL-0996",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v1 centro y remate de cabeza",
+ "formato": "4v1",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug.",
+ "espacio": "16,5 × 40 m",
+ "duracion": "6 min",
+ "series": "6 × 1 min con 30 s de pausa y cambio de portero (propuesta).",
+ "objetivo": "Que el portero trabaje el despeje de centros: salir a tiempo, ver el balón y golpear con los puños (o un puño) lejos de la zona de remate. Puntos de coaching: último paso potente, brazos arriba, golpeo firme y hacia los lados. Errores típicos: salir tarde, no gritar «mía», despejar al centro. Atacantes: centro tenso y remate de cabeza.",
+ "montaje": "Área de penalti con portería normal. Cuatro atacantes: dos en las líneas laterales del área con balones y dos en el interior.",
+ "juego": "Los atacantes se pasan el balón y, antes del 4.º pase, uno de los laterales centra para que los de dentro rematen de cabeza. El portero despeja.",
+ "punto": "Cada despeje que sale del área = 1 punto para el portero. Gol de cabeza = 1 punto para los atacantes. El portero rota cada 1 min.",
+ "consigna": "Sal y despeja lejos.",
+ "variantes": {
+  "facil": "Centros más altos y lentos, y remate de cabeza sin salto (propuesta).",
+  "dificil": "Tres pases como máximo y el remate puede ser de volea o de cabeza con oposición."
+ },
+ "adaptacion": "Alevín: balón del número 4 y centros desde 8 m. Cadete: centros desde 20 m con presión de un defensor.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:1 | entrada 996",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 212 | bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el despeje', PDF del proyecto): 4:1 en el área de penalti, dos atacantes en los laterales y dos en el interior, finalizar antes del 4.º pase con un remate de cabeza tras centro, el portero despeja y consigue un punto por cada despeje que sale del área, 6 × 1 min. (propuesta): puntos de los atacantes, rotaciones, desarrollo técnico, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40.3,
+   16.5
+  ],
+  "extent": {
+   "xmin": -1.6,
+   "xmax": 41.9,
+   "ymin": -2.6,
+   "ymax": 18.6
+  },
+  "tag": "área 16,5 × 40,3 m",
+  "porterias": [
+   {
+    "x": 20.15,
+    "y": 0,
+    "lado": "T",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 38.1,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27.5,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.9,
+     9.9
+    ],
+    "b": [
+     11.8,
+     9.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 5,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     13.3,
+     9.4
+    ],
+    "b": [
+     37.4,
+     10
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     37.5,
+     9.4
+    ],
+    "b": [
+     28.2,
+     6.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 5,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     27.3,
+     5.2
+    ],
+    "b": [
+     21.5,
+     1.4
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    20.15,
+    17.6,
+    "CENTRO DESDE LA LÍNEA LATERAL DEL ÁREA",
+    "middle"
+   ]
+  ]
+ }
+}

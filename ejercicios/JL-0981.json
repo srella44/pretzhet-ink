@@ -1,0 +1,137 @@
+{
+ "id": "JL-0981",
+ "bloque": "Técnica y duelos",
+ "titulo": "3v3 de porteros: balón aéreo",
+ "formato": "3v3",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "6 porteros",
+ "espacio": "20 × 20 m",
+ "duracion": "9 min",
+ "series": "3 × 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Trabajar el blocaje de balón aéreo: salida a tiempo, manos en W con los pulgares juntos y recepción sin soltar. Puntos de coaching: mirar el balón desde que sale, un último paso potente y amplio, absorber con los brazos, balón al pecho. Errores típicos: manos planas y paradas, estirarse con los codos rígidos, dar un paso atrás. Es un juego de porteros, todos con guantes.",
+ "montaje": "Cuadrado de 20 × 20 m partido en dos mitades por una cinta. 6 porteros, 3 contra 3, cada equipo en su mitad, con 1 balón.",
+ "juego": "Un portero lanza el balón por el aire con el pie a la otra mitad. El rival lo bloca antes de que bote y lo devuelve igual.",
+ "punto": "Blocaje aéreo limpio = 1 punto. Balón que bota o sale = punto para quien lo envió (propuesta). Gana quien más tenga en 3 × 3 min.",
+ "consigna": "Manos en W, balón al pecho.",
+ "variantes": {
+  "facil": "Balón más ligero o blando y pase por alto con la mano, no con el pie (propuesta).",
+  "dificil": "Solo valen balones de volea, y se pierde el punto si el portero tira el balón al suelo tras blocar."
+ },
+ "adaptacion": "Benjamín–alevín: lanzamiento con la mano, 15 × 10 m. Infantil–cadete: lanzamiento con el pie y campo de 25 × 12 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 3:3 | entrada 981",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 208 | bloque 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el blocaje', PDF del proyecto): 3:3, 20 × 20 m, los jugadores se pasan el balón con el pie por el aire y anotan un punto por cada blocaje; ¿qué portero realiza mayor número de blocajes?, 3 × 3 min. (propuesta): la línea de cinta, la forma de puntuar los balones no blocados, desarrollo técnico del blocaje aéreo, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -1.4,
+   "ymax": 21.2
+  },
+  "tag": "20 × 20 m",
+  "lines": [
+   [
+    [
+     0,
+     10
+    ],
+    [
+     20,
+     10
+    ],
+    "6 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 4,
+    "y": 3.5,
+    "f": 90
+   },
+   {
+    "r": "G",
+    "x": 10,
+    "y": 5.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 16,
+    "y": 3.5,
+    "f": 90
+   },
+   {
+    "r": "G",
+    "x": 16,
+    "y": 16.5,
+    "f": -90
+   },
+   {
+    "r": "G",
+    "x": 10,
+    "y": 14.5,
+    "f": -90
+   },
+   {
+    "r": "G",
+    "x": 4,
+    "y": 16.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10.6,
+     6.3
+    ],
+    "b": [
+     15.2,
+     15.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 5,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     10.7,
+     14.5
+    ],
+    "b": [
+     13.4,
+     15
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 2,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    10,
+    9.2,
+    "LÍNEA DE CINTA",
+    "middle"
+   ]
+  ]
+ }
+}

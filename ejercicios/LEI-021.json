@@ -1,0 +1,178 @@
+{
+ "id": "LEI-021",
+ "bloque": "Técnica y duelos",
+ "titulo": "Girar hacia el espacio",
+ "formato": "Individual con apoyo",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "15 min",
+ "series": "4 series de 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Recibir de lado y girar con un toque o menos hacia el espacio libre, mirando antes si hay un defensor en la puerta. Cómo explicarlo: abre el cuerpo, mira por encima del hombro y gira con el pie de atrás. Errores típicos: recibir de frente, girar hacia el defensor. Observar: orientación del cuerpo y primer toque.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 puertas de 1,5 m. Fuera, jugadores con balón; dentro, atacantes y 2 defensores con balón (propuesta).",
+ "juego": "Un atacante recibe un pase de fuera, gira con un toque o menos y cruza una puerta. Los defensores, conduciendo, pueden bloquear una puerta. Luego devuelve a fuera.",
+ "punto": "Cada puerta cruzada tras girar = 1 punto. Rotan atacantes y defensores cada 3 min.",
+ "consigna": "Recibe de lado y gira al espacio.",
+ "variantes": {
+  "facil": "Sin defensores en las puertas (propuesta).",
+  "dificil": "Giro a un toque y un solo balón para los dos defensores."
+ },
+ "adaptacion": "Alevín: puertas de 2 m. Cadete: espacio de 15 × 15 m y 3 defensores.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Turning into space?",
+  "ref": "LeicesterCity.pdf · p. 24"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Leicester City Academy, p. 24): conos por parejas dentro del cuadrado, jugadores fuera con balón, defensores dentro con balón que pueden bloquear las puertas conduciendo; los atacantes reciben de fuera y giran con un toque o menos a través de los conos, y devuelven a fuera; cuadrado de 20 × 20 m, 20 min, todo el grupo. (propuesta): nº de puertas, puntos, series, edad y variantes. Dibujo propio, no copiado.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -3.2,
+   "xmax": 23.2,
+   "ymin": -3.2,
+   "ymax": 23.2
+  },
+  "tag": "20 × 20 m",
+  "cones": [
+   [
+    4.25,
+    5
+   ],
+   [
+    5.75,
+    5
+   ],
+   [
+    14.25,
+    5
+   ],
+   [
+    15.75,
+    5
+   ],
+   [
+    4.25,
+    15
+   ],
+   [
+    5.75,
+    15
+   ],
+   [
+    14.25,
+    15
+   ],
+   [
+    15.75,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 14.5,
+    "y": 13.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": -1.8,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 21.8,
+    "y": 10,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": -1.8,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 10,
+    "y": 21.8,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     -1.2,
+     10
+    ],
+    "b": [
+     8.3,
+     10
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     9.6,
+     9.4
+    ],
+    "b": [
+     14.6,
+     5.6
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     15.3,
+     4.4
+    ],
+    "b": [
+     10.8,
+     -1.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "nt": 0.5
+   }
+  ],
+  "labels": []
+ }
+}

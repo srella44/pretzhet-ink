@@ -1,0 +1,113 @@
+{
+ "id": "JL-0985",
+ "bloque": "Técnica y duelos",
+ "titulo": "Fútbol-tenis de porteros",
+ "formato": "1v1",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "2 porteros",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "5 series de 2 min con 30 s de pausa (propuesta).",
+ "objetivo": "Blocar balones aéreos que llegan botando y mejorar el saque con el pie. Puntos de coaching: seguir el bote con los ojos, colocarse detrás de la línea del balón, blocar con las manos en W y juntar los pulgares. Errores típicos: esperar con las manos bajas, sacar sin intención, no moverse tras el saque. Cada portero saca y bloca por turnos.",
+ "montaje": "Campo de 20 × 15 m dividido por una red o cuerda a 1,50 m de altura. Un portero con guantes en cada mitad; balones de reserva.",
+ "juego": "Un portero saca con el pie, desde la mano, por encima de la red para que el balón bote en la mitad rival. El otro lo bloca y saca a su vez.",
+ "punto": "Si el rival bloca = 1 punto para él; si el balón bota dos veces o sale, 1 punto para el que sacó (propuesta). Gana quien llegue a 10.",
+ "consigna": "Detrás del bote y manos en W.",
+ "variantes": {
+  "facil": "Se permite un bote antes del blocaje y red a 1 m (propuesta).",
+  "dificil": "Blocaje obligatorio sin bote previo y red a 2 m."
+ },
+ "adaptacion": "Benjamín–alevín: saque con la mano y campo de 14 × 10 m. Infantil–cadete: saque de volea desde 25 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1:1 | entrada 985",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 209 | bloque 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el blocaje', PDF del proyecto): 1:1 de fútbol-tenis, 20 × 15 m, red de 1,50 m, saque con el pie para que el balón bote en el campo contrario, el portero adversario lo bloca, 10 min. (propuesta): puntos, series, desarrollo técnico del blocaje, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 21.5,
+   "ymin": -2.6,
+   "ymax": 16.6
+  },
+  "tag": "20 × 15 m",
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     15
+    ],
+    "3 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 4,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "G",
+    "x": 16,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.8,
+     7.2
+    ],
+    "b": [
+     15,
+     5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     16,
+     6
+    ],
+    "b": [
+     16.2,
+     8.2
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 3,
+    "s1": 2,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "RED A 1,50 m",
+    "middle"
+   ]
+  ]
+ }
+}

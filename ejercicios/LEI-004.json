@@ -1,0 +1,215 @@
+{
+ "id": "LEI-004",
+ "bloque": "Técnica y duelos",
+ "titulo": "Zonas de colores con balón",
+ "formato": "Individual",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–16 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "15 min",
+ "series": "3 series de 4 min con 1 min de pausa (propuesta). Progresión: en un cuadrado de tu color, pasa a otro y sigue tu pase.",
+ "objetivo": "Mejorar el control del balón, la cabeza arriba y los cambios de dirección en un espacio ocupado. Cómo explicarlo: busca un cuadrado libre, entra y haz un truco con el balón. Errores típicos: mirar solo el balón, chocar con otros. Observar: caras levantadas y variedad de gestos.",
+ "montaje": "Zona de 30 × 30 m con 3 cuadrados rojos y 3 amarillos de 4 × 4 m con conos. Dos equipos (rojo y amarillo), cada jugador con su balón.",
+ "juego": "Todos conducen. Entra en un cuadrado libre, haz un gesto técnico (toques, suela, giro) y sal. Sin sitio, sigue conduciendo hasta que se libere uno.",
+ "punto": "Cada cuadrado completado = 1 punto. Gana el equipo con más puntos.",
+ "consigna": "Cabeza arriba y busca el hueco.",
+ "variantes": {
+  "facil": "Un cuadrado por jugador y sin puntos (propuesta).",
+  "dificil": "Cuadrados de 3 × 3 m y solo un jugador por cuadrado."
+ },
+ "adaptacion": "Benjamín: 25 × 25 m, 1 gesto. Infantil: gestos obligatorios con el pie débil.",
+ "fuente": {
+  "autor": "Leicester City Academy",
+  "titulo_original": "Physical movement with the ball.",
+  "ref": "LeicesterCity.pdf · p. 7"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (Leicester City Academy, p. 7): 3 zonas rojas y 3 amarillas con conos, dos equipos, todos con balón, entrar en un cuadrado y hacer gestos técnicos; progresión 1: pase a otro cuadrado del mismo color; progresión 2: rojos contra amarillos puntuando en los cuadrados del otro color; 30 × 30 m, cuadrados de 4 × 4 m, 20 min, todo el grupo. (propuesta): series, puntos, nº de jugadores, edad y variantes. Dibujo propio, no copiado.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 31.5,
+   "ymin": -2.4,
+   "ymax": 32.4
+  },
+  "tag": "30 × 30 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     3,
+     3,
+     7,
+     7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     13,
+     3,
+     17,
+     7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     23,
+     3,
+     27,
+     7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     3,
+     23,
+     7,
+     27
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     13,
+     23,
+     17,
+     27
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     23,
+     23,
+     27,
+     27
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 18,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 24,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 21,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9.5,
+     14.4
+    ],
+    "b": [
+     13.5,
+     8
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     22.5,
+     18.6
+    ],
+    "b": [
+     25,
+     22.2
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    5,
+    1.7,
+    "ROJA",
+    "middle"
+   ],
+   [
+    15,
+    1.7,
+    "AMARILLA",
+    "middle"
+   ],
+   [
+    25,
+    1.7,
+    "ROJA",
+    "middle"
+   ],
+   [
+    5,
+    29.6,
+    "AMARILLA",
+    "middle"
+   ],
+   [
+    15,
+    29.6,
+    "ROJA",
+    "middle"
+   ],
+   [
+    25,
+    29.6,
+    "AMARILLA",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "id": "JL-0979",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v1 pases por puertas",
+ "formato": "4v1",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "5 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa y cambio de portero (propuesta).",
+ "objetivo": "Que el portero trabaje el blocaje de pases rasos y se mueva con pasos cortos entre dos puertas, mientras los atacantes buscan la línea de pase. Puntos de coaching del portero: posición base, mirar el balón y el pasador, adelantarse al pase. Errores típicos: moverse cruzando los pies, ir tarde y rechazar sin blocar. Atacantes: pases tensos, a ras de suelo.",
+ "montaje": "Cuadrado de 15 × 15 m con 2 puertas de 3 m en el centro, separadas 6 m. Cuatro atacantes con un balón por el cuadrado y un portero entre las puertas.",
+ "juego": "Los atacantes se mueven y pasan a ras de suelo por cualquier puerta a un compañero. El portero se mueve entre ellas para blocar el pase.",
+ "punto": "Pase completo por una puerta = 1 punto atacantes. Pase blocado = 1 punto portero. El portero rota cada 2 min.",
+ "consigna": "Pies rápidos y manos al balón.",
+ "variantes": {
+  "facil": "Puertas de 4 m y los atacantes pueden pasar por alto (propuesta).",
+  "dificil": "Puertas de 2 m y pase a un toque obligatorio."
+ },
+ "adaptacion": "Alevín: puertas de 4 m. Infantil/cadete: puertas de 2–2,5 m y pase a dos toques máximo.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:1 | entrada 979",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 208 | bloque 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el blocaje', PDF del proyecto): 4:1, 15 × 15 m, dos porterías pequeñas de 3 m, pases a través de las porterías que evita el portero con blocajes, 5 × 2 min. (propuesta): ubicación de las puertas, puntos, rotación del portero, desarrollo técnico, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 16.5,
+   "ymin": -1.4,
+   "ymax": 17.2
+  },
+  "tag": "15 × 15 m",
+  "cones": [
+   [
+    6.0,
+    4.5
+   ],
+   [
+    9.0,
+    4.5
+   ],
+   [
+    6.0,
+    10.5
+   ],
+   [
+    9.0,
+    10.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.3,
+    "y": 1.6,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.3,
+    "y": 13.4,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13.4,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "G",
+    "x": 9.3,
+    "y": 7.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.3,
+     2.5
+    ],
+    "b": [
+     6.3,
+     12.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 6,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     9.3,
+     7.5
+    ],
+    "b": [
+     8,
+     7.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 4,
+    "s1": 2,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    16.4,
+    "2 PUERTAS DE 3 m",
+    "middle"
+   ]
+  ]
+ }
+}

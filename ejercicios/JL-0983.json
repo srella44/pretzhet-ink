@@ -1,0 +1,170 @@
+{
+ "id": "JL-0983",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4v4 portero y 2 porterías",
+ "formato": "4v4",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "25 × 20 m",
+ "duracion": "9 min",
+ "series": "3 × 3 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que el portero trabaje el blocaje de tiros desde distintos ángulos y se mueva entre dos porterías pequeñas. Puntos de coaching: posición base entre las porterías, adelantarse para cerrar el ángulo y blocar sin soltar. Errores típicos: quedarse pegado a un poste, rechazar al centro. Atacantes: pasar y tirar con rapidez.",
+ "montaje": "Campo de 25 × 20 m con 2 porterías de 3 m por fondo (propuesta). Dos equipos de 4: tres de campo y un portero que cubre las dos.",
+ "juego": "Cada equipo ataca las dos porterías rivales y debe tirar antes del 4.º pase. El portero bloca; tras cada gol, el portero rota con un compañero (propuesta).",
+ "punto": "Gol = 1 punto; blocaje limpio = 1 punto para el portero. Cuatro pases sin tirar: balón al rival. Gana quien más puntos tenga.",
+ "consigna": "Tira antes del cuarto pase.",
+ "variantes": {
+  "facil": "Tirar antes del 6.º pase y porterías de 4 m.",
+  "dificil": "Tirar antes del 3.er pase, o solo valen tiros de primera."
+ },
+ "adaptacion": "Infantil: 3v3 en 20 × 15 m. Cadete: 5v5 en 30 × 20 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 | entrada 983",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 209 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para el blocaje', PDF del proyecto): 4:4, 20 × 25 m, dos porterías pequeñas de 3 m por equipo, tirar antes del 4.º pase y el portero lo evita con un blocaje, 3 × 3 min. (propuesta): el portero es uno de los 4 jugadores y rota, separación de las porterías, puntos del portero, series, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 26.8,
+   "ymin": -2.6,
+   "ymax": 21.6
+  },
+  "tag": "25 × 20 m",
+  "cones": [
+   [
+    0,
+    5.0
+   ],
+   [
+    0,
+    8.0
+   ],
+   [
+    0,
+    12.0
+   ],
+   [
+    0,
+    15.0
+   ],
+   [
+    25,
+    5.0
+   ],
+   [
+    25,
+    8.0
+   ],
+   [
+    25,
+    12.0
+   ],
+   [
+    25,
+    15.0
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 2.2,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 22.8,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19.5,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     10
+    ],
+    "b": [
+     13.4,
+     4.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 7,
+    "s1": 7,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     14.6,
+     4
+    ],
+    "b": [
+     22.8,
+     6.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    12.5,
+    -0.9,
+    "TIRAR ANTES DEL 4.º PASE",
+    "middle"
+   ]
+  ]
+ }
+}

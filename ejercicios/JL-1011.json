@@ -1,0 +1,148 @@
+{
+ "id": "JL-1011",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "3v3 entrar y salir",
+ "formato": "3v3",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta).",
+ "objetivo": "Que el portero trabaje la entrada y la salida al 1 contra 1: cerrar el ángulo, no lanzarse antes de tiempo, hacerse grande y tapar con piernas y manos. Puntos de coaching: avance en pasos cortos, manos delante, pie de apoyo y cuerpo detrás. Errores típicos: salir muy pronto, caerse antes del choque. Atacantes: regate y definición.",
+ "montaje": "Campo de 20 × 15 m con una línea de fondo de 8 m marcada con conos en cada lado (propuesta). Dos equipos de 3: un portero y dos de campo.",
+ "juego": "Cada equipo ataca la línea rival. Para puntuar hay que desbordar al portero y cruzar la línea conduciendo. El portero sale a por el balón sin perder la línea.",
+ "punto": "Cruzar la línea conduciendo = 1 punto; si el portero gana el balón, 1 punto para él. Rotan cada 2 min.",
+ "consigna": "Pasos cortos y mide la salida.",
+ "variantes": {
+  "facil": "Línea de fondo de 6 m y un tercer atacante de apoyo (propuesta).",
+  "dificil": "Línea de fondo de 10 m y solo vale el gol si el portero no tocó el balón."
+ },
+ "adaptacion": "Alevín: espacio de 15 × 12 m. Cadete: 25 × 18 m y 3v3 en campo sin portero fijo.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 3:3 | entrada 1011",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 216 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, apartado 'Juegos para entradas (salidas)', PDF del proyecto): 3:3, 20 × 15 m, cada equipo ataca y defiende una línea de fondo con un portero, desbordar al portero y cruzar conduciendo, el portero lo evita con una entrada-salida, 5 × 2 min. (propuesta): el portero es uno de los 3, ancho de la línea de 8 m, puntos, rotaciones, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -2.6,
+   "ymax": 16.6
+  },
+  "tag": "20 × 15 m",
+  "cones": [
+   [
+    0,
+    3.5
+   ],
+   [
+    0,
+    11.5
+   ],
+   [
+    20,
+    3.5
+   ],
+   [
+    20,
+    11.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "G",
+    "x": 1.8,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "G",
+    "x": 18.2,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13.5,
+    "y": 4.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     7.2
+    ],
+    "b": [
+     12,
+     7.8
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 7,
+    "s1": 6,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     9.5,
+     12.5
+    ],
+    "b": [
+     12,
+     13.8
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 5,
+    "s1": 4,
+    "nt": 0.5
+   }
+  ],
+  "labels": [
+   [
+    1,
+    -0.9,
+    "FONDO A",
+    "middle"
+   ],
+   [
+    19,
+    -0.9,
+    "FONDO B",
+    "middle"
+   ]
+  ]
+ }
+}
