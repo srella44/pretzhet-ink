@@ -1,0 +1,155 @@
+{
+ "id": "JL-0683",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 ocho pases y tiro",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "40 × 30 m",
+ "duracion": "10 min",
+ "series": "10 min seguidos o 5 × 2 min con 30 s de pausa; cambio de comodines cada 2 min (propuesta).",
+ "objetivo": "Conservar para encontrar un buen momento de tiro. Cómo explicarlo: no tires con prisa: ocho pases, busca el hueco y remata. Errores típicos: tirar sin cuenta completa, pases sin ángulo. Observar: circulación hasta el pasillo libre y puntería. Sin portero (propuesta); si hay, entra como jugador 11 neutral.",
+ "montaje": "Campo de 40 × 30 m con una portería de 6 m en cada fondo, sin portero. 4 amarillos, 4 rojos y 2 comodines con el que tiene el balón.",
+ "juego": "El equipo con balón (4 + 2) da 8 pases seguidos antes de poder tirar a la portería rival. Si sale o roban, empieza la cuenta del otro.",
+ "punto": "1 gol por cada tiro a la portería tras los 8 pases; saca el contrario con la cuenta a 0. Gana quien más goles marque.",
+ "consigna": "Ocho pases y entonces tira.",
+ "variantes": {
+  "facil": "Seis pases y portería de 8 m.",
+  "dificil": "Diez pases, portería de 5 m y tiro de dos toques."
+ },
+ "adaptacion": "Benjamín: 3v3+2 en 30 × 25 m y 5 pases. Cadete: tiro de un toque o tras regate.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 683",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 148"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el equipo en posesión, 40 × 30 m con dos porterías normales (cada equipo ataca y defiende una), 10 min, 8 pases seguidos antes de poder tirar. (propuesta): porterías sin portero (los 10 jugadores no incluyen portero), anchura de la portería, cambio de comodines, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -2.6,
+   "xmax": 42.6,
+   "ymin": -2.6,
+   "ymax": 32.6
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 6,
+    "portero": false
+   },
+   {
+    "x": 40,
+    "y": 15,
+    "lado": "R",
+    "ancho": 6,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 14,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 28,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     6
+    ],
+    "b": [
+     31,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     31,
+     8
+    ],
+    "b": [
+     39.6,
+     15
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 2,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

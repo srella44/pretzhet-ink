@@ -1,0 +1,171 @@
+{
+ "id": "JL-0673",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 pasa al capitán",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "30 × 30 m",
+ "duracion": "5 × 2 min",
+ "series": "5 series de 2 min con 30 s de pausa. Cada 2 min cambian los comodines y se nombra otro capitán (propuesta).",
+ "objetivo": "Circular el balón para encontrar a un compañero concreto que se mueve. Cómo explicarlo: el capitán se mueve para pedirla; los demás lo buscan sin precipitarse. Errores típicos: pase directo al capitán sin preparar, capitán quieto. Observar: desmarques de apoyo y lectura de las líneas de pase.",
+ "montaje": "Cuadrado de 30 × 30 m. 4 amarillos y 4 rojos; cada equipo nombra un capitán. 2 comodines con el equipo que tiene el balón. Empieza un amarillo.",
+ "juego": "El equipo con balón (4 + 2) busca pasarle el balón a su capitán, que se mueve por todo el campo. Al robar, cambia la posesión.",
+ "punto": "1 punto cada vez que le pasan el balón al capitán; sigue con la posesión. 5 series de 2 min; cada 2 min cambian los comodines.",
+ "consigna": "Busca al capitán y pasa limpio.",
+ "variantes": {
+  "facil": "Un solo toque del capitán y 36 × 36 m.",
+  "dificil": "Capitán a dos toques máximo y mínimo 3 pases antes de pasarle."
+ },
+ "adaptacion": "Benjamín: 3v3+2 en 25 × 25 m. Cadete: el capitán no puede recibir dos veces seguidas del mismo.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4 :4 + 2 | entrada 673",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 147"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el equipo en posesión, cada 2 min cambiar los comodines, cada equipo nombra un capitán, 1 punto cada vez que le pasan el balón a su capitán y siguen con la posesión, 30 × 30 m, 5 × 2 min. (propuesta): cambio de capitán, pausas, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 32.4,
+   "ymin": -2.4,
+   "ymax": 32.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     7
+    ],
+    "b": [
+     24,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     8
+    ],
+    "b": [
+     25,
+     25
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    24,
+    5.2,
+    "CAPITÁN",
+    "middle"
+   ],
+   [
+    27,
+    21.4,
+    "CAPITÁN",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "id": "JL-0653",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 comodines dentro",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "20 × 20 m",
+ "duracion": "5 × 2 min",
+ "series": "5 series de 2 min con 30 s de pausa. Cada 2 min cambian los comodines (fuente).",
+ "objetivo": "Jugar a un toque con apoyos interiores que se mueven con el balón (6v4 en juego). Cómo explicarlo: los comodines son los de dentro: ofrécete entre líneas. Errores típicos: comodines pegados a un rival, dos toques, pases a ciegas. Observar: lectura del espacio entre rivales y apoyo en diagonal.",
+ "montaje": "Cuadrado de 20 × 20 m. 4 amarillos y 4 rojos repartidos; 2 comodines dentro que juegan con el del balón. Un amarillo empieza con balón.",
+ "juego": "El equipo con balón (4 + 2 comodines) juega a un toque contra los 4 rivales; los comodines se mueven por dentro para apoyar. Quien roba pasa a tener la posesión con los comodines.",
+ "punto": "1 punto cada 8 pases seguidos; si roban, vuelve a 0. 5 series de 2 min; cada 2 min cambian los comodines.",
+ "consigna": "A un toque y ofrécete entre líneas.",
+ "variantes": {
+  "facil": "Dos toques y cuadrado de 24 × 24 m.",
+  "dificil": "Un toque y cuadrado de 16 × 16 m; los comodines no pueden repetir pared."
+ },
+ "adaptacion": "Benjamín: 3v3+2 en 15 × 15 m. Cadete: al menos 4 pases antes de buscar al comodín.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4 :4 + 2 | entrada 653",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 143"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 4:4 + 2 comodines que van con el equipo en posesión y apoyan desde el interior del cuadrado, 20 × 20 m, 5 × 2 min, cada 2 min cambiar los comodines, un toque. (propuesta): puntuación, pausas, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.8,
+   "ymax": 21.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 4.5,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 16.5,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 4.5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8.5,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 11.5,
+    "y": 12.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4.5,
+     5
+    ],
+    "b": [
+     9.5,
+     10.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     9.5,
+     10.5
+    ],
+    "b": [
+     16,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

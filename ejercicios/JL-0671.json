@@ -1,0 +1,157 @@
+{
+ "id": "JL-0671",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 diez pases seguidos",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "30 × 30 m",
+ "duracion": "9 min",
+ "series": "9 min seguidos o 3 × 3 min; cambio de comodines cada 3 min (propuesta).",
+ "objetivo": "Conservar el balón con sentido y paciencia hasta completar la serie. Cómo explicarlo: cuenta en voz alta los pases; si pierdes el balón, la cuenta vuelve a cero. Errores típicos: precipitarse, jugar sin ángulos, comodines quietos. Observar: ritmo de circulación, apoyos y cambios de orientación.",
+ "montaje": "Cuadrado de 30 × 30 m. 4 amarillos y 4 rojos repartidos; 2 comodines que juegan siempre con el equipo que tiene el balón. Empieza un amarillo con balón.",
+ "juego": "El equipo con balón (4 + 2 comodines) juega contra los 4 rivales. Al robar, el otro equipo empieza su cuenta desde cero con los comodines.",
+ "punto": "1 punto cada vez que logran 10 pases seguidos; sigue con la posesión y la cuenta vuelve a 0. 9 min o 3 series de 3 min.",
+ "consigna": "Cuenta los pases y no la pierdas.",
+ "variantes": {
+  "facil": "Ocho pases y 36 × 36 m.",
+  "dificil": "Doce pases, dos toques máximo y 26 × 26 m."
+ },
+ "adaptacion": "Benjamín: 3v3+2 en 25 × 25 m y 6 pases. Cadete: alternar pie derecho e izquierdo.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 671",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 146"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el equipo en posesión, 30 × 30 m, 9 min, 1 punto cada vez que logran diez pases seguidos. (propuesta): colocación, cambio de comodines, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 32.4,
+   "ymin": -2.4,
+   "ymax": 32.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 4,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 11,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     6
+    ],
+    "b": [
+     24,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     8
+    ],
+    "b": [
+     25,
+     25
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

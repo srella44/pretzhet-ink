@@ -1,0 +1,185 @@
+{
+ "id": "JL-0681",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 tres cortos, uno largo",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug. (5v5 + 2 comodines)",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "10 min seguidos o 5 × 2 min; cambio de comodines cada 2 min (propuesta).",
+ "objetivo": "Alternar el pase corto de apoyo con el cambio largo de orientación. Cómo explicarlo: tres pases cortos para atraer, y el cuarto largo al lado libre. Errores típicos: pase largo con el balón dividido, olvidar la secuencia. Observar: cambio de ritmo, pase largo raso y apoyos para el siguiente corto.",
+ "montaje": "Cuadrado de 35 × 35 m. 5 amarillos, 5 rojos y 2 comodines con el equipo que tiene el balón. Empieza un amarillo con balón.",
+ "juego": "El equipo con balón (5 + 2) juega con una secuencia fija: 3 pases cortos (hasta 10 m) y 1 largo (más de 15 m), y vuelta a empezar. Si roban, cambia la posesión.",
+ "punto": "1 punto por cada secuencia completa de 3 cortos y 1 largo; sigue con la posesión. Si rompen el orden, no suman. Gana quien más puntos sume.",
+ "consigna": "Tres cortos y uno largo.",
+ "variantes": {
+  "facil": "Dos cortos y uno largo con cualquier pie.",
+  "dificil": "Cuatro cortos y uno largo, sin repetir quien lo da."
+ },
+ "adaptacion": "Benjamín: 4v4+2 en 25 × 25 m, pase largo raso. Cadete: pase largo con el pie no dominante.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 681",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 148"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el equipo en posesión, 35 × 35 m, 10 min, la secuencia de pases es 3 pases cortos y 1 pase largo. (propuesta): la cabecera dice 12 jugadores (5:5 + 2) aunque el texto escribe 4:4 + 2, se ha dibujado 5:5 + 2; puntuación por secuencia, distancias de pase corto y largo, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 37.2,
+   "ymin": -2.2,
+   "ymax": 37.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 32,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": 3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     15,
+     4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     4
+    ],
+    "b": [
+     27,
+     12
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     12
+    ],
+    "b": [
+     8,
+     22
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

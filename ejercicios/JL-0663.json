@@ -1,0 +1,181 @@
+{
+ "id": "JL-0663",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 cuatro zonas",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "50 × 50 m (4 zonas de 25 × 25 m)",
+ "duracion": "5 × 2 min",
+ "series": "5 series de 2 min con 30 s de pausa; la fuente da también una versión de 10 min seguidos. Cambio de comodines cada serie (propuesta).",
+ "objetivo": "Conservar con paciencia dentro de una zona y cambiar de zona en el momento justo. Cómo explicarlo: primero asegura 4 pases aquí, luego busca el cambio largo. Errores típicos: cambiar de zona sin completar los 4 pases, jugar a dos toques. Observar: apoyos en la zona y cambio de orientación.",
+ "montaje": "Campo de 50 × 50 m en 4 zonas de 25 × 25 m. 4 amarillos, 4 rojos y 2 comodines con el equipo que tiene el balón, repartidos por las zonas. Empieza un amarillo.",
+ "juego": "Todo a un toque. El equipo con balón da 4 pases dentro de una zona antes de enviar el balón a otra. Si el rival roba, empieza su propia cuenta.",
+ "punto": "1 punto cada vez que completan 4 pases en una zona y pasan a otra. 5 series de 2 min; gana quien más puntos sume.",
+ "consigna": "Cuatro pases aquí y cambia de zona.",
+ "variantes": {
+  "facil": "Tres pases en la zona y dos toques.",
+  "dificil": "Cinco pases en la zona, un toque y 20 s para cambiar."
+ },
+ "adaptacion": "Benjamín: 3v3+1 en 30 × 30 m. Cadete: pase de cambio de zona solo por alto o a más de 20 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 663",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 145"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el equipo en posesión, 50 × 50 m dividido en 4 zonas de 25 × 25 m, el equipo en posesión da 4 pases en el interior de una zona antes de enviar el balón a otra, a un toque, 10 min (o 5 × 2 min en una variante hermana). (propuesta): puntuación, pausas, cambio de comodines, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   50,
+   50
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 52.2,
+   "ymin": -2.2,
+   "ymax": 52.2
+  },
+  "lines": [
+   [
+    [
+     25,
+     0
+    ],
+    [
+     25,
+     50
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     25
+    ],
+    [
+     50,
+     25
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    50,
+    0
+   ],
+   [
+    50,
+    50
+   ],
+   [
+    0,
+    50
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 41,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 32,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 31,
+    "y": 41,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 44,
+    "y": 46,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     9
+    ],
+    "b": [
+     16,
+     19
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     19
+    ],
+    "b": [
+     37,
+     10
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

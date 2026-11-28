@@ -1,0 +1,241 @@
+{
+ "id": "JL-0659",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "6v6+6 hexágono con apoyos",
+ "formato": "6v6+6",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "18 jug. (6v6 + 6 comodines)",
+ "espacio": "Hexágono de 12 m por lado",
+ "duracion": "3 × 4 min",
+ "series": "3 series de 4 min con 1 min de pausa. Cada 4 min cambian los comodines (fuente).",
+ "objetivo": "Conservar a un toque con seis apoyos laterales en espacio grande (12v6 en juego). Cómo explicarlo: cada lado tiene un comodín; cambia de orientación antes de que cierren. Errores típicos: jugar a un solo lado, pases lentos, los de dentro sin moverse. Observar: cambio de orientación y velocidad del pase.",
+ "montaje": "Hexágono de 12 m por lado con conos. 6 amarillos y 6 rojos dentro; 6 comodines, uno por lado, fuera pegados a la línea. Un amarillo empieza con balón.",
+ "juego": "El equipo con balón (6 + 6 comodines) juega a un toque contra los 6 rivales; los comodines se desplazan por su lado. Quien roba pasa a tener la posesión con los comodines.",
+ "punto": "1 punto cada 12 pases seguidos; si roban, vuelve a 0. 3 series de 4 min; cada 4 min cambian los comodines.",
+ "consigna": "A un toque y cambia de lado.",
+ "variantes": {
+  "facil": "Dos toques y lado de 14 m.",
+  "dificil": "Un toque y lado de 10 m; los comodines no repiten con quien les pasó."
+ },
+ "adaptacion": "Cadete: dos toques y lado de 14 m. Juvenil: un toque y un cambio de lado obligatorio cada 6 pases.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 + 6 | entrada 659",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 144"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 6:6 + 6 comodines que van con el equipo en posesión y apoyan por los seis lados del hexágono pudiéndose desplazar para dar apoyos laterales, hexágono de 12 m por lado, 3 × 4 min, cada 4 min cambiar los comodines, un toque. (propuesta): puntuación, pausas, variantes y adaptación; 18 jugadores en pantalla, edad 14–18. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   34,
+   30
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 35.8,
+   "ymin": 2.0,
+   "ymax": 28.4
+  },
+  "lines": [
+   [
+    [
+     29.0,
+     15.2
+    ],
+    [
+     23.0,
+     25.592304845413263
+    ],
+    "0"
+   ],
+   [
+    [
+     23.0,
+     25.592304845413263
+    ],
+    [
+     11.000000000000004,
+     25.592304845413263
+    ],
+    "0"
+   ],
+   [
+    [
+     11.000000000000004,
+     25.592304845413263
+    ],
+    [
+     5.0,
+     15.200000000000001
+    ],
+    "0"
+   ],
+   [
+    [
+     5.0,
+     15.200000000000001
+    ],
+    [
+     10.999999999999995,
+     4.807695154586739
+    ],
+    "0"
+   ],
+   [
+    [
+     10.999999999999995,
+     4.807695154586739
+    ],
+    [
+     23.0,
+     4.807695154586735
+    ],
+    "0"
+   ],
+   [
+    [
+     23.0,
+     4.807695154586735
+    ],
+    [
+     29.0,
+     15.2
+    ],
+    "0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 21.16,
+    "y": 17.6,
+    "f": -150,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.0,
+    "y": 20.0,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12.84,
+    "y": 17.6,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": 12.84,
+    "y": 12.8,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 17.0,
+    "y": 10.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 21.16,
+    "y": 12.8,
+    "f": 150
+   },
+   {
+    "r": "B",
+    "x": 25.4,
+    "y": 15.2,
+    "f": 360
+   },
+   {
+    "r": "B",
+    "x": 21.2,
+    "y": 22.47,
+    "f": 60
+   },
+   {
+    "r": "B",
+    "x": 12.8,
+    "y": 22.47,
+    "f": 120
+   },
+   {
+    "r": "B",
+    "x": 8.6,
+    "y": 15.2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 12.8,
+    "y": 7.93,
+    "f": 240
+   },
+   {
+    "r": "B",
+    "x": 21.2,
+    "y": 7.93,
+    "f": 300
+   },
+   {
+    "r": "C",
+    "x": 27.04,
+    "y": 21.0,
+    "f": 30
+   },
+   {
+    "r": "C",
+    "x": 17.0,
+    "y": 26.79,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 6.96,
+    "y": 21.0,
+    "f": 150
+   },
+   {
+    "r": "C",
+    "x": 6.96,
+    "y": 9.4,
+    "f": 210
+   },
+   {
+    "r": "C",
+    "x": 17.0,
+    "y": 3.61,
+    "f": 270
+   },
+   {
+    "r": "C",
+    "x": 27.04,
+    "y": 9.4,
+    "f": 330
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     21.16,
+     17.6
+    ],
+    "b": [
+     27.04,
+     21.0
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   }
+  ],
+  "tag": "hexágono de 12 m"
+ }
+}

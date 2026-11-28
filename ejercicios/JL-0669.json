@@ -1,0 +1,184 @@
+{
+ "id": "JL-0669",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 pase por porterías",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "30 × 30 m",
+ "duracion": "5 × 2 min",
+ "series": "5 series de 2 min con 30 s de pausa. Cambio de comodines cada 2 min (la fuente dice cada 3 min con 5 × 2 min).",
+ "objetivo": "Pasar buscando huecos y atravesar porterías con el pase. Cómo explicarlo: no basta con tener el balón, hay que verle el pase a la portería. Errores típicos: pases por el centro del rival, comodines estáticos. Observar: pase raso y fuerte, apoyos por cada lado del cuadrado.",
+ "montaje": "Cuadrado de 30 × 30 m con 3 porterías de 2 m por dentro. 4 amarillos y 4 rojos dentro; 2 comodines en dos lados, fuera. Empieza un amarillo con balón.",
+ "juego": "El equipo con balón (4 + 2 comodines) juega contra los 4 rivales y busca pasar por cualquier portería desde cualquier lado. Al robar, cambia la posesión.",
+ "punto": "1 punto cada vez que un pase atraviesa una portería y lo recibe un compañero; sigue con la posesión. 5 series de 2 min.",
+ "consigna": "Pasa por la portería libre.",
+ "variantes": {
+  "facil": "Porterías de 3 m y dos toques.",
+  "dificil": "Porterías de 1,5 m y no repetir portería seguida."
+ },
+ "adaptacion": "Benjamín: 3v3+2 en 20 × 20 m. Cadete: puntuar solo con pase de un toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 669",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 147"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el equipo en posesión y apoyan por cada lado del cuadrado, 30 × 30 m con 3 porterías pequeñas de 2 m, 5 × 2 min, 1 punto por cada pase a través de alguna portería, sigue con la posesión. (propuesta): colocación de porterías y comodines, cambio de comodines cada 2 min (la fuente da 3 min), variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 32.4,
+   "ymin": -2.4,
+   "ymax": 32.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    30,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 15,
+    "y": -0.8,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 30.8,
+    "y": 24,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     5
+    ],
+    "b": [
+     15,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     15,
+     8
+    ],
+    "b": [
+     21,
+     5
+    ],
+    "k": "pass",
+    "s0": 8,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "discs": [
+   [
+    13,
+    8
+   ],
+   [
+    17,
+    8
+   ],
+   [
+    6,
+    17
+   ],
+   [
+    6,
+    21
+   ],
+   [
+    24,
+    14
+   ],
+   [
+    24,
+    18
+   ]
+  ],
+  "tag": "30 × 30 m · 3 porterías de 2 m"
+ }
+}

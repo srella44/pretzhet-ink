@@ -1,0 +1,228 @@
+{
+ "id": "JL-0655",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+5 pentágono con apoyos",
+ "formato": "5v5+5",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "15 jug. (5v5 + 5 comodines)",
+ "espacio": "Pentágono de 10 m por lado",
+ "duracion": "3 × 3 min",
+ "series": "3 series de 3 min con 1 min de pausa. Cada 2 min cambian los comodines (fuente; con 3 series, cambiar en cada serie).",
+ "objetivo": "Conservar a un toque en un espacio reducido con 5 apoyos laterales (10v5 en juego). Cómo explicarlo: cada lado tiene su comodín; mueve el balón al lado libre. Errores típicos: jugar siempre al mismo lado, dos toques, los de dentro sin moverse. Observar: cambio de orientación y rapidez del apoyo.",
+ "montaje": "Pentágono de 10 m por lado con conos. 5 amarillos y 5 rojos dentro; 5 comodines, uno por lado, fuera pegados a la línea. Un amarillo empieza con balón.",
+ "juego": "El equipo con balón (5 + 5 comodines) juega a un toque contra los 5 rivales; los comodines se desplazan por su lado. Quien roba pasa a tener la posesión con los comodines.",
+ "punto": "1 punto cada 10 pases seguidos; si roban, vuelve a 0. 3 series de 3 min; los comodines cambian entre series.",
+ "consigna": "A un toque y busca el lado libre.",
+ "variantes": {
+  "facil": "Dos toques y lado de 12 m.",
+  "dificil": "Un toque, lado de 8 m y los comodines no repiten con quien les pasó."
+ },
+ "adaptacion": "Cadete: dos toques y lado de 12 m. Juvenil: un toque y cambio de lado obligatorio cada 5 pases.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 5 | entrada 655",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 144"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5 + 5 comodines que van con el equipo en posesión y apoyan por los cinco lados del pentágono pudiéndose desplazar para dar apoyos laterales, pentágono de 10 m por lado, 3 × 3 min, cada 2 min cambiar los comodines (la fuente dice 3 × 3 y 2 min a la vez), un toque. (propuesta): puntuación, pausas, variantes y adaptación; 15–18 jugadores: edad subida a 14–18. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   28,
+   26
+  ],
+  "nofield": true,
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 29.8,
+   "ymin": 1.6,
+   "ymax": 24.0
+  },
+  "lines": [
+   [
+    [
+     14.0,
+     4.6934919164796
+    ],
+    [
+     22.090169943749473,
+     10.571344439404331
+    ],
+    "0"
+   ],
+   [
+    [
+     22.090169943749473,
+     10.571344439404331
+    ],
+    [
+     19.0,
+     20.081909602355868
+    ],
+    "0"
+   ],
+   [
+    [
+     19.0,
+     20.081909602355868
+    ],
+    [
+     9.0,
+     20.081909602355868
+    ],
+    "0"
+   ],
+   [
+    [
+     9.0,
+     20.081909602355868
+    ],
+    [
+     5.9098300562505255,
+     10.571344439404331
+    ],
+    "0"
+   ],
+   [
+    [
+     5.9098300562505255,
+     10.571344439404331
+    ],
+    [
+     14.0,
+     4.6934919164796
+    ],
+    "0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 16.12,
+    "y": 10.29,
+    "f": 126,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.42,
+    "y": 14.31,
+    "f": -162
+   },
+   {
+    "r": "A",
+    "x": 14.0,
+    "y": 16.8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 10.58,
+    "y": 14.31,
+    "f": -18
+   },
+   {
+    "r": "A",
+    "x": 11.88,
+    "y": 10.29,
+    "f": 54
+   },
+   {
+    "r": "B",
+    "x": 14.0,
+    "y": 7.2,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 19.71,
+    "y": 11.35,
+    "f": 162
+   },
+   {
+    "r": "B",
+    "x": 17.53,
+    "y": 18.05,
+    "f": -126
+   },
+   {
+    "r": "B",
+    "x": 10.47,
+    "y": 18.05,
+    "f": -54
+   },
+   {
+    "r": "B",
+    "x": 8.29,
+    "y": 11.35,
+    "f": 18
+   },
+   {
+    "r": "C",
+    "x": 18.69,
+    "y": 6.74,
+    "f": 306
+   },
+   {
+    "r": "C",
+    "x": 21.59,
+    "y": 15.67,
+    "f": 18
+   },
+   {
+    "r": "C",
+    "x": 14.0,
+    "y": 21.18,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 6.41,
+    "y": 15.67,
+    "f": 162
+   },
+   {
+    "r": "C",
+    "x": 9.31,
+    "y": 6.74,
+    "f": 234
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     16.12,
+     10.29
+    ],
+    "b": [
+     14.0,
+     21.18
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     14.0,
+     21.18
+    ],
+    "b": [
+     10.58,
+     14.31
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "pentágono de 10 m"
+ }
+}

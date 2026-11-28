@@ -1,0 +1,127 @@
+{
+ "id": "JL-0641",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "2v2+4 apoyos por los lados",
+ "formato": "2v2+4",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug. (2v2 + 4 comodines)",
+ "espacio": "12 × 12 m",
+ "duracion": "4 × 2 min",
+ "series": "4 series de 2 min con 30 s de pausa. Cada 2 min cambian los comodines (fuente).",
+ "objetivo": "Conservar a un toque con apoyos laterales en superioridad (6v2). Cómo explicarlo: los comodines son tus paredes; muévete para darles ángulo. Errores típicos: dos toques, comodines estáticos, pase a quien no mira. Observar: apoyos que se desplazan por su lado y pase al libre.",
+ "montaje": "Cuadrado de 12 × 12 m. 2 amarillos y 2 rojos dentro; 4 comodines, uno en cada lado, fuera pegados a la línea. Un amarillo empieza con balón.",
+ "juego": "El equipo con balón (2 + 4 comodines) juega a un toque contra los 2 rivales; los comodines se desplazan por su lado. Quien roba pasa a tener la posesión con los comodines.",
+ "punto": "1 punto cada 8 pases seguidos; si roban, vuelve a 0. 4 series de 2 min; cada 2 min cambian los comodines.",
+ "consigna": "A un toque y apoya por el lado libre.",
+ "variantes": {
+  "facil": "Dos toques y cuadrado de 14 × 14 m.",
+  "dificil": "Un toque, 10 × 10 m y los comodines no pueden devolver al que pasó."
+ },
+ "adaptacion": "Benjamín: dos toques y 15 × 15 m. Cadete: los comodines juegan a un toque y los de dentro a dos.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 2:2+4 | entrada 641",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 141"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 2:2 + 4 comodines que van con el equipo en posesión y apoyan por los cuatro lados pudiéndose desplazar para dar apoyos laterales, cuadrado de 12 × 12 m, 4 × 2 min, cada 2 min cambiar los comodines, un toque. (propuesta): puntuación, pausas, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.4,
+   "xmax": 14.4,
+   "ymin": -2.4,
+   "ymax": 14.4
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 8.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 3.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3.5,
+    "y": 8.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": -0.7,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 12.7,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 12.7,
+    "f": -90
+   },
+   {
+    "r": "C",
+    "x": -0.7,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     4
+    ],
+    "b": [
+     12.7,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     12.7,
+     6
+    ],
+    "b": [
+     8.5,
+     8.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

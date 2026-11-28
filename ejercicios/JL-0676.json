@@ -1,0 +1,188 @@
+{
+ "id": "JL-0676",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 pase desde el cuadrado",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "40 × 40 m",
+ "duracion": "5 × 2 min",
+ "series": "5 series de 2 min con 30 s de pausa. Cada 2 min cambian los comodines (fuente).",
+ "objetivo": "Recibir dentro de un cuadrado pequeño y pasar fuera con ventaja. Cómo explicarlo: entra al cuadrado con el balón y sal con el pase al compañero libre. Errores típicos: pisar el cuadrado sin pase posible, recibir de espaldas. Observar: perfil, control orientado y pase tras el cuadrado.",
+ "montaje": "Campo de 40 × 40 m con 5 cuadrados de 2 × 2 m (4 cerca de las esquinas y 1 central). 4 amarillos, 4 rojos y 2 comodines con el equipo que tiene el balón.",
+ "juego": "Un jugador entra con el balón en un cuadrado y desde dentro pasa a un compañero fuera de él. Al robar, cambia la posesión.",
+ "punto": "1 punto cada vez que un pase sale desde dentro de un cuadrado a un compañero fuera de él; sigue con la posesión. 5 series de 2 min.",
+ "consigna": "Entra al cuadrado y pasa fuera.",
+ "variantes": {
+  "facil": "Cuadrados de 3 × 3 m y dos toques.",
+  "dificil": "Cuadrados de 1,5 × 1,5 m y no repetir cuadrado seguido."
+ },
+ "adaptacion": "Benjamín: 3v3+2 en 30 × 30 m. Cadete: el que sale del cuadrado debe pasar de un toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 676",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 147"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el equipo en posesión, cada 2 min cambiar los comodines, 40 × 40 m con cinco cuadrados de 2 × 2 m, 5 × 2 min, 1 punto cada vez que un jugador, desde el interior de un cuadrado, pasa a un compañero fuera de él, sigue con la posesión. (propuesta): colocación de los cuadrados, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 42.2,
+   "ymin": -2.2,
+   "ymax": 42.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     9,
+     9,
+     11,
+     11
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     29,
+     9,
+     31,
+     11
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     19,
+     19,
+     21,
+     21
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     9,
+     29,
+     11,
+     31
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     29,
+     29,
+     31,
+     31
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 35,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 33,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 29,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 2.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 35,
+    "y": 26,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     10
+    ],
+    "b": [
+     26,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   }
+  ]
+ }
+}

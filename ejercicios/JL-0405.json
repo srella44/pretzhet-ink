@@ -1,0 +1,127 @@
+{
+ "id": "JL-0405",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1+1 dos zonas de cruce",
+ "formato": "1v1+1",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug. (3 grupos de 3)",
+ "espacio": "25 × 20 m",
+ "duracion": "6 × 1 min",
+ "series": "6 series de 1 min; cada minuto los comodines cambian de campo (fuente).",
+ "objetivo": "Regatear con velocidad y cruzar una zona ancha. Cómo explicarlo: no es una portería, es una franja: basta con atravesarla conduciendo. Errores típicos: frenar delante de la zona, regatear hacia el comodín. Observar: aceleración tras el regate y uso del cuerpo para proteger.",
+ "montaje": "Campo de 25 × 20 m con una zona de 3 × 20 m en cada fondo. Un campo por grupo de 3: amarillo, rojo y comodín con el rojo. Cada uno ataca la zona del fondo contrario.",
+ "juego": "El del balón regatea al rival y al comodín (1v2) y cruza conduciendo la zona rival. Si pierde el balón, ataca el otro.",
+ "punto": "1 punto por cruzar conduciendo la zona rival; luego cambia la posesión. 6 series de 1 min; cada minuto los comodines pasan al campo siguiente.",
+ "consigna": "Regatea a los dos y cruza la zona.",
+ "variantes": {
+  "facil": "Zonas de 5 m de ancho y comodín que solo marca.",
+  "dificil": "Zonas de 2 m y comodín con robo libre."
+ },
+ "adaptacion": "Benjamín: 1v1 en 20 × 15 m. Cadete: solo vale cruzar tras un regate con cambio de ritmo.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1:1+1 | entrada 405",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 93"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 1:1 + 1 comodín que va con el que defiende (3 grupos), 25 × 20 m con dos zonas de 3 × 20 m (cada equipo ataca una y defiende otra), 6 × 1 min, 1 punto por regatear y cruzar conduciendo la zona. (propuesta): un campo por grupo, rotación de comodines, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   25,
+   20
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 26.8,
+   "ymin": -1.8,
+   "ymax": 21.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     3,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     22,
+     0,
+     25,
+     20
+    ]
+   }
+  ],
+  "cones": [
+   [
+    3,
+    0
+   ],
+   [
+    3,
+    20
+   ],
+   [
+    22,
+    0
+   ],
+   [
+    22,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17.5,
+    "y": 5.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     11
+    ],
+    "b": [
+     23.5,
+     14
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    23.5,
+    -0.4,
+    "ZONA RIVAL",
+    "middle"
+   ]
+  ]
+ }
+}

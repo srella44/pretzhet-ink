@@ -1,0 +1,173 @@
+{
+ "id": "JL-0413",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 cuadrados de regate",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "30 × 30 m",
+ "duracion": "5 × 2 min",
+ "series": "5 series de 2 min con 30 s de pausa. Cada 1 min los comodines cambian con 1 jugador de cada equipo (propuesta).",
+ "objetivo": "Recibir en una zona cerrada y regatear antes de continuar el juego. Cómo explicarlo: el cuadrado es una zona de duelo: quien recibe dentro debe ganar su 1v2. Errores típicos: pasar al fuera de cuadrado sin regatear, recibir de espaldas sin protegerse. Observar: control orientado y protección del balón.",
+ "montaje": "Campo de 30 × 30 m con 2 cuadrados de 7,5 × 7,5 m. En cada uno: 1 amarillo, 1 rojo y 1 comodín con el que defiende. Los otros 2 de cada equipo, fuera.",
+ "juego": "Pasan a un compañero dentro de un cuadrado; este controla y regatea al rival y al comodín antes de pasar. Si pierden el balón, cambia la posesión.",
+ "punto": "1 punto cada vez que quien recibe en el cuadrado regatea y pasa. 5 series de 2 min; cada 1 min cambian los comodines.",
+ "consigna": "Recibe en el cuadrado y regatea.",
+ "variantes": {
+  "facil": "Cuadrados de 10 × 10 m y comodín que solo marca.",
+  "dificil": "Cuadrados de 5 × 5 m y 3 s para regatear."
+ },
+ "adaptacion": "Benjamín: 3v3 con cuadrados grandes. Cadete: el comodín puede robar.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 +2 | entrada 413",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 95"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 4:4 + 2 comodines que van con el equipo que defiende, 30 × 30 m con dos cuadrados de 7,5 × 7,5 m donde cada equipo sitúa a un jugador y también los comodines, 1 punto cada vez que quien está en el cuadrado controla y regatea a sus adversarios antes de pasar, 5 × 2 min. (propuesta): cuántos jugadores de cada equipo hay fuera, rotación, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 31.8,
+   "ymin": -1.8,
+   "ymax": 31.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     3,
+     11.25,
+     10.5,
+     18.75
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     19.5,
+     11.25,
+     27,
+     18.75
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.2,
+    "y": 12.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 9.2,
+    "y": 12.4,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6.7,
+    "y": 17.6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 21.2,
+    "y": 12.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26.6,
+    "y": 12.4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 23.6,
+    "y": 17.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 24.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 24.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14.5,
+     3.5
+    ],
+    "b": [
+     4.2,
+     12.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     4.2,
+     12.4
+    ],
+    "b": [
+     7.2,
+     21
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 6,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6.75,
+    10.2,
+    "CUADRADO",
+    "middle"
+   ],
+   [
+    23.25,
+    10.2,
+    "CUADRADO",
+    "middle"
+   ]
+  ]
+ }
+}

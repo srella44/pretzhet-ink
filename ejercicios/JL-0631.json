@@ -1,0 +1,103 @@
+{
+ "id": "JL-0631",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1+2 a un toque",
+ "formato": "1v1+2",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "4 jug. (1v1 + 2 comodines)",
+ "espacio": "8 × 8 m",
+ "duracion": "8 × 1 min",
+ "series": "8 series de 1 min con 20 s de pausa. Cada minuto cambian los comodines por los dos que descansan (fuente).",
+ "objetivo": "Pasar a un toque y moverse para dar apoyos mientras se presiona al poseedor. Cómo explicarlo: tu pareja es el rival; los comodines juegan siempre con el del balón. Errores típicos: controlar de más, comodines parados. Observar: perfil abierto, apoyos a distancia correcta y pase al pie libre.",
+ "montaje": "Cuadrado de 8 × 8 m. Un amarillo y un rojo dentro; 2 comodines en esquinas opuestas, fuera pegados a la línea. Un balón; empieza el amarillo.",
+ "juego": "El del balón y sus 2 comodines juegan a un toque contra el rival, que intenta robar o tocar el balón. Si lo consigue, cambian los papeles y los comodines apoyan al nuevo poseedor.",
+ "punto": "1 punto cada 6 pases seguidos; si roban, vuelve a 0. 8 series de 1 min; cada minuto cambian los comodines.",
+ "consigna": "Pasa a un toque y apoya al libre.",
+ "variantes": {
+  "facil": "Dos toques y 10 × 10 m.",
+  "dificil": "Un toque, 6 × 6 m y pase raso al pie."
+ },
+ "adaptacion": "Benjamín: dos toques y 10 × 10 m. Cadete: comodines solo con el pie no dominante.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1 : 1 + 2 | entrada 631",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 140"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 1:1 + 2 comodines que van con el jugador en posesión, cada 1 min cambiar los comodines, 8 × 1 min, cuadrado de 8 × 8 m, se juega a un toque (pase). (propuesta): puntuación, pausas, colocación en las esquinas (otras variantes de la misma página los sitúan en lados o esquinas), variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   8,
+   8
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 10.2,
+   "ymin": -2.2,
+   "ymax": 10.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.6,
+    "y": 5.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 5.2,
+    "y": 2.6,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": -0.2,
+    "y": 8.2,
+    "f": -45
+   },
+   {
+    "r": "C",
+    "x": 8.2,
+    "y": -0.2,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.6,
+     5.6
+    ],
+    "b": [
+     8.2,
+     -0.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8.2,
+     -0.2
+    ],
+    "b": [
+     -0.2,
+     8.2
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

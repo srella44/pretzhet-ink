@@ -1,0 +1,200 @@
+{
+ "id": "JL-0678",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 ocho pases y gol",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug. (4v4 + 2 comodines)",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "10 min seguidos o 5 × 2 min con 30 s de pausa; cambio de comodines cada 2 min (propuesta).",
+ "objetivo": "Conservar con paciencia y finalizar por la portería que quede libre. Cómo explicarlo: ocho pases antes de tirar; antes del tiro, mira cuál está abierta. Errores típicos: tirar sin cuenta completa, tirar a la portería más cercana a un rival. Observar: lectura de las cinco porterías y cambio de orientación.",
+ "montaje": "Campo de 35 × 35 m con 5 porterías de 5 m (4 en el centro de cada lado y 1 central). 4 amarillos, 4 rojos y 2 comodines con el que tiene el balón.",
+ "juego": "Tras 8 pases seguidos, el equipo con balón (4 + 2) finaliza con tiro raso a cualquier portería. Si roban, empieza la cuenta del otro.",
+ "punto": "1 gol por cada tiro por una portería tras los 8 pases; sigue con la posesión y la cuenta vuelve a 0. Gana quien más goles marque.",
+ "consigna": "Ocho pases y tira a la libre.",
+ "variantes": {
+  "facil": "Seis pases y porterías de 6 m.",
+  "dificil": "Diez pases, porterías de 4 m y dos toques."
+ },
+ "adaptacion": "Benjamín: 3v3+2 en 25 × 25 m y 5 pases. Cadete: obligar al tiro de un toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 678",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 147"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el equipo en posesión, 35 × 35 m con cinco porterías de 5 m, 10 min, se puede finalizar en cualquiera de las porterías tras 8 pases seguidos; si hay gol, siguen con la posesión. (propuesta): colocación de las porterías, tiro raso, cambio de comodines, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 37.2,
+   "ymin": -2.2,
+   "ymax": 37.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "discs": [
+   [
+    15.0,
+    6
+   ],
+   [
+    20.0,
+    6
+   ],
+   [
+    6,
+    15.0
+   ],
+   [
+    6,
+    20.0
+   ],
+   [
+    29,
+    15.0
+   ],
+   [
+    29,
+    20.0
+   ],
+   [
+    15.0,
+    29
+   ],
+   [
+    20.0,
+    29
+   ],
+   [
+    15.0,
+    17.5
+   ],
+   [
+    20.0,
+    17.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 12,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 25,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 25,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 32,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     27,
+     6.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     6.5
+    ],
+    "b": [
+     17.5,
+     17.5
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 2,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "35 × 35 m · 5 porterías de 5 m"
+ }
+}

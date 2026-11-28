@@ -1,0 +1,214 @@
+{
+ "id": "JL-0691",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "6v6+2 ocho pases centrales",
+ "formato": "6v6+2",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "14 jug. (6v6 + 2 comodines)",
+ "espacio": "60 × 35 m (zona central 30 × 35 m)",
+ "duracion": "10 min",
+ "series": "10 min seguidos o 2 × 5 min con 1 min de pausa; cambio de comodines cada 5 min (propuesta).",
+ "objetivo": "Construir en la zona central y acabar por los extremos. Cómo explicarlo: el medio es para mover y atraer; con 8 pases hechos en el medio, ya puedes finalizar. Errores típicos: rematar sin cuenta completa, los 8 pases fuera de la zona. Observar: posesión útil en el centro y llegada tras el pase al lado libre.",
+ "montaje": "Campo de 60 × 35 m con zona central de 30 × 35 m y portería de 7 m en cada fondo, sin portero. 6 amarillos, 6 rojos y 2 comodines con el que tiene el balón.",
+ "juego": "El equipo con balón (6 + 2) da 8 pases seguidos dentro de la zona central antes de poder finalizar. Si roban o sale, empieza la cuenta del otro.",
+ "punto": "1 gol por cada tiro a puerta tras los 8 pases en la zona central; sigue con la posesión. Gana quien más goles marque.",
+ "consigna": "Ocho pases en el medio y finaliza.",
+ "variantes": {
+  "facil": "Seis pases y zona central de 40 m.",
+  "dificil": "Diez pases, un toque en la zona y 6 s para tirar."
+ },
+ "adaptacion": "Cadete: 5v5+2 en 50 × 30 m. Juvenil: tres toques máximo y portería de 6 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 + 2 | entrada 691",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 149"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 6:6 + 2 comodines que van con el equipo en posesión, 60 × 35 m con una zona central de 30 × 35 m, cada equipo ataca y defiende una portería, el equipo en posesión da 8 pases seguidos dentro de la zona central antes de poder finalizar, 10 min. (propuesta): porterías sin portero, puntuación, cambio de comodines, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   60,
+   35
+  ],
+  "extent": {
+   "xmin": -2.8,
+   "xmax": 62.8,
+   "ymin": -2.8,
+   "ymax": 37.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15,
+     0,
+     45,
+     35
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     35
+    ],
+    "6 5"
+   ],
+   [
+    [
+     45,
+     0
+    ],
+    [
+     45,
+     35
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 0,
+    "y": 17.5,
+    "lado": "L",
+    "ancho": 7,
+    "portero": false
+   },
+   {
+    "x": 60,
+    "y": 17.5,
+    "lado": "R",
+    "ancho": 7,
+    "portero": false
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 35,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 50,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 53,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 33,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 43,
+    "y": 3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     10
+    ],
+    "b": [
+     27,
+     25
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     27,
+     25
+    ],
+    "b": [
+     37,
+     12
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "id": "JL-0695",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "6v6+2 tres dentro y fuera",
+ "formato": "6v6+2",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "14 jug. (6v6 + 2 comodines)",
+ "espacio": "40 × 40 m (zona central 20 × 20 m)",
+ "duracion": "2 × 5 min",
+ "series": "2 series de 5 min con 1 min de pausa. A los 5 min cambian de puesto los jugadores (dentro por fuera) y los comodines (fuente).",
+ "objetivo": "Combinar el juego interior con las salidas exteriores en una posesión larga. Cómo explicarlo: el de dentro atrae y el de fuera ofrece el apoyo; ocupad zonas distintas. Errores típicos: los de fuera quietos, los de dentro agrupados. Observar: apoyos interior-exterior y ritmo del pase.",
+ "montaje": "Campo de 40 × 40 m con zona central de 20 × 20 m. Cada equipo (6): 3 dentro de la zona y 3 fuera. 2 comodines con el que tiene el balón.",
+ "juego": "Juegan 6v6; los de dentro no salen y los de fuera no entran, salvo en el cambio de puestos a los 5 min. Los comodines ayudan al que tiene el balón.",
+ "punto": "1 punto cada 10 pases seguidos; sigue con la posesión y la cuenta vuelve a 0. 2 series de 5 min; gana quien más sume.",
+ "consigna": "Dentro atrae, fuera ofrece apoyo.",
+ "variantes": {
+  "facil": "Ocho pases y zona de 24 × 24 m.",
+  "dificil": "Doce pases, dos toques y zona de 16 × 16 m."
+ },
+ "adaptacion": "Cadete: 5v5+2 en 35 × 35 m. Juvenil: un toque en los jugadores de la zona central.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 + 2 | entrada 695",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 150"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 6:6 + 2 comodines, 40 × 40 m con una zona central de 20 × 20 m, cada equipo sitúa tres jugadores dentro de la zona central y tres fuera, cada 5 min cambiar de posiciones, 1 punto por diez pases seguidos, 2 × 5 min. (propuesta): los comodines ayudan al equipo con balón (la fuente no lo dice), movimiento permitido de los jugadores, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 42.2,
+   "ymin": -2.2,
+   "ymax": 42.2
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     10,
+     10,
+     30,
+     30
+    ]
+   }
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 13,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 27,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 36,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 37,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 36,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "C",
+    "x": 16,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 35,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     13
+    ],
+    "b": [
+     4,
+     4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     4
+    ],
+    "b": [
+     27,
+     13
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    20,
+    8.6,
+    "ZONA CENTRAL",
+    "middle"
+   ]
+  ]
+ }
+}
