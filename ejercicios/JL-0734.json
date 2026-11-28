@@ -1,0 +1,212 @@
+{
+ "id": "JL-0734",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 pase desde las esquinas",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa.",
+ "objetivo": "Usar los apoyos de esquina para cambiar el lado. Cómo explicarlo: la esquina es un jugador libre; pasar a ella y salir con un pase largo. Errores típicos: pasar a la esquina sin ángulo, volver al mismo sitio. Observar: control orientado y pase de salida con el perfil abierto.",
+ "montaje": "Cuadrado de 35 × 35 m con una zona de 5 × 5 m en cada esquina (medida propuesta). Dos equipos de 5, libres.",
+ "juego": "Un jugador entra en una zona con el balón y pasa a un compañero que está fuera. Los rivales también pueden entrar a presionar.",
+ "punto": "Cada pase desde una zona a un compañero fuera = 1 punto; sigue la posesión. Si roban o sale, cambia el balón.",
+ "consigna": "Entra a la esquina y sal con pase.",
+ "variantes": {
+  "facil": "Los rivales no pueden entrar en las zonas.",
+  "dificil": "Solo 2 toques dentro de la zona."
+ },
+ "adaptacion": "Alevín: 4v4 en 30 × 30 m y zonas de 4 m. Cadete: el pase desde la zona debe ser de primeras.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5: 4 zonas · entrada 734",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 157"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5, 35 × 35 m, 10', cuatro zonas marcadas en las esquinas, 1 punto por pase desde el interior de una zona. (propuesta): medida 5 × 5 m, presión dentro de las zonas, edad, series, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 36.3,
+   "ymin": -1.3,
+   "ymax": 36.3
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "tag": "35 × 35 m · zonas de 5 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     35,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     30,
+     5,
+     35
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     30,
+     35,
+     35
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 14,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31.5,
+    "y": 32,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     10
+    ],
+    "b": [
+     3,
+     3
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     10,
+     24
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     24
+    ],
+    "b": [
+     22,
+     17
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

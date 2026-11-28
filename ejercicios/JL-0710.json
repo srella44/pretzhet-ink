@@ -1,0 +1,182 @@
+{
+ "id": "JL-0710",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 diez pases",
+ "formato": "5v5",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa.",
+ "objetivo": "Mantener la posesión en grupo grande. Cómo explicarlo: abrirse para dar ángulos y moverse a recibir. Errores típicos: agruparse, no pedir el balón, pasar al compañero tapado. Observar: separación entre jugadores, cambios de lado y primer control orientado.",
+ "montaje": "Cuadrado de 35 × 35 m. Dos equipos de 5, libres, sin zonas. Empieza un amarillo con balón y los rojos defienden.",
+ "juego": "El equipo con balón da pases entre sus 5 jugadores contando en voz alta. Si roban o el balón sale, cambia la posesión y la cuenta vuelve a 0.",
+ "punto": "1 punto cada vez que logra 10 pases seguidos; sigue con balón. Gana quien más puntos tenga a los 10 min.",
+ "consigna": "Ábrete y pide el balón.",
+ "variantes": {
+  "facil": "Ocho pases por punto y un solo toque de pausa para los jugadores sin balón.",
+  "dificil": "Doce pases por punto o no repetir pase al mismo compañero seguido."
+ },
+ "adaptacion": "Benjamín: 4v3 con 6 pases en 25 × 25 m. Infantil: 12 pases y no devolver al que pasa.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 · entrada 710",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 154"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5, 35 × 35 m, 10', 1 punto cada vez que se dan diez pases seguidos (el texto del PDF viene dañado, se leyó «cada vez que logra dar diez pases seguidos»). (propuesta): edad, series, reglas de reinicio, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 36.3,
+   "ymin": -1.3,
+   "ymax": 36.3
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "tag": "35 × 35 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 7.0,
+    "y": 9.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19.0,
+    "y": 6.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27.0,
+    "y": 17.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.0,
+    "y": 28.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.0,
+    "y": 24.0,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14.0,
+    "y": 15.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26.0,
+    "y": 9.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24.0,
+    "y": 26.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10.0,
+    "y": 31.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33.0,
+    "y": 26.0,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     19,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     6
+    ],
+    "b": [
+     27,
+     17
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     17
+    ],
+    "b": [
+     17,
+     28
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    8,
+    2.2,
+    "10 PASES = 1 PUNTO",
+    "start"
+   ]
+  ]
+ }
+}

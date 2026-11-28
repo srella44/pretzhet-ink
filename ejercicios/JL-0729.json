@@ -1,0 +1,200 @@
+{
+ "id": "JL-0729",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 diez pases y tres porterías",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa.",
+ "objetivo": "Combinar posesión y finalización a varios objetivos. Cómo explicarlo: diez pases para abrir al rival y después buscar la portería libre. Errores típicos: tirar sin ver cuál está libre, perder la cuenta. Observar: el cambio de orientación y el tiro raso con interior.",
+ "montaje": "Cuadrado de 35 × 35 m con 3 porterías de 2 m neutrales (1 arriba al centro y 2 abajo). Dos equipos de 5, libres.",
+ "juego": "El equipo con balón da 10 pases seguidos y después puede tirar raso a cualquiera de las tres porterías, que valen para los dos equipos.",
+ "punto": "Gol tras 10 pases = 1 punto, sigue con balón y la cuenta vuelve a 0. Si roban o sale, cambia la posesión.",
+ "consigna": "Diez pases y tira a la libre.",
+ "variantes": {
+  "facil": "Ocho pases y porterías de 3 m.",
+  "dificil": "Doce pases y solo vale el gol de primeras."
+ },
+ "adaptacion": "Alevín: 4v4 en 30 × 30 m y 6 pases. Cadete: una sola portería cada vez, la que cante el entrenador.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5: 3 porterías pequeñas · entrada 729",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 157"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5, 35 × 35 m, 10', tres porterías pequeñas neutrales de 2 m, diez pases antes de finalizar en cualquiera. (propuesta): colocación de las porterías, tiro raso, series, edad, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 36.3,
+   "ymin": -1.3,
+   "ymax": 36.3
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "tag": "35 × 35 m · 3 porterías de 2 m",
+  "discs": [
+   [
+    16.5,
+    1.4
+   ],
+   [
+    18.5,
+    1.4
+   ],
+   [
+    4.0,
+    31
+   ],
+   [
+    6.0,
+    31
+   ],
+   [
+    29.0,
+    31
+   ],
+   [
+    31.0,
+    31
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.0,
+    "y": 9.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19.0,
+    "y": 6.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27.0,
+    "y": 17.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17.0,
+    "y": 28.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6.0,
+    "y": 24.0,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14.0,
+    "y": 15.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 26.0,
+    "y": 9.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24.0,
+    "y": 26.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10.0,
+    "y": 31.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33.0,
+    "y": 26.0,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     19,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     6
+    ],
+    "b": [
+     27,
+     17
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     17
+    ],
+    "b": [
+     30,
+     31
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "id": "JL-0748",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "6v6 con dos zonas laterales",
+ "formato": "6v6",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 35 m",
+ "duracion": "9 min",
+ "series": "3 rondas de 3 min con 30 s de pausa; entre rondas se rotan los puestos de banda.",
+ "objetivo": "Usar la banda como salida y cambiar el juego. Cómo explicarlo: el compañero de banda es un apoyo libre pero marcado, así que hay que pasar con precisión y rápido. Errores típicos: pasar a la banda sin perfil, quedarse esperando. Observar: amplitud, cambio de orientación y apoyos cercanos.",
+ "montaje": "Campo de 40 × 35 m con una zona lateral de 5 × 35 m a cada lado. Cada equipo: 1 jugador en cada zona lateral y 4 en el centro.",
+ "juego": "Nadie cambia de zona. El equipo con balón da 10 pases seguidos, pasando por el centro y las bandas; en cada banda hay 1 contra 1.",
+ "punto": "1 punto por 10 pases; sigue con balón. 3 rondas de 3 min; entre rondas se rotan los puestos de banda.",
+ "consigna": "Juega a la banda y vuelve.",
+ "variantes": {
+  "facil": "Ocho pases y el rival de banda solo marca.",
+  "dificil": "Doce pases y la banda a dos toques."
+ },
+ "adaptacion": "Alevín: 5v5 en 35 × 30 m y 6 pases. Cadete: obligar a pasar por las dos bandas.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6: 2 zonas · entrada 748",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 160"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 6:6, 40 × 35 m, dos zonas laterales de 5 × 35 m con un jugador de cada equipo en cada una y 4 en el centro, 3 × 3', 10 pases = 1 punto. (propuesta): 1 contra 1 en bandas, rotación entre rondas, edad, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   35
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 41.3,
+   "ymin": -1.3,
+   "ymax": 36.3
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "tag": "40 × 35 m · zonas de 5 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     35
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     35,
+     0,
+     40,
+     35
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37.5,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 37.5,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     11,
+     9
+    ],
+    "b": [
+     26,
+     12
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     26,
+     12
+    ],
+    "b": [
+     37.5,
+     25
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     37.5,
+     25
+    ],
+    "b": [
+     30,
+     27
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

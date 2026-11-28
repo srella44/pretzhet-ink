@@ -1,0 +1,182 @@
+{
+ "id": "JL-0708",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 pared = punto",
+ "formato": "5v5",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa.",
+ "objetivo": "Aprender a combinar con paredes. Cómo explicarlo: pasar, acelerar al hueco y recibir de primeras. Errores típicos: pasar y quedarse mirando, devolución sin tiempo para el que corre. Observar: la carrera tras el pase, el pase de devolución a un toque y el que controla la zona libre.",
+ "montaje": "Cuadrado de 35 × 35 m. Dos equipos de 5, libres por el campo. Empieza un amarillo con balón y los rojos defienden.",
+ "juego": "El equipo con balón hace paredes: pasa, corre al hueco y su compañero le devuelve el balón de primeras. El rival intenta robar.",
+ "punto": "Cada pared completa = 1 punto y sigue la posesión. Si roban o sale, cambia el balón. Gana quien más tenga a los 10 min.",
+ "consigna": "Pasa y corre al hueco.",
+ "variantes": {
+  "facil": "La pared vale 2 puntos si se hace al lado contrario de donde se pasó.",
+  "dificil": "Máximo 2 toques por jugador y la pared solo se cuenta con control orientado."
+ },
+ "adaptacion": "Alevín: 4v4 en 30 × 30 m. Cadete: paredes seguidas valen doble.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 · entrada 708",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 153"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5, 35 × 35 m, 10', 1 punto por cada pared que se realiza. (propuesta): definición de pared a un toque, doble puntuación, edad 10–13, series, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 36.3,
+   "ymin": -1.3,
+   "ymax": 36.3
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "tag": "35 × 35 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     17,
+     12
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     7,
+     9
+    ],
+    "b": [
+     16,
+     20
+    ],
+    "k": "run",
+    "s0": 12,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     17,
+     12
+    ],
+    "b": [
+     16,
+     20
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    8,
+    2.2,
+    "PARED = 1 PUNTO",
+    "start"
+   ]
+  ]
+ }
+}

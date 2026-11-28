@@ -1,0 +1,220 @@
+{
+ "id": "JL-0767",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "6v6 pasa por las porterías",
+ "formato": "6v6",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa; cambio de porterías defendidas en el descanso.",
+ "objetivo": "Atacar varios objetivos y buscar el pase al hueco. Cómo explicarlo: hay que fijar al rival y colar el balón raso por la portería libre. Errores típicos: pasar por portería propia, no mirar atrás. Observar: pase raso con el interior y control orientado al otro lado.",
+ "montaje": "Cuadrado de 40 × 40 m con 4 porterías de 2 m, una por lado. Amarillos defienden arriba e izquierda; rojos las otras dos.",
+ "juego": "Hay que pasar a través de una portería rival y que un compañero recoja el balón al otro lado. Los rivales cortan el pase.",
+ "punto": "Cada pase por una portería rival = 1 punto; sigue con balón. Si roban o sale, cambia la posesión. 10 min.",
+ "consigna": "Pasa raso por la portería libre.",
+ "variantes": {
+  "facil": "Pase válido aunque lo toque un rival.",
+  "dificil": "Un defensor menos en cada portería durante 2 min."
+ },
+ "adaptacion": "Alevín: 5v5 en 30 × 30 m. Cadete: el pase debe ser de primeras tras la recepción.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6: 4 porterías · entrada 767",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 163"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 6:6, 40 × 40 m, cuatro porterías pequeñas de 2 m, cada equipo ataca y defiende dos, 10', 1 punto por pase a través de una portería defendida por el rival. (propuesta): reparto de porterías, jugador que recoge, edad, series, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 43.2,
+   "ymin": -1.3,
+   "ymax": 41.3
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ]
+  ],
+  "tag": "40 × 40 m · 4 porterías de 2 m",
+  "discs": [
+   [
+    19.0,
+    1.4
+   ],
+   [
+    21.0,
+    1.4
+   ],
+   [
+    19.0,
+    38.6
+   ],
+   [
+    21.0,
+    38.6
+   ],
+   [
+    1.4,
+    19.0
+   ],
+   [
+    1.4,
+    21.0
+   ],
+   [
+    38.6,
+    19.0
+   ],
+   [
+    38.6,
+    21.0
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 41.3,
+    "y": 21.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5,
+    "y": 19,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     10
+    ],
+    "b": [
+     20,
+     12
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     12
+    ],
+    "b": [
+     32,
+     16.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     32,
+     16.5
+    ],
+    "b": [
+     41.3,
+     21.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

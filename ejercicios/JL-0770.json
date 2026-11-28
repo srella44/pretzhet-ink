@@ -1,0 +1,220 @@
+{
+ "id": "JL-0770",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 5v5+2 y cuatro porterías",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa; cada 2 min cambian los comodines.",
+ "objetivo": "Mantener la posesión en inferioridad y atacar porterías opuestas. Cómo explicarlo: el equipo con balón juega con 5 contra 7; el pase por la portería rival es la salida. Errores típicos: pases largos sin ángulo, no escoger la portería libre. Observar: apoyos cercanos y pase raso.",
+ "montaje": "Cuadrado de 40 × 40 m, 4 porterías de 2 m. Cada equipo defiende 2 contiguas (amarillos arriba e izq.). 2 comodines con la defensa.",
+ "juego": "Se pasa a través de una portería rival y un compañero recoge el balón al otro lado. Los comodines ayudan a los defensores.",
+ "punto": "Cada pase por una portería rival = 1 punto; sigue con balón. Si roban o sale, cambia la posesión. 10 min.",
+ "consigna": "Cuenta con los dos de más.",
+ "variantes": {
+  "facil": "Un comodín en vez de dos.",
+  "dificil": "Tres comodines con la defensa."
+ },
+ "adaptacion": "Infantil: 4v4+2 en 30 × 30 m. Cadete: obligar a pasar por las dos porterías rivales alternas.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Posesión 5:5 + 2: 4 porterías · entrada 770",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 164"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5 + 2 comodines que van con el equipo que defiende, 40 × 40 m, cuatro porterías de 2 m, cada equipo ataca y defiende dos, 10', 1 punto por pase a través de una portería rival. (propuesta): jugador que recoge, rotación de comodines, edad, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 43.2,
+   "ymin": -1.3,
+   "ymax": 41.3
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ]
+  ],
+  "tag": "40 × 40 m · 4 porterías de 2 m",
+  "discs": [
+   [
+    19.0,
+    1.4
+   ],
+   [
+    21.0,
+    1.4
+   ],
+   [
+    19.0,
+    38.6
+   ],
+   [
+    21.0,
+    38.6
+   ],
+   [
+    1.4,
+    19.0
+   ],
+   [
+    1.4,
+    21.0
+   ],
+   [
+    38.6,
+    19.0
+   ],
+   [
+    38.6,
+    21.0
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 16.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 41.3,
+    "y": 21.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 35.5,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 22,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     10
+    ],
+    "b": [
+     19,
+     13
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     19,
+     13
+    ],
+    "b": [
+     32,
+     16.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     32,
+     16.5
+    ],
+    "b": [
+     41.3,
+     21.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

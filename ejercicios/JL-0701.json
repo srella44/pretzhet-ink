@@ -1,0 +1,176 @@
+{
+ "id": "JL-0701",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4v4 laterales con relevo",
+ "formato": "4v4",
+ "edad": "8–11 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 2 min con 20 s de pausa; al acabar cada ronda se cambian laterales e interiores.",
+ "objetivo": "Conservar con apoyos laterales y relevarse. Cómo explicarlo: el que pasa al lateral entra en su lugar; el balón no se pierde nunca. Errores típicos: pasar sin mirar quién queda libre, quedarse parado en el lateral. Observar: orientación del cuerpo y pase al segundo toque.",
+ "montaje": "Cuadrado de 12 × 12 m. Cada equipo: 2 en dos lados opuestos y 2 dentro. Amarillos a izq. y dcha., rojos arriba y abajo.",
+ "juego": "El equipo con balón busca 10 pases seguidos con sus 4; el rival solo presiona con sus 2 interiores. Si un interior pasa a un lateral, se cambian el puesto.",
+ "punto": "1 punto por cada 10 pases y la cuenta vuelve a 0. Si roban o sale, cambia la posesión. 4 rondas de 2 min.",
+ "consigna": "Pasa y ocupa su sitio.",
+ "variantes": {
+  "facil": "Cinco pases por punto y los laterales pueden entrar 1 m en el campo.",
+  "dificil": "Doce pases, y los laterales solo juegan a 2 toques."
+ },
+ "adaptacion": "Benjamín: 4v4 en 15 × 15 m y 6 pases. Infantil: añadir un comodín con quien tiene el balón y 12 pases.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 · entrada 701",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 152"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 4:4, 12 × 12 m, 4 × 2', dos jugadores por equipo en dos lados y dos dentro, 1 punto por 10 pases y relevo al pasar a un lateral. (propuesta): lados asignados a cada equipo, presión solo de interiores, edad 8–11, series con pausa, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.9,
+   "xmax": 14.9,
+   "ymin": -3.4,
+   "ymax": 15.6
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "tag": "12 × 12 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -1.0,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13.0,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 3.2,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 5.2,
+    "y": 8.8,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": -1.0,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 13.0,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     4.5
+    ],
+    "b": [
+     8.5,
+     7.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     8.5,
+     7.5
+    ],
+    "b": [
+     13.0,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     13.0,
+     6
+    ],
+    "b": [
+     10.4,
+     8.2
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -1.9,
+    "ROJOS",
+    "middle"
+   ],
+   [
+    6,
+    14.1,
+    "ROJOS",
+    "middle"
+   ]
+  ]
+ }
+}

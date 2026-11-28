@@ -1,0 +1,198 @@
+{
+ "id": "JL-0721",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 pase al fondo y vuelta",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 30 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa; cambio de línea de fondo a mitad.",
+ "objetivo": "Aprender a profundizar y volver a jugar. Cómo explicarlo: el pase al fondo se acompaña con un compañero que se ofrece detrás de la línea y devuelve. Errores típicos: pasar sin ángulo de devolución, quedarse detrás sin salir. Observar: el apoyo que se ofrece y el pase de salida.",
+ "montaje": "Campo de 40 × 30 m. Dos equipos de 5. Los amarillos atacan la línea de fondo de la derecha y los rojos la de la izquierda.",
+ "juego": "Tras 8 pases seguidos, se envía un pase por detrás de la línea de fondo rival: un compañero lo recibe y lo devuelve al campo con otro pase.",
+ "punto": "Cada pase al fondo y devolución completados = 1 punto y sigue la posesión. Si roban o sale, cambia el balón.",
+ "consigna": "Pasa al fondo y que vuelva.",
+ "variantes": {
+  "facil": "Seis pases antes de enviar al fondo.",
+  "dificil": "Ocho pases y el que recibe detrás no puede tocar más de una vez."
+ },
+ "adaptacion": "Alevín: 4v4 en 30 × 25 m y 5 pases. Cadete: la devolución debe ser al jugador que quede libre.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 · entrada 721",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 155"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5, 40 × 30 m, 10', 1 punto cada vez que se pasa por detrás de una línea de fondo y un compañero lo devuelve al campo; el texto del libro añade «ocho pases seguidos para poder finalizar» (se aplicó antes del pase al fondo). (propuesta): reparto de líneas de fondo, cambio a mitad, edad, series, variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   30
+  ],
+  "extent": {
+   "xmin": -1.3,
+   "xmax": 44.4,
+   "ymin": -1.3,
+   "ymax": 33.4
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    30
+   ],
+   [
+    0,
+    30
+   ]
+  ],
+  "tag": "40 × 30 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 42.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 25,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 17,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9,
+     15
+    ],
+    "b": [
+     17,
+     7
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     7
+    ],
+    "b": [
+     28,
+     13
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     28,
+     13
+    ],
+    "b": [
+     42.5,
+     7
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   },
+   {
+    "a": [
+     42.5,
+     7
+    ],
+    "b": [
+     22,
+     24
+    ],
+    "k": "pass",
+    "s0": 14,
+    "s1": 14,
+    "side": 1,
+    "nt": 0.5,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    38,
+    31.9,
+    "FUERA DE LA LÍNEA DE FONDO",
+    "middle"
+   ]
+  ]
+ }
+}
