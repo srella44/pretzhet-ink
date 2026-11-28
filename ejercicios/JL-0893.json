@@ -1,0 +1,205 @@
+{
+ "id": "JL-0893",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "11v11+2 pasar por las bandas",
+ "formato": "11v11+2",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "24 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa. Cada serie cambian los comodines de equipo.",
+ "objetivo": "Atacar por las bandas contra una defensa con dos jugadores más. Cómo explicarlo: la línea de 30 m prohíbe entrar por el centro, así que hay que abrir el campo y centrar. Errores típicos: pisar el centro, conducir sin cabeza arriba. Observar: amplitud, extremos 1v1 y apoyos del lateral.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero y 2 comodines con la defensa. Dos líneas de 30 m, centradas y a 20 m de cada línea de fondo.",
+ "juego": "No se puede pasar ni conducir a través de las líneas: se rodean por los lados. Libre de toques y con fuera de juego.",
+ "punto": "Gol = 1 punto. Gana quien más marque en las 4 series.",
+ "consigna": "Abre el campo: por fuera, no por el centro.",
+ "variantes": {
+  "facil": "Línea de 20 m de ancho.",
+  "dificil": "Línea de 40 m de ancho."
+ },
+ "adaptacion": "Infantil: 9v9+2 en 70 × 50 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 + 2 | entrada 893",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 189 | bloque 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11 + 2 comodines con el equipo que defiende, 4 × 10 min, dos líneas de 30 m a 20 m de la línea de fondo que no se pueden atravesar (hay que jugar por las zonas laterales), libre de toques y con fuera de juego. (propuesta): colocación centrada, rotación de comodines, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ],
+   [
+    [
+     85,
+     19
+    ],
+    [
+     85,
+     49
+    ],
+    "5 3"
+   ],
+   [
+    [
+     20,
+     19
+    ],
+    [
+     20,
+     49
+    ],
+    "5 3"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 56.0,
+    "y": 34.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 58,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 88,
+    "y": 60,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 96,
+    "y": 36,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 73.1,
+    "y": 24.8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 70,
+    "y": 46,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 92,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 84,
+    "y": 40,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 66.4,
+    "y": 32.9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 80.6,
+    "y": 17.4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     56,
+     34
+    ],
+    "b": [
+     86,
+     60
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     88,
+     60
+    ],
+    "b": [
+     95,
+     38
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "NO SE ATRAVIESAN LAS LÍNEAS: SE JUEGA POR FUERA",
+    "middle"
+   ]
+  ]
+ }
+}

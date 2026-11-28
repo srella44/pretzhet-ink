@@ -1,0 +1,194 @@
+{
+ "id": "JL-0897",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "11v11+2 todos en campo rival",
+ "formato": "11v11+2",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "24 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa. Cada serie cambian los comodines de equipo.",
+ "objetivo": "Subir el equipo entero contra una defensa con dos comodines más. Cómo explicarlo: no se puede tirar hasta que los once estén en campo rival; si alguien se queda atrás hay que seguir combinando. Errores típicos: tirar con el equipo partido, olvidar al central. Observar: altura de la línea, apoyos cortos y salida de la presión.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero y 2 comodines con la defensa; empieza uno con balón. Línea de medio campo.",
+ "juego": "Para tirar, los 10 jugadores de campo del equipo con balón deben estar en campo rival (portero libre, propuesta). Los comodines defienden. Libre de toques y con fuera de juego.",
+ "punto": "Gol = 1 punto. Gana quien más marque en las 4 series.",
+ "consigna": "Todos arriba y entonces tira.",
+ "variantes": {
+  "facil": "Basta con 8 jugadores arriba.",
+  "dificil": "Además, mínimo 5 pases antes del tiro."
+ },
+ "adaptacion": "Infantil: 9v9+2 en 70 × 50 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 + 2 | entrada 897",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 190 | bloque 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11 + 2 comodines con el equipo que defiende, 4 × 10 min, para finalizar el equipo con balón debe tener a todos sus jugadores en campo contrario, libre de toques y con fuera de juego. (propuesta): portero libre, rotación de comodines, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 60,
+    "y": 34,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 64,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 66,
+    "y": 58,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 84,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 92,
+    "y": 42,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 72,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 84,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 88,
+    "y": 54,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 54,
+    "y": 46,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 76,
+    "y": 40,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 58,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     60,
+     34
+    ],
+    "b": [
+     84,
+     24
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     84,
+     22
+    ],
+    "b": [
+     92,
+     40
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     52.5,
+     0,
+     105,
+     68
+    ]
+   }
+  ],
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "LOS 10 EN CAMPO RIVAL PARA TIRAR",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "id": "JL-0868",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "11v11 finalizar desde zonas",
+ "formato": "11v11",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "22 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa. Descanso activo: los suplentes recogen balones.",
+ "objetivo": "Llevar el juego a las bandas y centrar o pasar desde ellas. Cómo explicarlo: los cuatro cuadrados son «puntos de lanzamiento»; sin pasar por uno no hay tiro. Errores típicos: tirar sin que el balón haya salido de un cuadrado, olvidar al lateral libre. Observar: apoyos de extremo y lateral, desmarques al segundo palo y cambios de orientación.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero. Cuatro cuadrados de 10 × 10 m en las bandas, dos por mitad (propuesta); empieza uno con balón.",
+ "juego": "Para tirar, el balón debe salir de un cuadrado: un jugador dentro lo pasa o centra a un compañero. Resto libre de toques y con fuera de juego.",
+ "punto": "Gol = 1 punto. Gana quien más marque en las 4 series.",
+ "consigna": "Sal por la banda y remata.",
+ "variantes": {
+  "facil": "Dos cuadrados más (seis) y a dos toques en ellos.",
+  "dificil": "Solo vale el pase desde el cuadrado de la banda contraria a la del remate."
+ },
+ "adaptacion": "Infantil: 9v9 en 70 × 50 m con cuadrados de 8 × 8 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 | entrada 868",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 184 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11, 4 × 10 min, cuatro zonas marcadas de 10 × 10 m, solo se finaliza si el balón procede de una zona marcada, libre de toques y con fuera de juego. (propuesta): colocación de los cuadrados, qué cuenta como procedencia, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 30,
+    "y": 34,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 45,
+    "y": 56,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 80.0,
+    "y": 6.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 93,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 66,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 48,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 48,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 80.0,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 84,
+    "y": 54,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     30,
+     34
+    ],
+    "b": [
+     78,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     80,
+     6
+    ],
+    "b": [
+     92,
+     29
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15,
+     0,
+     25,
+     10
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     15,
+     58,
+     25,
+     68
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     75,
+     0,
+     85,
+     10
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     75,
+     58,
+     85,
+     68
+    ]
+   }
+  ],
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "SOLO SE TIRA SI EL PASE SALE DE UN CUADRADO",
+    "middle"
+   ]
+  ]
+ }
+}

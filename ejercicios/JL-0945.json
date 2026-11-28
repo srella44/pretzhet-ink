@@ -1,0 +1,164 @@
+{
+ "id": "JL-0945",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 relevo y tiro a puerta",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta: 10 min en total).",
+ "objetivo": "Relevar antes de finalizar con tiro. Relevo: un jugador conduce y deja el balón a un compañero que lo recoge en carrera (frontal, diagonal o dorsal). Cómo explicarlo: no se tira sin hacer antes un relevo; hay que tener a un compañero a mano. Errores típicos: tirar sin relevo, olvidar defender la portería propia. Observar: relevo con tiro y transición defensiva.",
+ "montaje": "Campo de 40 × 25 m con una portería con portero en cada fondo (propuesta). Dos equipos de 5; empieza uno con balón.",
+ "juego": "Cada equipo ataca una portería y defiende la otra. Para tirar, debe hacer antes un relevo (conducir y dejar el balón a un compañero). Gol sin relevo previo = no vale.",
+ "punto": "Gol tras relevo = 1 punto. Gana quien más marque en los 10 min.",
+ "consigna": "Relevo y tiro.",
+ "variantes": {
+  "facil": "El relevo vale también si lo hace un comodín (propuesta).",
+  "dificil": "Relevo obligatorio en campo rival y tiro a un toque."
+ },
+ "adaptacion": "Infantil: 4v4 en 30 × 20 m con porterías pequeñas.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 945",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 200 | bloque 5"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5, 40 × 25 m, dos porterías normales, cada equipo ataca y defiende una, relevo previo obligatorio para tirar, 10 min. (propuesta): portero, series, definición de relevo, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 27.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 12.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17.0,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22.0,
+    "y": 18.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29.0,
+    "y": 10.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11.0,
+    "y": 3.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22.3,
+    "y": 11.2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 33.8,
+    "y": 5.2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 20,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     18
+    ],
+    "b": [
+     27,
+     15
+    ],
+    "k": "cond",
+    "s0": 8,
+    "s1": 6,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     29,
+     10
+    ],
+    "b": [
+     26,
+     13
+    ],
+    "k": "run",
+    "s0": 8,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     14
+    ],
+    "b": [
+     39,
+     12.5
+    ],
+    "k": "pass",
+    "s0": 6,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    20,
+    -1.1,
+    "RELEVO ANTES DE TIRAR",
+    "middle"
+   ]
+  ],
+  "tag": "40 × 25 m"
+ }
+}

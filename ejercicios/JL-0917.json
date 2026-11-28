@@ -1,0 +1,160 @@
+{
+ "id": "JL-0917",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 un punto por relevo",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta: 10 min en total, como indica la fuente). Cada serie cambian los comodines de equipo.",
+ "objetivo": "Aprender a relevar: mantener la posesión cambiando al jugador que lleva el balón. Relevo: un jugador conduce y deja el balón a un compañero que lo recoge en carrera (frontal, diagonal o dorsal). Cómo explicarlo: el que conduce enseña el balón con el exterior y lo deja; el que llega lo toca en el momento. Errores típicos: dejar el balón sin avisar, relevo sin velocidad. Observar: coordinación y comunicación.",
+ "montaje": "Campo de 35 × 35 m. Dos equipos de 5 y 2 comodines con el equipo con balón (7 contra 5); empieza uno con balón.",
+ "juego": "Cada relevo (un jugador conduce y deja el balón a un compañero que se lo lleva) suma un punto. Si roban o sale, cambia la posesión.",
+ "punto": "Cada relevo = 1 punto. Gana quien más puntos sume en los 10 min.",
+ "consigna": "Conduce, deja y relevo.",
+ "variantes": {
+  "facil": "Los relevos solo cuentan si los hacen jugadores distintos.",
+  "dificil": "Los relevos deben ser con el exterior del pie y por detrás del rival."
+ },
+ "adaptacion": "Infantil: 4v4+2 en 30 × 30 m. Benjamín: relevo estático antes de hacerlo en carrera.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 917",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 196 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5 + 2 comodines con el equipo en posesión, 35 × 35 m, 10 min, 1 punto por cada relevo. (propuesta): definición escrita de relevo, series, rotación de comodines, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 37,
+   "ymin": -2,
+   "ymax": 37.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.0,
+    "y": 27.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 30.4,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11.3,
+    "y": 9.7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18.8,
+    "y": 19.1,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 10.8,
+    "y": 33.0,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 17.7,
+    "y": 12.3,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 25.2,
+    "y": 16.9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     17
+    ],
+    "b": [
+     12,
+     20
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     27
+    ],
+    "b": [
+     12.5,
+     22
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    -1.1,
+    "1 PUNTO POR CADA RELEVO",
+    "middle"
+   ]
+  ],
+  "tag": "35 × 35 m"
+ }
+}

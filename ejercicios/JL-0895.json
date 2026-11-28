@@ -1,0 +1,194 @@
+{
+ "id": "JL-0895",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "11v11+2 zona central vedada",
+ "formato": "11v11+2",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "24 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa. Cada serie cambian los comodines de equipo.",
+ "objetivo": "Circular por las bandas cuando el centro está cerrado. Cómo explicarlo: en el rectángulo central nadie puede jugar el balón; hay que bordearlo y progresar por los lados. Errores típicos: pasar sobre el rectángulo rodando, atascarse en una banda. Observar: cambios de lado, apoyos de ida y vuelta y desmarques en banda.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero y 2 comodines con la defensa. Rectángulo central de 25 × 20 m con conos (25 m a lo largo).",
+ "juego": "Dentro del rectángulo no se puede jugar el balón: quien lo toque ahí pierde la posesión. Se pasa por fuera. Libre de toques y con fuera de juego.",
+ "punto": "Gol = 1 punto. Gana quien más marque en las 4 series.",
+ "consigna": "El centro está cerrado: usa las bandas.",
+ "variantes": {
+  "facil": "Rectángulo de 15 × 10 m.",
+  "dificil": "Rectángulo de 30 × 25 m."
+ },
+ "adaptacion": "Infantil: 9v9+2 en 70 × 50 m con rectángulo de 15 × 12 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 + 2 | entrada 895",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 190 | bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11 + 2 comodines con el equipo que defiende, 4 × 10 min, zona central de 25 × 20 m donde no puede jugarse el balón, libre de toques y con fuera de juego. (propuesta): sanción, orientación del rectángulo, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 30,
+    "y": 34,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 58,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 74,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 92,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 62,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 56,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 84,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 84,
+    "y": 54,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 72,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 50,
+    "y": 42,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     30,
+     34
+    ],
+    "b": [
+     40,
+     12
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     40,
+     10
+    ],
+    "b": [
+     74,
+     10
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     40,
+     24,
+     65,
+     44
+    ]
+   }
+  ],
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "EL CENTRO NO SE JUEGA",
+    "middle"
+   ]
+  ]
+ }
+}

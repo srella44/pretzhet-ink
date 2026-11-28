@@ -1,0 +1,247 @@
+{
+ "id": "JL-0922",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 relevo en triángulos",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta: 10 min en total, como indica la fuente). Cada serie cambian los comodines de equipo.",
+ "objetivo": "Hacer relevos en espacios muy pequeños y repartidos. Relevo: un jugador conduce y deja el balón a un compañero que lo recoge en carrera (frontal, diagonal o dorsal). Cómo explicarlo: hay cinco triángulos dispersos; el relevo solo cuenta dentro de uno. Errores típicos: buscar siempre el mismo triángulo, relevo con rival encima. Observar: movimientos entre triángulos y uso de los comodines.",
+ "montaje": "Campo de 35 × 35 m con cinco triángulos de 3 m (propuesta: uno por esquina y uno central). Dos equipos de 5 y 2 comodines con el equipo con balón.",
+ "juego": "1 punto por cada relevo dentro de un triángulo (no dos seguidos en el mismo, propuesta). Si roban o sale, cambia la posesión.",
+ "punto": "Relevo en triángulo = 1 punto. Gana quien más sume.",
+ "consigna": "Relevo en el triángulo libre.",
+ "variantes": {
+  "facil": "Se puede repetir triángulo.",
+  "dificil": "Un triángulo menos (cuatro)."
+ },
+ "adaptacion": "Infantil: 4v4+2 en 30 × 30 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 922",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 196 | bloque 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5 + 2 comodines con el equipo en posesión, 35 × 35 m, cinco triángulos pequeños, 10 min, 1 punto por relevo en un triángulo. (propuesta): tamaño y colocación de los triángulos, no repetir, series, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 37,
+   "ymin": -2,
+   "ymax": 37.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.0,
+    "y": 25.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7.6,
+    "y": 32.0,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18.7,
+    "y": 14.0,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 31.1,
+    "y": 12.9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 14.4,
+    "y": 32.0,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 19.3,
+    "y": 20.7,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 25.2,
+    "y": 16.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     16
+    ],
+    "b": [
+     8,
+     10
+    ],
+    "k": "cond",
+    "s0": 8,
+    "s1": 6,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     25
+    ],
+    "b": [
+     9,
+     12
+    ],
+    "k": "run",
+    "s0": 8,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "zones": [
+   {
+    "t": "poly",
+    "pts": [
+     [
+      6,
+      6
+     ],
+     [
+      10,
+      6
+     ],
+     [
+      8,
+      9.5
+     ]
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      25,
+      6
+     ],
+     [
+      29,
+      6
+     ],
+     [
+      27,
+      9.5
+     ]
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      15.5,
+      17.5
+     ],
+     [
+      19.5,
+      17.5
+     ],
+     [
+      17.5,
+      21
+     ]
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      6,
+      26
+     ],
+     [
+      10,
+      26
+     ],
+     [
+      8,
+      29.5
+     ]
+    ]
+   },
+   {
+    "t": "poly",
+    "pts": [
+     [
+      25,
+      26
+     ],
+     [
+      29,
+      26
+     ],
+     [
+      27,
+      29.5
+     ]
+    ]
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    -1.1,
+    "RELEVO DENTRO DE UN TRIÁNGULO",
+    "middle"
+   ]
+  ],
+  "tag": "35 × 35 m"
+ }
+}

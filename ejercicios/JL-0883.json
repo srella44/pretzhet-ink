@@ -1,0 +1,171 @@
+{
+ "id": "JL-0883",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "11v11 gol solo de cabeza",
+ "formato": "11v11",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "22 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa.",
+ "objetivo": "Combinar para acabar en centros y remates de cabeza. Cómo explicarlo: el gol solo vale si el último toque es de cabeza; hay que llevar el balón al extremo y centrar. Errores típicos: centrar sin delanteros en el área, cabecear sin saltar. Observar: calidad del centro, desmarques al primer y segundo palo y timing del salto.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero; empieza uno con balón.",
+ "juego": "El gol solo vale si el último contacto es de cabeza; los goles con el pie no cuentan (sí se puede tirar para buscar rebotes). Libre de toques y con fuera de juego.",
+ "punto": "Gol de cabeza = 1 punto. Gana quien más marque en las 4 series.",
+ "consigna": "Centra al área y salta.",
+ "variantes": {
+  "facil": "Cabeza o pie, pero el de cabeza vale doble.",
+  "dificil": "Solo vale el cabezazo directo, sin controlar."
+ },
+ "adaptacion": "Infantil: 9v9 en 70 × 50 m, con balón blando o ligero (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 | entrada 883",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 187 | bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11, 4 × 10 min, el gol solo es válido si se consigue a través del juego de cabeza, libre de toques y con fuera de juego. (propuesta): puntuación, balón y edad. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 34,
+    "y": 34,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 58,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 80,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 92,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 90,
+    "y": 44,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 66,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 44,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 92,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 86,
+    "y": 56,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     34,
+     34
+    ],
+    "b": [
+     78,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     80,
+     6
+    ],
+    "b": [
+     92,
+     29
+    ],
+    "k": "pass",
+    "s0": 10,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "GOL SOLO DE CABEZA",
+    "middle"
+   ]
+  ]
+ }
+}

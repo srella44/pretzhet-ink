@@ -1,0 +1,210 @@
+{
+ "id": "JL-0929",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 relevo y puertas",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Alto",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta: 10 min en total, como indica la fuente). Cada serie cambian los comodines de equipo.",
+ "objetivo": "Relevar antes de culminar la jugada conduciendo por una portería. Cómo explicarlo: hay cuatro puertas anchas neutrales; se puede elegir la que esté libre, pero siempre después de hacer un relevo. Errores típicos: cruzar la puerta sin relevo previo, mirar solo una puerta. Observar: cambio de orientación y elección de puerta.",
+ "montaje": "Campo de 40 × 25 m. Dos equipos de 5 y 2 comodines con el equipo con balón. Cuatro puertas neutrales de 10 m, dos por fondo (propuesta).",
+ "juego": "Primero un relevo y luego un jugador cruza conduciendo una puerta; sin relevo no vale. Si roban o sale, cambia la posesión.",
+ "punto": "Cada puerta conducida tras relevo = 1 punto. Gana quien más puntos sume.",
+ "consigna": "Relevo y a la puerta libre.",
+ "variantes": {
+  "facil": "Se puede cruzar pasando el balón.",
+  "dificil": "Una puerta menos y ancho de 6 m."
+ },
+ "adaptacion": "Infantil: 4v4+2 en 35 × 22 m, puertas de 6 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5+ 2 | entrada 929",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 198 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5 + 2 comodines con el equipo en posesión, 40 × 25 m, cuatro porterías anchas neutrales de 10 m, relevo antes de cruzar conduciendo una puerta, 10 min. (propuesta): colocación de las puertas, puntuación, series, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 27.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 8.0,
+    "y": 13.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.9,
+    "y": 3.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20.0,
+    "y": 18.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29.0,
+    "y": 8.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14.8,
+    "y": 13.7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 23.8,
+    "y": 12.3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 32.4,
+    "y": 22.7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 35.1,
+    "y": 5.0,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15.2,
+    "y": 22.8,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 18.5,
+    "y": 8.0,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 30.3,
+    "y": 16.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     20,
+     18
+    ],
+    "b": [
+     26,
+     21
+    ],
+    "k": "cond",
+    "s0": 8,
+    "s1": 6,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     29,
+     8
+    ],
+    "b": [
+     27,
+     17
+    ],
+    "k": "run",
+    "s0": 8,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     27,
+     20
+    ],
+    "b": [
+     39,
+     19
+    ],
+    "k": "cond",
+    "s0": 6,
+    "s1": 6,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "cones": [
+   [
+    0,
+    1.5
+   ],
+   [
+    0,
+    11.5
+   ],
+   [
+    0,
+    13.5
+   ],
+   [
+    0,
+    23.5
+   ],
+   [
+    40,
+    1.5
+   ],
+   [
+    40,
+    11.5
+   ],
+   [
+    40,
+    13.5
+   ],
+   [
+    40,
+    23.5
+   ]
+  ],
+  "labels": [
+   [
+    20,
+    -1.1,
+    "4 PUERTAS NEUTRALES DE 10 M",
+    "middle"
+   ]
+  ],
+  "tag": "40 × 25 m"
+ }
+}

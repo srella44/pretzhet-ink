@@ -1,0 +1,194 @@
+{
+ "id": "JL-0911",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "11v11+2 tiro desde el área",
+ "formato": "11v11+2",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "24 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa. Cada serie cambian los comodines de equipo.",
+ "objetivo": "Combinar hasta entrar en el área rival antes de rematar. Cómo explicarlo: no vale el tiro de lejos; el jugador debe estar dentro del área de penalti. Errores típicos: tirar desde fuera, entrar sin apoyos. Observar: ruptura, últimos pases y ocupación del área.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero y 2 comodines con la defensa; empieza uno con balón. Áreas de 16,5 × 40 m.",
+ "juego": "El jugador que tira debe estar dentro del área rival; el tiro desde fuera no cuenta (el balón pasa al rival). Libre de toques y con fuera de juego.",
+ "punto": "Gol = 1 punto. Gana quien más marque en las 4 series.",
+ "consigna": "Entra en el área y remata.",
+ "variantes": {
+  "facil": "Se permite tirar desde el borde del área.",
+  "dificil": "Solo vale el tiro a primer toque tras pase."
+ },
+ "adaptacion": "Infantil: 9v9+2 en 70 × 50 m con áreas de 12 × 28 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 +2 | entrada 911",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 193 | bloque 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11 + 2 comodines con el equipo que defiende, 4 × 10 min, el equipo en posesión debe finalizar desde el interior del área de penalti, libre de toques y con fuera de juego. (propuesta): reposición tras tiro exterior, rotación de comodines, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 66.0,
+    "y": 34.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 56,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 84.0,
+    "y": 18.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 96,
+    "y": 40,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 92,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 76.1,
+    "y": 31.3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 46,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 90,
+    "y": 50,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 86.0,
+    "y": 34.7,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 73.9,
+    "y": 21.0,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 56,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     66,
+     34
+    ],
+    "b": [
+     84,
+     19
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     84,
+     18
+    ],
+    "b": [
+     96,
+     38
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     88.5,
+     13.84,
+     105,
+     54.16
+    ]
+   }
+  ],
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "TIRO SOLO DENTRO DEL ÁREA",
+    "middle"
+   ]
+  ]
+ }
+}

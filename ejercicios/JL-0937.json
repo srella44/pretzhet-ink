@@ -1,0 +1,159 @@
+{
+ "id": "JL-0937",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 relevo en zona central",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "5 × 2 min con 1 min de pausa (propuesta: 10 min en total).",
+ "objetivo": "Hacer relevos en igualdad numérica, sin comodines. Relevo: un jugador conduce y deja el balón a un compañero que lo recoge en carrera (frontal, diagonal o dorsal). Cómo explicarlo: en el cuadrado central hay que sumar relevos; no hay comodines, así que el rival aprieta de verdad. Errores típicos: relevo con rival encima, no proteger el balón. Observar: protección, timing y apoyos cercanos.",
+ "montaje": "Campo de 35 × 35 m con conos y cuadrado central de 5 × 5 m. Dos equipos de 5 con petos; empieza uno con balón.",
+ "juego": "El equipo con balón suma 1 punto cada vez que hace un relevo dentro del cuadrado central. Los rivales intentan robar. Si roban o sale, cambia la posesión.",
+ "punto": "Relevo en el cuadrado = 1 punto. Gana quien más sume.",
+ "consigna": "Lleva el balón al centro y releva.",
+ "variantes": {
+  "facil": "Se permiten dos relevos seguidos en el cuadrado.",
+  "dificil": "Cuadrado de 3 × 3 m."
+ },
+ "adaptacion": "Infantil: 4v4 en 30 × 30 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 937",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 199 | bloque 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5, 35 × 35 m, zona central de 5 × 5 m, 10 min, 1 punto por cada relevo dentro de la zona marcada. (propuesta): definición de relevo, series, material y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 37,
+   "ymin": -2,
+   "ymax": 37.5
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 17.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 31,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18.1,
+    "y": 26.8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 22.8,
+    "y": 31.7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 11.7,
+    "y": 24.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     17.5
+    ],
+    "b": [
+     17,
+     17.5
+    ],
+    "k": "cond",
+    "s0": 10,
+    "s1": 5,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     22
+    ],
+    "b": [
+     19,
+     19
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 5,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     15,
+     15,
+     20,
+     20
+    ]
+   }
+  ],
+  "labels": [
+   [
+    17.5,
+    -1.1,
+    "RELEVO DENTRO DEL CUADRADO",
+    "middle"
+   ]
+  ],
+  "tag": "35 × 35 m"
+ }
+}

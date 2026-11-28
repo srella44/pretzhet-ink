@@ -1,0 +1,221 @@
+{
+ "id": "JL-0873",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "11v11 tres zonas a toques",
+ "formato": "11v11",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "22 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa.",
+ "objetivo": "Cambiar de ritmo: jugar rápido en el centro y con calma en las zonas de salida y llegada. Cómo explicarlo: tres franjas de 35 m; en medio, un toque; en los extremos, dos. Errores típicos: pensar con el balón en la zona central, fallar el control orientado. Observar: control orientado, apoyos cercanos y velocidad de circulación.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero. Tres franjas de 35 m con conos: A y C junto a cada área, B en el centro.",
+ "juego": "En A y C se juega a dos toques como máximo y en B a un toque. Pasarse del límite = pierde el balón (propuesta). Con fuera de juego.",
+ "punto": "Gol = 1 punto. Gana quien más marque en las 4 series.",
+ "consigna": "Rápido en el centro, calma fuera.",
+ "variantes": {
+  "facil": "En B a un toque y en A y C a tres.",
+  "dificil": "En A y C también a un toque."
+ },
+ "adaptacion": "Infantil: 9v9 en 70 × 50 m; B a dos toques.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 | entrada 873",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 185 | bloque 3"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11, 4 × 10 min, tres zonas iguales: en A y C dos toques y en B un toque, libre de toques, con fuera de juego. (propuesta): 35 m por zona, sanción por pasarse de toques y edad. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ],
+   [
+    [
+     35,
+     0
+    ],
+    [
+     35,
+     68
+    ],
+    "4 4"
+   ],
+   [
+    [
+     70,
+     0
+    ],
+    [
+     70,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": 34,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 58,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 70,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 92,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 48,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 48,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 80.0,
+    "y": 16.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 84,
+    "y": 54,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     34
+    ],
+    "b": [
+     40,
+     12
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     40,
+     12
+    ],
+    "b": [
+     68,
+     22
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     68,
+     22
+    ],
+    "b": [
+     92,
+     32
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "labels": [
+   [
+    17.5,
+    -1.2,
+    "A · 2 TOQUES",
+    "middle"
+   ],
+   [
+    52.5,
+    -1.2,
+    "B · 1 TOQUE",
+    "middle"
+   ],
+   [
+    87.5,
+    -1.2,
+    "C · 2 TOQUES",
+    "middle"
+   ]
+  ]
+ }
+}

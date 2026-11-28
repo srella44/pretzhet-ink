@@ -1,0 +1,199 @@
+{
+ "id": "JL-0913",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "11v11+2 pase corto y raso",
+ "formato": "11v11+2",
+ "edad": "14–18 años",
+ "nivel": "Alto",
+ "jugadores": "24 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa. Cada serie cambian los comodines de equipo.",
+ "objetivo": "Construir con pases cortos y a ras de suelo. Cómo explicarlo: nada de pelotazos ni pases por alto; todo el juego va al pie y raso. Errores típicos: pases largos para salir de la presión, controles lejos del cuerpo. Observar: apoyos cercanos, triángulos y paciencia con la presión.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero y 2 comodines con la defensa; empieza uno con balón.",
+ "juego": "Al equipo con balón solo se le permiten pases cortos (propuesta: máximo 15 m) y rasos. Pase largo o por alto = pérdida y saque rival. Libre de toques y con fuera de juego.",
+ "punto": "Gol = 1 punto. Gana quien más marque en las 4 series.",
+ "consigna": "Corto y al suelo.",
+ "variantes": {
+  "facil": "Hasta 20 m y raso.",
+  "dificil": "Máximo 10 m y a dos toques."
+ },
+ "adaptacion": "Infantil: 9v9+2 en 70 × 50 m; hasta 12 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 + 2 | entrada 913",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 193 | bloque 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11 + 2 comodines con el equipo que defiende, 4 × 10 min, solo se permiten pases cortos y a ras de suelo, libre de toques y con fuera de juego. (propuesta): límite de 15 m, sanción, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 34,
+    "y": 34,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 46,
+    "y": 46,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 58.0,
+    "y": 34.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 62,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 53.3,
+    "y": 24.6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 66.4,
+    "y": 40.3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 70,
+    "y": 22,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 76,
+    "y": 50,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 60,
+    "y": 50,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 80,
+    "y": 34,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     34,
+     34
+    ],
+    "b": [
+     42,
+     22
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     42,
+     22
+    ],
+    "b": [
+     58,
+     34
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     58,
+     34
+    ],
+    "b": [
+     46,
+     46
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "SOLO PASES CORTOS Y RASOS",
+    "middle"
+   ]
+  ]
+ }
+}

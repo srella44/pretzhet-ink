@@ -1,0 +1,182 @@
+{
+ "id": "JL-0877",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "11v11 gol doble al robar",
+ "formato": "11v11",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "22 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa.",
+ "objetivo": "Presionar arriba y atacar rápido tras recuperar. Cómo explicarlo: el premio es para quien roba en campo rival y marca enseguida. Errores típicos: robar y sacar la pelota atrás, presión sin coordinar. Observar: señales de presión, equipo junto y velocidad de la primera decisión tras el robo.",
+ "montaje": "Campo de 105 × 68 m (propuesta: medio campo). Dos equipos de 11 con portero; empieza uno con balón. Línea de medio campo con conos.",
+ "juego": "Libre de toques y con fuera de juego. Si se roba en campo rival y se marca antes de 10 s (propuesta), el gol vale doble; si no, uno.",
+ "punto": "Gol = 1 punto; gol tras robo en campo rival = 2. Gana quien más puntos sume en las 4 series.",
+ "consigna": "Roba arriba y marca.",
+ "variantes": {
+  "facil": "Gol doble si marca en 20 s.",
+  "dificil": "Gol doble en menos de 8 s."
+ },
+ "adaptacion": "Infantil: 9v9 en 70 × 50 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 11:11 | entrada 877",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 186 | bloque 1"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11, 4 × 10 min, el gol vale doble si se produce tras recuperar el balón en campo contrario, libre de toques y con fuera de juego. (propuesta): límite de 10 s, reposición y edad. Parecido a JL-0850 (con 2 comodines). Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 64.0,
+    "y": 34.0,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 46,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 48,
+    "y": 56,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 84,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 94,
+    "y": 40,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 73.4,
+    "y": 29.3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 46,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 86,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 88,
+    "y": 54,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     64,
+     34
+    ],
+    "b": [
+     84,
+     24
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     84,
+     22
+    ],
+    "b": [
+     94,
+     38
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     52.5,
+     0,
+     105,
+     68
+    ]
+   }
+  ],
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "ROBO EN CAMPO RIVAL → GOL DOBLE",
+    "middle"
+   ]
+  ]
+ }
+}
