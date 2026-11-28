@@ -1,0 +1,140 @@
+{
+ "id": "RONDO-PLANB-10",
+ "bloque": "Calentamiento",
+ "titulo": "La pared amiga",
+ "formato": "Parejas",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "18 × 8 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 1′ (2 con cada pie) y 30″ de descanso; luego 1′ de récord general (propuesta).",
+ "objetivo": "Pase y recepción a un toque con ambos pies, ritmo y precisión en espacio pequeño. Cómo explicarlo: «la pared es tu amiga: te devuelve lo que le das». Errores típicos: pasar flojo, pegarse mucho a la pared, tocar dos veces. Qué observar: pie de apoyo, golpeo con el interior y cuerpo orientado. Se usa un pabellón o espacio cerrado. Material: un balón por pareja y conos.",
+ "montaje": "Pabellón o espacio con pared. Parejas con un balón, a 3 m de la pared y separadas 6 m entre sí. Un cono marca cada puesto.",
+ "juego": "El primero pasa a la pared a un toque, el segundo recibe el rebote y vuelve a pasar a un toque, y así alternan sin que el balón se pare. Cada ronda dura 1′.",
+ "punto": "Cuentan los pases seguidos sin fallo: récord de la pareja. Luego se repite con la pierna mala.",
+ "consigna": "Un toque y pared amiga.",
+ "variantes": {
+  "facil": "Dos toques por jugador y 2 m de la pared (propuesta).",
+  "dificil": "Con la pierna mala (fuente); o con un compañero pasando entre las dos paredes (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 2–3 m de la pared y un toque. Infantil (12–13): 4 m, a un toque y alternando pie derecho e izquierdo.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "La pared amiga (Plan B · pág. 2)",
+  "ref": "RONDO Bonus 3 · Plan B · 24 juegos"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: pabellón o espacio pequeño, parejas contra la pared, un toque cada uno, récord de pases, luego con la pierna mala. Distancias, rondas, descanso y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   18,
+   8
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 20.2,
+   "ymin": -2.2,
+   "ymax": 10.2
+  },
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     18,
+     0
+    ]
+   ]
+  ],
+  "cones": [
+   [
+    3.5,
+    4.5
+   ],
+   [
+    5.5,
+    4.5
+   ],
+   [
+    12.5,
+    4.5
+   ],
+   [
+    14.5,
+    4.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 5.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 5.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 5.5,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 5.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5.5
+    ],
+    "b": [
+     4,
+     0.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 0,
+    "n": 1
+   },
+   {
+    "a": [
+     4,
+     0.3
+    ],
+    "b": [
+     6.5,
+     5.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 0,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    9,
+    -0.9,
+    "PARED",
+    "middle"
+   ]
+  ]
+ }
+}

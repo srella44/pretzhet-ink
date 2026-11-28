@@ -1,0 +1,143 @@
+{
+ "id": "RONDO-PLANB-13",
+ "bloque": "Calentamiento",
+ "titulo": "El círculo de los pases",
+ "formato": "Círculo",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 2′ con 30″ de pausa; en la última cambian el sentido y el balón de manos (propuesta).",
+ "objetivo": "Pase raso con precisión y atención a dos balones a la vez, mirando a los compañeros y no al balón. Cómo explicarlo: «un balón rueda y el otro vuela, y todos gritan el nombre». Errores típicos: no avisar, pasar al compañero que no mira, quedarse parado. Qué observar: cabeza levantada y voz clara. Se puede hacer en pabellón. Material: 1 balón de fútbol, 1 de balonmano (o blando) y 12 conos.",
+ "montaje": "Círculo de 10 m de diámetro con 6–12 jugadores a la misma distancia. Un balón de fútbol raso y otro de balonmano,.",
+ "juego": "El balón raso gira con pases con el interior del pie; el otro, con las manos. Quien recibe dice en voz alta el nombre de quien se lo ha pasado.",
+ "punto": "Cada vuelta completa de un balón sin caerse ni pararse es 1 punto del grupo. Récord de vueltas en 2′.",
+ "consigna": "Di el nombre y pasa.",
+ "variantes": {
+  "facil": "Los dos balones giran en el mismo sentido y con el de manos más despacio (propuesta).",
+  "dificil": "Un tercer balón o pase con salto al compañero de enfrente (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 8 m de diámetro y balón de manos. Infantil (12–13): 12 m y pases a un toque.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El círculo de los pases (Plan B · pág. 2)",
+  "ref": "RONDO Bonus 3 · Plan B · 24 juegos"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: pabellón o espacio pequeño, círculo con dos balones, uno raso y otro con las manos, quien recibe dice el nombre de quien se lo ha pasado. Medidas, rondas, puntuación y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 14.2,
+   "ymin": -2.2,
+   "ymax": 14.2
+  },
+  "dashed": true,
+  "zones": [
+   {
+    "t": "circle",
+    "x": 6,
+    "y": 6,
+    "r": 0.9
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.0,
+    "y": 1.2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9.4,
+    "y": 2.6,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 10.8,
+    "y": 6.0,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 9.4,
+    "y": 9.4,
+    "f": 225
+   },
+   {
+    "r": "A",
+    "x": 6.0,
+    "y": 10.8,
+    "f": 270,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.6,
+    "y": 9.4,
+    "f": 315
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 6.0,
+    "f": 360
+   },
+   {
+    "r": "A",
+    "x": 2.6,
+    "y": 2.6,
+    "f": 405
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.0,
+     1.2
+    ],
+    "b": [
+     9.4,
+     2.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     6.0,
+     10.8
+    ],
+    "b": [
+     2.6,
+     9.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.9,
+    "RASO + MANOS",
+    "middle"
+   ]
+  ]
+ }
+}

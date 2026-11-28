@@ -1,0 +1,148 @@
+{
+ "id": "RONDO-PLANB-21",
+ "bloque": "Calentamiento",
+ "titulo": "El tráfico rápido",
+ "formato": "Conducción",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 8 m",
+ "duracion": "10 min",
+ "series": "6–8 sprints de 10 m con vuelta y 20″ de pausa; 2 vueltas completas (propuesta).",
+ "objetivo": "Conducir sin chocarse en un espacio estrecho y cambiar de ritmo: acelerar con el balón al pitido. Cómo explicarlo: «el tráfico de la ciudad: todos circulan y al pitido, ¡vía libre!». Errores típicos: golpear el balón muy largo, chocarse, no frenar en la línea. Qué observar: toques cortos en espacio estrecho y balón controlado en el sprint. Material: un balón por jugador, 4 conos y un silbato.",
+ "montaje": "Zona de 10 × 8 m (el tráfico) y una línea de meta 10 m más allá. Todos dentro, cada uno con balón.",
+ "juego": "Todos conducen por la zona estrecha, esquivándose. Al pitido, sprint conduciendo 10 m hasta tocar la línea con el pie y vuelta a la zona; luego se sigue hasta el siguiente pitido.",
+ "punto": "El último en volver pierde 1 punto en cada sprint. Gana quien menos puntos pierda en 6–8 sprints.",
+ "consigna": "Estrecho y despacio; al pitido, ¡rápido!",
+ "variantes": {
+  "facil": "Sprint de 6 m en lugar de 10 m (propuesta).",
+  "dificil": "Sin parar el balón al pisar la línea y volver con el pie menos hábil (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): sprint de 8 m y conducir con el pie menos hábil en el sprint. Infantil (12–13): 12 m y giro de 180° al llegar.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El tráfico rápido (Plan B · pág. 3)",
+  "ref": "RONDO Bonus 3 · Plan B · 24 juegos"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: frío o campo pesado, todos conduciendo en un espacio estrecho, al pitido sprint de 10 m hasta una línea y vuelta. Zona, nº de sprints y puntos por perder el último puesto (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   8
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 22.2,
+   "ymin": -2.2,
+   "ymax": 10.2
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     9,
+     8
+    ]
+   }
+  ],
+  "lines": [
+   [
+    [
+     19.5,
+     0
+    ],
+    [
+     19.5,
+     8
+    ]
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     4
+    ],
+    "b": [
+     18.5,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     18.5,
+     4.3
+    ],
+    "b": [
+     10,
+     5.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    4.5,
+    9.5,
+    "TRÁFICO",
+    "middle"
+   ],
+   [
+    19.5,
+    9.5,
+    "LÍNEA",
+    "middle"
+   ]
+  ]
+ }
+}

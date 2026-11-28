@@ -1,0 +1,173 @@
+{
+ "id": "AMO-004",
+ "bloque": "Técnica y duelos",
+ "titulo": "4v4 direccional + 2 comodines",
+ "formato": "4v4+2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "40 × 28 m",
+ "duracion": "16 min",
+ "series": "4 series de 4′ con 1′ de descanso; los comodines cambian cada serie (propuesta).",
+ "objetivo": "Atacar con superioridad (6v4) buscando línea de pase, profundidad y cambio de orientación hacia la portería libre. Cómo explicarlo: «si estás en inferioridad, pierde; si estás en posesión, tienes 6 jugadores». Errores típicos: pasar siempre al mismo lado, no cambiar el juego, comodines cerrados. Qué observar: amplitud, pase al hueco y orientación del cuerpo. Material: 4 miniporterías, 8 conos y petos de 3 colores.",
+ "montaje": "Campo de 40 × 28 m con 2 miniporterías en cada fondo. 4 amarillos contra 4 rojos y 2 comodines blancos que juegan con quien tiene el balón.",
+ "juego": "Cada equipo marca en las 2 porterías del fondo contrario (amarillos, a la derecha; rojos, a la izquierda).",
+ "punto": "Gol: 1 punto; gol tras 6 pases seguidos, 2. Gana quien más puntos sume en 4′.",
+ "consigna": "Pasa al hueco y cambia de orientación.",
+ "variantes": {
+  "facil": "Los comodines pueden tocar sin límite y los defensores no presionan en 10″ (propuesta).",
+  "dificil": "Comodines a un toque y gol solo por la portería libre del lado contrario al último pase (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 32 × 24 m y solo 1 comodín. Infantil (12–13): como está.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 4",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): juego direccional 4x4 con 2 comodines que crean un 6x4 con el equipo en posesión; X marca en las porterías con «X» y O en las de «O»; factores: líneas de pase, profundidad, cambio de orientación. Medidas, nº de porterías, series y puntuación (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   28
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 31
+  },
+  "goals": [
+   [
+    0,
+    9,
+    "L"
+   ],
+   [
+    0,
+    19,
+    "L"
+   ],
+   [
+    40,
+    9,
+    "R"
+   ],
+   [
+    40,
+    19,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 14,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 23,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 26,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     14
+    ],
+    "b": [
+     17,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     5
+    ],
+    "b": [
+     28,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    2,
+    -0.9,
+    "PORTERÍAS ROJAS",
+    "start"
+   ],
+   [
+    38,
+    -0.9,
+    "PORTERÍAS AMARILLAS",
+    "end"
+   ]
+  ]
+ }
+}

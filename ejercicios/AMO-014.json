@@ -1,0 +1,139 @@
+{
+ "id": "AMO-014",
+ "bloque": "Técnica y duelos",
+ "titulo": "Centro y remate con portero",
+ "formato": "Finalización",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–10 jug.",
+ "espacio": "44 × 30 m",
+ "duracion": "14 min",
+ "series": "2 turnos de 6′ y 1′ de descanso; cambian los puestos en cada turno (propuesta).",
+ "objetivo": "Entrenar el pase del portero al lateral, el centro y la finalización de los delanteros con rapidez y concentración. Cómo explicarlo: «saque, centro y remate, todo a máxima velocidad». Errores típicos: centro blando, delanteros que llegan antes del centro, mala elección de pie. Qué observar: calidad del centro y ataque del espacio por los delanteros. Material: 2 porterías con portero, balones y 6 conos.",
+ "montaje": "Campo de 44 × 30 m con portería y portero en cada fondo. A cada lado, un jugador de banda en amplitud y dos delanteros en el centro.",
+ "juego": "El portero pasa a su jugador de banda; este conduce y centra a los 2 delanteros, que rematan de primeras. Luego se repite desde la otra portería.",
+ "punto": "Gol: 1 punto; gol de primeras, 2.",
+ "consigna": "Saca, centra y remata de primeras.",
+ "variantes": {
+  "facil": "Sin defensor y el centro desde 15 m (propuesta).",
+  "dificil": "Con un defensor que marca al delantero y el centro a ras (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): portería de 5-7 m y centro desde 12 m. Infantil (12–13): portería de 7,32 m y un defensor.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 14",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 16"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): finalización tras centro; el portero juega con uno de los hombres en amplitud, que centra a los dos delanteros; se hace una vez desde cada portería; factores: pase, rapidez, concentración. Medidas, puntos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   44,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 47,
+   "ymin": -3,
+   "ymax": 33
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 15,
+    "lado": "L",
+    "ancho": 7,
+    "portero": true
+   },
+   {
+    "x": 44,
+    "y": 15,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 13,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 32,
+    "y": 18,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     15
+    ],
+    "b": [
+     13,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     3
+    ],
+    "b": [
+     30,
+     13
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     32,
+     12
+    ],
+    "b": [
+     44,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 0,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    13,
+    -0.9,
+    "AMPLITUD",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "id": "AAT-001",
+ "bloque": "Técnica y duelos",
+ "titulo": "4v3 + comodín en dos zonas",
+ "formato": "4v4+1",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "9–10 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "14 min",
+ "series": "2 × 7′ con 1′ de descanso (fuente); al cambiar de serie, los equipos intercambian los roles (propuesta).",
+ "objetivo": "Atacar con superioridad (4v3) y, al perder el balón, recuperar con rapidez en la zona de inicio para volver a atacar. Cómo explicarlo: «si lo pierdes, ahí mismo lo recuperas». Errores típicos: pasar en línea, no ofrecer apoyos, defender sin cerrar el pase. Qué observar: distancias entre defensores, pase al comodín y presión tras pérdida. Material: 2 miniporterías, 8 conos y petos.",
+ "montaje": "Campo de 30 × 24 m en 2 zonas de 15 m. En una zona, 4 amarillos atacan a 3 azules; el 4.º azul (comodín) espera en la otra y entra al perder el balón los amarillos.",
+ "juego": "Los amarillos atacan la miniportería; si pierden el balón, presionan 5″ para recuperarlo y se reinicia donde se robe.",
+ "punto": "Gol: 1 punto. Recuperar en la zona de inicio y marcar vale 2. Gana quien más sume.",
+ "consigna": "Si lo pierdes, recupéralo aquí.",
+ "variantes": {
+  "facil": "Los defensores no pueden quitar el balón durante los primeros 3 toques (propuesta).",
+  "dificil": "Los atacantes solo pueden dar 3 toques seguidos; comodín en las dos zonas (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): zona de 25 × 20 m. Infantil (12–13): 30 × 24 m y comodín que también puede disparar.",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios Atlético",
+  "titulo_original": "Tarea Atlético 1 — SITUACIÓN",
+  "ref": "10ejercicios_atleti.pdf · p. 2"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): partido en 2 zonas, se inicia donde se haya finalizado, 4 atacantes contra 3 defensores y 1 comodín, 4x4+1C, 2 × 7′ con 1′ de descanso, recuperación en zonas de inicio. La base solo traía el arranque del texto (cortado); el resto es (propuesta). Medidas, miniporterías, papel del comodín, puntos y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   24
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 32.2,
+   "ymin": -2.2,
+   "ymax": 26.2
+  },
+  "lines": [
+   [
+    [
+     15,
+     0
+    ],
+    [
+     15,
+     24
+    ],
+    "6 5"
+   ]
+  ],
+  "goals": [
+   [
+    0,
+    12,
+    "L"
+   ],
+   [
+    30,
+    12,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 19,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 21,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 14.2,
+    "y": 2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     6
+    ],
+    "b": [
+     11,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     11
+    ],
+    "b": [
+     30,
+     12
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    -0.9,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    22.5,
+    -0.9,
+    "ZONA 2",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "id": "AMO-002",
+ "bloque": "Técnica y duelos",
+ "titulo": "Pase, giro y conducción",
+ "formato": "Circuito de 3",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–9 jug.",
+ "espacio": "24 × 15 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ con 30″ de descanso; rotan los puestos en cada serie (propuesta).",
+ "objetivo": "Mejorar la velocidad de pase, jugar de cara y el primer toque con giro, dentro de la relación de pases del 1-4-3-3. Cómo explicarlo: «pasa, gira y pasa; el tercero conduce y vuelve». Errores típicos: pase flojo, control largo, recibir de espaldas sin mirar antes. Qué observar: primer toque orientado, giro rápido y balón al pie contrario al presionante. Material: un balón por grupo y 6 conos.",
+ "montaje": "Grupos de 3 (x1, x2, x3) en triángulo de 12 m: x1 con balón en una base, x2 arriba y x3 en la otra base. 2–3 grupos a la vez, a 5 m.",
+ "juego": "x1 pasa a x2; x2 controla, gira y pasa a x3; x3 conduce hasta la posición de x1. Se rota con cada vuelta: x1 sigue a x2 y x2 a x3, sin parar el balón.",
+ "punto": "Cada vuelta limpia suma 1. Gana el grupo con más vueltas en 2′.",
+ "consigna": "Pasa, gira y conduce de vuelta.",
+ "variantes": {
+  "facil": "Triángulo de 8 m y control con dos toques (propuesta).",
+  "dificil": "Un toque obligatorio en x2 y un defensor pasivo en el centro (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): triángulo de 8–10 m. Infantil (12–13): 12–15 m, control orientado y pase al primer toque.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 2",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 4"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): integrar la relación de pases del 1-4-3-3; x1 pasa a x2, que gira y pasa a x3; x3 conduce y regresa a la posición de inicio; factores clave: velocidad de pase, jugar de cara y primer toque. Medidas, rotación, series, puntos y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   24,
+   15
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 26.2,
+   "ymin": -2.2,
+   "ymax": 17.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 3,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     12
+    ],
+    "b": [
+     12,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     3
+    ],
+    "b": [
+     21,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     21,
+     12
+    ],
+    "b": [
+     5,
+     14
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    3,
+    14.1,
+    "X1",
+    "middle"
+   ],
+   [
+    12,
+    1.9,
+    "X2",
+    "middle"
+   ],
+   [
+    21,
+    14.1,
+    "X3",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "id": "RONDO-PB-M06",
+ "bloque": "Calentamiento",
+ "titulo": "Lanza y atrapa",
+ "formato": "Individual",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "3 fases de 1′30″ (lanzar y coger, con palmada, con bote y pie) y 1′ de pausa entre fases (propuesta).",
+ "objetivo": "Coordinación ojo-mano y ojo-pie, y orientarse bajo un balón que baja. Cómo explicarlo: «tú lo mandas, tú lo atrapas». Errores típicos: lanzar tan alto que no se controla, mirar a otro lado, atrapar con los brazos rígidos. Qué observar: manos juntas y blandas, mirada al balón y orden en la cuenta. Material: un balón por niño (blando mejor) y conos.",
+ "montaje": "Zona de 15 × 15 m con conos. Cada niño con su balón, separado 3 m de los demás y de cara al míster.",
+ "juego": "Fase 1: lanzar el balón alto y cogerlo con las dos manos. Fase 2: palmada antes de cogerlo. Fase 3: dejarlo botar y pararlo con el pie. Cada uno cuenta en voz baja sus atrapadas.",
+ "punto": "Cada atrapada limpia suma 1. Al acabar cada fase dice su cifra e intenta superarla.",
+ "consigna": "¡Atrapada segura!",
+ "variantes": {
+  "facil": "Balones blandos y lanzar poco alto (fuente).",
+  "dificil": "Lanzar y sentarse antes de cogerlo (fuente); o dar dos palmadas (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: como está. Benjamín: coger con una mano y parar con el pie derecho y el izquierdo.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Lanza y atrapa (PB-M06)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · págs. 7, 9, 18, 38, 40, 49"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: lanzar y coger, palmada, bote y pie, cuenta de atrapadas, variantes y frase. Medidas, fases, descanso y separación (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 17.2,
+   "ymin": -2.2,
+   "ymax": 17.2
+  },
+  "dashed": true,
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 4,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 11,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     4
+    ],
+    "b": [
+     8,
+     1.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 3,
+    "s1": 0,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     11
+    ],
+    "b": [
+     13,
+     8.2
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 3,
+    "s1": 0,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    -0.9,
+    "LANZA – PALMADA – ATRAPA",
+    "middle"
+   ]
+  ]
+ }
+}

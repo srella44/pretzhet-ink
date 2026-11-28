@@ -1,0 +1,174 @@
+{
+ "id": "AMO-006",
+ "bloque": "Técnica y duelos",
+ "titulo": "10v10 con salidas por número",
+ "formato": "10v10",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "20 jug.",
+ "espacio": "50 × 30 m",
+ "duracion": "16 min",
+ "series": "4 rondas de 4′ con 1′ de descanso; cada ronda cambia el equipo al que se le cantan los números (propuesta).",
+ "objetivo": "Jugar un partido grande y resolver cambios de superioridad e inferioridad: 6v10 mientras 4 compañeros dan la vuelta al poste, y reajustarse al volver. Cómo explicarlo: «te vas, nos reorganizamos; vuelves, nos reajustamos». Errores típicos: no avisar de la salida, dejar huecos en el pasillo, volver sin mirar. Qué observar: comunicación y ocupación de espacios en inferioridad. Material: 2 porterías, 2 postes exteriores y petos numerados.",
+ "montaje": "Campo de 50 × 30 m con portería en cada lado y un poste exterior en la banda. Dos equipos de 10, numerados del 1 al 10.",
+ "juego": "Se juega 10v10. El míster dice un equipo y 4 números: esos 4 salen, dan la vuelta al poste exterior y vuelven por su banda, dejando un 6v10 hasta que se reincorporan.",
+ "punto": "Gol: 1 punto. Si marca el equipo que está en inferioridad, vale 2.",
+ "consigna": "¡Sales por la banda, vuelves rápido!",
+ "variantes": {
+  "facil": "Solo salen 2 jugadores y el poste está a 10 m (propuesta).",
+  "dificil": "Salen 5 jugadores y el poste está a 30 m; se dicen dos equipos a la vez (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 9v9 en 45 × 28 m. Infantil (12–13): como está.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 6",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 8"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): 10x10 en 30 × 50 m, un número a cada jugador, el míster dice 4 números de un equipo que salen y dan la vuelta a un poste exterior dejando un 6x10 hasta que vuelven. El resto es (propuesta): series, puntuación, distancia del poste y variantes.",
+ "diagrama": {
+  "field": [
+   50,
+   30
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -6,
+   "ymax": 33
+  },
+  "goals": [
+   [
+    0,
+    15,
+    "L"
+   ],
+   [
+    50,
+    15,
+    "R"
+   ]
+  ],
+  "cones": [
+   [
+    25,
+    -3.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 28,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 38,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 42,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": -3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": -3,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     -3
+    ],
+    "b": [
+     24,
+     -3.6
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     20,
+     -3
+    ],
+    "b": [
+     25.5,
+     -4.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    25,
+    -5.3,
+    "POSTE EXTERIOR",
+    "middle"
+   ]
+  ]
+ }
+}

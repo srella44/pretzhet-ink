@@ -1,0 +1,118 @@
+{
+ "id": "RONDO-PLANB-08",
+ "bloque": "Calentamiento",
+ "titulo": "Mi récord",
+ "formato": "Retos individuales",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "4 jug.",
+ "espacio": "20 × 9 m",
+ "duracion": "12 min",
+ "series": "3 retos seguidos (toques, suela, eslalon) y 2 rondas completas; descanso de 20″ entre retos (propuesta).",
+ "objetivo": "Competir contra uno mismo: dominar el balón (toques y suelas) y conducir con control en el eslalon. Cómo explicarlo: «tu rival es tu marca de la semana pasada». Errores típicos: toques muy fuertes, suelas sin apoyar bien, tirar los conos. Qué observar: balón cerca del cuerpo y cabeza arriba. Se anota en una hoja y se recupera al día siguiente. Material: un balón por jugador, 5 conos, cronómetro y hoja de récords.",
+ "montaje": "Cuatro jugadores con balón. Eslalon de 5 conos separados 2 m y puestos de toques separados 3 m. El míster, con cronómetro.",
+ "juego": "Reto 1: toques seguidos con los pies en 30″. Reto 2: toques de suela alternando pies en 30″. Reto 3: eslalon de ida y vuelta conduciendo, cronometrado. Cada uno apunta su marca.",
+ "punto": "Cada récord personal superado suma 1 punto; si no, se repite el reto. La marca se recupera al día siguiente.",
+ "consigna": "Tu rival es tu marca anterior.",
+ "variantes": {
+  "facil": "Eslalon con conos a 3 m y sin cronómetro (propuesta).",
+  "dificil": "Toques solo con el pie menos hábil, o eslalon con cambio de pie en cada cono (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 20″ por reto y conos a 2,5 m. Infantil (12–13): 30″, conos a 1,5 m y suelas con giro.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Mi récord (Plan B · pág. 1)",
+  "ref": "RONDO Bonus 3 · Plan B · 24 juegos"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: «vienen 4»: toques, toques de suela en 30″ y eslalon cronometrado; cada uno apunta sus récords y los recupera el próximo día. Medidas, orden de los retos, rondas y puntos personales (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   9
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 22.2,
+   "ymin": -2.2,
+   "ymax": 11.2
+  },
+  "cones": [
+   [
+    8,
+    2
+   ],
+   [
+    10,
+    6.5
+   ],
+   [
+    12,
+    2
+   ],
+   [
+    14,
+    6.5
+   ],
+   [
+    16,
+    2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 4.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     2
+    ],
+    "b": [
+     17.5,
+     2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 10,
+    "s1": 4,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    12,
+    -0.9,
+    "ESLALON CRONOMETRADO",
+    "middle"
+   ]
+  ]
+ }
+}

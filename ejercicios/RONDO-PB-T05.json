@@ -1,0 +1,136 @@
+{
+ "id": "RONDO-PB-T05",
+ "bloque": "Calentamiento",
+ "titulo": "Los bolos",
+ "formato": "Parejas",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "12 × 10 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 1′30″; cada pareja cambia de rol al terminar cada tirada de 5 chuts (propuesta).",
+ "objetivo": "Golpear el balón al pie con dirección y fuerza medida. Cómo explicarlo: «apunta como en los bolos». Errores típicos: chutar con la punta, mirar al balón y no a los bolos, correr sin pensar. Qué observar: pie de apoyo al lado del balón y golpeo con el interior. Material: un balón por pareja y 4–5 conos (bolos) por pareja.",
+ "montaje": "Cada pareja, en un carril de 4 m: un niño con el balón y 4 conos (bolos) de pie en fila a 4 m frente a él; su compañero.",
+ "juego": "El tirador chuta para tirar los bolos. Su compañero le devuelve el balón rodando. Tras 5 chuts, ponen los bolos de pie entre los dos y cambian de roles.",
+ "punto": "1 punto por cada bolo tirado. Cada pareja suma sus puntos tras las 4 rondas.",
+ "consigna": "¡Chut recto, recto!",
+ "variantes": {
+  "facil": "Bolos más cerca (3 m) y muchos (fuente).",
+  "dificil": "Bolos más lejos, a 6 m (fuente); o solo con el pie menos hábil (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: como está. Benjamín: conducir 3 m y chutar; el bolo del centro vale 2.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Los bolos (PB-T05)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · págs. 22, 24, 26, 31, 33, 42"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: parejas, bolos (conos) a 4 m, volver a ponerlos, 1 punto por bolo, variantes y frase. Rondas, rotación de tiradas y número de bolos (propuesta).",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 14.2,
+   "ymin": -2.2,
+   "ymax": 12.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "cones": [
+   [
+    6,
+    2
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     3
+    ],
+    "b": [
+     6,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     8
+    ],
+    "b": [
+     6,
+     8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.9,
+    "BOLOS A 4 M",
+    "middle"
+   ]
+  ]
+ }
+}

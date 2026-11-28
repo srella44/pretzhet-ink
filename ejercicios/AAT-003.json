@@ -1,0 +1,145 @@
+{
+ "id": "AAT-003",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rondo 4v2 por zonas",
+ "formato": "4v2",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "12 min",
+ "series": "3 bloques de 4′ con 1′ de descanso; cada 2 min cambian los 2 defensores (propuesta).",
+ "objetivo": "Mover el balón en un rondo con cobertura defensiva y a máximo 2 toques, buscando al compañero de otra zona. Cómo explicarlo: «cada uno es su zona y el balón va de zona a zona». Errores típicos: tocar tres veces, pasar al que está pegado al defensor, quedarse parado tras pasar. Qué observar: ángulos de apoyo y los defensores cerrando líneas. Material: 8 conos y petos.",
+ "montaje": "Cuadrado de 14 × 14 m en 4 zonas de 7 × 7 m. Un amarillo fuera en cada zona y 2 azules dentro.",
+ "juego": "Los 4 exteriores juegan a máximo 2 toques y no repiten pase con el mismo compañero. Los 2 azules cierran líneas. Si un defensor toca el balón, se cambia con quien lo perdió.",
+ "punto": "10 pases seguidos de los exteriores valen 1 punto. Gana quien más puntos sume en 12′.",
+ "consigna": "Dos toques y mueve al contrario de sitio.",
+ "variantes": {
+  "facil": "A 3 toques y los defensores no pueden salir de su zona al principio (propuesta).",
+  "dificil": "Un toque obligatorio y 15 pases por punto (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): cuadrado de 12 × 12 m. Infantil (12–13): 16 × 16 m y un toque.",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios Atlético",
+  "titulo_original": "Tarea Atlético 3 — SITUACIÓN",
+  "ref": "10ejercicios_atleti.pdf · p. 6"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): rondo con coberturas y defensa organizada, 4x2 de 12′, 4 jugadores por fuera (1 en cada zona) con 2 defensores, exteriores a máximo 2 toques. La base solo traía el arranque del texto (cortado); el resto es (propuesta). Medidas, rotación, pases por punto y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 17,
+   "ymin": -3,
+   "ymax": 17
+  },
+  "lines": [
+   [
+    [
+     7,
+     0
+    ],
+    [
+     7,
+     14
+    ],
+    "6 5"
+   ],
+   [
+    [
+     0,
+     7
+    ],
+    [
+     14,
+     7
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7,
+    "y": -0.4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.4,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 14.4,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -0.4,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     -0.4
+    ],
+    "b": [
+     14.4,
+     7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     14.4,
+     7
+    ],
+    "b": [
+     7,
+     14.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7,
+    -2,
+    "ZONA SUPERIOR",
+    "middle"
+   ]
+  ]
+ }
+}

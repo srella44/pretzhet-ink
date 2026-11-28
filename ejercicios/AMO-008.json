@@ -1,0 +1,154 @@
+{
+ "id": "AMO-008",
+ "bloque": "Técnica y duelos",
+ "titulo": "4v4 con comodines en banda",
+ "formato": "4v4+2",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "10–11 jug.",
+ "espacio": "40 × 32 m",
+ "duracion": "16 min",
+ "series": "4 series de 4′ con 1′ de descanso; cambian los comodines en cada serie (propuesta).",
+ "objetivo": "Crear superioridad en las bandas con ataque combinado y finalizar tras centro al área. Cómo explicarlo: «amplitud para estirar, llegada al área para rematar». Errores típicos: centro sin mirar, delanteros llegando juntos, comodín sin amplitud. Qué observar: timing del centro, desmarques al primer y segundo palo. Material: portería grande con portero, 6 conos y petos de 3 colores.",
+ "montaje": "Campo de 40 × 32 m con portería y portero. 4 amarillos contra 4 azules y 2 comodines blancos, uno en cada banda, que juegan con quien tiene el balón.",
+ "juego": "Los amarillos inician desde el centro y buscan al comodín de banda, que centra al área para rematar.",
+ "punto": "Gol de cabeza o a un toque: 2 puntos; otro gol, 1.",
+ "consigna": "Amplitud en banda y llegada al área.",
+ "variantes": {
+  "facil": "Los azules defienden solo 4 s en la banda y el comodín centra sin presión (propuesta).",
+  "dificil": "Los comodines solo pueden tocar 2 veces y el gol solo vale tras centro (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 35 × 28 m y portería de 5-7 m. Infantil (12–13): como está.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 8",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 10"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): 4x4 con 2 comodines en las bandas para crear superioridad en bandas y centrar al área; factores: centros y finalizaciones, libertad creativa de centrocampistas, amplitud. Medidas, portería, puntos y series (propuesta).",
+ "diagrama": {
+  "field": [
+   40,
+   32
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 43,
+   "ymin": -3,
+   "ymax": 35
+  },
+  "porterias": [
+   {
+    "x": 40,
+    "y": 16,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 23,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 30,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 24,
+    "y": 20,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 32,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 31,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     16
+    ],
+    "b": [
+     24,
+     1
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     1
+    ],
+    "b": [
+     32,
+     15
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    12,
+    -0.9,
+    "BANDA",
+    "middle"
+   ]
+  ]
+ }
+}

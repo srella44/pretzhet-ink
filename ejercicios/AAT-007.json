@@ -1,0 +1,211 @@
+{
+ "id": "AAT-007",
+ "bloque": "Técnica y duelos",
+ "titulo": "8v6 hacia portería grande",
+ "formato": "8v6",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "15 jug.",
+ "espacio": "44 × 32 m",
+ "duracion": "14 min",
+ "series": "2 × 7′ con 1′ de descanso (fuente); cambio de roles al acabar la serie (propuesta).",
+ "objetivo": "Atacar de forma organizada desde el fondo hasta la zona de finalización, superando líneas y rematando. Cómo explicarlo: «sal limpio, sube y remata». Errores típicos: pases largos sin apoyo, atacar con pocos, no ocupar los carriles. Qué observar: amplitud y profundidad, movimientos de apoyo y llegada a zona de remate. Material: portería grande, 6 conos y petos.",
+ "montaje": "Campo de 44 × 32 m en 3 zonas (fondo, medio y final), con portería y portero. 8 amarillos atacan a 6 azules.",
+ "juego": "Se inicia desde el fondo. Los amarillos suben el balón de zona en zona hasta rematar. Los azules defienden en bloque y, si roban, salen al contraataque.",
+ "punto": "Gol: 1 punto; gol tras pasar por las 3 zonas, 2. Contraataque que llega a la línea de salida: 1 punto azul.",
+ "consigna": "Sal limpio, sube y remata.",
+ "variantes": {
+  "facil": "Hacer un 8v5 con un defensor menos (propuesta).",
+  "dificil": "Los atacantes deben pasar por los carriles laterales antes de rematar (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 8v4 y campo de 40 × 28 m. Infantil (12–13): como está.",
+ "fuente": {
+  "autor": "AFOPRO · 10 ejercicios Atlético",
+  "titulo_original": "Tarea Atlético 7 — SITUACIÓN",
+  "ref": "10ejercicios_atleti.pdf · p. 14"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): partido condicionado, ataque organizado en zona de finalización, 8x6, 2 × 7′ con 1′ de descanso, se inicia desde la zona más profunda y el atacante busca gol en portería grande. La base solo traía el arranque del texto (cortado); el resto es (propuesta). Medidas, zonas, puntos, contraataque y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   44,
+   32
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 47,
+   "ymin": -3,
+   "ymax": 35
+  },
+  "lines": [
+   [
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     32
+    ],
+    "6 5"
+   ],
+   [
+    [
+     28,
+     0
+    ],
+    [
+     28,
+     32
+    ],
+    "6 5"
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 44,
+    "y": 16,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 21,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 23,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 27,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 34,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 35,
+    "y": 26,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     16
+    ],
+    "b": [
+     17,
+     11
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     17,
+     11
+    ],
+    "b": [
+     23,
+     16
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     23,
+     16
+    ],
+    "b": [
+     44,
+     16
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 0,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    7,
+    -0.9,
+    "FONDO",
+    "middle"
+   ],
+   [
+    22,
+    -0.9,
+    "MEDIO",
+    "middle"
+   ],
+   [
+    36,
+    -0.9,
+    "FINALIZACIÓN",
+    "middle"
+   ]
+  ]
+ }
+}

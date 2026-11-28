@@ -1,0 +1,140 @@
+{
+ "id": "RONDO-IN-T04",
+ "bloque": "Calentamiento",
+ "titulo": "Doble tarea",
+ "formato": "Todos conducen",
+ "edad": "12–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "3 series de 90″ con 30″ de pausa; el equipo que gana la serie suma 1 punto (propuesta).",
+ "objetivo": "Calentar con balón en el pie y, a la vez, manejar un segundo balón con las manos: atención dividida, cabeza alta y coordinación. Cómo explicarlo: «los pies no paran; las manos hablan con el compañero». Errores típicos: mirar el balón del pie, parar el balón de los pies para coger el de mano, lanzar sin avisar. Qué observar: cabeza levantada y pases de mano al compañero que está libre. Material: 8–12 balones de fútbol, 4 de balonmano (o blandos), petos de 2 colores.",
+ "montaje": "Cuadrado de 20 × 20 m. Dos equipos (peto amarillo y rojo), cada uno con su balón en el pie. 4 balones de balonmano: 2 por equipo.",
+ "juego": "Todos conducen sin parar. Los balones de mano circulan entre compañeros del mismo color: se lanza, se recibe y se devuelve sin parar el del pie.",
+ "punto": "Cada pase de manos recibido suma 1. Gana quien más sume en 90″.",
+ "consigna": "Pies en marcha, manos al libre.",
+ "variantes": {
+  "facil": "Se puede parar el balón del pie mientras se recibe el de mano (fuente).",
+  "dificil": "El balón de mano debe ir a un compañero de otro color (fuente); o el de mano se pasa con una sola mano (propuesta)."
+ },
+ "adaptacion": "Infantil (12–13): como está. Alevín (10–11): 2 balones de mano y 3 series de 60″. Con grupos de más de 12: dos cuadrados.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Doble tarea (IN-T04)",
+  "ref": "RONDO Vol. 4 · Infantil · págs. 15, 24, 35, 44, 46, 55"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: todos conducen, 4 balones de balonmano con las manos, puntos por intercambios en 90″, variantes. Medidas, equipos, reparto de balones, series y puntuación por serie (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 22.2,
+   "ymin": -2.2,
+   "ymax": 22.2
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 3,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 14,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 17,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     10,
+     3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     16,
+     5
+    ],
+    "b": [
+     10,
+     10
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "BALONMANO CON LAS MANOS",
+    "middle"
+   ]
+  ]
+ }
+}

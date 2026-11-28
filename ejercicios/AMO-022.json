@@ -1,0 +1,178 @@
+{
+ "id": "AMO-022",
+ "bloque": "Técnica y duelos",
+ "titulo": "3 zonas, 2v1 cambiantes",
+ "formato": "2v1 en 3 zonas",
+ "edad": "10–13 años",
+ "nivel": "Fácil",
+ "jugadores": "7 jug.",
+ "espacio": "30 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 2′ con 30″ de descanso; los defensores cambian en cada serie (propuesta).",
+ "objetivo": "Mover el balón de punta a punta con superioridad 2v1 y ocupación libre de zonas, manteniendo la posesión. Cómo explicarlo: «donde hay hueco, ahí vas; pero nunca más de 2». Errores típicos: juntarse tres en una zona, pases cortos sin avance, defensores fuera de zona. Qué observar: movimiento de los atacantes entre zonas y pase de cambio de zona. Material: 6 conos y 1 balón.",
+ "montaje": "Campo de 30 × 12 m en 3 zonas de 10 m. Un defensor azul en cada zona, sin salir de ella. 4 atacantes amarillos, con máximo 2 por zona.",
+ "juego": "Los atacantes mantienen el balón y entran en cualquier zona mientras no haya más de 2 amarillos en ella. Los defensores solo presionan en su zona. Si pierden el balón, cambian de rol.",
+ "punto": "Un pase de punta a punta por las 3 zonas: 1 punto.",
+ "consigna": "Búscate un hueco y nunca más de dos.",
+ "variantes": {
+  "facil": "Los defensores solo pueden interceptar, no robar, en la primera serie (propuesta).",
+  "dificil": "Un toque obligatorio y los defensores pueden pasar de zona 2 a la contigua (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): campo 24 × 10 m. Infantil (12–13): 30 × 14 m y un toque.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 22",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 24"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): espacio dividido en 3 zonas, 2x1 en cada zona, los atacantes entran en cualquier zona con máximo 2 propios, los defensores no salen de la suya, objetivo jugar en todas las zonas y mover el balón de punta a punta con posesión. Nº de atacantes, puntos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   30,
+   12
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 32.2,
+   "ymin": -2.2,
+   "ymax": 14.2
+  },
+  "lines": [
+   [
+    [
+     10,
+     0
+    ],
+    [
+     10,
+     12
+    ],
+    "6 5"
+   ],
+   [
+    [
+     20,
+     0
+    ],
+    [
+     20,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 25,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3
+    ],
+    "b": [
+     8,
+     9
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     8,
+     9
+    ],
+    "b": [
+     16,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     9
+    ],
+    "b": [
+     25,
+     3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    5,
+    -0.9,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    15,
+    -0.9,
+    "ZONA 2",
+    "middle"
+   ],
+   [
+    25,
+    -0.9,
+    "ZONA 3",
+    "middle"
+   ]
+  ]
+ }
+}

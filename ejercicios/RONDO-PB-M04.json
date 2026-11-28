@@ -1,0 +1,151 @@
+{
+ "id": "RONDO-PB-M04",
+ "bloque": "Calentamiento",
+ "titulo": "Pilla-pilla de los balones",
+ "formato": "Pilla-pilla",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 1′30″ con 30″ de pausa; en cada ronda empiezan otros 2 que la llevan (propuesta).",
+ "objetivo": "Correr, esquivar y cambiar de dirección sin chocarse, con un juego conocido que engancha desde el primer segundo. Cómo explicarlo: «el balón es tu pilla: quien lo tiene, persigue». Errores típicos: huir siempre al mismo rincón, empujar al tocar, quedarse parado al soltar el balón. Qué observar: frenadas, giros y niños que no se mueven (pasarles el balón antes). Material: 2 balones blandos y conos.",
+ "montaje": "Cuadrado de 20 × 20 m con conos en las esquinas. Dos niños la llevan, cada uno con un balón blando en la mano.",
+ "juego": "A la señal, los 2 que la llevan persiguen y tocan a los demás con la mano libre. A quien tocan le dan el balón y pasa a llevarla; quien lo entrega corre libre. Se toca, no se empuja.",
+ "punto": "Gana quien más tiempo escapa sin que lo toquen: el míster cuenta en voz alta.",
+ "consigna": "¡Qué escapada!",
+ "variantes": {
+  "facil": "Campo más grande, 25 × 25 m (fuente).",
+  "dificil": "Tres que la llevan, con tres balones (fuente); o quien la lleva debe conducir un balón con el pie (propuesta)."
+ },
+ "adaptacion": "Prebenjamín: como está. Benjamín: quien la lleva solo puede correr, no lanzar, y se mantiene la cuenta de escapadas por equipos.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El pilla-pilla de los balones (PB-M04)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · págs. 4, 13, 15, 24, 35, 44"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: dos que la llevan con balón blando, el tocado coge el balón, cuenta de quién escapa más tiempo, variantes y frase. Medidas, rondas, pausas y regla de no empujar (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 22.2,
+   "ymin": -2.2,
+   "ymax": 22.2
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    20,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "B",
+    "x": 4,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 15,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 9,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     5
+    ],
+    "b": [
+     8,
+     5
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     9,
+     4
+    ],
+    "b": [
+     14,
+     2.5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "LA LLEVAN CON BALÓN",
+    "middle"
+   ]
+  ]
+ }
+}

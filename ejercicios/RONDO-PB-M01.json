@@ -1,0 +1,133 @@
+{
+ "id": "RONDO-PB-M01",
+ "bloque": "Calentamiento",
+ "titulo": "Los animales del bosque",
+ "formato": "Juego de movimiento",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "8 min",
+ "series": "4–5 rondas de 1′ (un animal por ronda) y 1′ final de «mi animal favorito» (propuesta).",
+ "objetivo": "Activar el cuerpo con formas de desplazamiento distintas (andar, saltar, reptar, correr) y escuchar la consigna. Cómo explicarlo: es un cuento; el míster canta el animal y todos lo imitan. Errores típicos: no escuchar, correr siempre igual, chocarse. Qué observar: coordinación al saltar y reptar, y que nadie se quede sin participar. Sin balón al principio; solo en la variante difícil.",
+ "montaje": "Zona de 20 × 15 m marcada con conos. Todos los niños, repartidos dentro. El míster, en un lado, de cara al grupo.",
+ "juego": "El míster canta un animal y todos lo imitan 1′: el oso camina pesado, la rana salta con los pies juntos, la serpiente repta y la liebre corre rápido. Cambia de animal cada minuto sin avisar.",
+ "punto": "Al final, cada niño elige su animal favorito, lo enseña y todos aplauden (fuente).",
+ "consigna": "¡Oso, rana, serpiente o liebre!",
+ "variantes": {
+  "facil": "Solo dos animales (fuente).",
+  "dificil": "Los animales llevan el balón: oso con el balón en las manos, rana con balón entre los pies, serpiente rodando el balón (fuente y propuesta)."
+ },
+ "adaptacion": "Prebenjamín: como está. Benjamín: añadir más animales (cangrejo, canguro) y el balón desde el principio.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Los animales del bosque (PB-M01)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · págs. 3, 12, 23, 28, 30, 32"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: cuatro animales con su desplazamiento, aplauso al animal favorito y variantes. Medidas, duración por animal y rondas (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 22.2,
+   "ymin": -2.2,
+   "ymax": 17.2
+  },
+  "dashed": true,
+  "players": [
+   {
+    "r": "C",
+    "x": 10,
+    "y": -1.2,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 13,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     4
+    ],
+    "b": [
+     7,
+     4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     4
+    ],
+    "b": [
+     17,
+     5
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -2.9,
+    "MÍSTER",
+    "middle"
+   ],
+   [
+    10,
+    16.2,
+    "OSO · RANA · SERPIENTE · LIEBRE",
+    "middle"
+   ]
+  ]
+ }
+}

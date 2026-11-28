@@ -1,0 +1,181 @@
+{
+ "id": "AMO-016",
+ "bloque": "Técnica y duelos",
+ "titulo": "Salida, cambio y centro",
+ "formato": "Secuencia de 8",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–16 jug.",
+ "espacio": "50 × 32 m",
+ "duracion": "14 min",
+ "series": "4 turnos de 3′ y 1′ de descanso; cada turno se rotan los puestos (propuesta).",
+ "objetivo": "Trabajar la salida de balón y la progresión: pase a lateral, pivotes a distinta altura, cambio de orientación al extremo y centro para dos delanteros. Cómo explicarlo: «sal, junta, cambia y centra». Errores típicos: pivotes a la misma altura, pase al extremo lento, delanteros que se pisan. Qué observar: alturas distintas de los pivotes, velocidad del cambio y llegada de los delanteros. Material: 2 porterías con portero, balones y conos.",
+ "montaje": "Campo de 50 × 32 m con portería y portero. Un central, un lateral, 2 pivotes a distinta altura, un extremo por la banda contraria y 2 delanteros. Dos secuencias a la vez, una por portería.",
+ "juego": "El central pasa al lateral, este al pivote, que juega con el otro pivote (más adelantado); este cambia de orientación al extremo, que centra para los 2 delanteros que rematan.",
+ "punto": "Gol: 1 punto; gol tras la secuencia completa sin fallo, 2.",
+ "consigna": "Sal, junta, cambia y centra.",
+ "variantes": {
+  "facil": "Sin portero y con el cambio de orientación a 15 m (propuesta).",
+  "dificil": "Con un defensor presionando a los pivotes y un tiempo máximo de 10″ (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 40 × 28 m y portería de 5-7 m. Infantil (12–13): como está.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 16",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 18"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): salida de balón y progresión; central–lateral, lateral–pivote, pivote–pivote a distinta altura, cambio de orientación al extremo que centra para 2 delanteros; dos equipos a la vez. Medidas, reparto de jugadores, puntos y series (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   32
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -3,
+   "ymax": 35
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 16,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 28,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 42,
+    "y": 20,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     16
+    ],
+    "b": [
+     10,
+     5
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     10,
+     5
+    ],
+    "b": [
+     20,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     20,
+     12
+    ],
+    "b": [
+     28,
+     22
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     28,
+     22
+    ],
+    "b": [
+     40,
+     29
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     40,
+     29
+    ],
+    "b": [
+     42,
+     20
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 5
+   }
+  ],
+  "labels": [
+   [
+    4,
+    -0.9,
+    "CENTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

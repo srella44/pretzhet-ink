@@ -1,0 +1,167 @@
+{
+ "id": "AMO-020",
+ "bloque": "Técnica y duelos",
+ "titulo": "Automatismo y remate en 6",
+ "formato": "Secuencia de 6",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "6–12 jug.",
+ "espacio": "50 × 32 m",
+ "duracion": "14 min",
+ "series": "4 turnos de 3′ con 1′ de descanso; cada turno se rotan los 6 puestos (propuesta).",
+ "objetivo": "Automatizar una combinación de ataque (apoyo, pase largo, pared y llegada) con creación y ocupación de espacios. Cómo explicarlo: «x2 se aleja y se ofrece, x6 deja de cara, x5 ataca el hueco». Errores típicos: x5 que sale antes, x6 que no mira antes de devolver, pase largo sin dirección. Qué observar: timing de x5, precisión del pase largo y la pared. Material: portería con portero, balones y 6 conos.",
+ "montaje": "Campo de 50 × 32 m con portería y portero. Seis jugadores: x1 con balón, x2 y x3 en la salida, x4 y x5 en el centro y x6 arriba.",
+ "juego": "x1 juega con x2, que se aleja y se ofrece; x2 pasa a x3, que da pase largo a x6. x6 deja de cara a x4. x5 ataca el espacio de x6, recibe de x4 y remata.",
+ "punto": "Gol: 1 punto; remate de primera, 2.",
+ "consigna": "Aléjate, ofrécete y ataca el hueco.",
+ "variantes": {
+  "facil": "Sin portero y con el pase largo de 10 m (propuesta).",
+  "dificil": "Con un defensor que presiona a x6 y a x5 (propuesta)."
+ },
+ "adaptacion": "Alevín (10–11): 40 × 28 m y pase largo de 15 m. Infantil (12–13): como está con defensor.",
+ "fuente": {
+  "autor": "AFOPRO · tarea atribuida a José Mourinho",
+  "titulo_original": "Tarea atribuida a Mourinho 20",
+  "ref": "La-biblia-de-Jose-Mourinho.pdf · p. 22"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (cortada): automatismo de ataque con finalización; x1–x2 (se aleja y se muestra), x2–x3, pase largo a x6, x6 deja de cara a x4, x5 ataca el espacio de x6 y finaliza; factores: espacios, precisión de pase. Medidas, puntos, series y variantes (propuesta).",
+ "diagrama": {
+  "field": [
+   50,
+   32
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 53,
+   "ymin": -3,
+   "ymax": 35
+  },
+  "porterias": [
+   {
+    "x": 50,
+    "y": 16,
+    "lado": "R",
+    "ancho": 7,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 22,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 27,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 34,
+    "y": 26,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 38,
+    "y": 14,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     22
+    ],
+    "b": [
+     13,
+     12
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     12
+    ],
+    "b": [
+     16,
+     27
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 2
+   },
+   {
+    "a": [
+     16,
+     27
+    ],
+    "b": [
+     38,
+     14
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "n": 3
+   },
+   {
+    "a": [
+     38,
+     14
+    ],
+    "b": [
+     34,
+     26
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "n": 4
+   },
+   {
+    "a": [
+     26,
+     5
+    ],
+    "b": [
+     37,
+     8
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 5
+   }
+  ]
+ }
+}

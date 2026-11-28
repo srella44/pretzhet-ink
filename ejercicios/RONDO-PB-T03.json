@@ -1,0 +1,149 @@
+{
+ "id": "RONDO-PB-T03",
+ "bloque": "Calentamiento",
+ "titulo": "El pastor y las ovejas",
+ "formato": "Recoger y llevar",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 16 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 2′ con 1′ de pausa; entre rondas se cuentan las ovejas del redil (propuesta).",
+ "objetivo": "Conducir el balón con control hasta un destino, con cabeza levantada y sin chocar. Cómo explicarlo: «sois pastores: cada oveja al redil». Errores típicos: chutar en vez de conducir, llevar dos balones a la vez, correr sin mirar. Qué observar: toques cortos y que no se pisen. Material: 12–15 balones (ovejas) y 4 conos para el redil.",
+ "montaje": "Prado de 20 × 16 m. Redil: cuadrado de 4 × 4 m con conos en un lado. Un balón por niño más 3 extra, por el prado. Los niños, en el lado opuesto.",
+ "juego": "A la señal, cada pastor coge una oveja (balón), la conduce con los pies al redil, la deja y vuelve a por otra. Solo se lleva un balón cada vez.",
+ "punto": "Entre todos se cuentan las ovejas del redil al acabar cada ronda.",
+ "consigna": "Una oveja cada vez, ¡al redil!",
+ "variantes": {
+  "facil": "Llevar las ovejas con las manos (fuente).",
+  "dificil": "Dos rediles, uno por color, y cada uno lleva solo las ovejas de su color (fuente)."
+ },
+ "adaptacion": "Prebenjamín: como está. Benjamín: los balones se llevan con el pie menos hábil o por un pasillo de conos.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El pastor y las ovejas (PB-T03)",
+  "ref": "RONDO Vol. 1 · Prebenjamín · págs. 16, 18, 20, 28, 37, 39"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: balones como ovejas, redil cuadrado, llevar una a una con los pies, récord del grupo, variantes. Medidas, nº de balones, rondas y pausas (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   16
+  ],
+  "extent": {
+   "xmin": -2.2,
+   "xmax": 22.2,
+   "ymin": -2.2,
+   "ymax": 18.2
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     16,
+     6,
+     20,
+     10
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "balls": [
+   [
+    7,
+    2.5
+   ],
+   [
+    11,
+    5
+   ],
+   [
+    10,
+    10.5
+   ],
+   [
+    14,
+    2.5
+   ],
+   [
+    6,
+    14.5
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     8
+    ],
+    "b": [
+     16.5,
+     8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     12,
+     13
+    ],
+    "b": [
+     17,
+     9.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    18,
+    5.1,
+    "REDIL",
+    "middle"
+   ],
+   [
+    10,
+    -0.9,
+    "PRADO CON LAS OVEJAS",
+    "middle"
+   ]
+  ]
+ }
+}
