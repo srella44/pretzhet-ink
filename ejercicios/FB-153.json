@@ -1,0 +1,144 @@
+{
+ "id": "FB-153",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Aparezco y dejo de cara",
+ "formato": "Trío de apoyo",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "8–12 jug.",
+ "espacio": "12 × 8 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min con 30″ de pausa; 3 grupos de 3–4 en 3 carriles.",
+ "objetivo": "Aprender el apoyo: aparecer para recibir y dejar de cara a un compañero. Cómo explicarlo: «aparece, mira y déjala de cara». Errores típicos: recibir de espaldas, tocar a ciegas y no moverse tras pasar. Qué observar: pie cerca del balón, cuerpo de lado y vista antes del pase.",
+ "montaje": "Carril de 12 × 8 m por trío, con puerta de 2 m (2 conos) al fondo. Pasador con balón a 7 m de ella, apoyo en un cono a 4 m y tercer jugador al lado.",
+ "juego": "El pasador pasa al apoyo. Este aparece hacia el balón, lo toca con el interior y lo deja de cara al tercero, que lo pasa por la puerta. Rotan: pasador → apoyo → tercero.",
+ "punto": "1 punto por apoyo bien hecho: llega al pie, se deja de cara y se pasa por la puerta. Gana el trío con más puntos en 2 min.",
+ "consigna": "Aparece, mira y déjala de cara.",
+ "variantes": {
+  "facil": "Apoyo a 3 m, sin presión y puerta de 3 m.",
+  "dificil": "Un defensor pasivo detrás del apoyo y puerta de 1,5 m."
+ },
+ "adaptacion": "Prebenjamín–benjamín (6–9): 8 × 6 m y puerta de 3 m. Alevín (10–11): 12 × 8 m, 2 toques en el apoyo y defensor pasivo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "APAREZCO Y DEJO DE CARA",
+  "ref": "https://toplidercoach.com/futbol-base/aparezco-y-dejo-de-cara/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años (prebenjamín a alevín)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   12,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2.5,
+   "ymax": 10.5
+  },
+  "cones": [
+   [
+    4.8,
+    0
+   ],
+   [
+    7.2,
+    0
+   ],
+   [
+    6,
+    4.4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 7,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 3,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     6.2
+    ],
+    "b": [
+     6,
+     3.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     5.2,
+     3
+    ],
+    "b": [
+     2.2,
+     3.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     2,
+     3.3
+    ],
+    "b": [
+     5.5,
+     0.6
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.9,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    6,
+    8.9,
+    "PASADOR",
+    "middle"
+   ],
+   [
+    7.8,
+    3,
+    "APOYO",
+    "start"
+   ]
+  ]
+ }
+}

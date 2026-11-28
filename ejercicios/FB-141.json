@@ -1,0 +1,114 @@
+{
+ "id": "FB-141",
+ "bloque": "Superioridades",
+ "titulo": "1v1 a dos porterías",
+ "formato": "1v1 continuo",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "10 min",
+ "series": "4 duelos de 45″ por pareja, 30″ de pausa; rotar parejas.",
+ "objetivo": "Atacar y defender en 1v1 con transición inmediata: el que roba contraataca. Cómo explicarlo: «si robas, ataca; si pierdes, vuelve». Errores típicos: defender de frente sin orientar, abalanzarse y no reaccionar al robo. Qué observar: distancia de defensa a 1,5 m, cuerpo de lado y tiros con cabeza levantada. 6–12 jug. = 3–6 duelos en fila de espera.",
+ "montaje": "Campo de 20 × 12 m con una miniportería de 2 m en cada fondo. Dentro, 1 atacante con balón y 1 defensor; el resto en fila fuera con balones.",
+ "juego": "El atacante intenta marcar en la portería contraria. Si el defensor roba, contraataca a la opuesta. Tras gol o balón fuera, el entrenador da otro balón y cambian los papeles. 45″ por duelo.",
+ "punto": "Gol = 1 punto. Robo y gol en contraataque = 2. Balón fuera, 0. Gana quien sume más en 4 duelos.",
+ "consigna": "Si robas, ataca ya; si pierdes, vuelve.",
+ "variantes": {
+  "facil": "Campo de 15 × 10 m y porterías de 3 m.",
+  "dificil": "Campo de 25 × 12 m, porterías de 1,5 m y solo se marca tras un regate."
+ },
+ "adaptacion": "Alevín (10–11): 15 × 10 m y porterías de 3 m. Infantil (12–13): 20 × 12 m, porterías de 2 m y contraataque obligatorio en 5 s.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "1X1 DEFENSA Y ATAQUE A DOS PORTERIAS",
+  "ref": "https://toplidercoach.com/futbol-base/1x1-defensa-y-ataque-a-dos-porterias/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años (alevín, infantil)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -2.5,
+   "ymax": 14.5
+  },
+  "goals": [
+   [
+    0,
+    6,
+    "L"
+   ],
+   [
+    20,
+    6,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 10.5,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": -1.6,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21.6,
+    "y": 10,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.3,
+     5.6
+    ],
+    "b": [
+     13.5,
+     3.2
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 4
+   },
+   {
+    "a": [
+     10.6,
+     7.3
+    ],
+    "b": [
+     8,
+     9.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": []
+ }
+}

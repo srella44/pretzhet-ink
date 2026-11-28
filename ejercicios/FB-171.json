@@ -1,0 +1,181 @@
+{
+ "id": "FB-171",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda: tercer hombre",
+ "formato": "Rueda con tercer hombre",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "12 min",
+ "series": "3 × 3 min con 30″ de pausa; cambiar el sentido y el pie.",
+ "objetivo": "Aprender el tercer hombre: dar un pase a un compañero que lo juega a un tercero que llega en movimiento. Cómo explicarlo: «pasa, mira al tercero y sal a recibir». Errores típicos: salir tarde, pase al segundo en vez de al tercero y recibir parado. Qué observar: timing de la carrera y pase de 1 toque.",
+ "montaje": "Cuadrado de 14 × 14 m, un cono por esquina y 2 jugadores en cada una. 1 balón en la esquina 1.",
+ "juego": "El de la 1 pasa a la 2. Al salir el pase, el de la 3 (diagonal) arranca al centro. El de la 2 toca de primera a ese tercer hombre, que controla y pasa a la 4. Cada uno sigue su pase.",
+ "punto": "1 punto por pase al tercer hombre en movimiento. Si sale tarde o recibe parado, 0. Meta: 12 puntos en 3 min.",
+ "consigna": "Pasa, mira al tercero y sal.",
+ "variantes": {
+  "facil": "Cuadrado de 10 × 10 m, 2 toques y tercer hombre a 4 m.",
+  "dificil": "Cuadrado de 16 × 16 m, 1 toque y pase al tercero en carrera a 8 m."
+ },
+ "adaptacion": "Infantil (12–13): 12 × 12 m con 2 toques. Cadete (14–15): 14–16 m con 1 toque y 2 balones.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASE -TERCER HOMBRE",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pase-tercer-hombre/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años (infantil, cadete)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 17.5,
+   "ymin": -3.5,
+   "ymax": 17.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    14,
+    14
+   ],
+   [
+    0,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": -1.5,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 12.2,
+    "y": 1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": -1.5,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 12.2,
+    "y": 12.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 15.5,
+    "y": 15.5,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 12.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": 15.5,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     1.8
+    ],
+    "b": [
+     11.2,
+     1.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     12,
+     13
+    ],
+    "b": [
+     8.2,
+     9
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     12.4,
+     2.8
+    ],
+    "b": [
+     8.6,
+     7.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8,
+     8.4
+    ],
+    "b": [
+     2.6,
+     11.4
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    4,
+    6.4,
+    "3.ER HOMBRE",
+    "middle"
+   ]
+  ]
+ }
+}

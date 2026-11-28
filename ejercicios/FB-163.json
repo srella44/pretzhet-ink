@@ -1,0 +1,193 @@
+{
+ "id": "FB-163",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Dejar de cara y lejano",
+ "formato": "Rueda de pase",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "16 × 8 m",
+ "duracion": "12 min",
+ "series": "3 × 3 min con 30″ de pausa; rotar de puesto cada serie.",
+ "objetivo": "Combinar pase corto, control orientado de primera («dejar de cara») y pase largo al lado lejano. Cómo explicarlo: «cerca, de cara y lejos». Errores típicos: pase largo flojo, control que no deja de cara y mirar solo al cercano. Qué observar: pie de apoyo, pase largo al pie y 1 toque.",
+ "montaje": "Rectángulo de 16 × 8 m con un cono por esquina (A arriba izquierda, B abajo izquierda, C abajo derecha, D arriba derecha) y 2 jugadores en cada una. 1 balón en A.",
+ "juego": "A pasa corto (8 m) a B. B deja de cara de un toque y pasa largo (16 m) a C. C pasa corto a D y D pasa largo a A. Cada uno va al final de su fila.",
+ "punto": "1 punto por vuelta de 4 pases (corto, largo, corto, largo) sin fallo. Si falla, 0 y vuelve a A. Meta: 6 vueltas seguidas en 3 min.",
+ "consigna": "Cerca, de cara y lejos.",
+ "variantes": {
+  "facil": "Rectángulo de 12 × 6 m y 2 toques.",
+  "dificil": "Rectángulo de 20 × 10 m, 1 toque y segundo balón en C."
+ },
+ "adaptacion": "Alevín (10–11): 12 × 6 m y 2 toques. Infantil–cadete (12–15): 16–20 m, 1 toque y pierna menos hábil.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASE, DEJAR DE CARA + LEJANO",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pase-dejar-de-cara-lejano/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   8
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 19.5,
+   "ymin": -3.5,
+   "ymax": 11.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    16,
+    8
+   ],
+   [
+    16,
+    0
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.4,
+    "y": 1.4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": -1.4,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 1.4,
+    "y": 6.6,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 17.4,
+    "y": 9.4,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 14.6,
+    "y": 6.6,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 14.6,
+    "y": 1.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 17.4,
+    "y": -1.4,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.4,
+     2.4
+    ],
+    "b": [
+     1.4,
+     5.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     2.4,
+     6.8
+    ],
+    "b": [
+     13.6,
+     6.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     14.6,
+     5.6
+    ],
+    "b": [
+     14.6,
+     2.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     13.6,
+     1.2
+    ],
+    "b": [
+     2.4,
+     1.2
+    ],
+    "k": "pass",
+    "n": 4,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    0.8,
+    -1.5,
+    "A",
+    "start"
+   ],
+   [
+    0.8,
+    9.8,
+    "B",
+    "start"
+   ],
+   [
+    16,
+    9.8,
+    "C",
+    "middle"
+   ],
+   [
+    16,
+    -1.5,
+    "D",
+    "middle"
+   ]
+  ]
+ }
+}

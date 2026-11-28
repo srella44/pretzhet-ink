@@ -1,0 +1,152 @@
+{
+ "id": "FB-127",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Esquina de pase",
+ "formato": "Pase en cuadrado",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "3 × 3 min con 30″ de pausa; rotar de esquina en cada serie.",
+ "objetivo": "Mejorar el pase raso con interior, el control orientado y el ritmo de juego. Cómo explicarlo: «pasa al pie bueno, controla ya mirando al siguiente». Errores típicos: pase flojo, control que aleja el balón y no seguir el pase. Qué observar: perfil abierto antes de recibir y pierna de pase firme.",
+ "montaje": "Cuadrado de 12 × 12 m, un cono por esquina y 2 jugadores en cada una. Un balón arriba a la izquierda y otro abajo a la derecha.",
+ "juego": "Quien tiene balón pasa raso a la esquina siguiente (sentido horario) y sigue su pase hasta esa fila. El receptor controla y pasa a la siguiente. Los balones no se cruzan.",
+ "punto": "1 punto por vuelta completa de un balón (4 pases limpios). Si sale, vuelve a su esquina. Se suman los puntos del grupo en 3 min.",
+ "consigna": "Pasa al pie y controla mirando al siguiente.",
+ "variantes": {
+  "facil": "Un solo balón, cuadrado de 10 × 10 m y control libre de 2 toques.",
+  "dificil": "Pase y control de 1 toque por jugador, y la ronda cambia de sentido al oír «cambio»."
+ },
+ "adaptacion": "Alevín (10–11): 10 × 10 m con 2 toques. Infantil–cadete (12–15): 12 × 12 m con 1 toque y pierna cambiada en la segunda serie.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ESQUINA DE PASE",
+  "ref": "https://toplidercoach.com/futbol-base/esquina-de-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 15.5,
+   "ymin": -3.5,
+   "ymax": 15.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 1.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": -1.5,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 10.2,
+    "y": 1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": -1.5,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 10.2,
+    "y": 10.2,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 13.5,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 10.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": 13.5,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     1.8
+    ],
+    "b": [
+     9.2,
+     1.8
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9.2,
+     10.2
+    ],
+    "b": [
+     2.8,
+     10.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    6,
+    6.4,
+    "2 BALONES",
+    "middle"
+   ]
+  ]
+ }
+}

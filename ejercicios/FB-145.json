@@ -1,0 +1,169 @@
+{
+ "id": "FB-145",
+ "bloque": "Finalización",
+ "titulo": "Remate tras centro",
+ "formato": "Secuencia con portería",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "30 × 22 m",
+ "duracion": "12 min",
+ "series": "3 turnos por jugador y rol, 6 secuencias seguidas por grupo; descanso mientras rotan.",
+ "objetivo": "Encadenar pase, centro y remate al primer y segundo palo con tiempos de llegada. Cómo explicarlo: «centra con rosca al hueco; uno al primer palo, otro al segundo». Errores típicos: llegar parados, rematar con el empeine sin dirección y no atacar el balón. Qué observar: carrera curva y remate de primera.",
+ "montaje": "Portería de 6 m con portero. Pivote con balones a 20 m. Extremo en la banda derecha, a 14 m del fondo. Dos delanteros en la frontal, uno por palo.",
+ "juego": "El pivote pasa al extremo, que conduce 8 m y centra. Los 2 delanteros arrancan con el pase: uno al primer palo, otro al segundo, y rematan de primera. Rotan los roles.",
+ "punto": "Gol = 1 punto; de primera = 2. Palo o parada, 0. Gana el grupo con más puntos en 6 secuencias.",
+ "consigna": "Al primer y al segundo palo.",
+ "variantes": {
+  "facil": "Sin portero activo, centro raso y delanteros a 8 m.",
+  "dificil": "Con un defensor pasivo en el área y límite de 6 s para rematar."
+ },
+ "adaptacion": "Alevín (10–11): portería de 5 m, centro raso y rematar desde 8 m. Infantil–cadete (12–15): centro al aire, 12 m y remate de volea o cabeza.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "SECUENCIA FINALIZACÍON Y REMATE A CENTRO LATERAL",
+  "ref": "https://toplidercoach.com/futbol-base/secuencia-finalizacion-y-remate-a-centro-lateral/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 28,
+   "ymin": -2.5,
+   "ymax": 20
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 16,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 10,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 8,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 8,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.9,
+     15.5
+    ],
+    "b": [
+     20.2,
+     10.7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     21,
+     9
+    ],
+    "b": [
+     21,
+     4.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     20.2,
+     3.8
+    ],
+    "b": [
+     14,
+     3.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     7.5,
+     7
+    ],
+    "b": [
+     10,
+     2.4
+    ],
+    "k": "run",
+    "n": 4,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     16.5,
+     7
+    ],
+    "b": [
+     15,
+     2.4
+    ],
+    "k": "run",
+    "n": 4,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    12,
+    18.7,
+    "PIVOTE",
+    "middle"
+   ],
+   [
+    22.3,
+    10.6,
+    "EXTREMO",
+    "start"
+   ]
+  ]
+ }
+}

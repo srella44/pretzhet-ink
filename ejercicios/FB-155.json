@@ -1,0 +1,139 @@
+{
+ "id": "FB-155",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda desdoblada",
+ "formato": "Cuadrado con desdoblamiento",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "10 min",
+ "series": "3 × 3 min con 30″ de pausa; cambio de sentido en cada serie.",
+ "objetivo": "Pasar y desdoblar: tras pasar, rodear al compañero por fuera para ofrecer una nueva opción. Cómo explicarlo: «pasa, rodea y pide». Errores típicos: rodear por dentro, no mirar al compañero y salir antes de pasar. Qué observar: pase al pie, carrera curva por fuera y el receptor viendo al que sale.",
+ "montaje": "Cuadrado de 10 × 10 m con un cono por esquina y 2–3 jugadores en cada una. 1 balón arriba a la izquierda.",
+ "juego": "El primero de la esquina 1 pasa al pie de la 2, rodea al receptor por fuera (desdoblamiento) y se pone en su fila. El receptor controla, pasa a la 3 y rodea igual.",
+ "punto": "1 punto por pase al pie con desdoblamiento por fuera. Si rodea por dentro o el pase falla, 0. Se suman los puntos en 3 min.",
+ "consigna": "Pasa, rodea por fuera y pide.",
+ "variantes": {
+  "facil": "Cuadrado de 8 × 8 m y rodeando el cono.",
+  "dificil": "Cuadrado de 12 × 12 m, 1 toque y un segundo balón en la esquina 3."
+ },
+ "adaptacion": "Benjamín (8–9): 8 × 8 m y 2 toques. Alevín (10–11): 10 × 10 m con 1–2 toques y pierna menos hábil en la última serie.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASES DESDOBLAMIENTO",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pases-desdoblamiento/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años (benjamín, alevín)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 13,
+   "ymin": -3,
+   "ymax": 13
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    0,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 1.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.4,
+    "y": -1.4,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 8.4,
+    "y": 1.6,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 11.4,
+    "y": -1.4,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 8.4,
+    "y": 8.4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 8.4,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.6,
+     2.2
+    ],
+    "b": [
+     7.4,
+     2.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     1.8,
+     0.6
+    ],
+    "b": [
+     8.6,
+     -1
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 10
+   }
+  ],
+  "labels": [
+   [
+    5,
+    5,
+    "RUEDA",
+    "middle"
+   ]
+  ]
+ }
+}

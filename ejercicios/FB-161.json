@@ -1,0 +1,114 @@
+{
+ "id": "FB-161",
+ "bloque": "Calentamiento",
+ "titulo": "Cobertura con tenis",
+ "formato": "Parejas de reacción",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "10 × 4 m",
+ "duracion": "8 min",
+ "series": "4 duelos de 30″ por pareja; descanso de 15″ y cambio de rol.",
+ "objetivo": "Trabajar la cobertura defensiva: desplazarse de lado, mantener la distancia y reaccionar a una señal visual. Cómo explicarlo: «de lado, pies sin cruzar y manos listas». Errores típicos: cruzar los pies, ir de frente y mirar los pies. Qué observar: cadera baja, ojos en la pelota y salida explosiva. Interpretación del título (propuesta).",
+ "montaje": "Carriles de 10 × 4 m. El jugador A con una pelota de tenis en la mano; el defensor D, a 2 m de A, en postura de defensa de lado.",
+ "juego": "A se desplaza de lado por el carril con cambios de ritmo y D le sigue sin cruzar los pies, a 2 m. A suelta la pelota sin avisar; D intenta cogerla antes del 2.º bote.",
+ "punto": "D la coge antes del 2.º bote = 1 punto para D; si no, 1 para A. Gana quien más sume en 4 duelos.",
+ "consigna": "De lado, pies sin cruzar y a la pelota.",
+ "variantes": {
+  "facil": "Carril de 6 m y D parte a 3 m de A.",
+  "dificil": "Carril de 12 m, D empieza a 1 m y la pelota se lanza al aire."
+ },
+ "adaptacion": "Alevín (10–11): 6 × 4 m y bote doble. Infantil–cadete (12–15): 10 × 4 m y bote simple.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COBERTURA PELOTAS DE TENIS",
+  "ref": "https://toplidercoach.com/futbol-base/cobertura-pelotas-de-tenis/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   10,
+   4
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 12,
+   "ymin": -2.5,
+   "ymax": 6.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     1.2
+    ],
+    "b": [
+     7.5,
+     1.2
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     5.6,
+     2.8
+    ],
+    "b": [
+     8.6,
+     2.8
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 8,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    5,
+    -0.9,
+    "PELOTA DE TENIS",
+    "middle"
+   ]
+  ]
+ }
+}

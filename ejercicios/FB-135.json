@@ -1,0 +1,149 @@
+{
+ "id": "FB-135",
+ "bloque": "Técnica y duelos",
+ "titulo": "Técnica en espacio reducido",
+ "formato": "Conducción libre",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "4–12 jug.",
+ "espacio": "10 × 10 m",
+ "duracion": "10 min",
+ "series": "5 consignas de 45″ con 15″ de pausa; 2 vueltas.",
+ "objetivo": "Dominar el balón en poco espacio: cabeza levantada, toques cortos y cambios de dirección sin chocar. Cómo explicarlo: «balón pegado y ojos arriba». Errores típicos: mirar solo el balón, toques largos y chocar con otros. Qué observar: contacto frecuente con el balón y uso de las dos piernas.",
+ "montaje": "Cuadrado de 10 × 10 m por cada 4 jugadores, con conos en las esquinas y uno en el centro. Cada jugador con su balón dentro.",
+ "juego": "Consignas de 45″: 1) suela; 2) interior–exterior; 3) parar con suela y girar al silbato; 4) tocar el cono central y salir; 5) cambio de ritmo a la voz «ya». Sin chocar ni salir.",
+ "punto": "1 punto por cada toque de cono con el balón controlado. Chocar o perder el balón fuera, −1. Gana quien más puntos sume.",
+ "consigna": "Balón pegado y cabeza arriba.",
+ "variantes": {
+  "facil": "Un cuadrado de 12 × 12 m, sin cono central y sin restar puntos.",
+  "dificil": "Cuadrado de 8 × 8 m, con la pierna menos hábil en las consignas 1 y 2."
+ },
+ "adaptacion": "Benjamín (8–9): 3 consignas y 8 jugadores por cuadrado grande. Alevín (10–11): las 5 consignas y cuadrado de 8 × 8 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TÉCNICA INDIVIDUAL ESPACIO REDUCIDO",
+  "ref": "https://toplidercoach.com/futbol-base/tecnica-individual-espacio-reducido/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años (benjamín, alevín)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   10,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 12,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    10,
+    0
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    5,
+    5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 2.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.8,
+    "y": 2,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2.2,
+    "y": 7.8,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 7.8,
+    "y": 7.8,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.2,
+     2.4
+    ],
+    "b": [
+     4,
+     3.2
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     7.8,
+     2.6
+    ],
+    "b": [
+     7.8,
+     4.4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 10,
+    "s1": 4
+   },
+   {
+    "a": [
+     7.8,
+     7.4
+    ],
+    "b": [
+     6.2,
+     6.6
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    5,
+    6.7,
+    "CONO",
+    "middle"
+   ]
+  ]
+ }
+}

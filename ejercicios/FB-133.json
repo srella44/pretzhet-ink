@@ -1,0 +1,166 @@
+{
+ "id": "FB-133",
+ "bloque": "Calentamiento",
+ "titulo": "Circuito físico y habilidad",
+ "formato": "Circuito",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 10 m",
+ "duracion": "10 min",
+ "series": "3 vueltas por jugador, salidas cada 6 s y vuelta trotando; pausa de 40″ entre vueltas.",
+ "objetivo": "Activar piernas con saltos y velocidad, y encadenar conducción y una habilidad corta con balón. Cómo explicarlo: «salta, esquiva y sprint». Errores típicos: saltos con pies separados, balón lejos en el slalom y habilidad sin velocidad. Qué observar: aterrizaje suave y cabeza levantada en el slalom.",
+ "montaje": "Circuito de 20 m: 4 conos bajos a 0,8 m (saltos); a 3 m, slalom de 5 conos a 1,5 m; a 2 m, un cono de habilidad y 6 m de sprint. 1 balón por jugador al empezar el slalom.",
+ "juego": "Salta los 4 conos con pies juntos, coge el balón y haz el slalom conduciendo. En el cono regatea (suela o tijera) y conduce rápido hasta la línea. Vuelve trotando.",
+ "punto": "Vuelta limpia (sin tocar conos y con habilidad hecha) = 1 punto. Gana quien sume más en 3 vueltas.",
+ "consigna": "Salta, esquiva y acelera al final.",
+ "variantes": {
+  "facil": "Conos a 1 m, sin habilidad y conducción libre.",
+  "dificil": "Saltos a pata coja alternando piernas y slalom con la pierna menos hábil."
+ },
+ "adaptacion": "Alevín (10–11): saltos bajos y regate sencillo. Infantil–cadete (12–15): saltos más altos y sprint de 8 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FÍSICO + CONDUCCIÓN Y HABILIDAD",
+  "ref": "https://toplidercoach.com/futbol-base/fisico-conduccion-y-habilidad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   20,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2.5,
+   "ymax": 10.5
+  },
+  "cones": [
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    8,
+    4
+   ],
+   [
+    9.5,
+    4
+   ],
+   [
+    11,
+    4
+   ],
+   [
+    12.5,
+    4
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    16,
+    4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8.2,
+    "y": 5.8,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.4,
+     4
+    ],
+    "b": [
+     1.8,
+     4
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     8.6,
+     3
+    ],
+    "b": [
+     15.4,
+     3
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     16.4,
+     4.8
+    ],
+    "b": [
+     19.4,
+     4.8
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    3.5,
+    2.2,
+    "SALTOS",
+    "middle"
+   ],
+   [
+    11,
+    2.2,
+    "SLALOM",
+    "middle"
+   ],
+   [
+    16,
+    2.8,
+    "HABILIDAD",
+    "middle"
+   ]
+  ]
+ }
+}

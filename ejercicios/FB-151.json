@@ -1,0 +1,155 @@
+{
+ "id": "FB-151",
+ "bloque": "Calentamiento",
+ "titulo": "Pase y velocidad",
+ "formato": "Pase y sprint",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 8 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 90″ con 30″ de pausa; después de cada ronda cambia el carril.",
+ "objetivo": "Elevar pulsaciones combinando pase raso y sprint de 15 m. Cómo explicarlo: «pasa fuerte y esprinta tras tu pase». Errores típicos: pase flojo, no esprintar tras pasar y entrar en el carril del otro. Qué observar: pase al pie, aceleración explosiva y control de 1 toque.",
+ "montaje": "Dos carriles de 16 × 3 m, cada uno con una fila de 3 jugadores en cada extremo y 1 balón en la primera fila.",
+ "juego": "El primero de una fila pasa raso a la fila contraria y esprinta para ponerse al final de ella. El receptor controla, pasa de vuelta y esprinta igual. Continuo.",
+ "punto": "1 punto por pase al pie con el sprint hecho antes de que el receptor controle. Pase fuera de pie o sprint tardío, 0. Gana el carril con más puntos en 90″.",
+ "consigna": "Pasa fuerte y esprinta.",
+ "variantes": {
+  "facil": "Distancia de 10 m, 2 toques y sprint solo a trote.",
+  "dificil": "Distancia de 20 m, pase de 1 toque y 2 balones por carril."
+ },
+ "adaptacion": "Alevín (10–11): 10–12 m. Infantil–cadete (12–15): 16–20 m y 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASE Y VELOCIDAD",
+  "ref": "https://toplidercoach.com/futbol-base/pase-y-velocidad/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2.5,
+   "ymax": 10.5
+  },
+  "cones": [
+   [
+    -0.5,
+    2.5
+   ],
+   [
+    16.5,
+    2.5
+   ],
+   [
+    -0.5,
+    5.5
+   ],
+   [
+    16.5,
+    5.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.2,
+    "y": 3.7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17.2,
+    "y": 3.7,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 5.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 5.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.9,
+     2.5
+    ],
+    "b": [
+     14.1,
+     2.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     1.6,
+     3.5
+    ],
+    "b": [
+     14.4,
+     4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 10
+   },
+   {
+    "a": [
+     1.9,
+     5.5
+    ],
+    "b": [
+     14.1,
+     5.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    8,
+    7.2,
+    "2 CARRILES",
+    "middle"
+   ]
+  ]
+ }
+}

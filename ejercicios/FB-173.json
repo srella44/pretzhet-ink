@@ -1,0 +1,181 @@
+{
+ "id": "FB-173",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Pase y conducción",
+ "formato": "Relevos por equipos",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 10 m",
+ "duracion": "12 min",
+ "series": "3 rondas de relevos con 1 min de pausa; los equipos cambian de carril.",
+ "objetivo": "Combinar conducción, pase al pie y velocidad en una competición por equipos. Cómo explicarlo: «conduce rápido y pasa al pie». Errores típicos: pase fuera de pie, salir antes de tiempo y conducir sin control. Qué observar: conducción con toques cortos, pase fuerte y salida al recibir el pase.",
+ "montaje": "Dos carriles de 20 × 3 m, uno por equipo (4–6 jugadores), con 3 conos de slalom. Mitad del equipo con balón en una salida y la otra mitad en la opuesta.",
+ "juego": "El primero conduce el slalom hasta el otro extremo y pasa al pie del primero de allí, que repite en sentido contrario. Gana el equipo que complete antes todos los relevos.",
+ "punto": "Equipo que acaba primero = 3 puntos. Cono tirado, −1; pase fuera de pie, −1. Se suman 3 rondas.",
+ "consigna": "Conduce rápido y pasa al pie.",
+ "variantes": {
+  "facil": "Carril de 12 m, 2 conos y sin pase (relevo con el balón en mano).",
+  "dificil": "Carril de 24 m, 4 conos y pase de 1 toque sin parar el balón."
+ },
+ "adaptacion": "Alevín (10–11): 14 m, 2 conos y pase libre. Infantil–cadete (12–15): 20 m, 3–4 conos y pase de 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COMPETICIÓN PASE Y CONDUCCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/competicion-pase-y-conduccion/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   20,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2.5,
+   "ymax": 12.5
+  },
+  "lines": [
+   [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     10
+    ],
+    "6 5"
+   ],
+   [
+    [
+     19,
+     0
+    ],
+    [
+     19,
+     10
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    5,
+    2.5
+   ],
+   [
+    10,
+    2.5
+   ],
+   [
+    15,
+    2.5
+   ],
+   [
+    5,
+    7.5
+   ],
+   [
+    10,
+    7.5
+   ],
+   [
+    15,
+    7.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": -0.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.4,
+     2.5
+    ],
+    "b": [
+     18,
+     2.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     18,
+     3.4
+    ],
+    "b": [
+     20.2,
+     3.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     0.4,
+     7.5
+    ],
+    "b": [
+     18,
+     7.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -1,
+    "EQUIPO AMARILLO",
+    "middle"
+   ],
+   [
+    10,
+    11.2,
+    "EQUIPO ROJO",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "id": "FB-129",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Finta, giro y pase",
+ "formato": "Cuadrado con finta",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min con 30″ de pausa; cambiar de esquina cada serie.",
+ "objetivo": "Practicar conducción, finta y giro con el balón pegado al pie, y acabar con un pase al pie del compañero. Cómo explicarlo: «engaña al cono, gira y pasa». Errores típicos: finta sin cambio de ritmo, giro abierto y pase a destiempo. Qué observar: cabeza levantada antes del pase y apoyo cerca del balón.",
+ "montaje": "Cuadrado de 12 × 12 m con conos en las esquinas y uno grande en el centro; 2–3 jugadores por esquina. Un balón arriba a la izquierda y otro abajo a la derecha (sale 3 s después).",
+ "juego": "El primero conduce al cono central, finta, gira 180° a su alrededor y pasa al pie de la esquina siguiente (sentido horario). Luego va al final de esa fila.",
+ "punto": "1 punto por acción completa: finta + giro + pase al pie. Sin finta o con pase fuera de pie, 0. Se suman los puntos en 2 min.",
+ "consigna": "Engaña al cono, gira y pasa al pie.",
+ "variantes": {
+  "facil": "Sin cono central: finta libre a 3 m de la esquina y un solo balón.",
+  "dificil": "Los 2 balones salen a la vez por cada lado del cono y el pase es de 1 toque."
+ },
+ "adaptacion": "Alevín (10–11): finta simple con cambio de ritmo. Infantil–cadete (12–15): giro con suela o Cruyff y pase de 1 toque.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CUADRADO DE FINTA, GIRO Y PASE",
+  "ref": "https://toplidercoach.com/futbol-base/cuadrado-de-finta-giro-y-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -3.5,
+   "xmax": 15.5,
+   "ymin": -3.5,
+   "ymax": 15.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    6,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.2,
+    "y": 3.4,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": -1.5,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 10.2,
+    "y": 1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": -1.5,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 10.2,
+    "y": 10.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 10.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": -1.5,
+    "y": 13.5,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     1.2
+    ],
+    "b": [
+     3.2,
+     2.8
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 8
+   },
+   {
+    "a": [
+     5,
+     4.4
+    ],
+    "b": [
+     9.4,
+     2.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    6,
+    7.6,
+    "CONO CENTRAL",
+    "middle"
+   ]
+  ]
+ }
+}

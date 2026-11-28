@@ -1,0 +1,122 @@
+{
+ "id": "FB-137",
+ "bloque": "Técnica y duelos",
+ "titulo": "Control con interior",
+ "formato": "Parejas",
+ "edad": "8–11 años",
+ "nivel": "Fácil",
+ "jugadores": "4–6 jug.",
+ "espacio": "12 × 8 m",
+ "duracion": "10 min",
+ "series": "3 series de 10 pases por jugador; 30″ de pausa y cambio de pierna.",
+ "objetivo": "Recibir con el interior del pie orientando el balón hacia un lado y devolver con el mismo pie. Cómo explicarlo: «recibe hacia la puerta y devuelve». Errores típicos: pie rígido, control hacia el cuerpo y devolución sin mirar. Qué observar: pie de apoyo cerca del balón y puntera ligeramente levantada.",
+ "montaje": "Parejas a 8 m en un rectángulo de 12 × 8 m, 1 balón por pareja. Junto al receptor, a 2 m de su pierna derecha, una puerta de 1,5 m con 2 conos.",
+ "juego": "A pasa raso al pie de B. B controla con el interior hacia la puerta de un toque y devuelve a A con el interior. A los 5 pases cambian de rol y la puerta pasa al otro lado.",
+ "punto": "1 punto cuando el balón pasa por la puerta y llega al pie de A. 0 si se escapa. Gana la pareja con más puntos en 3 series.",
+ "consigna": "Recibe hacia la puerta y devuelve.",
+ "variantes": {
+  "facil": "Distancia de 5 m, puerta de 2 m y control libre de 2 toques.",
+  "dificil": "Distancia de 10 m, puerta de 1 m, pierna menos hábil y devolución de 1 toque."
+ },
+ "adaptacion": "Benjamín (8–9): 5 m y puerta de 2 m. Alevín (10–11): 8–10 m, puerta de 1 m y alternar los dos pies.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CONTROL ORIENTADO INTERIOR DEL PIE",
+  "ref": "https://toplidercoach.com/futbol-base/control-orientado-interior-del-pie/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años (benjamín, alevín)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   12,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    8.2,
+    5.6
+   ],
+   [
+    9.8,
+    5.6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 9,
+    "y": 2.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     2.5
+    ],
+    "b": [
+     8.2,
+     2.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     9,
+     3.3
+    ],
+    "b": [
+     9,
+     5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 4
+   },
+   {
+    "a": [
+     8.4,
+     4.4
+    ],
+    "b": [
+     2.4,
+     3.1
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    9,
+    6.9,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ }
+}

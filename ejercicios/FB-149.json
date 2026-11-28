@@ -1,0 +1,156 @@
+{
+ "id": "FB-149",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito de conducción",
+ "formato": "Circuito",
+ "edad": "6–9 años",
+ "nivel": "Fácil",
+ "jugadores": "2–6 jug.",
+ "espacio": "18 × 8 m",
+ "duracion": "10 min",
+ "series": "3 vueltas por niño con pausa mientras esperan; 2 rondas con el cronómetro.",
+ "objetivo": "Conducir con ambos pies, cambiar de dirección y frenar con control, en un circuito divertido. Cómo explicarlo: «toca el balón muchas veces y mira al frente». Errores típicos: golpear en vez de conducir, no mirar y salir de la puerta. Qué observar: toques cortos, cabeza levantada y uso de las dos piernas.",
+ "montaje": "Circuito de 18 m: salida; slalom de 4 conos a 2 m; puerta de 2 m; cono de giro a 3 m; vuelta por el lateral hasta la meta. 1 balón por niño.",
+ "juego": "Salen de uno en uno: slalom conduciendo, puerta, giro con interior alrededor del cono y vuelta conduciendo a la meta. Sale el siguiente cuando el anterior pasa el 2.º cono.",
+ "punto": "1 punto por cada cono sin tocar y 2 por pasar la puerta con el balón. Gana quien más sume en 3 vueltas.",
+ "consigna": "Toques cortos y cabeza arriba.",
+ "variantes": {
+  "facil": "Slalom de 3 conos a 2,5 m, puerta de 3 m y sin cronómetro.",
+  "dificil": "Conos a 1,5 m, solo pierna menos hábil en el slalom y vuelta cronometrada."
+ },
+ "adaptacion": "Prebenjamín (6–7): conos a 2,5 m y sin puntos, solo meta. Benjamín (8–9): conos a 2 m, puntos y cronómetro por rondas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO DE CONDUCCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-de-conduccion-2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–9 años (prebenjamín, benjamín)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   18,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 20,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    7,
+    4
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    11.5,
+    3
+   ],
+   [
+    11.5,
+    5
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    16,
+    6.2
+   ],
+   [
+    17,
+    6.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.2,
+     4
+    ],
+    "b": [
+     9.6,
+     4
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     10.4,
+     4
+    ],
+    "b": [
+     12.6,
+     4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     14.6,
+     4.8
+    ],
+    "b": [
+     15.4,
+     6.4
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    0.5,
+    2.4,
+    "SALIDA",
+    "middle"
+   ],
+   [
+    11.5,
+    1.3,
+    "PUERTA",
+    "middle"
+   ],
+   [
+    16.5,
+    7.9,
+    "META",
+    "middle"
+   ]
+  ]
+ }
+}

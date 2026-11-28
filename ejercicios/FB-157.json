@@ -1,0 +1,177 @@
+{
+ "id": "FB-157",
+ "bloque": "Calentamiento",
+ "titulo": "Velocidad de pies",
+ "formato": "Escalera de agilidad",
+ "edad": "8–13 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "12 × 6 m",
+ "duracion": "8 min",
+ "series": "3 vueltas por jugador y fase, con 20″ de pausa; 2 carriles a la vez.",
+ "objetivo": "Activar los pies con apoyos rápidos y coordinación antes del trabajo con balón. Cómo explicarlo: «pies rápidos, ligeros y por dentro de los aros». Errores típicos: pisar el aro, mirar los pies y echar el cuerpo atrás. Qué observar: apoyos cortos, tronco algo adelantado y brazos activos. Material: 6 aros o marcas por carril, 2 conos.",
+ "montaje": "Dos carriles de 12 m, cada uno con 6 aros o marcas a 0,5 m y a 6 m un cono de sprint. Filas de 3–6; sale uno al pasar el anterior el 3.er aro.",
+ "juego": "Fase 1: un pie en cada aro. Fase 2: dos pies dentro, lateral. Fase 3: pies juntos en cada aro. Tras el último aro, sprint de 6 m al cono y vuelta trotando.",
+ "punto": "Vuelta limpia (sin pisar el borde de ningún aro) = 1 punto. Se suma en las 3 fases; gana el carril con más puntos.",
+ "consigna": "Pies rápidos y ligeros, sin pisar.",
+ "variantes": {
+  "facil": "Aros a 0,7 m y una sola fase de pies alternos.",
+  "dificil": "Aros a 0,4 m, cronómetro y el sprint de 6 m conduciendo un balón."
+ },
+ "adaptacion": "Benjamín (8–9): 4 aros, 1 pie por aro. Alevín (10–11): 6 aros y 3 fases. Infantil (12–13): aros a 0,4 m y sprint de 8 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD DE PIES",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-de-pies-2/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años (benjamín, alevín, infantil)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   12,
+   6
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -2.5,
+   "ymax": 8.5
+  },
+  "discs": [
+   [
+    1.5,
+    1.5
+   ],
+   [
+    2.5,
+    1.5
+   ],
+   [
+    3.5,
+    1.5
+   ],
+   [
+    4.5,
+    1.5
+   ],
+   [
+    5.5,
+    1.5
+   ],
+   [
+    6.5,
+    1.5
+   ],
+   [
+    1.5,
+    4.5
+   ],
+   [
+    2.5,
+    4.5
+   ],
+   [
+    3.5,
+    4.5
+   ],
+   [
+    4.5,
+    4.5
+   ],
+   [
+    5.5,
+    4.5
+   ],
+   [
+    6.5,
+    4.5
+   ]
+  ],
+  "cones": [
+   [
+    11,
+    1.5
+   ],
+   [
+    11,
+    4.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 4.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.4,
+     1.5
+    ],
+    "b": [
+     7.2,
+     1.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     7.8,
+     1.5
+    ],
+    "b": [
+     10.4,
+     1.5
+    ],
+    "k": "run",
+    "n": 2,
+    "side": 1,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     0.4,
+     4.5
+    ],
+    "b": [
+     7.2,
+     4.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    4,
+    -0.9,
+    "AROS",
+    "middle"
+   ],
+   [
+    11,
+    -0.9,
+    "CONO",
+    "middle"
+   ]
+  ]
+ }
+}

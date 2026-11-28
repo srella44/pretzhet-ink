@@ -1,0 +1,206 @@
+{
+ "id": "FB-143",
+ "bloque": "Rondos",
+ "titulo": "Doble rondo 4v1",
+ "formato": "2 rondos 4v1",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (5 + 5)",
+ "espacio": "18 × 8 m",
+ "duracion": "12 min",
+ "series": "4 × 2 min con 30″ de pausa; cambiar los defensores cada serie.",
+ "objetivo": "Mantener la posesión a 1–2 toques en dos rondos a la vez, con competición entre grupos. Cómo explicarlo: «ángulo de pase y primer toque hacia el hueco». Errores típicos: pasar al defensor, quedarse parado y recibir de espaldas. Qué observar: triángulos de apoyo, cuerpo orientado y comunicación entre atacantes.",
+ "montaje": "Dos cuadrados de 8 × 8 m juntos, con 2 m de separación. En cada uno, 4 atacantes en las esquinas, 1 defensor en el centro y 1 balón.",
+ "juego": "Cada grupo de 4 pasa a 1–2 toques y el defensor intenta robar. Si roba o el balón sale, el que falló pasa al centro. Nadie sale del cuadrado.",
+ "punto": "1 punto cada 8 pases seguidos; si se pierde, la cuenta vuelve a 0. Gana el cuadrado con más puntos en 2 min.",
+ "consigna": "Pasa y muévete: cada pase con un porqué.",
+ "variantes": {
+  "facil": "Cuadrados de 9 × 9 m y pase libre de 3 toques.",
+  "dificil": "Cuadrados de 7 × 7 m, 1 toque y el defensor del grupo ganador cambia de cuadrado."
+ },
+ "adaptacion": "Alevín (10–11): 9 × 9 m y 2–3 toques. Infantil–cadete (12–15): 7–8 m, 1 toque y pierna menos hábil.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DOBLE RONDO 4X1",
+  "ref": "https://toplidercoach.com/futbol-base/doble-rondo-4x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   18,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 20,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "lines": [
+   [
+    [
+     9,
+     0
+    ],
+    [
+     9,
+     8
+    ],
+    "6 5"
+   ]
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    18,
+    0
+   ],
+   [
+    18,
+    8
+   ],
+   [
+    9,
+    0
+   ],
+   [
+    9,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7.8,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7.8,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.5,
+    "y": 4,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.2,
+    "y": 1,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.2,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16.8,
+    "y": 1,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16.8,
+    "y": 7,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 13.5,
+    "y": 4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     1
+    ],
+    "b": [
+     7,
+     1
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     7.8,
+     1.8
+    ],
+    "b": [
+     7.8,
+     6.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     11,
+     1
+    ],
+    "b": [
+     16,
+     1
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   }
+  ],
+  "labels": [
+   [
+    4.5,
+    -0.9,
+    "RONDO 1",
+    "middle"
+   ],
+   [
+    13.5,
+    -0.9,
+    "RONDO 2",
+    "middle"
+   ]
+  ]
+ }
+}

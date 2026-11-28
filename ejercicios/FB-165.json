@@ -1,0 +1,165 @@
+{
+ "id": "FB-165",
+ "bloque": "Finalización",
+ "titulo": "Pasalíneas y gol",
+ "formato": "Pase entre líneas y remate",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug.",
+ "espacio": "30 × 24 m",
+ "duracion": "12 min",
+ "series": "4 secuencias por grupo con 30″ de pausa; rotar roles y repetir.",
+ "objetivo": "Superar una línea defensiva con un pase entre dos defensores y rematar con rapidez. Cómo explicarlo: «ve el hueco, pasa raso y entra». Errores típicos: pase lento, recibir de espaldas y rematar sin mirar la portería. Qué observar: orientación del cuerpo, tiempo del pase y primer toque hacia la portería.",
+ "montaje": "Portería de 6 m con portero. Línea de 3 conos a 14 m de ella, con 2 defensores pasivos entre ellos. Pivote con balones a 22 m; interior tras la línea; delantero y extremo al lado.",
+ "juego": "El pivote pasa raso entre los defensores al interior, que controla de cara y toca de primera a un compañero en carrera; este remata. Los defensores solo estorban.",
+ "punto": "Gol = 1 punto. Pase que supera la línea = 1 más. Si lo corta el defensor, 0. Gana el grupo con más puntos en 4 secuencias.",
+ "consigna": "Ve el hueco, pasa raso y entra.",
+ "variantes": {
+  "facil": "Defensores sin moverse y 3 conos separados 4 m.",
+  "dificil": "Defensores activos y remate a un toque con límite de 6 s."
+ },
+ "adaptacion": "Infantil (12–13): 4 m de hueco y defensores pasivos. Cadete (14–15): 3 m de hueco y defensores activos tras el 1.er pase.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASALÍNEAS Y GOL",
+  "ref": "https://toplidercoach.com/futbol-base/pasalineas-y-gol/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (12–15 años (infantil, cadete)). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 26,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "porterias": [
+   {
+    "x": 12,
+    "y": 0,
+    "lado": "T",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "cones": [
+   [
+    4,
+    10
+   ],
+   [
+    12,
+    10
+   ],
+   [
+    20,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 12,
+    "y": 18,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "D",
+    "x": 16,
+    "y": 10,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 6.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 19,
+    "y": 8.5,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 7,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     12,
+     17
+    ],
+    "b": [
+     12,
+     7.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     12.8,
+     5.8
+    ],
+    "b": [
+     17.4,
+     4.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     19,
+     7.5
+    ],
+    "b": [
+     16,
+     3.2
+    ],
+    "k": "run",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    12,
+    20.9,
+    "PIVOTE",
+    "middle"
+   ],
+   [
+    -0.4,
+    10.4,
+    "LÍNEA",
+    "end"
+   ]
+  ]
+ }
+}
