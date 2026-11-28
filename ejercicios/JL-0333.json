@@ -1,0 +1,139 @@
+{
+ "id": "JL-0333",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "4v4+2 numerados",
+ "formato": "4v4+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "10 jug.",
+ "espacio": "25 × 25 m",
+ "duracion": "5 × 2 min",
+ "series": "5 series de 2 min; cada 1 min cambian los 2 comodines (propuesta).",
+ "objetivo": "Regatear al rival directo antes de pasar, con comodines de apoyo. Cómo explicarlo: tu rival es el del mismo número. Errores típicos: pasar sin regatear, fijarse solo en el balón, olvidar al comodín. Observar: el duelo con el número rival y el uso del comodín para cambiar el juego.",
+ "montaje": "Campo de 25 × 25 m. Dos equipos de 4, numerados del 1 al 4 (cada uno marca a su mismo número), y 2 comodines con el equipo que tiene el balón.",
+ "juego": "Juegan 4v4. El poseedor debe regatear a su rival directo (mismo número) antes de pasar. Los comodines dan apoyo.",
+ "punto": "1 punto por regate a su número seguido de pase. Si roban, se invierte. Cada 1 min cambian los comodines; 5 series de 2 min.",
+ "consigna": "Regatea a tu número y luego pasa.",
+ "variantes": {
+  "facil": "Comodines que pueden pasar sin límite.",
+  "dificil": "Un toque para los comodines y 3 s por duelo."
+ },
+ "adaptacion": "Benjamín: 3v3+2 en 20 × 20 m. Cadete: regate solo por la derecha o por la izquierda (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 2 | entrada 333",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 78"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4 + 2 comodines que van con el jugador poseedor del balón (cada 1 min cambiar a los comodines), 25 × 25 m, jugadores numerados del 1 al 4, 5 × 2 min, el equipo con balón debe regatear a su adversario directo antes de poder pasar. (propuesta): puntuación, rotación, variantes y adaptación; en el dibujo no se muestran los números. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   25,
+   25
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 26.8,
+   "ymin": -1.8,
+   "ymax": 26.8
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 18,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 17,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 17,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 13,
+    "y": 21.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     8
+    ],
+    "b": [
+     13,
+     12.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     12.5
+    ],
+    "b": [
+     17,
+     19
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

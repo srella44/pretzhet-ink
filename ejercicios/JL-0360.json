@@ -1,0 +1,85 @@
+{
+ "id": "JL-0360",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 portería neutral",
+ "formato": "1v1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (5 parejas)",
+ "espacio": "20 × 20 m",
+ "duracion": "6 × 1 min",
+ "series": "6 series de 1 min; cada serie cambian los papeles de la pareja (propuesta).",
+ "objetivo": "Regatear y cruzar una única puerta que defiende y ataca cada jugador. Cómo explicarlo: la puerta es de los dos; quien llega antes con el balón, puntúa. Errores típicos: ir directo sin cambiar de ritmo, perder el balón al entrar. Observar: el cambio de ritmo y la protección del balón.",
+ "montaje": "Campo de 20 × 20 m con una portería neutral de 5 m en el centro, hecha con 2 conos. Una pareja por campo. Se juega por los dos lados de la portería.",
+ "juego": "Sale uno con balón, regatea a su rival y cruza conduciendo la portería, por cualquiera de sus dos lados. Si el rival roba, ataca él en sentido contrario.",
+ "punto": "1 punto por cada cruce conduciendo; luego ataca el rival. Gana quien más sume.",
+ "consigna": "Regatea y cruza la puerta del centro.",
+ "variantes": {
+  "facil": "Portería de 6 m y defensor que empieza a 3 m del balón.",
+  "dificil": "Portería de 3 m y 5 s por intento."
+ },
+ "adaptacion": "Prebenjamín–benjamín: campo de 15 × 15 m. Cadete: se puede cruzar solo en un toque de salida.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1:1 | entrada 360",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 85"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 1:1 (5 parejas), 20 × 20 m, una portería neutral de 5 m, 6 × 1 min, punto al regatear y atravesar conduciendo la portería neutral, y cambia la posesión. (propuesta): colocación central, relevo de parejas, variantes y adaptación; la misma página tiene otra versión con 4 porterías neutrales de 2 m. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.8,
+   "ymax": 21.8
+  },
+  "cones": [
+   [
+    10,
+    7.5
+   ],
+   [
+    10,
+    12.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.3,
+     12.6
+    ],
+    "b": [
+     9.6,
+     9
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   }
+  ]
+ }
+}

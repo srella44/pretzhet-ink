@@ -1,0 +1,133 @@
+{
+ "id": "JL-0358",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 derribar pitotes",
+ "formato": "1v1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (5 parejas)",
+ "espacio": "20 × 15 m",
+ "duracion": "6 × 1 min",
+ "series": "6 series de 1 min; cada serie cambian los papeles de la pareja (propuesta).",
+ "objetivo": "Regatear y tirar con precisión a un blanco pequeño. Cómo explicarlo: hay 4 blancos y solo uno lo defiendes bien. Errores típicos: tirar sin superar al rival, tirar muy lejos, golpear flojo. Observar: la elección del blanco y la técnica de tiro.",
+ "montaje": "Campo de 20 × 15 m. En cada línea de fondo, 4 pitotes (conos altos) repartidos a lo largo. Cada jugador defiende los 4 de su fondo y ataca los 4 rivales. Parejas de 1v1.",
+ "juego": "Sale uno con balón, regatea a su rival y dispara para derribar uno de los pitotes que defiende el otro. Si el balón no derriba ninguno, el rival recupera y ataca.",
+ "punto": "1 punto por pitote derribado; luego ataca el rival. Se reponen tras cada punto.",
+ "consigna": "Regatea y apunta a un pitote libre.",
+ "variantes": {
+  "facil": "Distancia de tiro libre y 6 pitotes por fondo.",
+  "dificil": "Solo vale tirar desde dentro de los últimos 6 m."
+ },
+ "adaptacion": "Prebenjamín–benjamín: campo de 15 × 12 m y sin tiempo. Cadete: un toque de control como máximo antes de regatear.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1:1 | entrada 358",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 85"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 1:1 (5 parejas), 20 × 15 m, 8 pitotes en las líneas de fondo (4 por línea; cada jugador defiende 4), 6 × 1 min, punto al regatear y derribar un pitote del adversario con tiro, y cambia la posesión. (propuesta): reposición de pitotes, distancia de tiro, variantes y adaptación; los pitotes se dibujan como conos. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.8,
+   "ymax": 16.8
+  },
+  "cones": [
+   [
+    0.4,
+    2.5
+   ],
+   [
+    0.4,
+    5.5
+   ],
+   [
+    0.4,
+    9.5
+   ],
+   [
+    0.4,
+    12.5
+   ],
+   [
+    19.6,
+    2.5
+   ],
+   [
+    19.6,
+    5.5
+   ],
+   [
+    19.6,
+    9.5
+   ],
+   [
+    19.6,
+    12.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 8.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.8,
+     9.7
+    ],
+    "b": [
+     13,
+     9.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     9.5
+    ],
+    "b": [
+     19.4,
+     5.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    19.5,
+    -0.9,
+    "PITOTES",
+    "end"
+   ]
+  ]
+ }
+}

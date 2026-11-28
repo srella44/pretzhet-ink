@@ -1,0 +1,205 @@
+{
+ "id": "JL-0263",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "8v8 dos zonas laterales",
+ "formato": "8v8",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "8 min",
+ "series": "1 serie de 8 min; después otra cambiando quién ocupa las zonas laterales (propuesta).",
+ "objetivo": "Recibir en banda, controlar y salir conduciendo con ritmo, y relevar el puesto tras el pase. Cómo explicarlo: pasa a la banda y corre a ocupar su sitio. Errores típicos: pasar y quedarse parado, controlar de espaldas al juego, salir despacio. Observar: que el relevo sea inmediato y que el receptor mire antes de recibir.",
+ "montaje": "Campo de 40 × 40 m con una zona lateral de 5 × 40 m a cada lado. En cada zona, 1 jugador de cada equipo (propuesta); los otros 6 de cada equipo, en el centro.",
+ "juego": "Se pasa a un compañero de zona lateral; controla y sale conduciendo al centro. Quien pasó ocupa su puesto.",
+ "punto": "1 punto cada vez que el de la zona recibe y sale conduciendo. Si pierden el balón, cambia la posesión.",
+ "consigna": "Pasa a la banda y toma su puesto.",
+ "variantes": {
+  "facil": "Zonas laterales de 7 × 40 m y sin oposición dentro de las zonas.",
+  "dificil": "Salir de la zona en un toque y rival que presiona al jugador de banda."
+ },
+ "adaptacion": "Cadete y juvenil: el jugador de banda debe salir en un toque. Con menos edad, 6v6 en 30 × 30 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 8:8 | entrada 263",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 62"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 8:8, zonas laterales de 5 × 40 m en el campo de 40 × 40 m, cada equipo con dos jugadores en las zonas, 8 min, punto cuando recibe el jugador de la zona y sale conduciendo, ocupando la zona quien le pasó. (propuesta): 1 jugador de cada equipo por zona, series y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -1.8,
+   "ymax": 41.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     40
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     35,
+     0,
+     40,
+     40
+    ]
+   }
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    40
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    40
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 26,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37.5,
+    "y": 14,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 37.5,
+    "y": 28,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 25,
+    "y": 31,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 36,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14,
+     7
+    ],
+    "b": [
+     3.2,
+     11.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2.6,
+     13
+    ],
+    "b": [
+     14,
+     19
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

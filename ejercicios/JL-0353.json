@@ -1,0 +1,109 @@
+{
+ "id": "JL-0353",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 cuatro porterías laterales",
+ "formato": "1v1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (5 parejas)",
+ "espacio": "20 × 15 m",
+ "duracion": "6 × 1 min",
+ "series": "6 series de 1 min; cada serie cambian los papeles de la pareja (propuesta).",
+ "objetivo": "Regatear y cambiar de dirección para cruzar una puerta en la banda. Cómo explicarlo: el rival se coloca entre tú y la puerta; cambia de lado. Errores típicos: ir en línea recta, conducir pegado al rival. Observar: el cambio de dirección y el cuerpo protegiendo el balón.",
+ "montaje": "Campo de 20 × 15 m con 2 porterías de 2 m en cada banda larga. Quien juega arriba defiende las 2 de arriba y ataca las 2 de abajo. Una pareja por campo.",
+ "juego": "Sale uno con balón del centro, regatea a su rival y cruza conduciendo una de las 2 porterías de la banda contraria. El rival sale del balón: ahora ataca él.",
+ "punto": "1 punto por cada cruce conduciendo; tras el punto, cambia la posesión. Si roban, se invierten. Gana quien más sume.",
+ "consigna": "Cambia de dirección y cruza la puerta.",
+ "variantes": {
+  "facil": "Porterías de 3 m en las bandas.",
+  "dificil": "Un solo toque de control antes de regatear."
+ },
+ "adaptacion": "Prebenjamín–benjamín: campo de 15 × 12 m y sin tiempo. Cadete: un toque de control como máximo antes de regatear.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1:1 | entrada 353",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 84"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 1:1 (5 parejas), 20 × 15 m, 4 porterías laterales de 2 m (cada jugador ataca y defiende 2), 6 × 1 min, punto al regatear y atravesar conduciendo una portería defendida por el adversario. (propuesta): porterías en las bandas largas, quién defiende cuáles, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.8,
+   "ymax": 16.8
+  },
+  "cones": [
+   [
+    4.0,
+    0
+   ],
+   [
+    6.0,
+    0
+   ],
+   [
+    14.0,
+    0
+   ],
+   [
+    16.0,
+    0
+   ],
+   [
+    4.0,
+    15
+   ],
+   [
+    6.0,
+    15
+   ],
+   [
+    14.0,
+    15
+   ],
+   [
+    16.0,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 7.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.8,
+     8.7
+    ],
+    "b": [
+     14.4,
+     13.8
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   }
+  ]
+ }
+}

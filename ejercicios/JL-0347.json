@@ -1,0 +1,117 @@
+{
+ "id": "JL-0347",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1 dos porterías triangulares",
+ "formato": "1v1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug. (5 parejas)",
+ "espacio": "20 × 15 m",
+ "duracion": "6 × 1 min",
+ "series": "6 series de 1 min; cada serie cambian los papeles de la pareja (propuesta).",
+ "objetivo": "Regatear y definir ante una portería que se puede atacar desde varios ángulos. Cómo explicarlo: el triángulo se puede rodear. Errores típicos: tirar sin superar al rival, tirar siempre de frente. Observar: el ángulo elegido y la fuerza del tiro.",
+ "montaje": "Campo de 20 × 15 m con una portería triangular de 2 m por lado (3 conos) en el centro de cada fondo. Una pareja por campo.",
+ "juego": "Sale uno con balón del centro, regatea a su rival y dispara a la portería triangular contraria. Vale que el balón entre por cualquiera de los 3 lados. Cada uno defiende la suya.",
+ "punto": "1 punto por cada gol por cualquiera de los 3 lados; tras el punto, el rival ataca. Si roban, se invierten. Gana quien más sume.",
+ "consigna": "Regatea y tira por el lado libre.",
+ "variantes": {
+  "facil": "Triángulo de 3 m de lado y rival sin tapar la entrada.",
+  "dificil": "Tiro solo con la pierna menos hábil."
+ },
+ "adaptacion": "Prebenjamín–benjamín: campo de 15 × 12 m y sin tiempo. Cadete: un toque de control como máximo antes de regatear.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1:1 | entrada 347",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 82"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 1:1 (5 parejas), 20 × 15 m, 2 porterías triangulares de 2 m por lado, 6 × 1 min, punto al regatear y tirar a la portería triangular por cualquiera de sus lados, y cambia la posesión. (propuesta): colocación, quién defiende cada portería, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.8,
+   "ymax": 16.8
+  },
+  "cones": [
+   [
+    0,
+    6.0
+   ],
+   [
+    0,
+    9.0
+   ],
+   [
+    2.61,
+    7.5
+   ],
+   [
+    20,
+    6.0
+   ],
+   [
+    20,
+    9.0
+   ],
+   [
+    17.39,
+    7.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9,
+    "y": 8.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.8,
+     9.7
+    ],
+    "b": [
+     14,
+     10.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     14,
+     10.5
+    ],
+    "b": [
+     19,
+     8
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 8,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

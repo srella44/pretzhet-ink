@@ -1,0 +1,178 @@
+{
+ "id": "JL-0266",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "5v5 cruzar la línea de fondo",
+ "formato": "5v5",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "10 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "8 min",
+ "series": "1 serie de 8 min (o 2 × 4 min con cambio de lado) (propuesta).",
+ "objetivo": "Atacar un ancho de campo conduciendo y regateando en pequeño espacio. Cómo explicarlo: no hay portería, cuenta cruzar la línea conduciendo. Errores típicos: tirar el balón fuera de la línea, no pedir ayuda al compañero, conducir con la cabeza baja. Observar: el apoyo al que conduce y el repliegue de los defensores.",
+ "montaje": "Campo de 35 × 25 m, sin porteros. Cada equipo (5 jugadores) defiende la línea de fondo de 25 m a su espalda y ataca la contraria.",
+ "juego": "Juegan 5v5. Se avanza pasando y regateando; para marcar, un jugador cruza conduciendo la línea rival. Si sale el balón, saca el otro.",
+ "punto": "1 punto por cada cruce conduciendo, y se sigue con la posesión. Si roban, ataca el otro. Gana quien más sume.",
+ "consigna": "Conduce y cruza la línea con el balón.",
+ "variantes": {
+  "facil": "Línea de fondo de 25 m y rivales sin poder robar los primeros 2 segundos.",
+  "dificil": "Máximo 3 toques por jugador y un cruce solo cuenta si el que cruza ha regateado a alguien."
+ },
+ "adaptacion": "Prebenjamín–benjamín: 4v4 en 25 × 20 m. Cadete: 6v6 en 40 × 30 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 | entrada 266",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 63"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 5:5, 35 × 25 m, 8 min, cada equipo ataca y defiende el ancho de una línea de fondo, 1 punto por cruzarla conduciendo y el equipo sigue con la posesión. (propuesta): saques, series, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 36.8,
+   "ymin": -1.8,
+   "ymax": 26.8
+  },
+  "tag": "35 × 25 m",
+  "lines": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     25
+    ],
+    "6 4"
+   ],
+   [
+    [
+     35,
+     0
+    ],
+    [
+     35,
+     25
+    ],
+    "6 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 24,
+    "y": 13,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 22,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 29,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 32,
+    "y": 13,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     5
+    ],
+    "b": [
+     24,
+     8.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     24,
+     8.5
+    ],
+    "b": [
+     34.4,
+     7
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    0.6,
+    -0.9,
+    "LÍNEA PROPIA",
+    "start"
+   ],
+   [
+    34.4,
+    -0.9,
+    "LÍNEA RIVAL",
+    "end"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "JL-0383",
+ "bloque": "Técnica y duelos",
+ "titulo": "1v1+1 cuatro porterías laterales",
+ "formato": "1v1+1",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "9 jug. (3 grupos de 3)",
+ "espacio": "20 × 15 m",
+ "duracion": "6 × 1 min",
+ "series": "6 series de 1 min; cada serie cambia el comodín (propuesta).",
+ "objetivo": "Regatear y cruzar una puerta lateral con ventaja del rival (1v2). Cómo explicarlo: hay dos puertas, el comodín solo tapa una. Errores típicos: salir por la puerta tapada, conducir pegado a la banda sin ángulo. Observar: la elección de la puerta y el cambio de ritmo.",
+ "montaje": "Campo de 20 × 15 m con 2 porterías de 2 m en cada banda larga: el atacante ataca las 2 de arriba y el defensor las 2 de abajo. Grupo de 3; el tercero es comodín del defensor.",
+ "juego": "Juegan 1v1, pero el defensor tiene un comodín (1v2). El atacante regatea a los dos y puntúa; ellos roban o cierran la puerta.",
+ "punto": "1 punto por cruzar conduciendo una portería lateral rival; luego cambia la posesión. Cada 1 min rotan los 3.",
+ "consigna": "Regatea y sal por el lado libre.",
+ "variantes": {
+  "facil": "Porterías de 3 m y comodín que no puede robar.",
+  "dificil": "Comodín con robo libre y 6 s por intento."
+ },
+ "adaptacion": "Benjamín: sin comodín defensivo. Cadete: el comodín solo puede tocar el balón con un pie (propuesta).",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 1:1 +1 | entrada 383",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 90"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 1:1 + 1 comodín que va con el jugador que defiende (3 grupos, cada 1 min), 4 porterías laterales de 2 m, cada jugador ataca y defiende 2, 6 × 1 min, punto al regatear y atravesar conduciendo. (propuesta): 20 × 15 m, porterías en las bandas largas, rotación, variantes y adaptación; el texto de la página mezcla variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 21.8,
+   "ymin": -1.8,
+   "ymax": 16.8
+  },
+  "cones": [
+   [
+    4.0,
+    0
+   ],
+   [
+    6.0,
+    0
+   ],
+   [
+    14.0,
+    0
+   ],
+   [
+    16.0,
+    0
+   ],
+   [
+    4.0,
+    15
+   ],
+   [
+    6.0,
+    15
+   ],
+   [
+    14.0,
+    15
+   ],
+   [
+    16.0,
+    15
+   ]
+  ],
+  "zones": [],
+  "players": [
+   {
+    "r": "A",
+    "x": 5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5,
+     8
+    ],
+    "b": [
+     14.6,
+     14.2
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   }
+  ],
+  "labels": [
+   [
+    13.7,
+    3.2,
+    "COMODÍN",
+    "start"
+   ]
+  ]
+ }
+}

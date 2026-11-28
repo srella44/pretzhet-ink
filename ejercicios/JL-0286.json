@@ -1,0 +1,243 @@
+{
+ "id": "JL-0286",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "5v5+2 cuadrados a cruzar",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 25 m",
+ "duracion": "5 × 2 min",
+ "series": "5 series de 2 min; los 2 comodines defensivos cambian cada serie (propuesta).",
+ "objetivo": "Posesión con objetivo claro: regatear y cruzar un cuadrado conduciendo frente a una defensa reforzada. Cómo explicarlo: dos cuadrados que defender y dos que atacar. Errores típicos: atacar siempre el mismo cuadrado, conducir sin cambiar de ritmo, olvidar el rol del comodín. Observar: cambios de orientación para atacar el cuadrado libre.",
+ "montaje": "Campo de 35 × 25 m con 4 cuadrados de 5 × 5 m, 2 por fondo. Cada equipo (5) defiende los 2 de su fondo y ataca los 2 rivales; más 2 comodines.",
+ "juego": "Juegan 5v5. Los 2 comodines van siempre con el equipo que defiende y ayudan a robar desde dentro. El equipo con balón avanza hacia los cuadrados rivales.",
+ "punto": "1 punto por cruzar conduciendo un cuadrado rival; luego cambia la posesión. Cada 2 min cambian los comodines.",
+ "consigna": "Cambia de cuadrado y cruza conduciendo.",
+ "variantes": {
+  "facil": "Un solo comodín defensivo y cuadrados de 6 × 6 m.",
+  "dificil": "Comodines con la defensa y máximo 3 toques para cruzar."
+ },
+ "adaptacion": "Benjamín: 4v4+2 en 30 × 20 m. Cadete: cuadrados de 4 × 4 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 286",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 67"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 5:5 + 2 comodines que van con el equipo que defiende y apoyan desde el interior, 35 × 25 m, 4 cuadrados de 5 × 5 m, 5 × 2 min, punto al cruzar conduciendo un cuadrado defendido por el rival, y se cambia la posesión. (propuesta): colocación en las esquinas de cada fondo, series y adaptación; hay en la misma página una variante con porterías pequeñas. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   25
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 36.8,
+   "ymin": -1.8,
+   "ymax": 26.8
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    0,
+    5
+   ],
+   [
+    0,
+    20
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    5,
+    25
+   ],
+   [
+    0,
+    25
+   ],
+   [
+    30,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    5
+   ],
+   [
+    30,
+    5
+   ],
+   [
+    30,
+    20
+   ],
+   [
+    35,
+    20
+   ],
+   [
+    35,
+    25
+   ],
+   [
+    30,
+    25
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     20,
+     5,
+     25
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     0,
+     35,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     30,
+     20,
+     35,
+     25
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 9,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 19,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 30,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 12.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 26,
+    "y": 22,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     5
+    ],
+    "b": [
+     23.5,
+     8
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     23.5,
+     8
+    ],
+    "b": [
+     31,
+     3
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

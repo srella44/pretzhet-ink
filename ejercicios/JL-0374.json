@@ -1,0 +1,149 @@
+{
+ "id": "JL-0374",
+ "bloque": "Partidos y situaciones reales",
+ "titulo": "4v4 zonas de regate",
+ "formato": "4v4",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "8 jug.",
+ "espacio": "30 × 30 m",
+ "duracion": "2 × 4 min",
+ "series": "2 series de 4 min con 1 min de pausa (propuesta).",
+ "objetivo": "Regatear en zonas concretas y jugar libre en el centro. Cómo explicarlo: en las bandas no puedes pasar sin regatear; en el centro, sí. Errores típicos: pasar rápido en la banda, no usar el centro para descansar el juego. Observar: el cambio de ritmo al entrar en banda.",
+ "montaje": "Campo de 30 × 30 m con 2 zonas laterales de 7,5 × 30 m y una central de 15 × 30 m. Dos equipos de 4; todos juegan por todo el campo.",
+ "juego": "Juegan 4v4. En las zonas laterales, el poseedor debe regatear a un rival antes de pasar. En la central se juega libre.",
+ "punto": "1 punto cada vez que un jugador regatea en zona lateral y pasa. Si roban, cambia la posesión.",
+ "consigna": "En la banda, regatea antes de pasar.",
+ "variantes": {
+  "facil": "Zonas laterales de 5 × 30 m y regate sin tiempo.",
+  "dificil": "Zonas laterales de 10 × 30 m y 3 s para regatear."
+ },
+ "adaptacion": "Benjamín: 3v3 en 25 × 25 m. Cadete: dos toques como máximo en la zona central.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 | entrada 374",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 87"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 4:4, 30 × 30 m, 2 zonas marcadas de 7,5 × 30 m donde el poseedor tiene que regatear a un adversario antes de pasar, y zona central libre, 2 × 4 min. (propuesta): puntuación, pausa, variantes y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   30,
+   30
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 31.8,
+   "ymin": -1.8,
+   "ymax": 31.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     7.5,
+     30
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     22.5,
+     0,
+     30,
+     30
+    ]
+   }
+  ],
+  "cones": [
+   [
+    7.5,
+    0
+   ],
+   [
+    7.5,
+    30
+   ],
+   [
+    22.5,
+    0
+   ],
+   [
+    22.5,
+    30
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 24,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 26,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 22,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     11
+    ],
+    "b": [
+     3.6,
+     22.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   }
+  ]
+ }
+}

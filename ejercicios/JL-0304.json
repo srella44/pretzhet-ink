@@ -1,0 +1,205 @@
+{
+ "id": "JL-0304",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "7v7+2 zonas laterales",
+ "formato": "7v7+2",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "16 jug.",
+ "espacio": "40 × 40 m",
+ "duracion": "8 × 2 min",
+ "series": "8 series de 2 min; los 2 comodines cambian en cada serie (propuesta).",
+ "objetivo": "Salir conduciendo desde la banda con dos comodines defensivos que dificultan la presión. Cómo explicarlo: los comodines ayudan a quien defiende. Errores típicos: pasar a la banda sin mirar, relevo lento, comodines parados. Observar: tiempos de pase a la banda y relevo del puesto.",
+ "montaje": "Campo de 40 × 40 m con 2 zonas laterales de 5 × 40 m, con 1 jugador de cada equipo en cada una (propuesta). Los demás, 5 por equipo más 2 comodines, en el centro.",
+ "juego": "Juegan 7v7. Los 2 comodines van con el equipo que defiende. Se pasa a la banda; el receptor sale conduciendo y quien pasó ocupa su zona.",
+ "punto": "1 punto cada vez que el de banda recibe y sale conduciendo; luego cambia la posesión. Cada 2 min cambian los comodines.",
+ "consigna": "Pasa a la banda y ocupa su sitio.",
+ "variantes": {
+  "facil": "Un solo comodín defensivo y zonas laterales de 7 × 40 m.",
+  "dificil": "Relevo en un toque y comodines que pueden entrar en las zonas."
+ },
+ "adaptacion": "Infantil: 6v6+2 en 35 × 35 m. Juvenil: salida obligatoria en un toque.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 7:7 + 2 | entrada 304",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 71"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto, que viene desordenado): 7:7 + 2 comodines que van con el equipo que defiende, 40 × 40 m, 2 zonas laterales de 5 × 40 m con dos jugadores, 8 × 2 min, cada 2 min cambian los comodines, punto cuando el jugador de la zona recibe y sale conduciendo, ocupando la zona quien le pasó. (propuesta): un jugador de cada equipo por zona, jugadores 16 (la base lo propone) y adaptación. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   40
+  ],
+  "extent": {
+   "xmin": -1.8,
+   "xmax": 41.8,
+   "ymin": -1.8,
+   "ymax": 41.8
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     40
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     35,
+     0,
+     40,
+     40
+    ]
+   }
+  ],
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    40
+   ],
+   [
+    0,
+    40
+   ],
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    40
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    40
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 25,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 37.5,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 37.5,
+    "y": 29,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 17,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 30,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 21,
+    "y": 27,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 17,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 29,
+    "y": 30,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     13,
+     6
+    ],
+    "b": [
+     3.2,
+     10
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2.6,
+     12.2
+    ],
+    "b": [
+     14,
+     17.5
+    ],
+    "k": "cond",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}
