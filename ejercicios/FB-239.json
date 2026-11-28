@@ -1,0 +1,129 @@
+{
+ "id": "FB-239",
+ "bloque": "Técnica y duelos",
+ "titulo": "Arrastre e interior",
+ "formato": "Con defensor pasivo",
+ "edad": "6–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "14 × 8 m",
+ "duracion": "10 min",
+ "series": "4 vueltas de 2 min con 30 s de pausa; cada jugador hace 3 pases de salida y cambia con el defensor.",
+ "objetivo": "Aprender a pisar el balón con la suela del pie izquierdo, llevarlo hacia dentro y salir con el interior del derecho. Cómo explicarlo: «arrastra con el izquierdo y el derecho se lleva el balón al otro lado». Errores típicos: arrastrar muy cerca del defensor, mirar el balón, cruzar el pie sin equilibrio. Qué observar: giro de cadera, distancia al defensor y velocidad de salida.",
+ "montaje": "Pasillo de 14 × 8 m con un defensor pasivo a 7 m de la salida y una puerta de 3 m (2 conos) detrás. Atacantes en fila con balón.",
+ "juego": "Conduce hasta 1,5 m del defensor (1), pisa el balón y lo arrastra a la izquierda con la suela (2) y sale con el interior derecho a la puerta (3). Luego cambian.",
+ "punto": "Cruzar la puerta controlando: 1 punto; chocar o perder el balón: 0. Gana quien más sume.",
+ "consigna": "Pisa, arrastra y sal con el pie contrario.",
+ "variantes": {
+  "facil": "Defensor sin moverse y puerta de 4 m; sin velocidad al principio.",
+  "dificil": "El defensor da 2 pasos y tapa la puerta; solo cuenta si el atacante sale a máxima velocidad."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin defensor, con un cono. Benjamín (8–9): defensor pasivo. Alevín e infantil (10–13): defensor activo a media velocidad.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "7-ARRASTRE DE IZQUIERDA, INTERIOR DERECHA",
+  "ref": "https://toplidercoach.com/futbol-base/7-arrastre-de-izquierda-interior-derecha/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El nombre numerado es de una serie de ejercicios de técnica individual; el gesto concreto se interpreta por el título.",
+ "diagrama": {
+  "field": [
+   14,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    12,
+    2.5
+   ],
+   [
+    12,
+    5.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 6.8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8.3,
+    "y": 4,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     3.8
+    ],
+    "b": [
+     6.2,
+     3.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     6.4,
+     3.8
+    ],
+    "b": [
+     6,
+     5.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     6.2,
+     5.9
+    ],
+    "b": [
+     11.4,
+     4.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    12,
+    1.1,
+    "PUERTA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

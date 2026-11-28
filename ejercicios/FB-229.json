@@ -1,0 +1,147 @@
+{
+ "id": "FB-229",
+ "bloque": "Técnica y duelos",
+ "titulo": "Regate en la ratonera",
+ "formato": "Regate 1v1",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "2–6 jug.",
+ "espacio": "16 × 10 m",
+ "duracion": "12 min",
+ "series": "4 vueltas de 2 min; cada defensor cambia tras 5 intentos de cada atacante y se descansa 30 s.",
+ "objetivo": "Practicar el regate en un espacio cerrado, con un solo defensor, y salir con velocidad. Cómo explicarlo: «llega con el balón cerca, engaña con el cuerpo y acelera». Errores típicos: regatear demasiado pronto o lejos del defensor, perder el balón al cambiar de ritmo, mirar el balón. Qué observar: distancia de la finta, cambio de ritmo y salida.",
+ "montaje": "Embudo de conos de 16 × 10 m: entrada de 6 m, cuello de 2,5 m y puerta final de 3 m. Un defensor en un cuadrado de 3 × 3 m junto al cuello. Atacantes en fila con balón.",
+ "juego": "El atacante conduce hasta el cuello, regatea al defensor (1-2) y cruza la puerta con el balón controlado. El defensor no sale de su cuadrado. Si roba, cambian.",
+ "punto": "Cruzar la puerta controlando: 1 punto al atacante; robo: 1 punto al defensor. Gana quien más sume.",
+ "consigna": "Acércate, engaña con el cuerpo y acelera.",
+ "variantes": {
+  "facil": "Defensor pasivo con las manos atrás, y cuello de 3,5 m.",
+  "dificil": "Dos defensores en cadena (uno tras otro) y solo se permite regatear con la pierna menos hábil."
+ },
+ "adaptacion": "Alevín (10–11): cuello de 3,5 m y un defensor. Infantil (12–13): cuello de 2,5 m. Cadete (14–15): doble defensor y 3 s de tiempo para cruzar.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "REGATE EN \"RATONERA",
+  "ref": "https://toplidercoach.com/futbol-base/regate-en-ratonera/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El nombre «ratonera» se interpreta como un embudo en el que el defensor espera.",
+ "diagrama": {
+  "field": [
+   16,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    3,
+    1.8
+   ],
+   [
+    3,
+    8.2
+   ],
+   [
+    9,
+    3.8
+   ],
+   [
+    9,
+    6.2
+   ],
+   [
+    14.5,
+    3.5
+   ],
+   [
+    14.5,
+    6.5
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     9,
+     3.8,
+     12,
+     6.2
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.6,
+    "y": 8.6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 11,
+    "y": 5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     4.8
+    ],
+    "b": [
+     7.5,
+     4.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     8.6,
+     5
+    ],
+    "b": [
+     13.8,
+     4.6
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    9,
+    1.7,
+    "CUELLO",
+    "middle"
+   ],
+   [
+    14.5,
+    2.1,
+    "SALIDA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

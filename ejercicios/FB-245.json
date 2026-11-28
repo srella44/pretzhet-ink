@@ -1,0 +1,153 @@
+{
+ "id": "FB-245",
+ "bloque": "Técnica y duelos",
+ "titulo": "Bicicletas continuas",
+ "formato": "Técnica en calles",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "18 × 10 m",
+ "duracion": "10 min",
+ "series": "4 vueltas por calle de 2 min con 30 s de pausa; se descansa caminando de vuelta.",
+ "objetivo": "Hacer la bicicleta (pasar un pie por encima del balón de un lado a otro) varias veces seguidas, con ritmo y control. Cómo explicarlo: «un pie por encima, otro por encima, y acelera con el exterior». Errores típicos: levantar mucho el pie, no mirar al frente, frenar el ritmo. Qué observar: rapidez de los pies, equilibrio y salida.",
+ "montaje": "Dos calles de 18 m con 4 conos (a 4, 8, 12 y 16 m). Un jugador con balón por calle en la salida; los demás esperan en fila a 2 m.",
+ "juego": "Conduce hasta el cono (1), hace 2 bicicletas seguidas con un pie y otro (2) y sale con el exterior hacia el siguiente (3). Al final vuelve trotando por fuera.",
+ "punto": "1 punto por cada cono con 2 bicicletas y salida limpias (máx. 4); –1 si el balón se escapa. Gana quien más sume.",
+ "consigna": "Bicicleta rápida y sal con el exterior.",
+ "variantes": {
+  "facil": "Conos a 5 m, una sola bicicleta por cono y sin prisa.",
+  "dificil": "Tres bicicletas por cono, a velocidad, con un defensor pasivo en el último cono."
+ },
+ "adaptacion": "Benjamín (8–9): una bicicleta por cono, a ritmo suave. Alevín (10–11): dos bicicletas. Infantil (12–13): tres bicicletas a velocidad.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "1-BICICLETAS CONTINUAS",
+  "ref": "https://toplidercoach.com/futbol-base/bicicletas-continuas/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El nombre numerado es de una serie de ejercicios de técnica individual; el gesto concreto se interpreta por el título.",
+ "diagrama": {
+  "field": [
+   18,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 20,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    4,
+    4
+   ],
+   [
+    8,
+    4
+   ],
+   [
+    12,
+    4
+   ],
+   [
+    16,
+    4
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    12,
+    8
+   ],
+   [
+    16,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     4
+    ],
+    "b": [
+     3.4,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 4,
+    "s1": 2,
+    "n": 1
+   },
+   {
+    "a": [
+     3.9,
+     3.1
+    ],
+    "b": [
+     5.2,
+     2.9
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     4.5,
+     3
+    ],
+    "b": [
+     7.6,
+     3
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    9,
+    0.2,
+    "CALLE 1",
+    "middle"
+   ],
+   [
+    9,
+    10.2,
+    "CALLE 2",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

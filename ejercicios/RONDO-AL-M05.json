@@ -1,0 +1,145 @@
+{
+ "id": "RONDO-AL-M05",
+ "bloque": "Calentamiento",
+ "titulo": "Duelos limpios",
+ "formato": "Duelo aéreo",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min; cada pareja disputa 3 balones y cede el cuadrado a la siguiente.",
+ "objetivo": "Disputar un balón hombro con hombro de forma limpia, sin empujar, y salir con él controlado. Cómo explicarlo: «apoya el cuerpo, mira el balón y sal con él pegado al pie». Errores típicos: empujar con las manos, esperar al balón parado, controlar mal al salir. Qué observar: contacto legal, anticipación y control al salir.",
+ "montaje": "Campo de 15 × 15 m con un cuadrado central de 5 × 5 m. Una pareja dentro, hombro con hombro; las demás esperan en fila fuera. El entrenador, con balones, a 4 m.",
+ "juego": "El entrenador lanza el balón al centro del cuadrado (1). Los dos se lo disputan sin manos y quien lo gana lo saca controlado (2). Entra la siguiente pareja.",
+ "punto": "1 punto a quien sale con el balón controlado; falta o balón perdido: 0. Gana quien más sume.",
+ "consigna": "Hombro con hombro, sin manos y sal controlado.",
+ "variantes": {
+  "facil": "Balón rodado despacio y el ganador solo debe parar el balón.",
+  "dificil": "Balón lanzado alto, bote y salida con un toque."
+ },
+ "adaptacion": "Alevín (10–11): lo indicado. Con 6 jugadores, 3 parejas y una sola rotación; con 12, dos cuadrados a la vez.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Duelos limpios (AL-M05)",
+  "ref": "RONDO Vol. 3 · Alevín · págs. 7, 12, 17, 22, 27, 50"
+ },
+ "completado": "Fuente (RONDO Alevín, AL-M05): cuadrado de 5 × 5, hombro con hombro, balón del míster, 1 punto, más fácil/difícil y 15 × 15 m. Posición del entrenador, series, nº de balones y rotación son (propuesta). Jugadores 6–12 ya venía como (propuesta).",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 17,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "cones": [
+   [
+    5,
+    5
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    10,
+    10
+   ],
+   [
+    5,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 5.9,
+    "y": 7.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9.1,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 3.3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 1.8,
+    "y": 6.9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13.2,
+    "y": 3.3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 13.2,
+    "y": 6.9,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 7.5,
+    "y": 13.6,
+    "f": -90,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     12.8
+    ],
+    "b": [
+     7.5,
+     8.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     5.7,
+     8.2
+    ],
+    "b": [
+     3.4,
+     11.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7.5,
+    3.9,
+    "5 × 5",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

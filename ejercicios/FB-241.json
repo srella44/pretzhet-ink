@@ -1,0 +1,159 @@
+{
+ "id": "FB-241",
+ "bloque": "Técnica y duelos",
+ "titulo": "Triple arrastre",
+ "formato": "Técnica en cuadrado",
+ "edad": "6–11 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "12 × 6 m",
+ "duracion": "10 min",
+ "series": "4 vueltas de 90 s con 30 s de pausa; en la 3.ª y la 4.ª vuelta, a más velocidad.",
+ "objetivo": "Hacer tres arrastres seguidos con la suela, cambiando de pie y de dirección, para tener el balón siempre pegado. Cómo explicarlo: «derecha, izquierda, derecha: pisa, arrastra y sal rápido». Errores típicos: levantar mucho la planta, arrastrar muy lejos y no reaccionar tras el tercero. Qué observar: contacto suave, equilibrio y salida explosiva.",
+ "montaje": "Cuadrado de 3 × 3 m con 4 conos y una calle de 9 m hasta la meta. Un jugador con balón por cuadrado; los demás, en fila a 2 m.",
+ "juego": "Entra y hace 3 arrastres con la suela: derecha (1), izquierda (2) y derecha (3). Sale a máxima velocidad hasta la meta (4) y vuelve trotando.",
+ "punto": "1 punto por arrastre con el balón dentro del cuadrado y +1 si llega a la meta controlando. Gana quien más sume.",
+ "consigna": "Suela, arrastra y cambia de pie.",
+ "variantes": {
+  "facil": "Solo dos arrastres y cuadrado de 4 × 4 m.",
+  "dificil": "Los tres arrastres con balón en movimiento, con un compañero que dice cuándo salir."
+ },
+ "adaptacion": "Prebenjamín (6–7): un solo arrastre. Benjamín (8–9): dos o tres arrastres lentos. Alevín (10–11): los tres a velocidad con las dos piernas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "5-TRIPLE ARRASTRE DE SUELA",
+  "ref": "https://toplidercoach.com/futbol-base/5-triple-arrastre-de-suela/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El nombre numerado es de una serie de ejercicios de técnica individual; el gesto concreto se interpreta por el título.",
+ "diagrama": {
+  "field": [
+   12,
+   6
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 14,
+   "ymin": -2,
+   "ymax": 8
+  },
+  "cones": [
+   [
+    2,
+    1.5
+   ],
+   [
+    5,
+    1.5
+   ],
+   [
+    2,
+    4.5
+   ],
+   [
+    5,
+    4.5
+   ]
+  ],
+  "lines": [
+   [
+    [
+     11,
+     0
+    ],
+    [
+     11,
+     6
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.8,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.9,
+     3.4
+    ],
+    "b": [
+     4.6,
+     4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     4.4,
+     3.8
+    ],
+    "b": [
+     2.6,
+     3.9
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     2.8,
+     3.6
+    ],
+    "b": [
+     4,
+     2.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 4,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     4.8,
+     2.8
+    ],
+    "b": [
+     10.4,
+     3
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    11,
+    -0.9,
+    "META",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

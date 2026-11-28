@@ -1,0 +1,139 @@
+{
+ "id": "FB-227",
+ "bloque": "Calentamiento",
+ "titulo": "Duelos de velocidad",
+ "formato": "Pilla por parejas",
+ "edad": "8–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "10 min",
+ "series": "10 salidas por pareja, descanso de 1 min cada 5 salidas; se cambian las parejas a la mitad.",
+ "objetivo": "Despertar la reacción y la salida explosiva de forma divertida antes de la sesión. Cómo explicarlo: «escucha el color y sal en cuanto lo oigas». Errores típicos: salir antes de la señal, girar por el lado equivocado, frenar a mitad del recorrido. Qué observar: giro del cuerpo, primer paso y respeto a la señal.",
+ "montaje": "Campo de 20 × 12 m con meta arriba y abajo a 6 m del centro. Parejas espalda con espalda en la línea central: uno «azul» (va arriba) y otro «rojo» (va abajo).",
+ "juego": "El entrenador dice un color: ese jugador corre a su meta y su pareja lo persigue y lo toca antes. Con «verde» nadie se mueve. Se vuelve al centro caminando.",
+ "punto": "Llegar sin ser tocado: 1 punto; tocar al que huye: 1; salir en falso: –1. Gana quien más sume.",
+ "consigna": "Escucha, gira y sal rápido.",
+ "variantes": {
+  "facil": "Meta a 4 m y el perseguidor sale 1 segundo después de la señal.",
+  "dificil": "Los dos salen de rodillas, de espaldas o tumbados; la señal se da con una palabra inventada."
+ },
+ "adaptacion": "Benjamín (8–9): meta a 5 m y solo dos colores. Alevín (10–11): meta a 6 m. Infantil y cadete (12–15): meta a 8 m y salida desde cuclillas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DUELOS VELOCIDAD + REACCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/duelos-velocidad-reaccion/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Con 6–12 jugadores se forman 3–6 parejas; las parejas que esperan cuentan los puntos.",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -3,
+   "ymax": 15
+  },
+  "lines": [
+   [
+    [
+     0,
+     6
+    ],
+    [
+     20,
+     6
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4.2,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 4,
+    "y": 7.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 4.2,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 10,
+    "y": 7.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4.2,
+    "f": -90
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 7.8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     10,
+     3.6
+    ],
+    "b": [
+     10,
+     0.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10.7,
+     8.2
+    ],
+    "b": [
+     12.6,
+     2.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -1.2,
+    "META AZUL",
+    "middle"
+   ],
+   [
+    10,
+    13.6,
+    "META ROJO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

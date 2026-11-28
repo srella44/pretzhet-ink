@@ -1,0 +1,127 @@
+{
+ "id": "FB-225",
+ "bloque": "Finalización",
+ "titulo": "Tiro elevado a escuadra",
+ "formato": "Tiro por alto",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug.",
+ "espacio": "24 × 20 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min; el tirador cambia cada 5 tiros y se descansa 1 min entre series.",
+ "objetivo": "Rematar por alto a las escuadras tras un pase del lateral, con precisión y sin que el balón suba demasiado. Cómo explicarlo: «cuerpo sobre el balón, golpeo bajo el centro, cabeza quieta». Errores típicos: inclinar el cuerpo hacia atrás y mandar el balón a las nubes, tirar sin mirar el objetivo. Qué observar: apoyo del pie, parte del empeine que golpea y altura del tiro.",
+ "montaje": "Portería de 6 m con portero y un cono en cada escuadra. Dos servidores (C) a 12 m en las bandas y una fila de tiradores a 16 m de la portería.",
+ "juego": "El servidor pasa al tirador (1); este controla con un toque y levanta el balón con el empeine a una escuadra (2). Luego va a servir; los servidores van a la fila.",
+ "punto": "Gol en la zona del cono: 3 puntos; gol en otro sitio: 1; parado o fuera: 0. Gana quien más sume.",
+ "consigna": "Cuerpo sobre el balón y golpea por debajo.",
+ "variantes": {
+  "facil": "Sin portero y con la zona de la escuadra de 2 m; el servidor pasa rodado y a media altura.",
+  "dificil": "Tiro de primera sin control, el portero se mueve y el pase llega por alto."
+ },
+ "adaptacion": "Alevín (10–11): 14 m de distancia y control permitido. Infantil (12–13): 16 m y un toque de control. Cadete (14–15): 18 m, de primera y con defensor pasivo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASES Y PRECISIÓN EN TIRO ELEVADO",
+  "ref": "https://toplidercoach.com/futbol-base/pases-y-precision-en-tiro-elevado/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). «Tiro elevado» se interpreta como tirar a las escuadras con parábola, a partir del título.",
+ "diagrama": {
+  "field": [
+   24,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27.5,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "porterias": [
+   {
+    "x": 24,
+    "y": 10,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 10,
+    "f": 0
+   }
+  ],
+  "discs": [
+   [
+    23.3,
+    7.4
+   ],
+   [
+    23.3,
+    12.6
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     12.8,
+     3.2
+    ],
+    "b": [
+     15.2,
+     9
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     16.7,
+     10
+    ],
+    "b": [
+     23,
+     7.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 4,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    18.5,
+    6.4,
+    "ESCUADRA",
+    "middle"
+   ],
+   [
+    7.5,
+    12.6,
+    "FILA",
+    "middle"
+   ],
+   [
+    12,
+    0,
+    "SERVIDOR",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

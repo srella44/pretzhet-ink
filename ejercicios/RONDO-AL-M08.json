@@ -1,0 +1,129 @@
+{
+ "id": "RONDO-AL-M08",
+ "bloque": "Calentamiento",
+ "titulo": "Corre y controla",
+ "formato": "Lanzar y controlar",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 15 m",
+ "duracion": "10 min",
+ "series": "4 series de 2 min con 30 s de pausa; se cambia de papel cada 5 lanzamientos.",
+ "objetivo": "Calcular la caída del balón y controlarlo con el pie antes del segundo bote. Cómo explicarlo: «corre a donde cae, amortigua con el pie y devuelve». Errores típicos: esperar quieto, usar la puntera, controlar tarde. Qué observar: lectura de la trayectoria, amortiguación y devolución.",
+ "montaje": "Parejas en calles de 16 m, separadas 4 m. En cada calle, un lanzador con 5 balones en un extremo y un receptor a 10 m. Todas las parejas a la vez.",
+ "juego": "El lanzador lanza alto con las manos (1). El receptor corre, controla con el pie antes del segundo bote (2) y devuelve. A los 5 lanzamientos cambian.",
+ "punto": "1 punto por control antes del segundo bote; con la mano o tras el 2.º bote: 0. Gana quien más sume.",
+ "consigna": "Corre a la caída y amortigua con el pie.",
+ "variantes": {
+  "facil": "Se permiten dos botes y el lanzamiento es más bajo.",
+  "dificil": "Control antes del primer bote, o con el muslo, y devolución de volea."
+ },
+ "adaptacion": "Alevín (10–11): lo indicado. Con 6 jugadores, 3 calles de 6 m de ancho; con 12, 6 calles más cortas.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Corre y controla (AL-M08)",
+  "ref": "RONDO Vol. 3 · Alevín · págs. 8, 13, 18, 23, 28, 33"
+ },
+ "completado": "Fuente (RONDO Alevín, AL-M08): lanzar alto, controlar antes del segundo bote, cambiar cada 5 lanzamientos, 1 punto y variantes. Distancias, series y devolución al lanzador son (propuesta). Jugadores 6–12 ya venía como (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 7.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 11.5,
+    "y": 12,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     3
+    ],
+    "b": [
+     9.5,
+     2.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11.5,
+     3.8
+    ],
+    "b": [
+     10,
+     4.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 4,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    -1,
+    "LANZADOR",
+    "middle"
+   ],
+   [
+    11.5,
+    -1,
+    "RECEPTOR",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,168 @@
+{
+ "id": "RONDO-AL-T06",
+ "bloque": "Calentamiento",
+ "titulo": "El espejo",
+ "formato": "Guía y espejo",
+ "edad": "10–11 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 90 s por pareja (3 cada uno); descanso de 30 s y se cambian las parejas a la mitad.",
+ "objetivo": "Copiar con exactitud los toques, direcciones y velocidad de un compañero, y guiarlo con claridad. Cómo explicarlo: «tú mandas con claridad, tu espejo copia a tu ritmo». Errores típicos: guiar demasiado rápido, copiar tarde, no mirar al compañero. Qué observar: atención al compañero, cambios de ritmo y variedad de toques.",
+ "montaje": "Campo de 20 × 15 m. Parejas frente a frente a 3,5 m, cada una con 2 balones (uno por jugador): un guía y un espejo. Hasta 6 parejas en 2 columnas.",
+ "juego": "A la señal, el guía conduce con toques, giros y cambios (1) y el espejo copia lo mismo a la vez (2). A los 90 s, «¡Cambio!» y se invierten los papeles.",
+ "punto": "La pareja más sincronizada, a juicio del entrenador, elige el siguiente juego de la sesión.",
+ "consigna": "Mismos toques, misma velocidad.",
+ "variantes": {
+  "facil": "Solo conducción hacia delante y parada, sin giros.",
+  "dificil": "El guía usa fintas, suela y cambios de ritmo; el espejo, sin mirar el balón."
+ },
+ "adaptacion": "Alevín (10–11): lo indicado. Con 6 jugadores, 3 parejas en una sola columna; con 12, 6 parejas.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El espejo (AL-T06)",
+  "ref": "RONDO Vol. 3 · Alevín · págs. 20, 25, 30, 35, 40, 45"
+ },
+ "completado": "Fuente (RONDO Alevín, AL-T06): guía y espejo, mismos toques y direcciones, cambio a los 90 s, premio de elegir juego, 20 × 15 m, más fácil/difícil. Distancias, colocación en columnas y rondas son (propuesta). Jugadores 6–12 ya venía como (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 17
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 3,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 6.5,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 3,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 7.5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 12,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3,
+     3.8
+    ],
+    "b": [
+     3,
+     5.8
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     6.5,
+     3.8
+    ],
+    "b": [
+     6.5,
+     5.8
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    4.75,
+    -1,
+    "GUÍA · ESPEJO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

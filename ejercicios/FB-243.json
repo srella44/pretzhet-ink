@@ -1,0 +1,149 @@
+{
+ "id": "FB-243",
+ "bloque": "Técnica y duelos",
+ "titulo": "Arrastre de suela",
+ "formato": "Pase tras arrastre",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "2–6 jug.",
+ "espacio": "14 × 8 m",
+ "duracion": "10 min",
+ "series": "4 vueltas de 2 min con 30 s de pausa; en cada una, el pie cambia (derecho, izquierdo, derecho, izquierdo).",
+ "objetivo": "Controlar el balón con la suela, arrastrarlo hacia atrás y pasar al compañero. Cómo explicarlo: «pisa, arrastra para atrás y pasa». Errores típicos: pisar el balón con demasiada fuerza, mirar siempre al suelo, pasar sin preparar el pie. Qué observar: contacto suave de la suela, giro del cuerpo y precisión del pase.",
+ "montaje": "Dos conos a 8 m. Por parejas: un jugador con balón en el cono 1 y su compañero en el cono 2. Dos parejas por calle de 8 × 4 m.",
+ "juego": "Conduce 3 m al centro (1), pisa el balón y lo arrastra atrás con la suela (2) y pasa al compañero (3). Este repite hacia el cono 1. 5 repeticiones cada uno.",
+ "punto": "Pase con arrastre limpio que llega al compañero: 1 punto; balón fuera de la calle: 0. Gana la pareja con más puntos.",
+ "consigna": "Pisa, arrastra y pasa con el interior.",
+ "variantes": {
+  "facil": "Parado: arrastra con la suela sin conducir antes, y pase a 5 m.",
+  "dificil": "Se conduce 5 m a media velocidad y el pase es de primera, a 10 m."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin conducir, solo pisar y pasar a 4 m. Benjamín (8–9): 3 m conduciendo. Alevín (10–11): a velocidad y con las dos piernas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "3-ARRASTRE DE SUELA",
+  "ref": "https://toplidercoach.com/futbol-base/3-arrastre-de-suela/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El nombre numerado es de una serie de ejercicios de técnica individual; el gesto concreto se interpreta por el título.",
+ "diagrama": {
+  "field": [
+   14,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    1,
+    2
+   ],
+   [
+    13,
+    2
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    13,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11.5,
+    "y": 6,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.3,
+     2
+    ],
+    "b": [
+     6.2,
+     2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     6.2,
+     2.1
+    ],
+    "b": [
+     5.2,
+     2.1
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 2,
+    "s1": 2,
+    "n": 2
+   },
+   {
+    "a": [
+     5.5,
+     1.8
+    ],
+    "b": [
+     10.6,
+     1.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    7,
+    0,
+    "PAREJA 1",
+    "middle"
+   ],
+   [
+    7,
+    8.1,
+    "PAREJA 2",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

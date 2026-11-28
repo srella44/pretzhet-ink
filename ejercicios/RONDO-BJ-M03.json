@@ -1,0 +1,150 @@
+{
+ "id": "RONDO-BJ-M03",
+ "bloque": "Calentamiento",
+ "titulo": "El semáforo de los saltos",
+ "formato": "Juego de señales",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 15 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 2 min con 30 s de pausa; el entrenador cambia el orden de las señales en cada ronda.",
+ "objetivo": "Reaccionar a una señal con distintos movimientos (correr, saltar, equilibrio, voltereta), jugando y calentando. Cómo explicarlo: «mira la señal y haz lo que dice, ¡sin chocar!». Errores típicos: no mirar la señal, chocar con otros, hacer la voltereta sin espacio. Qué observar: atención, equilibrio y cuidado con los demás.",
+ "montaje": "Campo de 20 × 15 m. Todos dentro, sin balón. El entrenador, fuera, con 4 conos de colores o un semáforo: verde, amarillo, rojo y azul.",
+ "juego": "Se corre libre. Verde: correr. Amarillo: pata coja. Rojo: estatua en equilibrio. Azul: voltereta. La señal cambia cada 10 s y no se toca a nadie.",
+ "punto": "1 punto por señal hecha a tiempo y sin chocar; si fallas, 0. Gana quien más sume.",
+ "consigna": "Mira la señal y haz lo que dice.",
+ "variantes": {
+  "facil": "Solo verde y rojo; las demás señales se añaden poco a poco.",
+  "dificil": "Las señales se enseñan solo con conos de colores, sin voz, y se cambian rápido."
+ },
+ "adaptacion": "Benjamín (8–9): lo indicado. Prebenjamín (6–7): solo 3 colores. Con pocos jugadores, campo de 12 × 12 m.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El semáforo de los saltos (BJ-M03)",
+  "ref": "RONDO Vol. 2 · Benjamín · págs. 14, 19, 24, 29, 34, 39"
+ },
+ "completado": "Fuente (RONDO Benjamín, BJ-M03): verde correr, amarillo pata coja, rojo estatua, azul voltereta, 1 punto por señal, variantes y frase «¡Estatua perfecta!». Medidas, duración de cada señal y rondas son (propuesta). Jugadores 6–12 ya venía como (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   15
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 20.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    15
+   ],
+   [
+    0,
+    15
+   ]
+  ],
+  "lights": [
+   [
+    14,
+    17.2
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3.5,
+    "y": 3.5,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 2.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 4,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10.5,
+    "y": 9.5,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 16.5,
+    "y": 11.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 7,
+    "y": 17,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.5,
+     4.4
+    ],
+    "b": [
+     5,
+     7.4
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     15.6,
+     4.4
+    ],
+    "b": [
+     12.8,
+     6.6
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    7,
+    19.4,
+    "ENTRENADOR",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,139 @@
+{
+ "id": "FB-247",
+ "bloque": "Finalización",
+ "titulo": "Tiro con ambas y bloqueo",
+ "formato": "Tiro con defensor",
+ "edad": "8–13 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug.",
+ "espacio": "24 × 18 m",
+ "duracion": "14 min",
+ "series": "4 series de 3 min con 1 min de pausa; el tirador alterna pierna cada vez y cada 5 tiros se cambian los roles.",
+ "objetivo": "Rematar con cualquiera de las dos piernas y reaccionar rápido ante un defensor que intenta interceptar. Cómo explicarlo: «mira la portería antes de recibir y tira ya». Errores típicos: usar siempre la pierna buena, tardar en tirar, golpear sin dirección. Qué observar: pierna elegida, perfil del cuerpo y rapidez del disparo.",
+ "montaje": "Portería de 6 m con portero. Un servidor (C) con balones a 18 m, dos tiradores en las bandas a 14 m y un defensor a 8 m de la portería.",
+ "juego": "El servidor pasa a un tirador (1); este controla (2) y dispara (3) con la pierna que dice el entrenador. El defensor sale al pase e intenta taponar. Luego rotan.",
+ "punto": "Gol: 2 puntos; parado: 1; taponado o fuera: 0; +1 si dispara con la pierna indicada. Gana quien más sume.",
+ "consigna": "Mira antes de recibir y tira con cualquiera.",
+ "variantes": {
+  "facil": "Sin defensor y con la pierna indicada para cada tiro.",
+  "dificil": "Defensor a 6 m, tiro de primera y solo valen los goles con la pierna menos hábil."
+ },
+ "adaptacion": "Benjamín (8–9): 12 m, sin defensor activo. Alevín (10–11): 14 m y defensor que sale tarde. Infantil (12–13): 16 m, defensor activo y tiro de primera.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TIRO CON LAS DOS PIERNAS, INTERCEPTACIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/tiro-con-las-dos-piernas-interceptacion/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). La interceptación se interpreta como un defensor que sale a taponar el tiro, a partir del título.",
+ "diagrama": {
+  "field": [
+   24,
+   18
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 27.5,
+   "ymin": -2,
+   "ymax": 20
+  },
+  "porterias": [
+   {
+    "x": 24,
+    "y": 9,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "C",
+    "x": 3,
+    "y": 9,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 4,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 14,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 19.5,
+    "y": 9,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.8,
+     8.6
+    ],
+    "b": [
+     13.2,
+     4.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     14.8,
+     4.8
+    ],
+    "b": [
+     23.4,
+     8.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 4,
+    "n": 3
+   },
+   {
+    "a": [
+     19.2,
+     8
+    ],
+    "b": [
+     17.6,
+     5.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    3,
+    12,
+    "SERVIDOR",
+    "middle"
+   ],
+   [
+    19.5,
+    12.2,
+    "DEFENSOR",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

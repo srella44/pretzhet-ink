@@ -1,0 +1,191 @@
+{
+ "id": "IG-DfNKNcWu-3o",
+ "bloque": "Calentamiento",
+ "titulo": "Círculo de apoyos y relevo",
+ "formato": "Círculo 6+2",
+ "edad": "8–9 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "Círculo de 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 45 s de pausa; los 2 jugadores del centro cambian a los 3 min o a los 6 relevos.",
+ "objetivo": "Calentar pasando, apoyando y moviéndose en un círculo. Cómo explicarlo: «pasa al del centro, él descarga a su compañero y el balón sale fuera; tú entras». Errores típicos: pasar flojo, olvidar entrar al centro, juntarse en un lado. Qué observar: pase al pie, descarga de primera y velocidad del relevo.",
+ "montaje": "Círculo de 20 m con 6 conos: un jugador fuera (E) en cada cono y 2 dentro (I). Un balón, que empieza en un jugador de fuera.",
+ "juego": "Un E pasa a un I (1); este descarga al otro I (2), que pasa fuera a un E libre (3). Los E que participaron corren al centro (4) y los I salen a sus conos.",
+ "punto": "Cada relevo completo sin que el balón toque el suelo: 1 punto. A los 3 min se cuentan los relevos y el grupo intenta superarlos.",
+ "consigna": "Pasa al del centro, él descarga y tú entras.",
+ "variantes": {
+  "facil": "Dos toques por jugador y relevo caminando, para aprender el orden.",
+  "dificil": "Un toque, relevo corriendo y un defensor dentro del círculo."
+ },
+ "adaptacion": "Benjamín (8–9): círculo de 15 m y 2 toques. Alevín (10–11): 20 m y un toque. Infantil (12–13): un toque y defensor. Con 8 jugadores, 4 fuera y 2 dentro.",
+ "fuente": {
+  "autor": "Reel de Instagram · @coachesviewsfootball",
+  "titulo_original": "Los dos apoyos interiores intercambian con los extremos del pase",
+  "ref": "https://www.instagram.com/coachesviewsfootball/reel/DfNKNcWu-3o/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente: descripción pública del reel (no hay fotogramas en el repositorio): 6 jugadores fuera de un círculo de 20 m, 2 dentro; un exterior pasa a un interior, el segundo recibe su descarga y juega fuera; los dos exteriores que participaron pasan al centro. Edad U9, 6–12 jugadores y dificultad ya venían como (propuesta). Puntuación, series, tiempos, sentido del pase, variantes y adaptación son (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 23,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "dashed": true,
+  "tag": "círculo 20 m",
+  "cones": [
+   [
+    10,
+    0
+   ],
+   [
+    19.7,
+    5
+   ],
+   [
+    19.7,
+    15
+   ],
+   [
+    10,
+    20
+   ],
+   [
+    0.3,
+    15
+   ],
+   [
+    0.3,
+    5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 10,
+    "y": -0.9,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 20.6,
+    "y": 4.6,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 20.6,
+    "y": 15.4,
+    "f": 210
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20.9,
+    "f": -90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": -0.6,
+    "y": 15.4,
+    "f": -30
+   },
+   {
+    "r": "A",
+    "x": -0.6,
+    "y": 4.6,
+    "f": 30
+   },
+   {
+    "r": "D",
+    "x": 7.6,
+    "y": 8.8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12.4,
+    "y": 11.2,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     9.4,
+     20.2
+    ],
+    "b": [
+     7.4,
+     9.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     8.4,
+     8.8
+    ],
+    "b": [
+     11.6,
+     11.2
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     12.9,
+     11.4
+    ],
+    "b": [
+     20.1,
+     14.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 3
+   },
+   {
+    "a": [
+     20.2,
+     15.4
+    ],
+    "b": [
+     14.4,
+     13.2
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    10,
+    23,
+    "EXTERIORES (E)",
+    "middle"
+   ]
+  ]
+ }
+}

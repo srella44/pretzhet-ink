@@ -1,0 +1,162 @@
+{
+ "id": "FB-249",
+ "bloque": "Técnica y duelos",
+ "titulo": "Circuito de conducción",
+ "formato": "Circuito con balón",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "2–6 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "12 min",
+ "series": "4 vueltas de 2 min con 30 s de pausa; se sale con un intervalo de 5 s entre jugadores.",
+ "objetivo": "Conducir con las dos piernas y con las superficies del pie, cambiando de dirección y de ritmo con la cabeza levantada. Cómo explicarlo: «balón cerca, toques cortos y mira por dónde vas». Errores típicos: toques largos, mirar solo el balón, chocar con los conos. Qué observar: superficies usadas, velocidad y control en los giros.",
+ "montaje": "Circuito de 20 × 14 m: slalom de 4 conos (a 2 m), puerta de 2 conos, un giro y un tramo recto de 6 m hasta la meta. Un balón por jugador, salida cada 5 s.",
+ "juego": "Conduce por el slalom (1), cruza la puerta (2), gira alrededor del cono final (3) y vuelve a máxima velocidad hasta la meta (4). Al llegar deja el balón.",
+ "punto": "1 punto por recorrido sin tocar conos ni perder el balón; +1 por mejorar su tiempo. Gana quien más sume.",
+ "consigna": "Toques cortos, cabeza arriba y acelera al final.",
+ "variantes": {
+  "facil": "Slalom con conos a 3 m y sin tiempo; solo con el pie hábil.",
+  "dificil": "Con las dos piernas por turnos y una finta obligatoria en cada cono."
+ },
+ "adaptacion": "Prebenjamín (6–7): solo slalom de 3 conos y sin tiempo. Benjamín (8–9): circuito completo. Alevín (10–11): a velocidad y con un tiempo objetivo.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CIRCUITO DE CONDUCCIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/circuito-de-conduccion/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El nombre numerado es de una serie de ejercicios de técnica individual; el gesto concreto se interpreta por el título.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    4,
+    3
+   ],
+   [
+    6,
+    4.6
+   ],
+   [
+    8,
+    3
+   ],
+   [
+    10,
+    4.6
+   ],
+   [
+    14,
+    3.3
+   ],
+   [
+    14,
+    5.7
+   ],
+   [
+    18,
+    10
+   ],
+   [
+    3,
+    10
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     3.3
+    ],
+    "b": [
+     10.8,
+     3.9
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     11.6,
+     4
+    ],
+    "b": [
+     13.2,
+     4.5
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 2,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     14.8,
+     4.8
+    ],
+    "b": [
+     17.6,
+     9.6
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 3
+   },
+   {
+    "a": [
+     17.5,
+     10.8
+    ],
+    "b": [
+     4,
+     11.3
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 6,
+    "s1": 10,
+    "n": 4
+   }
+  ],
+  "labels": [
+   [
+    3,
+    11.6,
+    "META",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,171 @@
+{
+ "id": "FB-235",
+ "bloque": "Calentamiento",
+ "titulo": "Guerra espacial",
+ "formato": "Juego de equipos",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 12 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min con 30 s de pausa; en cada ronda se cambian los lados.",
+ "objetivo": "Pasar y golpear el balón con el pie con control y sin miedo, en un juego de equipos con ruido y emoción. Cómo explicarlo: «vuestros balones son naves: mándalas al otro planeta». Errores típicos: patadas altas, mirar los balones en lugar de al compañero, quedarse parado esperando. Qué observar: golpeo suave, variedad de pies y ganas de participar.",
+ "montaje": "Campo de 20 × 12 m con franja central de 2 m (tierra de nadie) con conos. Dos equipos de 3–6 en cada mitad («planeta»), con 8 balones por equipo.",
+ "juego": "A la señal, cada equipo golpea con el pie sus balones rodados a la mitad contraria sin pisar la franja. A los 2 min, «¡Tierra!»: todos quietos.",
+ "punto": "Gana 1 punto el equipo con menos balones en su mitad; los de la franja no cuentan. Gana quien más sume.",
+ "consigna": "Golpea suave y mira dónde cae.",
+ "variantes": {
+  "facil": "Solo balones rodados y la franja de 3 m; se puede usar la mano en el 1.º minuto.",
+  "dificil": "Balones más pequeños, tiro de volea o con la pierna menos hábil y 12 balones."
+ },
+ "adaptacion": "Prebenjamín (6–7): 6 balones por mitad y sin puntos. Benjamín (8–9): 10 balones y golpeo con el interior. Con pocos jugadores, una mitad de 10 × 12 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "GUERRA ESPACIAL",
+  "ref": "https://toplidercoach.com/futbol-base/guerra-espacial/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–7 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El juego (balones lanzados a la mitad contraria) es (propuesta) a partir del título «Guerra espacial».",
+ "diagrama": {
+  "field": [
+   20,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     9,
+     0,
+     11,
+     12
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 17,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 6,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "balls": [
+   [
+    2,
+    6
+   ],
+   [
+    5,
+    1.5
+   ],
+   [
+    5,
+    10.5
+   ],
+   [
+    18,
+    6
+   ],
+   [
+    15,
+    2
+   ],
+   [
+    15,
+    10.5
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.8,
+     6
+    ],
+    "b": [
+     12.6,
+     4.8
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     12.2,
+     6.2
+    ],
+    "b": [
+     7.6,
+     7.5
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "TIERRA DE NADIE",
+    "middle"
+   ],
+   [
+    4,
+    13.2,
+    "PLANETA 1",
+    "middle"
+   ],
+   [
+    16,
+    13.2,
+    "PLANETA 2",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

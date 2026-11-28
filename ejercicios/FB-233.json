@@ -1,0 +1,169 @@
+{
+ "id": "FB-233",
+ "bloque": "Calentamiento",
+ "titulo": "Enfermos y médicos",
+ "formato": "Pilla con balón",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min con 30 s de pausa; en cada ronda se cambian enfermos y médicos.",
+ "objetivo": "Conducir con la cabeza levantada, esquivar y pasar a un compañero, jugando a un juego conocido. Cómo explicarlo: «los enfermos te tocan, el médico te cura con un pase por el túnel». Errores típicos: mirar solo el balón, chocar con los demás, pasar demasiado fuerte al curar. Qué observar: cabeza arriba, control del balón y ganas de ayudar.",
+ "montaje": "Cuadrado de 20 × 20 m con todos dentro y un balón cada uno: 2 enfermos (peto rojo, sin balón), 2 médicos (peto blanco) y el resto sanos.",
+ "juego": "Los sanos conducen. Si un enfermo toca a un sano, este se queda quieto con las piernas abiertas; un médico lo cura pasándole el balón por entre las piernas y vuelve a jugar.",
+ "punto": "A los 2 min, menos de 3 sanos quietos: 1 punto a los sanos; 3 o más: 1 punto a los enfermos. Se cambian los papeles cada ronda.",
+ "consigna": "Cabeza arriba y túnel suave al compañero.",
+ "variantes": {
+  "facil": "Un solo enfermo y 3 médicos; los tocados solo esperan 5 segundos.",
+  "dificil": "3 enfermos y 1 médico, y los médicos solo pueden curar con el pie menos hábil."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin puntos, solo el juego. Benjamín (8–9): puntos y 3 enfermos. Con pocos jugadores, el campo baja a 12 × 12 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ENFERMOS Y MÉDICOS",
+  "ref": "https://toplidercoach.com/futbol-base/enfermos-y-medicos/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–7 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Las reglas del juego (tocar, quedarse quieto y curar con túnel) son (propuesta) a partir del título.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 4,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 16,
+    "y": 4,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 15,
+    "y": 16,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 10,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8.5,
+    "y": 10.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 12.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 4.5,
+    "y": 16.5,
+    "f": 0,
+    "ghost": true
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 16.8,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 11,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.6,
+     10
+    ],
+    "b": [
+     5,
+     10
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 10,
+    "n": 1
+   },
+   {
+    "a": [
+     10.4,
+     16.8
+    ],
+    "b": [
+     6,
+     16.6
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 10,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    3,
+    19,
+    "ENFERMO",
+    "middle"
+   ],
+   [
+    13,
+    19,
+    "MÉDICO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

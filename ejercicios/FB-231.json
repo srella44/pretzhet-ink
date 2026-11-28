@@ -1,0 +1,166 @@
+{
+ "id": "FB-231",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Toco y me voy",
+ "formato": "Rondo 6v2",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 45 s de pausa; los 2 defensores cambian al recuperar o a los 3 min.",
+ "objetivo": "Mantener el balón con pases cortos y moverse justo después de pasar para crear un nuevo apoyo. Cómo explicarlo: «pasa, mira y ocupa el hueco libre». Errores típicos: quedarse parado tras pasar, juntarse todos en un lado, pasar sin avisar con la mirada. Qué observar: movimiento tras el pase, ángulos de apoyo y control orientado.",
+ "montaje": "Cuadrado de 20 × 20 m con 6 atacantes por el borde y 2 defensores dentro. Un balón. Los atacantes se mueven solo por el perímetro.",
+ "juego": "Los atacantes se pasan el balón a 2 toques. Tras pasar, ocupan otro hueco libre en 3 s. Si un defensor toca el balón o sale, el último que lo tocó pasa al centro.",
+ "punto": "5 pases seguidos: 1 punto; 10 pases: 2 puntos; robo o pase fuera: 0 y se reinicia. Gana quien más sume.",
+ "consigna": "Pasa y muévete a otro hueco.",
+ "variantes": {
+  "facil": "Un solo defensor y 3 toques; los atacantes no tienen que cambiar de hueco.",
+  "dificil": "Un toque por jugador, 3 defensores y 4 segundos como máximo para pasar."
+ },
+ "adaptacion": "Alevín (10–11): 6v2 con 2 toques. Infantil (12–13): 6v3 en 18 × 18 m. Cadete (14–15): 5v3 a un toque en 16 × 16 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TOCO Y ME VOY",
+  "ref": "https://toplidercoach.com/futbol-base/toco-y-me-voy/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). «Toco y me voy» se interpreta como pasar y moverse al hueco libre.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2.5,
+   "ymax": 22.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 1.5,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 18.5,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 16,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12.5,
+    "y": 11.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.8,
+     3.6
+    ],
+    "b": [
+     9.2,
+     1.7
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     5
+    ],
+    "b": [
+     2,
+     12
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     10.8,
+     2
+    ],
+    "b": [
+     17.2,
+     3.6
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    2,
+    10.6,
+    "HUECO",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

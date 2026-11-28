@@ -1,0 +1,145 @@
+{
+ "id": "FB-237",
+ "bloque": "Técnica y duelos",
+ "titulo": "Arrastre y exterior",
+ "formato": "Técnica en calles",
+ "edad": "6–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "16 × 10 m",
+ "duracion": "10 min",
+ "series": "4 vueltas por calle de 2 min con 30 s de pausa; la 1.ª y la 3.ª vuelta con el pie izquierdo y la 2.ª y la 4.ª con el derecho.",
+ "objetivo": "Dominar el gesto: pisar el balón con la suela del pie izquierdo, arrastrarlo hacia la izquierda y salir con el exterior del mismo pie. Cómo explicarlo: «pisa, arrastra al lado y sal con el exterior». Errores típicos: arrastrar sin pisar el balón, no mirar al frente, dar toques demasiado largos. Qué observar: contacto de la suela, balance del cuerpo y velocidad de salida.",
+ "montaje": "Dos calles de 16 m con 3 conos (a 5, 9 y 13 m). Un jugador con balón por calle en la salida; los demás esperan en fila a 2 m.",
+ "juego": "Conduce hasta el cono (1), pisa el balón y lo arrastra a su izquierda con la suela (2) y sale con el exterior del mismo pie (3). Al final vuelve trotando por fuera.",
+ "punto": "1 punto por cada cono con arrastre y salida limpios (máx. 3); –1 si el balón se aleja más de 1 m. Gana quien más sume en 4 vueltas.",
+ "consigna": "Pisa, arrastra a la izquierda y sal con el exterior.",
+ "variantes": {
+  "facil": "Conos a 3 m y sin velocidad: solo caminando, para fijar el gesto.",
+  "dificil": "Salir a máxima velocidad y hacer el gesto con un defensor pasivo en cada cono."
+ },
+ "adaptacion": "Prebenjamín (6–7): un cono y solo el arrastre. Benjamín (8–9): 2 conos. Alevín e infantil (10–13): 3 conos, a velocidad y con las dos piernas.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "9-ARRASTRE IZQUIERDA, EXTERIOR IZQUIERDA",
+  "ref": "https://toplidercoach.com/futbol-base/9-arrastre-izquierda-exterior-izquierda/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El nombre numerado es de una serie de ejercicios de técnica individual; el gesto concreto se interpreta por el título.",
+ "diagrama": {
+  "field": [
+   16,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "cones": [
+   [
+    5,
+    4
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    13,
+    4
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    13,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     4
+    ],
+    "b": [
+     4.2,
+     4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     4.2,
+     4
+    ],
+    "b": [
+     4.9,
+     2
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 4,
+    "s1": 4,
+    "n": 2
+   },
+   {
+    "a": [
+     5.4,
+     2
+    ],
+    "b": [
+     8.4,
+     3.2
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    8,
+    0.2,
+    "CALLE 1",
+    "middle"
+   ],
+   [
+    8,
+    10.2,
+    "CALLE 2",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

@@ -1,0 +1,192 @@
+{
+ "id": "RONDO-BJ-T04",
+ "bloque": "Calentamiento",
+ "titulo": "El cambio de casas",
+ "formato": "Carrera de grupos",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "5 rondas de 1 min con 30 s de pausa; cada ronda empieza una casa distinta.",
+ "objetivo": "Conducir sin chocar en un cruce lleno de gente, mirando a los demás y cambiando de ritmo. Cómo explicarlo: «conduce y mira antes de cruzar por el medio». Errores típicos: ir con la cabeza baja, correr sin control del balón, no esperar para cruzar. Qué observar: cabeza arriba, control en el cruce y respeto a los demás.",
+ "montaje": "Campo de 20 × 20 m con una casa de 5 × 5 m en cada esquina. 4 grupos de 3 (o menos), uno por casa, con 1 balón por grupo.",
+ "juego": "A la señal, cada grupo lleva su balón a la casa de enfrente (1-2) cruzando por el centro sin chocar. Los 3 llegan con el balón parado dentro. Si chocan, esperan 3 s.",
+ "punto": "1 punto al primer grupo en llegar completo con el balón parado en la casa. Gana el grupo con más puntos tras 5 rondas.",
+ "consigna": "Cabeza arriba, mira antes de cruzar.",
+ "variantes": {
+  "facil": "Se cruza caminando, con el balón en la mano.",
+  "dificil": "En el centro hay que hacer una finta antes de cruzar."
+ },
+ "adaptacion": "Benjamín (8–9): lo indicado. Prebenjamín (6–7): casas de 5 × 5 y cruce sin puntos. Con 6 jugadores, solo 2 casas enfrentadas.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El cambio de casas (BJ-T04)",
+  "ref": "RONDO Vol. 2 · Benjamín · págs. 10, 12, 14, 32, 42, 47"
+ },
+ "completado": "Fuente (RONDO Benjamín, BJ-T04): cuatro casas en las esquinas, cada grupo lleva el balón a la casa de enfrente cruzando por el centro sin chocar, 1 punto al primero que llega entero, variantes. 20 × 20 m, tamaño de las casas, grupos de 3, esperar 3 s y rondas son (propuesta). Jugadores 6–12 ya venía como (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     5,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     15,
+     0,
+     20,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     15,
+     5,
+     20
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     15,
+     15,
+     20,
+     20
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.2,
+    "y": 1.2,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 3.8,
+    "y": 3.8,
+    "f": 45
+   },
+   {
+    "r": "B",
+    "x": 16.2,
+    "y": 1.2,
+    "f": 135,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 18.8,
+    "y": 3.8,
+    "f": 135
+   },
+   {
+    "r": "C",
+    "x": 1.2,
+    "y": 16.2,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 3.8,
+    "y": 18.8,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 16.2,
+    "y": 16.2,
+    "f": -135,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18.8,
+    "y": 18.8,
+    "f": -135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     5.6,
+     5.6
+    ],
+    "b": [
+     14.4,
+     14.4
+    ],
+    "k": "cond",
+    "side": -1,
+    "s0": 8,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     14.4,
+     5.6
+    ],
+    "b": [
+     5.6,
+     14.4
+    ],
+    "k": "cond",
+    "side": 1,
+    "s0": 8,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    2,
+    -1.1,
+    "CASA",
+    "middle"
+   ],
+   [
+    18,
+    -1.1,
+    "CASA",
+    "middle"
+   ],
+   [
+    2,
+    21.8,
+    "CASA",
+    "middle"
+   ],
+   [
+    18,
+    21.8,
+    "CASA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

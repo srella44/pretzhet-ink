@@ -1,0 +1,129 @@
+{
+ "id": "RONDO-BJ-M07",
+ "bloque": "Calentamiento",
+ "titulo": "Lanza, corre y para",
+ "formato": "Lanzar y parar",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 12 m",
+ "duracion": "8 min",
+ "series": "4 series de 90 s con 30 s de pausa; se cambia de papel cada 5 lanzamientos.",
+ "objetivo": "Mirar la trayectoria del balón, correr a su caída y pararlo con el pie con suavidad. Cómo explicarlo: «mira el balón, corre y frénalo con la planta del pie». Errores típicos: esperar quieto, dar una patada en vez de parar, mirar al suelo. Qué observar: carrera hacia el balón, amortiguación y equilibrio.",
+ "montaje": "Campo de 16 × 12 m. Parejas a 6 m en filas de 3, separadas 3 m. En cada una, un lanzador con 5 balones y un parador de pie.",
+ "juego": "El lanzador lanza alto con las manos (1). El parador corre, lo para con el pie antes del 2.º bote (2) y lo devuelve rodando. A los 5 lanzamientos cambian.",
+ "punto": "1 punto por balón parado antes del 2.º bote; con la mano o tras el 2.º bote: 0. Gana la pareja con más puntos en 4 series.",
+ "consigna": "Mira el balón y páralo con suavidad.",
+ "variantes": {
+  "facil": "Se permiten tres botes y el lanzamiento es bajo y suave.",
+  "dificil": "Se para el balón en el aire con el muslo, sin dejar que bote."
+ },
+ "adaptacion": "Benjamín (8–9): lo indicado. Prebenjamín (6–7): lanzar a 3 m y 3 botes. Con pocos jugadores, 2 parejas de 5 m.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "Lanza, corre y para (BJ-M07)",
+  "ref": "RONDO Vol. 2 · Benjamín · págs. 5, 10, 15, 38, 43, 48"
+ },
+ "completado": "Fuente (RONDO Benjamín, BJ-M07): por parejas, uno lanza alto con las manos y el otro lo para con el pie antes del segundo bote, 1 punto, variantes y frase «¡Control suave!». Distancias, nº de lanzamientos y series son (propuesta). Jugadores 6–12 ya venía como (propuesta).",
+ "diagrama": {
+  "field": [
+   16,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 6.5,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 9.5,
+    "y": 10.5,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.3,
+     2.5
+    ],
+    "b": [
+     8,
+     3.3
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     10.3,
+     2.6
+    ],
+    "b": [
+     8.4,
+     3.8
+    ],
+    "k": "run",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    2.5,
+    -1,
+    "LANZA",
+    "middle"
+   ],
+   [
+    9.5,
+    -1,
+    "PARA",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

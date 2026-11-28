@@ -1,0 +1,181 @@
+{
+ "id": "RONDO-BJ-T08",
+ "bloque": "Calentamiento",
+ "titulo": "El balón quema",
+ "formato": "Tríos con balón",
+ "edad": "8–9 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "10 min",
+ "series": "4 series de 1 min con 30 s de pausa; la marca de cada trío se apunta para superarla.",
+ "objetivo": "Pasar sin parar el balón y moverse justo después de pasar, ofreciéndose para recibir. Cómo explicarlo: «el balón quema: pasa ya y busca otro sitio». Errores típicos: parar el balón, pasar y quedarse quieto, pases flojos. Qué observar: movimiento tras el pase, comunicación y control orientado.",
+ "montaje": "Cuadrado de 20 × 20 m con 4 cuadrados de 8 × 8 m. En cada uno, un trío con 1 balón; los demás tríos esperan su turno.",
+ "juego": "El trío se pasa el balón sin pararlo (1): no puede quedarse quieto ni repetir dos veces seguidas con el mismo jugador. Tras pasar, se mueve a otro sitio (2).",
+ "punto": "Cada pase completo: 1 punto. El trío cuenta sus pases en 1 min e intenta superar su marca. Balón parado o fuera: –1 punto.",
+ "consigna": "Pasa ya, el balón quema; muévete.",
+ "variantes": {
+  "facil": "Se puede parar un momento el balón (1 segundo) antes de pasar.",
+  "dificil": "Se recibe con un pie y se pasa con el otro, a un toque."
+ },
+ "adaptacion": "Benjamín (8–9): lo indicado. Prebenjamín (6–7): cuadrados de 10 × 10 y sin puntos. Con 6 jugadores, 2 tríos en 2 cuadrados.",
+ "fuente": {
+  "autor": "RONDO",
+  "titulo_original": "El balón quema (BJ-T08)",
+  "ref": "RONDO Vol. 2 · Benjamín · págs. 28, 34, 36, 38, 56, 61"
+ },
+ "completado": "Fuente (RONDO Benjamín, BJ-T08): tríos en un cuadrado, el balón no puede quedarse quieto, contar los pases en 1 minuto, 20 × 20 m y variantes. Cuadrados de 8 × 8, rondas y reglas de movimiento son (propuesta). Jugadores 6–12 ya venía como (propuesta).",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    1,
+    1
+   ],
+   [
+    9,
+    1
+   ],
+   [
+    9,
+    9
+   ],
+   [
+    1,
+    9
+   ],
+   [
+    11,
+    1
+   ],
+   [
+    19,
+    1
+   ],
+   [
+    19,
+    9
+   ],
+   [
+    11,
+    9
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    9,
+    11
+   ],
+   [
+    9,
+    19
+   ],
+   [
+    1,
+    19
+   ],
+   [
+    11,
+    11
+   ],
+   [
+    19,
+    11
+   ],
+   [
+    19,
+    19
+   ],
+   [
+    11,
+    19
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 7.2,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6.2,
+    "y": 7.2,
+    "f": -120
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 1.8,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 11.8,
+    "y": 7.2,
+    "f": -60,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 16.2,
+    "y": 7.2,
+    "f": -120
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 1.8,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.7,
+     6.8
+    ],
+    "b": [
+     5.3,
+     6.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 6,
+    "n": 1
+   },
+   {
+    "a": [
+     1.7,
+     6.2
+    ],
+    "b": [
+     3.3,
+     3.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   }
+  ],
+  "labels": []
+ },
+ "top": "",
+ "probado": false
+}

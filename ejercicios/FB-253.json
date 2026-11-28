@@ -1,0 +1,142 @@
+{
+ "id": "FB-253",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Cuadrado de pase de 3",
+ "formato": "Cuadrado y defensor",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min con 30 s de pausa; los defensores cambian en cada serie.",
+ "objetivo": "Pasar y seguir el pase para crear ángulos de apoyo y mantener el balón ante un defensor. Cómo explicarlo: «pasa y ocupa el vértice libre». Errores típicos: pasar flojo, esperar al compañero parado, tener el cuerpo cerrado a la presión. Qué observar: ritmo del pase, movimiento al hueco y orientación del cuerpo.",
+ "montaje": "Dos cuadrados de 12 × 12 m con conos. En cada uno, 3 atacantes en 3 vértices y 1 defensor dentro. Un balón por cuadrado.",
+ "juego": "El atacante con balón pasa al vértice contiguo (1) y corre al vértice libre (2); el receptor pasa de primera al siguiente (3). Si el defensor roba, el último en tocar defiende.",
+ "punto": "4 pases seguidos: 1 punto; 8 pases: 2 puntos; el defensor que roba suma 1. Gana el cuadrado con más puntos en 4 series.",
+ "consigna": "Pasa, sigue el pase y ocupa el vértice libre.",
+ "variantes": {
+  "facil": "Defensor pasivo en el primer minuto y 3 toques por jugador.",
+  "dificil": "Un toque por jugador, 2 defensores y cuadrado de 10 × 10 m."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y un defensor. Infantil (12–13): 1–2 toques y cuadrado de 10 × 10 m. Con 8 jugadores, solo un cuadrado de 4 atacantes y 1 defensor.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "CUADRADO DE PASE 3 JUGADORES",
+  "ref": "https://toplidercoach.com/futbol-base/cuadrado-de-pase-3-jugadores/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Edad (10–13) y reglas son (propuesta) a partir del título; la web no da la edad.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 14.5,
+   "ymin": -2.5,
+   "ymax": 14.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    12,
+    0
+   ],
+   [
+    12,
+    12
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.4,
+    "y": 1.4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 1.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 10.6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     1.4
+    ],
+    "b": [
+     9.7,
+     1.4
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 1
+   },
+   {
+    "a": [
+     1.4,
+     2.4
+    ],
+    "b": [
+     1.4,
+     10.2
+    ],
+    "k": "run",
+    "side": -1,
+    "s0": 6,
+    "s1": 8,
+    "n": 2
+   },
+   {
+    "a": [
+     10.6,
+     2.4
+    ],
+    "b": [
+     10.6,
+     9.8
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 8,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    1.4,
+    13.2,
+    "VÉRTICE LIBRE",
+    "start"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}

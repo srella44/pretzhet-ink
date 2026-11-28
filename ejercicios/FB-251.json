@@ -1,0 +1,145 @@
+{
+ "id": "FB-251",
+ "bloque": "Finalización",
+ "titulo": "Duelo de precisión",
+ "formato": "Duelo de tiradores",
+ "edad": "10–13 años",
+ "nivel": "Medio",
+ "jugadores": "4–8 jug.",
+ "espacio": "22 × 16 m",
+ "duracion": "12 min",
+ "series": "Duelos al mejor de 5 tiros por jugador; el ganador sigue y el perdedor se pone al final de la fila.",
+ "objetivo": "Tirar a puerta con precisión, apuntando a las esquinas, bajo la presión de un duelo directo. Cómo explicarlo: «elige la esquina antes de tirar y golpea con el interior». Errores típicos: tirar fuerte al centro, mirar al portero y no al objetivo, golpear de puntera. Qué observar: elección de la esquina, golpeo y reacción tras fallar.",
+ "montaje": "Portería de 6 m con portero y una zona de 1,5 × 1,5 m con conos en cada esquina. Dos tiradores (A y B) a 14 m, con 5 balones cada uno. El resto espera en fila.",
+ "juego": "Disparan por turnos: A (1), B (2), hasta 5 tiros cada uno. El entrenador dice la esquina antes de cada tiro. Cada 5 tiros entra el siguiente de la fila.",
+ "punto": "Gol en la zona pedida: 3 puntos; gol en otra zona: 1; parado o fuera: 0. Gana quien más sume.",
+ "consigna": "Elige la esquina, golpea con el interior.",
+ "variantes": {
+  "facil": "Sin portero, a 10 m, y el entrenador elige la esquina.",
+  "dificil": "Cada tirador elige una esquina distinta, de primera y con el portero activo."
+ },
+ "adaptacion": "Alevín (10–11): 12 m y sin portero. Infantil (12–13): 14 m con portero. Con los más pequeños, portería de 4 m y 10 m de distancia.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DUELO DE TIRO PRECISIÓN",
+  "ref": "https://toplidercoach.com/futbol-base/duelo-de-tiro-precision/"
+ },
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Edad (10–13) y reglas son (propuesta) a partir del título; la web no da la edad.",
+ "diagrama": {
+  "field": [
+   22,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 25.5,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "porterias": [
+   {
+    "x": 22,
+    "y": 8,
+    "lado": "R",
+    "ancho": 6,
+    "portero": true
+   }
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     20.2,
+     5,
+     22,
+     6.5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     20.2,
+     9.5,
+     22,
+     11
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 4.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 8,
+    "y": 11.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 5.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8.8,
+     4.5
+    ],
+    "b": [
+     21.3,
+     5.7
+    ],
+    "k": "pass",
+    "side": -1,
+    "s0": 6,
+    "s1": 4,
+    "n": 1
+   },
+   {
+    "a": [
+     8.8,
+     11.5
+    ],
+    "b": [
+     21.3,
+     10.3
+    ],
+    "k": "pass",
+    "side": 1,
+    "s0": 6,
+    "s1": 4,
+    "n": 2
+   }
+  ],
+  "labels": [
+   [
+    19,
+    3.6,
+    "ESQUINA",
+    "middle"
+   ],
+   [
+    8,
+    14.5,
+    "14 m",
+    "middle"
+   ]
+  ]
+ },
+ "top": "",
+ "probado": false
+}
