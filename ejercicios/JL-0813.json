@@ -1,0 +1,241 @@
+{
+ "id": "JL-0813",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 6v6+1 triángulo",
+ "formato": "6v6+1",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "13 jug.",
+ "espacio": "Triángulo de 25 m de lado",
+ "duracion": "8 min",
+ "series": "2 × 4 min con 1 min de pausa; a los 4 min cambian los puestos.",
+ "objetivo": "Circular con tres apoyos fijos en un espacio triangular. Cómo explicarlo: las esquinas dan salida y el centro permite girar el juego; el pase vuelve a dentro. Errores típicos: abusar de las esquinas, no moverse en el centro. Observar: ángulo del pase hacia la esquina y apoyo del que se queda cerca.",
+ "montaje": "Triángulo de 25 m de lado con una zona de 5 × 5 m en cada esquina. Cada equipo pone 1 jugador en cada esquina (fijos) y 3 dentro; 1 comodín con la defensa. Empieza un amarillo con balón.",
+ "juego": "Los de esquina solo juegan dentro de su zona. El equipo con balón combina entre el centro y las esquinas. Si pierde el balón o sale, pasa al rival. A los 4 min, los de esquina pasan al centro y al revés.",
+ "punto": "1 punto por 8 pases seguidos; sigue con balón. Suma de las 2 series de 4 min.",
+ "consigna": "Esquina y de vuelta al centro.",
+ "variantes": {
+  "facil": "6 pases por punto y comodín solo marca.",
+  "dificil": "Los de esquina a un toque y 10 pases."
+ },
+ "adaptacion": "Infantil: triángulo de 20 m. Juvenil: 3 esquinas obligatorias antes de cada punto.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 + 1 | entrada 813",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 171"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 6:6 + 1 comodín con la defensa, triángulo de 25 m de lado, tres zonas de 5 m en las esquinas con 1 jugador por equipo, 3 dentro, 2 × 4 min, 1 punto por 8 pases seguidos. (propuesta): rotación a los 4 min, pausa de 1 min, edad y variantes. Se parece a JL-0120 (6v6 triángulo, tres esquinas). Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   25,
+   22
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 28,
+   "ymin": -3,
+   "ymax": 25
+  },
+  "nofield": true,
+  "lines": [
+   [
+    [
+     12.5,
+     0
+    ],
+    [
+     0,
+     22
+    ],
+    "1 0"
+   ],
+   [
+    [
+     0,
+     22
+    ],
+    [
+     25,
+     22
+    ],
+    "1 0"
+   ],
+   [
+    [
+     25,
+     22
+    ],
+    [
+     12.5,
+     0
+    ],
+    "1 0"
+   ]
+  ],
+  "cones": [
+   [
+    12.5,
+    0
+   ],
+   [
+    0,
+    22
+   ],
+   [
+    25,
+    22
+   ]
+  ],
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     10,
+     0,
+     15,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     17,
+     5,
+     22
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     20,
+     17,
+     25,
+     22
+    ]
+   }
+  ],
+  "tag": "triángulo de 25 m de lado · esquema",
+  "players": [
+   {
+    "r": "A",
+    "x": 10.6,
+    "y": 1.4,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 14.4,
+    "y": 3.4,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 1.3,
+    "y": 18.2,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3.9,
+    "y": 20.8,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21.1,
+    "y": 18.2,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 23.7,
+    "y": 20.8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 9,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 15,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 9,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 15,
+    "y": 15,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 12,
+    "y": 18,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7,
+     15
+    ],
+    "b": [
+     1.3,
+     18.2
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     1.3,
+     18.2
+    ],
+    "b": [
+     10,
+     9
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     10,
+     9
+    ],
+    "b": [
+     10.6,
+     1.4
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

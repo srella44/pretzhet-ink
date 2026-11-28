@@ -1,0 +1,190 @@
+{
+ "id": "JL-0816",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 4v4+1 cuatro cuadrados",
+ "formato": "4v4+1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "20 × 20 m",
+ "duracion": "8 min",
+ "series": "4 × 2 min con 30 s de pausa; en cada serie rotan cuadrados y centro.",
+ "objetivo": "Combinar con apoyos fijos y moverse sin balón. Cómo explicarlo: los cuadrados son dos ayudas por equipo; los de dentro generan líneas de pase. Errores típicos: pasar al cuadrado sin mirar antes, perder la distancia. Observar: apoyos dentro y velocidad en el pase.",
+ "montaje": "Campo de 20 × 20 m con 4 cuadrados de 2 × 2 m en las esquinas. Dos equipos de 4 y 1 comodín con la defensa. Cada equipo pone 2 jugadores en cuadrados contrarios y 2 por dentro.",
+ "juego": "Los de cuadrado no salen y son apoyos libres; los de dentro combinan con ellos. Nadie pisa los cuadrados ajenos. Si hay robo o sale, cambia. Cada 2 min rotan los puestos.",
+ "punto": "1 punto por 10 pases seguidos (valen los de cuadrado); sigue con balón. Suma de 4 series de 2 min.",
+ "consigna": "Pasa al cuadrado y rota.",
+ "variantes": {
+  "facil": "8 pases por punto y comodín solo marca.",
+  "dificil": "Los de los cuadrados a un toque y 12 pases."
+ },
+ "adaptacion": "Alevín: 16 × 16 m y 6 pases. Cadete: ningún apoyo libre; se presiona al cuadrado.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 1 | entrada 816",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 171"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 4:4 + 1 comodín con la defensa, 20 × 20 m, cuatro cuadrados de 2 × 2 m con 2 jugadores de cada equipo, 4 × 2 min, 1 punto por 10 pases seguidos. (propuesta): esquinas para los cuadrados, prohibido pisarlos, rotaciones y pausas, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   20,
+   20
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 22
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    20,
+    0
+   ],
+   [
+    20,
+    20
+   ],
+   [
+    0,
+    20
+   ]
+  ],
+  "tag": "20 × 20 m · 4 cuadrados de 2 m",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     1.1,
+     1.1,
+     3.9,
+     3.9
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     16.1,
+     1.1,
+     18.9,
+     3.9
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     1.1,
+     16.1,
+     3.9,
+     18.9
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     16.1,
+     16.1,
+     18.9,
+     18.9
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 2.5,
+    "f": 45
+   },
+   {
+    "r": "B",
+    "x": 17.5,
+    "y": 2.5,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 2.5,
+    "y": 17.5,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 17.5,
+    "y": 17.5,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13.5,
+    "y": 12.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 5.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 10.5,
+    "y": 10,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.5,
+     9.5
+    ],
+    "b": [
+     13.5,
+     12.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     13.5,
+     12.5
+    ],
+    "b": [
+     17.5,
+     17.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

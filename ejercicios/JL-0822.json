@@ -1,0 +1,256 @@
+{
+ "id": "JL-0822",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Hexágono 6v6+1 con relevo",
+ "formato": "6v6+1",
+ "edad": "14–18 años",
+ "nivel": "Normal",
+ "jugadores": "13 jug.",
+ "espacio": "Hexágono de 10 m de lado",
+ "duracion": "8 min",
+ "series": "Una serie de 8 min; cada 2 min cambian los jugadores de los lados.",
+ "objetivo": "Circular y cambiar de puesto tras el pase. Cómo explicarlo: pasar a un lado obliga a entrar al centro, así que el relevo mantiene vivo el juego. Errores típicos: pasar y quedarse parado, no dar ángulo al relevo. Observar: tiempo entre pase y relevo y quien entra se orienta al espacio.",
+ "montaje": "Hexágono de 10 m de lado (6 conos). Cada equipo pone 3 jugadores en lados alternos y 3 dentro; 1 comodín con la defensa. Empieza un amarillo con balón.",
+ "juego": "Cuando un jugador de dentro pasa a uno de lado, los dos cambian: el pasador ocupa el lado y el receptor entra. Los de los lados no entran hasta ese relevo. Si pierde el balón o sale, pasa al rival.",
+ "punto": "1 punto por cada 8 pases seguidos (cuentan los relevos); sigue con balón. Gana quien más puntos tenga a los 8 min.",
+ "consigna": "Pasa, entra y relevo.",
+ "variantes": {
+  "facil": "6 pases por punto y comodín solo marca.",
+  "dificil": "Sin comodín marcando y el relevo debe hacerse en menos de 3 s."
+ },
+ "adaptacion": "Infantil: hexágono de 8 m. Juvenil: máximo 2 toques y 10 pases.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 6:6 + 1 | entrada 822",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 173"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 6:6 + 1 comodín con la defensa, hexágono de 10 m de lado, 3 jugadores de cada equipo en los lados y 3 dentro, 8 min, 1 punto por 8 pases seguidos; el que pasa a un lado lo releva. (propuesta): la rotación cada 2 min, el punto por relevo, edad, variantes. Se parece a JL-0084 (hexágono con relevos); aquí hay un comodín y 8 pases. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   22,
+   20
+  ],
+  "extent": {
+   "xmin": -3,
+   "xmax": 25,
+   "ymin": -3,
+   "ymax": 23
+  },
+  "nofield": true,
+  "cones": [
+   [
+    21,
+    10
+   ],
+   [
+    16,
+    18.66
+   ],
+   [
+    6,
+    18.66
+   ],
+   [
+    1,
+    10
+   ],
+   [
+    6,
+    1.34
+   ],
+   [
+    16,
+    1.34
+   ]
+  ],
+  "tag": "hexágono de 10 m de lado · esquema",
+  "lines": [
+   [
+    [
+     21,
+     10
+    ],
+    [
+     16,
+     18.66
+    ],
+    "1 0"
+   ],
+   [
+    [
+     16,
+     18.66
+    ],
+    [
+     6,
+     18.66
+    ],
+    "1 0"
+   ],
+   [
+    [
+     6,
+     18.66
+    ],
+    [
+     1,
+     10
+    ],
+    "1 0"
+   ],
+   [
+    [
+     1,
+     10
+    ],
+    [
+     6,
+     1.34
+    ],
+    "1 0"
+   ],
+   [
+    [
+     6,
+     1.34
+    ],
+    [
+     16,
+     1.34
+    ],
+    "1 0"
+   ],
+   [
+    [
+     16,
+     1.34
+    ],
+    [
+     21,
+     10
+    ],
+    "1 0"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 11,
+    "y": -0.2,
+    "f": 90
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 5,
+    "f": 150
+   },
+   {
+    "r": "A",
+    "x": 20,
+    "y": 15,
+    "f": -150
+   },
+   {
+    "r": "B",
+    "x": 11,
+    "y": 20.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 15,
+    "f": -30
+   },
+   {
+    "r": "B",
+    "x": 2,
+    "y": 5,
+    "f": 30
+   },
+   {
+    "r": "A",
+    "x": 7.5,
+    "y": 13,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 14.5,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 7.5,
+    "y": 6.5,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 14.5,
+    "y": 13.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 10,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     7.5,
+     13
+    ],
+    "b": [
+     2,
+     15
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 14,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     2,
+     15
+    ],
+    "b": [
+     6,
+     12
+    ],
+    "k": "run",
+    "s0": 14,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     7.5,
+     13
+    ],
+    "b": [
+     2.3,
+     15.4
+    ],
+    "k": "run",
+    "s0": 10,
+    "s1": 16,
+    "side": -1,
+    "nt": 0.5
+   }
+  ]
+ }
+}

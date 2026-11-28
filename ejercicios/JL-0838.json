@@ -1,0 +1,220 @@
+{
+ "id": "JL-0838",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 5v5+2 con pitotes",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "40 × 25 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa; cada 2 min cambian los comodines.",
+ "objetivo": "Conservar y finalizar con precisión sobre objetivos. Cómo explicarlo: hay que preparar la ocasión y tirar solo cuando se ve el pitote desprotegido. Errores típicos: tirar sin hacer los pases, tirar muy cruzado y alto. Observar: golpeo raso, elección del pitote y apoyo tras el tiro.",
+ "montaje": "Campo de 40 × 25 m con 4 pitotes (conos altos o picas) en cada línea de fondo. Cada equipo defiende los 4 de su fondo y ataca los del contrario. Dos equipos de 5 y 2 comodines con la defensa.",
+ "juego": "El equipo con balón da 10 pases seguidos y entonces puede tirar para derribar un pitote rival. Si pierde el balón, la cuenta empieza de nuevo. Tras el tiro, saca el equipo que defendía (propuesta).",
+ "punto": "1 punto por pitote derribado; se levantan tras cada tiro. Gana quien más derribe en 10 min.",
+ "consigna": "Diez pases y apunta.",
+ "variantes": {
+  "facil": "6 pases antes del tiro y un solo comodín.",
+  "dificil": "10 pases y tiro de primera."
+ },
+ "adaptacion": "Alevín: 4v4+2 en 30 × 20 m y 6 pases. Cadete: tiro con una sola pierna y pitotes más pequeños.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 838",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 175"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5 + 2 comodines con la defensa, 40 × 25 m, ocho pitotes en las líneas de fondo (4 por equipo), 10 min, 10 pases seguidos antes de tirar a derribar pitotes. (propuesta): quién saca tras el tiro, levantar los pitotes derribados, rotación de comodines, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   40,
+   25
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 42,
+   "ymin": -2,
+   "ymax": 27
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    40,
+    0
+   ],
+   [
+    40,
+    25
+   ],
+   [
+    0,
+    25
+   ]
+  ],
+  "tag": "40 × 25 m · 8 pitotes",
+  "discs": [
+   [
+    1,
+    4
+   ],
+   [
+    1,
+    9.5
+   ],
+   [
+    1,
+    15.5
+   ],
+   [
+    1,
+    21
+   ],
+   [
+    39,
+    4
+   ],
+   [
+    39,
+    9.5
+   ],
+   [
+    39,
+    15.5
+   ],
+   [
+    39,
+    21
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 8,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 18,
+    "y": 14,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 10,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 27,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 29,
+    "y": 18,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 20,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 24,
+    "y": 21,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 34,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 23,
+    "y": 13,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 35,
+    "y": 21,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     8,
+     6
+    ],
+    "b": [
+     18,
+     14
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     18,
+     14
+    ],
+    "b": [
+     29,
+     18
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     29,
+     18
+    ],
+    "b": [
+     39,
+     15.5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 8,
+    "side": 1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ]
+ }
+}

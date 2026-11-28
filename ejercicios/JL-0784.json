@@ -1,0 +1,200 @@
+{
+ "id": "JL-0784",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 5v5+2 cortos y largos",
+ "formato": "5v5+2",
+ "edad": "12–15 años",
+ "nivel": "Medio",
+ "jugadores": "12 jug.",
+ "espacio": "35 × 35 m",
+ "duracion": "10 min",
+ "series": "2 × 5 min con 1 min de pausa; cada 2 min cambian los comodines.",
+ "objetivo": "Variar la distancia del pase según el compañero. Cómo explicarlo: tres jugadores mantienen con pase corto y dos cambian el juego con pase largo; hay que saber a quién dársela. Errores típicos: el corto que se queda sin apoyo, el largo sin perfil. Observar: distancia entre jugadores y colocación de los largos a distinta altura.",
+ "montaje": "Cuadrado de 35 × 35 m. Dos equipos de 5 (amarillos y rojos) y 2 comodines que juegan con el equipo que defiende. Empieza un amarillo con balón. Cada equipo elige 3 «cortos» y 2 «largos».",
+ "juego": "Los cortos solo pasan a menos de 10 m y los largos, a más de 15 m. Un pase fuera de su tipo o un balón perdido dan la posesión al rival. Los largos reciben pase corto.",
+ "punto": "1 punto cada vez que el balón pasa por los 5 jugadores del equipo. A mitad de tiempo cambian los roles.",
+ "consigna": "Corto cerca, largo lejos.",
+ "variantes": {
+  "facil": "Solo un largo por equipo y se permite un comodín menos.",
+  "dificil": "Dos toques máximo y el largo siempre por el aire."
+ },
+ "adaptacion": "Alevín: cortos a menos de 6 m y largos a más de 10 m. Cadete: el largo debe cambiar de lado.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 5:5 + 2 | entrada 784",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 166"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 5:5 + 2 comodines con la defensa, 35 × 35 m, 10 min; 3 jugadores solo con pases cortos y 2 solo con pases largos. (propuesta): distancias de 10 y 15 m, punto por pasar por los 5 jugadores, rotación de roles, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   35,
+   35
+  ],
+  "extent": {
+   "xmin": -1.5,
+   "xmax": 36.5,
+   "ymin": -1.5,
+   "ymax": 36.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    35,
+    0
+   ],
+   [
+    35,
+    35
+   ],
+   [
+    0,
+    35
+   ]
+  ],
+  "tag": "35 × 35 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 6,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 24,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 21,
+    "y": 19,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 31,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 19,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 15,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 31,
+    "y": 16,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 28,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 27,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 24,
+    "y": 10,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 11,
+    "y": 21,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6,
+     5
+    ],
+    "b": [
+     13,
+     11
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     13,
+     11
+    ],
+    "b": [
+     21,
+     19
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     21,
+     19
+    ],
+    "b": [
+     31,
+     5
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "labels": [
+   [
+    6,
+    2.2,
+    "CORTO",
+    "middle"
+   ],
+   [
+    31,
+    2.2,
+    "LARGO",
+    "middle"
+   ]
+  ]
+ }
+}

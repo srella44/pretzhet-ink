@@ -1,0 +1,152 @@
+{
+ "id": "JL-0804",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Posesión 4v4+1 esquinas",
+ "formato": "4v4+1",
+ "edad": "12–15 años",
+ "nivel": "Normal",
+ "jugadores": "9 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "4 × 2 min con 30 s de pausa; en cada serie rotan esquinas y centro.",
+ "objetivo": "Combinar en espacio corto con apoyos fijos. Cómo explicarlo: las esquinas son ayudas libres; los de dentro se mueven para dejar la línea de pase abierta. Errores típicos: pasar siempre a la esquina, de dentro quedarse quietos. Observar: ángulos de apoyo y velocidad de circulación.",
+ "montaje": "Cuadrado de 15 × 15 m. Dos equipos de 4 y 1 comodín con la defensa. Cada equipo pone 2 jugadores en 2 esquinas contrarias (fijos) y los otros 2 juegan por dentro. Empieza un amarillo con balón.",
+ "juego": "Los de esquina no se mueven ni son presionados: son apoyos libres. Los de dentro se mueven y combinan con ellos. Si pierden el balón o sale, pasa al rival. Cada 2 min rotan esquinas y centro.",
+ "punto": "1 punto por 8 pases seguidos (valen los de esquina); sigue con balón. Suma de los 4 bloques de 2 min.",
+ "consigna": "Pasa y dale ángulo.",
+ "variantes": {
+  "facil": "6 pases por punto y comodín sin presionar.",
+  "dificil": "Dos toques máximo y los de esquina a un toque."
+ },
+ "adaptacion": "Alevín: cuadrado de 12 × 12 m y 6 pases. Cadete: sin esquinas libres: se presiona también.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico 4:4 + 1 | entrada 804",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 169"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 4:4 + 1 comodín con la defensa, 15 × 15 m, 4 × 2 min, 2 jugadores por equipo en dos esquinas y 2 por dentro, 1 punto por 8 pases seguidos. (propuesta): que las esquinas sean apoyos sin presión, rotaciones y pausas, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -2.5,
+   "xmax": 17.5,
+   "ymin": -2.5,
+   "ymax": 17.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    0,
+    15
+   ]
+  ],
+  "tag": "15 × 15 m · esquinas fijas",
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 14,
+    "f": 225
+   },
+   {
+    "r": "B",
+    "x": 14,
+    "y": 1,
+    "f": 135
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 14,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 9,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 5.5,
+    "y": 12,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 8.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     7.5
+    ],
+    "b": [
+     11,
+     10
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     11,
+     10
+    ],
+    "b": [
+     14,
+     14
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 10,
+    "side": 1,
+    "nt": 0.5,
+    "n": 2
+   }
+  ]
+ }
+}

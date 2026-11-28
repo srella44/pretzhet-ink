@@ -1,0 +1,213 @@
+{
+ "id": "JL-0842",
+ "bloque": "Técnica y duelos",
+ "titulo": "Juego 11v11+2 por las dos bandas",
+ "formato": "11v11+2",
+ "edad": "14–18 años",
+ "nivel": "Medio",
+ "jugadores": "24 jug.",
+ "espacio": "105 × 68 m",
+ "duracion": "40 min",
+ "series": "4 × 10 min con 2 min de pausa; cada serie cambian los comodines de equipo.",
+ "objetivo": "Combinar por las dos bandas antes de finalizar. Cómo explicarlo: el balón debe pasar por los dos lados antes de rematar, así que hay que cambiar el juego con calidad. Errores típicos: forzar el cambio sin apoyos, olvidar la banda libre. Observar: amplitud y llegada al área desde los dos lados.",
+ "montaje": "Campo de 105 × 68 m con dos zonas laterales de 15 m de ancho (propuesta). Dos equipos de 11 y 2 comodines con el equipo que ataca.",
+ "juego": "Para tirar, el balón debe pasar por las dos zonas laterales en la misma jugada; si lo pierde, empieza de nuevo. Libre de toques y con fuera de juego.",
+ "punto": "Gol válido = 1 punto. Gana quien más goles marque al final de las 4 series.",
+ "consigna": "Por las dos bandas.",
+ "variantes": {
+  "facil": "Una sola banda pero con 6 pases.",
+  "dificil": "Las dos bandas y 3 toques por jugador."
+ },
+ "adaptacion": "Infantil: 9v9+2 en 70 × 50 m.",
+ "fuente": {
+  "autor": "Javier López López · 1.380 juegos para el entrenamiento de la técnica",
+  "titulo_original": "Juego técnico ejercicio global | entrada 842",
+  "ref": "1.380 juegos para el entrenamiento de la técnica · pág. 178"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Fuente (libro de J. López, texto leído en el PDF del proyecto): 11:11 + 2 comodines con el equipo que ataca, dos zonas laterales marcadas, el balón debe pasar por ambas antes de finalizar, libre de toques y con fuera de juego, 4 × 10 min. (propuesta): ancho de las zonas, número de jugadores, rotación de comodines, edad y variantes. Gráfico original no visto.",
+ "diagrama": {
+  "field": [
+   105,
+   68
+  ],
+  "extent": {
+   "xmin": -4,
+   "xmax": 109,
+   "ymin": -3,
+   "ymax": 73
+  },
+  "porterias": [
+   {
+    "x": 0,
+    "y": 34,
+    "lado": "L",
+    "ancho": 7.32,
+    "portero": true
+   },
+   {
+    "x": 105,
+    "y": 34,
+    "lado": "R",
+    "ancho": 7.32,
+    "portero": true
+   }
+  ],
+  "lines": [
+   [
+    [
+     52.5,
+     0
+    ],
+    [
+     52.5,
+     68
+    ],
+    "4 4"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 22,
+    "y": 34,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 40,
+    "y": 10,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 44,
+    "y": 58,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 70,
+    "y": 20,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 92,
+    "y": 34,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 48,
+    "y": 30,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 60,
+    "y": 48,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 80,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 84,
+    "y": 54,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 58,
+    "y": 30,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     22,
+     34
+    ],
+    "b": [
+     40,
+     6
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 1
+   },
+   {
+    "a": [
+     40,
+     6
+    ],
+    "b": [
+     66,
+     34
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 2
+   },
+   {
+    "a": [
+     66,
+     34
+    ],
+    "b": [
+     44,
+     62
+    ],
+    "k": "pass",
+    "s0": 12,
+    "s1": 12,
+    "side": -1,
+    "nt": 0.5,
+    "n": 3
+   }
+  ],
+  "tag": "105 × 68 m · esquema",
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     105,
+     15
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     0,
+     53,
+     105,
+     68
+    ]
+   }
+  ],
+  "labels": [
+   [
+    52.5,
+    71.6,
+    "EL BALÓN PASA POR LAS DOS BANDAS",
+    "middle"
+   ]
+  ]
+ }
+}
