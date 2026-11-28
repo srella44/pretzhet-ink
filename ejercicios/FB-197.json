@@ -1,0 +1,134 @@
+{
+ "id": "FB-197",
+ "bloque": "Calentamiento",
+ "titulo": "1 toque - 2 toques",
+ "formato": "Pases en cuadrado",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "8 × 8 m",
+ "duracion": "8 min",
+ "series": "4 bloques de 90 s por cuadrado, con 30 s de pausa; el entrenador cambia la orden cada 15 s.",
+ "objetivo": "Activar el pase y el control, alternando pase de primera y control más pase. Cómo explicarlo: «escucha: uno, pase de primera; dos, controla y pasa». Errores típicos: no escuchar la orden, controlar siempre y pasar sin mirar. Qué observar: atención a la voz, control orientado y pase al pie.",
+ "montaje": "Cuadrado de 8 × 8 m con 4 conos y un jugador en cada esquina, uno con balón. Con 8 o más, dos cuadrados. El entrenador da la voz.",
+ "juego": "Pasan por los lados o en diagonal. Con «uno», pase de primera; con «dos», control y pase. Tras pasar, el jugador cambia de esquina.",
+ "punto": "5 pases correctos seguidos = 1 punto; incumplir la orden, −1. Gana el cuadrado con más puntos.",
+ "consigna": "Escucha: uno o dos.",
+ "variantes": {
+  "facil": "Solo «dos toques» y pase al lado.",
+  "dificil": "Orden «tres» (cambio de esquina sin balón) y presión de un defensor."
+ },
+ "adaptacion": "Alevín (10–11): voz cada 20 s. Infantil–cadete (12–15): cada 10 s y un defensor en medio.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "1 TOQUE - 2 TOQUES",
+  "ref": "https://toplidercoach.com/futbol-base/1-toque-2-toques/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Voz del entrenador y puntos propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   8,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 10,
+   "ymin": -2.5,
+   "ymax": 10.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    0
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    0,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0,
+    "y": 0,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 0,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 8,
+    "y": 8,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 8,
+    "f": -45
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.5,
+     -0.2
+    ],
+    "b": [
+     7.5,
+     -0.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     8.2,
+     0.8
+    ],
+    "b": [
+     8.2,
+     7.2
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 12,
+    "s1": 12
+   },
+   {
+    "a": [
+     7.5,
+     8
+    ],
+    "b": [
+     0.5,
+     0.3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 12,
+    "s1": 12
+   }
+  ]
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "FB-187",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Pasar y cruzar el puente",
+ "formato": "Pase con defensor",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min con 30 s de pausa; rotan los defensores del puente.",
+ "objetivo": "Pase raso con precisión a través de una zona vigilada y cambio de lado con desmarque. Cómo explicarlo: «pasa, cruza y ocupa su sitio». Errores típicos: pase flojo que corta el defensor, cruzar sin pasar y no mirar la zona. Qué observar: pase al pie, velocidad de cruce y paciencia para elegir el momento.",
+ "montaje": "Campo de 20 × 14 m con «puente» central de 4 m. Tres jugadores en fila a cada lado, uno con balón; un defensor en el puente.",
+ "juego": "El de la fila con balón pasa raso al otro lado por el puente y cruza a ocupar el puesto del receptor. El defensor solo juega balones dentro del puente.",
+ "punto": "Pase que llega: 1 punto. Si lo corta el defensor, cambia con quien pasó.",
+ "consigna": "Pasa raso y cruza.",
+ "variantes": {
+  "facil": "Puente de 3 m y sin defensor: solo precisión.",
+  "dificil": "Puente de 6 m, dos defensores y pase de primera."
+ },
+ "adaptacion": "Alevín (10–11): puente de 3 m y un balón. Infantil (12–13): puente de 4–6 m, pase de primera y dos balones.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PASAR Y CRUZAR EL PUENTE",
+  "ref": "https://toplidercoach.com/futbol-base/pasar-y-cruzar-el-puente/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El puente se interpreta como zona central vigilada (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 22,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     8,
+     0,
+     12,
+     14
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 11,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 7,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 18,
+    "y": 11,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 10,
+    "y": 3.2,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.9,
+     7
+    ],
+    "b": [
+     17.1,
+     7
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     3,
+     8.4
+    ],
+    "b": [
+     17,
+     10.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    10,
+    -0.9,
+    "PUENTE",
+    "middle"
+   ]
+  ]
+ }
+}

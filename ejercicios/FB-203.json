@@ -1,0 +1,145 @@
+{
+ "id": "FB-203",
+ "bloque": "Calentamiento",
+ "titulo": "Velocidad de pies",
+ "formato": "Circuito de coordinación",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "14 × 10 m",
+ "duracion": "8 min",
+ "series": "4 vueltas por jugador con balón en cada vuelta; recuperación andando de la vuelta.",
+ "objetivo": "Mejorar la rapidez de apoyos y el sprint corto, activando pies y tobillos. Cómo explicarlo: «pies rápidos y ligeros, como sobre brasas». Errores típicos: pisar el balón fuerte, mirar al suelo, arrancar sin acabar los toques. Qué observar: apoyos cortos, cabeza alta y arrancada explosiva.",
+ "montaje": "3 carriles de 10 m y 1,5 m de ancho con un balón parado al inicio y un cono al final. Fila de 2–4 jugadores por carril.",
+ "juego": "Cada jugador hace 10 toques de planta alternos sobre el balón parado y esprinta hasta rodear el cono final. Vuelve andando; sale el siguiente.",
+ "punto": "10 toques sin perder el balón: 1 punto. Llegar primero al cono: 1 punto. 4 vueltas.",
+ "consigna": "Planta rápida y sprint.",
+ "variantes": {
+  "facil": "5 toques y sprint de 6 m.",
+  "dificil": "15 toques alternando pie y sprint de 12 m con cambio de dirección."
+ },
+ "adaptacion": "Alevín (10–11): 8 toques y 8 m. Infantil–cadete (12–15): 10–15 toques y 10–12 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD DE PIES",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-de-pies/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Circuito de toques y sprint propuesto. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   12,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 14,
+   "ymin": -1.5,
+   "ymax": 11.5
+  },
+  "cones": [
+   [
+    10.5,
+    1.5
+   ],
+   [
+    10.5,
+    5
+   ],
+   [
+    10.5,
+    8.5
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0,
+    "y": 1.5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 5,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 8.5,
+    "f": 0
+   }
+  ],
+  "balls": [
+   [
+    1.5,
+    1.5
+   ],
+   [
+    1.5,
+    5
+   ],
+   [
+    1.5,
+    8.5
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     1.5
+    ],
+    "b": [
+     10,
+     1.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     2.4,
+     5
+    ],
+    "b": [
+     10,
+     5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     2.4,
+     8.5
+    ],
+    "b": [
+     10,
+     8.5
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    1.5,
+    -0.6,
+    "10 TOQUES",
+    "middle"
+   ]
+  ]
+ }
+}

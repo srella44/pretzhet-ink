@@ -1,0 +1,203 @@
+{
+ "id": "FB-211",
+ "bloque": "Calentamiento",
+ "titulo": "Arranco y freno",
+ "formato": "Circuito de aceleración",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "18 × 8 m",
+ "duracion": "8 min",
+ "series": "4 vueltas por jugador con 20 s de recuperación andando.",
+ "objetivo": "Acelerar con balón y frenar bajo control dentro de una zona exacta. Cómo explicarlo: «sprint, frena con la suela y para dentro del cuadrado». Errores típicos: pasarse de largo, frenar con el cuerpo hacia atrás y perder el balón. Qué observar: último toque corto, cuerpo bajo y suela sobre el balón.",
+ "montaje": "3 carriles de 18 m con 3 zonas de frenada de 1 m cada 6 m. Fila de 2–4 jugadores con balón por carril.",
+ "juego": "El jugador conduce a sprint, frena con la suela y para el balón dentro de cada zona; luego reanuda hasta la siguiente. Vuelve andando.",
+ "punto": "Balón parado en zona: 1 punto; pasarse: 0. Vuelta perfecta, bonus de 1 punto. Gana quien más sume en 4 vueltas.",
+ "consigna": "Sprint, suela y para dentro.",
+ "variantes": {
+  "facil": "Solo 2 zonas de 1,5 m y a ritmo medio.",
+  "dificil": "Zonas de 0,8 m y la frenada con la pierna menos hábil."
+ },
+ "adaptacion": "Alevín (10–11): 2 zonas de 1,5 m. Infantil–cadete (12–15): 3 zonas de 1 m y ritmo de competición.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ARRANCO Y FRENO",
+  "ref": "https://toplidercoach.com/futbol-base/arranco-y-freno/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Medidas de zonas y puntuación propuestas. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   18,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 20,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     5.5,
+     0.8,
+     6.5,
+     2.2
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     11.5,
+     0.8,
+     12.5,
+     2.2
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     17,
+     0.8,
+     18,
+     2.2
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     5.5,
+     3.3,
+     6.5,
+     4.7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     11.5,
+     3.3,
+     12.5,
+     4.7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     17,
+     3.3,
+     18,
+     4.7
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     5.5,
+     5.8,
+     6.5,
+     7.2
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     11.5,
+     5.8,
+     12.5,
+     7.2
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     17,
+     5.8,
+     18,
+     7.2
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0,
+    "y": 1.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 6.5,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.9,
+     1.5
+    ],
+    "b": [
+     5.2,
+     1.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     0.9,
+     4
+    ],
+    "b": [
+     5.2,
+     4
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     0.9,
+     6.5
+    ],
+    "b": [
+     5.2,
+     6.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.8,
+    "ZONA DE FRENADA",
+    "middle"
+   ]
+  ]
+ }
+}

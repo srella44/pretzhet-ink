@@ -1,0 +1,131 @@
+{
+ "id": "FB-215",
+ "bloque": "Superioridades",
+ "titulo": "Apoyos y 1x1",
+ "formato": "1x1 con apoyo",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "3–9 jug.",
+ "espacio": "18 × 10 m",
+ "duracion": "12 min",
+ "series": "Cada trío juega 8 duelos; descanso de 30 s al rotar. 3 rondas.",
+ "objetivo": "Decidir entre el uno contra uno y el pase de apoyo, usando al compañero como pared. Cómo explicarlo: «si el defensor se acerca, apoya y pide pared». Errores típicos: encarar sin mirar al apoyo, pase tardío y apoyo parado. Qué observar: orientación, apoyo en lateral y decisión rápida.",
+ "montaje": "Campo de 18 × 10 m con línea de gol a la derecha. Trío: atacante con balón, defensor a 2 m y apoyo a 3 m del atacante, en banda.",
+ "juego": "El atacante intenta cruzar la línea conduciendo. Si el defensor se acerca, pasa al apoyo y recibe la pared. El defensor solo roba.",
+ "punto": "Cruzar la línea: 1 punto; pared completada, +1. Si el defensor roba y cruza la contraria, 2.",
+ "consigna": "Mira al apoyo y decide.",
+ "variantes": {
+  "facil": "Defensor pasivo hasta el segundo toque del atacante.",
+  "dificil": "Apoyo con un solo toque y espacio de 14 m."
+ },
+ "adaptacion": "Alevín (10–11): campo de 14 × 8 m. Infantil–cadete (12–15): 18 × 10 m y pared obligada de primera.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "APOYOS Y 1X1",
+  "ref": "https://toplidercoach.com/futbol-base/apoyos-y-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Interpretación: 1x1 con apoyo (propuesta); el título solo da la idea. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   18,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 20,
+   "ymin": -2,
+   "ymax": 12
+  },
+  "lines": [
+   [
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     10
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 6,
+    "y": 1.5,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.9,
+     4.6
+    ],
+    "b": [
+     5.5,
+     2.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 5,
+    "s1": 6
+   },
+   {
+    "a": [
+     6.7,
+     2
+    ],
+    "b": [
+     10,
+     5.8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     9.5,
+     6.5
+    ],
+    "b": [
+     17.3,
+     6.6
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    17,
+    -0.9,
+    "LÍNEA DE GOL",
+    "middle"
+   ]
+  ]
+ }
+}

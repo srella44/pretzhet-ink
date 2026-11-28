@@ -1,0 +1,163 @@
+{
+ "id": "FB-207",
+ "bloque": "Técnica y duelos",
+ "titulo": "Fuerza controlada",
+ "formato": "Pase medido",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "16 × 8 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 10 pases por jugador; 30 s de pausa y cambio de pierna.",
+ "objetivo": "Dosificar la fuerza del pase para que el balón llegue y se pare donde queremos. Cómo explicarlo: «cuanto más lejos, más fuerte; cuanto más cerca, más suave». Errores típicos: golpear con la puntera, mirar solo el balón y pasarse de largo. Qué observar: pie de apoyo, empeine o interior firme y ajuste de fuerza según la distancia.",
+ "montaje": "3 cuadrados de 2 × 2 m a 5, 9 y 13 m de la línea de pase. Un jugador con 6 balones en la línea; su pareja detrás recoge y devuelve.",
+ "juego": "Pasa 2 balones a cada cuadrado con el interior, buscando que el balón se pare dentro. Luego cambian los papeles.",
+ "punto": "Balón parado dentro: 3 puntos (lejano), 2 (medio) y 1 (cercano). Gana quien sume más en 3 rondas.",
+ "consigna": "Pasa justo, que se pare dentro.",
+ "variantes": {
+  "facil": "Cuadrados de 3 × 3 m y solo 5 y 9 m.",
+  "dificil": "Cuadrados de 1,5 × 1,5 m y pase con la pierna menos hábil."
+ },
+ "adaptacion": "Benjamín (8–9): 3 cuadrados de 3 × 3 m y distancias de 4 y 8 m. Alevín (10–11): medidas del montaje y pierna menos hábil.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "FUERZA CONTROLADA",
+  "ref": "https://toplidercoach.com/futbol-base/fuerza-controlada/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Distancias, puntos y mecánica propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     5,
+     0.5,
+     7,
+     2.5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     9,
+     3,
+     11,
+     5
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     13,
+     5.5,
+     15,
+     7.5
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 1,
+    "y": 6.8,
+    "f": 0
+   }
+  ],
+  "balls": [
+   [
+    1.6,
+    3.4
+   ],
+   [
+    1.6,
+    4.6
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.9,
+     3.7
+    ],
+    "b": [
+     5.5,
+     1.6
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 8
+   },
+   {
+    "a": [
+     1.9,
+     4
+    ],
+    "b": [
+     9.5,
+     4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 4,
+    "s1": 8
+   },
+   {
+    "a": [
+     1.9,
+     4.3
+    ],
+    "b": [
+     13.5,
+     6.4
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 4,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    6,
+    -0.9,
+    "5 M · 1 PUNTO",
+    "middle"
+   ],
+   [
+    10,
+    2.3,
+    "9 M · 2",
+    "middle"
+   ],
+   [
+    14,
+    8.7,
+    "13 M · 3",
+    "middle"
+   ]
+  ]
+ }
+}

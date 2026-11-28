@@ -1,0 +1,136 @@
+{
+ "id": "FB-195",
+ "bloque": "Calentamiento",
+ "titulo": "Arriba y abajo",
+ "formato": "Pase y reacción",
+ "edad": "10–15 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "18 × 12 m",
+ "duracion": "8 min",
+ "series": "4 bloques de 1 min con 30 s de pausa; el entrenador cambia la señal en cada bloque.",
+ "objetivo": "Activar con pases rápidos y reaccionar a una señal sin perder el control. Cómo explicarlo: «pasa, mira al entrenador y haz arriba o abajo». Errores típicos: no mirar la señal, pase impreciso al reaccionar y relajar tras el gesto. Qué observar: atención, pase al pie y recuperar el pase sin perder ritmo.",
+ "montaje": "Parejas a 8 m con 1 balón, en 3 filas separadas 4 m. El entrenador al frente, con una mano arriba o abajo.",
+ "juego": "Se pasan a 2 toques. Tras pasar, el que pasa mira al entrenador: mano arriba, salto; mano abajo, toca el suelo con la mano y vuelve a su sitio.",
+ "punto": "10 pases sin error = 1 punto; reacción mal hecha, −1. Gana la pareja con más puntos en 4 bloques.",
+ "consigna": "Pasa, mira y reacciona.",
+ "variantes": {
+  "facil": "Pase con la mano a 5 m y gestos solo con salto.",
+  "dificil": "Pase de primera y señal con dedos (1 salto, 2 sentadilla, 3 giro)."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y 2 gestos. Infantil–cadete (12–15): primera, 3 gestos y puntos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ARRIBA Y ABAJO",
+  "ref": "https://toplidercoach.com/futbol-base/arriba-y-abajo/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Gestos arriba y abajo propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   18,
+   12
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 19,
+   "ymin": -3,
+   "ymax": 13.5
+  },
+  "nofield": true,
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 2.5,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 3,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "D",
+    "x": 3,
+    "y": 9.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "D",
+    "x": 13,
+    "y": 9.5,
+    "f": 180
+   },
+   {
+    "r": "C",
+    "x": 8,
+    "y": 12.5,
+    "f": -90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     2.5
+    ],
+    "b": [
+     12,
+     2.5
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 5,
+    "s1": 5
+   },
+   {
+    "a": [
+     12,
+     3.4
+    ],
+    "b": [
+     4,
+     3.4
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 5,
+    "s1": 5
+   }
+  ],
+  "labels": [
+   [
+    8,
+    -1.6,
+    "PAREJAS A 8 M",
+    "middle"
+   ],
+   [
+    11.3,
+    12.8,
+    "ENTRENADOR",
+    "start"
+   ]
+  ]
+ }
+}

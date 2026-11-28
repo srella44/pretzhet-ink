@@ -1,0 +1,159 @@
+{
+ "id": "FB-213",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Dejar entrar",
+ "formato": "Posesión con bandas",
+ "edad": "8–13 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "24 × 16 m",
+ "duracion": "12 min",
+ "series": "4 series de 3 min con 1 min de pausa; los defensores cambian cada serie.",
+ "objetivo": "Defender sin precipitarse: esperar a que el atacante rompa hacia dentro y cerrarle allí con ayuda. Cómo explicarlo: «no te lances en la banda, deja que entre y cerrad entre dos». Errores típicos: salir antes de tiempo, quedarse solo y no cerrar el pase. Qué observar: distancia de seguridad, ayuda del compañero y coordinación.",
+ "montaje": "Campo de 24 × 16 m: centro de 16 × 16 m y 2 bandas de 4 m. En cada banda 2 atacantes; en el centro 1 atacante y 3 defensores.",
+ "juego": "Los de banda pasan o conducen y rompen hacia dentro. Los defensores no salen a la banda: esperan y, al entrar el atacante, dos cierran y uno cubre el pase.",
+ "punto": "Atacantes: 1 punto por 3 pases en el centro. Defensores: 1 punto por robo; quien perdió pasa a defender.",
+ "consigna": "Espera, cierra entre dos.",
+ "variantes": {
+  "facil": "4 defensores en el centro y bandas de 6 m.",
+  "dificil": "2 defensores y atacantes con límite de 2 toques."
+ },
+ "adaptacion": "Benjamín (8–9): 5v3 con espacio grande. Alevín (10–11): 5v3 con reglas. Infantil (12–13): 5v4 y a 2 toques.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "DEJAR AL QUE ROMPE DENTRO",
+  "ref": "https://toplidercoach.com/futbol-base/dejar-al-que-rompe-dentro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Interpretación táctica del título: orientar y cerrar dentro (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   24,
+   16
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 26,
+   "ymin": -2,
+   "ymax": 18
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     0,
+     0,
+     4,
+     16
+    ]
+   },
+   {
+    "t": "rect",
+    "r": [
+     20,
+     0,
+     24,
+     16
+    ]
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 2,
+    "y": 12,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 22,
+    "y": 12,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 4.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8,
+    "y": 11.5,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 15,
+    "y": 8,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.9,
+     12
+    ],
+    "b": [
+     7,
+     8.5
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 5,
+    "s1": 6
+   },
+   {
+    "a": [
+     8,
+     7.5
+    ],
+    "b": [
+     11,
+     8
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    2,
+    -0.9,
+    "BANDA",
+    "middle"
+   ],
+   [
+    22,
+    -0.9,
+    "BANDA",
+    "middle"
+   ]
+  ]
+ }
+}

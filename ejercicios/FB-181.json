@@ -1,0 +1,142 @@
+{
+ "id": "FB-181",
+ "bloque": "Técnica y duelos",
+ "titulo": "Exterior e interior",
+ "formato": "Conducción por parejas",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "2–6 jug.",
+ "espacio": "14 × 8 m",
+ "duracion": "10 min",
+ "series": "4 idas y vueltas por jugador, 20 segundos de pausa entre ellas.",
+ "objetivo": "Dominar la conducción alternando exterior e interior del mismo pie. Cómo explicarlo: «exterior, interior, sin mirar el balón». Errores típicos: golpear en vez de acompañar, mirar solo el balón, tocar siempre con el mismo lado. Qué observar: toques suaves, balón cerca del pie y cabeza levantada entre toques.",
+ "montaje": "Dos carriles de 12 m, uno por jugador, con 5 conos cada 2,5 m. Cada jugador con balón en su salida y un disco de giro al final.",
+ "juego": "Salen a la vez conduciendo entre los conos: 1 toque con exterior y 1 con interior, alternando. Al llegar, giran en el disco y vuelven con la otra pierna.",
+ "punto": "Gana la vuelta quien llegue antes: 2 puntos. Cono tirado, −1. Se suman 4 rondas.",
+ "consigna": "Exterior, interior y cabeza arriba.",
+ "variantes": {
+  "facil": "Cinco conos cada 3 m y sin competir contra el compañero.",
+  "dificil": "Conos cada 1,5 m y la vuelta solo con la pierna menos hábil."
+ },
+ "adaptacion": "Alevín (10–11): conos cada 3 m, solo ida. Infantil–cadete (12–15): conos cada 2 m y ritmo de competición.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TÉCNICA EXTERIOR - INTERIOR",
+  "ref": "https://toplidercoach.com/futbol-base/tecnica-exterior-interior/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Distancias y puntos propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   14,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    3,
+    2
+   ],
+   [
+    5.5,
+    2
+   ],
+   [
+    8,
+    2
+   ],
+   [
+    10.5,
+    2
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    5.5,
+    6
+   ],
+   [
+    8,
+    6
+   ],
+   [
+    10.5,
+    6
+   ]
+  ],
+  "discs": [
+   [
+    13,
+    2
+   ],
+   [
+    13,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 2,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 0.5,
+    "y": 6,
+    "f": 0,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.3,
+     2
+    ],
+    "b": [
+     12.2,
+     2
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 4,
+    "s1": 4
+   },
+   {
+    "a": [
+     1.3,
+     6
+    ],
+    "b": [
+     12.2,
+     6
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 4
+   }
+  ],
+  "labels": [
+   [
+    7,
+    -0.9,
+    "EXTERIOR / INTERIOR",
+    "middle"
+   ]
+  ]
+ }
+}

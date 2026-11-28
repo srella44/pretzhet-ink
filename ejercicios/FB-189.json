@@ -1,0 +1,127 @@
+{
+ "id": "FB-189",
+ "bloque": "Técnica y duelos",
+ "titulo": "Rueda a 1 toque",
+ "formato": "Pases a un toque",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "2–10 jug.",
+ "espacio": "12 × 12 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min por grupo, 30 s de pausa. Récord de pases del grupo en cada ronda.",
+ "objetivo": "Pasar y controlar a un toque en una rueda, con la cabeza levantada. Cómo explicarlo: «mira antes de recibir y pasa de primera». Errores típicos: parar el balón, pasar al vecino siempre, no moverse. Qué observar: cuerpo orientado, perfil abierto y pase firme al pie.",
+ "montaje": "Grupos de 5 jugadores en círculo de 8 m con 1 balón. Si hay más jugadores, varias ruedas. Un cono marca cada puesto.",
+ "juego": "El balón circula a un toque. No vale pasar al vecino: el pase salta a uno de los dos jugadores lejanos. Dos toques o balón perdido = empieza otra cuenta.",
+ "punto": "Cada pase seguido suma 1; al fallar se anota el récord y se empieza de cero. Gana el mejor récord.",
+ "consigna": "Mira, pasa de primera.",
+ "variantes": {
+  "facil": "Permitir 2 toques y pasar a cualquiera.",
+  "dificil": "Dos balones a la vez y un jugador central que presiona."
+ },
+ "adaptacion": "Alevín (10–11): 2 toques y 8 m. Infantil (12–13): un toque, 10 m y dos balones.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA A 1 TOQUE",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-a-1-toque/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Regla del pase al lejano y puntos propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   12,
+   12
+  ],
+  "extent": {
+   "xmin": -0.5,
+   "xmax": 12.5,
+   "ymin": -1.2,
+   "ymax": 13
+  },
+  "dashed": true,
+  "tag": "círculo 8 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 6.0,
+    "y": 1.4,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 10.37,
+    "y": 4.58,
+    "f": 162
+   },
+   {
+    "r": "A",
+    "x": 8.7,
+    "y": 9.72,
+    "f": -126
+   },
+   {
+    "r": "A",
+    "x": 3.3,
+    "y": 9.72,
+    "f": -54
+   },
+   {
+    "r": "A",
+    "x": 1.63,
+    "y": 4.58,
+    "f": 18
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.0,
+     1.4
+    ],
+    "b": [
+     8.7,
+     9.72
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     8.7,
+     9.72
+    ],
+    "b": [
+     1.63,
+     4.58
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.3
+   },
+   {
+    "a": [
+     1.63,
+     4.58
+    ],
+    "b": [
+     10.37,
+     4.58
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.3
+   }
+  ]
+ }
+}

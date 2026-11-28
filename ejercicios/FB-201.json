@@ -1,0 +1,143 @@
+{
+ "id": "FB-201",
+ "bloque": "Calentamiento",
+ "titulo": "Protejo el tesoro",
+ "formato": "Juego de puntería",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "10 min",
+ "series": "4 rondas de 2 min por equipo; los guardianes cambian cada 30 s.",
+ "objetivo": "Pase y tiro con precisión y defensa colectiva del espacio. Cómo explicarlo: «pasa fuerte al tesoro y no te dejes tapar». Errores típicos: tirar sin mirar, tirar con la puntera y los guardianes que se juntan. Qué observar: cabeza arriba, buena colocación del cuerpo y comunicación entre guardianes.",
+ "montaje": "Cuadrado de 16 × 16 m con círculo central de 4 m y un cono con balón («tesoro»). Dos guardianes dentro; los demás, fuera con balón.",
+ "juego": "Los ladrones, sin entrar en el círculo, chutan rasos al tesoro. Los guardianes lo tapan con piernas y cuerpo, sin manos. Si cae, se recoloca.",
+ "punto": "Tesoro tirado: 1 punto al ladrón. Ronda sin caer: 1 punto a los guardianes.",
+ "consigna": "Cabeza arriba y chuta raso.",
+ "variantes": {
+  "facil": "Círculo de 6 m y un solo guardián.",
+  "dificil": "Círculo de 3 m, tres guardianes y chute de primera."
+ },
+ "adaptacion": "Alevín (10–11): círculo de 5 m y 1 guardián. Infantil (12–13): círculo de 4 m, 2–3 guardianes.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "PROTEJO EL TESORO",
+  "ref": "https://toplidercoach.com/futbol-base/protejo-el-tesoro/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Mecánica del tesoro y puntos propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1.5,
+   "ymax": 17.5
+  },
+  "zones": [
+   {
+    "t": "circle",
+    "x": 8,
+    "y": 8,
+    "r": 2
+   }
+  ],
+  "cones": [
+   [
+    8,
+    8
+   ]
+  ],
+  "balls": [
+   [
+    8,
+    8
+   ]
+  ],
+  "players": [
+   {
+    "r": "D",
+    "x": 6.5,
+    "y": 8,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 9.5,
+    "y": 8,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 8,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 13,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14.5,
+    "y": 5,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 14.5,
+    "y": 11,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.4,
+     3.4
+    ],
+    "b": [
+     5.4,
+     6.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 5,
+    "s1": 6
+   },
+   {
+    "a": [
+     13.6,
+     11
+    ],
+    "b": [
+     10.4,
+     9.6
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": -1,
+    "s0": 5,
+    "s1": 6
+   }
+  ]
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "id": "FB-221",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Apoyo y pared",
+ "formato": "Juego 3v1 con pared",
+ "edad": "8–13 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "16 × 12 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min con 30 s de pausa; rotan los defensores.",
+ "objetivo": "Ofrecer apoyo al compañero con el balón y hacer paredes (1-2) para superar al defensor. Cómo explicarlo: «pasa, muévete y pide pared». Errores típicos: devolver el pase al pie del defensor, quedarse parado y juntarse. Qué observar: ángulo de apoyo, tempo del pase y movimiento tras el pase.",
+ "montaje": "Campo de 16 × 12 m con 2 zonas. En cada una, 3 atacantes contra 1 defensor y un balón.",
+ "juego": "Los atacantes buscan la pared: A pasa a B y corre al hueco, B le devuelve de primera y A pasa a C. El defensor intenta robar; si lo logra, cambia con quien pasó.",
+ "punto": "Pared completada: 1 punto; 5 pases seguidos: 1 punto. Gana el grupo con más puntos en 4 series.",
+ "consigna": "Pasa, apoya y pared.",
+ "variantes": {
+  "facil": "Un defensor pasivo (sin robar) en el primer minuto.",
+  "dificil": "2 defensores y solo valen las paredes de primera."
+ },
+ "adaptacion": "Benjamín (8–9): 3v1 con 2 toques. Alevín (10–11): 3v1. Infantil (12–13): 4v2 y pared de primera.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "APOYO Y PARED",
+  "ref": "https://toplidercoach.com/futbol-base/apoyo-y-pared/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Mecánica de la pared y puntos propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "lines": [
+   [
+    [
+     8,
+     0
+    ],
+    [
+     8,
+     12
+    ],
+    "6 5"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 2.5,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 6,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3,
+    "y": 10.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 4.6,
+    "y": 4.2,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 14,
+    "y": 6,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 10.2,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 12.6,
+    "y": 4.2,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     3.3,
+     3.4
+    ],
+    "b": [
+     5.4,
+     5.4
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     2.2,
+     3.9
+    ],
+    "b": [
+     1.2,
+     7.8
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     5.3,
+     6.8
+    ],
+    "b": [
+     2,
+     8
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    4,
+    -0.9,
+    "ZONA 1",
+    "middle"
+   ],
+   [
+    12,
+    -0.9,
+    "ZONA 2",
+    "middle"
+   ]
+  ]
+ }
+}

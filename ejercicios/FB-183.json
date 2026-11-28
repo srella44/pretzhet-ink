@@ -1,0 +1,130 @@
+{
+ "id": "FB-183",
+ "bloque": "Superioridades",
+ "titulo": "Velocidad y 1x1",
+ "formato": "1x1 con carrera",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "2–10 jug.",
+ "espacio": "14 × 8 m",
+ "duracion": "10 min",
+ "series": "Cada pareja juega 6 duelos; la pareja siguiente espera en fila. Descanso de 30 s entre rondas.",
+ "objetivo": "Unir velocidad de reacción con el duelo 1x1: llegar primero al balón y atacar o defender con decisión. Cómo explicarlo: «el que llega primero ataca». Errores típicos: no reaccionar a la señal, frenar antes de llegar y dejar de mirar al rival. Qué observar: primeros pasos, orientación del cuerpo y desequilibrios.",
+ "montaje": "Pareja en la línea de salida, a 6 m de un balón parado. Miniportería de 3 m a 14 m. El entrenador a un lado da la señal.",
+ "juego": "A la señal, los dos corren al balón. Quien llega primero ataca la miniportería y el otro defiende, 10 segundos como máximo. Si el defensor roba, puede chutar.",
+ "punto": "Gol: 1 punto; si marca el defensor tras robar, 2. Sin gol, 0. Gana quien más sume en 6 duelos.",
+ "consigna": "Sprint al balón y decide rápido.",
+ "variantes": {
+  "facil": "El balón a 4 m y miniportería de 4 m. El defensor sale 1 m detrás.",
+  "dificil": "Balón a 8 m, portería de 2,5 m y duelo de 8 segundos."
+ },
+ "adaptacion": "Prebenjamín (6–7): carrera de 4 m y sin puntos. Benjamín (8–9): 6 m. Alevín (10–11): 8 m y duelo de 8 s.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "VELOCIDAD Y 1X1",
+  "ref": "https://toplidercoach.com/futbol-base/velocidad-y-1x1/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Mecánica de la señal, distancias y puntos propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   14,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "goals": [
+   [
+    14,
+    4,
+    "R"
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0.5,
+    "y": 2.6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 0.5,
+    "y": 5.4,
+    "f": 0
+   },
+   {
+    "r": "C",
+    "x": 3,
+    "y": -0.8,
+    "f": 90
+   }
+  ],
+  "balls": [
+   [
+    7,
+    4
+   ]
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.4,
+     2.6
+    ],
+    "b": [
+     6.2,
+     3.7
+    ],
+    "k": "run",
+    "n": 1,
+    "side": 1,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     1.4,
+     5.4
+    ],
+    "b": [
+     6.2,
+     4.3
+    ],
+    "k": "run",
+    "n": 1,
+    "side": -1,
+    "s0": 4,
+    "s1": 6
+   },
+   {
+    "a": [
+     7.8,
+     4
+    ],
+    "b": [
+     13.2,
+     4
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 4,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    3.6,
+    -1.5,
+    "ENTRENADOR",
+    "start"
+   ]
+  ]
+ }
+}

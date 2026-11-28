@@ -1,0 +1,182 @@
+{
+ "id": "FB-205",
+ "bloque": "Calentamiento",
+ "titulo": "El sembrador",
+ "formato": "Juego de relevos",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 10 m",
+ "duracion": "10 min",
+ "series": "3 rondas de 2 min; los equipos intercambian papel entre rondas, con 1 min de pausa.",
+ "objetivo": "Pasar y conducir con precisión jugando a sembrar y recoger. Cómo explicarlo: «los sembradores plantan balones en los aros y los recolectores los llevan al granero». Errores típicos: pasar fuerte, dejar el balón fuera del aro y correr sin control. Qué observar: pase suave al aro, conducción cerrada y colaboración.",
+ "montaje": "Campo de 16 × 10 m con 6 aros en el centro (huerto) y un aro grande (granero) a un lado. Sembradores con 6 balones; recolectores junto al granero.",
+ "juego": "Cada sembrador sale con un balón y lo deja parado dentro de un aro libre. Los recolectores, de uno en uno, llevan un balón sembrado al granero.",
+ "punto": "Balón dentro de un aro: 1 punto sembrador. Balón en el granero: 1 punto recolector. Suman las 2 rondas.",
+ "consigna": "Siembra suave y recoge despacio.",
+ "variantes": {
+  "facil": "Siembra con la mano y los aros más cerca del granero.",
+  "dificil": "Sembrar con pase raso desde 3 m y el recolector solo con la pierna menos hábil."
+ },
+ "adaptacion": "Prebenjamín (6–7): sembrar con la mano. Benjamín (8–9): pase raso corto. Alevín (10–11): pase desde 3 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "EL SEMBRADOR",
+  "ref": "https://toplidercoach.com/futbol-base/el-sembrador/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Mecánica de sembrar y recoger propuesta (el título sugiere sembrar). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   10
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -1.5,
+   "ymax": 11.5
+  },
+  "zones": [
+   {
+    "t": "circle",
+    "x": 7,
+    "y": 2.5,
+    "r": 0.8
+   },
+   {
+    "t": "circle",
+    "x": 9,
+    "y": 2.5,
+    "r": 0.8
+   },
+   {
+    "t": "circle",
+    "x": 7,
+    "y": 5,
+    "r": 0.8
+   },
+   {
+    "t": "circle",
+    "x": 9,
+    "y": 5,
+    "r": 0.8
+   },
+   {
+    "t": "circle",
+    "x": 7,
+    "y": 7.5,
+    "r": 0.8
+   },
+   {
+    "t": "circle",
+    "x": 9,
+    "y": 7.5,
+    "r": 0.8
+   },
+   {
+    "t": "circle",
+    "x": 14.5,
+    "y": 5,
+    "r": 1.5
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 15.5,
+    "y": 3,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 15.5,
+    "y": 7,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.8,
+     3
+    ],
+    "b": [
+     6,
+     2.6
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 5,
+    "s1": 8
+   },
+   {
+    "a": [
+     14,
+     3.2
+    ],
+    "b": [
+     9.8,
+     4.4
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     9.8,
+     5.2
+    ],
+    "b": [
+     13,
+     5
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    8,
+    0.3,
+    "HUERTO",
+    "middle"
+   ],
+   [
+    14.5,
+    7.6,
+    "GRANERO",
+    "middle"
+   ]
+  ]
+ }
+}

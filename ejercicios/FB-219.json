@@ -1,0 +1,136 @@
+{
+ "id": "FB-219",
+ "bloque": "Calentamiento",
+ "titulo": "Pase y desmarque",
+ "formato": "Circuito en triángulo",
+ "edad": "10–13 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "14 × 12 m",
+ "duracion": "10 min",
+ "series": "4 vueltas por grupo de 3 con 20 s de pausa; rotan los puestos.",
+ "objetivo": "Coordinar el pase con el desmarque (cambio de ritmo) y un movimiento previo. Cómo explicarlo: «toca el cono, pasa y arranca al hueco». Errores típicos: pasar sin esperar el desmarque, desmarcarse con el pase ya dado y pase fuera del pie. Qué observar: timing, carrera diagonal y pase al pie del compañero.",
+ "montaje": "Triángulo de 10 m con 3 conos y un jugador en cada vértice, uno con balón. Un cono de desmarque a 4 m de ese jugador.",
+ "juego": "El del balón toca el cono, vuelve y pasa a su compañero. Corre en diagonal al hueco, recibe el pase en carrera y conduce al vértice del tercero para repetir.",
+ "punto": "Pase en carrera correcto: 1 punto; fuera del pie o parado: 0. Gana el grupo con más puntos en 4 vueltas.",
+ "consigna": "Toca, pasa y desmárcate.",
+ "variantes": {
+  "facil": "Pase directo, sin cono, y 8 m de lado.",
+  "dificil": "Pase de primera y 12 m de lado."
+ },
+ "adaptacion": "Alevín (10–11): 8 m y pase libre. Infantil (12–13): 10–12 m, de primera y con segundo cono.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "COORDINACIÓN PASE Y DESMARQUE",
+  "ref": "https://toplidercoach.com/futbol-base/coordinacion-pase-y-desmarque/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–13 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Mecánica del cono y pase en carrera propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   14,
+   12
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 14
+  },
+  "cones": [
+   [
+    1,
+    10
+   ],
+   [
+    13,
+    10
+   ],
+   [
+    7,
+    1
+   ],
+   [
+    3,
+    6
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 10.5,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.5,
+    "y": 10.5,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 7,
+    "y": 1.5,
+    "f": 90
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2.3,
+     10.3
+    ],
+    "b": [
+     11.5,
+     10.3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     2.8,
+     9.4
+    ],
+    "b": [
+     6.4,
+     3
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   },
+   {
+    "a": [
+     12,
+     9.6
+    ],
+    "b": [
+     7.6,
+     3
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 6,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    2.4,
+    5.3,
+    "DESMARQUE",
+    "end"
+   ]
+  ]
+ }
+}

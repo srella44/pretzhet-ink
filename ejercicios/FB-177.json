@@ -1,0 +1,148 @@
+{
+ "id": "FB-177",
+ "bloque": "Calentamiento",
+ "titulo": "Agilidad y pase",
+ "formato": "Circuito por parejas",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 8 m",
+ "duracion": "10 min",
+ "series": "4 vueltas por jugador; 30 segundos de pausa al terminar la fila y cambio de lado.",
+ "objetivo": "Activar pies y piernas, y coordinar un cambio de ritmo con un pase. Cómo explicarlo: «pasa, pies rápidos y sprint a recibir». Errores típicos: pase flojo, cruzar el slalom sin apoyos cortos, arrancar antes de pasar. Qué observar: apoyos cortos en el slalom, cabeza arriba al recibir y pase al pie.",
+ "montaje": "Dos filas a 16 m. Entre ellas, slalom de 4 conos cada 2 m, empezando a 4 m de la fila A. El primero de A lleva balón.",
+ "juego": "El primero de A pasa a B, hace el slalom con pasos cortos y esprinta al disco final. B le devuelve el pase, A conduce hasta la fila B y B repite al revés.",
+ "punto": "1 punto por vuelta sin tirar conos y con pase al pie. Gana la fila con más puntos en 4 vueltas.",
+ "consigna": "Pasos cortos, pase fuerte y sprint.",
+ "variantes": {
+  "facil": "Slalom con conos cada 2,5 m y pase libre.",
+  "dificil": "Pase de primera y slalom solo con apoyos de pierna izquierda y derecha alternos."
+ },
+ "adaptacion": "Alevín (10–11): 3 conos y pase libre. Infantil–cadete (12–15): 4 conos y pase de primera.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "AGILIDAD-VELOCIDAD CON PASE",
+  "ref": "https://toplidercoach.com/futbol-base/agilidad-velocidad-con-pase/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Slalom, medidas y puntos propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   8
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 18,
+   "ymin": -2,
+   "ymax": 10
+  },
+  "cones": [
+   [
+    4,
+    4
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    8,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "discs": [
+   [
+    12,
+    4
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 0,
+    "y": 4,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 0,
+    "y": 6.3,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 16,
+    "y": 6.3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     0.8,
+     3.6
+    ],
+    "b": [
+     15.2,
+     3.2
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 5,
+    "s1": 6
+   },
+   {
+    "a": [
+     3,
+     5.1
+    ],
+    "b": [
+     12,
+     5.1
+    ],
+    "k": "run",
+    "n": 2,
+    "side": -1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     15.2,
+     4.7
+    ],
+    "b": [
+     12.5,
+     4.7
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 4,
+    "s1": 6
+   }
+  ],
+  "labels": [
+   [
+    8,
+    -0.8,
+    "SLALOM DE 4 CONOS",
+    "middle"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "id": "FB-175",
+ "bloque": "Finalización",
+ "titulo": "Tiros desde el cuadrado",
+ "formato": "Tiro tras conducción",
+ "edad": "8–11 años",
+ "nivel": "Normal",
+ "jugadores": "4–8 jug.",
+ "espacio": "20 × 14 m",
+ "duracion": "12 min",
+ "series": "3 rondas de 4 min (cada jugador chuta unas 6 veces por ronda); 1 min de pausa y cambio de portero.",
+ "objetivo": "Aprender a chutar en el sitio justo: conducir, levantar la cabeza y tirar sin pisar fuera del cuadrado. Cómo explicarlo: «conduce, mira la portería y chuta dentro del cuadrado». Errores típicos: chutar antes de entrar, tirar sin mirar, balón al centro de la portería. Qué observar: pie de apoyo junto al balón, tobillo firme y chute raso y al palo.",
+ "montaje": "Portería de 5 m con portero. A 10 m, cuadrado de 6 × 6 m con conos. En fila a 18 m, cada niño con balón. Uno tras la portería recoge.",
+ "juego": "Cada niño conduce al cuadrado y chuta desde dentro, sin pisar la línea. Luego recoge su balón y vuelve a la fila. El portero cambia cada 5.",
+ "punto": "Gol 2 puntos, parada o poste 1, chute desde fuera 0. Gana quien más sume en 3 rondas.",
+ "consigna": "Cabeza arriba y chuta raso al palo.",
+ "variantes": {
+  "facil": "Cuadrado de 8 × 8 m a 8 m de la portería y portería de 6 m.",
+  "dificil": "Cuadrado de 4 × 4 m a 12 m, y chutar solo con la pierna menos hábil en la última ronda."
+ },
+ "adaptacion": "Benjamín (8–9): cuadrado grande, 8 m y sin puntos de portero. Alevín (10–11): medidas del montaje y puntos. Con 4 jugadores, uno es portero y se turnan.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "TIROS DESDE EL CUADRADO",
+  "ref": "https://toplidercoach.com/futbol-base/tiros-desde-el-cuadrado/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (8–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Distancia, cuadrado y reglas de puntos propuestos. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   20,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 23,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "zones": [
+   {
+    "t": "rect",
+    "r": [
+     8,
+     4,
+     14,
+     10
+    ]
+   }
+  ],
+  "cones": [
+   [
+    8,
+    4
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    14,
+    10
+   ],
+   [
+    8,
+    10
+   ]
+  ],
+  "porterias": [
+   {
+    "x": 20,
+    "y": 7,
+    "lado": "R",
+    "ancho": 5,
+    "portero": true
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 3.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 7,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 10.5,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "C",
+    "x": 19,
+    "y": 12.3,
+    "f": 180
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     7
+    ],
+    "b": [
+     7.2,
+     7
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": -1,
+    "s0": 5,
+    "s1": 5
+   },
+   {
+    "a": [
+     11,
+     7
+    ],
+    "b": [
+     19.3,
+     7
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 8
+   }
+  ],
+  "labels": [
+   [
+    11,
+    2.8,
+    "CUADRADO 6 × 6",
+    "middle"
+   ]
+  ]
+ }
+}

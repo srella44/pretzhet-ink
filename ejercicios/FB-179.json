@@ -1,0 +1,145 @@
+{
+ "id": "FB-179",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de paredes",
+ "formato": "Rueda de pases",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "16 × 16 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min con 30 s de pausa; cambio de sentido en cada serie.",
+ "objetivo": "Mejorar el pase corto con pared y el movimiento tras pasar. Cómo explicarlo: «pasa, pared y ocupa el hueco». Errores típicos: devolver tarde, pasar a un pie lejano y quedarse parado tras el pase. Qué observar: cuerpo abierto al recibir, pase al pie bueno del compañero y comunicación.",
+ "montaje": "8 jugadores en círculo de 12 m, a 4,6 m entre sí. Dos balones, en puestos opuestos.",
+ "juego": "El que tiene balón (1) pasa al vecino (2) y recibe su pared de primera. Luego pasa al siguiente (3) y ocupa su puesto; el 3 repite con los dos siguientes.",
+ "punto": "1 punto por vuelta completa sin perder el balón. Gana el grupo con más puntos tras 4 series.",
+ "consigna": "Pared de primera y ocupa el hueco.",
+ "variantes": {
+  "facil": "Un solo balón y pase libre con 2 toques.",
+  "dificil": "Tres balones a la vez y pared obligada de primera con ambos pies."
+ },
+ "adaptacion": "Alevín (10–11): un balón y 2 toques. Infantil–cadete (12–15): dos balones y pared de primera. Con 12 jugadores, hacer dos ruedas de 6.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA PAREDES ROTACIÓN SIMPLE",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-paredes-rotacion-simple/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Mecánica de la pared y rotación propuestas. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   16
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1,
+   "ymax": 17
+  },
+  "dashed": true,
+  "tag": "círculo 12 m",
+  "players": [
+   {
+    "r": "A",
+    "x": 14.2,
+    "y": 8.0,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12.38,
+    "y": 12.38,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 8.0,
+    "y": 14.2,
+    "f": -90
+   },
+   {
+    "r": "A",
+    "x": 3.62,
+    "y": 12.38,
+    "f": -45
+   },
+   {
+    "r": "A",
+    "x": 1.8,
+    "y": 8.0,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 3.62,
+    "y": 3.62,
+    "f": 45
+   },
+   {
+    "r": "A",
+    "x": 8.0,
+    "y": 1.8,
+    "f": 90
+   },
+   {
+    "r": "A",
+    "x": 12.38,
+    "y": 3.62,
+    "f": 135
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     14.2,
+     8.0
+    ],
+    "b": [
+     12.38,
+     12.38
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     11.68,
+     11.68
+    ],
+    "b": [
+     13.21,
+     8.0
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.5
+   },
+   {
+    "a": [
+     14.2,
+     8.0
+    ],
+    "b": [
+     8.0,
+     14.2
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": -1,
+    "s0": 10,
+    "s1": 10,
+    "nt": 0.5
+   }
+  ]
+ }
+}

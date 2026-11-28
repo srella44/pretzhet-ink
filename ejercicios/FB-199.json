@@ -1,0 +1,131 @@
+{
+ "id": "FB-199",
+ "bloque": "Calentamiento",
+ "titulo": "Las hormiguitas",
+ "formato": "Juego de seguir al líder",
+ "edad": "6–7 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "16 × 12 m",
+ "duracion": "8 min",
+ "series": "4 vueltas de 1 min; en cada vuelta un niño distinto hace de líder.",
+ "objetivo": "Conducir despacio y seguir un recorrido, jugando. Cómo explicarlo: «somos hormiguitas: seguimos a la reina por el caminito». Errores típicos: adelantar al líder, dar patadas fuertes y no mirar. Qué observar: toques suaves, espacio entre niños y cambios de dirección tranquilos.",
+ "montaje": "Campo de 16 × 12 m con 4 conos y un aro («hormiguero») en una esquina. Niños en fila con balón y la reina delante.",
+ "juego": "La reina conduce en curvas entre los conos y cambia de ritmo; los demás la siguen a 2 m. A la voz «¡lluvia!», todos conducen al hormiguero.",
+ "punto": "Los 3 primeros al hormiguero con balón suman 1 punto. Gana quien más tenga en 4 vueltas.",
+ "consigna": "Sigue a la reina despacito.",
+ "variantes": {
+  "facil": "Sin conos y a ritmo lento; el hormiguero es todo un lado del campo.",
+  "dificil": "La reina cambia de ritmo cada 5 s y se sigue en parejas."
+ },
+ "adaptacion": "Prebenjamín (6–7): recorrido corto y sin puntos. Benjamín (8–9): con conos, ritmos y puntos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "LAS HORMIGUITAS",
+  "ref": "https://toplidercoach.com/futbol-base/las-hormiguitas/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–7 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Mecánica de la fila y la lluvia propuesta. Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   16,
+   12
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 17,
+   "ymin": -1.5,
+   "ymax": 13.5
+  },
+  "cones": [
+   [
+    5,
+    3
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    11,
+    3
+   ],
+   [
+    13,
+    9
+   ]
+  ],
+  "zones": [
+   {
+    "t": "circle",
+    "x": 14.5,
+    "y": 2,
+    "r": 1.4
+   }
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 6.5,
+    "y": 6,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 8,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1.5,
+    "y": 10,
+    "f": -45,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     6.6,
+     5.4
+    ],
+    "b": [
+     10,
+     2.3
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 5,
+    "s1": 5
+   },
+   {
+    "a": [
+     10.4,
+     2.2
+    ],
+    "b": [
+     13.2,
+     2
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 5
+   }
+  ],
+  "labels": [
+   [
+    14.5,
+    -0.7,
+    "HORMIGUERO",
+    "middle"
+   ]
+  ]
+ }
+}

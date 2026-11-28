@@ -1,0 +1,137 @@
+{
+ "id": "FB-185",
+ "bloque": "Calentamiento",
+ "titulo": "Cambia 10 veces, gana",
+ "formato": "Juego de conducción",
+ "edad": "6–11 años",
+ "nivel": "Fácil",
+ "jugadores": "6–12 jug.",
+ "espacio": "15 × 15 m",
+ "duracion": "8 min",
+ "series": "4 rondas de 1 min con 30 s de pausa; en cada ronda se empieza el recuento desde cero.",
+ "objetivo": "Conducir con cabeza alta y cambiar de dirección con el balón cerca. Cómo explicarlo: «cada giro con balón es un punto: llega a 10». Errores típicos: girar sin el balón controlado, chocar con compañeros y no mirar. Qué observar: giros con interior o exterior, espacio libre y ritmo.",
+ "montaje": "Cuadrado de 15 × 15 m con 4 conos. Cada jugador con balón dentro, repartidos. El entrenador fuera con silbato.",
+ "juego": "A la señal, todos conducen evitando a los demás. Cada giro de 90° o más con balón controlado cuenta 1 en voz baja. El primero en llegar a 10 lo grita y gana la ronda.",
+ "punto": "Ronda ganada: 2 puntos. Balón fuera del cuadrado: −1. Gana quien más sume en 4 rondas.",
+ "consigna": "Cambia de dirección y mira.",
+ "variantes": {
+  "facil": "Cuadrado de 18 × 18 m y llegar solo a 6 cambios.",
+  "dificil": "Cuadrado de 12 × 12 m, 12 cambios y solo con la pierna menos hábil."
+ },
+ "adaptacion": "Prebenjamín (6–7): sin puntos y llegar a 6 cambios. Benjamín (8–9): 8 cambios. Alevín (10–11): 10 cambios y puntos.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "EL QUE CAMBIA 10 VECES, GANA",
+  "ref": "https://toplidercoach.com/futbol-base/el-que-cambia-10-veces-gana/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (6–11 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). El nombre sugiere contar cambios; interpretado como cambios de dirección (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   15,
+   15
+  ],
+  "extent": {
+   "xmin": -1,
+   "xmax": 16,
+   "ymin": -1.5,
+   "ymax": 16.5
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    15,
+    0
+   ],
+   [
+    15,
+    15
+   ],
+   [
+    0,
+    15
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 3,
+    "y": 3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 11,
+    "y": 3.5,
+    "f": 90,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 4,
+    "y": 11,
+    "f": -45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 12,
+    "y": 11.5,
+    "f": 180,
+    "ball": true
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     4,
+     3
+    ],
+    "b": [
+     8,
+     3
+    ],
+    "k": "cond",
+    "n": 1,
+    "side": 1,
+    "s0": 5,
+    "s1": 5
+   },
+   {
+    "a": [
+     11,
+     4.5
+    ],
+    "b": [
+     11.5,
+     8.5
+    ],
+    "k": "cond",
+    "n": 2,
+    "side": -1,
+    "s0": 5,
+    "s1": 5
+   },
+   {
+    "a": [
+     3.3,
+     10
+    ],
+    "b": [
+     7.5,
+     6.5
+    ],
+    "k": "cond",
+    "n": 3,
+    "side": 1,
+    "s0": 5,
+    "s1": 5
+   }
+  ]
+ }
+}

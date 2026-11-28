@@ -1,0 +1,159 @@
+{
+ "id": "FB-209",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Rueda de pases y perfiles",
+ "formato": "Pase y sigue",
+ "edad": "10–15 años",
+ "nivel": "Normal",
+ "jugadores": "8–12 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "12 min",
+ "series": "4 series de 2 min con 30 s de pausa; sentido de giro distinto en cada serie.",
+ "objetivo": "Recibir de perfil (cuerpo abierto al juego) y pasar al siguiente sin girarse. Cómo explicarlo: «recibe con el pie lejano al balón y mira a donde irá el siguiente pase». Errores típicos: recibir de frente, girar al control y pasar al pie cerrado. Qué observar: posición del cuerpo, pie de control y pase al pie derecho o izquierdo.",
+ "montaje": "4 esquinas de un cuadrado de 12 m, con 2–3 jugadores en fila en cada una. Dos balones en esquinas opuestas.",
+ "juego": "El primero de cada fila pasa a la esquina siguiente y corre a su fila. El receptor controla de perfil con el pie lejano y pasa a la siguiente esquina.",
+ "punto": "1 punto por vuelta completa del balón con control de perfil correcto. Gana el grupo con más vueltas en 4 series.",
+ "consigna": "Perfil abierto, pie lejano.",
+ "variantes": {
+  "facil": "Un balón y se juega a 2 toques, sin cronómetro.",
+  "dificil": "Pase de primera y dos balones en sentidos contrarios."
+ },
+ "adaptacion": "Alevín (10–11): un balón y 2 toques. Infantil–cadete (12–15): dos balones, primera y cambio de sentido a la voz.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "RUEDA DE PASES PERFILES",
+  "ref": "https://toplidercoach.com/futbol-base/rueda-de-pases-perfiles/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Interpretación del título: pases en rueda con control de perfil (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    1,
+    1
+   ],
+   [
+    13,
+    1
+   ],
+   [
+    13,
+    13
+   ],
+   [
+    1,
+    13
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 0.3,
+    "f": 0,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 2.6,
+    "f": 0
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 0.3,
+    "f": 180
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 2.6,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 13.7,
+    "f": 180,
+    "ball": true
+   },
+   {
+    "r": "B",
+    "x": 13,
+    "y": 11.4,
+    "f": 180
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 13.7,
+    "f": 0
+   },
+   {
+    "r": "B",
+    "x": 1,
+    "y": 11.4,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     1.9,
+     0.3
+    ],
+    "b": [
+     12.1,
+     0.3
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     13.2,
+     1.5
+    ],
+    "b": [
+     13.2,
+     12.5
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   },
+   {
+    "a": [
+     12.1,
+     13.7
+    ],
+    "b": [
+     1.9,
+     13.7
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 6,
+    "s1": 6
+   }
+  ]
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "id": "FB-217",
+ "bloque": "Posesiones y juego de posición",
+ "titulo": "Asociación a un toque",
+ "formato": "Rondo 4v2",
+ "edad": "10–15 años",
+ "nivel": "Medio",
+ "jugadores": "8–12 jug.",
+ "espacio": "14 × 14 m",
+ "duracion": "12 min",
+ "series": "3 series de 3 min con 1 min de pausa; los defensores cambian en cada fallo.",
+ "objetivo": "Combinar a un toque en apoyo, moverse tras el pase y no dar tiempo al rival. Cómo explicarlo: «pasa de primera y muévete a otro hueco». Errores típicos: parar el balón, pasar y quedarse parado y juntarse. Qué observar: apoyos en ángulo, velocidad del balón y cambios de ritmo.",
+ "montaje": "Cuadrado de 14 × 14 m: 4 atacantes en las esquinas y 2 defensores dentro. Un balón. Con 12 jugadores, dos grupos.",
+ "juego": "Los atacantes pasan a un toque y, tras pasar, se mueven a otro punto de su lado. Si los defensores roban o el balón sale, el último que tocó defiende.",
+ "punto": "4 pases seguidos a un toque = 1 punto. Pase de 2 toques = 0 y cambio de defensor. Gana quien más sume en 3 series.",
+ "consigna": "A un toque y muévete.",
+ "variantes": {
+  "facil": "A dos toques y 4 atacantes más un comodín.",
+  "dificil": "4v2 con pase a un toque obligatorio y espacio de 12 × 12 m."
+ },
+ "adaptacion": "Alevín (10–11): dos toques permitidos. Infantil–cadete (12–15): un toque y 12 × 12 m.",
+ "fuente": {
+  "autor": "toplidercoach · Fútbol Base",
+  "titulo_original": "ASOCIACIÓN AL PRIMER TOQUE",
+  "ref": "https://toplidercoach.com/futbol-base/asociacion-al-primer-toque/"
+ },
+ "top": "",
+ "probado": false,
+ "completado": "Desarrollado por IA a partir del título. La web solo da el título y las edades (10–15 años). Montaje, medidas, reglas, puntuación, series, variantes y adaptación son (propuesta). Interpretación del título: asociación en rondo a un toque (propuesta). Sin búsqueda web en la ejecución programada: título interpretado por su nombre.",
+ "diagrama": {
+  "field": [
+   14,
+   14
+  ],
+  "extent": {
+   "xmin": -2,
+   "xmax": 16,
+   "ymin": -2,
+   "ymax": 16
+  },
+  "cones": [
+   [
+    0,
+    0
+   ],
+   [
+    14,
+    0
+   ],
+   [
+    14,
+    14
+   ],
+   [
+    0,
+    14
+   ]
+  ],
+  "players": [
+   {
+    "r": "A",
+    "x": 1,
+    "y": 1,
+    "f": 45,
+    "ball": true
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 1,
+    "f": 135
+   },
+   {
+    "r": "A",
+    "x": 13,
+    "y": 13,
+    "f": -135
+   },
+   {
+    "r": "A",
+    "x": 1,
+    "y": 13,
+    "f": -45
+   },
+   {
+    "r": "D",
+    "x": 5.5,
+    "y": 6,
+    "f": 0
+   },
+   {
+    "r": "D",
+    "x": 8.5,
+    "y": 8,
+    "f": 0
+   }
+  ],
+  "arrows": [
+   {
+    "a": [
+     2,
+     1
+    ],
+    "b": [
+     12,
+     1
+    ],
+    "k": "pass",
+    "n": 1,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     13,
+     2
+    ],
+    "b": [
+     13,
+     12
+    ],
+    "k": "pass",
+    "n": 2,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   },
+   {
+    "a": [
+     12,
+     13
+    ],
+    "b": [
+     2,
+     13
+    ],
+    "k": "pass",
+    "n": 3,
+    "side": 1,
+    "s0": 8,
+    "s1": 8
+   }
+  ]
+ }
+}
